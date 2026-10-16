@@ -62,6 +62,26 @@ completed an observation period. Disable the deployment variable to pause public
 redeploy a reviewed previous snapshot to roll back content. Reverting DNS to the NAS also
 requires manually restoring old RSS URLs.
 
+## Independent outage and staleness monitoring
+
+The separate **Monitor reading snapshot** workflow runs every six hours once
+`STATUS_MONITOR_ENABLED=true`. Set `STATUS_URL` to the deployed status endpoint: use the
+project-site preview URL first, then `https://reading.michaelmvh.com/status.json` after
+cutover. `MAX_SNAPSHOT_AGE_HOURS` defaults to 48.
+
+The monitor runs on GitHub rather than the NAS, so a powered-off NAS cannot suppress this
+check. It fails on an unreachable endpoint, invalid/HTML response, empty feed counts, a
+future timestamp, or a snapshot older than the threshold. Redirects and oversized responses
+are rejected. It checks publication freshness, not the age of cached upstream source data.
+
+Configure GitHub Actions failure notifications for the operator, manually run the workflow,
+and verify delivery before relying on it. Scheduled workflows can be delayed and GitHub may
+disable them after repository inactivity; this is a low-cost check, not an uptime SLA.
+An external uptime service can supplement it if stronger monitoring is needed.
+
+The monitor is disabled by default and must not be enabled against the existing NAS reader,
+which does not expose the new static `status.json` contract.
+
 ## Repository boundaries
 
 Use strict TypeScript for publishing scripts, with runtime validation of generated inputs.
