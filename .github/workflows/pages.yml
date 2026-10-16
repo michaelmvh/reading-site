@@ -1,0 +1,50 @@
+name: Validate and publish reading site
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reading-pages-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    outputs:
+      publishable: ${{ steps.snapshot.outputs.publishable }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+      - id: snapshot
+        run: node scripts/validate.ts site --allow-missing
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.snapshot.outputs.publishable == 'true'
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request' && needs.validate.outputs.publishable == 'true' && vars.PAGES_DEPLOY_ENABLED == 'true'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
+        uses: actions/deploy-pages@v4
