@@ -35,9 +35,10 @@ jobs:
           path: site
 
   deploy:
-    if: github.event_name != 'pull_request' && needs.validate.outputs.publishable == 'true' && vars.PAGES_DEPLOY_ENABLED == 'true'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.validate.outputs.publishable == 'true' && vars.PAGES_DEPLOY_ENABLED == 'true'
     needs: validate
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       pages: write
       id-token: write

@@ -36,10 +36,12 @@ PREVIOUS_SITE=/path/to/previous-output node scripts/validate.ts /path/to/staged-
 `PREVIOUS_SITE` additionally rejects older snapshots, removed feeds, and record-count drops
 greater than 40%. Investigate before using the one-run override `ALLOW_FEED_SHRINK=true` for
 intentional configuration/retention changes. A complete snapshot is still required.
-Generation time is not proof of upstream freshness; the current exporter explicitly reports
-that upstream source snapshots may have been reused.
+generation time is not proof of upstream catalog completeness. The source stack's
+[strict-refresh follow-up](https://github.com/michaelmvh/scholarly-rss-feed/pull/5) requires
+successful discovery refreshes before publication, while still allowing incremental cache
+reuse, conditional 304 responses, and explicitly logged optional-enrichment failures.
 
-PRs run validation only. Main pushes and manual runs can deploy only after the enable
+PRs run validation only. Main pushes and manual runs on main can deploy only after the enable
 variable is set. Missing `site/` is allowed while bootstrapping but never deploys; a present,
 partial `site/` fails. Deployment uploads only `site/`, not this repository's tooling.
 
