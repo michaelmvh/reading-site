@@ -1,0 +1,59 @@
+name: Validate and publish reading site
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reading-pages-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    outputs:
+      publishable: ${{ steps.snapshot.outputs.publishable }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+      - run: npm run build:fixture
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+      - id: snapshot
+        run: node scripts/validate-data.ts data --allow-missing
+      - name: Build the reader from committed data and source
+        if: steps.snapshot.outputs.publishable == 'true'
+        run: npm run build
+        env:
+          SITE_URL: ${{ vars.READER_SITE_URL || 'https://michaelmvh.com/reading-site/' }}
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.snapshot.outputs.publishable == 'true'
+        with:
+          path: dist
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.validate.outputs.publishable == 'true' && vars.PAGES_DEPLOY_ENABLED == 'true'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
+        uses: actions/deploy-pages@v4

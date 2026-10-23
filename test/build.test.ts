@@ -1,0 +1,54 @@
+import assert from "node:assert/strict";
+import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import test from "node:test";
+import { loadData, sha256 } from "../scripts/data.ts";
+import { buildSite } from "../scripts/build.ts";
+import { renderRss, Site } from "../scripts/render.ts";
+import { rssChannel, validateSite } from "../scripts/validate-site.ts";
+import { checkFreshness } from "../scripts/monitor.ts";
+import { writeFixture } from "./fixtures.ts";
+
+test("JSON alone builds complete previews, safe HTML/RSS, retained pages, and stable freshness", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "reader-build-"));
+  try {
+    const source = path.join(root, "data");
+    const generated = new Date(Date.now() - 72 * 3_600_000).toISOString();
+    await writeFixture(source, generated);
+    const data = await loadData(source);
+    const preview = new Site("https://example.org/reading-site/");
+    const output = path.join(root, "preview");
+    await buildSite(data, output, preview);
+    await validateSite(output, data, preview);
+    const html = await readFile(path.join(output, "index.html"), "utf8");
+    assert.ok(html.includes("/reading-site/assets/reader.js"));
+    assert.ok(html.includes("&lt;required&gt; &amp; research"));
+    const detail = await readFile(path.join(output, `article/${sha256("retained")}/index.html`), "utf8");
+    assert.ok(detail.includes("&lt;script&gt;"));
+    assert.ok(!detail.includes("<script>untrusted"));
+    const rss = renderRss(preview, data, data.snapshot.feeds[0]);
+    assert.ok(rss.includes("urn:sha256:"));
+    const channel = rssChannel(rss);
+    assert.ok(Array.isArray(channel.item));
+    assert.equal(channel.item.length, 3); // optional-author papers remain in RSS
+    assert.equal(channel.item[2].pubDate, undefined); // collection-added date is not a publication date
+    const decoded = rssChannel(rss, true);
+    assert.ok(Array.isArray(decoded.item));
+    const description = decoded.item[0].description;
+    assert.equal(typeof description, "string");
+    assert.ok(description.includes("&lt;script&gt;"));
+    assert.ok(!description.includes("<script>"));
+    const status = JSON.parse(await readFile(path.join(output, "status.json"), "utf8"));
+    assert.equal(status.data_generated_at, generated);
+    assert.throws(() => checkFreshness(status), /hours old/);
+    const production = path.join(root, "production");
+    await buildSite(data, production, new Site("https://reading.example.org/"));
+    const rebuilt = JSON.parse(await readFile(path.join(production, "status.json"), "utf8"));
+    assert.equal(rebuilt.data_generated_at, generated);
+    assert.equal(rebuilt.data_digest, status.data_digest);
+    await validateSite(production, data, new Site("https://reading.example.org/"));
+    await writeFile(path.join(production, "index.html"), '<a href="/missing/">Broken</a>');
+    await assert.rejects(validateSite(production, data, new Site("https://reading.example.org/")), /Broken local link/);
+  } finally { await rm(root, { recursive: true }); }
+});

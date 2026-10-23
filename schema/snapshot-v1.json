@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://reading.michaelmvh.com/schema/snapshot-v1.json",
+  "definitions": {
+    "id": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "name": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,79}$" },
+    "text": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "nullableText": { "type": ["string", "null"] },
+    "nullableUrl": { "anyOf": [{ "$ref": "#/definitions/url" }, { "type": "null" }] },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "key", "label", "url"],
+      "properties": {
+        "kind": { "enum": ["open_alex", "google_scholar", "biorxiv", "arxiv", "curated_collection"] },
+        "key": { "$ref": "#/definitions/text" },
+        "label": { "$ref": "#/definitions/text" },
+        "url": { "$ref": "#/definitions/nullableUrl" }
+      }
+    },
+    "article": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "identity_keys", "title", "link", "pdf_url", "publication_date", "publication_date_precision", "collection_date", "venue", "authors", "abstract_text", "discovery_sources", "curated_categories"],
+      "properties": {
+        "id": { "$ref": "#/definitions/id" },
+        "identity_keys": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/definitions/text" } },
+        "title": { "$ref": "#/definitions/text" },
+        "link": { "$ref": "#/definitions/nullableUrl" },
+        "pdf_url": { "$ref": "#/definitions/nullableUrl" },
+        "publication_date": { "anyOf": [{ "type": "string", "format": "date" }, { "type": "null" }] },
+        "publication_date_precision": { "enum": ["day", "month", "year", "unknown"] },
+        "collection_date": {
+          "anyOf": [
+            {
+              "type": "object", "additionalProperties": false, "required": ["date", "commit_url"],
+              "properties": { "date": { "type": "string", "format": "date" }, "commit_url": { "$ref": "#/definitions/url" } }
+            },
+            { "type": "null" }
+          ]
+        },
+        "venue": { "$ref": "#/definitions/nullableText" },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["key", "name"],
+            "properties": { "key": { "$ref": "#/definitions/text" }, "name": { "$ref": "#/definitions/text" } }
+          }
+        },
+        "abstract_text": { "$ref": "#/definitions/nullableText" },
+        "discovery_sources": { "type": "array", "items": { "$ref": "#/definitions/source" } },
+        "curated_categories": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/text" } }
+      }
+    },
+    "feed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "description", "collected_at", "article_ids", "authors", "matches", "sources"],
+      "properties": {
+        "id": { "$ref": "#/definitions/name" },
+        "title": { "$ref": "#/definitions/text" },
+        "description": { "$ref": "#/definitions/text" },
+        "collected_at": { "type": "string", "format": "date-time" },
+        "article_ids": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/definitions/id" } },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["id", "label", "default_selected"],
+            "properties": { "id": { "$ref": "#/definitions/text" }, "label": { "$ref": "#/definitions/text" }, "default_selected": { "type": "boolean" } }
+          }
+        },
+        "matches": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/definitions/id" },
+          "additionalProperties": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/text" } }
+        },
+        "sources": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["value", "label"],
+            "properties": { "value": { "$ref": "#/definitions/text" }, "label": { "$ref": "#/definitions/text" } }
+          }
+        }
+      }
+    },
+    "snapshot": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "generated_at", "generator_version", "freshness_policy", "default_feed", "feeds", "article_files"],
+      "properties": {
+        "schema_version": { "const": 1 },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "generator_version": { "$ref": "#/definitions/text" },
+        "freshness_policy": { "const": "required_discovery_refresh" },
+        "default_feed": { "$ref": "#/definitions/name" },
+        "feeds": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/feed" } },
+        "article_files": {
+          "type": "array", "minItems": 1, "maxItems": 256,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["path", "sha256", "count"],
+            "properties": {
+              "path": { "type": "string", "pattern": "^articles/[a-f0-9]{2}\\.json$" },
+              "sha256": { "$ref": "#/definitions/id" },
+              "count": { "type": "integer", "minimum": 1 }
+            }
+          }
+        }
+      }
+    },
+    "shard": {
+      "type": "object", "additionalProperties": false, "required": ["schema_version", "articles"],
+      "properties": { "schema_version": { "const": 1 }, "articles": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/article" } } }
+    }
+  }
+}
