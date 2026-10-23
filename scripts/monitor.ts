@@ -4,7 +4,7 @@ import { pathToFileURL } from "node:url";
 export function checkFreshness(value: unknown, maxAgeHours = 48, now = Date.now()): number {
   if (!Number.isFinite(maxAgeHours) || maxAgeHours <= 0) throw new Error("Maximum age must be a positive number of hours");
   if (typeof value !== "object" || value === null || !("schema_version" in value) || value.schema_version !== 1
-    || !("generated_at" in value) || typeof value.generated_at !== "string"
+    || !("data_generated_at" in value) || typeof value.data_generated_at !== "string"
     || !("feeds" in value) || typeof value.feeds !== "object" || value.feeds === null || Array.isArray(value.feeds)) {
     throw new Error("Endpoint did not return a supported reading-site status document");
   }
@@ -12,7 +12,7 @@ export function checkFreshness(value: unknown, maxAgeHours = 48, now = Date.now(
   if (!counts.length || counts.some((count) => typeof count !== "number" || !Number.isSafeInteger(count) || count < 1)) {
     throw new Error("Published snapshot has missing/invalid feed counts");
   }
-  const generated = Date.parse(value.generated_at);
+  const generated = Date.parse(value.data_generated_at);
   if (!Number.isFinite(generated) || generated > now + 300_000) throw new Error("Snapshot generation timestamp is invalid or in the future");
   const age = (now - generated) / 3_600_000;
   if (age > maxAgeHours) throw new Error(`Snapshot is ${age.toFixed(1)} hours old (limit ${maxAgeHours})`);

@@ -27,12 +27,20 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm test
+      - run: npm run build:fixture
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
       - id: snapshot
-        run: node scripts/validate.ts site --allow-missing
+        run: node scripts/validate-data.ts data --allow-missing
+      - name: Build the reader from committed data and source
+        if: steps.snapshot.outputs.publishable == 'true'
+        run: npm run build
+        env:
+          SITE_URL: ${{ vars.READER_SITE_URL || 'https://michaelmvh.com/reading-site/' }}
       - uses: actions/upload-pages-artifact@v4
         if: steps.snapshot.outputs.publishable == 'true'
         with:
-          path: site
+          path: dist
 
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.validate.outputs.publishable == 'true' && vars.PAGES_DEPLOY_ENABLED == 'true'

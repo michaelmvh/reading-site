@@ -3,7 +3,7 @@ import test from "node:test";
 import { checkFreshness, checkRemote } from "../scripts/monitor.ts";
 
 const now = Date.parse("2026-10-16T12:00:00Z");
-const status = (generated_at: string) => ({ schema_version: 1, generated_at, feeds: { example: 2 } });
+const status = (data_generated_at: string) => ({ schema_version: 1, data_generated_at, feeds: { example: 2 } });
 const response = (body: string, type = "application/json", code = 200): typeof fetch =>
   async () => new Response(body, { status: code, headers: { "Content-Type": type } });
 
