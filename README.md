@@ -106,8 +106,13 @@ Only sources actually collected for the named feed are offered.
 The original date, tracked-author, and grouped paper-source controls filter automatically.
 The author dropdown includes an all-authors checkbox; feeds without tracked authors omit
 that control. Dropdowns close on outside clicks, Escape, or focus leaving the dropdown.
-Clear filters restores configured defaults. Collection pages remain available at their
-direct URLs without adding collection navigation to the main reader. Article return links,
+Clear filters restores configured defaults. A compact, borderless collection dropdown in
+the header links the main list and collected protein nanopore/design feeds without
+requiring JavaScript. Public collections are listed in `scripts/render.ts`; absent feeds
+are omitted. The full headline keeps its original width, without a separate sticky bar.
+With JavaScript, switching collections restores each collection's filters and scroll
+position within the current tab; explicit URLs and browser history retain their behavior.
+Internal pilot/archive collections remain available only at their direct URLs. Article return links,
 author highlighting, and RSS links preserve the originating feed when JavaScript is enabled.
 
 RSS is built from the same JSON, including optional authors regardless of browser filters.

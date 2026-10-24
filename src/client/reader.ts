@@ -1,4 +1,5 @@
 import { matches, readState, safeReturn, writeState, type FilterArticle, type FilterState } from "./model.js";
+import { initializeCollections } from "./collections.js";
 
 function required<T extends Element>(selector: string, scope: ParentNode = document): T {
   const element = scope.querySelector<T>(selector);
@@ -20,7 +21,7 @@ function initialize(form: HTMLFormElement): void {
   const selectAll = form.querySelector<HTMLInputElement>("[data-select-all]");
   const authorPicker = form.querySelector<HTMLDetailsElement>("[data-author-picker]");
   let availableAuthorBoxes = authorBoxes;
-  const pickers = [...form.querySelectorAll<HTMLDetailsElement>(".filter-multiselect")];
+  const pickers = [...document.querySelectorAll<HTMLDetailsElement>(".filter-multiselect")];
   const actions = required<HTMLElement>(".filter-actions", form);
   const options = { authors: authorBoxes.map((box) => box.value), sources: sourceBoxes.map((box) => box.value) };
   const cards = [...document.querySelectorAll<HTMLElement>("[data-article]")].map((element): FilterArticle & { element: HTMLElement } => ({
@@ -181,3 +182,5 @@ if (form) {
     console.error(problem);
   }
 }
+const navigation = document.querySelector<HTMLElement>(".collection-navigation");
+if (navigation) initializeCollections(navigation);
