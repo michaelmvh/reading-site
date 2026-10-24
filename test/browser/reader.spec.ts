@@ -277,6 +277,22 @@ test("feeds without tracked authors retain their context on shared article pages
   await expect(page.locator(".publication:visible")).toHaveCount(1);
 });
 
+test("catalog discovery labels follow the originating feed on shared article pages", async ({ page }) => {
+  await page.goto("/feeds/protein-nanopores/");
+  await expect(page.locator(".publication .provenance")).toHaveText("Discovered via OpenAlex");
+  await page.locator(".publication h2 a").click();
+  await page.reload();
+  await expect(page.locator("[data-untracked-provenance]")).toBeVisible();
+  await expect(page.locator("[data-untracked-provenance]")).toHaveText("Discovered via OpenAlex");
+  await expect(page.locator(".author-note")).toBeHidden();
+  await page.goto("/");
+  const tracked = page.locator('.publication[data-default-author="true"]').first();
+  await expect(tracked.locator(".provenance")).toHaveCount(0);
+  await tracked.locator("h2 a").click();
+  await expect(page.locator("[data-untracked-provenance]")).toBeHidden();
+  await expect(page.locator(".author-note")).toBeVisible();
+});
+
 test("no-JavaScript content, icons, RSS, and article pages are complete", async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL: "http://127.0.0.1:8080" });
   const page = await context.newPage();
@@ -292,6 +308,8 @@ test("no-JavaScript content, icons, RSS, and article pages are complete", async 
   await expect(page.locator(".abstract")).toBeVisible();
   await expect(page.getByRole("link", { name: "View raw RSS" })).toBeVisible();
   await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", /^Abstract for /);
+  await page.goto("/feeds/protein-nanopores/");
+  await expect(page.locator(".publication .provenance")).toHaveText("Discovered via OpenAlex");
   await context.close();
 });
 

@@ -159,6 +159,8 @@ if (main?.dataset.staticRoot && back) {
           author.replaceWith(replacement);
         }
         required<HTMLElement>(".author-note").hidden = matched.length === 0;
+        const discovery = document.querySelector<HTMLElement>("[data-untracked-provenance]");
+        if (discovery) discovery.hidden = matched.length > 0;
         const rss = `${main.dataset.staticRoot}feeds/${context.dataset.articleFeed}/feed.xml`;
         required<HTMLAnchorElement>("[data-feed-rss]").href = rss;
         const alternate = required<HTMLLinkElement>('link[rel="alternate"]');

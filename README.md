@@ -114,6 +114,10 @@ With JavaScript, switching collections restores each collection's filters and sc
 position within the current tab; explicit URLs and browser history retain their behavior.
 Internal pilot/archive collections remain available only at their direct URLs. Article return links,
 author highlighting, and RSS links preserve the originating feed when JavaScript is enabled.
+Listings, article previews, and RSS identify preprint and curated discovery sources. Papers
+without a tracked-author match in the current feed also identify their catalog sources
+(OpenAlex or Google Scholar). Shared article pages preserve that feed-specific distinction;
+tracked-author highlighting remains the explanation for author-matched catalog papers.
 
 RSS is built from the same JSON, including optional authors regardless of browser filters.
 `/feed.xml` aliases the default named feed; `/feeds/<name>/feed.xml` publishes each named

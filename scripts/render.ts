@@ -58,12 +58,15 @@ function authors(article: Article, matched: string[], contextual = false): strin
   }).join(", ")}</p>`;
 }
 
-function provenance(article: Article): string {
+function provenance(article: Article, matched: string[], contextual = false): string {
   const render = (sources: Article["discovery_sources"]) => sources.map((source) => source.url
     ? `<a href="${escape(source.url)}" rel="external">${escape(source.label)}</a>` : escape(source.label)).join(", ");
+  const catalogs = article.discovery_sources.filter((source) => source.kind === "open_alex" || source.kind === "google_scholar");
   const native = article.discovery_sources.filter((source) => source.kind === "biorxiv" || source.kind === "arxiv");
   const curated = article.discovery_sources.filter((source) => source.kind === "curated_collection");
-  return (native.length ? `<p class="provenance">Preprint source: ${render(native)}</p>` : "")
+  return (catalogs.length && (contextual || !matched.length)
+    ? `<p class="provenance"${contextual ? ` data-untracked-provenance${matched.length ? " hidden" : ""}` : ""}>Discovered via ${render(catalogs)}</p>` : "")
+    + (native.length ? `<p class="provenance">Preprint source: ${render(native)}</p>` : "")
     + (curated.length ? `<p class="provenance">Curated by ${render(curated)}${article.curated_categories.length ? ` · ${escape(article.curated_categories.join(" · "))}` : ""}</p>` : "");
 }
 
@@ -79,7 +82,7 @@ function card(site: Site, feed: Feed, article: Article): string {
 data-default-author="${defaultMatch(feed, article)}" data-authors="${escape(JSON.stringify(feed.matches[article.id]))}"
 data-sources="${escape(JSON.stringify(article.discovery_sources.map(sourceKey)))}"${defaultMatch(feed, article) ? "" : " hidden"}>
 ${metadata(article)}<h2><a href="${site.path(`article/${article.id}/`)}">${escape(article.title)}</a></h2>
-${authors(article, feed.matches[article.id])}${provenance(article)}</li>`;
+${authors(article, feed.matches[article.id])}${provenance(article, feed.matches[article.id])}</li>`;
 }
 
 function controls(feed: Feed): string {
@@ -140,7 +143,7 @@ export function renderArticle(site: Site, data: Dataset, article: Article): stri
   const link = (url: string | null, label: string, css: string) => url ? `<a class="${css}" href="${escape(url)}" target="_blank" rel="external noopener">${label} <span aria-hidden="true">&#8599;</span></a>` : "";
   return layout(site, `${article.title} · ${feed.title}`, site.path(`feeds/${feed.id}/feed.xml`),
     `<a class="back" href="${site.path(`feeds/${feed.id}/`)}">&#8592; Back to all publications</a><p class="reader-note" data-navigation-error role="alert" hidden></p><article class="article-detail">
-${contexts}${metadata(article)}<h1>${escape(article.title)}</h1>${authors(article, matched, true)}${provenance(article)}
+${contexts}${metadata(article)}<h1>${escape(article.title)}</h1>${authors(article, matched, true)}${provenance(article, matched, true)}
 <p class="author-note"${matched.length ? "" : " hidden"}>${authorNote}</p>
 <section class="abstract" aria-labelledby="abstract-heading"><h2 id="abstract-heading">Abstract</h2><p>${escape(article.abstract_text?.trim() ? article.abstract_text : "No abstract is available for this publication.")}</p></section>
 <p class="actions">${link(article.link, "Read full article", "primary-action")}${link(article.pdf_url, "Open PDF", "secondary-action")}<a data-feed-rss href="${rss}">View raw RSS</a></p></article>`, `Abstract for ${article.title}`, feed.title);
@@ -153,7 +156,7 @@ export function renderNotFound(site: Site): string {
 export function renderRss(site: Site, data: Dataset, feed: Feed): string {
   const item = feed.article_ids.map((id) => {
     const article = data.articles.get(id)!;
-    const description = `<p>${escape(article.abstract_text || "No abstract is available.")}</p>${metadata(article)}${provenance(article)}`
+    const description = `<p>${escape(article.abstract_text || "No abstract is available.")}</p>${metadata(article)}${provenance(article, feed.matches[id])}`
       + (article.link ? `<p><a href="${escape(article.link)}">Original publication</a></p>` : "")
       + (article.pdf_url ? `<p><a href="${escape(article.pdf_url)}">Open PDF</a></p>` : "");
     return {
