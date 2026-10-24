@@ -1,0 +1,4333 @@
+{
+  "schema_version": 1,
+  "articles": [
+    {
+      "id": "030a7965853a947184752663d163ef944e906ce29f534d1fd9ec33c7656ba08f",
+      "identity_keys": [
+        "https://doi.org/10.1101/2025.09.27.678937",
+        "https://openalex.org/W4414739299"
+      ],
+      "title": "Designing proteins with reduced T-cell epitopes through policy optimization",
+      "link": "https://doi.org/10.1101/2025.09.27.678937",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/09/29/2025.09.27.678937.full.pdf",
+      "publication_date": "2025-09-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "manvitha ponnapati",
+          "name": "Manvitha R. Ponnapati"
+        },
+        {
+          "key": "sapna sinha",
+          "name": "Sapna Sinha"
+        },
+        {
+          "key": "brian lynch",
+          "name": "Brian Lynch"
+        },
+        {
+          "key": "boyden edward",
+          "name": "Edward S. Boyden"
+        },
+        {
+          "key": "jacobson joseph",
+          "name": "Joseph M. Jacobson"
+        }
+      ],
+      "abstract_text": "Deep generative models for protein structure and sequence are increasingly used to design proteins with therapeutic and industrial applications, but the clinical success of designed therapeutics ultimately depends on their compatibility with the human immune system. Immune response is triggered by a cascade of molecular events, including proteasomal cleavage, peptide elution, and binding to the highly polymorphic Major Histocompatibility Complex (MHC) Class I molecules, yet prior approaches have generally modeled these processes in isolation or restricted attention to a limited set of alleles. In this work, we develop predictors for cleavage, elution, and binding affinity in the MHC Class I pathway, incorporating evidential deep learning to provide unified uncertainty estimates. We first perform supervised fine-tuning of a protein language model on human proteins, and then align the model through group relative policy optimization (GRPO) to reduce MHC Class I epitopes under a curriculum learning framework, in which the curriculum progressively increases the number of masked predicted epitopes and the number of alleles considered during training. This strategy enables the generation of protein candidates that are optimized for immune compatibility across diverse MHC Class I alleles while accounting for predictive uncertainty in modeling the immune response.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
+        }
+      ],
+      "curated_categories": [
+        "5.6 RL-based",
+        "5.Function to Sequence"
+      ]
+    },
+    {
+      "id": "030aa2a235f6b8568ad0c67b43cf465582edee8730c579b21e39205a64959172",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-00011-2",
+        "https://openalex.org/W7124195526"
+      ],
+      "title": "Biosensors characterize the routes taken by receptors to different active states",
+      "link": "https://doi.org/10.1038/d41586-026-00011-2",
+      "pdf_url": null,
+      "publication_date": "2026-01-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [],
+      "abstract_text": "A panel of fluorescently labelled G-protein-coupled-receptor proteins expressed in living cells has confirmed that, when bound by an activating ligand molecule, these receptors form different complexes with their G proteins. The activation trajectories induced by different ligands explain ligand-specific efficacies of G-protein activation and preferences for G-protein subtypes. A panel of G-protein-coupled-receptor biosensors provides ‘fingerprints’ of the effects of activating ligands.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "030ac6dca7e9cf2b0f78660037c471a997ad96e436b34945cc62b060a75ff470",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71136-1",
+        "https://openalex.org/W7142127762"
+      ],
+      "title": "IL-22 induces Paneth cell metaplasia in the colonic epithelium of ulcerative colitis, promoting wound healing via REG3A",
+      "link": "https://doi.org/10.1038/s41467-026-71136-1",
+      "pdf_url": null,
+      "publication_date": "2026-03-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "muto tomohiro",
+          "name": "Tomohiro Muto"
+        },
+        {
+          "key": "go ito",
+          "name": "Go Ito"
+        },
+        {
+          "key": "hiromune katsuda",
+          "name": "Hiromune Katsuda"
+        },
+        {
+          "key": "hiraguri yui",
+          "name": "Yui Hiraguri"
+        },
+        {
+          "key": "fujii satoru",
+          "name": "Satoru Fujii"
+        },
+        {
+          "key": "kurara yamamoto",
+          "name": "Kurara Yamamoto"
+        },
+        {
+          "key": "bernardes joana",
+          "name": "Joana P. Bernardes"
+        },
+        {
+          "key": "finn hinrichsen",
+          "name": "Finn Hinrichsen"
+        },
+        {
+          "key": "hitoshi uchida",
+          "name": "Hitoshi Uchida"
+        },
+        {
+          "key": "nemoto yasuhiro",
+          "name": "Yasuhiro Nemoto"
+        },
+        {
+          "key": "kinoshita mayumi",
+          "name": "Mayumi Kinoshita"
+        },
+        {
+          "key": "eri oshina",
+          "name": "Eri Oshina"
+        },
+        {
+          "key": "kouhei yamamoto",
+          "name": "Kouhei Yamamoto"
+        },
+        {
+          "key": "hibiya shuji",
+          "name": "Shuji Hibiya"
+        },
+        {
+          "key": "nagata sayaka",
+          "name": "Sayaka Nagata"
+        },
+        {
+          "key": "amrei fenja schuran",
+          "name": "Fenja Amrei Schuran"
+        },
+        {
+          "key": "shiro yui",
+          "name": "Shiro Yui"
+        },
+        {
+          "key": "pelczar penelope",
+          "name": "Penelope Pelczar"
+        },
+        {
+          "key": "huber samuel",
+          "name": "Samuel Huber"
+        },
+        {
+          "key": "schreiber stefan",
+          "name": "Stefan Schreiber"
+        },
+        {
+          "key": "philip rosenstiel",
+          "name": "Philip C Rosenstiel"
+        },
+        {
+          "key": "mamoru watanabe",
+          "name": "Mamoru Watanabe"
+        },
+        {
+          "key": "okamoto ryuichi",
+          "name": "Ryuichi Okamoto"
+        }
+      ],
+      "abstract_text": "Paneth cell metaplasia (PCM) is a phenomenon in which Paneth cells, typically found in the small intestine, appear in the colonic epithelium of patients with ulcerative colitis (UC). Our study demonstrates that the PCM occurrence correlates with disease duration and active inflammation. Furthermore, we identified IL-22, an inflammation-associated cytokine, as a key regulator that promotes PCM formation in the colonic epithelium through suppression of Notch signaling and induces REG3A expression within metaplastic niches. In vitro, we show that Reg3a directly enhances cell proliferation and promotes wound healing using mouse colonic organoids. In vivo, Reg3aΔIEC mice in both acute and chronic DSS-induced colitis models exhibit delayed wound healing. Additionally, studies conducted with patient-derived human colonic organoids revealed that REG3A administration stimulates cell proliferation and accelerates wound healing. Together, these findings support a protective role of PCM-associated REG3A in the colonic epithelium of patients with UC. In ulcerative colitis, Paneth cell metaplasia in the colon correlates with disease duration and histological inflammatory activity. Here the authors report that chronic inflammation induces Paneth cell metaplasia via IL-22, and that metaplastic Paneth cells express REG3A to promote epithelial proliferation and wound healing.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "031750d31bd981410b07b2c4c83c6e9a4e0d9c8d893d0c53ce5dc4bfa1480b85",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-65852-3",
+        "https://openalex.org/W4416854487"
+      ],
+      "title": "Extracellular activation of HCN4 by a subtype-specific nanobody",
+      "link": "https://doi.org/10.1038/s41467-025-65852-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-65852-3.pdf",
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "atiyeh sadat sharifzadeh",
+          "name": "Atiyeh Sadat Sharifzadeh"
+        },
+        {
+          "key": "castelli roberta",
+          "name": "Roberta Castelli"
+        },
+        {
+          "key": "alessandro porro",
+          "name": "Alessandro Porro"
+        },
+        {
+          "key": "mesirca pietro",
+          "name": "Pietro Mesirca"
+        },
+        {
+          "key": "perrier romain",
+          "name": "Romain Perrier"
+        },
+        {
+          "key": "ana gomez maria",
+          "name": "Ana Maria Gomez"
+        },
+        {
+          "key": "mekrane nadia",
+          "name": "Nadia Mekrane"
+        },
+        {
+          "key": "benoit hugo",
+          "name": "Hugo Benoit"
+        },
+        {
+          "key": "albano méli",
+          "name": "Albano C. Méli"
+        },
+        {
+          "key": "giovanni luca maria palloni",
+          "name": "Luca Maria Giovanni Palloni"
+        },
+        {
+          "key": "dario difrancesco",
+          "name": "Dario DiFrancesco"
+        },
+        {
+          "key": "elia mangoni matteo",
+          "name": "Matteo Elia Mangoni"
+        },
+        {
+          "key": "gerhard thiel",
+          "name": "Gerhard Thiel"
+        },
+        {
+          "key": "andrea saponaro",
+          "name": "Andrea Saponaro"
+        },
+        {
+          "key": "anna moroni",
+          "name": "Anna Moroni"
+        }
+      ],
+      "abstract_text": "Hyperpolarization-activated cyclic nucleotide-gated channels (HCN1-4) control cardiac and neuronal firing and their dysfunction leads to cardiac arrythmias (HCN4), epilepsy (HCN1) and chronic pain (HCN2). Prompted by the urgent need for HCN subtype-specific treatments, we screened a recombinant nanobody library in search of HCN4-specific binders. Here we show that nanobody 5 (NB5) binds to the extracellular side of HCN4 with high specificity and nanomolar affinity and activates the channel by a non-canonical electromechanical coupling path. In ex vivo and in vitro experiments, NB5 acts as an agonist of the pacemaker current If, increasing the firing rate of rabbit cardiac pacemaker myocytes and of human derived cardiomyocytes. Notably in vitro, NB5 rescued the loss-of-function effects on HCN4 current caused by a mutation found in a patient with sinus node dysfunction. Our work illustrates that animal-free recombinant nanobodies have strong potential as next generation modulators for clinical application in symptomatic bradycardia. HCN4 channels control cardiac pacing. Here, the authors isolated a nanobody (NB5) that binds HCN4 extracellularly in an ortholog- and isoform-specific manner and promotes its activation in sinoatrial node myocytes, leading to an increase in pacemaker rhythm.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "031bdf16dbb76cc45f2e9c7339879947749c5688de53cf5e25613494a0c40cf7",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77210-y",
+        "https://openalex.org/W7204462083"
+      ],
+      "title": "Spatial analysis reveals cellular microenvironments and mechanisms of inflammation and injury in acute interstitial nephritis",
+      "link": "https://doi.org/10.1038/s41467-026-77210-y",
+      "pdf_url": null,
+      "publication_date": "2026-08-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "baker leila megan",
+          "name": "Megan Leila Baker"
+        },
+        {
+          "key": "kakade vijayakumar",
+          "name": "Vijayakumar R. Kakade"
+        },
+        {
+          "key": "budiman tifanny",
+          "name": "Tifanny Budiman"
+        },
+        {
+          "key": "marlene weiß",
+          "name": "Marlene Weiß"
+        },
+        {
+          "key": "cunningham joseph",
+          "name": "Joseph M. Cunningham"
+        },
+        {
+          "key": "sadarangani sagar",
+          "name": "Sagar S. Sadarangani"
+        },
+        {
+          "key": "gabriel lerner",
+          "name": "Gabriel Lerner"
+        },
+        {
+          "key": "gilbert moeckel",
+          "name": "Gilbert Moeckel"
+        },
+        {
+          "key": "avi rosenberg",
+          "name": "Avi Z. Rosenberg"
+        },
+        {
+          "key": "chirag parikh",
+          "name": "Chirag R. Parikh"
+        },
+        {
+          "key": "kluger yuval",
+          "name": "Yuval Kluger"
+        },
+        {
+          "key": "dennis moledina",
+          "name": "Dennis G. Moledina"
+        },
+        {
+          "key": "cantley lloyd",
+          "name": "Lloyd G. Cantley"
+        }
+      ],
+      "abstract_text": "Acute interstitial nephritis (AIN) is present in 15-20% of all acute kidney injury cases but lacks proven effective therapies beyond corticosteroids. Using high-resolution imaging mass cytometry and single-cell spatial transcriptomics to analyze human kidney biopsies with AIN, acute tubular injury (ATI), and reference tissue, we show that interferon-γ-induced CXCL9-CXCR3 signaling is markedly increased in AIN, with significantly more predicted interactions relative to ATI, dominated by homotypic T cell-T cell amplification networks concentrated in lymphoid aggregates. Tubular cells, predominantly VCAM1+ injured proximal tubules, markedly upregulate complement components, with local enrichment of C3AR1+ immune cells, linking tubular injury to immune activation in AIN. Nicotinamide phosphoribosyltransferase (NAMPT) is the strongest spatial correlate of VCAM1+ tubular microenvironments, with expression by both injured tubules and surrounding immune cells coordinating metabolic-inflammatory niches. These findings reveal distinct molecular circuits underlying AIN pathogenesis and nominate potential therapeutic targets for improving clinical management and preventing progression to chronic kidney disease. Spatial analysis of human kidney biopsies reveals that acute interstitial nephritis differs from nonimmune kidney injury, identifying complement-producing injured tubules, T cell signaling and NAMPT as markers of sustained inflammatory niches.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0323361e30865f725b526d840ffd24d5f2fe9ae1e5fad43903632e00e5992120",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71385-0",
+        "https://openalex.org/W7147655423"
+      ],
+      "title": "Atomic-scale reconstruction of sapphire induced by selective tribochemical removal of surface atoms",
+      "link": "https://doi.org/10.1038/s41467-026-71385-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-71385-0_reference.pdf",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "jinhao zhang",
+          "name": "Jinhao Zhang"
+        },
+        {
+          "key": "chunhong li",
+          "name": "LI Chunhong"
+        },
+        {
+          "key": "wang yinhui",
+          "name": "Yinhui Wang"
+        },
+        {
+          "key": "yang zhang",
+          "name": "Yang Zhang"
+        },
+        {
+          "key": "chen",
+          "name": "Z. H. Chen"
+        },
+        {
+          "key": "jun yang",
+          "name": "Jun Yang"
+        },
+        {
+          "key": "deng hui",
+          "name": "Hui Deng"
+        }
+      ],
+      "abstract_text": "Although biomimetic nanostructured surfaces can impart exceptional properties, their inherent fragility makes them prone to failure under mechanical wear. This study presents a method for friction-induced atomic-scale surface reconstruction of sapphire, resulting in durable, scale-like nanostructures that retain the hardness of bulk the sapphire (27.2 GPa). Friction experiments and reactive force field molecular dynamics simulation reveal that surface reconstruction is driven by the selective removal of atoms from less chemically inert crystal planes of sapphire via interfacial bridge bonds during friction with SiO2. Subsurface characterizations demonstrate that the nanostructures maintain a consistent single-crystal structure with the original sapphire, thereby ensuring their exceptional mechanical properties. To evaluate its triboelectric performance and wear resistance, nanostructured sapphire is integrated into triboelectric nanogenerators (TENGs) with a diamond-like carbon (DLC) friction layer. Triboelectric tests indicate that after 100k cycles of friction, the discharge performance of TENGs exhibits no significant decline, and the nanostructures show negligible wear, demonstrating their extraordinary durability. This study introduces an atomic-scale strategy for nanostructure fabrication, providing an approach to surface reconstruction of sapphire and insights into the development of wear-resistant nanostructures. Nanostructure fragility limits applications. The authors develop a tribochemical surface reconstruction strategy to build single-crystal nanostructures on sapphire, which retain bulk-level wear resistance and improve triboelectric device performance.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "032779631d3245755bab4f7272b98b8e92c1d7728290318764dcd86745c2ca46",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-025-09601-y",
+        "https://openalex.org/W4416386102"
+      ],
+      "title": "Triplets electrically turn on insulating lanthanide-doped nanoparticles",
+      "link": "https://doi.org/10.1038/s41586-025-09601-y",
+      "pdf_url": "https://www.nature.com/articles/s41586-025-09601-y.pdf",
+      "publication_date": "2025-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "yu zhongzheng",
+          "name": "Zhongzheng Yu"
+        },
+        {
+          "key": "deng yunzhou",
+          "name": "Yunzhou Deng"
+        },
+        {
+          "key": "junzhi ye",
+          "name": "Junzhi Ye"
+        },
+        {
+          "key": "lars turnhout van",
+          "name": "Lars van Turnhout"
+        },
+        {
+          "key": "liu tianjun",
+          "name": "Tianjun Liu"
+        },
+        {
+          "key": "alasdair tew",
+          "name": "Alasdair Tew"
+        },
+        {
+          "key": "arul rakesh",
+          "name": "Rakesh Arul"
+        },
+        {
+          "key": "dowland simon",
+          "name": "Simon Dowland"
+        },
+        {
+          "key": "sun yuqi",
+          "name": "Yuqi Sun"
+        },
+        {
+          "key": "li xinjuan",
+          "name": "Xinjuan Li"
+        },
+        {
+          "key": "dai linjie",
+          "name": "Linjie Dai"
+        },
+        {
+          "key": "lu yang",
+          "name": "Yang Lu"
+        },
+        {
+          "key": "caterina ducati",
+          "name": "Caterina Ducati"
+        },
+        {
+          "key": "baumberg jeremy",
+          "name": "Jeremy J. Baumberg"
+        },
+        {
+          "key": "friend henry richard",
+          "name": "Richard Henry Friend"
+        },
+        {
+          "key": "hoye robert",
+          "name": "Robert L. Z. Hoye"
+        },
+        {
+          "key": "akshay rao",
+          "name": "Akshay Rao"
+        }
+      ],
+      "abstract_text": "Abstract Insulating nanomaterials have large energy gaps and are only electrically accessible under extreme conditions, such as high-intensity radiation and high temperature, pressure or voltage 1,2 . Lanthanide-doped insulating nanoparticles (LnNPs) are widely studied owing to their exceptional luminescence properties, including bright, narrow-linewidth, non-blinking and non-bleaching emission in the second near-infrared (NIR-II) range 3,4 . However, it has not been possible to electrically generate excited states in these insulating nanomaterials under low biases and, therefore, not possible to fabricate optoelectronic devices from these systems. Here we report an electrical excitation pathway to obtain emission from LnNPs. By forming LnNP@organic molecule nanohybrids, in which the recombination of electrically injected charges on the organic molecule is followed by efficient triplet energy transfer (TET) to the LnNP, it is possible to turn on LnNPs under a low operating bias. We demonstrate this excitation pathway in light-emitting diodes (LEDs), with low turn-on voltages of about 5 V, very narrow electroluminescence (EL) spectra and a peak external quantum efficiency (EQE) greater than 0.6% in the NIR-II window 5 . Our LnNP-based LEDs (LnLEDs) also allow for widely tunable EL properties, by changing the type and concentration of lanthanide dopants. These results open up a new field of hybrid optoelectronic devices and provide new opportunities for the electrically driven excitation sources based on lanthanide nanomaterials for biomedical and optoelectronic applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "032bec85333fbd7293066612241057b73fa9c2734954330bfc7e3d5d76add3c6",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-67634-3",
+        "https://openalex.org/W7122826566"
+      ],
+      "title": "ERECTA genes and their ligands regulate shoot and inflorescence architecture in maize",
+      "link": "https://doi.org/10.1038/s41467-025-67634-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-67634-3.pdf",
+      "publication_date": "2026-01-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "liu xiao",
+          "name": "Xiao Liu"
+        },
+        {
+          "key": "jinbiao wang",
+          "name": "Jinbiao Wang"
+        },
+        {
+          "key": "jipeng li",
+          "name": "Jipeng Li"
+        },
+        {
+          "key": "kang lu",
+          "name": "Lu Kang"
+        },
+        {
+          "key": "mengyan wang",
+          "name": "Mengyan Wang"
+        },
+        {
+          "key": "huang zhaoyu",
+          "name": "Zhaoyu Huang"
+        },
+        {
+          "key": "jarrett man",
+          "name": "Jarrett Man"
+        },
+        {
+          "key": "huang xuxu",
+          "name": "Xuxu Huang"
+        },
+        {
+          "key": "zhang",
+          "name": "Z. L. Zhang"
+        },
+        {
+          "key": "fang yang",
+          "name": "Fang� Yang"
+        },
+        {
+          "key": "bartlett elisabeth madelaine",
+          "name": "Madelaine Elisabeth Bartlett"
+        },
+        {
+          "key": "liuji wu",
+          "name": "Liuji Wu"
+        },
+        {
+          "key": "dong zhaobin",
+          "name": "Zhaobin Dong"
+        },
+        {
+          "key": "david jackson",
+          "name": "David Jackson"
+        },
+        {
+          "key": "fang xu",
+          "name": "Fang Xu"
+        }
+      ],
+      "abstract_text": "In maize, several yield-related traits are associated with meristem activity, regulated by CLAVATA3/EMBRYO SURROUNDING REGION-related (CLE) peptide signals perceived by CLAVATA(CLV) receptors in the CLAVATA-WUSCHEL (CLV-WUS) pathway. However, additional signaling pathways in maize meristem development remain poorly understood. Here, we identify three receptor-like kinases, ZmERECTA1 (ZmER1), ZmER2 and ZmER1-like (ZmERL), and their ligands, EPIDERMAL PATTERNING FACTOR-like (ZmEPFL), as critical regulators of meristem activity, plant architecture, and ear development. We demonstrate that ZmER receptors act redundantly, with ZmER1 playing a primary role. Zmer1 mutants have compact architecture, enlarged inflorescence meristems (IMs), and increased kernel row numbers (KRNs), while higher-order Zmer mutants display exacerbated phenotypes. We further reveal that ZmER1 specifically binds to five EPFL peptides, which act redundantly in ear development regulation. Furthermore, we find that ZmWUS1 is upregulated in Zmer mutants and mutation in Zmwus1 partially suppress the enlarged IM of Zmer1 mutants. We also generate weak Zmer1 alleles with enhanced yield traits, including reduced leaf angles and increased KRN. These findings offer valuable insights into ER-EPFL signaling in maize meristem development and provide promising genetic targets for breeding high-yield maize varieties through optimized plant and ear architecture.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0332269b18d2084531472b3c02fbab725ed4bf3b68be1f6e6fbc3c95853ed773",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77879-1",
+        "https://openalex.org/W7214292797"
+      ],
+      "title": "A cross-species atlas platform for comparative neuroscience in teleost fish",
+      "link": "https://doi.org/10.1038/s41467-026-77879-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77879-1_reference.pdf",
+      "publication_date": "2026-09-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "kumar sumit vohra",
+          "name": "Sumit Kumar Vohra"
+        },
+        {
+          "key": "tavhelidse tinatini",
+          "name": "Tinatini Tavhelidse"
+        },
+        {
+          "key": "knoblich simon",
+          "name": "Simon Knoblich"
+        },
+        {
+          "key": "ali seleit",
+          "name": "Ali Seleit"
+        },
+        {
+          "key": "boulanger jonathan weill",
+          "name": "Jonathan Boulanger-Weill"
+        },
+        {
+          "key": "chambule sydney",
+          "name": "Sydney Chambule"
+        },
+        {
+          "key": "ariel aspiras",
+          "name": "Ariel C. Aspiras"
+        },
+        {
+          "key": "cristina santoriello",
+          "name": "Cristina Santoriello"
+        },
+        {
+          "key": "owen randlett",
+          "name": "Owen Randlett"
+        },
+        {
+          "key": "joachim wittbrodt",
+          "name": "Joachim Wittbrodt"
+        },
+        {
+          "key": "jeff lichtman william",
+          "name": "Jeff William Lichtman"
+        },
+        {
+          "key": "fishman mark",
+          "name": "Mark C. Fishman"
+        },
+        {
+          "key": "christian hans hege",
+          "name": "Hans‐Christian Hege"
+        },
+        {
+          "key": "baum daniel",
+          "name": "Daniel Baum"
+        },
+        {
+          "key": "engert florian",
+          "name": "Florian Engert"
+        },
+        {
+          "key": "isoe yasuko",
+          "name": "Yasuko Isoe"
+        }
+      ],
+      "abstract_text": "Abstract Uncovering general principles connecting neural circuits to behaviour requires comparative brain analyses across species. To advance these efforts, we developed a standardised workflow and a unified brain atlas platform for the quantitative comparison of neural structures between two teleost larvae, medaka ( Oryzias latipes ) and zebrafish ( Danio rerio ). Crucially, the platform seamlessly integrates user-generated image volumes, facilitating quantitative comparisons of anatomical, transcriptional, and functional data across species and laboratories. Utilising these integrated tools, we identified regional anatomical differences and differentially expressed genes between the species. We further demonstrated functionally distinct telencephalic regions in both species that exhibit divergent responses to social stimuli, suggesting an evolutionary divergence in social processing mechanisms. This web-based, interactive atlas platform promotes data exchange and knowledge sharing within the teleost community. Its scalable design permits effortless multi-group contributions, enabling expansion into a continuously growing, globally accessible database.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03375337f64a337d7c74b006037ba8b446f49adffc80f1950b82cb10cf896bcc",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76889-3",
+        "https://openalex.org/W7203742154"
+      ],
+      "title": "Plasma proteomics defines two reproducible subphenotypes of sepsis-associated acute kidney injury with distinct outcomes",
+      "link": "https://doi.org/10.1038/s41467-026-76889-3",
+      "pdf_url": null,
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "legrand matthieu",
+          "name": "Matthieu M. Legrand"
+        },
+        {
+          "key": "hanh nguyen",
+          "name": "Hanh Nguyen"
+        },
+        {
+          "key": "calfee carolyn",
+          "name": "Carolyn S. Calfee"
+        },
+        {
+          "key": "lu yingying",
+          "name": "Yingying Lu"
+        },
+        {
+          "key": "harhay michael oscar",
+          "name": "Michael Oscar Harhay"
+        },
+        {
+          "key": "kathleen liu",
+          "name": "Kathleen Liu"
+        },
+        {
+          "key": "chen david",
+          "name": "David Chen"
+        },
+        {
+          "key": "bernholz juliane",
+          "name": "Juliane Bernholz"
+        },
+        {
+          "key": "matthay michael",
+          "name": "Michael A. Matthay"
+        },
+        {
+          "key": "alexandre mebazaa",
+          "name": "Alexandre Mebazaa"
+        },
+        {
+          "key": "peter pickkers",
+          "name": "Peter Pickkers"
+        },
+        {
+          "key": "ernesto rojas",
+          "name": "Ernesto J. Rojas"
+        },
+        {
+          "key": "alexendar perez",
+          "name": "Alexendar R. Perez"
+        }
+      ],
+      "abstract_text": "Sepsis is the leading cause of acute kidney injury in critically ill patients, and this complication carries a high risk of death. The biology underlying it varies between patients, which may explain why treatments have not succeeded. Here we show, using an ensemble method that groups patients by patterns across hundreds of blood proteins in three independent groups of patients, that sepsis-associated acute kidney injury comprises two reproducible subphenotypes. One subphenotype shows widespread activation of inflammation, metabolism, and oxidative stress; the other shows a quieter profile. Patients in the inflammatory subtype have higher mortality, more complications, and fewer days alive and out of the intensive care unit. A simple seven-protein test reproduces these groupings and identifies them accurately in separate cohorts. In a randomized trial, the drug ilofotase alfa appears to benefit the inflammatory subtype but not the other, suggesting that this classification could guide future treatment.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "033cfa2d646802a111afbee5246d2bbe7b07166be1132a29edc45b4a60a09fcd",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10272-6",
+        "https://openalex.org/W7140279365"
+      ],
+      "title": "Quantifying climate loss and damage consistent with a social cost of carbon",
+      "link": "https://doi.org/10.1038/s41586-026-10272-6",
+      "pdf_url": "https://www.nature.com/articles/s41586-026-10272-6.pdf",
+      "publication_date": "2026-03-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "burke marshall",
+          "name": "Marshall Burke"
+        },
+        {
+          "key": "mustafa zahid",
+          "name": "Mustafa Zahid"
+        },
+        {
+          "key": "diffenbaugh noah",
+          "name": "Noah S. Diffenbaugh"
+        },
+        {
+          "key": "hsiang solomon",
+          "name": "Solomon Hsiang"
+        }
+      ],
+      "abstract_text": "Climate change is causing measurable harm globally1,2. Political and legal efforts seek to link these damages with specific emissions, including in discussions of loss and damage (L&D)3,4; however, no quantitative definition of L&D exists5,6, nor is there a framework to link past and future emissions from specific sources to monetized, location-specific damages. Here we develop such a framework, which is integrated with recent efforts to estimate the social cost of carbon7. Using empirical estimates of the non-linear relationship between temperature and aggregate economic output, we show that future damages from past emissions—one component of L&D—are at least an order of magnitude larger than historical damages from the same emissions. For instance, one tonne of CO2 emitted in 1990 caused US$180 in discounted global damages by 2020 ($40–530) and will cause an additional $1,840 through 2100 ($500–5,700). Thus, settling debts for past damages will not settle debts for past emissions. In other illustrative estimates, a single long-haul flight per year over the past decade leads to about $25k ($6,000–77,000) in future damages by 2100, and US emissions since 1990 caused $500 billion ($180–1,300 billion) of damage in India and $330 billion ($110–820 billion) in Brazil. Carbon removal offers an alternative to transfer payments for settling L&D, but is increasingly ineffective in limiting damages as the delay between emission and recapture increases. A new framework links specific emissions to monetized, location-specific climate damages, showing that future harms from past CO2 emissions far exceed historical damages and that delayed carbon removal cannot fully offset these losses.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03416f6713ae97276004be9952cbdc32c3d55fe97877894410e3a008f38941c4",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77628-4",
+        "https://openalex.org/W7211961163"
+      ],
+      "title": "Embryo selection by non-invasive preimplantation genetic testing for aneuploidy in women of advanced maternal age: a randomized, clinical trial",
+      "link": "https://doi.org/10.1038/s41467-026-77628-4",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77628-4_reference.pdf",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "huang jin",
+          "name": "Jin Huang"
+        },
+        {
+          "key": "li rong",
+          "name": "Rong Li"
+        },
+        {
+          "key": "lin zeng",
+          "name": "Lin Zeng"
+        },
+        {
+          "key": "hu liang",
+          "name": "Liang Hu"
+        },
+        {
+          "key": "cai liyi",
+          "name": "Liyi Cai"
+        },
+        {
+          "key": "chen li",
+          "name": "Li Chen"
+        },
+        {
+          "key": "juanzi shi",
+          "name": "Juanzi Shi"
+        },
+        {
+          "key": "wang yan",
+          "name": "Yan Wang"
+        },
+        {
+          "key": "guan yichun",
+          "name": "Yichun Guan"
+        },
+        {
+          "key": "xu yanwen",
+          "name": "Yanwen Xu"
+        },
+        {
+          "key": "qian weiping",
+          "name": "Weiping Qian"
+        },
+        {
+          "key": "wang xiuxia",
+          "name": "Xiuxia Wang"
+        },
+        {
+          "key": "haitao xi",
+          "name": "Haitao Xi"
+        },
+        {
+          "key": "zhao zhiming",
+          "name": "Zhiming Zhao"
+        },
+        {
+          "key": "yao yuanqing",
+          "name": "Yuanqing Yao"
+        },
+        {
+          "key": "lü sijia",
+          "name": "Sijia Lü"
+        },
+        {
+          "key": "yao yaxin",
+          "name": "Yaxin Yao"
+        },
+        {
+          "key": "jing wang",
+          "name": "Jing Wang"
+        },
+        {
+          "key": "liu ping",
+          "name": "Ping Liu"
+        },
+        {
+          "key": "jie qiao",
+          "name": "Jie Qiao"
+        }
+      ],
+      "abstract_text": "Non-invasive preimplantation genetic testing for aneuploidy (niPGT-A) can detect embryo chromosomal aneuploidy by analyzing the cell-free DNA in embryo culture media. However, evidence for its clinical efficacy is insufficient. In this investigator-initiated, multicenter, double-blind, randomised controlled trial, women aged 35-42 who agreed to single frozen-thawed blastocyst transfer with at least two blastocysts were enrolled from 13 fertility centers in China. Eligible participants were randomly assigned (1:1) to the niPGT-A(n = 594) or morphology group(n = 595) using a computer-generated block randomization list, stratified by participating center. In the niPGT-A group, embryos were selected for the first transfer cycle based on niPGT-A results, whereas in the morphology group, embryos were selected according to standard morphological criteria. The primary outcome was the ongoing pregnancy rate (OPR) (pregnancy beyond 12 weeks). Secondary outcomes included clinical pregnancy, miscarriage (pregnancy loss before the 28th week, with those before the 12th week as early miscarriages), and live birth rates. The trial has been completed. The modified intention-to-treat population(mITT) contained 581 couples in the morphology group and 571 in the niPGT-A group. Among 1152 randomised patients, OPR was 38.7% (221/571) in the niPGT-A group and 36.8% (214/581) in the morphology group (adjusted p = 0.49). There were no statistically significant between group differences in the rates of clinical pregnancy (47.6% vs 49.9%, adjusted p = 0.49), miscarriage (21.0% vs 27.6%, adjusted p = 0.06) and live birth (37.0% vs 35.5%, adjusted p = 0.59). Early miscarriage was significantly lower in the niPGT-A group compared with that of the morphology group (18.0% vs 25.2%, adjusted p = 0.03). Maternal and neonatal outcomes did not differ significantly between groups. No serious adverse events were reported in either group. The results indicated that there was insufficient evidence to establish a statistically significant difference in OPR between the two treatment arms. The results of this trial do not provide a basis for recommending routine use of niPGT-A in this good-prognosis population (NCT04339166).",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0343a12a8683aa49ef902a26fa0bf08cf5962638bd7a9f1bfe01fc87fe682b3a",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-70797-2",
+        "https://openalex.org/W7138850187"
+      ],
+      "title": "Bst2-targeted senotherapy restores visual function by eliminating senescent retinal cells",
+      "link": "https://doi.org/10.1038/s41467-026-70797-2",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-70797-2_reference.pdf",
+      "publication_date": "2026-03-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "jun oh yong",
+          "name": "Jun Yong Oh"
+        },
+        {
+          "key": "byoung chae jae",
+          "name": "Jae‐Byoung Chae"
+        },
+        {
+          "key": "hyo kyung lee",
+          "name": "Hyo Kyung Lee"
+        },
+        {
+          "key": "chul park woo",
+          "name": "Chul-Woo Park"
+        },
+        {
+          "key": "bae minseo",
+          "name": "Minseo Bae"
+        },
+        {
+          "key": "gyuri kim",
+          "name": "Gyuri Kim"
+        },
+        {
+          "key": "oh yujeong",
+          "name": "Yujeong Oh"
+        },
+        {
+          "key": "gyeongseok yang",
+          "name": "Gyeongseok Yang"
+        },
+        {
+          "key": "kim sangpil",
+          "name": "Sangpil Kim"
+        },
+        {
+          "key": "hae ok won",
+          "name": "Hae Won Ok"
+        },
+        {
+          "key": "dohyun kim",
+          "name": "Dohyun Kim"
+        },
+        {
+          "key": "chaekyu kim",
+          "name": "Chaekyu Kim"
+        },
+        {
+          "key": "lee semin",
+          "name": "Semin Lee"
+        },
+        {
+          "key": "jang jiwon",
+          "name": "Jiwon Jang"
+        },
+        {
+          "key": "chung hyewon",
+          "name": "Hyewon Chung"
+        },
+        {
+          "key": "hyoung ja ryu",
+          "name": "Ja‐Hyoung Ryu"
+        }
+      ],
+      "abstract_text": "Senescent cells contribute to degenerative processes in multiple tissues, including the retina. In the retinal pigment epithelium (RPE), their accumulation is closely associated with retinal aging and disease progression. Eliminating senescent RPE cells has shown therapeutic potential, but conventional senolytics often lack the specificity required to spare non-senescent cells, raising safety concerns. To overcome this, we performed integrated transcriptomic analyses of male mouse-derived RPE cells under natural aging and chemically induced senescence conditions. These analyses identified Bst2 as a membrane-localized marker selectively upregulated in senescent RPE cells, with minimal expression in young controls. Based on this discovery, we developed a modular, antibody-pluggable drug delivery platform-B-Z-PON-comprising mesoporous silica nanoparticles functionalized with a recombinant Fc-binding domain and conjugated with anti-Bst2 antibodies. This nanocarrier selectively accumulates in Bst2-expressing senescent RPE cells, enabling targeted drug delivery and sparing healthy retinal cells. In vivo administration of ABT-263-loaded B-Z-PON in aged and senescence-induced retinal degeneration models resulted in the selective ablation of senescent cells, restoration of RPE function, and improved visual outcomes. Together, our study integrates senescence-specific marker discovery with precision nanomedicine, establishing a versatile platform for targeted senotherapy. These findings offer a promising therapeutic approach for retinal aging disorders, such as age-related macular degeneration.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0345e1132009a61dfa6483a1cb78511d86edb1014ae35b0ca7430187dd43dd05",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69385-1",
+        "https://openalex.org/W7128483411"
+      ],
+      "title": "Aryl sulfur ligand-modulated silver catalysts with tailored binding affinity for selective nitrate-to-ammonia conversion",
+      "link": "https://doi.org/10.1038/s41467-026-69385-1",
+      "pdf_url": null,
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "longcheng zhang",
+          "name": "Longcheng Zhang"
+        },
+        {
+          "key": "liu yuan",
+          "name": "Yuan Liu"
+        },
+        {
+          "key": "li ling",
+          "name": "Ling Li"
+        },
+        {
+          "key": "li xiaoning",
+          "name": "Xiaoning Li"
+        },
+        {
+          "key": "pengfei song",
+          "name": "Pengfei Song"
+        },
+        {
+          "key": "chen ting",
+          "name": "Ting Chen"
+        },
+        {
+          "key": "qian wu",
+          "name": "Qian Wu"
+        },
+        {
+          "key": "justin seow yeow zhu",
+          "name": "Justin Zhu Yeow Seow"
+        },
+        {
+          "key": "kai tang",
+          "name": "Kai Tang"
+        },
+        {
+          "key": "shirong sun",
+          "name": "Shirong Sun"
+        },
+        {
+          "key": "guo xiaodong",
+          "name": "Xiaodong Guo"
+        },
+        {
+          "key": "jason xu zhichuan",
+          "name": "Zhichuan Jason Xu"
+        }
+      ],
+      "abstract_text": "Manipulating the selectivity-determining step in the hydrogenation of nitrogen-containing intermediates is critical to achieving high ammonia selectivity in electrocatalytic nitrate reduction. Here, we propose a molecular interface engineering strategy that functionalized with thiol-anchored aromatic ligands to regulate the interfacial binding affinity and activation of key nitrogen-containing intermediates on silver nanocube surfaces. By systematically varying the electronic properties of the substituents, we identify 4-(methylthio)benzaldehyde as the most effective ligand, increasing the ammonia Faradaic efficiency from 50.8% to 98.9% and achieving a yield rate of 14,366.1 μg h–1 cmgeo–2 at –0.63 V versus reversible hydrogen electrode. In situ electrochemical characterizations combined with theoretical simulations further reveal that 4-(methylthio)benzaldehyde modification promotes the activation of weakly hydrogen-bonded water molecules and accelerates the hydrogenation of *HNO intermediates. This targeted modulation of interfacial binding affinity offers an effective strategy for selectivity control in electrocatalytic nitrate reduction. The enhanced performance is further validated in a membrane electrode assembly electrolyser, underscoring the practical viability of this molecular design strategy for selective nitrate conversion. Controlling reaction selectivity in complex multistep electrochemical transformations remains a major challenge. Here, the authors report that molecular interface engineering on silver electrodes enables precise regulation of key reaction intermediates for efficient ammonia electrosynthesis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "034a66e52a8926011d279cb0d8eb3be7bba4b177bdf64eea7146ac21a45ba457",
+      "identity_keys": [
+        "https://doi.org/10.1101/2024.12.20.629706",
+        "https://openalex.org/W4405711167"
+      ],
+      "title": "Implicit modeling of the conformational landscape and sequence allows scoring and generation of stable proteins",
+      "link": "https://doi.org/10.1101/2024.12.20.629706",
+      "pdf_url": null,
+      "publication_date": "2024-12-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "cho yehlin",
+          "name": "Yehlin Cho"
+        },
+        {
+          "key": "dauparas justas",
+          "name": "Justas Dauparas"
+        },
+        {
+          "key": "kotaro tsuboyama",
+          "name": "Kotaro Tsuboyama"
+        },
+        {
+          "key": "gabriel rocklin",
+          "name": "Gabriel Rocklin"
+        },
+        {
+          "key": "ovchinnikov sergey",
+          "name": "Sergey Ovchinnikov"
+        }
+      ],
+      "abstract_text": "ABSTRACT Generative protein modeling provides advanced tools for designing diverse protein sequences and structures. However, accurately modeling the conformational landscape and designing sequences—ensuring that the designed sequence folds into the target structure as its most stable structure—remains a critical challenge. In this study, we present a systematic analysis of jointly optimizing P (structure|sequence) and P (sequence|structure), which enables us to find optimal solutions for modeling the conformational landscape. We support this approach with experimental evidence that joint optimization is superior for (1) designing stable proteins using a joint model (TrROS (TrRosetta) and TrMRF) (2) achieving high accuracy in stability prediction when jointly modeling (half-masked ESMFold pLDDT+ ESM2 Pseudo-likelihood). We further investigate features of sequences generated from the joint model and find that they exhibit higher frequencies of hydrophilic interactions, which may help maintain both secondary structure registry and pairing.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
+        }
+      ],
+      "curated_categories": [
+        "2. Model-based design",
+        "2.1.1 trRosetta-based"
+      ]
+    },
+    {
+      "id": "034e0328d63f6c39a0a3beadbf9a88e18ba6faccbe37f80c9b1979ddffaafab5",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-73279-7",
+        "https://openalex.org/W7161802838"
+      ],
+      "title": "Ultrafast switching and high-endurance nonvolatile memory enabled by intrinsic switchable polarization in semiconducting Janus monolayers",
+      "link": "https://doi.org/10.1038/s41467-026-73279-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-73279-7_reference.pdf",
+      "publication_date": "2026-05-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "duong ngoc thanh",
+          "name": "Ngoc Thanh Duong"
+        },
+        {
+          "key": "krishna swathi",
+          "name": "Swathi Krishna"
+        },
+        {
+          "key": "chien minh nguyen",
+          "name": "Minh Chien Nguyen"
+        },
+        {
+          "key": "hang kim sik",
+          "name": "Hang Sik Kim"
+        },
+        {
+          "key": "lam tien vu",
+          "name": "Vu Tien Lam"
+        },
+        {
+          "key": "gul hamza zad",
+          "name": "Hamza Zad Gul"
+        },
+        {
+          "key": "choi ho soo",
+          "name": "Soo Ho Choi"
+        },
+        {
+          "key": "kim minjeong",
+          "name": "Minjeong Kim"
+        },
+        {
+          "key": "lee",
+          "name": "D.U Lee"
+        },
+        {
+          "key": "thi tran uyen",
+          "name": "Thi Uyen Tran"
+        },
+        {
+          "key": "dat khac vu",
+          "name": "Vu Khac Dat"
+        },
+        {
+          "key": "dam do van",
+          "name": "Van Dam Do"
+        },
+        {
+          "key": "hoang huy van",
+          "name": "Van Huy Hoang"
+        },
+        {
+          "key": "heesuk rho",
+          "name": "Heesuk Rho"
+        },
+        {
+          "key": "kim wook yong",
+          "name": "Yong Wook Kim"
+        },
+        {
+          "key": "jong woo yu",
+          "name": "Woo Jong Yu"
+        },
+        {
+          "key": "kang ki kim",
+          "name": "Ki Kang Kim"
+        },
+        {
+          "key": "chu lim seong",
+          "name": "Seong Chu Lim"
+        }
+      ],
+      "abstract_text": "The discovery of two-dimensional semiconducting ferroelectric (SFe) materials marks a pivotal step toward the commercialization of ferroelectric random-access memory. Despite their potential as ideal platforms for ultrafast switching and ultralow power consumption, SFe monolayers remain unexplored. Here, we demonstrate an SFe field-effect transistor based on monolayer Janus MoSeS, integrated with a ZrO 2 high-κ (κ denotes dielectric constant) gate dielectric. The inherent non-centrosymmetry of the Janus structure leads to gate-switchable spontaneous out-of-plane polarity. The device exhibits counterclockwise memory windows of ~5 V, an on/off ratio exceeding 10 7 at zero gate bias, and an extrapolated retention time of up to 10 years. It also achieves fatigue-free endurance over 4 million cycles and ultrafast responses to 36 ns voltage spikes, resulting in ultralow power consumption of 120/98 fJ per program/erase cycle. These findings establish Janus monolayers as promising candidates for next-generation nonvolatile memory and neuromorphic computing applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "034e7dfc621586ac02c99fccd5798c8f383bff5d12018a568a3228e265a5bad1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74482-2",
+        "https://openalex.org/W4414903545"
+      ],
+      "title": "Accurate, transferable, and verifiable machine-learned interatomic potentials for layered materials",
+      "link": "https://doi.org/10.1038/s41467-026-74482-2",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74482-2_reference.pdf",
+      "publication_date": "2026-07-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "georgaras johnathan",
+          "name": "Johnathan D. Georgaras"
+        },
+        {
+          "key": "akash ramdas",
+          "name": "Akash Ramdas"
+        },
+        {
+          "key": "chung hsuan shan",
+          "name": "Chung Hsuan Shan"
+        },
+        {
+          "key": "elena halsted",
+          "name": "Elena Halsted"
+        },
+        {
+          "key": "berwyn",
+          "name": "Berwyn"
+        },
+        {
+          "key": "li tianshu",
+          "name": "Tianshu Li"
+        },
+        {
+          "key": "da felipe jornada",
+          "name": "Felipe H. da Jornada"
+        }
+      ],
+      "abstract_text": "Twisted layered van der Waals materials often exhibit unique electronic and optical properties absent in their non-twisted counterparts. Unfortunately, predicting such properties is hindered by the difficulty in determining the atomic structure in materials displaying large moiré domains. Here, we introduce a split machine-learned interatomic potential (MLIP) and dataset curation approach that separates intralayer and interlayer interactions and significantly improves model accuracy, yielding roughly a tenfold improvement in energy and force predictions relative to conventional models. We further demonstrate that traditional MLIP validation metrics – force and energy errors – are inadequate for moiré structures and develop a holistic, physically-motivated metric based on the distribution of stacking configurations. This metric effectively compares the entirety of large-scale moiré domains between two structures instead of relying on conventional measures evaluated on smaller commensurate cells. Finally, we establish that one-dimensional, rather than two-dimensional, moiré structures can serve as efficient surrogate systems for validating MLIPs, permitting validation protocols against explicit DFT calculations. Applying our framework to HfS2/GaS bilayers reveals that accurate structural predictions directly translate into reliable electronic properties. Our model-agnostic approach integrates with various intralayer and interlayer interaction models, enabling computationally tractable relaxation of moiré materials, from bilayer to complex multilayers, with rigorously validated accuracy. Machine learning interatomic potentials (MLIPs) struggle with twisted 2D materials due to varying energy scales and hard-to-validate moiré domains. Here, the authors propose a split MLIP and surrogate 1D systems to build accurate, verifiable models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "035951521997ad1fd5c6557c020f61ef032c8b0e551997cae4f0210c40e921b3",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74492-0",
+        "https://openalex.org/W4416341497"
+      ],
+      "title": "Generating synthetic multi-national longitudinal cohorts for clinically grounded HIV research",
+      "link": "https://doi.org/10.1038/s41467-026-74492-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74492-0_reference.pdf",
+      "publication_date": "2026-06-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "liang zhuohui",
+          "name": "Zhuohui J. Liang"
+        },
+        {
+          "key": "li zhuohang",
+          "name": "Zhuohang Li"
+        },
+        {
+          "key": "jackson nicholas",
+          "name": "Nicholas J. Jackson"
+        },
+        {
+          "key": "guo kevin",
+          "name": "Kevin H. Guo"
+        },
+        {
+          "key": "caro vega yanink",
+          "name": "Yanink N. Caro-Vega"
+        },
+        {
+          "key": "ismerio moreira ronaldo",
+          "name": "Ronaldo Ismerio Moreira"
+        },
+        {
+          "key": "fabio paredes",
+          "name": "Fabio Paredes"
+        },
+        {
+          "key": "bernadin jordany",
+          "name": "Jordany Bernadin"
+        },
+        {
+          "key": "diana varela",
+          "name": "Diana Varela"
+        },
+        {
+          "key": "carina césar",
+          "name": "Carina César"
+        },
+        {
+          "key": "alessandro blasimme",
+          "name": "Alessandro Blasimme"
+        },
+        {
+          "key": "jessica perkins",
+          "name": "Jessica M. Perkins"
+        },
+        {
+          "key": "amir asiaee",
+          "name": "Amir Asiaee"
+        },
+        {
+          "key": "duda stephany",
+          "name": "Stephany N. Duda"
+        },
+        {
+          "key": "bradley malin",
+          "name": "Bradley Malin"
+        },
+        {
+          "key": "bryan shepherd",
+          "name": "Bryan E. Shepherd"
+        },
+        {
+          "key": "chao yan",
+          "name": "Chao Yan"
+        }
+      ],
+      "abstract_text": "High-quality, widely accessible international longitudinal cohort data for people living with HIV (PWH) have long been needed for advancing open science and data-driven innovation, yet stringent and incongruent privacy regulations have made data sharing difficult. Synthetic data generation offers a promising privacy-preserving alternative, but producing realistic synthetic cohorts of PWH remains challenging due to complex temporal dynamics, interdependent clinical variables, long follow-up periods, and high missingness inherent in such data. Here, we introduce Medical Longitudinal latent Diffusion (MeLD), a generative model designed to synthesize variable-length, decades-spanning, mixed-type clinical trajectories with missingness. Using the Caribbean, Central, and South America Network for HIV Epidemiology (CCASAnet) cohort, one of the world's largest international HIV datasets with over 30 years of follow-up on nearly 50,000 PWH, we show that MeLD consistently outperforms state-of-the-art methods across data utility, fidelity, and privacy. Notably, MeLD excels in longitudinal inference utility, accurately reproducing time-to-death estimates and risk factor effects, while maintaining strong privacy protection. This work delivers an in-depth, large-scale, and openly accessible synthetic longitudinal cohort of PWH that faithfully preserves the distributional patterns and clinical associations observed in real data, offering an immediately deployable resource for hypothesis generation, methods innovation, training, and reproducible HIV research.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "035b5b22487351ae97d776df5c602fc5cebd9ef58bb91f12582d69342e28b401",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74739-w",
+        "https://openalex.org/W7167499440"
+      ],
+      "title": "Evolutionary drivers of encephalization and facial reduction in the genus Homo",
+      "link": "https://doi.org/10.1038/s41467-026-74739-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74739-w.pdf",
+      "publication_date": "2026-07-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "hübbe mark",
+          "name": "Mark Hübbe"
+        },
+        {
+          "key": "harvati katerina",
+          "name": "Katerina Harvati"
+        }
+      ],
+      "abstract_text": "The evolution of cranial morphology in the genus Homo is marked by increasing encephalization and reduced facial robusticity through time. These changes are often assumed to be the product of directional natural selection for larger brain size, presumed to be associated with greater cognitive abilities, and for decreasing facial size to lower energetic costs, as masticatory demands were reduced through food processing and tool use. Here, we test this hypothesis by exploring the goodness-of-fit of the predictions of six evolutionary processes to the observed cranial morphological variation in Homo. We analyzed comprehensive neurocranial and facial 3D landmark coordinate datasets, grouped into eight Operational Taxonomic Units starting with early Homo and representing two lineages, Homo sapiens and Homo neanderthalensis. Our neurocranial analysis found strongest support for models of neutral evolution (Unbiased Random Walk) and stasis across both lineages. Similarly, the face shows strongest support for models of stasis, strict stasis, and neutral evolution (Unbiased Random Walk). Our findings suggest a limited role for gradual directional selection and underscore the importance of stabilizing selection and constraints in our lineage's evolution, highlighting the importance of environmental constraints and possibly cultural behaviors as core drivers of human evolution.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "035b65cfdcc70e964b2715fc721cfcdb00d1fc9ad5afa931cd0253d72128352e",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69922-y",
+        "https://openalex.org/W7130715632"
+      ],
+      "title": "Dual-role iron species in photoelectrocatalytic radical trifluoromethylation with trifluoroacetates",
+      "link": "https://doi.org/10.1038/s41467-026-69922-y",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-69922-y_reference.pdf",
+      "publication_date": "2026-02-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "fernández garcía sara",
+          "name": "Sara Fernández‐García"
+        },
+        {
+          "key": "cuadros sara",
+          "name": "Sara Cuadros"
+        },
+        {
+          "key": "bosque irene",
+          "name": "Irene Bosque"
+        },
+        {
+          "key": "carlos gomez gonzalez jose",
+          "name": "Jose Carlos Gonzalez‐Gomez"
+        },
+        {
+          "key": "francisco hernández juliá",
+          "name": "Francisco Juliá‐Hernández"
+        }
+      ],
+      "abstract_text": "Abstract Trifluoromethylation remains a fundamental transformation in drug discovery, underpinning many top-selling pharmaceuticals. Emerging developments in iron ligand-to-metal charge transfer (LMCT) catalysis have redefined fluoroalkylation chemistry by unlocking the repurposing of readily available trifluoroacetates as radical trifluoromethyl sources. Recent (hetero)arene trifluoromethylation methods generally require stoichiometric inorganic oxidants to turnover photoactive iron catalysts, thereby limiting their broader applicability. Herein, we present an integrated photoelectrocatalytic strategy employing in situ-generated multifunctional iron species to achieve C(sp²)–H trifluoromethylation without stoichiometric oxidants and generating only traceless byproducts. Mechanistic studies identify catalytically active iron species exhibiting a dual synergistic function: promoting the photodecarboxylation of trifluoroacetates and mediating catalytic redox turnover. This protocol offers mild, tunable, and scalable conditions powered by visible light and electric current. It features a broad substrate scope, enabling the functionalization of diverse (hetero)cyclic scaffolds, including challenging electron-rich and easily oxidizable substrates, thus demonstrating its potential for sustainable late-stage modification in pharmaceutical synthesis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "035e56bab71266c01fa6c6fbc444185ca6dfbfac606e36cc30a4c2cdc094983b",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77504-1",
+        "https://openalex.org/W7215093196"
+      ],
+      "title": "Substrate coupling and inhibition in human Na+-dependent Cl−/HCO3− exchanger NCBE (SLC4A10)",
+      "link": "https://doi.org/10.1038/s41467-026-77504-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77504-1_reference.pdf",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "pei sun xin",
+          "name": "Pei-Xin Sun"
+        },
+        {
+          "key": "wang xinmin",
+          "name": "Xinmin Wang"
+        },
+        {
+          "key": "huang yang",
+          "name": "Yang Huang"
+        },
+        {
+          "key": "bin jia zhang",
+          "name": "Jia Bin Zhang"
+        },
+        {
+          "key": "shen xurui",
+          "name": "Xurui Shen"
+        },
+        {
+          "key": "anqi dong",
+          "name": "ANQI DONG"
+        },
+        {
+          "key": "shiliang wang",
+          "name": "Shiliang Wang"
+        },
+        {
+          "key": "guo xiaojun",
+          "name": "Xiaojun Guo"
+        },
+        {
+          "key": "guo ming shi",
+          "name": "Guo‐Ming Shi"
+        },
+        {
+          "key": "ding jing",
+          "name": "Jing Ding"
+        },
+        {
+          "key": "chi yudan",
+          "name": "Yudan Chi"
+        },
+        {
+          "key": "wuli yang",
+          "name": "Wuli Yang"
+        }
+      ],
+      "abstract_text": "Maintaining pH homoeostasis is essential for neuronal excitability and for regulating cerebrospinal fluid (CSF). The Na⁺-dependent Cl⁻/HCO3⁻ exchanger, NCBE (SLC4A10), abundant in the choroid plexus, contributes to CSF pH control by mediating bicarbonate flux, yet its molecular mechanism has remained unclear. Here we report cryo-EM structures of human NCBE in multiple functional states, revealing conserved binding sites for Na⁺, Cl⁻, and HCO3⁻, as well as an unexpected K⁺ site indicating relaxed cation selectivity. The inhibitor DIDS binds above the substrate cavity, locking NCBE in an outward-facing conformation and defining a subfamily-selective inhibitory mechanism. Functional assays and molecular dynamics simulations support the coordination of ions and the inhibitory effects. Comparison with an AlphaFold3-predicted inward-facing model suggests an elevator-like transport mechanism and delineates the conformational transitions in Na⁺-dependent HCO₃⁻ transporters. Together, these findings establish a structural framework for NCBE and offer insights into ion coupling and pharmacological modulation within the SLC4 family. NCBE (SLC4A10) is important for cerebrospinal fluid pH regulation. Here, authors determine cryo-EM structures of human NCBE that reveal ion binding, inhibitor recognition, and the structural basis of substrate coupling in this transporter.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0362b787f2ed11b366e3f6cb5871d13536fa1e2c8ece1caa63758b0041ca0acc",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77749-w",
+        "https://openalex.org/W7213240495"
+      ],
+      "title": "A hypothalamic circuit links high-fat diet exposure to anxiety-like behavior and anxiety-associated hyperphagia",
+      "link": "https://doi.org/10.1038/s41467-026-77749-w",
+      "pdf_url": null,
+      "publication_date": "2026-09-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "peng wang",
+          "name": "Peng Wang"
+        },
+        {
+          "key": "jun li",
+          "name": "Jun Li"
+        },
+        {
+          "key": "cheng xin",
+          "name": "Xin Cheng"
+        },
+        {
+          "key": "chen wei",
+          "name": "Wei Chen"
+        },
+        {
+          "key": "li zhengyu",
+          "name": "Zhengyu Li"
+        },
+        {
+          "key": "fang zheng",
+          "name": "Zheng Fang"
+        },
+        {
+          "key": "dijia wang",
+          "name": "Dijia Wang"
+        },
+        {
+          "key": "bin mei",
+          "name": "Bin Mei"
+        },
+        {
+          "key": "hu liu",
+          "name": "Hu Liu"
+        },
+        {
+          "key": "hu shaohua",
+          "name": "Shaohua Hu"
+        },
+        {
+          "key": "yang zhilai",
+          "name": "Zhilai Yang"
+        },
+        {
+          "key": "jiqian zhang",
+          "name": "Jiqian Zhang"
+        },
+        {
+          "key": "gaolin qiu",
+          "name": "Gaolin Qiu"
+        },
+        {
+          "key": "qing xin",
+          "name": "Xin Qing"
+        },
+        {
+          "key": "liu xuesheng",
+          "name": "Xuesheng Liu"
+        }
+      ],
+      "abstract_text": "Obesity and anxiety disorders are frequently comorbid, yet the neural circuit mechanisms linking metabolic and affective states remain incompletely understood. Here, in male mice exposed to long-term high-fat diet, we identify a hypothalamic circuit comprising arcuate nucleus agouti-related protein neurons and paraventricular nucleus corticotropin-releasing hormone neurons that regulates anxiety-like behavior under metabolic stress, with downstream recruitment of lateral hypothalamic area glutamatergic neurons to modulate feeding in a state-dependent manner. In vivo fiber photometry and ex vivo electrophysiology show that high-fat diet enhances activity and feeding-locked recruitment of this circuit, associated with increased anxiety-like behavior and feeding. Circuit-specific inhibition attenuates both phenotypes, whereas corticotropin-releasing hormone receptor 2 signaling in the lateral hypothalamic area selectively mediates high-fat diet-associated hyperphagia without affecting anxiety-like behavior. In this work, we show a disease-state-dependent hypothalamic circuit differentially recruited under chronic high-fat diet to coordinate anxiety-related behavior and feeding output, providing a framework for metabolic-affective interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0362dc5e5bdbdd0a4b68438a5434bb527bacd3e7b23fa7149f13bc28e1ee0bb6",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01415-w",
+        "https://openalex.org/W7162455076"
+      ],
+      "title": "Hard-to-detect mutations explain how common autoimmune diseases arise",
+      "link": "https://doi.org/10.1038/d41586-026-01415-w",
+      "pdf_url": null,
+      "publication_date": "2026-05-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "koralov sergei",
+          "name": "Sergei B. Koralov"
+        },
+        {
+          "key": "borbet timothy",
+          "name": "Timothy C. Borbet"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0364a5546a138e0b02031afc0f9011af2f070fe526c9ea16a64106a9be9806bc",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10937-2",
+        "https://openalex.org/W7205708254"
+      ],
+      "title": "Structure and operating principles of a monkeypox virus replisome",
+      "link": "https://doi.org/10.1038/s41586-026-10937-2",
+      "pdf_url": null,
+      "publication_date": "2026-09-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "yu zishuo",
+          "name": "Zishuo Yu"
+        },
+        {
+          "key": "pradeep sathyanarayana",
+          "name": "Pradeep Sathyanarayana"
+        },
+        {
+          "key": "joel tan",
+          "name": "Joel M. J. Tan"
+        },
+        {
+          "key": "hu side",
+          "name": "Side Hu"
+        },
+        {
+          "key": "fan xiaoyi",
+          "name": "Xiaoyi Fan"
+        },
+        {
+          "key": "angela gao",
+          "name": "Angela Gao"
+        },
+        {
+          "key": "kranzusch philip",
+          "name": "Philip J. Kranzusch"
+        },
+        {
+          "key": "joseph loparo",
+          "name": "Joseph J. Loparo"
+        },
+        {
+          "key": "abraham jonathan",
+          "name": "Jonathan Abraham"
+        }
+      ],
+      "abstract_text": "Abstract Poxviruses are double-stranded DNA viruses with large genomes. Among them, monkeypox virus (MPXV) has been responsible for two recent public health emergencies as declared by the World Health Organization 1 . The MPXV polymerase comprises three subunits—a catalytic subunit (F8) and a heterodimeric processivity factor (A22 and E4). The viral polymerase must coordinate activities with the hexameric helicase–primase (E5) to initiate replication of the viral genome 2 . Although structures of MPXV E5 (refs. 3,4 ) and the polymerase 5–7 in isolation are available, how they assemble into a functional replisome remains unclear. In isolation, E5 is in an autoinhibited conformation and has very weak helicase activity 3,4 , and the mechanism for helicase activation is unclear. Here we used cryo-electron microscopy to determine the structures of DNA-bound MPXV replisomes comprising the polymerase holoenzyme (F8, A22 and E4) and the E5 helicase hexamer. We show that, during replisome assembly, E5 undergoes large-scale conformational changes that allow two of its primase domains to interact with the polymerase F8 thumb and A22 subunit. Biochemical assays and single-molecule experiments reveal that this E5 conformational change is coupled to helicase activation and enhances primase activity. Taken together, these findings identify fundamental mechanisms governing coordinated helicase and polymerase activities during DNA replication for an important class of viral pathogens.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03677a33bcdd4aff9ade9cc13bf7dcb6d122acf82685dc21fd1b19247ee0ccc2",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69417-w",
+        "https://openalex.org/W7130420337"
+      ],
+      "title": "Quantum coupling in colloidal homodimers of epitaxially attached CdSe@CdS dot@platelets probed on single-particle level",
+      "link": "https://doi.org/10.1038/s41467-026-69417-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-69417-w_reference.pdf",
+      "publication_date": "2026-02-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "hairui lei",
+          "name": "Hairui Lei"
+        },
+        {
+          "key": "haiyan qin",
+          "name": "Haiyan Qin"
+        },
+        {
+          "key": "haixin lei",
+          "name": "Haixin Lei"
+        },
+        {
+          "key": "wang yuqing",
+          "name": "Yuqing Wang"
+        },
+        {
+          "key": "jiongzhao li",
+          "name": "Jiongzhao Li"
+        },
+        {
+          "key": "peng xiaogang",
+          "name": "Xiaogang Peng"
+        }
+      ],
+      "abstract_text": "Coupled quantum-dot (QD) dimers can be viewed as diatomic artificial molecules, thus offering a unique platform to study molecular physics and quantum phenomena. However, controlled synthesis of QD dimers has remained an outstanding experimental challenge, given necessary construction of hundreds of lattice bonds at the neck between two QDs with a unique attachment axis. Here, QD homodimers are synthesized in solution with a high yield by the epitaxial attachment of two monodisperse CdSe@CdS dot@platelet QDs along their common <11$$\\bar{2}$$0> axis. The exact construction of hundreds of lattice bonds in the epitaxial neck are enabled by the large (11$$\\bar{2}$$0) side facets with ideal lattice match between two epitaxial QDs and limited ligands passivation, resulting in controlled spacing between two core QDs (core-spacing). Single-particle spectroscopy reveals that the photoluminescence (PL) of single homodimer with a small core-spacing (7.8 nm) is split into two room-temperature resolvable peaks, consistent with strongly-split bonding and antibonding electron orbitals of “artificial diatomic molecules”. The two peaks of the split PL are orthogonally-polarized, and two types of molecular bi-excitons are observed for the homodimer. These advancements lay a viable foundation for controllable construction of “artificial molecules” in solution. Coupled homodimers of quantum dots can provide a platform for investigating quantum phenomena. Here, the authors synthesize homodimers in solution exhibiting two orthogonally polarized photoluminescence modes with two distinct types of biexcitons.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "036ad6e3118dc829c40cd064fce2648d6c4540d8430a7d2681da5624e0f9d02f",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10527-2",
+        "https://openalex.org/W7161823192"
+      ],
+      "title": "High-fidelity identification of guest species in porous materials",
+      "link": "https://doi.org/10.1038/s41586-026-10527-2",
+      "pdf_url": null,
+      "publication_date": "2026-05-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "feng qilong",
+          "name": "Qilong Feng"
+        },
+        {
+          "key": "liang wang",
+          "name": "Liang Wang"
+        },
+        {
+          "key": "li yuanhao",
+          "name": "Yuanhao Li"
+        },
+        {
+          "key": "xiaoqiu xu",
+          "name": "Xiaoqiu Xu"
+        },
+        {
+          "key": "yao yuan",
+          "name": "Yuan Yao"
+        },
+        {
+          "key": "liu yue",
+          "name": "Yue Liu"
+        },
+        {
+          "key": "li yonghe",
+          "name": "Yonghe Li"
+        },
+        {
+          "key": "sun tulai",
+          "name": "Tulai Sun"
+        },
+        {
+          "key": "changlin zheng",
+          "name": "Changlin Zheng"
+        },
+        {
+          "key": "li lina",
+          "name": "Lina Li"
+        },
+        {
+          "key": "hui jin",
+          "name": "Hui Jin"
+        },
+        {
+          "key": "chongzhi zhu",
+          "name": "Chongzhi Zhu"
+        },
+        {
+          "key": "jia zhao",
+          "name": "Jia Zhao"
+        },
+        {
+          "key": "guo peng",
+          "name": "Peng Guo"
+        },
+        {
+          "key": "li",
+          "name": "X X Li"
+        },
+        {
+          "key": "han yu",
+          "name": "Yu Han"
+        },
+        {
+          "key": "yihan zhu",
+          "name": "Yihan Zhu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "036cea881dc3cadecf1b440b87e8a33a52c7949364f9f4908ad0da4f23a04a07",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69297-0",
+        "https://openalex.org/W7128388812"
+      ],
+      "title": "Decoding phantom limb movements from intraneural recordings",
+      "link": "https://doi.org/10.1038/s41467-026-69297-0",
+      "pdf_url": null,
+      "publication_date": "2026-02-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "cecilia rossi",
+          "name": "Cecilia Rossi"
+        },
+        {
+          "key": "bumbaširević marko",
+          "name": "Marko Bumbaširević"
+        },
+        {
+          "key": "paul čvančara",
+          "name": "Paul Čvančara"
+        },
+        {
+          "key": "stieglitz thomas",
+          "name": "Thomas Stieglitz"
+        },
+        {
+          "key": "raspopović staniša",
+          "name": "Staniša Raspopović"
+        },
+        {
+          "key": "donati elisa",
+          "name": "Elisa Donati"
+        },
+        {
+          "key": "giacomo valle",
+          "name": "Giacomo Valle"
+        }
+      ],
+      "abstract_text": "Limb loss causes severe sensorimotor deficits and often necessitates prosthetic devices, particularly in lower-limb amputees. Although direct neural recording from residual nerves offers a biomimetic route for prosthetic control, low signal amplitudes and challenges in nerve interfacing have limited adoption. Intraneural multichannel electrodes provide a potential solution by enabling access to motor signals from muscles lost after amputation. Here, we report intraneural recordings from two transfemoral amputees using transversal intrafascicular multichannel electrodes implanted in distal branches of the sciatic nerve. We identified multiunit activity associated with volitional phantom movements of the knee, ankle, and toes, exhibiting joint- and direction-specific modulation distributed across electrodes. A Spiking Neural Network-based decoder outperformed conventional methods in predicting attempted movements, with further gains achieved by integrating intraneural and intermuscular signals. Motor and sensory maps showed minimal overlap, indicating early segregation within the sciatic nerve. These findings pave the way for bidirectional, neurally-controlled prosthetic systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0377654a0b79e59369c4902ce1561fffa56c41d7b17aadafc98937ccb90272fe",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-72293-z",
+        "https://openalex.org/W7161434866"
+      ],
+      "title": "Subsidence more than doubles sea-level rise today along densely populated coasts",
+      "link": "https://doi.org/10.1038/s41467-026-72293-z",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-72293-z.pdf",
+      "publication_date": "2026-05-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "julius oelsmann",
+          "name": "Julius Oelsmann"
+        },
+        {
+          "key": "james nicholls robert",
+          "name": "Robert James Nicholls"
+        },
+        {
+          "key": "daniël lincke",
+          "name": "Daniël Lincke"
+        },
+        {
+          "key": "marcos marta",
+          "name": "Marta Marcos"
+        },
+        {
+          "key": "manoochehr shirzaei",
+          "name": "Manoochehr Shirzaei"
+        },
+        {
+          "key": "laura sánchez",
+          "name": "Laura Sánchez"
+        },
+        {
+          "key": "leonard ohenhen osadebamwen",
+          "name": "Leonard Osadebamwen Ohenhen"
+        },
+        {
+          "key": "denise dettmering",
+          "name": "Denise Dettmering"
+        },
+        {
+          "key": "hinkel jochen",
+          "name": "Jochen Hinkel"
+        },
+        {
+          "key": "benjamin horton",
+          "name": "Benjamin P. Horton"
+        },
+        {
+          "key": "florian seitz",
+          "name": "Florian Seitz"
+        }
+      ],
+      "abstract_text": "Despite its strong influence on relative sea-level (RSL) rise, there is still low confidence in estimates of vertical land motion (VLM) and its contribution to RSL change. To address this problem, we synergize diverse VLM data, which now cover almost 65% of the coastal population, and are key to resolve small scale subsidence, including East, South, and Southeast Asian cities and populated deltaic regions, largely not covered by earlier geodetic measurements. We find that the average modern (1995-2020) global RSL rise experienced by coastal populations (6 mm/year) is about twice the climate-driven absolute sea-level rise. This reflects a strong tendency for higher rates of subsidence in densely populated areas, with 71% of the global coastal population living in subsiding regions. Paired with community efforts to extend consistent observations, these data are essential to ensure reliable estimates of present and future RSL rise to support risk and adaptation assessment.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0377900b7bfced55237b5277f7c7fe6cf474b2cb36e70700d8973a8c166f6bc5",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-64682-7",
+        "https://openalex.org/W4415913329"
+      ],
+      "title": "Targeting TAZ-TEAD in minimal residual disease enhances the duration of targeted therapy in melanoma models",
+      "link": "https://doi.org/10.1038/s41467-025-64682-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-64682-7.pdf",
+      "publication_date": "2025-11-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "connor ott",
+          "name": "Connor A. Ott"
+        },
+        {
+          "key": "purwin timothy",
+          "name": "Timothy J. Purwin"
+        },
+        {
+          "key": "chen panyu",
+          "name": "Panyu Chen"
+        },
+        {
+          "key": "chowdhury somenath",
+          "name": "Somenath Chowdhury"
+        },
+        {
+          "key": "george mellor",
+          "name": "George L. Mellor"
+        },
+        {
+          "key": "kristine luo",
+          "name": "Kristine Luo"
+        },
+        {
+          "key": "glenn mersky",
+          "name": "Glenn L. Mersky"
+        },
+        {
+          "key": "manoela tiago",
+          "name": "Manoela Tiago"
+        },
+        {
+          "key": "breaden madden",
+          "name": "W. D. Breaden Madden"
+        },
+        {
+          "key": "scott varney",
+          "name": "Scott D. Varney"
+        },
+        {
+          "key": "dan erkes",
+          "name": "Dan A. Erkes"
+        },
+        {
+          "key": "john lamar",
+          "name": "John M. Lamar"
+        },
+        {
+          "key": "capparelli claudia",
+          "name": "Claudia Capparelli"
+        },
+        {
+          "key": "bollag gideon",
+          "name": "Gideon E. Bollag"
+        },
+        {
+          "key": "andrew aplin",
+          "name": "Andrew E. Aplin"
+        }
+      ],
+      "abstract_text": "Targeted therapies in cancer are limited by cells exhibiting drug tolerance. We aimed to target drug tolerance in order to delay the development of acquired resistance. In melanoma, tolerance to MAPK pathway inhibitors is associated with loss of SOX10 and an enhanced TEAD transcriptional program. We show that loss of SOX10 is sufficient to up-regulate TEAD targets with dependence on the co-activator, TAZ. Active TAZ is sufficient to mediate tolerance to BRAF inhibitors and MEK inhibitors. We develop two covalent inhibitors, OPN-9643 and OPN-9652, designed to target the central palmitate binding pocket of TEADs. In SOX10-deficient cells, OPN-9643 and OPN-9652 reduce TEAD-dependent reporter activity and expression of TEAD targets, CTGF and CYR61. OPN-9643 and OPN-9652 treatment enhances the inhibitory effects of MAPK-targeted therapies in 2D and 3D growth assays in SOX10 knockout cells and reverses tolerance mediated by active TAZ. In vivo, OPN-9652 delays the onset of acquired resistance to BRAF inhibitors and MEK inhibitors from minimal residual disease. Thus, TAZ-TEAD activity plays an important role in melanoma drug tolerance and the development of acquired resistance.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "037bdb22a5bccf9344a2affdfdd05f19ef43e406da5e75415d1bf656d81fd119",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71982-z",
+        "https://openalex.org/W7153001929"
+      ],
+      "title": "Author Correction: Advances, challenges and prospects of origami and kirigami optoelectronics",
+      "link": "https://doi.org/10.1038/s41467-026-71982-z",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-71982-z.pdf",
+      "publication_date": "2026-04-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "donggyun lee",
+          "name": "Donggyun Lee"
+        },
+        {
+          "key": "bon kim su",
+          "name": "Su-Bon Kim"
+        },
+        {
+          "key": "junho kim",
+          "name": "Junho Kim"
+        },
+        {
+          "key": "seunghyup yoo",
+          "name": "Seunghyup Yoo"
+        }
+      ],
+      "abstract_text": "In the version of this article initially published, there was an error in the Box 1 figure, “Origami” section, where “[22] Original perovskite photodetector” appeared originally as “[20] Original hemispherical photodetector,” and an error in the “Origami + Kirigami” section, where “[101, 183] Original perovskite photodetector” appeared originally as “[183, 184] Graphene-based 3D LED display.” In the “Considerations for actuation, mechanical degree of freedom (DOF), and scaling-down” section, in the text now reading “Notable examples of such mechanisms include humidity-responsive strategies that leverage swelling or contraction caused by water absorption 133,134 , light-driven configurations utilizing photothermal effects 135–137 ,” the ref. citations originally read “133–135” and “136,137,” respectively. The article originally listed as ref. 177 was incorrect and has been replaced by Cho, J. et al. Nanoscale origami for 3D optics. Small 7 , 1943–1948 (2011). The changes are made in the HTML and PDF versions of the article.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "037fef99d622abee51fcb02b2608b65ba71f502be52289687e62f0a9e1bd2179",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66806-5",
+        "https://openalex.org/W7117308641"
+      ],
+      "title": "Mechanochemical ligand-controlled regiodivergent hydroarylation of alkenes via iron-catalyzed C−H activation",
+      "link": "https://doi.org/10.1038/s41467-025-66806-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-66806-5_reference.pdf",
+      "publication_date": "2025-12-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "jing zhang zi",
+          "name": "Zi-Jing Zhang"
+        },
+        {
+          "key": "liu ziyue",
+          "name": "Ziyue Liu"
+        },
+        {
+          "key": "chen xinran",
+          "name": "Xinran Chen"
+        },
+        {
+          "key": "ackermann lutz",
+          "name": "Lutz Ackermann"
+        }
+      ],
+      "abstract_text": "The iron-catalyzed hydroarylation of alkenes with indoles is a sustainable, effective synthetic transformation towards the construction of functionalized indoles - crucial motifs for various bioactive molecules and drug candidates. However, such transformations have proven challenging for unactivated alkenes, and the requirement for (super)stoichiometric amounts of reactive Grignard reagents has limited broader applications. Herein, we address these major challenges by integrating iron/N-heterocyclic carbene-catalyzed C-H activation with mechanochemistry techniques. This approach enables mechanochemical iron-catalyzed anti-Markovnikov hydroarylations of unactivated alkenes using a bis(N-heterocyclic carbene) ligand, as well as regiodivergent hydroarylation of aryl alkenes by varying the N-heterocyclic carbene ligand. To this end, magnesium metal serves as a convenient reductant to form catalytically active iron(0) species by mechanochemistry, thereby improving the sustainability and functional group compatibility. Experimental and computational studies elucidate the possible catalytic mode of action, and a data science analysis captured the key features of the N-heterocyclic carbene ligands in controlling regiodivergent selectivity.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03816111ebada10346f5ee3e37985b0f8debfe06673dfd9e8b799f924273012b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.17.759814v1",
+        "https://doi.org/10.64898/2026.10.17.759814",
+        "https://www.biorxiv.org/content/early/2026/10/22/2026.10.17.759814.source.xml"
+      ],
+      "title": "TACTIC: hybrid denoising and clustering for robust 16S amplicon diversity estimates",
+      "link": "https://doi.org/10.64898/2026.10.17.759814",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759814v1.full.pdf",
+      "publication_date": "2026-10-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "pourjam",
+          "name": "Pourjam, M"
+        },
+        {
+          "key": "sewald",
+          "name": "Sewald, Z"
+        },
+        {
+          "key": "kioukis",
+          "name": "Kioukis, A"
+        },
+        {
+          "key": "list",
+          "name": "List, M"
+        },
+        {
+          "key": "neuhaus",
+          "name": "Neuhaus, K"
+        },
+        {
+          "key": "lagkouvardos",
+          "name": "Lagkouvardos, I"
+        }
+      ],
+      "abstract_text": "Denoising algorithms for analyzing 16S rRNA amplicon data, such as UNOISE3 and DADA2, recover error-corrected sequence variants and enhance resolution by preserving single-nucleotide variation in contrast to previous clustering-based methods. However, sequence-level resolution does not necessarily capture species-level ecological diversity. Variability at both the intra-genomic and intra-species levels within 16S rRNA genes may split a single species into multiple inferred sequence variants (i.e., zOTUs), thereby inflating estimates of microbial diversity. Using 16S rRNA sequences from the All-Species Living Tree Project (LTP) and Greengenes2 databases, we demonstrated that relying solely on sequence variation inflates species-level ecological diversity. We used sequence length to introduce variation and observed an increase in richness when using sequence diversity, particularly in cases where within-species redundancy existed in the database. Moreover, we analyzed and illustrated the amplifying effect of within-species sequence variation on inferred alpha and beta diversity across 27 V4 Illumina sequencing runs from 11 mock communities of known composition. Within-species splits, caused or picked up by denoising algorithms, inflated inferred richness and phylogeny-agnostic distances (i.e., Jaccard, weighted Jaccard, and Bray-Curtis) to the expected compositions. Post-denoising clustering reduced inflation in diversity estimates, thereby reducing the bias introduced by dissimilarity measures and converging distance values. We propose that denoising and clustering should be viewed as two complementary measures for biological resolution. We introduce TACTIC, a 16S rRNA amplicon analysis tool that offers operational taxonomic unit (OTU) clustering (UPARSE) and zOTU inference (UNOISE3), as well as two hybrid post-denoising clustering strategies that overcome the limitations of each approach: Taxonomy-Informed Clustering (TIC) and Taxonomy-Agnostic Clustering (TAC).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0384b4296c424366952e05f6d853f709bca1ea11f30504d5c72e4644cf6585a1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66657-0",
+        "https://openalex.org/W4416540452"
+      ],
+      "title": "Alternating current pre-treatment enhances multi-enzymatic activity of high-entropy alloy nanozymes that regulate metabolism for effective tumor immunotherapy",
+      "link": "https://doi.org/10.1038/s41467-025-66657-0",
+      "pdf_url": null,
+      "publication_date": "2025-11-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "danyang li",
+          "name": "Danyang Li"
+        },
+        {
+          "key": "enna ha",
+          "name": "Enna Ha"
+        },
+        {
+          "key": "yaoyao zhu",
+          "name": "Yaoyao Zhu"
+        },
+        {
+          "key": "zhenli zhou",
+          "name": "Zhenli Zhou"
+        },
+        {
+          "key": "li yan",
+          "name": "Yan Li"
+        },
+        {
+          "key": "he shuqing",
+          "name": "Shuqing He"
+        },
+        {
+          "key": "kuang shaolong",
+          "name": "Shaolong Kuang"
+        },
+        {
+          "key": "lihai zhang",
+          "name": "Lihai Zhang"
+        },
+        {
+          "key": "hu junqing",
+          "name": "Junqing Hu"
+        }
+      ],
+      "abstract_text": "Nanozymes capable of inducing metabolic reprogramming and activating the immune response without external stimuli in vivo are highly pursued for malignant tumor therapy. In this paper, a PtIrFeMoZn high-entropy alloy (HEA) nanozyme is designed and synthesized via a simple one-step hydrothermal method. The HEA nanozymes not only trigger apoptosis and ferroptosis via cascade biocatalysis, thereby enhancing immunogenicity, but also enhance the immune effect by targeting the glycolytic pathway. It is worth mentioning that a simple pre-treatment of nanozymes by alternating current (AC) yielded much better therapeutic and immuno-effect. The ‘AC-treated’ nanozymes exhibit an excellent synergy of peroxidase-like (POD-like), myeloperoxidase-like (MPO-like), and glutathione peroxidase-like (GPx-like) activities, generating a sufficient reactive oxygen species (ROS) storm. Additionally, two immune pathways (ICD and the cGAS-STING) are activated simultaneously. Furthermore, the production of HClO and the depletion of NADH can regulate metabolism, further disrupting the equilibrium of the glycolysis process. This not only increases the cell death but also enhances the immune response in female tumor-bearing mice. This study proposes a multi-pronged therapeutic strategy that can significantly activate anti-tumor immunotherapeutic effects through ROS storm, GSH/NADH oxidation, and lactate/ATP depletion, triggering apoptosis/ferroptosis/immunotherapy. These findings hold significant promise for inspiring the development of HEA nanozymes for tumor immunotherapy. Nanozymes that can activate immune response without external stimuli could benefit malignant tumor therapy. Here, the authors report high-entropy alloy nanozymes that allow a multi-pronged strategy for activating anti-tumor immunotherapeutic effects, and reveal that using alternating current to pre-treat these nanozymes before in vivo administration can enhance the therapeutic and immuno-effect.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "038d632a9ee0f4082b5606fb518ab862a5f40ca78a0d531bfdc88a509dc76f45",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77436-w",
+        "https://openalex.org/W7126174966"
+      ],
+      "title": "Catalytic Asymmetric Spiroannulation to Access Polycyclic Spiro Enones via Transient Axial-to-Point Chirality Induction and Transfer",
+      "link": "https://doi.org/10.1038/s41467-026-77436-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77436-w_reference.pdf",
+      "publication_date": "2026-09-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "qian wang",
+          "name": "Qian Wang"
+        },
+        {
+          "key": "peichao zhang",
+          "name": "Peichao Zhang"
+        },
+        {
+          "key": "hua huang mei",
+          "name": "Mei-Hua Huang"
+        },
+        {
+          "key": "wen zhang",
+          "name": "Wen-Wen Zhang"
+        },
+        {
+          "key": "liu yu",
+          "name": "Yu Liu"
+        },
+        {
+          "key": "junliang zhang",
+          "name": "Junliang Zhang"
+        }
+      ],
+      "abstract_text": "Abstract Chiral spirocycles exhibit tremendous potential in drug discovery and asymmetric synthesis, owing to their unique three-dimensional rigid framework and superior stability. However, stereoselective construction of polycyclic spiro compounds through a single catalytic transformation remains significant and enduring challenge, owing to steric hindrance and electronic effects. Here we report a Pd/Sadphos-catalyzed dynamic kinetic asymmetric cascade Heck/Tsuji–Trost dearomative spiroannulation of racemic phenolic biaryls with 1,3-cyclohexadienes via transient axial-to-point chirality induction and transfer. A variety of valuable polycyclic spiro enones bearing three contiguous tertiary/quaternary stereocenters were afforded with excellent regio-, diastereo- and enantioselectivity. Moreover, in vitro experiments suggested that these multifunctional spiro enones have the potential to be lead compounds for anti-inflammatory drugs.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03920c102b35876c8d188f46b12bc6b5d840048f6b59fec2e7176c3b29e5b393",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66235-4",
+        "https://openalex.org/W7119482078"
+      ],
+      "title": "Identification of ACBP as a potential target in ciliopathic obesity through multi-omics network analysis",
+      "link": "https://doi.org/10.1038/s41467-025-66235-4",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-66235-4_reference.pdf",
+      "publication_date": "2026-01-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "corral nieto yaiza",
+          "name": "Yaiza Corral Nieto"
+        },
+        {
+          "key": "amanda fernández gabrielly pereira",
+          "name": "Amanda Gabrielly Fernández Pereira"
+        },
+        {
+          "key": "laura pedro san ventura",
+          "name": "Laura Ventura-San Pedro"
+        },
+        {
+          "key": "belén paredes sonia",
+          "name": "Sonia Belén Paredes"
+        },
+        {
+          "key": "ana cobas elena pérez",
+          "name": "Ana Elena Pérez‐Cobas"
+        },
+        {
+          "key": "lanzón maría pérez",
+          "name": "María Pérez-Lanzón"
+        },
+        {
+          "key": "durand sylvère",
+          "name": "Sylvère Durand"
+        },
+        {
+          "key": "cruz moreno paula",
+          "name": "Paula Moreno-Cruz"
+        },
+        {
+          "key": "laura manrique",
+          "name": "Laura Manrique"
+        },
+        {
+          "key": "benítez fernández rocío",
+          "name": "Rocío Benítez‐Fernández"
+        },
+        {
+          "key": "hector lassalle leal",
+          "name": "Hector Leal-Lassalle"
+        },
+        {
+          "key": "alexandrowna nevzorova yulia",
+          "name": "Yulia Alexandrowna Nevzorova"
+        },
+        {
+          "key": "cubero francisco javier",
+          "name": "Francisco Javier Cubero"
+        },
+        {
+          "key": "alechaga élida",
+          "name": "Élida Alechaga"
+        },
+        {
+          "key": "pozo óscar",
+          "name": "Óscar J. Pozo"
+        },
+        {
+          "key": "boya patricia",
+          "name": "Patricia Boya"
+        },
+        {
+          "key": "fuentes josé manuel",
+          "name": "José Manuel Fuentes"
+        },
+        {
+          "key": "sica valentina",
+          "name": "Valentina Sica"
+        },
+        {
+          "key": "guido kroemer",
+          "name": "Guido Kroemer"
+        },
+        {
+          "key": "bravo josé manuel pedro san",
+          "name": "José Manuel Bravo‐San Pedro"
+        }
+      ],
+      "abstract_text": "Ciliopathies are genetic disorders characterized by defective primary cilia function, with obesity as a clinical manifestation in certain cases, including Alström syndrome, which is caused by ALMS1 mutations. The link between cilia and lipid metabolism remains poorly understood, but evidence suggests a role for impaired autophagy. Autophagy affects both intra- and extracellular levels of ACBP, which can act as an obesogenic factor. Our multi-omics study reveals early hepatic dyslipidemia, impaired autophagy, and hepatic accumulation of ACBP in presymptomatic male mice lacking Alms1 gene. These conditions are consistent with the obesogenic phenotype and with alterations in the gut microbiota that manifest as the mice age and develop obesity. Importantly, reducing excessive ACBP with a neutralizing monoclonal antibody limits weight gain and metabolic defects in Alms1-/- mice in an autophagy-independent manner. Altogether, the data support the idea that ciliopathy-associated obesity, particularly Alström syndrome, may be mitigated by ACBP neutralization. Alström syndrome (AöS) is a rare genetic disorder characterized by metabolic problems. Here, the authors show that in AöS models, defects in cilia and autophagy lead to ACBP accumulation, which drives obesity. An anti-ACBP antibody reduces weight gain and metabolic dysfunction, highlighting ACBP as a therapeutic target for this ciliopathy.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "039c64261ade8bc42beecb7749d91aece6b514e445aef047c399da566c0191e3",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10356-3",
+        "https://openalex.org/W4414689485"
+      ],
+      "title": "High-fidelity collisional quantum gates with fermionic atoms",
+      "link": "https://doi.org/10.1038/s41586-026-10356-3",
+      "pdf_url": "https://www.nature.com/articles/s41586-026-10356-3.pdf",
+      "publication_date": "2026-04-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "bojović petar",
+          "name": "Petar Bojović"
+        },
+        {
+          "key": "hilker timon",
+          "name": "Timon Hilker"
+        },
+        {
+          "key": "si wang",
+          "name": "Si Wang"
+        },
+        {
+          "key": "johannes obermeyer",
+          "name": "Johannes Obermeyer"
+        },
+        {
+          "key": "barendregt marnix",
+          "name": "Marnix Barendregt"
+        },
+        {
+          "key": "dorothee tell",
+          "name": "Dorothee Tell"
+        },
+        {
+          "key": "chalopin thomas",
+          "name": "Thomas Chalopin"
+        },
+        {
+          "key": "philipp preiss",
+          "name": "Philipp M. Preiss"
+        },
+        {
+          "key": "bloch immanuel",
+          "name": "Immanuel Bloch"
+        },
+        {
+          "key": "franz titus",
+          "name": "Titus Franz"
+        }
+      ],
+      "abstract_text": "Abstract Quantum simulations of electronic structure and strongly correlated quantum phases are among the most promising applications of quantum computing. These computations benefit from native fermionic encodings 1,2 , enforcing fermionic statistics and conservation laws such as particle number and magnetization 3 independent of gate errors. While ultracold atoms in optical lattices have become established as powerful analogue simulators of strongly correlated fermionic matter 4–7 , neutral-atom platforms have concurrently emerged as versatile, scalable architectures for spin-based digital quantum computation 8 . Unifying these capabilities requires high-fidelity motionally coherent gates for fermionic atoms 9–11 , similar to collisional gates in bosonic systems 12,13 , paving the way for programmable fermionic quantum processors. Here we demonstrate collisional entangling gates with fidelities up to 99.75(6)% and Bell-state lifetimes exceeding 10 s, realized by means of controlled interactions of fermionic atoms in an optical superlattice. Using quantum gas microscopy 14 , we microscopically characterize spin-exchange and pair-tunnelling gates and realize a robust composite pair-exchange gate, a key building block for quantum chemistry simulations 3,15 . Our results establish controlled collisions in optical lattices as a competitive and complementary route to high entangling gate fidelities in neutral-atom quantum computers. Operating intrinsically with fermions, this capability naturally extends to many-qubit architectures, in which fermionic statistics become relevant, enabling complex state preparation and advanced readout 16–19 in scalable analogue–digital hybrid quantum simulators. Combined with local addressing 20,21 , these gates mark a crucial step towards a fully digital fermionic quantum computer based on controlled motion and entanglement of neutral atoms.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03a62f272537cacda230f2cb0262b36cbd76ca70909a848f3f108dfb04950bbd",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-64893-y",
+        "https://openalex.org/W4416142851"
+      ],
+      "title": "Nickel-catalyzed arylative telomerization of isoprene",
+      "link": "https://doi.org/10.1038/s41467-025-64893-y",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-64893-y.pdf",
+      "publication_date": "2025-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "wang xiaoyu",
+          "name": "Xiaoyu Wang"
+        },
+        {
+          "key": "bingzhi chen",
+          "name": "Bingzhi Chen"
+        },
+        {
+          "key": "su xu yang",
+          "name": "Su-Yang Xu"
+        },
+        {
+          "key": "li xueting",
+          "name": "Xueting Li"
+        },
+        {
+          "key": "liu yan",
+          "name": "Yan Liu"
+        },
+        {
+          "key": "ding ji wei",
+          "name": "Ding‐Wei Ji"
+        },
+        {
+          "key": "an chen qing",
+          "name": "Qing‐An Chen"
+        }
+      ],
+      "abstract_text": "Developing new transformations of bulky chemicals is an important approach to expand the reaction boundary of current chemistry. Instead of traditional hydroarylation of dienes, we herein demonstrate a nickel-catalyzed arylative telomerization of isoprene with high chemo- and regioselectivities. By utilizing a bulky mono-phosphine ligand, a range of structurally diverse aryl substituted terpenes are created efficiently under redox-neutral conditions. Preliminary mechanistic studies suggest this telomerization proceeds through an oxidative cyclometallation of isoprene with Ni(0) species followed by arylation with organoboron reagents. Beyond enabling efficient isoprene transformation, this work also provides a supplementary approach for the monoterpenoids synthesis. Developing new transformations of bulky chemicals is an important approach to expand the horizons of current chemistry. Instead of traditional hydroarylation of dienes, the authors herein demonstrate a nickel-catalyzed arylative telomerization of isoprene with high chemo- and regioselectivities.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03a7c0cce0df12840698d0a7d7061519bb905c7a70c08cf5265f8af73215c6aa",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10969-8",
+        "https://openalex.org/W7205707954"
+      ],
+      "title": "Pines grow faster and are more drought resilient in the Southern Hemisphere",
+      "link": "https://doi.org/10.1038/s41586-026-10969-8",
+      "pdf_url": null,
+      "publication_date": "2026-09-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "alex fajardo",
+          "name": "Alex Fajardo"
+        },
+        {
+          "key": "antonio gazol",
+          "name": "Antonio Gazol"
+        },
+        {
+          "key": "camarero julio",
+          "name": "J. Julio Camarero"
+        },
+        {
+          "key": "gundale michael",
+          "name": "Michael J. Gundale"
+        },
+        {
+          "key": "piper",
+          "name": "F. I. Piper"
+        },
+        {
+          "key": "brewer stephen",
+          "name": "J. Stephen Brewer"
+        },
+        {
+          "key": "buxton rowan",
+          "name": "Rowan P. Buxton"
+        },
+        {
+          "key": "cieraad ellen",
+          "name": "Ellen Cieraad"
+        },
+        {
+          "key": "alejandro dezzotti",
+          "name": "Alejandro Dezzotti"
+        },
+        {
+          "key": "cortés fernández ángel",
+          "name": "Ángel Fernández‐Cortés"
+        },
+        {
+          "key": "florian goedecke",
+          "name": "Florian Goedecke"
+        },
+        {
+          "key": "andrés de gonzález éster",
+          "name": "Éster González de Andrés"
+        },
+        {
+          "key": "klopper kritzinger suzaan",
+          "name": "Suzaan Kritzinger‐Klopper"
+        },
+        {
+          "key": "ari laurén",
+          "name": "Ari Laurén"
+        },
+        {
+          "key": "carlos juan llancabure",
+          "name": "Juan Carlos Llancabure"
+        },
+        {
+          "key": "anne mcintosh",
+          "name": "Anne C.S. McIntosh"
+        },
+        {
+          "key": "milani tomás",
+          "name": "Tomás Milani"
+        },
+        {
+          "key": "jaime moyano",
+          "name": "Jaime Moyano"
+        },
+        {
+          "key": "andrés martín nuñez",
+          "name": "Martín Andrés Nuñez"
+        },
+        {
+          "key": "marjo palviainen",
+          "name": "Marjo Palviainen"
+        },
+        {
+          "key": "duane peltzer",
+          "name": "Duane A. Peltzer"
+        },
+        {
+          "key": "bahamonde claudia reyes",
+          "name": "Claudia Reyes‐Bahamonde"
+        },
+        {
+          "key": "lina rinne",
+          "name": "Lina Rinne"
+        },
+        {
+          "key": "anna sala",
+          "name": "Anna Sala"
+        },
+        {
+          "key": "paul robert skelton",
+          "name": "Robert Paul Skelton"
+        },
+        {
+          "key": "cristina valeriano",
+          "name": "Cristina Valeriano"
+        },
+        {
+          "key": "callaway ragan",
+          "name": "Ragan M. Callaway"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03a7d4bd73a80abb74088ae211fff294c5a09bfac51cbf3a0d7696a0e592ca74",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74304-5",
+        "https://openalex.org/W7164309843"
+      ],
+      "title": "High-throughput Raman-activated cell sorting of microalgal genome-wide edited library revealed a regulatory pathway for carotenoid synthesis",
+      "link": "https://doi.org/10.1038/s41467-026-74304-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74304-5_reference.pdf",
+      "publication_date": "2026-06-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "qintao wang",
+          "name": "Qintao Wang"
+        },
+        {
+          "key": "gong yanhai",
+          "name": "Yanhai Gong"
+        },
+        {
+          "key": "lianhong wang",
+          "name": "Lianhong Wang"
+        },
+        {
+          "key": "lv nana",
+          "name": "Nana Lv"
+        },
+        {
+          "key": "du xuefeng",
+          "name": "Xuefeng Du"
+        },
+        {
+          "key": "jiashun zhang",
+          "name": "Jiashun Zhang"
+        },
+        {
+          "key": "xin yi",
+          "name": "Yi Xin"
+        },
+        {
+          "key": "nikoloski zoran",
+          "name": "Zoran Nikoloski"
+        },
+        {
+          "key": "beisson li yonghua",
+          "name": "Yonghua Li‐Beisson"
+        },
+        {
+          "key": "luyang sun",
+          "name": "Luyang Sun"
+        },
+        {
+          "key": "bo ma",
+          "name": "Bo Ma"
+        },
+        {
+          "key": "wang xixian",
+          "name": "Xixian Wang"
+        },
+        {
+          "key": "jian xu",
+          "name": "Jian Xu"
+        }
+      ],
+      "abstract_text": "Abstract Functional genomics has been hampered by the paucity of efficient methods that connect genotype and metabolic phenotype at single-cell resolution. Using the industrial microalga Nannochloropsis oceanica as a model, we introduced a platform that comprises a genome-wide single-gene-edited mutant library and high-throughput Raman-activated Cell Sorting (RACS). The CRISPR/Cas-generated library consists of 3,567 microalgal mutants derived from 2,397 effective guide RNAs. Label-free sorting of the library for high carotenoid content by RACS unravels mutations in the violaxanthin de-epoxidase ( noVDE ) or in the proteasome assembly chaperone 4 ( noPAC4 ) genes. Knocking out all five known noVDE s reveal that the high carotenoid content is due to violaxanthin increase, whilst noPAC4 knockout boosted carotenoid content with elevations in violaxanthin, zeaxanthin, and β-carotene. Genetic and transcriptomic evidences suggest two previously unknown modes of carotenogenesis regulation mediated by noPAC4: epigenetic mechanisms via histone deacetylase (HDAC) and post-translational controls by the 26S proteasome. Therefore, by label-freely sorting single-cell metabolic phenotype and rapidly yet unambiguously tracing it to a genotype, this new forward-genetics approach can greatly accelerate the discovery of new genes and pathways.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03a91d2c0d62ff217d9e6d81f1f8ddd9b25144e57cfac347c76cc58d7e4fdd5d",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-65315-9",
+        "https://openalex.org/W4415660146"
+      ],
+      "title": "Regulation of ADP-ribosyltransferase activity by ART domain dimerization in PARP15",
+      "link": "https://doi.org/10.1038/s41467-025-65315-9",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-65315-9.pdf",
+      "publication_date": "2025-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "carmen ebenwaldner",
+          "name": "Carmen Ebenwaldner"
+        },
+        {
+          "key": "antonio garcía ginés saura",
+          "name": "Antonio Ginés García-Saura"
+        },
+        {
+          "key": "ekström simon",
+          "name": "Simon Ekström"
+        },
+        {
+          "key": "bernfur katja",
+          "name": "Katja Bernfur"
+        },
+        {
+          "key": "martin moche",
+          "name": "Martin Moche"
+        },
+        {
+          "key": "derek logan",
+          "name": "Derek T. Logan"
+        },
+        {
+          "key": "cohen michael",
+          "name": "Michael S. Cohen"
+        },
+        {
+          "key": "herwig schuler",
+          "name": "Herwig Schuler"
+        }
+      ],
+      "abstract_text": "Abstract PARP15 is a mono-ADP-ribosyltransferase with unknown functions. Its evolutionary relationship with PARP14 suggests roles in antiviral defense; its ability to modify RNA and localization to stress granules point to functions in the regulation of translation. PARP15 also modifies itself and other proteins using its ADP-ribosyltransferase (ART) domain and contains two macrodomains predicted to bind ADP-ribosyl on targets. We used biochemical and biophysical analysis to study how the ADP-ribosyltransferase activity of PARP15 is regulated. Here we show that the catalytic domain of PARP15 dimerizes with mid-nanomolar affinity, forming the same dimer interface in solution that had already been captured by X-ray crystallography of the domain. Furthermore, we show that the formation of dimers is a prerequisite for catalytic activity and that monomeric mutant variants of the domain were catalytically inactive. Our findings suggest a regulatory mechanism by which dimerization is linked to either target engagement or placement of a catalytic residue, rather than NAD+ co-substrate binding, and by which the two protomers of the dimer operate independent of one another. Together, our results uncover a novel mechanism of regulation in a PARP family enzyme, which might inspire new avenues of pharmacological intervention.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03aa4e686f5a75786b4b1b468aadd2326f130a8349957a8f71739ae2b79d6b82",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-72341-8",
+        "https://openalex.org/W7155721982"
+      ],
+      "title": "A family of ribosome hibernation factors widespread in Archaea",
+      "link": "https://doi.org/10.1038/s41467-026-72341-8",
+      "pdf_url": null,
+      "publication_date": "2026-04-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "clément madru",
+          "name": "Clément Madru"
+        },
+        {
+          "key": "bourgeois gabrielle",
+          "name": "Gabrielle Bourgeois"
+        },
+        {
+          "key": "dulermo rémi",
+          "name": "Rémi Dulermo"
+        },
+        {
+          "key": "capeyrou régine",
+          "name": "Régine Capeyrou"
+        },
+        {
+          "key": "gwendoline joncour",
+          "name": "Gwendoline Joncour"
+        },
+        {
+          "key": "figuigui karima",
+          "name": "Karima Figuigui"
+        },
+        {
+          "key": "duchateau magalie",
+          "name": "Magalie Duchateau"
+        },
+        {
+          "key": "chamot julia rooke",
+          "name": "Julia Chamot‐Rooke"
+        },
+        {
+          "key": "claire duboc",
+          "name": "Claire Duboc"
+        },
+        {
+          "key": "haridon stéphane",
+          "name": "Stéphane L’Haridon"
+        },
+        {
+          "key": "logan mc teer",
+          "name": "Logan Mc Teer"
+        },
+        {
+          "key": "kwapisz marta",
+          "name": "Marta Kwapisz"
+        },
+        {
+          "key": "béatrice clouet orval",
+          "name": "Béatrice Clouet-d’Orval"
+        },
+        {
+          "key": "bouvier marie",
+          "name": "Marie Bouvier"
+        },
+        {
+          "key": "méchulam yves",
+          "name": "Yves Méchulam"
+        },
+        {
+          "key": "borrel guillaume",
+          "name": "Guillaume Borrel"
+        },
+        {
+          "key": "emmanuelle schmitt",
+          "name": "Emmanuelle Schmitt"
+        },
+        {
+          "key": "didier flament",
+          "name": "Didier Flament"
+        }
+      ],
+      "abstract_text": "Ribosome hibernation preserves translation machinery during stress, yet its mechanisms in Archaea remain poorly defined. Using cryo-EM analysis, we studied hibernation pathways in Pyrococcus abyssi stressed cells. We identified HibA, a previously unrecognized family of hibernation factors widespread in Archaea. HibA consists of a bacterial-like HPF/RaiA domain fused to a Cystathionine Beta Synthase module. Unexpectedly, HibA binds to the ribosome in three different conformations, occupying the A, P and E sites of tRNAs, as well as that of mRNA, enhancing its ability to protect the ribosome from degradation. Idle ribosomes also frequently accumulate the archaeal homolog of eukaryotic ribosome maturation protein SBDS (aSBDS), suggesting that stressed archaeal cells may engage parallel hibernation routes in which aSBDS can complement HibA. Deletion of hibA in Thermococcus barophilus delays recovery from stationary phase and reduces 70S ribosome pools, establishing its role in ribosome preservation. Taxonomic profiling shows that many archaeal lineages encode distinct repertoires of ribosome-associated protection factors, underscoring the modular and multi-layered nature of archaeal hibernation systems. In addition, a comprehensive phylogenetic analysis highlights the evolutionary relationships between prevalent ribosome hibernation factors across Bacteria and Archaea.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03acf40189ec350772e7c0039d2a094d8d68cab2f8f160d277cd72320e93c1d6",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69555-1",
+        "https://openalex.org/W7128912783"
+      ],
+      "title": "GLP-1 activates KATP channels in coronary pericytes as the effector of brain-gut-heart signalling mediating cardioprotection",
+      "link": "https://doi.org/10.1038/s41467-026-69555-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-69555-1_reference.pdf",
+      "publication_date": "2026-02-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "mastitskaya svetlana",
+          "name": "Svetlana Mastitskaya"
+        },
+        {
+          "key": "de felipe freitas santos simões",
+          "name": "Felipe Santos Simões de Freitas"
+        },
+        {
+          "key": "evans lowri",
+          "name": "Lowri Evans"
+        },
+        {
+          "key": "attwell david",
+          "name": "David Attwell"
+        }
+      ],
+      "abstract_text": "Abstract Failure to reperfuse the coronary microvasculature (“no-reflow”) affects up to 50% of patients after unblocking a coronary artery that was causing ischaemia and acute myocardial infarction. This “no-reflow” is associated with reduced left ventricular ejection fraction, increased infarct size, and death. We show that the incretin GLP-1 (glucagon-like peptide 1) can be used to protect the heart after ischemia by activating ATP-gated K + channels on pericytes that constrict coronary capillaries. Coronary capillary dilation can be activated pharmacologically or by vagally-mediated GLP-1 release from the gut evoked by skeletal muscle ischemia, and is abolished by block or genetic deletion of pericyte K ATP channels. These results define a brain-gut-heart pathway mediating cardioprotection and suggest pharmacological therapies to reduce ischaemia-induced coronary no-reflow and improve post-infarct recovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03af9b65a74e5018d5eb27ee0bae6716e076e3c9b6021dca6452544d3a8a7a8f",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76083-5",
+        "https://openalex.org/W7171809770"
+      ],
+      "title": "Cardiovascular outcome of glucagon-like peptide-1 receptor agonists vs dipeptidyl peptidase-4 inhibitor on end-stage kidney disease patients with heart failure: an emulated target trial in patients with diabetes",
+      "link": "https://doi.org/10.1038/s41467-026-76083-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76083-5_reference.pdf",
+      "publication_date": "2026-07-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "liu po yi",
+          "name": "Po-Yi Liu"
+        },
+        {
+          "key": "chao kuei shih",
+          "name": "Chao-Kuei Shih"
+        },
+        {
+          "key": "chun hsieh hsing miyuki",
+          "name": "Miyuki Hsing‐Chun Hsieh"
+        },
+        {
+          "key": "ching chun lin",
+          "name": "Ching‐Chun Lin"
+        },
+        {
+          "key": "liu",
+          "name": "C L Liu"
+        },
+        {
+          "key": "cheng chia edward lai",
+          "name": "Edward Chia‐Cheng Lai"
+        },
+        {
+          "key": "chung li yi",
+          "name": "Chung‐Yi Li"
+        },
+        {
+          "key": "chih hen yu",
+          "name": "Chih-Hen Yu"
+        },
+        {
+          "key": "junne ming sung",
+          "name": "Junne‐Ming Sung"
+        }
+      ],
+      "abstract_text": "Abstract Globally, an estimated 4.6 million individuals live with end-stage renal disease (ESRD), with cardiovascular disease the leading cause of death. Heart failure (HF) affects over one-third of dialysis patients, yet effective therapies remain scarce as trials largely excluded this population. Using TriNetX, we emulated a target trial comparing glucagon-like peptide-1 receptor agonists (GLP-1RAs) with dipeptidyl peptidase-4 inhibitors (DPP-4is) in ESRD patients with HF. Among 5,087 eligible patients, 1:1 propensity score matching yielded 1,257 pairs. GLP-1RAs use was associated with risk reduction of the primary composite of ischemic cardiovascular events and HF exacerbations (30.1% vs. 40.1%; HR 0.71(0.62–0.81), p <0.001), lowering ischemic events (HR 0.69), HF exacerbations (HR 0.73), and mortality (HR 0.67). Subgroup analyses showed benefit across prevention settings, baseline therapy, and HF subtypes. Findings suggest GLP-1RAs may provide cardiovascular benefit in ESRD patients with HF, a high-risk group underserved in clinical trials, and warrant confirmation in randomized studies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03b2dcfc934769dd504a9b5e539d698bfc07ee13a24b027b93893f44db502aa2",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74729-y",
+        "https://openalex.org/W7166017048"
+      ],
+      "title": "PlanarFold: a coarse-grained molecular dynamics model of RNA in two-dimensional space",
+      "link": "https://doi.org/10.1038/s41467-026-74729-y",
+      "pdf_url": null,
+      "publication_date": "2026-06-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "lan xiang",
+          "name": "Lan Xiang"
+        },
+        {
+          "key": "xue yi",
+          "name": "Yi Xue"
+        }
+      ],
+      "abstract_text": "RNAs serve versatile functional roles by virtue of their structures and dynamics. RNA computational models are typically tailored to either perform structural modeling or solve a specific class of folding problems. Here, we present PlanarFold, a coarse-grained RNA model that integrates molecular dynamics simulation in two-dimensional space with dynamic programming to explore the diverse dynamic behaviours of RNAs, achieving a speedup of more than four orders of magnitude compared with all-atom molecular dynamics models. We demonstrate that, at the secondary structure level, PlanarFold quantitatively reproduces experimental results across diverse scenarios, including the native secondary structures, thermodynamics and kinetics, mechanical properties, and co-transcriptional and de novo folding pathways. The conformational dynamics revealed by PlanarFold can provide mechanistic insight into how RNAs perform or lose functions, and offer potential targets for mutagenesis and therapeutics design, as well as guide the development of RNA-based devices.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03b413f92dd2a7fd56fbe2ea201036e5bc0ac89de06511c95af2cf5fcfc825dc",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66804-7",
+        "https://openalex.org/W4416686687"
+      ],
+      "title": "Laser-assisted microbial culturomics",
+      "link": "https://doi.org/10.1038/s41467-025-66804-7",
+      "pdf_url": null,
+      "publication_date": "2025-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "qu taoran",
+          "name": "Taoran Qu"
+        },
+        {
+          "key": "koch lothar",
+          "name": "Lothar Koch"
+        },
+        {
+          "key": "mukherjee rumjhum",
+          "name": "Rumjhum Mukherjee"
+        },
+        {
+          "key": "tu yilin",
+          "name": "Yilin Tu"
+        },
+        {
+          "key": "amy seidel",
+          "name": "Amy L. Seidel"
+        },
+        {
+          "key": "lisan püttmann",
+          "name": "Lisan D. Püttmann"
+        },
+        {
+          "key": "andreas winkel",
+          "name": "Andreas Winkel"
+        },
+        {
+          "key": "ines yang",
+          "name": "Ines Yang"
+        },
+        {
+          "key": "grischke jasmin",
+          "name": "Jasmin Grischke"
+        },
+        {
+          "key": "dejia liu",
+          "name": "Dejia Liu"
+        },
+        {
+          "key": "frederik willem wolkers",
+          "name": "Willem Frederik Wolkers"
+        },
+        {
+          "key": "kittler sophie",
+          "name": "Sophie Kittler"
+        },
+        {
+          "key": "boris chichkov",
+          "name": "Boris N. Chichkov"
+        },
+        {
+          "key": "meike stiesch",
+          "name": "Meike Stiesch"
+        },
+        {
+          "key": "szafrański szymon",
+          "name": "Szymon P. Szafrański"
+        }
+      ],
+      "abstract_text": "Even though metagenomics have revolutionized the characterization of the human microbiome, detailed mechanistic studies are impracticable, as there is a dearth of robust culture collections. We now describe the development and use of a laser-assisted culturomics platform, incorporating the elements of a bioprinter, the culture conditions, the methods to characterize the microorganisms and a biobank. With laser-assisted bioprinting, the microorganisms can be rapidly and precisely transferred from clinical biofilms to highly organized arrays of microbial colonies, which are suitable for co-culturing and molecular analyses. The presented technique has propagated 99 of 100 microbial species and recovered 79% of abundant species from dental plaque in accordance with full 16S rRNA gene profiling of 691,199 sequences. Microscopy, spectroscopy and enzyme assays have been used to guide isolations. Processing of oral biofilms from four individuals has yielded 249 representative isolates, from 14 classes and 124 species in total. Functional profiling with bioprinting has indicated commensals which could potentially contribute to disease development. Isolates from peri-implantitis cover 85.4% of the transcriptionally active clinical biofilms at genus level. Taken together, this work provides the basis for generating on-demand culture collections and biofilms for research and clinical use.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03b9b8ba5af768f755fa1a1f8a57e29a87d5d69119fed911d8637109e0ae9f43",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.patter.2026.101635",
+        "https://openalex.org/W7202300855"
+      ],
+      "title": "EmmaEmb: A quantitative framework for analyzing embedding spaces in molecular biology",
+      "link": "https://doi.org/10.1016/j.patter.2026.101635",
+      "pdf_url": null,
+      "publication_date": "2026-08-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Patterns",
+      "authors": [
+        {
+          "key": "francesca pia rissom",
+          "name": "Pia Francesca Rissom"
+        },
+        {
+          "key": "vít škrhák",
+          "name": "Vít Škrhák"
+        },
+        {
+          "key": "paulo sarmiento yanez",
+          "name": "Paulo Yanez Sarmiento"
+        },
+        {
+          "key": "jordan safer",
+          "name": "Jordan F. Safer"
+        },
+        {
+          "key": "coley connor",
+          "name": "Connor W. Coley"
+        },
+        {
+          "key": "bernhard renard",
+          "name": "Bernhard Y. Renard"
+        },
+        {
+          "key": "henrike heyne",
+          "name": "Henrike Heyne"
+        },
+        {
+          "key": "iqbal sumaiya",
+          "name": "Sumaiya Iqbal"
+        }
+      ],
+      "abstract_text": "Embeddings, numerical vectors learned by deep-learning models, are increasingly used to represent complex molecular biology data and support predictive tasks and generative design. There is a growing need for systematic approaches to interpret and explain the information encoded in high-dimensional embedding spaces. Here, we introduce EmmaEmb, a quantitative, model-agnostic framework for geometric correction, direct analysis, and comparison of embedding spaces. Our framework encompasses local and global analysis methods to quantify data distribution within an embedding space and enable comparisons of representations across spaces in relation to known biological features. Through experiments with seven embedding models across six molecular biology tasks, we demonstrate that our methods reveal insights from embedding spaces that align with downstream predictive tasks, uncover misclassification patterns, and contextualize differences in biological information captured by ProtT5, AlphaFold2, and ESM C. We provide an open-source Python library implementing all analysis methods and a guided diagnostic workflow.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03bfb05ba83f1e86e1b21558e957ba999b181e8246bc8186214863414937f321",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-68864-9",
+        "https://openalex.org/W7133360275"
+      ],
+      "title": "Integrative epigenomic landscape of Alzheimer’s Disease brains reveals oligodendrocyte molecular perturbations associated with tau",
+      "link": "https://doi.org/10.1038/s41467-026-68864-9",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-68864-9.pdf",
+      "publication_date": "2026-03-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "oatman stephanie",
+          "name": "Stephanie R. Oatman"
+        },
+        {
+          "key": "joseph reddy",
+          "name": "Joseph S. Reddy"
+        },
+        {
+          "key": "amin atashgaran",
+          "name": "Amin Atashgaran"
+        },
+        {
+          "key": "wang",
+          "name": "X. Wang"
+        },
+        {
+          "key": "min yuhao",
+          "name": "Yuhao Min"
+        },
+        {
+          "key": "quicksall zachary",
+          "name": "Zachary Quicksall"
+        },
+        {
+          "key": "floor vanelderen",
+          "name": "Floor Vanelderen"
+        },
+        {
+          "key": "carrasquillo minerva",
+          "name": "Minerva M. Carrasquillo"
+        },
+        {
+          "key": "chen chia liu",
+          "name": "Chia‐Chen Liu"
+        },
+        {
+          "key": "yamazaki yu",
+          "name": "Yu Yamazaki"
+        },
+        {
+          "key": "nguyen thuy",
+          "name": "Thuy T. Nguyen"
+        },
+        {
+          "key": "heckman michael",
+          "name": "Michael M. Heckman"
+        },
+        {
+          "key": "na zhao",
+          "name": "Na Zhao"
+        },
+        {
+          "key": "deture michael",
+          "name": "Michael A. Deture"
+        },
+        {
+          "key": "erin melissa murray",
+          "name": "Melissa Erin Murray"
+        },
+        {
+          "key": "bu guojun",
+          "name": "Guojun Bu"
+        },
+        {
+          "key": "kanekiyo takahisa",
+          "name": "Takahisa Kanekiyo"
+        },
+        {
+          "key": "dennis dickson",
+          "name": "Dennis W. Dickson"
+        },
+        {
+          "key": "allen mariet",
+          "name": "Mariet Allen"
+        },
+        {
+          "key": "ertekin nilüfer taner",
+          "name": "Nilüfer Ertekin‐Taner"
+        }
+      ],
+      "abstract_text": "Abstract Alzheimer’s disease (AD) brains are characterized by neuropathologic and biochemical changes that are highly variable across individuals. Capturing epigenetic factors that associate with this variability can reveal novel biological insights into AD pathophysiology. We conducted an epigenome-wide association study of DNA methylation (DNAm) in 472 AD brains with neuropathologic measures (Braak stage, Thal phase, and cerebral amyloid angiopathy score) and brain biochemical levels of five proteins (APOE, amyloid-β (Aβ)40, Aβ42, tau, and p-tau) core to AD pathogenesis. Using a novel regional methylation (rCpGm) approach, we identified 5,478 significant associations, 99.7% of which were with brain tau biochemical measures. Of the tau-associated rCpGms, 93 had concordant associations in external datasets comprising 1,337 brain samples. Integrative transcriptome-methylome analyses uncovered 535 significant gene expression associations for these 93 rCpGms. Genes with concurrent transcriptome-methylome perturbations were enriched in oligodendrocyte marker genes, including known AD risk genes such as BIN1 , myelination genes MYRF, MBP and MAG previously implicated in AD, as well as novel genes like LDB3 . We further annotated the top oligodendrocyte genes in an additional 6 brain single cell and 2 bulk transcriptome datasets from AD and two other tauopathies, Pick’s disease and progressive supranuclear palsy (PSP). Our findings support consistent rCpGm and gene expression associations with these tauopathies and tau-related phenotypes in both bulk brain tissue and oligodendrocyte clusters. In summary, we uncover the integrative epigenomic landscape of AD and demonstrate tau-related oligodendrocyte gene perturbations as a common potential pathomechanism across different tauopathies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03d96c6d9f285e4078c4a2521ba2d19218b8baaf3a2559ad70a6f703b5b5c1e9",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-67511-z",
+        "https://openalex.org/W7127594586"
+      ],
+      "title": "Electricity-free hydrogen production from the air",
+      "link": "https://doi.org/10.1038/s41467-025-67511-z",
+      "pdf_url": null,
+      "publication_date": "2026-02-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "qili xu",
+          "name": "Qili Xu"
+        },
+        {
+          "key": "xiaoxue yao",
+          "name": "Xiaoxue Yao"
+        },
+        {
+          "key": "chung hoi ying",
+          "name": "Hoi Ying Chung"
+        },
+        {
+          "key": "liang xiongyi",
+          "name": "Xiongyi Liang"
+        },
+        {
+          "key": "zhang zhi",
+          "name": "Zhi Zhang"
+        },
+        {
+          "key": "zhang zhenwen",
+          "name": "Zhenwen Zhang"
+        },
+        {
+          "key": "kin lo wai",
+          "name": "Wai Kin Lo"
+        },
+        {
+          "key": "yijun zeng",
+          "name": "Yijun Zeng"
+        },
+        {
+          "key": "cheng xiao zeng",
+          "name": "Xiao Cheng Zeng"
+        },
+        {
+          "key": "hau ng yun",
+          "name": "Yun Hau Ng"
+        },
+        {
+          "key": "steven wang",
+          "name": "Steven Wang"
+        }
+      ],
+      "abstract_text": "The ever-growing demand for electricity and clean water restricts widespread application of hydrogen production via water electrolysis or photocatalytic water splitting. Here, we present a self-sufficient electricity-free air-to-hydrogen system that integrates radiative cooling-enhanced water adsorption with synergistic photocatalysis and photothermal conversion by fabricating spectral selective absorbing/emitting hygroscopic hydrogen evolution nanofiber membranes to harvest atmospheric moisture and produce hydrogen. Leveraging the nocturnal radiative cooling effect, we expand the operational relative humidity range of nanofiber membranes and enhance both water collection capacity and kinetics. The collected water undergoes efficient gas-phase water splitting for H 2 production during the day through photothermal catalytic processes without electrical and liquid water assistance. The hydrogen production rate of the scale-up air-to-H 2 system under outdoor natural light reaches 6467.55 µmol·m -2 ·h -1 . Extrapolating this experimentally validated rate to land-based deployment demonstrates the potential for large-scale hydrogen generation, with practical feasibility dependent on regional humidity and solar conditions. Thus, our approach cost-effectively addresses green-H 2 scarcity without demanding natural freshwater and electricity, thereby providing an archetype for global sustainable development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03db0a185a05d62e3f56a8b89d8fc85025f59086817d0adeca19af31a94dbd96",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66348-w",
+        "https://openalex.org/W4417263430"
+      ],
+      "title": "Operation of a high-frequency, phase-slip qubit",
+      "link": "https://doi.org/10.1038/s41467-025-66348-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-66348-w_reference.pdf",
+      "publication_date": "2025-12-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "cheeranjeev purmessur",
+          "name": "Cheeranjeev Purmessur"
+        },
+        {
+          "key": "chow edmond",
+          "name": "Edmond K. C. Chow"
+        },
+        {
+          "key": "bernard heck van",
+          "name": "Bernard van Heck"
+        },
+        {
+          "key": "angela kou",
+          "name": "Angela Kou"
+        }
+      ],
+      "abstract_text": "Aluminum-based Josephson junctions are currently the main sources of nonlinearity for control and manipulation of superconducting qubits. A constriction-based junction provides an alternative source of nonlinearity that promises new types of protected qubits and the possibility of high-temperature and high-frequency operation through the use of superconductors with larger energy gaps. Junctions made from such superconductors have been challenging to incorporate into superconducting qubits because of difficulty controlling junction parameters and have had extremely low lifetimes, which limited their utility. Here we demonstrate that junctions made using titanium nitride (TiN) are a promising and controllable qubit platform. We use TiN junctions to build superconducting qubits based on quantum phase slips through the junction. We operate the qubit at zero flux where the qubit frequency ( ~ 17GHz) is mainly determined by the inductance of the qubit. We perform readout and coherent control of the superconducting qubit, and measure qubit lifetimes >60μs. Finally, we demonstrate operation of the qubit at temperatures exceeding 300 mK. Our results add the TiN-based junction as a tool for superconducting quantum information processing and opens avenues for new classes of superconducting qubits. Superconducting constrictions are an alternative source of nonlinearity to Al-based Josephson junctions, enabling new functionalities for qubits. Here, the authors demonstrate a high-frequency superconducting qubit in a single TiN thin film, based on coherent quantum phase slip tunneling through a constriction.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03de405f7834782f7cfcc7e6d00cdaecaa8034085f3c919374db1091f893ddb8",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10202-6",
+        "https://openalex.org/W7128069252"
+      ],
+      "title": "Author Correction: PHGDH heterogeneity potentiates cancer cell dissemination and metastasis",
+      "link": "https://doi.org/10.1038/s41586-026-10202-6",
+      "pdf_url": "https://www.nature.com/articles/s41586-026-10202-6.pdf",
+      "publication_date": "2026-02-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "matteo rossi",
+          "name": "Matteo Rossi"
+        },
+        {
+          "key": "altea manzano patricia",
+          "name": "Patricia Altea-Manzano"
+        },
+        {
+          "key": "demicco margherita",
+          "name": "Margherita Demicco"
+        },
+        {
+          "key": "doglioni ginevra",
+          "name": "Ginevra Doglioni"
+        },
+        {
+          "key": "bornes laura",
+          "name": "Laura Bornes"
+        },
+        {
+          "key": "fukano marina",
+          "name": "Marina Fukano"
+        },
+        {
+          "key": "anke vandekeere",
+          "name": "Anke Vandekeere"
+        },
+        {
+          "key": "alejandro cuadros",
+          "name": "Alejandro M. Cuadros"
+        },
+        {
+          "key": "fernández garcía juan",
+          "name": "Juan Fernández-García"
+        },
+        {
+          "key": "carla domingo riera",
+          "name": "Carla Riera-Domingo"
+        },
+        {
+          "key": "cristina jauset",
+          "name": "Cristina Jauset"
+        },
+        {
+          "key": "mélanie planque",
+          "name": "Mélanie Planque"
+        },
+        {
+          "key": "alkan furkan",
+          "name": "H. Furkan Alkan"
+        },
+        {
+          "key": "david nittner",
+          "name": "David Nittner"
+        },
+        {
+          "key": "dongmei zuo",
+          "name": "Dongmei Zuo"
+        },
+        {
+          "key": "broadfield lindsay",
+          "name": "Lindsay A. Broadfield"
+        },
+        {
+          "key": "parik sweta",
+          "name": "Sweta Parik"
+        },
+        {
+          "key": "alejandro antonino pane",
+          "name": "Antonino Alejandro Pane"
+        },
+        {
+          "key": "francesca rizzollo",
+          "name": "Francesca Rizzollo"
+        },
+        {
+          "key": "gianmarco rinaldi",
+          "name": "Gianmarco Rinaldi"
+        },
+        {
+          "key": "tao zhang",
+          "name": "Tao Zhang"
+        },
+        {
+          "key": "shao teoh thing",
+          "name": "Shao Thing Teoh"
+        },
+        {
+          "key": "arin aurora",
+          "name": "Arin B. Aurora"
+        },
+        {
+          "key": "karras panagiotis",
+          "name": "Panagiotis Karras"
+        },
+        {
+          "key": "ines vermeire",
+          "name": "Ines Vermeire"
+        },
+        {
+          "key": "broekaert dorien",
+          "name": "Dorien Broekaert"
+        },
+        {
+          "key": "elsen joke van",
+          "name": "Joke Van Elsen"
+        },
+        {
+          "key": "knott maximilian",
+          "name": "Maximilian M. L. Knott"
+        },
+        {
+          "key": "martin orth",
+          "name": "Martin F. Orth"
+        },
+        {
+          "key": "demeyer sofie",
+          "name": "Sofie Demeyer"
+        },
+        {
+          "key": "eelen guy",
+          "name": "Guy Eelen"
+        },
+        {
+          "key": "dobrolecki elizabeth lacey",
+          "name": "Lacey Elizabeth Dobrolecki"
+        },
+        {
+          "key": "ayse bassez",
+          "name": "Ayse Bassez"
+        },
+        {
+          "key": "brussel thomas van",
+          "name": "Thomas Van Brussel"
+        },
+        {
+          "key": "karl sotlar",
+          "name": "Karl Sotlar"
+        },
+        {
+          "key": "lewis michael",
+          "name": "Michael T. Lewis"
+        },
+        {
+          "key": "bartsch harald",
+          "name": "Harald Bartsch"
+        },
+        {
+          "key": "manfred wuhrer",
+          "name": "Manfred Wuhrer"
+        },
+        {
+          "key": "peter van veelen",
+          "name": "Peter van Veelen"
+        },
+        {
+          "key": "carmeliet peter",
+          "name": "Peter Carmeliet"
+        },
+        {
+          "key": "cools jan",
+          "name": "Jan Cools"
+        },
+        {
+          "key": "morrison sean",
+          "name": "Sean J. Morrison"
+        },
+        {
+          "key": "christophe jean marine",
+          "name": "Jean‐Christophe Marine"
+        },
+        {
+          "key": "diether lambrechts",
+          "name": "Diether Lambrechts"
+        },
+        {
+          "key": "massimiliano mazzone",
+          "name": "Massimiliano Mazzone"
+        },
+        {
+          "key": "gregory hannon",
+          "name": "Gregory J. Hannon"
+        },
+        {
+          "key": "lunt sophia",
+          "name": "Sophia Y. Lunt"
+        },
+        {
+          "key": "grünewald thomas",
+          "name": "Thomas G. P. Grünewald"
+        },
+        {
+          "key": "morag park",
+          "name": "Morag Park"
+        },
+        {
+          "key": "jacco rheenen van",
+          "name": "Jacco van Rheenen"
+        },
+        {
+          "key": "fendt maria sarah",
+          "name": "Sarah‐Maria Fendt"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03e0cb2b0af5c26f3395dfc884cb884081da4f89266466722168ae817fc4a42f",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-67746-w",
+        "https://openalex.org/W7118944793"
+      ],
+      "title": "Bacterial chromatin remodeling associated with transcription-induced domains at pathogenicity Islands",
+      "link": "https://doi.org/10.1038/s41467-025-67746-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-67746-w.pdf",
+      "publication_date": "2026-01-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "kortebi mounia",
+          "name": "Mounia Kortebi"
+        },
+        {
+          "key": "bourge mickaël",
+          "name": "Mickaël Bourge"
+        },
+        {
+          "key": "bars le romain",
+          "name": "Romain Le Bars"
+        },
+        {
+          "key": "dijk erwin van",
+          "name": "Erwin van Dijk"
+        },
+        {
+          "key": "charles dorman",
+          "name": "Charles J. Dorman"
+        },
+        {
+          "key": "bury moné stéphanie",
+          "name": "Stéphanie Bury‐Moné"
+        },
+        {
+          "key": "boccard frédéric",
+          "name": "Frédéric Boccard"
+        },
+        {
+          "key": "lioy virginia",
+          "name": "Virginia S. Lioy"
+        }
+      ],
+      "abstract_text": "The nucleoid-associated protein H-NS is a bacterial xenogeneic silencer responsible for preventing costly expression of genes acquired through horizontal gene transfer. H-NS silences several Salmonella Pathogenicity Islands (SPIs) essential for host infection. The stochastic expression of SPI-1 is required for invasion of host epithelial cells but complicates investigation of factors involved in SPI-1 chromatin structure and regulation. We performed functional genomics on sorted Salmonella populations expressing SPI-1 or not, to characterize how SPI-1 activation affects chromatin composition, DNA conformation, gene expression and SPI-1 subcellular localization. We show that silent SPIs are associated with spurious antisense transcriptional activity originating from H-NS-free regions. Upon SPI-1 activation, remodeling of H-NS occupancy defines a new chromatin landscape, which together with the master SPI-1 regulator HilD, facilitates transcription of SPI-1 genes. SPI-1 activation promotes formation of Transcription Induced Domains accompanied by repositioning SPI-1 close to the nucleoid periphery. We present a model for tightly regulated chromatin remodeling that minimizes the cost of pathogenicity island activation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03e50b76e12e0acf50e6e8fc5ece6beda9ae9e31b4e32c24d5ad1d5b55152a3f",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-70288-4",
+        "https://openalex.org/W7133356062"
+      ],
+      "title": "Machine learning discovers numerous new computational principles supporting elementary motion detection",
+      "link": "https://doi.org/10.1038/s41467-026-70288-4",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-70288-4_reference.pdf",
+      "publication_date": "2026-03-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "alon poleg polsky",
+          "name": "Alon Poleg-Polsky"
+        }
+      ],
+      "abstract_text": "Motion direction detection is a fundamental visual computation that transforms spatial luminance patterns into directionally tuned outputs. Classical models of direction selectivity rely on temporal asymmetry, where motion detection arises through either delayed excitation or inhibition. Here, I used biologically inspired machine learning applied to retinal and cortical circuits to uncover receptive field architectures capable of direction selectivity. These include mechanisms based on asymmetric synaptic properties, spatial receptive field variations, new roles for pre- and postsynaptic inhibition, and previously unrecognized kinetic implementations. Conceptually, these circuit architectures cluster into eight computational primitives underlying motion detection, four of which are previously undescribed. Many of the solutions rival or outperform classical models in both robustness and precision, and several exhibit enhanced noise tolerance. All mechanisms are biologically plausible and correspond to known physiological and anatomical motifs, offering fresh insights into motion processing and illustrating how machine learning can uncover general principles of neural computation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03e77ef9e11656a1d7be0733d23578b1fa33faf53fc84c10e73498769fe0eceb",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-68482-5",
+        "https://openalex.org/W4417538383"
+      ],
+      "title": "Distinct magneto-optical response of Frenkel and Wannier excitons in CrSBr",
+      "link": "https://doi.org/10.1038/s41467-026-68482-5",
+      "pdf_url": null,
+      "publication_date": "2026-01-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "maciej śmiertka",
+          "name": "Maciej Śmiertka"
+        },
+        {
+          "key": "michał rygała",
+          "name": "Michał Rygała"
+        },
+        {
+          "key": "katarzyna posmyk",
+          "name": "Katarzyna Posmyk"
+        },
+        {
+          "key": "paulina peksa",
+          "name": "Paulina Peksa"
+        },
+        {
+          "key": "dyksik mateusz",
+          "name": "Mateusz Dyksik"
+        },
+        {
+          "key": "dimitar pashov",
+          "name": "Dimitar Pashov"
+        },
+        {
+          "key": "kseniia mosina",
+          "name": "Kseniia Mosina"
+        },
+        {
+          "key": "sofer zdeněk",
+          "name": "Zdeněk Sofer"
+        },
+        {
+          "key": "mark schilfgaarde van",
+          "name": "Mark van Schilfgaarde"
+        },
+        {
+          "key": "dirnberger florian",
+          "name": "Florian Dirnberger"
+        },
+        {
+          "key": "baranowski michał",
+          "name": "Michał Baranowski"
+        },
+        {
+          "key": "acharya swagata",
+          "name": "Swagata Acharya"
+        },
+        {
+          "key": "paulina płochocka",
+          "name": "Paulina Płochocka"
+        }
+      ],
+      "abstract_text": "Abstract Excitons in recently discovered two-dimensional magnetic semiconductors have emerged as a promising vehicle for optoelectronic and spin-photonic applications. To exploit novel possibilities magnetic degrees of freedom offer, insight into the interplay of magnetism, lattice and optical excitations becomes essential. We consider Chromium Sulphur Bromide, which has two kinds of excitons, X B at 1.8 eV and X A at 1.38 eV. Here we show, through a combination of many body perturbation theory and experiment, that X B is an order of magnitude more sensitive to magnetic and lattice perturbations than X A . We trace the difference to the latter being localised (Frenkel-like), while the former is delocalised (Wannier-Mott-like) – a coexistence rarely seen in two-dimensional materials. This finding is supported by the strong temperature and magnetic field (up to 85 Tesla) dependent shifts in optical response for X B (much smaller for X A ), and we show it is related to X B ’s tendency for delocalisation (in-plane and out-of-plane) and enhanced coupling with A g phonon modes.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03ec0a6c40ffe7b00fd07e376ff81f24934b5a06f09dcfd3697004ff993e4525",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69661-0",
+        "https://openalex.org/W7130338417"
+      ],
+      "title": "Phase diagram and spectroscopic signatures of a supersolid in the quantum ising magnet K2Co(SeO3)2",
+      "link": "https://doi.org/10.1038/s41467-026-69661-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-69661-0_reference.pdf",
+      "publication_date": "2026-02-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "chen tong",
+          "name": "Tong Chen"
+        },
+        {
+          "key": "alireza ghasemi",
+          "name": "Alireza Ghasemi"
+        },
+        {
+          "key": "junyi zhang",
+          "name": "Junyi Zhang"
+        },
+        {
+          "key": "liyu shi",
+          "name": "Liyu Shi"
+        },
+        {
+          "key": "tagay zhenisbek",
+          "name": "Zhenisbek Tagay"
+        },
+        {
+          "key": "chen youzhe",
+          "name": "Youzhe Chen"
+        },
+        {
+          "key": "chen lei",
+          "name": "Lei Chen"
+        },
+        {
+          "key": "choi",
+          "name": "E. S. Choi"
+        },
+        {
+          "key": "jaime marcelo",
+          "name": "Marcelo Jaime"
+        },
+        {
+          "key": "lee minseong",
+          "name": "Minseong Lee"
+        },
+        {
+          "key": "hao yiqing",
+          "name": "Yiqing Hao"
+        },
+        {
+          "key": "cao huibo",
+          "name": "Huibo B. Cao"
+        },
+        {
+          "key": "barry winn",
+          "name": "Barry Winn"
+        },
+        {
+          "key": "andrey podlesnyak",
+          "name": "Andrey A. Podlesnyak"
+        },
+        {
+          "key": "daniel pajerowski",
+          "name": "Daniel M. Pajerowski"
+        },
+        {
+          "key": "ruidan zhong",
+          "name": "Ruidan Zhong"
+        },
+        {
+          "key": "xianghan xu",
+          "name": "Xianghan Xu"
+        },
+        {
+          "key": "armitage",
+          "name": "N. P. Armitage"
+        },
+        {
+          "key": "cava",
+          "name": "R. J. Cava"
+        },
+        {
+          "key": "broholm",
+          "name": "C. Broholm"
+        }
+      ],
+      "abstract_text": "Supersolid phases are quantum-entangled states of matter exhibiting the dual characteristics of superfluidity and solidity. Theory predicts that hard-core bosons on a triangular lattice can form such phases at half filling and near complete filling. Leveraging an exact mapping between bosons and spin-$$\\frac{1}{2}$$ degrees of freedom, here we show that these phases are realized in the triangular-lattice antiferromagnet K2Co(SeO3)2. At zero field, neutron diffraction reveals the development of quasi-two-dimensional $$\\sqrt{3}\\times \\sqrt{3}$$ magnetic order with Z3 translational symmetry breaking (solidity), though with reduced amplitude indicating strong quantum fluctuations. These fluctuations manifest as equidistant bands of continuum neutron scattering, where the lowest-energy mode is gapless at K $$(\\frac{1}{3}\\frac{1}{3})$$, consistent with broken U(1) spin rotational symmetry (superfluidity). For c-axis-oriented magnetic fields near saturation, we find a second phase consistent with a high-field supersolid. These two supersolids are separated by a pronounced 1/3 magnetization plateau phase that supports coherent spin waves, from which we determine the underlying spin Hamiltonian. Supersolid phases are quantum-entangled states of matter exhibiting the dual characteristics of superfluidity and solidity. Here, the authors map the phase diagram of K2Co(SeO3)2. and identify signatures of two supersolid phases separated by a 1/3 magnetization plateau.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03ecea0298220f6a463d4de842c252aafb2616b44cd0e90826d986c113d07679",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76574-5",
+        "https://openalex.org/W7202292283"
+      ],
+      "title": "Prefrontal-raphe-habenular circuit drives fear memory recall and updating",
+      "link": "https://doi.org/10.1038/s41467-026-76574-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76574-5_reference.pdf",
+      "publication_date": "2026-08-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "balog boldizsar zsolt",
+          "name": "Boldizsar Zsolt Balog"
+        },
+        {
+          "key": "albert barth",
+          "name": "Albert M Barth"
+        },
+        {
+          "key": "krisztián zichó",
+          "name": "Krisztián Zichó"
+        },
+        {
+          "key": "major ábel",
+          "name": "Ábel Major"
+        },
+        {
+          "key": "bardóczi zsuzsanna",
+          "name": "Zsuzsanna Bardóczi"
+        },
+        {
+          "key": "brunner jános",
+          "name": "János Brunner"
+        },
+        {
+          "key": "charlotte seng",
+          "name": "Charlotte Seng"
+        },
+        {
+          "key": "jelitai márta",
+          "name": "Márta Jelitai"
+        },
+        {
+          "key": "katalin sos",
+          "name": "Katalin E. Sos"
+        },
+        {
+          "key": "réka sebestény",
+          "name": "Réka Z. Sebestény"
+        },
+        {
+          "key": "andrás szőnyi",
+          "name": "András Szőnyi"
+        },
+        {
+          "key": "karalis nikolas",
+          "name": "Nikolas Karalis"
+        },
+        {
+          "key": "orosz áron",
+          "name": "Áron Orosz"
+        },
+        {
+          "key": "eszter sipos",
+          "name": "Eszter Sipos"
+        },
+        {
+          "key": "erik misák",
+          "name": "Erik Misák"
+        },
+        {
+          "key": "cserey györgy",
+          "name": "György Cserey"
+        },
+        {
+          "key": "andreas lüthi",
+          "name": "Andreas Lüthi"
+        },
+        {
+          "key": "varga viktor",
+          "name": "Viktor Varga"
+        },
+        {
+          "key": "csaba földy",
+          "name": "Csaba Földy"
+        },
+        {
+          "key": "jános szabadics",
+          "name": "János Szabadics"
+        },
+        {
+          "key": "gábor nyíri",
+          "name": "Gábor Nyíri"
+        }
+      ],
+      "abstract_text": "Abstract Fear memory recall is a vital defensive response, yet its underlying neuronal mechanism remains incompletely understood. Here, we identify an effective fear recall pathway. We found that hippocampal and amygdalar memory centers directly target a group of medial prefrontal cortex (mPFC) neurons, which are necessary for fear recall and directly target vesicular glutamate transporter 2 (vGluT2)-expressing neurons in the pontine median raphe region (MRR vGluT2 neurons) in mice. We found that MRR vGluT2 neurons are necessary for recalling contextual and cued fear memories, they exhibit scalable fear-dependent activity, bidirectionally regulate depression-like behaviors, and show prolonged activity after a fearful experience. During fear memory recall, MRR vGluT2 neurons activate the lateral habenula (LHb), a region implicated in major depression. MRR vGluT2 neurons are electrophysiologically and genetically diverse, and present in rodent and primate species. The identified mPFC–MRR–LHb pathway critically mediates fear memory recall, providing potential therapeutic targets for fear-related disorders.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03ef6b4c28551a8ae5f607a14e64116a80eadb21d7986f47f4555d9a8e0d8136",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-00969-z",
+        "https://openalex.org/W7147159231"
+      ],
+      "title": "Hallucinated citations are polluting the scientific literature. What can be done?",
+      "link": "https://doi.org/10.1038/d41586-026-00969-z",
+      "pdf_url": null,
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "miryam naddaf",
+          "name": "Miryam Naddaf"
+        },
+        {
+          "key": "elizabeth quill",
+          "name": "Elizabeth Quill"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03f941666995729a9cbfa52a9af93994cf7a3488507df1f447401518d0224604",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01480-1",
+        "https://openalex.org/W7160421689"
+      ],
+      "title": "Anaesthetized brains can still process podcasts",
+      "link": "https://doi.org/10.1038/d41586-026-01480-1",
+      "pdf_url": null,
+      "publication_date": "2026-05-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "benjamin thompson",
+          "name": "Benjamin Thompson"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03fa0e4b172e0701b67fbc6034f1452c5850f6c835c038bfe117ceded0330d0a",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74207-5",
+        "https://openalex.org/W7164501397"
+      ],
+      "title": "Multimodal foundation models exploit text to make medical image predictions",
+      "link": "https://doi.org/10.1038/s41467-026-74207-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74207-5_reference.pdf",
+      "publication_date": "2026-06-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "buckley thomas",
+          "name": "Thomas A. Buckley"
+        },
+        {
+          "key": "diao james",
+          "name": "James A. Diao"
+        },
+        {
+          "key": "cam srivastava",
+          "name": "Cam N. Srivastava"
+        },
+        {
+          "key": "brodeur peter",
+          "name": "Peter G. Brodeur"
+        },
+        {
+          "key": "pranav rajpurkar",
+          "name": "Pranav Rajpurkar"
+        },
+        {
+          "key": "adam rodman",
+          "name": "Adam M. Rodman"
+        },
+        {
+          "key": "arjun kumar manrai",
+          "name": "Arjun Kumar Manrai"
+        }
+      ],
+      "abstract_text": "Multimodal foundation models have shown compelling but conflicting performance in medical image interpretation. However, the ways in which these models integrate and prioritize different data modalities, including images and text, remain poorly understood. Here we evaluate 8 proprietary and open-source multimodal foundation models using 1090 multimodal medical cases. We show that image predictions are largely driven by text, with accuracy increasing monotonically with the amount of informative text. Exploitation of text is a double-edged sword; even mild suggestions of an incorrect diagnosis in text diminish image-based classification, dramatically reducing performance in cases the model could previously answer using images alone-o3 accuracy fell from 84% to 28% when a misleading clinical vignette was introduced. In physician evaluations of long-form cases, adding images reduces or does not improve performance when text is highly informative (e.g., GPT-4V showed decreased accuracy when images were added to highly informative text across 69 clinicopathological conferences). Our results suggest that multimodal AI models may be useful in medical diagnostic reasoning but that their accuracy is largely driven, for better and worse, by text.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03fce85a02d78c9ccf001ce37f771533f85d82f23c62e190f5b46538c880d535",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76182-3",
+        "https://openalex.org/W7171848348"
+      ],
+      "title": "Tunable photofluorochromic switch driven by dynamic through-space conjugation",
+      "link": "https://doi.org/10.1038/s41467-026-76182-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76182-3_reference.pdf",
+      "publication_date": "2026-07-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "xiong zuping",
+          "name": "Zuping Xiong"
+        },
+        {
+          "key": "jianyu zhang",
+          "name": "Jianyu Zhang"
+        },
+        {
+          "key": "li qian",
+          "name": "Qian Li"
+        },
+        {
+          "key": "liu xiong",
+          "name": "Xiong Liu"
+        },
+        {
+          "key": "wang yanan",
+          "name": "Yanan Wang"
+        },
+        {
+          "key": "li xiang",
+          "name": "Xiang Li"
+        },
+        {
+          "key": "qian zhaosheng",
+          "name": "Zhaosheng Qian"
+        },
+        {
+          "key": "jing sun zhi",
+          "name": "Jing Zhi Sun"
+        },
+        {
+          "key": "ben tang zhong",
+          "name": "Ben Zhong Tang"
+        },
+        {
+          "key": "haoke zhang",
+          "name": "Haoke Zhang"
+        }
+      ],
+      "abstract_text": "Light is a powerful stimulus for regulating molecular functions, yet achieving precise and efficient photoswitching remains a significant challenge in organic materials, particularly in the aggregate state. Here we report a strategy based on dynamic through-space conjugation (TSC) to regulate photoswitching in Schiff-base crystals. Upon photoexcitation, the system undergoes an excited-state intramolecular proton transfer followed sequentially by cis-trans keto isomerization, a process in which electrons near the nitrogen atom dynamically couple with adjacent π-donors. This transient nitrogen-based TSC, captured by the femtosecond transient absorption spectroscopy and corroborated by high-pressure experiments and calculations, modulates both the transition-state barrier and the stability of the metastable state, thereby markedly enhancing photoswitching efficiency. Beyond mechanistic insight, this study introduces a design paradigm that exploits dynamic nitrogen-based TSC to engineer light-driven logic devices, with broad implications extending from artificial vision sensors to molecular motors. Photoresponsive materials are promising for functional organic materials though it is challenging to achieve efficient photoswitching. Here the authors harness through-space conjugation to regulate the photoresponse in in Schiff-base crystals.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03fd5a592b99ae03e7e338ab552f0a382504e58389a033cce0a69ee7de60b4ae",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-65573-7",
+        "https://openalex.org/W4416718844"
+      ],
+      "title": "GPR43 in eosinophils suppresses the emergence of pathogenic Siglec-Fhi neutrophils in allergic airway inflammation in mice",
+      "link": "https://doi.org/10.1038/s41467-025-65573-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-65573-7.pdf",
+      "publication_date": "2025-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "jihyun yu",
+          "name": "Jihyun Yu"
+        },
+        {
+          "key": "kim seongryong",
+          "name": "Seongryong Kim"
+        },
+        {
+          "key": "hyun song sup",
+          "name": "Hyun-Sup Song"
+        },
+        {
+          "key": "jieun kim",
+          "name": "Jieun Kim"
+        },
+        {
+          "key": "shin woojung",
+          "name": "Woojung Shin"
+        },
+        {
+          "key": "eun jong park",
+          "name": "Jong-Eun Park"
+        },
+        {
+          "key": "ikuo kimura",
+          "name": "Ikuo Kimura"
+        },
+        {
+          "key": "hye kim young",
+          "name": "Hye Young Kim"
+        },
+        {
+          "key": "kim me you",
+          "name": "You‐Me Kim"
+        }
+      ],
+      "abstract_text": "Eosinophils are major effector cells in type 2 immune responses, contributing to host defense and allergic diseases. They also contribute to maintaining tissue homeostasis by regulating various immune cell types, including neutrophils. Here we show that eosinophils directly associate with neutrophils in the lungs of asthma-induced mice. Eosinophil-specific deficiency of the short-chain fatty acid receptor, GPR43, results in hyperactivation of eosinophils and increases the expression of neutrophil chemoattractants and PECAM-1, thereby enhancing the interaction between eosinophils and neutrophils. This interaction exposes neutrophils to eosinophil-derived IL-4 and GM-CSF, which induce the conversion of conventional neutrophils into more pathogenic, Siglec-Fhi neutrophils capable of enhancing Th17 cell differentiation and aggravating asthma symptoms in mouse models. Our results thus implicate GPR43 as a critical regulator of eosinophils, and describe eosinophil-mediated modulation of neutrophil differentiation and function. Eosinophils contribute to type 2 immunity, but their interaction with neutrophils in this context is incompletely understood. Here the authors use mouse asthma models and in vitro culture to show that eosinophil-specific deficiency of GPR43 promotes Siglec-Fhi neutrophil differentiation and downstream induction of Th17 to aggravate lung inflammation and asthma.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "03fe93ff1ecb7356e7dd5509897b343dfdf8afe4e0e670f921c6d18820a082ea",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76696-w",
+        "https://openalex.org/W7203459202"
+      ],
+      "title": "Column switching liquid chromatography dual mass spectrometry system for simultaneous untargeted metabolomics and targeted exposomics",
+      "link": "https://doi.org/10.1038/s41467-026-76696-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76696-w_reference.pdf",
+      "publication_date": "2026-08-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "wang yuting",
+          "name": "Yuting Wang"
+        },
+        {
+          "key": "daidi hou",
+          "name": "Daidi HOU"
+        },
+        {
+          "key": "yuan",
+          "name": "Yuan Yuan"
+        },
+        {
+          "key": "guan pengwei",
+          "name": "Pengwei Guan"
+        },
+        {
+          "key": "chen tiantian",
+          "name": "Tiantian Chen"
+        },
+        {
+          "key": "guo xingyu",
+          "name": "Xingyu Guo"
+        },
+        {
+          "key": "xin you",
+          "name": "Xin You"
+        },
+        {
+          "key": "shi xianzhe",
+          "name": "Xianzhe Shi"
+        },
+        {
+          "key": "wang xiaolin",
+          "name": "Xiaolin Wang"
+        },
+        {
+          "key": "qi wang",
+          "name": "Qi Wang"
+        },
+        {
+          "key": "liu xinyu",
+          "name": "Xinyu Liu"
+        },
+        {
+          "key": "guowang xu",
+          "name": "Guowang Xu"
+        }
+      ],
+      "abstract_text": "Abstract Metabolome-exposome association studies (mEWAS) demands high-coverage and high-sensitivity analytical methods for metabolites and exposures with diverse chemical properties and concentrations. Here, we present an integrated column-switching two-dimensional liquid chromatography (2DLC) - high resolution/triple quadrupole dual mass spectrometry (MS) method, achieving simultaneously untargeted metabolome and targeted exposome analyses including 598 chemical exposures in a single run. Polar and non-polar compounds with log P ranging from -8 to 15 were separated without unretained compounds in the dead time. Benchmarked against biological matrices, analyte coverage increased by 35-104% over one-dimensional LC method. Highly sensitive limits of detection with 0.001-1 μg/mL for >90% metabolites and 0.001-1 ng/mL for >90% chemical exposures were obtained, matching the concentration difference between the metabolome and exposome in human blood. The method was demonstrated in patients with chronic diseases, showing the feasibility of establishing simultaneously untargeted metabolome and targeted exposome analytical methods for mEWAS by integrating 2DLC-dual MS techniques.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    }
+  ]
+}

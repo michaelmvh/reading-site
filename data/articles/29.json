@@ -1,0 +1,4569 @@
+{
+  "schema_version": 1,
+  "articles": [
+    {
+      "id": "2906e9e522cbc90bf77ebefb4eed3c88e4ca47a16ee815276c55ecba229b7da1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71861-7",
+        "https://openalex.org/W7154325658"
+      ],
+      "title": "Dipolar interaction-mediated molecular anchoring electrolyte enables wide-temperature sodium-ion batteries with enhanced safety and durability",
+      "link": "https://doi.org/10.1038/s41467-026-71861-7",
+      "pdf_url": null,
+      "publication_date": "2026-04-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "heng li yong",
+          "name": "Yong‐Li Heng"
+        },
+        {
+          "key": "gu yi zhen",
+          "name": "Zhen‐Yi Gu"
+        },
+        {
+          "key": "tang yuan zheng",
+          "name": "Yuan-Zheng Tang"
+        },
+        {
+          "key": "han hao liu",
+          "name": "Han‐Hao Liu"
+        },
+        {
+          "key": "tong wang xiao",
+          "name": "Xiao-Tong Wang"
+        },
+        {
+          "key": "jie wang",
+          "name": "Jie Wang"
+        },
+        {
+          "key": "li shuyu",
+          "name": "Shuyu Li"
+        },
+        {
+          "key": "long wu xing",
+          "name": "Xing‐Long Wu"
+        }
+      ],
+      "abstract_text": "Abstract Given intractable challenges faced by practical sodium-ion batteries (SIBs) in safety, ultralong lifespan and broad temperature adaptability with synergistic interfacial compatibility, persistent efforts in electrolyte engineering are imperative to expedite their commercialization. Here we design a molecular anchoring electrolyte with remarkable flame retardancy, oxidative/reductive reliability and electrochemical durability against both electrodes. Through multiple dipolar interactions (δ + H-δ - F, δ + H-δ - O and δ + H-δ - N), a dynamic hierarchical solvation network is constructed and its unique interface stabilization mechanism is revealed by multiscale characterizations and theoretical insights. The electrolyte endows high-voltage phosphate cathode with extraordinary electrochemical durability (87.6% of capacity retention after 5000 cycles) through constructing robust interphases enriched with F and N. Great compatibility with commercial layered oxide further indicates its versatility. Strikingly, the electrolyte also sustains stable operation under extreme temperatures (-60 ~ 70 °C). Our proposed dipolar interaction regulation mechanism provides a new paradigm for designing safe and durable electrolytes, stimulating practical application of wide-temperature SIBs in extreme environment energy storage.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "290daabade8e346e7a3989fa499ea180cf0328262e10cac046aa75473f053b6c",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77067-1",
+        "https://openalex.org/W7204241213"
+      ],
+      "title": "A machine-assisted framework for systematic error analysis in clinical concept extraction",
+      "link": "https://doi.org/10.1038/s41467-026-77067-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77067-1_reference.pdf",
+      "publication_date": "2026-08-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "fu sunyang",
+          "name": "Sunyang Fu"
+        },
+        {
+          "key": "lu qiuhao",
+          "name": "Qiuhao Lu"
+        },
+        {
+          "key": "ahn jaerong",
+          "name": "Jaerong Ahn"
+        },
+        {
+          "key": "chen fang",
+          "name": "Fang Chen"
+        },
+        {
+          "key": "hanyun yin",
+          "name": "Hanyun Yin"
+        },
+        {
+          "key": "julia wen",
+          "name": "Julia Wen"
+        },
+        {
+          "key": "yue zhiyi",
+          "name": "Zhiyi Yue"
+        },
+        {
+          "key": "harrison taylor",
+          "name": "Taylor Harrison"
+        },
+        {
+          "key": "jiang jun",
+          "name": "Jiang Jun"
+        },
+        {
+          "key": "ruan xiaoyang",
+          "name": "Xiaoyang Ruan"
+        },
+        {
+          "key": "huang ming",
+          "name": "Ming Huang"
+        },
+        {
+          "key": "andrew wen",
+          "name": "Andrew Wen"
+        },
+        {
+          "key": "liwei wang",
+          "name": "Liwei Wang"
+        },
+        {
+          "key": "ji kwak min",
+          "name": "Min Ji Kwak"
+        },
+        {
+          "key": "nahid rianon",
+          "name": "Nahid J. Rianon"
+        },
+        {
+          "key": "wang yanshan",
+          "name": "Yanshan Wang"
+        },
+        {
+          "key": "huang ruihong",
+          "name": "Ruihong Huang"
+        },
+        {
+          "key": "hongfang liu",
+          "name": "Hongfang Liu"
+        }
+      ],
+      "abstract_text": "Error analysis is a critical step in evaluating and improving clinical concept extraction models, the most common clinical natural language processing (NLP) task. Unlike corpus annotation, which follows standardized protocols for creating gold-standard datasets, error analysis requires nuanced judgment grounded in both clinical expertise and NLP knowledge. This is especially important given the heterogeneity of clinical text, where variations in documentation style, note structure, and terminology can substantially influence model behavior. Despite its importance, there is currently no standardized, user-level framework to support systematic error analysis in clinical concept extraction task. In this study, we developed and validated MedError, a machine-assisted, human-in-the-loop framework designed to standardize and enhance error analysis for clinical concept extraction tasks. We collected and manually curated a corpus of 1,187 unique errors from a total of 4,237 notes across three different distinct hospitals. The error categories were defined using our previously validated error taxonomy and included 480 false negatives and 707 false positives across 25 error types and 48 clinical concept categories. We evaluated the performance of three proprietary and three open-source large language models (LLMs) in automatically classifying these errors into 26 and 15 predefined categories. We further developed a machine-assisted framework, MedError, which integrates best practices in error analysis, LLM-assisted classification and reasoning, and a user-friendly interface to enable more efficient, reproducible, and context-aware error analysis. The framework supports both single-site and federated multisite error analysis, facilitating the effective translation of clinical NLP systems into real-world settings.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "291fa48e7ab1c4b0a26fd102d2baa2b49185be3d94e9ec6e52574fe54cba5f56",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-025-03214-1",
+        "https://openalex.org/W4415666961"
+      ],
+      "title": "To make water, exoplanets might just need some pressure",
+      "link": "https://doi.org/10.1038/d41586-025-03214-1",
+      "pdf_url": null,
+      "publication_date": "2025-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "quentin williams",
+          "name": "Quentin Williams"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2925d58eebc77440f91e034ef161609a0e41bc91ab11252a281c9f27259610db",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-75768-1",
+        "https://openalex.org/W7169770078"
+      ],
+      "title": "Alkyne Migratory Insertion Enabled Dynamic Kinetic Asymmetric Dearomatization of Unactivated Racemic Biaryls",
+      "link": "https://doi.org/10.1038/s41467-026-75768-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-75768-1_reference.pdf",
+      "publication_date": "2026-07-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "yang yongjian",
+          "name": "Yongjian Yang"
+        },
+        {
+          "key": "li xuening",
+          "name": "Xuening Li"
+        },
+        {
+          "key": "he qianyong",
+          "name": "Qianyong He"
+        },
+        {
+          "key": "tan yun",
+          "name": "Yun Tan"
+        },
+        {
+          "key": "hu meiqi",
+          "name": "Meiqi Hu"
+        },
+        {
+          "key": "peng shican",
+          "name": "Shican Peng"
+        },
+        {
+          "key": "yinghua yu",
+          "name": "Yinghua Yu"
+        },
+        {
+          "key": "wang zhixiang",
+          "name": "Zhixiang Wang"
+        },
+        {
+          "key": "huang xueliang",
+          "name": "Xueliang Huang"
+        }
+      ],
+      "abstract_text": "Catalytic asymmetric dearomatization has emerged as an effective approach for transforming planar aromatic compounds into valuable three-dimensional chiral architectures. Herein, we report a palladium-catalyzed enantioconvergent dearomatization of non-activated naphthalene derivatives via alkyne migratory insertion. Unlike existing methods that convert racemic biaryl substrates into enantiopure compounds, this work represents a rare strategy for dynamic kinetic asymmetric dearomatization of racemic unactivated biaryl systems. A custom-designed asymmetric polyfluorinated phosphoramidite ligand enables high reactivity and stereocontrol. Mechanistic studies confirmed an enantioconvergent pathway, converting configurationally labile biaryl substrates into enantioenriched spiro frameworks. A linear correlation between product and ligand enantiopurity supports a 1:1 Pd/ligand ratio in the active catalytic species, with density functional theory calculations offering further mechanistic insight. The synthetic utility was further demonstrated through scale-up reactions and downstream derivatizations, including a central-to-axial chirality transfer process. Catalytic asymmetric dearomatization transforms planar aromatics into valuable 3D chiral architectures. Here, the authors report palladium-catalysed enantioconvergent dearomatization of unactivated naphthalenes via alkyne migratory insertion.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292634195ed730fe6e4aed70e884d245cfcf45256902bafb095b36f92092493e",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-78196-3",
+        "https://openalex.org/W7221141181"
+      ],
+      "title": "Lipid-organized tetramerization of PLPP1 defines the molecular basis of spatial lipid phosphate signaling",
+      "link": "https://doi.org/10.1038/s41467-026-78196-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-78196-3_reference.pdf",
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "li yunhai",
+          "name": "Yunhai Li"
+        },
+        {
+          "key": "li yunhai",
+          "name": "Yunhai Li"
+        },
+        {
+          "key": "qingning yuan",
+          "name": "Qingning Yuan"
+        },
+        {
+          "key": "cao zhenyu",
+          "name": "Zhenyu Cao"
+        },
+        {
+          "key": "liuqing zhu",
+          "name": "Zhu LiuQing"
+        },
+        {
+          "key": "jiuyin xu",
+          "name": "Jiuyin Xu"
+        },
+        {
+          "key": "cen cheng guo",
+          "name": "Cheng-Cen Guo"
+        },
+        {
+          "key": "james jiqi wang",
+          "name": "James Jiqi Wang"
+        },
+        {
+          "key": "xu youwei",
+          "name": "Youwei Xu"
+        },
+        {
+          "key": "li shuai",
+          "name": "Shuai Li"
+        },
+        {
+          "key": "li tianyu",
+          "name": "Tianyu Li"
+        },
+        {
+          "key": "li yang",
+          "name": "Yang Li"
+        },
+        {
+          "key": "li yang",
+          "name": "Yang Li"
+        },
+        {
+          "key": "li yong",
+          "name": "Yong Li"
+        },
+        {
+          "key": "li yong",
+          "name": "Yong Li"
+        },
+        {
+          "key": "eric xu",
+          "name": "H. Eric Xu"
+        },
+        {
+          "key": "canrong wu",
+          "name": "Canrong Wu"
+        }
+      ],
+      "abstract_text": "Bioactive lipid phosphates, such as lysophosphatidic acid (LPA) and sphingosine-1-phosphate, are potent membrane-embedded signals that regulate fundamental processes in development, immunity, and cancer. The termination of these signals is mediated by phospholipid phosphatases (PLPPs), yet the molecular principles governing their function at the membrane interface have remained poorly understood. Here we report high-resolution cryo-electron microscopy structures of human PLPP1 in apo (1.87 Å) and product-bound (2.21 Å) states. The structures reveal a highly ordered, C4-symmetric homotetramer with ordered lipid densities—including densities assigned to phosphatidylcholine, phosphatidic acid, and phosphatidylinositol-4,5-bisphosphate—at inter-subunit interfaces. Structure-guided mutagenesis shows that residues surrounding these interfacial lipid densities affect enzymatic activity, whereas oligomerization analysis indicates that activity loss does not simply correlate with tetramer disruption. The product-bound structure defines the catalytic pocket and a membrane-facing tunnel that suggests a possible route for LPA access, while electrophysiological recordings detected no PLPP1-associated ion conductance under the conditions tested. Together, these findings provide a structural framework for PLPP1 tetramer assembly, lipid phosphate hydrolysis, and product recognition. Lipid phosphate phosphatases regulate bioactive lipids involved in cell signalling. Here, the authors reveal how human PLPP1 assembles and recognizes lipids, providing a structural framework for its membrane-associated activity.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292648f9481761702ac2bc7478ee51d58424bcb31b8017dcc98ae8aef897ba3f",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-67392-2",
+        "https://openalex.org/W7116773679"
+      ],
+      "title": "The fru gene specifies male cooperative behaviors in honeybee colonies",
+      "link": "https://doi.org/10.1038/s41467-025-67392-2",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-67392-2.pdf",
+      "publication_date": "2025-12-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "köhnen sven",
+          "name": "Sven Köhnen"
+        },
+        {
+          "key": "pia ulbricht",
+          "name": "Pia Ulbricht"
+        },
+        {
+          "key": "alexander philipp sturm",
+          "name": "Alexander Philipp Sturm"
+        },
+        {
+          "key": "carcaud julie",
+          "name": "Julie Carcaud"
+        },
+        {
+          "key": "christophe jean sandoz",
+          "name": "Jean‐Christophe Sandoz"
+        },
+        {
+          "key": "eltz thomas",
+          "name": "Thomas Eltz"
+        },
+        {
+          "key": "beye martin",
+          "name": "Martin Beye"
+        }
+      ],
+      "abstract_text": "Conspecific individuals can benefit from behavioral interactions, but whether cooperative behaviors require dedicated control in the nervous system is poorly understood. We examine the genetics underlying obligate cooperative male behaviors in honeybee colonies (Apis mellifera) that are deeply hardwired. We screened for transcription factor genes and found that only the fruitless (fru) BTB zinc-finger gene was restricted to expression in males and in the nervous system. Reporter coexpression revealed Fru-positive neuronal cell populations that are involved in processing and integrating sensory information. Computer-assisted behavioral tracking of male bees with loss-of-function mutations in experimental colonies revealed that fru is specifically required for the rate and/or duration of social approach and feeding behaviors, suggesting that the gene scales bees' participation in the collective nutrition task. Together, our study establishes a gene-based specification of behavior initiation and sustainment and provides insight into the connection between cooperation and defined neural populations.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292a5d5e2f17e4c2627b87a166614f63fc4227d60a9d5c11100f05e896cc50fb",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71259-5",
+        "https://openalex.org/W7142239019"
+      ],
+      "title": "Asymmetric hydrophilicity-driven fast water diffusion enabling heterogeneous hygroscopic gels toward high-yield atmospheric water harvest",
+      "link": "https://doi.org/10.1038/s41467-026-71259-5",
+      "pdf_url": null,
+      "publication_date": "2026-03-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "han ruiheng",
+          "name": "Ruiheng Han"
+        },
+        {
+          "key": "wu xianzhang",
+          "name": "Xianzhang Wu"
+        },
+        {
+          "key": "yuan zhu",
+          "name": "Yuan Zhu"
+        },
+        {
+          "key": "weiqing yang",
+          "name": "Weiqing Yang"
+        },
+        {
+          "key": "chen jianshan",
+          "name": "Jianshan Chen"
+        },
+        {
+          "key": "qing yan",
+          "name": "Yan Qing"
+        },
+        {
+          "key": "peng xiao",
+          "name": "Peng Xiao"
+        },
+        {
+          "key": "chen tao",
+          "name": "Tao Chen"
+        }
+      ],
+      "abstract_text": "Abstract Hygroscopic polymeric gels hold a promising avenue for sustainable sorption-based atmospheric water harvesting (SAWH). However, conventional designs relying on homogeneous hydrophilic networks face an inherent trade-off: strong hydrogen bond-mediated water retention and osmotic pressure-driven water transport. Here, we propose a new strategy to construct heterogeneous structure composed of hydrophilic pectin shell and relatively hydrophobic graphene oxide (GO) sheets core for hygroscopic polymeric organgel integrated with glycerol. The pectin shell acts as a gas–liquid conversion interface, enabling continuous and efficient water condensation. The incorporation of pristine GO interlayers significantly reduces the interaction between adsorbed water molecules and hydrophilic functional groups. This unique configuration enhances glycerol-enabled osmotic pumping for rapid water transport into storage and supports efficient solar-driven water release. The resulting organgel exhibits a high water uptake capacity ranging from 0.83 to 6.57 g g⁻¹ across a broad relative humidity spectrum (30% to 90%). Under 1.0 sun illumination, it achieves a notable desorption rate of 2.06 kg m⁻² h⁻¹, contributing to a daily water yield of up to 2.86 L water kg sorbent ⁻¹ day⁻¹. This heterogeneous structure challenges the conventional paradigm of maximizing hydrophilicity and opens a new avenue for the rational design of high-performance toward next-generation SAWH materials.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292ab6282aea7ffd78238a85f8af19162917d5738a294b0bd0eda0802949fee7",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-64983-x",
+        "https://openalex.org/W4416225798"
+      ],
+      "title": "The SLC1A1/EAAT3 dicarboxylic amino acid transporter is an epigenetically dysregulated nutrient carrier that sustains oncogenic metabolic programs",
+      "link": "https://doi.org/10.1038/s41467-025-64983-x",
+      "pdf_url": null,
+      "publication_date": "2025-11-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "grubb treg",
+          "name": "Treg M. Grubb"
+        },
+        {
+          "key": "koochaki pooneh",
+          "name": "Pooneh Koochaki"
+        },
+        {
+          "key": "matar sayed",
+          "name": "Sayed Matar"
+        },
+        {
+          "key": "fatme ghandour",
+          "name": "Fatme Ghandour"
+        },
+        {
+          "key": "machaalani marc",
+          "name": "Marc Machaalani"
+        },
+        {
+          "key": "eddy saad",
+          "name": "Eddy Saad"
+        },
+        {
+          "key": "cerise tang",
+          "name": "Cerise Tang"
+        },
+        {
+          "key": "ed reznik",
+          "name": "Ed Reznik"
+        },
+        {
+          "key": "jesminara khatun",
+          "name": "Jesminara Khatun"
+        },
+        {
+          "key": "carleigh salem",
+          "name": "Carleigh Salem"
+        },
+        {
+          "key": "dubasik noah",
+          "name": "Noah Dubasik"
+        },
+        {
+          "key": "david orlando",
+          "name": "David A. Orlando"
+        },
+        {
+          "key": "guenther matthew",
+          "name": "Matthew G. Guenther"
+        },
+        {
+          "key": "gyanu parajuli",
+          "name": "Gyanu Parajuli"
+        },
+        {
+          "key": "mohan raghvendra srivastava",
+          "name": "Raghvendra Mohan Srivastava"
+        },
+        {
+          "key": "martinez steven",
+          "name": "Steven R. Martinez"
+        },
+        {
+          "key": "coker jesse",
+          "name": "Jesse A. Coker"
+        },
+        {
+          "key": "kotecha ritesh",
+          "name": "Ritesh R. Kotecha"
+        },
+        {
+          "key": "ari hakimi",
+          "name": "A. Ari Hakimi"
+        },
+        {
+          "key": "asara john",
+          "name": "John M. Asara"
+        },
+        {
+          "key": "an chan thy timothy",
+          "name": "Timothy An-thy Chan"
+        },
+        {
+          "key": "sakari vanharanta",
+          "name": "Sakari Vanharanta"
+        },
+        {
+          "key": "shaun stauffer",
+          "name": "Shaun R. Stauffer"
+        },
+        {
+          "key": "kaelin william",
+          "name": "William G. Kaelin"
+        },
+        {
+          "key": "sabina signoretti",
+          "name": "Sabina Signoretti"
+        },
+        {
+          "key": "choueiri toni",
+          "name": "Toni K. Choueiri"
+        },
+        {
+          "key": "abhishek chakraborty",
+          "name": "Abhishek A. Chakraborty"
+        }
+      ],
+      "abstract_text": "Epigenetic dysregulation, including accumulation of Histone H3 lysine 27 acetylation (H3K27ac), is a hallmark of pVHL-deficient clear cell Renal Cell Carcinomas (ccRCCs). Using an in vivo positive selection ORF screen in poorly tumorigenic pVHL-proficient cells and mechanistic studies in pVHL-deficient cells, we discovered that the aspartate (Asp) and glutamate (Glu) transporter, SLC1A1/EAAT3, is a metabolic dependency in ccRCC. pVHL loss promotes Hypoxia Inducible Factor (HIF)-independent SLC1A1 expression via H3K27ac dysregulation. SLC1A1 inactivation, genetically or pharmacologically, depletes Asp/Glu-derived metabolites (e.g., Tricarboxylic acid cycle and nucleotide intermediates), impedes ccRCC growth, and sensitizes ccRCCs to anti-metabolite drugs (e.g., glutaminase blockers). In human tumors, higher SLC1A1 expression is associated with reduced immune infiltration, oncogenic metabolic programs, and advanced stage/metastatic disease. Finally, in ccRCC animal models, SLC1A1 inactivation diminishes lung metastasis and the outgrowth of established renal tumors. Altogether, our studies credential SLC1A1 as an actionable, HIF-independent, metabolic dependency in pVHL-deficient ccRCCs. Clear cell renal cell carcinoma (ccRCC) bears the hallmark loss of VHL but remains incurable. Here, the authors identify the SLC1A1 dicarboxylic amino acid transporter as an actionable, oncogenic, HIF-independent, metabolic dependency in VHL-deficient ccRCCs.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292cdd0b8a1b698d2ed3ee0ce6e0a780e7917c0873ad86ac925c3be7a1ad547b",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-75399-6",
+        "https://openalex.org/W7168719530"
+      ],
+      "title": "Multiomic profiling links L1 retrotransposition to genomic instability and ecDNA in bladder cancer",
+      "link": "https://doi.org/10.1038/s41467-026-75399-6",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-75399-6.pdf",
+      "publication_date": "2026-07-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "pribus sophia",
+          "name": "Sophia J. Pribus"
+        },
+        {
+          "key": "ivana osredek",
+          "name": "Ivana Osredek"
+        },
+        {
+          "key": "jan otoničar",
+          "name": "Jan Otoničar"
+        },
+        {
+          "key": "lorenz milena simovic",
+          "name": "Milena Simovic-Lorenz"
+        },
+        {
+          "key": "chiara giovenino",
+          "name": "Chiara Giovenino"
+        },
+        {
+          "key": "anne rademacher",
+          "name": "Anne Rademacher"
+        },
+        {
+          "key": "jasmin sina wille",
+          "name": "Sina Jasmin Wille"
+        },
+        {
+          "key": "battioni berzain cecilia",
+          "name": "Cecilia Berzain Battioni"
+        },
+        {
+          "key": "michael scherer",
+          "name": "Michael Scherer"
+        },
+        {
+          "key": "manzano sanchez sergio",
+          "name": "Sergio Manzano-Sanchez"
+        },
+        {
+          "key": "andreas kienzle",
+          "name": "Andreas Kienzle"
+        },
+        {
+          "key": "parekh urja",
+          "name": "Urja Parekh"
+        },
+        {
+          "key": "laura villacorta",
+          "name": "Laura Villacorta"
+        },
+        {
+          "key": "beneš vladimı",
+          "name": "Vladimı́r Beneš"
+        },
+        {
+          "key": "pooja sant",
+          "name": "Pooja Sant"
+        },
+        {
+          "key": "jan mallm philipp",
+          "name": "Jan‐Philipp Mallm"
+        },
+        {
+          "key": "brand karsten",
+          "name": "Karsten Brand"
+        },
+        {
+          "key": "karsten rippe",
+          "name": "Karsten Rippe"
+        },
+        {
+          "key": "angelika beate riemer",
+          "name": "Angelika Beate Riemer"
+        },
+        {
+          "key": "holger sültmann",
+          "name": "Holger Sültmann"
+        },
+        {
+          "key": "christoph plass",
+          "name": "Christoph Plass"
+        },
+        {
+          "key": "mladen stanković",
+          "name": "Mladen Stanković"
+        },
+        {
+          "key": "jan korbel",
+          "name": "Jan O. Korbel"
+        },
+        {
+          "key": "rausch tobias",
+          "name": "Tobias Rausch"
+        },
+        {
+          "key": "aurélie ernst",
+          "name": "Aurélie Ernst"
+        }
+      ],
+      "abstract_text": "Bladder cancer is frequent and highly recurrent. Despite recent advances, knowledge gaps remain in molecular mechanisms underlying disease progression. In this study, we apply integrated multi-omic analyses to a cohort of 48 bladder cancer patients to comprehensively profile genetic, epigenetic, transcriptomic, and spatial features. Combining cell-free DNA sequencing, long-read tumor DNA-sequencing, RNA-sequencing, and spatial transcriptomics, we explore molecular alterations driving bladder cancer. We find frequent somatic LINE-1 (L1) insertions, and show that these L1 insertions are active and occur early in bladder cancer development. We link somatic L1 insertion with downstream genomic rearrangements and chromosomal instability, including increased structural variant and extrachromosomal DNA (ecDNA) counts in patients with high L1 counts. We identify variable ecDNA enrichment across tissue architecture, with highest enrichment overlapping differential expression of APOBEC3B and immune response pathways. In summary, our results support a model whereby L1 retrotransposition triggers downstream genomic instability and viral mimicry response.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292d94d5df508eb292edd1ec57293fe5bd1d06b6e3855dc2abaecf88db5b11cf",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01202-7",
+        "https://openalex.org/W7155862548"
+      ],
+      "title": "China’s latest push to commercialize research: match 680,000 innovators with companies",
+      "link": "https://doi.org/10.1038/d41586-026-01202-7",
+      "pdf_url": null,
+      "publication_date": "2026-04-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "basu mohana",
+          "name": "Mohana Basu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292dc79cb7c192fbcf9b53b4ab231d89577d6bea4c5617a3571c273a5548b584",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-67278-3",
+        "https://openalex.org/W4417187653"
+      ],
+      "title": "Unveiling cytochrome P450 enzymes that catalyze steroid side-chain cleavage in bacteria",
+      "link": "https://doi.org/10.1038/s41467-025-67278-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-67278-3_reference.pdf",
+      "publication_date": "2025-12-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "tian wenya",
+          "name": "Wenya Tian"
+        },
+        {
+          "key": "guangzheng wei",
+          "name": "Guangzheng Wei"
+        },
+        {
+          "key": "borui duan",
+          "name": "Borui Duan"
+        },
+        {
+          "key": "haidong peng",
+          "name": "Haidong Peng"
+        },
+        {
+          "key": "huanhuan liu",
+          "name": "Huanhuan Liu"
+        },
+        {
+          "key": "mengmeng zheng",
+          "name": "Mengmeng Zheng"
+        },
+        {
+          "key": "lin zhi",
+          "name": "Zhi Lin"
+        },
+        {
+          "key": "deng zixin",
+          "name": "Zixin Deng"
+        },
+        {
+          "key": "zhang zhengyu",
+          "name": "Zhengyu Zhang"
+        },
+        {
+          "key": "qu xudong",
+          "name": "Xudong Qu"
+        }
+      ],
+      "abstract_text": "Steroids are among the most valuable and widely used pharmaceuticals. The cholesterol side-chain cleavage enzyme (P450scc) is critical for steroid metabolism and hormone biosynthesis. While mammalian eukaryotic P450scc enzymes are well-characterized, bacterial counterparts remain underexplored despite their industrial promise and potential contributions to bacterial steroid catabolism. Here, we identify a series of CYP204 family P450 enzymes, widely distributed across diverse steroid-degrading bacterial species, that catalyze the side-chain cleavage of cholesterol, phytosterol, and cholestenone to produce pregnenolone and progesterone. Unlike mammalian enzymes, which exhibit strict cholesterol specificity, bacterial P450scc enzymes display relaxed substrate specificity, preferentially converting cholestenone to progesterone-a key precursor in steroid drug semi-synthesis. Structural and mechanistic analyses demonstrate that CYP204 enzymes employ a flexible, dual-regioselective C-H activation mechanism distinct from the sequential hydroxylation of mammalian P450scc enzymes. Iterative saturation mutagenesis identified critical residues for side-chain cleavage, improving catalytic efficiency up to 6.5-fold, and computational analyses clarified sequence-function relationships. This finding of bacterial P450scc enzymes not only underscores their potential function in bacterial steroid catabolism but also lays a foundation for promising biocatalytic strategies for pregnenolone and progesterone synthesis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "292de6c43deebc68b36484c99bbaad13cbebb2f49c8dd1bb15c259d3059dd8e3",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-70977-0",
+        "https://openalex.org/W7155035949"
+      ],
+      "title": "Operando spectroelectrochemical identification of peroxide intermediate in molten carbonate CO2-to-carbon electroreduction",
+      "link": "https://doi.org/10.1038/s41467-026-70977-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-70977-0_reference.pdf",
+      "publication_date": "2026-04-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "ratso sander",
+          "name": "Sander Ratso"
+        },
+        {
+          "key": "michael whittaker",
+          "name": "Michael Whittaker"
+        },
+        {
+          "key": "kaare kätlin",
+          "name": "Kätlin Kaare"
+        },
+        {
+          "key": "olga raluca scarlat",
+          "name": "Raluca Olga Scarlat"
+        }
+      ],
+      "abstract_text": "Abstract Electrolysis of CO 2 in molten salts promises efficient carbon capture, but the underlying reaction mechanisms remain incompletely understood, as research thus far has been limited by a lack of tools for operando investigations. Here, we use a high-temperature operando Raman spectroelectrochemical system to look for signatures of reaction intermediates and study the evolution of carbon structures over electrolysis time. The analysis reveals the existence of O 2 2− concurrently with the deposition of carbon on Au, W, Inconel, and Ni electrode materials, pointing to a common reaction mechanism with O 2 2− as an intermediate. Secondly, the G peak of the as-deposited carbon experiences a noticeable blue-shift as the material is cooled down and purified, suggesting either a growth in crystallite size even after the electrolysis is stopped or lithium deintercalation. Elucidating the cathodic carbon deposition mechanism could help create greater value-added products and increase the economic viability of carbon capture.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2935df6053aff80ec0ad830dec1573d9e64a27af0c098d43243ab566f90eac60",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-68909-z",
+        "https://openalex.org/W7128700511"
+      ],
+      "title": "Human iPSC-based Modeling of Pulmonary Fibrosis Reveals p300/CBP Inhibition Suppresses Alveolar Transitional Cell State",
+      "link": "https://doi.org/10.1038/s41467-026-68909-z",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-68909-z.pdf",
+      "publication_date": "2026-02-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "tsutsui yusuke",
+          "name": "Yusuke Tsutsui"
+        },
+        {
+          "key": "atsushi masui",
+          "name": "Atsushi Masui"
+        },
+        {
+          "key": "konishi satoshi",
+          "name": "Satoshi Konishi"
+        },
+        {
+          "key": "taro tsujimura",
+          "name": "Taro Tsujimura"
+        },
+        {
+          "key": "iwasaki mio",
+          "name": "Mio Iwasaki"
+        },
+        {
+          "key": "takuya yamamoto",
+          "name": "Takuya Yamamoto"
+        },
+        {
+          "key": "gotoh shimpei",
+          "name": "Shimpei Gotoh"
+        }
+      ],
+      "abstract_text": "Idiopathic pulmonary fibrosis (IPF) is characterized by progressive scarring of lung tissue with an urgent need for effective treatments. Studies have shown that the alveolar transitional cell state (ATCS) emerges in fibrotic regions of the IPF lung. However, whether ATCS is the cause or consequence of fibrosis is controversial, and no therapeutic agents targeting the alveolar epithelial differentiation are used to treat IPF. In this study, we performed a drug screening with an in vitro pulmonary fibrosis model using fibroblast-dependent alveolar organoids derived from human induced pluripotent stem cells (iPSCs) and identified p300/CBP inhibitors as candidate therapeutic agents. Multi-omics technology revealed that ATCS induced from human iPSCs-derived alveolar organoids had a compatible profile with that reported in IPF and p300/CBP inhibitors suppressed the emergence of ATCS. Overall, these results elucidate the biological mechanisms of pulmonary fibrosis and provide a potential therapeutic target.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2938aadc3112308a14d0a4cc0463d831738b68b454ed092dff1319f4cb6e3d0e",
+      "identity_keys": [
+        "arxiv:2609.03046",
+        "https://doi.org/10.48550/arXiv.2609.03046"
+      ],
+      "title": "Advances in Machine Learning for Directed Evolution: A Five-Year Retrospective",
+      "link": "https://doi.org/10.48550/arXiv.2609.03046",
+      "pdf_url": "https://arxiv.org/pdf/2609.03046",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bruce wittmann",
+          "name": "Bruce J. Wittmann"
+        }
+      ],
+      "abstract_text": "The last five-plus years have seen many protein engineering disciplines transformed by advances in machine learning (ML), but the same cannot be said for directed evolution. Reflecting on a previously co-authored perspective, I discuss why I believe this to be the case, arguing that a disconnect between the goals of machine-learning-assisted directed evolution (MLDE) researchers--\"identify an optimal protein\"--and the goals of directed evolution more broadly--\"identify a sufficient protein given time and resource constraints\"--is a principal culprit. As an example, I highlight how nearly all current MLDE methods neglect to account for the cost of DNA synthesis, resulting in strategies that have limited practical applicability regardless of the underlying models' capabilities. I close by discussing recent works that are exceptions to this overarching trend, and emphasize that the last five years of efforts in ML-assisted protein engineering and the prescribed reframe of MLDE objectives need not be mutually exclusive.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "293cb30e22286f7951ea4c545b4d96da5cea8fb2cdf8aa457863279ce3834584",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71237-x",
+        "https://openalex.org/W7147401697"
+      ],
+      "title": "Nucleophagy is promoted by two autophagy receptors and inhibited by chromatin-nuclear envelope tethering in fission yeast",
+      "link": "https://doi.org/10.1038/s41467-026-71237-x",
+      "pdf_url": null,
+      "publication_date": "2026-03-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "hui ma zhu",
+          "name": "Zhu-Hui Ma"
+        },
+        {
+          "key": "pan qian zhao",
+          "name": "Zhao-Qian Pan"
+        },
+        {
+          "key": "jiang zhaodi",
+          "name": "Zhaodi Jiang"
+        },
+        {
+          "key": "can guang shao",
+          "name": "Guang-Can Shao"
+        },
+        {
+          "key": "hua yu",
+          "name": "Yu Hua"
+        },
+        {
+          "key": "fang suo",
+          "name": "Fang Suo"
+        },
+        {
+          "key": "chenxi zou",
+          "name": "Chenxi Zou"
+        },
+        {
+          "key": "jiang yifeng",
+          "name": "Yifeng Jiang"
+        },
+        {
+          "key": "dong meng qiu",
+          "name": "Meng‐Qiu Dong"
+        },
+        {
+          "key": "du li lin",
+          "name": "Li-Lin Du"
+        }
+      ],
+      "abstract_text": "Selective autophagy of the nucleus, known as nucleophagy, targets nuclear components for degradation. The molecular mechanisms underlying nucleophagy remain inadequately understood. In this study, we identify a nucleophagy receptor, Npr1, in the fission yeast Schizosaccharomyces pombe. Npr1 is an Atg8-binding multi-transmembrane protein localized to the outer nuclear membrane. It functions redundantly with another autophagy receptor, Epr1, to promote nitrogen starvation-induced nucleophagy. In the absence of both Npr1 and Epr1, starved cells exhibit abnormal nuclear morphology and reduced survival. During nucleophagy, the nuclear envelope (NE) forms outward protrusions where Atg8 co-localizes with Npr1 and/or Epr1. These protrusions subsequently detach from the NE, resulting in the formation of autophagosomes that contain nucleophagy cargo. Notably, artificially enhancing chromatin association with the inner nuclear membrane leads to NE protrusions that fail to detach, thereby aborting nucleophagy. Our findings provide mechanistic insights into nucleophagy and suggest that abortive nucleophagy protects chromatin from degradation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29424aa9314ba2e3f91950856c090e3e9110b9a2253ef4c9b211ae8c0005c66a",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66843-0",
+        "https://openalex.org/W4416978176"
+      ],
+      "title": "Macroevolutionary brain scaling is a microevolutionary metaphenomenon",
+      "link": "https://doi.org/10.1038/s41467-025-66843-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-66843-0_reference.pdf",
+      "publication_date": "2025-12-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "baker joanna",
+          "name": "Joanna Baker"
+        },
+        {
+          "key": "barton robert",
+          "name": "Robert A. Barton"
+        },
+        {
+          "key": "chris venditti",
+          "name": "Chris Venditti"
+        }
+      ],
+      "abstract_text": "From bees to blue whales, it has long been assumed that brain size scales with body size according to a simple log-linear relationship - with differences in the slope and intercept observed amongst different groups of animals. However, recent analyses in mammals contradict this view, revealing size dependency in the form of curvature in the brain and body mass relationship. Here, we use data from 4679 species across seven animal classes and spanning nearly 12 orders of magnitude to uncover near universal curvilinearity. We demonstrate that this body size dependence is a metaphenomenon emerging from a pattern of diminishing allometry within species with increasing body mass. This has fundamental implications for how we interpret macroevolutionary patterns - which can arise as a consequence of within-lineage dynamics. Our integration of inter- and intra-specific allometries reshapes perspectives on morphological evolution by providing a broader framework for understanding how microevolutionary within-species dynamics shape macroevolutionary phenomena.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2944991e10c832bbb9f12e0e64160d02ebfe480ac36ee29cd266136ab868765e",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-65568-4",
+        "https://openalex.org/W4416719101"
+      ],
+      "title": "The neuropathy-linked protein TECPR2 is a Rab5 effector that regulates cargo recycling from early endosomes",
+      "link": "https://doi.org/10.1038/s41467-025-65568-4",
+      "pdf_url": null,
+      "publication_date": "2025-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "paul sankalita",
+          "name": "Sankalita Paul"
+        },
+        {
+          "key": "pant rajat",
+          "name": "Rajat Pant"
+        },
+        {
+          "key": "poonam sharma",
+          "name": "Poonam Sharma"
+        },
+        {
+          "key": "kshitiz walia",
+          "name": "Kshitiz Walia"
+        },
+        {
+          "key": "gupta suhasi",
+          "name": "Suhasi Gupta"
+        },
+        {
+          "key": "adhil aseem",
+          "name": "Adhil Aseem"
+        },
+        {
+          "key": "bajwa kamlesh kumari",
+          "name": "Kamlesh Kumari Bajwa"
+        },
+        {
+          "key": "george ruben",
+          "name": "Ruben George"
+        },
+        {
+          "key": "varma yudish",
+          "name": "Yudish Varma"
+        },
+        {
+          "key": "bhatia tripta",
+          "name": "Tripta Bhatia"
+        },
+        {
+          "key": "rajesh ramachandran",
+          "name": "Rajesh Ramachandran"
+        },
+        {
+          "key": "amit tuli",
+          "name": "Amit Tuli"
+        },
+        {
+          "key": "mahak sharma",
+          "name": "Mahak Sharma"
+        }
+      ],
+      "abstract_text": "Small GTP-binding proteins of the Rab, Arf, and Arf-like family mediate the recruitment of their effectors to subcellular membrane-bound compartments, which in turn mediate vesicle budding, motility, and tethering. Here, we report that Tectonin-β-propeller repeat containing protein 2 (TECPR2), a protein mutated in a form of hereditary sensory and autonomic neuropathy (HSAN), is an effector of early endosomal Rab protein, Rab5. We demonstrate that the HSAN-associated missense variants of TECPR2 are defective in Rab5 binding and, consequently, in membrane recruitment. Furthermore, our findings reveal that depletion of TECPR2 impairs recycling of a subset of cargo receptors, including α5β1 integrins, leading to their lysosomal degradation. TECPR2 interacts with SNX17 and subunits of the WASH complex, molecular players that regulate the formation of actin-dependent cargo retrieval subdomain on the early endosomes. Finally, we show that TECPR2 depletion in zebrafish embryos results in decreased survival, impaired movement and altered neuromuscular synaptic morphology. Our study suggests that TECPR2 functions as a linker between Rab5 and the actin-dependent cargo retrieval machinery, providing insights into how mutations in TECPR2 may result in a neurodegenerative disorder.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2949a4009915ebaa17eba0172cc055a260132ab7a8a8175121b1744aa5c5297b",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69026-7",
+        "https://openalex.org/W7127915654"
+      ],
+      "title": "Topological mechanical metamaterial for robust and ductile one-way fracturing",
+      "link": "https://doi.org/10.1038/s41467-026-69026-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-69026-7_reference.pdf",
+      "publication_date": "2026-02-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "wang xinyu",
+          "name": "Xinyu Wang"
+        },
+        {
+          "key": "sarkar siddhartha",
+          "name": "Siddhartha Sarkar"
+        },
+        {
+          "key": "gonella stefano",
+          "name": "Stefano Gonella"
+        },
+        {
+          "key": "mao xiaoming",
+          "name": "Xiaoming Mao"
+        }
+      ],
+      "abstract_text": "Abstract Fracturing is unavoidable and threatens the reliability and functionality of materials. Therefore, regulating the propagation of cracks in a predictable and ductile manner is of paramount importance. Herein, we exploit the properties of topological mechanical metamaterials (TMMs) as a versatile mechanism to guide cracks unidirectionally and turn fracturing of lattices made of brittle materials into ductile events. Inspired by quantum topological states, recent discoveries of TMMs have uncovered varieties of unconventional mechanical phenomena, ranging from one-way wave propagation to polar elasticity. We show that polarized floppy modes occurring in TMMs lead to strongly asymmetric stress fields localizing around the crack tips, leading to ductile one-way fracturing, in sharp contrast to classical theories of fractures in brittle materials. Our work demonstrates the universality of this fracture unidirectionality feature, which is protected by TMM's bulk topology, and provides robust solutions in programmable fracturing for a broad class of materials and structures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "294d7f31107136bffeeed3c859f761ae556196287f3fdd166b725f4ff9e96614",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77493-1",
+        "https://openalex.org/W7211950912"
+      ],
+      "title": "On-chip 3D printing of metal microinductors for radio frequency electronics",
+      "link": "https://doi.org/10.1038/s41467-026-77493-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77493-1_reference.pdf",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "alessandro paghi",
+          "name": "Alessandro Paghi"
+        },
+        {
+          "key": "abazar farbod",
+          "name": "Farbod Abazar"
+        },
+        {
+          "key": "lazzoni valeria",
+          "name": "Valeria Lazzoni"
+        },
+        {
+          "key": "angelica masi",
+          "name": "Angelica Masi"
+        },
+        {
+          "key": "rotundo sabrina",
+          "name": "Sabrina Rotundo"
+        },
+        {
+          "key": "brizi danilo",
+          "name": "Danilo Brizi"
+        },
+        {
+          "key": "agostino monorchio",
+          "name": "Agostino Monorchio"
+        },
+        {
+          "key": "barillaro giuseppe",
+          "name": "Giuseppe Barillaro"
+        }
+      ],
+      "abstract_text": "On-chip inductors are essential components of radio-frequency integrated circuits, yet their large footprint and limited scalability constrain chip miniaturization and increase manufacturing costs. Here we show a method for integrating three-dimensional metal microinductors directly onto chip contact pads using high-precision electrodeposition. The resulting freestanding coils extend above the chip surface, decoupling their inductance from the planar silicon area they occupy. We fabricate copper microsolenoids with different geometries directly on test chips and characterize their electrical performance over a broad frequency range. The microsolenoids exhibit inductance in the nanohenry range, quality factors of up to 18, and retain inductive behaviour up to 15 GHz, in agreement with electromagnetic simulations. The process is maskless and can be applied after standard chip fabrication without modifying the underlying circuit design, providing a route towards smaller, more scalable, and potentially lower-cost radio-frequency integrated circuits.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2950615c57af2be40ccfc07a5c67edaa86a51fd1a2e455cfdc2f18d76316a163",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01567-9",
+        "https://openalex.org/W7162513975"
+      ],
+      "title": "Human blood stem cells remember previous inflammation",
+      "link": "https://doi.org/10.1038/d41586-026-01567-9",
+      "pdf_url": null,
+      "publication_date": "2026-05-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [],
+      "abstract_text": "Inflammatory stress is shown to reprogram a subset of human haematopoietic stem cells (HSCs). These inflammatory memory (HSC-iM) cells have reduced differentiation and pass on inflammation-related gene programs to their immune-cell progeny. HSC-iM cells accumulate with age, and cancer-associated mutations affect HSC-iM cells more than they do other HSCs in clonal blood disorders. A subset of haematopoietic stem cells pass on an inflammatory program to their immune-cell progeny.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2950705a0de4b0001ba0251dbf1feca35396d4cca12d5b75392d53bfa9f3bf2f",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-02307-9",
+        "https://openalex.org/W7170862735"
+      ],
+      "title": "Daily briefing: Orcas smash sunfish to smithereens",
+      "link": "https://doi.org/10.1038/d41586-026-02307-9",
+      "pdf_url": null,
+      "publication_date": "2026-07-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "jacob smith",
+          "name": "Jacob Smith"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2952e612e40f4cd4a0fa4d3bf1fbcea39d38980d9c191c2aa3dc8c67a9a2a41d",
+      "identity_keys": [
+        "https://doi.org/10.1126/sciadv.ads8932",
+        "https://openalex.org/W4408221130"
+      ],
+      "title": "Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model",
+      "link": "https://doi.org/10.1126/sciadv.ads8932",
+      "pdf_url": "https://www.science.org/doi/pdf/10.1126/sciadv.ads8932?download=true",
+      "publication_date": "2025-03-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Science Advances",
+      "authors": [
+        {
+          "key": "jike wang",
+          "name": "Jike Wang"
+        },
+        {
+          "key": "feng jianwen",
+          "name": "Jianwen Feng"
+        },
+        {
+          "key": "kang yu",
+          "name": "Yu Kang"
+        },
+        {
+          "key": "pan peichen",
+          "name": "Peichen Pan"
+        },
+        {
+          "key": "ge jingxuan",
+          "name": "Jingxuan Ge"
+        },
+        {
+          "key": "wang yan",
+          "name": "Yan Wang"
+        },
+        {
+          "key": "mingyang wang",
+          "name": "Mingyang Wang"
+        },
+        {
+          "key": "wu zhenxing",
+          "name": "Zhenxing Wu"
+        },
+        {
+          "key": "xingcai zhang",
+          "name": "Xingcai Zhang"
+        },
+        {
+          "key": "jiameng yu",
+          "name": "Jiameng Yu"
+        },
+        {
+          "key": "xujun zhang",
+          "name": "Xujun Zhang"
+        },
+        {
+          "key": "tianyue wang",
+          "name": "Tianyue Wang"
+        },
+        {
+          "key": "lirong wen",
+          "name": "Lirong Wen"
+        },
+        {
+          "key": "guangning yan",
+          "name": "Guangning Yan"
+        },
+        {
+          "key": "deng yafeng",
+          "name": "Yafeng Deng"
+        },
+        {
+          "key": "huijuan shi",
+          "name": "Huijuan Shi"
+        },
+        {
+          "key": "chang hsieh yu",
+          "name": "Chang‐Yu Hsieh"
+        },
+        {
+          "key": "jiang zhihui",
+          "name": "Zhihui Jiang"
+        },
+        {
+          "key": "hou tingjun",
+          "name": "Tingjun Hou"
+        }
+      ],
+      "abstract_text": "Large language models (LLMs) have shown remarkable advancements in chemistry and biomedical research, acting as versatile foundation models for various tasks. We introduce AMP-Designer, an LLM-based approach, for swiftly designing antimicrobial peptides (AMPs) with desired properties. Within 11 days, AMP-Designer achieved the de novo design of 18 AMPs with broad-spectrum activity against Gram-negative bacteria. In vitro validation revealed a 94.4% success rate, with two candidates demonstrating exceptional antibacterial efficacy, minimal hemotoxicity, stability in human plasma, and low potential to induce resistance, as evidenced by significant bacterial load reduction in murine lung infection experiments. The entire process, from design to validation, concluded in 48 days. AMP-Designer excels in creating AMPs targeting specific strains despite limited data availability, with a top candidate displaying a minimum inhibitory concentration of 2.0 micrograms per milliliter against Propionibacterium acnes . Integrating advanced machine learning techniques, AMP-Designer demonstrates remarkable efficiency, paving the way for innovative solutions to antibiotic resistance.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
+        }
+      ],
+      "curated_categories": [
+        "5.4 Transformer-based",
+        "5.Function to Sequence"
+      ]
+    },
+    {
+      "id": "29570c7e89cfa2072d770f70146987e95dd462171f127637b6f3d2faa59d610f",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-03216-7",
+        "https://openalex.org/W7221177554"
+      ],
+      "title": "Briefing Chat: Top researchers are being mislead by sham academic societies",
+      "link": "https://doi.org/10.1038/d41586-026-03216-7",
+      "pdf_url": null,
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "benjamin thompson",
+          "name": "Benjamin Thompson"
+        },
+        {
+          "key": "kozlov max",
+          "name": "Max Kozlov"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2962c289e0365535e54b9bc991e2325020725a99bd567615f4e3342ab7be8f7d",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69305-3",
+        "https://openalex.org/W7138452004"
+      ],
+      "title": "Inhibition of the cancer stem cell immune checkpoint SOAT1 suppresses regulatory T cell functions through a trans-cellular 20(S)-Hydroxycholesterol-GPR132 pathway in mice",
+      "link": "https://doi.org/10.1038/s41467-026-69305-3",
+      "pdf_url": null,
+      "publication_date": "2026-03-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "ding yahui",
+          "name": "Yahui Ding"
+        },
+        {
+          "key": "fang wanqi",
+          "name": "Wanqi Fang"
+        },
+        {
+          "key": "ruiqing xiang",
+          "name": "Ruiqing Xiang"
+        },
+        {
+          "key": "haitao liu",
+          "name": "Haitao Liu"
+        },
+        {
+          "key": "huang menglin",
+          "name": "Menglin Huang"
+        },
+        {
+          "key": "shen yingran",
+          "name": "Yingran Shen"
+        },
+        {
+          "key": "chen ying",
+          "name": "Ying Chen"
+        },
+        {
+          "key": "guohao wang",
+          "name": "Guohao Wang"
+        },
+        {
+          "key": "zhaocai zhou",
+          "name": "Zhaocai Zhou"
+        },
+        {
+          "key": "ling yun",
+          "name": "Yun Ling"
+        },
+        {
+          "key": "ling sun",
+          "name": "Ling V. Sun"
+        },
+        {
+          "key": "wang yuetong",
+          "name": "Yuetong Wang"
+        },
+        {
+          "key": "hou steven xianyu",
+          "name": "Xianyu Steven Hou"
+        }
+      ],
+      "abstract_text": "Although cancer immunotherapy has recently revolutionized treatment, the low response rate to existing immune checkpoint blockade (ICB) underscores the need for new druggable targets. Here, we find that SOAT1 is selectively expressed in cancer stem cell (CSC) and pharmacological inhibition with STK results in robust anti-tumor effects across various preclinical mouse models, including colon, liver, lung, breast, and melanoma cancer, with low toxicity. Mechanistically, treatment with STK (or gene knockdown of Soat1) induces the release of 20(S)-Hydroxycholesterol (20SOHC) from the tumor cells, and downstream activation of the trans-cellular 20SOHC (tumor)- GPR132 pathway in regulatory T cell (Treg), ultimately resulting in the suppression of Treg functions and enhanced dendritic cells and cytotoxic CD8+ T cell responses. Importantly, STK treatment synergizes with anti-PD-1 or anti-CTLA-4 ICB therapy. Thus, our findings identify SOAT1 as a CSC metabolism checkpoint that facilitates immune evasion and SOAT1 inhibition as a promising strategy for advanced cancer immunotherapy. Cancer stem cells contribute to cancer evasion and relapse by suppressing the immune response. Here, the authors identify sterol O-acyltransferase 1 (SOAT1) as a cancer stem cell immune checkpoint and propose that SOAT1 inhibition results in oxysterol-mediated reprogramming of intratumoral regulatory T cells via a trans-cellular 20SOHC-GPR132, ultimately enhancing anti-tumor immunity in various preclinical mouse models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29632ea880d26246ebe1b69e5a629ce08fc2c71e5f704f3f2b30f407a3d575df",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-02184-2",
+        "https://openalex.org/W7213532631"
+      ],
+      "title": "How research funding took me out of the lab and into leadership",
+      "link": "https://doi.org/10.1038/d41586-026-02184-2",
+      "pdf_url": null,
+      "publication_date": "2026-09-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "anna sandak",
+          "name": "Anna Sandak"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2967793441e699f03eb367eabe5bbd4e2651f1ed3487fc90dc38d26dca31335e",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66386-4",
+        "https://openalex.org/W4417239383"
+      ],
+      "title": "Structures of human glucose-6-phosphate transporter reveal reciprocal antiport mechanism driving glucose-6-phosphate and inorganic phosphate exchange",
+      "link": "https://doi.org/10.1038/s41467-025-66386-4",
+      "pdf_url": null,
+      "publication_date": "2025-12-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "qian wang",
+          "name": "Qian Wang"
+        },
+        {
+          "key": "guo ningjie",
+          "name": "Ningjie Guo"
+        },
+        {
+          "key": "du yunxiang",
+          "name": "Yunxiang Du"
+        },
+        {
+          "key": "junwu liu",
+          "name": "Junwu Liu"
+        },
+        {
+          "key": "ai wanting",
+          "name": "Wanting Ai"
+        },
+        {
+          "key": "fengyi yang",
+          "name": "Fengyi Yang"
+        },
+        {
+          "key": "yuanzai zhu",
+          "name": "Yuanzai Zhu"
+        },
+        {
+          "key": "yuanyuan zhao",
+          "name": "Yuanyuan Zhao"
+        },
+        {
+          "key": "di wu",
+          "name": "Di Wu"
+        },
+        {
+          "key": "lei liu",
+          "name": "Lei Liu"
+        },
+        {
+          "key": "xia yao yin",
+          "name": "Xia Yin Yao"
+        },
+        {
+          "key": "gao shuai",
+          "name": "Shuai Gao"
+        }
+      ],
+      "abstract_text": "Glucose-6-phosphate transporter 1 (G6PT1) is essential for systemic glucose homeostasis, and its deficiency causes glycogen storage disease type 1b (GSD1b). G6PT1 functions as a sugar-phosphate/inorganic phosphate (Pi) antiporter, orchestrating G6P transport into the endoplasmic reticulum lumen driven by a Pi gradient. Despite its physiological significance, the molecular mechanisms underlying substrate recognition and antiport activity remain poorly characterized. Here, we present cryo-electron microscopy structures of human G6PT1 in apo, Pi-bound, and GlcN6P-bound (a G6P analogue) states, all captured in cytosol-open conformations. Combined with molecular docking and functional assays, these structures elucidate the molecular basis for Pi and G6P recognition in G6PT1. Comparative analysis reveals that Pi binding triggers an interdomain salt bridge formation, resulting in a thicker luminal gate and a more compact central cavity for G6P binding. In addition to the monomer, we identify a dimeric assembly of G6PT1. Mutating key residues at the dimer interface impairs transport activity, suggesting a regulatory role for oligomerization. Our findings thus provide a mechanistic framework for understanding G6PT1 working mechanism and its pathological dysregulation in GSD1b. Human Glucose-6- phosphate Transporter (G6PT1) is critical for systemic glucose homeostasis. By integrating multiple cryo-EM structures with functional validation, the study elucidates the molecular mechanism of G6PT1 and its dysregulation in glycogen storage disease.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2967a4d51f5cead54762cf9cd777fb1e5a5afd4ac176272ab861fbffbc01b122",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70210",
+        "https://doi.org/10.1101/2025.05.12.653318",
+        "https://openalex.org/W4412488517"
+      ],
+      "title": "Artificial intelligence and first‐principle methods in protein redesign: A marriage of convenience?",
+      "link": "https://doi.org/10.1002/pro.70210",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.70210",
+      "publication_date": "2025-07-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "cianferoni damiano",
+          "name": "Damiano Cianferoni"
+        },
+        {
+          "key": "david vizarraga",
+          "name": "David Vizarraga"
+        },
+        {
+          "key": "ana escamilla fernández maría",
+          "name": "Ana María Fernández‐Escamilla"
+        },
+        {
+          "key": "fita ignacio",
+          "name": "Ignacio Fita"
+        },
+        {
+          "key": "hamdani rahma",
+          "name": "Rahma Hamdani"
+        },
+        {
+          "key": "raul reche",
+          "name": "Raul Reche"
+        },
+        {
+          "key": "delgado javier",
+          "name": "Javier Delgado"
+        },
+        {
+          "key": "luis serrano",
+          "name": "Luis G. Serrano"
+        }
+      ],
+      "abstract_text": "Since AlphaFold2's rise, many deep learning methods for protein design have emerged. Here, we validate widely used and recognized tools, compare them with first-principle methods, and explore their combinations, focusing on their effectiveness in protein redesign and potential for therapeutic repurposing. We address two challenges: evaluating tools and combinations ability to detect the effects of multiple concurrent mutations in protein variants, and leveraging large-scale datasets to compare modeling-free methods, namely force fields, which handle point mutations well with limited backbone rearrangement, and inverse folding tools, which excel at native sequence recovery but may struggle with non-natural proteins. Debuting TriCombine, a tool that identifies residue triangles in input structures, matches them to a structural database, and scores mutants based on substitution frequencies, we shortlisted candidates, modeled them with FoldX, and generated 16 SH3 mutants carrying up to 9 concurrent substitutions. The dataset was expanded to include 36 mutants and 11 crystal structures (7 newly solved), along with a parallel set of multiple non-concurrent mutants from three additional proteins. For broader validation, we analyzed 160,000 four-site GB1 mutants and 163,555 (single and double) variants across 179 natural and de novo domains. We show that combining AI-based modeling tools with force field scoring functions yields the most reliable results. Inverse folding tools perform very well but lose accuracy on less-represented proteins. First-principle force fields like FoldX remain the most accurate for point mutations. All methods perform worse when applied to unsolved de novo models, underscoring the need for hybrid strategies in robust protein design.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
+        }
+      ],
+      "curated_categories": [
+        "7. Other tasks",
+        "7.1 Effects of mutation & Fitness Landscape"
+      ]
+    },
+    {
+      "id": "2968b522b08dee89b357ce1d8c769a4cbee8609c91e25bf5477c9e063271d95f",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74168-9",
+        "https://openalex.org/W7167629364"
+      ],
+      "title": "Optimizing Traps and Dihedral Angles to Modulate Charge Transport Behavior for High-Temperature Dielectric Energy Storage",
+      "link": "https://doi.org/10.1038/s41467-026-74168-9",
+      "pdf_url": null,
+      "publication_date": "2026-07-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "yang zhao",
+          "name": "Yang Zhao"
+        },
+        {
+          "key": "shuo zhao",
+          "name": "Shuo Zhao"
+        },
+        {
+          "key": "shiyi wu",
+          "name": "Shiyi Wu"
+        },
+        {
+          "key": "mufeng zhang",
+          "name": "Mufeng Zhang"
+        },
+        {
+          "key": "minzheng yang",
+          "name": "Minzheng Yang"
+        },
+        {
+          "key": "yang",
+          "name": "L Yang"
+        },
+        {
+          "key": "ren weibin",
+          "name": "Weibin Ren"
+        },
+        {
+          "key": "ce nan wen",
+          "name": "Ce‐Wen Nan"
+        },
+        {
+          "key": "shen yang",
+          "name": "Yang Shen"
+        }
+      ],
+      "abstract_text": "High-temperature dielectric films hold broad prospects in next-generation microelectronics and power systems. However, commercially available dielectric materials for electrostatic energy storage, specifically biaxially oriented polypropylene, suffer from drawbacks such as low energy density, low efficiency, and poor reliability, which limit the application of film capacitors in harsh environments. Herein, a series of naphthalene tetracarboxylic acid dianhydrides were incorporated into polyetherimide (PEI) backbone, thereby modulating the charge transport behavior. Specifically, synergistic regulation of traps and dihedral angles has effectively enhanced the breakdown strength of PEI. At 200 °C, the optimized dielectric film delivers a discharged energy density of 6.00 J cm−3 at an efficiency of 90%, and maintains stable performance over 105 charge-discharge cycles at 300 MV m−1. Multilayer stacked film capacitors prepared from the optimized films exhibit remarkable thermal stability and capacitive performance. This work proposes a feasible strategy for developing dielectric films with remarkable energy storage performance, superior thermal stability, and scalable fabrication capability. High-temperature dielectric films are promising for next-generation microelectronics and power systems. Here the authors incorporated naphthalene tetracarboxylic acid dianhydrides into polyetherimide to regulate charge transport behavior and effectively improved the breakdown strength via synergistic modulation of traps and dihedral angles.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "296f0ec583ce13492e0ba162940ea2a1343ff78371b5c7ebe23d081a758b6d5a",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77301-w",
+        "https://openalex.org/W7205004572"
+      ],
+      "title": "Macrocyclization of native peptides through (thio)urea crosslinking of two amines",
+      "link": "https://doi.org/10.1038/s41467-026-77301-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77301-w_reference.pdf",
+      "publication_date": "2026-09-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "jinyao liu",
+          "name": "Jinyao Liu"
+        },
+        {
+          "key": "chen peiru",
+          "name": "Peiru Chen"
+        },
+        {
+          "key": "meilin tang",
+          "name": "Meilin Tang"
+        },
+        {
+          "key": "chen qiuyu",
+          "name": "Qiuyu Chen"
+        },
+        {
+          "key": "liao yixin",
+          "name": "Yixin Liao"
+        },
+        {
+          "key": "liu yu",
+          "name": "Yu Liu"
+        },
+        {
+          "key": "shafi ullah",
+          "name": "Shafi Ullah"
+        },
+        {
+          "key": "jinwu zhao",
+          "name": "Jinwu Zhao"
+        },
+        {
+          "key": "long yubo",
+          "name": "Yubo Long"
+        },
+        {
+          "key": "chen gong",
+          "name": "Gong Chen"
+        },
+        {
+          "key": "wenfang xiong",
+          "name": "Wenfang Xiong"
+        }
+      ],
+      "abstract_text": "Abstract Cyclopeptides have emerged as promising candidates for developing bioactive molecules and drugs. However, owing to the scarcity of efficient cyclization strategies for natural peptides, the development of novel and diverse cyclopeptides remains a formidable challenge. In this study, a variety of novel macrocyclic peptides featuring (thio)urea bridges were developed through the site-selective Lys-Lys crosslinking of native peptides, employing CDI/TCDI as carbonylation reagents. In particular, the dual thiourea-bridged macrocyclic peptides were further synthesized by using a one-pot two-step multicomponent macrocyclization. These strategies enabled the chemoselective macrocyclization of peptides bearing diverse nucleophilic residue into novel (thio)urea-bridged macrocyclic analogs, as exemplified by the successful transformation of bioactive peptides including RGD, Anoplin, and HHC-36. Biological evaluation demonstrated that the cyclopeptides, particularly the thiourea- and bis-thiourea-bridged analogs, exhibit a greater than 10-fold enhancement in target binding affinity, potent antitumor activity, as well as improved membrane permeability and stability. Molecular docking elucidates the structural origin of the enhanced bioactivity, revealing their superior target engagement through reinforced molecular interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "297228a02d870cf192e5a7e47d4faa94dc3885e0ab3344579b6753cd82511b13",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01152-0",
+        "https://openalex.org/W7158667671"
+      ],
+      "title": "Machine learning improves health-care access in Sierra Leone",
+      "link": "https://doi.org/10.1038/d41586-026-01152-0",
+      "pdf_url": null,
+      "publication_date": "2026-04-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "obermeyer ziad",
+          "name": "Ziad Obermeyer"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2972f097f48d94653503e87b73a3f4af2d60d739dac97ac0c2fdc6050f630a32",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69713-5",
+        "https://openalex.org/W7129053219"
+      ],
+      "title": "Molecular electronic chirality in copper phthalocyanine induced via twisted π-π stacking on bilayer graphene",
+      "link": "https://doi.org/10.1038/s41467-026-69713-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-69713-5_reference.pdf",
+      "publication_date": "2026-02-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "hao jun qin",
+          "name": "Hao-Jun Qin"
+        },
+        {
+          "key": "rui sun",
+          "name": "Rui Sun"
+        },
+        {
+          "key": "jia jun liu",
+          "name": "Jia-Jun Liu"
+        },
+        {
+          "key": "ao liao wen",
+          "name": "Wen-Ao Liao"
+        },
+        {
+          "key": "wang",
+          "name": "D. S. Wang"
+        },
+        {
+          "key": "jiang yu",
+          "name": "Jiang Yu"
+        },
+        {
+          "key": "hao leng tian",
+          "name": "Tian-Hao Leng"
+        },
+        {
+          "key": "chaofei liu",
+          "name": "Chaofei Liu"
+        },
+        {
+          "key": "wenhao zhang",
+          "name": "Wenhao Zhang"
+        },
+        {
+          "key": "fu shuang ying",
+          "name": "Ying‐Shuang Fu"
+        }
+      ],
+      "abstract_text": "Electronic chirality within single molecules constitutes an intriguing phenomenon in quantum chemistry, whose inducing mechanism however remains underexplored. Here, we report a distinct formation mechanism for electronic chirality in CuPc molecules adsorbed on bilayer graphene on highly oriented pyrolytic graphite, as incurred via twisted π-π stacking. Scanning tunneling microscopy measurements unveil that CuPc molecules exhibit prominent chirality in morphology at low biases, but restore their D4h symmetry at large biases, demonstrating the chirality is electronic origin. With tip manipulations, the two enantiomers of CuPc can be reversibly switched. Density functional theory calculations reveal that the electronic chirality arises from π-π hybridization between CuPc and graphene, leading to asymmetric charge distribution. The chiral configuration is determined by adsorption sites and rotation angles relative to graphene, in agreement with experimental observations. This work uncovers a π-π hybridization mechanism for driving electronic chirality, providing a platform for designing chiral molecular electronic devices. Electronic chirality is a fascinating but still poorly understood phenomenon. Here, the authors show that CuPc molecules on bilayer graphene exhibit electronic chirality driven by twisted π–π interactions, which can be reversibly switched using an STM tip.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "297707e945169e2739c904b217ee011dcffd5b88835adb813f126356a0332194",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76194-z",
+        "https://openalex.org/W7172246145"
+      ],
+      "title": "Seismic evidence for lower-mantle heat supply beneath the Cordilleran slab window in western Canada",
+      "link": "https://doi.org/10.1038/s41467-026-76194-z",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76194-z_reference.pdf",
+      "publication_date": "2026-08-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "quán zhāng",
+          "name": "Quán Zhāng"
+        },
+        {
+          "key": "audet pascal",
+          "name": "Pascal Audet"
+        },
+        {
+          "key": "cong ji",
+          "name": "Cong Ji"
+        },
+        {
+          "key": "clément estève",
+          "name": "Clément Estève"
+        }
+      ],
+      "abstract_text": "Abstract Divergent plate boundaries are major sites of magmatism and plate creation, yet their role in whole-mantle convection remains poorly constrained because most mid-ocean ridges lie beneath the oceans. When spreading centres are subducted, slab windows open pathways for asthenospheric and potentially deeper mantle upwelling. Here we use 20 years of teleseismic P-to-S receiver function data from 429 broadband stations to image the 410 km and 660 km discontinuities beneath western Canada. Common-conversion-point stacking reveals coherent depressions of both d410 and d660 across a well-documented slab window generated by subduction of the Resurrection/Farallon ridge, in sharp contrast to the adjacent craton. Using mineral-physics constraints on Clapeyron slopes and an ensemble of global and regional tomography models, we infer MTZ temperature anomalies of order 100–300 K and show that these correlate closely with the reconstructed slab-window geometry. A representative P-wave model (DETOX-P01) further indicates a sharp transition from this hot MTZ to a colder, high-velocity body in the mid–lower mantle, consistent with a detached segment of the subducted Resurrection plate embedded in a warmer-than-average deep mantle. Monte Carlo geotherm calculations suggest that the lower mantle beneath the Cordillera is on average ~150–200 K hotter than global reference profiles. Together, these observations suggest that a fossil divergent boundary, expressed as a slab window, provides a conduit for lower-mantle heat into the upper mantle and lithosphere, and that this deep thermal input contributes to the long-term uplift of the Canadian Cordillera.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "297738ceb5077f704d016577b2fb8c868a12d6b2015c6b1b5ddc0cd3cf1bbe47",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-70857-7",
+        "https://openalex.org/W7139124283"
+      ],
+      "title": "One-step fabrication of superhydrophobic fabrics with stable mechanical performance in harsh conditions",
+      "link": "https://doi.org/10.1038/s41467-026-70857-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-70857-7_reference.pdf",
+      "publication_date": "2026-03-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "liu zhuoxing",
+          "name": "Zhuoxing Liu"
+        },
+        {
+          "key": "kexin zhao",
+          "name": "Kexin Zhao"
+        },
+        {
+          "key": "jie ma",
+          "name": "Jie Ma"
+        },
+        {
+          "key": "liu shijie",
+          "name": "Shijie Liu"
+        },
+        {
+          "key": "zhan zidong",
+          "name": "Zidong Zhan"
+        },
+        {
+          "key": "cunlong yu",
+          "name": "Cunlong Yu"
+        },
+        {
+          "key": "lei wu",
+          "name": "Lei Wu"
+        },
+        {
+          "key": "dezhao hao",
+          "name": "Dezhao Hao"
+        },
+        {
+          "key": "jiang lei",
+          "name": "Lei Jiang"
+        },
+        {
+          "key": "dong zhichao",
+          "name": "Zhichao Dong"
+        }
+      ],
+      "abstract_text": "Developing robust water-repellent textiles is critical for outdoor, protective, and industrial applications. However, achieving long-lasting water repellency under mechanical stress remains a significant challenge. Conventional approaches typically rely on nanoparticle assemblies or PFAS-based finishes, which often detach or degrade when subjected to abrasion or harsh conditions. Here, we demonstrate a molecularly assembled robust superhydrophobic shell (MARS) technique that directly constructs an ordered, covalently bonded, fluorine-free silica shell on individual yarn fibers via a one-step process. MARS eliminates the need for discrete nanoparticles or fluorinated chemistries and is compatible with a wide range of natural and synthetic fibers. This fiber-level treatment maintains superhydrophobicity even after the fibers are woven or knitted into finished textiles, while preserving breathability and mechanical resilience. MARS combines biomimetic inspiration with practical, scalable fabrication to meet urgent performance needs. Unlike conventional coatings that progressively degrade, the permanently bonded MARS coating endures intensive abrasion, high-velocity water impacts, steam exposure, and extreme temperature cycles. By addressing key challenges such as PFAS restrictions and the fragility of traditional coatings, the MARS method paves the way for next-generation water-repellent fabrics that balance sustainability and high performance across outdoor, protective, medical, and industrial applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29781455ebd2dc6c98f2c52c12ea3613843fee0100a426fbbe391b8b794d44b0",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-68869-4",
+        "https://openalex.org/W7125635680"
+      ],
+      "title": "Olig2 acts as an inducible barrier to in vivo astrocyte-to-neuron conversion",
+      "link": "https://doi.org/10.1038/s41467-026-68869-4",
+      "pdf_url": null,
+      "publication_date": "2026-01-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "chuying lai",
+          "name": "Chuying Lai"
+        },
+        {
+          "key": "hou kaiyu",
+          "name": "Kaiyu Hou"
+        },
+        {
+          "key": "li wenyu",
+          "name": "Wenyu Li"
+        },
+        {
+          "key": "jiahui wang",
+          "name": "Jiahui Wang"
+        },
+        {
+          "key": "cai xiaoman",
+          "name": "Xiaoman Cai"
+        },
+        {
+          "key": "shi ya",
+          "name": "Ya Shi"
+        },
+        {
+          "key": "miao yang",
+          "name": "Miao Yang"
+        },
+        {
+          "key": "danting yu",
+          "name": "Danting Yu"
+        },
+        {
+          "key": "kang lu",
+          "name": "Kang Lu"
+        },
+        {
+          "key": "li wen",
+          "name": "Wen Li"
+        },
+        {
+          "key": "chen gong",
+          "name": "Gong Chen"
+        },
+        {
+          "key": "wu zheng",
+          "name": "Zheng Wu"
+        }
+      ],
+      "abstract_text": "In vivo astrocyte-to-neuron (AtN) conversion suffers low efficiency due to pre-existing intrinsic barriers. However, it is unclear whether astrocytes have inducible barriers to reprogramming. Here, we identify Olig2, a basic helix-loop-helix (bHLH) transcription factor, as an inducible barrier to Ngn2-mediated AtN conversion. Olig2 is strongly upregulated in cortical astrocytes following the ectopic expression of bHLH neuronal reprogramming factors such as Ngn2, NeuroD1, and Ascl1, but is barely expressed in normal astrocytes. Knocking down Olig2 in Ngn2-transduced astrocytes reduces astrocyte-specific gene expression, enhances neurogenesis-related gene expression, and increases AtN conversion efficiency by approximately threefold. Further multi-omics analysis shows that astrocytic Olig2 directly binds to regulatory regions of pro-neurogenic genes, including Ngn2, inhibiting their expression and impeding the expression of neural progenitor genes. Collectively, our findings reveal Olig2 as an inducible barrier to AtN conversion, providing insights into the regulation of neuronal reprogramming. Astrocyte-to-neuron (AtN) conversion is limited by intrinsic barriers, hindering its efficiency. Here, the authors show that Olig2 acts as an inducible barrier to in vivo Ngn2-mediated AtN conversion, reducing reprogramming efficiency.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2979f1b626845cf434e72e4659355cf05f46d6d37f8ca014815e87fc0194b68d",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-72301-2",
+        "https://openalex.org/W7160294094"
+      ],
+      "title": "Author Correction: Behavioural individuality in clonal fish arises despite near-identical rearing conditions",
+      "link": "https://doi.org/10.1038/s41467-026-72301-2",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-72301-2.pdf",
+      "publication_date": "2026-05-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "bierbach david",
+          "name": "David Bierbach"
+        },
+        {
+          "key": "kate laskowski",
+          "name": "Kate L. Laskowski"
+        },
+        {
+          "key": "max wolf",
+          "name": "Max Wolf"
+        }
+      ],
+      "abstract_text": "After being alerted by commenters on PubPeer, we identified an error in the body size data we initially used for our analyses: body size values were inadvertently assigned to the wrong individuals. From our documentation, we retained the original body size data and re-ran our analysis with the corrected data. While there were no changes in our main findings or conclusions drawn, we here report the corrected analyses.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "297bddfd3089cfded93ac250f61376b421b2015effce794aeff556e29f9c4100",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.07.01.662578v5",
+        "https://doi.org/10.1101/2025.07.01.662578",
+        "https://www.biorxiv.org/content/early/2026/10/22/2025.07.01.662578.source.xml"
+      ],
+      "title": "Characterization of selective pressures acting on protein sites with Deep Learning",
+      "link": "https://doi.org/10.1101/2025.07.01.662578",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.01.662578v5.full.pdf",
+      "publication_date": "2026-10-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bergiron",
+          "name": "Bergiron, E"
+        },
+        {
+          "key": "nesterenko",
+          "name": "Nesterenko, L"
+        },
+        {
+          "key": "barnier",
+          "name": "Barnier, J"
+        },
+        {
+          "key": "veber",
+          "name": "Veber, P"
+        },
+        {
+          "key": "boussau",
+          "name": "Boussau, B"
+        }
+      ],
+      "abstract_text": "It is often useful, in the field of molecular evolution, to identify the selective pressures acting on a particular site of a protein to better understand its function. This is typically done with likelihood-based approaches applied to codon sequences in a phylogenetic context. However, these approaches are computationally costly. Here we adapt a linear transformer neural network architecture, which has been shown to be able to reconstruct accurate pairwise distances from sequence alignments, to identify selective pressures acting on individual amino acid sites, in the mutation-selection framework. We design different versions of the architecture and train and test them on simulations. We compare the results of one of our models to state-of-the-art likelihood-based methods and find that it outperforms them when it is applied to data that resemble its training data. Its performance decreases however when it is applied to datasets simulated with different parameter values. In all cases, our approach operates at a fraction of the computational cost of likelihood-based methods. These results suggest that such a neural network architecture can compare very favorably to state-of-the-art approaches to characterize selection pressures acting on coding sequences, but that it must be trained on datasets representative of empirical data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2985ebd74310920e4d00bc5af8b20d89b970cfb59e3eddd7c90e112e83a5899b",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-02143-x",
+        "https://openalex.org/W7167668063"
+      ],
+      "title": "Nobel-winning chemist leaves US to direct AI materials lab in China",
+      "link": "https://doi.org/10.1038/d41586-026-02143-x",
+      "pdf_url": null,
+      "publication_date": "2026-07-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "ahart jenna",
+          "name": "Jenna Ahart"
+        },
+        {
+          "key": "basu mohana",
+          "name": "Mohana Basu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "298ad4ac6cc8f25a2e213a8f51d4617bcc8f581fcaa2c6d6c5eeef63be385630",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01510-y",
+        "https://openalex.org/W7160850526"
+      ],
+      "title": "Briefing Chat: Can’t focus? It’s not your attention span, it’s your notifications",
+      "link": "https://doi.org/10.1038/d41586-026-01510-y",
+      "pdf_url": null,
+      "publication_date": "2026-05-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "howe nick petrić",
+          "name": "Nick Petrić Howe"
+        },
+        {
+          "key": "flora graham",
+          "name": "Flora Graham"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299164390a8f90ee36f7c00f68410118f62c058db88378ac55d5dcfab30b1f34",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-69311-5",
+        "https://openalex.org/W7128441812"
+      ],
+      "title": "Histone lactylation increases CXCL1 expression for neutrophil infiltration and immune escape in pancreatic cancer",
+      "link": "https://doi.org/10.1038/s41467-026-69311-5",
+      "pdf_url": null,
+      "publication_date": "2026-02-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "peng zhang",
+          "name": "Peng Zhang"
+        },
+        {
+          "key": "jinrong ma",
+          "name": "Jinrong Ma"
+        },
+        {
+          "key": "wan yi",
+          "name": "Yi Wan"
+        },
+        {
+          "key": "chenxi li",
+          "name": "Chenxi Li"
+        },
+        {
+          "key": "lijuan liu",
+          "name": "Lijuan Liu"
+        },
+        {
+          "key": "he mengmeng",
+          "name": "Mengmeng He"
+        },
+        {
+          "key": "ning zhang",
+          "name": "Ning Zhang"
+        },
+        {
+          "key": "ma yanfen",
+          "name": "Yanfen Ma"
+        },
+        {
+          "key": "hu jian",
+          "name": "Jian Hu"
+        },
+        {
+          "key": "liyuan zhao",
+          "name": "Liyuan Zhao"
+        },
+        {
+          "key": "zhong ziwei",
+          "name": "Ziwei Zhong"
+        },
+        {
+          "key": "lei xiao",
+          "name": "Xiao Lei"
+        },
+        {
+          "key": "gong jin",
+          "name": "Jin Gong"
+        },
+        {
+          "key": "ting zeng",
+          "name": "Ting Zeng"
+        },
+        {
+          "key": "junpeng ma",
+          "name": "JunPeng Ma"
+        },
+        {
+          "key": "da yanyan",
+          "name": "Yanyan Da"
+        },
+        {
+          "key": "zhiyong zhou",
+          "name": "Zhiyong Zhou"
+        },
+        {
+          "key": "jin yang",
+          "name": "Jin Yang"
+        },
+        {
+          "key": "wang xiaoqin",
+          "name": "Xiaoqin Wang"
+        },
+        {
+          "key": "gong tian",
+          "name": "Tian Gong"
+        },
+        {
+          "key": "chengsheng zhang",
+          "name": "Chengsheng Zhang"
+        }
+      ],
+      "abstract_text": "Aerobic glycolysis and lactate have been shown to modulate tumor microenvironment (TME) and disease progression. Lactate-mediated histone lysine lactylation (Kla) is a newly recognized epigenetic modification whose biological function remains poorly understood. Here, through integrated bioinformatic and experimental analyses, we demonstrate that glycolysis-derived lactate induces histone H3 lysine 18 lactylation (H3K18la) and up-regulates the expression of chemokine C-X-C motif Ligand 1 (CXCL1), thereby recruiting neutrophils and inducing immunosuppression in pancreatic cancer. Moreover, our data suggest that p300/CBP-associated factor (PCAF) functions as a histone lactyltransferase that transcriptionally activates CXCL1 expression. Finally, we reveal that combinational treatment with bromosporine (a PCAF inhibitor) and anti-PD-1 antibody exhibits a synergistic antitumor effect on both subcutaneous and orthotopic tumor models of pancreatic cancer. Taken together, our study not only identifies a mechanism by which the aerobic glycolysis-induced Lactate-PCAF-H3K18la-CXCL1 pathway mediates neutrophil infiltration and immunosuppression, but also develops a potential therapeutic strategy for pancreatic cancer. Increased glycolysis in pancreatic cancer promotes immune escape by altering the tumor microenvironment. Here, the authors show that lactate-driven histone lactylation via PCAF increases CXCL1 expression, recruiting neutrophils and enabling immunosuppression, and PCAF inhibition improves anti-PD-1 therapy in pancreatic cancer mouse models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29925ec62c2426d70637268463789cf1b1aeb667e19669f52b083ab6d9db29c6",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74289-1",
+        "https://openalex.org/W7164425181"
+      ],
+      "title": "Warming-driven shifts in global building energy use reshape climate mitigation planning",
+      "link": "https://doi.org/10.1038/s41467-026-74289-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74289-1_reference.pdf",
+      "publication_date": "2026-06-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "mengting zhu",
+          "name": "Mengting Zhu"
+        },
+        {
+          "key": "mengqi zhao",
+          "name": "Mengqi Zhao"
+        },
+        {
+          "key": "rongqi zhu",
+          "name": "Rongqi Zhu"
+        },
+        {
+          "key": "eom jiyong",
+          "name": "Jiyong Eom"
+        },
+        {
+          "key": "yuyu zhou",
+          "name": "Yuyu Zhou"
+        },
+        {
+          "key": "sha yu",
+          "name": "Sha Yu"
+        },
+        {
+          "key": "fengqiao mei",
+          "name": "Fengqiao Mei"
+        },
+        {
+          "key": "ou yang",
+          "name": "Yang Ou"
+        }
+      ],
+      "abstract_text": "Global warming is reshaping energy demand in buildings, one of the largest sectors for energy consumption and CO2 emissions. Yet widely used mitigation scenarios, such as those in the Shared Socioeconomic Pathways and Representative Concentration Pathways (SSP-RCP) framework, often assume fixed historical climate baselines when projecting building energy use. This modeling convention, originally intended to isolate anthropogenic effects, now increasingly overlooks how rising temperatures systematically alter heating and cooling needs. Here we integrate updated Heating and Cooling Degree Days, derived from the latest Coupled Model Intercomparison Project Phase 6 climate projections, into the Global Change Analysis Model to assess the consequences of incorporating future warming into global mitigation pathways. We find that ignoring warming trends introduces substantial biases: cooling demand is underestimated by up to 23% in scenarios with low warming and 79% in scenarios with high warming, while heating demand is overestimated by up to 14% and 40%, respectively, by 2100. Importantly, these misestimates reshape global energy and emissions trajectories, reducing CO2 emissions by 83–1600 Mt CO2 year−1 in 2100 when warming trends are included across different SSP-RCP scenarios, but also underestimating the rise in F-gas emissions related to cooling, especially in warmer developing regions. Zhu et al. find that global warming substantially affects building energy use, with rising cooling demand and declining heating demand driving cross-sector energy shifts and heterogeneous regional emissions impacts, reshaping climate mitigation planning.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299310f8fc14a7575c96f2e8b70e53b7196147bd27513d6a45ff6c559f894077",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76605-1",
+        "https://openalex.org/W7222747580"
+      ],
+      "title": "Early warnings of earthquakes",
+      "link": "https://doi.org/10.1038/s41467-026-76605-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76605-1.pdf",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [],
+      "abstract_text": "Earthquakes are among the most destructive natural hazards. As populations in seismically active regions grow, the need for effective risk mitigation strategies is more urgent than ever. In that regard, earthquake early warning systems are a key component to reduce the impact of seismic shaking.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2994b0e58de2b241d3390771aaece98f403db69809e62ad123775cc5b1a990c8",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77339-w",
+        "https://openalex.org/W7214590725"
+      ],
+      "title": "A polyphyodont, semiaquatic eutriconodontan mammal from the Early Cretaceous of China",
+      "link": "https://doi.org/10.1038/s41467-026-77339-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77339-w.pdf",
+      "publication_date": "2026-09-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "bi shundong",
+          "name": "Shundong Bi"
+        },
+        {
+          "key": "shi yukun",
+          "name": "Yukun Shi"
+        },
+        {
+          "key": "li zhiyu",
+          "name": "Zhiyu Li"
+        },
+        {
+          "key": "rahmat sulman",
+          "name": "Sulman J. Rahmat"
+        },
+        {
+          "key": "junyou wang",
+          "name": "Junyou Wang"
+        },
+        {
+          "key": "john wible",
+          "name": "John R. Wible"
+        }
+      ],
+      "abstract_text": "Diphyodonty (the presence of two generations of teeth) characterizes extant mammals and has long been regarded as pivotal to the evolution of other mammalian traits, including precise occlusion and determinate growth. Nevertheless, our understanding of the pattern of dental replacement in Mesozoic mammals is incomplete. Here, we report a nearly complete skeleton of an Early Cretaceous eutriconodontan that is the only mammal to our knowledge that appears to have multiple generations (polyphyodonty) at some loci in the four tooth types. In the auditory apparatus, its ossified Meckel's cartilage has slight contact with the mandible, supporting the interpretation that Meckel's separated from the mandible before it separated from the middle ear ossicles. The new fossil shows adaptations for semiaquatic life, with hands and feet like the platypus that were similarly webbed. Its unusual pattern of dorsoventrally flattened tail bones resembles the extant nutria (coypu), a rodent native to South America. Reappearance of polyphyodonty and molariform replacement in the new fossil and related gobiconodontids is probably associated with their ecomorphological niche and carnivorous diet.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2997848e00d7a54f06d9f1bbc22b40738efb56b67e524ae7a7981f744b4d7ef1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-025-09826-x",
+        "https://openalex.org/W7125403452"
+      ],
+      "title": "Afar fossil shows broad distribution and versatility of Paranthropus",
+      "link": "https://doi.org/10.1038/s41586-025-09826-x",
+      "pdf_url": null,
+      "publication_date": "2026-01-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "alemseged zeresenay",
+          "name": "Zeresenay Alemseged"
+        },
+        {
+          "key": "fred spoor",
+          "name": "Fred Spoor"
+        },
+        {
+          "key": "denné reed",
+          "name": "Denné N. Reed"
+        },
+        {
+          "key": "andrew barr",
+          "name": "W. Andrew Barr"
+        },
+        {
+          "key": "denis geraads",
+          "name": "Denis Geraads"
+        },
+        {
+          "key": "bobe rene",
+          "name": "Rene L. Bobe"
+        },
+        {
+          "key": "guy jonathan wynn",
+          "name": "Jonathan Guy Wynn"
+        }
+      ],
+      "abstract_text": "Abstract 23 April, 2025. This preprint has been retracted at the request of the authors due to a requirement to notify their institution prior to public dissemination of the findings.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299862c31225acf45d914a628de0a93b910d4a5546d86f8a299e05fb4e0accc3",
+      "identity_keys": [
+        "https://arxiv.org/abs/2301.02748",
+        "https://doi.org/10.48550/arxiv.2301.02748",
+        "https://openalex.org/W4315588295"
+      ],
+      "title": "Generative Antibody Design for Complementary Chain Pairing Sequences through Encoder-Decoder Language Model",
+      "link": "https://doi.org/10.48550/arxiv.2301.02748",
+      "pdf_url": "https://arxiv.org/pdf/2301.02748",
+      "publication_date": "2023-01-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "chu simon",
+          "name": "Simon K. S. Chu"
+        },
+        {
+          "key": "kathy wei",
+          "name": "Kathy Y. Wei"
+        }
+      ],
+      "abstract_text": "Current protein language models (pLMs) predominantly focus on single-chain protein sequences and often have not accounted for constraints on generative design imposed by protein-protein interactions. To address this gap, we present paired Antibody T5 (pAbT5), an encoder-decoder model to generate complementary heavy or light chain from its pairing partner. We show that our model respects conservation in framework regions and variability in hypervariable domains, demonstrated by agreement with sequence alignment and variable-length CDR loops. We also show that our model captures chain pairing preferences through the recovery of ground-truth chain type and gene families. Our results showcase the potential of pAbT5 in generative antibody design, incorporating biological constraints from chain pairing preferences.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
+        }
+      ],
+      "curated_categories": [
+        "5.4 Transformer-based",
+        "5.Function to Sequence"
+      ]
+    },
+    {
+      "id": "2999f1f636a1c419fb48ab6224d025795a4afd902f702405769f5b023604a182",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-73702-z",
+        "https://openalex.org/W7162697799"
+      ],
+      "title": "Metabolic characterization of the tumor microenvironment orchestrates therapeutic strategies and clinical outcomes in pancreatic cancer",
+      "link": "https://doi.org/10.1038/s41467-026-73702-z",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-73702-z_reference.pdf",
+      "publication_date": "2026-05-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "rong tang",
+          "name": "Rong Tang"
+        },
+        {
+          "key": "li yangyi",
+          "name": "Yangyi Li"
+        },
+        {
+          "key": "cong zhou",
+          "name": "Cong Zhou"
+        },
+        {
+          "key": "chunbin zhu",
+          "name": "Chunbin Zhu"
+        },
+        {
+          "key": "chen chin",
+          "name": "CHEN CHIN CHEN"
+        },
+        {
+          "key": "jin liquan",
+          "name": "Liquan Jin"
+        },
+        {
+          "key": "chen yueyue",
+          "name": "Yueyue Chen"
+        },
+        {
+          "key": "liao yingna",
+          "name": "Yingna Liao"
+        },
+        {
+          "key": "liu yuan",
+          "name": "Yuan Liu"
+        },
+        {
+          "key": "du qiong",
+          "name": "Qiong Du"
+        },
+        {
+          "key": "lei yubin",
+          "name": "Yubin Lei"
+        },
+        {
+          "key": "wu zijian",
+          "name": "Zijian Wu"
+        },
+        {
+          "key": "jin xu",
+          "name": "Jin Xu"
+        },
+        {
+          "key": "wang wei",
+          "name": "Wei Wang"
+        },
+        {
+          "key": "xiaoyu yin",
+          "name": "Xiaoyu Yin"
+        },
+        {
+          "key": "chenghao shao",
+          "name": "Chenghao Shao"
+        },
+        {
+          "key": "shi si",
+          "name": "Si Shi"
+        },
+        {
+          "key": "xianjun yu",
+          "name": "Xianjun Yu"
+        }
+      ],
+      "abstract_text": "Metabolic reprogramming and immunosuppressive tumor microenvironment (TME) are hallmark features driving pancreatic ductal adenocarcinoma (PDAC) progression. Despite the therapeutic potential of targeting immunometabolism, effective strategies remain scarce in clinical practice, likely due to cell-specific metabolic heterogeneity within PDAC TME. Here, we show integration of three algorithms to estimate metabolic fluxomes and pathways using scRNA-seq data, generating a comprehensive cell type-specific metabolic atlas. Leveraging 460 PDAC samples, we establish a TME-metabolism subtyping system, classifying PDAC into three subtypes (TMS1-3) with distinct immune-metabolic profiles and clinical outcomes. TMS1, characterized by low immune infiltrates, is susceptible to ferroptosis inducers. TMS2, enriched in macrophages, responds to chemoimmunotherapy with inhibition of glutamine synthetase. TMS3, characterized by matrix remodeling, responds to glycolysis inhibitors and albumin-paclitaxel. Finally, we develop a computational classifier for subtype discrimination. Together, this study delineates the metabolic heterogeneity of the PDAC TME and proposes a classification system that suggests promising therapeutic targets. Metabolic reprogramming and the tumor microenvironment (TME) shape pancreatic cancer progression and treatment response. Here, the authors map cell–type–specific metabolic and TME features to define three tumor subtypes with distinct immune profiles and differential responses to existing and proposed therapeutic strategies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299b5bce6b6960cca42d581dd529541a61312b3b82244a72eae410fd2d557cc1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-65361-3",
+        "https://openalex.org/W4416593151"
+      ],
+      "title": "A four-gene signature from blood to exclude bacterial etiology of lower respiratory tract infection in adults",
+      "link": "https://doi.org/10.1038/s41467-025-65361-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-65361-3.pdf",
+      "publication_date": "2025-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "ann falsey regina",
+          "name": "Ann Regina Falsey"
+        },
+        {
+          "key": "derick peterson",
+          "name": "Derick R. Peterson"
+        },
+        {
+          "key": "edward walsh",
+          "name": "Edward E. Walsh"
+        },
+        {
+          "key": "bhattacharya soumyaroop",
+          "name": "Soumyaroop Bhattacharya"
+        },
+        {
+          "key": "andrea baran",
+          "name": "Andrea M Baran"
+        },
+        {
+          "key": "chin chu yi",
+          "name": "Chin‐Yi Chu"
+        },
+        {
+          "key": "angela branche ramon",
+          "name": "Angela  Ramon Branche"
+        },
+        {
+          "key": "croft daniel",
+          "name": "Daniel P. Croft"
+        },
+        {
+          "key": "michael peasley",
+          "name": "Michael Peasley"
+        },
+        {
+          "key": "anthony corbett",
+          "name": "Anthony M. Corbett"
+        },
+        {
+          "key": "ashton john",
+          "name": "John M. Ashton"
+        },
+        {
+          "key": "mariani thomas",
+          "name": "Thomas J. Mariani"
+        }
+      ],
+      "abstract_text": "Abstract Unnecessary antibiotic use is a major driver of antimicrobial resistance, an urgent public health threat. There is an unmet need for improved diagnostics for identifying bacterial etiology in acute respiratory infection (ARI). Hospitalized adults with ARI underwent comprehensive microbiologic testing and those with definitive viral (n = 280), bacterial (n = 129), or mixed viral-bacterial infection (n = 95) had whole blood RNA sequencing. A hard-thresholded, mostly relaxed, LASSO-constrained logistic regression model was used to select a parsimonious gene set ( ITGB4, ITGA7, IFI27, FAM20A ) highly capable of discriminating any bacterial from nonbacterial infection (cross validated AUC = 0.90). The 4-gene signature was validated in two independent cohorts (AUC = 0.90–0.94). Thresholding the 4-gene risk score to yield 90% sensitivity to detect bacterial infection resulted in 71% specificity and 91% negative predictive value. This 4-gene signature defining the absence of bacterial ARI may supplement clinical judgement for management of antibiotics in ARI.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299c66da0ef590fe354dddf82783012f55f421317b970060558a705f261dd8eb",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-72310-1",
+        "https://openalex.org/W7214100889"
+      ],
+      "title": "Personalized single-cell transcriptomics reveals molecular diversity in Alzheimer’s disease",
+      "link": "https://doi.org/10.1038/s41467-026-72310-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-72310-1.pdf",
+      "publication_date": "2026-09-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "bharadwaj chandrashekar pramod",
+          "name": "Pramod Bharadwaj Chandrashekar"
+        },
+        {
+          "key": "alatkar anil sayali",
+          "name": "Sayali Anil Alatkar"
+        },
+        {
+          "key": "cohen kalafut noah",
+          "name": "Noah Cohen Kalafut"
+        },
+        {
+          "key": "jin ting",
+          "name": "Ting Jin"
+        },
+        {
+          "key": "chirag gupta",
+          "name": "Chirag Gupta"
+        },
+        {
+          "key": "burczak conway ryan",
+          "name": "Ryan Conway Burczak"
+        },
+        {
+          "key": "huang xiang",
+          "name": "Huang Xiang"
+        },
+        {
+          "key": "liu shuang",
+          "name": "Shuang Liu"
+        },
+        {
+          "key": "athan li",
+          "name": "Athan Z. Li"
+        },
+        {
+          "key": "aram hong",
+          "name": "Aram Hong"
+        },
+        {
+          "key": "biao zeng",
+          "name": "Biao Zeng"
+        },
+        {
+          "key": "chenfeng he",
+          "name": "Chenfeng He"
+        },
+        {
+          "key": "christian dillard",
+          "name": "Christian Dillard"
+        },
+        {
+          "key": "christian porras",
+          "name": "Christian Porras"
+        },
+        {
+          "key": "casey clara",
+          "name": "Clara Casey"
+        },
+        {
+          "key": "colleen mcclung",
+          "name": "Colleen A. McClung"
+        },
+        {
+          "key": "collin spencer",
+          "name": "Collin Spencer"
+        },
+        {
+          "key": "alan bennett david",
+          "name": "David Alan Bennett"
+        },
+        {
+          "key": "burstein david",
+          "name": "David Burstein"
+        },
+        {
+          "key": "dayal deepika mathur",
+          "name": "Deepika Dayal Mathur"
+        },
+        {
+          "key": "fotis tsetsos",
+          "name": "Fotis Tsetsos"
+        },
+        {
+          "key": "gennadi ryan",
+          "name": "Gennadi Ryan"
+        },
+        {
+          "key": "hui yang",
+          "name": "Hui Yang"
+        },
+        {
+          "key": "fortes jennifer monteiro",
+          "name": "Jennifer Monteiro Fortes"
+        },
+        {
+          "key": "choi jerome",
+          "name": "Jerome J. Choi"
+        },
+        {
+          "key": "arachchilage hanthanan kalpana",
+          "name": "Kalpana Hanthanan Arachchilage"
+        },
+        {
+          "key": "karen therrien",
+          "name": "Karen Therrien"
+        },
+        {
+          "key": "jensen lars",
+          "name": "Lars J. Jensen"
+        },
+        {
+          "key": "barnes laverne lisa",
+          "name": "Lisa Laverne Barnes"
+        },
+        {
+          "key": "dumitrescu logan",
+          "name": "Logan C. Dumitrescu"
+        },
+        {
+          "key": "lyra sheu",
+          "name": "Lyra Sheu"
+        },
+        {
+          "key": "madeline scott",
+          "name": "Madeline R. Scott"
+        },
+        {
+          "key": "alvia marcela",
+          "name": "Marcela Alvia"
+        },
+        {
+          "key": "anyfantakis marios",
+          "name": "Marios Anyfantakis"
+        },
+        {
+          "key": "maxim signaevsky",
+          "name": "Maxim Signaevsky"
+        },
+        {
+          "key": "koutrouli mikaela",
+          "name": "Mikaela Koutrouli"
+        },
+        {
+          "key": "milos pjanic",
+          "name": "Milos Pjanic"
+        },
+        {
+          "key": "ahirwar monika",
+          "name": "Monika Ahirwar"
+        },
+        {
+          "key": "masse nicolas",
+          "name": "Nicolas Y. Masse"
+        },
+        {
+          "key": "auluck kumar pavan",
+          "name": "Pavan Kumar Auluck"
+        },
+        {
+          "key": "katsel pavel",
+          "name": "Pavel Katsel"
+        },
+        {
+          "key": "dong pengfei",
+          "name": "Pengfei Dong"
+        },
+        {
+          "key": "chandrashekar pramod",
+          "name": "Pramod B. Chandrashekar"
+        },
+        {
+          "key": "prashant",
+          "name": "N. M. Prashant"
+        },
+        {
+          "key": "bercovitch rachel",
+          "name": "Rachel Bercovitch"
+        },
+        {
+          "key": "kosoy roman",
+          "name": "Roman Kosoy"
+        },
+        {
+          "key": "sanan venkatesh",
+          "name": "Sanan Venkatesh"
+        },
+        {
+          "key": "khullar saniya",
+          "name": "Saniya Khullar"
+        },
+        {
+          "key": "murphy sarah",
+          "name": "Sarah R. Murphy"
+        },
+        {
+          "key": "alatkar anil sayali",
+          "name": "Sayali Anil Alatkar"
+        },
+        {
+          "key": "kinrot seon",
+          "name": "Seon Kinrot"
+        },
+        {
+          "key": "argyriou stathis",
+          "name": "Stathis Argyriou"
+        },
+        {
+          "key": "marenco stefano",
+          "name": "Stefano Marenco"
+        },
+        {
+          "key": "finkbeiner steven",
+          "name": "Steven M. Finkbeiner"
+        },
+        {
+          "key": "kleopoulos steven",
+          "name": "Steven P. Kleopoulos"
+        },
+        {
+          "key": "clarence tereza",
+          "name": "Tereza Clarence"
+        },
+        {
+          "key": "hohman timothy",
+          "name": "Timothy J. Hohman"
+        },
+        {
+          "key": "haroutunian vahram",
+          "name": "Vahram Haroutunian"
+        },
+        {
+          "key": "ramaswamy vivek",
+          "name": "Vivek G. Ramaswamy"
+        },
+        {
+          "key": "wang xinyi",
+          "name": "Xinyi Wang"
+        },
+        {
+          "key": "wu zhenyi",
+          "name": "Zhenyi Wu"
+        },
+        {
+          "key": "shao zhiping",
+          "name": "Zhiping Shao"
+        },
+        {
+          "key": "girdhar kiran",
+          "name": "Kiran Girdhar"
+        },
+        {
+          "key": "georgios voloudakis",
+          "name": "Georgios Voloudakis"
+        },
+        {
+          "key": "gabriel hoffman",
+          "name": "Gabriel E. Hoffman"
+        },
+        {
+          "key": "bendl jaroslav",
+          "name": "Jaroslav M. Bendl"
+        },
+        {
+          "key": "fullard john",
+          "name": "John F. Fullard"
+        },
+        {
+          "key": "donghoon lee",
+          "name": "Donghoon Lee"
+        },
+        {
+          "key": "panos roussos",
+          "name": "Panos Roussos"
+        },
+        {
+          "key": "daifeng wang",
+          "name": "Daifeng Wang"
+        }
+      ],
+      "abstract_text": "Alzheimer’s disease (AD) is highly heterogeneous and driven by diverse molecular and cellular mechanisms. Functional genomics investigates these mechanisms from genetic variants to gene expression and regulation. We performed personalized functional genomics analysis on population-scale single-nucleus RNA-seq data, with cross-cohort validation across multiple cohorts comprising over 1900 individual brains, capturing donor-level cell type interactions and gene regulatory networks. Using a knowledge-guided graph neural network, we learned latent representations of each donor’s functional genomics that accurately classified AD phenotypes, identified molecularly defined subpopulations, and traced disease progression trajectories. Our importance scores, derived from graph attentions, identified significant inter-donor differences and prioritized personalized cell type genes and regulatory networks. Finally, we identified gene regulatory QTLs (grQTLs) linking genetic variants to donor-level regulatory changes, providing insights into gene regulatory relationships beyond traditional eQTLs. All results are summarized into a personalized functional genomics atlas for AD, including an open-source framework, iBrainMap, for general use. Personalized functional genomics atlas for Alzheimer’s disease that uses knowledge-guided graph neural networks to analyze donor-level functional genomics, identify disease subpopulations and trajectories, and link genetic variants to gene regulation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299e6d95c61070fc740879ecc439a97c3e16d7a637cbb1a9a9c4cdc27b4b559d",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-71128-1",
+        "https://openalex.org/W7143388189"
+      ],
+      "title": "A parallel magnetic tunnel junction-based probabilistic Ising processor for efficient quadratic optimization",
+      "link": "https://doi.org/10.1038/s41467-026-71128-1",
+      "pdf_url": null,
+      "publication_date": "2026-03-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "shuhan yang",
+          "name": "Shuhan Yang"
+        },
+        {
+          "key": "bao youwei",
+          "name": "Youwei Bao"
+        },
+        {
+          "key": "edward humianto",
+          "name": "Edward Humianto"
+        },
+        {
+          "key": "prabhakar",
+          "name": "A K Prabhakar"
+        },
+        {
+          "key": "hyunsoo yang",
+          "name": "Hyunsoo Yang"
+        }
+      ],
+      "abstract_text": "Solving computationally demanding combinatorial optimization problems using conventional computing architectures is slow and energy intensive. Quantum computing could improve optimization efficiency but remains at an early stage. Probabilistic computing offers a practical near-term approach to faster optimization through stochastic techniques. Here, we experimentally demonstrate a scalable spin-transfer-torque-magnetic-tunnel-junction based probabilistic processor for efficiently solving all-to-all connected quadratic assignment problems. Our system integrates 144 compact spintronics tunable random number generators with a massively parallel architecture, achieving a high Monte-Carlo sampling throughput of 14.4 million flips per second. We co-design a parallel trial annealing scheme, and the integrated system achieves a 123× speedup with 98.3% energy savings over conventional Gibbs sampling, and a 3.2× speedup with 58.3% energy savings relative to the central processing unit implementation based on a compiled language. We further benchmark performance across graphics processing unit, and D-Wave quantum annealers, showing gains in solution quality, speed, and energy efficiency. Combinatorial optimization challenges conventional computing due to high computational costs. Here, Yang et al. demonstrate a probabilistic processor for quadratic assignment problems, achieving fast and energy-efficient stochastic optimization.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299ece24e034330e31770238c0f31f19454907d7cbf9edd43c9ae8d289181ccd",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-025-03507-5",
+        "https://openalex.org/W4415517906"
+      ],
+      "title": "Ancient graffiti and brain complexities: Books in brief",
+      "link": "https://doi.org/10.1038/d41586-025-03507-5",
+      "pdf_url": null,
+      "publication_date": "2025-10-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "andrew robinson",
+          "name": "Andrew Robinson"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "299eda8ed04c2426cf4b269db3808a65fe26971f4c903493537b84fc96f9628b",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76989-0",
+        "https://openalex.org/W7172483558"
+      ],
+      "title": "Highly efficient long-range conduction through a biosynthetic nickel-organic framework",
+      "link": "https://doi.org/10.1038/s41467-026-76989-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76989-0.pdf",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "filip meysman",
+          "name": "Filip J. R. Meysman"
+        },
+        {
+          "key": "bent smets",
+          "name": "Bent Smets"
+        },
+        {
+          "key": "hidalgo martinez silvia",
+          "name": "Silvia Hidalgo‐Martinez"
+        },
+        {
+          "key": "claes nathalie",
+          "name": "Nathalie Claes"
+        },
+        {
+          "key": "bob camille schroeder",
+          "name": "Bob Camille Schroeder"
+        },
+        {
+          "key": "geelhoed jeanine",
+          "name": "Jeanine S. Geelhoed"
+        },
+        {
+          "key": "liu yun",
+          "name": "Yun Liu"
+        },
+        {
+          "key": "alingapoyil choyikutty jiji",
+          "name": "Jiji Alingapoyil Choyikutty"
+        },
+        {
+          "key": "chennit tamazouzt",
+          "name": "Tamazouzt Chennit"
+        },
+        {
+          "key": "bodson thijs",
+          "name": "Thijs Bodson"
+        },
+        {
+          "key": "alberto collauto",
+          "name": "Alberto Collauto"
+        },
+        {
+          "key": "maxie roessler",
+          "name": "Maxie M. Roessler"
+        },
+        {
+          "key": "dmitry karpov",
+          "name": "Dmitry Karpov"
+        },
+        {
+          "key": "bohic sylvain",
+          "name": "Sylvain Bohic"
+        },
+        {
+          "key": "aramini matteo",
+          "name": "Matteo Aramini"
+        },
+        {
+          "key": "hayama shusaku",
+          "name": "Shusaku Hayama"
+        },
+        {
+          "key": "maxwell wetherington",
+          "name": "Maxwell Wetherington"
+        },
+        {
+          "key": "martijn zwijnenburg",
+          "name": "Martijn A. Zwijnenburg"
+        },
+        {
+          "key": "galina pankratova",
+          "name": "Galina Pankratova"
+        },
+        {
+          "key": "isabel pintelon",
+          "name": "Isabel Pintelon"
+        },
+        {
+          "key": "jean pierre timmermans",
+          "name": "Jean‐Pierre Timmermans"
+        },
+        {
+          "key": "gert nuyts",
+          "name": "Gert Nuyts"
+        },
+        {
+          "key": "de karolien wael",
+          "name": "Karolien De Wael"
+        },
+        {
+          "key": "bals sara",
+          "name": "Sara Bals"
+        },
+        {
+          "key": "johan verbeeck",
+          "name": "Johan Verbeeck"
+        },
+        {
+          "key": "han remaut",
+          "name": "Han K. Remaut"
+        },
+        {
+          "key": "boschker henricus",
+          "name": "Henricus T. S. Boschker"
+        }
+      ],
+      "abstract_text": "Biobased electronics aims for disruptive innovation in sustainable electronics but is obstructed by the low intrinsic conductivity of biomaterials. Recently, fibres were discovered within the cell envelope of multi-cellular cable bacteria, which display an exceptional conductivity for a biomaterial. Yet, the molecular structure and electron transport mechanism remain unresolved, thus precluding a detailed structure-function understanding and the development of biomimetic analogues. Here, we demonstrate that each fibre embeds an extended nickel-organic framework, which consists of a bundle of intertwined nanoribbons, each built from stacked repeat units in which multiple nickel centres are linked by organic dithiolene ligands. This metal-organic supramolecular architecture provides extensive conjugation and electron delocalization, thus enabling exceptional conductance over macroscale distances. This suggests a novel design principle for bio-based electronic materials and opens possibilities for biosynthesis of metal-organic frameworks. Cable bacteria are filamentous microorganisms able to transport electrical currents over centimetre distances, giving them a survival advantage in aquatic sediments. The molecular basis of this conductivity has remained unclear. This study shows that electron transport occurs through a continuous nickel-based organic framework located within periplasmic fibres that span the centimeterlong bacterial filaments. This finding clarifies how efficient long-range conduction is achieved and highlights a promising biological model for developing innovative bio-based electronic materials.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a1ab83e34d5d16b9934cafa0786d2ab07ef9693c48d82193662a166cdb556c",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41586-026-10862-4",
+        "https://openalex.org/W7171630550"
+      ],
+      "title": "Avalanche-like intercalation and intraparticle correlations in graphite",
+      "link": "https://doi.org/10.1038/s41586-026-10862-4",
+      "pdf_url": "https://www.nature.com/articles/s41586-026-10862-4.pdf",
+      "publication_date": "2026-07-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "han jiho",
+          "name": "Jiho Han"
+        },
+        {
+          "key": "george phillips",
+          "name": "George S. Phillips"
+        },
+        {
+          "key": "alice jane merryweather",
+          "name": "Alice Jane Merryweather"
+        },
+        {
+          "key": "juhwan lim",
+          "name": "Juhwan Lim"
+        },
+        {
+          "key": "christoph schnedermann",
+          "name": "Christoph Schnedermann"
+        },
+        {
+          "key": "jack robert",
+          "name": "Robert L. Jack"
+        },
+        {
+          "key": "clare grey",
+          "name": "Clare P. Grey"
+        },
+        {
+          "key": "akshay rao",
+          "name": "Akshay Rao"
+        }
+      ],
+      "abstract_text": "Abstract Although graphite is the most widely used negative electrode material in lithium-ion batteries 1 , its lithium insertion processes and associated dynamics, particularly those of the dilute stages, remain poorly understood. A fundamental understanding of how symmetry-breaking phase transitions occur continuously under operating conditions is lacking. Here, using operando optical microscopy, we provide a unified picture of ion intercalation dynamics during the dilute stages of graphite intercalation, showing that the graphitic particles undergo rapid, localized deintercalation–intercalation step events, leading to deintercalation–intercalation of micrometre-sized regions within seconds. These are reminiscent of a phase-transition phenomenon, ‘avalanches’, which occurs in disordered materials, involving step changes in the order parameter due to jumps between multiple metastable states 2,3 . Using a modified random field Ising model, the avalanches are related to static disorder, which disrupts intercalation dynamics. The model can also account for the apparently continuous transitions between stages and the experimental avalanche statistics. Finally, we develop a methodology to spatio-temporally analyse the sequences of avalanche events, revealing considerable heterogeneous connectivity. Our work highlights the role of local and static disorder in explaining unexpected phase-transition behaviour and provides new tools and concepts for studying layered battery materials.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a2631314c2d233adf2a158f6887042f9adb7ba3614bb79f039cdd973cdb065",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-67688-3",
+        "https://openalex.org/W7117456443"
+      ],
+      "title": "Plasma protein profiling predicts cancer in patients with non-specific symptoms",
+      "link": "https://doi.org/10.1038/s41467-025-67688-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-67688-3_reference.pdf",
+      "publication_date": "2025-12-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "fredrika wannberg",
+          "name": "Fredrika Wannberg"
+        },
+        {
+          "key": "bueno maría álvez",
+          "name": "María Bueno Álvez"
+        },
+        {
+          "key": "alvida qvick",
+          "name": "Alvida Qvick"
+        },
+        {
+          "key": "pongrácz tamás",
+          "name": "Tamás Pongrácz"
+        },
+        {
+          "key": "aguilera katherina",
+          "name": "Katherina Aguilera"
+        },
+        {
+          "key": "adolfsson emma",
+          "name": "Emma Adolfsson"
+        },
+        {
+          "key": "essehorn louise",
+          "name": "Louise Essehorn"
+        },
+        {
+          "key": "gordon max",
+          "name": "Max Gordon"
+        },
+        {
+          "key": "mathias uhlén",
+          "name": "Mathias Uhlén"
+        },
+        {
+          "key": "gisela helenius",
+          "name": "Gisela Helenius"
+        },
+        {
+          "key": "hjalmar viktoria",
+          "name": "Viktoria Hjalmar"
+        },
+        {
+          "key": "mikael åberg",
+          "name": "Mikael Åberg"
+        },
+        {
+          "key": "axel rosell",
+          "name": "Axel Rosell"
+        },
+        {
+          "key": "charlotte thålin",
+          "name": "Charlotte Thålin"
+        }
+      ],
+      "abstract_text": "Cancer detection is challenging, especially in patients with diffuse symptoms that overlap with non-malignant conditions. Here we show that plasma protein profiling can identify cancer among patients with non-specific symptoms. Using proximity extension assay-based proteomics of 1463 plasma proteins from 456 patients presenting with non-specific symptoms sampled prior to cancer diagnostic work-up and diagnosis, we identify 29 proteins associated with new cancer diagnoses. We develop a model able to stratify 160 cancer cases and 296 non-cancer cases with an area under the curve of 0.80, maintaining performance (0.82) in an independent replication cohort of 238 patients. The model also distinguishes cancer from autoimmune, inflammatory and infectious diseases. Designed as a triage tool, our model based on a blood test could help prioritize patients at higher cancer risk for rapid and highly sensitive diagnostic modalities such as positron emission tomography-computed tomography. These findings emphasize the potential of blood proteome profiling to support timely diagnosis and transform clinical medicine.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a4cb4fc90c141c7ebfe63aaafcc11a3d9047e264f5e8e36cc35323c55ec652",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-66421-4",
+        "https://openalex.org/W4417278462"
+      ],
+      "title": "Redox-Improved Self-Assembled Monolayers for Inverted Perovskite Solar Cells",
+      "link": "https://doi.org/10.1038/s41467-025-66421-4",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-66421-4_reference.pdf",
+      "publication_date": "2025-12-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "meng yuan",
+          "name": "Meng Yuan"
+        },
+        {
+          "key": "john wang",
+          "name": "Y. John Wang"
+        },
+        {
+          "key": "liu zhe",
+          "name": "Zhe Liu"
+        },
+        {
+          "key": "jinyuan zhang",
+          "name": "Jinyuan Zhang"
+        },
+        {
+          "key": "qin shucheng",
+          "name": "Shucheng Qin"
+        },
+        {
+          "key": "liu minchao",
+          "name": "Minchao Liu"
+        },
+        {
+          "key": "chen zekun",
+          "name": "Zekun Chen"
+        },
+        {
+          "key": "yao zhao",
+          "name": "Yao Zhao"
+        },
+        {
+          "key": "jing li",
+          "name": "Jing Li"
+        },
+        {
+          "key": "li xiaojun",
+          "name": "Xiaojun Li"
+        },
+        {
+          "key": "lei meng",
+          "name": "Lei Meng"
+        },
+        {
+          "key": "li yongfang",
+          "name": "Yongfang Li"
+        }
+      ],
+      "abstract_text": "Inverted perovskite solar cells (pero-SCs) utilizing nickel oxide (NiOx)/self-assembled monolayer (SAM) as a hole transport layer (HTL) have demonstrated high power conversion efficiency (PCE). However, variations in the valence states of NiOx on the surface create complexity in the growth of a high-quality SAM HTL. To address these challenges, a new SAM molecule MeOF-4SHCz is synthesized and utilized to target the Ni3+-rich regions on the NiOx substrate. A redox reaction occurs at the interface and the oxidation product of MeOF-4SHCz forms a new S−O−Ni bonding at the Ni3+-rich regions. The application of the combined SAMs of MeOF-4SHCz and the regular SAM MeOF-4PACz can improve the overall coverage and uniformity of the SAM layer on NiOx. As a result, the optimized inverted pero-SCs based on this redox-improved (ROI)-SAM HTL of MeOF-4SHCz/MeOF-4PACz = 4:1 (w/w) achieve a high PCE of 26.5% (certified as 26.28%) and improved stability with T90 > 1000 hours. Variations in the valence states of nickel oxide hinder the growth of a uniform self-assembled monolayer (SAM). Here, authors develop a SAM with the oxidized product forming S−O−Ni bond at Ni3+-rich regions, achieving maximum device efficiency of 26.5% in operationally stable perovskite solar cells.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a4ef1cb9822ba271b9fc7d7d53119698ddcda19e7ad77cee3f04c58b25bf41",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74946-5",
+        "https://openalex.org/W7165680541"
+      ],
+      "title": "Migratory jackpot individuals fuel rapid ecotype shifts in Galaxias fishes",
+      "link": "https://doi.org/10.1038/s41467-026-74946-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74946-5_reference.pdf",
+      "publication_date": "2026-06-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "ashleigh iwikau",
+          "name": "Ashleigh Iwikau"
+        },
+        {
+          "key": "augspurger jason",
+          "name": "Jason M. Augspurger"
+        },
+        {
+          "key": "bailie marc",
+          "name": "Marc A. Bailie"
+        },
+        {
+          "key": "graham mcculloch",
+          "name": "Graham A. McCulloch"
+        },
+        {
+          "key": "darestani mitra mohammadi",
+          "name": "Mitra Mohammadi Darestani"
+        },
+        {
+          "key": "king tania",
+          "name": "Tania M. King"
+        },
+        {
+          "key": "closs gerard patrick",
+          "name": "Gerard Patrick Closs"
+        },
+        {
+          "key": "ingram travis",
+          "name": "Travis Ingram"
+        },
+        {
+          "key": "lokman mark pieter",
+          "name": "Pieter Mark Lokman"
+        },
+        {
+          "key": "bruce deagle emerson",
+          "name": "Bruce Emerson Deagle"
+        },
+        {
+          "key": "burridge christopher paul",
+          "name": "Christopher Paul Burridge"
+        },
+        {
+          "key": "dutoit ludovic",
+          "name": "Ludovic Dutoit"
+        },
+        {
+          "key": "jonathan waters",
+          "name": "Jonathan M. Waters"
+        }
+      ],
+      "abstract_text": "Adaptation is considered essential for species facing environmental change, but our understanding of the evolution of complex ecotypes remains limited. We show that a substantial genomic cluster of co-adapted alleles has repeatedly fuelled complex life-history shifts in fishes. Specifically, the majority of strong outlier loci underpinning repeated landlocking of formerly marine-migratory Galaxias lineages are co-located on a single chromosome. Phenotypic, behavioural and genomic comparisons reveal a strong parallel basis for multi-trait ecotype shifts (osmoregulation; musculature; locomotion; reproduction) across eight independently landlocked populations. Critically, migratory populations house 'jackpot' individuals carrying intact sequences essential for rapid multi-trait life-history switches. The observed high frequencies of these migratory jackpot carriers explain the rapid ecotype shifts detected in Galaxias populations isolated by recent catastrophic landslides in New Zealand. These findings represent a complete example of complex ecotype evolution, highlighting the key role of modular genomic variation in facilitating rapid adaptive change.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a88441e9d3cdc73d56c20facd6e94a30a1d00a8c4936f9293cd74c548da4bc",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74925-w",
+        "https://openalex.org/W7166534412"
+      ],
+      "title": "An achromatic neutron lens",
+      "link": "https://doi.org/10.1038/s41467-026-74925-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74925-w_reference.pdf",
+      "publication_date": "2026-06-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "dhanalakshmi mano raj veeraraj",
+          "name": "Mano raj Dhanalakshmi veeraraj"
+        },
+        {
+          "key": "di qu",
+          "name": "Di Qu"
+        },
+        {
+          "key": "chen huiyuan",
+          "name": "Huiyuan Chen"
+        },
+        {
+          "key": "silas strebel",
+          "name": "Silas Strebel"
+        },
+        {
+          "key": "peng qi",
+          "name": "Peng Qi"
+        },
+        {
+          "key": "anna fedrigo",
+          "name": "Anna Fedrigo"
+        },
+        {
+          "key": "helfen lukas",
+          "name": "Lukas Helfen"
+        },
+        {
+          "key": "alessandro tengattini",
+          "name": "Alessandro Tengattini"
+        },
+        {
+          "key": "busi matteo",
+          "name": "Matteo Busi"
+        },
+        {
+          "key": "hongchang wang",
+          "name": "Hongchang Wang"
+        },
+        {
+          "key": "piero tranchida",
+          "name": "Piero Tranchida"
+        },
+        {
+          "key": "anders kaestner",
+          "name": "Anders P. Kaestner"
+        },
+        {
+          "key": "christian dávid",
+          "name": "Christian Dávid"
+        },
+        {
+          "key": "markus ströbl",
+          "name": "Markus Ströbl"
+        },
+        {
+          "key": "comamala joan vila",
+          "name": "Joan Vila‐Comamala"
+        }
+      ],
+      "abstract_text": "Abstract Neutrons provide exceptional insight into materials, owing to their sensitivity to light elements, isotopic composition, magnetic moments, and high-penetration. However, neutron sources are polychromatic and of low brightness. Neutron optics provides a route to address these limitations by focusing, and to date, various types of neutron optics have been developed based on reflection, refraction, diffraction, and magnetism. Notably, compound refractive lenses and Fresnel zone plates have been demonstrated for imaging, yet their severe chromatic aberration under polychromatic beams has prevented their widespread use and limits progress towards true high-resolution neutron microscopy. Here, we demonstrate an achromatic neutron lens for full-field neutron microscopy. This development overcomes the intrinsic sample-detector distance constraint in pinhole-based radiography. The lens magnification enables the use of efficient detection systems without loss of spatial resolution and establishes a pathway towards high-resolution neutron microscopy. We anticipate the neutron achromat will advance a broad range of neutron methods.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a93081e2bc7c78147cd619beaee9fd2e7dff20f666d39787ed3cbd0d0ed762",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-75647-9",
+        "https://openalex.org/W7168417602"
+      ],
+      "title": "Emergent piezoelectricity as the driving force for mechanoluminescence in crystals of atomically precise copper nanoclusters",
+      "link": "https://doi.org/10.1038/s41467-026-75647-9",
+      "pdf_url": null,
+      "publication_date": "2026-07-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "hao li",
+          "name": "Hao Li"
+        },
+        {
+          "key": "chen yuping",
+          "name": "Yuping Chen"
+        },
+        {
+          "key": "xu ying",
+          "name": "Ying Xu"
+        },
+        {
+          "key": "liu yanming",
+          "name": "Yanming Liu"
+        },
+        {
+          "key": "qing tang",
+          "name": "Qing Tang"
+        },
+        {
+          "key": "kang xi",
+          "name": "Xi Kang"
+        },
+        {
+          "key": "manzhou zhu",
+          "name": "Manzhou Zhu"
+        }
+      ],
+      "abstract_text": "Mechanoluminescence (ML) is a phenomenon of force-response self-luminescence, which was observed long ago. However, the underlying mechanism of ML remains ambiguous due to the complexity of light-emitting processes. Atomically precise metal nanoclusters are expected to serve as ideal model systems for unraveling ML mechanisms in specific nano-systems. Herein, we report the observation of mechanoluminescent crystals of metal nanoclusters. Cu7 clusters, which crystallize in a non-centrosymmetric trigonal space group, exhibit bright green ML when subjected to mechanical stress. Through piezoelectric experiments and theoretical calculations, we demonstrate that piezoelectricity arising from mechanical deformation of the crystal leads to an asymmetric distribution of internal dipoles within the crystal. Furthermore, crystal fracture under external force induces charge separation. Such alterations modulate the transition dipole moments and induce localized electronic transitions through strain-induced charge asymmetry, thus triggering stress-dependent luminescence. The findings provide insights into the mechanism of ML in a nanocluster system at the atomic level. The lack of atomic-scale precision in mechanoluminescent materials hinders a deeper understanding of their mechanism of action. Here, the authors show that emergent piezoelectricity is a driving force for mechanoluminescence in crystals composed of Cu7 clusters.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29a9ca7afe195e6688a269a9e04836d78b5e815a203139e34784ddb90b653d2f",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-02293-y",
+        "https://openalex.org/W7170198380"
+      ],
+      "title": "This El Niño is set to be the largest on record by a ‘mind-blowing margin’",
+      "link": "https://doi.org/10.1038/d41586-026-02293-y",
+      "pdf_url": null,
+      "publication_date": "2026-07-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "dinneen james",
+          "name": "James Dinneen"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29b9467670ada9e7fa3eba0710ab3d47588d4ff7f24d05cc13d7b77f4065e624",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-75263-7",
+        "https://openalex.org/W4412528521"
+      ],
+      "title": "CSF1R regulates monocyte subset differentiation and intracellular metabolism",
+      "link": "https://doi.org/10.1038/s41467-026-75263-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-75263-7_reference.pdf",
+      "publication_date": "2026-07-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "alexandre gallerand",
+          "name": "Alexandre Gallerand"
+        },
+        {
+          "key": "johanna merlin",
+          "name": "Johanna Merlin"
+        },
+        {
+          "key": "caillot zakariya",
+          "name": "Zakariya Caillot"
+        },
+        {
+          "key": "chloe delaby",
+          "name": "Chloe Delaby"
+        },
+        {
+          "key": "bord elisa",
+          "name": "Elisa Bord"
+        },
+        {
+          "key": "han jichang",
+          "name": "Jichang Han"
+        },
+        {
+          "key": "bastien dolfi",
+          "name": "Bastien Dolfi"
+        },
+        {
+          "key": "chang michael",
+          "name": "Michael D. Chang"
+        },
+        {
+          "key": "guilhem thierry",
+          "name": "Guilhem R. Thierry"
+        },
+        {
+          "key": "alexia castiglione",
+          "name": "Alexia Castiglione"
+        },
+        {
+          "key": "grenet sacha",
+          "name": "Sacha Grenet"
+        },
+        {
+          "key": "eloïse goës",
+          "name": "Eloïse Goës"
+        },
+        {
+          "key": "franceschini maxime",
+          "name": "Maxime Franceschini"
+        },
+        {
+          "key": "gisèle jarretou",
+          "name": "Gisèle Jarretou"
+        },
+        {
+          "key": "fairouz zair",
+          "name": "Fairouz N. Zair"
+        },
+        {
+          "key": "boré evy",
+          "name": "Evy Boré"
+        },
+        {
+          "key": "florian tuffin",
+          "name": "Florian Tuffin"
+        },
+        {
+          "key": "david dombrowicz",
+          "name": "David Dombrowicz"
+        },
+        {
+          "key": "chinetti giulia",
+          "name": "Giulia Chinetti"
+        },
+        {
+          "key": "guinamard rodolphe",
+          "name": "Rodolphe Guinamard"
+        },
+        {
+          "key": "artyomov maxim",
+          "name": "Maxim N. Artyomov"
+        },
+        {
+          "key": "abdelilah wakkach",
+          "name": "Abdelilah Wakkach"
+        },
+        {
+          "key": "didier pisani",
+          "name": "Didier F. Pisani"
+        },
+        {
+          "key": "gwendalyn randolph",
+          "name": "Gwendalyn J. Randolph"
+        },
+        {
+          "key": "adeline bertola",
+          "name": "Adeline Bertola"
+        },
+        {
+          "key": "auberger patrick",
+          "name": "Patrick Auberger"
+        },
+        {
+          "key": "arnaud jacquel",
+          "name": "Arnaud Jacquel"
+        },
+        {
+          "key": "arthur david hume",
+          "name": "David Arthur Hume"
+        },
+        {
+          "key": "jesse williams",
+          "name": "Jesse W. Williams"
+        },
+        {
+          "key": "bajénoff marc",
+          "name": "Marc Bajénoff"
+        },
+        {
+          "key": "jaap neels",
+          "name": "Jaap G. Neels"
+        },
+        {
+          "key": "ivanov stoyan",
+          "name": "Stoyan Ivanov"
+        }
+      ],
+      "abstract_text": "Abstract Monocytes are key circulating effectors of vascular homeostasis, innate immunity and inflammation. Following their generation in mouse bone marrow, classical (Ly6C high ) monocytes are mobilized into the blood circulation where they mature into non-classical (Ly6C low ) patrolling monocytes or are recruited into peripheral tissues where they differentiate into tissue resident or inflammatory macrophages. Monocytes and macrophages express CSF1R (CD115), the receptor for lineage-specific growth factors CSF1 and IL-34. Here, we report that acute CSF1R blockade or genetic deletion negatively interferes with monocyte intracellular metabolism and reduces blood Ly6C low monocytes in part by blunting differentiation of Ly6C high monocytes. Based upon lineage-specific deletion of Glutamine-Fructose-6-Phosphate Transaminase 1 (GFPT1), the hexosamine biosynthetic pathway (HBP) is identified as an important regulator of CSF1R expression and monocyte subsets. Inhibition of receptor tyrosine kinases CSF1R and FLT3 rewires and partially impairs metabolic activity in human monocytes. Our findings provide insights into the link between CSF1R signaling, metabolic regulation, and monocyte survival and differentiation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29b9e7c55debbf68e2a9208f69e6545ed412f5abfc246f8bee4fa489640b6d38",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77741-4",
+        "https://openalex.org/W7214077015"
+      ],
+      "title": "Ghost Neuron preparation unlocks high-resolution structural mapping of intracellular architecture in axons",
+      "link": "https://doi.org/10.1038/s41467-026-77741-4",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77741-4_reference.pdf",
+      "publication_date": "2026-09-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "bodakuntla satish",
+          "name": "Satish Bodakuntla"
+        },
+        {
+          "key": "marelli",
+          "name": "J. Marelli"
+        },
+        {
+          "key": "montes vasquez victor",
+          "name": "Victor Vasquez‐Montes"
+        },
+        {
+          "key": "glauser simon",
+          "name": "Simon Glauser"
+        },
+        {
+          "key": "biertümpfel christian",
+          "name": "Christian Biertümpfel"
+        },
+        {
+          "key": "mizuno naoko",
+          "name": "Naoko Mizuno"
+        }
+      ],
+      "abstract_text": "Abstract Cellular cryo-electron microscopy (cryo-EM) offers powerful tools to reveal molecular architecture inside cells, but dense cytoplasm often obscures fine molecular features, especially in narrow neuronal projections. Here, we introduce the Ghost Neuron technique, a preparation combining brief hypotonic treatment with controlled mechanical rupture immediately before freezing, facilitating high-contrast imaging of neuronal ultrastructure within its neurite topology. By removing the plasma membrane and reducing cytoplasmic density, the method allows high-resolution structural analysis while preserving the overall geometry of neurites. The method allows structural information to be mapped back onto neuronal architecture. The preparation also releases endogeneous macromolecular complexes onto EM grids, creating particle-rich regions suitable for high-resolution structural analysis. Using Ghost Neuron , we resolved axonal microtubules at 3.59 Å and 3.9 Å resolution, distinguishing expanded and compact lattice states, and mapped these states as interspersed patches along individual microtubules within axons. We also resolved axonal actin filaments and identified cofilin-decorated actin. These results establish Ghost Neuron as a discovery platform for linking molecular structure to neuronal organization.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29bac891b0d97880083207a6ed15901df2d6a61ca91ec5f60ff5e7a5233d5570",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-78546-1",
+        "https://openalex.org/W7223118087"
+      ],
+      "title": "2D-PELSA maps multidimensional target landscapes and reveals E2-GPX4 engagement associated with ferroptosis",
+      "link": "https://doi.org/10.1038/s41467-026-78546-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-78546-1_reference.pdf",
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "li yanan",
+          "name": "Yanan Li"
+        },
+        {
+          "key": "di yu",
+          "name": "Di Yu"
+        },
+        {
+          "key": "haiyang zhu",
+          "name": "Haiyang Zhu"
+        },
+        {
+          "key": "mei sijie",
+          "name": "Sijie Mei"
+        },
+        {
+          "key": "wang yan",
+          "name": "Yan Wang"
+        },
+        {
+          "key": "jiahua zhou",
+          "name": "Jiahua Zhou"
+        },
+        {
+          "key": "ye yuying",
+          "name": "Yuying Ye"
+        },
+        {
+          "key": "kejia li",
+          "name": "Kejia Li"
+        },
+        {
+          "key": "chengfei ruan",
+          "name": "Chengfei Ruan"
+        },
+        {
+          "key": "lai weiyi",
+          "name": "Weiyi Lai"
+        },
+        {
+          "key": "kailu tian",
+          "name": "Kailu Tian"
+        },
+        {
+          "key": "liu ruofan",
+          "name": "Ruofan Liu"
+        },
+        {
+          "key": "chenyang liu",
+          "name": "Chenyang Liu"
+        },
+        {
+          "key": "tao zhixiong",
+          "name": "Zhixiong Tao"
+        },
+        {
+          "key": "haiqian yang",
+          "name": "Haiqian Yang"
+        },
+        {
+          "key": "fang jiahui",
+          "name": "Jiahui Fang"
+        },
+        {
+          "key": "keyun wang",
+          "name": "Keyun Wang"
+        },
+        {
+          "key": "xiaolei zhang",
+          "name": "Xiaolei Zhang"
+        },
+        {
+          "key": "haitao liu",
+          "name": "Haitao Liu"
+        },
+        {
+          "key": "tian xia",
+          "name": "Tian Xia"
+        },
+        {
+          "key": "qiao qinglong",
+          "name": "Qinglong Qiao"
+        },
+        {
+          "key": "liu xinyu",
+          "name": "Xinyu Liu"
+        },
+        {
+          "key": "guowang xu",
+          "name": "Guowang Xu"
+        },
+        {
+          "key": "mingliang ye",
+          "name": "Mingliang Ye"
+        },
+        {
+          "key": "hailin wang",
+          "name": "Hailin Wang"
+        }
+      ],
+      "abstract_text": "Current methods for mapping ligand-protein interactions struggle to resolve weak yet critical binding events and conformational dynamics, particularly for pleiotropic endogenous hormones. Here, we develop a peptide-centric, dose-resolved strategy, the two-dimensional peptide-centric local stability assay (2D-PELSA), which enables highly reliable target identification and direct estimation of local binding affinities in native cellular environments. Dose-dependent information converts static proteolysis signatures into quantitative readouts of local structural remodeling at enhanced resolution, resolving direct engagement, allosteric regulation, complex remodeling, etc. Applied to 17β-estradiol (E2)-treated BT474 breast cancer cell lysates, 2D-PELSA identifies 1288 conformotypic E2-responsive peptides and 24 candidate targets enriched in unsaturated and long-chain fatty acid metabolism with micromolar EC50 values. GPX4 is identified as an E2-engaged ferroptosis regulator with an EC50 of 2.4 μM and is downregulated by micromolar E2. Orthogonal Western blot and MS-based assays validate this interaction in lysates and living cells. Integrated proteomic, lipidomic and phenotypic analyses show that chronic micromolar E2 exposure induces lipid metabolic reprogramming, lipid peroxidation and oxidative, iron-dependent cell death that is only partially rescued by ferrostatin-1 or deferoxamine. These findings establish 2D-PELSA as a versatile platform for dissecting ligand-induced structural responses and mapping target landscapes in complex biological contexts. Identifying ligand-binding proteins and determining their affinities is important but challenging in complex systems. Here, the authors develop 2D-PELSA, a peptide-centric, dose-resolved method for target identification and local affinity estimation and reveal an E2-GPX4 link to ferroptosis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29bb679147ac48ff0f58e724d6031aadd8ac3bb501e9640cd71dddb51d2c5c62",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-77862-w",
+        "https://openalex.org/W4416239896"
+      ],
+      "title": "Wafer-scale conformal metasurface optics",
+      "link": "https://doi.org/10.1038/s41467-026-77862-w",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-77862-w_reference.pdf",
+      "publication_date": "2026-09-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "louis martin monier",
+          "name": "Louis Martin‐Monier"
+        },
+        {
+          "key": "chang sehui",
+          "name": "Sehui Chang"
+        },
+        {
+          "key": "fröch johannes",
+          "name": "Johannes E. Fröch"
+        },
+        {
+          "key": "li zhaoyi",
+          "name": "Zhaoyi Li"
+        },
+        {
+          "key": "luigi ranno",
+          "name": "Luigi Ranno"
+        },
+        {
+          "key": "dao khoi phuong",
+          "name": "Khoi Phuong Dao"
+        },
+        {
+          "key": "akira ueno",
+          "name": "Akira Ueno"
+        },
+        {
+          "key": "brian jia sia xu",
+          "name": "Jia Xu Brian Sia"
+        },
+        {
+          "key": "hanyu zheng",
+          "name": "Hanyu Zheng"
+        },
+        {
+          "key": "burns padraic",
+          "name": "Padraic Burns"
+        },
+        {
+          "key": "gu tian",
+          "name": "Tian Gu"
+        },
+        {
+          "key": "min song young",
+          "name": "Young Min Song"
+        },
+        {
+          "key": "arka majumdar",
+          "name": "Arka Majumdar"
+        },
+        {
+          "key": "hu juejun",
+          "name": "Juejun Hu"
+        }
+      ],
+      "abstract_text": "Curved and conformal optics provide additional geometric degrees of freedom that enable enhanced optical performance while satisfying non-optical constraints such as ergonomics, aerodynamics, and wearability. However, existing fabrication approaches for curved metasurfaces are limited in scalability, geometry control, and alignment accuracy. Here we show a scalable fabrication strategy for curved and conformal metasurface optics based on thermoforming, an industry-standard manufacturing process for thermoplastics. Our approach enables wafer-scale production of highly curved metasurfaces with millimeter-level radii of curvature and micron-level alignment precision. We develop a predictive thermorheological model that accurately captures and compensates for the large deformations induced during thermoforming, preserving the intended optical response and enabling diffraction-limited performance. As demonstrations, we realize freestanding curved metalenses, conformal refractive-metasurface hybrid optics, and an artificial compound eye with a wide field of view, reduced aberrations, and uniform imaging performance. These results establish thermoforming as a scalable manufacturing platform for next-generation conformal photonic systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29ca9dc4b8f94b49bab787ed8b12cc6a13d2f80c1467928e587137b6af8d6fdc",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-01867-0",
+        "https://openalex.org/W7164811019"
+      ],
+      "title": "The latest benefit of obesity drugs: boosting testosterone and sperm quality",
+      "link": "https://doi.org/10.1038/d41586-026-01867-0",
+      "pdf_url": null,
+      "publication_date": "2026-06-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "lenharo mariana",
+          "name": "Mariana Lenharo"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29cd2cefe9aaff0e470370ddc8a0170d6f215d2093ca914961b0db8ef0f417cc",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74077-x",
+        "https://openalex.org/W7164313769"
+      ],
+      "title": "Benchmarking large language models for cell-free RNA diagnostic biomarker discovery",
+      "link": "https://doi.org/10.1038/s41467-026-74077-x",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74077-x_reference.pdf",
+      "publication_date": "2026-06-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "gaudio hunter",
+          "name": "Hunter Gaudio"
+        },
+        {
+          "key": "andrew bliss",
+          "name": "Andrew Bliss"
+        },
+        {
+          "key": "conor loy",
+          "name": "Conor Loy"
+        },
+        {
+          "key": "daniel eweis labolle",
+          "name": "Daniel Eweis-LaBolle"
+        },
+        {
+          "key": "anne gardella",
+          "name": "Anne E. Gardella"
+        },
+        {
+          "key": "de iwijn vlaminck",
+          "name": "Iwijn De Vlaminck"
+        }
+      ],
+      "abstract_text": "Large language models can synthesize biomedical knowledge, parse vast amounts of data, and generate code, positioning them as promising tools for biomarker discovery from high-throughput omics data. Here, we benchmark six models from OpenAI, Anthropic, and Google on plasma cell-free RNA datasets spanning three clinical cohorts: Kawasaki disease versus multisystem inflammatory syndrome in children, active tuberculosis versus symptomatic respiratory controls, and myalgic encephalomyelitis/chronic fatigue syndrome versus sedentary controls. We evaluate literature-guided nomination of diagnostic gene panels for downstream machine learning and autonomous construction of end-to-end classifiers from raw count matrices to held-out test predictions. Despite prompt adherence issues, model-nominated panels recapitulate canonical immune pathways and outperform random panels across cohorts, even matching differential gene expression baselines in the tuberculosis cohort. End-to-end automation proves feasible but is model- and task-dependent. One model approaches conventional performance for Kawasaki disease versus multisystem inflammatory syndrome in children, whereas performance decreases for tuberculosis and myalgic encephalomyelitis/chronic fatigue syndrome cohorts. These findings delineate current capabilities and limitations of large language models in diagnostics and open a path for their future use in biomarker discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29d92961352d7e894c725da34996decbab2fd5f358916b0d102b72eca802c6de",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74326-z",
+        "https://openalex.org/W7166319468"
+      ],
+      "title": "Chronic suppression of a multidrug-resistant Pseudomonas aeruginosa in prosthetic joint infection using personalized bacteriophage treatment",
+      "link": "https://doi.org/10.1038/s41467-026-74326-z",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74326-z_reference.pdf",
+      "publication_date": "2026-06-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "arya rekha",
+          "name": "Rekha Arya"
+        },
+        {
+          "key": "dongzhu ma",
+          "name": "Dongzhu Ma"
+        },
+        {
+          "key": "jewelia rempuszewski",
+          "name": "Jewelia Rempuszewski"
+        },
+        {
+          "key": "nadine sadaka",
+          "name": "Nadine M. Sadaka"
+        },
+        {
+          "key": "andrew frear",
+          "name": "Andrew J. Frear"
+        },
+        {
+          "key": "beth knapick",
+          "name": "Beth A. Knapick"
+        },
+        {
+          "key": "dana parker",
+          "name": "Dana M. Parker"
+        },
+        {
+          "key": "cooper vaughn",
+          "name": "Vaughn S. Cooper"
+        },
+        {
+          "key": "daria tyne van",
+          "name": "Daria Van Tyne"
+        },
+        {
+          "key": "neel shah",
+          "name": "Neel B. Shah"
+        },
+        {
+          "key": "doub james",
+          "name": "James B. Doub"
+        },
+        {
+          "key": "akbey ümit",
+          "name": "Ümit Akbey"
+        },
+        {
+          "key": "fackler joseph",
+          "name": "Joseph R. Fackler"
+        },
+        {
+          "key": "basu subhendu",
+          "name": "Subhendu Basu"
+        },
+        {
+          "key": "arkadiy garber",
+          "name": "Arkadiy I. Garber"
+        },
+        {
+          "key": "erin nawrocki",
+          "name": "Erin M. Nawrocki"
+        },
+        {
+          "key": "kenneth urish",
+          "name": "Kenneth L. Urish"
+        }
+      ],
+      "abstract_text": "Abstract Multidrug resistant (MDR) bacterial infections without antibiotic options are a public health emergency. Infections associated with medical implants serve as an example. Conventional antibiotics have limited ability to eradicate these infections as they are associated with antibiotic-tolerant biofilms. Here, we report the use of bacteriophage therapy for the treatment of a MDR, non-operable Pseudomonas aeruginosa periprosthetic joint infection that had failed multiple antibiotic and surgical interventions. Treatment with intermittent bacteriophage therapy alone without antibiotics over a 2 year time period resulted in clinical resolution of the infection, but not microbiological eradication. Bacteriophage therapy established this control, in part, by altering bacterial virulence and disrupting biofilm. Whole genome sequencing demonstrated the continued presence of bacteriophage during treatment without integration into the bacteria genome. This provides preliminary evidence that bacteriophage can be used to treat multidrug-resistant infections when antibiotic options do not exist.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29d9ab24fc2552ee9b0be0fed2964a53d195cffd093c0a45af9a3e04252b500b",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-78250-0",
+        "https://openalex.org/W7220460506"
+      ],
+      "title": "Stomatin organizes laterally segregated membrane microdomains to modulate transmembrane transport and signal transduction",
+      "link": "https://doi.org/10.1038/s41467-026-78250-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-78250-0_reference.pdf",
+      "publication_date": "2026-10-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "lu yan",
+          "name": "Lu Yan"
+        },
+        {
+          "key": "xinyue zhou",
+          "name": "Xinyue Zhou"
+        },
+        {
+          "key": "li meiqi",
+          "name": "Meiqi Li"
+        },
+        {
+          "key": "chenxi wang",
+          "name": "Chenxi Wang"
+        },
+        {
+          "key": "bailong xiao",
+          "name": "Bailong Xiao"
+        },
+        {
+          "key": "peng xi",
+          "name": "Peng Xi"
+        },
+        {
+          "key": "peng zou",
+          "name": "Peng Zou"
+        },
+        {
+          "key": "gao ning",
+          "name": "Ning Gao"
+        }
+      ],
+      "abstract_text": "Stomatin is a member of the SPFH (Stomatin, Prohibitin, Flotillin, and HflK/C) protein family, and has been proposed to scaffold functional membrane microdomains (FMMs) on the plasma membrane. Functionally, stomatin has been reported to associate with diverse partner proteins and is implicated in various cellular processes. However, the mechanisms by which it organizes FMMs and exerts its regulatory roles remain unclear. Here, we characterize cryo-EM structures of the stomatin complex, revealing a hexadecameric membrane-anchored assembly that resembles an inverted cup. Sixteen SPFH1 domains insert into the cytosolic leaflet, defining an isolated circular membrane microdomain. Proteomic analyses reveal numerous proteins associated with stomatin, including solute carrier transporters, Rab GTPases and integrins. We further show that stomatin oligomerization is required for integrin-regulated directional cell migration. Together, these findings provide a foundation for understanding the basic role of stomatin in FMM organization and its versatile functions in various physiological and pathological processes. Stomatin is thought to scaffold functional membrane microdomains; but how it works remains unclear. Here, authors reveal its 16-mer structure, identify cargo proteins, and show that the integrity of its cup-like complex is crucial for cell migration",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29d9aec3ee070b549d7b5ac97737df936a5f662cfceb6418e6bcfd06112dc8c0",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-74524-9",
+        "https://openalex.org/W7164823568"
+      ],
+      "title": "Continuous solar-driven recycling of lithium-ion battery cathode materials enabled by a stable benzobisthiazole-linked polymeric photocatalyst",
+      "link": "https://doi.org/10.1038/s41467-026-74524-9",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-74524-9_reference.pdf",
+      "publication_date": "2026-06-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "xiaohan yu",
+          "name": "Xiaohan Yu"
+        },
+        {
+          "key": "fu yuhua",
+          "name": "Yuhua Fu"
+        },
+        {
+          "key": "jingfan shao",
+          "name": "Jingfan Shao"
+        },
+        {
+          "key": "yan yuchen",
+          "name": "Yuchen Yan"
+        },
+        {
+          "key": "jingya xin",
+          "name": "Jingya Xin"
+        },
+        {
+          "key": "jicheng xu",
+          "name": "Jicheng Xu"
+        },
+        {
+          "key": "huang wei",
+          "name": "Wei Huang"
+        },
+        {
+          "key": "li yanguang",
+          "name": "Yanguang Li"
+        }
+      ],
+      "abstract_text": "Recovering valuable metals from spent lithium-ion batteries (LIBs) is essential but highly limited by high energy consumption and significant waste emissions. Herein, we propose a solar-driven recycling strategy applicable to a wide range of LIB cathode materials. The core of this approach lies in the efficient and stable hydrogen peroxide (H2O2) production, enabled by a rationally engineered benzobisthiazole-linked polymeric photocatalyst. The in-situ photogenerated H2O2 induces the redox reactions of metal species, promoting their dissolution and lithium-ion deintercalation. Under optimal conditions, this approach achieves Li+ leaching rates of up to 14 mmol h−1 g−1 and transition metal extraction efficiencies exceeding 90%. Outdoor trials under natural sunlight demonstrate continuous and stable recycling of LiCoO2 for over a 30-day period, achieving average daily leaching yields of 8.4 mmol Co2+ and 8.7 mmol Li+. A techno-economic analysis further supports the practical feasibility of our photocatalytic recycling strategy, underscoring its potential as a scalable and sustainable solution for recovering critical metals from LIB waste. The authors present a solar-driven recycling of LIB cathodes involving in-situ photocatalytic H2O2 production enabled by a stable polymeric photocatalyst. 30-day outdoor trials under natural sunlight further demonstrated its practical feasibility.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29ebced93d8adc3d5db385f81fac50bf1478095fea7914739c475f14b1f6d263",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-76864-y",
+        "https://openalex.org/W7203899944"
+      ],
+      "title": "Targeting ABL kinases overcomes melanoma immune evasion following resistance to MAPK inhibition",
+      "link": "https://doi.org/10.1038/s41467-026-76864-y",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76864-y_reference.pdf",
+      "publication_date": "2026-08-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "tripathi",
+          "name": "R. P. Tripathi"
+        },
+        {
+          "key": "bhuvanesh kalal sukhlal",
+          "name": "Bhuvanesh Sukhlal Kalal"
+        },
+        {
+          "key": "shirin soni",
+          "name": "Shirin Soni"
+        },
+        {
+          "key": "boothe chezney",
+          "name": "Chezney Boothe"
+        },
+        {
+          "key": "anastasia lyon",
+          "name": "Anastasia Lyon"
+        },
+        {
+          "key": "christina meeks",
+          "name": "Christina Meeks"
+        },
+        {
+          "key": "daheng he",
+          "name": "Daheng He"
+        },
+        {
+          "key": "cheng fang phil",
+          "name": "Phil Fang Cheng"
+        },
+        {
+          "key": "levesque mitchell paul",
+          "name": "Mitchell  Paul Levesque"
+        },
+        {
+          "key": "jinpeng liu",
+          "name": "Jinpeng Liu"
+        },
+        {
+          "key": "chi wang",
+          "name": "Chi Wang"
+        },
+        {
+          "key": "plattner rina",
+          "name": "Rina Plattner"
+        }
+      ],
+      "abstract_text": "Abstract MAPK inhibitors (MAPKi) are important treatment options for some patients with metastatic melanoma; however, resistance inevitably develops in the vast majority of cases (>70%). Here, using immune-proficient mouse models, single-cell RNA sequencing, flow cytometry, and datasets from patients treated with MAPKi, we demonstrate that ABL kinases (ABL1/2) promote MAPKi resistance not only by impacting intracellular signaling but also by driving secretion of chemokines that suppress the immune microenvironment. Targeting ABL1/2 reduces chemokine secretion by melanoma cells, prevents immunosuppressive myeloid-derived suppressor cell (MDSC) infiltration, and promotes accumulation of cytotoxic CD8 + T cells. Depletion of MDSCs prevents resistance, and depletion of CD8 + T cells or re-expression of chemokines blocks ABL inhibitors from preventing resistance. Importantly, CXCR2 receptor ligand expression and ABL1/2 activity are reduced in patients who respond to treatment but increased during resistance. Thus, the dual role of ABL1/2 in proliferation/survival and immune suppression makes them attractive targets for potential treatments.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29eeada613e5c72305234f0abb8b68cf16b3801332ee0e973d9de9d446f53c0d",
+      "identity_keys": [
+        "https://doi.org/10.1038/d41586-026-00973-3",
+        "https://openalex.org/W7143527063"
+      ],
+      "title": "Why I made a river my co-author",
+      "link": "https://doi.org/10.1038/d41586-026-00973-3",
+      "pdf_url": null,
+      "publication_date": "2026-03-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature",
+      "authors": [
+        {
+          "key": "evans lesley ogden",
+          "name": "Lesley Evans Ogden"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29f4a42f0684dc31ad9991aa6e33f7304b15d004821e40924acad2602403aff9",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-70329-y",
+        "https://openalex.org/W7134132930"
+      ],
+      "title": "Built-in tandem catalysis in hierarchical pores for efficient vinyl chloride production",
+      "link": "https://doi.org/10.1038/s41467-026-70329-y",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-70329-y_reference.pdf",
+      "publication_date": "2026-03-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "bolin wang",
+          "name": "Bolin Wang"
+        },
+        {
+          "key": "li xingyun",
+          "name": "Xingyun Li"
+        },
+        {
+          "key": "yue yuxue",
+          "name": "Yuxue Yue"
+        },
+        {
+          "key": "shuheng tian",
+          "name": "Shuheng Tian"
+        },
+        {
+          "key": "liu ruoting",
+          "name": "Ruoting Liu"
+        },
+        {
+          "key": "haifeng zhang",
+          "name": "Haifeng Zhang"
+        },
+        {
+          "key": "ding ma",
+          "name": "Ding Ma"
+        }
+      ],
+      "abstract_text": "Tandem catalysis over disparate active sites is frequently designed to promote the catalytic efficiency for industrial reactions. Herein, a built-in tandem system in a single hierarchical porous catalyst is constructed for vinyl chloride production from ethylene dichloride and acetylene cascade. Using a pore-selective filling strategy, Ru, CuRu, and AuRu components are sequentially confined in the macro-, meso- and micropores of carbon material. Mechanism study shows that ethylene-dichloride dehydrochlorination occurs on macropore Ru sites, generating vinyl chloride. H and Cl radicals react with acetylene on mesopore CuRu sites, and the residual acetylene is hydrochlorinated over micropore AuRu sites. The stronger acetylene adsorption of CuRu and AuRu in a VCM-rich atmosphere enables acetylene conversion near the thermodynamic limit and stable operation for 1200 h on stream. This built-in tandem catalysis in hierarchical pores provides a general paradigm for cascade reactions in a single porous catalyst. Hierarchical porous catalysts can promote industrial chemistry by running reactions in sequence at different sites. This study traps Ru, Cu–Ru and Au–Ru in large, medium and tiny pores to boost vinyl chloride production and long-term stability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org"
+        }
+      ],
+      "curated_categories": []
+    }
+  ]
+}
