@@ -16,7 +16,12 @@ export async function writeFixture(root: string, generatedAt = new Date().toISOS
   });
   const required = make("required");
   const optional = make("optional");
-  optional.discovery_sources = [{ kind: "curated_collection", key: "example", label: "Example collection", url: "https://example.org/collection" }];
+  optional.discovery_sources = [
+    { kind: "curated_collection", key: "example", label: "Example collection", url: "https://example.org/collection" },
+    { kind: "biorxiv", key: "biorxiv:bioinformatics", label: "bioRxiv bioinformatics", url: "https://www.biorxiv.org" },
+    { kind: "arxiv", key: "arxiv:q-bio.BM", label: "arXiv biomolecules", url: "https://arxiv.org" },
+  ];
+  optional.curated_categories = ["Protein design"];
   const collection = make("collection");
   collection.authors = [{ key: "untracked", name: "Other Author" }];
   collection.publication_date = null;
@@ -31,6 +36,10 @@ export async function writeFixture(root: string, generatedAt = new Date().toISOS
       authors: [{ id: "required", label: "Required Author", default_selected: true }, { id: "optional", label: "Optional Author", default_selected: false }],
       matches: { [required.id]: ["required"], [optional.id]: ["optional"], [collection.id]: [] },
       sources: [{ value: "core", label: "Tracked authors" }, { value: "curated:example", label: "Example collection" }],
+    }, {
+      id: "native", title: "Native Preprints", description: "Collected preprints without tracked authors",
+      collected_at: generatedAt, article_ids: [optional.id], authors: [], matches: { [optional.id]: [] },
+      sources: [{ value: "biorxiv:bioinformatics", label: "Bioinformatics" }, { value: "arxiv:q-bio.BM", label: "Biomolecules (q-bio.BM)" }],
     }], article_files: [],
   };
   const buckets = new Map<string, Article[]>();
