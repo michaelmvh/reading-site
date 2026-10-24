@@ -107,8 +107,21 @@ export function renderFeed(site: Site, data: Dataset, feed: Feed): string {
   const articles = feed.article_ids.map((id) => data.articles.get(id)!);
   const visible = articles.filter((article) => defaultMatch(feed, article)).length;
   const rss = site.path(`feeds/${feed.id}/feed.xml`);
-  return layout(site, feed.title, rss, `<header><h1>${escape(feed.title)}</h1>
-<p class="intro">${escape(feed.description)}</p><p class="feed-meta"><span data-filter-count aria-live="polite">${visible === articles.length ? `${visible} ${visible === 1 ? "publication" : "publications"}` : `${visible} of ${articles.length} publications`}</span><a href="${rss}">View raw RSS</a></p>
+  const collections = [
+    { id: data.snapshot.default_feed, label: "General research" },
+    { id: "protein-nanopores", label: "Protein nanopores" },
+    { id: "protein-design", label: "Protein design" },
+  ].filter((collection, index, all) => all.findIndex((other) => other.id === collection.id) === index
+    && data.snapshot.feeds.some((other) => other.id === collection.id));
+  const current = collections.find((collection) => collection.id === feed.id);
+  const navigation = current && collections.length > 1
+    ? `<nav class="collection-navigation" aria-label="Reading collections">
+<details class="filter-multiselect collection-menu"><summary title="Switch reading list"><span>${escape(current.label)}</span></summary>
+<div class="filter-options">${collections.map((collection) =>
+      `<a class="collection-option" href="${site.path(collection.id === data.snapshot.default_feed ? "" : `feeds/${collection.id}/`)}"${collection.id === feed.id ? ' aria-current="page"' : ""}>${escape(collection.label)}</a>`).join("\n")}
+</div></details></nav>` : "";
+  return layout(site, feed.title, rss, `<header>${navigation}<h1>${escape(feed.title)}</h1>
+${feed.id === "protein-nanopores" ? "" : `<p class="intro">${escape(feed.description)}</p>`}<p class="feed-meta"><span data-filter-count aria-live="polite">${visible === articles.length ? `${visible} ${visible === 1 ? "publication" : "publications"}` : `${visible} of ${articles.length} publications`}</span><a href="${rss}">View raw RSS</a></p>
 ${feed.authors.length ? `<p class="author-key">${authorNote}</p>` : ""}
 ${controls(feed)}</header><ol class="publication-list">${articles.map((article) => card(site, feed, article)).join("\n")}</ol>
 <p class="empty" data-filter-empty${visible ? " hidden" : ""}>No publications match these filters.</p>
