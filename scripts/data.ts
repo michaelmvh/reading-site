@@ -83,7 +83,13 @@ export async function loadData(root: string): Promise<Dataset> {
       const article = articles.get(id);
       if (!article || !Object.hasOwn(feed.matches, id)) throw new Error("Feed references a missing article or association");
       if (feed.matches[id].some((author) => !authors.includes(author))) throw new Error("Feed references an unknown tracked author");
-      if (!article.discovery_sources.some((source) => sources.includes(sourceKey(source)))) throw new Error("Feed article has no matching collected source");
+      if (!article.discovery_sources.some((source) => sources.includes(sourceKey(source)))) {
+        throw new Error(
+          `Feed ${JSON.stringify(feed.id)} article ${JSON.stringify(id)} has no matching collected source: ` +
+          `article sources=${JSON.stringify(article.discovery_sources.map(sourceKey))}; ` +
+          `selected sources=${JSON.stringify(sources)}; identities=${JSON.stringify(article.identity_keys)}`,
+        );
+      }
     }
   }
   return { snapshot, articles, digest: sha256(raw) };

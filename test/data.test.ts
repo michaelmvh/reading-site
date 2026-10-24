@@ -47,6 +47,25 @@ test("data transitions cannot silently lose retained articles, feeds, or freshne
   } finally { await rm(root, { recursive: true }); }
 });
 
+test("source mismatches identify the feed, article, selected sources, and identities", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "reader-source-mismatch-"));
+  try {
+    const snapshot = await writeFixture(root);
+    const id = snapshot.feeds[0].article_ids[0];
+    snapshot.feeds[0].sources = [{ value: "curated:example", label: "Example collection" }];
+    await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot));
+    await assert.rejects(loadData(root), (error: unknown) => {
+      assert.ok(error instanceof Error);
+      assert.ok(error.message.includes('Feed "example"'));
+      assert.ok(error.message.includes(id));
+      assert.ok(error.message.includes('article sources=["core"]'));
+      assert.ok(error.message.includes('selected sources=["curated:example"]'));
+      assert.ok(error.message.includes("https://example.org/required"));
+      return true;
+    });
+  } finally { await rm(root, { recursive: true }); }
+});
+
 test("valid checksums do not excuse private fields or unsafe article URLs", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "reader-contract-"));
   try {
