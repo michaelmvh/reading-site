@@ -1,4 +1,5 @@
 import { matches, readState, safeReturn, writeState, type FilterArticle, type FilterState } from "./model.js";
+import { initializeCollections } from "./collections.js";
 
 function required<T extends Element>(selector: string, scope: ParentNode = document): T {
   const element = scope.querySelector<T>(selector);
@@ -20,7 +21,7 @@ function initialize(form: HTMLFormElement): void {
   const selectAll = form.querySelector<HTMLInputElement>("[data-select-all]");
   const authorPicker = form.querySelector<HTMLDetailsElement>("[data-author-picker]");
   let availableAuthorBoxes = authorBoxes;
-  const pickers = [...form.querySelectorAll<HTMLDetailsElement>(".filter-multiselect")];
+  const pickers = [...document.querySelectorAll<HTMLDetailsElement>(".filter-multiselect")];
   const actions = required<HTMLElement>(".filter-actions", form);
   const options = { authors: authorBoxes.map((box) => box.value), sources: sourceBoxes.map((box) => box.value) };
   const cards = [...document.querySelectorAll<HTMLElement>("[data-article]")].map((element): FilterArticle & { element: HTMLElement } => ({
@@ -158,6 +159,8 @@ if (main?.dataset.staticRoot && back) {
           author.replaceWith(replacement);
         }
         required<HTMLElement>(".author-note").hidden = matched.length === 0;
+        const discovery = document.querySelector<HTMLElement>("[data-untracked-provenance]");
+        if (discovery) discovery.hidden = matched.length > 0;
         const rss = `${main.dataset.staticRoot}feeds/${context.dataset.articleFeed}/feed.xml`;
         required<HTMLAnchorElement>("[data-feed-rss]").href = rss;
         const alternate = required<HTMLLinkElement>('link[rel="alternate"]');
@@ -181,3 +184,5 @@ if (form) {
     console.error(problem);
   }
 }
+const navigation = document.querySelector<HTMLElement>(".collection-navigation");
+if (navigation) initializeCollections(navigation);

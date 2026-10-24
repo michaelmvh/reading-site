@@ -38,11 +38,13 @@ test("empty custom selection and invalid URLs have explicit recovery", async ({ 
   await expect(page.getByRole("alert")).toBeHidden();
 });
 
-test("original header and automatic controls do not expose implementation modes or collections", async ({ page }) => {
+test("original header and automatic controls do not expose implementation modes or internal collections", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("combobox", { name: "Author selection", exact: true })).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Apply filters" })).toHaveCount(0);
-  await expect(page.getByRole("navigation")).toHaveCount(0);
+  await expect(page.locator("header h1")).toHaveText("Research & Science");
+  await expect(page.locator(".collection-menu summary")).toHaveAccessibleName("General research");
+  await expect(page.getByRole("navigation", { name: "Reading collections" }).locator("a")).toHaveText(["General research", "Protein nanopores"]);
   await expect(page.locator(".filter-fields > *")).toHaveCount(3);
   await expect(page.locator(".feed-meta [data-filter-count]")).toBeVisible();
   await expect(page.locator(".author-key")).toContainText("Highlighted authors");
@@ -54,6 +56,110 @@ test("original header and automatic controls do not expose implementation modes 
   await expect(page).toHaveURL("/");
   await expect(page.getByRole("button", { name: "Clear filters" })).toBeHidden();
   await expect(page.locator("footer")).toContainText("Data collected");
+});
+
+for (const width of [320, 390, 1280]) {
+  test(`compact collection dropdown preserves headline width at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 500 });
+    await page.goto("/");
+    const navigation = page.locator("header .collection-navigation");
+    const menu = navigation.locator("summary");
+    await expect(page.locator("[data-reader-toolbar]")).toHaveCount(0);
+    await expect(menu).toBeInViewport();
+    const style = await menu.evaluate((element) => {
+      const style = getComputedStyle(element);
+      return { border: style.borderTopWidth, background: style.backgroundColor, height: element.getBoundingClientRect().height };
+    });
+    expect(style.border).toBe("0px");
+    expect(style.background).toBe("rgba(0, 0, 0, 0)");
+    expect(style.height).toBeGreaterThanOrEqual(44);
+    const heading = await page.locator("h1").boundingBox();
+    const intro = await page.locator(".intro").boundingBox();
+    expect(heading).not.toBeNull();
+    expect(intro).not.toBeNull();
+    expect(heading!.x).toBe(intro!.x);
+    await menu.click();
+    await expect(navigation.getByRole("link", { name: "Protein nanopores", exact: true })).toBeInViewport();
+    await page.keyboard.press("Escape");
+    await expect(menu).toBeFocused();
+    await expect(navigation.locator("details")).not.toHaveAttribute("open");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    await menu.click();
+    await navigation.getByRole("link", { name: "Protein nanopores", exact: true }).click();
+    await expect(page).toHaveURL("/feeds/protein-nanopores/");
+    await expect(menu).toHaveAccessibleName("Protein nanopores");
+    await expect(page.locator("header .intro")).toHaveCount(0);
+    await page.goBack();
+    await expect(menu).toHaveAccessibleName("General research");
+  });
+}
+
+test("collection navigation reaches nanopores and returns to the main reader without JavaScript", async ({ browser }) => {
+  const context = await browser.newContext({ javaScriptEnabled: false, baseURL: "http://127.0.0.1:8080" });
+  const page = await context.newPage();
+  try {
+    await page.goto("/");
+    const navigation = page.getByRole("navigation", { name: "Reading collections" });
+    await navigation.locator("summary").focus();
+    await page.keyboard.press("Enter");
+    await expect(navigation.getByRole("link", { name: "General research", exact: true })).toHaveAttribute("aria-current", "page");
+    await navigation.getByRole("link", { name: "Protein nanopores", exact: true }).click();
+    await expect(page).toHaveURL("/feeds/protein-nanopores/");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Protein Nanopores & Protein Sequencing");
+    await expect(navigation.locator("summary")).toHaveAccessibleName("Protein nanopores");
+    await expect(page.getByRole("link", { name: "View raw RSS" })).toHaveAttribute("href", "/feeds/protein-nanopores/feed.xml");
+    await navigation.locator("summary").click();
+    await expect(navigation.getByRole("link", { name: "Protein nanopores", exact: true })).toHaveAttribute("aria-current", "page");
+    await navigation.getByRole("link", { name: "General research", exact: true }).click();
+    await expect(page).toHaveURL("/");
+  } finally {
+    await context.close();
+  }
+});
+
+test("collection switching restores independent filters and scroll without overriding explicit URLs", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 500 });
+  await page.goto("/?authors=all");
+  const navigation = page.getByRole("navigation", { name: "Reading collections" });
+  const switchTo = async (name: string) => {
+    await navigation.locator("summary").click();
+    await navigation.getByRole("link", { name, exact: true }).click();
+  };
+  await page.evaluate(() => window.scrollTo({ top: 60, behavior: "instant" }));
+  await switchTo("Protein nanopores");
+  await expect(page).toHaveURL("/feeds/protein-nanopores/");
+  await page.getByRole("combobox", { name: "Publication date", exact: true }).selectOption("90d");
+  await page.evaluate(() => window.scrollTo({ top: 40, behavior: "instant" }));
+  await switchTo("General research");
+  await expect(page).toHaveURL("/?authors=all");
+  await expect(page.locator(".publication:visible")).toHaveCount(3);
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(60);
+  await switchTo("Protein nanopores");
+  await expect(page).toHaveURL("/feeds/protein-nanopores/?period=90d");
+  await expect(page.getByRole("combobox", { name: "Publication date", exact: true })).toHaveValue("90d");
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(40);
+  await page.goBack();
+  await expect(page).toHaveURL("/?authors=all");
+  await expect(page.locator(".publication:visible")).toHaveCount(3);
+  await page.goForward();
+  await expect(page).toHaveURL("/feeds/protein-nanopores/?period=90d");
+  await expect(page.getByRole("combobox", { name: "Publication date", exact: true })).toHaveValue("90d");
+  await page.goto("/");
+  await expect(page.locator('[name="authors"]')).toHaveValue("default");
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+});
+
+test("unavailable collection storage reports the problem but leaves navigation usable", async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(window, "sessionStorage", { get() { throw new Error("Storage unavailable"); } });
+  });
+  await page.goto("/");
+  const navigation = page.getByRole("navigation", { name: "Reading collections" });
+  await expect(navigation.getByRole("alert")).toContainText("You can still switch collections");
+  await navigation.locator("summary").click();
+  await navigation.getByRole("link", { name: "Protein nanopores", exact: true }).click();
+  await expect(page).toHaveURL("/feeds/protein-nanopores/");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Protein Nanopores & Protein Sequencing");
 });
 
 test("author select-all, partial and empty selections survive reload and history", async ({ page }) => {
@@ -171,6 +277,22 @@ test("feeds without tracked authors retain their context on shared article pages
   await expect(page.locator(".publication:visible")).toHaveCount(1);
 });
 
+test("catalog discovery labels follow the originating feed on shared article pages", async ({ page }) => {
+  await page.goto("/feeds/protein-nanopores/");
+  await expect(page.locator(".publication .provenance")).toHaveText("Discovered via OpenAlex");
+  await page.locator(".publication h2 a").click();
+  await page.reload();
+  await expect(page.locator("[data-untracked-provenance]")).toBeVisible();
+  await expect(page.locator("[data-untracked-provenance]")).toHaveText("Discovered via OpenAlex");
+  await expect(page.locator(".author-note")).toBeHidden();
+  await page.goto("/");
+  const tracked = page.locator('.publication[data-default-author="true"]').first();
+  await expect(tracked.locator(".provenance")).toHaveCount(0);
+  await tracked.locator("h2 a").click();
+  await expect(page.locator("[data-untracked-provenance]")).toBeHidden();
+  await expect(page.locator(".author-note")).toBeVisible();
+});
+
 test("no-JavaScript content, icons, RSS, and article pages are complete", async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL: "http://127.0.0.1:8080" });
   const page = await context.newPage();
@@ -186,6 +308,8 @@ test("no-JavaScript content, icons, RSS, and article pages are complete", async 
   await expect(page.locator(".abstract")).toBeVisible();
   await expect(page.getByRole("link", { name: "View raw RSS" })).toBeVisible();
   await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", /^Abstract for /);
+  await page.goto("/feeds/protein-nanopores/");
+  await expect(page.locator(".publication .provenance")).toHaveText("Discovered via OpenAlex");
   await context.close();
 });
 
@@ -203,7 +327,7 @@ for (const width of [320, 390, 768, 1280]) {
   test(`open dropdowns fit the viewport at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/");
-    for (const selector of ["[data-author-picker]", "[data-source-picker]"]) {
+    for (const selector of [".collection-menu", "[data-author-picker]", "[data-source-picker]"]) {
       const picker = page.locator(selector);
       await picker.locator("summary").click();
       const bounds = await picker.locator(".filter-options").boundingBox();
@@ -212,6 +336,7 @@ for (const width of [320, 390, 768, 1280]) {
       expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(width);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
       await page.keyboard.press("Escape");
+      await expect(picker).not.toHaveAttribute("open");
     }
   });
 }

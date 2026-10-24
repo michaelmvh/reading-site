@@ -40,6 +40,10 @@ export async function writeFixture(root: string, generatedAt = new Date().toISOS
       id: "native", title: "Native Preprints", description: "Collected preprints without tracked authors",
       collected_at: generatedAt, article_ids: [optional.id], authors: [], matches: { [optional.id]: [] },
       sources: [{ value: "biorxiv:bioinformatics", label: "Bioinformatics" }, { value: "arxiv:q-bio.BM", label: "Biomolecules (q-bio.BM)" }],
+    }, {
+      id: "protein-nanopores", title: "Protein Nanopores & Protein Sequencing", description: "Nanopore protein measurements",
+      collected_at: generatedAt, article_ids: [required.id], authors: [], matches: { [required.id]: [] },
+      sources: [{ value: "core", label: "OpenAlex field discovery" }],
     }], article_files: [],
   };
   const buckets = new Map<string, Article[]>();

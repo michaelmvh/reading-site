@@ -31,7 +31,7 @@ export function rssChannel(xml: string, decodeEntities = false): Record<string, 
 
 export async function validateSite(root: string, data: Dataset, site: Site): Promise<void> {
   const files = await inventory(root);
-  const expected = new Set(["index.html", "404.html", "feed.xml", "status.json", "reader.css", "favicon.svg", "apple-touch-icon.png", "assets/model.js", "assets/reader.js"]);
+  const expected = new Set(["index.html", "404.html", "feed.xml", "status.json", "reader.css", "favicon.svg", "apple-touch-icon.png", "assets/model.js", "assets/reader.js", "assets/collections.js"]);
   for (const feed of data.snapshot.feeds) { expected.add(`feeds/${feed.id}/index.html`); expected.add(`feeds/${feed.id}/feed.xml`); }
   for (const id of data.articles.keys()) expected.add(`article/${id}/index.html`);
   if (expected.size !== files.size || [...expected].some((file) => !files.has(file))) throw new Error("Missing or unexpected generated files");
