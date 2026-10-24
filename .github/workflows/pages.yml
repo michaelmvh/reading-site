@@ -30,6 +30,14 @@ jobs:
       - run: npm run build:fixture
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
+      - name: Preserve browser and accessibility failure details
+        if: failure()
+        uses: actions/upload-artifact@v6
+        with:
+          name: browser-test-results
+          path: test-results/
+          if-no-files-found: ignore
+          retention-days: 7
       - id: snapshot
         run: node scripts/validate-data.ts data --allow-missing
       - name: Build the reader from committed data and source

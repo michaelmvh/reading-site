@@ -71,6 +71,16 @@ and stops its own local static server. For a manual preview after building:
 node scripts/serve.ts
 ```
 
+`test:browser` includes axe accessibility audits, so accessibility violations fail the
+existing CI validation job before deployment. To run only these audits after
+`build:fixture`, use `npm run test:a11y`. They check WCAG 2.0/2.1 A/AA, WCAG 2.2 AA,
+and axe best-practice rules on mobile and desktop listings, article pages, the not-found
+page, expanded filters, empty/error states, and essential content with reader scripts blocked.
+Failures attach the full axe results to Playwright's test output, retained by CI for
+seven days. These automated checks
+complement the keyboard/focus browser tests; they do not establish WCAG conformance or
+replace manual keyboard and screen-reader review.
+
 To build actual collector output without modifying the repository's committed `data/`:
 
 ```sh
