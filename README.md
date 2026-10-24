@@ -103,6 +103,13 @@ with no tracked author. All-author mode includes every paper; an explicitly empt
 selection shows none. Sources use OR membership and combine with date/author filters.
 Only sources actually collected for the named feed are offered.
 
+The original date, tracked-author, and grouped paper-source controls filter automatically.
+The author dropdown includes an all-authors checkbox; feeds without tracked authors omit
+that control. Dropdowns close on outside clicks, Escape, or focus leaving the dropdown.
+Clear filters restores configured defaults. Collection pages remain available at their
+direct URLs without adding collection navigation to the main reader. Article return links,
+author highlighting, and RSS links preserve the originating feed when JavaScript is enabled.
+
 RSS is built from the same JSON, including optional authors regardless of browser filters.
 `/feed.xml` aliases the default named feed; `/feeds/<name>/feed.xml` publishes each named
 feed. Article links use `/article/<stable-id>/`. Old `?rss` URLs have no compatibility layer.
