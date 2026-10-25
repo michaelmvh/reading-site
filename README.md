@@ -46,6 +46,12 @@ feeds or a count drop greater than 40% require the deliberate one-run
 `ALLOW_FEED_SHRINK=true` override. It does not allow losing retained article identities.
 Archive removal or schema migration needs an explicit reviewed procedure.
 
+When discovery bridges previously separate article versions, the collector keeps one
+canonical record and retains the other IDs as aliases with `canonical_id` and empty
+`identity_keys`. Aliases must point directly to an existing canonical record; feeds use
+only canonical IDs. Old article URLs render the canonical content without JavaScript.
+Deploy this reader support before publishing collector data containing aliases.
+
 The collector determines discovery/identity associations. The reader does not infer
 provider matches from author names. Publication-date precision is explicit when known;
 `unknown` is not guessed from an apparent January 1 or first-of-month value.

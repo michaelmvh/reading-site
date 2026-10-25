@@ -17,11 +17,12 @@ export class Site {
 export const escape = (value: string): string => value.replace(/[&<>"']/g, (character) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character] ?? character);
 
-function layout(site: Site, title: string, rss: string, body: string, description = title, rssTitle = title): string {
+function layout(site: Site, title: string, rss: string, body: string, description = title, rssTitle = title, canonical?: string): string {
   const root = escape(site.url.pathname);
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="${escape(description)}">
+${canonical ? `<link rel="canonical" href="${escape(canonical)}">` : ""}
 <title>${escape(title)}</title><link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" sizes="180x180" href="${root}apple-touch-icon.png">
 <link rel="stylesheet" href="${root}reader.css"><link rel="alternate" type="application/rss+xml" title="${escape(rssTitle)}" href="${escape(rss)}">
@@ -133,6 +134,11 @@ ${controls(feed)}</header><ol class="publication-list">${articles.map((article) 
 }
 
 export function renderArticle(site: Site, data: Dataset, article: Article): string {
+  if (article.canonical_id) {
+    const target = data.articles.get(article.canonical_id);
+    if (!target || target.canonical_id) throw new Error(`Invalid canonical article for ${article.id}`);
+    article = target;
+  }
   const feed = data.snapshot.feeds.find((feed) => feed.id === data.snapshot.default_feed && feed.article_ids.includes(article.id))
     ?? data.snapshot.feeds.find((feed) => feed.article_ids.includes(article.id))
     ?? data.snapshot.feeds.find((feed) => feed.id === data.snapshot.default_feed)!;
@@ -146,7 +152,7 @@ export function renderArticle(site: Site, data: Dataset, article: Article): stri
 ${contexts}${metadata(article)}<h1>${escape(article.title)}</h1>${authors(article, matched, true)}${provenance(article, matched, true)}
 <p class="author-note"${matched.length ? "" : " hidden"}>${authorNote}</p>
 <section class="abstract" aria-labelledby="abstract-heading"><h2 id="abstract-heading">Abstract</h2><p>${escape(article.abstract_text?.trim() ? article.abstract_text : "No abstract is available for this publication.")}</p></section>
-<p class="actions">${link(article.link, "Read full article", "primary-action")}${link(article.pdf_url, "Open PDF", "secondary-action")}<a data-feed-rss href="${rss}">View raw RSS</a></p></article>`, `Abstract for ${article.title}`, feed.title);
+<p class="actions">${link(article.link, "Read full article", "primary-action")}${link(article.pdf_url, "Open PDF", "secondary-action")}<a data-feed-rss href="${rss}">View raw RSS</a></p></article>`, `Abstract for ${article.title}`, feed.title, site.absolute(`article/${article.id}/`));
 }
 
 export function renderNotFound(site: Site): string {
