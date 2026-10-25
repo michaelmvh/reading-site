@@ -606,6 +606,40 @@
       "curated_categories": []
     },
     {
+      "id": "c81a4ab31d9d16521d7253c36f52967f76a125904c1ebc6ef723eeb0bb8e7f07",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.18.752645",
+        "https://openalex.org/W7213587529"
+      ],
+      "title": "Boltz2-Notebook: An Interactive Google Colab Platform for Diffusion-Based Biomolecular Structure and Binding Affinity Prediction using the Boltz2 model",
+      "link": "https://doi.org/10.64898/2026.09.18.752645",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/24/2026.09.18.752645.full.pdf",
+      "publication_date": "2026-09-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "atharva tilewale",
+          "name": "Atharva Tilewale"
+        },
+        {
+          "key": "dhaval patel",
+          "name": "Dhaval Patel"
+        }
+      ],
+      "abstract_text": "Abstract Recent advances in deep learning-based structure prediction, including AlphaFold3 and the open-source Boltz model family, have extended biomolecular modeling to joint prediction of protein-ligand, protein-nucleic acid, and multi-chain complexes with binding-affinity estimation. Boltz-2 is among the most feature-complete of these open models, but its practical use requires a local CUDA-capable GPU, command-line execution, and manually authored YAML configuration files, limiting accessibility for researchers without dedicated computational infrastructure. We developed Boltz2-Notebook, a Colab-native interface comprising four integrated stages - automated environment setup, interactive parameter-to-YAML generation, execution management, and automated confidence and affinity visualization - together with a manifest-driven batch mode for multi-target screening. All modelling capabilities are inherited unmodified from Boltz-2; Boltz2-Notebook’s contributions are limited to accessibility, input construction, and workflow automation. Independent of the software, we curated a benchmark of 317 protein-ligand pairs (122 proteins, 277 ligands) from BindingDB and predicted binding affinity in triplicate using the Boltz-2 command-line engine on high-performance computing infrastructure. Predicted and experimental pIC50 values showed moderate correlation (Pearson r = 0.609 [95% CI 0.540-0.675]; Spearman ρ = 0.625; R 2 = 0.371; MAE = 0.968 pIC50 units), with high triplicate reproducibility (pairwise r = 0.97) but a systematic compression of the predicted affinity range and no measurable relationship between Boltz-2’s self-reported confidence metrics and prediction accuracy. Boltz2-Notebook is freely available as open-source software and provides external, reproducible evidence - including a specific confidence-calibration limitation - relevant to interpreting Boltz-2 affinity predictions responsibly.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c81bdb2c44d97b0175c0fefbb857641907bf3d9c23cbf46a05bfa5a27c1d42b4",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02229-6",
@@ -1390,6 +1424,60 @@
       "curated_categories": []
     },
     {
+      "id": "c83cb88970c3f901a9e6abd356f1609b93ef3c606ca3725667e7116e1497a556",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2603.15952",
+        "https://openalex.org/W7138972045"
+      ],
+      "title": "Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents",
+      "link": "https://doi.org/10.48550/arxiv.2603.15952",
+      "pdf_url": "https://arxiv.org/pdf/2603.15952",
+      "publication_date": "2026-03-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "jacopo teneggi",
+          "name": "Jacopo Teneggi"
+        },
+        {
+          "key": "alam bargeen sm turzo",
+          "name": "SM Bargeen Alam Turzo"
+        },
+        {
+          "key": "marwah tanya",
+          "name": "Tanya Marwah"
+        },
+        {
+          "key": "alberto bietti",
+          "name": "Alberto Bietti"
+        },
+        {
+          "key": "douglas renfrew",
+          "name": "P. Douglas Renfrew"
+        },
+        {
+          "key": "khipple mulligan vikram",
+          "name": "Vikram Khipple Mulligan"
+        },
+        {
+          "key": "golkar siavash",
+          "name": "Siavash Golkar"
+        }
+      ],
+      "abstract_text": "Large language models (LLMs) are capable of emulating reasoning and using tools, creating opportunities for autonomous agents that execute complex scientific tasks. Protein design provides a natural testbed: although machine learning (ML) methods achieve strong results, these are largely restricted to canonical amino acids and narrow objectives, leaving unfilled need for a generalist tool for broad design pipelines. We introduce Agent Rosetta, an LLM agent paired with a structured environment for operating Rosetta, the leading physics-based heteropolymer design software, capable of modeling non-canonical building blocks and geometries. Agent Rosetta iteratively refines designs to achieve user-defined objectives, combining LLM reasoning with Rosetta's generality. We evaluate Agent Rosetta on design with canonical amino acids, matching specialized models and expert baselines, and with non-canonical residues -- where ML approaches fail -- achieving comparable performance. Critically, prompt engineering alone often fails to generate Rosetta actions, demonstrating that environment design is essential for integrating LLM agents with specialized software. Our results show that properly designed environments enable LLM agents to make scientific software accessible while matching specialized tools and human experts.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c84a2f64ac058e4aabf84bcaa889e1ae59b8f300a500e1310d21a0c9a489a684",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71453-5",
@@ -1483,6 +1571,102 @@
         }
       ],
       "abstract_text": "More than one hundred years ago, JBS Haldane noted that in a cross between two species, if one of the sexes is absent, rare or sterile, the affected sex is heterogametic. The underlying genetic causes for this phenomenon have been a source of debate ever since. Here, we test how Haldane’s rule operates in Caenorhabditis nematodes by studying (1) crosses involving sex-determination mutants of two hybridizing species, and (2) crosses involving tetraploids. Our results indicate that the critical feature underlying Haldane’s rule is incompatibility between a sex chromosome derived from only one species, and autosome pairs derived from both. In addition, we show that the mechanisms for evaluating the X:Autosome ratio have diverged during recent nematode evolution. We conclude that the way interactions between sex chromosomes and autosomes are structured causes them to play an important role in establishing genetic barriers between newly separating species. Haldane’s rule suggests that in hybrid crosses, the heterogametic sex is often rare or sterile. This study crosses Caenorhabditis nematodes, and determines that an underlying feature of Haldane’s rule is incompatibility between a sex chromosome derived from only one species and autosome pairs from both.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c852db70371657af0053a0c2d75f11bf937c3883030a3b3852d42da0c69f39b6",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2602.14926",
+        "https://openalex.org/W7129325291"
+      ],
+      "title": "MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design",
+      "link": "https://doi.org/10.48550/arxiv.2602.14926",
+      "pdf_url": "https://arxiv.org/pdf/2602.14926",
+      "publication_date": "2026-02-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "gen zhou",
+          "name": "Gen Zhou"
+        },
+        {
+          "key": "janarthanan sugitha",
+          "name": "Sugitha Janarthanan"
+        },
+        {
+          "key": "chen lianghong",
+          "name": "Lianghong Chen"
+        },
+        {
+          "key": "hu pingzhao",
+          "name": "Pingzhao Hu"
+        }
+      ],
+      "abstract_text": "To address the global health threat of antimicrobial resistance, antimicrobial peptides (AMP) are being explored for their potent and promising ability to fight resistant pathogens. While artificial intelligence (AI) is being employed to advance AMP discovery and design, most AMP design models struggle to balance key goals like activity, toxicity, and novelty, using rigid or unclear scoring methods that make results hard to interpret and optimize. As the capabilities of Large Language Models (LLM) advance and evolve swiftly, we turn to AI multi-agent collaboration based on such models (multi-agent LLMs), which show rapidly rising potential in complex scientific design scenarios. Based on this, we introduce MAC-AMP, a closed-loop multi-agent collaboration (MAC) system for multi-objective AMP design. The system implements a fully autonomous simulated peer review-adaptive reinforcement learning framework that requires only a task description and example dataset to design novel AMPs. The novelty of our work lies in introducing a closed-loop multi-agent system for AMP design, with cross-domain transferability, that supports multi-objective optimization while remaining explainable rather than a 'black box'. Experiments show that MAC-AMP outperforms other AMP generative models by effectively optimizing AMP generation for multiple key molecular properties, demonstrating exceptional results in antibacterial activity, AMP likeliness, toxicity compliance, and structural reliability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c853efad1eb8f7ad03e91ad030ef42a990722a29a7cbfd83d6e98a17173a7c77",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70698",
+        "https://openalex.org/W7167913148"
+      ],
+      "title": "Applications and limitations of AI tools in enzyme design",
+      "link": "https://doi.org/10.1002/pro.70698",
+      "pdf_url": null,
+      "publication_date": "2026-07-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "juiz rosa teijeiro",
+          "name": "Rosa Teijeiro-Juiz"
+        },
+        {
+          "key": "egeler nina",
+          "name": "Nina Egeler"
+        },
+        {
+          "key": "grzegorz jamróg",
+          "name": "Grzegorz Jamróg"
+        },
+        {
+          "key": "marion ringel",
+          "name": "Marion Ringel"
+        },
+        {
+          "key": "brück thomas",
+          "name": "Thomas Brück"
+        },
+        {
+          "key": "bruno di geronimo",
+          "name": "Bruno Di Geronimo"
+        },
+        {
+          "key": "bernhard loll",
+          "name": "Bernhard Loll"
+        }
+      ],
+      "abstract_text": "Enzymes catalyze various different chemical reactions often with high efficiency and selectivity compared to synthetic catalysts. Advances in protein engineering over the past decades have allowed researchers to design enzymes, improving their catalytic performance and adapting them for specific or entirely novel chemical reactions. However, the need for the experimental validation of thousands of computational designs remains one of the major bottlenecks. Yet another restriction is our still limited knowledge about transition state architectures, effects of mutations, active-site dynamics just to name a few. To overcome this, the combination of experimental and computational methods is essential, yet many experimentalists are facing significant obstacles when entering the field of computational enzyme design. To address these obstacles, this review offers a comprehensive introduction and overview of several current artificial intelligence (AI)-driven methods available for enzyme design, with a focus on reaction-to-sequence design, structure prediction, substrate scope prediction, engineering of stable variants, design of enzymes with non-canonical amino acids, and de novo design. Subsequently, this work serves as an accessible guide for experimental researchers with interest in learning how to use AI-based computational methods in enzyme engineering.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2290,6 +2474,36 @@
       "curated_categories": []
     },
     {
+      "id": "c86e58086aadd0d793dc999be7d5ffc81bfce42269108e96e4ad8cfd64def78c",
+      "identity_keys": [
+        "https://openalex.org/W7112184630",
+        "https://scholarsarchive.byu.edu/etd/11053"
+      ],
+      "title": "Navigating Structure, Function, and Stability: Bridging Immunotherapy and Protein Engineering in the Era of Machine Learning",
+      "link": "https://scholarsarchive.byu.edu/etd/11053",
+      "pdf_url": null,
+      "publication_date": "2025-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ScholarsArchive  (Brigham Young University)",
+      "authors": [
+        {
+          "key": "christopher haynie",
+          "name": "Haynie, Christopher J."
+        }
+      ],
+      "abstract_text": "The immune system is a remarkably adaptive network, yet it often fails to function optimally due to evasion strategies of pathogens or mutated cells. Many of these evasion strategies involve alterations in protein expression and function. Protein design is an area of computational biology with potential applications in improving protein function and therapeutic protein engineering. This thesis explores methods to enhance immune function and protein design across multiple scales, from molecular engineering of antibody fragments and chimeric antigen receptors (CARs) to cellular immune responses, and computational approaches for protein structure optimization. We characterize Thymidine Kinase 1-specific single-chain antibodies, highlighting both the potential and challenges of isolating highly specific antibodies and considering nanobody libraries as alternative platforms. CAR therapies are examined in the context of antigen specificity, immune cell persistence, and tumor microenvironment limitations, while the role of atypical chemokine receptors in neuroinflammation is explored as a window into immune regulation in the central nervous system. Finally, computational approaches, including deep learning-guided protein design, are applied to luciferase to explore the balance between structural stability and function. Together, these studies combine learning from experimental immunology to computational protein design, provide insights into how structure, stability, and function intersect, and lay the groundwork for future explorations in therapeutic protein engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c86f6bdf03163dbfdd644258a060055651339b6cbde02fed9572c6a8d41ae1d1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68423-2",
@@ -2530,6 +2744,48 @@
       "curated_categories": []
     },
     {
+      "id": "c87a3229f4a9405c987b547d5062b495db6d6708e4c0a8f40e2144774f99d074",
+      "identity_keys": [
+        "https://doi.org/10.34740/kaggle/w/114682",
+        "https://openalex.org/W7214994522"
+      ],
+      "title": "CMD-AMP: Conditioned Masked Discrete Diffusion for Antimicrobial Peptide Design",
+      "link": "https://doi.org/10.34740/kaggle/w/114682",
+      "pdf_url": null,
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Kaggle",
+      "authors": [
+        {
+          "key": "kadadi simran",
+          "name": "Simran Kadadi"
+        },
+        {
+          "key": "mengbo wang",
+          "name": "Mengbo Wang"
+        },
+        {
+          "key": "shourya10verma",
+          "name": "shourya10verma"
+        },
+        {
+          "key": "shyaman",
+          "name": "Shyaman"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c87b94f474da6b0a387165f7de5e5b1ecef22d90d1e60db5441fdcc0db0949d5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66098-9",
@@ -2677,6 +2933,60 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c88684dc4ef1f5d85f69b273c5e83aad28d9b9b6d1ad14db103a3566a8a6fa76",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.03.709341",
+        "https://openalex.org/W7135076205"
+      ],
+      "title": "Automated extraction and optimization of protein purification protocols using multi-agent large language models",
+      "link": "https://doi.org/10.64898/2026.03.03.709341",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/11/2026.03.03.709341.full.pdf",
+      "publication_date": "2026-03-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jeffery ye",
+          "name": "Jeffery Ye"
+        },
+        {
+          "key": "amy derocher",
+          "name": "Amy E. DeRocher"
+        },
+        {
+          "key": "khim monique",
+          "name": "Monique Khim"
+        },
+        {
+          "key": "sandhya subramanian",
+          "name": "Sandhya Subramanian"
+        },
+        {
+          "key": "cron lisabeth",
+          "name": "Lisabeth Cron"
+        },
+        {
+          "key": "john myler peter",
+          "name": "Peter John Myler"
+        },
+        {
+          "key": "isabelle phan",
+          "name": "Isabelle Phan"
+        }
+      ],
+      "abstract_text": "Recent advances in Large Language Models (LLMs) present new opportunities for automating critical bottlenecks in scientific workflows such as literature reviews or protocol design. One such bottleneck is the purification of recombinant proteins, a vital aspect of biomedical research that frequently fails. To improve success rates, researchers must manually define optimal large-scale purification conditions and establish robust rescue protocols for proteins with low stability or solubility - a time-intensive process. To address this gap, we introduce a multi-agent LLM system that automates the creation and optimization of protein purification protocols to facilitate the production of high-concentration, high-purity protein samples. Our application streamlines the labor-intensive manual process of sequence similarity searches, literature reviews, and protocol comparison. Operating in a tool-like constrained workflow, the system identifies analogous proteins, leverages specialized LLM agents to extract successful purification methodologies from primary source literature, and cross-references them against failed protocols to generate optimization recommendations. Evaluation on a select number of targets demonstrated high accuracy in protocol extraction and the generation of scientifically sound, expert-validated optimization recommendations. While this system reduces complex analysis time from hours to minutes, we identify the lack of programmatic open access to literature, specifically primary citations in the Protein Data Bank, as a fundamental limitation to LLM agent-based scientific workflows. Ultimately, this system demonstrates the feasibility of using LLM agents to streamline wet-lab workflows while preserving methodological transparency and reproducibility.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2891,6 +3201,104 @@
         }
       ],
       "abstract_text": "Astrobiology, while traditionally focused on understanding the origin of life on Earth and the potential for life elsewhere, offers powerful tools and insights for addressing urgent challenges on our planet. We call for a deliberate integration of astrobiological research with applied science. Knowledge gained from biological systems and study sites on Earth that guide investigation of planetary bodies in our solar system can inform strategies for carbon capture, low-carbon energy production, waste remediation, and biotechnology. Therefore, we argue that astrobiology must evolve to become a bidirectional science that not only explores the cosmos but also supports sustainable life on Earth. Astrobiology’s insights from biological systems and extreme environments on Earth can directly advance sustainable technologies, from energy production to bioremediation. This perspective urges a deliberate translation of astrobiology to applied sciences to support both planetary stewardship and the search for life beyond Earth.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c89060042e53036674408a61f57a1eda5a7a33676efef3eeebbfa86480ac3a64",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.30.702934",
+        "https://openalex.org/W7127042949"
+      ],
+      "title": "Topological reprogramming transforms an integral membrane oligosaccharyltransferase into a water-soluble glycosylation catalyst",
+      "link": "https://doi.org/10.64898/2026.01.30.702934",
+      "pdf_url": null,
+      "publication_date": "2026-01-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "hyun kwon yong",
+          "name": "Yong Hyun Kwon"
+        },
+        {
+          "key": "ljubica mihaljević",
+          "name": "Ljubica Mihaljević"
+        },
+        {
+          "key": "keehun kim",
+          "name": "Keehun Kim"
+        },
+        {
+          "key": "david kim",
+          "name": "David E. Kim"
+        },
+        {
+          "key": "connor donahue thomas",
+          "name": "Thomas Connor Donahue"
+        },
+        {
+          "key": "bidstrup erik",
+          "name": "Erik J. Bidstrup"
+        },
+        {
+          "key": "bandi chandra kanth",
+          "name": "Chandra Kanth Bandi"
+        },
+        {
+          "key": "belen sotomayor",
+          "name": "Belen Sotomayor"
+        },
+        {
+          "key": "hulbert sophia",
+          "name": "Sophia W. Hulbert"
+        },
+        {
+          "key": "kathryn myers",
+          "name": "Kathryn A. A. Myers"
+        },
+        {
+          "key": "anru tian",
+          "name": "Anru Tian"
+        },
+        {
+          "key": "culpepper mariah",
+          "name": "Mariah Culpepper"
+        },
+        {
+          "key": "dario mizrachi",
+          "name": "Dario Mizrachi"
+        },
+        {
+          "key": "jaroentomeechai thapakorn",
+          "name": "Thapakorn Jaroentomeechai"
+        },
+        {
+          "key": "clausen henrik",
+          "name": "Henrik Clausen"
+        },
+        {
+          "key": "jewett michael",
+          "name": "Michael C. Jewett"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "delisa matthew",
+          "name": "Matthew P. DeLisa"
+        }
+      ],
+      "abstract_text": "Abstract Glycosyltransferases (GTs) catalyze the formation of new glycosidic bonds and thus are vital for synthesizing nature’s vast repertoire of glycans and glycoconjugates and for engineering glycan-related medicines and materials. However, obtaining detailed structural and functional insights for the >750,000 known GTs is limited by difficulties associated with their efficient recombinant expression. Members of the GT-C fold, in particular, pose the most significant expression challenges due to the integration and folding requirements of their multiple membrane-spanning regions. Here, we address this challenge by engineering water-soluble variants of an archetypal GT-C fold enzyme, namely the oligosaccharyltransferase PglB from Campylobacter jejuni ( Cj PglB), which possesses 13 hydrophobic transmembrane helices. To render Cj PglB water-soluble, we leveraged two advanced protein engineering methods: one that is universal called SIMPLEx ( s olubilization of IMP s with high levels of ex pression) and the other that is custom tailored called WRAPs ( w ater-soluble R Fdiffused a mphipathic p roteins). Each approach was able to transform Cj PglB into a water-soluble enzyme that could be readily expressed in the cytoplasm of Escherichia coli cells at yields in the 3–6 mg/L range. Importantly, solubilization was achieved without the need for detergents and with retention of catalytic function. Collectively, our findings demonstrate that both SIMPLEx and WRAPs are promising platforms for advancing the molecular characterization of even the most structurally complex GTs, while also enabling broader GT-mediated glycosylation capabilities within synthetic glycobiology applications.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3696,7 +4104,8 @@
       "id": "c8a7836fbc42a23946f1fc9726369ceb80f1f7251edb3fb2461d6cb15b89ae77",
       "identity_keys": [
         "https://doi.org/10.64898/2026.09.28.755023",
-        "https://openalex.org/W7218506696"
+        "https://openalex.org/W7218506696",
+        "https://www.biorxiv.org/content/early/2026/10/08/2026.09.28.755023.source.xml"
       ],
       "title": "A strategy for ionic current analysis of nanopore protein readouts",
       "link": "https://doi.org/10.64898/2026.09.28.755023",
@@ -3744,10 +4153,10 @@
           "url": "https://openalex.org/"
         },
         {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -3772,6 +4181,48 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c8a80279d231fc8d90469afa7187839b112aa8debb2084e082bca547cc0cc3ed",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.17723029",
+        "https://openalex.org/W7106805016"
+      ],
+      "title": "A Critical Commentary on \"Atomically accurate de novo design of antibodies with RFdiffusion\" by Bennett et al., Nature 2025; doi: 10.1038/s41586-025-09721-5",
+      "link": "https://doi.org/10.5281/zenodo.17723029",
+      "pdf_url": null,
+      "publication_date": "2025-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "mengxi zhu",
+          "name": "Zhu, Mengxi"
+        },
+        {
+          "key": "yuxin zhang",
+          "name": "Zhang, Yuxin"
+        },
+        {
+          "key": "qinglan zhu",
+          "name": "Zhu, Qinglan"
+        },
+        {
+          "key": "feng shu zhou",
+          "name": "Zhou, Shu-Feng"
+        }
+      ],
+      "abstract_text": "This repository contains a comprehensive, figure-by-figure scientific commentary on the article “Atomically accurate de novo design of antibodies with RFdiffusion” by Bennett et al. (Nature, 2025; doi:10.1038/s41586-025-09721-5). The commentary provides a critical and systematic evaluation of the methodology, data interpretation, experimental validation, and claims presented in the original publication. The purpose of this work is to promote transparent, rigorous, and evidence-driven scientific discourse in the field of computational protein design and antibody engineering. The commentary examines every main figures, Extended Data Figures, and Supplementary Figures in the Bennett et al. paper. Particular attention is given to the analytical methods, the validity of structural predictions, the robustness of experimental assays, and the reproducibility claims underlying RFdiffusion-based antibody design. Although the original paper reports “atomically accurate” de novo generated antibodies, our in-depth analysis uncovers substantial methodological gaps, over-interpretation of in silico outputs, limited experimental depth, selective reporting of favorable results, and insufficient benchmarking against contemporary protein-design methodologies. Major critique themes covered in this repository include: Structural Accuracy Claims — A detailed reassessment of backbone and side-chain alignment metrics, highlighting inadequacies in RMSD-focused evaluation, ambiguity in the superposition strategy, and the absence of rotamer-level validation. Biophysical and Functional Validation — Systematic discussion of SPR/BLI binding assays, expression and stability measurements, and structural characterization. The commentary notes the extremely small experimental sample size, absence of replicates, and lack of raw sensorgram and chromatographic data. Generative Model Transparency and Reproducibility — Examination of RFdiffusion’s training data, architectural modifications, hyperparameters, and the undisclosed post-processing pipelines involving Rosetta and AlphaFold2. The lack of public model weights, inference scripts, and training logs raises concerns about reproducibility. Biological Relevance and Antigen Selection — Critical analysis of antigen simplifications, missing glycosylation, oligomerization effects, and epitope validation. The commentary emphasizes the gap between computational designs and physiologically relevant antigen contexts. Diversity, Generalization, and Failure Modes — Investigation of sampling diversity, CDR-H3 length distributions, homology searches, and structural clustering. The commentary highlights evidence of mode collapse, overfitting to training data, and the absence of reported failed designs. Figure Integrity and Data Interpretation — Close inspection of consistency across structural overlays, interface analyses, and sequence alignments, noting unusual uniformity and potential redundancy in several Supplementary Figures. This commentary aims to assist researchers, reviewers, and developers seeking a deeper, more objective understanding of the capabilities and limitations of generative diffusion models in antibody design. The included analysis prioritizes scientific rigor, transparent critique, and constructive evaluation of emerging computational protein-design technologies. All content in this repository is original, independently produced, and based solely on publicly available information from the Bennett et al. article.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4093,6 +4544,44 @@
       "curated_categories": []
     },
     {
+      "id": "c8b1bd48428ec5535cd8f4287c103f4626858fe34d5b55abb4c6ec2917d48e9c",
+      "identity_keys": [
+        "https://doi.org/10.1101/014258",
+        "https://openalex.org/W2185923598"
+      ],
+      "title": "Segmentation of Noisy Signals Generated By a Nanopore",
+      "link": "https://doi.org/10.1101/014258",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2015/01/23/014258.full.pdf",
+      "publication_date": "2015-01-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jacob matthew schreiber",
+          "name": "Jacob Matthew Schreiber"
+        },
+        {
+          "key": "karplus kevin",
+          "name": "Kevin J. Karplus"
+        }
+      ],
+      "abstract_text": "ABSTRACT Nanopore-based single-molecule sequencing techniques exploit ionic current steps produced as biomolecules pass through a pore to reconstruct properties of the sequence. A key task in analyzing complex nanopore data is discovering the boundaries between these steps, which has traditionally been done in research labs by hand. We present an automated method of analyzing nanopore data, by detecting regions of ionic current corresponding to the translocation of a biomolecule, and then segmenting the region. The segmenter uses a divide-and-conquer method to recursively discover boundary points, with an implementation that works several times faster than real time and that can handle low-pass filtered signals.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
+        }
+      ],
+      "curated_categories": [
+        "Preprint",
+        "Segmentation",
+        "Signal analysis"
+      ]
+    },
+    {
       "id": "c8b4117efb0bc7abb5a04a49a9a281f7ef33af165034b03e743998e015ff1780",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75743-w",
@@ -4260,6 +4749,68 @@
         }
       ],
       "abstract_text": "Most chromophores exhibit an aggregation-caused quenching (ACQ) effect, resulting in minimal or weak emission when incorporated into covalent organic frameworks (COFs). Consequently, the development of luminescent COFs, particularly those utilizing ACQ chromophores, presents both a compelling and formidable challenge. Herein, we report the construction of highly emissive ACQ chromophore-based COFs by an energy level matching strategy. This approach effectively modulates the electronic structures within the COFs, thereby suppressing intralayer charge transfer to ACQ chromophores, such as the imine linkage and dibenzo[g,p]chrysene unit, while simultaneously inhibiting interlayer charge transfer and non-radiative decay pathways. As a result, the undesired ACQ effect is mitigated, enabling the realization of highly emissive COFs. Notably, COF-BT-PhDBC demonstrates high brightness with a solid-state photoluminescence quantum yield of 14.7%, standing among the best ACQ chromophore-based COFs. Furthermore, COF-BT-PhDBC has been successfully utilized for in vivo three-photon fluorescence imaging of murine brain vasculature, achieving an impressive imaging depth of approximately 800 µm. As a result of aggregation-caused quenching (ACQ), many fluorophores show only weak emission when incorporated into covalent organic frameworks. Here, the authors report the development of emissive COFs from ACQ chromophores by an energy level matching strategy.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c8b4b705a89270fa6df68c666fa866cca5a090f69d15ede06c4f980da81b67c5",
+      "identity_keys": [
+        "https://doi.org/10.1371/journal.pcbi.1014499",
+        "https://openalex.org/W7203829737"
+      ],
+      "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework",
+      "link": "https://doi.org/10.1371/journal.pcbi.1014499",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014499&type=printable",
+      "publication_date": "2026-08-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "PLoS Computational Biology",
+      "authors": [
+        {
+          "key": "qu tao",
+          "name": "Tao Qu"
+        },
+        {
+          "key": "lingyan yuan",
+          "name": "Lingyan Yuan"
+        },
+        {
+          "key": "cui weiran",
+          "name": "Weiran Cui"
+        },
+        {
+          "key": "jiatian tang",
+          "name": "Jiatian Tang"
+        },
+        {
+          "key": "bing zhitong",
+          "name": "Zhitong Bing"
+        },
+        {
+          "key": "xianghong xu",
+          "name": "Xianghong Xu"
+        },
+        {
+          "key": "duan jizheng",
+          "name": "Jizheng Duan"
+        },
+        {
+          "key": "qiong yang",
+          "name": "Qiong Yang"
+        },
+        {
+          "key": "cai hui",
+          "name": "Hui Cai"
+        }
+      ],
+      "abstract_text": "CLDN18.2 is a promising tumor-specific antigen; however, the development of therapeutic antibodies against it is challenged by the need for simultaneous optimization of affinity and developability. To address this, we present cdrGPT, a deep learning framework based on GPT-2 for de novo generation of complementarity-determining region H3 (CDRH3) sequences. Our approach integrates pre-training on the Observed Antibody Space (OAS) database with structural templating derived from the known antibody zolbetuximab. Generated sequences were iteratively refined through rejection sampling and fine-tuned against a multi-parameter objective function encompassing predicted affinity and MHC class II binding risk. From an initial set of 50,000 sequences, this screening pipeline yielded 313 high-confidence candidates. Subsequent analysis using evolutionary scale modeling 2 (ESM2) embeddings, principal component analysis (PCA), and clustering revealed three structurally distinct clusters, with intra-cluster cosine similarities exceeding 0.99. Validation of seven representative sequences from the dominant cluster using AlphaFold3 confirmed high structural fidelity to the zolbetuximab template, demonstrating a root mean square deviation (RMSD) of 1.331 Å for the CDRH3 loop and positional deviations of less than 0.4 Å for key paratope residues. These results indicate that the designed variants preserve the core binding mode of the parent antibody. This study establishes a feasible pipeline for integrating AI-generated CDRH3 loops into functional antibody scaffolds, providing a foundation for the accelerated development of therapeutics targeting CLDN18.2 and other clinically relevant antigens.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4986,6 +5537,64 @@
         }
       ],
       "abstract_text": "Thermodynamic control of molecular photoswitches remains a fundamental challenge, centered on the stabilization of high-energy metastable states. Inspired by concepts of selective kinetic regulation found in Maxwell's demon-like systems, we explore hydrogen bonding as a molecular-level selector for modulating the thermal back-conversion of quadricyclane (QC) to norbornadiene (NBD). By strategically incorporating hydrogen-bond donors and acceptors, we show that these interactions build a water \"bridge\" that restricts rotational degrees of freedom. This bridge significantly elevates the kinetic barrier and redirects the isomerization along an alternative reaction coordinate. In this manner, the hydrogen-bonding system selectively regulates the thermal back-conversion dynamics and enables directional control over the isomerization kinetics, achieving up to a 5000-fold extension of the thermal half-life. This work illustrates how hydrogen bonds can facilitate precise control over back-conversion dynamics and molecular thermal stability in molecular photoswitches.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c8d09ee1bd6ea7044ef4b1efa1ff7b9c15c22e12636af6eb12dd4a6dafa2976c",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.13.711612",
+        "https://openalex.org/W7137925021"
+      ],
+      "title": "VarDCL: A Multimodal PLM-Enhanced Framework for Missense Variant Effect Prediction via Self-distilled Contrastive Learning",
+      "link": "https://doi.org/10.64898/2026.03.13.711612",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/17/2026.03.13.711612.full.pdf",
+      "publication_date": "2026-03-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "huiling zhang",
+          "name": "Huiling Zhang"
+        },
+        {
+          "key": "ganzhang zheng",
+          "name": "Ganzhang Zheng"
+        },
+        {
+          "key": "xu ziqi",
+          "name": "Ziqi Xu"
+        },
+        {
+          "key": "haowen zhao",
+          "name": "Haowen Zhao"
+        },
+        {
+          "key": "cai shaozhen",
+          "name": "Shaozhen Cai"
+        },
+        {
+          "key": "huang yuxiang",
+          "name": "Yuxiang Huang"
+        },
+        {
+          "key": "zhou zihan",
+          "name": "Zihan Zhou"
+        },
+        {
+          "key": "wei yanjie",
+          "name": "Yanjie Wei"
+        }
+      ],
+      "abstract_text": "Abstract Missense variants are a common type of genetic mutation that can alter the structure and function of proteins, thereby affecting the normal physiological processes of organisms. Accurately distinguishing damaging missense variants from benign ones is of great significance for clinical genetic diagnosis, treatment strategy development, and protein engineering. Here, we propose the VarDCL method, which ingeniously integrates multimodal protein language model embeddings and self-distilled contrastive learning to identify subtle sequence and structural differences before and after protein mutations, thereby accurately predicting pathogenic missense variants. First, leveraging sequence and structural information before and after mutations, VarDCL generates sequence-structural multimodal features via different language models. It incorporates both global and local perspectives of feature embeddings to provide the model with dynamic, multimodal, and multi-view input data. Additionally, a Self-distilled Contrastive Learning (SDCL) module was proposed to enable more effective information integration and feature learning, enhancing the model’s ability to detect sequence and structural changes induced by mutations. Within this module, the multi-level contrastive learning framework excels at capturing information differences before and after mutations within the same modality; meanwhile, the feature self-distillation mechanism effectively utilizes high-level fused features to guide the learning of low-level differential features, facilitating information interaction across different modalities. The VarDCL framework not only ensures the model’s capacity to learn dynamic changes pre- and post-mutation but also significantly improves cross-modal information interaction between sequence and structure, thereby remarkably boosting the model’s performance in distinguishing pathogenic mutations from benign ones. To validate the effectiveness of VarDCL, extensive experiments were conducted. The ablation study demonstrates that all key components of VarDCL contribute significantly. On an independent test set containing 18,731 clinical variants, VarDCL achieved an AUC of 0.917, an AUPR of 0.876, an MCC of 0.690, and an F1-score of 0.789, outperforming 21 state-of-the-art existing methods. Benchmark analysis shows that VarDCL can be utilized as an accurate and potent tool for predicting missense variant effects.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6133,6 +6742,132 @@
       "curated_categories": []
     },
     {
+      "id": "c8f7bdbbcef1c6d990e3e4970a032a879d0e07144656b8d96f5521a202b60d31",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.10.737686",
+        "https://openalex.org/W7167943477"
+      ],
+      "title": "Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors",
+      "link": "https://doi.org/10.64898/2026.07.10.737686",
+      "pdf_url": null,
+      "publication_date": "2026-07-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "xi yuxuan",
+          "name": "Yuxuan Xi"
+        },
+        {
+          "key": "angus bucknell",
+          "name": "Angus Bucknell"
+        },
+        {
+          "key": "joseph watson",
+          "name": "Joseph L. Watson"
+        },
+        {
+          "key": "abbas maqbool",
+          "name": "Abbas Maqbool"
+        },
+        {
+          "key": "bennett",
+          "name": "J. R. Bennett"
+        },
+        {
+          "key": "goreshnik inna",
+          "name": "Inna Goreshnik"
+        },
+        {
+          "key": "dionne vafeados",
+          "name": "Dionne K. Vafeados"
+        },
+        {
+          "key": "garcia sanchez",
+          "name": "M. Garcia Sanchez"
+        },
+        {
+          "key": "knight",
+          "name": "G. L. Knight"
+        },
+        {
+          "key": "rafał zdrzałek",
+          "name": "Rafał Zdrzałek"
+        },
+        {
+          "key": "clemence rodney",
+          "name": "Clemence A. Rodney"
+        },
+        {
+          "key": "indira saado",
+          "name": "Indira Saado"
+        },
+        {
+          "key": "stone",
+          "name": "C.E. Stone"
+        },
+        {
+          "key": "emma turley",
+          "name": "Emma K Turley"
+        },
+        {
+          "key": "daniel yu",
+          "name": "Daniel S. Yu"
+        },
+        {
+          "key": "amber gentle",
+          "name": "Amber Gentle"
+        },
+        {
+          "key": "lauren ryder",
+          "name": "Lauren S. Ryder"
+        },
+        {
+          "key": "xia yan",
+          "name": "Yan Xia"
+        },
+        {
+          "key": "vincent were",
+          "name": "Vincent M. Were"
+        },
+        {
+          "key": "heddle jonathan",
+          "name": "Jonathan G. Heddle"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "emmrich peter",
+          "name": "Peter M. F. Emmrich"
+        },
+        {
+          "key": "nicholas talbot",
+          "name": "Nicholas J. Talbot"
+        },
+        {
+          "key": "banfield james mark",
+          "name": "Mark James Banfield"
+        },
+        {
+          "key": "adam bentham",
+          "name": "Adam R. Bentham"
+        }
+      ],
+      "abstract_text": "The rapid evolution of plant pathogens poses a persistent threat to global agricultural sustainability, often outpacing the discovery and deployment of natural disease resistance genes. While bioengineering of plant intracellular immune receptors (NLRs) offers a potential solution, developing bespoke immune recognition remains constrained by the laborious characterisation of natural receptors and plant-pathogen interactions. Here, we describe a programmable framework that leverages generative AI protein design tools, RFdiffusion and ProteinMPNN, to design de novo integrated domains (IDs) against diverse pathogen effectors. By integrating these bespoke binders into the modular rice blast Pik-1/Pik-2 NLR receptor chassis, we successfully engineer recognition of a non-cognate virulence factor (effector) from the Panama disease pathogen, Fusarium oxysporum f. sp. cubense Tropical Race 4. Functional assays in Nicotiana benthamiana demonstrate that these de novo domains facilitate specific effector perception and initiate immune signalling, while structural and biophysical analyses confirm that de novo integrated domains maintain high structural fidelity to the initial designs and associate with their targets via the predicted interaction interfaces. Additionally, our findings provide orthogonal evidence for the role of integrated domains in regulation of NLR signalling, demonstrating integration of de novo IDs can either trigger autoactivity or, in some cases, lead to effector-mediated repression of cell death. By decoupling immune perception from natural evolutionary history through deploying AI-designed sensory domains, this work establishes a design-lead framework for generation of programmable plant immune receptors, providing a new avenue for bioengineering crops against emerging pathogens.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c8f8c4584fd2616354f2fcf262f05a4597f49f9b89b6a12a496c81cdcc9fe285",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65863-0",
@@ -6268,6 +7003,68 @@
         }
       ],
       "abstract_text": "The rate and efficiency of stress transmission across continental interiors during collision remain poorly constrained. The >1600-km-long Altyn Tagh Fault, bounding the northern Tibetan Plateau, offers a key test of stress propagation models. Here, we integrate multiscale structural analysis with K–Ar dating of synkinematic illite to date its faulting history. The data document episodic faulting spanning >110 million years, including an ~115 Ma event marking a lithospheric weakness zone predating Cenozoic collision, and an Early Eocene faulting age (~56 Ma), which is nearly synchronous with India–Asia collision onset, implying rapid far-field stress transmission across distances exceeding 1500 km within 10 million years of collision initiation. Reactivation at ~26 Ma, ~2.7 Ma and ~0.6 Ma reflects localization during plateau growth. These results show that inherited lithospheric structures enable efficient, long-distance stress transmission and remain persistent deformation loci, indicating that continental interiors respond to plate-boundary forcing faster than slow, progressive propagation models predict. K–Ar dating reveals >110 Myr of episodic Altyn Tagh Fault activity, beginning at ~115 Ma along a Cretaceous lithospheric weakness. Reactivation at ~56 Ma records rapid India–Asia collisional stress transmission >1500 km into the continental interior.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c8ff0b342dd0c72c15b22d80a761be261bb33338c582e73bf2fc6a50736744b6",
+      "identity_keys": [
+        "https://doaj.org/article/6bf41789f70140ccacbc2084b09dc578",
+        "https://openalex.org/W7115035793"
+      ],
+      "title": "Development of a Novel Anti-Siglec-15 Antibody for Tumor Immunotherapy",
+      "link": "https://doaj.org/article/6bf41789f70140ccacbc2084b09dc578",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu Q"
+        },
+        {
+          "key": "li",
+          "name": "Li L"
+        },
+        {
+          "key": "nian",
+          "name": "Nian S"
+        },
+        {
+          "key": "sun",
+          "name": "Sun X"
+        },
+        {
+          "key": "guo",
+          "name": "Guo X"
+        },
+        {
+          "key": "li",
+          "name": "Li C"
+        },
+        {
+          "key": "yang",
+          "name": "Yang Z"
+        },
+        {
+          "key": "ye",
+          "name": "Ye Y"
+        },
+        {
+          "key": "yuan",
+          "name": "Yuan Q"
+        }
+      ],
+      "abstract_text": "Qin Liu,1,* Lin Li,1,* Siji Nian,1 Xiaoke Sun,2 Xiyuan Guo,1 Chengwen Li,1 Zhihui Yang,3 Yingchun Ye,1 Qing Yuan1,4 1Public Center of Experimental Technology, The School of Basic Medical Sciences, Southwest Medical University, Luzhou, Sichuan, People’s Republic of China; 2Key Laboratory of Medical Electrophysiology of the Ministry of Education, Southwest Medical University, Luzhou, Sichuan, People’s Republic of China; 3Department of Pathology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan, People’s Republic of China; 4Institute of Nuclear Medicine, Southwest Medical University, Luzhou, Sichuan, People’s Republic of China*These authors contributed equally to this workCorrespondence: Qing Yuan, Southwest Medical University, No. 1, Xianglin Road, Luzhou, Sichuan, 646000, People’s Republic of China, Email qingyuan@swmu.edu.cn Yingchun Ye, Southwest Medical University, No. 1, Xianglin Road, Luzhou, Sichuan, 646000, People’s Republic of China, Email yeyingchun@swmu.edu.cnPurpose: As a novel candidate in cancer immunotherapy, siglec-15-targeting antibodies hold promise for providing alternative therapeutic strategies to tumors unresponsive to programmed death ligand 1 (PD-L1) antibody therapy. To date, pharmacological development targeting siglec-15 has not yet achieved significant breakthroughs or clinical approval. Therefore, this study aims to develop a novel anti-siglec-15 antibody designed to restore tumor immune normalization.Methods: In this study, we constructed a phage immune library derived from lymphoid tissues of lung cancer patients using phage display technology and screened the fully human antibodies against siglec-15 antigen from this library. The antibody affinity was detected by Bio-Layer Interferometry, the binding rate of antibody to positively expressing siglec-15 tumor cells was examined by flow cytometry, and the activity of antibody-mediated killer cells against tumor cells was reflected by Antibody-Dependent Cellular Cytotoxicity (ADCC) action. The blockage of proliferation inhibition caused by siglec-15 antigen by antibodies was investigated by t-lymphocyte proliferation assays, and CD8+ T cells were collected from malignant pleural effusion specimens derived from lung cancer patients to determinewhether antibodies could alleviate the immunosuppression present in the tumor microenvironment (TME). The anti-tumor efficacy of the antibody was investigated in vivo by constructing a zebrafish tumor model and a humanized mouse tumor model.Results: The antibody demonstrated nanomolar affinity and specificity, enhanced antibody-dependent cellular cytotoxicity (ADCC) against tumor cells, reversed T-cell suppression, and reduced CD8+ T-cell exhaustion in vitro analyses. In vivo models confirmed tumor growth inhibition via increased lymphocyte infiltration and activation.Conclusion: Antibody immune libraries from lymphoid tissues of lung cancer patients can screen specific antibodies against siglec-15 target antigens and exert certain biological functions in vitro and in vivo.Plain Language Summary: Following PD-1/PD-L1 blockade, siglec-15 has emerged as a compelling therapeutic target for tumor immune normalization, with its specific antibodies potentially addressing clinical resistance to PD-1 inhibitors. Utilizing phage display technology, we developed a lung cancer patient-derived immune library and isolated a novel anti-siglec-15 antibody exhibiting nanomolar affinity and precise antigen specificity, as rigorously validated through Bio-Layer Interferometry (BLI) and ELISA. Functional characterization demonstrated the antibody’s dual mechanism: enhancing lymphocyte-mediated ADCC against tumor cells while reversing siglec-15-induced suppression of T-cell proliferation. Notably, in vitro analyses of malignant pleural effusions, the antibody significantly reduced CD8+ T-cell exhaustion. We found that anti-siglec-15 recombinant antibodies inhibited tumor growth by increasing lymphocyte infiltration and activation in tumor tissues by constructing a zebrafish tumor model and a PBMC humanized mouse tumor model. These findings provide a theoretical framework for the development of anti-siglec-15 targeting antibody drugs and tumor immunonormalization therapy. Keywords: phage display technology, lymphocyte infiltration, T-cell suppression, malignant pleural effusion, tumor microenvironment",
       "discovery_sources": [
         {
           "kind": "open_alex",

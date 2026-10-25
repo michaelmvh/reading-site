@@ -1833,6 +1833,12 @@
       "abstract_text": "Bilins, linear tetrapyrroles derived from heme catabolism, are ubiquitous across biological systems. The constraints imposed by binding to a protein confer valuable optical properties on bilins, which are used for sensing and harvesting light, and offer potential for fluorescence imaging, optogenetics, and biosensing. Recently, bilins have been used to evaluate methods for designing ligand binding sites, and novel biliproteins (BPs) that bind phycoerythrobilin (PEB) emerged from computational design using RoseTTAFold Diffusion All-Atom (RFDiffusionAA) and LigandMPNN. Here, we find much lower stability, extinction coefficients and fluorescence quantum yields for de novo designs compared to the native CpcA-PEB biliprotein, so we used a LigandMPNN-AlphaFold 3 (AF3)-Rosetta Relax pipeline to redesign one BP, C11, which can be implemented quickly and without in-house GPUs. The top three ligand confidence scores emerging from this procedure yielded C11-578, C11-620, and C11-756 redesigns that retain 50%, 52%, and 57% identities, respectively, with C11. AF3-Rosetta modeling of the BP redesigns predicted similar conformations of the PEB, decreased solvent-accessible surface area of the bilin binding site, an additional predicted hydrogen bond in C11-620, and a more rigid protein backbone. The new constraints on bilin binding improved the stability, absorption properties and fluorescence yields for C11-578, C11-620, and C11-756, and the brightness of the redesigns improved up to 13-fold, approaching the values for the native CpcA-PEB BP. Further design iterations can be used to create a range of absorbing and emitting BPs, including oligomeric assemblies housing internal energy cascades.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -2693,6 +2699,36 @@
       "curated_categories": []
     },
     {
+      "id": "ce5a68cf8d30a873b27262947a7497567fbc60d3a34050581fb4499853df88c6",
+      "identity_keys": [
+        "https://doi.org/10.54254/2753-8818/2026.pj30488",
+        "https://openalex.org/W4417198948"
+      ],
+      "title": "Applications of AlphaFold in the Medical Field",
+      "link": "https://doi.org/10.54254/2753-8818/2026.pj30488",
+      "pdf_url": "https://tns.ewapub.com/article/view/30488.pdf",
+      "publication_date": "2025-12-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Theoretical and Natural Science",
+      "authors": [
+        {
+          "key": "lin tan zhi",
+          "name": "Zhi Lin Tan"
+        }
+      ],
+      "abstract_text": "Traditional protein structure determination techniques, including X-ray crystallography and nuclear magnetic resonance (NMR) spectroscopy, are typically time-consuming and labor-intensive. Moreover, these approaches face inherent constraints when dealing with specific protein classes, such as membrane proteins, which pose substantial technical hurdles. This severely hinders in-depth elucidation of the molecular mechanisms underlying life processes and impedes advancements in drug discovery and development. However, the advent of AlphaFold, an AI, has completely altered the landscape. AlphaFold can rapidly and accurately predict a protein’s three-dimensional architecture directly from its amino acid sequence alone, representing a paradigm shift in structural biology and broader life sciences. Therefore, through a review of the literature and representative cases, this paper systematically examines the fundamental principles and evolutionary trajectory of AlphaFold. This study highlights its key applications in target discovery, protein design, and genetic mutation analysis in medical research. In addition, it also evaluates the technological strengths of AlphaFold and explores its existing limitations as well as future development directions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ce5b4fdba781907d9cf144bf2c9b3074197a3a812509dd79fd3d707b545748e7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69578-8",
@@ -2748,6 +2784,106 @@
         }
       ],
       "abstract_text": "Non-contrast MRI, routinely used for the preoperative diagnosis of glioma tumors and establishing treatment strategies, provides the potential for assessing blood-brain barrier (BBB) status without using gadolinium-based contrast agents (GBCA) which could cause adverse events. Additionally, generative artificial intelligence (AI) models enable the synthesis of contrast-enhanced images from non-contrast images. Despite this potential, the heterogeneity of GBCA-induced features in tumor areas and error accumulation from inaccurate synthesis largely limit the efficacy of conventional generative models. To address these limitations, we introduce a contrast-free BBB status identification model (CBSI) that can identify BBB status with high accuracy using non-contrast MR images and generative diffusion AI networks. Trained and validated on a multi-center dataset of 1,535 patients, CBSI achieves an area under the curve (AUC) of 81.31%, surpassing the performance of the model using only non-contrast MR (AUC = 72.76%) and demonstrating comparable performance to the T1Gd MR model (AUC = 88.68%) in an external test set. Furthermore, validation on two public datasets (BraTS-Africa and BraTS-GLI) supports the generalizability of CBSI in BBB status identification. Notably, with accurate BBB status of synthetic T1Gd, the performance of glioma segmentation and grading is improved significantly compared to existing methods. Generalizability analysis indicates that CBSI can facilitate BBB status identification using synthetic T1Gd findings, avoiding GBCA adverse effects and streamlining clinical workflows. It is currently challenging to identify the Blood-brain barrier (BBB) status using non-contrast MR images due to lack of gadolinium-based contrast agents (GBCA)-induced features. Here the authors find that the contrast-free BBB status identification model (CBSI) overcomes such limitations due to its ability to perform comparably to the gadolinium-enhanced T1-weighted (T1Gd) magnetic resonance (MR) model as well as its generalizability potential.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ce5e32e3b9f88452baa4e81c180dff4d1ab754d29f1d2dff99185fd3844bf7c4",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.02.24.707758",
+        "https://openalex.org/W7131390443"
+      ],
+      "title": "FAF1 and FAF2 enhance human p97-UFD1-NPL4 complex unfoldase activity enabling rational design of p97 activators",
+      "link": "https://doi.org/10.64898/2026.02.24.707758",
+      "pdf_url": null,
+      "publication_date": "2026-02-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "dasgupta pritha",
+          "name": "Pritha Dasgupta"
+        },
+        {
+          "key": "ian kelsall",
+          "name": "Ian R. Kelsall"
+        },
+        {
+          "key": "anand gaurav",
+          "name": "Gaurav Anand"
+        },
+        {
+          "key": "anna pérez ràfols",
+          "name": "Anna Pérez‐Ràfols"
+        },
+        {
+          "key": "axel knebel",
+          "name": "Axel Knebel"
+        },
+        {
+          "key": "gourlay robert",
+          "name": "Robert Gourlay"
+        },
+        {
+          "key": "glenn masson robert",
+          "name": "Glenn Robert Masson"
+        },
+        {
+          "key": "kulathu yogesh",
+          "name": "Yogesh Kulathu"
+        }
+      ],
+      "abstract_text": "Abstract VCP/p97 is an AAA+ ATPase that, together with its cofactors UFD1-NPL4 (p97-UN), binds and unfolds ubiquitylated substrates to maintain cellular homeostasis. The human p97-UN complex associates with additional cofactors, but how these cofactors modulate p97-UN activity is not fully understood. Here, we screen for cofactors that enhance p97-UN activity and identify FAF2 as the strongest activator. Using biochemical and structural approaches, we show how FAF2 engages p97-UN and polyubiquitin to promote unfolding. We define a conserved activation motif in FAF2 that contacts both UFD1 and the ubiquitin proximal to the initiator, stabilizing and initiating unfolding in a UFD1-dependent manner. We leverage the features of FAF2 AM to engineer de novo proteins that potently enhance unfolding, providing a rational strategy to boost p97 activity. Our findings reveal how cofactors can provide additional adaptive control, fine-tuning human p97 activity to unfold challenging substrates and those modified with short ubiquitin chains.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ce60df51dbeac6dd762c3574b3ff20d0a5d9932e078ba44e891cdac2876b9a55",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.rechem.2026.103712",
+        "https://openalex.org/W7201970682"
+      ],
+      "title": "Plastic-degrading enzymes: Advances, challenges, and industrial prospects in enzyme engineering and computational design",
+      "link": "https://doi.org/10.1016/j.rechem.2026.103712",
+      "pdf_url": null,
+      "publication_date": "2026-08-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Results in Chemistry",
+      "authors": [
+        {
+          "key": "pattani vivek",
+          "name": "Vivek B. Pattani"
+        },
+        {
+          "key": "jinesh kaneriya",
+          "name": "Jinesh P. Kaneriya"
+        },
+        {
+          "key": "joshi krishna",
+          "name": "Krishna Joshi"
+        },
+        {
+          "key": "gaurav sanghvi",
+          "name": "Gaurav V. Sanghvi"
+        }
+      ],
+      "abstract_text": "The accumulation of plastic waste is causing fatal environmental problems that threaten human health. The environmental threat posed by plastics stems from their persistence, potential for bioaccumulation, and inability to degrade via conventional waste disposal methods or physicochemical processes. As a promising alternative, enzyme-based degradation is a practical solution owing to the highly efficient and specific catalytic capacity of enzymes to depolymerize plastic polymers into non-toxic and reusable by-products. Techniques such as enzyme engineering and elucidation of biochemical pathways have led to the identification and optimization of plastic-degrading enzymes (e.g., PETase, MHETase, and cutinases) capable of hydrolyzing recalcitrant polymers (e.g., polyethylene terephthalate (PET), polyethylene (PE), and polypropylene (PP)) under specific environmental conditions. Further advances in modern techniques, such as rational design, directed evolution, metagenomics, and synthetic biology pathways, have increased enzyme stability, activity, and substrate affinity to improve plastic degradation efficiency. Researchers are also exploring the use of microbial consortia and multi-enzyme cocktail formulations to optimize the synergism of plastic bioremediation. Computational methods and artificial intelligence (AI) serve as ideal platforms for predicting enzyme-substrate interactions, site-specific mutagenesis, and accelerating the process of discovering new biocatalysts. Recent advances in protein engineering, synthetic biology, and AI-assisted enzyme design have substantially improved catalytic efficiency, thermostability, and plastic depolymerization performance, accelerating the development of next-generation biocatalysts for plastic waste remediation. Together, these innovations represent a sustainable and scalable solution for plastic pollution, potentially driving a circular plastic economy. This review highlights the interdisciplinary approaches and outlook of the current status of enzyme-mediated plastic degradation technologies.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4040,6 +4176,82 @@
       "curated_categories": []
     },
     {
+      "id": "ce94fddc9c1962102285a58efddc784bfd2fe2d90b397412f636b8bf169a09cc",
+      "identity_keys": [
+        "https://doi.org/10.3389/fmicb.2026.1788098",
+        "https://openalex.org/W7157254013"
+      ],
+      "title": "Leveraging AI-driven predictors of enzyme pH optima to unravel microbial adaptation to environmental pH",
+      "link": "https://doi.org/10.3389/fmicb.2026.1788098",
+      "pdf_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1788098/pdf",
+      "publication_date": "2026-04-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Microbiology",
+      "authors": [
+        {
+          "key": "peng zhou",
+          "name": "Peng Zhou"
+        },
+        {
+          "key": "xin zhang zu",
+          "name": "Zu-Xin Zhang"
+        },
+        {
+          "key": "pan xiaoyong",
+          "name": "Xiaoyong Pan"
+        },
+        {
+          "key": "dai xinfeng",
+          "name": "Xinfeng Dai"
+        },
+        {
+          "key": "chen qiaoli",
+          "name": "Qiaoli Chen"
+        }
+      ],
+      "abstract_text": "numerous sequences is time-consuming, labor-intensive, and costly. To address these limitations, computational approaches based on machine learning have been developed for rapid prediction of enzyme pHopt, supporting applications in protein engineering.Recent advances, exemplified by EpHod (enzyme pH optimum prediction with deep learning) (Gado et al., 2025), enable prediction of the enzyme pHopt directly from protein sequences. The EpHod model leverages embeddings from the protein language model (PLM) ESM-1v and achieves a root mean squared error (RMSE) of 1.25 pH units on the held-out test data (Gado et al., 2025). To further improve predictive performance, an increasing number of AI-driven tools have been developed.For instance, Zhang et al. introduced the model VENUS-DREAM, which employs the PLM ESM-2 and reduces the RMSE to 0.809 (Zhang et al., 2025). These AI-powered tools are revolutionizing enzyme discovery and design by enabling high-throughput prediction of pHopt.Similarly, studies of microbial adaptation to environmental pH frequently require knowledge of enzyme pHopt. This information can be used to investigate the underlying adaptive mechanisms. However, experimental determination of pHopt for large-scale enzyme sequences remains impractical due to high costs and low throughput. Fortunately, the high-throughput predictive capacity of these AI-driven (Gado et al., 2025), leverages embeddings from the ESM-1v protein language model (PLM) and can directly predict the enzyme pHopt from protein sequences. It achieves a root mean squared error (RMSE) of 1.25 pH units on the held-out test set (Gado et al., 2025), showcasing its superior predictive capabilities. Serendipitously, these tools can be employed to explore how organisms respond and adapt to pH fluctuations, potentially yielding breakthroughs in metabolic flexibility. In this context, we use differentially expressed isoenzymes as case studies to discuss how these AI-driven tools facilitate inferences about adaptive strategies microorganisms employ in response to pH variations.To illustrate the value of AI-powered enzyme pHopt prediction in understanding microbial pH adaptation, we selected three enzymes whose pHopt values were accurately predicted by EpHod. The first example is the acid protease Thermopsin (UniProt: P17118), purified from the culture supernatant of Sulfolobus acidocaldarius strain DSM 639 (Lin and Tang, 1990). S. acidocaldarius strain DSM 639 was isolated from Locomotive Spring in Yellowstone National Park, USA, where the spring has a pH of 2.4, and exhibits optimal growth at pH 2-3 (Brock et al., 1972). Thermopsin acts as a secreted enzyme that digests extracellular proteins to provide nutrients for the cell (Rawlings, 2013;Tang and Lin, 2013). A logically relevant question is whether secreted Thermopsin can function effectively under such acidic conditions and thereby contribute to the adaptation of strain DSM 639 to its acidic habitat.Notably, the pHopt of Thermopsin predicted by EpHod is consistent with experimental observations, which showed that this enzyme displays maximal proteolytic activity at pH 2 (Lin and Tang, 1990) -a value that agrees well with the in situ environmental pH. This consistency between the AI-predicted and experimentally determined pHopt supports that EpHod can help reveal microbial niche adaptation, which is further reinforced by the second example presented below.The second example is the acid-resistant membrane-bound amylopullulanase Apu (UniProt: Q4J9M2), which is also produced by S. acidocaldarius strain DSM 639.The purified Apu catalyzes the hydrolysis of starch, amylopectin, and pullulan into small oligomers for cellular uptake (Choi and Cha, 2015). EpHod again yielded an accurate pHopt prediction for Apu, which matched the experimentally determined pHopt value of approximately 3.0 for its amylolytic activity toward starch. The low pHopt values of both Thermopsin and Apu ensure their catalytic activity under the acidic growth conditions of strain DSM 639, conferring a distinct physiological advantage for strain DSM 639 thriving in its native habitat.The third example is an extracellular pectate lyase PelA (UniProt: D0VP31) from the alkaliphilic bacterium Bacillus sp. N16-5. The strain N16-5 was isolated from sediment of Wudunur Soda Lake in Inner Mongolia, China, and grows well within a pH range of 8.5-11.5 (Ma et al., 1991). The purified PelA from the culture broth of Bacillus sp. N16-5 efficiently depolymerizes polygalacturonate and pectin with digalacturonate and trigalacturonate as the main products (Li, 2010), and transcriptomic analysis of Bacillus sp. N16-5 grown on pectin indicated that these products could be subsequently imported into cells for metabolism, thereby supporting carbon acquisition (Song et al., 2013). EpHod also accurately predicted the pHopt of PelA, which was in good agreement with the experimentally determined value of 11.5 (measured at 50 ˚C using polygalacturonic acid as the substrate) (Li, 2010). The high pHopt of PelA enables its robust function in alkaline environment, thereby promoting the survival and adaptation of Bacillus sp. N16-5 in its ecological niche. modifications, including acetylation, phosphorylation, glycosylation, methylation, and ubiquitylation (Macek et al., 2019), and are ubiquitous within cells (Beltrao et al., 2012). Enzyme pH-activity profiles can be significantly modulated by chemical modifications (Xue et al., 2010;Li, 2014;Giri et al., 2021). Therefore, to improve the accuracy of pHopt prediction, it is essential to equip predictors with the ability to incorporate PTMs. A promising strategy for integrating PTM information into embedding processes is to use PTM-aware PLMs. A critical step in this direction is the precise mapping of PTM annotations to corresponding protein sequences.Recently, Peng et al. proposed PTM-Mamba, a PLM that integrates PTM tokens using bidirectional Mamba blocks fused with ESM-2 embeddings via a gating mechanism (Peng et al., 2025). PTM-Mamba has strong potential as a foundational PLM for various downstream PTM-aware tasks, with enzyme pHopt prediction being a prominent application.It should be noted that in addition to pH, other environmental factors, such as temperature or ionic strength, can also influence enzyme activity (Ishigami and Morita, 1977;Ivanov et al., 2026); thus, experimental validation remains indispensable. Direct experimental determination of pH optima provides solid and reliable results that cannot be replaced. On the other hand, as more experimentally measured pHopt values accumulate and are incorporated into training datasets, the performance of such AI predictors will continue to improve.Microorganisms have evolved diverse strategies to adapt to environmental pH. As essential biological catalysts, enzymes play a pivotal role in biochemical reactions.Eukaryotic microbes also exploit isoenzyme regulation for pH adaptation. Take the yeast Komagataella phaffii as an example. When exposed to alkaline stress, it exhibits differential expression patterns across multiple pairs of genes encoding isoenzymes (Albacar et al., 2023). For instance, genes responsible for β-1,3glucanosyltransferases (required for cell wall assembly) and those encoding peroxisomal 2,4-dienoyl-CoA reductase (an auxiliary enzymes in fatty acid beta-oxidation) exhibit markedly inverse transcriptional responses. By forecasting the pHopt for isoenzyme activity, these pHopt predictors empower researchers to link pHopt to transcriptional responses and physiological functions and conduct hypothesis-driven explorations of isoenzyme roles under different pH conditions. Moreover, the advanced pHopt predictors enable us to infer how biological communities respond to pH variations at the molecular level. The gut microbiome, for example, inhabits a dynamic environment where pH can fluctuate due to factors such as diet, disease, and medication. These predictors can help explain how the gut microbiome meticulously adjusts the expression of isoenzymes to cope with these pH changes.Similarly, for the plant-rhizosphere microbial system, pHopt predictors can illuminate how the rhizosphere microbial communities react to pH changes by fine-tune expression. Furthermore, by utilizing pHopt prediction tools, we can better hypothesize the underlying mechanisms that marine ecosystems rely on to buffer the impact of acidification by fine-tuning expression of isoenzyme with different pHopt.Line spacing: Double Formatted[hockeytown]: Knowledge of enzyme pHopt is a key to understanding the dynamic interplay between enzymes, pH, and biological adaptation. Investigating pHopt is therefore highly valuable for uncovering the mechanisms of microbial adaptation. However, experimental determination of pHopt for large-scale enzyme sequences (e.g. those annotated from genomes or metagenomes) is highly time-consuming, labor-intensive, and expensive. Using these AI-powered prediction tools enables time-efficient, costeffective, and high-throughput prediction of pHopt values. Here we discuss the application potential of advanced AI-driven pHopt predictors in studying the adaptive strategies employed by microorganisms to cope with environmental pH.High-throughput predictions facilitate researchers in inferring the functional roles of enzymes in pH adaptation and conducting hypothesis-driven studies to explore the adaptive strategies of microorganisms. For example, from a pHopt perspective, the significance of isoenzymes that catalyze identical reactions but exhibit distinct pHopt values can be systematically evaluated.Moreover, such high-throughput predictions allow researchers to investigate the competitive advantages of different organisms under specific environmental pH conditions and their implications for species succession. For instance, elevated pH differentially affects the growth and survival of various marine phytoplankton species (Hansen, 2002;Zepernick et al., 2021). Based on pHopt prediction, the molecular mechanisms underlying the competitive advantages of alkalitolerant bloom-forming algal species under elevated water pH can be analyzed, improving the mechanistic understanding of algal bloom outbreaks. Furthermore, ocean acidification poses a severe threat to marine ecosystems, especially to calcifying organisms (Orr et al., 2005). Coral reefs, among the most vulnerable marine ecosystems, are being severely impacted (Hoegh-Guldberg et al., 2007). Using AI-predicted enzyme pHopt values, we can analyze the match between enzyme pHopt and fluctuating seawater pH, thereby inferring species adaptability and the adaptive succession of biological communities under ocean acidification.In summary, enzyme pHopt prediction tools enable a deeper understanding of the mechanisms by which organisms cope with environmental pH. As the field of AI-driven pHopt prediction continues to advance, novel insights will be gained to facilitate the elucidation of pH adaptation mechanisms, potentially leading to important scientific breakthroughs.Microorganisms across the spectrum from prokaryotes to eukaryotes are exposed to fluctuating pH levels, which influence the catalytic activity of enzymes as well as their regulation. Studies on adaptation strategies to pH stress reveal that certain isoenzymes exhibit opposing expression patterns, suggesting their regulation as a mechanism for pH adaptation. Beyond revolutionizing enzyme engineering, recent advancements in the field of AI-driven pHopt prediction is also poised to deepen our understanding of the dynamic interplay among enzymes, pH, and biological adaptation. Furthermore, the advanced pHopt predictors enable us to ecologically infer how microbial communities respond to pH variations at the molecular level. The gut microbiome, for example, inhabits a dynamic environment where pH can fluctuate due to factors such as diet, disease, and medication.These predictors can help explain how the gut microbiome meticulously adjusts the expression of isoenzymes to cope with these pH changes. Similarly, as for plant-rhizosphere microbial system, pHopt predictors can illuminate how the plant and its associated rhizosphere microbial communities react to pH changes by fine-tune expression. Furthermore, ocean acidification poses a severe threat to marine ecosystems, particularly calcifying organisms (Orr et al., 2005). Coral reefs, as one of the most vulnerable marine ecosystems, are suffering greatly (Hoegh-Guldberg et al, 2007). By utilizing pHopt prediction tools, we can better hypothesize the underlying mechanisms that marine ecosystems rely on to buffer the impact of acidification, such as the fine-tuning of isoenzyme expression in marine microorganisms.Enhancing predictive accuracy will facilitate the use of pHopt predictors, enabling them to achieve broader and more effective applications. For instance, chemical modifications to enzymes can be integrated during the embedding process. The pH-activity profile of an enzyme can be altered through chemical modifications (Giri et al., 2021;Xue et al., 2010;Li, 2014). To fulfill essential biological functions, enzymes often undergo post-translational modifications (PTMs). These PTMs encompass a wide range of chemical changes, including acetylation, phosphorylation, glycosylation, methylation, and ubiquitylation (Macek et al., 2019), and PTMs are ubiquitous within cells (Beltrao et al., 2012). Given this, when striving to improve the accuracy of pHopt predictions, it becomes imperative to equip predictors with the capability to account for chemically modified residues. One promising approach is to employ PTM-aware PLMs. For instance, a key step in this process is to map PTM annotations precisely to their corresponding protein sequences. Recently, Peng et al. made a significant contribution in this area by introducing PTM-Mamba (Peng et al., 2025). It integrates PTM tokens using bidirectional Mamba blocks fused with ESM-2 PLM embeddings via a gating mechanism. PTM-Mamba has the potential to serve as a foundational tool for a variety of downstream PTM-aware tasks, with pHopt prediction being a Deleted[hockeytown]:",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ce98cc06587aa58dfdbdc4e8528e3dd393547d0d27dc72a70aaaa9c4ba223222",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.20073062",
+        "https://openalex.org/W7161986126"
+      ],
+      "title": "Glass Box Machine Learning to Aid the Design of Small Peptide Agonists from Very Sparse Data: The Example of Erythropoietin Analogues",
+      "link": "https://doi.org/10.5281/zenodo.20073062",
+      "pdf_url": null,
+      "publication_date": "2026-05-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "barry robson",
+          "name": "Barry Robson"
+        }
+      ],
+      "abstract_text": "This paper presents a perspective on interpretable approaches to peptide design when, as is often the case, initial datais very sparse. It provides a worked example with discussion for the very earliest stage that one may can consider a“hunch phase”, when data is sparse and often circumstantial, and suspected activity and inactivity for many peptidesis more correctly described as unknown. The very earliest steps involve bioinformatics and related aspects ofcomputational chemistry approaches that are essentially standard, but their purpose is to generate all possibleinformation for a final explanatory Glass Box AI approach involving use of a Theory of Expected Informationdeveloped for sparse data which is much less commonly described. They still have some novel or unusual featureswhich make them well suited to that task, and glass box AI applied to peptides can itself be considered a recent formof bioinformatics. The present discussion can also be considered as an early step in the design of traditionaltherapeutics, i.e. small organic “in-a-pill” drugs. This is because biologically active peptides can provide clues fordesign of small organics, help establish laboratory assays, and provide important information as to the action ofagonists and antagonists, and as to safety. Also providing early data are cases where peptides have reached themarketing stage, but still have disadvantages, even being withdrawn, so increasing the demand for more traditionaltherapeutics that may not have the same problems. In other cases, there is data from viable peptide therapeuticswhere use is confined to one or few countries. Erythropoietic peptides for treatment of anemia provide an exampleof all these cases.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ce9b17c7bd29b75fa702267faf249de2a31fac56034477aa4d54719f4dc7defe",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76155-6",
@@ -4149,6 +4361,106 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ce9f5985819029579e7f5fe471298b27cb18e18a7840593a6a829b822f160446",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.08.750039",
+        "https://openalex.org/W7212031205"
+      ],
+      "title": "Protein Design Viz (PDV): lightweight protein structure visualization studio with validated quantitative analytics and antibody-specific toolkit",
+      "link": "https://doi.org/10.64898/2026.09.08.750039",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/08/2026.09.08.750039.full.pdf",
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "konrad krawczyk",
+          "name": "Konrad Krawczyk"
+        },
+        {
+          "key": "dudzic paweł",
+          "name": "Paweł Dudzic"
+        },
+        {
+          "key": "kumar sandeep",
+          "name": "Sandeep Kumar"
+        }
+      ],
+      "abstract_text": "Abstract Motivation Molecular visualization is dominated by two families of software. Desktop programs such as PyMOL, VMD and UCSF ChimeraX are powerful but heavy to install and operate. Web viewers such as Jmol, 3Dmol.js, NGL, Mol* and iCn3D are light and installation-free, but typically stop at rendering, lacking deeper functionality needed for even basic protein sequence, structural analyses and design tasks. Tools building upon these often lack comprehensive sequence/structure manipulation, surface, interface and antibody-specific analytics functionality or require an external backend. There is a need for a tool that is as frictionless as a web viewer yet carries the analytical depth normally reserved for the desktop or the command line software. Results We present Protein Design Viz (PDV), a self-contained molecular visualization studio delivered as a single offline HTML file that runs entirely in the browser. Built as an extensive modification of 3Dmol.js, PDV combines a full visualization workflow: multi-object scenes, representations, coloring palette, linked sequence track, publication-quality outline rendering and portable sessions. Additionally we re-implemented four commonly used macromolecular analyses from scratch in client-side JavaScript: a Shrake–Rupley solvent-accessible surface area (SASA) engine, an antibody numbering and germline-assignment engine, a non-covalent interaction detector, and a developability-liability scanner. Each engine is validated against its established reference. PDV’s SASA reproduces FreeSASA at Pearson r ≈ 0.997–0.998 across 2,582 structures spanning proteins, nucleic acids and ligands; its numbering reproduces RIOT for over 99.88% of 1.3 million residue positions across 16,996 sequences and four schemes; its interaction detector reproduces PLIP at macro-F1 0.82, matching Arpeggio as closely as PLIP itself does. PDV brings validated, quantitative structural analysis into a no-install, simple to use tool. Availability and implementation PDV is a single HTML file, free for noncommercial use under the PolyForm Noncommercial License 1.0.0, available from pdv.naturalantibody.com. It requires only a WebGL-capable browser and runs fully offline. Contact konrad@naturalantibody.com",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "cea1d4d9319da074c18a68af18d27582bed1ad5e9df65146887ff35f9203c3be",
+      "identity_keys": [
+        "https://doi.org/10.3389/fphar.2025.1719557",
+        "https://openalex.org/W4416896239"
+      ],
+      "title": "Branched tetrameric lactoferricin peptides modified with diaminopropionic acid exhibit potent antimicrobial and wound-healing activities",
+      "link": "https://doi.org/10.3389/fphar.2025.1719557",
+      "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1719557/pdf",
+      "publication_date": "2025-12-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Pharmacology",
+      "authors": [
+        {
+          "key": "nikitha vavilthota",
+          "name": "Nikitha Vavilthota"
+        },
+        {
+          "key": "babuççu gizem",
+          "name": "Gizem Babuççu"
+        },
+        {
+          "key": "cordfunke robert",
+          "name": "Robert A. Cordfunke"
+        },
+        {
+          "key": "boer de leonie",
+          "name": "Leonie de Boer"
+        },
+        {
+          "key": "balraadjsing payal",
+          "name": "Payal P. S. Balraadjsing"
+        },
+        {
+          "key": "boekema bouke",
+          "name": "Bouke K. H. L. Boekema"
+        },
+        {
+          "key": "drijfhout jan wouter",
+          "name": "Jan Wouter Drijfhout"
+        },
+        {
+          "key": "martijn riool",
+          "name": "Martijn Riool"
+        },
+        {
+          "key": "sebastian zaat",
+          "name": "Sebastian A. J. Zaat"
+        }
+      ],
+      "abstract_text": "Introduction Infected chronic wounds present a dual therapeutic challenge, requiring both the eradication of pathogens and the restoration of tissue homeostasis. Often the current treatments are ineffective against multidrug-resistant (MDR) pathogens and fail to promote wound healing. Antimicrobial peptides, such as bovine lactoferricin (LfcinB), offer a promising alternative owing to their broad-spectrum activity and immunomodulatory properties. The branched tetrameric LfcinB-derived peptide (LBT; (RRWQWR) 4 K 2 Ahx 2 -C 2 ) is particularly attractive, as its multivalent architecture enhances antimicrobial potency and provides a tunable branching core for structural modifications. Methods In this study, three novel tetrameric variants were designed by substituting the L-lysine branching residues in LBT with non-natural lysine derivatives to alter motif orientation and linker flexibility. Among the novel peptides, the diaminopropionic acid (DAP)-modified variant, (LBT-1; (RRWQWR) 4 DAP 2 Ahx 2 -C 2 ) was selected as best-performing candidate based on antimicrobial and hemolytic activity assessment. Results Compared to LBT, the novel LBT-1 demonstrated superior activity against methicillin-resistant Staphylococcus aureus (MRSA) and MDR Acinetobacter baumannii , achieving rapid bactericidal action within 5 minutes. LBT-1 also exhibited potent activity across the ESKAPE(E) panel and against the emerging MDR fungal pathogen Candidozyma auris . Beyond direct antimicrobial effects, LBT-1 enhanced macrophage-mediated bacterial clearance, neutralized endotoxins, and accelerated wound closure in vitro . Importantly, LBT-1 showed superior pro-angiogenic activity in vitro and achieved significantly higher bactericidal activity against MRSA in an ex vivo human skin wound infection model. This study identifies LBT-1 as a multifunctional therapeutic that addresses key pathological features of chronic wounds. Conclusion Together, these findings validate our peptide design strategy, revealing previously unknown characteristics of the LBT peptide and the enhanced multifunctionality achieved with LBT-1, supporting its continued development for chronic wound management.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4577,6 +4889,52 @@
       "curated_categories": []
     },
     {
+      "id": "cebb63e87527fb907dc6ae3cd28771ad5503b4e1915688e9ec98095a72f9250e",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.23.753106",
+        "https://openalex.org/W7214165525"
+      ],
+      "title": "Protein Language Models: Learning From Evolution, Designing Beyond It",
+      "link": "https://doi.org/10.64898/2026.09.23.753106",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/24/2026.09.23.753106.full.pdf",
+      "publication_date": "2026-09-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "brenner maurice",
+          "name": "Maurice Brenner"
+        },
+        {
+          "key": "julius schlensok",
+          "name": "Julius Schlensok"
+        },
+        {
+          "key": "alexander",
+          "name": "Alexander P."
+        },
+        {
+          "key": "robert schmirler",
+          "name": "Robert Schmirler"
+        },
+        {
+          "key": "heinzinger michael",
+          "name": "Michael Heinzinger"
+        }
+      ],
+      "abstract_text": "Abstract Protein language models (PLMs) have transformed our ability to learn from evolutionary sequence space, but protein engineering ultimately asks a different question: not what evolution selected, but what we should build next. Zero-shot likelihoods therefore provide useful, but not universal, measures of fitness and can misalign with engineering objectives. Experimental supervision redirects these priors towards properties of interest, enabling target-specific prediction and closed-loop optimization. PLMs thereby complement structure-based design: structural methods provide geometric control, while PLMs integrate experimental feedback to optimize functional and developability properties. Realizing this potential requires evaluation beyond retrospective predictive accuracy, towards extrapolation, multi-objective optimization, and prospective experimental success. We argue for recurring competitions combining scalable predictive benchmarks with prospective experimental challenges. Ultimately, progress should be measured not by predicting existing experiments, but by enabling successful new ones.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cec0a1c97f5efba3c97100fe8b5d323cf9fde2babd9c4b67590c3ebd6b8f4d11",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66517-x",
@@ -4779,6 +5137,8 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.08.26.747234v3",
         "https://doi.org/10.64898/2026.08.26.747234",
+        "https://www.biorxiv.org/content/early/2026/08/26/2026.08.26.747234.source.xml",
+        "https://www.biorxiv.org/content/early/2026/09/25/2026.08.26.747234.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/24/2026.08.26.747234.source.xml"
       ],
       "title": "Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence",

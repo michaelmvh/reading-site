@@ -644,6 +644,108 @@
       "curated_categories": []
     },
     {
+      "id": "4808d4fabaf20f0e2bce1860c513778d300b61930f43ed4e2bc7a4fb4fa9764d",
+      "identity_keys": [
+        "https://doi.org/10.1093/plphys/kiag276",
+        "https://openalex.org/W7161022914"
+      ],
+      "title": "Machine learning empowers precise discovery of disease-resistance genes in plants",
+      "link": "https://doi.org/10.1093/plphys/kiag276",
+      "pdf_url": null,
+      "publication_date": "2026-05-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "PLANT PHYSIOLOGY",
+      "authors": [
+        {
+          "key": "liu zhenya",
+          "name": "Zhenya Liu"
+        },
+        {
+          "key": "wang",
+          "name": "X Wang"
+        },
+        {
+          "key": "cao shuo",
+          "name": "Shuo Cao"
+        },
+        {
+          "key": "lei tingyue",
+          "name": "Tingyue Lei"
+        },
+        {
+          "key": "chen zhuyifu",
+          "name": "Zhuyifu Chen"
+        },
+        {
+          "key": "zhang",
+          "name": "M Zhang"
+        },
+        {
+          "key": "liu zhongqi",
+          "name": "Zhongqi Liu"
+        },
+        {
+          "key": "li",
+          "name": "J M Li"
+        },
+        {
+          "key": "jianzhong lu",
+          "name": "Jianzhong Lu"
+        },
+        {
+          "key": "ma wenqi",
+          "name": "Wenqi Ma"
+        },
+        {
+          "key": "bingxiong su",
+          "name": "Bingxiong Su"
+        },
+        {
+          "key": "peng yanmei",
+          "name": "Yanmei Peng"
+        },
+        {
+          "key": "xu yanshuai",
+          "name": "Yanshuai Xu"
+        },
+        {
+          "key": "xu",
+          "name": "X Xu"
+        },
+        {
+          "key": "wei zhang",
+          "name": "Wei Zhang"
+        },
+        {
+          "key": "cong tan",
+          "name": "Cong Tan"
+        },
+        {
+          "key": "chen chengjie",
+          "name": "Chengjie Chen"
+        },
+        {
+          "key": "wang yiwen",
+          "name": "Yiwen Wang"
+        },
+        {
+          "key": "yi zhou",
+          "name": "Yi Zhou"
+        }
+      ],
+      "abstract_text": "Identifying plant disease-resistance genes is essential for understanding the plant immune system and accelerating the breeding of disease-resistant crops. There is a pressing need for a method capable of accurately identifying plant disease-resistance genes on a genome-wide scale. In this study, we propose evolutionary scale modeling for LRR (ESM-LRR), a deep protein language model designed to accurately predict LRR domains, which are substantially variable structures in disease-resistance proteins. ESM-LRR achieved its highest F1 score of 0.80 on a test set using 90% identity as the matching threshold. Building on ESM-LRR, we developed R-Predictor, a plant disease-resistance gene predictor to simultaneously annotate 15 diverse domain topologies, covering characterized resistance genes across the whole genome. R-Predictor integrates 4 modules, each employing superior methods that outperform existing methods (achieving F1 scores of 0.89 for RLKs and 0.88 for NLRs), demonstrating its high accuracy and practicality in annotating plant disease-resistance genes. R-Predictor integrated with gene expression profiles to identify candidate R genes associated with grape gray mold and downy mildew, outperforming existing methods and detecting dozens of candidate R genes. Overall, this study presents a novel approach to advancing our understanding of plant immunity and facilitating crop breeding for disease resistance.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "480b5bd885d639b4a499950d4cfa5e5fc8ecf3515b2894f99336cf5f8856cc1f",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-03355-x",
@@ -663,6 +765,36 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "480bdebe0181982f5567c3273eb049565f95683378b7656a9595bd47bfd1a5df",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.20134441",
+        "https://openalex.org/W7161261259"
+      ],
+      "title": "Steering potentials, not bug fixes, eliminate catastrophic outliers in Boltz-2 cofold protein-ligand affinity prediction: a six-way protocol evaluation on zinc-hydroxamate MMP-1 inhibitors",
+      "link": "https://doi.org/10.5281/zenodo.20134441",
+      "pdf_url": null,
+      "publication_date": "2026-05-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "cheongwoo han",
+          "name": "Cheongwoo Han"
+        }
+      ],
+      "abstract_text": "Correction (new version, 2026-07-18) — integrity correction. Corrected version (2026-07-18), identity disclaimer for a fabricated ligand panel. A primary-source audit (2026-07-16) established that the calibration panel's compound names and potencies are fabricated. This version softens 'inhibitors' to 'active-site ligands' in the title/subtitle, rewrites the Section 2.1 selection sentence to describe 15 structures under nominal ChEMBL identifiers used only as structure handles (removing the single pIC50 statement), and adds an identity note. The entire scientific result — that the --use_potentials steering flag eliminates catastrophic cofold-pose outliers — is unaffected. Versioned correction, not a retraction. In silico only. End-to-end protein-ligand structure prediction with affinity heads (Boltz-2, AlphaFold3-class cofolding) has become a routine first-pass tool for virtual screening, but the rate at which these models emit physically implausible poses — and how that rate depends on inference-time configuration — remains incompletely characterised. We evaluate six published cofold configurations on 15 ChEMBL MMP-1 zinc-hydroxamate active-site ligands (1500 cofold poses per condition; 9000 total), using GFN2-xTB single-point energies on the predicted ligand geometries as a physical-plausibility readout. Standard Boltz-2 without the --use_potentials (Boltz-2x) steering flag emits catastrophic outliers (per-ligand population σ up to 14.27 kcal mol⁻¹ on CHEMBL94487, with one pose reaching an implausible +8911 kcal mol⁻¹ relative energy). Enabling --use_potentials reduces σ on the same ligand to 3.18-4.29 kcal mol⁻¹ across three independent seeds, with zero positive-energy outliers in 4500 samples (0.022%, vs. 0.188% without the flag, 9× reduction). A recently released community fork of Boltz-2 (Volgin et al., March 2026) that fixes a silent wrong-answer bug, a metal-ion C-alpha filter, and a bfloat16 dtype path does not eliminate the outliers when run without the steering flag (σ_filtered = 6.66 kcal mol⁻¹; 2/100 catastrophic poses on the canary ligand). Adding --use_potentials to the fork removes the outliers but the within-population precision remains ~2× worse than standard Boltz-2x (σ_filt 6.98 vs. 3.18 kcal mol⁻¹). The operative factor is therefore the steering-potential flag, not the bug fixes. We recommend standard Boltz-2 + --use_potentials as the canonical cofold protocol for protein-ligand affinity prediction, especially for metalloprotein active sites; a residual ≤0.025% catastrophic-failure rate remains, so xtb-based filtering of cofold poses is still mandatory downstream.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -879,6 +1011,52 @@
         }
       ],
       "abstract_text": "Behavioral scientists increasingly recruit participants from less-WEIRD (Western, Educated, Industrialized, Rich, and Democratic) societies, but continue to oversample highly educated people, such as university students and online workers. Here we test how representative highly educated individuals are of the world’s cultural diversity. We used the cultural fixation index (CFST) to measure cultural distance between people with high and low socioeconomic status in 95 countries (N = 268,992), across beliefs, values, and behaviors assessed by the World Values Survey (2005–2022). We find that more highly educated people are significantly more culturally similar to WEIRD countries, such as the Anglosphere and Western Europe. Education was not statistically significantly associated with cultural similarities to other large, culturally and politically influential countries, such as China, Russia, and India. Contrary to modernization theories, income and self-reported subjective status did not show the same pattern of WEIRD cultural similarity. Our results suggest that cross-cultural samples of students or university-educated individuals over-represent cultural values that are typical of WEIRD countries. Psychology studies are becoming more global, yet often rely on highly educated participants. The authors find, across 95 countries, that higher education predicts cultural similarity to WEIRD societies, such as the United States.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "48279b0b7cebde5219020c5285bfdbff815e2690d90dff373e146834c1034680",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.cbpa.2026.102770",
+        "https://openalex.org/W7214763500"
+      ],
+      "title": "What deep learning can and cannot (yet) do for enzyme design",
+      "link": "https://doi.org/10.1016/j.cbpa.2026.102770",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1367593126001195/pdf",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Chemical Biology",
+      "authors": [
+        {
+          "key": "ahr judith",
+          "name": "Judith A. Ahr"
+        },
+        {
+          "key": "de moor waal",
+          "name": "Moor M. de Waal"
+        },
+        {
+          "key": "cotet stefan tudor",
+          "name": "Tudor‐Stefan Cotet"
+        },
+        {
+          "key": "daniel howell",
+          "name": "Daniel C. Howell"
+        },
+        {
+          "key": "adrian bunzel",
+          "name": "H. Adrian Bunzel"
+        }
+      ],
+      "abstract_text": "Deep learning has substantially advanced structure-based enzyme design, yet reliably creating highly efficient enzymes remains out of reach. One emerging enzyme design strategy combines diffusion-based scaffold generation around active-site models with sequence design. Such structure-based approaches have expanded the accessible reaction space and enabled the emergence of enzymes with diverse catalytic functions and complex catalytic motifs. Despite notable catalytic efficiencies ( k cat / K M ), turnover rates ( k cat ) often remain limited, suggesting that current approaches typically yield tight substrate binders rather than enzymes that selectively stabilize the chemical transition state. Computational design of electrostatic catalysis, multistate behavior, and conformational dynamics could potentially enhance transition-state stabilization and improve catalytic activity. More reliable activity oracles, integration of evolutionary information, protein language models, and lab-in-the-loop optimization could further enhance design performance. Ultimately, advancing structure-based enzyme design will require directly targeting the physicochemical drivers of catalysis to move beyond substrate binding toward the reliable design of efficient catalysts.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1947,6 +2125,48 @@
       "curated_categories": []
     },
     {
+      "id": "484952871c3344d39c60083fa959ee668686e5dd53c7f04066a99e59215f23be",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.jbiotec.2026.03.012",
+        "https://openalex.org/W7135396296"
+      ],
+      "title": "Deep learning revolutionizes protein research: Advances in structure prediction, functional annotation, and engineered design",
+      "link": "https://doi.org/10.1016/j.jbiotec.2026.03.012",
+      "pdf_url": null,
+      "publication_date": "2026-03-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Biotechnology",
+      "authors": [
+        {
+          "key": "jintong zhang",
+          "name": "Jintong Zhang"
+        },
+        {
+          "key": "shengjie wang",
+          "name": "Shengjie Wang"
+        },
+        {
+          "key": "gao le",
+          "name": "Le Gao"
+        },
+        {
+          "key": "li qian",
+          "name": "Qian Li"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "484a42fdf5824995b0a61450966e5a358aee248ff5cfa25e0db77d8b3052737f",
       "identity_keys": [
         "https://doi.org/10.1101/2025.11.23.689994",
@@ -1971,6 +2191,12 @@
       ],
       "abstract_text": "Abstract General-Purpose Large Language Models (GLLMs), although primarily developed for natural language processing, are increasingly demonstrating emergent capabilities in specialized scientific domains. In this study, we explored the potential of GLLMs,specifically DeepSeek V3.2 Exp in reasoning mode to perform practical protein engineering tasks without domain-specific biological training. Two representative design problems were addressed: Generation of amino acid sequences predicted to adopt the canonical 4- helix bundle topology, and targeted mutation design to improve protein solubility while preserving core structural integrity. Across 49 generated 4- helix bundle candidates, 40 adopted the desired geometry, with 36 achieving pLDDT scores above 70. Solubility optimization on 50 representative proteins yielded 46 mutants with an average predicted score increase of 0.178, and 29 maintained structural deviations below 3 Å RMSD. These results indicate that general-purpose LLMs such as DeepSeek V3.2 can integrate sequence–structure–property relationships sufficiently to produce viable protein designs. We propose a hybrid workflow that couples GLLM-based mutation generation with established computational validation, offering an accessible route for protein and peptide engineering.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -2295,6 +2521,48 @@
         }
       ],
       "abstract_text": "A global quantum internet is based on scalable networks, which require reliable quantum hardware. Among them are quantum light sources providing deterministic, high-brightness, high-fidelity entangled photons and quantum memories with coherence times exceeding the millisecond range. Long-distance operation demands quantum light sources emitting at telecommunication wavelengths. A cornerstone for such networks is the demonstration of quantum teleportation. Here, we realize full-photonic quantum teleportation employing semiconductor quantum dots, which can fulfill all the aforementioned requirements. Two remote GaAs quantum dots, emitting in the near-infrared, are used: one as an entangled-photon pair source and the other as a single-photon source. During the experiment, the single photon is prepared in conjugate polarization states and interfaced with the biexciton emission of the entangled pair employing a polarization-selective Bell state measurement. This process teleports the respective polarization state onto the exciton emission of the entangled pair. The frequency mismatch between the triggered sources is erased using two polarization-preserving quantum frequency converters, enabling remote two-photon interference at telecommunication wavelengths, yielding a visibility of 30(1)%. A post-selected teleportation fidelity up to 0.721(33), significantly above the classical limit, demonstrates successful quantum teleportation between light from distinct sources. These results mark an important development for semiconductor-based quantum light sources.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "48533bb7de4477dc94eff52c64a6cdcdbf02519b74a78c831c1a6e5da65aed47",
+      "identity_keys": [
+        "https://doi.org/10.1002/cnr2.70621",
+        "https://openalex.org/W7167733469"
+      ],
+      "title": "Investigating the Role of Anti‐Leukemia Inhibitory Factor Antibody on Cytokine Profile in a Mouse Model of Breast Cancer",
+      "link": "https://doi.org/10.1002/cnr2.70621",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Cancer Reports",
+      "authors": [
+        {
+          "key": "mohammad seifati seyed",
+          "name": "Seyed Mohammad Seifati"
+        },
+        {
+          "key": "hadinedoushan hossein",
+          "name": "Hossein Hadinedoushan"
+        },
+        {
+          "key": "ansariniya hossein",
+          "name": "Hossein Ansariniya"
+        },
+        {
+          "key": "fateme zare",
+          "name": "Fateme Zare"
+        }
+      ],
+      "abstract_text": "BACKGROUND: Leukemia inhibitory factor (LIF), a member of the IL-6 cytokine family, is increasingly recognized as a tumor-promoting factor in breast cancer, where it contributes to immune suppression, tumor progression, and therapy resistance. While neutralizing LIF is an attractive therapeutic approach, little is known about the systemic immunological consequences of targeting this cytokine. AIMSَ: This study aimed to evaluate the effects of active immunization against recombinant LIF protein-designed to elicit endogenous anti-LIF antibodies-on tumor progression and systemic cytokine responses in a murine breast cancer model. METHODS AND RESULTS: Female BALB/c mice were immunized with recombinant LIF protein emulsified in Freund's adjuvant to induce anti-LIF antibodies. Tumors were subsequently established by subcutaneous injection of 4T1 breast cancer cells after antibody titers were confirmed. Serum cytokine levels (IFN-γ, TNF-α, IL-6, IL-10, IL-4, and TGF-β) were measured by ELISA, and tumor growth was monitored. Active immunization against LIF significantly inhibited tumor growth compared to controls. Serum analysis revealed that anti-LIF immunization systemically suppressed tumor-induced IL-10 while significantly enhancing IFN-γ levels in tumor-bearing mice. In contrast, IL-4 reduction was only significant in the absence of tumor challenge, and TNF-α levels were generally reduced by the presence of the tumor regardless of immunization. CONCLUSION: Our findings suggest that vaccination against LIF can induce endogenous anti-LIF antibody responses, limit tumor progression, and selectively modulate systemic cytokine profiles, particularly through suppression of tumor-induced IL-10 together with enhanced IFN-γ responses in tumor-bearing mice. These findings support further investigation of LIF-targeted immunization as a potential immunotherapeutic strategy in breast cancer.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4397,6 +4665,56 @@
       "curated_categories": []
     },
     {
+      "id": "48d29a7f3f5514680f008e2a9fea24411e07ebda5249def7fd2418b23ffefd3d",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.14.751485",
+        "https://openalex.org/W7213463407"
+      ],
+      "title": "Machine learned potentials with electrostatic embedding accurately capture Kemp eliminase reactivity",
+      "link": "https://doi.org/10.64898/2026.09.14.751485",
+      "pdf_url": null,
+      "publication_date": "2026-09-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "abbie lear",
+          "name": "Abbie Lear"
+        },
+        {
+          "key": "chan elliot",
+          "name": "Elliot W. Chan"
+        },
+        {
+          "key": "kirill zinovjev",
+          "name": "Kirill Zinovjev"
+        },
+        {
+          "key": "der kamp marc van",
+          "name": "Marc W. van der Kamp"
+        },
+        {
+          "key": "adrian bunzel",
+          "name": "H. Adrian Bunzel"
+        },
+        {
+          "key": "adrian john mulholland",
+          "name": "Adrian John Mulholland"
+        }
+      ],
+      "abstract_text": "Abstract Kemp elimination has become a benchmark for de novo enzyme design due to its simplicity and detailed mechanistic understanding but accurate barrier calculations are required to understand the difference in activity between designed Kemp eliminases. QM/MM MD simulations are capable of calculating reaction barriers, but are limited by a cost/accuracy tradeoff in which the most accurate methods are too computationally expensive for extensive screening as would be required in a prospective enzyme design campaign. Recent advances in embedded ML/MM simulations using the electrostatic machine learning embedding (EMLE) method have enabled transferable potentials for ML/MM MD simulations with low computational cost but QM-level accuracy. Here, we trained a MACE MLIP and EMLE embedding model for fast and accurate simulations of the enzymatic, base-catalysed Kemp elimination of 6-nitro benzisoxazole. Applying our EMLE ML/MM scheme to a designed Kemp eliminase and its evolved counterpart captured the ∼ 4 kcal/mol difference in barrier between the two observed in experiment. Furthermore, training was done using structures generated from simulations of a single variant and was applied to the second variant, achieving near-experimental barriers, with no further finetuning or computational overhead. Thus, this work establishes EMLE-based ML/MM MD simulations as a potential route for fast and accurate assessment of barriers in computational screening for enzyme design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "48d53709905acbd04d115b7e3b01b6779b5edf263ec1aa976306f8c402b9b7af",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66127-7",
@@ -4490,6 +4808,56 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "48d62d7b53ecf9a45ddc7ae98a8a3c11c322b997f05af50de335ab903603ed6a",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.08.02.742362",
+        "https://openalex.org/W7172380592"
+      ],
+      "title": "HaloMPNN: retraining ProteinMPNN on halophilic proteomes for salt-tolerant enzyme design",
+      "link": "https://doi.org/10.64898/2026.08.02.742362",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/04/2026.08.02.742362.full.pdf",
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "alyssa lee lu",
+          "name": "Alyssa Lu Lee"
+        },
+        {
+          "key": "austin seamann",
+          "name": "Austin Seamann"
+        },
+        {
+          "key": "chung gwendolyn",
+          "name": "Gwendolyn Chung"
+        },
+        {
+          "key": "clairie zhao",
+          "name": "Clairie Zhao"
+        },
+        {
+          "key": "maddamsetti rohan",
+          "name": "Rohan Maddamsetti"
+        },
+        {
+          "key": "khare sagar",
+          "name": "Sagar D. Khare"
+        }
+      ],
+      "abstract_text": "ABSTRACT Machine learning-guided protein sequence redesign is now routinely used to optimize multiple properties relevant for protein engineering, most prominently thermostability and recombinant expression levels. Salt tolerance is a valuable property for ”blue-biotechnology”- enabled biomanufacturing, yet no generative computational method exists to redesign proteins for increased salt tolerance. We hypothesized that a training dataset heavily biased toward salt-adapted proteomes would yield a model capable of designing proteins with halophilic properties. To test this, we retrained the sequence redesign model ProteinMPNN on proteins from “salt-in” extreme halophiles such as Haloarcula marismortui , a Dead Sea archaeon that grows optimally near 3–4 M NaCl, roughly six times the salinity of seawater, and accumulates molar concentrations of salts in its cytoplasm. Our model, HaloMPNN, redesigns non-halophilic proteins so that their properties shift towards those of natural halophilic proteins: lower predicted isoelectric point, greater surface acidity, and reduced surface and core hydrophobicity. Redesigning a broad range of non-halophilic proteins with SolubleMPNN, ProteinMPNN, and HyperMPNN shows that this shift is specific to HaloMPNN rather than a generic consequence of sequence redesign. HaloMPNN therefore offers both a route to designing candidate salt-tolerant enzymes and a means of identifying the characteristics that underlie halophilic adaptation.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5962,6 +6330,440 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "48f504338b9491b26727cf91fcf1fa6b401d574bb6d60bbd61a94011bde3da79",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2020-09.2047167/17153446",
+        "https://doi.org/10.25582/data.2020-09.2047168/17153447",
+        "https://doi.org/10.25582/data.2020-09.2048054/17152716",
+        "https://doi.org/10.25582/data.2020-09.2065408/17145404",
+        "https://doi.org/10.25582/data.2020-09.2065624/17144507",
+        "https://doi.org/10.25582/data.2020-09.2065921/17144508",
+        "https://doi.org/10.25582/data.2020-09.2066566/17143749",
+        "https://doi.org/10.25582/data.2020-09.2066892/17143750",
+        "https://doi.org/10.25582/data.2020-09.2068385/17142249",
+        "https://openalex.org/W7220909104"
+      ],
+      "title": "Data for EMSL Project 50414 from September 2020",
+      "link": "https://doi.org/10.25582/data.2020-09.2068385/17142249",
+      "pdf_url": null,
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

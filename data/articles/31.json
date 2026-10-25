@@ -142,6 +142,40 @@
       "curated_categories": []
     },
     {
+      "id": "31082e76ec7966934b288511568b5b5093933511d4734793fb94109ff668446a",
+      "identity_keys": [
+        "https://doi.org/10.1002/prot.70114",
+        "https://openalex.org/W7125184716"
+      ],
+      "title": "Integration of Evolutionary Analysis With RFdiffusion for De Novo Design of Aggregation‐Resistant Frataxin",
+      "link": "https://doi.org/10.1002/prot.70114",
+      "pdf_url": null,
+      "publication_date": "2026-01-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Proteins Structure Function and Bioinformatics",
+      "authors": [
+        {
+          "key": "kevser kübra kırboğa",
+          "name": "Kevser Kübra Kırboğa"
+        },
+        {
+          "key": "ecir küçüksille uğur",
+          "name": "Ecir Uğur Küçüksille"
+        }
+      ],
+      "abstract_text": "ABSTRACT Friedreich's ataxia (FRDA) is a neurodegenerative disorder caused by frataxin (FXN) deficiency, where protein replacement therapy is hampered by the inherent instability and aggregation propensity of wild‐type (WT) FXN. The structural flexibility of Loop‐1 (residues 115–123), a critical region within the acidic ridge, represents a key determinant of protein stability. This study introduces a computational pipeline integrating evolutionary conservation analysis (ConSurf) with diffusion‐based de novo design (RFdiffusion) to redesign both the backbone and sequence of Loop‐1. Through systematic filtration of 1000 ProteinMPNN‐generated variants using aggregation propensity screening (AGGRESCAN) and 450 ns of molecular dynamics (MD) simulations, four lead candidates were identified. Design_188 (EERVGGREI) demonstrated optimal performance with 2.3‐fold improvement in aggregation resistance (Na4vSS: −53.8 vs. −23.5 for WT), superior structural stability (RMSD: 0.486 nm), reduced conformational diversity (62.3% dominant cluster occupancy), and 93% retention of ISCU binding capacity (ΔΔG: +6.4 kcal/mol). Experimental validation through 15 N NMR relaxation analysis confirmed computational predictions, with Design_188 exhibiting uniform backbone rigidification (S 2 = 0.81–0.95) and strong MD‐NMR correlation (Pearson r = 0.675, p = 0.003). SEC‐MALS analysis demonstrated near‐complete monomeric behavior (> 98% monomer content) compared to WT's heterogeneous oligomerization (68% monomer, 32% oligomers), directly confirming the predicted anti‐aggregation properties. K‐means clustering analysis revealed an inverse relationship between conformational heterogeneity and stability, while correlation analysis identified a fundamental trade‐off between aggregation resistance and structural stability ( r = −0.82, p < 0.01). This work establishes a generalizable framework for therapeutic protein engineering where backbone redesign enables conformational ensemble modulation beyond the limitations of sequence optimization alone.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3108ee070559ba39e148a12037361fd21c2271d5e80be7a548cb284c2ae2f3fe",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02462-z",
@@ -3897,6 +3931,12 @@
       "abstract_text": "Engineering small-molecule binding proteins de novo remains a significant challenge as even advanced generative models struggle to model the atom-level details of protein-ligand interactions with sufficient accuracy. Higher experimental success rates have resulted from methods that explicitly scaffold predefined binding interactions into helical bundles. Here we introduce a scaffolding strategy that generalizes to alpha-beta architectures. By screening thousands of combinatorially assembled protein-ligand interactions against diverse de novo backbones with finely varied pocket geometries, the protocol allows for high-fidelity accommodation of target interaction geometries. Our protocol then integrates physics-based and deep learning methods for optimization of interfacial interactions and sequence-structure compatibility, considerably improving in silico design metrics. Applying this method to two chemically similar steroids achieved a notable experimental success rate (4/26 designs bind their targets), and NMR structures of two designs are in good agreement with design models. Our generalizable, atomically precise approach offers a robust framework for small-molecule binder design, effectively eliminating the need for high-throughput screening.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -4267,6 +4307,44 @@
         }
       ],
       "abstract_text": "Synovial Sarcoma (SS) is driven by the SS18::SSX fusion oncoprotein and is ultimately refractory to therapeutic approaches. SS18::SSX alters ATP-dependent chromatin remodeling BAF (mammalian SWI/SNF) complexes, leading to the degradation of canonical (cBAF) complexes and amplified expression of SS18::SSX-containing non-canonical BAF (ncBAF or GBAF) complexes that drive an SS-specific transcription program and tumorigenesis. We demonstrate that SS18::SSX activates the SUMOylation program. The small molecule SUMOylation inhibitor, TAK-981, de-SUMOylates the cBAF/PBAF component, SMARCE1, stabilizing and restoring cBAF on chromatin, shifting SS models away from SS18::SSX-driven transcription. The result is DNA damage, cell death and tumor inhibition across both human and mouse SS tumor models. TAK-981 synergizes with cytotoxic chemotherapy through increased DNA damage, leading to tumor regression. Targeting the SUMOylation pathway in SS restores cBAF complexes and blocks the SS18::SSX transcriptome, identifying an unappreciated role of SUMOylation in SS and a subsequent therapeutic vulnerability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "31aab76d8dbb467fb46a9e078d6e46f182dc338a9670695c3dfea4a50d5db19d",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.cels.2026.101714",
+        "https://openalex.org/W7213250834"
+      ],
+      "title": "Sampling protein language models for functional protein design",
+      "link": "https://doi.org/10.1016/j.cels.2026.101714",
+      "pdf_url": null,
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Cell Systems",
+      "authors": [
+        {
+          "key": "darmawan jeremie theddy",
+          "name": "Jeremie Theddy Darmawan"
+        },
+        {
+          "key": "gal yarin",
+          "name": "Yarin Gal"
+        },
+        {
+          "key": "notin pascal",
+          "name": "Pascal Notin"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4761,6 +4839,36 @@
         }
       ],
       "abstract_text": "Atmospheric mercury depletion events (AMDEs) are a unique phenomenon in polar mercury cycling, involving intense atmospheric mercury oxidation and deposition that amplify marine mercury sinks. The Southern Ocean, a critical hotspot for environmental mercury exposure, exhibits AMDEs whose characteristics and distribution patterns remain unclear. This study presents the observational dataset of atmospheric gaseous elemental mercury (GEM) across the circum-Antarctic Southern Ocean. We observed pronounced summertime AMDEs that drove high spatial heterogeneity in circumpolar GEM distribution. By combining Generalized Additive Models (GAM) simulations with multi-platform observational evidence, we demonstrate that the Antarctic continental outflow largely shapes the circumpolar distribution of summertime AMDEs, concentrating these events within the convergence zones of katabatic winds. This work highlights the critical role of land-sea coupling effects in Antarctic atmospheric chemistry, and underscores the need to systematically assess the implications of these processes for mercury bioavailability across Southern Ocean ecosystems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "31d5996c2c620c1cf3945b90f6bab315b469eda23ec275ab488c6b15b94852c6",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.17651761",
+        "https://openalex.org/W7106171318"
+      ],
+      "title": "Co-folding of Carbohydrate-Protein Complexes",
+      "link": "https://doi.org/10.5281/zenodo.17651761",
+      "pdf_url": null,
+      "publication_date": "2025-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "francesca peccati",
+          "name": "Francesca Peccati"
+        }
+      ],
+      "abstract_text": "Deep learning–based methods have transformed in silico protein structure prediction, and co-folding approaches now enable the generation of three-dimensional protein models from sequence in the presence of cofactors and custom ligands, unlocking major opportunities in drug discovery and design. Nonetheless, co-folded models remain limited by factors such as a difficult-to-quantify reliance on pose memorization from training data, and violations of geometric and stereochemical constraints. In this context, protein–carbohydrate interactions are particularly challenging to model accurately owing to the high density of chiral centers of the ligands, the flexibility of glycosidic linkages, and the typically exposed nature of binding sites. In this contribution, we assess the performance of two widely used deep learning models, AlphaFold3 and Boltz-2, in predicting carbohydrate–protein complex structures. Using three carbohydrate-binding protein families, we show that accurate geometries of bound states and insights into protein–carbohydrate recognition specificity can be obtained directly from co-folded models generated using only protein sequence and a simple ligand string notation, paving the way for the high-throughput screening of glycans and glycomimetics. Supplementary data available at https://zenodo.org/records/17618082",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5752,6 +5860,52 @@
         }
       ],
       "abstract_text": "Quantum frequency conversion (QFC) is essential for interfacing quantum systems operating at different wavelengths and for realizing scalable quantum networks. Despite extensive progress, achieving QFC with simultaneous high efficiency, low pump power, minimal noise, broad bandwidth, and pump-wavelength flexibility remains challenging. Here, we demonstrate efficient, low-noise, and bidirectional QFC between the telecom (1550-nm) and visible (780-nm) bands using unpoled indium gallium phosphide (InGaP) χ(2) nanophotonic waveguides, eliminating the need for a long-wavelength pump. Leveraging the large nonlinear susceptibility of InGaP together with adaptive phase-matching control, we obtain 27% (55%) internal efficiency in a 6-mm (2.5-mm)-long waveguide with a low pump power of 20 mW (50 mW) and a noise flux spectral density of 10−4 counts per second per hertz at signal–pump detuning of 20 nm. These results mark a significant advance in integrated nonlinear photonics for high-performance QFC, facilitating the development of versatile and scalable quantum networks. Future quantum networks need low-noise frequency conversion. This work tackles pump-noise and phase-matching limits by using adaptively phase-matched InGaP χ(2) nanowaveguides to efficiently convert telecom and 780 nm light while preserving quantum characteristics.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "31fe6c3c89d8eb331bea08e13982e3d61a063c2e45b05666f30e249dbc4967c1",
+      "identity_keys": [
+        "https://doi.org/10.1021/acssensors.6c00882",
+        "https://openalex.org/W7163397187"
+      ],
+      "title": "Modular Input–Output Biosensor Design Using De Novo Protein Switches",
+      "link": "https://doi.org/10.1021/acssensors.6c00882",
+      "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acssensors.6c00882?ref=article_openPDF",
+      "publication_date": "2026-06-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Sensors",
+      "authors": [
+        {
+          "key": "james wang",
+          "name": "James Wang"
+        },
+        {
+          "key": "chen hsuan julie yi",
+          "name": "Julie Yi-Hsuan Chen"
+        },
+        {
+          "key": "chenggang xi",
+          "name": "Chenggang Xi"
+        },
+        {
+          "key": "arteage estrella organiz",
+          "name": "Estrella Arteage-Organiz"
+        },
+        {
+          "key": "andy hsien wei yeh",
+          "name": "Andy Hsien-Wei Yeh"
+        }
+      ],
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Protein-based biosensors offer unique advantages over conventional analytical methods by enabling real-time detection of target analytes with minimal sample preparation. However, efficiently coupling molecular recognition to a reliable output signal remains a key challenge in biosensor design. Here, we present a plug-and-play strategy using the de novo switch platform, LOCKR, which enables direct transduction of a binding event into a defined signal output. The LOCKR architecture supports modular reconfiguration: the recognition domain can be swapped to detect a desired analyte, while the reporter module can be interchanged to tune the output format. We expand the range of LOCKR-compatible readouts beyond split luciferase to include ratiometric Förster-type resonance energy transfer and β-lactamase-based colorimetry. By integrating computationally designed high-affinity binders as interchangeable recognition elements, we demonstrate sensitive detection of glucagon, neuropeptide Y, and peptide YY with limits of detection in the picomolar range. Together with the expanding landscape of de novo designed binders and reporters, the LOCKR platform bridges the gap between molecular recognition and signal generation, enabling versatile biosensor development tailored for user-defined applications.",
       "discovery_sources": [
         {
           "kind": "open_alex",

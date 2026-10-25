@@ -32,6 +32,12 @@
       "abstract_text": "Antimicrobial resistance threatens healthcare sustainability and motivates low-cost computational discovery of antimicrobial peptides (AMPs). De novo peptide generation must optimize antimicrobial activity and safety through low predicted toxicity, but likelihood-trained generators do not enforce these goals explicitly. We introduce ProDCARL, a reinforcement-learning alignment framework that couples a diffusion-based protein generator (EvoDiff OA-DM 38M) with sequence property predictors for AMP activity and peptide toxicity. We fine-tune the diffusion prior on AMP sequences to obtain a domain-aware generator. Top-k policy-gradient updates use classifier-derived rewards plus entropy regularization and early stopping to preserve diversity and reduce reward hacking. In silico experiments show ProDCARL increases the mean predicted AMP score from 0.081 after fine-tuning to 0.178. The joint high-quality hit rate reaches 6.3\\% with pAMP $>$0.7 and pTox $<$0.3. ProDCARL maintains high diversity, with $1-$mean pairwise identity equal to 0.929. Qualitative analyses with AlphaFold3 and ProtBERT embeddings suggest candidates show plausible AMP-like structural and semantic characteristics. ProDCARL serves as a candidate generator that narrows experimental search space, and experimental validation remains future work.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -418,6 +424,44 @@
       "curated_categories": []
     },
     {
+      "id": "8312df74bd82ef362ae04bdb367d2ccc2eca5e423a0ec8632d8ec067b30f1881",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.23.701068",
+        "https://openalex.org/W7125695480"
+      ],
+      "title": "Overcoming systematic data biases enables accurate prediction of enzyme k cat fold-changes for computational protein design",
+      "link": "https://doi.org/10.64898/2026.01.23.701068",
+      "pdf_url": null,
+      "publication_date": "2026-01-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "rousset yvan",
+          "name": "Yvan Rousset"
+        },
+        {
+          "key": "alexander kroll",
+          "name": "Alexander Kroll"
+        },
+        {
+          "key": "lercher martin",
+          "name": "Martin J. Lercher"
+        }
+      ],
+      "abstract_text": "ABSTRACT Machine learning is increasingly used to guide protein engineering by predicting how mutations affect desired properties. Recent models for the turnover number ( k cat ) of enzymes report high accuracy, suggesting that mutation effects can be inferred directly from protein sequence. However, these approaches are typically evaluated on heterogeneous datasets of enzyme variants, where closely related sequences and systematic reporting patterns may confound model performance. A central challenge is therefore to determine whether current models truly capture mutation-specific effects or instead exploit statistical regularities in the data. Here we show that much of the reported accuracy in mutant k cat prediction arises from two pervasive biases: variants of the same enzyme occupy a narrow activity range, and mutations within a group often share a common direction of change. Simple baselines that exploit these biases match or exceed the performance of existing models, indicating that high apparent accuracy does not imply mechanistic understanding. To address this limitation, we introduce a bias-aware framework that reformulates prediction as a pairwise fold-change task and evaluates performance on unseen mutant–mutant pairs, thereby isolating mutation-specific signal. A proof-of-principle implementation explains approximately one-third of the variance under these conditions and outperforms existing models on leakage-controlled benchmarks. More broadly, this work establishes a general strategy for evaluating and modeling mutation effects in biochemical datasets, with implications for protein engineering and related fields.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "83139653d174705ef3e379c574aefd081874f35e021e586f83fe37eb8367a387",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-03224-7",
@@ -717,6 +761,443 @@
         }
       ],
       "abstract_text": "Worldwide, human-induced erosion enhances sediment delivery to lake deltas, increasing their susceptibility to collapse. In Lake Iseo, northern Italy, two millennia of intensified land use tripled sediment flux, oversteepening the delta and preconditioning it for failure. Here we show from geological records and numerical simulations that earthquakes in 1117 CE (Mw 6.5) and 1222 CE (Mw 6.0) triggered major subaqueous delta collapses, generating massive tsunamis with maximum run-ups of ~50 m and ~13 m, respectively. Historical accounts from the Vatican Library and archeological evidence support these reconstructions. Since the last collapse, eight centuries of human-induced erosion have rebuilt the delta, leaving shoreline populations highly vulnerable to future earthquake-triggered failures. A global lake synthesis showed that human-driven erosion has reached its highest levels since the Industrial Era, progressively overloading deltas worldwide; thus, similar catastrophic failures may become more likely in the future. These findings reveal a persistent, human-amplified mechanism of lacustrine tsunami generation and intensity with major implications for hazard assessment.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "831e94f1d64cc1dc61074ced1fcd002ad03d9f4490ef70d1b04b8e3e418c5a0d",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2022-01.2412570/3919147",
+        "https://doi.org/10.25582/data.2022-01.2412736/3919148",
+        "https://doi.org/10.25582/data.2022-01.2420669/3914248",
+        "https://doi.org/10.25582/data.2022-01.2420674/3914249",
+        "https://doi.org/10.25582/data.2022-01.2420680/3914250",
+        "https://doi.org/10.25582/data.2022-01.2420681/3914251",
+        "https://doi.org/10.25582/data.2022-01.2420682/3914252",
+        "https://doi.org/10.25582/data.2022-01.2420687/3914253",
+        "https://doi.org/10.25582/data.2022-01.2420690/3914254",
+        "https://doi.org/10.25582/data.2022-01.2420694/3914256",
+        "https://doi.org/10.25582/data.2022-01.2420701/3914257",
+        "https://doi.org/10.25582/data.2022-01.2420702/3914258",
+        "https://openalex.org/W7214160320"
+      ],
+      "title": "Data for EMSL Project 50414 from January 2022",
+      "link": "https://doi.org/10.25582/data.2022-01.2420690/3914254",
+      "pdf_url": null,
+      "publication_date": "2026-09-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1677,6 +2158,40 @@
       "curated_categories": []
     },
     {
+      "id": "83492c8d8e2413d6bb0a21d8f11af6f18f25f05682f776c257e99f34f2c44c17",
+      "identity_keys": [
+        "https://doi.org/10.20944/preprints202606.1865.v1",
+        "https://openalex.org/W7165922185"
+      ],
+      "title": "A Linguistic Model for Protein Structure Generation",
+      "link": "https://doi.org/10.20944/preprints202606.1865.v1",
+      "pdf_url": null,
+      "publication_date": "2026-06-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Preprints.org",
+      "authors": [
+        {
+          "key": "aashish ashok pattar",
+          "name": "Aashish Ashok Pattar"
+        },
+        {
+          "key": "deepesh nagarajan",
+          "name": "Deepesh Nagarajan"
+        }
+      ],
+      "abstract_text": "Computational generation of protein backbone geometry is a critical upstream step in de novo protein design, but the existing state of the art approaches typically requires large pretrained structure prediction networks, significant computing in frastructure, or complex probabilistic frameworks. Here we present a lightweight autoregressive generative model based on a Long Short-Term Memory network with a Mixture Density Network output head, trained directly on backbone phi and psi torsion angle sequences which were extracted from a non-redundant subset of the Protein Data Bank. Angles were encoded as sine-cosine pairs to handle circular periodicity, and a variable-length end-of-sequence mechanism was incorporated to enable generation of proteins of realistic and variable length. The Mixture Density Network output head with eight Gaussian mixture components was introduced to prevent mode collapse onto the mean of the Ramachandran distribution. This enabled the model to generate sequences with realistic secondary structure composition. A total of 1000 novel backbone scaffolds were generated and reconstructed as three dimensional polyalanine structures using EZScafold, then scored using Rosetta after energy minimisation. Generated scaffolds achieved significantly lower normalised Rosetta total scores than a control set constructed by randomly sampling angles from the training data pool (p < 0.001), demonstrating that the model captures meaningful sequential dependencies in backbone geometry beyond the marginal angle distribution alone. This demonstrate that a simple, accessible, and interpretable recurrent architecture can be used as an effective backbone generation engine pro ducing geometrically and energetically meaningful scaffolds ready for downstream sequence design pipelines.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8349edebd2d4b8d2eb26a82cd7e0444880cff27ff0583814164caf662ec5be2c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65453-0",
@@ -1818,6 +2333,52 @@
         }
       ],
       "abstract_text": "Brain regions that regulate motivated behaviours, including the vertebrate hypothalamus and arthropod cerebrum, house bespoke neural circuits dedicated to perceptual and internal regulation of many behavioural states1,2. These circuits are built to purpose from complex sets of cell types whose patterning has been challenging to elucidate. Here we developed methods in Drosophila melanogaster to embed well-studied neurons that regulate mating in the transcriptional contexts of the neuronal lineages that generate them3–5. By comparing transcription within and between lineages, we identified a large set of transcription factors expressed in complex combinations that delineate cerebral hemilineages—classes of postmitotic neurons born from the same stem cell and sharing Notch status6,7. Hemilineages comprise the major anatomic classes in the cerebrum8–10 and these transcription factors are required to generate their gross features. We show that subtypes of the same hemilineage can provide a common computational module to circuits regulating different drives, and identify an orthogonal set of transcription factors that stratify hemilineage subtypes of differing birth order. Our findings suggest that distinct sets of transcription factors operate in a hierarchical system to build, diversify and sexually differentiate lineally related neurons that compose motivated behaviour circuits. By linking developmental patterning to separable transcriptional axes that produce gross versus fine aspects of information flow, we provide a logical framework for cerebral control of diverse drives. Researchers mapped how transcription factors define neuron lineages in fruit fly brains, revealing hierarchical genetic programs that shape and specialize circuits controlling motivated behaviours such as mating.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "834c8be1849de07446ce23ab8feb3c306c516a58b731fd07bde3705f0cf27990",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41598-026-49612-x",
+        "https://openalex.org/W7161995411"
+      ],
+      "title": "Design and classify innovative antimicrobial and dual- and multi-functional peptides using generative artificial intelligence",
+      "link": "https://doi.org/10.1038/s41598-026-49612-x",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-49612-x_reference.pdf",
+      "publication_date": "2026-05-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scientific Reports",
+      "authors": [
+        {
+          "key": "alexa sowers",
+          "name": "Alexa Sowers"
+        },
+        {
+          "key": "jinge wang",
+          "name": "Jinge Wang"
+        },
+        {
+          "key": "gangqing hu",
+          "name": "Gangqing Hu"
+        },
+        {
+          "key": "malcolm xing",
+          "name": "Malcolm M. Q. Xing"
+        },
+        {
+          "key": "bingyun li",
+          "name": "Bingyun Li"
+        }
+      ],
+      "abstract_text": "Antimicrobial resistance is a growing global crisis, where antimicrobial peptides (AMPs) have emerged as promising alternatives to conventional antibiotics due to their unique mechanisms of action. However, traditional peptide design approaches, especially when designing multi-functional peptides, are often costly and time-consuming. This study explores the potential of ChatGPT as a prompt-based tool used without additional fine-tuning, for the classification and design of peptides with varying degrees of functional capabilities. We optimized the AMP design prompts by incorporating relevant information and refining them to design multi-functional peptides. For peptide classification, representative examples of positive and negative sequences were sourced from databases specific to each functionality, and a small exploratory set (10 positive sequences and 10 negative sequences) from the respective databases were randomly selected. In this preliminary evaluation, ChatGPT designed single- and dual-functional peptides with a promising apparent performance (accuracy > 0.9) and a decreased performance for triple- and quadruple-functional peptides (accuracy of 0.8) based on in silico testing. Additionally, ChatGPT showed promising preliminary results in classifying peptides with antimicrobial, non-hemolytic, cell-penetrating, and anticancer properties. Incorporating in-context example sequences significantly improved its classification performance. This work provides a proof-of-concept study of using a generative artificial intelligence tool for classification and multi-functional peptide design. While experimental validation is required, these findings suggest that accessible, non-coding Large Language Model approaches may support early-stage in silico peptide discovery that may be used in combination with existing computational tools.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4011,6 +4572,40 @@
       ]
     },
     {
+      "id": "83a25d631b8f701b0e57c059fcdc10f973ffe45a392a7758016ee52742d749ce",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.16.738959",
+        "https://openalex.org/W7169570669"
+      ],
+      "title": "A Glycan-Aware Diffusion Model for Carbohydrate and Glycoprotein Structure Prediction",
+      "link": "https://doi.org/10.64898/2026.07.16.738959",
+      "pdf_url": null,
+      "publication_date": "2026-07-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "keshav sundar",
+          "name": "Keshav Sundar"
+        },
+        {
+          "key": "hyunjun yang",
+          "name": "Hyunjun Yang"
+        }
+      ],
+      "abstract_text": "Biomolecular diffusion models can now predict proteins and heterogeneous complexes, but glycans remain difficult because their branched topology, conformational flexibility, and strict stereochemical rules must be captured simultaneously. We developed SweetFold, a glycan-aware adaptation of Boltz-1x for the structure prediction of free glycans, glycoproteins, and protein-glycan complexes. SweetFold represents glycans as pseudo-polymers rather than generic ligands, preserving monosaccharide identity, anomeric state, glycosidic connectivity, and atom-level stereochemistry. We pair this representation with glycan-specific architecture, stereochemical supervision, and a sugar-centric training curriculum. Across monosaccharide, oligosaccharide, lectin, and glycoprotein benchmarks, SweetFold improves structural metrics relative to baseline all-atom diffusion models while retaining protein-only benchmark performance. These results show that chemically localized representation and supervision can extend biomolecular diffusion models to carbohydrate chemistry.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "83a5fbeb7f2df4746d671e873396a9034b06fb277fb057136ebb3e4040bd3438",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70850-0",
@@ -5467,6 +6062,56 @@
         }
       ],
       "abstract_text": "In the version of this article initially published, due to a preparation mistake, a placeholder image and Source Data for Fig. 4c were published in place of the exact experimental stability data. The figure and Source Data are now replaced. For comparison, the original and revised Fig. 4c images are available as Supplementary Information accompanying this amendment. This correction does not change any results, discussion or conclusions of the study. The changes are made in the HTML and PDF versions of the article.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "83d0e70f9bb78d1fb3918499e3451c022b637f6dfa56b769db7bac103b5ab0ad",
+      "identity_keys": [
+        "https://doi.org/10.1111/febs.70751",
+        "https://openalex.org/W7134124927"
+      ],
+      "title": "Toward a minimal amino acid alphabet for protein design",
+      "link": "https://doi.org/10.1111/febs.70751",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/febs.70751",
+      "publication_date": "2026-09-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "FEBS Journal",
+      "authors": [
+        {
+          "key": "karel půbal",
+          "name": "Karel Půbal"
+        },
+        {
+          "key": "kseniia kushnir",
+          "name": "Kseniia Kushnir"
+        },
+        {
+          "key": "spiwok vojtěch",
+          "name": "Vojtěch Spiwok"
+        },
+        {
+          "key": "karolína loužecká",
+          "name": "Karolína Loužecká"
+        },
+        {
+          "key": "setnička vladimı",
+          "name": "Vladimı́r Setnička"
+        },
+        {
+          "key": "lipovová petra",
+          "name": "Petra Lipovová"
+        }
+      ],
+      "abstract_text": "A bstract Proteins are built from 20 canonical amino acids. It is interesting to explore whether proteins can be formed from significantly reduced amino acid alphabets. Our bioinformatics survey of UniProt (more than 250 M sequences) revealed that proteins composed of reduced amino acid alphabets (< 10) are extremely rare among existing proteins. Next, we used computational protein design to design proteins composed of all 1,013 possible alphabets of 2-10 early amino acids (Ala, Asp, Glu, Gly, Ile, Leu, Pro, Ser, Thr, and Val). The length of all proteins was 100 amino acid residues. Small amino acid alphabets preferred simple helices or helix bundles. Larger amino acid alphabets allowed for the design of more complex structures. A protein composed of 8 amino acid types (Ala, Asp, Gly, Leu, Val, Ser, Thr, and Pro) was successfully experimentally verified. It adopts the β-sheet-rich fibronectin type III domain architecture. Attempts to experimentally verify designs composed of 6 and 4 amino acid types were unsuccessful. We show by a computational experiment with an experimental validation that inverse folding models, namely ProteinMPNN sol , can stabilize a designed protein within the same eight-amino-acid alphabet. Our results show that globular proteins may have formed early in evolution. Furthermore, we show that it is possible to design proteins with interesting properties for biotechnology and synthetic biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",

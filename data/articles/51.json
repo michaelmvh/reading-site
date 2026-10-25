@@ -1215,6 +1215,72 @@
       "curated_categories": []
     },
     {
+      "id": "51361fb0c5d94f7b99a6245998e64894548e950b6d6acd9ec960ceaa75a7c7c3",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.22.701133",
+        "https://openalex.org/W7125597729"
+      ],
+      "title": "Benchmarking generative scaffold design methods for peptide engineering in TCR–MHC complexes",
+      "link": "https://doi.org/10.64898/2026.01.22.701133",
+      "pdf_url": null,
+      "publication_date": "2026-01-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "linhui xie",
+          "name": "Linhui Xie"
+        },
+        {
+          "key": "bao dam gia",
+          "name": "Gia-Bao Dam"
+        },
+        {
+          "key": "patel yashvi",
+          "name": "Yashvi Patel"
+        },
+        {
+          "key": "denzler lilian",
+          "name": "Lilian Denzler"
+        },
+        {
+          "key": "shao yanjun",
+          "name": "Yanjun Shao"
+        },
+        {
+          "key": "ruimin wang",
+          "name": "Ruimin Wang"
+        },
+        {
+          "key": "caron étienne",
+          "name": "Étienne Caron"
+        },
+        {
+          "key": "yasumizu yoshiaki",
+          "name": "Yoshiaki Yasumizu"
+        },
+        {
+          "key": "david hafler",
+          "name": "David A. Hafler"
+        },
+        {
+          "key": "martínez maría rodríguez",
+          "name": "María Rodríguez Martínez"
+        }
+      ],
+      "abstract_text": "Abstract De novo peptide design at T cell receptor–peptide–major histocompatibility complex (TCR–pMHC) interfaces is a central challenge in computational immunology, with direct implications for vaccine development, cancer immunotherapy, and autoimmune disease. Despite rapid advances in generative protein modeling, there is currently no systematic benchmark evaluating these methods in the highly constrained and immunologically relevant setting of peptide–MHC presentation and TCR recognition. Here, we present two complementary contributions. First, we introduce a multi-stage computational pipeline for peptide design in predefined TCR-pMHC contexts, integrating generative modeling with sequence optimization and structure-based filtering. Second, we establish a benchmark for evaluating generative peptide design methods in TCR-pMHC complexes. Using a curated dataset of high-quality crystal structures deposited after the AlphaFold3 training cutoff, we assess state-of-the-art generative approaches for peptide backbone generation, sequence design, and the enrichment of near-native solutions. We explicitly examine whether different backbone generation strategies respect the geometric constraints of the MHC binding groove and recover native-like peptide conformations. Our results reveal substantial method-dependent differences: some generative strategies fail systematically in the groove-bound peptide setting, whereas others generate physically plausible backbones with varying accuracy and conformational diversity. We further show that enforcing anchor constraints strongly influences peptide conformations at non-anchor positions, highlighting a trade-off between structural accuracy and conformational sampling. To enable fair and reproducible comparison, we introduce a standardized, multi-stage scoring protocol that integrates MHC binding prediction, physics-based energy evaluation, and independent structure prediction confidence metrics to enrich near-native designs from large candidate pools. Together, this work establishes the first comprehensive pipeline and benchmark for generative peptide design at TCR-pMHC interfaces and provides practical guidelines for developing peptide design workflows and evaluating generative models in immunologically constrained protein design settings.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5138efdc1e05598065624f9b8f0c5063dc15743655413a116c1af9c1721d2c98",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68231-0",
@@ -1708,6 +1774,40 @@
         }
       ],
       "abstract_text": "The growth of high-quality organic single crystals is essential for probing intrinsic optoelectronic properties and molecular packing especially in the field of organic photovoltaic (OPV). However, the conventional vapor- and liquid-phase methods fail for structurally complex molecules like the non-fullerene acceptor (NFA) Y6, where thermal instability and steric hindrance from branched sidechains inhibit crystallization. Here, we report an additive-directed cocrystallization strategy to grow Y6-additive cocrystals (YACs) with controlled morphology and tunable thicknesses (18 nm to 341 nm). The single-crystal structure is determined by Micro Electron Diffraction Technology at first time. Growth mechanism studies reveal that additive molecules mitigate sidechain interference by enabling configuration coupling of π-π stacking, yielding YACs with central length of 450 µm and largest lengths of 1.5 mm. Generalizability is demonstrated across 10 kinds of Y6-like NFAs with axial/central symmetry and 2 kinds of effective additives. Single-pixel image is realized based on photodetectors of YACs, meanwhile which exhibits a polarized and helical light response enabling by molecular ordered stacking. Most of YACs exhibit strong second harmonic generation (SHG) response. This work establishes a paradigm of single-crystal growth for structurally hindered complex molecules and provides a crystallographic basis for investigating the optoelectronic properties.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "515250636e034b2b2bd3e28d2cdc8549c7e23455f51d397b677ca14018511fcb",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.08.23.746499",
+        "https://openalex.org/W7204458313"
+      ],
+      "title": "PMPNN-DDG: an accurate machine learning-based ΔΔ G prediction pipeline trained on a novel interpretable feature set extracted from ProteinMPNN",
+      "link": "https://doi.org/10.64898/2026.08.23.746499",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/27/2026.08.23.746499.full.pdf",
+      "publication_date": "2026-08-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "ahmed sajid",
+          "name": "Sajid Ahmed"
+        },
+        {
+          "key": "jani md rafsan",
+          "name": "Md Rafsan Jani"
+        }
+      ],
+      "abstract_text": "Abstract An accurate and tractable approximation of the single-point mutation-induced change in protein thermodynamic stability, denoted by DDG, is critical for understanding the genotype– phenotype relationship. Several computational methods have been proposed for this problem; however, limited and error-prone training data and the difficult-to-predict magnitude of structural perturbations make this a challenging task. Consequently, the computational predictors proposed throughout the past decade incrementally improved prediction performance by proposing novel features, combining existing features, task-adapted neural network architectures, loss functions, data augmentation techniques, and pre-training procedures. In this work, we propose PMPNN-DDG, a Random Forest-based DDG prediction model, trained on a novel set of interpretable features extracted from the recently proposed message-passing neural network-based fixed backbone protein design model, ProteinMPNN. On the S 669 independent test set, PMPNN-DDG achieves r F + R = 0.64 and RMSE = 1.45, outperforming all compared baseline methods across the reported evaluation measures. On the S sym independent test set, it achieves r F + R = 0.81, r F−R = −0.99, and RMSE = 1.10, showing competitive performance relative to the compared baselines. PMPNN-DDG is publicly available at https://github.com/dRanger666/PMPNN-DDG .",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3835,6 +3935,84 @@
       "curated_categories": []
     },
     {
+      "id": "51a397b5935af4d93223a536fb75d455576aed227ff3d6cba6ca999b724cf64e",
+      "identity_keys": [
+        "https://doi.org/10.1002/bit.70304",
+        "https://openalex.org/W7167490053"
+      ],
+      "title": "Developing Anti‐EGFR/Anti‐HER2 Bifunctional Antibody for Solid Tumors by Protein Engineering",
+      "link": "https://doi.org/10.1002/bit.70304",
+      "pdf_url": null,
+      "publication_date": "2026-07-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biotechnology and Bioengineering",
+      "authors": [
+        {
+          "key": "sen senem",
+          "name": "Senem Sen"
+        },
+        {
+          "key": "aslı semerci",
+          "name": "Aslı Semerci"
+        },
+        {
+          "key": "karaca mélis",
+          "name": "Mélis Karaca"
+        },
+        {
+          "key": "ahan erdem recep",
+          "name": "Recep Erdem Ahan"
+        },
+        {
+          "key": "cemile elif özçelik",
+          "name": "Cemile Elif Özçelik"
+        },
+        {
+          "key": "duman elif",
+          "name": "Elif Duman"
+        },
+        {
+          "key": "behide saltepe",
+          "name": "Behide Saltepe"
+        },
+        {
+          "key": "aras ebru",
+          "name": "Ebru Aras"
+        },
+        {
+          "key": "aras ebru",
+          "name": "Ebru Aras"
+        },
+        {
+          "key": "bozkurt eray ulaş",
+          "name": "Eray Ulaş Bozkurt"
+        },
+        {
+          "key": "hilal yazıcı",
+          "name": "Hilal Yazıcı"
+        },
+        {
+          "key": "müge serhatlı",
+          "name": "Müge Serhatlı"
+        },
+        {
+          "key": "urartu özgür şafak şeker",
+          "name": "Urartu Özgür Şafak Şeker"
+        }
+      ],
+      "abstract_text": "Overexpression of epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 2 (HER2) is common in solid tumors like breast, colorectal, and head and neck cancers, driving oncogenic signaling, therapy resistance, and poor prognosis. Monotherapies often fall short in fully suppressing tumor progression, particularly in cases with EGFR/HER2 co-amplification. Dual-targeting strategies offer enhanced efficacy by mitigating resistance and amplifying antitumor responses. Our study focused on developing and characterizing a bispecific anti-EGFR/HER2 antibody designed to simultaneously block ligand binding and receptor activation while harnessing Fc-mediated immune effector functions. Utilizing knob-into-hole and CrossMab technologies, we engineered a bispecific antibody capable of binding the extracellular domains of both EGFR and HER2. In vitro analyses confirmed its dual-binding capacity. Comparative studies revealed that this bispecific construct outperformed its monospecific counterparts in suppressing proliferation and, notably, in increasing the expression of apoptotic markers in EGFR/HER2-expressing tumor cells. Together, these findings highlight the synergistic therapeutic potential of bispecific antibodies as a promising modality for overcoming the limitations of current monotherapies also supporting the fight against drug resistance.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "51a605629469fcd15bbed62c0f353e1f1686a30e5ec2aa21bb8c2fa6e1cc83d4",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2602.04029",
@@ -4124,6 +4302,12 @@
       ],
       "abstract_text": "Leveraging artificial intelligence and deep learning to generate proteins de novo (a.k.a. 'synthetic proteins') has unlocked new frontiers of protein design. Deep learning models trained on protein structures can generate novel protein designs that explore structural landscapes unseen by evolution. This approach enables the development of bespoke binders that target specific proteins and domains through new protein-protein interactions. However, successful binder generation can suffer from low in silico success rates, often requiring thousands of designs and hundreds of GPU hours to obtain enough hits for experimental testing. While workstation implementations are available for binder design, these are limited in both scalability and throughput. There is a lack of efficient open-source protein design pipelines for high-performance computing (HPC) systems that can maximize hardware resources and parallelize the workflow efficiently. Here, we present 'ProteinDJ'-an implementation of a synthetic protein design workflow that is deployable on HPC systems using the Nextflow portable workflow management system and Apptainer containerisation. It parallelizes the workload across both GPUs and CPUs, facilitating generation and testing of hundreds of designs per hour, accelerating the discovery process. ProteinDJ is designed to be modular and includes RoseTTAFold Diffusion (RFdiffusion) or BindCraft for fold generation, ProteinMPNN or Full-Atom MPNN (FAMPNN) for sequence design, and AlphaFold2 or Boltz-2 for prediction and validation of designs and binder-target interfaces, with supporting packages for structural evaluation of designs. ProteinDJ democratizes protein binder design through its robust and user-friendly implementation and provides a framework for future protein design pipelines. ProteinDJ is freely available at https://github.com/PapenfussLab/proteindj.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -5453,6 +5637,36 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "51ea63c749fa7e931f37010cd8f35e66416f6d75ee7b7da07c7d6b85b99fdd78",
+      "identity_keys": [
+        "https://doi.org/10.82444/warw.33911530",
+        "https://openalex.org/W7133592204"
+      ],
+      "title": "Bicyclic peptides : targeting toxins and pathogens to accelerate anti-infective discovery",
+      "link": "https://doi.org/10.82444/warw.33911530",
+      "pdf_url": "https://wrap.warwick.ac.uk/id/eprint/197866/1/WRAP_Theses_Whiteside_2024.pdf",
+      "publication_date": "2026-09-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Warwick Research Archive Portal (University of Warwick)",
+      "authors": [
+        {
+          "key": "jonathan whiteside",
+          "name": "Jonathan Whiteside"
+        }
+      ],
+      "abstract_text": "The pore forming toxins pneumolysin and а-hemolysin play a key role in the pathogenicity of Streptocoocus pneumonia and staphylococcus aureus respectively. We used the phage display platform at BicycleTx Ltd to screen these toxins for potential bicyclic peptide inhibitors. Despite multiple efforts with multiple different versions of target protein no bicyclic peptide binders to pneumolysin could be identified. Selections against а-hemolysin were more successful with bicyclic peptides which bound to and inhibited the pore forming activity of а-hemolysin being identified. An extensive optimisation procedure was undertaken including the production of affinity maturation libraries as well as testing non-canonical amino acids. A 1.98Å co-crystal structure gave useful insights into the epitope and mechanism of binding as well as interesting similarities to a previous α-hemolysin antibody. The final optimised hit of BCY00034709 was produced and its mechanism of inhibition characterised. We were able to show that this novel bacterial-anti-toxin is capable of protecting red blood cells as well as human lung cells from the toxic effects of а-hemolysin in vitro. We also describe the discovery of novel bicyclic peptide inhibitors of the type 1 signal peptidase of staphylococcus aureus produced by bicyclic peptide phage display selections. We show that these bicyclic peptides are capable of inhibiting SpsB in a FRET assay which mimics the proteins endogenous function. Through the process of affinity maturation this produced our most potent hit which had an IC50 of 22nM. Computational modelling and assay data provided insights into the mechanism of action of BCY00041582 as well as the potential role of crucial residues. Despite this potent inhibition in vitro no activity against a clinical S. aureus strain was seen that could be attributed to SpsB inhibition and we explore potential reasons for this asymmetry as well as a possible strategy to bridge this gap. The limitations of phage display selections against SpsB and detergent solubilised membrane proteins as a whole are also discussed. Focusing on the production of the false positives we observed that show S. aureus growth inhibition whilst not displaying any inhibition of SpsB, along with the potential mechanism and strategies for overcoming this. Keywords: Graph limit theory, Complex networks, Machine learning, Deep learning, Persistent homology, Topological data analysis, Statistical mechanics, Condensed matter physics, Soft matter, Molecular dynamics simulations.",
       "discovery_sources": [
         {
           "kind": "open_alex",

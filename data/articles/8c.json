@@ -1189,6 +1189,36 @@
       "curated_categories": []
     },
     {
+      "id": "8c35ba6502fd6866ccab62221c27ec337fa7c2362adc2b2c0219a0cf04904286",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.19142194",
+        "https://openalex.org/W7139993960"
+      ],
+      "title": "MIRADOR: Manifold of Immune Receptors And Drift-Optimized Responses : Geometry-First Co-Embedding for Vaccine and Antibody Design",
+      "link": "https://doi.org/10.5281/zenodo.19142194",
+      "pdf_url": null,
+      "publication_date": "2026-03-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "bee davis rosa",
+          "name": "Bee Rosa Davis"
+        }
+      ],
+      "abstract_text": "This manuscript introduces MIRADOR (Manifold of Immune Receptors And Drift-Optimized Responses), a geometry-first theoretical framework for certifiably-robust vaccine and antibody panel design. MIRADOR is the design-side complement to HERALD (the surveillance system), completing the Davis geometric programme: where HERALD bounds the risk of detection failure, MIRADOR bounds the probability of design success. Instead of propagating errors forward into a risk estimate, MIRADOR inverts the error budget — specifying, for any target neutralization coverage level, the exact empirical hurdle a candidate panel must clear to earn a certified lower bound. The central object is a mirror manifold pair (𝑀_A, 𝑀_R): a Davis-structured antigen manifold tracking viral drift, co-embedded in shared ambient Euclidean space with a complementary receptor manifold encoding the antibody/BCR design space. The two manifolds are coupled by an asymmetric contrastive training objective that enforces lock-and-key geometry — receptor embeddings act as Platonic antigen centroids — and by a calibrated binding-energy functional linking geometric distance to Gibbs free energy. Coverage of a receptor panel against forecasted antigenic drift is then a geometric path-interception problem on a Riemannian manifold, and MIRADOR provides analytically grounded, explicitly auditable coverage certificates for any proposed panel. Headline Results 1. Compositional Coverage Bound (Theorem 5.1) The main theorem provides a high-probability lower bound on the true neutralization coverage C_neut(V; L) of any receptor panel V at drift horizon L: Additive form: $$C_\\text{neut}(V;L) ;\\geq; \\bigl[\\hat{C}(V;L) - \\varepsilon_\\text{samp}\\bigr]+ ;-; \\bigl(E\\text{geom} + E_\\text{bind} + E_\\text{link}\\bigr)$$ Multiplicative form: $$C_\\text{neut}(V;L) ;\\geq; \\bigl[\\hat{C}(V;L) - \\varepsilon_\\text{samp}\\bigr]+ \\cdot \\bigl[(1-E\\text{geom})(1-E_\\text{bind})(1-E_\\text{link}) - \\delta^\\text{cov}_\\text{indep}\\bigr]$$ where: $\\hat{C}(V;L)$ is the empirical Monte Carlo coverage over sampled drift paths $\\varepsilon_\\text{samp} = \\sqrt{\\frac{1}{2B}\\log\\frac{2}{\\delta_\\text{samp}}}$ is a Hoeffding sampling tolerance (B paths, confidence $1-\\delta_\\text{samp}$) $E_\\text{geom}$, $E_\\text{bind}$, $E_\\text{link}$ are pre-registered upper bounds on geometric, binding-model, and binding–neutralisation linkage failure probabilities $\\delta^\\text{cov}_\\text{indep}$ is a novel coverage independence slack capturing correlated failure between error modes The bound is one-sided, non-vacuous when error budgets are small relative to empirical coverage, and collapses to zero gracefully when assumptions fail — forcing abstention rather than false confidence. 2. Inverted Error Budget (Proposition 5.2) Any panel V whose Monte Carlo coverage clears the threshold $$\\hat{C}\\text{min}(C\\star) ;=; C_\\star + \\varepsilon_\\text{samp} + \\bar{E}\\text{geom} + \\bar{E}\\text{bind} + \\bar{E}\\text{link}$$ is provably $C\\star$-certified. This inverts the classical error-budget view: instead of propagating model errors onto a risk estimate, MIRADOR back-computes exactly how high mock empirical coverage must be for a design to be certifiable at any target level. This is the analogue of type-II error control for vaccine design. 3. Existence of Receptor Mirror Geometry (Theorem 3.1) Under four regularity assumptions (antigen-side Davis structure, receptor smoothness and distortion control, positive binding margin $\\Delta_\\text{bind} > 0$, and path-support in-distribution), the composite training loss — asymmetric InfoNCE + lock-and-key center-of-mass loss + Davis-style smoothness regulariser — is shown to yield a receptor manifold (𝑀_R, g_R) and complementary co-embedding (u_A, u_R) satisfying: Davis manifold conditions (bounded distortion, non-vacuous margins) on the receptor side Lock-and-key semantics (u_R(r) near center-of-mass of cognate antigens) on the binding in-distribution region Ω_bind Well-posed pathwise hit events and coverage functionals C(V; L) Euclidean surrogacy: geodesic computations are well-approximated by ambient L2 distances within the validated regime 4. Vaccine Design as a Constrained Coverage Problem Vaccine design is formalised as: $$\\text{find } V \\in \\mathcal{V} \\quad \\text{such that} \\quad \\underline{C}\\text{neut}(V; L^\\star_A) \\geq C\\star$$ with greedy and relaxed mirror-space algorithms (submodular maximisation, Riemannian gradient ascent, sequence-space projection) providing tractable solutions, accompanied by an analysis of certificate-preserving approximation ratios. Joint vaccine + therapeutic cocktail design is handled via inclusion–exclusion on the joint hit event. Novel Mathematical Contributions Contribution Description Mirror manifold pair (𝑀_A, 𝑀_R) Two coupled Davis-structured Riemannian manifolds in shared ambient ℝ^d; novel in enforcing complementary (lock-and-key) rather than similarity geometry Complementary co-embedding Asymmetric InfoNCE training with three negative pools (non-cognate, mismatched, null-binding) preventing centroid collapse; center-of-mass alignment as a co-training objective Inverted error budget First formulation of vaccine panel certification as an inverted coverage inequality; analogous to non-inferiority margins but geometrically grounded Coverage independence slack $\\delta^\\text{cov}_\\text{indep}$ Measures the shortfall between the product of marginal good-event probabilities and the joint good-event probability; interpolates between union-bound (additive) and independence (multiplicative) regimes Binding–neutralisation linkage term $E_\\text{link}$ Explicitly budgets the biological gap between binding-model hit events and true neutralisation, making the certificate honest about the theory–experiment interface Pathwise coverage functional $C(V;L)$ Coverage defined over path distributions on a Riemannian manifold, not pointwise antigen sets; enables principled reasoning about temporal drift trajectories Mirror-aware affinity maturation Riemannian exponential map updates on 𝑀_R for in silico maturation: geodesic steps toward high-affinity mirror-space regions, followed by sequence-space projection Dual-use firewall architecture Categorical prohibition of inverse queries (receptor → worst-case antigen) at the architectural level; panel-level hedging enforced as a mathematical constraint (minimum panel size, diversity margins) Historical and Intellectual Context MIRADOR sits at the intersection of several streams of geometric methodology in structural biology and immunology. The field's history of bringing Riemannian and manifold-based thinking to molecular problems is long; the framework below represents the logical culmination of those threads. Antigenic Cartography (Smith et al., 2004) The foundational geometric insight for viral immunology: Smith et al. (Science 2004) used multidimensional scaling of haemagglutination-inhibition titres to embed influenza strains in 2D antigenic maps, showing that antigenic distance predicts vaccine cross-reactivity better than genetic distance. This established the principle that immunological relevance is a geometric property in a latent space, not directly a sequence-space property. MIRADOR generalises this from static snap-shots to dynamic path-families on Riemannian manifolds. Riemannian Geometry in Protein Structure Normal mode analysis, principal component analysis of molecular dynamics trajectories (Amadei et al., 1993; García, 1992), and Ramachandran/torsion-angle manifolds all treated protein conformation as a low-dimensional curved space. The pullback metric construction in MIRADOR descends from this tradition: the ambient Euclidean metric on embedding space induces a Riemannian metric on the manifold image, and path-length in that metric captures biologically meaningful notions of structural change. Information Geometry in Statistical Immunology Amari's information geometry (1985, 2016) — the application of Fisher information metrics to statistical manifolds — found application in repertoire analysis and clonal evolution models. The distortion profile ε_A(L) in the Davis framework is spiritually related to the Fisher information geodesic length, bounding how far a sequence can travel while remaining \"the same antigen\" in terms of immune recognition. Metric Learning and Contrastive Objectives for Molecular Systems Siamese networks and triplet-loss metric learning (Bromley et al., 1994; Hoffer & Ailon, 2015) were adapted to molecular fingerprints and binding prediction throughout the 2010s. The InfoNCE objective (Oord et al., 2018) and its asymmetric variants underpin MIRADOR's receptor encoder training. The key innovation here is the asymmetric negative structure: three distinct negative pools (non-cognate, mismatched-receptor, null-binding) prevent centroid collapse in a way that standard symmetric contrastive objectives cannot. Protein Language Models and Sequence Manifolds ESM-1v, ESM-2 (Lin et al., 2023), ProtTrans (Elnaggar et al., 2022), and IgLM (Shuai et al., 2023) demonstrated that pre-trained transformer encoders on protein sequences induce representation spaces with strong geometric structure — fitness landscapes, evolutionary nearness, and structural similarity all manifest as local geometric properties. MIRADOR treats such encoder-induced spaces as candidate Davis manifolds, subjecting them to distortion audits rather than assuming their geometry is well-behaved. Geometric Deep Learning for Antibodies ABodyBuilder2 (Abanades et al., 2023), ImmuneBuilder (Kenlay et al., 2023), and AbLang (Olsen et al., 2022) brought structure-aware modelling to antibody sequences. These provide the receptor manifold 𝑀_R its empirical backbone: receptor encoders trained on structure-conditioned data satisfy the smoothness and bounded-distortion conditions MIRADOR assumes, at least along biologically plausible affinity-maturation paths. Strain Sel",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8c35f452277406e4cc4ede8835906688131670982df10e01f4fcc4fc6799eb0f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69600-z",
@@ -3282,6 +3312,48 @@
       "curated_categories": []
     },
     {
+      "id": "8c9a6ca575f47a4363ca6ca5f5ecd282c295361307f90fdad3c84940c4481ccf",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.copbio.2026.103527",
+        "https://openalex.org/W7163564300"
+      ],
+      "title": "Bacteriophage nanoparticles: an emerging modular delivery platform",
+      "link": "https://doi.org/10.1016/j.copbio.2026.103527",
+      "pdf_url": null,
+      "publication_date": "2026-06-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Biotechnology",
+      "authors": [
+        {
+          "key": "linzi whiley",
+          "name": "Linzi Whiley"
+        },
+        {
+          "key": "hannah zhu",
+          "name": "Hannah X. Zhu"
+        },
+        {
+          "key": "alfonso bennett garcia",
+          "name": "Alfonso E. Garcia‐Bennett"
+        },
+        {
+          "key": "jaschke paul",
+          "name": "Paul R. Jaschke"
+        }
+      ],
+      "abstract_text": "Nanoparticles are now central to many drug and vaccine delivery strategies, but most require reformulation for each application. Bacteriophage‑derived nanoparticles offer a genetically encoded, structurally defined, and modular alternative. This review organizes recent advances along three tunable axes - scaffold, surface, and cargo - and highlights hybrid phage-polymer/lipid/inorganic constructs that expand stability, targeting, and loading. We survey applications from multivalent vaccines and oversized gene transfer to precision microbiome editing, and outline translational hurdles. Phage-derived products are approaching translation, with virus-like particle-based vaccines and CRISPR-enhanced antimicrobial phages in clinical trials. Finally, we preview emerging opportunities, including AI‑guided capsid and receptor‑binding protein design, cell‑free phage synthesis, and standardized 'reference' phage chassis that can be combined with traditional nanoparticles, positioning phage nanoparticles as reusable, plug-and-play nanomedicines.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8c9b4fd87d7e4813840e4cf0d8e7c06c132228626c8ccf4a988a03f225139020",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65925-3",
@@ -4858,6 +4930,51 @@
       "curated_categories": []
     },
     {
+      "id": "8ccdfd8c7c3e0a7ca6218ca8c27d2ed847b2b6972923816854ae598411176356",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41587-025-02587-y",
+        "https://openalex.org/W4408507206"
+      ],
+      "title": "Toward single-molecule protein sequencing using nanopores",
+      "link": "https://doi.org/10.1038/s41587-025-02587-y",
+      "pdf_url": null,
+      "publication_date": "2025-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Biotechnology",
+      "authors": [
+        {
+          "key": "chunzhe lu",
+          "name": "Chunzhe Lu"
+        },
+        {
+          "key": "andrea bonini",
+          "name": "Andrea Bonini"
+        },
+        {
+          "key": "jakob viel",
+          "name": "Jakob H. Viel"
+        },
+        {
+          "key": "giovanni maglia",
+          "name": "Giovanni Maglia"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
+        }
+      ],
+      "curated_categories": [
+        "Protein analysis",
+        "Review"
+      ]
+    },
+    {
       "id": "8cd578d4571814ffe25f74767259b70e95bfca899247b1ed7ae2f86b9d68270d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68602-1",
@@ -5010,6 +5127,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.02.18.706454v2",
         "https://doi.org/10.64898/2026.02.18.706454",
+        "https://www.biorxiv.org/content/early/2026/02/19/2026.02.18.706454.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/22/2026.02.18.706454.source.xml"
       ],
       "title": "Foundation Models Improve Perturbation Response Prediction",
@@ -5417,6 +5535,48 @@
       "curated_categories": []
     },
     {
+      "id": "8cef6e450fa8aa518bbb42adea93a0d0d424f873ddd34047ceac0278d7ff204a",
+      "identity_keys": [
+        "https://doi.org/10.1093/bioinformatics/btag618",
+        "https://openalex.org/W7203725185"
+      ],
+      "title": "Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling",
+      "link": "https://doi.org/10.1093/bioinformatics/btag618",
+      "pdf_url": null,
+      "publication_date": "2026-08-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioinformatics",
+      "authors": [
+        {
+          "key": "kaijun yang",
+          "name": "Yang Kaijun"
+        },
+        {
+          "key": "tianxiang wu",
+          "name": "Tianxiang Wu"
+        },
+        {
+          "key": "wenbo zhang",
+          "name": "Wenbo Zhang"
+        },
+        {
+          "key": "li pengyong",
+          "name": "Pengyong Li"
+        }
+      ],
+      "abstract_text": "MOTIVATION: Peptides serve as critical mediators in biological systems, regulating essential processes ranging from neurotransmission to immune response. However, their nonlinear sequence-function relationships and immense chemical diversity pose significant challenges for efficient experimental characterization and therapeutic development. While Protein Language Models have advanced biological sequence understanding, they predominantly capture global evolutionary features of full-length proteins, often overlooking the local physicochemical dependencies and short-range residue interactions that are essential for defining peptide bioactivity. RESULTS: To address this gap, we leverage the linguistic competence of general-purpose Large Language Models (LLMs) to treat amino acid sequences as \"biological text,\" bridging natural language supervision with biochemical sequence modeling without relying on explicit structural or evolutionary priors. We curate a peptide-specific instruction dataset, Pep-Instructions, spanning function description, sequence design, property prediction, and physicochemical optimization, and adapt a general-purpose LLM through parameter-efficient instruction tuning. Extensive benchmarking against general-purpose language models shows consistent improvements across the evaluated peptide-centric tasks. In particular, the instruction-tuned model produces more semantically faithful functional descriptions, generates peptide sequences with stronger sequence-level similarity, with representative ESMFold case studies suggesting backbone-level consistency, improves prediction of diverse peptide properties, and enables more reliable directional optimization of physicochemical properties under the adopted in silico evaluation protocols. Overall, these results establish Pep-Instructions as a unified benchmark and demonstrate the value of peptide-specific instruction tuning for peptide understanding, prediction, and design. AVAILABILITY AND IMPLEMENTATION: Source code and Pep-Instructions are available at https://github.com/kjY7836/pepinstruction. Fine-tuned model weights are available at https://huggingface.co/Codelife176/Pep-instruction.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8cf15486da2932dc10edcdbe41f5a738f436c2b76bb59281ec4d978a2e309a79",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77503-2",
@@ -5574,6 +5734,52 @@
         }
       ],
       "abstract_text": "To quantify the hospital burden of short-term wildfire-specific fine particulate matter (PM2.5), we linked 184.5 million patient-level hospitalizations across 449 Brazilian regions from 2000–2019 with daily wildfire-specific and non-wildfire PM2.5 estimates at 0.25° resolution. Using wind-driven variation in wildfire-specific PM2.5 within a space-time-stratified case-crossover framework, we estimated the effects of exposure on hospitalization costs and length of stay. Each 1 µg/m3 increase in wildfire-specific PM2.5 was associated with higher hospitalization costs for all-cause, respiratory, and cardiovascular diseases by 0.36%, 1.59%, and 0.25%, respectively, and longer stays by 0.63%, 1.72%, and 0.68%. Asthma and heart failure showed the largest cost increases, while asthma and pneumonia showed the largest increases in length of stay. Overall, wildfire-specific PM2.5 accounted for US$755.6 million in hospitalization costs and 30.8 million hospital days, with stronger relative effects among individuals aged 0–19 years and higher burdens in central-west Brazil. This study links 184.5 million hospitalizations in Brazil to wildfire-specific PM₂.₅, using wind-driven variation within a causal framework. It finds higher hospitalization costs and longer stays for all-cause, respiratory, and cardiovascular diseases, with stronger effects in children.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8cf3394964f58546bc61de675db881d556aa9716430850da7b13fe2a5c2aa698",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.5c02385",
+        "https://openalex.org/W4416717573"
+      ],
+      "title": "Rapid and Accurate Protein Structure Database Search Using Inverse Folding Model and Contrastive Learning",
+      "link": "https://doi.org/10.1021/acs.jcim.5c02385",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/20/2025.05.15.654382.full.pdf",
+      "publication_date": "2025-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "lyu qiuyi",
+          "name": "Qiuyi Lyu"
+        },
+        {
+          "key": "hong wei",
+          "name": "Hong Wei"
+        },
+        {
+          "key": "chen shuaishuai",
+          "name": "Shuaishuai Chen"
+        },
+        {
+          "key": "peng zhenling",
+          "name": "Zhenling Peng"
+        },
+        {
+          "key": "jianyi yang",
+          "name": "Jianyi Yang"
+        }
+      ],
+      "abstract_text": "Protein structure database search has become increasingly challenging due to the growing number of experimental and computational structures. We introduce mTM-align2, a novel two-step approach for rapid and accurate protein structure database search. In the first step, protein structures are first transformed into embeddings using a pretrained inverse folding model (ESM-IF) and 3D Zernike polynomials. The ESM-IF embeddings are further optimized through a contrastive learning network, which is trained on ∼7 million structure pairs. Structures with similar embeddings are returned on the fly in this step. The second step employs a rapid structure alignment program to refine top candidates, ensuring high precision and producing high-quality alignments. Extensive benchmarks reveal that mTM-align2 performs competitively compared to other leading methods, completing monomeric structure search in seconds with over 90% precision for the top 10 hits. The t-SNE visualization of the mTM-align2 embeddings for thousands of structures demonstrates that our embeddings are structurally informed, capturing the global structural features. A web server for mTM-align2 is accessible at https://yanglab.qd.sdu.edu.cn/mTM-align/.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -468,6 +468,44 @@
       "curated_categories": []
     },
     {
+      "id": "5910de552a57599523365585417a8a0c4142f46550c112f0859b16eb7b4237cb",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2606.23253",
+        "https://openalex.org/W7165652077"
+      ],
+      "title": "Reduced-Alphabet QUBO/Ising Formulation for Constraint-Driven Cyclic Peptide Sequence Design",
+      "link": "https://doi.org/10.48550/arxiv.2606.23253",
+      "pdf_url": "https://arxiv.org/pdf/2606.23253",
+      "publication_date": "2026-06-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "yan zhou",
+          "name": "Yan Zhou"
+        },
+        {
+          "key": "wang yuqi",
+          "name": "Yuqi Wang"
+        },
+        {
+          "key": "li xin",
+          "name": "Xin Li"
+        }
+      ],
+      "abstract_text": "Cyclic peptide design requires balancing local residue preferences with constraints from ring-forming chemistry, residue spacing, topology, target compatibility, and developability. Here, we present a reduced-alphabet quadratic unconstrained binary optimization (QUBO)/Ising formulation for constraint-driven cyclic peptide sequence design. Amino acids are grouped into physicochemical or interaction-based residue classes, and peptide positions are represented by binary residue-class assignment variables. The objective combines one-hot sequence validity, cyclization constraints, optional target-compatibility terms, motif and composition rules, and coarse developability proxies. By modifying the relevant constraint terms, the same framework can represent head-to-tail, disulfide-bridged, stapled, and bicyclic peptide designs. A resource-aware eight-class alphabet motivated by MJ interaction-profile clustering is used as a default representation to balance coarse interaction-pattern preservation with encoding cost. The resulting QUBO/Ising objective is solver-agnostic and can be explored using classical or quantum-compatible binary optimization procedures. The model is intended as an early-stage search-space reduction and prioritization layer: it produces low-energy residue-class sequences rather than final molecular candidates, which require amino-acid decoding, cyclization-aware construction, and downstream structural or experimental validation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5912c36b6eccfd746df4f0bb766199f272f3d05a04b47ad73fef3526de23c9d3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68882-7",
@@ -3508,6 +3546,84 @@
       "curated_categories": []
     },
     {
+      "id": "597a64ef76aa9f34fd8a74eab52075965622dfa21710e3c7c5996728c9ea0395",
+      "identity_keys": [
+        "https://doi.org/10.17615/mwwm-y732",
+        "https://openalex.org/W7213420283"
+      ],
+      "title": "From Protein Design to the Energy Landscape of a Cold Unfolding Protein",
+      "link": "https://doi.org/10.17615/mwwm-y732",
+      "pdf_url": null,
+      "publication_date": "2026-09-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "UNC Libraries",
+      "authors": [
+        {
+          "key": "edward snell",
+          "name": "Edward H. Snell"
+        },
+        {
+          "key": "brian kuhlman",
+          "name": "Brian A. Kuhlman"
+        },
+        {
+          "key": "lakshmanane premkumar",
+          "name": "Lakshmanane Premkumar"
+        },
+        {
+          "key": "garcia",
+          "name": "A E Garcia"
+        },
+        {
+          "key": "thomas weiss",
+          "name": "Thomas M Weiss"
+        },
+        {
+          "key": "pulavarti surya",
+          "name": "Surya V. S. R. K. Pulavarti"
+        },
+        {
+          "key": "harrison joseph",
+          "name": "Joseph S. Harrison"
+        },
+        {
+          "key": "griffin jermel",
+          "name": "Jermel R. Griffin"
+        },
+        {
+          "key": "szyperski thomas",
+          "name": "Thomas Szyperski"
+        },
+        {
+          "key": "edward esposito",
+          "name": "Edward A. Esposito"
+        },
+        {
+          "key": "george makhatadze",
+          "name": "George I. Makhatadze"
+        },
+        {
+          "key": "jack maguire",
+          "name": "Jack B. Maguire"
+        },
+        {
+          "key": "shirley yuen",
+          "name": "Shirley Yuen"
+        }
+      ],
+      "abstract_text": "Understanding protein folding is crucial for protein sciences. The conformational spaces and energy landscapes of cold (unfolded) protein states, as well as the associated transitions, are hardly explored. Furthermore, it is not known how structure relates to the cooperativity of cold transitions, if cold and heat unfolded states are thermodynamically similar, and if cold states play important roles for protein function. We created the cold unfolding 4-helix bundle DCUB1 with a de novo designed bipartite hydrophilic/hydrophobic core featuring a hydrogen bond network which extends across the bundle in order to study the relative importance of hydrophobic versus hydrophilic protein-water interactions for cold unfolding. Structural and thermodynamic characterization resulted in the discovery of a complex energy landscape for cold transitions, while the heat unfolded state is a random coil. Below ∼0 °C, the core of DCUB1 disintegrates in a largely cooperative manner, while a near-native helical content is retained. The resulting cold core-unfolded state is compact and features extensive internal dynamics. Below -5 °C, two additional cold transitions are seen, that is, (i) the formation of a water-mediated, compact, and highly dynamic dimer, and (ii) the onset of cold helix unfolding decoupled from cold core unfolding. Our results suggest that cold unfolding is initiated by the intrusion of water into the hydrophilic core network and that cooperativity can be tuned by varying the number of core hydrogen bond networks. Protein design has proven to be invaluable to explore the energy landscapes of cold states and to robustly test related theories.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "597aec6c901a2ec01d176aa6086027884c362e759ea920efa56ae95854ac0bb7",
       "identity_keys": [
         "https://doi.org/10.1021/acs.jcim.5c00884",
@@ -5154,6 +5270,36 @@
       "curated_categories": []
     },
     {
+      "id": "59bae4264f683e58df901e6c2498c668e56ad6151772d4f94e96b7a2cdd55ebf",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.20247827",
+        "https://openalex.org/W7163275216"
+      ],
+      "title": "Cross-Validation of Three Neural Network Potentials for MMP-1 Zn Active-Site Inhibitor Ranking: A Computationally-Driven Repositioning Study of Vorinostat and Indapamide",
+      "link": "https://doi.org/10.5281/zenodo.20247827",
+      "pdf_url": null,
+      "publication_date": "2026-06-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "cheongwoo han",
+          "name": "Cheongwoo Han"
+        }
+      ],
+      "abstract_text": "Correction (new version, 2026-07-21) — integrity correction. Correction (new version, 2026-07-21) - fabricated ligand-panel annotations and withdrawn repositioning narrative. A primary-source audit (2026-07-16) established that the 15-ligand panel underlying this work carries fabricated compound names and potency values (all seven named entries are a different molecule than named; 14 of 15 structures are unknown to PubChem), and a quantitative-claims audit found the paper's descriptor correlations and its repositioning identifications to be unreproducible. This version is a ground-up reconstruction that makes no claim about the identity, potency, or therapeutic candidacy of any compound. The original title's \"repositioning study of Vorinostat and Indapamide\" framing is withdrawn in full: the two compounds were misidentified and their supporting analyses do not reproduce. What survives, and all this version claims, is the reproducibility characterisation of the co-fold -> xtb -> three-NNP stack (per-cell sigma_E, conformal coverage, two-arm numeric floor, NNP redundancy). Full scope: preprints/_metadata/FABRICATED_PANEL_SCOPE_2026_07_16.md; removed-claims ledger: section 6.1 of the corrected manuscript. Co-folding stacks are now fast enough to generate 10⁴–10⁵ poses per campaign, which makes reproducibility, not throughput, the binding constraint on using them for triage. We characterise the reproducibility of a three-stage stack — Boltz-2 protein–ligand co-fold, GFN2-xTB single-point and tight-optimisation refinement, and a three-engine neural-network-potential (NNP) consensus — on the catalytic Zn²⁺ site of matrix metalloproteinase-1 (MMP-1), using a 15-ligand panel of structurally diverse active-site binders and a separate 140-ligand cohort. We make no claim about the identity, potency, or therapeutic candidacy of any compound. That is not modesty: a primary-source audit found the panel file's compound names and potencies to be fabricated — all seven named entries are a different molecule than the drug they name, and 14 of 15 structures are unknown to PubChem — so the panel is used strictly as chemistry. The reproducibility question we ask is unaffected, because whether a computation repeats on a fixed input does not depend on what that input is called. The three-engine NNP consensus reaches Pearson r = 0.914 (1000-bootstrap 95 % CI [0.826, 0.971]; leave-one-out r = 0.914 ± 0.010, n = 15) — but we report this as the stack's floor, not its headline: it is the lowest of the three pairwise correlations, and the other two engines (MACE-OMol-0 and Orb-v3) agree at r = 0.9992 because both are trained on OMol25. The \"three-engine\" design therefore carries approximately two independent signals, and we quantify rather than assert its diversity. Wrapping the per-cell σ_E sept-matrix in a normalised split-conformal layer yields distribution-free intervals whose empirical coverage matches nominal over 200 random splits (80 % → 80.01 ± 0.20 %, 90 % → 90.00 ± 0.14 %, 95 % → 95.00 ± 0.10 %, n = 1,755 cells). A two-arm numeric-floor control separates conformational signal from floating-point/SCF noise by 6–9 orders of magnitude, foreclosing the \"σ is just BF16 noise\" objection. σ_E's outlier ordering survives a GBSA↔ALPB solvent-model change and a leave-one-out/James-Stein/held-out-cross-fitting treatment of the optimizer's curse. On the 140-ligand cohort, ligands with high polar surface area, high heteroatom content and high long-lag intrinsic-state autocorrelation show systematically larger relaxation energy ΔE_relax (Spearman ρ = +0.55 to +0.64, p < 1e-11, each robust to deletion of the three extreme ligands). We report rank statistics because three ligands at ΔE_relax ≈ 495–600 kcal/mol against a median of 11.65 drive spurious |r| > 0.99 product-moment correlations — a leverage artifact that a large n does not protect against. The resulting triage rule is a prior for concentrating refinement effort, not a classifier, and its prospective hit rate is untested. A PoseBusters v2 audit of 45 co-folded structures gives a 93.9 % mean pass rate over 11 checks, with 33 % of structures perfect (11/11) and a floor of 10/11. The contribution is a reproducibility protocol and an explicit statement of its limits: this stack's ensembles are stable, and stability is not accuracy. No claim of predictive or experimental validity is made anywhere in this work. Keywords: reproducibility; co-folding; Boltz-2; GFN2-xTB; neural network potentials; conformal prediction; matrix metalloproteinase-1; zinc coordination",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "59bc923d586b3ac60af9ffff6f391f490b4c5b46a3eaede8a05aa5bde55a4c86",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-03189-7",
@@ -5773,6 +5919,118 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "59e22173eb604ac82b9426ff0d4e9c1f4f82f6ff7d7646911367aac3f30e74a8",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jproteome.5c01164",
+        "https://openalex.org/W7213440086"
+      ],
+      "title": "Development of a Translational Assay for Identification and Quantitation of Orthologous Proteins to Aid Drug Development in Preclinical Models",
+      "link": "https://doi.org/10.1021/acs.jproteome.5c01164",
+      "pdf_url": null,
+      "publication_date": "2026-09-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Proteome Research",
+      "authors": [
+        {
+          "key": "blandine rougemont",
+          "name": "Blandine Rougemont"
+        },
+        {
+          "key": "borgel julie",
+          "name": "Julie Borgel"
+        },
+        {
+          "key": "walker zoe",
+          "name": "Zoe Walker"
+        },
+        {
+          "key": "irene zubiri",
+          "name": "Irene Zubiri"
+        },
+        {
+          "key": "not ocualain provided ronan",
+          "name": "ronan.ocualain not provided"
+        },
+        {
+          "key": "ali mohammadi nafchi neda",
+          "name": "Neda Ali Mohammadi Nafchi"
+        },
+        {
+          "key": "christopher shaw",
+          "name": "Christopher E. Shaw"
+        },
+        {
+          "key": "ernestas sirka",
+          "name": "Ernestas Sirka"
+        },
+        {
+          "key": "isaac john",
+          "name": "John Isaac"
+        },
+        {
+          "key": "carlos miranda",
+          "name": "Carlos J. Miranda"
+        },
+        {
+          "key": "anna ettorre",
+          "name": "Anna Ettorre"
+        }
+      ],
+      "abstract_text": "Abstract Unequivocal identification and reproducible quantitation of proteins are key components of research and development activity in drug discovery. In some cases, the target protein might be a protein highly conserved across species; antibody-based assays are not specific enough to discriminate between orthologues, thus forcing drug developers to use multiple analytical platforms across preclinical models. Here, we present a modular mass spectrometry-based assay for the analysis of orthologous proteins across species in the context of translational science using ataxin-2 (ATXN2) as an example. Instead of relying on recombinant proteins, we applied rational peptide design to target human, mouse, human/pig/non-human primates (NHP), or pan-species regions of the full-length protein. Specificity and sensitivity of the method were proven in wild-type and transgenic models. Dose–response upon treatment with different doses of an adeno-associated virus (AAV)-delivering microRNA (miRNA) targeting ATXN2 showed that knock-down at the transcript level was consistent with downregulation at the protein level, confirming the assay suitability for target engagement evaluation. Furthermore, the data presented here indicate that this method is readily transferable to minipigs, ensuring analytical continuity across preclinical studies. More broadly, this work provides a translational blueprint that can be adapted to other orthologues, reducing cost and timeline in drug development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "59e2660071ae0ce4678948fe42f0e295879395e12ff9ddfa2a78aa868fc9996d",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.21965008",
+        "https://openalex.org/W7203570921"
+      ],
+      "title": "Detection and Molecular Characterization of Methicillin-Resistant Staphylococcus aureus (MRSA) in a Tertiary Care Hospital: A Review",
+      "link": "https://doi.org/10.5281/zenodo.21965008",
+      "pdf_url": null,
+      "publication_date": "2026-08-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Advanced Research and Publications",
+      "authors": [
+        {
+          "key": "satwinder singh",
+          "name": "Satwinder Singh"
+        },
+        {
+          "key": "manita paneri",
+          "name": "Manita Paneri"
+        },
+        {
+          "key": "hussain showkat",
+          "name": "Showkat Hussain"
+        },
+        {
+          "key": "dr kumar praveen",
+          "name": "Dr. Praveen Kumar"
+        }
+      ],
+      "abstract_text": "This study reviews the detection, antimicrobial resistance patterns, and molecular characteristics of methicillin-resistant Staphylococcus aureus (MRSA) in a tertiary-care hospital setting. The review synthesizes findings from 274 clinical specimens collected over a five-month period, yielding 106 confirmed S. aureus isolates identified using conventional microbiological methods and the Vitek 2 automated system. Phenotypic antimicrobial susceptibility testing against 18 antimicrobial agents demonstrated substantial multidrug resistance, with resistance to oxacillin and cefoxitin detected in 93.4% and 87.7% of isolates, respectively. Molecular analysis using polymerase chain reaction (PCR) investigated key genetic determinants, particularly mecA, which encodes the altered penicillin-binding protein PBP2a responsible for beta-lactam resistance, and hlg, a gene associated with gamma-haemolysin production and virulence. The study highlights the importance of combining phenotypic susceptibility testing with molecular surveillance for accurate MRSA detection and characterization. It also emphasizes the need for strengthened hospital infection-control practices, continuous antimicrobial-resistance surveillance, and responsible antimicrobial stewardship to limit the spread and clinical impact of multidrug-resistant MRSA.",
       "discovery_sources": [
         {
           "kind": "open_alex",

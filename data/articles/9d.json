@@ -3152,6 +3152,52 @@
       "curated_categories": []
     },
     {
+      "id": "9da3775a0ca6ed38285624254a7815c37f9aabd17ca638c0b5440a69007fa1b5",
+      "identity_keys": [
+        "https://doi.org/10.25675/3.027471",
+        "https://openalex.org/W7204142777"
+      ],
+      "title": "Emergent-scale prediction of molecular properties with chemically-informed neural networks",
+      "link": "https://doi.org/10.25675/3.027471",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "author kumar nath sabari",
+          "name": "Kumar, Sabari Nath, author"
+        },
+        {
+          "key": "advisor kim seonah",
+          "name": "Kim, Seonah, advisor"
+        },
+        {
+          "key": "committee justin member sambur",
+          "name": "Sambur, Justin, committee member"
+        },
+        {
+          "key": "committee john member peter st",
+          "name": "St. John, Peter, committee member"
+        },
+        {
+          "key": "pallickara shrideep",
+          "name": "Shrideep Pallickara"
+        }
+      ],
+      "abstract_text": "Machine learning (ML) models have emerged as powerful tools for scientific discovery. Leveraging modern computing hardware allows for the generation of large data sets which can be used to train accurate, generalizable models to predict the physico-chemical behavior of molecular systems. However, the predictive power of such models is bounded by how chemical knowledge is encoded within the model. Unlike general-purpose neural networks, which treat molecular data as abstract numerical arrays, chemically-informed architectures incorporate physical and structural constraints directly into their mathematical form. This work examines the design principles behind such architectures and traces their application across different intra- and intermolecular scales of organization. At the level of individual molecules, graph neural networks represent atoms as nodes and bonds as edges, propagating information through the molecular graph in a manner that mirrors molecular topology. We will examine the results of different parameterizations of this information in the context of predicting bond dissociation enthalpies and adiabatic singlet-triplet excitation energies, and present novel analytic tools which connect learned model behaviors with chemical intuition. We will demonstrate how advances in ML algorithm design can enable the accurate prediction of properties which are not possible to simulate through conventional means. By adapting techniques from computational topology and geometric deep learning, we construct a novel neural network architecture capable of predicting protein solubility from predicted protein structures. We show that the model's internal representations of protein structure align with those obtained through conventional molecular dynamics simulations. We then extend the single molecule GNN approach to predict the interaction behaviors of molecular species with their surroundings. We show that learned mixing operators mirroring established chemical intuition can reliably predict nonlinear blending behavior, and introduce a new tool inspired by operator symmetrization to analyze this interaction. Lastly, we present ongoing efforts to extend our study of interaction behavior to model the interactions of molecular conformer ensembles with their surroundings. We develop a preliminary foundation model for macrocyclic peptides, incorporating explicit learned reparameterization of conformational Boltzmann weights to accurately map conformational ensemble information to peptide properties. Taken together, these results reflect a common organizing principle: the most transferable and physically meaningful models are those whose structures recapitulate the interactions that govern chemical behavior.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9da43177cc76a75d0245d1d206da8a032b82311355599ca724f697c114261548",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65824-7",

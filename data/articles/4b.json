@@ -1741,7 +1741,35 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4b47288b17b001f308b8088b21ccea4bbc7b10248793d5c37a43bac9789fd113",
+      "identity_keys": [
+        "https://doi.org/10.1093/bioinformatics/btag455",
+        "https://openalex.org/W7204116094"
+      ],
+      "title": "De novo epitope-specific antibody design via time-dependent guidance",
+      "link": "https://doi.org/10.1093/bioinformatics/btag455",
+      "pdf_url": null,
+      "publication_date": "2026-06-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioinformatics",
+      "authors": [
+        {
+          "key": "kim yunji",
+          "name": "Yunji Kim"
         },
+        {
+          "key": "baek minkyung",
+          "name": "Minkyung Baek"
+        }
+      ],
+      "abstract_text": "MOTIVATION: De novo antibody design requires jointly determining the global binding orientation and shaping flexible CDR loops to engage a target epitope. Diffusion-based approaches such as RFantibody are capable of this joint task but frequently produce severe steric clashes requiring extensive post-hoc filtering. Flow-based methods such as IgFlow and FlowDesign offer more stable generation but remain restricted to pre-aligned frames, precluding true de novo design. Achieving structural integrity and epitope specificity simultaneously in this setting remains an open challenge. RESULTS: We propose TiDE-Ab, a conditional SE(3) flow matching framework for de novo epitope-specific antibody design. By conditioning on unpaired antigen and antibody structures without any pre-aligned frame, TiDE-Ab inherits the structural stability of flow matching while enabling global binding pose search from scratch. To further improve epitope targeting, we introduce Time-Dependent Classifier-Free Guidance (TD-CFG), which replaces static conditioning with an adaptive schedule: strong guidance early to establish the global binding pose, followed by gradual relaxation for precise local CDR refinement. On 55 non-redundant benchmark complexes, TiDE-Ab outperforms RFantibody with higher epitope recall (0.935 vs. 0.878) and over 95% fewer steric clashes. In therapeutic case studies on TGF-β and IL-17A, TiDE-Ab reproduced the binding profiles of clinical antibodies across isoform-selective and cross-reactive epitopes, whereas RFantibody consistently failed to produce viable candidates. AVAILABILITY: Source code, data, and trained models are available at https://github.com/SNU-CSSB/TiDE-Ab.",
+      "discovery_sources": [
         {
           "kind": "open_alex",
           "key": "openalex",
@@ -3298,6 +3326,44 @@
       "curated_categories": []
     },
     {
+      "id": "4ba946560045f2e03905bd297abd62a3918d43a520c644badbfb11a1bfe8f574",
+      "identity_keys": [
+        "https://doi.org/10.34133/csbj.0142",
+        "https://openalex.org/W7163366831"
+      ],
+      "title": "Adversarial Sequence Mutations in AlphaFold and ESMFold Reveal Nonphysical Structural Invariance, Confidence Failures, and Concerns for Protein Design",
+      "link": "https://doi.org/10.34133/csbj.0142",
+      "pdf_url": null,
+      "publication_date": "2026-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Computational and Structural Biotechnology Journal",
+      "authors": [
+        {
+          "key": "feldman jonathan",
+          "name": "Jonathan Feldman"
+        },
+        {
+          "key": "brogi maximilian",
+          "name": "Maximilian Brogi"
+        },
+        {
+          "key": "jeffrey skolnick",
+          "name": "Jeffrey Skolnick"
+        }
+      ],
+      "abstract_text": "AlphaFold has transformed structural biology and spawned an ecosystem of derivative tools for protein design, binding prediction, and drug discovery. However, whether AlphaFold has learned generalizable biophysical principles as opposed to template-based pattern matching remains unclear-a distinction critical for applications beyond its training context. Here, we perform a systematic adversarial evaluation of AlphaFold 3 using point and deletion mutations across 200 proteins. Remarkably, predicted structures remain invariant to mutations of up to 40% of residues-including deliberately destabilizing substitutions-and to deletions of 10%. Notably, this invariance holds even for experimentally validated fold-switching proteins that are known to adopt alternative conformations in response to such mutations, despite the fact that these proteins are small and monomeric-precisely the category where AlphaFold is expected to perform best. Confidence metrics prove unreliable, as they select the most accurate structure at most 35% of the time and consistently correlate with the structural quality of the best available training-set template. ESMFold exhibits greater, though still imperfect, mutational sensitivity, suggesting a tighter coupling between sequence identity and predicted structure that may reflect differences in training objective rather than overall model quality. These findings indicate that AlphaFold may rely heavily on memorized templates rather than biophysical reasoning, with direct implications for mutation-effect interpretation, confidence-guided model selection, and sequence optimization workflows.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4badf615a44f63bdf140239f086bf55c72f8c503f0cfe44c52d39244ff18f0ce",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64954-2",
@@ -3722,6 +3788,56 @@
       "curated_categories": []
     },
     {
+      "id": "4bcdee6aeddcec713855d9e48205ff6a9650850825e9de21f6efe2a9b73bff96",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2605.23346",
+        "https://openalex.org/W7162344473"
+      ],
+      "title": "Contrastive Distribution Matching for Amortized Sequential Monte Carlo in Discrete Diffusion",
+      "link": "https://doi.org/10.48550/arxiv.2605.23346",
+      "pdf_url": "https://arxiv.org/pdf/2605.23346",
+      "publication_date": "2026-05-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "jaihoon kim",
+          "name": "Jaihoon Kim"
+        },
+        {
+          "key": "taehoon yoon",
+          "name": "Taehoon Yoon"
+        },
+        {
+          "key": "phunyaphibarn prin",
+          "name": "Prin Phunyaphibarn"
+        },
+        {
+          "key": "kim seungjun",
+          "name": "Seungjun Kim"
+        },
+        {
+          "key": "mardani morteza",
+          "name": "Morteza Mardani"
+        },
+        {
+          "key": "minhyuk sung",
+          "name": "Minhyuk Sung"
+        }
+      ],
+      "abstract_text": "Discrete diffusion models have emerged as powerful frameworks for generating structured categorical data. However, efficiently sampling from reward-tilted distributions remains a fundamental challenge. While Twisted Sequential Monte Carlo (SMC) offers asymptotic exactness for this task, estimating the optimal twist function in discrete state spaces necessitates costly Monte Carlo approximations, resulting a severe computational bottleneck at inference. To overcome this limitation, we introduce Contrastive Distribution Matching (CDM), a novel framework that amortizes the cost of SMC inference by learning a parameterized twist function via positive and negative samples. For efficient training, we reformulate the gradient estimator to leverage the closed-form forward kernels of discrete diffusion models. In practice, evaluating our learned twist function incurs less than 5% additional computational overhead compared to a single forward pass of the base model. Through extensive empirical evaluations, we demonstrate that CDM consistently outperforms existing baselines under matched wall-clock time. We validate the effectiveness and versatility of our approach across a diverse range of applications, including toxic text generation, regulatory DNA sequence design, protein designability, and diffusion large language model alignment.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4bd1e18ea62d24b9f0cd90805d08f724c506e3b6c4382276ded4923c85dcf0ca",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75380-3",
@@ -3812,6 +3928,12 @@
       ],
       "abstract_text": "Artificial intelligence (AI) has transformed protein engineering by leveraging deep learning, protein language models, and knowledge graphs to decode relationships between sequence, structure, and function. Models like AlphaFold2 achieve near-experimental accuracy in structure prediction, while transformer-based language models facilitate de novo sequence design under functional constraints. AI enhances therapeutic protein engineering, enzyme catalysis, and synthetic biology, accelerating the transition from in silico design to experimental validation. These advances accelerate experimental validation across healthcare and industrial biotechnology. Despite algorithmic successes, challenges remain in model interpretability, training data biases, and experimental validation rates. This review examines the computational methodologies shaping protein design, benchmarking metrics, and the integration of machine learning with experimental pipelines.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -4003,6 +4125,12 @@
       ],
       "abstract_text": "De novo protein design has seen major success in scaffolding single functional motifs; however, in nature, most proteins present multiple functional sites. Here, we describe an approach to simultaneously scaffold multiple functional sites in a single-domain protein using deep learning. We designed small single-domain immunogens, under 130 residues, that present three distinct and irregular motifs from respiratory syncytial virus. These motifs together comprise nearly half of the designed proteins; hence, the overall folds are quite unusual with little global similarity to proteins in the Protein Data Bank. Despite this, X-ray crystal structures confirmed the accuracy of presentation of each of the motifs and the multiepitope design yields improved cross-reactive titers and neutralizing response compared to a single-epitope immunogen. The successful presentation of three distinct binding surfaces in a small single-domain protein highlights the power of generative deep learning methods to solve complex protein design problems.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -4269,6 +4397,60 @@
         }
       ],
       "abstract_text": "Clustering is commonly used in single-cell RNA-sequencing (scRNA-seq) pipelines to characterize cellular heterogeneity. However, current methods face two main limitations. First, they require user-specified heuristics which add time and complexity to bioinformatic workflows; second, they rely on post-selective differential expression analyses to identify marker genes driving cluster differences, which has been shown to be subject to inflated false discovery rates. We address these challenges by introducing nonparametric clustering of single-cell populations (NCLUSION): an infinite mixture model that leverages Bayesian sparse priors to identify marker genes while simultaneously performing clustering on single-cell expression data. NCLUSION uses a scalable variational inference algorithm to perform these analyses on datasets with up to millions of cells. Through simulations and analyses of publicly available scRNA-seq studies, we demonstrate that NCLUSION (i) matches the performance of other state-of-the-art clustering techniques with significantly reduced runtime and (ii) provides statistically robust and biologically relevant transcriptomic signatures for each of the clusters it identifies. Overall, NCLUSION represents a reliable hypothesis-generating tool for understanding patterns of expression variation present in single-cell populations.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4bfe1753b19be6544d1e06792d40362dcefae5bf7a797f84fcde78d95aaccc45",
+      "identity_keys": [
+        "https://doi.org/10.1093/jb/mvag018",
+        "https://openalex.org/W7134895719"
+      ],
+      "title": "Observation of redistribution for local conformational dynamics in cross-reactive antibody design",
+      "link": "https://doi.org/10.1093/jb/mvag018",
+      "pdf_url": null,
+      "publication_date": "2026-03-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Journal of Biochemistry",
+      "authors": [
+        {
+          "key": "yasuda yoshiki",
+          "name": "Yoshiki Yasuda"
+        },
+        {
+          "key": "nagatoishi satoru",
+          "name": "Satoru Nagatoishi"
+        },
+        {
+          "key": "jiei sasaki",
+          "name": "Jiei Sasaki"
+        },
+        {
+          "key": "matsunaga ryo",
+          "name": "Ryo Matsunaga"
+        },
+        {
+          "key": "daisuke kuroda",
+          "name": "Daisuke Kuroda"
+        },
+        {
+          "key": "hashiguchi takao",
+          "name": "Takao Hashiguchi"
+        },
+        {
+          "key": "kouhei tsumoto",
+          "name": "Kouhei Tsumoto"
+        }
+      ],
+      "abstract_text": "Antibody engineering is often achieved through laborious mutagenesis and screening. However, the physicochemical basis of cross-reactivity-enhancing mutations remains unclear. We computationally redesigned the severe acute respiratory syndrome coronavirus (SARS-CoV)-1 neutralizing antibody m396 to recognize the SARS-CoV-2 receptor-binding domain (RBD) and characterized its biophysical properties. A first-generation variant carrying three light-chain substitutions (S30LW, S93LI and S94LF) acquired detectable SARS-CoV-2 RBD binding, while strengthening its affinity for the SARS-CoV RBD. A second-generation variant carrying two substitutions (T52HL and L54HW) further improved SARS-CoV-2 binding with a low micromolar affinity, predominantly driven by an approximately 200-fold increase in the association rate. Circular dichroism spectra indicated preserved global folding across the variants, whereas differential scanning calorimetry revealed stepwise decreases in lower-temperature unfolding transitions. Hydrogen-deuterium exchange mass spectrometry showed increased dynamics of CDR-L1 and localized rigidification near CDR-H2 in the second variant. These results suggest a biophysical model in which a small number of mutations reprogram cross-recognition by redistributing the local conformational dynamics.",
       "discovery_sources": [
         {
           "kind": "open_alex",

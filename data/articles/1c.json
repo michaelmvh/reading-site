@@ -308,6 +308,56 @@
       "curated_categories": []
     },
     {
+      "id": "1c03802ab84575ef7d4494a257796d5e76e6beb538bd69e17479a39611958d97",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.05.21.726972",
+        "https://openalex.org/W7162457552"
+      ],
+      "title": "SynFit: Synergistic Contrastive Learning for Multi-Objective Protein Fitness Prediction and Optimization",
+      "link": "https://doi.org/10.64898/2026.05.21.726972",
+      "pdf_url": null,
+      "publication_date": "2026-05-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "tony tu",
+          "name": "Tony Tu"
+        },
+        {
+          "key": "huang wei",
+          "name": "Wei Huang"
+        },
+        {
+          "key": "li ziang",
+          "name": "Ziang Li"
+        },
+        {
+          "key": "ding kerr",
+          "name": "Kerr Ding"
+        },
+        {
+          "key": "yang",
+          "name": "Yang Yang"
+        },
+        {
+          "key": "luo yunan",
+          "name": "Yunan Luo"
+        }
+      ],
+      "abstract_text": "Abstract Proteins function through a complex interplay of structural and biochemical properties, and mutations can reshape these properties to generate fitness landscapes spanning multiple functional objectives. A central challenge in protein engineering is the need to simultaneously optimize multiple properties. In biocatalysis, for example, practical enzyme development routinely requires the concurrent optimization of catalytic activity, selectivity, stability, and substrate generality. However, despite recent advances in computational protein design and fitness prediction, most existing approaches treat these properties independently and do not explicitly capture the dependencies and trade-offs that govern real-world protein performance. We present SynFit, a multi-objective learning framework that integrates pretrained protein language models with experimental fitness measurements for protein fitness prediction and engineering. SynFit learns both shared and property-specific protein sequence representations through a synergistic contrastive learning strategy, enabling the identification of variants that simultaneously optimize multiple functional properties. Across a large-scale multi-fitness deep mutational scanning benchmark, SynFit consistently outperforms state-of-the-art supervised models trained on individual objectives and more accurately identifies variants that balance competing functional constraints. We further applied SynFit to multi-objective enzyme design for a new-to-nature biocatalytic enantioselective borylation reaction, providing a diverse array of novel cytochrome c sextuple variants in a single round of design with simultaneously improved catalytic activity and enantioselectivity that rival the best variants obtained through directed evolution. Together, these results establish SynFit as a general framework for multidimensional protein fitness prediction and highlight its potential to enable efficient multi-objective optimization in protein engineering, particularly in biocatalysis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1c0414c52e303328b22c6e8967789c804eb6a52fa19648f3733d4df2cbf08400",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70446-8",
@@ -1057,6 +1107,122 @@
         }
       ],
       "abstract_text": "Amyotrophic lateral sclerosis (ALS) is a rare and fatal neurodegenerative disease with a median survival of only 2 to 4 years from diagnosis. Improved tools are needed to shorten diagnostic delays and improve prognostication to benefit clinical care. Herein, we profiled whole blood gene expression by RNA sequencing in a large cohort of ALS participants (n = 422) versus controls (n = 272). Several machine learning classifiers trained on our detailed gene expression dataset accurately predicted case-control status, including in a fully independent external test cohort, achieving an area under the receiver operating characteristic curve of 0.894 with the best performing model. Integrating gene expression features with clinical variables improved our ability to discriminate ALS cases into shorter, intermediate, and longer survival in an external dataset. Finally, we identified ALS-relevant pathways in our blood transcriptomics dataset as well as \"core genes\" that overlapped with gene expression changes occurring in the primary disease tissue, facilitating a drug perturbation analysis that identified several candidates. Overall, our results highlight the potential diagnostic and prognostic applications of whole blood gene expression data, with important implications for improving ALS clinical care.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1c2d92517b2957982bc9ed8c514ceadd7a883962cff5d80a291eae26267fd691",
+      "identity_keys": [
+        "https://doi.org/10.64898/2025.12.19.695619",
+        "https://openalex.org/W7116770057"
+      ],
+      "title": "Evolutionary Decoding of the Bacillus subtilis Secretome: Insights from Pan-Genomics and Deep Learning",
+      "link": "https://doi.org/10.64898/2025.12.19.695619",
+      "pdf_url": null,
+      "publication_date": "2025-12-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "chong peng",
+          "name": "Chong Peng"
+        },
+        {
+          "key": "chengwu yuan",
+          "name": "Chengwu Yuan"
+        },
+        {
+          "key": "linhao meng",
+          "name": "Linhao Meng"
+        },
+        {
+          "key": "chen yuying",
+          "name": "Yuying Chen"
+        },
+        {
+          "key": "shuang wen",
+          "name": "Shuang Wen"
+        },
+        {
+          "key": "fuping lu",
+          "name": "Fuping Lu"
+        },
+        {
+          "key": "liu yihan",
+          "name": "Yihan Liu"
+        }
+      ],
+      "abstract_text": "Abstract Bacillus subtilis serves as a crucial host for industrial protein production, where the efficiency and regulation of its secretion system represent a central focus of applied research. Despite substantial genomic diversity among strains, current understanding of signal peptides, which are key elements in the secretion process, remains largely based on single model strains, lacking systematic investigation from a pan-genomic perspective. This study integrates pan-genomics and deep learning to construct a pan-secretome profile of 287 B. subtilis strains. Our analysis reveals an open repertoire of signal peptides in B. subtilis. Our results reveal an open pan-signal peptidome in B. subtilis . Core signal peptides exhibit high sequence conservation and primarily direct the localization of housekeeping proteins, whereas accessory signal peptides govern the extracellular secretion of environment-responsive proteins, forming a functional “housekeeping-adaptive” dichotomy. We demonstrated for the first time at a broad scale the widespread evolutionary decoupling between signal peptides and their corresponding mature peptides, uncovering a modular evolutionary mechanism in protein evolution. While the deep learning model achieved high accuracy (88.0%) in discriminating core and accessory gene-encoded full-length proteins, its performance was considerably limited when using signal peptide sequences alone (69.7% accuracy), reflecting the information constraints inherent to short sequences. This study provides a systematic portrayal of the signal peptide evolutionary landscape in B. subtilis at the pan-genome scale, advancing our understanding of the evolutionary principles governing bacterial secretion systems and establishing a theoretical foundation for optimizing industrial protein production through rational signal peptide design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1c341be3ff60e72b8e2a28da31793699116f5f610febaedc07355df9353441e5",
+      "identity_keys": [
+        "https://doi.org/10.1134/s0026893326700251",
+        "https://openalex.org/W7167832739"
+      ],
+      "title": "Redox-Dependent Isoforms of the Bacillus cereus Fur Protein: Identification, Structural and Functional Analysis",
+      "link": "https://doi.org/10.1134/s0026893326700251",
+      "pdf_url": null,
+      "publication_date": "2026-07-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecular Biology",
+      "authors": [
+        {
+          "key": "salyamov vadim",
+          "name": "Vadim Salyamov"
+        },
+        {
+          "key": "kostareva olga",
+          "name": "Olga S. Kostareva"
+        },
+        {
+          "key": "mayorov sergey",
+          "name": "Sergey G. Mayorov"
+        },
+        {
+          "key": "tishchenko",
+          "name": "S. V Tishchenko"
+        },
+        {
+          "key": "azat gabdulkhakov",
+          "name": "Azat G. Gabdulkhakov"
+        },
+        {
+          "key": "alexey nagel",
+          "name": "Alexey S. Nagel"
+        },
+        {
+          "key": "andreeva kovalevskaya zhanna",
+          "name": "Zhanna I. Andreeva‐Kovalevskaya"
+        },
+        {
+          "key": "alexander siunov",
+          "name": "Alexander V. Siunov"
+        },
+        {
+          "key": "alexander solonin",
+          "name": "Alexander S. Solonin"
+        }
+      ],
+      "abstract_text": "The synthesis of hemolytic toxins in Bacillus cereus, particularly hemolysin HlyII, is controlled by the Fur protein (BcFur), a metal-sensitive regulator of iron metabolism that activity depends on the redox conditions of the environment. Using LC-MS/MS technology, we detected two BcFur isoforms with different electrophoretic mobilities. The structural and functional differences between these isoforms were determined. A more than 10-fold increase in the binding constant of the BcFur protein to its operator in the presence of 2-mercaptoethanol was revealed. The increased binding activity of BcFur with its operator is due to the presence of free SH groups in Cys residues. This protein functions as a dimer that forms independently of the substrate DNA presence Furthermore, crystals of BcFur were obtained, and the 3D structure of BcFur was resolved. Despite the high similarity of the primary and tertiary structures of BcFur to those of the B. subtilis oxidative stress regulator PerR (BsPerR), their redox sensitivity mechanisms differ. Inactivation DNA-binding of BcFur activity has been shown to occur as a result of oxidation of the Cys residues of the zinc finger, at least under in vitro conditions.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2848,6 +3014,56 @@
       "curated_categories": []
     },
     {
+      "id": "1c98812d280c2026984bb6be2b8fc22a1f2a1bf720b4347eaac5bdd3d817c0be",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.tifs.2026.105898",
+        "https://openalex.org/W7165682858"
+      ],
+      "title": "Rational design of oil crop-derived protein nanofibrils: An AI-driven solution for process control and functional prediction",
+      "link": "https://doi.org/10.1016/j.tifs.2026.105898",
+      "pdf_url": null,
+      "publication_date": "2026-06-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Trends in Food Science & Technology",
+      "authors": [
+        {
+          "key": "chaoting wen",
+          "name": "Chaoting Wen"
+        },
+        {
+          "key": "jieyu wang",
+          "name": "Jieyu Wang"
+        },
+        {
+          "key": "guoyan liu",
+          "name": "Guoyan Liu"
+        },
+        {
+          "key": "jixian zhang",
+          "name": "Jixian Zhang"
+        },
+        {
+          "key": "lingjun tong",
+          "name": "Lingjun Tong"
+        },
+        {
+          "key": "xin xu",
+          "name": "Xin Xu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1c9f858f163b12816b10d8af736c77bbea7c8437b703d999fef2d8e25d35c5aa",
       "identity_keys": [
         "https://arxiv.org/abs/2210.08761",
@@ -4053,6 +4269,12 @@
       ],
       "abstract_text": "Sparked by innovations in generative artificial intelligence (AI), the field of protein design has undergone a paradigm shift with an explosion of new models for optimizing existing enzymes or creating them from scratch. After more than one decade of low success rates for computationally designed enzymes, generative AI models are now frequently used for designing proficient enzymes. Here, we provide a comprehensive overview and classification of generative AI models for enzyme design, highlighting models with experimental validation relevant to real-world settings and outlining their respective limitations. We argue that generative AI models now have the maturity to create and optimize enzymes for industrial applications. Wider adoption of generative AI models with experimental feedback loops can speed up the development of biocatalysts and serve as a community assessment to inform the next generation of models.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -5285,6 +5507,64 @@
         }
       ],
       "abstract_text": "During development cell deformations are spatially organized, however, how cellular mechanics is spatially controlled is unclear. Spatial control of cell identity often determines local cellular mechanics in a two-tiered mechanism. Theoretical studies also proposed that molecular gradients, so called “mechanogens”, spatially control mechanics. We report evidence of a similar mechanism required for Drosophila gastrulation. We show that the GPCR ligand Fog, expressed in the posterior endoderm, diffuses and acts in a concentration-dependent manner to activate actomyosin contractility at a distance during a wave of tissue invagination. While Fog is uniformly distributed in the extracellular space, it forms a surface-bound gradient that recruits Myosin-II via receptor oligomerization. This activity gradient self-renews as the wave propagates and is shaped by both receptor endocytosis and modulation of GPCR signalling by integrins upon adhesion to the vitelline membrane. This exemplifies how chemical, mechanical and geometrical cues underly the emergence of a self-organized mechanogen activity gradient. During morphogenesis patterned contractility drives tissue shape changes. Here they show that GPCR signaling and integrin activation give rise to a dynamically translocating gradient of contractility required for a self-organized wave of tissue invagination.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1cfa2c29b1bcb18d5f502e8ed2b692402911b00bb797b4a3e0a9aa237b3da84c",
+      "identity_keys": [
+        "https://doi.org/10.1002/open.202500588",
+        "https://openalex.org/W7119522548"
+      ],
+      "title": "Engineered α‐Helical Peptides with Chelating Agents as Approach to Antibacterial Therapeutics",
+      "link": "https://doi.org/10.1002/open.202500588",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemistryOpen",
+      "authors": [
+        {
+          "key": "patamia vincenzo",
+          "name": "Vincenzo Patamia"
+        },
+        {
+          "key": "erika saccullo",
+          "name": "Erika Saccullo"
+        },
+        {
+          "key": "larocca michele",
+          "name": "Michele Larocca"
+        },
+        {
+          "key": "fuochi virginia",
+          "name": "Virginia Fuochi"
+        },
+        {
+          "key": "furnari salvatore",
+          "name": "Salvatore Furnari"
+        },
+        {
+          "key": "furneri maria pio",
+          "name": "Pio Maria Furneri"
+        },
+        {
+          "key": "agostino cilibrizzi",
+          "name": "Agostino Cilibrizzi"
+        },
+        {
+          "key": "floresta giuseppe",
+          "name": "Giuseppe Floresta"
+        }
+      ],
+      "abstract_text": "This study introduces a new class of α-helical antimicrobial peptides designed to combat multidrug-resistant bacteria. The peptides were created using a structure-based approach guided by the main mechanical forces (MMFs) methodology, which promotes stable helical conformations by considering chemical interactions between amino acid side chains. Key features of the design of these peptides include: (1) amphipathic nature: hydrophobic and cationic residues are strategically positioned on opposite sides of the helix to disrupt bacterial membranes and (2) MMFs approach: enables precise control over the peptide's 3D structure through dihedral angle calculation. The peptides exhibited antimicrobial activity against various bacterial strains, including both Gram-positive and Gram-negative species, as well as a multidrug-resistant pathogen. This effect was particularly enhanced when coadministered with allomaltol, a chelating agent capable of sequestering essential metals (such as iron), thereby disrupting bacterial metabolism and providing a secondary mechanism of action. This work validates the MMFs methodology as an accurate prediction tool for peptide secondary structure, reproducing NMR-derived helical features of the HT2 peptide and enabling rational design of new analogs. Moreover, the covalent introduction of a chelating group markedly improved antimicrobial potency (MIC 18.75 μM vs. 300 μM), confirming the functional synergy between amphipathic helicity and metal-ion sequestration.",
       "discovery_sources": [
         {
           "kind": "open_alex",

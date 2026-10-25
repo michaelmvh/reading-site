@@ -345,6 +345,40 @@
       "curated_categories": []
     },
     {
+      "id": "9018b27a674b838fcf883862420aee90616730aeb7bce3f1bf97f6bb35a2c1ea",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.02.09.704813",
+        "https://openalex.org/W7128528943"
+      ],
+      "title": "Reading TEA leaves for de novo protein design",
+      "link": "https://doi.org/10.64898/2026.02.09.704813",
+      "pdf_url": null,
+      "publication_date": "2026-02-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "lorenzo pantolini",
+          "name": "Lorenzo Pantolini"
+        },
+        {
+          "key": "durairaj janani",
+          "name": "Janani Durairaj"
+        }
+      ],
+      "abstract_text": "Abstract De novo protein design expands the functional protein universe beyond natural evolution, offering vast therapeutic and industrial potential. Monte Carlo sampling in protein design is under-explored due to the typically long simulation times required or prohibitive time requirements of current structure prediction oracles. Here we make use of a 20-letter structure-inspired alphabet derived from protein language model embeddings to score random mutagenesis-based Metropolis sampling of amino acid sequences. This facilitates fast template-guided and unconditional design, generating sequences that satisfy in silico designability criteria without known homologues. Ultimately, this unlocks a new path to fast and de novo protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "901e80016de029062e1b59151e796612477a814704fb1b8c0077990de788f6d1",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02245-6",
@@ -514,6 +548,40 @@
       "curated_categories": []
     },
     {
+      "id": "9027a2c1babb18327a7624d0b149e4767d93cebbbdff683d521727bc6e6c0d63",
+      "identity_keys": [
+        "https://doi.org/10.2174/0122115501411557260120053716",
+        "https://openalex.org/W7140310567"
+      ],
+      "title": "Discovering the Correlation between Theoretical and Experimental Binding Data for the HLA-A*0201 Molecule Using an Inverse Folding Approach",
+      "link": "https://doi.org/10.2174/0122115501411557260120053716",
+      "pdf_url": null,
+      "publication_date": "2026-03-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Biotechnology",
+      "authors": [
+        {
+          "key": "prakash satarudra singh",
+          "name": "Satarudra Prakash Singh"
+        },
+        {
+          "key": "bhartendu mishra nath",
+          "name": "Bhartendu Nath Mishra"
+        }
+      ],
+      "abstract_text": "Background: The estimation of peptides binding to the Human Leukocyte Antigen (HLA) has significant implications for rational vaccine design and other immunotherapies. The present work employs an Inverse folding (IF) approach to estimate HLA-binding peptides and to establish a correlation between experimental binding affinity and the estimated interaction potential score of HLAA* 0201-peptide interactions. Methods: The interaction potential score of a peptide is computed as the total energy of interaction with the contact residues of the HLA and peptide using statistical pairwise contact potentials, namely Miyazawa-Jernigan (MJ), and Betancourt-Thirumalai (BT). Results: The results showed a negative correlation between computed MJ and BT interaction potential scores and experimental binding affinity of peptides to the HLA-A*0201 molecule. BT scores correlate better with the experimental binding affinities of peptides, as indicated by Pearson's correlation coefficient (-0.568, R² =0.322, p < 0.001), compared to MJ scores (-0.457, R2 =0.208, p < 0.001). Discussion: Since the HLA class I molecules have specificity for certain amino acid side chains in distinct binding pockets within the binding cleft, the structural templates of peptide-bound HLA molecules may provide a means to interrogate the interactions between HLA and peptide. IF indirectly explores the underlying fitness landscape by focusing exploration on regions where the protein's backbone fold is preserved. Given the involvement of multiple template structures for combinations of peptides and HLA alleles, the IF approach is expected to be more robust. Conclusion: The IF approach demonstrates potential for evaluating the intricate assembly of HLA molecules with any novel peptide, which holds significant relevance for vaccine development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "902d4411b70f523aa92206dc956687a3671d38748ddec4e9dda312891b7fa2e2",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2610.14349",
@@ -557,6 +625,48 @@
         }
       ],
       "abstract_text": "We show that continuous bitstream diffusion (CoBit), originally developed for language modeling, provides a unified framework for joint and conditional multimodal generation using the same training and sampling protocol. Across image-text, speech-text and protein sequence-structure modeling, models are trained separately from scratch, but each uses a single input projection, transformer backbone, bitwise prediction head and binary score-matching objective shared across its modalities. Within each setting, a single checkpoint supports joint generation and the conditional directions included in training by changing which parts of the bitstream are observed. We first validate the approach on MNIST-Sum, a controlled image-text task pairing raw binary images with equations encoded as text, achieving near-perfect conditional accuracy and high joint consistency without learned tokenizers. We then apply the same protocol at larger scale to speech-text and protein sequence-structure modeling. Trained without text pretraining, a single speech-text model performs speech synthesis, recognition, continuation, and unconditional co-generation. Jointly generated speech and text achieve 3.5% word error rate between the generated text and automatic transcriptions of the generated speech. In protein modeling, a single CoBit checkpoint supports forward folding, inverse folding, and joint sequence-structure generation. For jointly generated proteins spanning 100-500 residues, computational refolding of CoBit's sequences yields structures that agree with the generated backbones at a mean self-consistency TM-score of 0.911. Together, these results show that CoBit provides a common generative framework for substantially different modalities and forms of cross-modal dependence, without introducing a domain-specific objective or sampling procedure.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "902d821ea5151e2c9fc6916a85a806c4c48bf5312c8cf1b2f509092736298d33",
+      "identity_keys": [
+        "https://doi.org/10.1007/s12602-026-11086-8",
+        "https://openalex.org/W7165120317"
+      ],
+      "title": "Novel Anti-Microbial Peptides Design and Screening Against the KatG Using Molecular Docking and MD Simulation",
+      "link": "https://doi.org/10.1007/s12602-026-11086-8",
+      "pdf_url": null,
+      "publication_date": "2026-06-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Probiotics and Antimicrobial Proteins",
+      "authors": [
+        {
+          "key": "kanchan mehta",
+          "name": "Kanchan Mehta"
+        },
+        {
+          "key": "mujawar shama",
+          "name": "Shama Mujawar"
+        },
+        {
+          "key": "gaurav kumar",
+          "name": "Kumar Gaurav"
+        },
+        {
+          "key": "ashish vyas",
+          "name": "Ashish Vyas"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1906,6 +2016,12 @@
       "abstract_text": "Motivation: The clinical efficacy of antibody therapeutics critically depends on high-affinity target engagement, yet laboratory affinity-maturation campaigns are slow and costly. In computational settings, most protein language models (PLMs) are not trained to favor high-affinity antibodies, and existing preference optimization approaches introduce substantial computational overhead without clear affinity gains. Therefore, this work proposes SimBinder-IF, which converts the inverse folding model ESM-IF into an antibody sequence generator by freezing its structure encoder and training only its decoder to prefer experimentally stronger binders through preference optimization. Results: On the 11-assay AbBiBench benchmark, SimBinder-IF achieves a 55 percent relative improvement in mean Spearman correlation between log-likelihood scores and experimentally measured binding affinity compared to vanilla ESM-IF (from 0.264 to 0.410). In zero-shot generalization across four unseen antigen-antibody complexes, the correlation improves by 156 percent (from 0.115 to 0.294). SimBinder-IF also outperforms baselines in top-10 precision for ten-fold or greater affinity improvements. A case study redesigning antibody F045-092 for A/California/04/2009 (pdmH1N1) shows that SimBinder-IF proposes variants with substantially lower predicted binding free energy changes than ESM-IF (mean Delta Delta G -75.16 vs -46.57). Notably, SimBinder-IF trains only about 18 percent of the parameters of the full ESM-IF model, highlighting its parameter efficiency for high-affinity antibody generation.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -2273,6 +2389,44 @@
         }
       ],
       "abstract_text": "Adaptive behavior relies on associating sensory cues with rewarding or aversive outcomes. In mammals, the primary sensory cortex processes stimuli and distributes information to cortical and subcortical targets. Layer 5 (L5) contains two major projection neuron classes, intratelencephalic (IT) and extratelencephalic (ET); however, their roles in associative learning remain unclear. Using transgenic mice, we identified IT and ET neurons in primary somatosensory cortex and tracked their activity with longitudinal two-photon imaging during Pavlovian conditioning with whisker stimulation. IT neurons stably encoded stimulus identity across training, whereas ET neurons showed dynamic changes that paralleled the emergence of anticipatory licking. Chemogenetic silencing of each subtype impaired learning in distinct, phase-specific ways. A reinforcement-learning model reproduced these dynamics, suggesting that IT neurons provide stable sensory representations needed to form cue-reward associations, while ET neurons encode reward expectation to refine behavior. These findings reveal complementary, cell-type-specific contributions of L5 neurons to associative learning.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9071d3d24600560a3b5fab7b08e15a418fb026752b81869771b676048e654bc0",
+      "identity_keys": [
+        "https://doi.org/10.2139/ssrn.6169558",
+        "https://openalex.org/W7128004033"
+      ],
+      "title": "Synthetic Sequence Alignments As Programmable Probes of Conformational Landscapes in Deep Learning Protein Structure Prediction",
+      "link": "https://doi.org/10.2139/ssrn.6169558",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "SSRN Electronic Journal",
+      "authors": [
+        {
+          "key": "adrian gut jannik",
+          "name": "Jannik Adrian Gut"
+        },
+        {
+          "key": "kleinschmidt noah",
+          "name": "Noah Kleinschmidt"
+        },
+        {
+          "key": "lemmin thomas",
+          "name": "Thomas Lemmin"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2694,6 +2848,52 @@
         }
       ],
       "abstract_text": "Aicardi-Goutières syndrome (AGS) is a genetic type I interferon (IFN)-mediated disease characterized by neurological involvement with onset in utero or in childhood. Here, we analyze peripheral blood samples from patients bearing AGS-causing mutations in ADAR1, RNASEH2B or SAMHD1 using single-cell transcriptomics and targeted metabolomics. Using machine-learning approaches and differential gene expression analysis, we identified a loss of transcription factor hypoxia induced factor 1 α (HIF-1α) expression and activity associated with features of a metabolic switch favoring oxidative phosphorylation and glutathione metabolism over glycolysis in monocytes and dendritic cells. Evidences of mitochondrial stress and accumulation of cytosolic double-stranded DNA and RNA were also found. The energy metabolic switch was confirmed at the metabolic level in primary peripheral blood mononuclear cells of AGS patients. Chemical stabilization of HIF-1α using a synthetic drug in in vitro cellular models of AGS, reversed the energy metabolic switch towards glycolysis, attenuated mitochondrial stress, and markedly reduced the IFN response and IP-10 production. We therefore propose that an energy metabolic switch contributes to chronic inflammation in AGS and that targeting this pathway might represent a potential therapeutic approach.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "90856d06b4626efe1ef9f4456c0f7e24572b0bbf8aab02fc02c5c1287510e1c8",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.colsurfb.2026.116165",
+        "https://openalex.org/W7211937597"
+      ],
+      "title": "Programmable crosslinking strategies for the rational design of engineered protein hydrogels",
+      "link": "https://doi.org/10.1016/j.colsurfb.2026.116165",
+      "pdf_url": null,
+      "publication_date": "2026-09-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Colloids and Surfaces B Biointerfaces",
+      "authors": [
+        {
+          "key": "tingyu xu",
+          "name": "Tingyu Xu"
+        },
+        {
+          "key": "jia wei",
+          "name": "Jia Wei"
+        },
+        {
+          "key": "zhang zihan",
+          "name": "Zihan Zhang"
+        },
+        {
+          "key": "haonan xia",
+          "name": "Haonan Xia"
+        },
+        {
+          "key": "shengwang zhou",
+          "name": "Shengwang Zhou"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5464,6 +5664,36 @@
       "curated_categories": []
     },
     {
+      "id": "90ccd6e8d3c0debddec96c075f8c73c11f02f5776ac07dc24386f9ab5a38e71b",
+      "identity_keys": [
+        "https://doi.org/10.17605/osf.io/z8m9t",
+        "https://openalex.org/W7160624123"
+      ],
+      "title": "Cost-Aware Multi-Fidelity Bayesian Optimization with Runtime-Gated Cascading Tiers for Autonomous in silico Dermatology Discovery",
+      "link": "https://doi.org/10.17605/osf.io/z8m9t",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "cheong han woo",
+          "name": "Han Cheong Woo"
+        }
+      ],
+      "abstract_text": "Autonomous virtual-screening pipelines suffer a recurring failure mode: cheap predictors (Boltz-2 affinity, ADMET, xTB conformer scoring) accumulate thousands of candidate scores, yet expensive validation tiers (long molecular dynamics, absolute binding free energy, wet-lab) advance unevenly because the scheduler cannot reason simultaneously about *cost*, *information value*, *gate-policy*, and *runtime availability* of each tier. We describe a cost-aware multi-fidelity Bayesian optimization (BO) scheduler that operates over a unified evidence ledger (789 compound–target rows, 136 columns) and a 7-tier cascade ranging from Boltz-2 cofold (~minutes/pair, GPU) through OpenFold3 + AQAffinity (~minutes/pair, GPU) to wet-lab IC₅₀ / IVRT / IVPT (~₩100k+/sample, CRO). The acquisition score blends expected-improvement on missing axes against a tier-specific cost prior; scientific gates (`scientific_gates.yaml`) and curator directives veto advance for compounds failing safety, novelty, or applicability-domain criteria. To prevent the scheduler from pushing work onto a tier whose runtime is missing, we add a *runtime probe* that resolves each tier's executable, model checkpoint, and dependency before scoring; tiers with missing runtime are flagged as `runtime_blocked` rather than gate-blocked, and stalled work-items (`consecutive_runs ≥ 3` in identical signature) are recorded in a per-run queue-state JSON for downstream observability. We report the scheduler's behavior on a current dermatology workload: 752 compound–target pairs queued for the OpenFold3 advance, top acquisition score 0.937, distributed across 8 protein targets (TYR, DCT, MMP1, TYRP1, LOX, CTGF, TGFB1, PTGS2). The runtime-gate distinction proved decisive: when AQAffinity calibration was incomplete, 124 work-items were correctly held under `mmp1_zinc_pending` rather than spuriously advanced. We discuss the design as a reusable substrate for in silico dermatology pipelines, the gap between cheap-tier saturation and expensive-tier throughput, and the limitations of cost-prior elicitation when tier-specific runtimes evolve. **Keywords**: multi-fidelity Bayesian optimization, cost-aware acquisition, autonomous discovery, evidence ledger, scientific gates, runtime gating, dermatology, OpenFold3, AQAffinity, Boltz-2 --- --- Author: Cheongwoo Han (HanCheongWoo) | ORCID: 0009-0004-4805-8815 Affiliation: Genesis_Medicine Lab, Seoul, Republic of Korea / HAN PREDICT, Inc. / Recover Korean Medicine Clinic License: CC-BY 4.0 Funding: Self-funded by HAN PREDICT, Inc. (no external funding) Conflict of Interest: HCW is founder of HAN PREDICT, Inc. and consults for Recover Korean Medicine Clinic. No external funding for this work. Pre-clinical academic research stage; no commercial product is currently sold based on these results. Status: In silico only. No clinical claim. Wet-lab and IRB pending (filed 2026-04-27). Cross-reference: This work is also archived at Zenodo, DOI 10.5281/zenodo.20018356 (https://zenodo.org/record/20018356). Prior history: First submission. New v0.1 draft 2026-05-03 describing cost-aware multi-fidelity BO scheduler with runtime-gated cascading tiers; submitted to bioRxiv 2026-05-03.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "90d30bdfbc8178e51f4e594863806c4188d370cf9adb0e140f26e21c79963715",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2606.08802",
@@ -6331,6 +6561,60 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "90fd94e29a4befa5df756107a9e2169fab480af8e9f957b5122da30093272335",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.23136",
+        "https://openalex.org/W7222967963"
+      ],
+      "title": "Revisiting Structure-Based Filtering for AI-Designed Antibodies: Opportunities, Limits, and What Matters",
+      "link": "https://doi.org/10.48550/arxiv.2610.23136",
+      "pdf_url": "https://arxiv.org/pdf/2610.23136",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "langzhang liang",
+          "name": "Langzhang Liang"
+        },
+        {
+          "key": "junchen qian",
+          "name": "Junchen Qian"
+        },
+        {
+          "key": "ma xiaojie",
+          "name": "Xiaojie Ma"
+        },
+        {
+          "key": "mingxi zou",
+          "name": "Mingxi Zou"
+        },
+        {
+          "key": "xu yinghui",
+          "name": "Yinghui Xu"
+        },
+        {
+          "key": "xu zenglin",
+          "name": "Zenglin Xu"
+        },
+        {
+          "key": "tianlei ying",
+          "name": "Tianlei Ying"
+        }
+      ],
+      "abstract_text": "AI antibody design can generate far more candidates than can be experimentally tested, making post-generation filtering a central bottleneck. We study whether structure-prediction outputs can help prioritize AI-designed antibodies for experimental validation. We evaluate this problem on 4,184 experimentally characterized antibody-antigen pairs, combining newly generated wet-lab measurements with curated affinity data across diverse antigens and assay settings. We introduce two complementary filtering signals: Regional Interaction Contrast (RIC), which captures support for the predicted antibody-antigen interface, and Non-CDR Antibody Confidence (NAC), which measures antibody confidence outside the CDRs. Across AlphaFold 3, Protenix-v2, and ESMFold2, we find a striking difference in what information matters for filtering. Interface evidence is strongest when comparing candidates designed for different antigens, whereas antibody-level reliability is substantially more informative for ranking candidates within the same antigen. In particular, non-CDR antibody confidence consistently outperforms whole-antibody confidence across predictors, revealing an unexpected source of filtering signal beyond the predicted interface. Finally, we examine the information encoded in the predictor outputs themselves. Predicted structures contain substantial but incomplete binding-related signal, revealing both the opportunities and limits of structure-based filtering: better metrics can exploit current predictors more effectively, but their performance ultimately remains constrained by what those predictors can distinguish.",
       "discovery_sources": [
         {
           "kind": "open_alex",

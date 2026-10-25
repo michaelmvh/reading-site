@@ -837,12 +837,6 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
-        },
-        {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []
@@ -4515,6 +4509,84 @@
       "curated_categories": []
     },
     {
+      "id": "47d4553a5a5b7e0f0e72625140df313f15fed40675b8d8fa97791717dd35565b",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.08.730993",
+        "https://openalex.org/W7164341554"
+      ],
+      "title": "EditorForge: An Active-Site-Aware Framework for Inverse-Folding-Based Protein Redesign",
+      "link": "https://doi.org/10.64898/2026.06.08.730993",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/06/11/2026.06.08.730993.full.pdf",
+      "publication_date": "2026-06-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "anthony chen",
+          "name": "Anthony Chen"
+        },
+        {
+          "key": "jibraan siddiqui",
+          "name": "Jibraan Siddiqui"
+        },
+        {
+          "key": "taucar william",
+          "name": "William Taucar"
+        },
+        {
+          "key": "leo tiralongo",
+          "name": "Leo Tiralongo"
+        },
+        {
+          "key": "maxim tkachenko",
+          "name": "Maxim Tkachenko"
+        },
+        {
+          "key": "andy xu",
+          "name": "Andy Xu"
+        },
+        {
+          "key": "bawa sehaj",
+          "name": "Sehaj Bawa"
+        },
+        {
+          "key": "guo sihan",
+          "name": "Sihan Guo"
+        },
+        {
+          "key": "owen pinska",
+          "name": "Owen Pinska"
+        },
+        {
+          "key": "jonathan rim",
+          "name": "Jonathan Rim"
+        },
+        {
+          "key": "joshua shi",
+          "name": "Joshua Shi"
+        },
+        {
+          "key": "michael wang",
+          "name": "Michael Wang"
+        },
+        {
+          "key": "eason zhao",
+          "name": "Eason Zhao"
+        }
+      ],
+      "abstract_text": "Abstract Inverse-folding models can rapidly generate protein sequences compatible with a supplied backbone, but unconstrained redesign is poorly suited to enzyme and genome-editor-associated domains, where catalytic, substrate-proximal, and conserved structural regions must remain protected. In this paper, we present EditorForge, a modular constraint-and-audit suite for editor-domain protein redesign that wraps fixed-backbone inverse folding with explicit design masks, fixed-position enforcement, active-site-proximity auditing, active-site-shielded regeneration, and downstream structural quality control. Using full-length Moloney murine leukemia virus reverse transcriptase structure 4MH8 (MMLV RT 4MH8) as a demonstration target, EditorForge first restricted redesign to a bounded 25-position envelope while fixing 428 residues. An initial audit detected active-site-proximal failure modes despite fixed-position integrity. Later, the Active Site Shield module then removed five unsafe design positions, replaced them with lower-contact alternatives, and regenerated candidates under stricter constraints. Post Shield Audit evaluated 24 regenerated candidates, all of which satisfied the hard sequence/mask and active-site-shield constraints. For the eight candidates that were selected or returned for structure-prediction/refolding quality control, Enhanced RefoldQC found that all 8 evaluated predicted structures passed the computational structure-QC screen. That said, the selected 8 candidates passed the computational structure-QC screen, with global C α RMSD values of 1.2061–1.5555 °A, active-site C α RMSD values of 0.4098–1.8397 °A, mutation-neighborhood C α RMSD values of 1.3155-1.6848 °A, and average pLDDT-like confidence values of 94.87–95.11. In short, EditorForge provides a reproducible triage layer that converts general inverse-folding output into constrained and editor-specific candidate sets for downstream structural and biological review on top of existing structural prediction tools.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "47d58bd899b4026488e5db57b66696da29f866e5b74d4c8b0d7a8338e84509ac",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10187-2",
@@ -4922,6 +4994,36 @@
         }
       ],
       "abstract_text": "Cyclotron resonance between electromagnetic waves and plasmas may be a universal acceleration phenomenon of charged particles in magnetized planets. Coherent fine structures of whistler-mode waves serve as a signature of nonlinear resonance. However, the fine wave structures at Mercury have remained unknown due to limited spacecraft observations. Here we show that plasma wave observations by the third BepiColombo mission Mercury flyby (2023) have identified discrete whistler-mode emission waves similar to those observed in Earth's magnetosphere. The frequency sweep rates of Mercury's wave chirping tones correspond to those at Earth, based on the scaling law for planetary magnetospheric size. Furthermore, although the spatial coverage on the dayside and dusk sectors is insufficient, the spatial characteristics of Mercury's whistler-mode waves during all the Mercury flybys (2021 to 2025) reveal an asymmetric dawn-to-night sector, which suggests nonlinear growth characterized by the distorted magnetospheric shape. These spatiotemporal features strongly indicate that electron precipitation events occur primarily in the active wave (dawn-side) region through nonlinear resonant mechanisms similar to those in Earth's magnetosphere. This study highlights the potential significance of nonlinear resonant processes in shaping Mercury's unique plasma environment within its small magnetosphere.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "47dd7d9b09ecda72862e979fd24aacf389f61d561440820ea3729eb155c99a5c",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.18260355",
+        "https://openalex.org/W7124260682"
+      ],
+      "title": "Chiral Core Alpha-Z2",
+      "link": "https://doi.org/10.5281/zenodo.18260355",
+      "pdf_url": null,
+      "publication_date": "2026-01-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "halima hussain sayed",
+          "name": "Halima Hussain Sayed Hussain"
+        }
+      ],
+      "abstract_text": "I am Halima Hussain Sayed. I am 14 years old, and I have engineered a potential breakthrough for cancer treatment. My discovery, Alpha-Z2, is a 12-letter peptide designed to stop cancer from \"turning off\" our body’s natural ability to kill tumors. The Data: Power: -1025.05 binding energy (This is the math that proves it works). Safety: 0.00 Toxicity (It is designed to be safe for human cells). The Mission: > I am keeping the sequence encrypted because I want this cure to belong to the world, not just a corporation. I’ve submitted my work to the Thiel Fellowship and I am looking for a professional lab to take this from my laptop to the real world. License: CC BY-NC-ND 4.0 (Non-commercial protection)",
       "discovery_sources": [
         {
           "kind": "open_alex",

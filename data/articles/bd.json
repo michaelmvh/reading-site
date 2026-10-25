@@ -234,6 +234,76 @@
       "curated_categories": []
     },
     {
+      "id": "bd0a917a34a8dad1e290ae060188a14c1118cfc5b75abd41db4513ed386e60d4",
+      "identity_keys": [
+        "https://doi.org/10.1371/journal.pcbi.1014195",
+        "https://openalex.org/W7158043627"
+      ],
+      "title": "MsgaBpred: A B-cell epitope predictor integrating AlphaFold3-predicted structures with multi-scale GCNs and pre-trained language model ESM-C",
+      "link": "https://doi.org/10.1371/journal.pcbi.1014195",
+      "pdf_url": null,
+      "publication_date": "2026-04-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "PLoS Computational Biology",
+      "authors": [
+        {
+          "key": "shanyue wang",
+          "name": "Shanyue Wang"
+        },
+        {
+          "key": "aoyun geng",
+          "name": "Aoyun Geng"
+        },
+        {
+          "key": "luo zhenjie",
+          "name": "Zhenjie Luo"
+        },
+        {
+          "key": "li",
+          "name": "Y Li"
+        },
+        {
+          "key": "xu",
+          "name": "J H Xu"
+        },
+        {
+          "key": "meng yajie",
+          "name": "Yajie Meng"
+        },
+        {
+          "key": "leyi wei",
+          "name": "Leyi Wei"
+        },
+        {
+          "key": "quan zou",
+          "name": "Quan Zou"
+        },
+        {
+          "key": "zhang",
+          "name": "Z D Zhang"
+        },
+        {
+          "key": "tao wang",
+          "name": "Tao Wang"
+        },
+        {
+          "key": "cui feifei",
+          "name": "Feifei Cui"
+        }
+      ],
+      "abstract_text": "Accurate prediction of B-cell epitopes plays a key role in facilitating advancements in vaccines, therapeutics, and diagnostics. In contrast to labor-intensive experimental approaches, computational strategies provide a more economical and efficient means of identifying potential epitopes. Existing methods are often limited by their reliance on experimentally resolved protein structures or by the use of lower-accuracy predicted structures. Sequence-based approaches, while fast, largely fail to capture the 3D spatial context essential for conformational epitopes. With the breakthroughs achieved by AlphaFold3 in predicting protein structures, we present MsgaBpred, the model to apply AlphaFold3-derived structures to B-cell epitope identification. Given only a protein sequence, our model employs a multi-scale graph convolutional network and additive attention to capture complex structural dependencies without relying on experimentally determined structures. The multi-scale design allows for effective modeling of both local and global contexts by aggregating information across different neighborhood ranges. Additionally, we leverage ESM-C, a more expressive protein language model than ESM-2, to enhance feature representation for B-cell epitope prediction. Extensive evaluations across multiple benchmark datasets demonstrate that MsgaBpred achieves competitive and robust performance; notably, it yields a statistically significant improvement in AUC compared to existing state-of-the-art methods. Moreover, the modular and scalable architecture of MsgaBpred holds promise for broader applications, including the structural analysis of other biomolecular entities such as nucleic acids and carbohydrates.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bd0afc8360bb9d97ad59b1c50b173a843319b6bac4340556c53943d25e3a3fd4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67428-7",
@@ -1468,6 +1538,76 @@
         }
       ],
       "abstract_text": "Bacteria exist in competitive and rapidly changing environments in which the nature of future threats cannot be easily predicted. Streptomyces coelicolor produces three antibacterial umbrella particles that harbor distinct polymorphic toxin domains and an overlapping set of six diversified lectins. Here, we show that the exquisite specificity of umbrella particles derives from lectin-mediated species-specific binding to previously undescribed hypervariable surface glycoconjugates. A cryo-electron microscopy (cryo-EM) structure of one such lectin in complex with its oligosaccharide substrate defines the molecular basis for targeting through the coordinated recognition of multiple glycan features. Biochemical and genetic studies of several target species, in conjunction with lectin-swapping experiments, support a model whereby S. coelicolor umbrella toxin diversification at the levels of lectin composition and toxin polymorphism represents a unique, two-tiered bet-hedging strategy. Bioinformatic analyses support this as a means by which the unusual architecture of umbrella toxins offers Streptomyces a generalizable strategy to antagonize an unpredictable array of competitors.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "bd57e096e217f7b1f8391628a0386554c36324cd6b229d920d7e03da52214157",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag542",
+        "https://openalex.org/W7220969316"
+      ],
+      "title": "Surf2Spot: a surface-informed geometry-aware model for predicting partner-independent binder and nanobody design hotspots",
+      "link": "https://doi.org/10.1093/bib/bbag542",
+      "pdf_url": null,
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "anwen zhao",
+          "name": "Anwen Zhao"
+        },
+        {
+          "key": "li yu",
+          "name": "Yu Li"
+        },
+        {
+          "key": "wang zixuan",
+          "name": "Zixuan Wang"
+        },
+        {
+          "key": "tianhao wu",
+          "name": "Tianhao Wu"
+        },
+        {
+          "key": "fu ran",
+          "name": "Ran Fu"
+        },
+        {
+          "key": "lou yuxuan",
+          "name": "Yuxuan Lou"
+        },
+        {
+          "key": "xu yanfen",
+          "name": "Yanfen Xu"
+        },
+        {
+          "key": "han xuliang",
+          "name": "Xuliang Han"
+        },
+        {
+          "key": "wang wenying",
+          "name": "Wenying Wang"
+        },
+        {
+          "key": "jun yan",
+          "name": "Jun Yan"
+        },
+        {
+          "key": "wang xiangfeng",
+          "name": "Xiangfeng Wang"
+        }
+      ],
+      "abstract_text": "Protein-protein interactions (PPIs) and nanobody-antigen interactions (NAIs) play essential roles in cellular function, yet potential hotspot prediction remains challenging. We present Surf2Spot, a deep learning framework that integrates sequence embeddings, structural features, and protein surface properties to predicts surface regions with a high propensity to contain PPI hotspot residues. Unlike complex-prediction approaches that require predefined binding partners, Surf2Spot identifies interaction-prone regions directly from target sequences or predicted monomeric structures, enabling partner-independent hotspot prediction. By jointly modeling structural and physicochemical determinants, Surf2Spot achieves strong hotspot prediction performance on curated PPI and NAI datasets, outperforming existing methods in terms of F1-scores and the area under the precision-recall curve (AUPRC). Case studies on NbPDS1 and VdPDA1 demonstrate that Surf2Spot can identify putative hotspot residues within functional domains that are enriched in experimentally validated binder designs. For the tested targets, Surf2Spot-guided designs (with RFdiffusion and BindCraft) yielded a four-fold increase in successful design throughput and enhanced binding affinities compared to baseline strategies in a target-dependent manner. These results establish Surf2Spot as a powerful tool for hotspot discovery and rational protein engineering.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3217,6 +3357,60 @@
       "curated_categories": []
     },
     {
+      "id": "bd929effadb1421ec0e92333e080f1c309fb2f460874799728dd53b53585caf1",
+      "identity_keys": [
+        "https://doi.org/10.64898/2025.12.09.693225",
+        "https://openalex.org/W4417185182"
+      ],
+      "title": "Engineering a Covalent Linkage into a Dimeric De Novo Enzyme Reveals a Novel Life-Sustaining Mechanism",
+      "link": "https://doi.org/10.64898/2025.12.09.693225",
+      "pdf_url": null,
+      "publication_date": "2025-12-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "guanyu liao",
+          "name": "Guanyu Liao"
+        },
+        {
+          "key": "sha tao",
+          "name": "Sha Tao"
+        },
+        {
+          "key": "mina nagahara",
+          "name": "Mina Nagahara"
+        },
+        {
+          "key": "kodai kurihara",
+          "name": "Kodai Kurihara"
+        },
+        {
+          "key": "koji umezawa",
+          "name": "Koji Umezawa"
+        },
+        {
+          "key": "arai ryoichi",
+          "name": "Ryoichi Arai"
+        },
+        {
+          "key": "hecht michael",
+          "name": "Michael H. Hecht"
+        }
+      ],
+      "abstract_text": "ABSTRACT Designing novel proteins that share no homology with natural sequences, but which nonetheless provide life sustaining functions, is an important goal for synthetic biology. Towards this goal, we previously reported Syn-F4, the first de novo enzyme capable of catalyzing a life-sustaining reaction, both in vitro and in vivo . Syn-F4 catalyzes hydrolysis of the siderophore, ferric enterobactin, thereby releasing iron and enabling growth in iron-limited media of an otherwise inviable Δ fes strain of Escherichia coli . Although Syn-F4 provides a direct enzymatic replacement of the natural ferric enterobactin esterase encoded by Fes, it has a dramatically different structure and enzymatic mechanism than the natural Fes enzyme. The novel Syn-F4 enzyme forms a 4-helix bundle, comprising a homodimer of two α-helical hairpins. Here we describe the engineering of a covalent peptide linkage into the homodimer to generate a single chain 4-helix bundle. As expected, the resulting linked protein (Syn-F4-Link) also rescued Δ fes cells in iron-limited media. Moreover, X-ray crystallography revealed a 3D structure similar to the parental homodimer. Surprisingly, however, the linked protein was not enzymatically active. Instead, Syn-F4-Link rescues Δ fes cells by upregulating biosynthesis of the enterobactin siderophore thereby enabling assimilation of sufficient iron to sustain cell growth. These findings demonstrate that two very similar de novo proteins can sustain cell growth using dramatically different biological mechanisms.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bd9ccd19c1e227a7d2ebd35f188300d76fcb467917f7f311a2556171ee322df6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70068-0",
@@ -4009,6 +4203,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.05.10.720506v2",
         "https://doi.org/10.64898/2026.05.10.720506",
+        "https://www.biorxiv.org/content/early/2026/05/13/2026.05.10.720506.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/24/2026.05.10.720506.source.xml"
       ],
       "title": "BRIDGE prioritizes human and mouse gene correspondences using functional and disease evidence",
@@ -4621,6 +4816,36 @@
         }
       ],
       "abstract_text": "A major gap in our understanding of animal development is how adult body plans arise in animals with indirect development, where adults emerge from the transformation of a distinct larval form during metamorphosis. We address this question by examining cellular changes in the enteropneust hemichordate Schizocardium californicum, a species with a complex lifecycle and dramatic metamorphosis. Employing whole-body single-cell RNA sequencing, we chart the cellular composition and transcriptional dynamics of larval, metamorphic, and adult stages. Our tissue-level atlas reveals that ectodermal and endodermal cell types in larvae and adults occupy distinct transcriptional spaces, showing greater similarity to other cell types within the same life stage than to their counterparts in the opposite stage. In contrast, mesodermal cell types from both larvae and adults cluster closely together, indicating conserved transcriptional profiles. These findings demonstrate that the extensive morphological reorganization during metamorphosis is accompanied by broad shifts in transcriptional identity and reveal life-history stage as a major organizing axis of cellular state during the larva-to-adult transition.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "bdea80a4f03042377e2589a7a41ced937c3edc89774b7e1f656371b415b3722d",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.20018355",
+        "https://openalex.org/W7160049659"
+      ],
+      "title": "Cost-Aware Multi-Fidelity Bayesian Optimization with Runtime-Gated Cascading Tiers for Autonomous in silico Dermatology Discovery",
+      "link": "https://doi.org/10.5281/zenodo.20018355",
+      "pdf_url": null,
+      "publication_date": "2026-05-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "cheongwoo han",
+          "name": "Cheongwoo Han"
+        }
+      ],
+      "abstract_text": "Autonomous virtual-screening pipelines suffer a recurring failure mode: cheap predictors (Boltz-2 affinity, ADMET, xTB conformer scoring) accumulate thousands of candidate scores, yet expensive validation tiers (long molecular dynamics, absolute binding free energy, wet-lab) advance unevenly because the scheduler cannot reason simultaneously about cost, information value, gate-policy, and runtime availability of each tier. We describe a cost-aware multi-fidelity Bayesian optimization (BO) scheduler that operates over a unified evidence ledger (789 compound–target rows, 136 columns) and a 7-tier cascade ranging from Boltz-2 cofold (~minutes/pair, GPU) through OpenFold3 + AQAffinity (~minutes/pair, GPU) to wet-lab IC₅₀ / IVRT / IVPT (~₩100k+/sample, CRO). The acquisition score blends expected-improvement on missing axes against a tier-specific cost prior; scientific gates (scientific_gates.yaml) and curator directives veto advance for compounds failing safety, novelty, or applicability-domain criteria. To prevent the scheduler from pushing work onto a tier whose runtime is missing, we add a runtime probe that resolves each tier's executable, model checkpoint, and dependency before scoring; tiers with missing runtime are flagged as runtime_blocked rather than gate-blocked, and stalled work-items (consecutive_runs ≥ 3 in identical signature) are recorded in a per-run queue-state JSON for downstream observability. We report the scheduler's behavior on a current dermatology workload: 752 compound–target pairs queued for the OpenFold3 advance, top acquisition score 0.937, distributed across 8 protein targets (TYR, DCT, MMP1, TYRP1, LOX, CTGF, TGFB1, PTGS2). The runtime-gate distinction proved decisive: when AQAffinity calibration was incomplete, 124 work-items were correctly held under mmp1_zinc_pending rather than spuriously advanced. We discuss the design as a reusable substrate for in silico dermatology pipelines, the gap between cheap-tier saturation and expensive-tier throughput, and the limitations of cost-prior elicitation when tier-specific runtimes evolve. Keywords: multi-fidelity Bayesian optimization, cost-aware acquisition, autonomous discovery, evidence ledger, scientific gates, runtime gating, dermatology, OpenFold3, AQAffinity, Boltz-2 ---",
       "discovery_sources": [
         {
           "kind": "open_alex",

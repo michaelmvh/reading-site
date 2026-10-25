@@ -3707,6 +3707,52 @@
       "curated_categories": []
     },
     {
+      "id": "6da397ae8ce0bd4856d92148222d19d74a0fcbb7b353db74684605ae8055100b",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag277",
+        "https://openalex.org/W7162936063"
+      ],
+      "title": "InversePep: Diffusion-driven structure-based inverse folding for functional peptides",
+      "link": "https://doi.org/10.1093/bib/bbag277",
+      "pdf_url": null,
+      "publication_date": "2026-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "chilakamarri kashyap srinivas",
+          "name": "Srinivas Kashyap Chilakamarri"
+        },
+        {
+          "key": "kasturi reddy sneha",
+          "name": "Sneha Reddy Kasturi"
+        },
+        {
+          "key": "pranav reddy sai yerrabandla",
+          "name": "Sai Pranav Reddy Yerrabandla"
+        },
+        {
+          "key": "gogte sanjana",
+          "name": "Sanjana Gogte"
+        },
+        {
+          "key": "kondaparthi vani",
+          "name": "Vani Kondaparthi"
+        }
+      ],
+      "abstract_text": "Designing functional peptides with specific structural and biochemical properties is critical for applications in protein engineering and therapeutic discovery. However, most peptide design approaches rely on evolutionary or local sequence optimization methods, which are limited when adapting to peptides' shorter length, high conformational flexibility, and unique physicochemical constraints. While recent structure-based inverse folding models have shown success for proteins, these models often underperform on peptides because sequence recovery alone is not a reliable indicator of stability or foldability in short, flexible backbones. To address this challenge, we introduce InversePep, a generative diffusion model for structure-based peptide inverse folding. InversePep learns the conditional distribution of sequences that can adopt a given backbone conformation, enabling direct generation of peptides tailored to target structural geometries. The framework integrates a geometric graph neural network to encode 3D backbone features with a Transformer-based sequence refinement module that iteratively denoises candidate sequences during diffusion. Trained on a diverse set of peptide backbones sourced from Propedia and SATPdb, InversePep effectively captures structural and biochemical diversity across peptide families. In systematic evaluations on held-out peptide structures and the PepBDB benchmark dataset, InversePep achieves Mean TM-SCORE (0.51), Median TM-SCORE (0.483), Mean RMSD-Simple (1.02), Median RMSD-Simple (0.97), Mean RMSD-Common (3.13), Median RMSD-Common (2.16), outperforming ProteinMPNN, and ESM-IF1 in generating geometry-consistent peptide sequences. In-silico folding analyses confirm that sampled peptides reliably adopt the target conformations. These results highlight InversePep's capability for designing structurally stable and sequence-diverse peptides, demonstrating its potential in antimicrobial peptide discovery, peptide therapeutics, and molecular probe development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6da3ca04eaf310e8b5ea49bf9b1937c7de3af814c6eae1c50215b7f188244d98",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71209-1",
@@ -3916,6 +3962,36 @@
         }
       ],
       "abstract_text": "Synthetic rubber waste poses a growing environmental challenge due to its cross-linked, non-recyclable nature. This Perspective examines emerging post-polymerization modification strategies for linear polybutadiene and vulcanized rubber, spanning catalytic, metal-free, and catalyst-free approaches, and evaluates their alignment with Green and Circular Chemistry principles. By coupling sustainability metrics with assessments of technological readiness, we highlight current limitations and opportunities for the real-world implementation of these approaches. Looking ahead, we outline how integrating mechanochemistry, machine learning, and life-cycle assessment can enable scalable, low-impact transformations that recast vulcanized polybutadiene from waste to resource, paving the way toward a circular elastomer framework.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6dae3f8c44b9d0d74c03355c12df0feb23712ddc4ba9f68e3642d804a3a97047",
+      "identity_keys": [
+        "https://doi.org/10.34740/kaggle/w/111429",
+        "https://openalex.org/W7214973385"
+      ],
+      "title": "PLM-Guided Masked Resampling for Antimicrobial Peptide Design",
+      "link": "https://doi.org/10.34740/kaggle/w/111429",
+      "pdf_url": null,
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Kaggle",
+      "authors": [
+        {
+          "key": "hitwhdata",
+          "name": "hitwhdata"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

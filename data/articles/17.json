@@ -982,6 +982,44 @@
       "curated_categories": []
     },
     {
+      "id": "172f750e8ce563f4624bec6a89a93a9ab123b6100d2a8e2b51761b97c3cd0229",
+      "identity_keys": [
+        "https://doi.org/10.1002/1873-3468.70430",
+        "https://openalex.org/W7204232673"
+      ],
+      "title": "Engineering peptides into antibodies—opportunities and strategies for therapeutic innovation",
+      "link": "https://doi.org/10.1002/1873-3468.70430",
+      "pdf_url": null,
+      "publication_date": "2026-08-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "FEBS Letters",
+      "authors": [
+        {
+          "key": "jinling wang",
+          "name": "Jinling Wang"
+        },
+        {
+          "key": "romaniuk ruslana",
+          "name": "Ruslana Romaniuk"
+        },
+        {
+          "key": "hristo svilenov",
+          "name": "Hristo L. Svilenov"
+        }
+      ],
+      "abstract_text": "Peptides and antibodies occupy complementary therapeutic niches. Peptides offer compact size and high-affinity recognition of difficult targets, whereas antibodies provide exquisite specificity, long serum half-life, and effector functions. Here we review strategies that merge these modalities by engineering peptides into immunoglobulins and antibody fragments. We discuss peptide grafting into hypervariable and framework loops, terminal fusion to antibody chains, Fc-peptide fusion proteins, and bioconjugation approaches. Across these formats, we examine examples that illustrate the importance of insertion site, peptide topology, and linker design for folding, activity, and developability. We highlight how antibody fusion and conjugation with natural and engineered peptides can confer novel target binding, conditional activation, altered biodistribution, improved pharmacokinetics, or intracellular delivery, and we discuss how disulfide-rich and macrocyclic peptides have enriched the design space. Finally, we also point out key translational challenges, including manufacturability, stability, heterogeneity, and immunogenicity, and propose that advances in protein design and chemical bioconjugation will enable next-generation therapeutics at the interface of antibodies and peptides.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "17322e409a18a54afbc9260dc555ae6d1fe41f3bf96cb79109f04790804c3c25",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72426-4",
@@ -1443,6 +1481,40 @@
         }
       ],
       "abstract_text": "During photosynthetic water oxidation, the Mn4Ca cluster in Photosystem II progresses through five intermediate Si (i = 0–4) states. X-ray crystallography studies have reported the insertion of one new O ligand during the formation of the S3 state, but recent studies question the presence of this additional ligand based on cryo-EM and earlier room-temperature crystallography data. There is also controversy about whether the O-O bond interaction already occurs in the S3 state or in the subsequent S3 to S0 transition. Here we report conventional high-resolution data for the S1, S2, and S3 states to a resolution of ~1.9 Å, and anomalous diffraction data at two energies (9.5 keV and 7 keV), that was used to model the Mn positions, followed by determination of oxygen positions using the high-resolution maps. We show that the new oxygen atom, OX (or O6), in the S3 state is observable as a distinct peak without any restraints, confirming its ligation to Mn1 and Ca. The OX-O5 distance is ~2.1 Å, supporting no strong interaction between them in the S3 state, suggesting that if this is the O-O bond formation site, it is formed during the S3 to S0 transition initiated by the final oxidation of the cluster. Here, the authors report the S3 state structure of Photosystem II solved with X-ray crystallography at two different energies using an XFEL. The results provide evidence for an oxygen ligand, OX (or O6) and do not support O-O bond formation in the S3 state.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1738270405fbd81354470333bbded2ab5db8a4da5426b205d95a7a5a792896c8",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.07.736933",
+        "https://openalex.org/W7168053370"
+      ],
+      "title": "Benchmarking AI/ML-Driven PTIm-mAb Across Eleven FDA-Approved Bispecific Antibodies: A Cross-Tool Validation Study",
+      "link": "https://doi.org/10.64898/2026.07.07.736933",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/10/2026.07.07.736933.full.pdf",
+      "publication_date": "2026-07-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "addepalli murali",
+          "name": "Murali K. Addepalli"
+        },
+        {
+          "key": "mahesh prattipati",
+          "name": "Mahesh Prattipati"
+        }
+      ],
+      "abstract_text": "Abstract Background Late-stage attrition in therapeutic antibody discovery is dominated by developability liabilities: aggregation, polyspecificity, charge-driven non-specific binding, and chain-mispairing artefacts. Bispecific antibodies amplify these risks because each additional binding arm adds a new biophysical envelope that must be jointly satisfied. The existing in-silico ecosystem addresses individual axes of this problem (humanization, structure prediction, single-metric developability scoring) but few platforms integrate them end-to-end. PTIm-mAb (SANSHI Bio Solutions Pvt Ltd) is a multi-objective, AI/ML-driven antibody design platform that jointly optimizes sequence liabilities, surface aggregation, charge balance, humanness, and predicted binding affinity, and recommends a bispecific architecture in a single workflow. Methods We applied PTIm-mAb to the published sequences of eleven FDA-approved bispecific antibodies using the platform’s default-parameter Pareto-acceptance optimization loop, run to convergence or to the internal iteration ceiling, with no human curation between the platform run and the external profiler. Both wild-type and platform-optimized sequences were profiled independently with three publicly available developability tools: Aggrescan, CamSol, and the Therapeutic Antibody Profiler (TAP). Paired-sample tests (Wilcoxon signed-rank, exact binomial sign test, McNemar exact test) evaluated the direction and significance of changes. Results Across the 17 evaluable paired arms profiled by TAP, PTIm-mAb cleared four wild-type CDR-vicinity Positive Charge Patch (PPC) flags Blinatumomab-Arm1 (1.9952 → 0.6885), Mosunetuzumab-Arm1 (1.3391 → 0.0568), Linvoseltamab-Arm2 (0.8060 → 0.0), and the headline Elranatamab-Arm1 case (1.7981 → 0.5799) achieved without trading off any other in-range metric and corroborated by Aggrescan and CamSol on the same arm. Total CDR length was significantly shortened across the cohort (Wilcoxon two-sided p = 0.0075, one-sided p = 0.0037, effect size r = 0.65): significant improvement on the metric most directly under the optimizer’s control. The directional shift on Aggrescan integrated aggregation propensity was also significant by sign test (24 of 36 chains improved, 2 unchanged, 10 worsened; p = 0.021). On the already-clean Zenocutuzumab profile the optimizer identified residual headroom (PPC 0.1191 → 0.0; SFvCSP 12.5 → 6.0), demonstrating that the platform’s value extends to candidates that pass all flags. Three results: Teclistamab Arm-1, Emicizumab, and Talquetamab Arm-2 did not clear all flags and are presented as candidates for iterative re-invocation of the platform pipeline on the optimized output (planned follow-up; Section 5). The remaining TAP metrics (PSH, PPC magnitude, PNC, |SFvCSP|) trended in the improvement direction without reaching significance in this cohort, a pattern consistent with the expected statistical signature of a multi-objective optimizer applied to molecules already within the clinical-stage envelope. The platform reported a mean of 12.8 months and USD 723,889 of computational front-loading per project across the nine-project cohort (range 9.0–16.0 months; USD 510,000–960,000); the underlying cost assumptions are tabulated in Supplementary Table S3. Conclusion PTIm-mAb produces externally verifiable, literature-aligned improvements on the metrics most directly under its control, clears CDR-vicinity charge-patch flags on a meaningful fraction of flagged candidates, and front-loads substantial design-iteration work. The cohort-level pattern is consistent with a calibrated multi-objective optimizer operating at the edge of detectable headroom on a deliberately hard benchmark. We position the platform as an early-stage triage and lead-optimization layer in bispecific antibody discovery. For molecules whose first-pass result does not clear all flags, iterative re-invocation of the pipeline on the optimized output is a natural follow-up direction.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2189,6 +2261,52 @@
         }
       ],
       "abstract_text": "Abstract Emerging evidence has shown that microbiota dysbiosis and aberrant bile acid (BA) profiles correlates with disease progression. However, it’s role in psoriasis progression remains unclear. This study elucidates dysregulated BA metabolism in psoriasis patients and imiquimod-treated mice, coupled with increased expression of the farnesoid X receptor (FXR) in keratinocyte. FXR activation with glycochenodeoxycholic acid (GCDCA) ameliorates psoriatic symptoms by enhancing lipid metabolism, particularly fatty acid oxidation. Mechanistically, the FXR-mediated enhancement of antioxidant capacity by upregulating NAD(P)H quinone dehydrogenase 1 (NQO1) expression underlies its regulatory role in lipid metabolism, offering a new insight into FXR’s role in oxidation stress and lipid metabolism. Conversely, keratinocyte-specific FXR ablation exacerbates psoriasis severity. Gut microbiota dysbiosis is further identified as a pivotal contributor to perturbed the profile of BA in psoriasis. These findings establish the gut microbiota-BA-FXR axis as a critical pathway in psoriasis pathogenesis and suggest probiotics/prebiotics as viable therapeutic interventions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1758126af3a99e0a4649c71bf5d5594e1d29948f03bbdeed007bd94eee37e629",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2609.05818",
+        "https://openalex.org/W7212074359"
+      ],
+      "title": "Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools",
+      "link": "https://doi.org/10.48550/arxiv.2609.05818",
+      "pdf_url": "https://arxiv.org/pdf/2609.05818",
+      "publication_date": "2026-09-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "bryce cai",
+          "name": "Bryce Cai"
+        },
+        {
+          "key": "geetha jeyapragasan",
+          "name": "Geetha Jeyapragasan"
+        },
+        {
+          "key": "nedungadi samira",
+          "name": "Samira Nedungadi"
+        },
+        {
+          "key": "jake yukich",
+          "name": "Jake Yukich"
+        },
+        {
+          "key": "donoughe seth",
+          "name": "Seth Donoughe"
+        }
+      ],
+      "abstract_text": "We introduce ABLE, a benchmark for evaluating LLM agents' ability to use biological AI models (BAIMs), such as ProteinMPNN and AlphaFold3, in dual-use protein design workflows. ABLE assesses agent performance through a set of tasks spanning structure retrieval, sequence generation, and design validation. We evaluate 15 frontier models and find that seven refuse all tasks, while the remaining models exhibit substantial performance differences. Claude Sonnet 4 and Gemini 3 Pro achieve the highest scores across information retrieval, tool selection, and tool use. We further compare model performance on a subset of tasks against an expert human baseline. Our results suggest that current LLMs can substantially lower barriers to protein design, but remain inconsistent in planning, strategy generation, and integrating biological knowledge with tool use.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3536,6 +3654,48 @@
       "curated_categories": []
     },
     {
+      "id": "1783354018e0bb9bc2dcf26f7a095d4f8e6774924572774c8a4d151c5f52eac2",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2603.10302",
+        "https://openalex.org/W7135091315"
+      ],
+      "title": "How to make the most of your masked language model for protein engineering",
+      "link": "https://doi.org/10.48550/arxiv.2603.10302",
+      "pdf_url": "https://arxiv.org/pdf/2603.10302",
+      "publication_date": "2026-03-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "calvin mccarter",
+          "name": "Calvin McCarter"
+        },
+        {
+          "key": "bhattacharya nick",
+          "name": "Nick Bhattacharya"
+        },
+        {
+          "key": "ober sebastian",
+          "name": "Sebastian W. Ober"
+        },
+        {
+          "key": "elliott hunter",
+          "name": "Hunter Elliott"
+        }
+      ],
+      "abstract_text": "A plethora of protein language models have been released in recent years. Yet comparatively little work has addressed how to best sample from them to optimize desired biological properties. We fill this gap by proposing a flexible, effective sampling method for masked language models (MLMs), and by systematically evaluating models and methods both in silico and in vitro on actual antibody therapeutics campaigns. Firstly, we propose sampling with stochastic beam search, exploiting the fact that MLMs are remarkably efficient at evaluating the pseudo-perplexity of the entire 1-edit neighborhood of a sequence. Reframing generation in terms of entire-sequence evaluation enables flexible guidance with multiple optimization objectives. Secondly, we report results from our extensive in vitro head-to-head evaluation for the antibody engineering setting. This reveals that the choice of sampling method can have a substantial impact, motivating future research into this under-explored area.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "17887f9e016eac1da793f46b45b9c61ae3d3d98f3616a6f37b9ac7486b4ea078",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77650-6",
@@ -4086,6 +4246,72 @@
       "curated_categories": []
     },
     {
+      "id": "1798aac6d7cc28d7cbc22bb2582544210a4ccc675ba13f1683f37bd3b0646875",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.biortech.2026.134897",
+        "https://openalex.org/W7161638391"
+      ],
+      "title": "Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli",
+      "link": "https://doi.org/10.1016/j.biortech.2026.134897",
+      "pdf_url": null,
+      "publication_date": "2026-05-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioresource Technology",
+      "authors": [
+        {
+          "key": "dai xuehui",
+          "name": "Xuehui Dai"
+        },
+        {
+          "key": "jiangming zhu",
+          "name": "Jiangming Zhu"
+        },
+        {
+          "key": "wu zheyu",
+          "name": "Zheyu Wu"
+        },
+        {
+          "key": "guangyi wang",
+          "name": "Guangyi Wang"
+        },
+        {
+          "key": "guangyi wang",
+          "name": "Guangyi Wang"
+        },
+        {
+          "key": "yanchen zhang",
+          "name": "Yanchen Zhang"
+        },
+        {
+          "key": "chenfei tian",
+          "name": "Chenfei Tian"
+        },
+        {
+          "key": "ren yuhong",
+          "name": "Yuhong Ren"
+        },
+        {
+          "key": "haili liu",
+          "name": "Haili Liu"
+        },
+        {
+          "key": "wang yong",
+          "name": "Yong Wang"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "179c2bb7f09fc9fc3319c7033766e57622e506beba62c5fe4f3f1c5a9378c555",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74517-8",
@@ -4395,6 +4621,512 @@
         "1. Reviews",
         "1.1 De novo protein design"
       ]
+    },
+    {
+      "id": "17ab61fd8467520aa8743938dfdd75a13ee406f5823edbe3fb74dcadee5363f2",
+      "identity_keys": [
+        "https://doi.org/10.1039/d6sc01279e",
+        "https://openalex.org/W7160131178"
+      ],
+      "title": "MAPLE: a machine-learning force-field-native platform for automated reaction modeling and enzyme design",
+      "link": "https://doi.org/10.1039/d6sc01279e",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Science",
+      "authors": [
+        {
+          "key": "wang xujian",
+          "name": "Xujian Wang"
+        },
+        {
+          "key": "sun zeyu",
+          "name": "Zeyu Sun"
+        },
+        {
+          "key": "yilu zhang",
+          "name": "Yilu Zhang"
+        },
+        {
+          "key": "asam carlo",
+          "name": "Carlo Asam"
+        },
+        {
+          "key": "ruzhan zhu",
+          "name": "Ruzhan Zhu"
+        },
+        {
+          "key": "li lu wan",
+          "name": "Wan-Lu Li"
+        },
+        {
+          "key": "junmei wang",
+          "name": "Junmei Wang"
+        }
+      ],
+      "abstract_text": "Machine-learning force fields (MLFFs) are reshaping computational chemistry and biology by delivering near-quantum mechanical accuracy at a computational cost comparable to conventional force fields, enabling applications in biomolecular simulation, catalysis, and materials science. However, despite these advances, a unified and automated computational platform enabling the broader application of MLFFs is still lacking. Here, we present MAPLE (MAchine learning Potential for Landscape Exploration), a computational toolkit specially developed for MLFF-based molecular modeling, featuring a tailored software framework and parallelized algorithms for large-scale and versatile molecular modeling tasks. We demonstrated the robustness and usability of MAPLE through systematic benchmarking of state-of-the-art reactive MLFFs and applications to multiple biocatalytic scenarios, highlighting its capability for fast yet accurate simulation of catalytic reactions. By integrating accurate and efficient MLFFs with parallelized algorithms in a highly optimized and flexible software framework, MAPLE serves as a next-generation, physically informed, machine-learning-driven molecular modeling platform with broad applicability to rational catalyst design and drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "17b7f8b89e37e70d8604e844f7d200b1e4ddd45fcd9ac8773b8ca30512871f01",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2022-07.2547642/3842732",
+        "https://doi.org/10.25582/data.2022-07.2547689/3842733",
+        "https://doi.org/10.25582/data.2022-07.2547720/3842734",
+        "https://doi.org/10.25582/data.2022-07.2548692/3842735",
+        "https://doi.org/10.25582/data.2022-07.2548693/3842736",
+        "https://doi.org/10.25582/data.2022-07.2548904/3842737",
+        "https://doi.org/10.25582/data.2022-07.2549843/3841619",
+        "https://doi.org/10.25582/data.2022-07.2552221/3840989",
+        "https://doi.org/10.25582/data.2022-07.2558326/3838306",
+        "https://doi.org/10.25582/data.2022-07.2558328/3838307",
+        "https://doi.org/10.25582/data.2022-07.2558329/3838308",
+        "https://doi.org/10.25582/data.2022-07.2558330/3838309",
+        "https://doi.org/10.25582/data.2022-07.2558331/3838310",
+        "https://doi.org/10.25582/data.2022-07.2558332/3838311",
+        "https://doi.org/10.25582/data.2022-07.2558333/3838312",
+        "https://doi.org/10.25582/data.2022-07.2558334/3838313",
+        "https://doi.org/10.25582/data.2022-07.2558335/3838314",
+        "https://doi.org/10.25582/data.2022-07.2558336/3838315",
+        "https://doi.org/10.25582/data.2022-07.2558337/3838316",
+        "https://doi.org/10.25582/data.2022-07.2558339/3838317",
+        "https://doi.org/10.25582/data.2022-07.2558340/3838318",
+        "https://doi.org/10.25582/data.2022-07.2558344/3838319",
+        "https://doi.org/10.25582/data.2022-07.2558345/3838320",
+        "https://doi.org/10.25582/data.2022-07.2559557/3837300",
+        "https://doi.org/10.25582/data.2022-07.2559931/3837301",
+        "https://doi.org/10.25582/data.2022-07.2561607/3837302",
+        "https://doi.org/10.25582/data.2022-07.2561609/3837303",
+        "https://openalex.org/W7213613899"
+      ],
+      "title": "Data for EMSL Project 50414 from July 2022",
+      "link": "https://doi.org/10.25582/data.2022-07.2548693/3842736",
+      "pdf_url": null,
+      "publication_date": "2026-09-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "17b904a0b4b1612c58625e4b3956cdcddb547a1335f2136329a7084e039a228e",
@@ -5436,6 +6168,52 @@
       "curated_categories": []
     },
     {
+      "id": "17ce17bbe9f4a5879fc500fe9ec36f267c91e0442701a1af8d4cc02ee278de23",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2603.26378",
+        "https://openalex.org/W7143518228"
+      ],
+      "title": "Generative Modeling in Protein Design: Neural Representations, Conditional Generation, and Evaluation Standards",
+      "link": "https://doi.org/10.48550/arxiv.2603.26378",
+      "pdf_url": "https://arxiv.org/pdf/2603.26378",
+      "publication_date": "2026-03-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "hansaja senura wanasekara",
+          "name": "Senura Hansaja Wanasekara"
+        },
+        {
+          "key": "duong minh nguyen",
+          "name": "Minh-Duong Nguyen"
+        },
+        {
+          "key": "liu xiaochen",
+          "name": "Xiaochen Liu"
+        },
+        {
+          "key": "nguyen tran",
+          "name": "Tran, Nguyen H."
+        },
+        {
+          "key": "ken tye yong",
+          "name": "Ken‐Tye Yong"
+        }
+      ],
+      "abstract_text": "Generative modeling has become a central paradigm in protein research, extending machine learning beyond structure prediction toward sequence design, backbone generation, inverse folding, and biomolecular interaction modeling. However, the literature remains fragmented across representations, model classes, and task formulations, making it difficult to compare methods or identify appropriate evaluation standards. This survey provides a systematic synthesis of generative AI in protein research, organized around (i) foundational representations spanning sequence, geometric, and multimodal encodings; (ii) generative architectures including $\\mathrm{SE}(3)$-equivariant diffusion, flow matching, and hybrid predictor-generator systems; and (iii) task settings from structure prediction and de novo design to protein-ligand and protein-protein interactions. Beyond cataloging methods, we compare assumptions, conditioning mechanisms, and controllability, and we synthesize evaluation best practices that emphasize leakage-aware splits, physical validity checks, and function-oriented benchmarks. We conclude with critical open challenges: modeling conformational dynamics and intrinsically disordered regions, scaling to large assemblies while maintaining efficiency, and developing robust safety frameworks for dual-use biosecurity risks. By unifying architectural advances with practical evaluation standards and responsible development considerations, this survey aims to accelerate the transition from predictive modeling to reliable, function-driven protein engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "17d081dc15e0c384efa543d11bc726ccc926a0ad57f976253067ec842439ac97",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00228-1",
@@ -5860,6 +6638,12 @@
       ],
       "abstract_text": "Abstract Proteins underpin essential biological functions across all kingdoms of life. The capacity to design novel proteins with tailored activities holds transformative potential for biotechnology, medicine, and sustainability. However, since protein functions, particularly enzymatic activities, depend on precise interactions with small-molecule ligands, accurately modeling these interactions remains a formidable challenge in de novo protein design. Here, we introduce EnzyGen2, a protein foundation model designed for the simultaneous co-design of sequence and structure under ligand-guided functional targeting. Comprising 730 million parameters, EnzyGen2 is trained on 720,993 protein-ligand pairs using multi-task learning objectives that encompass joint prediction of sequence, structure, and protein-ligand interactions. In rigorous in silico benchmarks, EnzyGen2 consistently outperforms state-of-the-art baselines, including Inpainting, RFdiffusion/ProteinMPNN, RFdiffusion2/LigandMPNN, and RFdiffusion3/LigandMPNN, as measured by the enzyme-substrate prediction score, AlphaFold2 confidence metric, and structural fidelity, while it generates samples 400× faster than prior methods. We further experimentally validated EnzyGen2 across multiple enzyme families, including chloramphenicol acetyltransferase, aminoglycoside adenylyltransferase, and thiopurine S -methyltransferase. De novo enzymes generated by our family-specific EnzyGen2 exhibited catalytic activities comparable to or exceeding those of natural enzymes, while retaining substantial novelty with sequence identities as low as 51.6%. These results establish EnzyGen2 as a robust Artificial Intelligence-based tool for functional enzyme design, demonstrating the power of large protein foundation models to create high-performance, novel biocatalysts.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

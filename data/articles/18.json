@@ -338,6 +338,64 @@
       "curated_categories": []
     },
     {
+      "id": "180f17f45a4100558f1ac68168a25fffcc8f2e51e6ebf98908922733fa7c9d57",
+      "identity_keys": [
+        "https://doi.org/10.1021/jacs.6c14365",
+        "https://openalex.org/W7208752740"
+      ],
+      "title": "CatESO: Differentiable Enzyme Sequence Optimization Guided by Substrate-Aware K cat Prediction",
+      "link": "https://doi.org/10.1021/jacs.6c14365",
+      "pdf_url": null,
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of the American Chemical Society",
+      "authors": [
+        {
+          "key": "gan zhenjia",
+          "name": "Zhenjia Gan"
+        },
+        {
+          "key": "xu yuzhi",
+          "name": "Yuzhi Xu"
+        },
+        {
+          "key": "junde xu",
+          "name": "Junde Xu"
+        },
+        {
+          "key": "wu zhihao",
+          "name": "Zhihao Wu"
+        },
+        {
+          "key": "huang juping",
+          "name": "Juping Huang"
+        },
+        {
+          "key": "jiabin yin",
+          "name": "Jiabin Yin"
+        },
+        {
+          "key": "chen guangyong",
+          "name": "Guangyong Chen"
+        },
+        {
+          "key": "john zhang",
+          "name": "John Z. H. Zhang"
+        }
+      ],
+      "abstract_text": "Abstract Enzymes drive biological chemistry and offer greener routes to chemicals, materials, and medicines, yet their broader use as biocatalysts is often limited by insufficient catalytic turnover. Improving turnover is hard: measured rate constants are scarce and protein sequence space is vast. Deep learning models now predict the turnover number, Kcat, with growing accuracy, but they are typically applied after sequence generation to score or filter candidates, which separates the kinetic objective from the design itself. To bridge the gap between sequence generation and kinetic evaluation, we introduce CatESO, a differentiable sequence optimizer that enables direct, gradient-guided design of substrate-specific catalytic turnover. By backpropagating through a cross-modal Kcat predictor under continuous sequence relaxation, CatESO co-optimizes predicted catalytic activity, evolutionary plausibility, and structural integrity in one end-to-end framework, using ESM-2 and ESMFold to keep designs evolutionarily plausible and foldable. Across seven stringent, out-of-distribution enzymes spanning EC classes 1–7, CatESO raised model-predicted Kcat for many designs, with a median predicted fold change of 1.52, while every variant retained a pLDDT above 70. Against the RFdiffusion3-LigandMPNN pipeline and ZymCtrl, CatESO struck a better balance between predicted activity and structural confidence. By making substrate-conditioned kinetic objectives differentiable, CatESO carries differentiable protein design beyond structure- and binding-centered goals to enzyme catalytic function, giving a general route to function-oriented enzyme engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "180fad1c64d101e552ed2993536b7e9e24d06ec85c01cdf1d684e5b7807ce6b9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65106-2",
@@ -1476,6 +1534,8 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.05.29.728739v3",
         "https://doi.org/10.64898/2026.05.29.728739",
+        "https://www.biorxiv.org/content/early/2026/06/02/2026.05.29.728739.source.xml",
+        "https://www.biorxiv.org/content/early/2026/06/09/2026.05.29.728739.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/21/2026.05.29.728739.source.xml"
       ],
       "title": "Learning Protein-Protein Interaction Interfaces from Multimodal Representations",
@@ -1854,6 +1914,12 @@
       "abstract_text": "Glioblastoma (GBM) remains the most aggressive tumor, urgently requiring novel therapeutic strategies. Here, we present a dry-to-wet framework combining generative modeling and experimental validation to optimize peptides targeting ATP5A, a potential peptide-binding protein for GBM. Our framework introduces the first lead-conditioned generative model, which focuses exploration on geometrically relevant regions around lead peptides and mitigates the combinatorial complexity of de novo methods. Specifically, we propose POTFlow, a Prior and Optimal Transport-based Flow-matching model for peptide optimization. POTFlow employs secondary structure information (e.g. helix, sheet, and loop) as geometric constraints, which are further refined by optimal transport to produce shorter flow paths. With this design, our method achieves state-of-the-art performance compared with five popular approaches. When applied to GBM, our method generates peptides that selectively inhibit cell viability and significantly prolong survival in a patient-derived xenograft model. As the first lead peptide-conditioned flow matching model, POTFlow holds strong potential as a generalizable framework for therapeutic peptide design.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1901,6 +1967,56 @@
         }
       ],
       "abstract_text": "Whether dissolved ions approach or avoid the air/water interface remains unsettled, despite its importance for atmospheric and interfacial chemistry. Here we show, using chemically accurate data-driven many-body models and a controlled hierarchy of interaction descriptions, that the intrinsic surface propensity of halide ions depends critically on short-range many-body interactions beyond classical polarization. A conventional polarizable model predicts strong iodide adsorption and weaker stabilization of bromide and chloride. When short-range two- and three-body quantum-mechanical interactions are included, adsorption is strongly suppressed: fluoride, chloride, and bromide remain bulk-favored, while iodide retains only a shallow free-energy minimum comparable to thermal energy. Energy decomposition reveals that iodide's residual preference reflects localized reorganization of interfacial water that offsets the cost of partial dehydration, but is opposed by entropy. These results unify classical electrostatic exclusion and molecular many-body descriptions, showing that halide distributions are controlled not by ion size or polarizability alone, but by a finely balanced collective response of the ion-water system.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1870c432740e366dd199c90a4fb336e866f3e9e50aedd77aa3e27e0f4b7b221d",
+      "identity_keys": [
+        "https://doi.org/10.1021/acschemneuro.6c00310",
+        "https://openalex.org/W7213540256"
+      ],
+      "title": "XL-MS and De Novo Protein Design Identified a Common Motif for TREM2 Binding",
+      "link": "https://doi.org/10.1021/acschemneuro.6c00310",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/24/2026.04.23.720433.full.pdf",
+      "publication_date": "2026-09-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Chemical Neuroscience",
+      "authors": [
+        {
+          "key": "doniesha perera",
+          "name": "Doniesha Perera"
+        },
+        {
+          "key": "ajiboye emmanuel gboyega",
+          "name": "Emmanuel Gboyega Ajiboye"
+        },
+        {
+          "key": "kalana pitakatuwana",
+          "name": "Kalana Pitakatuwana"
+        },
+        {
+          "key": "sophia wier",
+          "name": "Sophia Wier"
+        },
+        {
+          "key": "duong vincent",
+          "name": "Vincent Duong"
+        },
+        {
+          "key": "haifan wu",
+          "name": "Haifan Wu"
+        }
+      ],
+      "abstract_text": "ABSTRACT Apolipoprotein E ( APOE ) and Triggering Receptor Expressed on Myeloid cells 2 ( TREM2 ) are the two strongest genetic risk factors of late-onset Alzheimer’s disease. ApoE binds to the low-density lipoprotein receptor (LDLR) to facilitate the uptake of ApoE-lipoprotein particles. TREM2 is a cell surface receptor expressed on microglia in the brain. The activation of TREM2 is essential for microglia to carry out protective functions against AD pathology. Several studies have shown that TREM2 signaling is activated through direct interaction between TREM2 and ApoE. In addition to its important role in AD pathogenesis, the ApoE/TREM2 interaction has been shown to induce immunosuppression of neutrophils within the tumor microenvironment. Despite its clinical importance, a high-resolution molecular understanding of the complex remains elusive. Here, we carried out chemical cross-linking mass spectrometry (XL-MS) analysis of the ApoE3/TREM2 ECD complex to identify intra- and inter-protein cross-links, which were used as restraints to guide integrative protein-protein docking. Our data support a binding model in which a helix-loop-helix motif within the ApoE3 hinge and C-terminal region forms a transient hydrophobic pocket that wraps around the hydrophobic tip of the TREM2 ectodomain. This model is further supported by de novo -designed mini-protein binders, which show the same binding mode as identified by our XL-MS experiment. These results establish a robust framework for developing mini-protein-based TREM2 agonists.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3644,6 +3760,40 @@
       "curated_categories": []
     },
     {
+      "id": "18b45cc116af7abce904e937bac185eb2995a190739880efec78b69c7c2610b9",
+      "identity_keys": [
+        "https://doi.org/10.4103/ejpi.ejpi-d-25-00068",
+        "https://openalex.org/W7134967429"
+      ],
+      "title": "Generative Protein Design for Physiological Intervention: Progress and Horizons",
+      "link": "https://doi.org/10.4103/ejpi.ejpi-d-25-00068",
+      "pdf_url": null,
+      "publication_date": "2026-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of physiological investigation.",
+      "authors": [
+        {
+          "key": "chien jung po",
+          "name": "Po‐Jung Chien"
+        },
+        {
+          "key": "chuan chyuan wu",
+          "name": "Chyuan-Chuan Wu"
+        }
+      ],
+      "abstract_text": "Export The rapid convergence of de novo protein design, deep learning, and high-throughput screening has redefined what proteins can be engineered to do. Once limited to stabilizing structures or optimizing existing binders, computational design now enables the creation of entirely new protein architectures with programmable dynamics, specificity, and therapeutic function. This mini-review highlights key advances that collectively establish a framework for de novo-designed protein therapeutics, from miniprotein binders and molecular sensors to switches and regulatory systems. We summarize representative breakthroughs showing how rational design and generative modeling are beginning to capture the complexity of physiological regulation, enabling a priori avoidance of off-target interactions, precise antigen recognition on the cell surface, engineering of intracellular protein–protein interaction (PPI) blockers, and selective targeting of PPIs mediated by intrinsically disordered regions. Together, these developments illustrate a growing capacity to move beyond empirical optimization toward the predictive design of proteins as molecular tools for precise physiological intervention.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "18b9aa0682a0af1f440656deae66ca2821a8bba76d3091bd74959c3ca3b44bd7",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00786-4",
@@ -3705,6 +3855,80 @@
         }
       ],
       "abstract_text": "H3K27ac and H3K4me3 are enriched at transcriptional start sites and have been implicated in transcription. However, how these marks concertedly regulate transcription is not fully understood. Here, we develop a dual chemically inducible CRISPR/dCas9-based epigenome editing system that enables independent, temporal and transcription stage-specific modulation of H3K27ac and H3K4me3 at a specific gene locus. Stage-specific removal of H3K4me3 impairs RNA polymerase II recruitment, increases promoter-proximal pausing, reduces productive elongation, and accelerates mRNA decay via increased m⁶A deposition. Losing both H3K27ac and H3K4me3 rapidly abolishes transcriptional activity, while preserving H3K4me3 without H3K27ac can partially sustain transcription. These findings reveal a functional hierarchy and interdependence between H3K27ac and H3K4me3 in different transcription stages at the tested gene loci. This versatile tool will contribute to the functional dissection of the temporal dynamics of chromatin modifications in gene regulation. Inducible CRISPR-based epigenome editing tools are developed that reveal the functional hierarchy between H3K27ac and H3K4me3 in transcription and discover the crosstalk between H3K4me3 and m6A in tuning transcript stability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "18cd748c69240499ea26c3d55c855598274a45c3de5ba7c9dd42abf63bd545b5",
+      "identity_keys": [
+        "https://doi.org/10.3390/molecules31030518",
+        "https://openalex.org/W7127165944"
+      ],
+      "title": "Antimicrobial Peptide Nanoassemblies: Design, Response Mechanisms, and Biomedical Applications",
+      "link": "https://doi.org/10.3390/molecules31030518",
+      "pdf_url": null,
+      "publication_date": "2026-02-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecules",
+      "authors": [
+        {
+          "key": "tao wang",
+          "name": "Tao Wang"
+        },
+        {
+          "key": "ji linbao",
+          "name": "Linbao Ji"
+        },
+        {
+          "key": "yucheng zhang",
+          "name": "Yucheng Zhang"
+        },
+        {
+          "key": "niu zhili",
+          "name": "Zhili Niu"
+        },
+        {
+          "key": "jiang xiaoyi",
+          "name": "Xiaoyi Jiang"
+        },
+        {
+          "key": "wang xingyao",
+          "name": "Xingyao Wang"
+        },
+        {
+          "key": "qingtai zhang",
+          "name": "Qingtai Zhang"
+        },
+        {
+          "key": "yuting zhang",
+          "name": "Yuting Zhang"
+        },
+        {
+          "key": "peng tan",
+          "name": "Peng Tan"
+        },
+        {
+          "key": "feng yue",
+          "name": "Yue Feng"
+        },
+        {
+          "key": "ma xi",
+          "name": "Xi Ma"
+        },
+        {
+          "key": "sun zhihong",
+          "name": "Zhihong Sun"
+        }
+      ],
+      "abstract_text": "The overuse of antibiotics has accelerated the evolution and mutation of drug-resistant bacteria, creating an urgent need for novel antimicrobial drugs and feed additives. Antimicrobial peptides, with their unique membrane-disrupting mechanism that resists the development of resistance, hold promise as antibiotic alternatives. To overcome the limitations of natural antimicrobial peptides-such as poor stability, susceptibility to protease degradation, and short in vivo half-lives-self-assembling peptide technology has emerged. This approach employs non-covalent interactions to orderly assemble monomeric peptides into stable, structured nanomaterials like nanofibers, nanotubes, and hydrogels. This paper outlines the molecular design principles and smart response mechanisms of antimicrobial peptide nanoassemblies, elucidates their core advantages over monomeric peptides, summarizes their application scenarios in anti-infection fields, and discusses limitations and future directions across various domains. It provides insights for future antimicrobial peptide design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

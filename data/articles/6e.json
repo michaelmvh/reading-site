@@ -589,6 +589,74 @@
       ]
     },
     {
+      "id": "6e284f109054457f2e423fb43c23311e0b2a4df21ea2adf5ea03c4043eeee496",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.cbpa.2026.102728",
+        "https://openalex.org/W7171612133"
+      ],
+      "title": "Generative artificial intelligence for enzyme design and biocatalysis",
+      "link": "https://doi.org/10.1016/j.cbpa.2026.102728",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1367593126000773/pdf",
+      "publication_date": "2026-07-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Chemical Biology",
+      "authors": [
+        {
+          "key": "lasse middendorf",
+          "name": "Lasse Middendorf"
+        },
+        {
+          "key": "ferruz noelia",
+          "name": "Noelia Ferruz"
+        }
+      ],
+      "abstract_text": "Sparked by innovations in generative artificial intelligence (AI), the field of protein design has undergone a paradigm shift with an explosion of new models for optimizing existing enzymes or creating them from scratch. After more than one decade of low success rates for computationally designed enzymes, generative AI models are now frequently used for designing proficient enzymes. Here, we provide a comprehensive overview and classification of generative AI models for enzyme design, highlighting models with experimental validation relevant to real-world settings and outlining their respective limitations. We argue that generative AI models now have the maturity to create and optimize enzymes for industrial applications. Wider adoption of generative AI models with experimental feedback loops can speed up the development of biocatalysts and serve as a community assessment to inform the next generation of models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6e2b86e6e6c0121b88d38efd29ab7f6816fd93268d20d0d05411af067120000b",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.28.714756",
+        "https://openalex.org/W7146955977"
+      ],
+      "title": "Decoupling Topology from Geometry: Detecting Large-Scale Conformational Changes via Conformational Scanning",
+      "link": "https://doi.org/10.64898/2026.03.28.714756",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/31/2026.03.28.714756.full.pdf",
+      "publication_date": "2026-03-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "lin runfeng",
+          "name": "Runfeng Lin"
+        },
+        {
+          "key": "ahnert sebastian",
+          "name": "Sebastian E. Ahnert"
+        }
+      ],
+      "abstract_text": "Abstract Protein function is fundamentally driven by structural dynamics, yet the majority of structural bioinformatics treats proteins as static rigid bodies. While Molecular Dynamics (MD) simulations attempt to capture these motions, they are computationally prohibitive for exploring large-scale conformational changes, such as domain movements or allostery, which occur on timescales often inaccessible to standard simulation. However, the Protein Data Bank (PDB) contains a latent wealth of dynamic information in the form of redundant entries proteins solved in multiple distinct conformational states. Detecting these “shape-shifting” pairs remains challenging because standard structural alignment algorithms (e.g., TM-align) rely on rigid-body superposition, which fails when substantial geometric rearrangement occurs. In this study, we introduce a high-throughput method to systematically mine the PDB for proteins that share identical topology but exhibit divergent tertiary conformations. By utilizing a coarse-grained Secondary Structure Element (SSE) representation, we decouple topological connectivity from geometric rigidity, allowing for the detection of conformational homologues that share low global structural similarity despite high predicted structural similarity. We applied this “conformational scanning” across the entire RCSB database, identifying a curated dataset of proteins undergoing significant structural rearrangements. This work bridges the gap between static structural data and dynamic function, providing a critical “ground truth” dataset for benchmarking data-driven protein design and checking the plausibility of generative structure models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6e2c9d2a02dc6781d0443cdd890ca5cd8c364252b562b41e447f83f7945fa4d4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71322-1",
@@ -1783,6 +1851,44 @@
       "curated_categories": []
     },
     {
+      "id": "6e5a10ffbd5b224b04fc099c8e5e2f835a0eb66a43a528877bf5b4abf2ca004f",
+      "identity_keys": [
+        "https://doi.org/10.3390/catal16070647",
+        "https://openalex.org/W7169324812"
+      ],
+      "title": "Computational Redesign of Aspartase from Escherichia coli and Its Catalytic Synthesis of β-Alanine",
+      "link": "https://doi.org/10.3390/catal16070647",
+      "pdf_url": null,
+      "publication_date": "2026-07-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Catalysts",
+      "authors": [
+        {
+          "key": "li long xian",
+          "name": "Long-Xian Li"
+        },
+        {
+          "key": "bao di ma",
+          "name": "Bao-Di Ma"
+        },
+        {
+          "key": "xu yi",
+          "name": "Yi Xu"
+        }
+      ],
+      "abstract_text": "Aspartase from Escherichia coli (AspA) catalyzes the direct conversion of acrylic acid to β-alanine; however, its substrate specificity and low catalytic efficiency limit its broader application. We engineered an AspA mutant capable of efficiently catalyzing the amination of acrylic acid for β-alanine synthesis, using Rosetta Enzyme Design to computationally redesign the Cβ-binding region of the acrylic acid binding site in AspA. Based on energy scores, structural configurations, and hydrogen bonding networks, 51 candidate variants with penalty scores below 30 were selected for mutant construction and performance testing; >70% of these variants exhibited enhanced catalytic activity in acrylic acid’s hydrogen amination. Four mutants achieved over 3-fold improved activity. The optimal mutant, M1 (T190I-M324I-K327L-N329C), demonstrated a 7.3-fold increased specific enzyme activity and a 13.0-fold improved kcat/Km compared with the wild type. Conformational changes in the S-loop and enhanced hydrophobic interactions near the active site contributed significantly to M1’s enhanced activity. Upon reaction optimization, the conversion of β-alanine synthesis using M1 in whole-cell catalysis increased from 5% with the wild type to 90% with M1. This study provides a reference for the biocatalytic synthesis of β-alanine, significantly enhancing the conversion of acrylic acid and demonstrating the enzyme’s potential for industrial applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6e5b7896029663c8cc1abd9120c8a207b180a1d446444514f04c91e7cf4b17e6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78493-x",
@@ -1818,6 +1924,446 @@
         }
       ],
       "abstract_text": "The HIV-1 capsid, composed of capsid (CA) proteins arranged into a conical surface lattice, serves as a critical platform for host–pathogen interactions. Many host cofactors regulate HIV-1 infection by selectively recognizing the higher-order CA lattice rather than individual monomers or capsomers. Among these, Myxovirus resistance protein B (MxB) is a key cellular restriction factor that binds the capsid via its N-terminal fragment containing an arginine-rich motif (RRR), blocking HIV-1 infection at early infection stages. However, the structural basis of this interaction has remained elusive. Here, we present a structural characterization of the CA lattice in complex with the MxB N-terminal fragment using cryo-electron tomography and subtomogram averaging. Combining cryoEM structures with EM-guided all-atom molecular dynamics simulations, we identify residue-specific interactions between MxB and the CA trimer interfaces. Notably, residues 10-20 of the MxB N-terminus adopt an α-helical conformation that stabilizes binding at the CA trimer interface, revealing a distinct mode of capsid engagement. These findings provide insight into arginine-rich motif–mediated recognition by MxB and other host factors and establish a structural framework for the development of capsid-targeting antiviral therapeutics.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6e5bbbf94cb8d261446b3853633d12d216ed69fed2c9fbefc8829fd809aea75b",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2024-05.3103685/3715567",
+        "https://doi.org/10.25582/data.2024-05.3107331/3715489",
+        "https://doi.org/10.25582/data.2024-05.3107808/3715490",
+        "https://doi.org/10.25582/data.2024-05.3107811/3715491",
+        "https://doi.org/10.25582/data.2024-05.3107817/3715492",
+        "https://doi.org/10.25582/data.2024-05.3107821/3715493",
+        "https://doi.org/10.25582/data.2024-05.3107827/3715494",
+        "https://doi.org/10.25582/data.2024-05.3107838/3715495",
+        "https://doi.org/10.25582/data.2024-05.3109922/3715496",
+        "https://doi.org/10.25582/data.2024-05.3110536/3715497",
+        "https://doi.org/10.25582/data.2024-05.3110608/3715498",
+        "https://doi.org/10.25582/data.2024-05.3113243/3714436",
+        "https://doi.org/10.25582/data.2024-05.3123108/3712686",
+        "https://doi.org/10.25582/data.2024-05.3123930/3712687",
+        "https://doi.org/10.25582/data.2024-05.3127504/3712688",
+        "https://openalex.org/W7212230171"
+      ],
+      "title": "Data for EMSL Project 50414 from May 2024",
+      "link": "https://doi.org/10.25582/data.2024-05.3107838/3715495",
+      "pdf_url": null,
+      "publication_date": "2026-09-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2656,6 +3202,60 @@
         }
       ],
       "abstract_text": "Abstract Epstein–Barr virus (EBV) infects approximately 90–95% of the global population 1,2 and persists in B cells as a lifelong infection 3 . Previous EBV infection is associated with autoimmune and neoplastic disease 4 . Still, the biological basis of host control during EBV persistence remains unclear. Here we report the identification of non-genetic and genetic factors that are associated with EBV control during persistent infection. Using blood-based genome sequence data from 486,315 UK Biobank and 336,123 All of Us participants, we identified short-read pairs mapping to the EBV genome in 16.2% and 21.8% of individuals, respectively. EBV read detection (EBVread + ) reflects increased viral load in blood cells, as shown by orthogonal measurements, and was associated with HIV infection, immunosuppressive drug intake and current smoking. Genome-wide analyses of EBVread + identified strong associations at the major histocompatibility complex (MHC), including 54 independent human leukocyte antigen (HLA) alleles of MHC classes I and II, and at 27 genomic regions outside MHC. Epistasis with distinct HLA alleles of MHC class I was observed at the ERAP2 locus. Analysis of individuals with EBV-associated diseases 4 revealed a higher polygenic burden of EBVread + for HLA alleles at MHC class I in multiple sclerosis (driven by HLA-A*02:01) and at MHC class II in rheumatoid arthritis. Phenome-wide analyses identified a polygenic overlap of EBVread + with inflammatory bowel disease, hypothyroidism and type 1 diabetes. Our study establishes by-products of human genome sequencing as a surrogate marker of EBV viral load. This will facilitate investigation and treatment for EBV and other persistent viral infections.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6e71493d196a6041e52628f65a982a597c5c47092d52dc78462b720c1934d498",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.biomac.5c01841",
+        "https://openalex.org/W7133515747"
+      ],
+      "title": "Unveiling the Intramolecular Thermodynamics of Multivalent Proteins: Exploratory Study on Engineered Protein Model",
+      "link": "https://doi.org/10.1021/acs.biomac.5c01841",
+      "pdf_url": null,
+      "publication_date": "2026-03-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biomacromolecules",
+      "authors": [
+        {
+          "key": "kim na yu",
+          "name": "Yu-na Kim"
+        },
+        {
+          "key": "bo choi hee",
+          "name": "Bo-Hee Choi"
+        },
+        {
+          "key": "hyoin park",
+          "name": "Hyoin Park"
+        },
+        {
+          "key": "chan geun kim",
+          "name": "Chan-Geun Kim"
+        },
+        {
+          "key": "eom gon yu",
+          "name": "Yu‐Gon Eom"
+        },
+        {
+          "key": "jung yongwon",
+          "name": "Yongwon Jung"
+        },
+        {
+          "key": "choi jeong mo",
+          "name": "Jeong‐Mo Choi"
+        }
+      ],
+      "abstract_text": "Multivalent interactions mediated by multidomain proteins are pivotal in numerous biological processes. However, the thermodynamic intricacies of the domain interactions within such complexes remain elusive. In this study, we employed surface plasmon resonance to explore the temperature-dependent kinetics of multidomain protein interactions across various valences from monomers to tetramers. Rigorous screening of protein-peptide binding pairs fused with discrete multivalent protein scaffolds facilitated the selection of candidates with minimal nonspecific interactions and suitable monomer binding kinetics that could be extended to higher valences. We developed a theoretical model to extract the thermodynamic quantities for both inter- and intramolecular interactions. By employing initial rate analysis, we could extract thermodynamic quantities describing complicated interactions between multivalent proteins. Our analysis provides novel insights into the thermodynamics of intramolecular interactions in multivalent protein complexes with implications for protein design and engineering.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3518,6 +4118,96 @@
         }
       ],
       "abstract_text": "The sequence-specific recognition of cis -regulatory elements (CRE) by transcription factors (TF) propagates genotype information to phenotypes. Understanding how genetic variation affects gene regulation remains limited by the diversity and complexity of CRE interactions. Here, we address this challenge using an explainable multi-label deep learning model trained on A. thaliana DNA-binding data to capture how CRE sequence, their broader sequence context, and syntax influence TF occupancy. Once trained, the model annotates cistrome-wide TF-binding sites and uncovers condition-specific regulatory syntax. By integrating genomic and GWAS data from A. thaliana , our approach predicts differential TF-binding and identifies regulatory gene variants within quantitative trait loci. Experimental validation highlights the link between cis -regulatory variation, gene expression, and phenotypic outcomes. Finally, applying our model to untargeted DNA binding assays in Z. mays under heat-stress conditions demonstrates its potential to characterize condition-responsive TF binding in phylogenetically distant crops.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6e9732448d8e70f7f1531283711cb5a4317ea783779f8f39fd940105e4fdd4d3",
+      "identity_keys": [
+        "https://doi.org/10.1038/s44298-025-00166-1",
+        "https://openalex.org/W4417524470"
+      ],
+      "title": "VHH antibody loop guides design of a synthetic macrocyclic peptide that potently blocks influenza virus membrane fusion",
+      "link": "https://doi.org/10.1038/s44298-025-00166-1",
+      "pdf_url": "https://www.nature.com/articles/s44298-025-00166-1.pdf",
+      "publication_date": "2025-12-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "npj Viruses",
+      "authors": [
+        {
+          "key": "kadam rameshwar",
+          "name": "Rameshwar U. Kadam"
+        },
+        {
+          "key": "jarek juraszek",
+          "name": "Jarek Juraszek"
+        },
+        {
+          "key": "boerries brandenburg",
+          "name": "Boerries Brandenburg"
+        },
+        {
+          "key": "divita garg",
+          "name": "Divita Garg"
+        },
+        {
+          "key": "xueyong zhu",
+          "name": "Xueyong Zhu"
+        },
+        {
+          "key": "jongeneelen mandy",
+          "name": "Mandy A. C. Jongeneelen"
+        },
+        {
+          "key": "schepens wim",
+          "name": "Wim B. G. Schepens"
+        },
+        {
+          "key": "bart stoops",
+          "name": "Bart Stoops"
+        },
+        {
+          "key": "jan vermond",
+          "name": "Jan Vermond"
+        },
+        {
+          "key": "goutier wouter",
+          "name": "Wouter Goutier"
+        },
+        {
+          "key": "chan tang",
+          "name": "Chan Tang"
+        },
+        {
+          "key": "blokland sven",
+          "name": "Sven Blokland"
+        },
+        {
+          "key": "ronald vogels",
+          "name": "Ronald Vogels"
+        },
+        {
+          "key": "friesen robert",
+          "name": "Robert H. E. Friesen"
+        },
+        {
+          "key": "dongen maria van",
+          "name": "Maria J. P. van Dongen"
+        },
+        {
+          "key": "ian wilson",
+          "name": "Ian A. Wilson"
+        }
+      ],
+      "abstract_text": "Abstract Miniaturizing biologically complex structural motifs to produce synthetic functional mimetics holds significant promise for development of new therapeutic modalities. Here, we demonstrate a unique approach using the key binding loop of the single variable domain of a heavy chain (V H H) llama antibody as a starting point for peptide design. V H H antibodies of camelids and sharks generally have longer, but more ligand-efficient complementarity determining region 3 (CDR3) loops and are relatively stable structures. We harnessed these attributes as templates for design of a series of synthetic macrocyclic peptides. The designed peptides exhibit nanomolar binding to influenza hemagglutinin (HA) and heterosubtypic in vitro neutralization breadth against influenza A viruses by inhibiting the low pH mediated HA conformational changes that lead to membrane fusion. X-ray structures of peptide-HA complexes reveal high structural mimicry with the parent V H H antibody. One such macrocycle peptide candidate is promising for further development of broad protection against influenza A group 1 viruses.",
       "discovery_sources": [
         {
           "kind": "open_alex",

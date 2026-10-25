@@ -1426,12 +1426,6 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
-        },
-        {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []
@@ -1724,6 +1718,36 @@
         }
       ],
       "abstract_text": "Protein structure search has been revolutionized by deep learning methods that can rapidly search massive databases. However, current structure search tools often miss proteins related by topological rearrangements, particularly circular permutation, wherein proteins share highly similar structure but differ in the positioning of their termini. We introduce a circular permutation-invariant graph neural network (CIRPIN) that addresses this limitation through a data augmentation strategy using synthetic circular permutations. We demonstrate that CIRPIN learns representations of proteins that are invariant to circular permutation, enabling it to identify structurally similar proteins within the Structural Classification of Proteins and AlphaFold Cluster Representatives databases. Using CIRPIN, we created CIRPIN-DB, a database of 18.3 million protein pairs highly enriched for circular permutation relationships. Our database contains structures from 845 unique topologies in the CATH Protein Structure Classification database representing the largest and most comprehensive resource of proteins related by a circular permutation assembled to date. Notably, among several novel circular permutants, we find that the PDZ domain-the most commonly inserted domain within multidomain proteins-exists in four distinct circularly permuted forms. Our results establish CIRPIN as a powerful tool to investigate the evolutionary mechanisms underlying circularly permuted proteins.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ab70ea2b277c8003eabe94ddb69f4f16e4c7febcb7e11e139e49a1093a1c2fe3",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.21329881",
+        "https://openalex.org/W7168171780"
+      ],
+      "title": "Breaking the Bottleneck of Protein Design... Demonstration of Photonic Entropy Computing Optimization",
+      "link": "https://doi.org/10.5281/zenodo.21329881",
+      "pdf_url": null,
+      "publication_date": "2026-07-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "inquantio",
+          "name": "inquantio"
+        }
+      ],
+      "abstract_text": "A study published on bioRxiv successfully formulated the complex combinatorial problem of fixed-backbone computational protein design as a quadratic Hamiltonian, naturally mapping it onto the hybrid photonic entropy computing platform, Dirac-3. Benchmarking results on protein instances ranging from 493 to 943 variables confirmed that the photonic solver derives high-precision solutions, reaching within 0.16–2.47% of optimal energies. By overcoming the sharp super-polynomial runtime growth of existing classical solvers and implementing near-linear polynomial scaling, it established a scalable framework capable of integrating quantum-inspired hardware into practical protein engineering pipelines. [Quantum Biology Society] Customized computational protein design is considered a core challenge in next-generation drug discovery and biotechnology. However, due to the enormous combinatorial complexity of amino acid sequence combinations, existing classical optimization methods have faced fatal computational bottlenecks. Recently, a groundbreaking study breaking through this massive computational barrier using quantum-inspired hardware based on the physics of light has been published, drawing significant attention. The paper \"Entropy Quantum Computing for Fixed-Backbone Protein Design,\" published on the preprint repository bioRxiv, presents a pioneering demonstration of applying photon-based entropy computing to biotechnology. A joint research team led by Babak Emami from Quantum Computing Inc. (QCi) and Professor David J. Huggins from Weill Cornell Medicine spearheaded this innovative study. ■ Mapping Protein Design to a Physical Model of Light The research team newly formulated the amino acid rotamer variables of a protein with a fixed backbone into a physical energy function known as a quadratic Hamiltonian. This transformed optimization problem maps naturally onto Dirac-3, a hybrid photonic entropy computing platform. Instead of existing computers repeating complex numerical calculations via transistors, this is an innovative approach where an optical system utilizes thermodynamic entropy to guide itself toward the most stable ground energy state (the optimal solution). ■ Overwhelming Scalability Beyond Classical Limits The true value of this photonic solver was clearly revealed in benchmarking experiments on large protein instances ranging from 493 to 943 variables. While the existing classical solver (CFN-based) reached a practical operational limit with a sharp super-polynomial runtime growth beyond approximately 1,000 variables, the Dirac-3 platform firmly maintained a near-linear polynomial scaling. What is even more surprising is that while enjoying this computational speed advantage, the final derived solutions recorded a highly precise level, within 0.16–2.47% of the perfect optimal energy. ■ A Quantum Framework for Next-Generation Protein Engineering This demonstration proves the overwhelming viability that entropy-based quantum optimization can surpass the limits of existing supercomputers in highly dense sequence spaces. The framework established by the research team lays a physical foundation to seamlessly integrate quantum-inspired hardware into practical protein engineering and large-scale screening pipelines, dramatically eliminating the massive friction of conventional computational processes. In the near future, utilizing light and entropy computing, humanity may witness a revolutionary leap in designing novel enzymes and therapeutic antibodies—which do not exist in nature—in real time. https://www.biorxiv.org/content/10.64898/2026.02.20.706589v1",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3383,6 +3407,64 @@
       "curated_categories": []
     },
     {
+      "id": "abc0beed3a22c4107c09f900248180239406c17ea385a9f1ec912e9e86d95f54",
+      "identity_keys": [
+        "https://doi.org/10.1111/mpp.70250",
+        "https://openalex.org/W7138839425"
+      ],
+      "title": "Protein Language Model‐Driven Optimisation of Antimicrobial Peptide Pth‐Ca1 Against Pectobacterium brasiliense Using ESMFold ‐Predicted Structures and the ESM ‐3 Model",
+      "link": "https://doi.org/10.1111/mpp.70250",
+      "pdf_url": null,
+      "publication_date": "2026-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecular Plant Pathology",
+      "authors": [
+        {
+          "key": "linhui song",
+          "name": "Linhui Song"
+        },
+        {
+          "key": "ge zhang",
+          "name": "Ge Zhang"
+        },
+        {
+          "key": "hua mengying",
+          "name": "Mengying Hua"
+        },
+        {
+          "key": "jingna yuan",
+          "name": "Jingna Yuan"
+        },
+        {
+          "key": "jian wu",
+          "name": "Jian Wu"
+        },
+        {
+          "key": "hao wang",
+          "name": "Hao Wang"
+        },
+        {
+          "key": "fei yan",
+          "name": "Fei Yan"
+        },
+        {
+          "key": "jiejun peng",
+          "name": "Jiejun Peng"
+        }
+      ],
+      "abstract_text": "The emergence of antimicrobial resistance (AMR) poses a significant threat to global health and food security. Antimicrobial peptides (AMPs), particularly those characterised by α-helical structures, represent a promising alternative due to their broad-spectrum activity and unique mechanisms of action. Pectobacterium brasiliense is a destructive bacterial pathogen affecting solanaceous crops but effective control measures remain insufficient. This study aims to optimise pseudothionin AMPs using AI-based protein language models, ESM-3 and ESMFold, to enhance their antibacterial efficacy. Using ESM-3, we generated multiple analogs of Pth-Ca1 with increased net charge, hydrophobicity and helical ratio. Among these, Design_1867 exhibited the strongest antibacterial activity against both Escherichia coli and P. brasiliense, with minimum inhibitory concentration (MIC) values of 31.25 μg/mL. Design_1867 was found to bind bacterial DNA and induce pore formation in bacterial membranes through a barrel-stave mechanism, similar to the reference peptide alamethicin. Reverse transcription-quantitative PCR analyses revealed the downregulation of key genes associated with membrane integrity and biofilm formation. In planta assays confirmed its efficacy and low cytotoxicity. This study demonstrates the successful application of ESM-3 and ESMFold for the rational design of highly effective AMPs. Design_1867 exhibits potent antimicrobial activity against P. brasiliense with minimal toxicity, underscoring the potential of AI-driven AMP optimisation for sustainable agricultural disease management.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "abc322d936dba4a1a7f00a491613a482350f758a412502df330c6b56abf8c5a7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74261-z",
@@ -3722,6 +3804,72 @@
         }
       ],
       "abstract_text": "Sn-based perovskite light-emitting diodes have attracted considerable attention due to their environmentally friendly properties and potential for second near-infrared window emission. However, intrinsic self-p-doping and high hole mobility of Sn-based perovskites lead to excessive hole injection under high current densities, causing severe hole dissipation and hindering the achievement of high efficiency at high radiance. Here, we present a grain morphology modulation strategy to optimize electron-hole injection and recombination dynamics. By introducing a growth regulator, perovskite grain morphology remarkably transforms from low-lying dendritic structures to elongated island-like formations, which restricts hole over-injection and spatially confines the recombination zone deeper into perovskite bulk. Consequently, optimal devices achieve an external quantum efficiency of 10.7% and a high radiance of 173 W sr-1 m-2, with NIR-II emission at 963 nm. Furthermore, the devices demonstrate low-efficiency roll-off, achieving an external quantum efficiency of 8.1% at a high radiance of 153.6 W sr-1 m-2. Guan et al. report a molecular regulator to control crystallization kinetics in Sn-based perovskite, resulting in elongated island-like grain structure that regulates charge injection and recombination, enabling NIR-II LEDs with efficiency of 10.7%, peak radiance of 173 W sr-1 m-2, and operational lifetime of 1,378 min.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "abc9959c2564e418912143dd3a765bff3bb3096db9d01a30c7e4540d528c3073",
+      "identity_keys": [
+        "https://doi.org/10.3390/molecules31111969",
+        "https://openalex.org/W7163681827"
+      ],
+      "title": "Integrating Single-Cell Profiling with Generative AI for De Novo Design of MMP9 Protein Binders in Diffuse Large B-Cell Lymphoma",
+      "link": "https://doi.org/10.3390/molecules31111969",
+      "pdf_url": null,
+      "publication_date": "2026-06-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecules",
+      "authors": [
+        {
+          "key": "miao ziyang",
+          "name": "Ziyang Miao"
+        },
+        {
+          "key": "siyi zhu",
+          "name": "Siyi Zhu"
+        },
+        {
+          "key": "liwei qin",
+          "name": "LiWei Qin"
+        },
+        {
+          "key": "dawei ma",
+          "name": "Dawei Ma"
+        },
+        {
+          "key": "lai mingyang",
+          "name": "Mingyang Lai"
+        },
+        {
+          "key": "pingping xu",
+          "name": "Pingping Xu"
+        },
+        {
+          "key": "jin yaping",
+          "name": "Yaping Jin"
+        },
+        {
+          "key": "cai huimin",
+          "name": "Huimin Cai"
+        },
+        {
+          "key": "shuai zhao",
+          "name": "Shuai Zhao"
+        },
+        {
+          "key": "wang yue",
+          "name": "Yue Wang"
+        }
+      ],
+      "abstract_text": "To clarify the cellular origin of matrix metalloproteinase-9 (MMP9) and explore targeted research, we utilized single-cell RNA sequencing analysis, which revealed that MMP9 is predominantly enriched in specific macrophages within the activated B-cell-like (ABC) subtype. Guided by this target information, we applied a generative AI pipeline incorporating RFdiffusion, ProteinMPNN, and AlphaFold to de novo design protein binders targeting the hemopexin (PEX) domain of MMP9. ELISA experiments confirmed the in vitro binding capability of these designs; among them, MMP9-30 displayed the strongest binding, with an apparent EC50 of approximately 1.1 μM, followed by MMP9-34, while MMP9-97 showed the weakest interaction. This study successfully integrates single-cell sequencing with AI-assisted protein design, providing a preliminary exploratory framework for subsequent MMP9-targeted research and protein binder development.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4244,6 +4392,68 @@
         }
       ],
       "abstract_text": "MESSENGER observations revealed a primary graphite flotation crust on Mercury, implying substantial carbon retention in its magma ocean rather than sequestration into the core. To investigate the conditions enabling this retention, we conducted high-pressure, high-temperature metal–silicate partitioning experiments over a wide range of oxygen fugacities. Carbon behavior is strongly redox dependent: under relatively oxidizing conditions it is highly siderophile, whereas under the reducing conditions relevant to Mercury it becomes significantly less siderophile, promoting carbon retention in silicate melts and graphite crystallization. Modeling of carbon partitioning between the core, mantle, crust, and atmosphere indicates that oxygen fugacities of IW − 6 to IW − 6.5 best reproduce the graphite crust thickness inferred from MESSENGER data. Under these conditions, Mercury’s core remains relatively carbon-poor ( < 5000 μ g/g), implying that its density deficit is primarily controlled by other light elements, most likely silicon and sulfur. These results link Mercury’s extreme reduction to both its graphite crust and internal chemical structure. This study investigates how carbon was distributed within Mercury during its formation, using high-pressure, high-temperature experiments to simulate conditions in the planet’s early magma ocean. The results show that Mercury’s unique graphite-rich crust and core composition are linked to extremely reducing conditions, which favored carbon retention in the crust and mantle rather than the core.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "abd62f49c13efc41dc85fd2d0281a3cf84523a32aec99131fc2f82594561302b",
+      "identity_keys": [
+        "https://doi.org/10.2147/itt.s536009",
+        "https://openalex.org/W4417199839"
+      ],
+      "title": "Development of a Novel Anti-Siglec-15 Antibody for Tumor Immunotherapy",
+      "link": "https://doi.org/10.2147/itt.s536009",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ImmunoTargets and Therapy",
+      "authors": [
+        {
+          "key": "liu qin",
+          "name": "Qin Liu"
+        },
+        {
+          "key": "li lin",
+          "name": "Lin Li"
+        },
+        {
+          "key": "nian siji",
+          "name": "Siji Nian"
+        },
+        {
+          "key": "sun xiaoke",
+          "name": "Xiaoke Sun"
+        },
+        {
+          "key": "guo xiyuan",
+          "name": "Xiyuan Guo"
+        },
+        {
+          "key": "chengwen li",
+          "name": "Chengwen Li"
+        },
+        {
+          "key": "yang zhihui",
+          "name": "Zhihui Yang"
+        },
+        {
+          "key": "ye yingchun",
+          "name": "Yingchun Ye"
+        },
+        {
+          "key": "qing yuan",
+          "name": "Qing Yuan"
+        }
+      ],
+      "abstract_text": "Purpose: As a novel candidate in cancer immunotherapy, siglec-15-targeting antibodies hold promise for providing alternative therapeutic strategies to tumors unresponsive to programmed death ligand 1 (PD-L1) antibody therapy. To date, pharmacological development targeting siglec-15 has not yet achieved significant breakthroughs or clinical approval. Therefore, this study aims to develop a novel anti-siglec-15 antibody designed to restore tumor immune normalization. Methods: In this study, we constructed a phage immune library derived from lymphoid tissues of lung cancer patients using phage display technology and screened the fully human antibodies against siglec-15 antigen from this library. The antibody affinity was detected by Bio-Layer Interferometry, the binding rate of antibody to positively expressing siglec-15 tumor cells was examined by flow cytometry, and the activity of antibody-mediated killer cells against tumor cells was reflected by Antibody-Dependent Cellular Cytotoxicity (ADCC) action. The blockage of proliferation inhibition caused by siglec-15 antigen by antibodies was investigated by t-lymphocyte proliferation assays, and CD8 + T cells were collected from malignant pleural effusion specimens derived from lung cancer patients to determinewhether antibodies could alleviate the immunosuppression present in the tumor microenvironment (TME). The anti-tumor efficacy of the antibody was investigated in vivo by constructing a zebrafish tumor model and a humanized mouse tumor model. Results: The antibody demonstrated nanomolar affinity and specificity, enhanced antibody-dependent cellular cytotoxicity (ADCC) against tumor cells, reversed T-cell suppression, and reduced CD8 + T-cell exhaustion in vitro analyses. In vivo models confirmed tumor growth inhibition via increased lymphocyte infiltration and activation. Conclusion: Antibody immune libraries from lymphoid tissues of lung cancer patients can screen specific antibodies against siglec-15 target antigens and exert certain biological functions in vitro and in vivo. Plain Language Summary: Following PD-1/PD-L1 blockade, siglec-15 has emerged as a compelling therapeutic target for tumor immune normalization, with its specific antibodies potentially addressing clinical resistance to PD-1 inhibitors. Utilizing phage display technology, we developed a lung cancer patient-derived immune library and isolated a novel anti-siglec-15 antibody exhibiting nanomolar affinity and precise antigen specificity, as rigorously validated through Bio-Layer Interferometry (BLI) and ELISA. Functional characterization demonstrated the antibody’s dual mechanism: enhancing lymphocyte-mediated ADCC against tumor cells while reversing siglec-15-induced suppression of T-cell proliferation. Notably, in vitro analyses of malignant pleural effusions, the antibody significantly reduced CD8 + T-cell exhaustion. We found that anti-siglec-15 recombinant antibodies inhibited tumor growth by increasing lymphocyte infiltration and activation in tumor tissues by constructing a zebrafish tumor model and a PBMC humanized mouse tumor model. These findings provide a theoretical framework for the development of anti-siglec-15 targeting antibody drugs and tumor immunonormalization therapy. Keywords: phage display technology, lymphocyte infiltration, T-cell suppression, malignant pleural effusion, tumor microenvironment",
       "discovery_sources": [
         {
           "kind": "open_alex",

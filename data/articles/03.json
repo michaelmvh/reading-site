@@ -194,6 +194,48 @@
       "curated_categories": []
     },
     {
+      "id": "03130579ecaf8358e47f9f9b9f5e9b8835b51e882e2533feb1f7f16151481b17",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2607.05439",
+        "https://openalex.org/W7167679845"
+      ],
+      "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
+      "link": "https://doi.org/10.48550/arxiv.2607.05439",
+      "pdf_url": "https://arxiv.org/pdf/2607.05439",
+      "publication_date": "2026-07-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "lorenzo tarricone",
+          "name": "Lorenzo Tarricone"
+        },
+        {
+          "key": "eisenach helen",
+          "name": "Helen E. Eisenach"
+        },
+        {
+          "key": "aiko muraishi",
+          "name": "Aiko Muraishi"
+        },
+        {
+          "key": "charlotte deane",
+          "name": "Charlotte M. Deane"
+        }
+      ],
+      "abstract_text": "Many all-atom generative protein models can in principle design large multimeric complexes by jointly modelling all chains, but their quadratic token- and atom-pair representations quickly exceed single-GPU memory as the number of chains and residues modelled grows. We introduce Design-CP, two context-parallel (CP) inference strategies for RFdiffusion 3 (1D row-sharding and 2D grid sharding with ring attention) that distribute the quadratic activations across a multi-GPU mesh while preserving pretrained weights. We characterise their scaling when sampling icosahedral assemblies, showing that the maximum feasible asymmetric subunit (ASU) size grows with the expected square-root trend in GPU count and that 2D sharding achieves better wall-clock scaling. Moreover, we show how strong point-group symmetry constraints make CP usable out of the box for end-to-end, all-atom design of icosahedral nanoparticles, yielding favourable in silico structural and interface metrics. Finally, we demonstrate octahedral nanoparticle design on a small cluster of workstation-grade 16GB GPUs, illustrating how Design-CP can be a practical path towards democratising large-assembly protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "031750d31bd981410b07b2c4c83c6e9a4e0d9c8d893d0c53ce5dc4bfa1480b85",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65852-3",
@@ -760,6 +802,76 @@
       "curated_categories": []
     },
     {
+      "id": "033ac74ee2e8ce5c58926d2340ed7037608f4c9a2ba3dbe0794f2ea13e4886b1",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.08.749745",
+        "https://openalex.org/W7212165513"
+      ],
+      "title": "Specificity-driven protein binder design with Odin-Multi",
+      "link": "https://doi.org/10.64898/2026.09.08.749745",
+      "pdf_url": null,
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "brasas valentas",
+          "name": "Valentas Brasas"
+        },
+        {
+          "key": "charlotte christensen",
+          "name": "Charlotte R. Christensen"
+        },
+        {
+          "key": "björnsson haldrup kasper",
+          "name": "Kasper Haldrup Björnsson"
+        },
+        {
+          "key": "emil møller victor",
+          "name": "Victor Emil Møller"
+        },
+        {
+          "key": "beatrice scapolo",
+          "name": "Beatrice Scapolo"
+        },
+        {
+          "key": "benard melisa valle",
+          "name": "Melisa Benard-Valle"
+        },
+        {
+          "key": "mads mørup nygaard",
+          "name": "Mads Mørup Nygaard"
+        },
+        {
+          "key": "christian jens nielsen",
+          "name": "Jens Christian Nielsen"
+        },
+        {
+          "key": "hadrup reker sine",
+          "name": "Sine Reker Hadrup"
+        },
+        {
+          "key": "johansen kristoffer",
+          "name": "Kristoffer H. Johansen"
+        },
+        {
+          "key": "jenkins timothy",
+          "name": "Timothy P. Jenkins"
+        }
+      ],
+      "abstract_text": "Abstract A useful protein binder is defined as much by what it does not bind as by what it does. Some applications call for one binder to cover a family of related targets; others require it to distinguish a single member from near-identical relatives. Yet, widely used deep-learning-based de novo design methods typically optimise one interaction at a time, leaving cross-reactivity and specificity to emerge during downstream screening. Here we present Odin-Multi, a binder design framework that optimises a shared binder sequence against several complexes simultaneously, applying attractive objectives to on-targets and repulsive objectives to off-targets. We benchmarked Odin-Multi in silico across three systems representing distinct cross-reactivity and specificity challenges: class B1 G protein-coupled receptors (GPCRs), testing cross-reactivity across multiple therapeutically relevant receptors; short-chain three-finger toxins, testing cross-reactivity across homologous toxin family members; and peptide-MHC (pMHC) complexes, testing specificity between near-identical target and off-target surfaces. For pairs of related class B1 GPCRs, 83.5 to 96.8% of jointly optimised designs exceeded an interaction-confidence threshold for both targets, compared with 6.8 to 36.3% of designs from single-target campaigns. For two short-chain three-finger neurotoxins, 9.2% of jointly optimised designs exceeded the corresponding threshold for both targets, compared with 0.8% of designs optimised against one toxin alone. Finally, in a pMHC specificity benchmark where target and off-target differed only in a single peptide residue, counter-selection increased the fraction of designs satisfying both the target-confidence criterion and a target-to-off-target interaction-confidence ratio of 2.5 from 6.0% to 14.2%. Experimental screening produced leads consistent with both design regimes in the two systems tested in vitro . We identified a cross-reactive toxin minibinder showing apparent nanomolar binding to the neurotoxin Erabutoxin A and to a candidate NK-shNTx-containing fraction from Naja kaouthia venom (higher-affinity fitted components of 11.95 and 34.43 nM, respectively), and a pMHC minibinder with greater target-to-off-target discrimination than a previously reported design. By treating cross-reactivity and specificity as explicit design objectives rather than screening outcomes, Odin-Multi widens the range of binding behaviours accessible to computational design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "033cfa2d646802a111afbee5246d2bbe7b07166be1132a29edc45b4a60a09fcd",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10272-6",
@@ -1262,6 +1374,64 @@
         }
       ],
       "abstract_text": "Twisted layered van der Waals materials often exhibit unique electronic and optical properties absent in their non-twisted counterparts. Unfortunately, predicting such properties is hindered by the difficulty in determining the atomic structure in materials displaying large moiré domains. Here, we introduce a split machine-learned interatomic potential (MLIP) and dataset curation approach that separates intralayer and interlayer interactions and significantly improves model accuracy, yielding roughly a tenfold improvement in energy and force predictions relative to conventional models. We further demonstrate that traditional MLIP validation metrics – force and energy errors – are inadequate for moiré structures and develop a holistic, physically-motivated metric based on the distribution of stacking configurations. This metric effectively compares the entirety of large-scale moiré domains between two structures instead of relying on conventional measures evaluated on smaller commensurate cells. Finally, we establish that one-dimensional, rather than two-dimensional, moiré structures can serve as efficient surrogate systems for validating MLIPs, permitting validation protocols against explicit DFT calculations. Applying our framework to HfS2/GaS bilayers reveals that accurate structural predictions directly translate into reliable electronic properties. Our model-agnostic approach integrates with various intralayer and interlayer interaction models, enabling computationally tractable relaxation of moiré materials, from bilayer to complex multilayers, with rigorously validated accuracy. Machine learning interatomic potentials (MLIPs) struggle with twisted 2D materials due to varying energy scales and hard-to-validate moiré domains. Here, the authors propose a split MLIP and surrogate 1D systems to build accurate, verifiable models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0356b11144fbb0769129f3393db46e1870740034529868ac4ade6680ef1e98ff",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.29.755317",
+        "https://openalex.org/W7214955116"
+      ],
+      "title": "A scalable recombinant pipeline for disulphide-stapled peptides",
+      "link": "https://doi.org/10.64898/2026.09.29.755317",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/30/2026.09.29.755317.full.pdf",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "bueso flores yensi",
+          "name": "Yensi Flores Bueso"
+        },
+        {
+          "key": "alpkilic gizem gokce",
+          "name": "Gizem Gokce Alpkilic"
+        },
+        {
+          "key": "jeung ji ung",
+          "name": "Ji-Ung Jeung"
+        },
+        {
+          "key": "rettie stephen",
+          "name": "Stephen Rettie"
+        },
+        {
+          "key": "li xinting",
+          "name": "Xinting Li"
+        },
+        {
+          "key": "mark tangney",
+          "name": "Mark Tangney"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "bhardwaj gaurav",
+          "name": "Gaurav Bhardwaj"
+        }
+      ],
+      "abstract_text": "Constrained macrocyclic peptides can engage protein surfaces that resist both small molecules and biologics but producing them at library scale still depends on chemical synthesis and macrocyclisation workflows that are slow, specialised and hard to parallelise. We describe a recombinant pipeline for disulphide-stapled cyclic peptides, compatible with 96 well plates, that lowers this barrier. Peptide-encoding sequences are introduced by extension PCR and in vivo assembly (IVA) cloning at about $2 per variant, expressed as small ubiquitin-like modifier (SUMO) fusions secreted to the oxidising periplasm, where the intramolecular disulphide forms spontaneously, and purified by immobilised metal-affinity chromatography (IMAC) with analytical size-exclusion chromatography (SEC). The route from a list of designs to characterised material takes about one week, much of it unattended. Applied to a 60-design library across nine protein targets, the pipeline gave purified products for all 60 designs, at a median total soluble yield of approximately 135 micrograms per 6 mL culture (range 9 to 261) that varied by target. Ellman's assay across 38 designs showed disulphide-formation failure to be sequence-driven and uncorrelated with yield, detecting a failure mode invisible to chromatography. Surface plasmon resonance confirmed target binding and showed that the recombinant SUMO fusion constructs retained affinities comparable to their corresponding peptide-only forms. Complementary to general-purpose recombinant platforms, the pipeline enables higher-throughput disulphide macrocycle screening and is amenable to partially or fully automated workflows.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3684,6 +3854,58 @@
         }
       ],
       "curated_categories": []
+    },
+    {
+      "id": "03e45e35ff7c8cb6627cabe099b91bdc78101cfb5c97945b9b5f7b6a9b547fd4",
+      "identity_keys": [
+        "https://doi.org/10.1101/2021.07.13.452225",
+        "https://doi.org/10.1126/science.abl4381",
+        "https://openalex.org/W3211239537"
+      ],
+      "title": "Multiple rereads of single proteins at single–amino acid resolution using nanopores",
+      "link": "https://doi.org/10.1126/science.abl4381",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2021/07/14/2021.07.13.452225.full.pdf",
+      "publication_date": "2021-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Science",
+      "authors": [
+        {
+          "key": "brinkerhoff henry",
+          "name": "Henry D. Brinkerhoff"
+        },
+        {
+          "key": "albert kang",
+          "name": "Albert S. W. Kang"
+        },
+        {
+          "key": "jingqian liu",
+          "name": "Jingqian Liu"
+        },
+        {
+          "key": "aksimentiev aleksei",
+          "name": "Aleksei Aksimentiev"
+        },
+        {
+          "key": "cees dekker",
+          "name": "Cees Dekker"
+        }
+      ],
+      "abstract_text": "Abstract As identifying proteins is of paramount importance for cell biology and applications, it is of interest to develop a protein sequencer with the ultimate sensitivity of decoding individual proteins. Here, we demonstrate a nanopore-based single-molecule sequencing approach capable of reliably detecting single amino-acid substitutions within individual peptides. A peptide is linked to a DNA molecule that is pulled through the biological nanopore MspA by a DNA helicase in single amino-acid steps. The peptide sequence yields clear stepping ion current signals which allows to discriminate single-amino-acid substitutions in single reads. Molecular dynamics simulations show these signals to result from size exclusion and pore binding. Notably, we demonstrate the capability to ‘rewind’ peptide reads, obtaining indefinitely many independent reads of the same individual molecule, yielding virtually 100% read accuracy in variant identification, with an error rate less than 10 −6 . These proof-of-concept experiments constitute a promising basis for developing a single-molecule protein sequencer. One-sentence summary This paper presents proof-of-concept experiments and simulations of a nanopore-based approach to sequencing individual proteins.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
+        }
+      ],
+      "curated_categories": [
+        "DNA-motor-driven transport",
+        "Protein analysis",
+        "Rereading",
+        "Variant discrimination"
+      ]
     },
     {
       "id": "03e50b76e12e0acf50e6e8fc5ece6beda9ae9e31b4e32c24d5ad1d5b55152a3f",

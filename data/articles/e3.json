@@ -159,6 +159,60 @@
       "curated_categories": []
     },
     {
+      "id": "e303d16fb9b829bc1c963ed9a62d178dcff6f54619a471f2bf6ed5d7023b4225",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2609.32309",
+        "https://openalex.org/W7214728071"
+      ],
+      "title": "PhiFold: Towards Dynamic Protein Design with Physics-Structured Covariance Modeling",
+      "link": "https://doi.org/10.48550/arxiv.2609.32309",
+      "pdf_url": "https://arxiv.org/pdf/2609.32309",
+      "publication_date": "2026-09-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "liu yutian",
+          "name": "Yutian Liu"
+        },
+        {
+          "key": "lin mujie",
+          "name": "Mujie Lin"
+        },
+        {
+          "key": "lanqianzhang",
+          "name": "LanqianZhang"
+        },
+        {
+          "key": "fan meng",
+          "name": "Meng Fan"
+        },
+        {
+          "key": "chang liu",
+          "name": "Chang Liu"
+        },
+        {
+          "key": "zhiweinie",
+          "name": "ZhiweiNie"
+        },
+        {
+          "key": "ma siwei",
+          "name": "Siwei Ma"
+        }
+      ],
+      "abstract_text": "Protein design is moving beyond structural correctness toward function-aware design, yet existing generative models typically treat dynamics as a downstream property estimated through simulation or prediction after structure generation. Using MD trajectories as a generative target is also undesirable because stochastic, path-dependent trajectories over-specify the underlying equilibrium ensemble. We introduce PhiFold, a framework for jointly generating protein backbones and their second-order dynamics, represented by residue-displacement covariance. Rather than predicting the quadratically sized full covariance, PhiFold decomposes dynamics into three interpretable components: local flexibility, a low-rank collective-motion representation, and residue-wise collective participation. These components are assembled into a positive-definite covariance matrix with exact marginal consistency, yielding a compact and physically constrained representation of equilibrium dynamics. Across generated proteins, PhiFold improves recovery of local fluctuations and long-range residue coupling while remaining competitive on dominant collective-motion subspaces. It further enables bidirectional control of residue flexibility while preserving backbone designability. By unifying structure generation with an explicit representation of equilibrium dynamics, PhiFold lays a foundation for designing proteins not only by how they look, but also by how they move.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e305948b15297527b3263e2657db2dd74e1fd61b9ccb942736154cad74c99012",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65429-0",

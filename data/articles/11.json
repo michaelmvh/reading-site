@@ -858,6 +858,40 @@
       "curated_categories": []
     },
     {
+      "id": "1116fba06be1b7defe6fbb9aafdf07567fe57e58cd2c3715b1d0e1c50bebf92e",
+      "identity_keys": [
+        "https://doi.org/10.1073/pnas.2535494123",
+        "https://openalex.org/W7167068654"
+      ],
+      "title": "Beyond native sequence recovery: Improved modeling of the sequence-energy landscape of protein structures",
+      "link": "https://doi.org/10.1073/pnas.2535494123",
+      "pdf_url": null,
+      "publication_date": "2026-07-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors": [
+        {
+          "key": "birnbaum foster",
+          "name": "Foster Birnbaum"
+        },
+        {
+          "key": "amy keating",
+          "name": "Amy E. Keating"
+        }
+      ],
+      "abstract_text": "Computational protein design using machine learning models has advanced rapidly since the introduction of AlphaFold2. There is now a suite of tools that enable in silico design of proteins with desired structures and properties. Most design workflows require fitting a designed backbone with a sequence that stabilizes it, and many machine learning sequence design models have been proposed. These models are trained to recover the native sequence paired with a known structure, a task known as native sequence recovery (NSR). Here, we demonstrate the limitations of optimizing a sequence design model only for NSR. We show that NSR is often misaligned with more important metrics of model performance: the compatibility of the generated sequence with the desired fold and the ability of the model to predict the energetic effects of mutations. We introduce PottsMPNN, which is trained to generate a Potts energy function consisting of single-residue and residue-pair terms from a protein backbone, and we demonstrate that learning a Potts model reduces NSR but improves sequence generation and energy prediction. We also trained PottsMPNN with noised backbone structures and multiple sequence alignments. In tests on held-out data, NSR decreased, but the quality of the designed sequences and energy predictions improved. By demonstrating the limitations of optimizing for NSR and the effectiveness of strategies that avoid NSR overoptimization, our work advances sequence design and highlights future directions for the broader protein design field.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1117fcac0dc80918f261a60dd284042cc61a8b7e0c2259784dbafe69c3ee49a6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73533-y",
@@ -1218,6 +1252,48 @@
       "curated_categories": []
     },
     {
+      "id": "112116362cbd14b5d6fcc2dc7efd6c79f4b8e0a05ff2f304d053aaf154fcb1c4",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.04.730121",
+        "https://openalex.org/W7163892963"
+      ],
+      "title": "Inherent limitations of zero-shot mutation prediction in protein engineering",
+      "link": "https://doi.org/10.64898/2026.06.04.730121",
+      "pdf_url": null,
+      "publication_date": "2026-06-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "phillip woolley",
+          "name": "Phillip R. Woolley"
+        },
+        {
+          "key": "aaron feller",
+          "name": "Aaron L. Feller"
+        },
+        {
+          "key": "andrew ellington",
+          "name": "Andrew D. Ellington"
+        },
+        {
+          "key": "claus wilke",
+          "name": "Claus O. Wilke"
+        }
+      ],
+      "abstract_text": "SUMMARY Predicting mutation effects is critical for protein engineering. A commonly pursued strategy is zero-shot prediction with deep-learning models, whose performance is typically evaluated using aggregate benchmark scores that obscure multidimensional biological tradeoffs. Here, we evaluate sequence, structure, and hybrid foundation models across curated datasets to expose the practical limitations of zero-shot predictions. We demonstrate that model performance is highly variable and heavily influenced by experimental noise and competing phenotypic goals. Notably, predictions from competing models often correlate more strongly with one another than with experimental outcomes. While current models effectively filter deleterious mutations and enrich high-scoring variants for natural functions, they struggle to identify precise optimal mutations and consistently fail to predict mutations that drive new-to-nature functions. These models learn from evolutionary constraints that tend to oppose the extreme biophysical optimizations required in targeted engineering. Consequently, zero-shot scoring serves as a valuable initial filter but cannot substitute for task-specific prediction. THE BIGGER PICTURE Deep learning provides a powerful toolkit for predicting mutational effects in protein engineering. However, realizing the full potential of deep-learning models requires a shift in how we evaluate them. Current benchmarks report aggregate scores across many proteins, and this practice masks high variability in performance across different proteins. Furthermore, because models are trained on natural sequences, their predictions reflect evolutionary compromises rather than targeted goals. Consequently, many models struggle to predict mutations that push proteins beyond what nature requires or that introduce entirely new-to-nature functions. The next breakthrough in computational design will rely on objective-specific evaluations rather than simply scaling model architectures. Refining our metrics for success will directly enable the next generation of targeted biotechnologies. HIGHLIGHTS Aggregate benchmark scores mask high protein-to-protein variability. A single prediction score cannot decouple competing stability and activity traits. Model rankings enrich functional variants but miss exact optimal mutations. Models consistently fail to predict mutations for new-to-nature functions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "11230c68c97e4bd87f8c279dada0304ed813a0b245230cf86aedc4cf0d7154d4",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2610.20456",
@@ -1245,6 +1321,84 @@
         }
       ],
       "abstract_text": "The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as well. In particular, adding embeddings for n-grams scales memory separately from compute use, because each pass only processes individual embedding rows, which are much smaller than the storage used for the whole embedding table. However, existing methods train embeddings from scratch, which needs expensive GPU memory for fast reading and writing. Meanwhile, the ordinary memory of the host system is cheap and underutilized by these training methods. To scale on host memory, we introduce COUNT (Counting Offline Unlocks N-gram Transformers), which builds n-gram embeddings without adding learned parameters by storing precomputed n-gram counts on host. We use the corpus frequencies to weight together the LM's own unembeddings of the next tokens most often following the current n-gram history. At a fixed compute budget, COUNT can be added as an additional input embedding for pretraining 1B-parameter LMs to improve validation loss as much as an LM with 57% more compute. If GPU memory is limited, using COUNT to let backbone parameters fill GPU memory gives better performance than splitting memory with additional learned n-gram embeddings. Beyond efficiency, COUNT allows switching in a different table of n-gram counts from a domain-specific corpus at inference time to adapt to a new task without any training.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1123603d26081449fef754409500179d64a16a296f40323a754d6a71719f1ee4",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.19.752834",
+        "https://openalex.org/W7214276776"
+      ],
+      "title": "De novo design of protease-activatable cytokine prodrugs",
+      "link": "https://doi.org/10.64898/2026.09.19.752834",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/22/2026.09.19.752834.full.pdf",
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "hojeong shin",
+          "name": "Hojeong Shin"
+        },
+        {
+          "key": "julissa tello",
+          "name": "Julissa G. Tello"
+        },
+        {
+          "key": "chan johng kim",
+          "name": "Chan Johng Kim"
+        },
+        {
+          "key": "chun ho jung",
+          "name": "Jung-Ho Chun"
+        },
+        {
+          "key": "frank peprah",
+          "name": "Frank Peprah"
+        },
+        {
+          "key": "brendan parent",
+          "name": "Brendan D. Parent"
+        },
+        {
+          "key": "atajanova tavus",
+          "name": "Tavus Atajanova"
+        },
+        {
+          "key": "arefin ibn mahmud robiah",
+          "name": "Robiah Arefin Ibn Mahmud"
+        },
+        {
+          "key": "li qiang",
+          "name": "Li Qiang"
+        },
+        {
+          "key": "aguirre andrew",
+          "name": "Andrew J. Aguirre"
+        },
+        {
+          "key": "dougan stephanie",
+          "name": "Stephanie K. Dougan"
+        },
+        {
+          "key": "dougan lawrence michael",
+          "name": "Michael Lawrence Dougan"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        }
+      ],
+      "abstract_text": "Cytokines can elicit potent antitumor immunity, but their clinical use is often limited by systemic immune activation and dose-limiting toxicity. Protease-responsive masking offers a way to improve selectivity by linking cytokine activity to disease-associated protease cleavage, but current approaches have faced several challenges. Here we describe a de novo protein design strategy for generating protease-activatable cytokine prodrugs that overcomes these challenges. We use this strategy to design and characterize cytokine prodrugs and well-behaved AND-gated split systems that require both target-dependent colocalization and proteolytic unmasking to generate active cytokines. In challenging syngeneic tumor models, our IL-21 prodrugs reduced treatment-associated toxicity while maintaining antitumor efficacy.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2435,6 +2589,12 @@
       ],
       "abstract_text": "BACKGROUND: As the number of multi-resistant pathogens grows rapidly, new strategies to accelerate the development of antimicrobial drugs are urgently needed. A promising candidate class of new antibiotics are antimicrobial peptides, showing a lower tendency to induce antibiotic resistance. High-throughput in silico strategies for candidate mining, such as generative deep learning algorithms, have become increasingly popular over the last few years and offer novel approaches to peptide discovery. METHODS: This study presents a comparative analysis of the generative performance of deep learning models for generating novel antimicrobial peptides. The models examined include Variational Auto-Encoders, a Wasserstein Auto-Encoder, a Recurrent Neural Network, and a Language Model. The primary focus of this study is the systematic comparison and evaluation of those models and their sampling options to identify the most suitable model and sampling strategy combination for different use cases. RESULTS: All models generated peptides with physicochemical profiles similar to natural antimicrobial sequences. Auto-encoders performed best overall, with the Wasserstein auto-encoder generating the most diverse and compositionally balanced peptides. In contrast to an unregularized baseline model, embedding-space analyses confirmed that the auto-encoders did not overfit. In addition, evaluating AMP predictors on data biased toward specific peptide properties revealed strong, model-specific preferences. Together, these results underscore the need to tailor models and evaluation metrics to each design objective. CONCLUSION: The present study investigates the strengths and weaknesses of various generative models for antimicrobial peptides. Practical recommendations for the combination of model type and sampling strategy are provided for individual applications.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -4068,6 +4228,60 @@
         }
       ],
       "abstract_text": "Following the identification of an error in the original article, the authors have corrected Figure 5d and Supplementary Fig. 4c in this Addendum and amended the ‘Cell Fractionation’ subsection of the Method section together with its references. In the original publication, Gagnon et al . (ref 67 in the original article) was cited as the protocol used for all cell fractionation experiments. However, in Figure 5d Core et al . (ref 68 in the updated article) was used, whereas in Supplementary Fig. 4c Minajigi et al . (ref 69 in the updated article) was used for the chromatin solubilization step, both without citation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "11bcf6639842a171fe75777ca5d89d30a120a53fc348ae4ce8755f4f72815a4d",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.01773",
+        "https://openalex.org/W7216093527"
+      ],
+      "title": "CODesign: Consistency from Data to Trajectory in All-Atom Protein Binder Co-Design",
+      "link": "https://doi.org/10.48550/arxiv.2610.01773",
+      "pdf_url": "https://arxiv.org/pdf/2610.01773",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "mo yuanle",
+          "name": "Yuanle Mo"
+        },
+        {
+          "key": "bo qiang",
+          "name": "Bo Qiang"
+        },
+        {
+          "key": "haitao lin",
+          "name": "Haitao Lin"
+        },
+        {
+          "key": "qinghan wang",
+          "name": "Qinghan Wang"
+        },
+        {
+          "key": "du gang",
+          "name": "Gang Du"
+        },
+        {
+          "key": "odin zhang",
+          "name": "Odin Zhang"
+        },
+        {
+          "key": "ann heng pheng",
+          "name": "Pheng Ann Heng"
+        }
+      ],
+      "abstract_text": "The central challenge in de novo protein design is generating plausible, mutually compatible structures and sequences, such that each designed sequence folds into its intended structure and the structure accommodates that sequence. Compared to typical two-stage design methods, which decouple the modeling of the interdependent modalities, co-design models improve the cross-modal consistency by jointly generating sequences and structures. However, naively generating sequences and structures simultaneously does not ensure their consistency. To address this challenge, we propose CODesign framework. We improve data consistency by generating approximately 105,000 consistency-distilled dimers. We further promote consistency through a multimodal joint flow model that captures the joint distribution of sequences, backbone structures, and local atomic configurations, together with a consistency-aware joint resampling strategy that iteratively refines sequences and side chains. Experiments show that CODesign achieves state-of-the-art performance with the highest in silico success rates on both protein- and ligand-target binder design. Ablation studies also demonstrate our distilled dataset increases performance by 70.9%, which can be further improved by our proposed resampling mechanism with negligible additional computational cost. Code, model weights and the new dataset will be completely open-source.",
       "discovery_sources": [
         {
           "kind": "open_alex",

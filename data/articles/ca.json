@@ -1816,6 +1816,48 @@
       "curated_categories": []
     },
     {
+      "id": "ca6f605d74ee7415c7bb3e93c7fb12839b5d71bbfff6c92dc41f81d3dbf632f5",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.25.734678",
+        "https://openalex.org/W7166846010"
+      ],
+      "title": "AI-guided discovery for low-resource peptide engineering using evolutionary scale modeling",
+      "link": "https://doi.org/10.64898/2026.06.25.734678",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/01/2026.06.25.734678.full.pdf",
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "andrekson leo",
+          "name": "Leo Andrekson"
+        },
+        {
+          "key": "robin rydbergh",
+          "name": "Robin Rydbergh"
+        },
+        {
+          "key": "mercado rocío",
+          "name": "Rocío Mercado"
+        },
+        {
+          "key": "michaela wenzel",
+          "name": "Michaela Wenzel"
+        }
+      ],
+      "abstract_text": "Abstract Data scarcity is a major bottleneck in artificial intelligence (AI)-guided peptide engineering, where experimental training sets often contain only tens to a few hundred sequences, and it is difficult to judge in advance whether a protein language model (PLM) will effectively guide iterative discovery before committing to wet-lab work. Here we present SCARSE, a machine learning framework that couples ESM2 protein language model embeddings with Gaussian process regression. Benchmarked across 24 diverse peptide and small-protein datasets spanning substitution and indel variants, antimicrobial peptides, and hemolytic peptides, SCARSE significantly outperformed hand-engineered descriptor baselines on substitution and indel tasks in low-data regimes (20–500 training samples) and performed comparably on short non-mutant peptides. In active learning simulations it consistently prioritized high-performing candidates, discovering up to 7-fold more top-tier peptides than random sampling. Cross-validation (CV) R² correlated strongly with final active learning performance (Pearson r = 0.80–0.84), and evaluating on as few as 50 labeled peptides reduced CV R² variance enough for it to serve as a practical, data-efficient criterion for assessing model suitability before iterative screening. SCARSE thus provides an early diagnostic indicator for active learning success and is freely available as an open-source Python package (pip) and through an interactive Hugging Face Spaces web interface.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ca705e23e405245e8d2ed63e3c8eb233849639d8a6dbb9e0c01ebfc027c43dcf",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73197-8",
@@ -4326,6 +4368,76 @@
       "curated_categories": []
     },
     {
+      "id": "cad4aaea9d58c4b64933edc893f2e73b7d7fd8de0010ee63fcdaa868e64b7a8e",
+      "identity_keys": [
+        "https://doi.org/10.1021/acschembio.6c00584",
+        "https://openalex.org/W7204959703"
+      ],
+      "title": "Enhancing De Novo Designed Peptides and Proteins via Irreversible Covalent Isoquinolinium Capture",
+      "link": "https://doi.org/10.1021/acschembio.6c00584",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13630340/pdf/nihms-2209922.pdf",
+      "publication_date": "2026-08-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Chemical Biology",
+      "authors": [
+        {
+          "key": "levine paul",
+          "name": "Paul M. Levine"
+        },
+        {
+          "key": "erickson patrick",
+          "name": "Patrick W. Erickson"
+        },
+        {
+          "key": "craven timothy",
+          "name": "Timothy W. Craven"
+        },
+        {
+          "key": "aaron balana",
+          "name": "Aaron T. Balana"
+        },
+        {
+          "key": "derrick hicks",
+          "name": "Derrick R. Hicks"
+        },
+        {
+          "key": "ahn green",
+          "name": "Green Ahn"
+        },
+        {
+          "key": "chan kim",
+          "name": "Chan J. Kim"
+        },
+        {
+          "key": "brandenburg lisa",
+          "name": "Lisa S. Brandenburg"
+        },
+        {
+          "key": "wei yang",
+          "name": "Wei Yang"
+        },
+        {
+          "key": "danielle erickson johnson",
+          "name": "Danielle P. Johnson Erickson"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        }
+      ],
+      "abstract_text": "Irreversible covalent inhibitors have garnered significant attention in recent years. Despite encouraging progress, the vast majority contain electrophiles that target the least abundant amino acid, cysteine, substantially limiting target inhibitor design for therapeutic intervention. Here, we generalize 2-ethynylbenzaldehyde as a proximity-induced electrophile for generating irreversible covalent peptide and protein inhibitors that specifically target native lysine residues. Leveraging this warhead, we designed a covalent de novo peptide that potently engages MCL1 to block its interaction with Bak. We show it is faster, more site-selective, and increases potency by 61-fold for MCL1 relative to a sulfonyl fluoride warhead. Additionally, with the guide of a computational script to predict \"reactive hotspots\" at the protein level, we developed a minibinder that labels PD-L1 in vitro and in live cells, displays a slower off-rate, and potently blocks the native PD-1 and PD-L1. These results establish isoquinolinium capture as a promising strategy to inhibit protein-protein interactions and for the development of novel covalent peptide and protein therapeutics.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cad5754f3b34b04176de8290af6f089bc568172e936d167ab72cbe58ebd7b3a2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76550-z",
@@ -5129,6 +5241,522 @@
       "curated_categories": []
     },
     {
+      "id": "caf0edbebdcf18aa80d73dd8cf25df21d11be6482c7fe864cde31c6a3a0b6121",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2025-06.3495962/3688247",
+        "https://doi.org/10.25582/data.2025-06.3495963/3688248",
+        "https://doi.org/10.25582/data.2025-06.3495964/3688249",
+        "https://doi.org/10.25582/data.2025-06.3495965/3688250",
+        "https://doi.org/10.25582/data.2025-06.3495974/3688251",
+        "https://doi.org/10.25582/data.2025-06.3495975/3688252",
+        "https://doi.org/10.25582/data.2025-06.3495976/3688253",
+        "https://doi.org/10.25582/data.2025-06.3495977/3688254",
+        "https://doi.org/10.25582/data.2025-06.3495978/3688255",
+        "https://doi.org/10.25582/data.2025-06.3495979/3688256",
+        "https://doi.org/10.25582/data.2025-06.3495989/3688257",
+        "https://doi.org/10.25582/data.2025-06.3496240/3688258",
+        "https://doi.org/10.25582/data.2025-06.3503052/3686342",
+        "https://doi.org/10.25582/data.2025-06.3507400/3685871",
+        "https://doi.org/10.25582/data.2025-06.3507405/3685872",
+        "https://doi.org/10.25582/data.2025-06.3507406/3685873",
+        "https://doi.org/10.25582/data.2025-06.3507686/3685874",
+        "https://doi.org/10.25582/data.2025-06.3507994/3685875",
+        "https://doi.org/10.25582/data.2025-06.3508123/3685876",
+        "https://doi.org/10.25582/data.2025-06.3508124/3685877",
+        "https://doi.org/10.25582/data.2025-06.3508128/3685878",
+        "https://doi.org/10.25582/data.2025-06.3508139/3685879",
+        "https://doi.org/10.25582/data.2025-06.3508140/3685880",
+        "https://doi.org/10.25582/data.2025-06.3508142/3685881",
+        "https://doi.org/10.25582/data.2025-06.3508143/3685882",
+        "https://doi.org/10.25582/data.2025-06.3508239/3685883",
+        "https://doi.org/10.25582/data.2025-06.3516739/3682895",
+        "https://doi.org/10.25582/data.2025-06.3517469/3682896",
+        "https://doi.org/10.25582/data.2025-06.3517483/3682897",
+        "https://openalex.org/W7211986550"
+      ],
+      "title": "Data for EMSL Project 50414 from June 2025",
+      "link": "https://doi.org/10.25582/data.2025-06.3507406/3685873",
+      "pdf_url": null,
+      "publication_date": "2026-09-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "cafa65c7cb6779b11396d9656092df95ed082acf853db8809e33ba9b2aa56de1",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.27.734619",
+        "https://openalex.org/W7166568927"
+      ],
+      "title": "Loop-Directed Cofactor Binding Enables Programmable Multicofactor Protein Design",
+      "link": "https://doi.org/10.64898/2026.06.27.734619",
+      "pdf_url": null,
+      "publication_date": "2026-06-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "andrew mutter",
+          "name": "Andrew C. Mutter"
+        },
+        {
+          "key": "aleksandr uvaydov",
+          "name": "Aleksandr Uvaydov"
+        },
+        {
+          "key": "andersen eskil",
+          "name": "Eskil M. E. Andersen"
+        },
+        {
+          "key": "morsi sara",
+          "name": "Sara Morsi"
+        },
+        {
+          "key": "beck sarah",
+          "name": "Sarah Beck"
+        },
+        {
+          "key": "khan mohammad",
+          "name": "Mohammad Khan"
+        },
+        {
+          "key": "allan bruce palfey",
+          "name": "Bruce Allan Palfey"
+        },
+        {
+          "key": "carolyn lubner",
+          "name": "Carolyn E. Lubner"
+        },
+        {
+          "key": "koder ronald",
+          "name": "Ronald L. Koder"
+        }
+      ],
+      "abstract_text": "The emergence of respiratory, photosynthetic, and assimilatory complexes in evolution required proteins capable of binding multiple catalytic and electron-transfer cofactors while exerting fine control over their spatial arrangement. Across natural systems these cofactors are preferentially positioned in loop regions. In contrast, most protein design strategies have focused on installing cofactor-binding sites within helical elements. Here we show that introducing only a pair of appropriately placed histidine ligands into the interhelical loop regions of a canonical single-chain four-helix bundle is sufficient to create new well-defined high affinity heterocofactor binding sites. This simple modification enables the self-assembly of complexes containing up to three distinct cofactors in a single designed domain with positional specificity. Using this strategy, we created constructs containing one or two hemes in combination with Zn(II)–phthalocyanine monosulfonate, Zn-heme, and the light-harvesting Zn(II)–tetraphenylporphyrin tetrasulfonate. Fluorescence measurements of constructs containing the latter show efficient energy transfer between photoactive donor cofactors. By demonstrating that loop-embedded ligands support robust, modular, and evolutionarily plausible cofactor recruitment, this work provides a mechanistic explanation for the widespread placement of redox and catalytic cofactors in loops in natural proteins: only limited packing complementarity is needed, meaning that just a few mutations can introduce a functional cofactor binding site, after which additional mutations can tune affinity, reactivity, and specificity. More importantly, it establishes a straightforward path toward constructing functional protein domains that mirror the complexity of biological energy-conversion architectures. TOC Graphic",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cafb15e3989bc37dc83c7b1faa81c41832fb7db2d84f13e6c81bef47b9b5b6bb",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74136-3",
@@ -5282,6 +5910,60 @@
         }
       ],
       "abstract_text": "Established determinants of health in the elderly help guide routines for indicated vaccine administration, while unmeasured frailty may limit vaccine access. We evaluate the performance of the 2024-2025 COVID-19 vaccine adapted to the Omicron JN.1 lineage in a Swedish population aged ≥65 years (N = 245 696). Vaccine effectiveness (VE) on COVID-19-related hospitalization and a negative control outcome (NCO; all-cause mortality) are assessed in various cohorts between October 1, 2024 to March 31, 2025. The VE was 75% (95% CI 70%-79%) overall, and 84% (95% CI 80%-87%) and 65% (95% CI 34%-82%) in individuals with and without vaccination with the prior updated COVID-19 vaccine in 2023-2024, respectively. The NCO in individuals exposed to the study vaccine in 2024-2025 was half of that seen in those not exposed to the vaccine (HR 0.43 [95% CI 0.40-0.45]). Removing individuals hospitalized with COVID-19 from this population did not change the difference in NCO (HR 0.43 [95% CI 0.41-0.46]). These findings suggest the presence of selection effects arising from under-provision of health services to elderly individuals with frailty. The healthy vaccinee effect should be considered in observational studies of the effectiveness of updated COVID-19 vaccines in elderly populations.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "caff40605ae2d4fdabf0bbfc46ef4d8c5567fccea51919468b83d5b044490ae1",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2606.25006",
+        "https://openalex.org/W7165860222"
+      ],
+      "title": "Scalable Peptide Design via Memory-Efficient Equivariant Transformer",
+      "link": "https://doi.org/10.48550/arxiv.2606.25006",
+      "pdf_url": "https://arxiv.org/pdf/2606.25006",
+      "publication_date": "2026-06-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "jiao rui",
+          "name": "Rui Jiao"
+        },
+        {
+          "key": "kong xiangzhe",
+          "name": "Xiangzhe Kong"
+        },
+        {
+          "key": "jia yinjun",
+          "name": "Yinjun Jia"
+        },
+        {
+          "key": "yijia zhang",
+          "name": "Yijia Zhang"
+        },
+        {
+          "key": "yang ziyi",
+          "name": "Ziyi Yang"
+        },
+        {
+          "key": "liu yang",
+          "name": "Yang Liu"
+        },
+        {
+          "key": "ma",
+          "name": "J Y Ma"
+        }
+      ],
+      "abstract_text": "Target-specific peptide design requires sequence and structure co-design under full atom geometric constraints. Latent generative frameworks offer an effective route for this problem by compressing fine grained atomic structures into block level latent representations and performing conditional generation in a compact latent space. However, the scalability of such systems depends heavily on the geometric backbone used throughout their encoding, decoding, and denoising components. We introduce MEET (Memory Efficient Equivariant Transformer), an E(3) equivariant backbone for scalable atomistic peptide modeling. MEET maintains coupled invariant scalar and equivariant vector feature streams, while reformulating geometric computation around memory efficient attention. It initializes vector features through global coordinate aggregation, incorporates pairwise distances through augmented query and key dot products, and injects covalent bond information through sparse bond adaptation. Integrated into a VAE and latent diffusion pipeline for full atom peptide generation, MEET achieves linear memory scaling with atom count and improves generation quality over existing peptide design methods. Experiments on large scale AFDB derived datasets further show that the proposed backbone supports systematic model and data scaling, leading to better binding affinity, physical validity, and sample diversity.",
       "discovery_sources": [
         {
           "kind": "open_alex",

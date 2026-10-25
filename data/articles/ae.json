@@ -1318,6 +1318,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.08.09.743088v2",
         "https://doi.org/10.64898/2026.08.09.743088",
+        "https://www.biorxiv.org/content/early/2026/08/17/2026.08.09.743088.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/21/2026.08.09.743088.source.xml"
       ],
       "title": "MERIT: Mechanism driven model predicts drug outcomes and nominates indications for failed drugs",
@@ -1476,6 +1477,12 @@
       ],
       "abstract_text": "Abstract Multimodal protein language models have transformed protein design, yet their capacity to capture complex topological features remains poorly understood. We use knotted proteins, rare structures in which the backbone forms a nontrivial topological knot, as a test case to probe this capacity using ESM3, a generative protein language model. Topology-aware guided decoding strongly enriches ESM3 outputs for knotted topologies, producing structures classified as knotted at an 89% success rate (95% CI: 81– 94%), compared to ~0.5% for unguided diffusion-based approaches. A confidence analysis shows that freshly generated artificial knots have lower ESM3 pLDDT and pTM than real knotted proteins evaluated under the same pipeline, motivating a cautious interpretation of generated examples as model samples pending independent validation. In contrast, the robustness analyses on real knotted proteins are high-confidence: on average 84% of the protein sequence must be altered before the knot breaks, and the loss follows a sharp threshold rather than gradual degradation. Strikingly, structural drift accumulates well before topological disruption, suggesting that topology is more robust than specific three-dimensional arrangement. These findings position knotted proteins as a useful probe of how generative protein models represent rare, global structural features.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -2477,6 +2484,94 @@
       "curated_categories": []
     },
     {
+      "id": "ae8508435c719da091543fbe356ad1fae4b00ad84907b28394169a4548f4f798",
+      "identity_keys": [
+        "https://doi.org/10.1093/bioinformatics/btag042",
+        "https://openalex.org/W7125654378"
+      ],
+      "title": "GeoGAD: geometry-aware antibody design framework for complementarity-determining region precision engineering",
+      "link": "https://doi.org/10.1093/bioinformatics/btag042",
+      "pdf_url": null,
+      "publication_date": "2026-01-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioinformatics",
+      "authors": [
+        {
+          "key": "songjian wei",
+          "name": "Songjian Wei"
+        },
+        {
+          "key": "jinxiong zhang",
+          "name": "Jinxiong Zhang"
+        },
+        {
+          "key": "chen yan",
+          "name": "Yan Chen"
+        },
+        {
+          "key": "chunyan tang",
+          "name": "Chunyan Tang"
+        },
+        {
+          "key": "jiayang tan",
+          "name": "Jiayang Tan"
+        }
+      ],
+      "abstract_text": "MOTIVATION: Antibodies, as pivotal effector molecules of the immune system, neutralize pathogens through specific binding to antigens mediated by complementarity-determining regions (CDRs), highlighting the critical importance of precise antibody design in diagnostics and therapeutics. Despite significant advances in CDR design, current methods remain limited by inadequate modeling of geometric constraints, omission of multi-scale spatial relationships, and insufficient conformational representation capacity-factors that collectively degrade prediction accuracy. RESULTS: To overcome these limitations, we present GeoGAD, a geometry-aware antibody design framework with Gaussian attention mechanisms. Key innovations include: (1) the introduction of rotational positional encoding to enhance geometric sensitivity; (2) a geometry-aware module that integrates multi-scale spatial features through dynamic message passing, adaptive edge refinement, and multi-edge-type coordinate optimization; and (3) a Gaussian attention mechanism that employs an edge-type-sensitive spatial Gaussian kernel to model long-range sequence dependencies, enabling focused attention on local critical residues while preserving global contextual modeling. Experimental evaluations demonstrate that GeoGAD achieves superior or comparable performance to state-of-the-art models across antibody sequence-structure co-modeling, CDR design, and affinity optimization benchmarks, particularly excelling in amino acid recovery rates (AAR) and structural accuracy metrics (RMSD, TM-score). By enhancing the design precision of antibody CDR regions, GeoGAD offers a geometrically consistent framework for the computational design of therapeutic antibodies. AVAILABILITY AND IMPLEMENTATION: The source code and implementation are available at https://github.com/WeiSongJian/GeoGAD, and the archival version for this manuscript is deposited at https://doi.org/10.5281/zenodo.18073443.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ae954ddef0526de9cbc135e7476d264b52b18cc256c726f30d9c18ae3cd869cb",
+      "identity_keys": [
+        "https://doi.org/10.1038/s44386-026-00066-1",
+        "https://openalex.org/W7203501533"
+      ],
+      "title": "On the generalization and usability of cofolding models for GPCR drug discovery",
+      "link": "https://doi.org/10.1038/s44386-026-00066-1",
+      "pdf_url": "https://www.nature.com/articles/s44386-026-00066-1.pdf",
+      "publication_date": "2026-08-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "npj Drug Discovery.",
+      "authors": [
+        {
+          "key": "lichirui zhang",
+          "name": "Lichirui Zhang"
+        },
+        {
+          "key": "friesner richard",
+          "name": "Richard A. Friesner"
+        },
+        {
+          "key": "edward miller",
+          "name": "Edward B. Miller"
+        },
+        {
+          "key": "joão rodrigues",
+          "name": "João Rodrigues"
+        }
+      ],
+      "abstract_text": "The generalizability of co-folding models for protein-ligand structure prediction remains unclear. Here, we benchmark Boltz, a state-of-the-art co-folding model, using a curated set of ligand-bound human G protein-coupled receptors (GPCRs) from families unseen during training. We show that while Boltz generally predicts receptor backbones accurately, ligand poses can contain significant errors that lead to a limited ability to reproduce experimental affinity data when tested with FEP +. We further show that physics‑based refinement of Boltz models can correct ligand poses to near‑experimental accuracy and rescue FEP+ performance to that of the native structure. These results highlight the strengths and limitations of co-folding methods and motivate a workflow that pairs them with physics-based refinement and validation before high-stakes decisions in drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ae95697568dc5169cf4fdc131b75b10e7a875df06a536427c94fa326fd2aa698",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67381-5",
@@ -2622,6 +2717,64 @@
         }
       ],
       "abstract_text": "Abstract Impaired adipogenesis contributes to obesity-associated metabolic disorders, in which mitochondrial dysfunction plays an important role. Emerging evidence suggests that mitochondria-localized circular RNAs (circRNAs) influence mitochondrial function; however, whether they regulate adipogenesis and systemic metabolism is unclear. By profiling circRNAs in mitochondria isolated from the white adipose tissue (WAT) of obese male mice, we observe an upregulation of Birc6 -circRNA Repressing Adipogenesis and Krebs-cycle Energy (BRAKE) in mitochondria. In vivo, adipocyte-specific circRNA BRAKE knockdown in male mice reduces body weight, restricts fat expansion, and improves insulin sensitivity. In vitro studies show that circRNA BRAKE inhibits adipogenesis. Mechanistically, circRNA BRAKE binds ATP5A and disrupts ATP synthase assembly, thereby reducing ATP production and mTORC1 signaling and suppressing adipogenesis. In omental WAT (oWAT) of patients with obesity, mitochondrial circRNA BRAKE levels are elevated and inversely correlated with mitochondrial bioenergetic function. Collectively, our data identify a mitochondria-localized circRNA that regulates energy metabolism and adipogenesis, suggesting that circRNA BRAKE may represent a potential therapeutic target for obesity-related metabolic diseases.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ae9acae973278627468398fcfe45798de13afacce07220786c06ec07e6d9be26",
+      "identity_keys": [
+        "https://doi.org/10.1042/bcj20260179",
+        "https://openalex.org/W7208789076"
+      ],
+      "title": "Graph-based representations in modern protein science",
+      "link": "https://doi.org/10.1042/bcj20260179",
+      "pdf_url": "https://portlandpress.com/biochemj/article-pdf/483/10/1891/991828/bcj-2026-0179c.pdf",
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biochemical Journal",
+      "authors": [
+        {
+          "key": "dana matthews",
+          "name": "Dana S. Matthews"
+        },
+        {
+          "key": "pulsford sacha",
+          "name": "Sacha B. Pulsford"
+        },
+        {
+          "key": "anthony brancewicz",
+          "name": "Anthony Brancewicz"
+        },
+        {
+          "key": "chen john",
+          "name": "John Z. Chen"
+        },
+        {
+          "key": "barnabas gall",
+          "name": "Barnabas Gall"
+        },
+        {
+          "key": "mahakaran sandhu",
+          "name": "Mahakaran Sandhu"
+        },
+        {
+          "key": "matthew spence",
+          "name": "Matthew A. Spence"
+        },
+        {
+          "key": "colin jackson",
+          "name": "Colin J. Jackson"
+        }
+      ],
+      "abstract_text": "For more than 50 years, the linear sequence and the multiple sequence alignment have been the foundational data structures of protein science, and they remain central to homology search, phylogenetic inference, covariance-based contact prediction, and modern protein language models. However, relational and graph-based representations are increasingly being adopted alongside sequence-based methods to capture biological relationships that linear data structures express only implicitly. Proteins fold as three-dimensional residue interaction networks, evolve through high-dimensional genotype networks defined by mutational connectivity, and operate within cellular protein-protein interaction graphs. Here, we review how graph theory is being used to describe and understand these relationships across protein science, with an emphasis on what these methods offer biochemists working on enzyme superfamilies, protein engineering, drug targets, and functional annotation. We trace the development of these ideas from early theoretical topologies, through statistical coupling and the structural network analyses, to the geometric and graph-like representations used in recent machine-learning-driven advances. Throughout, we emphasise that graphs do not replace sequences or MSAs but provide a complementary representation for biochemical relationships that are difficult to express in one dimension.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4059,6 +4212,60 @@
         }
       ],
       "abstract_text": "Background: The impact of genetic variants on gene expression has been intensely studied at the transcription level, yielding in valuable insights into the association between genes and the risk of complex disorders, such as schizophrenia (SCZ). However, the downstream impact of these variants and the molecular mechanisms connecting transcription variation to disease risk are not well understood. Results: We quantitated ribosome occupancy in prefrontal cortex samples of the BrainGVEX cohort. Together with transcriptomics and proteomics data from the same cohort, we performed cis-Quantitative Trait Locus (QTL) mapping and identified 3,253 expression QTLs (eQTLs), 1,344 ribosome occupancy QTLs (rQTLs), and 657 protein QTLs (pQTLs) out of 7,458 genes quantitated in all three omics types from 185 samples. Of the eQTLs identified, only 34% have their effects propagated to the protein level. Further analysis on the effect size of prefrontal cortex eQTLs identified from an independent dataset showed clear post-transcriptional attenuation of eQTL effects. To investigate the biological relevance of the attenuated eQTLs, we identified 70 expression-specific QTLs (esQTLs), 51 ribosome-occupancy-specific QTLs (rsQTLs), and 107 protein-specific QTLs (psQTLs). Five of these omics-specific QTLs showed strong colocalization with SCZ GWAS signals, three of them are esQTLs. The limited number of GWAS colocalization discoveries from omics-specific QTLs and the apparent prevalence of eQTL attenuation prompted us to take a complementary approach to investigate the functional relevance of attenuated eQTLs. Using S-PrediXcan we identified 74 SCZ risk genes, 34% of which were novel, and 67% of these risk genes were replicated in a MR-Egger test. Notably, 52 out of 74 risk genes were identified using eQTL data and 70% of these SCZ-risk-gene-driving eQTLs show little to no evidence of driving corresponding variations at the protein level. Conclusion: The effect of eQTLs on gene expression in the prefrontal cortex is commonly attenuated post-transcriptionally. Many of the attenuated eQTLs still correlate with SCZ GWAS signal. Further investigation is needed to elucidate a mechanistic link between attenuated eQTLs and SCZ disease risk.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "aed04b33945c2c8d925873e1a200f7092d113c9d561b046c4aef7e77dfda2a19",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.27.702026",
+        "https://openalex.org/W7126040969"
+      ],
+      "title": "The missing link between biomolecular condensates and amyloid fibrils",
+      "link": "https://doi.org/10.64898/2026.01.27.702026",
+      "pdf_url": null,
+      "publication_date": "2026-01-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "art hoti",
+          "name": "Art Hoti"
+        },
+        {
+          "key": "shuya zang",
+          "name": "Shuya Zang"
+        },
+        {
+          "key": "ephraim prantl",
+          "name": "Ephraim Prantl"
+        },
+        {
+          "key": "grünewald michele",
+          "name": "Michele Grünewald"
+        },
+        {
+          "key": "alexander kros",
+          "name": "Alexander Kros"
+        },
+        {
+          "key": "herre jelger risselada",
+          "name": "Herre Jelger Risselada"
+        },
+        {
+          "key": "sevink",
+          "name": "G. J. A. Sevink"
+        }
+      ],
+      "abstract_text": "The traditional view of protein self-assembly posits a binary choice between phase separation into fluid condensates and nucleation into crystalline amyloid fibers. However, this framework is incomplete. Experiments show that liquid condensates are non-equilibrium systems that mature into solid-like structures mediated by amphiphilic prion-like domains (PLDs). Being spatially organized yet dynamic, lyotropic phases represent an intermediate regime between these states. Using physics-based de novo protein design (Evo-MD), we identify a vast amphiphilic motif space encoding fluid lyotropic phases (e.g., micelles and bicelles). TEM, CD, and AlphaFold predictions confirm that these motifs also assemble into amyloid-based hydrogels as thermodynamic endpoints. Notably, the molecular grammar of lyotropic motifs overlaps strongly with that of PLDs and LARKS. Thus, while PLDs likely evolved to stabilize condensates through transient interactions near criticality, our results show that these same amphiphilic forces inherently encode lyotropic structuring and subsequent amyloid formation — linking functional condensation with pathological aggregation.",
       "discovery_sources": [
         {
           "kind": "open_alex",

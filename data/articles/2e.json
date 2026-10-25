@@ -1662,6 +1662,44 @@
       "curated_categories": []
     },
     {
+      "id": "2e403c2c885835024a057787bb32ee42b9d582c866f5abded784200e6bbca294",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70613",
+        "https://openalex.org/W4417262331"
+      ],
+      "title": "Limitations of the refolding pipeline for de novo protein design",
+      "link": "https://doi.org/10.1002/pro.70613",
+      "pdf_url": null,
+      "publication_date": "2026-05-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "kerlen korbeld",
+          "name": "Kerlen T. Korbeld"
+        },
+        {
+          "key": "viliuga vsevolod",
+          "name": "Vsevolod Viliuga"
+        },
+        {
+          "key": "fürst maximilian",
+          "name": "Maximilian J. L. J. Fürst"
+        }
+      ],
+      "abstract_text": "With the emergence of powerful deep learning-based tools, computational protein design has become a widely accessible technique. Nowadays, it is possible to perform both sequence and structure design in a matter of minutes, making the technology attractive to the broader scientific community. In protein design campaigns, one of the most common in silico strategies to evaluate how well a sequence encodes a target structure is the so-called self-consistency or refolding pipeline. In this approach, a structure prediction model is used to refold the designed sequence to probe whether it is compatible with the intended structure, and is evaluated via two metrics linked to experimental success: the confidence score of the predicted structure (predicted local distance difference test) and the self-consistency root-mean-square deviation, which measures how closely the refolded structure matches the target. In this work, we systematically evaluate how different models and structure prediction settings impact these metrics, and to what extent they can be used to reliably filter sequence design candidates. We show that evolutionary information can obscure folding models' abilities to assess sequence-structure compatibility, reducing the predictive performance of refolding metrics for experimental success, particularly for designs that share homology with natural sequences. We further highlight limitations of refolding metrics, including their sensitivity to structural features, such as flexibility. Our findings raise awareness of potential pitfalls in refolding-based evaluation and support more informed use of these metrics in protein design campaigns.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2e41f5b110785ea8a18c7294d79ebda6168cef6b0f84b644e8082f4fb9a19a5e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74283-7",
@@ -2218,6 +2256,36 @@
       "curated_categories": []
     },
     {
+      "id": "2e5c795ea8d484f48e670373be79f9e0182e86c345abad735d91f811f20ad039",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.14.711748",
+        "https://openalex.org/W7139045589"
+      ],
+      "title": "Single-Pass Discrete Diffusion Predicts High-Affinity Peptide Binders at >1,000 Sequences per Second across 150 Receptor Targets",
+      "link": "https://doi.org/10.64898/2026.03.14.711748",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/17/2026.03.14.711748.full.pdf",
+      "publication_date": "2026-03-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "andre watson",
+          "name": "Andre Watson"
+        }
+      ],
+      "abstract_text": "De novo peptide design methods traditionally couple generation to 3D structure prediction, limiting throughput to seconds or hours per candidate. Here we present LigandForge, a discrete diffusion model that generates binding peptide sequences in a single forward pass from receptor pocket geometry alone — no structure prediction, inverse folding, or iterative refinement at inference. LigandForge produces over 700 sequences per second on a single GPU (peak >1,000), a throughput advantage exceeding 10,000-fold over BoltzGen and 1,000,000-fold over BindCraft. We generated 490,691 peptides across 150 receptor targets and validated 16,475 by Boltz-2 structure prediction. DeltaForge, a Rust-based thermodynamic scoring engine calibrated against experimental binding data (Pearson r = 0.83 on the PPB-Affinity peptide benchmark), identified predicted sub-100 nM binders across 85 of 116 scored targets (73%), sub-10 nM across 62 (53%), and sub-1 nM across 35 (30%). In a five-target head-to-head on historically difficult targets (TNF-α, PD-L1, VEGF-A, IL-7Rα, HER2), LigandForge generated 150,000 candidates in 3.4 minutes and produced predicted sub-100 nM binders against all five targets (23 total from 576 folded structures), compared to 1 of 5 targets for BoltzGen (2 hits from 100 designs) and 0 for BindCraft (0 pipeline-accepted designs). DSSP analysis of 7,585 designed peptides revealed that LigandForge produces structurally diverse folds (45% helical, 28% β-sheet) compared to the helix-dominated outputs of backbone-sampling methods (BoltzGen 73%, BindCraft 90% helical). LigandForge also generated peptides embedding within orthosteric pockets of aminergic GPCRs with no evolutionary precedent for peptide ligands, and natively targets heterodimeric and homomultimeric receptors including the CD8A–CD8B heterodimer (60.5% elite structural confidence, 19.5% simultaneous dual-chain engagement), the CD3D–CD3E signaling complex, and the KIT receptor tyrosine kinase homodimer in vacancy pairing mode (59% bivalent engagement, ΔG < −26 kcal/mol). These results demonstrate that thermodynamic knowledge compiled into model weights during training can replace iterative structure prediction at inference, enabling a paradigm shift from structure-dependent optimization of individual candidates to structure-free exploration of sequence space at scale — with comparable or superior predicted binding quality, broader structural diversity, and access to target classes beyond the reach of backbone-sampling methods.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2e604333219bf9d16dc77bb78c295e50503f2183a2edcc7e80c4a48c4fa2a499",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-10001-5",
@@ -2249,6 +2317,72 @@
         }
       ],
       "abstract_text": "Abstract Allergic diseases are caused by overexuberant type II immune responses mounted against environmental antigens 1 . The allergic state is typified by the presence of allergen-reactive immunoglobulin E (IgE), which triggers mast cell degranulation upon allergen encounter, manifesting in pruritis, oedema and, in severe cases, anaphylaxis. Over the past century, the prevalence of allergic diseases has increased markedly, suggesting that environmental rather than genetic factors are mediating this change 2 . Although many hypotheses connecting environment to allergy exist 3–6 , the biological mechanisms that underpin environmentally mediated protection from allergy are unknown. Here we show, using a mouse model of allergic disease, that exposure to immunostimulatory environments generated cross-reactive adaptive immune memory, which tracked with obstructed type II immune responses upon allergen exposure. We found that engagement of cross-reactive adaptive immunity protected against future allergic sensitization and suppressed established allergic responses. Cross-reactivity in a tolerogenic context also prevented allergy, with the effect extending across antigenically complex exposures even at low protein sequence similarity. Our findings demonstrate a mechanistic relationship between environment and allergy, with general implications for adaptive immune function in natural settings.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2e65b2ce9fd3b27fda6570b38f407ee083a86b0226e4fd1539a792389cb2d7bd",
+      "identity_keys": [
+        "https://doi.org/10.1093/nar/gkag989",
+        "https://openalex.org/W7222207112"
+      ],
+      "title": "DRAMP 5.0: an update integrating sequence and structure in a novel FASTS format for AI-driven design of antimicrobial peptides",
+      "link": "https://doi.org/10.1093/nar/gkag989",
+      "pdf_url": null,
+      "publication_date": "2026-10-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nucleic Acids Research",
+      "authors": [
+        {
+          "key": "ma tianyue",
+          "name": "Tianyue Ma"
+        },
+        {
+          "key": "huang yihan",
+          "name": "Yihan Huang"
+        },
+        {
+          "key": "hongyu liu",
+          "name": "Hongyu Liu"
+        },
+        {
+          "key": "wentao wu",
+          "name": "Wentao Wu"
+        },
+        {
+          "key": "linxin ren",
+          "name": "Linxin Ren"
+        },
+        {
+          "key": "akhtar fahad",
+          "name": "Fahad Akhtar"
+        },
+        {
+          "key": "maryam nawaz",
+          "name": "Maryam Nawaz"
+        },
+        {
+          "key": "hua zichun",
+          "name": "Zichun Hua"
+        },
+        {
+          "key": "heng zheng",
+          "name": "Heng Zheng"
+        },
+        {
+          "key": "lao xingzhen",
+          "name": "Xingzhen Lao"
+        }
+      ],
+      "abstract_text": "Antimicrobial peptides (AMPs) represent promising candidates for combating multidrug-resistant bacterial infections; however, their clinical translation has been hampered by inherent limitations, including poor proteolytic and serum stability, unfavorable pharmacokinetic profiles, and cytotoxicity or hemolytic effects. In recent years, artificial intelligence (AI)-driven peptide design has emerged as a transformative strategy to accelerate AMP discovery and optimization by navigating vast sequence spaces and predicting multi-objective properties. Nevertheless, existing AMP databases predominantly catalog sequence and activity information, with insufficient annotation of non-natural amino acid and chemical modifications. In this update, the Data Repository of Antimicrobial Peptides (DRAMP) introduces a novel FASTS format, which incorporates SMILES representations into FASTA annotation lines, enabling the simultaneous storage of sequence and structural information within a single text file. This unified format allows accurate representation of peptides containing non-natural residues and chemical modifications, facilitates structure-aware sequence analysis, and supports AI/ML-based peptide prediction and design. DRAMP 5.0 currently contains 32,296 entries (2,036 newly added). In addition, 22,298 peptide sequences have been annotated in the newly proposed FASTS format. The updated DRAMP provides an enhanced resource for AMP research, cheminformatics, and AI-driven peptide discovery, and remains freely available at https://dramp.cpu-bioinfor.org/.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4027,6 +4161,36 @@
       "curated_categories": []
     },
     {
+      "id": "2e9faa3d4c61266b11d229af6ead8fea40d37f4eda4fa2466a8596af757fdaba",
+      "identity_keys": [
+        "https://doi.org/10.3389/fmicb.2026.1796329",
+        "https://openalex.org/W7163417805"
+      ],
+      "title": "Optimizing phage therapy with antidefense proteins acquired from the environment",
+      "link": "https://doi.org/10.3389/fmicb.2026.1796329",
+      "pdf_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1796329/pdf",
+      "publication_date": "2026-06-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Microbiology",
+      "authors": [
+        {
+          "key": "das ritam",
+          "name": "Ritam Das"
+        }
+      ],
+      "abstract_text": "With an estimated number of 10 31 , bacteriophages are ubiquitous biological entities prevalent in various ecological niches (Hendrix et al., 1999;Mushegian, 2020). These viruses are natural predators of bacteria and pose a persistent threat to their populations (Whitman et al., 1998;Buttimer et al., 2017). Phages typically employ two distinct strategies to maintain and release viral particles, the lysogenic and the lytic cycles. While the lysogenic cycle involves the incorporation of the viral genome within the host, the lytic life cycle of a phage comprises a multi-stage process that, unlike lysogenic, mostly leads to host cell death (Howard-Varona et al., 2017). This inherent efficacy of lysing bacteria in which these viruses multiply has insinuated their use as therapeutics for human infections. So-called 'Phage therapy', using viruses to treat human bacterial infections, is not a recent discovery but dates back to the early 1900s.Back in the year 1915, Frederick Twort observed unusual \"glassy and transparent\" contaminating spots arising from dead bacteria while propagating vaccinia virus. Later, in 1917, Felix d'Hérelle made similar observations and independently published his findings, coining the term \"bacteriophage\" (D'Herelle, 2007). In 1921, he successfully administered these viruses for treating dysentery in patients, marking the first recorded use of phages as therapeutics (Sulakvelidze et al., 2001;Dublanchet and Fruciano, 2008). This was followed by several other successful cases of phage therapy, including the treatment of Asiatic cholera in Punjab and Assam (Molina-Quiroz et al., 2023). The therapeutic administration of phages remained popular in several parts of Europe and the erstwhile Soviet Union in the 1920s and 1930s (Summers, 2012). It was the advent of broad-spectrum antibiotics and the ease of their mass production that eclipsed their growing popularity. However, what revolutionized modern medicine has been severely misused (Shah et al., 2023), and we are witnessing a global rise of antibiotic resistance among clinical isolates, with a current forecast of 10 million deaths worldwide by 2050 (Collaborators, 2024).The rise of antimicrobial resistance, coupled with the high development costs and risks associated with formulating new antibiotics, has prompted a renewed interest in phage therapy (Moon et al., 2025). These viruses can be readily isolated from nature and provide a faster alternative to traditional antimicrobials (Das et al., 2022). Phages with either broad or narrow host ranges are commonly found in diverse ecosystems (Bignaud et al., 2025), a feature that facilitates both generalized and personalized administration of these viruses for therapeutic purposes. In recent years, phage therapy has been performed to treat several critical medical conditions, wherein the prescription of antibiotics was either subeffective or compromised due to bacterial resistance. A personalized phage therapy against multidrug-resistant Acinetobacter baumannii strains was performed on a 68-year-old diabetic patient with necrotizing pancreatitis. The patient responded positively to the intravenous and percutaneous administration of the viruses, resulting in the clearance of the bacterial infection, leading to a full recovery (Schooley et al., 2017). Another large-scale personalized phage therapy initiative has been reported by the Belgian consortium, which includes Queen Astrid Military Hospital (QAMH), KU Leuven, and Sciensano. This study involved a retrospective analysis of 100 cases, which demonstrated 77.2% clinical improvement and 61.3% bacterial eradication in patients (Pirnay et al., 2024). The generalized prescription of phages has been equally successful, and still practised at medical institutes such as the Eliava Phage Therapy Center in Tbilisi, Georgia (Kutateladze and Adamia, 2008), and the Phage Therapy Unit (PTU) of Hirszfeld Institute of Immunology and Experimental Therapy, Wrocław, Poland (Zaczek et al., 2020). Additionally, across various phases, several clinical trials for phage therapy have shown efficacy against difficult-to-treat bacterial infections (Uchechukwu et al., 2024 andHickson et al., 2025). Targeted Gram-negative pathogens include Escherichia coli in double-blind studies using SNIPR001 (Trial ID: NCT05277350) and PreforPro (NCT04511221) phage cocktails, and Pseudomonas aeruginosa in cystic fibrosis using the AP-PA02 (NCT04596319) phage cocktail. Among Gram-positive pathogens, the most commonly targeted is Staphylococcus aureus, particularly in foot ulcers using TP-102 (NCT04803708) and chronic rhinosinusitis infections using the AB-SA01 phage cocktail (ACTRN12616000002482).While the reemergence of phage therapy holds promise, there have been instanceswhere it has not succeeded (Zaldastanishvili et al., 2021;Blasco et al., 2023). Key factors reported to contribute to therapeutic failure or lack of response include a limited host range, clearance by the human immune system, and the development of bacterial resistance (Ly-Chatain, 2014). However, an aspect that has received less attention, yet is crucial to the success of phage therapy, is surmounting the activity of bacterial defense systems (Karamlou et al., 2025). An ongoing arms race exists between bacteria and their viruses; this has propelled the former to evolve intricate immune responses. This bacterial defense arsenal is not only complex but also exhibits remarkable diversity, with ongoing discoveries continually unveiling new mechanisms (Bernheim and Sorek, 2020;Millman et al., 2022;Georjon and Bernheim, 2023).Understanding this formidable challenge and the development of robust protocols to address this issue will contribute to the growing success of phage therapy.Bacteria have evolved multiple arsenals to counteract the abundance and diversity of viruses. These prokaryotic immune mechanisms are complex, involving products from a single gene or gene islands (also termed as defense islands), which provide partial or full resistance against phage infections (Yi et al., 2025). Until recent years, bacterial immunity was considered to consist mostly of the restriction-modification (RM) system, CRISPR-Cas, and the toxin-antitoxin systems. However, with the advent of state-ofthe-art computational and experimental techniques, the field of bacterial immunity has expanded knowledge about novel antiphage systems (Georjon and Bernheim, 2023).As of now, over a hundred novel systems have been described, revealing a wealth of information about intricate bacterial responses to this evolutionary pressure (Bernheim and Sorek, 2020).According to an analysis of 21,364 genomes of RefSeq, RM, CRISPR-Cas, and Gabija defense systems are highly abundant in bacteria (Georjon and Bernheim, 2023). The prevalence of these systems highlights their evolutionary advantage in infection management and acts as a potential barrier to successful phage therapy, as they can effectively evade therapeutic phages (Bleriot et al., 2024). Therefore, to enhance the success of phage therapy, it is imperative to focus on novel mechanisms that can circumvent or inhibit these potent bacterial defense systems. This evolutionary arms race has also favoured phages, leading them to develop strategies to evade their host's immune response. Phages encode a diverse array of antidefense proteins designed to circumvent or inhibit bacterial defense systems, ensuring successful infection and replication within their hosts (Murtazalieva et al., 2024). Many such antidefense proteins have been identified, particularly against prominent defense systems. For instance, the anti-restriction modification system (RMS) proteins include ArdAB (McMahon et al., 2009) and the Ocr protein from phage T7, which targets Type I RMS (Bandyopadhyay et al., 1985), as well as the injected proteins Ip2 and Ip3 from T4 (Silas et al., 2025) and TifA from phi47 against Type IV RMS (Bullen et al., 2024).Similarly, numerous anti-CRISPR proteins have been discovered and are currently utilized in genetic engineering applications (Kraus and Sontheimer, 2023). Additionally, Antine et al. (2023) reported the structural and functional inhibition capabilities of a phage protein, Gad1, against the Gabija phage defense system (Antine et al., 2024).Beyond the major prokaryotic defense systems, several studies have also uncovered phage antidefense strategies targeting Druantia, Thoeris, Hachiman, and Zorya defense systems, among others (Yirmiya et al., 2024;Costa et al., 2025).These antidefense systems are untapped natural resources that can be explored for a variety of purposes. One such prominent field is their employment as therapeutics to target critical phage defense systems in clinically relevant bacterial pathogens that are difficult to treat with antibiotics and phage therapy (Figure 1). Antibiotic-resistant clinical bacterial strains encode for multiple defense systems that render phage therapy obsolete (Costa et al., 2024). Resensitizing medically relevant phages by genetically introducing antidefense systems is an effective way to overcome the failure of phage therapy due to bacterial immunity (Yamashita et al., 2025). This approach can be personalized catering to the extent of defense systems, a clinical strain from a patient's encoding. Multiple antidefense systems can be introduced into candidate phages through established gene editing techniques, such as Bacteriophage Recombineering of Electroporated DNA (BRED) (Payaslian et al., 2021). Incorporating antidefense genes into phages could play a crucial role in optimizing the phage therapy preparation pipeline, providing an added advantage by enhancing the phages' fitness. This concept has already been tested in vitro against Tmn defense system encoded by E. coli. A member of the KAP NTPase family, Tmn targets the replication of phages T2, P1, phiVi, and phiX. Identifying and engineering an antidefense protein from ΦSMS22 phage into the Tmn-sensitive ΦKSS9 phage, Yamashita et al., demonstrated enhanced efficacy in overcoming the Tmn defense (Yamashita et al., 2025), thus highlighting the potential for optimizing phage therapy with antidefense proteins to counteract bacterial defense mechanisms. Defense-guided phage engineering has been demonstrated to be a promising avenue for targeting clinical isolates (Voss et al., 2026). With the introduction of known antidefense systems, a defense-informed engineered phage cocktail prepared by Voss et al. 2026 showcased potency against multi-drug resistant clinical Staphylococcus aureus isolates encoding up to 15 known defense systems. Thus, strengthening the concept that phage therapy could be optimized by the exploration and incorporation of antidefense proteins.Metagenomic profiling of environmental samples is a powerful tool to identify novel biotechnologically relevant proteins (Prayogo et al., 2020). The development of highthroughput facilities for collection, sequencing, and characterization has established the field of viromics (Chang et al., 2024;Roux and Coclet, 2026). This has enabled the study of viruses across diverse environments and has significantly advanced our understanding of the viral \"dark matter\" (Das et al., 2025;Kosmopoulos and Anantharaman, 2025;Alves et al., 2026). Viromics has also identified several new phage proteins, and this could be the key to the discovery and implementation of novel antidefense proteins. Using a functional metagenomics approach, Rodríguez-Rodríguez et al. successfully identified over 200 putative defense system components, highlighting the diversity and interoperability of bacterial immunity (Rodriguez-Rodriguez et al., 2025). A similar approach can be implemented to study putative antidefense systems from the environment, potentially building a database of antidefense proteins to choose from. Comparable to the isolation and formulation of phage cocktails for therapy, identification and characterization of diverse antidefense proteins from environmental samples to target defense systems in clinical pathogens can be performed. In a clinical setup, phage engineering of antidefense proteins could essentially be an addition to the phage characterization step before therapeutic application, ensuring optimal efficacy of the selected phages (Figure 1).The future of phage therapy, optimised with antidefense proteins from the environment, appears promising. Considering the development of high-throughput gene editing and phage characterization technologies, engineering bacteriophages for critical care patients could be a game-changer in tackling the growing AMR crisis. The reemergence of phage therapy can be a key research area for medical professionals, and tailoring these viruses to the patient's needs can make these therapeutic agents more effective. However, much of the phage genome remains as 'encrypted dark matter', which limits our understanding and repertoire of antidefense proteins that can be potentially used for targeting defense systems in clinical isolates. In this regard, systematic computational and experimental characterization offers a promising approach to advancing phage therapy (Das and Bajpai, 2023;Das et al., 2024).Genome-wide phage random transposon mutagenesis and sequencing have recently been demonstrated to aid the discovery of novel antidefense proteins (Humolli et al., 2025;Kyte et al., 2025). Additionally, synthetically designed proteins have been exhibited to inhibit bacterial defense systems and engineering phages with these de novo proteins has provided an improvement in infectivity in bacterial strains carrying multiple defense systems (Garb et al., 2025). In the future, the application of these techniques can expand our arsenal of antidefense measures, particularly against bacterial immune mechanisms that have yet to be discovered. The AMR conundrum poses a threat to public and animal health, and without proactive strategies, common infections could be life-threatening. Although the concept of targeting bacterial immunity is in its early stages, it offers an encouraging outlook for strengthening phage therapy.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2ea0ba0fb7b38bc6b3f3907a9fb25f94b389b271374d1e4b993f116bc47551b1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74934-9",
@@ -4492,6 +4656,48 @@
         }
       ],
       "abstract_text": "The development of sustainable, high-performance elastomer is an emerging field, driven by the growing demand for eco-friendly materials with multifunctional capabilities that can meet complex performance requirements. Cellulose, as the most abundant and renewable bioresource in nature, pose significant challenges for its use in the design and fabrication of stretchable elastomer. The intrinsic characteristic of cellulose, namely, the intermolecular hydrogen bonding between neighboring linear chain of D-glucose units, hinder processability and limit its mechanical flexibility. In this study, we developed a chiral nematic liquid crystal elastomer mainly composed of plant derived hydroxypropyl cellulose (HPC), in which the mechanical and optical properties were precisely tuned by modulating the intermolecular forces within the HPC complexes through salting-induced Hofmeister effect. The obtained composite exhibits vivid structural color arising from the right-handed chiral nematic architecture, while its elasticity is controlled by the cellulose-water interactions through hydrogen bonds. The HPC-based liquid crystal elastomer shows remarkable mechanochromic behavior with the structural color shifting in response to applied force. This dynamic color changes enable real-time monitoring of mechanical stress, with practical applications in rehabilitation training. Besides, owing to the biocompatible and biodegradable nature of HPC, the resulting liquid crystal elastomer can be fully degraded within 30 days in natural environments. The current work introduces an innovative strategy for the design of sustainable, high-performance devices based on cellulose-derived elastomers, highlighting the potential for eco-friendly and multifunctional applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2eb01ed9d2b85f6b43371344c70f73801cb94ec7cf01f38388c127774ac24436",
+      "identity_keys": [
+        "https://doi.org/10.64898/2025.12.27.696647",
+        "https://openalex.org/W7117408837"
+      ],
+      "title": "Iterative Epitope Expansion Enables Structure-Guided de novo Design of IgE-Binding Miniproteins Targeting the Fc ε RI Interface",
+      "link": "https://doi.org/10.64898/2025.12.27.696647",
+      "pdf_url": null,
+      "publication_date": "2025-12-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "calman ido",
+          "name": "Ido Calman"
+        },
+        {
+          "key": "hamed shaykhalishahi",
+          "name": "Hamed Shaykhalishahi"
+        },
+        {
+          "key": "puwanat sangkhapreecha",
+          "name": "Puwanat Sangkhapreecha"
+        },
+        {
+          "key": "bachas sharrol",
+          "name": "Sharrol T. Bachas"
+        }
+      ],
+      "abstract_text": "Abstract Designing de novo protein binders to multidomain assemblies remains challenging due to their structural complexity, conformational diversity, and broad functional epitopes. Here, we present an iterative epitope-expansion strategy that enables structure-guided design of compact miniproteins targeting human immunoglobulin E (IgE). Direct attempts to design binders against the full Fc ε RI-binding interface of IgE produced candidates with poor in silico confidence and limited experimental success. Instead, by first targeting a nearby, geometrically tractable seed epitope on the IgE C ε 3 domain, we obtained initial binders that served as anchors for progressive, structure-guided expansion toward the full receptor-binding interface. Iteration through an integrated AI–human–wet-lab design loop yielded a second-round miniprotein with approximately 30-fold improved affinity and substantial structural overlap with the Fc ε RI-binding site. Alanine-scanning mutagenesis confirmed that loss-of-function substitutions mapped precisely to the designed binding interfaces, validating the structural models. Polyspecificity profiling revealed that two of three binders exhibited low off-target binding comparable to antibody benchmarks, whereas one design displayed elevated polyspecificity that was strongly amplified upon Fc fusion. Notably, a previously published high-affinity miniprotein benchmark exhibited similar format-dependent liabilities, underscoring an underappreciated developability risk in the de novo miniprotein literature. Competition assays further demonstrated that two binders occupy regions of IgE that overlap with the Fc ε RI binding interface, as evidenced by loss of miniprotein binding when Fc ε RI is pre-bound to IgE Fc, consistent with the intended design geometry. Together, these results establish epitope expansion as a generalizable strategy for steering generative protein design toward challenging multidomain epitopes and highlight the necessity of tightly coupled AI–human–experimental workflows for achieving both functional specificity and developability in de novo binder discovery.",
       "discovery_sources": [
         {
           "kind": "open_alex",

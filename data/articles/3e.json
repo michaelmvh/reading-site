@@ -932,6 +932,44 @@
       "curated_categories": []
     },
     {
+      "id": "3e2062905353cecb458ee2e8e1fc266eabf40b492b541d29afceb6bc2e2e0e37",
+      "identity_keys": [
+        "https://doi.org/10.2174/01157489364698260915073121",
+        "https://openalex.org/W7221797165"
+      ],
+      "title": "AttentionRBP: Integrating Multimodal Features via Sparse Cross- Attention for RNA-Binding Protein Prediction",
+      "link": "https://doi.org/10.2174/01157489364698260915073121",
+      "pdf_url": null,
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Bioinformatics",
+      "authors": [
+        {
+          "key": "baolu shi",
+          "name": "Baolu Shi"
+        },
+        {
+          "key": "bowen li",
+          "name": "Bowen Li"
+        },
+        {
+          "key": "liu ping zhi",
+          "name": "Zhi-Ping Liu"
+        }
+      ],
+      "abstract_text": "Introduction: RNA-Binding Proteins (RBPs) play critical roles in post-transcriptional gene regulation by modulating RNA splicing, transport, stability, and translation. Dysfunction of RBPs is associated with various diseases, including cancer, neurodegenerative disorders, and viral infections. However, existing computational methods for RBP prediction often rely on single-modality features or direct feature concatenation, limiting their ability to capture the complex interactions between RNA and proteins. Methods: We propose AttentionRBP, a multimodal framework that integrates protein-language-model embeddings, structural information, and physicochemical properties for RBP prediction. To improve cross-modal feature fusion, a Dropout-based sparse cross-attention mechanism was designed to suppress noisy interactions and enhance representation robustness. Results: Experimental results demonstrated that AttentionRBP outperformed several baseline methods in terms of Accuracy, MCC, AUC, and F1-score. Ablation studies confirmed the effectiveness of each modality and the contribution of the sparse cross-attention strategy. In addition, SHAP-based interpretability analysis indicated that cross-modal features contributed substantially to model predictions, while structural information complemented sequence-based embeddings. Discussion: The proposed multimodal framework effectively integrates heterogeneous biological information, thereby improving the robustness and interpretability of RBP prediction. The sparse crossattention mechanism also reduces the influence of irrelevant cross-modal interactions during feature fusion. Conclusion: AttentionRBP provides an effective framework for multimodal RBP prediction and shows promising generalization performance on unseen data. A publicly accessible web server was also developed to support batch submission and multi-species prediction for efficient RBP identification.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3e22e0eb98a497ed1980b5fedd40096be42a7607e91ae45451aa716dbcbb2aba",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02300-2",
@@ -3652,6 +3690,36 @@
       "curated_categories": []
     },
     {
+      "id": "3e9fa3599e152973f9fa209dc3a42d0c37e8e0ab172a2617d43b536b68064dc8",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15000040/v1",
+        "https://openalex.org/W7128675276"
+      ],
+      "title": "Embedding-Guided Design Rules for Programmable Mitochondrial Protein Import and Modular Organelle Organization",
+      "link": "https://doi.org/10.26434/chemrxiv.15000040/v1",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15000040/v1",
+      "publication_date": "2026-02-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "mark petalcorin",
+          "name": "Mark I.R. Petalcorin"
+        }
+      ],
+      "abstract_text": "Mitochondria coordinate cellular energy conversion, metabolism, signaling, and survival through the coordinated action of thousands of proteins distributed across the outer membrane, intermembrane space, inner membrane, and matrix. Yet, a systems-level framework that links mitochondrial protein sequence space to sub-mitochondrial localization and import logic remains incomplete. Here, we use protein language model embeddings from ESM2 to analyze the human mitochondrial proteome curated in MitoCarta3.0. Low-dimensional projections of embedding space recover biologically meaningful structure, with proteins forming compartment-enriched groupings consistent with submitochondrial organization. Unsupervised clustering and bipartite network analysis identify oxidative phosphorylation, protein import, and mitochondrial translation as highly connected hubs that anchor mitochondrial functional architecture. To probe engineering principles, we perform in silico minimaledit mutagenesis of N-terminal targeting presequences and quantify shifts in embedding position and predicted import potential. These perturbation experiments show that modest changes in charge distribution, hydropathy, and helix propensity can tune import behavior, with a substantial subset of proteins exhibiting large, directionally consistent shifts in predicted targeting. Together, the results support a modular view of mitochondrial organization and indicate that targeting presequences behave as tunable control elements rather than fixed codes. This work provides an embedding-driven computational blueprint for programmable mitochondrial targeting, with applications in synthetic biology, therapeutic payload routing, and organelle engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3ea0df446e635e566a159660b76dba1416500cfb319e7b15d1d6058958c4081e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74181-y",
@@ -3769,6 +3837,90 @@
         }
       ],
       "abstract_text": "Z-DNA-binding protein 1 (ZBP1) is a nucleic acid sensor with two Z-DNA-binding domains (Zα domains) that bind Z-DNA and Z-RNA, mediating inflammatory cell death in development and disease. A recent study has demonstrated that the truncated isoform ZBP1-S senses telomeric repeat-containing RNA (TERRA), activating innate immune signaling and triggering cell death. However, the precise mechanism on how ZBP1-S senses TERRA remains unknown. G-quadruplexes (G4s) are non-canonical secondary structures of nucleic acids that can form within guanine (G)-rich strands of DNA or RNA, including TERRA. Here, we demonstrate that ZBP1-S directly senses G4 structures within TERRA, leading to ZBP1-S oligomerization and subsequent induction of inflammatory cell death. Furthermore, G4-specific binding ligands can compete with ZBP1-S for binding to TERRA G4s and inhibit ZBP1-S mediated activation of interferon signaling. Therefore, this work deciphers a hitherto uncharacterized mechanism that links TERRA G4s with ZBP1-S activity in triggering inflammatory cell death. The sensor protein ZBP1 detects telomeric RNA (TERRA) to trigger inflammatory cell death. Here, the authors demonstrate that ZBP1-S directly recognizes specific G-quadruplex structures within TERRA to initiate this process and G-quadruplex-binding molecules can block the resulting immune signalling.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "3ea9d4dfb5440f12855af08d05e0e1fb44b79e30ae636566df35cc6b6d9f3b03",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.08.737312",
+        "https://openalex.org/W7168206583"
+      ],
+      "title": "The YTHDC1 glutamate-rich domain docks to the ADAR1 Zα Domain, linking the N 6 -methyladenosine modification of pre-mRNAs to dsRNA editing",
+      "link": "https://doi.org/10.64898/2026.07.08.737312",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/12/2026.07.08.737312.full.pdf",
+      "publication_date": "2026-07-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "dmitry gromak",
+          "name": "Dmitry Gromak"
+        },
+        {
+          "key": "alexey shaytan",
+          "name": "Alexey К. Shaytan"
+        },
+        {
+          "key": "alan herbert",
+          "name": "Alan G. Herbert"
+        },
+        {
+          "key": "maria poptsova",
+          "name": "Maria S. Poptsova"
+        }
+      ],
+      "abstract_text": "The p150 isoform of the double-stranded RNA editing enzyme ADAR1 binds Z-DNA and Z-RNA through the conserved winged helix-turn-helix Zα domain. Here, we describe an inverse computational design strategy to map protein interactors of Zα. We used RFdiffusion and ProteinMPNN to generate ∼10,000 synthetic binders optimized for the Zα recognition surface, then used their sequences as structural templates for BLASTp searches against the human proteome. Multi-stage screening of ∼1,200 candidate regions from 298 proteins via ColabFold pDockQ identified 79 candidates for high-resolution AlphaFold3 modeling, which revealed the m6A reader YTHDC1 as the top-ranked interactor. AlphaFold3 predicts that a glutamate-rich poly-E disordered region of YTHDC1 (residues 199–254) docks into the basic recognition pocket of Zα through a charge-complementary mechanism that mimics the phosphate backbone of Z-RNA. Microsecond molecular dynamics simulations confirmed stability of the binary ADAR1p150–YTHDC1 complex, with the Zα–poly-E interface maintaining RMSD below 3 Å throughout. Ternary complex simulations showed that dsRNA acts as a co-anchoring scaffold stabilizing simultaneous engagement of both proteins in a catalytically dormant conformation. YTHDC1 localizes to transcription-associated YT bodies where nascent RNAs undergo m6A modification and negative supercoiling promotes Z-DNA formation, suggesting that YTHDC1 recruits ADAR1p150 to promote editing of intron-containing substrates prior to splicing. Short Statement ADAR1 can edit RNAs after they are made, changing the message they carry and removing double-stranded RNAs that can activate inflammatory responses. Using AI-driven protein design, we discovered that ADAR1 physically interacts with YTHDC1, a protein that recognizes newly made self-RNAs. The interaction allows ADAR to edit RNAs as they are made. This unexpected connection between two fundamental RNA modification systems opens new avenues for understanding and potentially targeting autoimmune disorders and cancers driven by the mis-editing of RNA transcripts.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "3eaa3b4420b24f54f3f05e926d295e50f9b146bc615c043ede6bd03cdb44657c",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.24.701540",
+        "https://openalex.org/W7125785779"
+      ],
+      "title": "Designing Rigid Protein Fiducials to Visualize GPCR Conformational States",
+      "link": "https://doi.org/10.64898/2026.01.24.701540",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/26/2026.01.24.701540.1.full.pdf",
+      "publication_date": "2026-01-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "alina vo",
+          "name": "Alina Vo Vo"
+        },
+        {
+          "key": "en sun yuan",
+          "name": "Yuan-En Sun"
+        },
+        {
+          "key": "english justin",
+          "name": "Justin G. English"
+        },
+        {
+          "key": "michael robertson",
+          "name": "Michael J. Robertson"
+        }
+      ],
+      "abstract_text": "G-protein coupled receptors (GPCRs) mediate precise ligand-specific signaling profiles, yet structural visualization of how ligands alter receptor conformational landscapes in the absence of signaling partners or mimetics has proven incredibly challenging. Here we show that by combining generative protein design with deep-learning based conformational ensemble prediction we can reliably design 'fiducial markers' to facilitate cryogenic electron microscopy (cryoEM) of GPCRs at arbitrary fusion points, enabling the visualization of previously intractable states. We validate the approach with high-throughput determination of inactive state structures of four pharmaceutically relevant GPCRs, allowing for key details of receptor pharmacology to be resolved in each case. We then engineered an extracellular fiducial marker for the prototypical β2-adrenergic receptor that enabled direct structural characterization of the rearrangement of key intracellular motifs in the absence of G-protein. Comparison with recent co-folding models highlights gaps in current methods for predicting ligand-induced GPCR conformational changes. These results present a generalizable framework for accessing traditionally inaccessible structural states of small, dynamic proteins.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5121,6 +5273,56 @@
       "venue": "Nature",
       "authors": [],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "3ee695d1915b91c99b44566408941baef55bc72c571eff734874d9b33e24d2f1",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.30.741764",
+        "https://openalex.org/W7172481573"
+      ],
+      "title": "Blending physics-based and inverse folding models to disentangle variant effects on stability and function",
+      "link": "https://doi.org/10.64898/2026.07.30.741764",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/04/2026.07.30.741764.full.pdf",
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "alejandro ezequiel galpern",
+          "name": "Ezequiel Alejandro Galpern"
+        },
+        {
+          "key": "sanchis soler xavier",
+          "name": "Xavier Soler Sanchis"
+        },
+        {
+          "key": "charles pugh",
+          "name": "Charles W. J. Pugh"
+        },
+        {
+          "key": "billeci federico",
+          "name": "Federico Billeci"
+        },
+        {
+          "key": "frazer jonathan",
+          "name": "Jonathan Frazer"
+        },
+        {
+          "key": "dias mafalda",
+          "name": "Mafalda Dias"
+        }
+      ],
+      "abstract_text": "Abstract Protein sequences are constrained not only by the need to fold into stable structures, but also by specific functional requirements imposed by natural selection. Yet predictions of how amino-acid changes affect proteins typically collapse these constraints into a single scalar score. Quantitatively separating these effects at scale remains an open challenge, with direct relevance spanning protein design to understanding the molecular mechanisms of disease. Inverse-folding (IF) models have emerged as fast, unsupervised predictors of folding energy changes (ΔΔG), but because they learn statistical correspondences between structure and sequence, they can conflate conservation driven by function with conservation driven by stability. Here, we show that blending IF models with a physics-based coarse-grained potential improves global correlation with experimental ΔΔG and, crucially, reduces IF model bias at functional sites. Applying the best-performing blend together with an evolutionary language model, we decompose each variant’s evolutionary cost into folding energy and dark energy, the latter capturing functional constraints beyond folding stability. With this decomposition, and without the need for supervision, we find that disease gain-of-function variants show a distinct functional signature from loss-of-function variants. In particular, we identify oncogenic drivers as largely preserving stability while exhibiting high dark energy, as opposed to tumor suppressors which are predominantly destabilized, paving the way to a mechanistic understanding of driver mutations in cancer. Together, these results provide a scalable framework for accurate ΔΔG prediction and mechanistic disentanglement of variant effects.",
       "discovery_sources": [
         {
           "kind": "open_alex",

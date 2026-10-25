@@ -558,6 +558,12 @@
       "abstract_text": "We present FeatureDCA, a statistical framework for protein sequence modeling and generation that extends Direct Coupling Analysis (DCA) with biologically meaningful conditioning. The method can leverage different kinds of information, such as phylogeny, optimal growth temperature, enzymatic activity or, as in the case presented here, principal components derived from multiple sequence alignments, and use it to improve the learning process and consequently efficiently condition the generative process. FeatureDCA allows sampling to be guided toward specific regions of sequence space while maintaining the efficiency and interpretability of Potts-based inference. Across multiple protein families, our autoregressive implementation of FeatureDCA matches or surpasses the generative accuracy of established models in reproducing higher-order sequence statistics while preserving substantial sequence diversity. Structural validation with AlphaFold and ESMFold confirms that generated sequences adopt folds consistent with their intended wild-type targets. In a detailed case study of the Response Regulator family (PF00072), which comprises distinct structural subclasses linked to different DNA-binding domains, FeatureDCA accurately reproduces class-specific architectures when conditioned on subtype-specific principal components, highlighting its potential for fine-grained structural control. Predictions of experimental deep mutational scanning data show accuracy comparable to that of unconditioned autoregressive Potts models, indicating that FeatureDCA also captures local functional constraints. These results position FeatureDCA as a flexible and transparent approach for targeted sequence generation, bridging statistical fidelity, structural realism, and interpretability in protein design.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -695,6 +701,80 @@
         }
       ],
       "abstract_text": "The brain is a physically embedded and heavily interconnected system that expresses neural rhythms across multiple time scales. While these dynamics result from the complex interplay of local and inter-regional factors, the relative contribution of such mechanisms across the cortex remains unclear. Our study explores geometric, microstructural, and connectome-level constraints on cortex-wide neural activity. We leverage intracranial electroencephalography recordings to derive a coordinate system of human cortical dynamics. Using multimodal neuroimaging, we could then demonstrate that these patterns are largely explainable by geometric properties indexed by inter-regional distance. However, dynamics in transmodal association regions are additionally explainable by incorporation of inter-regional microstructural similarity and connectivity information. Our findings are generally consistent when cross-referencing electroencephalography and imaging data from large-scale atlases and when using data obtained in the same individuals, suggesting subject-specificity and population-level generalizability. Together, our results suggest that the relative contribution of local and macroscale constraints on cortical dynamics varies systematically across the cortical sheet, specifically highlighting the role of transmodal networks in inter-regional cortical coordination.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "951cdddb3eb3c31e531b6b7ea3dd6e4f30719e1e67c3b8f795e79727155f1484",
+      "identity_keys": [
+        "https://doi.org/10.5414/np301731",
+        "https://openalex.org/W7160832753"
+      ],
+      "title": "Rapid polymer-based immunohistochemistry for intraoperative CNS tumor diagnosis: A validation study",
+      "link": "https://doi.org/10.5414/np301731",
+      "pdf_url": null,
+      "publication_date": "2026-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Clinical Neuropathology",
+      "authors": [
+        {
+          "key": "julia schuler",
+          "name": "Julia Schuler"
+        },
+        {
+          "key": "baur sandra",
+          "name": "Sandra Baur"
+        },
+        {
+          "key": "federico fusco",
+          "name": "Federico Fusco"
+        },
+        {
+          "key": "felix schicktanz",
+          "name": "Felix Schicktanz"
+        },
+        {
+          "key": "benedikt wiestler",
+          "name": "Benedikt Wiestler"
+        },
+        {
+          "key": "canisius julian",
+          "name": "Julian Canisius"
+        },
+        {
+          "key": "christian mawrin",
+          "name": "Christian Mawrin"
+        },
+        {
+          "key": "bernhardt denise",
+          "name": "Denise Bernhardt"
+        },
+        {
+          "key": "arthur wagner",
+          "name": "Arthur Wagner"
+        },
+        {
+          "key": "bernhard meyer",
+          "name": "Bernhard Meyer"
+        },
+        {
+          "key": "carolin mogler",
+          "name": "Carolin Mogler"
+        },
+        {
+          "key": "claire delbridge",
+          "name": "Claire Delbridge"
+        }
+      ],
+      "abstract_text": "Intraoperative diagnostics in neuro-oncology face a critical gap between the morphological limitations of hematoxylin-eosin staining or toluidine blue staining and the time-intensive nature of conventional immunohistochemistry (IHC). This delay hinders real-time surgical decision-making, particularly in distinguishing gliomas, metastases, and lymphomas. To address this, we validated a novel, rapid IHC protocol utilizing directly conjugated polymerized horseradish peroxidase (pHRP) antibodies, designed to deliver results in under 30 minutes. We evaluated the performance of pan-cytokeratin (pan-CK), glial fibrillary acidic protein (GFAP), and cluster of differentiation 20 (CD20) antibodies on 115 intraoperative frozen tissue samples. Staining quality was assessed using a 4-tiered scoring system (from 0 to 3+). The cytoplasmic markers GFAP and pan-CK demonstrated excellent robustness and reliability, achieving mean scores of 2.6 and 2.47, respectively, with over 68% of cases showing strong, specific staining (3+). The membrane-bound marker CD20 showed more variability (mean score 2.07), highlighting the influence of antigen localization on this rapid protocol. Our findings demonstrate that this rapid IHC method is a viable and highly effective tool for the intraoperative differentiation of central nervous system tumors, particularly for cytoplasmic antigens. By providing crucial morphological information in near real-time, this approach has the potential to significantly enhance diagnostic precision during surgery, enabling immediate, tailored therapeutic strategies and improving patient outcomes.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -971,6 +1051,68 @@
         }
       ],
       "abstract_text": "Long-range dispersals of marine bacteria in the oceans have remained largely indecipherable, which is particularly relevant for Vibrio, responsible for global epidemics in humans and animals. Here, we combine the analysis of 40 terabases of metagenomic data and satellite-tracked surface drifter data, from across the globe revealing that Vibrio are abundant members of the ocean surface and show a strong association with microplankton, which appears to govern their distribution and connectivity at a global scale. We identify long-distance biological corridors connecting Vibrio communities, including potentially pathogenic Vibrio. These corridors allow movement over thousands of kilometres in a fairly short time, with estimates of less than 1.5 years to cross an ocean basin. These findings have deep implications for the demography and community dynamics of Vibrio species and the epidemiology of associated diseases.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "95263968d169496c9800f0c49fd4fd65661f7d415d79204c4bb8c7c3c9753930",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15004911/v1",
+        "https://openalex.org/W7165191086"
+      ],
+      "title": "The Good, The Bad, and The Ugly of Antibody Design: A Roadmap for Integrating Co-folding with Absolute Binding Free Energy Calculations",
+      "link": "https://doi.org/10.26434/chemrxiv.15004911/v1",
+      "pdf_url": null,
+      "publication_date": "2026-06-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "amogh sood",
+          "name": "Amogh Sood"
+        },
+        {
+          "key": "jha punit",
+          "name": "Punit K. Jha"
+        },
+        {
+          "key": "khuttan sheenam",
+          "name": "Sheenam Khuttan"
+        },
+        {
+          "key": "dominic rufa",
+          "name": "Dominic A. Rufa"
+        },
+        {
+          "key": "benjamin shields",
+          "name": "Benjamin J. Shields"
+        },
+        {
+          "key": "alexander brueckner",
+          "name": "Alexander C. Brueckner"
+        },
+        {
+          "key": "beckwith zane",
+          "name": "Zane Beckwith"
+        },
+        {
+          "key": "andrea bortolato",
+          "name": "Andrea Bortolato"
+        },
+        {
+          "key": "mary pitman",
+          "name": "Mary Pitman"
+        }
+      ],
+      "abstract_text": "Computational antibody design offers an appealing alternative to experimental affinity maturation. Mutations, insertions, and deletions frequently induce substantial conformational rearrangements in antibodies, whereas many Free Energy Perturbation (FEP) applications are restricted to relatively small changes between structurally similar molecules. Here, we introduce Tango for biologics, an implicit-solvent absolute binding free energy (ABFE) framework that enables whole-protein alchemical transformations between antibody variants without requiring shared scaffolds or structural similarity. Tango was evaluated on three benchmark antibody–antigen series, using both crystallographic and co-folded structures. On crystal inputs, Tango recovered experimental rank ordering of binding free energies with Spearman correlations (ρ) ranging from 0.39 in charged, polar environments to 0.75 in hydrophobic interfaces. A predictive signal was obtained from high-quality co-folded structures, yielding ρ ranging from 0.43 to 0.58. Further, Tango achieved robust lead prioritization across all benchmark systems, with normalized discounted cumulative gains of 0.60–0.83. Co-folding failures were primarily driven by inaccurate antigen placement rather than monomer folding, even for complexes represented in co-folding training sets. Refinements to co-folding methods partially rescued difficult benchmark systems, enabling the generation of simulation-ready complexes. Together, these results define the conditions under which AI-derived structures are sufficient for rigorous affinity prediction, when only lead prioritization remains reliable, and when current co-folding approaches fail prospectively.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1423,6 +1565,40 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9557399eb1e4d706eda827ea4cc258a9ff878ea84144e15fc2b0976e8de83530",
+      "identity_keys": [
+        "https://doi.org/10.3390/bios16060341",
+        "https://openalex.org/W7164927610"
+      ],
+      "title": "The Fragmented Nature of Biosensor Development: Challenges and Paths to Mitigation",
+      "link": "https://doi.org/10.3390/bios16060341",
+      "pdf_url": "https://www.mdpi.com/2079-6374/16/6/341/pdf?version=1781620461",
+      "publication_date": "2026-06-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biosensors",
+      "authors": [
+        {
+          "key": "gil zimran",
+          "name": "Gil Zimran"
+        },
+        {
+          "key": "assaf mosquna",
+          "name": "Assaf Mosquna"
+        }
+      ],
+      "abstract_text": "Genetically encoded biosensors are now central tools, deployed either as intracellular reporters to advance basic research, or as whole-cell reagents that detect analytes in diverse sample-types. Across the diversity of molecular scaffolds and modes of operation, biosensors serve a common functional purpose: translating ligand presence into a readable signal. Despite this shared logic, biosensor development as a field of practice remains fragmented: different scaffolds and modalities are advanced in separate, often lab-specific pipelines with diverse assays, metrics, and design practices. Moreover, libraries, selection histories and performance data generated during routine campaigns rarely outlive the projects that produced them. In this perspective, we focus on this fragmentation as a field-level bottleneck and argue that it deserves explicit attention in its own right. We discuss how modest, incremental steps-such as structured development records, adherence to high-information screening formats, library annotation, and community-level deposition infrastructure-could make biosensor development more reproducible, more comparable, and easier to build on across projects and laboratories. We further argue that such infrastructure will become increasingly valuable as computational protein design matures-not as a competing approach, but as the source of diverse, comparable, and context-annotated experimental data that sequence-function models and design benchmarks ultimately depend on.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4486,6 +4662,52 @@
       "curated_categories": []
     },
     {
+      "id": "95c72447c4498dcb2ce5d79d50f6e27db182707c217d52b4fa0fa4ca367004a4",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.01.706892",
+        "https://openalex.org/W7133307680"
+      ],
+      "title": "High Diversity Gene Libraries Facilitate Machine Learning Guided Exploration of Fluorescent Protein Sequence Space",
+      "link": "https://doi.org/10.64898/2026.03.01.706892",
+      "pdf_url": null,
+      "publication_date": "2026-03-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "anissa benabbas",
+          "name": "Anissa Benabbas"
+        },
+        {
+          "key": "kearns phillip",
+          "name": "Phillip Kearns"
+        },
+        {
+          "key": "avery billo",
+          "name": "Avery Billo"
+        },
+        {
+          "key": "chisholm lauren",
+          "name": "Lauren O. Chisholm"
+        },
+        {
+          "key": "calin plesa",
+          "name": "Calin Plesa"
+        }
+      ],
+      "abstract_text": "Abstract While protein language models (PLMs) have shown great promise for protein design, their performance is fundamentally constrained by the diversity and completeness of available training data. In particular, PLMs often struggle to extrapolate to sequences that fall outside the distribution spanned by their training sets, limiting their ability to discover proteins in sparsely sampled regions of sequence space. Here we test the hypothesis that experimentally expanding training diversity can convert extrapolation into interpolation and thereby enable discovery of functional sequences beyond natural protein manifolds. Using large-scale gene synthesis and DNA shuffling, we generate libraries that span a broad region of fluorescent protein sequence space and create chimeric variants that bridge between distant homologs. Functional screening for blue fluorescence yields thousands of active variants distributed across diverse sequence lineages. Fine-tuning ProtGPT2 on this expanded dataset enables generation of diverse fluorescent proteins, including designs that extend beyond the regions occupied by known natural sequences while retaining function. This work illustrates how synthetic approaches can help address key limitations in machine learning-guided protein design, especially for small or sparsely populated protein families, by actively creating novel sequences across unexplored but functional regions of sequence space.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "95c76c2ed6e6ed0157706ec5371f19534a6970d6d4e49fa02cd5105652f201bc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71459-z",
@@ -5216,6 +5438,68 @@
       "curated_categories": []
     },
     {
+      "id": "95df4f2753bb18b9259c7d18d743acc67003105699ed8f18360f759fde4fe782",
+      "identity_keys": [
+        "https://doi.org/10.3390/biom15111594",
+        "https://openalex.org/W4416188048"
+      ],
+      "title": "Structural Basis for Targeting the Bifunctional Enzyme ArnA",
+      "link": "https://doi.org/10.3390/biom15111594",
+      "pdf_url": null,
+      "publication_date": "2025-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biomolecules",
+      "authors": [
+        {
+          "key": "liu xinyu",
+          "name": "Xinyu Liu"
+        },
+        {
+          "key": "ruochen yang",
+          "name": "Ruochen Yang"
+        },
+        {
+          "key": "libang ren",
+          "name": "Libang Ren"
+        },
+        {
+          "key": "li tong",
+          "name": "Tong Li"
+        },
+        {
+          "key": "li yanrong",
+          "name": "Yanrong Li"
+        },
+        {
+          "key": "yan zhihua",
+          "name": "Zhihua Yan"
+        },
+        {
+          "key": "gao yanrong",
+          "name": "Yanrong Gao"
+        },
+        {
+          "key": "mingqi yang",
+          "name": "Mingqi Yang"
+        },
+        {
+          "key": "jiazhi li",
+          "name": "Jiazhi Li"
+        }
+      ],
+      "abstract_text": "Polymyxin antibiotics are often the last line of defense against multidrug-resistant Gram-negative pathogens. A key resistance mechanism involves the addition of 4-amino-4-deoxy-L-arabinose (L-Ara4N) to lipid A, mediated by the bifunctional enzyme ArnA. However, the evolutionary rationale and structural basis for ArnA's domain fusion, hexameric assembly, and catalytic coordination remain mechanistically unresolved. Here, we integrate evolutionary genomics, high-resolution cryo-electron microscopy (cryo-EM), and computational protein design to provide a comprehensive mechanistic analysis of ArnA. Our evolutionary analysis reveals that the dehydrogenase (DH) and formyltransferase (TF) domains evolved independently and were selectively fused in Gammaproteobacteria, suggesting an adaptive advantage. A 2.89 Å cryo-EM structure of apo-ArnA resolves the flexible interdomain linker and reveals a DH-driven hexameric architecture essential for enzymatic activity. 3D variability analysis captures intrinsic conformational dynamics, indicating a molecular switch that may coordinate sequential catalysis and substrate channeling. Structure-based peptide inhibitors targeting the hexamerization and predicted ArnA-ArnB interaction interfaces were computationally designed, offering a novel strategy for disrupting L-Ara4N biosynthesis. These findings illuminate a previously uncharacterized structural mechanism of antimicrobial resistance and lay the groundwork for therapeutic intervention.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "95e5db494a3728c33c113546cf3a3df366a07f19eed0a06367c0c1c773ddcf4c",
       "identity_keys": [
         "https://arxiv.org/abs/2602.22251",
@@ -5300,6 +5584,36 @@
         }
       ],
       "abstract_text": "General-purpose 3D modeling in chemistry encompasses molecules and materials, requiring both generative and predictive capabilities. However, most existing AI approaches are optimized for a single domain (molecules or materials) and a single task (generation or prediction), which limits representation sharing and transfer. We introduce Zatom-1, a cross-domain, general-purpose model architecture that unifies generative and predictive learning of 3D molecules and materials. Zatom-1 is a deliberately simplified Transformer trained with a multimodal flow matching objective that jointly models discrete atom types and continuous 3D geometries. This approach supports scalable pretraining with predictable gains as model capacity increases, while enabling fast and stable sampling. We use cross-domain generative pretraining as a universal initialization for downstream multi-task prediction of properties, energies, and forces. Empirically, Zatom-1 outperforms or competes with specialized baselines on both multi-task generative and predictive benchmarks in data-controlled settings, while improving generative inference speed by more than an order of magnitude. Our experiments demonstrate positive predictive transfer between data domains from joint generative pretraining: modeling materials during generative pretraining improves molecular property prediction accuracy. Open-source code and model weights are freely available at https://github.com/Zatom-AI/zatom.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "95ea7f8f8da16c5977529904556b7b7259ff793b96d97693525eb2dfdaef2e8a",
+      "identity_keys": [
+        "https://doi.org/10.61173/k3gd1k24",
+        "https://openalex.org/W7202373625"
+      ],
+      "title": "Tau Protein Pathology and Tau-Targeted Therapeutic Strategies in Alzheimer’s Disease: Mechanisms, Clinical Evidence and Future Perspectives",
+      "link": "https://doi.org/10.61173/k3gd1k24",
+      "pdf_url": "https://www.deanfrancis.press/ojs/index.php/ms/article/download/1912/MS007362.pdf",
+      "publication_date": "2026-08-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "MedScien",
+      "authors": [
+        {
+          "key": "wang zhuoyu",
+          "name": "Zhuoyu Wang"
+        }
+      ],
+      "abstract_text": "Alzheimer's disease (AD) is the most dominant form of dementia characterized by neurodegeneration which leads to progressive cognitive decline and memory loss, the common symptoms of AD. While amyloid-β peptide accumulation has traditionally been the primary focus of AD research, there is growing evidence that tau pathology also contributes significantly in disease progression. Tau is a microtubule-associated protein that normally stabilizes microtubules and supports axonal transport within neurons. However, abnormal hyperphosphorylation causes tau to detach from microtubules, misfold and aggregate into toxic filaments which ultimately lead to neurodegeneration and eventually cell death. This paper reviews the structure of tau protein, its physiological and pathological behaviours and tau's mechanism in terms of disease progression. This paper also examines clinical and preclinical evidences and discusses the efficacy and limitations of three tau-targeted therapeutic approaches: gosuranemab, a monoclonal antibody designed to prevent the spread of extracellular tau; BIIB080, an antisense oligonucleotide that reduces tau production by targeting MAPT mRNA; and leucomethylthioninium bis (LMTM), a tau aggregation inhibitor. Studies also suggest the potential of combination therapies targeting multiple pathological pathways to enhance efficacy. Though no tau-targeted therapy has yet to demonstrate definitive clinical benefit, continued research supports tau as an important therapeutic target and contributes to the development of more effective treatments for AD.",
       "discovery_sources": [
         {
           "kind": "open_alex",

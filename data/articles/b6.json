@@ -645,6 +645,68 @@
       "curated_categories": []
     },
     {
+      "id": "b63a003eb2f32c7eee819bd0b861b234bdcdb8f8cd2ae9823eb278f1ac6025c1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s44318-026-00894-x",
+        "https://openalex.org/W7203544173"
+      ],
+      "title": "FAF1 and FAF2 enhance unfolding by p97-UFD1-NPL4 complex enabling rational design of p97 activators",
+      "link": "https://doi.org/10.1038/s44318-026-00894-x",
+      "pdf_url": null,
+      "publication_date": "2026-08-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The EMBO Journal",
+      "authors": [
+        {
+          "key": "dasgupta pritha",
+          "name": "Pritha Dasgupta"
+        },
+        {
+          "key": "ian kelsall",
+          "name": "Ian R. Kelsall"
+        },
+        {
+          "key": "anand gaurav",
+          "name": "Gaurav Anand"
+        },
+        {
+          "key": "anna pérez ràfols",
+          "name": "Anna Pérez‐Ràfols"
+        },
+        {
+          "key": "jowitt thomas",
+          "name": "Thomas A. Jowitt"
+        },
+        {
+          "key": "axel knebel",
+          "name": "Axel Knebel"
+        },
+        {
+          "key": "gourlay robert",
+          "name": "Robert Gourlay"
+        },
+        {
+          "key": "glenn masson robert",
+          "name": "Glenn Robert Masson"
+        },
+        {
+          "key": "kulathu yogesh",
+          "name": "Yogesh Kulathu"
+        }
+      ],
+      "abstract_text": "VCP/p97 is an AAA+ ATPase that, together with its cofactors UFD1-NPL4 (p97-UN), unfolds ubiquitylated substrates to maintain cellular homeostasis. The human p97-UN complex associates with additional cofactors, but how these cofactors modulate p97-UN activity is not fully understood. Here, we screen cofactors and identify FAF2 to potently enhance substrate unfolding by p97-UN. Using biochemical and structural approaches, we show how FAF2 engages p97-UN and polyubiquitin to promote unfolding. We define a conserved activation motif in FAF2 that contacts both UFD1 and the ubiquitin proximal to the initiator, thereby stabilizing and supporting the unfolding of the initiator ubiquitin in a UFD1-dependent manner. We leverage the features of the FAF2 activation motif to engineer de novo proteins that potently enhance unfolding, providing a rational strategy to boost p97 activity. Our findings reveal how cofactors can provide additional adaptive control, fine-tuning human p97 activity to unfold challenging substrates and those modified with short ubiquitin chains.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b63d3dd82e2dfde145e4ef9b6ff9fb7fc8845bb6dc339f35266d072b63b156ad",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64930-w",
@@ -1033,6 +1095,64 @@
       "curated_categories": []
     },
     {
+      "id": "b656e0ffe27769f14d33809e4c80cc719ec15d5cd520e44d955069ba8450665f",
+      "identity_keys": [
+        "https://doi.org/10.65215/ltspreprints.2026.04.14.000185",
+        "https://openalex.org/W7154275349"
+      ],
+      "title": "CryoAtom2: inverse folding-inspired deep learning enables accurate model building of protein-nucleic acid complexes in cryo-EM",
+      "link": "https://doi.org/10.65215/ltspreprints.2026.04.14.000185",
+      "pdf_url": "https://langtaosha.org.cn/lts/en/preprint/download/185/788",
+      "publication_date": "2026-04-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "baoquan su",
+          "name": "Baoquan Su"
+        },
+        {
+          "key": "lingfan zhu",
+          "name": "Lingfan Zhu"
+        },
+        {
+          "key": "li wenfei",
+          "name": "Wenfei Li"
+        },
+        {
+          "key": "wang wenkai",
+          "name": "Wenkai Wang"
+        },
+        {
+          "key": "jiahui liang",
+          "name": "Jiahui Liang"
+        },
+        {
+          "key": "zhao",
+          "name": "K. B. Zhao"
+        },
+        {
+          "key": "peng zhenling",
+          "name": "Zhenling Peng"
+        },
+        {
+          "key": "jianyi yang",
+          "name": "Jianyi Yang"
+        }
+      ],
+      "abstract_text": "Automated model building of protein–nucleic acid complexes in cryo-electron microscopy (cryo-EM) maps is hindered by the highly similar density signatures of chemically related bases at moderate resolutions. Here, we present CryoAtom2, an inverse folding-inspired multimodal deep learning framework for de novo model building of proteins, nucleic acids, and their complexes within a single pipeline. CryoAtom2 jointly integrates three complementary modalities: density, sequence, and—crucially—a diverse set of plausible 3D structural conformations. For each residue, rather than generating a single coordinate set, it produces 28 candidate coordinate sets (20 amino acids, 4 RNA nucleotides, and 4 DNA nucleotides) and employs a dedicated Structure Encoder to capture the rich structural context necessary for accurate sequence inference, following ProteinMPNN. By reasoning over this expanded structural space, the model effectively discriminates between similar bases, yielding globally optimal sequences that best fit the density map. This approach is analogous to the principle of inverse folding, where structural context guides accurate sequence assignment. Benchmarking on 175 non-redundant cryo-EM maps demonstrates that CryoAtom2 substantially outperforms existing state-of-the-art tools. It delivers more complete models with a superior fit to the density and improved geometric quality across proteins, nucleic acids, and their complexes. For example, under the most stringent criterion—completeness—which considers both atomic position and sequence identity—the CryoAtom2 model achieves an average of 60.0% for nucleic acids, significantly outperforming other methods: EM2NA (40.6%), ModelAngelo (32.6%), CryoREAD (32.4%), and Phenix (11.7%). We successfully applied CryoAtom2 to three challenging, unseen experimental structures: an in situ human 80S ribosome, an archaeal 70S ribosome, and a large RNA-only nanocage. In each case, CryoAtom2 achieved near-expert levels of model completeness, exceptional sequence accuracy, and stereochemically sound geometry. Together, these results position CryoAtom2 as a transformative tool for interpreting complex biological machinery in cryo-EM.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b65736a8c22102f05edaebb0bbf7cc33cb632daaa95457a44a4ff6f28a8e305c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76328-3",
@@ -1200,6 +1320,56 @@
         }
       ],
       "abstract_text": "Transition states (TSs) are central to understanding and quantitatively predicting chemical reactivity and reaction mechanisms. Although traditional TS generation methods are computationally expensive, recent generative modeling approaches have enabled chemically meaningful TS prediction for relatively small molecules. However, these methods fail to generalize to practically relevant reaction substrates because of distribution shifts induced by increasing molecular sizes. Furthermore, TS geometries for larger molecules are not available at scale, making it infeasible to train generative models from scratch on such molecules. To address these challenges, we introduce FragmentFlow: a divide-and-conquer approach that trains a generative model to predict TS geometries for the reactive core atoms, which define the reaction mechanism. The full TS structure is then reconstructed by re-attaching substituent fragments to the predicted core. By operating on reactive cores, whose size and composition remain relatively invariant across molecular contexts, FragmentFlow mitigates distribution shifts in generative modeling. Evaluated on a new curated dataset of reactions involving reactants with up to 33 heavy atoms, FragmentFlow correctly identifies 90% of TSs while requiring 30% fewer saddle-point optimization steps than classical initialization schemes. These results point toward scalable TS generation for high-throughput reactivity studies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b66058090c04679ad26a10496de18b4f2b3061d7c0a0a7a37ae7600676eb7d08",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.ijbiomac.2025.149737",
+        "https://openalex.org/W4417535134"
+      ],
+      "title": "Development of a highly functional thermostable D-amino acid oxidase for efficient L-phosphinothricin biosynthesis using ProteinMPNN-guided engineering",
+      "link": "https://doi.org/10.1016/j.ijbiomac.2025.149737",
+      "pdf_url": null,
+      "publication_date": "2025-12-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Biological Macromolecules",
+      "authors": [
+        {
+          "key": "kai yang",
+          "name": "Kai Yang"
+        },
+        {
+          "key": "huang yueshan",
+          "name": "Yueshan Huang"
+        },
+        {
+          "key": "liyi yao",
+          "name": "Liyi Yao"
+        },
+        {
+          "key": "bin huang",
+          "name": "Bin Huang"
+        },
+        {
+          "key": "weimin zeng",
+          "name": "Weimin Zeng"
+        },
+        {
+          "key": "huang jin",
+          "name": "Jin Huang"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3685,6 +3855,52 @@
       "curated_categories": []
     },
     {
+      "id": "b6ba09bb03e4bdc32d258737a2d1c385eb67b5806c0feed694e09f7535f3ca91",
+      "identity_keys": [
+        "https://doi.org/10.1273/cbij.26.11",
+        "https://openalex.org/W7137943277"
+      ],
+      "title": "ChEMBL-Derived Benchmark Dataset and Computational Results of Boltz-2-Based Binding Affinity Prediction",
+      "link": "https://doi.org/10.1273/cbij.26.11",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/cbij/26/0/26_11/_pdf",
+      "publication_date": "2026-03-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chem-Bio Informatics Journal",
+      "authors": [
+        {
+          "key": "shimizu yugo",
+          "name": "Yugo Shimizu"
+        },
+        {
+          "key": "akabane tatsuki",
+          "name": "Tatsuki Akabane"
+        },
+        {
+          "key": "masateru ohta",
+          "name": "Masateru Ohta"
+        },
+        {
+          "key": "honma teruki",
+          "name": "Teruki Honma"
+        },
+        {
+          "key": "ikeda kazuyoshi",
+          "name": "Kazuyoshi Ikeda"
+        }
+      ],
+      "abstract_text": "Accurate prediction of protein–ligand binding affinities is a critical step in accelerating drug discovery by reducing experimental costs and development times. Recently developed co-folding AI models predict how multiple biomolecules fold and interact with each other in three-dimensional space. The emergence of a new co-folding model, Boltz-2, has made highly accurate and efficient predictions of protein–ligand binding affinities increasingly feasible. However, the generalization and reliability of these models remain unclear due to the absence of standardized and target-wide benchmark datasets. In this study, we constructed an independent external benchmark dataset derived from ChEMBL version 35 to rigorously evaluate Boltz-2’s performance for affinity prediction. The dataset includes 356 unique protein targets and 10,933 compounds, carefully collected to ensure no overlap with the Boltz-2 training data. Binding affinity measurements were standardized into pChEMBL values and linked to the compound SMILES and protein UniProt accessions. Using this benchmark dataset, we compared the performance of the original Boltz-2 model and its NVIDIA Inference Microservice (NIM) implementation. The results showed that the original Boltz-2 and NIM achieved comparable and fair predictive performance across targets (mean absolute error of approximately 0.9), while NIM reduced computational time by approximately 60–90%. The error analysis indicated that no clear correlation existed between the prediction errors and sequence or compound novelty relative to the Boltz-2 training data, underscoring the model’s broad coverage. This work provides a transparent and reproducible benchmark for evaluating AI-driven affinity prediction models and offers valuable insights into Boltz-2’s applicability, limitations, and potential as a practical tool for data-driven drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b6c31f6123c9102c5a4b0f10878b1f42e04696279bcc289b793482cfa3deeb13",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01055-0",
@@ -4912,6 +5128,36 @@
         }
       ],
       "abstract_text": "Abstract Nuclear interactions play a key role for the stability of atomic nuclei and stellar environments. Successful parametrization and models of these interactions, developed in the last decades, accurately reproduce all the proton and neutron scattering data, besides the properties of few-body nuclear systems. However, recent electron scattering results focusing on the first excited resonant state of 4 He nucleus, reveal a puzzling situation suggesting potential gaps in our understanding of the nuclear phenomenology. Here, we report a study of such 4 He resonance by 4 He + 4 He scattering featuring data of unprecedented sensitivity and state-of-art analyses of the spectral line shape together with a phenomenological reaction modeling that incorporates the same nuclear densities employed in electron-scattering studies. Our analysis of the full set of experimental observables yields a reasonable description within the framework of current nuclear-interaction physics, thereby highlighting the need for further advancing the modeling of few-body open quantum systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b6f8e43c452a68e07756f59085528db7a6eb3d68df6cf443f49cc09bfd3ce06c",
+      "identity_keys": [
+        "https://doi.org/10.54254/2753-8818/2026.hz35307",
+        "https://openalex.org/W7168125382"
+      ],
+      "title": "From Traditional Protein Engineering to AI-Driven Design: Principles, Methods, and Applications",
+      "link": "https://doi.org/10.54254/2753-8818/2026.hz35307",
+      "pdf_url": "https://tns.ewapub.com/article/view/35307.pdf",
+      "publication_date": "2026-07-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Theoretical and Natural Science",
+      "authors": [
+        {
+          "key": "cheng zonghao",
+          "name": "Zonghao Cheng"
+        }
+      ],
+      "abstract_text": "Protein engineering is a critical technology that modifies protein sequences and structures to optimize specific functions or introduce new ones, and it is widely applied in biomanufacturing, pharmaceutical research and development, synthetic biology and other fields. Traditional protein engineering mainly relies on the modification of natural proteins, and its strategies usually include simulating natural evolution processes or designing based on protein structures, with the aim of enhancing protein stability, activity and other properties. However, the high complexity of protein sequences and the limited understanding of the correspondence between amino acid sequences, protein structures and biological functions have restricted the further development of traditional methods. In recent years, the rapid development of artificial intelligence has greatly driven the paradigm shift in protein engineering research, enabling researchers to efficiently explore proteins with specific structures and functions in a broader sequence space. This paper reviews the basic principles and development history of protein engineering, and introduces traditional strategies such as directed evolution and rational design. It focuses on protein structure prediction tools represented by AlphaFold, generative models such as RFdiffusion and ProteinMPNN, and the de novo protein design methods driven by these tools. Furthermore, combined with classic applications of protein engineering including metabolic engineering, enzyme engineering and antibody engineering, this paper analyzes the progress of artificial intelligence in protein design and optimization. By sorting out relevant studies, this paper aims to provide a reference for understanding the development context of protein engineering and the application of artificial intelligence in this field.",
       "discovery_sources": [
         {
           "kind": "open_alex",

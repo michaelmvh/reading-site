@@ -717,6 +717,36 @@
       "curated_categories": []
     },
     {
+      "id": "d60edab28cc17baa7c579cfa3b91e2e1b6fed6de858352de1b17fc649b6f2b3d",
+      "identity_keys": [
+        "https://doi.org/10.2196/preprints.107358",
+        "https://openalex.org/W7172430078"
+      ],
+      "title": "AI-Guided Synthetic Protein Sequence Generation for Functional Protein Design Using Gated Recurrent Units (Preprint)",
+      "link": "https://doi.org/10.2196/preprints.107358",
+      "pdf_url": null,
+      "publication_date": "2026-07-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "padhilam pardhasaradhi",
+          "name": "Pardhasaradhi Padhilam"
+        }
+      ],
+      "abstract_text": "BACKGROUND Designing functional proteins from first principles confronts a combinatorial barrier of staggering scale: a polypeptide of 100 residues spans 20^100 possible sequences, a search space entirely inaccessible by experimental means alone. This paper presents an end-to-end artificial intelligence pipeline that learns the statistical grammar of proteins directly from the UniProtKB Human Proteome database and generates novel, biologically plausible candidates without structural templates or homologous scaffolds. A character-level Gated Recurrent Unit (GRU) model (64-dimensional embedding, 128 hidden units, 78,356 parameters) is trained over 100 epochs using sparse categorical cross-entropy loss and the Adam optimizer, achieving 93.4% training and 86.1% held-out evaluation accuracy. Generation employs temperature sampling (T = 1.2) with a stochastic seed-mutation strategy (μ = 0.10). Candidates are ranked by a six-criteria physicochemical scoring function grounded in the Kyte–Doolittle hydrophobicity scale and Boman charge index, and top candidates are evaluated by ESMFold v1, providing per-residue pLDDT confidence scores. Results yield quality scores of 6.17–6.48, novelty similarity values of 0.12–0.19 (below the 30% identity threshold accepted as the community standard), and mean pLDDT scores of 68.4–72.1. With only 78,356 trainable parameters and under 30 minutes of training on a single consumer GPU, the framework matches or surpasses the novelty and validity rates of transformer-scale systems while remaining accessible to resource-constrained academic laboratories. OBJECTIVE Designing functional proteins from first principles confronts a combinatorial barrier of staggering scale: a polypeptide of 100 residues spans 20^100 possible sequences, a search space entirely inaccessible by experimental means alone. This paper presents an end-to-end artificial intelligence pipeline that learns the statistical grammar of proteins directly from the UniProtKB Human Proteome database and generates novel, biologically plausible candidates without structural templates or homologous scaffolds. A character-level Gated Recurrent Unit (GRU) model (64-dimensional embedding, 128 hidden units, 78,356 parameters) is trained over 100 epochs using sparse categorical cross-entropy loss and the Adam optimizer, achieving 93.4% training and 86.1% held-out evaluation accuracy. Generation employs temperature sampling (T = 1.2) with a stochastic seed-mutation strategy (μ = 0.10). Candidates are ranked by a six-criteria physicochemical scoring function grounded in the Kyte–Doolittle hydrophobicity scale and Boman charge index, and top candidates are evaluated by ESMFold v1, providing per-residue pLDDT confidence scores. Results yield quality scores of 6.17–6.48, novelty similarity values of 0.12–0.19 (below the 30% identity threshold accepted as the community standard), and mean pLDDT scores of 68.4–72.1. With only 78,356 trainable parameters and under 30 minutes of training on a single consumer GPU, the framework matches or surpasses the novelty and validity rates of transformer-scale systems while remaining accessible to resource-constrained academic laboratories. METHODS Protein Design Using Gated Recurrent Units RESULTS The trained GRU model generated protein sequences of 130 amino acids, all within the 80–200 AA optimal window. Table 1 presents the top-three sequences, including quantitative ESMFold pLDDT structural confidence scores. Quality scores cluster between 6.17 and 6.48, consistently above the 5.0 plausibility threshold. Novelty similarity values of 0.125–0.188 confirm genuine novelty by the community-accepted standard. Mean pLDDT scores of 68.4–72.1 indicate confident local structure prediction—a structural quality signal entirely independent of the sequence-level scoring function. CONCLUSIONS This paper has presented an end-to-end, resource-accessible framework for de novo protein sequence generation using Gated Recurrent Units. By tightly integrating GRU-based character-level language modeling, a six-criteria literature-grounded physicochemical scoring function, stochastic novelty verification, and ESMFold real-time structure prediction with quantitative per-residue pLDDT confidence reporting within a single unified pipeline, the system enables structurally grounded protein design on hardware available to any research group with free cloud GPU access.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d61005a47a2904475b981820b86c5c69c5a35e74182a8a11bd232df17b6d1d57",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75667-5",
@@ -1904,6 +1934,40 @@
       "curated_categories": []
     },
     {
+      "id": "d65d9b7072d0372d10b9377fea8e444630d5fd32ec7571bfba908a0e70d7dde9",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.17.712483",
+        "https://openalex.org/W7138943172"
+      ],
+      "title": "ST-PARM: Pareto-Complete Inference-Time Alignment for Multi-Objective Protein Design",
+      "link": "https://doi.org/10.64898/2026.03.17.712483",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/19/2026.03.17.712483.full.pdf",
+      "publication_date": "2026-03-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "rujie yin",
+          "name": "Rujie Yin"
+        },
+        {
+          "key": "shen yang",
+          "name": "Yang Shen"
+        }
+      ],
+      "abstract_text": "Motivation: Protein engineering is inherently multi-objective: improving one property can degrade others, so practical workflows require generating non-dominated (Pareto-optimal) candidates spanning a trade-off surface. Linear objective scalarization and deterministic pairwise preference learning can under-explore non-convex Pareto regions and amplify noise from uncertain evaluators, limiting Pareto coverage and trade-off controllability. Results: We introduce Smooth Tchebycheff Preference-Aware Reward Model (ST-PARM), an inference-time alignment framework that steers a frozen protein language model along user-specified trade-offs with a lightweight reward model trained only once. ST-PARM combines (i) a reward-calibrated pairwise preference loss that is uncertainty-aware by down-weighting ambiguous comparisons under noisy evaluators, (ii) a smooth Tchebycheff scalarization that is Pareto-complete in principle and improves empirical trade-off coverage, and (iii) latent-space pair-construction strategies. On GFP fluorescence-stability (full-length design) and IL-6 nanobody stability-solubility (CDR3+suffix design), ST-PARM delivers broader Pareto coverage and stronger preference tracking than baselines PARM and MosPro. For GFP, a conservative structural screen for local confidence and global fold preservation retains a broad frontier and strong controllability, yielding an actionable cohort for downstream assays. We also provide cross-evaluator robustness checks, a three-objective extension, and a natural-language alignment generality check in the Supplement, establishing a practical foundation for controllable sequence generation under competing multi-objectives and noisy measurements. Availability and Implementation: https://github.com/Shen-Lab/ST-PARM . Supplementary Information: Supplementary data are provided with the submission.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d65f2cb9fd4ca8d7fea4449237d171fd9c16c808ae9fbc5530e32a34a73e557a",
       "identity_keys": [
         "https://arxiv.org/abs/2305.01941",
@@ -1966,6 +2030,60 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d667056d66d1f6b3e42fc2bd5b2f4f47efe83bab40796f9945825e883e0f4e3c",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2601.05792",
+        "https://openalex.org/W7123292211"
+      ],
+      "title": "Tensor-DTI: Enhancing Biomolecular Interaction Prediction with Contrastive Embedding Learning",
+      "link": "https://doi.org/10.48550/arxiv.2601.05792",
+      "pdf_url": "https://arxiv.org/pdf/2601.05792",
+      "publication_date": "2026-01-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "gil manel sorribes",
+          "name": "Manel Gil-Sorribes"
+        },
+        {
+          "key": "júlia mor vilalta",
+          "name": "Júlia Vilalta-Mor"
+        },
+        {
+          "key": "filella isaac mercè",
+          "name": "Isaac Filella-Mercè"
+        },
+        {
+          "key": "robert soliva",
+          "name": "Robert Soliva"
+        },
+        {
+          "key": "ciudad álvaro",
+          "name": "Álvaro Ciudad"
+        },
+        {
+          "key": "ctor guallar vı",
+          "name": "Vı́ctor Guallar"
+        },
+        {
+          "key": "alexis molina",
+          "name": "Alexis Molina"
+        }
+      ],
+      "abstract_text": "Accurate drug-target interaction (DTI) prediction is essential for computational drug discovery, yet existing models often rely on single-modality predefined molecular descriptors or sequence-based embeddings with limited representativeness. We propose Tensor-DTI, a contrastive learning framework that integrates multimodal embeddings from molecular graphs, protein language models, and binding-site predictions to improve interaction modeling. Tensor-DTI employs a siamese dual-encoder architecture, enabling it to capture both chemical and structural interaction features while distinguishing interacting from non-interacting pairs. Evaluations on multiple DTI benchmarks demonstrate that Tensor-DTI outperforms existing sequence-based and graph-based models. We also conduct large-scale inference experiments on CDK2 across billion-scale chemical libraries, where Tensor-DTI produces chemically plausible hit distributions even when CDK2 is withheld from training. In enrichment studies against Glide docking and Boltz-2 co-folder, Tensor-DTI remains competitive on CDK2 and improves the screening budget required to recover moderate fractions of high-affinity ligands on out-of-family targets under strict family-holdout splits. Additionally, we explore its applicability to protein-RNA and peptide-protein interactions. Our findings highlight the benefits of integrating multimodal information with contrastive objectives to enhance interaction-prediction accuracy and to provide more interpretable and reliability-aware models for virtual screening.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2156,6 +2274,446 @@
         }
       ],
       "abstract_text": "Directional droplet motion on solid surfaces, governed by Gibbs' theory of minimizing surface free energy, traditionally relies on static surface gradients. However, such approaches face intrinsic constraints, including fixed transport directions and interdependence between transport distance and speed. Here, we introduce shape-evolving microfiber rails (SEMRs) that enable spontaneous droplet transport on initially non-gradient surfaces. Inspired by a domino-like mechanism, the SEMRs dynamically generate cascading gradients through shape deformations in response to droplet-surface interactions, diverging from conventional static-gradient designs. This adaptive strategy allows for steerable droplet motion, independent control over transport distance and velocity, and design flexibility for on-demand performance optimization. The SEMR's versatility heralds advanced applications across analytical chemistry, cargo transport, electronics, and diagnostics, paving the way for advanced intelligent fluidic systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d6701f7a33c09fd6dcbbb144d946025d2f0555d84a306852ffd809771ef96549",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2019-10.1857991/17279634",
+        "https://doi.org/10.25582/data.2019-10.1858083/17278469",
+        "https://doi.org/10.25582/data.2019-10.1858095/17278470",
+        "https://doi.org/10.25582/data.2019-10.1858155/17278471",
+        "https://doi.org/10.25582/data.2019-10.1858857/17277955",
+        "https://doi.org/10.25582/data.2019-10.1859058/17277956",
+        "https://doi.org/10.25582/data.2019-10.1859116/17277957",
+        "https://doi.org/10.25582/data.2019-10.1859382/17277958",
+        "https://doi.org/10.25582/data.2019-10.1859670/17277959",
+        "https://doi.org/10.25582/data.2019-10.1860311/17277676",
+        "https://doi.org/10.25582/data.2019-10.1860792/17276528",
+        "https://doi.org/10.25582/data.2019-10.1860793/17276529",
+        "https://doi.org/10.25582/data.2019-10.1876160/17261632",
+        "https://doi.org/10.25582/data.2019-10.1876237/17261633",
+        "https://doi.org/10.25582/data.2019-10.1876410/17260461",
+        "https://openalex.org/W7221849128"
+      ],
+      "title": "Data for EMSL Project 50414 from October 2019",
+      "link": "https://doi.org/10.25582/data.2019-10.1857991/17279634",
+      "pdf_url": null,
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2956,6 +3514,52 @@
       "curated_categories": []
     },
     {
+      "id": "d68b6d4bebdcc961ab687cd1bb58459f1e93a8a9f701c111544ea971f49a00ea",
+      "identity_keys": [
+        "https://doi.org/10.1038/s42256-025-01160-1",
+        "https://openalex.org/W7117755163"
+      ],
+      "title": "Assessing the potential of deep learning for protein–ligand docking",
+      "link": "https://doi.org/10.1038/s42256-025-01160-1",
+      "pdf_url": "https://www.nature.com/articles/s42256-025-01160-1.pdf",
+      "publication_date": "2025-12-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Machine Intelligence",
+      "authors": [
+        {
+          "key": "alex morehead",
+          "name": "Alex Morehead"
+        },
+        {
+          "key": "giri nabin",
+          "name": "Nabin Giri"
+        },
+        {
+          "key": "jian liu",
+          "name": "Jian Liu"
+        },
+        {
+          "key": "neupane pawan",
+          "name": "Pawan Neupane"
+        },
+        {
+          "key": "cheng jianlin",
+          "name": "Jianlin Cheng"
+        }
+      ],
+      "abstract_text": "The effects of ligand binding on protein structures and their in vivo functions carry numerous implications for modern biomedical research and biotechnology development efforts such as drug discovery. Although several deep learning (DL) methods and benchmarks designed for protein-ligand docking have recently been introduced, so far no previous works have systematically studied the behaviour of the latest docking and structure prediction methods within the broadly applicable context of: (1) using predicted (apo) protein structures for docking (for example, for applicability to new proteins); (2) binding multiple (cofactor) ligands concurrently to a given target protein (for example, for enzyme design); and (3) having no previous knowledge of binding pockets (for example, for generalization to unknown pockets). To enable a deeper understanding of the real-world utility of docking methods, we introduce PoseBench, a comprehensive benchmark for broadly applicable protein-ligand docking. PoseBench enables researchers to rigorously and systematically evaluate DL methods for apo-to-holo protein-ligand docking and protein-ligand structure prediction using both primary ligand and multiligand benchmark datasets, the latter of which we introduce to the DL community. Empirically, using PoseBench, we find that: (1) DL cofolding methods generally outperform comparable conventional and DL docking baseline algorithms, but popular methods such as AlphaFold 3 are still challenged by prediction targets with new protein-ligand binding poses; (2) certain DL cofolding methods are highly sensitive to their input multiple sequence alignments, whereas others are not; and (3) DL methods struggle to strike a balance between structural accuracy and chemical specificity when predicting new or multiligand protein targets.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d68e83b21b5224a661e78b3e2d79c04f386fefc69e6bd110a4dc0cf4824ca695",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64740-0",
@@ -3289,6 +3893,31 @@
         }
       ],
       "abstract_text": "Aspergillus fumigatus is the etiologic agent of invasive aspergillosis, a life-threatening fungal pneumonia initiated by the inhalation of conidia into the lung. If the conidia are not cleared, they secrete large quantities of hydrolytic enzymes and toxins as they grow, causing extensive pulmonary damage. Fibroblasts are central mediators of tissue repair in many organs, but their functional response to pulmonary damage caused by A. fumigatus remains unexplored. Here, we employ cell lineage tracing, targeted cell ablation, and single-cell RNA sequencing to monitor fibroblast dynamics upon exposure to A. fumigatus in immunocompetent and immunosuppressed hosts. We find that a subset of pulmonary fibroblasts becomes activated in an immunocompetent host following a challenge with A. fumigatus conidia, initiating a gene expression program with acquired immunomodulatory properties and enhanced extracellular matrix-secreting capacity. Remarkably, targeted ablation of fibroblasts expressing the profibrotic activation marker periostin shows that invasive A. fumigatus infection accelerates in the absence of periostin lineage cells, accompanied by aberrant immune infiltration, tissue damage and severe alveolar hemorrhage. These findings uncover a protective immunomodulatory role for fibroblasts in limiting A. fumigatus-induced pulmonary injury and emphasize the importance of the pulmonary stroma in host defense against this invasive fungal infection.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d6a4a0b571cbd46c1c52aaf1a04da6ca6b2b27ff36d84fb00fff54541705f6c2",
+      "identity_keys": [
+        "https://doi.org/10.1042/bio_2026_111",
+        "https://openalex.org/W7134941067"
+      ],
+      "title": "Meeting reports",
+      "link": "https://doi.org/10.1042/bio_2026_111",
+      "pdf_url": "https://portlandpress.com/biochemist/article-pdf/48/1/67/985527/bio_2026_111.pdf",
+      "publication_date": "2026-03-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Biochemist",
+      "authors": [],
+      "abstract_text": "The conference was held in the Leonardo Royal Brighton Waterfront Hotel on the 27th–29th August 2025, and kindly supported by the Biochemical Society. The event attracted some top names in RNA research, with particular focus on the role of RNA turnover in host-pathogen interactions and RNA therapeutics. Sponsorship for the meeting included the Biochemical Journal, Parse Biosciences, Moderna, the Company of Biologists, the RNA Society, the Microbiology Society, and Brighton and Sussex Medical School, which allowed us to support the travel and registration of three Early Career Researchers, two invited speakers, poster and talk prizes and a networking reception.Talks and posters throughout the meeting covered a broad range of topics, including structural biology of large molecular complexes (e.g., Neils Gehring (Univ. Cologne), James Stowell (MRC LMB)), targeted degradation of viral and cellular RNAs (e.g., Sara Cherry (Penn Medicine), Chad Swanson (Kings College, Univ. London), James Burke (e.g., Scripps Institute, USA)), transcription-associated RNA degradation (Lidia Vasilieva (Univ. Oxford)), stress-associated RNA degradation (e.g., Manolis Maragkakis (NIH), Ben Towler (Univ. Sussex, UK)), RNA degradation in development and disease (e.g., Marina Chekulaeva (Univ. Berlin)) and RNA modification in therapeutics (Josh Zimmer (Moderna)).The meeting also hosted the Colworth medal award lecture by Alex Borodavka (Univ. Cambridge) with an inspirational talk on RNA-controlled self-assembly of multi-segmented viral genomes.Conference included talks on the assembly and function of large molecular machines as well as single cell and single molecule approaches to elucidate new mechanisms underlying RNA stability control. The meeting also provided an opportunity for international researchers at different stages of their careers, across academia and industry, to communicate their unpublished research. A careers panel for students and postdocs provided insights and connections for the junior members of the field on academic, industry and off-the-bench career pathways. Feedback from the meeting was excellent, with participants particularly praising the quality of the speakers and the interest of the science. While attendance was lower than expected due to recent changes in the US science funding landscape, smaller numbers made for more in-depth discussions and engagement during Q&As and networking time. The venue of the meeting, overlooking Brighton beach, was appreciated, with one participant remarking it was “an excellent meeting in a wonderful location”. We expect to hold a similar international RNA turnover meeting in two years time.This year’s twoday Synthetic Biology UK 2025 conference, held in London, marked the 10th anniversary of the UK’s leading synthetic and engineering biology conference series. To celebrate this milestone, we invited keynote speaker Karen Pollizzi (Imperial College London) to reflect on a decade of progress and the next ten years of innovation. Sessions across the 2 days demonstrated the huge diversity of synthetic and engineering biology being undertaken nationally and internationally, covering cell-free systems, modelling and control, health and therapeutics, sustainability, and future manufacturing. This first day was topped off with a lively and provocative panel session on the policy and innovation landscape for the field, with panellists from the Department for Science, Innovation and Technology, Innovate UK, UCL, and Imperial College London. Poster sessions showcased the vibrancy and diversity of the community, with prizes awarded for outstanding contributions, while an Early Career panel session explored challenges and opportunities for the next generation of researchers. The conference closed with talks from both government and academia highlighting the amazing developments being made and the support from government to enable this in the future. The event underscored the importance of collaboration and diversity across academia, industry, and policy to ensure responsible innovation. We gratefully acknowledge the Biochemical Society’s support in making this milestone meeting possible and fostering a thriving UK synthetic biology community.We had a lively and interactive 2-day training workshop in Birmingham, UK, where over 60 researchers from as far as Saudi Arabia, USA, Canada, Spain and Italy gathered to explore the challenges and opportunities in recombinant protein engineering for structural and functional studies. Supported throughout by the Biochemical Society, from planning right through to delivery, the event ran smoothly and offered a rich mix of new research, practical tips and collaborative discussion.Key themes included advances in protein design, with Dan Rigden and Chris Cooper showcasing tools such as AlphaFold, RFdiffusion and proteinMPNN. Nicola Burgess-Brown shared expert insights into expression strategies, while Ellie Williams brought interactive energy through choose-your-own-adventure activities that helped delegates think critically about expression and purification choices. Abstract talks from Adedotun Adefolalu and Suman Mandal highlighted exciting work on proline catabolism and horseradish peroxidase engineering.Day two focused on purification and protein quality, featuring clear purification guidance from Cytiva’s John Hinks, practical “tips and tricks” for biophysical assays and design of experiments from Elliott Stollar, and a compelling case for mass spectrometry from Rod Chalk. Case studies from Ellie Williams, Rivka Isaacson and Chris Cooper demonstrated how these approaches translate into real research challenges, from rare-disease therapeutics to construct optimisation.Round-table discussions helped consolidate the key takeaways: smarter experimental design, informed method selection, and the power of integrating bioinformatics, expression, purification and biophysics. Poster prizes were awarded to Clare Mcfall from University of Oxford and Shashwati Nanda from University of Edinburgh.Thanks again to the Biochemical Society for their invaluable support—delegates left inspired and ready to apply their new knowledge.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3965,6 +4594,44 @@
         }
       ],
       "abstract_text": "Claudin 18.2 (CLDN18.2)-targeted CAR-T cell and antibody therapies show promise against gastrointestinal cancers, but biomarkers predictive of long-term benefit and therapeutic sensitization strategies are needed. Here we show that proteins carried by circulating extracellular vesicles (EVs) can reflect and influence the efficacy of CLDN18.2-targeted therapies. By profiling serial plasma samples of patients from the CT041-CG4006 trial (CLDN18.2- CAR-T-therapy) or the GLOW trial (Zolbetuximab), we identified EV-associated CLDN18.2, PD1 and PD-L2 as therapeutic markers and integrated them into a signature (CPP-score) for better predictive robustness. Mechanistically, specific EV-proteins exhaust CAR-T cells, neutralize CLDN18.2-targeted-antibodies, activate immunosuppressive IL-6-expressing cancer-associated fibroblasts, and alter the TH1/TH2 balance, thereby reshaping the tumor microenvironment and interfere with CLDN18.2-targeted therapies. Strategies including combining anti-PD1 antibody or CAF inhibitor, CLDN18.2-CAR-T plus CLDN18.2-antibody, and depleting plasma EVs, can sensitize CLDN18.2-CAR-T/antibody by countermeasuring EV-proteins' therapeutic interferences. Collectively, our work provides potential options to monitor and improve CLDN18.2-targeted therapies in clinical practice.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d6c269f07b89da9be4b0da0b6f5067081af379b94cddfae3c0cfc4ca9736a6d1",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.xpro.2026.104502",
+        "https://openalex.org/W7154686599"
+      ],
+      "title": "A protocol for single-sequence protein-RNA complex structure prediction using ProRNA3D-single",
+      "link": "https://doi.org/10.1016/j.xpro.2026.104502",
+      "pdf_url": null,
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "STAR Protocols",
+      "authors": [
+        {
+          "key": "rahmatullah roche",
+          "name": "Rahmatullah Roche"
+        },
+        {
+          "key": "sumit tarafder",
+          "name": "Sumit Tarafder"
+        },
+        {
+          "key": "bhattacharya debswapna",
+          "name": "Debswapna Bhattacharya"
+        }
+      ],
+      "abstract_text": "Characterizing the interaction between protein and RNA is critically important for biology and medicine. Here, we present a protocol to predict three-dimensional protein-RNA complex structural models from their sequences using a deep learning-based approach named ProRNA3D-single. First, we delineate detailed steps for predicting protein-RNA interaction maps by leveraging pretrained language models. We then describe the procedure for generating the protein-RNA complex structure from the predicted interactions using optimization techniques. This protocol has potential applications in host-virus interactions and drug design. For complete details on the use and execution of this protocol, please refer to Roche et al. 1 • A protocol for generating three-dimensional protein-RNA complex structural models • Steps for preprocessing and feature generation • Instructions for executing the inference script and optimization algorithms Publisher’s note: Undertaking any experimental protocol requires adherence to local institutional guidelines for laboratory safety and ethics. Characterizing the interaction between protein and RNA is critically important for biology and medicine. Here, we present a protocol to predict three-dimensional protein-RNA complex structural models from their sequences using a deep learning-based approach named ProRNA3D-single. First, we delineate detailed steps for predicting protein-RNA interaction maps by leveraging pretrained language models. We then describe the procedure for generating the protein-RNA complex structure from the predicted interactions using optimization techniques. This protocol has potential applications in host-virus interactions and drug design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

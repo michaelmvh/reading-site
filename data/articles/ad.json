@@ -456,6 +456,51 @@
       "curated_categories": []
     },
     {
+      "id": "ad1165cb030cca26cd25547572432ec8661187f3d2273a2b12d8c27f6471258d",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.tig.2021.09.001",
+        "https://openalex.org/W3208156641"
+      ],
+      "title": "Beyond sequencing: machine learning algorithms extract biology hidden in Nanopore signal data",
+      "link": "https://doi.org/10.1016/j.tig.2021.09.001",
+      "pdf_url": "http://www.cell.com/article/S0168952521002572/pdf",
+      "publication_date": "2021-10-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Trends in Genetics",
+      "authors": [
+        {
+          "key": "kei wan yuk",
+          "name": "Yuk Kei Wan"
+        },
+        {
+          "key": "christopher hendra",
+          "name": "Christopher Hendra"
+        },
+        {
+          "key": "ploy pratanwanich",
+          "name": "Ploy N. Pratanwanich"
+        },
+        {
+          "key": "göke jonathan",
+          "name": "Jonathan Göke"
+        }
+      ],
+      "abstract_text": "Nanopore sequencing provides signal data corresponding to the nucleotide motifs sequenced. Through machine learning-based methods, these signals are translated into long-read sequences that overcome the read size limit of short-read sequencing. However, analyzing the raw nanopore signal data provides many more opportunities beyond just sequencing genomes and transcriptomes: algorithms that use machine learning approaches to extract biological information from these signals allow the detection of DNA and RNA modifications, the estimation of poly(A) tail length, and the prediction of RNA secondary structures. In this review, we discuss how developments in machine learning methodologies contributed to more accurate basecalling and lower error rates, and how these methods enable new biological discoveries. We argue that direct nanopore sequencing of DNA and RNA provides a new dimensionality for genomics experiments and highlight challenges and future directions for computational approaches to extract the additional information provided by nanopore signal data.",
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
+        }
+      ],
+      "curated_categories": [
+        "Review",
+        "Signal analysis"
+      ]
+    },
+    {
       "id": "ad1943838cc38ec96adb80a8ac766c2d9930258f692725beb871d572c6b48030",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71723-2",
@@ -1942,6 +1987,60 @@
         }
       ],
       "abstract_text": "Enhancing the toughness while achieving triggerable degradation in single-network polymer systems without modify-ing their inherent chemical composition or network architecture remains a significant challenge. Here we demonstrate a smart end-linked polymer network that \"self-strengthen\" during use yet \"self-destruct\" upon certain stimuli. Embedding nonscissile cyclobutane-fused tetrahydrofuran mechanophores within the middle of end-linked polymer networks sig-nificantly enhances both toughness and degradability. Under mechanical stress, the force-coupled cycloreversion of these mechanophores releases concealed chain segments, allowing the single-network materials to stretch 100% further and exhibit tear energies nine times higher than conventional counterparts. Additionally, ball-milling griding of the bulk material unveils acid-sensitive enol ether units, leading to a markedly improved degradation profile under acidic condi-tions. This dual effect—originating from the force-coupled cycloreversion of cyclobutane-fused tetrahydrofuran mech-anophores—provides an ideal combination of superior mechanical performance and on-demand degradability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ad4de68f1845a6bc74199b98588dd6e3495a74c317ad82683091f217e7097248",
+      "identity_keys": [
+        "https://doi.org/10.1093/jimmun/vkag141.1364",
+        "https://openalex.org/W7171509865"
+      ],
+      "title": "Experimental Validation of Variant Antibodies Guided by a Large Language Model and Optimized through Combinatorial Algorithms 2307181",
+      "link": "https://doi.org/10.1093/jimmun/vkag141.1364",
+      "pdf_url": null,
+      "publication_date": "2026-07-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Journal of Immunology",
+      "authors": [
+        {
+          "key": "sanaz zebardast",
+          "name": "Sanaz Zebardast"
+        },
+        {
+          "key": "ashraf bin faisal",
+          "name": "Faisal Bin Ashraf"
+        },
+        {
+          "key": "zhang zihao",
+          "name": "Zihao Zhang"
+        },
+        {
+          "key": "karen paco",
+          "name": "Karen Paco"
+        },
+        {
+          "key": "animesh ray",
+          "name": "Animesh Ray"
+        },
+        {
+          "key": "lonardi stefano",
+          "name": "Stefano Lonardi"
+        },
+        {
+          "key": "ilya tolstorukov",
+          "name": "Ilya Tolstorukov"
+        }
+      ],
+      "abstract_text": "Abstract Introduction Machine-learning—guided antibody design offers a promising approach for rapidly generating high-affinity therapeutics against emerging pathogens. Our group has developed Ab-Affinity, a large language model that predicts antibody—antigen binding and, together with genetic algorithms and simulated annealing, designs variants with markedly improved predicted stability and affinity for a SARS-CoV-2 spike epitope. Computational analyses indicate over a 160-fold affinity enhancement compared to experimentally derived sequences. This work focuses on experimentally validating these predictions through expression, purification, and functional characterization of the model-designed antibodies Methods Three antibodies–Ab-14-seed and the optimized variants Ab-14-SA-PSSM1 and Ab-14-SA-PSSM6–designed through Ab-Affinity were expressed in Pichia pastoris and purified using FPLC. Protein expression and purity were confirmed by SDS-PAGE and Western blot. Binding affinities are being assessed using ELISA and surface plasmon resonance to evaluate interactions with the target SARS-CoV-2 spike peptide. Results All three designed antibodies have been successfully expressed in Pichia pastoris and purified. Upcoming binding affinity assays will determine whether these variants demonstrate the enhanced binding affinities predicted by Ab-Affinity. Conclusion This study integrates large language model-guided antibody design with experimental validation to assess the real-world performance of computationally optimized antibodies. The results will clarify how effectively AI-generated sequences translate into functional high-affinity binders, informing the development of future therapeutics. Funding Source DOE Topic Categories Vaccines and Immunotherapy (VAC)",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3582,6 +3681,48 @@
       "curated_categories": []
     },
     {
+      "id": "ad88b05b69003eb826b1696f911705d0c42e776e9c050510a2b6bd744f269d90",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jctc.6c01334",
+        "https://openalex.org/W7172444685"
+      ],
+      "title": "Reliability of AI Methods in Drug Discovery: Evaluation of Boltz-2 for Structure and Binding Affinity Prediction",
+      "link": "https://doi.org/10.1021/acs.jctc.6c01334",
+      "pdf_url": null,
+      "publication_date": "2026-07-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Theory and Computation",
+      "authors": [
+        {
+          "key": "shunzhou wan",
+          "name": "Shunzhou Wan"
+        },
+        {
+          "key": "xibei zhang",
+          "name": "Xibei Zhang"
+        },
+        {
+          "key": "xiao xue",
+          "name": "Xue Xiao"
+        },
+        {
+          "key": "coveney peter",
+          "name": "Peter V. Coveney"
+        }
+      ],
+      "abstract_text": "Despite continuing hype about the role of AI in drug discovery, no \"AI-discovered drugs\" have so far received regulatory approval. Here we assess one of the latest AI-based tools in this domain. Boltz-2, a recently developed biomolecular foundation model, aims to bridge the gap between AI efficiency and physics-based precision through a joint \"cofolding\" approach. In this study, we provide an extensive evaluation of Boltz-2 using two large-scale data sets: 16780 compounds for 3CLPro and 21702 compounds for TNKS2. We compare Boltz-2 predicted structures with traditional docking and binding affinities with binding free energies derived from the physics-based ESMACS protocol. Structural analysis reveals significant global RMSD variations, indicating that Boltz-2 predicts multiple protein conformations and ligand binding positions rather than a single converged pose. Energetic evaluations exhibit only weak to moderate correlations across the global data sets. Furthermore, a focused analysis of the top 100 compounds yields no significant correlation between the Boltz-2 predictions and the binding free energies from fine-grained ESMACS, alongside frequently observed saturation-state errors in Boltz-2 predicted ligand structures. Our results show that Boltz-2 lacks the energetic resolution required for lead identification. These findings highlight the necessity of employing physics-based methods for the reliability and refinement of AI-derived models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ad8997b8c6cb7e11a3bafd091c5e0351d8ca1fa352c748d799f3b884392964f7",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00952-8",
@@ -3868,6 +4009,36 @@
         }
       ],
       "abstract_text": "Abstract Solar evaporation has emerged as a promising off-grid solution for producing potable water from diverse sources. With advanced modular designs, particularly downward evaporation and multistage configurations, remarkable efficiency improvements have been achieved. However, field implementations consistently exhibit notable performance degradation, sometimes as large as 57%, compared to laboratory benchmarks, presenting a major barrier to widespread adoption. Through comprehensive theoretical and experimental analysis, we identified that wind-induced convection and sky cooling, the environmental factors routinely overlooked in laboratory studies, substantially elevate heat losses and lower water productivity. Guided by heat and spectral analyses, we designed a spectrally selective airlock (SSAL) aerogel to mitigate these losses, resulting in a maximum 78% reduction in heat loss under realistic field conditions and five-fold increase in water productivity compared to aerogelfree modules. Field tests with seawater achieved 10.88 kg·m − 2 ·day − 1 yield, twice that of the aerogel-free counterpart, and the laboratory-field performance gap was reduced to only 2%. The analytical methodology and strategic framework presented in this work offers guidance for solar distillation optimization to enhance clean water accessibility for all while demonstrating broad applicability across diverse solar thermal applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ad9da9d54d8c778d4fae0586b87c01d6578c092ac1581fcd59c44cb7fd823092",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.21056419",
+        "https://openalex.org/W7166730522"
+      ],
+      "title": "Semantic Deconstruction and Operator Reconfiguration: An Architecture of Morphic Computation Based on Inverse Categorical Compilation Theory",
+      "link": "https://doi.org/10.5281/zenodo.21056419",
+      "pdf_url": null,
+      "publication_date": "2026-06-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "jincheng zhang",
+          "name": "Jincheng Zhang"
+        }
+      ],
+      "abstract_text": "This paper presents the Inverse Categorical Compilation Theory (ICCT), a paradigm shift that redefines compilation from a linear transformation of source code to a reverse reconstruction process of computational intent. Moving beyond the traditional generative grammar framework, we propose that the relationship between machine instruction sets and high-level semantics is governed by adjoint functors within a structured category-theoretic domain. We introduce the \"Semantic-Instruction Duality,\" establishing that execution traces possess inherent holographic properties that allow for the unique recovery of primitive operators. By modeling program execution as a topological movement within a manifold and utilizing an inverse folding operator, we demonstrate that optimal program logic can be reconstructed from binary streams without the prerequisite of source code. This theoretical framework provides a rigorous foundation for autonomous logic reconfiguration, proving that computational optimization is mathematically equivalent to the inverse projection of operator spaces. Our results suggest that compilation is not an entropy-increasing translation, but rather an entropy-decreasing process of intent-extraction, establishing a new foundation for software engineering where binary execution is recognized as a direct manifestation of canonical logical representation.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6467,6 +6638,12 @@
       ],
       "abstract_text": "Protein sequence optimization under tight oracle budgets requires methods that explore vast combinatorial spaces while making each evaluation informative. Existing reinforcement learning and off-policy generative approaches often degrade under surrogate noise, and position-agnostic mutation proposals risk disrupting functionally critical residues. We introduce SILO, a trajectory-level self-improvement imitation framework for oracle-budgeted protein design. SILO uses a hierarchical edit policy that decomposes each mutation into a position choice followed by a residue choice. In each active-learning round, the policy samples candidate trajectories via incremental stochastic beam search without replacement (SBS), and a UCB-based proxy ensemble, combined with an alanine-scan fitness score (AFS), selects candidates with functionally relevant edits for in silico oracle evaluation. The policy is then updated by next-action cross-entropy imitation on the round's best oracle-labeled trajectories, avoiding value-function estimation. Across eight reproduced protein fitness landscapes and five strong baselines from prior work, SILO achieves the highest maximum and top-100 mean fitness on 8 of 8 landscapes within our evaluations, often exhibiting faster early-stage improvement. In low-data and noisy-proxy stress tests on two landscapes per setting, SILO remains competitive or best when several baselines degrade. Ablations show that SBS with AFS account for much of the gains, with iterative imitation providing additional improvement. Code is available at: https://github.com/grimmlab/SILO.git",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

@@ -1020,6 +1020,48 @@
       "curated_categories": []
     },
     {
+      "id": "e631340825f0ff805f64fae1cf514042e3408e178bd23b6f56e786adfaa1eadf",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.5c02481",
+        "https://openalex.org/W7116867730"
+      ],
+      "title": "A Comparative Study of Deep Learning and Classical Modeling Approaches for Protein–Ligand Binding Pose and Affinity Prediction in Coronavirus Main Proteases",
+      "link": "https://doi.org/10.1021/acs.jcim.5c02481",
+      "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.5c02481?ref=article_openPDF",
+      "publication_date": "2025-12-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "liu yue",
+          "name": "Yue Liu"
+        },
+        {
+          "key": "haocheng tang",
+          "name": "Haocheng Tang"
+        },
+        {
+          "key": "niu taoyu",
+          "name": "Taoyu Niu"
+        },
+        {
+          "key": "junmei wang",
+          "name": "Junmei Wang"
+        }
+      ],
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide The accurate prediction of protein–ligand binding poses and affinities is central to structure-based drug design. In this study, we first benchmarked three distinct pose generation strategies for data sets from the ASAP Antiviral Challenge 2025: molecular docking (Glide and AutoDock Vina), ligand-based superposition (FlexS), and deep learning-based modeling (AlphaFold3, Boltz-2, DiffDock and Gnina). We evaluated their performance on binding pose prediction for ligands targeting SARS-CoV-2 and MERS-CoV main protease (Mpro). For binding affinity estimation, we implemented a machine learning-based scoring approach called ligand–residue interaction profile scoring function (LRIP-SF), which integrates molecular mechanics generalized Born surface area (MM-GBSA) energy decomposition with machine learning algorithms. Our results showed that deep learning-based modeling with AlphaFold3 achieved the highest pose prediction accuracy with a success rate of 88.1% and an average ligand root-mean-square deviation (LRMSD) of 1.12 Å. Moreover, binding poses predicted by AlphaFold3 enabled the most accurate potency predictions by LRIP-SF, with the lowest mean absolute error (MAE) and root-mean-square error (RMSE) in pIC 50 units across both targets: the MAE and RMSE are 0.606 and 0.813, respectively, for MERS-CoV Mpro and 0.724 and 0.894 respectively for SARS-CoV-2 Mpro. Although ligand-based superposition method (FlexS) was less accurate in pose prediction, it offered competitive potency prediction performance with significantly lower computational cost. To interpret model predictions by LRIP-SF and identify critical binding determinants, we performed global sensitivity analysis (GSA), revealing key residues that contributed most significantly to ligand binding. These findings highlight the importance of pose quality and interaction profiling in affinity prediction and demonstrate the great potential of deep learning-based methods for drug discovery, especially in the absence of cocrystal structures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e6369f5f917483c36b500215e8cf49ce73c83b099d23cc1713252181bf2c24df",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78701-8",
@@ -1383,6 +1425,44 @@
         }
       ],
       "abstract_text": "Detecting the chirality of molecules is of great importance in optics, biomedicine, and materials science. In chiroptical spectroscopy, it's crucial to achieve strong chiroptical signals with a minimal number of chiral molecules. The molecular chiroptical signals, however, are typically weak for chiral molecular sensing in conventional circular dichroism using photonic spin angular momentum, even in the presence of a large number of chiral molecules (micromoles to millimoles). Here, by involving chiral light-matter interaction with photonic orbital angular momentum, we demonstrate strong chiroptical responses that reflect the molecular chirality in a single chiral nanoassembly. We experimentally present the helical dichroism spectra of chiral nanoassemblies synthesized from L/D-cystines, consistent with electromagnetic simulations. The asymmetry factors in the fundamental wavelength and photoluminescence emission reach values of 0.53 and 1.18, respectively, exceeding those observed in the circular dichroism mechanism. To improve the dimensions of helical dichroism spectroscopy, we analyze helical dichroism in wavelength domain, polarization domain, and momentum space. Our findings not only expand the methods for trace chiral molecular sensing but also provide insights into chiral light-matter interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e64059d0a9400bd464e1b42c479ffea8376a631535341ebae988fbea24872c1a",
+      "identity_keys": [
+        "https://doi.org/10.3390/molecules31132359",
+        "https://openalex.org/W7167494699"
+      ],
+      "title": "Bridging Algorithms and Biocatalysis: Perspectives on AI-Supported Enzyme Engineering",
+      "link": "https://doi.org/10.3390/molecules31132359",
+      "pdf_url": "https://www.mdpi.com/1420-3049/31/13/2359/pdf?version=1783134723",
+      "publication_date": "2026-07-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecules",
+      "authors": [
+        {
+          "key": "juiz rosa teijeiro",
+          "name": "Rosa Teijeiro-Juiz"
+        },
+        {
+          "key": "brück thomas",
+          "name": "Thomas Brück"
+        },
+        {
+          "key": "bernhard loll",
+          "name": "Bernhard Loll"
+        }
+      ],
+      "abstract_text": "The combination of computational and experimental methods has become indispensable for optimization and rational enzyme design. Recently, the development of artificial intelligence (AI)-based tools has further streamlined enzyme engineering pipelines, enabling more accurate designs, while reducing the number of variants required for experimental validation. However, due to the intricate complexity of enzymatic systems, significant challenges must be addressed before we take the next step to fully optimize the use of these AI-guided enzyme design methodologies. These challenges include un-curated datasets, the need to consider both the static and dynamic structure of enzymes, and the requirement for effective interdisciplinary collaborations to ensure the integration of computational and experimental approaches. Here, we present recent advances in AI-based computational enzyme design, discussing the main challenges in the field and how a combination with classical physics-based methods could help overcome them. We further explore novel trends that could completely modulate the future of protein design and provide our outlook on the key concepts and future opportunities that will shape the next steps of enzyme design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2043,6 +2123,40 @@
         }
       ],
       "abstract_text": "Despite the widespread presence of all-carbon quaternary centers in natural products and bioactive compounds, a concise construction strategy remains very challenging. Herein, we introduce a highly controllable sequential dechlorination strategy of tetrachloromethane by means of relay catalysis with different photocatalysts of eosin Y, 1,2,3,5-tetrakis(carbazol-9-yl)−4,6-dicyanobenzene and Au2(µ-dcpm)2Cl2. Four C-Cl bonds in CCl4 can undergo sequential, highly selective cleavage by combination of outer-sphere and inner-sphere crossover single electron transfer mechanism, enabling radical-addition reactions with a wide range of terminal alkenes to construct all-carbon quaternary centers in four steps with 17-38% yields. Furthermore, using 1,1-disubstituted styrene as the substrates, cyclopropanes bearing with challenging vicinal all-carbon quaternary centers are also successfully constructed from CCl4 in two-pots three steps with moderate yields of 10-50%. This work suggests the possibility of tetrachloromethane as an editable C1 synthon to facilitate the construction of all-carbon quaternary centers. All-carbon quaternary centers are ubiquitous in natural products and bioactive molecules, yet strategies for their streamlined construction remain scarce. Here, the authors report a sequential dechlorination strategy of tetrachloromethane, offering a concise route to quaternary carbon frameworks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e65c4a61a881e3e4dadf8d65dda068bedeb1208afd39ac34ea7e6b23beb88b04",
+      "identity_keys": [
+        "https://doi.org/10.1039/d5cc06100h",
+        "https://openalex.org/W7117298660"
+      ],
+      "title": "Supramolecular self-assembled peptide scaffolds for fluorescence enhancement and delayed emission",
+      "link": "https://doi.org/10.1039/d5cc06100h",
+      "pdf_url": null,
+      "publication_date": "2025-12-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Communications",
+      "authors": [
+        {
+          "key": "patra sowbhick",
+          "name": "Sowbhick Patra"
+        },
+        {
+          "key": "ghosh goutam",
+          "name": "Goutam Ghosh"
+        }
+      ],
+      "abstract_text": "Luminescent organic materials are increasingly important for applications ranging from bioimaging and sensing to optoelectronics and phototherapy. Their performance depends on controlling excited-state dynamics, yet organic luminophores face intrinsic limitations such as weak spin-orbit coupling, aggregation-induced quenching, and oxygen sensitivity. Conventional strategies such as crystallization, polymer encapsulation, and host-guest assembly can improve fluorescence, thermally activated delayed fluorescence (TADF), and room-temperature phosphorescence (RTP), but often lack biocompatibility, adaptability, or aqueous stability. Peptide-based supramolecular assemblies are emerging as versatile alternatives, offering modularity, biodegradability, and the ability to create ordered nanostructures through hydrogen bonding (H-bonding), π-π stacking, hydrophobic interactions, and electrostatics. These assemblies generate confined and tunable microenvironments that suppress non-radiative losses, stabilize triplet states, and protect excitons from quenching, thereby enabling efficient fluorescence, long-lived RTP, and oxygen-tolerant TADF. In this review, we highlight recent advances in peptide-luminophore co-assemblies that enhance emission efficiency and stability under biological conditions. We discuss molecular design principles, mechanistic insights, and representative examples across fluorescence, RTP, and TADF systems and outline future directions in predictive peptide design, stability engineering, and multifunctional applications. Overall, peptide supramolecular scaffolds show great promise as next-generation platforms for development of efficient and versatile luminescent materials.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3692,6 +3806,68 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e6ccd246d697b68d5588dde2dd5144e2517a100ab8b9644baaf3df3506817a97",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.5c01924",
+        "https://openalex.org/W7124871004"
+      ],
+      "title": "Ab-SELDON: Leveraging Diversity Data for an Efficient Automated Computational Pipeline for Antibody Design",
+      "link": "https://doi.org/10.1021/acs.jcim.5c01924",
+      "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.5c01924?ref=article_openPDF",
+      "publication_date": "2026-01-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "jean sampaio vieira",
+          "name": "Jean Vieira Sampaio"
+        },
+        {
+          "key": "andrielly costa henriques santos",
+          "name": "Andrielly Henriques Santos-Costa"
+        },
+        {
+          "key": "albuquerque aline",
+          "name": "Aline O. Albuquerque"
+        },
+        {
+          "key": "júlia souza",
+          "name": "Júlia S. Souza"
+        },
+        {
+          "key": "almeida diego",
+          "name": "Diego S. Almeida"
+        },
+        {
+          "key": "eduardo gaieta menezes",
+          "name": "Eduardo Menezes Gaieta"
+        },
+        {
+          "key": "almeida matheus",
+          "name": "Matheus V. Almeida"
+        },
+        {
+          "key": "sartori",
+          "name": "G. Sartori"
+        },
+        {
+          "key": "da hermínio joão martins silva",
+          "name": "João Hermínio Martins da Silva"
+        }
+      ],
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide The utilization of predictive tools has become increasingly prevalent in the development of biopharmaceuticals, reducing the time and cost of research. However, most methods for computational antibody design are hampered by their reliance on scarcely available antibody structures, potential for immunogenic modifications, and a restricted exploration of the paratope’s potential chemical and conformational space. We propose Ab-SELDON, a modular and easily customizable antibody design pipeline capable of iteratively optimizing an antibody–antigen (Ab–Ag) interaction in five different modification steps, including CDR and framework grafting, and mutagenesis. The optimization process is guided by diversity data collected from millions of publicly available human antibody sequences. This approach enhanced the exploration of the chemical and conformational space of the paratope during computational tests involving the optimization of an anti-HER2 antibody. Optimization of another antibody against Gal-3BP stabilized the Ab-Ag interaction in molecular dynamics simulations at lower runtime than alternative pipelines. Tests with SKEMPI’s Ab-Ag mutations also demonstrated the pipeline’s ability to correctly identify the effect of the majority of mutations, especially multipoint and those that increased binding affinity. This freely available pipeline presents a new approach for computationally efficient and automated in silico antibody design, thereby facilitating the development of new biopharmaceuticals.",
       "discovery_sources": [
         {
           "kind": "open_alex",

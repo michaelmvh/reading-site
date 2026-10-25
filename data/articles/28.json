@@ -1642,6 +1642,12 @@
       "abstract_text": "Intrinsically disordered protein regions are ubiquitous across all kingdoms of life. These structurally heterogeneous regions play central roles in cellular processes such as transcriptional regulation, cellular signaling, and subcellular organization, yet they have remained largely inaccessible to rational design. Structure-based generative methods are not applicable to proteins that lack a stable fold, and existing sequence-based approaches for disordered regions rely on sampling methods that do not capture the evolutionary statistics of natural disordered regions. Here, we introduce IDiom, an autoregressive protein language model trained on 37 million intrinsically disordered region sequences curated from the AlphaFold Database. Trained using a fill-in-the-middle data augmentation, IDiom generates disordered region sequences conditioned on their surrounding structured context, as well as fully disordered proteins without any context. The model generates diverse sequences that recapitulate biologically relevant sequence features of natural disordered regions, and we demonstrate that post-training via reinforcement learning with a subcellular localization reward model produces sequences with features which are consistent with known sequence determinants of compartment-specific localization. These results establish IDiom as a general platform for the generative design of intrinsically disordered proteins and regions.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1652,6 +1658,64 @@
         "5.4 Transformer-based",
         "5.Function to Sequence"
       ]
+    },
+    {
+      "id": "286798055324df2437dffb3c94a2fb8a5961ae2dab246f4ee823ad1257fcd684",
+      "identity_keys": [
+        "https://doi.org/10.1021/acscatal.6c00035",
+        "https://openalex.org/W7138903056"
+      ],
+      "title": "Computer-Aided Directed Evolution Achieves Balanced Activity, Thermal Stability, and Selectivity in Stereoselective Carbonyl Reductase",
+      "link": "https://doi.org/10.1021/acscatal.6c00035",
+      "pdf_url": null,
+      "publication_date": "2026-03-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Catalysis",
+      "authors": [
+        {
+          "key": "gu jie",
+          "name": "Jie Gu"
+        },
+        {
+          "key": "su xin",
+          "name": "Xin Su"
+        },
+        {
+          "key": "jun wang",
+          "name": "Jun Wang"
+        },
+        {
+          "key": "yangqing yu",
+          "name": "Yangqing Yu"
+        },
+        {
+          "key": "li zhongzhen",
+          "name": "Zhongzhen Li"
+        },
+        {
+          "key": "mu wanmeng",
+          "name": "Wanmeng Mu"
+        },
+        {
+          "key": "xu yan",
+          "name": "Yan Xu"
+        },
+        {
+          "key": "nie yao",
+          "name": "Yao Nie"
+        }
+      ],
+      "abstract_text": "Achieving simultaneous improvements in activity, substrate specificity, stereoselectivity, and thermal stability remains a central challenge in laboratory enzyme evolution. Enzymes with industrial properties require synergistic development of various functions. This study developed a computational pipeline integrating sequence-structure information to regulate the activity, thermal stability, and stereoselectivity of carbonyl reductases. Our framework employs an unsupervised epistasis model to map residue interdependencies across the entire protein structure, combined with ΔΔ G fold calculations and conservation analysis, enabling global evolutionary engineering. This strategy dramatically reduced 6,720 potential mutations to 27 prioritized candidates. Greedy combinatorial strategy generated optimized mutants with enhanced activity (up to 28-fold), high stereoselectivity toward 22 structurally diverse substrates, and improved thermal stability (Δ T m up to 5.8 °C). For the substrate 2-acetylpyridine (H1), I51L/Y61F/D147E (M3) is the dehydrogenase with the highest activity reported so far. Systematic analysis of crystal structures and molecular dynamics simulations revealed that distal mutations reorganized interdomain communication networks, increasing the active population of prereaction state conformations. The introduction of distal mutations balanced overall protein fluctuations by redistributing flexibility across different regions, contributing to the simultaneous improvement of catalytic activity and thermal stability. This work demonstrates the efficiency of a computer-aided protein design approach for synergistically enhancing multifunctional compatibility, offering a transformative strategy for advancing biomanufacturing of high-value chiral compounds.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "2867f6230f994fb540f9700011a79ba18b09ec38cf44d6dfb4f2daa08c2a1cd3",
@@ -2116,6 +2180,57 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2870c657995575878d7b8b931312b8ab4dd5ab8ffb49ee2d43deb0359471ac87",
+      "identity_keys": [
+        "https://arxiv.org/abs/2512.15133",
+        "https://doi.org/10.48550/arxiv.2512.15133",
+        "https://openalex.org/W7116210942"
+      ],
+      "title": "HD-Prot: A Protein Language Model for Joint Sequence-Structure Modeling with Continuous Structure Tokens",
+      "link": "https://arxiv.org/abs/2512.15133",
+      "pdf_url": "https://arxiv.org/pdf/2512.15133",
+      "publication_date": "2025-12-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "yi zhou",
+          "name": "Zhou, Yi"
+        },
+        {
+          "key": "haohao qu",
+          "name": "Qu, Haohao"
+        },
+        {
+          "key": "liu yunqing",
+          "name": "Liu, Yunqing"
+        },
+        {
+          "key": "lin shanru",
+          "name": "Lin, Shanru"
+        },
+        {
+          "key": "le song",
+          "name": "Song, Le"
+        },
+        {
+          "key": "fan wenqi",
+          "name": "Fan, Wenqi"
+        }
+      ],
+      "abstract_text": "Proteins inherently possess a consistent sequence-structure duality. The abundance of protein sequence data, which can be readily represented as discrete tokens, has driven fruitful developments in protein language models (pLMs). A key remaining challenge, however, is how to effectively integrate continuous structural knowledge into pLMs. Current methods often discretize protein structures to accommodate the language modeling framework, which inevitably results in the loss of fine-grained information and limits the performance potential of multimodal pLMs. In this paper, we argue that such concerns can be circumvented: a sequence-based pLM can be extended to incorporate the structure modality through continuous tokens, i.e., high-fidelity protein structure latents that avoid vector quantization. Specifically, we propose a hybrid diffusion protein language model, HD-Prot, which embeds a continuous-valued diffusion head atop a discrete pLM, enabling seamless operation with both discrete and continuous tokens for joint sequence-structure modeling. It captures inter-token dependencies across modalities through a unified absorbing diffusion process, and estimates per-token distributions via categorical prediction for sequences and continuous diffusion for structures. Extensive results demonstrate that HD-Prot achieves competitive performance in unconditional sequence-structure co-generation, motif-scaffolding, protein structure prediction, and inverse folding tasks. Furthermore, our method can perform on par with state-of-the-art multimodal pLMs, despite being developed under limited computational resources (i.e., less than one-tenth the budget for modality extension fine-tuning). It highlights the viability of simultaneously estimating categorical and continuous distributions within a unified language model architecture, offering a promising alternative direction for multimodal pLMs.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4248,6 +4363,48 @@
       "curated_categories": []
     },
     {
+      "id": "28daa87155fa048405c73ea11ffca7e9e9ae051eeb329aec0d93e34a5fbe3e26",
+      "identity_keys": [
+        "https://doi.org/10.3390/molecules31162821",
+        "https://openalex.org/W7202341299"
+      ],
+      "title": "Beyond Branching: Unlocking the Catalytic Versatility of Branching Enzymes for the Design of Diverse α-Glucan Structures",
+      "link": "https://doi.org/10.3390/molecules31162821",
+      "pdf_url": null,
+      "publication_date": "2026-08-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecules",
+      "authors": [
+        {
+          "key": "essers maurice",
+          "name": "Maurice K.H. Essers"
+        },
+        {
+          "key": "hans leemhuis",
+          "name": "Hans Leemhuis"
+        },
+        {
+          "key": "bitter hendrik johannes",
+          "name": "Johannes Hendrik Bitter"
+        },
+        {
+          "key": "broek den van",
+          "name": "L.A.M. van den Broek"
+        }
+      ],
+      "abstract_text": "Starch-modifying glycoside hydrolases (GHs) typically operate via a retaining double-displacement mechanism, involving formation of a covalent glycosyl-enzyme intermediate. This intermediate can be resolved either by water, resulting in hydrolysis, or by a glucan acceptor, leading to transglucosylation. Many GHs exhibit both catalytic activities, although they are classified according to their predominant reaction. For example, branching enzymes (BEs) catalyse α-(1→4) bond cleavage and α-(1→6) branch formation via transglucosylation, while also exhibiting minor hydrolytic and disproportionation activities that broaden their catalytic repertoire. More recent research indicates that the different catalytic activities of BEs can be interconnected, thereby collectively determining the final α-glucan architecture. This challenges the classical view that the predominant branching activity of BEs is catalysed independently. Moreover, the balance between these coupled activities influences substrate specificity and can broaden the substrate scope to include chemically modified starches. Furthermore, the co-application of BEs with other GHs reveals synergistic interactions between catalytic activities, enabling the generation of α-glucan structures that cannot be produced by any of the enzymes individually. In this perspective paper, and based on recent developments, we argue that the catalytic framework of BEs provides multiple strategies for tailoring diverse α-glucan architectures. This enables modulation of structural features across hierarchical levels, from supramolecular to macromolecular organisation. As a result, BEs represent versatile tools for engineering starch functionality beyond digestibility, extending their potential toward pharmaceutical and non-food applications. Looking ahead, we discuss how enzyme-designed and chemically functionalised α-glucan polymers may emerge as a new class of sustainable materials. These materials could provide biodegradable, water-soluble, and renewable alternatives to petrochemical-derived polymers used in personal and home care products.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "28dc1f61fd4c210502822540131727d48f49396acaaa523c46a5da6483ffa35b",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02700-4",
@@ -4740,6 +4897,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.07.07.736993v2",
         "https://doi.org/10.64898/2026.07.07.736993",
+        "https://www.biorxiv.org/content/early/2026/07/11/2026.07.07.736993.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/21/2026.07.07.736993.source.xml"
       ],
       "title": "Metagenomic contextualization of proteins with state space models",
@@ -4782,6 +4940,84 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "28e575cfbb369339ef1f96e81cce256a73b92b60485241255d65a277fb56aee7",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.10.750651",
+        "https://openalex.org/W7212305534"
+      ],
+      "title": "EnZight: A Structure-Guided Algorithm to Identify and Prioritize Substitution Hotspots for Enzyme Engineering",
+      "link": "https://doi.org/10.64898/2026.09.10.750651",
+      "pdf_url": null,
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "oestergaard rahbek rune",
+          "name": "Rune Rahbek Oestergaard"
+        },
+        {
+          "key": "jensen lyskjær mikkel",
+          "name": "Mikkel Lyskjær Jensen"
+        },
+        {
+          "key": "siebenhaar suzana",
+          "name": "Suzana Siebenhaar"
+        },
+        {
+          "key": "bicer deniz",
+          "name": "Deniz Bicer"
+        },
+        {
+          "key": "peter sackett wad",
+          "name": "Peter Wad Sackett"
+        },
+        {
+          "key": "alexander andersen",
+          "name": "Alexander Andersen"
+        },
+        {
+          "key": "matteo tiberti",
+          "name": "Matteo Tiberti"
+        },
+        {
+          "key": "elena papaleo",
+          "name": "Elena Papaleo"
+        },
+        {
+          "key": "robinson serina",
+          "name": "Serina L. Robinson"
+        },
+        {
+          "key": "søren thirup",
+          "name": "Søren Thirup"
+        },
+        {
+          "key": "peter westh",
+          "name": "Peter Westh"
+        },
+        {
+          "key": "laura rotilio",
+          "name": "Laura Rotilio"
+        },
+        {
+          "key": "jens morth preben",
+          "name": "Jens Preben Morth"
+        }
+      ],
+      "abstract_text": "Homologous protein structures contain valuable information about tolerated sequence variation. However, translating this information into practical enzyme design strategies remains challenging. Here we present EnZight, a user-friendly web server that integrates homologous structural alignment with intuitive visualization to identify substitution hotspots in protein cores. EnZight exploits structurally aligned homologs to identify positions where the surrounding structural environment is conserved while the residue at the position varies across homologs. This enables prediction of substitutions that preserve fold integrity while modulating function and thermostability. The approach further provides interactive structural outputs that allow users to inspect and prioritize substitutions manually. To validate the use of EnZight, we used a polyurethane-degrading amidase as a proof of concept. We constructed 34 variants, and 97 % were successfully expressed, indicating high foldability of the predicted substitutions. Several substitutions improved both catalytic turnover and thermostability, and, importantly, beneficial substitutions combined additively, enabling stepwise accumulation of improvements. The best triple mutant variant exhibited a six-fold increase in catalytic turnover and 2 ° C increase in apparent melting temperature. Enhanced activity toward the pharmaceutical micropollutant flutamide further demonstrates EnZight’s broad applicability in identifying substitutions that enable enzyme optimization across diverse substrates.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

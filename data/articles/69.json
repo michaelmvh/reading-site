@@ -1135,6 +1135,44 @@
       "curated_categories": []
     },
     {
+      "id": "69297506c08373e0b01837e385a123d3d1e60f262e0bb415ca132cfe4a6673d5",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.sbi.2026.103326",
+        "https://openalex.org/W7167894240"
+      ],
+      "title": "Progress in structure prediction and design of adaptive immune receptors",
+      "link": "https://doi.org/10.1016/j.sbi.2026.103326",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0959440X26001089/pdf",
+      "publication_date": "2026-07-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Structural Biology",
+      "authors": [
+        {
+          "key": "cohen tomer",
+          "name": "Tomer Cohen"
+        },
+        {
+          "key": "hochner tanya",
+          "name": "Tanya Hochner"
+        },
+        {
+          "key": "dina duhovny schneidman",
+          "name": "Dina Schneidman‐Duhovny"
+        }
+      ],
+      "abstract_text": "Adaptive immune receptors (AIRs), including antibodies and T-cell receptors (TCRs), mediate antigen recognition and represent a major class of therapeutic biomolecules. Their unique architecture, combining conserved framework with highly diverse complementarity-determining regions (CDRs), poses challenges for structure prediction and design. Recent advances in deep learning have transformed these fields, yet AIR-antigen interactions remain difficult targets due to limited structural data, weak co-evolutionary signals, and conformational heterogeneity. Herein, we review recent progress in structure-based deep learning approaches for AIRs, including AIR-specific language models, structure prediction, and epitope-conditioned design. We discuss commonly used datasets, evaluation metrics, and sources of bias that complicate cross-study comparisons and highlight the need for improved benchmarks. We also review emerging generative design strategies such as inverse folding, diffusion-based backbone generation, sequence-space diffusion, and sequence-structure co-design, and outline key challenges, including accurate modeling of flexible CDR loops, reliable ranking of AIR-antigen complexes, and scalable epitope-specific AIR design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6930bebf529a2a2142f8099a74b869c974c6a93d7302a1b0cad20582249fa75d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66434-z",
@@ -1251,6 +1289,12 @@
       "abstract_text": "We present SeedProteo, a diffusion-based model for de novo all-atom protein design. We demonstrate how to repurpose a cutting-edge folding architecture into a powerful generative design framework by effectively integrating self-conditioning features. Extensive benchmarks highlight the model's capabilities across two distinct tasks: in unconditional generation, SeedProteo exhibits superior length generalization and structural diversity, maintaining robustness for long sequences and complex topologies; in binder design, it achieves state-of-the-art performance among open-source methods, attaining the highest in-silico design success rates, structural diversity and novelty. Finally, we validate SeedProteo through wet-lab assays on two therapeutic targets, achieving hit rates of 70%-80% and picomolar-level binding affinities, establishing leading results. To facilitate community adoption, we provide public access to SeedProteo via a webserver (https://seedfold.io/proteinDesign).",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1261,6 +1305,64 @@
         "6. Function to Structure",
         "6.2 Diffusion-based"
       ]
+    },
+    {
+      "id": "69390cf20be9b06bdbef470b7affb8bcbbf7df4b67d40f64f21228643b577480",
+      "identity_keys": [
+        "https://doi.org/10.1371/journal.pcbi.1014344",
+        "https://openalex.org/W7214898468"
+      ],
+      "title": "GeoEPred: A multimodal structure-aware geometric deep learning framework for Gram-negative bacterial secreted effector prediction with sequence semantics",
+      "link": "https://doi.org/10.1371/journal.pcbi.1014344",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014344&type=printable",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "PLoS Computational Biology",
+      "authors": [
+        {
+          "key": "shouzhen song",
+          "name": "Shouzhen Song"
+        },
+        {
+          "key": "hua shi wang",
+          "name": "Hua Wang Shi"
+        },
+        {
+          "key": "hongfeng wu",
+          "name": "Hongfeng Wu"
+        },
+        {
+          "key": "dachen liu",
+          "name": "Dachen Liu"
+        },
+        {
+          "key": "lin yihang",
+          "name": "Yihang Lin"
+        },
+        {
+          "key": "ashidi isa mat nor",
+          "name": "Nor Ashidi Mat Isa"
+        },
+        {
+          "key": "quan zou",
+          "name": "Quan Zou"
+        },
+        {
+          "key": "leyi wei",
+          "name": "Leyi Wei"
+        }
+      ],
+      "abstract_text": "Abstract Accurate prediction of effector proteins secreted by Gram-negative bacteria is important for elucidating bacterial pathogenic mechanisms and developing precise anti-infective strategies. Although existing methods have benefited from the strong sequence feature extraction capacity of pretrained protein language models, reliance on linear sequence information alone often fails to fully capture the three-dimensional conformational signals required for virulence functions. Meanwhile, conventional structure-based methods are limited by the scarcity of experimentally resolved protein structures. To address these challenges, We propose GeoEPred, a multimodal deep learning framework designed for the synergistic modeling of protein sequence and structure to identify Gram-negative bacterial effector proteins. Specifically, the model integrates sequence-contextual embeddings from a pretrained protein language model with three-dimensional structural representations predicted by ESMFold. A feature projection network refines fine-grained sequence signals associated with effector functions, while geometric vector perceptrons characterize inter-residue orientations, distances, and local spatial topology to capture potential structural conformational motifs. To further enable effective cross-modal fusion, we design a cross-modal alignment and feature-tokenized self-attention module. This module enhances consistency between the sequence-semantic and structural-geometric spaces through contrastive learning and models associations between linear functional motifs and spatial conformational patterns at a fine-grained token level. Extensive evaluations on multiple benchmark datasets show that GeoEPred achieves better predictive performance than existing leading models in T3SE, T4SE, and T6SE prediction tasks, while maintaining stable performance in remote homolog recognition scenarios. Moreover, the modular and extensible architecture of GeoEPred demonstrates strong generalization ability and substantial application potential for genome-scale effector protein discovery. Author summary Secreted effector proteins are central virulence factors used by many Gram-negative bacterial pathogens to execute infection strategies. Their functions are governed not only by secretion signals and short linear motifs in the amino acid sequence, but also by three-dimensional folds, local domains, and surface geometric patterns. However, current predictors mainly exploit sequence-contextual features, limiting their ability to model the correspondence between linear sequence signals and spatial conformational motifs, and thereby constraining accuracy and interpretability. Here, we present GeoEPred, a multimodal deep learning framework for secreted effector protein identification. GeoEPred couples sequence-semantic embeddings from a pretrained protein language model with structural representations learned by geometric vector perceptrons. A cross-modal alignment and interaction module uses contrastive learning to improve functional consistency between sequence and structure modalities, while feature-token attention captures fine-grained links between key linear and conformational motifs. Across benchmark datasets covering multiple effector types, GeoEPred outperforms existing state-of-the-art methods and provides interpretable evidence from sequence fragments, structural regions, and cross-modal associations, supporting functional annotation, pathogenic mechanism analysis, and experimental validation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "69396350ad12e5d698a24057b864ca9f6c7fb834fc6c3f2049cdbed87c15a6e2",
@@ -3087,6 +3189,78 @@
       "curated_categories": []
     },
     {
+      "id": "69783a1576c1d5e2eb66e24085beb561250d193309ca3eb6ccdf4dda7b89e186",
+      "identity_keys": [
+        "https://doi.org/10.6084/m9.figshare.33056010",
+        "https://openalex.org/W7170074043"
+      ],
+      "title": "Additional file 1 of ProtSeqGen: a novel deep learning model for protein sequence design",
+      "link": "https://doi.org/10.6084/m9.figshare.33056010",
+      "pdf_url": null,
+      "publication_date": "2026-05-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Figshare",
+      "authors": [
+        {
+          "key": "gao qi",
+          "name": "Qi Gao"
+        },
+        {
+          "key": "li zhijin",
+          "name": "Zhijin Li"
+        },
+        {
+          "key": "deng yang",
+          "name": "Yang Deng"
+        },
+        {
+          "key": "ji zhiwei",
+          "name": "Zhiwei Ji"
+        }
+      ],
+      "abstract_text": "Supplementary Material 1",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6979d35852b28e64d2a7aea50603f0623bd16b17a15508b838a8418b1c450459",
+      "identity_keys": [
+        "https://doi.org/10.20944/preprints202609.1742.v1",
+        "https://openalex.org/W7213770899"
+      ],
+      "title": "AF-RECAL: Multi-Modal Structural Recalibration of AlphaFold 3 Hallucinations in Intrinsically Disordered Human Disease Targets",
+      "link": "https://doi.org/10.20944/preprints202609.1742.v1",
+      "pdf_url": null,
+      "publication_date": "2026-09-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Preprints.org",
+      "authors": [
+        {
+          "key": "mudit sharma",
+          "name": "Mudit Sharma"
+        }
+      ],
+      "abstract_text": "AlphaFold 3 (AF3) has transformed structural bioinformatics through generative diffusion modeling of biomolecular assemblies. However, intrinsically disordered regions (IDRs)—which comprise over 30% of the human proteome and mediate essential cell signaling, oncogenesis, and phase separation—violate the classic thermodynamic energyminimization assumptions inherent to static structure prediction. In the absence of explicit solvent and physiological binding partners, AF3's diffusion trunk exhibits a pronounced compaction bias, collapsing unconstrained polypeptide chains into artificial, rigid secondary structures (α-helices) with spuriously elevated confidence (pLDDT ≥ 70–90).Here, we present AF-RECAL, an automated multi-modal machine learning meta-evaluator designed to audit and recalibrate AlphaFold 3 confidence metrics. Evaluating 53,035 residues across 118 full-length human disease proteins against experimental DisProt ground truth, we observe that AF3 assigns confident structure (pLDDT ≥ 70) to 29.86% of all verified disordered residues (2,649 / 8,871), consistent with independent literature reporting structural mismatches in 22% of IDR residues at pLDDT ≥ 80 (23.47% in our cohort). AF-RECAL addresses these errors by cross-examining three complementary information streams: (1) AF3 internal spatial geometry via Predicted Aligned Error (PAE) multi-scale matrices and a local-to-long-range contact density ratio; (2) evolutionary sequence representations and masked-languagemodel Shannon entropy from Meta's ESM-2 (650M parameter) protein language model; and (3) windowed biophysical polymer chemistry.Under strict ≤ 30% sequence identity clustering (114 independent clusters, eliminating homology leakage across isoforms and paralogs), AF-RECAL achieves an out-of-fold AUROC of 0.7721 and a Precision-Recall AUC (PR-AUC) of 0.4063, improving under full Leave-One-Cluster-Out (LOCO) cross-validation across all 114 clusters to 0.7888 AUROC and 0.4205 PR-AUC (mean per-cluster PR-AUC: 0.5131 ± 0.3437). Adding 3D spatial geometry to an identical ESM-2 650M + chemistry baseline yields an empirical +27.6% relative gain in PR-AUC (0.3183 → 0.4063, reaching0.4205 under LOCO-CV); under cluster-level paired bootstrap testing across 114 clusters, this difference exhibits p = 0.1380 (95% CI: [-0.0246, 0.2083]), establishing a strong positive empirical trend. AF-RECAL achieves an uncorrected nominal PR-AUC gain over metapredict v3 (0.3014, p = 0.0520) and native AF3 (0.2889, p = 0.0320). A verified 100iteration Y-randomization permutation test confirms biological learning over chance (z = +75.11σ AUROC, z = +130.83σ PR-AUC, p = 0.0000), and probability reliability analysis demonstrates a Brier calibration score of 0.1653, outperforming metapredict v3 (0.2253). Across operational high-confidence regimes (70.6% of residues), AF-RECAL achieves 84.58% accuracy, providing structural biologists a practical, post-hoc quality filter to flag spurious structural features before downstream virtual screening and experimental validation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "697ab531e83cda45c378ec0785685ed2e328ff2073004c627bed6d1f53de21c2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03701-5",
@@ -3735,6 +3909,60 @@
       "curated_categories": []
     },
     {
+      "id": "69a338511204dd173cdc9e7ffda91e5cec137c00c374df12d0cf24c828af9533",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.5c02580",
+        "https://openalex.org/W7135214495"
+      ],
+      "title": "MAESD: A Unified Multi-Agent Evolutionary Framework for Protein Sequence Design",
+      "link": "https://doi.org/10.1021/acs.jcim.5c02580",
+      "pdf_url": null,
+      "publication_date": "2026-03-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "song ze",
+          "name": "Ze Song"
+        },
+        {
+          "key": "hailong yang",
+          "name": "Hailong Yang"
+        },
+        {
+          "key": "deng zhaohong",
+          "name": "Zhaohong Deng"
+        },
+        {
+          "key": "pan xiaoyong",
+          "name": "Xiaoyong Pan"
+        },
+        {
+          "key": "hong shen",
+          "name": "Hong Shen"
+        },
+        {
+          "key": "hu shudong",
+          "name": "Shudong Hu"
+        },
+        {
+          "key": "yanqi zhong",
+          "name": "Yanqi Zhong"
+        }
+      ],
+      "abstract_text": "Traditional computational protein design heavily relies on expert-level biological inputs to define structural and functional constraints, posing significant barriers in terms of technical implementation and workflow construction. To address this gap, we capitalize on recent advancements in large language models (LLMs)─which excel at complex reasoning in specialized domains by leveraging knowledge bases to generate expert-grade outputs. In this study, we first propose the protein evolutionary paradigm, a design paradigm that emulates the core logic of natural protein evolution by taking biological function as the ultimate target, achieving progressive optimization of protein sequences under explicit functional and structural constraints through iterative evolutionary refinement. Guided by this paradigm, we present MAESD (Multiagent Evolutionary Framework for Protein Sequence Design), a unified computational framework for function- and structure-constrained evolutionary protein design guided by natural language instructions. This paradigm integrates multiagent collaborative reasoning to bridge the semantic gap between natural language descriptions and biological constraints, while adopting an iterative evolutionary optimization mechanism to ensure the biological plausibility of designed sequences at each iteration. MAESD operates through two core collaborative modules for sequence generation: (1) A semantic-to-biological translation module, which employs LLMs and biological databases to interpret user-provided natural language biological requirements and extract actionable protein design constraints; (2) an evolutionary loop module, which realizes iterative sequence refinement via a ″generation-validation″ cycle─utilizing ProGen2 and ProteinMPNN for sequence generation and integrating structural, energetic, and functional verification to filter and optimize sequences. By fusing natural language understanding with evolutionary computation, MAESD reduces the engineering and implementation burden of protein design workflows by automating pipeline integration and parameter adaptation, while expert biological judgment remains necessary for interpreting results and guiding experimental decisions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "69a56d06f4485c22115aafefa39dbc9b6e2e444ab5d714a59fab54061c6c4b67",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67942-8",
@@ -4111,6 +4339,435 @@
       "curated_categories": []
     },
     {
+      "id": "69c8db3cc1393e7a08c5496f19ab880b11ba93bbee582907ecdcc5fc605ffafd",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2021-05.2218306/17051279",
+        "https://doi.org/10.25582/data.2021-05.2218639/17050069",
+        "https://doi.org/10.25582/data.2021-05.2227942/17043719",
+        "https://doi.org/10.25582/data.2021-05.2231358/17040448",
+        "https://openalex.org/W7215073604"
+      ],
+      "title": "Data for EMSL Project 50414 from May 2021",
+      "link": "https://doi.org/10.25582/data.2021-05.2218639/17050069",
+      "pdf_url": null,
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "69c9325d9032adf1a9c12ab9f34f687f6faa7f9b92bc71cf816badf6cfc2d451",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70936-9",
@@ -4229,6 +4886,52 @@
       "venue": "Nature",
       "authors": [],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "69d4631e0df9999a6c6b9038a9d13a36518777924537d4cb72927f6e2ffd6580",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.19592",
+        "https://openalex.org/W7222240179"
+      ],
+      "title": "InstructPro2: Natural Language and Biological Grounding Guided De Novo Protein Design",
+      "link": "https://doi.org/10.48550/arxiv.2610.19592",
+      "pdf_url": "https://arxiv.org/pdf/2610.19592",
+      "publication_date": "2026-10-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "charles novak",
+          "name": "Charles Novak"
+        },
+        {
+          "key": "song zhenqiao",
+          "name": "Zhenqiao Song"
+        },
+        {
+          "key": "chuan li",
+          "name": "Chuan Li"
+        },
+        {
+          "key": "jianwen xie",
+          "name": "Jianwen Xie"
+        },
+        {
+          "key": "lei li",
+          "name": "Lei Li"
+        }
+      ],
+      "abstract_text": "The ability to generate proteins with desired functions is a central goal of computational biology. Although natural language can express diverse design objectives, existing protein generation methods often support only narrow tasks or make limited use of biological constraints. We develop InstructPro2 to translate natural-language design objectives into protein sequences while incorporating task-specific biological context. A text encoder captures the design instructions, while dedicated ligand and antigen encoders provide biological context to the sequence-generating decoder. For pretraining, we assemble InstructPro2Bench, comprising 205.7 million pairs from UniProtKB. We subsequently adapt the model to ligand-binding protein and antibody design. On functional protein generation benchmarks, InstructPro2 outperforms Pinal, the strongest baseline, achieving a functional recovery F1 of 74.8 versus 62.2 and lowering global RMSD from 5.33A to 3.04A. For antibody design, the model obtains a DockQ score of 0.39, while ligand-binding protein design reaches a docking success rate of 72.6%. These findings highlight how integrating language-based instructions with biological conditioning can extend protein generation to distinct design settings.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4749,6 +5452,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.09.17.752497v2",
         "https://doi.org/10.64898/2026.09.17.752497",
+        "https://www.biorxiv.org/content/early/2026/09/24/2026.09.17.752497.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/22/2026.09.17.752497.source.xml"
       ],
       "title": "ISP Platform powered by Geneformer: Framework for Cross-Species, State-feedback, and Multi-Gene In Silico Perturbation Screens with Application to iPS Cell State Transitions",

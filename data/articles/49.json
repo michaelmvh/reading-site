@@ -1550,6 +1550,44 @@
       "curated_categories": []
     },
     {
+      "id": "4951f0dcdc25b8ad53534eb2e5233a5759eb3a4f68621c4d81101d2e6d64aafd",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.14699",
+        "https://openalex.org/W7221835001"
+      ],
+      "title": "Joint Discrete and SE(3) Diffusion for Protein Interface Design",
+      "link": "https://doi.org/10.48550/arxiv.2610.14699",
+      "pdf_url": "https://arxiv.org/pdf/2610.14699",
+      "publication_date": "2026-10-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "song zhenqiao",
+          "name": "Zhenqiao Song"
+        },
+        {
+          "key": "jianwen xie",
+          "name": "Jianwen Xie"
+        },
+        {
+          "key": "lei li",
+          "name": "Lei Li"
+        }
+      ],
+      "abstract_text": "The design of high-affinity, target-specific protein binders is central to the development of modern therapeutics. However, existing protein-generation methods remain limited in this setting, as many generated designs fail to simultaneously achieve geometric and physicochemical complementarity at binding interfaces. To address this challenge, we introduce PIDiff, a physicochemically enhanced multimodal diffusion framework for protein-protein complex design. PIDiff jointly designs target-conditioned protein sequences and structures by coupling diffusion in discrete sequence space with diffusion on the continuous (SE(3)) structural manifold. At its core, PIDiff employs PIFormer, a novel architecture that interleaves geometry-aware invariant point attention with global sequence self-attention. We further curate PIBench, a protein-protein complex dataset with diverse target scaffolds derived from the Protein Data Bank (PDB). We first pretrain PIDiff on PIBench and subsequently fine-tune it for two therapeutically relevant applications: minibinder design and antibody design. PPFrame consistently outperforms baseline methods across sequence design success rate, structure binding energy, and sequence-structure co-designability on all tasks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "495746560f8f52b90f8d9ebba87d2db9ef7a11c9735bbc3a8c92c51c9ee5a9fb",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71783-4",
@@ -2484,6 +2522,57 @@
       "curated_categories": []
     },
     {
+      "id": "4987b9728f3576c9d7ae145d7f281c40ceea3392cf6f1e2b92e5b8df9da89095",
+      "identity_keys": [
+        "http://arxiv.org/abs/2603.14350",
+        "https://doi.org/10.48550/arxiv.2603.14350",
+        "https://openalex.org/W7139147083"
+      ],
+      "title": "Refold: Refining Protein Inverse Folding with Efficient Structural Matching and Fusion",
+      "link": "http://arxiv.org/abs/2603.14350",
+      "pdf_url": "https://arxiv.org/pdf/2603.14350",
+      "publication_date": "2026-03-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "yiran zhu",
+          "name": "Yiran Zhu"
+        },
+        {
+          "key": "changxi chi",
+          "name": "Changxi Chi"
+        },
+        {
+          "key": "hongxin xiang",
+          "name": "Hongxin Xiang"
+        },
+        {
+          "key": "du wenjie",
+          "name": "Wenjie Du"
+        },
+        {
+          "key": "wang xiaoqi",
+          "name": "Xiaoqi Wang"
+        },
+        {
+          "key": "jun xia",
+          "name": "Jun Xia"
+        }
+      ],
+      "abstract_text": "Protein inverse folding aims to design an amino acid sequence that will fold into a given backbone structure, serving as a central task in protein design. Two main paradigms have been widely explored. Template-based methods exploit database-derived structural priors and can achieve high local precision when close structural neighbors are available, but their dependence on database coverage and match quality often degrades performance on out-of-distribution (OOD) targets. Deep learning approaches, in contrast, learn general structure-to-sequence regularities and usually generalize better to new backbones. However, they struggle to capture fine-grained local structure, which can cause uncertain residue predictions and missed local motifs in ambiguous regions. We introduce Refold, a novel framework that synergistically integrates the strengths of database-derived structural priors and deep learning prediction to enhance inverse folding. Refold obtains structural priors from matched neighbors and fuses them with model predictions to refine residue probabilities. In practice, low-quality neighbors can introduce noise, potentially degrading model performance. We address this issue with a Dynamic Utility Gate that controls prior injection and falls back to the base prediction when the priors are untrustworthy. Comprehensive evaluations on standard benchmarks demonstrate that Refold achieves state-of-the-art native sequence recovery of 0.63 on both CATH 4.2 and CATH 4.3. Also, analysis indicates that Refold delivers larger gains on high-uncertainty regions, reflecting the complementarity between structural priors and deep learning predictions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "498b87cdd37a29930b285f14b9825e7ea3a7376397c14ffc5248cd7e03ca6fa1",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01851-8",
@@ -2643,6 +2732,40 @@
         }
       ],
       "abstract_text": "Wolbachia infection causes male-specific death in Ostrinia furnacalis, but its removal from infected strains results in female-specific death instead of restoring 1:1 sex ratio, suggesting that cytoplasmic Wolbachia, not the host genome, primarily determines femaleness in infected strains. This phenomenon is a striking example of the evolutionary outcome of cytoplasmic sex determination, potentially arising from prolonged host-symbiont co-evolution. Although we recently identified Oscar, the Wolbachia-encoded male-killing effector targeting the host masculinizing factor OfMasc in Ostrinia moths, inactivation or loss of the host's endogenous feminizer remains unknown. Here we identify a W-linked primary feminizer, OfFem piRNA, which targets an mRNA encoding an OfMasc-interacting protein Ofznf-2. We demonstrate that Ofznf-2 is essential for both masculinization and dosage compensation. We also show that OfFem piRNA is entirely absent in the Wolbachia-infected lineage, providing molecular evidence that a male-killing Wolbachia hijacks the host feminizing piRNA function by acquiring the Oscar protein during prolonged endosymbiosis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "49985f349c2fbb10ee8a949d4898dc44d32b659383e688957b7e150e6379c9cc",
+      "identity_keys": [
+        "https://doi.org/10.1021/jacs.6c04303",
+        "https://openalex.org/W7156055317"
+      ],
+      "title": "Orchestrating Metal-Hydride Reactivity in Engineered Metalloenzymes: Electronic and Electrostatic Determinants of the Reaction Mechanism",
+      "link": "https://doi.org/10.1021/jacs.6c04303",
+      "pdf_url": null,
+      "publication_date": "2026-04-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of the American Chemical Society",
+      "authors": [
+        {
+          "key": "chatterjee ritwika",
+          "name": "Ritwika Chatterjee"
+        },
+        {
+          "key": "garima jindal",
+          "name": "Garima Jindal"
+        }
+      ],
+      "abstract_text": "Transition metal-hydrides are key intermediates in numerous catalytic transformations mediated by molecular complexes and, more recently, in repurposed metalloenzymes. However, their fleeting nature poses significant challenges for experimental characterization, obscuring mechanistic details, particularly in distinguishing between hydrogen atom transfer (HAT) and hydride transfer pathways. Here, we employ a combination of quantum mechanics/molecular mechanics (QM/MM) and molecular dynamics (MD) simulations to investigate the catalytic mechanism of a repurposed myoglobin ketoreductase. We model the formation of the iron-hydride (Fe-H) intermediate and the subsequent ketone reduction process. Our results indicate that Fe-H formation occurs via a σ-bond metathesis mechanism, while the ketone reduction proceeds through a stepwise metal-hydride hydrogen atom transfer (MHAT) followed by PCET, rather than a concerted hydride transfer, as previously proposed. Natural Bond Orbital (NBO) analysis elucidates the electronic features governing the MHAT reactivity. We further show that the nature of the axial ligand and applied oriented electric fields modulate the Fe-H bond character and steer the mechanistic preference between MHAT and hydride transfer. These findings provide mechanistic insight into transition-metal-hydride reactivity in protein scaffolds and underscore opportunities to tune this reactivity through protein design and electrostatic control.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4604,6 +4727,36 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "49fb22a56057380bf228dd8c05fe2b1955d6b9323cb5bf54659535301aab782f",
+      "identity_keys": [
+        "https://doi.org/10.20944/preprints202511.0284.v1",
+        "https://openalex.org/W4415905007"
+      ],
+      "title": "Computational Design of a De Novo Binder for Claudin-6 (CLDN6)",
+      "link": "https://doi.org/10.20944/preprints202511.0284.v1",
+      "pdf_url": "https://www.preprints.org/frontend/manuscript/0e219262df38f145a725b4586c54fb27/download_pub",
+      "publication_date": "2025-11-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Preprints.org",
+      "authors": [
+        {
+          "key": "chen jingxing",
+          "name": "Jingxing Chen"
+        }
+      ],
+      "abstract_text": "Claudin-6 (CLDN6) is a tight-junction membrane protein normally expressed in embryonic tissues but abnormally activated in several cancers, where it contributes to tumor growth and metastasis. Its restricted oncofetal expression makes CLDN6 an attractive target for selective cancer therapies, yet designing molecules that bind its small, flexible extracellular loops has proven challenging. Here, we report the first de novo computational design of a protein binder to our knowledge that specifically engages the extracellular domain of human CLDN6.Using RFdiffusion, we guided backbone generation around a defined CLDN6 surface epitope, performing multiple independent diffusion trajectories to explore diverse binding geometries. Candidate backbones were filtered through key metrics and visual inspection. The best-scoring backbone was then optimized using ProteinMPNN to create sequences that stabilize both the binder fold and its interface with CLDN6.The final binder was validated in silico with AlphaFold3, which predicted a well-structured CLDN6–binder complex (interface TM-score ≈ 0.73). Rosetta InterfaceAnalyzer predicted a binding free energy of –60 REU and a buried surface area of ~1200 Å², values comparable to those of antibody–antigen complexes. Computational alanine scanning identified a cluster of key interface residues (B9–B12) that contributed most to binding. We performed in silico saturation mutagenesis and discovered that a tryptophan substitution at B12 (B12W) enhanced predicted binding energy by ~7.4 REU, increased buried surface area by +129 Å², and strengthened hydrogen bonding by +0.85 bonds (p < 0.01).These results show us that our designed binder is able to bind tightly and form an energetically favorable interface with CLDN6. Our binder may block or occupy these regions, thereby inhibiting the oncogenic functions of CLDN6. Beyond this specific application, the study demonstrates that a workflow of integrating backbone generation, sequence design, and energetic validation can create high-affinity protein binders for membrane protein targets.",
       "discovery_sources": [
         {
           "kind": "open_alex",

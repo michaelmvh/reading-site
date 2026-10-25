@@ -1038,6 +1038,12 @@
       "abstract_text": "The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative framework that learns the rate function of an inhomogeneous generalized Poisson process by minimizing its negative log-likelihood. We establish population-level guarantees for recovering the joint multimodal distribution and derive an upper bound on the KL divergence between the data and generated distributions. We comprehensively evaluate GPFlow across structure and sequence design, motif scaffolding, and peptide co-design, spanning Euclidean, categorical, and Riemannian modalities to fully validate its variable-length generation quality. In unconditional design, GPFlow improves structural designability and achieves the best distributional fitness for sequence design compared to their corresponding fixed-length baselines, while perfectly recovering the length distribution. In conditional motif scaffolding, GPFlow ranks first on 10 of 16 structure-based design tasks with significantly more unique successes and also achieves more passed tasks in sequence-based design. In peptide co-design, GPFlow remains competitive even without access to a native-length oracle.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -3059,6 +3065,36 @@
       "curated_categories": []
     },
     {
+      "id": "7c9ec3d685f0aea641c24ce1a20bea3cc5af8b1a269cae3ce410c67368c594a9",
+      "identity_keys": [
+        "https://doi.org/10.5120/ijcad5077d0b87e7",
+        "https://openalex.org/W7203828010"
+      ],
+      "title": "AI-Powered Drug Discovery A Framework for Accelerating Peptide Therapeutics Development",
+      "link": "https://doi.org/10.5120/ijcad5077d0b87e7",
+      "pdf_url": "https://doi.org/10.5120/ijcad5077d0b87e7",
+      "publication_date": "2026-08-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Computer Applications",
+      "authors": [
+        {
+          "key": "kumar ramesh ramu",
+          "name": "Ramesh Kumar Ramu"
+        }
+      ],
+      "abstract_text": "High cost of HTS and lengthy development time are two traditional drawbacks to the discovery of new peptide therapeutics.The authors of this study suggest an integrated computational framework that integrates Large Language Models (LLMs) and Scientific Knowledge Graphs (SKG) to speed up the identification of bioactive peptides.We took advantage of a specific dataset of 432 examples of peptide-protein interactions to build a generative model that was fine-tuned based on the sequence-structure characteristics and a biological pathway knowledge graph.The LLM serves as a model for generating peptide sequences, and the knowledge graph makes sure that the candidate compounds are biologically relevant.Our results show that this hybrid approach can increase the accuracy of the prediction of the binding affinity of the models individually.The study relies on data integration and modelling with Python, PyTorch and Neo4j.The framework can be used to effectively constrain sequence space by imposing structural constraints, thereby limiting the number of experiments needed to identify strong therapeutic candidates.This strategy has the potential to be a blueprint for peptide drug research and shows that structured knowledge can be combined with the latent representations of language to create a strong pipeline for fast peptide design for clinical targets.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7ca16993a3af17dc75065ffe7a488abdae2edf35d14b46ce8a96a0a02b18443e",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03488-5",
@@ -3170,6 +3206,48 @@
         }
       ],
       "abstract_text": "Schematic prior knowledge can provide a powerful scaffold for episodic memories, yet the neural mechanisms underlying this scaffolding process are still poorly understood. A crucial step of the scaffolding process is the way in which details of a new episode are connected to an existing schema, forming a robust memory representation that can be easily accessed in the future. A unique testbed for studying this binding process is a mnemonic technique called the Method of Loci (MoL), in which people meaningfully connect items to be remembered with a well-learned list of imagined loci. We collected fMRI data from participants in 3 longitudinal sessions while they were enrolled in a month-long MoL training course, all of whom showed dramatic improvements in their ability to remember lists of 20 or 40 words. We obtained neural patterns when the loci and objects were presented by themselves, when they were combined into an integrated representation at encoding, and when the integrated representation was subsequently retrieved, as well as verbal descriptions from the participants about the way they associated each item to each locus. We found that in default mode network regions, including medial prefrontal cortex (mPFC), the combined representations of loci and items are highly conjunctive: the unified locus-item representation was substantially different from a linear combination of the isolated locus and item representation, reflecting the addition of new integrative details specific to each combined pair. The conjunctive component of the representation reflected the particular creative details generated by individual participants and increased over time as participants gained expertise in MoL. Our findings reveal a critical role for the default mode network in creating meaningful connections between new information and well-learned schematic contexts.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "7cac234d818e9ce8a4340c1ac375865d14e56a4085911899226411bf5e44ec36",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.biotechadv.2026.108922",
+        "https://openalex.org/W7160827476"
+      ],
+      "title": "Microbial biosynthesis of stilbenoids: A comprehensive review",
+      "link": "https://doi.org/10.1016/j.biotechadv.2026.108922",
+      "pdf_url": null,
+      "publication_date": "2026-05-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biotechnology Advances",
+      "authors": [
+        {
+          "key": "shenmei sun",
+          "name": "Shenmei Sun"
+        },
+        {
+          "key": "aoxing zhang",
+          "name": "Aoxing Zhang"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "liu xiaonan",
+          "name": "Xiaonan Liu"
+        }
+      ],
+      "abstract_text": "Stilbenoids represent a valuable class of plant polyphenols with significant pharmacological activities, such as anticancer, anti-inflammatory, and antioxidant effects, leading to a growing market demand. Traditional plant extraction or chemical synthesis faces challenges including low yield, process complexity, and environmental concerns. Microbial biosynthesis has consequently emerged as a transformative and eco-friendly alternative. This review provides a comprehensive analysis of recent advances in microbial stilbenoid production, including metabolic engineering strategies, pathway optimization, enzyme engineering, and host chassis development. The production milestones and current synthetic capabilities for key stilbenes (e.g., resveratrol, pterostilbene) are comprehensively summarized. Moreover, fundamental bottlenecks were discussed, particularly the catalytic limitations of key stilbene synthases, metabolic flux imbalances, and the lack of efficient enzymatic toolkits for post-modifications. Finally, we propose that the integration of emerging technologies, such as artificial intelligence-assisted enzyme design and systematical metabolic engineering will play a pivotal role in constructing robust microbial cell factories for the efficient and sustainable production of diverse stilbenoids.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3746,6 +3824,52 @@
       "curated_categories": []
     },
     {
+      "id": "7cca438b19fcdf2aaa1ef48fa8b453d209b0ad1311f8d32a337e42638258eb92",
+      "identity_keys": [
+        "https://doi.org/10.3390/biom15111587",
+        "https://openalex.org/W4416192507"
+      ],
+      "title": "De Novo Design of High-Affinity HER2-Targeting Protein Minibinders",
+      "link": "https://doi.org/10.3390/biom15111587",
+      "pdf_url": "https://www.mdpi.com/2218-273X/15/11/1587/pdf?version=1762948170",
+      "publication_date": "2025-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biomolecules",
+      "authors": [
+        {
+          "key": "yulin zhao",
+          "name": "Yulin Zhao"
+        },
+        {
+          "key": "wei wenping",
+          "name": "Wenping Wei"
+        },
+        {
+          "key": "cheng zijun",
+          "name": "Zijun Cheng"
+        },
+        {
+          "key": "min yang",
+          "name": "Min Yang"
+        },
+        {
+          "key": "yan yunjun",
+          "name": "Yunjun Yan"
+        }
+      ],
+      "abstract_text": "Human Epidermal Growth Factor Receptor 2 (HER2) is a key therapeutic target in breast cancer. However, the application of existing anti-HER2 antibody drugs is limited by such issues as large molecular weight and poor stability. In this study, a series of small protein minibinders targeting HER2 domain IV were de novo designed using the RFdiffusion method. Candidate molecules were selected through a combination of ProteinMPNN and AlphaFold2 screening, and their binding capabilities were further evaluated using Escherichia coli surface display coupled with flow cytometry analysis. By integrating molecular dynamics simulations, confocal fluorescence imaging, and isothermal titration calorimetry (ITC) experiments, a highly efficient minibinder (0_703_6) with nanomolar affinity and a smaller molecular size was finally identified. Compared with the existing drug molecules, the identified minibinder exhibited approximately threefold higher affinity and a threefold reduction in molecular size. This study provides strong support for the development of novel, stable, and easily expressible HER2-targeted therapeutic molecules and also offers new insights into the rapid development of robust breast cancer drugs that may serve as ideal alternatives to monoclonal antibodies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7cd0cae43f3a9717df5707ae477809c5fb5d8f656cf201d3250fb81885d8317e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70254-0",
@@ -3855,7 +3979,8 @@
       "id": "7cd65c7e8de0363f8d03dc8135881f49f245ce8312def1e25330c5749873a6ce",
       "identity_keys": [
         "https://doi.org/10.64898/2026.07.14.737467",
-        "https://openalex.org/W7169731910"
+        "https://openalex.org/W7169731910",
+        "https://www.biorxiv.org/content/early/2026/07/18/2026.07.14.737467.source.xml"
       ],
       "title": "Long-read transcriptomics highlights venom gland specialization and Inhibitor Cystine Knot (ICK) rich toxin diversity in Philippine tarantulas",
       "link": "https://doi.org/10.64898/2026.07.14.737467",
@@ -3909,6 +4034,12 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4481,6 +4612,52 @@
         }
       ],
       "abstract_text": "Abstract Excitons are primary elementary excitations in solids that present both fundamental interest and technological importance, showing great potential for photospintronic and quantum transduction applications. The emerging coherent collective excitations in two-dimensional antiferromagnetic semiconductors raise prospects for spin-exciton interactions and multifield control schemes. However, realizing the arbitrary manipulation of excitonic quantum states, while preserving the inherent dynamic and response advantages of antiferromagnetic nature remains challenging. Here we achieve bidirectional modulation of the CrSBr exciton energy via interfacial interaction-modified spin-exciton coupling in a CrSBr/Fe 3 GaTe 2 heterostructure. Compared with pristine CrSBr, the photoluminescence peaks in the heterostructure can exhibit blueshift and redshift corresponding to 6.1% and 8.6% of the total bandwidth, respectively. We reveal that the interfacial charge-transfer-driven magnetic coupling in the heterostructure effectively enhances the magnetic anisotropy and the exchange interaction of CrSBr, thereby stabilizing its antiferromagnetic spin configuration, suppressing interlayer electron-hole recombination, and ultimately leading to an anomalous blueshift of the exciton emission. Our findings demonstrate an approach for bidirectionally modulating exciton energy in two-dimensional antiferromagnetic semiconductors, which provides substantial flexibility in device design and offers an avenue for potential wavelength control in quantum information and optoelectronic technologies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "7ce903b44931d27cddaa37632ecc7d02a0b9b990a07b1cf20a06282b56542fa6",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.04.21.719907",
+        "https://openalex.org/W7155527200"
+      ],
+      "title": "An autonomous LLM-agent platform for computational binder design and conjugation-aware prioritization of antibody–drug conjugates",
+      "link": "https://doi.org/10.64898/2026.04.21.719907",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/23/2026.04.21.719907.full.pdf",
+      "publication_date": "2026-04-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "ganggang liu",
+          "name": "Ganggang Liu"
+        },
+        {
+          "key": "he mingjie",
+          "name": "Mingjie He"
+        },
+        {
+          "key": "liang sun",
+          "name": "Liang Sun"
+        },
+        {
+          "key": "成福仙",
+          "name": "成福仙"
+        },
+        {
+          "key": "yu zhang",
+          "name": "Yu Zhang"
+        }
+      ],
+      "abstract_text": "Abstract Large language model (LLM) agents have automated tool use in chemistry, but orchestrating multi-step computational biology workflows—spanning structure prediction, protein design, and covalent conjugation—remains manually intensive. Here we present Open Intelligence Hub (OIH), an autonomous LLM-agent platform that dynamically plans and executes 32 containerised tools for protein binder design and antibody–drug conjugate (ADC) prioritization. OIH introduces tier-based decision routing, ipSAE-guided interface filtering, and failure-to-knowledge distillation from 265 curated cases. Across five oncology targets, the agent correctly classified all five evaluated targets and required human correction for hotspot selection in only one case, producing binders ranked by ipSAE (Nectin-4 ipTM = 0.87, HER2 ipTM = 0.85). A controlled ablation suggests that the agent’s PPI-informed routing yields improved downstream ipTM and ipSAE scores than epitope-guided alternatives. The LLM-agnostic architecture enables deployment with local or commercial models without pipeline changes. All results are computational predictions awaiting experimental validation.",
       "discovery_sources": [
         {
           "kind": "open_alex",

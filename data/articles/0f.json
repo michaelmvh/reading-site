@@ -1200,6 +1200,44 @@
       "curated_categories": []
     },
     {
+      "id": "0f39e8a825331a4c171c8fef77a0341b661cc92437b947466f9c2682f1463e65",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2604.19562",
+        "https://openalex.org/W7155170614"
+      ],
+      "title": "Structure-guided molecular design with contrastive 3D protein-ligand learning",
+      "link": "https://doi.org/10.48550/arxiv.2604.19562",
+      "pdf_url": "https://arxiv.org/pdf/2604.19562",
+      "publication_date": "2026-04-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "carles navarro",
+          "name": "Carles Navarro"
+        },
+        {
+          "key": "philipp thölke",
+          "name": "Philipp Thölke"
+        },
+        {
+          "key": "de fabritiis gianni",
+          "name": "Gianni De Fabritiis"
+        }
+      ],
+      "abstract_text": "Structure-based drug discovery faces the dual challenge of accurately capturing 3D protein-ligand interactions while navigating ultra-large chemical spaces to identify synthetically accessible candidates. In this work, we present a unified framework that addresses these challenges by combining contrastive 3D structure encoding with autoregressive molecular generation conditioned on commercial compound spaces. First, we introduce an SE(3)-equivariant transformer that encodes ligand and pocket structures into a shared embedding space via contrastive learning, achieving competitive results in zero-shot virtual screening. Second, we integrate these embeddings into a multimodal Chemical Language Model (MCLM). The model generates target-specific molecules conditioned on either pocket or ligand structures, with a learned dataset token that steers the output toward targeted chemical spaces, yielding candidates with favorable predicted binding properties across diverse targets.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0f3c7ba354094d2a112e7ef7bea49dcc4544deb80244e91f6e6feea827aee29c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67293-4",
@@ -1616,6 +1654,36 @@
         }
       ],
       "abstract_text": "In the version of the article initially published, there were typos in Fig. 1c and Supplementary Fig. 1a, where the mutation annotations of ABE-NW3 now reading “Y149Q” appeared originally as “Y149N.” The figures are updated in the HTML and PDF versions of the article.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0f50da588561c9b9cad8c4fa50a916020066db659bcfd5f38993018e12286312",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.09.730151",
+        "https://openalex.org/W7165765355"
+      ],
+      "title": "Multi-Scale Machine Learning for Antibody-Antigen Binding Affinity Prediction Using Deep Mutational Scanning and Structural Features",
+      "link": "https://doi.org/10.64898/2026.06.09.730151",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/06/23/2026.06.09.730151.full.pdf",
+      "publication_date": "2026-06-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "santhosh sivasubramani",
+          "name": "Santhosh Sivasubramani"
+        }
+      ],
+      "abstract_text": "Abstract Predicting how mutations alter antibody-antigen binding affinity is essential for antibody engineering and vaccine design, yet current methods generalize poorly to unseen complexes. We present a multi-scale machine learning framework integrating 93 descriptors across four modalities: physicochemical, structural, ESM-2 protein language model, and solvent-accessible surface area (SASA)/ΔΔ G fold features. Under leave-one-complex-out deep mutational scanning (LOCO-DMS) cross-validation on AbAgym (36,541 mutations, 68 experiments, 13 pathogens), gradient boosting achieved MCC = 0.206; a confidence-stratified ensemble reached MCC = 0.374 (83.5% accuracy, 25.5% coverage). No single modality exceeds the majority baseline alone; only multi-scale fusion succeeds. Boltzmann ceiling analysis shows 45.9% of mutations are near-neutral (|ΔΔ G | < k B T ), bounding theoretical maximum MCC at 0.473; our method achieves 79.1% of this limit. Five deep learning architectures benchmarked under LOCO-DMS showed self-attention matching gradient boosting (MCC = 0.200). Cross-pathogen transfer failed systematically (mean 46.7%), confirming universal binding predictors remain an open challenge.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2550,6 +2618,82 @@
         }
       ],
       "abstract_text": "The integration of living attributes, such as self-renewal and responsiveness, into structural materials remains a fundamental challenge, as they typically preclude the mechanical robustness required for practical applications. Here, we report a fungal-based maceration tailored strategy to create living mycelium materials with exceptional mechanical properties and programmable humidity responsiveness. The developed materials demonstrate wide-range adjustable tensile performance, achieving 11 ~ 349% elongation and 0.1 ~ 18.0 MJ·m −3 toughness, the highest values reported among flexible mycelium materials. Through multiscale characterization from microstructural to molecular levels, we revealed the hygroscopic deformation mechanism of Janus mycelium macerates which arises from asymmetric hygromechanics and entropy-driven reorganization. Crucially, these materials retain their living functionalities, enabling reversible dormancy-regeneration cycles in 1 year and inheritable Janus structure along with self-renewal of performance. Moreover, we demonstrate their ability to convert environmental humidity fluctuations into quantifiable electrical signals, highlighting their potential as biohybrid environmental sensors and interactive platforms. This interdisciplinary study represents an integrative paradigm in living material design, and exhibits substantial potential for future sustainable and intelligent applications at the intersection of living mycelium materials and ecologically sustainable devices.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0f8b53840643570c009a12f685db2fb877c7ec69b156da9ec96911f7863acd5b",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.biomac.5c02531",
+        "https://openalex.org/W7150756972"
+      ],
+      "title": "Progress in Self-Assembled Extracellular Matrix Structural Protein Mimetic Peptides: From Rational Design and Assembly Pathways to Biomedical Applications",
+      "link": "https://doi.org/10.1021/acs.biomac.5c02531",
+      "pdf_url": null,
+      "publication_date": "2026-04-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biomacromolecules",
+      "authors": [
+        {
+          "key": "linyan yao",
+          "name": "Linyan Yao"
+        },
+        {
+          "key": "jianxi xiao",
+          "name": "Jianxi Xiao"
+        }
+      ],
+      "abstract_text": "The extracellular matrix (ECM) is a critical three-dimensional scaffold that maintains the structural integrity and physiological function of tissues and organs. While native ECM structural proteins like collagen and elastin have been widely studied for their ECM-mimetic properties, their clinical translation faces challenges such as pathogen transmission, immunogenicity, and batch variability. Self-assembling peptides, particularly collagen-mimetic peptides (CMPs) and elastin-like peptides (ELPs), offer a promising alternative due to their reproducibility, low immunogenicity, and tunable properties. Recent advances in peptide design have enabled precise mimicry of the ECM's composition, hierarchical structure, nanoscale morphology, and biological function. These peptides can controllably self-assemble into nanofibers, hydrogels, and 3D scaffolds that recapitulate key aspects of the native ECM microenvironment, broadening their utility in biomedical applications. This review summarizes progress in the design and application of ECM-mimetic peptides, focusing on their roles in tissue engineering, regenerative medicine, and drug delivery. We also discuss emerging challenges and future directions to advance the field toward clinical implementation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0f8bf4aaa2ad1f7d8e0f1051fc97ff893d1e6e1ccf6353bd5055aadbf2d4936b",
+      "identity_keys": [
+        "https://openalex.org/W7221376121",
+        "https://rcresearcharchive.com/index.php/index/article/view/1179"
+      ],
+      "title": "Artificial Intelligence and Bioinformatics for Predicting Protein Structure, Function, and Molecular Interactions",
+      "link": "https://rcresearcharchive.com/index.php/index/article/view/1179",
+      "pdf_url": null,
+      "publication_date": "2026-03-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research consortium archive.",
+      "authors": [
+        {
+          "key": "hafeez hafsa",
+          "name": "Hafsa Hafeez"
+        },
+        {
+          "key": "ali hassan",
+          "name": "Ali Hassan"
+        },
+        {
+          "key": "ali fatima",
+          "name": "Fatima Ali"
+        },
+        {
+          "key": "farman muhammad",
+          "name": "Muhammad Farman"
+        }
+      ],
+      "abstract_text": "Proteins serve as the fundamental execution machinery of biological systems, and elucidating their three-dimensional architectures, functional roles, and molecular interactions is essential for understanding biochemical pathways, disease mechanisms, and rational biopharmaceutical engineering. The exponential accumulation of genomic sequencing data has vastly outpaced the throughput of empirical structural biology techniques such as X-ray crystallography, NMR spectroscopy, and cryo-EM, creating a critical gap that artificial intelligence (AI) and bioinformatics have increasingly filled. This review provides a critical evaluation of modern AI methods in structural bioinformatics, synthesizing the theoretical evolution from classical homology modeling and ab initio approaches to deep learning paradigms, including Convolutional Neural Networks, Graph Neural Networks, and Transformer-based architectures. We examine AlphaFold2's Evoformer module, single-sequence protein language models such as ESMFold and ESM-3, and next-generation multimodal all-atom systems including AlphaFold 3, RoseTTAFold All-Atom, Boltz-1, Chai-1, and Protenix, which extend prediction to heterogeneous biomolecular complexes. We further assess high-throughput functional annotation tools, including DeepGOPlus, DeepFRI, DeepGO-SE, CLEAN, and FAPM, alongside generative protein design strategies leveraging continuous latent spaces and self-consistency metrics. AI-driven molecular docking approaches, including DiffDock, DiffDock-Glide, and SurfDock, are evaluated for their capacity to model protein-ligand interactions with improved physical plausibility. Despite these advances, significant challenges persist, including dynamic conformational heterogeneity, intrinsically disordered proteins, non-globular systems, and the absence of structured water networks and cofactors in static models. We conclude by discussing multi-axis verification standards, experimental integration, and open infrastructure ecosystems that support transparency and reproducibility in computational structural biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3775,7 +3919,8 @@
       "id": "0fd350c9d8ec07f52f3f49688deb3c8d52b63f15f60a32b6f69425686e76631b",
       "identity_keys": [
         "https://doi.org/10.64898/2026.09.16.752082",
-        "https://openalex.org/W7213525139"
+        "https://openalex.org/W7213525139",
+        "https://www.biorxiv.org/content/early/2026/09/17/2026.09.16.752082.source.xml"
       ],
       "title": "Characterization of Single Ribosomes and Virus Particles with Large-Diameter Perfringolysin O Nanopores",
       "link": "https://doi.org/10.64898/2026.09.16.752082",
@@ -3817,6 +3962,12 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:biophysics",
+          "label": "bioRxiv: Biophysics",
+          "url": "https://www.biorxiv.org/collection/biophysics"
         }
       ],
       "curated_categories": []

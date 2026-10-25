@@ -665,6 +665,71 @@
       "curated_categories": []
     },
     {
+      "id": "8024310cb68ad1305d6de1d8277eae816ef5a5439201c0f08fa026deea1ac962",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15002852/v1",
+        "https://doi.org/10.26434/chemrxiv.15002852/v2",
+        "https://doi.org/10.26434/chemrxiv.15002852/v3",
+        "https://openalex.org/W7170092076",
+        "https://openalex.org/W7221712763"
+      ],
+      "title": "De Novo Design of Enantioselective Artificial Metalloenzyme Photocatalysts Containing Metal Polypyridine Cofactors",
+      "link": "https://doi.org/10.26434/chemrxiv.15002852/v2",
+      "pdf_url": null,
+      "publication_date": "2026-07-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "mishra sandip",
+          "name": "Sandip Mishra"
+        },
+        {
+          "key": "payal",
+          "name": "Payal"
+        },
+        {
+          "key": "declan evans",
+          "name": "Declan Evans"
+        },
+        {
+          "key": "bortey kingsley",
+          "name": "Kingsley Bortey"
+        },
+        {
+          "key": "bootwala husayn",
+          "name": "Husayn Bootwala"
+        },
+        {
+          "key": "giovanni gonzález gutiérrez",
+          "name": "Giovanni González-Gutiérrez"
+        },
+        {
+          "key": "javier ricardo vázquez",
+          "name": "Ricardo Javier Vázquez"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "jared lewis",
+          "name": "Jared C. Lewis"
+        }
+      ],
+      "abstract_text": "The ability to create protein scaffolds that impart enantioselectivity to simple, readily available metal catalysts could redefine the landscape of asymmetric catalysis. Artificial metalloenzymes (ArMs), hybrid catalysts that combine a synthetic metal cofactor with a protein scaffold, offer a potential means to achieve this goal, but scaffold discovery has remained constrained by trial-and-error approaches and the functional limits of extant proteins. In this study, we show that generative protein design can be harnessed to create de novo scaffolds that selectively accommodate one enantiomer of a metal polypyridine photocatalyst as a cofactor. The resulting ArMs enable efficient, enantioselective photocatalysis, highlighting a broadly applicable route for programming stereocontrol into metalloenzyme catalysts. High total turnover numbers are achieved, the ArMs can be recycled by simply extracting reaction products and reusing the aqueous ArM solution for subsequent reactions, and even commercially available racemic cofactor can be used for ArM formation. Transient Absorption characterization revealed that improvements to catalysis result from the increased quantum yield and excited state lifetime of the cofactor upon binding and substrate binding proximal to the cofactor within the ArM active site, which controls reaction stereoselectivity and the mechanism of energy transfer involved in photocatalysis. The simplicity of this approach could help transition ArM research out of a small group of specialist labs to any capable of expressing synthetic genes and working with commercially available metal complexes.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8026e9e0628cb208cea7ffb12b8774856d0991d670bbb46b8dde6eefce78bca3",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-11165-4",
@@ -2241,6 +2306,52 @@
       "curated_categories": []
     },
     {
+      "id": "80800533d41e859adf6f8254da4b77520851774b73ddce1f0563fda2d43176ab",
+      "identity_keys": [
+        "https://doi.org/10.1109/tcbbio.2025.3630321",
+        "https://openalex.org/W4416011282"
+      ],
+      "title": "De Novo Protein Structure Prediction by Model Quality Assessment Dynamic Feedback Mechanism Using Deep Learning",
+      "link": "https://doi.org/10.1109/tcbbio.2025.3630321",
+      "pdf_url": null,
+      "publication_date": "2025-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "IEEE Transactions on Computational Biology and Bioinformatics",
+      "authors": [
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "guang he xing",
+          "name": "Guang-Xing He"
+        },
+        {
+          "key": "kailong zhao",
+          "name": "Kailong Zhao"
+        },
+        {
+          "key": "xiaogen zhou",
+          "name": "Xiaogen Zhou"
+        },
+        {
+          "key": "guijun zhang",
+          "name": "Guijun Zhang"
+        }
+      ],
+      "abstract_text": "Accurate de novo protein structure prediction remains a fundamental challenge, particularly in cases where homologous templates are unavailable or evolutionary information is weak. While end-to-end methods such as AlphaFold2 have achieved unprecedented accuracy, their closed box nature provides limited insight into the folding process and offers little flexibility for incorporating external evaluation. Here, we investigate whether model quality assessment (MQA) can be integrated into the structure prediction pipeline as a closed-loop feedback mechanism to iteratively improve prediction accuracy. In this study, we propose DGMFold, a de novo protein structure prediction method that establishes a feedback loop among three components: the geometric constraint prediction network (GeomNet), the structural simulation module, and the model quality evaluation network (EmaNet). In GeomNet, co-evolutionary features extracted from multiple sequence alignments (MSAs) are fed into an improved residual neural network to predict inter-residue geometric constraints, which are then used to guide structure folding. EmaNet then extracts 1D and 2D features from the folded structure model and employs a deep residual neural network to estimate the inter-residue distance deviation and per-residue lDDT. These evaluations are subsequently fed back into GeomNet as dynamic features, enabling iterative refinement of the predicted geometries and overall model accuracy. DGMFold was tested on 437 benchmark proteins and 20 FM targets of CASP14. Experimental results demonstrate that the closed-loop feedback mechanism significantly contributes to the performance of DGMFold, and the prediction accuracy of DGMFold outperforms that of the state-of-the-art de novo methods trRosetta and RaptorX at the time. When evaluated on the 124 human proteins for which AlphaFold2 yields TM-scores below 0.9, DGMFold achieves higher prediction accuracy than AlphaFold2 and RoseTTAFold on 71 and 72 targets, respectively, and outperforms both on 58 proteins.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8084160226c4fba7fe57cdd9df386c718dafc82b54ec180c20ef37482c93166b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76499-z",
@@ -2742,6 +2853,56 @@
         }
       ],
       "abstract_text": "Ferroptosis, an iron-dependent, lipid peroxidation-driven programmed cell death, holds substantial promise for cancer therapy, yet its translational potential is hindered by widespread intrinsic resistance. While glutathione peroxidase 4 (GPX4) is a well-established ferroptosis suppressor, the epigenetic circuitry coordinating GPX4-related mechanisms remains elusive. Here, via genome-wide screening, we identify ten-eleven translocation 1 (TET1)—a key mediator of DNA 5-hydroxymethylation—as a master controller of cancer cell ferroptosis susceptibility. In acute myeloid leukemia (AML), TET1 enhances 5hmC deposition at the glutamate-cysteine ligase catalytic subunit (GCLC) promoter to activate glutathione/γ-glutamyl-peptide metabolism, fortifying GPX4-dependent defense. Concurrently, TET1 activates NFκB signaling to upregulate GTP cyclohydrolase-1 (GCH1), conferring GPX4-independent ferroptosis resistance. Critically, co-targeting TET1/GCLC/GCH1 with low-dose ferroptosis inducers exhibits potent therapeutic effects against both ferroptosis-sensitive and -resistant AML. Our work positions TET1 as a pivotal epigenetic hub governing ferroptosis surveillance, and provides a translatable strategy to overcome ferroptosis resistance in cancer, with AML as a paradigm. DNA demethylation enzyme TET1 is a known oncogene in leukemia. Here, the authors discover that TET1 is involved in GPX4-dependent and -independent ferroptosis in acute myeloid leukemia via the regulation of GSH synthesis enzyme GCLC and BH4 synthesis enzyme GCH1.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "80a22c207ed2ff866a624db4372273760680e8bf906663f2a87c1fe3d02e1070",
+      "identity_keys": [
+        "https://doi.org/10.7671/j.issn.1001-411x.202605031",
+        "https://openalex.org/W7204023945"
+      ],
+      "title": "AI-driven innovation and applications in crop breeding technology",
+      "link": "https://doi.org/10.7671/j.issn.1001-411x.202605031",
+      "pdf_url": null,
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "authors": [
+        {
+          "key": "li shunmei",
+          "name": "Shunmei LI"
+        },
+        {
+          "key": "jingyi xu",
+          "name": "Jingyi XU"
+        },
+        {
+          "key": "liu ruiying",
+          "name": "Ruiying LIU"
+        },
+        {
+          "key": "cuirong tan",
+          "name": "Cuirong Tan"
+        },
+        {
+          "key": "qinlong zhu",
+          "name": "Qinlong Zhu"
+        },
+        {
+          "key": "xie yongyao",
+          "name": "Yongyao XIE"
+        }
+      ],
+      "abstract_text": "The growth rate of global grain production can no longer meet the demands arising from population expansion. Meanwhile, climate change, cultivated land degradation and environmental stress are further exacerbating the vulnerability of the food production system. Ensuring food security is fundamental to maintain the stability and sustainable development of human society. Crop breeding is the pivotal technical means to achieve this goal. Developing new crop varieties with high yield, superior quality, and multiple resistances have become the core pathway to safeguard agricultural sustainable development and global food supply. However, traditional breeding techniques suffer from long cycles, low accuracy and limited efficiency, which cannot satisfy the development requirements of modern seed industry. The rapid iteration of artificial intelligence (AI) technology has injected new intelligent momentum into the innovation of crop breeding, driving the transformation of breeding technology from traditional experience-based breeding to precise, intelligent and efficient breeding. In this review, we summarized the development of crop breeding, and focused on the innovative breakthroughs of genomic selection, precision genome editing, protein design and high-throughput phenotyping driven by AI. We also further elaborated the intelligent driving effects exerted by these technologies on key breeding links involving germplasm mining, gene function analysis, directional trait improvement, intelligent phenotypic assessment and intelligent factory breeding. Finally, we discussed the challenges and future developmental prospects of AI deployment in crop breeding, aiming to provide a reference for the innovation and industrial application of intelligent breeding technologies.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4393,6 +4554,72 @@
         }
       ],
       "abstract_text": "In hydrogen-bonded materials and biosystems, microscopic proton ordering, which is strongly influenced by the quantum nature of protons, underpins diverse macroscopic phenomena, including phase transitions, chemical reactions, biomolecular processes and collective proton transfer. Yet resolving proton arrangements and characterizing their quantum behavior at the atomic scale remain challenging due to the small size of protons and the lack of effective approaches. Here, we exploit bond-resolved atomic force microscopy and spectroscopy (BR-AFM/AFS) to probe signatures of proton ordering in surface-confined benzimidazole (BI) assemblies. By performing BR-AFS along the apparent H-bond between proton donor and acceptor nitrogen atoms, we extract information consistent with H-bonding directionality and signatures compatible with quantum proton delocalization. We observe anomalous rotational-symmetry breaking in the proton order of the cyclic hexamers, arising from the coexistence of both localized and quantum-delocalized protons. The chirality of a single hexamer can be reversibly switched by altering its adsorption registry combined with collective transfer of six protons. Path-integral molecular dynamics calculations unravel that nuclear quantum effects promote proton delocalization and concomitant reduction of donor-acceptor distance. Our findings enable atomic-level detection of complex proton orders, engineering proton-based quantum states, and elucidation of long-range proton transfer mechanisms in molecular architectures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "80fbcadcd4d65d9116d5d631f31029df9867449de0edc3236136862f95baf431",
+      "identity_keys": [
+        "https://doi.org/10.1021/acsomega.6c07158",
+        "https://openalex.org/W7208725760"
+      ],
+      "title": "Evolutionary Dynamics-Aware De Novo Design of a Thermostable NS1-Derived Diagnostic Protein for Yellow Fever Virus",
+      "link": "https://doi.org/10.1021/acsomega.6c07158",
+      "pdf_url": null,
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Omega",
+      "authors": [
+        {
+          "key": "junior martins olímpio",
+          "name": "Junior Olímpio Martins"
+        },
+        {
+          "key": "antunes da patrícia silva",
+          "name": "Patrícia da Silva Antunes"
+        },
+        {
+          "key": "duro lopes rodrigo sanz",
+          "name": "Rodrigo Lopes Sanz Duro"
+        },
+        {
+          "key": "andreata robert santos",
+          "name": "Robert Andreata‐Santos"
+        },
+        {
+          "key": "athayde clara de lacerda",
+          "name": "Clara Lacerda de Athayde"
+        },
+        {
+          "key": "cabral gustavo miranda",
+          "name": "Gustavo Cabral‐Miranda"
+        },
+        {
+          "key": "janini luiz mário",
+          "name": "Luiz Mário Janini"
+        },
+        {
+          "key": "franca fraternali",
+          "name": "Franca Fraternali"
+        },
+        {
+          "key": "bezerra carlos cruz da henrique",
+          "name": "Carlos Henrique Bezerra da Cruz"
+        },
+        {
+          "key": "carvalho durães ricardo",
+          "name": "Ricardo Durães‐Carvalho"
+        }
+      ],
+      "abstract_text": "Abstract Serological diagnosis of neglected arboviruses remains hindered by extensive intra-genus cross-reactivity, compromising both assay specificity and epidemiological accuracy. In this study, we focused on yellow fever virus (YFV) as a model system to design and validate a generalizable de novo protein design framework integrating evolutionary genomics with structural modeling to rationally engineer diagnostic antigens with reduced cross-reactivity and improved cost-effectiveness. Through comprehensive evolutionary mapping over time of the YFV polyprotein, we identified conserved yet discriminatory peptide regions within the NS1 protein and selected one peptide to guide scaffold-based protein design while preserving critical structural constraints. As a complementary strategy to develop antibody alternatives for antigen detection assays, we also implemented an in silico RNA aptamer design pipeline to circumvent the time and cost limitations of conventional in vitro Systematic Evolution of Ligands by EXponential enrichment (SELEX) technique. Nevertheless, NS1-targeting aptamers demonstrated limited sensitivity and specificity upon experimental validation. In contrast, structure-guided design of the NS1-derived protein (YFV-Scaffold) yielded a thermally stable, highly expressible recombinant protein, which demonstrated sensitivity and specificity comparable to those of commercially available full-length NS1 in in-house ELISA assays. Circular dichroism analysis revealed minimal denaturation up to 94 °C and complete recovery of secondary structure upon cooling, underscoring its remarkable structural resilience. Collectively, our results establish an evolutionary dynamics-aware strategy for target-antigen design, providing a scalable platform for the rational design of robust, low-cost diagnostic proteins applicable to a wide range of viral pathogens.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -951,6 +951,12 @@
       "abstract_text": "Peptides, as therapeutic molecules, offer unique advantages in targeting complex protein surfaces, yet their rational design remains limited by the vastness of the sequence space and the constraints of traditional approaches. Here, we propose High-PepBinder, a sequence-only conditional diffusion framework for target-specific peptide generation. Guided by the target protein sequence, High-PepBinder adopts a dual encoder architecture that integrates protein language models (pLMs) with the diffusion model. This approach cascades the peptide generation model with an affinity classifier and enables the generation process to capture affinity-related features of the peptides through lightweight joint optimization. Due to the scarcity of protein-peptide affinity data, we constructed PepPBA, to our knowledge, the most comprehensive dataset to date, and established a structure- and physics-based screening pipeline to prioritize top candidates. Results show that High-PepBinder demonstrates competitive performance across multiple peptide generation and binding-related evaluation tasks. For representative targets, including KEAP1, XIAP and EGFR, the generated peptides preserve key binding geometries and interface patterns of reference peptides in predicted complexes, while maintaining sequence diversity and favorable predicted properties. Overall, High-PepBinder contributes toward a general and sequence-only strategy for peptide design, offering a computational framework for expanding peptide discovery against challenging targets.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1525,6 +1531,36 @@
       "curated_categories": []
     },
     {
+      "id": "e549c168ca99404106de4f0757e87fb361ce286c21bb5fca24f491d20be56866",
+      "identity_keys": [
+        "https://doi.org/10.1360/ssc-2026-0063",
+        "https://openalex.org/W7169754524"
+      ],
+      "title": "AI protein design: constructing superstable proteins via maximized hydrogen bonding",
+      "link": "https://doi.org/10.1360/ssc-2026-0063",
+      "pdf_url": null,
+      "publication_date": "2026-04-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scientia Sinica Chimica",
+      "authors": [
+        {
+          "key": "文科",
+          "name": "文科 张"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e54b207952db541cc397318402a2b3957ac236ab5098affba19a39c57288d782",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71858-2",
@@ -1670,6 +1706,48 @@
         }
       ],
       "abstract_text": "The inversion of C3 stereochemistry in monoterpenoid indole alkaloids (MIAs), derived from the central precursor strictosidine (3 S ), is a critical step for the biosynthesis of numerous 3 R MIAs and spirooxindoles, including the antihypertensive drug reserpine. While early MIA biosynthesis preserves the 3 S configuration, the mechanism underlying C3 inversion has remained unresolved. Here, we identify and biochemically characterize a conserved oxidase-reductase pair in the Gentianales order: the heteroyohimbine/yohimbine/corynanthe C3-oxidase (HYC3O) and C3-reductase (HYC3R), which together invert the 3 S stereochemistry to 3 R across diverse substrates. Notably, HYC3O and HYC3R reside in gene clusters in Rauvolfia tetraphylla and Catharanthus roseus , homologous to an elusive geissoschizine synthase (GS) cluster we also uncovered. In R. tetraphylla , these clusters are in tandem on a single chromosome, likely derived from segmental duplication, whereas in C. roseus they reside on separate chromosomes due to translocation. Comparative genomics indicate the GS cluster originated at the base of Gentianales (∼135 Mya), coinciding with the evolution of the strictosidine synthase cluster, while the reserpine cluster arose later in rauvolfioid Apocynaceae. Together, these findings uncover the genomic and biochemical basis for key events in MIA evolution and diversification, providing insights beyond the canonical vinblastine and ajmaline biosynthetic pathways.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e54d84dd6a8cfce8b73f672b6c72234665b921a5e3d448f06a08bc0e52df0255",
+      "identity_keys": [
+        "https://doi.org/10.1063/5.0292922",
+        "https://openalex.org/W7117550523"
+      ],
+      "title": "A patchy-particle three-dimensional octagonal quasicrystal",
+      "link": "https://doi.org/10.1063/5.0292922",
+      "pdf_url": null,
+      "publication_date": "2025-12-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Journal of Chemical Physics",
+      "authors": [
+        {
+          "key": "akie kowaguchi",
+          "name": "Akie Kowaguchi"
+        },
+        {
+          "key": "mehta savan",
+          "name": "Savan Mehta"
+        },
+        {
+          "key": "doye jonathan",
+          "name": "Jonathan P. K. Doye"
+        },
+        {
+          "key": "eva noya",
+          "name": "Eva G. Noya"
+        }
+      ],
+      "abstract_text": "We devise an ideal three-dimensional octagonal quasicrystal that is based upon the two-dimensional Ammann-Beenker tiling and that is potentially suitable for realization with patchy particles. Based on an analysis of its local environments, we design a binary system of five- and eight-patch particles that in simulations assembles into a three-dimensional octagonal quasicrystal. The local structure is subtly different from the original ideal quasicrystal possessing a narrower coordination-number distribution; in fact, the eight-patch particles are not needed and a one-component system of the five-patch particles assembles into an essentially identical octagonal quasicrystal. We also consider a one-component system of the eight-patch particles; this assembles into a cluster with a number of crystalline domains, which, because of the coherent boundaries between the crystallites, has approximate eightfold order. We envisage that these systems could be realized using DNA origami or protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3998,6 +4076,56 @@
       "curated_categories": []
     },
     {
+      "id": "e5ca40810f366ac3cbdbc809c42d4304be832f7241e8d732d0bbdca175e0a5d6",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag178",
+        "https://openalex.org/W7154892887"
+      ],
+      "title": "SaMCL: a multi-task collaborative learning framework for peptide-protein interaction prediction based on structure-aware protein language models",
+      "link": "https://doi.org/10.1093/bib/bbag178",
+      "pdf_url": "https://academic.oup.com/bib/article-pdf/27/2/bbag178/68111730/bbag178.pdf",
+      "publication_date": "2026-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "he siyi",
+          "name": "Siyi He"
+        },
+        {
+          "key": "dongzhen tang",
+          "name": "Dongzhen Tang"
+        },
+        {
+          "key": "tiantian zhu",
+          "name": "Tiantian Zhu"
+        },
+        {
+          "key": "zexuan zhu",
+          "name": "Zexuan Zhu"
+        },
+        {
+          "key": "liu yumeng",
+          "name": "Yumeng Liu"
+        },
+        {
+          "key": "zhang",
+          "name": "J Zhang"
+        }
+      ],
+      "abstract_text": "The peptide drug points to a promising new therapeutic. Precisely predicting the interaction between peptides and proteins is fundamental to the discovery and design of functional peptides. While various computational methods have been proposed for this purpose, constructing an accurate and robust prediction model remains a challenge. In this study, we introduce a structure-aware multi-task collaborative learning (SaMCL) framework for detecting the interaction between peptides and proteins. To the best of our knowledge, SaMCL is the first method capable of performing a multilevel, simultaneous prediction of binary interactions and binding domains in both peptides and proteins. Experimental results demonstrate that SaMCL outperforms several state-of-the-art methods in terms of both prediction accuracy and generalization. Provides a new paradigm for modeling biomolecular interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e5d087ec4d5656f9b6295503843af9311ce1040e834ac8fd86580e4245412c4e",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-10046-6",
@@ -5054,6 +5182,435 @@
         }
       ],
       "abstract_text": "The discovery of RNA viruses from metatranscriptomic data remains challenging due to extreme sequence divergence and length heterogeneity, ranging from massive polyproteins to short assembly artifacts. We present Rider, a two-stage framework that synergizes deep representation learning with scalable domain-specific structural validation. In the first stage, Rider leverages a compact pretrained protein language model to broadly detect highly divergent viral signals. To overcome the inherent input length limitations of language models and accurately capture catalytic core domains, the second stage employs an overlapping sliding-window structure prediction strategy. These structures are then aligned against our curated database of non-redundant RdRp (RNA-dependent RNA polymerase) domains. This domain-centric design detects RdRp domains embedded within long polyproteins and truncated fragments. Across >10,000 metatranscriptomes spanning diverse ecosystems, Rider achieves sensitivity comparable to LucaProt, recalling >99% of previously cataloged RNA viruses. Rider identifies thousands of deeply divergent sequences and clades that elude existing methods. In a human inflammatory bowel disease (IBD) cohort, Rider agrees with other methods in detecting RNA viruses while extending detection to divergent lineages, providing a scalable pipeline for global RNA virome exploration.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e5fd40622f5ca158cf7a82951640c1aa02ddf2140c6fcab873e73c1774e1218a",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2021-01.2134475/17097262",
+        "https://doi.org/10.25582/data.2021-01.2135076/17097263",
+        "https://doi.org/10.25582/data.2021-01.2135927/17096707",
+        "https://doi.org/10.25582/data.2021-01.2138059/17094506",
+        "https://openalex.org/W7219626591"
+      ],
+      "title": "Data for EMSL Project 50414 from January 2021",
+      "link": "https://doi.org/10.25582/data.2021-01.2135076/17097263",
+      "pdf_url": null,
+      "publication_date": "2026-10-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

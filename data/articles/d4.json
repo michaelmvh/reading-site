@@ -1182,6 +1182,44 @@
       "curated_categories": []
     },
     {
+      "id": "d4432e930cf650b255d74a789abb35e88904c96abb8d0dbe4398b5d65f2aaaa7",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.02.748882",
+        "https://openalex.org/W7207725754"
+      ],
+      "title": "High-dimensional HIV-1 quasispecies modeling guides escape-proof antibody design",
+      "link": "https://doi.org/10.64898/2026.09.02.748882",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/03/2026.09.02.748882.full.pdf",
+      "publication_date": "2026-09-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "dodd griffin kutler",
+          "name": "Griffin Kutler Dodd"
+        },
+        {
+          "key": "hogeweg paulien",
+          "name": "Paulien Hogeweg"
+        },
+        {
+          "key": "boer de rob",
+          "name": "Rob J. de Boer"
+        }
+      ],
+      "abstract_text": "Abstract Rapidly evolving viruses form diverse quasispecies that enable escape from immune responses and treatments. For example, HIV-1 can rebound within weeks of broadly neutralizing antibody (bNAb) treatment through the outgrowth of high-fitness escape mutants in the quasispecies or the evolution of new escape variants. Most existing models of viral dynamics consider only a small number of viral variants and either assume arbitrary mutant fitness distributions or require extensive fitting to sparse clinical data. Here, we develop a high-dimensional HIV-1 quasispecies model that captures the dynamics of millions of viral strains and parameterize this using in silico binding affinity predictions. Without fitting to experimental data, the model qualitatively reproduces viral rebound following bNAb treatment. Lower-dimensional model projections recover these dynamics only when informed by features derived from the high-dimensional model. Finally, we use the model to develop a quasispecies-based framework for antibody optimization and identify antibodies predicted to effectively suppress viremia. Together, our results demonstrate that integrating mechanistic genotype-phenotype maps with high-dimensional quasispecies models provides unprecedented insights into viral evolution.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d44394483688954f9083b8d1f70dbac8c7c3f15b65038473a22218c03ea8d708",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74390-5",
@@ -2930,6 +2968,52 @@
       "curated_categories": []
     },
     {
+      "id": "d49bd6909833180583ee2d26d58a0d5efae8e592c9e144bf47cf1e1ea0160e25",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15002147/v1",
+        "https://openalex.org/W7154705733"
+      ],
+      "title": "Predicting Ligand-Induced Conformational Selection: Co-Folding, Generative Docking, and the Pharmacophore Understanding Problem",
+      "link": "https://doi.org/10.26434/chemrxiv.15002147/v1",
+      "pdf_url": null,
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "jin yang yeol",
+          "name": "Jin Yeol Yang"
+        },
+        {
+          "key": "gwan jeong jong",
+          "name": "Jong Gwan Jeong"
+        },
+        {
+          "key": "kim min tae",
+          "name": "Min Tae Kim"
+        },
+        {
+          "key": "cha sung uk",
+          "name": "Sung Uk Cha"
+        },
+        {
+          "key": "daehee lee",
+          "name": "DAEHEE LEE"
+        }
+      ],
+      "abstract_text": "Many drug targets adopt distinct conformational states depending on the bound ligand, such as kinase DFG-in/out switching and nuclear receptor helix 12 repositioning, yet predicting which conformation a given ligand will induce remains an open challenge. Here we benchmark four computational paradigms, rigid docking (DiffDock, Gnina), flexible refinement (DynamicBind), co-folding (Boltz-2), and generative sequence-based docking (FlowDock), for ligand-induced conformational selection across ABL, BRAF V600E, p38α, and ERα (8 protein-ligand systems, 29 crystal H-bond targets). Boltz-2 achieves the highest interaction fidelity (86% exact crystal Hbond reproduction), followed by DynamicBind (52%), FlowDock (45%), DiffDock (45%, Type I only), and Gnina (0%). DynamicBind and FlowDock also successfully predict DFG-out from DFG-in inputs, while rigid docking fails entirely for Type II inhibitors. To test whether cofolding success reflects memorization or chemical understanding, we systematically deconstruct sorafenib into seven fragments, none of which exist in the PDB as BRAF-bound complexes. Boltz-2 maintains DFG-out through extensive modifications, including urea-to-amide substitution (S4), halogen removal, and a bare-phenyl back-pocket, switching to DFG-in only when the back-pocket tail is entirely removed (S6, S7). This topology-level tolerance indicates that the model has learned the hinge-to-back-pocket scaffold as the DFG-out determinant, rather than a narrow urea-specific pattern. At the interaction level, S4 specifically disrupts the αC-helix Glu hydrogen bond, showing that the structural requirements for DFG-out induction are learned independently from the specific H-bonds that stabilize it. FlowDock shows the same pattern with reduced tolerance, reaching the transition boundary one step earlier (S5). These results suggest that modern deep learning methods capture the chemical logic of conformational selection beyond memorized protein-ligand associations.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d49fb5d83e42f73771ee8d3fb60ab9b732f7026945ea1ef8709c7622d82dff02",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69801-6",
@@ -3495,7 +3579,35 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d4d10bc470edc8d1d53ccf412b804dba033c5a82446424d3e20e88a5c855a618",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.jpet.2025.103696",
+        "https://openalex.org/W7117531186"
+      ],
+      "title": "Pharmacological considerations for next-generation protein therapeutics in cardiovascular disease",
+      "link": "https://doi.org/10.1016/j.jpet.2025.103696",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Pharmacology and Experimental Therapeutics",
+      "authors": [
+        {
+          "key": "emily lin",
+          "name": "Emily Lin"
         },
+        {
+          "key": "momin noor",
+          "name": "Noor Momin"
+        }
+      ],
+      "abstract_text": "Cardiovascular disease (CVD) remains the leading cause of death worldwide despite decades of therapeutic advances. Emerging insights into its etiology have revealed previously unappreciated cellular and molecular drivers beyond traditional risk factors, prompting the development of treatments that target newly identified culprit proteins and cells within cardiovascular tissues. Protein-based biologics-particularly monoclonal antibodies and multispecific proteins-are known for their strength and specificity in targeting and their established use as treatments for other diseases. However, extending biologics to new indications faces challenges: achieving durable effects in diseased tissues and minimizing side effects in healthy tissue. Addressing these long-standing challenges requires fine-tuning biologics' pharmacokinetic properties and pharmacodynamic effects according to target- and disease-specific requirements. In this review, we examine foundational pharmacokinetic and pharmacodynamic principles in the context of cardiovascular-targeted biologics, highlighting the role of protein design in controlling distribution, efficacy, and safety. Additionally, we discuss emerging preclinical and clinical biologics specifically designed for CVDs, as well as emerging opportunities in this landscape. These advances point toward a future where pharmacokinetics guide the rational design of next-generation protein therapeutics for CVD. SIGNIFICANCE STATEMENT: Protein-based biologics hold promise for treating cardiovascular diseases (CVD); however, their successful translation requires understanding how proteins' properties and cardiovascular physiology shape pharmacokinetic and pharmacodynamic behavior. This minireview connects foundational pharmacology principles with strategies in protein engineering suitable for CVD applications. Pharmacokinetic-guided design will accelerate the development of protein therapies that can transform CVD treatment.",
+      "discovery_sources": [
         {
           "kind": "open_alex",
           "key": "openalex",
@@ -4457,6 +4569,52 @@
         "4.7 Transformer-based",
         "4.Scaffold to Sequence"
       ]
+    },
+    {
+      "id": "d4e4008d50a519665a9248d4c8f9cdd37b3438a0edb616636c7956a741ea0567",
+      "identity_keys": [
+        "https://doi.org/10.1111/tpj.70693",
+        "https://openalex.org/W7124865009"
+      ],
+      "title": "Structural dynamics of plant transcription factors and their functional implications",
+      "link": "https://doi.org/10.1111/tpj.70693",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/tpj.70693",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Plant Journal",
+      "authors": [
+        {
+          "key": "shaowen wu",
+          "name": "Shaowen Wu"
+        },
+        {
+          "key": "huang wenjie",
+          "name": "Wenjie Huang"
+        },
+        {
+          "key": "wenyang zhang",
+          "name": "Wenyang Zhang"
+        },
+        {
+          "key": "tingquan wu",
+          "name": "Tingquan Wu"
+        },
+        {
+          "key": "shijuan yan",
+          "name": "Shijuan Yan"
+        }
+      ],
+      "abstract_text": "Transcription factor structural dynamics has emerged as a critical frontier in plant molecular biology, as many transcription factors (TFs) belong to plant-specific families with unique structural features that reveal mechanisms static structural approaches cannot capture. These advances, combining molecular dynamics simulations, NMR spectroscopy, and single-molecule techniques, have demonstrated that structural dynamics play crucial roles in driving DNA recognition, environmental responsiveness, and regulatory precision. Such computational and experimental breakthroughs have revealed rotation-coupled diffusion processes in WRKY proteins and allosteric regulation through ensemble redistribution in disordered domains. Despite these discoveries, fundamental questions remain about how plant TFs achieve specificity within complex regulatory networks and integrate multiple environmental signals. We outline current understanding of the static structures across transcription factor families before examining breakthrough discoveries in structural dynamics. These encompass the diverse architectures of DNA binding and regulatory domains, as well as the conformational flexibility and transition kinetics governing DNA binding, cofactor interactions, and environmental signal transduction. We subsequently explore how these insights are transforming biotechnological applications, from rational protein design to crop engineering strategies. Finally, we discuss remaining challenges and future directions for harnessing transcription factor dynamics in agricultural and synthetic biological applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "d4e7f52d0d1534b8b9b5b6c1bba52e1ec9a1c3f3d6e48572321650ab2a350910",

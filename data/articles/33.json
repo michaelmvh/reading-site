@@ -1741,6 +1741,12 @@
       "abstract_text": "Proteins are highly diverse functional polymers where the specific sequence of amino acids, selected from a standard genetically-encoded alphabet of twenty (C20), determines the structure and ultimately the function of the resulting folded protein. This standard alphabet has been identified to be non-randomly distributed in physicochemical properties crucial to both structure-formation and function, often referred to as coverage theory. While machine learning models have drastically improved protein structure prediction, success of protein design models lags structure prediction, particularly for custom secondary structure motifs and amino acid alphabets. Here we therefore bridge contemporary biological theory with recent advancements in artificial intelligence (AI) to develop and evaluate a generative AI protein design model, trained on hundreds of thousands of proteins within the RSCB PDB, for custom secondary structure motifs using reduced amino acid alphabets (RAAs). Results indicate an overall success in designing novel proteins with desired secondary structure motifs for a broad range of amino acid alphabets and complexity of designs. Interestingly, this tool often captures the full three-dimensional tertiary structure of a target protein despite training only on physicochemical sequence space and secondary structure information. The development of this model advances research across multiple disciplines, from general scientific AI architecture development to protein design for biotechnology, astrobiology, and early-Earth evolutionary biology.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -3313,6 +3319,74 @@
       "curated_categories": []
     },
     {
+      "id": "337923dadc8fb191ccddcefbd585e4073f4ac14538e7f5f1c4935efc639c62ec",
+      "identity_keys": [
+        "https://doi.org/10.1039/d5pm00230c",
+        "https://openalex.org/W7125404795"
+      ],
+      "title": "Advanced bispecific antibody design and inhaled biologics; emerging strategies for asthma",
+      "link": "https://doi.org/10.1039/d5pm00230c",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2026/pm/d5pm00230c",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "RSC Pharmaceutics",
+      "authors": [
+        {
+          "key": "kassem zeina",
+          "name": "Zeina Kassem"
+        },
+        {
+          "key": "jenny lam",
+          "name": "Jenny K.W. Lam"
+        },
+        {
+          "key": "hanieh khalili",
+          "name": "Hanieh Khalili"
+        }
+      ],
+      "abstract_text": "Pulmonary delivery of inhalable bispecific antibodies for the localised treatment of asthma.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "337b4c53ca25e9b74c6c10fdcff05ad28ae4842eb47e53aaff010e11164e40f2",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.19707921",
+        "https://openalex.org/W7155376951"
+      ],
+      "title": "Zero-Parameter Prediction of Physical Observables from the 840-State Manifold",
+      "link": "https://doi.org/10.5281/zenodo.19707921",
+      "pdf_url": null,
+      "publication_date": "2026-04-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "brahim elias oulad",
+          "name": "Elias Oulad Brahim"
+        }
+      ],
+      "abstract_text": "We present a complete zero-parameter theory predicting 14 distinct physical observables from a discrete algebraic structure. Starting from the Pythagorean pair $(N_c, N_{st}) = (3,4)$, we derive the 840-state manifold through the Cassini invariant $|I| = 29$ and construct a prediction formula $\\Psi(r;\\text{class})$ whose every component is framework-derived. The theory predicts: (i) seven cosmological observables as direct values $\\Psi(r)$ at sub-5% precision, (ii) four particle physics couplings as products $\\Psi(r_1) \\times \\Psi(r_2)$ at sub-1% precision, and (iii) three mass ratios and mixing angles as ratios $\\Psi(r_1)/\\Psi(r_2)$ at sub-1% precision. Statistical significance exceeds $6\\sigma$ ($p \\approx 10^{-12}$). All results are computationally reproducible with zero free parameters and zero fitting procedures. Keywords: Zero-parameter physics, 840-state manifold, Cassini invariant, cosmological observables, QCD coupling, CKM matrix, discrete algebraic structure 1. Introduction 1.1 The Parameter Problem The Standard Model of particle physics contains 19 free parameters requiring experimental determination. Grand Unified Theories and string theory introduce additional parameters, with the string landscape admitting $\\sim 10^{500}$ vacua. The question arises: are fundamental constants independent experimental inputs, or do they encode an underlying mathematical structure? 1.2 The Brahim Framework Approach The Brahim Mechanics framework proposes that dimensionless physical constants emerge from a discrete algebraic structure anchored in two integers: $$N_c = 3 \\quad \\text{(color charges / spatial dimensions)}$$ $$N_{st} = 4 \\quad \\text{(spacetime dimensions)}$$ These satisfy the Pythagorean condition: $$N_c^2 + N_{st}^2 = F_5^2 = 25$$ From this starting point, the framework derives: - The Cassini invariant $|I| = 29 = L_7$ (7th Lucas number) - The 840-state manifold from $29^2 - 1 = 840$ - A prediction formula $\\Psi(r;\\text{class})$ with zero free parameters - 14 verified observable matches at sub-5% precision 1.3 Contributions of This Work This paper presents the complete derivation of the observable prediction theory, including: 1. E-factor formula (Section 2): Derivation of Euler's number $e$ from Lucas numbers and Brahim Numbers (40 ppm precision) 2. Normalization constant (Section 3): Proof that $\\aleph = 1 + m/K$ (17 ppm precision) 3. Class-specific m-values (Section 4): Derivation of mode parameter from residue class structure 4. Observable multiplication table (Section 5): Direct values, products, and ratios encoding 14 distinct observables 5. Statistical analysis (Section 6): Significance exceeding $6\\sigma$ 6. Falsifiable predictions (Section 7): Ten testable predictions All components are derived from framework axioms. No parameters are fitted. No optimization is performed. 2. Mathematical Foundations 2.1 Axiom Zero Definition 2.1 (Framework Inputs): The theory has three inputs: $$N_c = 3, \\quad N_{st} = 4, \\quad K = 107$$ where $K$ is the framework prime satisfying: - 5 is a quadratic residue modulo $K$ - The Pisano period $\\pi_K(B) = 72 = 2^3 \\cdot 3^2$ - $K$ generates exactly 10 Brahim residues in the B-sequence image modulo $K$ Derived constants: $$\\varphi = \\frac{1 + \\sqrt{5}}{2} = 1.6180339887\\ldots \\quad \\text{(golden ratio)}$$ $$F_5 = 5 = \\sqrt{N_c^2 + N_{st}^2} \\quad \\text{(Pythagorean hypotenuse)}$$ $$|I| = N_c^4 - N_c^2 N_{st} - N_{st}^2 = 81 - 36 - 16 = 29$$ 2.2 The B-Sequence Definition 2.2 (B-Recurrence): Define the sequence $\\{B_n\\}$ by: $$B_0 = N_c^2 + N_{st} = 13$$ $$B_1 = 2N_c^2 + N_{st} = 22$$ $$B_{n+1} = B_n + B_{n-1} \\quad \\text{for } n \\geq 1$$ This is a Fibonacci-type recurrence with Binet form: $$B_n = A\\varphi^n + B\\psi^n$$ where $\\psi = (1-\\sqrt{5})/2$ and coefficients determined by initial conditions. Theorem 2.3 (Cassini Identity): For all $n \\geq 1$: $$B_{n+1} B_{n-1} - B_n^2 = (-1)^{n+1} |I|$$ where $|I| = 29$ is the invariant. Proof: Direct computation using Binet form and properties of the quadratic form $I(x,p) = x^2 - N_c xp + p^2$. The transformation $T:(x,p) \\mapsto (2x-p, x-p)$ preserves $|I|$ up to sign alternation. 2.3 The 840-State Manifold Theorem 2.4 (Manifold Structure): The invariant $|I| = 29$ is the unique Lucas prime $p < 600$ satisfying: $$p^2 - 1 = 840 = 2^3 \\cdot 3 \\cdot 5 \\cdot 7$$ This four-channel Chinese Remainder Theorem decomposition: $$\\mathbb{Z}/840\\mathbb{Z} \\cong \\mathbb{Z}/8\\mathbb{Z} \\times \\mathbb{Z}/3\\mathbb{Z} \\times \\mathbb{Z}/5\\mathbb{Z} \\times \\mathbb{Z}/7\\mathbb{Z}$$ encodes the manifold state count. Proof: The Lucas numbers $L_n$ satisfy $L_7 = 29$. Computing $29^2 - 1 = 841 - 1 = 840$ and factoring gives the stated decomposition. Exhaustive search over Lucas primes $p < 600$ confirms uniqueness. Connection to framework capacity: $$N_{st}^{\\text{manifold}} = \\sum_{d=1}^{12} L(d) = 1 + 3 + 4 + 7 + 11 + 18 + 29 + 47 + 76 + 123 + 199 + 322 = 840$$ where $L(d)$ denotes the $d$-th Lucas number (framework indexing: $L_0 = 1, L_1 = 3, L_2 = 4, \\ldots$). 2.4 The Dimension Function Definition 2.6 (φ-adic Logarithm): The dimension function $D: \\mathbb{R}_+ \\to \\mathbb{R}$ is: $$D(x) = -\\frac{\\ln x}{\\ln \\varphi} = \\log_\\varphi(1/x)$$ Theorem 2.7 (Chiral Fold Identity): For all $x > 0$: $$D(x) + D(1/x) = 0$$ Proof: Direct calculation: $$D(x) + D(1/x) = -\\frac{\\ln x}{\\ln \\varphi} - \\frac{\\ln(1/x)}{\\ln \\varphi} = -\\frac{\\ln x - \\ln x}{\\ln \\varphi} = 0$$ This $\\mathbb{Z}_2$ symmetry at $D = 0$ connects to the Riemann Hypothesis critical line through: $$\\frac{107}{214} = \\frac{1}{2} = \\text{Re}(s)\\big|_{\\text{critical line}}$$ 3. The E-Factor Derivation 3.1 Framework Formula for Euler's Number Theorem 3.1 (E-Factor): Euler's number $e$ is given by the framework formula: $$e = \\frac{L(4) \\cdot L(5) \\cdot (B_2 + 1)}{L(7) \\cdot B_2}$$ where: - $L(4) = 7$, $L(5) = 11$ (Lucas numbers) - $L(7) = 29 = |I|$ (Cassini invariant) - $B_2 = 42$ (second Brahim Number from the 10-element sequence) Explicit evaluation: $$e = \\frac{7 \\times 11 \\times 43}{29 \\times 42} = \\frac{77 \\times 43}{29 \\times 42} = \\frac{3311}{1218} = 2.7183908046\\ldots$$ Comparison with exact value: $$e_{\\text{exact}} = 2.7182818285\\ldots$$ $$\\text{e} = \\frac{|e_{\\text{framework}} - e_{\\text{exact}}|}{e_{\\text{exact}}} \\times 10^6 = 40.1 \\text{ ppm}$$ 3.2 Structural Components The formula decomposes into two framework-meaningful parts: Product term: $L(4) \\cdot L(5) = 77$ This number appears in three fundamental identities: 1. Fine structure: $\\alpha^{-1} = 214 - 77 = 137$ 2. 30-Edge identity: $\\alpha^{-1} - C = 137 - 107 = 30$ (dodecahedron edges) 3. E-factor: $e \\approx 77/29$ with correction Correction factor: $(B_2 + 1)/B_2 = 43/42 = 1.0238095238\\ldots$ This quantum correction shifts the classical ratio $77/29 = 2.6552$ to the observed value: $$\\frac{77}{29} \\times \\frac{43}{42} = 2.7183908\\ldots \\approx e$$ 3.3 Physical Interpretation The e-factor connects three structural components: - $L(4) \\cdot L(5) = 77$: Fine structure product - $L(7) = 29$: Cassini invariant (manifold characteristic) - $B_2 = 42$: Biological partition constant ($840 = 20 \\times 42$ amino acids) This unifies electromagnetic coupling, number theory, and biological structure through a single formula. 4. The Normalization Constant 4.1 Derivation of ℵ Theorem 4.1 (Normalization): The normalization constant $\\aleph$ appearing in the observable formula is NOT a separate parameter but equals: $$\\aleph = 1 + \\frac{m}{K}$$ where $m$ is the mode parameter (Section 5) and $K = 107$ is the framework prime. Verification: For the verified class $(even, QR)$ with $m = 14$: $$\\aleph_{\\text{framework}} = 1 + \\frac{14}{107} = 1.130841121\\ldots$$ $$\\aleph_{\\text{empirical}} = 1.13065 \\quad \\text{(from fitting)}$$ $$\\text{Error} = \\frac{|\\aleph_{\\text{framework}} - \\aleph_{\\text{empirical}}|}{\\aleph_{\\text{empirical}}} \\times 10^6 = 17.0 \\text{ ppm}$$ 4.2 Implications The normalization is the lattice density renormalization factor that appears when extending $K$ modes to $K+m$ modes. It is not an external constant but an intrinsic part of the prediction formula. For all four residue classes: $$(even, QR): \\quad \\aleph = 1 + \\frac{14}{107} = 1.130841$$ $$(even, NQR): \\quad \\aleph = 1 + \\frac{28}{107} = 1.261682$$ $$(odd, QR): \\quad \\aleph = 1 + \\frac{10}{107} = 1.093458$$ $$(odd, NQR): \\quad \\aleph = 1 + \\frac{28}{107} = 1.261682$$ 5. Class-Specific Mode Parameters 5.1 The Four-Way Classification The 10 Brahim residues modulo $K = 107$ are partitioned by two binary properties: Parity: $r \\bmod 2 \\in \\{0, 1\\}$ (even vs. odd) Quadratic residue status: Whether $r$ is a QR modulo 53 This yields four classes with populations: $$(even, QR): \\quad \\{10, 42, 60\\} \\quad (n=3)$$ $$(even, NQR): \\quad \\{32, 80\\} \\quad (n=2)$$ $$(odd, QR): \\quad \\{47, 97\\} \\quad (n=2)$$ $$(odd, NQR): \\quad \\{27, 65, 75\\} \\quad (n=3)$$ 5.2 Mode Parameter Assignment Theorem 5.1 (Class-Specific m Values): Each residue class has a unique mode parameter $m$: $$(even, QR): \\quad m = 14 = 2(N_c + N_{st})$$ $$(even, NQR): \\quad m = 28 = 4(N_c + N_{st})$$ $$(odd, QR): \\quad m = 10 = |B|$$ $$(odd, NQR): \\quad m = 28 = 4(N_c + N_{st})$$ Derivation: For $(even, QR)$: The multiplicative order of $\\varphi \\equiv 6 \\pmod{29}$ is: $$\\text{ord}_{29}(\\varphi) = 14 = 2(N_c + N_{st})$$ This determines the base mode for QR classes with even parity. For $(odd, QR)$: The mode equals the Brahim count: $$m = |B| = 10$$ For $NQR$ classes: The mode uses the full multiplicative group order: $$m = \\ph",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "337c3fc9812f7d3b2b121247f610a16711e49cd58da452db4f6d1b19a6cf81d0",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75328-7",
@@ -3928,6 +4002,68 @@
         }
       ],
       "abstract_text": "Lipopolysaccharide (LPS) assembly at the surfaces-exposed leaflet of the bacterial outer membrane (OM) is mediated by the OM LPS translocon. An essential transmembrane β-barrel protein, LptD, and a cognate lipoprotein, LptE, translocate LPS selectively into the OM external leaflet via a poorly understood mechanism. Here, we characterize two additional translocon subunits, the lipoproteins LptM and LptY (formerly YedD). We use single-particle cryo-EM analysis, functional assays and molecular dynamics simulations to visualize the roles of LptM and LptY at the translocon holo-complex LptDEMY, uncovering their impact on LptD conformational dynamics. Whereas LptY binds and stabilizes the periplasmic LptD β-taco domain that functions as LPS receptor, LptM intercalates the lateral gate of the β-barrel domain, promoting its opening and access by LPS. Remarkably, we demonstrate a conformational switch of the LptD β-taco/β-barrel interface alternating between contracted and extended states. β-strand 1 of LptD, which defines the mobile side of the lateral gate, binds LPS and performs a stroke movement toward the external leaflet during the contracted-to-extended state transition. Our findings support a detailed mechanistic framework explaining the selective transport of LPS to the membrane external leaflet.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "33917f9b47ab409047078d47420a16cd642bd78c2ab0c7f6d301b07db4ff3b9b",
+      "identity_keys": [
+        "https://doi.org/10.1248/bpb.b26-00370",
+        "https://openalex.org/W7215053502"
+      ],
+      "title": "A Biotinylated Heptapeptide Containing a D-Amino Acid Suppresses Both IgE-Dependent and -Independent Allergic Edema in Mice",
+      "link": "https://doi.org/10.1248/bpb.b26-00370",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/bpb/49/10/49_b26-00370/_pdf",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biological and Pharmaceutical Bulletin",
+      "authors": [
+        {
+          "key": "makoto ohira",
+          "name": "Makoto Ohira"
+        },
+        {
+          "key": "hana yuki",
+          "name": "Hana Yuki"
+        },
+        {
+          "key": "miu tsumuraya",
+          "name": "Miu Tsumuraya"
+        },
+        {
+          "key": "erika nozaki",
+          "name": "Erika Nozaki"
+        },
+        {
+          "key": "nukimizu ryoka",
+          "name": "Ryoka Nukimizu"
+        },
+        {
+          "key": "etoh tadahiro",
+          "name": "Tadahiro Etoh"
+        },
+        {
+          "key": "daisuke uta",
+          "name": "Daisuke Uta"
+        },
+        {
+          "key": "matsumoto tsukasa",
+          "name": "Tsukasa Matsumoto"
+        },
+        {
+          "key": "akira sato",
+          "name": "Akira Sato"
+        }
+      ],
+      "abstract_text": "We previously found that, among three biotinylated heptapeptides (Peptide 1, Peptide 2, and Peptide 3) derived from the amino acid sequence of Asp-hemolysin, a protein toxin produced by Aspergillus fumigatus, Peptide 2, which contains a d-amino acid, exhibits potent anti-allergic activity in vitro and in vivo. In this study, we evaluated the effects of Peptide 2 on immunoglobulin E (IgE)-dependent allergic edema induced by ovalbumin (OVA) in OVA-specific IgE transgenic mice, IgE-independent allergic edema induced by compound 48/80 (C48/80), and nonallergic inflammatory edema induced by histamine, serotonin, bradykinin, zymosan A, and λ-carrageenan. Peptide 2 significantly suppressed both OVA-IgE- and C48/80-induced paw edema, indicating inhibitory effects on both IgE-dependent and -independent allergic responses. Peptide 2 also dose-dependently inhibited histamine-induced edema but did not affect serotonin-, bradykinin-, zymosan A-, or λ-carrageenan-induced edema. These findings indicate that Peptide 2 modulates IgE-dependent and -independent allergic responses involving mast cell activation and histamine-related pathways and may be a candidate for the development of selective anti-allergic agents.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4924,6 +5060,48 @@
       "curated_categories": []
     },
     {
+      "id": "33da110d62e5324087e2ba0b6d5f15f10541e1e543cd3ff12f522651362d45ef",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.sbi.2026.103247",
+        "https://openalex.org/W7136899534"
+      ],
+      "title": "Artificial intelligence methods for protein structure and interaction prediction: Recent advances and challenges",
+      "link": "https://doi.org/10.1016/j.sbi.2026.103247",
+      "pdf_url": "https://escholarship.org/content/qt3zc0w39b/qt3zc0w39b.pdf",
+      "publication_date": "2026-03-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Structural Biology",
+      "authors": [
+        {
+          "key": "alex morehead",
+          "name": "Alex Morehead"
+        },
+        {
+          "key": "jian liu",
+          "name": "Jian Liu"
+        },
+        {
+          "key": "neupane pawan",
+          "name": "Pawan Neupane"
+        },
+        {
+          "key": "cheng jack jianlin",
+          "name": "Jianlin Jack Cheng"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "33dcd560fef0d1fbfae9b7c3309c533e4655b43aeee0d5075d8f3a7bd596d389",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71512-x",
@@ -5045,6 +5223,64 @@
         }
       ],
       "abstract_text": "Prader-Willi syndrome (PWS) is a genomic imprinting disorder caused by the loss of function of the paternal chromosome 15q11-13, resulting in a spectrum of symptoms associated with hypothalamic dysfunction. PWS patients lack the expression of paternally expressed genes (PEGs) in the 15q11-13 locus but possess an epigenetically silenced set of these genes in the maternal allele. Thus, activation of these silenced genes can serve as a therapeutic target for PWS. Here, we leverage CRISPR-based epigenome editing system to modulate the DNA methylation status of the PWS imprinting control region (PWS-ICR) in induced pluripotent stem cells (iPSCs) derived from PWS patients. Successful demethylation in the PWS-ICR restores the PEG expression from the maternal allele and reorganizes the methylation patterns in other PWS-associated imprinted regions beyond the PWS-ICR. Remarkably, these corrected epigenomic patterns and PEG expression are maintained following the differentiation of these cells into hypothalamic organoids. Finally, the single-cell transcriptomic analysis of epigenome-edited organoids demonstrates a partial restoration of the transcriptomic dysregulation observed in PWS. This study highlights the utility of epigenome editing technology as a therapeutic approach in addressing PWS and potentially other imprinting disorders.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "33e5c13c0efb9537861ffbfa09cefa58d64c2f3ca64e89e2884a7003391417e0",
+      "identity_keys": [
+        "https://doi.org/10.3389/fimmu.2026.1958625",
+        "https://openalex.org/W7222450172"
+      ],
+      "title": "Real-time exploration of the billion-scale human repertoire for precursor frequency analysis and rational antibody design",
+      "link": "https://doi.org/10.3389/fimmu.2026.1958625",
+      "pdf_url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1958625/pdf",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Immunology",
+      "authors": [
+        {
+          "key": "schlegel tom",
+          "name": "Tom U. Schlegel"
+        },
+        {
+          "key": "blanckenburg de jannis riz von",
+          "name": "Jannis von Blanckenburg de Riz"
+        },
+        {
+          "key": "jakob riccabona",
+          "name": "Jakob R. Riccabona"
+        },
+        {
+          "key": "dietzmeyer franz",
+          "name": "Franz Dietzmeyer"
+        },
+        {
+          "key": "julia koehler leman",
+          "name": "Julia Koehler Leman"
+        },
+        {
+          "key": "jens meiler",
+          "name": "Jens Meiler"
+        },
+        {
+          "key": "clara schoeder",
+          "name": "Clara T. Schoeder"
+        },
+        {
+          "key": "schiffner torben",
+          "name": "Torben Schiffner"
+        }
+      ],
+      "abstract_text": "The success of germline-targeting vaccines and rational antibody design depends on quantifying the population-level frequencies of specific antibody features, such as CDR lengths, sequence motifs, germline usage or preferred chain pairings, across the natural human repertoire. The maturation of high-throughput sequencing has generated large database repertoires containing billions of sequences, allowing researchers to assess naïve B-cell precursor frequencies and evaluate biologically plausible chain combinations. However, leveraging this scale of data remains a significant bottleneck, as current databases trap scientists between computationally demanding bulk downloads, restrictive, single-purpose web interfaces or outdated datasets. To address this gap, we introduce ABHunter, an automatically updated, open-access framework designed to explore and filter the healthy-human subset of the Observed Antibody Space (OAS) database, which currently stands at ~1.86-billion-sequence as of January 2026. Accessible via any web browser, the platform executes searches with median times ranging from 3.7 seconds for simple gene usage profiles to 20.8 seconds for complex paratope motifs, with full sequence retrieval completed in 118 seconds for 1 million hits. The interface allows users to quantify antibody feature frequencies to assess the natural abundance of targeted B-cells across various isotypes (e.g., utilizing IgM for precursor B-cell analysis), as well as map native repertoire contexts to scaffold isolated features. Additionally, it predicts biologically plausible inter-chain pairings for therapeutic design by using a statistical co-occurrence model that extrapolates pairing probabilities from the limited natively paired subset comprising 0.03% of the data across six donors. Furthermore, every search generates a comprehensive statistical landscape, detailing underlying complementarity-determining regions length distributions, amino acid compositions, and gene coupling patterns. For custom analysis and integration into bioinformatic pipelines, the optimized data structure reduces the storage footprint to 106 GB, allowing the entire tool to run locally on a standard laptop. ABHunter eliminates the compromise between accessibility and flexibility, transforming large-scale sequencing data into a universally accessible resource for next-generation therapeutic discovery. The platform is freely available at abhunter.org .",
       "discovery_sources": [
         {
           "kind": "open_alex",

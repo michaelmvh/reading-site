@@ -1098,6 +1098,56 @@
       "curated_categories": []
     },
     {
+      "id": "0b1e30b7d52bffaabe45b2b31da6b8fe16b0f6ca1f569b366ab0b7d64d0df6b7",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.rechem.2026.103699",
+        "https://openalex.org/W7172206362"
+      ],
+      "title": "HMRLBA: A hierarchical multi-scale representation learning model for predicting protein-ligand binding affinity",
+      "link": "https://doi.org/10.1016/j.rechem.2026.103699",
+      "pdf_url": null,
+      "publication_date": "2026-08-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Results in Chemistry",
+      "authors": [
+        {
+          "key": "ji zhiwei",
+          "name": "Zhiwei Ji"
+        },
+        {
+          "key": "xu zhongyu",
+          "name": "Zhongyu Xu"
+        },
+        {
+          "key": "chen kai",
+          "name": "Kai Chen"
+        },
+        {
+          "key": "junchi yang",
+          "name": "Junchi Yang"
+        },
+        {
+          "key": "li zhijin",
+          "name": "Zhijin Li"
+        },
+        {
+          "key": "huang jinhu",
+          "name": "Jinhu Huang"
+        }
+      ],
+      "abstract_text": "Accurately assessing protein-ligand binding affinity is a cornerstone of drug discovery. Despite advances in computational affinity prediction, challenges persist in database quality, input representations, and architectural design. Integrating pre-trained large language models (LLMs) with deep neural networks presents a promising avenue to improve prediction accuracy while reducing computational costs. Here, we introduce HMRLBA, a hierarchical multi-scale representation learning model for predicting protein-ligand binding affinity. It employs a unique cascaded multichannel fusion strategy for protein representation learning, wherein sequence embeddings guide structural and surface feature learning. Evaluated across four PDBbind datasets, the external Metz benchmark, and the MUV active-decoy benchmark, HMRLBA consistently surpasses established SOTA methods across both affinity prediction and virtual screening paradigms. In virtual screening experiments, HMRLBA successfully identified EGFR inhibitors from a library of 2616 FDA-approved small-molecule drugs, with 11 of 13 drugs ranked within the top 30%. Furthermore, HMRLBA exhibited superior predictive accuracy in identifying novel drug candidates for Dot1L, a therapeutic target for leukemia, highlighting its potential to expedite early-stage drug discovery. These findings underscore HMRLBA's capability to enhance understanding of protein-ligand interactions and advance virtual screening pipelines.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0b239238d0355f784e67d03693ec755a1996a9580c1fcd291c1b951f9f8622be",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71063-1",
@@ -1145,6 +1195,52 @@
         }
       ],
       "abstract_text": "AMPA-subtype ionotropic glutamate receptors (AMPARs) mediate the fast component of excitatory neurotransmission. They govern synaptic plasticity that underlies learning and memory, while their dysregulation is implicated in numerous neurological disorders. The functional diversity of AMPARs arises from variations in their subunit composition and also their association with auxiliary subunits. While multiple structures of homomeric AMPARs have been reported, structural information for the heteromeric core - particularly in the absence of auxiliary subunits, which would serve as a functional and structural baseline - has been limited. Here, we report cryo-electron microscopy structures of GluA1/A2, the most abundant AMPAR di-heteromer in the brain, in the closed, open, and desensitized states. Using molecular dynamics (MD) simulations and cross-correlating structural and functional information, we find that auxiliary subunits increase the diameter of channel pore, which corresponds to larger conductance. Likewise, we find that recovery from desensitization slows with greater disruption of two-fold rotational symmetry of the ligand-binding domain dimer in the desensitized state. Both receptor activation and desensitization vary with the type and number of associated auxiliary proteins. These structures offer a foundation for uncovering how auxiliary subunits reshape structural asymmetry and functional plasticity in heterotetrameric AMPARs.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0b2700a1d3fb018b9970527055815220f7432b190581a24f0df74bbcadc7ec04",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.02.05.701726",
+        "https://openalex.org/W7128383462"
+      ],
+      "title": "Decoupling Structure and Property in Discrete Protein Diffusion: Alignment Dynamics and Collapse Mechanisms",
+      "link": "https://doi.org/10.64898/2026.02.05.701726",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/02/08/2026.02.05.701726.full.pdf",
+      "publication_date": "2026-02-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "junqi wu",
+          "name": "Junqi Wu"
+        },
+        {
+          "key": "dong liyan",
+          "name": "Liyan Dong"
+        },
+        {
+          "key": "jia nuo",
+          "name": "Nuo Jia"
+        },
+        {
+          "key": "li longyu",
+          "name": "Longyu Li"
+        },
+        {
+          "key": "hao zhang",
+          "name": "Hao Zhang"
+        }
+      ],
+      "abstract_text": "Abstract Direct Preference Optimization (DPO) has emerged as a powerful paradigm for aligning generative models, yet its temporal optimization dynamics in the discrete diffusion space of proteins remain poorly understood. Existing approaches often assume that maintaining structural integrity while optimizing physicochemical properties requires simultaneous, tightly coupled reinforcement learning constraints. In this work, we challenge this assumption by uncovering a fundamental temporal decoupling between structural and functional alignment. Using antibody design as a testbed, extensive trajectory analysis reveals two distinct regimes: (1) Instant Structural Alignment , where the strong generative prior of discrete diffusion rapidly eliminates structural hallucinations via denoising within the first few epochs; and (2) Slow Property Adaptation , where physicochemical attributes improve gradually over a prolonged optimization window. We further identify a critical transition point around Epoch 50, which empirically defines a Pareto-optimal boundary between property improvement and structural stability. Beyond this point, continued optimization induces a sharp phase transition into a Structural Collapse regime. To isolate the physical driver underlying this collapse, we introduce a counterfactual preference experiment targeting negative charge. We observe a striking symmetrical collapse : while hydrophilicity optimization induces a Poly-Arginine (+) degeneration, negative charge optimization drives a Poly-Aspartate (-) degeneration. Despite opposite physicochemical trajectories, including extreme shifts in isoelectric point ( > 11 vs. < 4.5), both regimes converge to the same structural failure. This symmetry demonstrates that generic Coulombic repulsion, rather than residue-specific bias, constitutes the fundamental physical constraint being violated. Our findings reveal that discrete diffusion models possess strong intrinsic structural robustness, enabling minimalist alignment strategies provided optimization halts before this physical boundary. More broadly, this work offers a mechanistic warning against unchecked reward optimization in biological generation, illustrating a concrete manifestation of Goodhart’s Law in protein design. Code and data are available at https://github.com/Wu-Junqi/DPO-Protein-Diffusion .",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2409,6 +2505,48 @@
       "curated_categories": []
     },
     {
+      "id": "0b82fa465c1946119e88af5fe5a141121fa6e672388c02e4574b6a08202677e0",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.bbapap.2026.141170",
+        "https://openalex.org/W7201859098"
+      ],
+      "title": "Local energetic frustration: Protein evolution, conformational dynamics and design in the age of AI",
+      "link": "https://doi.org/10.1016/j.bbapap.2026.141170",
+      "pdf_url": null,
+      "publication_date": "2026-08-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics",
+      "authors": [
+        {
+          "key": "franco simonetti",
+          "name": "Franco L. Simonetti"
+        },
+        {
+          "key": "draizen eli",
+          "name": "Eli J. Draizen"
+        },
+        {
+          "key": "espada rocío",
+          "name": "Rocío Espada"
+        },
+        {
+          "key": "gonzalo parra",
+          "name": "R. Gonzalo Parra"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0b863b17c7b217e4ebc4e6ebcbda2892e45484bc4b68e55e3bae782aeafff5a1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67616-5",
@@ -3101,6 +3239,60 @@
         }
       ],
       "abstract_text": "Elevated sugar intake has been linked to poor cardiovascular health, but the effects of early-life sugar restriction on the lifelong risk of heart failure remain unclear. Using the end of sugar rationing in the United Kingdom in 1953 as a natural experiment, we classify participants in the UK Biobank by birth timing to define early-life exposure to sugar rationing. Here we show that individuals exposed to early-life sugar rationing exhibit an approximately 14% lower risk of heart failure and develop the condition about 2.6 years later than those unexposed. Longer exposure is associated with stronger effects, and population-level estimates suggest that around 4–5% of heart failure cases may be attributable to the absence of early-life sugar restriction. Genetic susceptibility does not modify these associations but acts additively. These findings underscore the long-term importance of early-life sugar exposure for heart failure, and further studies are warranted. High sugar intake is a potential risk factor for heart failure, but there is insufficient evidence for the benefit of restricting sugar intake during pregnancy or early life. Using the end of UK sugar rationing as a natural experiment, this study shows that lower sugar intake early in life is linked to lower risk of heart failure and later disease onset.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0bb0494f21a1cbd504339920319f226075e61e7a570c7e0938b811ef1bffbbcd",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2609.03377",
+        "https://openalex.org/W7208765091"
+      ],
+      "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+      "link": "https://doi.org/10.48550/arxiv.2609.03377",
+      "pdf_url": "https://arxiv.org/pdf/2609.03377",
+      "publication_date": "2026-09-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "jiarui lu",
+          "name": "Jiarui Lu"
+        },
+        {
+          "key": "wang yuyang",
+          "name": "Yuyang Wang"
+        },
+        {
+          "key": "yizhe zhang",
+          "name": "Yizhe Zhang"
+        },
+        {
+          "key": "gu jiatao",
+          "name": "Jiatao Gu"
+        },
+        {
+          "key": "jaitly navdeep",
+          "name": "Navdeep Jaitly"
+        },
+        {
+          "key": "joshua susskind",
+          "name": "Joshua M. Susskind"
+        },
+        {
+          "key": "bautista miguel ángel",
+          "name": "Miguel Ángel Bautista"
+        }
+      ],
+      "abstract_text": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of understanding this intrinsically multi-modal relationship is crucial for fields like drug discovery and protein engineering. Existing models often rely on a multi-stage training process where autoencoders that tokenize data into latent representations are trained in a first stage. Secondly, a generative model is trained on the latent representation of the autoencoder(s), i.e., generative modeling in a latent space. We hypothesize that this multi-stage training is not necessary to obtain performant co-design models and thus present SimpleDesign, an effective multi-modal protein design model trained directly in the data space. SimpleDesign leverages a single-stage end-to-end objective that combines discrete cross-entropy for sequences and a regression objective for structures. In order to effectively model the difference in sequence and structure modalities, we develop a Mixture-of-Transformer architecture that allows modality-specific processing while keeping global self-attention over both modalities. We train SimpleDesign on over 2M sequence-structure pairs achieving strong performance across co-design and unconditional sequence/structure generation benchmarks.",
       "discovery_sources": [
         {
           "kind": "open_alex",

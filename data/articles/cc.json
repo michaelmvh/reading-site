@@ -1960,6 +1960,60 @@
       "curated_categories": []
     },
     {
+      "id": "cc710f7fe736f0cd37c3e5c7c66b00c05a1cbb5e2710c5fa2e706e4de4714690",
+      "identity_keys": [
+        "https://doi.org/10.1039/d5sc09634k",
+        "https://openalex.org/W7140085943"
+      ],
+      "title": "A platform to design and optimise fluorogenic scFvs for detection of interleukin 33",
+      "link": "https://doi.org/10.1039/d5sc09634k",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2026/sc/d5sc09634k",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Science",
+      "authors": [
+        {
+          "key": "abigail reese",
+          "name": "Abigail E Reese"
+        },
+        {
+          "key": "karmakar utsa",
+          "name": "Utsa Karmakar"
+        },
+        {
+          "key": "margherita restori",
+          "name": "Margherita Restori"
+        },
+        {
+          "key": "alejandra hermoso marcela",
+          "name": "Marcela Alejandra Hermoso"
+        },
+        {
+          "key": "church george mcdonald",
+          "name": "George McDonald Church"
+        },
+        {
+          "key": "erkin kuru",
+          "name": "Erkin Kuru"
+        },
+        {
+          "key": "marc vendrell",
+          "name": "Marc Vendrell"
+        }
+      ],
+      "abstract_text": "Direct measurement of interleukin-33 (IL-33) in biological systems is critical for understanding its role in inflammatory diseases. In this work, we have developed a platform for the discovery and optimisation of fluorogenic biosensors that are built from scFv protein scaffolds. Our approach combined site-specific fluorophore labelling and deep-learning protein design to identify BS-7 as a biosensor for wash-free detection of human IL-33 in cell supernatants.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cc71e392b005f12607520fefdaa77031ee548d07ec34783ed52f5ee3d89cddc2",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10475-x",
@@ -2219,6 +2273,56 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "cc81b8c6aaaf7910c098bb6bd0047540173a93814d54a7590b3bd3a8f26bd0ea",
+      "identity_keys": [
+        "https://doi.org/10.1039/d6sc01722c",
+        "https://openalex.org/W7151757251"
+      ],
+      "title": "Design of permeability-optimized target-binding macrocycles via direct preference optimization",
+      "link": "https://doi.org/10.1039/d6sc01722c",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2026/sc/d6sc01722c",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Science",
+      "authors": [
+        {
+          "key": "heqi sun",
+          "name": "Heqi Sun"
+        },
+        {
+          "key": "guan hong tan",
+          "name": "Hong Guan Tan"
+        },
+        {
+          "key": "chu yanyi",
+          "name": "Yanyi Chu"
+        },
+        {
+          "key": "jia li yi",
+          "name": "Jia-Yi Li"
+        },
+        {
+          "key": "ruixuan wang",
+          "name": "Ruixuan Wang"
+        },
+        {
+          "key": "dongqing wei",
+          "name": "Dongqing Wei"
+        }
+      ],
+      "abstract_text": "Macrocyclic peptides represent a promising therapeutic modality for challenging targets, such as protein-protein interactions. However, their clinical utility is often limited by inadequate membrane permeability, which restricts both intracellular target access and oral bioavailability. Existing structure-based generative methods for cyclic peptide design prioritize structural validity and binding affinity, yet lack mechanisms to co-optimize membrane permeability. Here we present CycDiff-DPO, a preference-aligned diffusion framework for designing target-specific macrocyclic peptide binders with optimized membrane permeability. By ranking sampled candidates with a Caco-2 permeability predictor and constructing preference pairs, CycDiff-DPO aligns the generative distribution toward permeability-favorable chemical space while preserving target binding competence. We benchmarked CycDiff-DPO across 56 protein targets, finding higher predicted Caco-2 and PAMPA permeability across multiple independent predictors, alongside superior binding energetics and comparable stereochemical quality relative to baseline methods. Case studies on Keap1-Nrf2 and SPSB2-iNOS confirm that top designs recapitulate hot-spot interactions and maintain stable bound poses in molecular dynamics simulations. CycDiff-DPO provides a framework for permeability-enhanced macrocyclic peptide design with broad therapeutic applications.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4305,6 +4409,7 @@
       "id": "ccd157ef53bdc2bfece8c6856d34e6f06aa6837cf56e3eea329b70ff01ecb655",
       "identity_keys": [
         "https://arxiv.org/abs/2511.22311v1",
+        "https://doi.org/10.1039/d6dd00282j",
         "https://doi.org/10.48550/arxiv.2511.22311",
         "https://openalex.org/W4416975519"
       ],
@@ -4335,6 +4440,12 @@
       ],
       "abstract_text": "Designing proteins de novo with tailored structural, physicochemical, and functional properties remains a grand challenge in biotechnology, medicine, and materials science, due to the vastness of sequence space and the complex coupling between sequence, structure, and function. Current state-of-the-art generative methods, such as protein language models (PLMs) and diffusion-based architectures, often require extensive fine-tuning, task-specific data, or model reconfiguration to support objective-directed design, thereby limiting their flexibility and scalability. To overcome these limitations, we present a decentralized, agent-based framework inspired by swarm intelligence for de novo protein design. In this approach, multiple large language model (LLM) agents operate in parallel, each assigned to a specific residue position. These agents iteratively propose context-aware mutations by integrating design objectives, local neighborhood interactions, and memory and feedback from previous iterations. This position-wise, decentralized coordination enables emergent design of diverse, well-defined sequences without reliance on motif scaffolds or multiple sequence alignments, validated with experiments on proteins with alpha helix and coil structures. Through analyses of residue conservation, structure-based metrics, and sequence convergence and embeddings, we demonstrate that the framework exhibits emergent behaviors and effective navigation of the protein fitness landscape. Our method achieves efficient, objective-directed designs within a few GPU-hours and operates entirely without fine-tuning or specialized training, offering a generalizable and adaptable solution for protein design. Beyond proteins, the approach lays the groundwork for collective LLM-driven design across biomolecular systems and other scientific discovery tasks.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

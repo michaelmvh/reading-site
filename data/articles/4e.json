@@ -926,6 +926,68 @@
       "curated_categories": []
     },
     {
+      "id": "4e1a388348cfa3758e9c2875226ac25dc7584156ff8b0e6de57bbdba6b547da2",
+      "identity_keys": [
+        "https://doi.org/10.29328/journal.jairi.1001022",
+        "https://openalex.org/W7170835362"
+      ],
+      "title": "Deep Learning and Artificial Intelligence in the Design of Angiotensin-Converting Enzyme (ACE) Inhibitory Peptides",
+      "link": "https://doi.org/10.29328/journal.jairi.1001022",
+      "pdf_url": "https://www.artificialintelligencepub.com/jairi/article/download/jairi-aid1022/pdf",
+      "publication_date": "2026-07-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Artificial Intelligence Research and Innovation",
+      "authors": [
+        {
+          "key": "qian zhangheng",
+          "name": "Zhangheng Qian"
+        },
+        {
+          "key": "yunuo zhou",
+          "name": "Yunuo Zhou"
+        },
+        {
+          "key": "lin ruotong",
+          "name": "Ruotong Lin"
+        },
+        {
+          "key": "hong yang",
+          "name": "Yang Hong"
+        },
+        {
+          "key": "xu yan",
+          "name": "Yan Xu"
+        },
+        {
+          "key": "li",
+          "name": "S Li"
+        },
+        {
+          "key": "gao jiangcheng",
+          "name": "Jiangcheng Gao"
+        },
+        {
+          "key": "qiurui zhu",
+          "name": "Qiurui Zhu"
+        },
+        {
+          "key": "heng zheng",
+          "name": "Heng Zheng"
+        }
+      ],
+      "abstract_text": "Background: Hypertension is a major modifiable risk factor for cardiovascular disease (CVD), and angiotensin-converting enzyme (ACE) remains a principal target within the renin-angiotensin-aldosterone system (RAAS). Food-derived ACE inhibitory peptides (ACEiPs) are attractive because of their specificity and generally favorable safety profile, but conventional discovery through protein hydrolysis, fractionation, purification, and repeated activity assays is labor-intensive and samples only a small fraction of the possible sequence space. Scope and approach: Unlike reviews that consider databases, predictive models, generative methods, or structural validation as separate topics, this review organizes these components into an integrated closed-loop workflow. It connects curated ACEiP data, sequence and chemical encodings, machine-learning and deep-learning predictors, de novo generation, structure prediction, docking, molecular dynamics, free-energy estimation, experimental validation, and feedback-guided model refinement. Key findings and conclusions: The analysis shows that database heterogeneity, inconsistent IC50 assay conditions, class imbalance, and sequence redundancy can limit model generalization. For short food-derived peptides, simple composition and physicochemical descriptors remain competitive baselines; protein language models (PLMs) can add contextual information but may be affected by protein-to-peptide domain shift, whereas SMILES and self-referencing embedded strings (SELFIES) are most useful when atom-level connectivity, stereochemistry, or non-canonical residues must be represented. A practical post-screening stage should jointly assess potency, ACE-domain binding, gastrointestinal stability, permeability, solubility, toxicity, allergenicity, and manufacturability. Progress toward translation therefore depends on a closed loop in which experimentally measured activity and developability data update the training set and guide subsequent design cycles.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e1aae0fb24860f55009fa527ec485cdb4d85d1d2ce97e151e7e1d0dd6f1471d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66119-7",
@@ -1955,6 +2017,56 @@
       "curated_categories": []
     },
     {
+      "id": "4e3272c0ef2a9a2f80e8408d80e3b6fecc1af73ff819d98783da80ccc9c775b7",
+      "identity_keys": [
+        "https://doi.org/10.1126/science.adv7953",
+        "https://openalex.org/W7119484233"
+      ],
+      "title": "Computational design of conformation-biasing mutations to alter protein functions",
+      "link": "https://doi.org/10.1126/science.adv7953",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/03/2025.05.03.652001.full.pdf",
+      "publication_date": "2026-01-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Science",
+      "authors": [
+        {
+          "key": "cavanagh peter",
+          "name": "Peter E. Cavanagh"
+        },
+        {
+          "key": "andrew xue",
+          "name": "Andrew G. Xue"
+        },
+        {
+          "key": "dai shizhong",
+          "name": "Shizhong A. Dai"
+        },
+        {
+          "key": "albert qiang",
+          "name": "Albert Qiang"
+        },
+        {
+          "key": "matsui tsutomu",
+          "name": "Tsutomu Matsui"
+        },
+        {
+          "key": "alice ting",
+          "name": "Alice Y. Ting"
+        }
+      ],
+      "abstract_text": "Most natural proteins alternate between distinct conformational states, each associated with specific functions. Intentional manipulation of conformational equilibria could lead to improved or altered protein properties. Here we develop Conformational Biasing (CB), a rapid and streamlined computational method that utilizes contrastive scoring by inverse folding models to predict variants biased towards desired conformational states. We validated CB across seven diverse deep mutational scanning datasets, successfully predicting variants of K-Ras, SARS-CoV-2 spike, β2 adrenergic receptor, and Src kinase with improved conformation-specific functions including enhanced effector binding or enzymatic activity. Furthermore, applying CB to lipoic acid ligase, a conformation-switching bacterial enzyme that has been used for the development of protein labeling technologies, revealed a previously unknown mechanism for conformational gating of sequence-specificity. Variants biased toward the \"open\" conformation were highly promiscuous, while \"closed\" conformation-biased variants were even more specific than wild-type, enhancing the utility of LplA for site-specific protein labeling with fluorophores in living cells. The speed, simplicity, and versatility of CB (available at: https://github.com/alicetinglab/ConformationalBiasing/) suggest that it may be broadly applicable for understanding and engineering protein conformational dynamics, with implications for basic research, biotechnology, and medicine.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e3886d92f0c11a24235710e7eb9c5e88362db8fec97dc0d63a30c10168b0aed",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70377-4",
@@ -2342,6 +2454,52 @@
       ]
     },
     {
+      "id": "4e50ae0400714806a6d506f52512abeea03ca5ab97384050e476fee117811f45",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.6c01267",
+        "https://openalex.org/W7212147491"
+      ],
+      "title": "Closed-Loop Multi-Objective Optimization for Receptor-Selective Cell-Penetrating Peptide Design",
+      "link": "https://doi.org/10.1021/acs.jcim.6c01267",
+      "pdf_url": null,
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "iori yamahata",
+          "name": "Iori Yamahata"
+        },
+        {
+          "key": "hidetomo yokoo",
+          "name": "Hidetomo Yokoo"
+        },
+        {
+          "key": "demizu yosuke",
+          "name": "Yosuke Demizu"
+        },
+        {
+          "key": "shimamura teppei",
+          "name": "Teppei Shimamura"
+        },
+        {
+          "key": "hayashi shuto",
+          "name": "Shuto Hayashi"
+        }
+      ],
+      "abstract_text": "Cell-penetrating peptides (CPPs) can deliver diverse cargoes into cells. However, designing CPPs with receptor-selective interaction profiles remains difficult because interactions with individual cell-surface components cannot be tuned independently. Here, we developed a closed-loop in silico framework for receptor-selective CPP design, in which receptor interactions are formulated as explicit objectives in a multi-objective optimization problem. We first constructed a CPP-like candidate library by using a sequence generative model fine-tuned on known CPPs. The framework then evaluated candidate peptides by receptor-wise docking, molecular dynamics simulations, and MM/GBSA to compute receptor-wise binding scores as computational proxies for receptor-associated interactions. These scores were used iteratively to propose subsequent candidates by multi-objective Bayesian optimization. Applied to a CXCR4/NRP1 design setting, the framework identified candidates with more favorable predicted interaction profiles characterized by higher CXCR4 binding scores and lower NRP1 binding scores. We selected 10 peptides from the computationally identified candidates for cell-based imaging and found that 4 showed higher enrichment in CXCR4-positive regions than in NRP1-positive regions under the tested conditions. These results show that the proposed framework provides a practical in silico approach for designing CPPs with receptor-selective interaction profiles.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e51491af1422942913aa2e7a7037407d7645c91483df4ac7119d6c5d5d1715e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68866-7",
@@ -2697,6 +2855,64 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4e5f351bb79637a341159cd5fce95830f97c0e49c64322b8847da330f9c49375",
+      "identity_keys": [
+        "https://doi.org/10.1186/s12951-026-04951-9",
+        "https://openalex.org/W7204032113"
+      ],
+      "title": "Recent advances in fabrication strategies, functional modulation and healthcare applications of native protein-based hydrogels",
+      "link": "https://doi.org/10.1186/s12951-026-04951-9",
+      "pdf_url": null,
+      "publication_date": "2026-08-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Nanobiotechnology",
+      "authors": [
+        {
+          "key": "fuwei sun",
+          "name": "Fuwei Sun"
+        },
+        {
+          "key": "qiyang qu",
+          "name": "Qiyang Qu"
+        },
+        {
+          "key": "mingyang sun",
+          "name": "Mingyang Sun"
+        },
+        {
+          "key": "tuo zhang",
+          "name": "Tuo Zhang"
+        },
+        {
+          "key": "jiachen zang",
+          "name": "Jiachen Zang"
+        },
+        {
+          "key": "chenyan lv",
+          "name": "Chenyan Lv"
+        },
+        {
+          "key": "guanghua zhao",
+          "name": "Guanghua Zhao"
+        },
+        {
+          "key": "wang zhongjiang",
+          "name": "Zhongjiang Wang"
+        }
+      ],
+      "abstract_text": "Native protein-based hydrogels not only possess all advantages of their denatured analogues such as exceptional biocompatibility and low toxicity, but also retain the intrinsic function of the protein building block. Therefore, they exhibit novel favorable properties including inherent bioactivity and reversible sol–gel transformation behavior. As such, they have emerged as versatile biomaterials widely used in the biomedical field. This review provides a comprehensive and up-to date overview of design strategies, formation mechanisms, and healthcare applications of native protein-based hydrogels. We systematically summarize the key cross-linking strategies for fabricating reversible native protein-based hydrogels, with particular emphasis on how these interactions govern hydrogel formation and their functionality. We highlight recent advances in fabricating these hydrogels through chemical cross-linking, physical cross-linking, metal coordination, fusion protein design, key interface redesign, de novo design, and modular design strategies, which enable precise control over hierarchical architecture, stimuli-responsiveness, and biomechanical properties. Furthermore, we explore the diverse healthcare applications of these hydrogels, with emphasis on drug delivery, wound healing, and tissue engineering. Finally, we discuss perspectives on future directions, including the integration of computational modeling, machine learning, and high-throughput experimentation to enable rational design of smart, multifunctional native protein-based hydrogels with tailored performances for next-generation biomedical applications. Design strategies and healthcare applications of native protein-based hydrogels",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3261,6 +3477,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2025.12.05.692529v2",
         "https://doi.org/10.64898/2025.12.05.692529",
+        "https://www.biorxiv.org/content/early/2025/12/09/2025.12.05.692529.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/19/2025.12.05.692529.source.xml"
       ],
       "title": "Capturing α-synuclein polymorphism with AlphaFold 3 and rivals",
@@ -3479,6 +3696,486 @@
         }
       ],
       "abstract_text": "Optical physical unclonable functions provide artificial fingerprints through randomized light-matter interactions, but are limited by static architectures that lack adaptive defense capabilities. Although reconfigurable optical physical unclonable functions based on phase-change materials have been proposed to overcome this constraint, their reliance on light or heat makes them susceptible to unintended environmental activation. Here, we propose a solvent-triggered reconfiguration strategy for optical physical unclonable functions based on polymeric microcube arrays confined within square microwells while retaining translational and rotational degrees of freedom. A volatile solvent induces swelling that establishes wall-cube contact; evaporation-driven detachment drives non-deterministic rearrangement into new spatial configurations, regenerating the optical fingerprint. A machine-learning-based authentication framework provides robust identification of encoded physical configurations. The resulting system exhibits remarkable stability under various environmental and mechanical stresses, while exposure to volatile solvents serves as an effective trigger for reconfiguration, offering a robust pathway to decouple the intrinsic trade-off between environmental stability and reconfigurability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4e857b01bdf58016024a1fabeeb29de116a8738472255d459649a8e3a186be12",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2023-12.2963865/3737300",
+        "https://openalex.org/W7212383720"
+      ],
+      "title": "Data for EMSL Project 50414 from December 2023",
+      "link": "https://doi.org/10.25582/data.2023-12.2963865/3737300",
+      "pdf_url": null,
+      "publication_date": "2026-09-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4e85d8a2967b25a969acca6e09baa1c345ddf5257237347adb6aa638c7f0237b",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2608.12192",
+        "https://openalex.org/W7202352525"
+      ],
+      "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
+      "link": "https://doi.org/10.48550/arxiv.2608.12192",
+      "pdf_url": "https://arxiv.org/pdf/2608.12192",
+      "publication_date": "2026-08-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "aleksandra kalisz",
+          "name": "Aleksandra Kalisz"
+        },
+        {
+          "key": "jack simons",
+          "name": "Jack Simons"
+        },
+        {
+          "key": "krisztina sinkovics",
+          "name": "Krisztina Sinkovics"
+        },
+        {
+          "key": "ghenassia noam",
+          "name": "Noam Ghenassia"
+        },
+        {
+          "key": "shikha surana",
+          "name": "Shikha Surana"
+        },
+        {
+          "key": "henry moss",
+          "name": "Henry Moss"
+        },
+        {
+          "key": "duckworth paul",
+          "name": "Paul Duckworth"
+        }
+      ],
+      "abstract_text": "Foundation models for protein structure prediction remain unreliable on certain targets. External oracles can flag and correct these failures, but biological oracles are expensive, making oracle budget a critical constraint. Existing guidance methods, such as FK-steering, DPO, and Best K-of-N sampling, differ in how they spend this budget, yet no systematic comparison exists to guide method selection. To bridge this gap, we benchmark these methods alongside the recently proposed Optimisation Over Outputs (O3), which applies off-the-shelf optimisers within a generative model's latent subspace. We extend the usage of O3 to protein structure prediction models. Overall, our work provides the first practical reference for oracle budget-aware guidance. Our evaluation on two protein targets, calmodulin (1CLL) and E. coli aspartate transcarbamoylase (9EEH), reveals that no single method consistently dominates across all budgets and oracles. Specifically, O3 proves most effective at low oracle budgets, while FK-steering and DPO demonstrate improved performance as the budget increases. We distil these findings into actionable recommendations for practitioners operating under real-world oracle-budget constraints.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3745,6 +4442,52 @@
       "curated_categories": []
     },
     {
+      "id": "4e924e7852e2839839d6d74c535f1462be8b35863ab42c1a1d8ae7dad91e65f6",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.02.708939",
+        "https://openalex.org/W7133327500"
+      ],
+      "title": "EnzySeek: Efficient Exploration of Enzyme Reaction Pathways Using AI Agents",
+      "link": "https://doi.org/10.64898/2026.03.02.708939",
+      "pdf_url": null,
+      "publication_date": "2026-03-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "kang xu",
+          "name": "Kang Xu"
+        },
+        {
+          "key": "tao yu",
+          "name": "Tao Yu"
+        },
+        {
+          "key": "kangwei xu",
+          "name": "Kangwei Xu"
+        },
+        {
+          "key": "chenxu liu",
+          "name": "Chenxu Liu"
+        },
+        {
+          "key": "rongjie wu",
+          "name": "Rongjie Wu"
+        }
+      ],
+      "abstract_text": "Abstract With the rapid development of Large Language Models (LLMs) and Agent technologies, AI can assist in solving a variety of real-world problems across multiple domains, such as autonomous driving, drug discovery, and materials design. In this work, we present EnzySeek, an enzyme catalysis AI agent designed to assist researchers in enzyme catalysis simulations. First, we constructed a domain-specific knowledge base by curating thousands of papers related to enzyme catalysis. Second, we customized Model Context Protocol (MCP) interfaces for each step of the enzyme catalysis simulation workflow, enabling these functions to be invoked by LLMs. Finally, we configured an agent capable of simultaneously referencing past empirical studies on enzyme catalysis, autonomously executing tool calls, and analyzing as well as presenting the results. EnzySeek’s capabilities cover multiple aspects, including protein structure prediction, molecular docking, system preparation and parameterization, molecular dynamics (MD) simulations, and QM/MM calculations. The conclusions drawn by EnzySeek are primarily based on the results of QM/MM calculations. We employed the semi-empirical quantum mechanical method GFN2-xTB to calculate the QM region of the system. Benchmark results indicate that the GFN2-xTB method can achieve high efficiency while maintaining accuracy. The EnzySeek agent is designed to continuously learn from newly published literature and past computational tasks. During its operation, every AI decision is manually verified and scored by human experts. This human-in-the-loop validation provides the AI with sufficient case-based support, ultimately contributing to the full automation of enzyme catalysis computations. All data generated during the simulations are compiled into a dataset, which is used to establish evaluation criteria specific to enzyme catalysis computational results.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e94d15fc65a47e98823ef9db4d3e0e62d0469ef767da68baa802ac09641eccd",
       "identity_keys": [
         "https://doi.org/10.1002/adma.202312299",
@@ -3820,6 +4563,44 @@
         "5.1 CNN-based",
         "5.Function to Sequence"
       ]
+    },
+    {
+      "id": "4e981a643df3cfc75db6ceab1e19a2e99be08cd4cffc61334426ad702bdd76bb",
+      "identity_keys": [
+        "https://doi.org/10.1063/5.0273394",
+        "https://openalex.org/W7124286066"
+      ],
+      "title": "Deep learning-driven protein structure prediction and design: Key model developments by Nobel laureates and multi-domain applications",
+      "link": "https://doi.org/10.1063/5.0273394",
+      "pdf_url": null,
+      "publication_date": "2026-01-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biophysics Reviews",
+      "authors": [
+        {
+          "key": "wanqing yang",
+          "name": "Wanqing Yang"
+        },
+        {
+          "key": "wang yanwei",
+          "name": "Yanwei Wang"
+        },
+        {
+          "key": "wang yang",
+          "name": "Yang Wang"
+        }
+      ],
+      "abstract_text": "This systematic review outlines pivotal advancements in deep learning-driven protein structure prediction and design, focusing on four core models—AlphaFold, RoseTTAFold, RFDiffusion, and ProteinMPNN—developed by 2024 Nobel Laureates in Chemistry: David Baker, Demis Hassabis, and John Jumper. We analyze their technological iterations and collaborative design paradigms, emphasizing breakthroughs in atomic-level structural accuracy, functional protein engineering, and modeling multi-component biomolecular interactions. Key innovations include AlphaFold3's diffusion-based framework for unified biomolecular prediction, RoseTTAFold's three-track architecture integrating sequence and spatial constraints, RFDiffusion's denoising diffusion for de novo protein generation, and ProteinMPNN's inverse folding for sequence–structure co-optimization. Despite major progress in applications such as binder design, nanomaterials, and enzyme engineering, challenges persist in dynamic conformational sampling, multimodal data integration, and generalization to non-canonical targets. We propose future directions, including hybrid physics-AI frameworks and multimodal learning, to bridge gaps between computational design and functional validation in cellular environments.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "4e987c1cfedec50b2a7d3aa9f94cea33b4cef9e7864fddb2adffcd1e2ad6beba",
@@ -4015,6 +4796,56 @@
         }
       ],
       "abstract_text": "Abstract Silencing by the miRNA-guided RNA induced silencing complex (miRISC) is dependent on Ago2-chaperoned base pairing between the miRNA 5′ seed (5′S) and a complementary sequence in the 3′ untranslated region of an mRNA. Prevailing mechanistic understanding posits that initial 5′S pairing can further allow functional base pair expansion into the 3′ non-seed (3′NS), while functionally distinct non-canonical pairing was reported between only the 3′NS and the mRNA coding sequence. We developed single-molecule kinetics through equilibrium Poisson sampling (SiMKEPS) to measure highly precise binding and dissociation rate constants of varying-length target sequences to 5′S and 3′NS in a paradigmatic miRISC isolated from human cells, revealing distinct stable states of miRISC with mutually exclusive 5′S and 3′NS pairing. Our data suggest conformational rearrangements of the Ago2-bound miRNA that regulate alternative 5′S- and 3′NS-driven target recognition. The resulting model reconciles previously disparate observations and deepens our acumen for successfully marshaling RNA silencing therapies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4ea6eea7ff297aed96906124d4008d5168f202d877152b301900b94e2243950a",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41598-026-52380-3",
+        "https://openalex.org/W7162401289"
+      ],
+      "title": "NuConf: a rotamer library for DNA and RNA and its implementation in the protein design software MUMBO",
+      "link": "https://doi.org/10.1038/s41598-026-52380-3",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-52380-3.pdf",
+      "publication_date": "2026-05-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scientific Reports",
+      "authors": [
+        {
+          "key": "makarova marharyta",
+          "name": "Marharyta O. Makarova"
+        },
+        {
+          "key": "martin stiebritz tillmann",
+          "name": "Martin Tillmann Stiebritz"
+        },
+        {
+          "key": "basturk derman",
+          "name": "Derman Basturk"
+        },
+        {
+          "key": "birthe lemke",
+          "name": "Birthe Lemke"
+        },
+        {
+          "key": "beatrix süß",
+          "name": "Beatrix Süß"
+        },
+        {
+          "key": "muller yves",
+          "name": "Yves A. Muller"
+        }
+      ],
+      "abstract_text": "Current AI tools for designing macromolecules have been struggling with DNA and RNA structure prediction and design as significantly less experimental training data are available for nucleic acids than for proteins. Therefore, developing alternative approaches remains of interest. MUMBO, a program for designing protein-protein interactions and protein-ligand-binding pockets, uses side-chain-packing algorithms to select from alternative amino acids and conformers generated on a fixed backbone with the help of rotamer libraries. MUMBO identifies the most favourable combinations based on the lowest overall energy. In order to extend the program's capabilities to designing nucleic acids, we developed NuConf, a discrete pseudorotational angle-dependent nucleoside-specific rotamer library. We derived NuConf by statistically analysing pseudorotational and dihedral angles of more than 175,000 nucleotides from experimental structures and validated it by rebuilding more than 20,000 nucleotides in a custom dataset. Strikingly, our approach predicts nucleotides at least as accurately as amino acids. We show that the implementation of the NuConf library in MUMBO enables modelling and designing DNA and RNA sequences on a fixed backbone together with protein-nucleic acid interaction interfaces. Because its approach and format are program agnostic, NuConf can be used by other molecular design frameworks as well.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5430,6 +6261,36 @@
         }
       ],
       "abstract_text": "The type VI secretion system (T6SS) is a dynamic protein nanomachine found in Gram-negative bacteria that secretes toxic effectors into prey-cells. For secretion, effectors require chaperones or adaptors for proper loading onto the T6SS. Effector associated genes (Eags) are a family of T6SS chaperones that stabilize N-terminal transmembrane domains (TMDs) found in thousands of effectors. Eags are essential for secretion and inhibit effector TMDs from prematurely adopting a membrane-penetrative conformation. However, the mechanism of TMD release from its cognate Eag chaperone is unknown. Here, we take a biochemical and biophysical approach to probe the mechanism of TMD binding and dissociation from Eag chaperones. Using steady-state fluorescence, stopped-flow measurements, and bacterial competition assays, we compare the thermodynamics, kinetics, and in vivo chaperone function of wild-type and point variant Eag-TMD complexes. Additionally, we solve an X-ray crystal structure of an Eag-TMD point variant complex that captures an intermediate state of TMD release. Our data reveals the molecular features and specific residue contacts necessary for TMD binding and demonstrates the Eag conformational change required to initiate rapid release of the TMD. Overall, our work details the stability of Eag-TMD complexes and the energetic pathway for the dissociation of effector TMDs from their Eag chaperones.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4eecb1989939983347bd46c1d3dd994d68dcc87d436ec1409b651c9ce5a6be1e",
+      "identity_keys": [
+        "https://doi.org/10.3389/frfst.2026.1911343",
+        "https://openalex.org/W7212184156"
+      ],
+      "title": "A design science framework for alternative proteins: coupling ingredient functionality, processing physics, and predictive modeling",
+      "link": "https://doi.org/10.3389/frfst.2026.1911343",
+      "pdf_url": "https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2026.1911343/pdf",
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Food Science and Technology",
+      "authors": [
+        {
+          "key": "akdemir evrendilek gülsün",
+          "name": "Gülsün Akdemir Evrendilek"
+        }
+      ],
+      "abstract_text": "The transition toward alternative proteins represents more than ingredient substitution; it requires a fundamental shift from empirical formulation toward predictive, mechanism-driven design. Despite rapid advances in plant-based, microbial, fungal, algal, and hybrid protein systems, development efforts remain fragmented across ingredient science, processing engineering, structural characterization, and computational modeling. This separation obscures the causal relationships linking molecular functionality, processing conditions, structural evolution, and product performance, thereby limiting reproducibility, scalability, and technology transfer. Alternative protein systems can be viewed as dynamic, multi-scale materials whose properties emerge through coupled physicochemical and biochemical transformations. Protein denaturation, aggregation, phase separation, hydration dynamics, interfacial assembly, lipid organization, and fermentation-driven modifications collectively govern the formation of hierarchical architectures that determine texture, moisture retention, flavor release, nutritional functionality, and consumer perception. Processing technologies including extrusion, shear-cell processing, fermentation, encapsulation, and hybrid platforms operate as controlled energy- and mass-transfer systems that regulate these transformations across molecular, mesoscopic, and macroscopic length scales. To address the need for integration across these domains, this review introduces the Ingredient–Process–Structure–Performance (IPSP) framework, a design-science architecture that organizes alternative protein development as a closed-loop, model-guided engineering system. Within IPSP, ingredient functionality defines the molecular design space, processing physics governs structural emergence, multi-scale architecture determines performance outcomes, and predictive modeling serves as the integrative layer linking these domains under variability, scale-up, economic, and sustainability constraints. The framework further incorporates structural descriptors, mechanistic modeling, machine learning, and digital twin concepts to support predictive design and adaptive manufacturing. By positioning alternative protein development as a coupled, multi-scale engineering problem, IPSP provides a unified roadmap for rational experimentation, scalable process optimization, and digitally enabled food manufacturing. This systems-level perspective supports the transition from trial-and-error formulation toward predictive, transferable, and performance-oriented alternative protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -2457,6 +2457,76 @@
       "curated_categories": []
     },
     {
+      "id": "998a4b5da1ff9e5938ce336f79001c040bc376226164202b0169b1e7d5aa689b",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.11.711222",
+        "https://openalex.org/W7135388312"
+      ],
+      "title": "ACENet: a graph neural network for predicting enzyme pHmin using structure and sequence insights",
+      "link": "https://doi.org/10.64898/2026.03.11.711222",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/14/2026.03.11.711222.full.pdf",
+      "publication_date": "2026-03-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "hu shantong",
+          "name": "Shantong Hu"
+        },
+        {
+          "key": "pan tong",
+          "name": "Tong Pan"
+        },
+        {
+          "key": "jiayu wang",
+          "name": "Jiayu Wang"
+        },
+        {
+          "key": "huan koh yee",
+          "name": "Huan Yee Koh"
+        },
+        {
+          "key": "wang zhikang",
+          "name": "Zhikang Wang"
+        },
+        {
+          "key": "yumeng zhang",
+          "name": "Yumeng Zhang"
+        },
+        {
+          "key": "lingxuan zhu",
+          "name": "Lingxuan Zhu"
+        },
+        {
+          "key": "li zhuoqian",
+          "name": "Zhuoqian Li"
+        },
+        {
+          "key": "geoffrey webb",
+          "name": "Geoffrey I. Webb"
+        },
+        {
+          "key": "jiangning song",
+          "name": "Jiangning Song"
+        },
+        {
+          "key": "guimin zhang",
+          "name": "Guimin Zhang"
+        }
+      ],
+      "abstract_text": "The acid activity of enzymes, characterized by the minimum pH at which enzymes remain active (pHmin), is crucial for industrial applications in acidic environments. However, the rational design of acid-active enzymes remains challenging due to limited understanding of sequence-structure- activity relationships under acidic conditions. Here, we propose ACENet, a graph neural network that predicts enzyme pHmin by integrating surface features of protein structures with evolutionary representations derived from the large-scale protein language model ESM-2. ACENet achieved a Pearson correlation coefficient of 0.85 on the test dataset, significantly outperforming other deep learning baseline models and maintains stable pHmin predictions under various conditions. Even on a subset of the dataset with less than 20% homology, the PCC remains above 0.5, with an RMSE (Root mean square error) less than 1.4. ACENet also present excellent performance in the annotation of pHmin for homologous proteins and the predictive screening of minimal active pH in protein mutants. Remarkably, ACENet could identify the catalytic region as key determinants of acid activity through residue-level interpretability analysis. Overall, ACENet accelerates the development of highly efficient biocatalysts for diverse applications where acidic conditions predominate.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "998ea367f798807d457ab6f7b1938b2d64aebbacb0e1f171b3176f4346832a1f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72771-4",
@@ -3709,6 +3779,12 @@
       "abstract_text": "Given the repetitive structure of crystalline ice, it is unsurprising that highly active ice-binding proteins (IBPs), often with beta-roll structures, also have repeating motifs. Here, we introduce a de novo designed family of ice-binding twistless alpha-helical repeat (iTHR) proteins. Each iTHR protein comprises two planar layers of parallel alpha-helices connected by loops-a structural topology not seen in native IBPs. The ice-binding helices contain an ordered array of TXXXAXXXAXX motifs, precisely spaced to complement the pyramidal {201} and secondary prism {110} planes of the ice lattice, with a designed 98.2° residue turn angle that orients all threonines uniformly toward the ice surface. iTHR proteins show high solubility, thermostability, and produce varied ice crystal morphologies depending on their intended target facet. Crucially, iTHRs exhibit ice recrystallization inhibition (IRI) at critical concentrations comparable to those of many native globular IBPs. Extensive site-specific mutagenesis shows that ice-binding activity in iTHR proteins is robust, remaining largely unaffected by changes in chemical composition. Variation in the repeat number reveals a nonmonotonic relationship to IRI activity. X-ray crystal structures of two designs confirm the intended orientation of threonines, uniformly pointing toward the ice surface. The iTHR family provides a versatile platform to systematically investigate the complex structure-activity relationships underlying protein-ice interactions.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -4565,6 +4641,52 @@
         "4.5 GNN-based",
         "4.Scaffold to Sequence"
       ]
+    },
+    {
+      "id": "99fa9fb37c3602cc7d4cb2d795345b3bd005e48526119a6b1d56d72f2863ae3b",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2607.16263",
+        "https://openalex.org/W7169879548"
+      ],
+      "title": "Preference-based Antibody Expression Ranking: Scaling with Large-scale Weak Supervision",
+      "link": "https://doi.org/10.48550/arxiv.2607.16263",
+      "pdf_url": "https://arxiv.org/pdf/2607.16263",
+      "publication_date": "2026-06-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "josh qixuan sun",
+          "name": "Josh Qixuan Sun"
+        },
+        {
+          "key": "babaie morteza",
+          "name": "Morteza Babaie"
+        },
+        {
+          "key": "hou wenyang",
+          "name": "Wenyang Hou"
+        },
+        {
+          "key": "crowley mark",
+          "name": "Mark Crowley"
+        },
+        {
+          "key": "young",
+          "name": "D R Young"
+        }
+      ],
+      "abstract_text": "Antibody expression ranking is a critical task in antibody design, yet its modelling is severely hindered by the scarcity of labeled experimental data. To address this, we propose a unified preference-based learning framework that integrates scarce quantitative expression data with large-scale weak positive supervision from immunization data. We adapt Direct Preference Optimization (DPO) to protein language models by introducing a union-masked log-likelihood approximation and IMGT-based alignment, enabling efficient training on variable-length sequences. Evaluating on a diverse internal dataset of 1254 labeled sequences and 4 million unlabeled camelid-derived antibodies, we show that our method consistently outperforms baselines on most metrics. Our results demonstrate that preference learning can effectively learn from weak supervision, providing a scalable solution for antibody expressibility optimization in data-constrained settings. Project page: https://kisoji-biotechnology-inc.github.io/Preference-Expression-Ranking/.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "99ffff7cd5c25c148c0f8c0e83bc2bdf7f27ad61044174ac9940bca408d2f4eb",

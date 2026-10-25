@@ -326,6 +326,72 @@
       "curated_categories": []
     },
     {
+      "id": "a714e8c4d7b3063b9a1c41f4d0d3ac14bc2b03695371d190e738bfb18d66c1f9",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.04.24.720551",
+        "https://openalex.org/W7160078264"
+      ],
+      "title": "Discriminative Site-Directed Protein Engineering via Lightweight CASPE Platform",
+      "link": "https://doi.org/10.64898/2026.04.24.720551",
+      "pdf_url": null,
+      "publication_date": "2026-04-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "deng qiufeng",
+          "name": "Qiufeng Deng"
+        },
+        {
+          "key": "jie qiao",
+          "name": "Jie Qiao"
+        },
+        {
+          "key": "chuan wang",
+          "name": "Chuan Wang"
+        },
+        {
+          "key": "ni xinyue",
+          "name": "Xinyue Ni"
+        },
+        {
+          "key": "chang yongyao",
+          "name": "Yongyao Chang"
+        },
+        {
+          "key": "nan zhao",
+          "name": "Nan Zhao"
+        },
+        {
+          "key": "rui zhai",
+          "name": "Rui Zhai"
+        },
+        {
+          "key": "cui haiyang",
+          "name": "Haiyang Cui"
+        },
+        {
+          "key": "li xiujuan",
+          "name": "Xiujuan Li"
+        },
+        {
+          "key": "jin mingjie",
+          "name": "Mingjie Jin"
+        }
+      ],
+      "abstract_text": "Abstract Protein large language models (PLMs) provide a novel computational paradigm for the deep mining of sequence co-evolutionary information, significantly accelerating the generation of functional proteins for biotechnological and medical applications. However, the misalignment between zero-shot predicted evolutionary fitness and industrial application requirements leads to a limited success rate in acquiring beneficial mutations, while the high training cost presents another drawback of large models. Here, we developed CASPE (Critical Amino acids Streamline Protein Evolution), a lightweight protein engineering platform for the precise localization and adaptation of critical residues, consisting of the CAS (Critical amino acid sites) and APCNet (Amino acid Point Cloud Classification Network). CAS utilizes gradient activation mapping and multi-layer attention matrices to directly extract key information determining target properties from PLMs and transform it into explicit site importance indicators, without relying on additional structural information or prior knowledge. Working in tandem with APCNet, CASPE establishes a workflow encompassing the entire trajectory from site localization to residue prediction. CASPE achieved remarkable hit rates in identifying beneficial variants for thermostability (31.3-60%) and pH tolerance (40-80%), further uncovering the potential mechanisms of action at these key target sites. Directed evolution of phytase further validated the generalizability of CASPE. CASPET-Phytase achieved a 33.3% success rate in obtaining beneficial mutants, which was significantly better than FoldX (6.7%) and ESM2-t33 (13.3%). CASPE guides enzyme evolution towards precise, site-targeted optimization, providing an efficient computational framework for developing industrial enzymes.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a715d942e935b00f7ecaa0f40446c6c7cd299a44baa9a55e54d5d24697799a9a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76002-8",
@@ -1143,6 +1209,44 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a722665eb0cf6212cb82786cdb3e09b7a3886bbea555249dafcc5204d5bbf005",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.22.740197",
+        "https://openalex.org/W7170619329"
+      ],
+      "title": "Structural bioinformatics of three Epstein-Barr Virus (EBV) Integral Membrane Proteins and their water-soluble QTY analogs",
+      "link": "https://doi.org/10.64898/2026.07.22.740197",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/24/2026.07.22.740197.full.pdf",
+      "publication_date": "2026-07-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "sun zixuan",
+          "name": "Zixuan Sun"
+        },
+        {
+          "key": "chen edward",
+          "name": "Edward Chen"
+        },
+        {
+          "key": "shuguang zhang",
+          "name": "Shuguang Zhang"
+        }
+      ],
+      "abstract_text": "The Epstein-Barr virus (EBV) is a highly prevalent virus worldwide that is associated with several lymphoid and epithelial malignancies. However, extensive research on EBV integral membrane proteins BILF1, LMP1 and LMP2, has been scarce due to their hydrophobic transmembrane domains. Our study applies the QTY code (glutamine, threonine, tyrosine) to design water-soluble analogs of BILF1, LMP1 and LMP2 with reduced hydrophobicity, where we systematically replaced hydrophobic amino acid residues leucine (L), isoleucine (I), valine (V), and phenylalanine (F) with structurally similar polar residues glutamine (Q), threonine (T), and tyrosine (Y). We retrieved their native sequences from UniProt, identified transmembrane domains using Protter, then performed QTY design through the Protein Solubilizing Server (PSS). We then predicted native and QTY structures using in silico prediction tools AlphaFold3, ColabFold, and Boltz-2. Our analyses demonstrate that despite significant protein sequence replacements in their transmembrane domains (54.15%-61.59%) and increased intrinsic solubility, the QTY analogs exhibited minimal changes in isoelectric point (0.00-0.15 decrease) and molecular weight (0.7-1.2 kDa increase). Additionally, structural superpositions between QTY analogs and native structures using PyMOL yield low RMSD values (0.217Å −1.202Å). Our results demonstrate the QTY code’s ability to design detergent-free analogs of BILF1, LMP1 and LMP2 with substantially reduced hydrophobicity and aggregation propensity whilst preserving native-like structures. Our results may facilitate protein characterization studies, therapeutic research on EBV, and other protocols that typically require protein solubilization.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2128,6 +2232,40 @@
       "curated_categories": []
     },
     {
+      "id": "a74d596a13879a7792f1d4d039fe1ee5c6eefee91f39f0276930ce2e3903ad70",
+      "identity_keys": [
+        "https://doi.org/10.14741/ijab/v.16.1.1",
+        "https://openalex.org/W7133818085"
+      ],
+      "title": "Foundation Artificial Intelligence Models in Animal Biotechnology: From Protein Structure Prediction to Genomic Language Models and Autonomous Laboratory Systems",
+      "link": "https://doi.org/10.14741/ijab/v.16.1.1",
+      "pdf_url": "https://ijab.evegenis.org/index.php/ijab/article/download/1083/1033",
+      "publication_date": "2026-03-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Animal Biotechnology",
+      "authors": [
+        {
+          "key": "anna zhernakova",
+          "name": "Anna Zhernakova"
+        },
+        {
+          "key": "marco santiago sola",
+          "name": "Santiago Marco‐Sola"
+        }
+      ],
+      "abstract_text": "Foundation artificial intelligence models — large neural networks pre- trained on vast, diverse biological datasets that can be fine- tuned or prompted for a wide range of downstream tasks — are transforming the pace and scope of discovery and application across all domains of biological science. In the period 2021–2026, the introduction of AlphaFold2, AlphaFold3, ESM-2, the Evo genomic language model, the Nucleotide Transformer, and numerous protein design models (RFdiffusion, Genie2, ProteinMPNN) has provided the life sciences community with a suite of AI tools that compress decades of conventional structural biology and functional genomics work into hours of computation. This review examines the transformative impact of foundation AI models on animal biotechnology, with particular emphasis on applications to livestock species. The major areas covered include protein structure prediction for livestock disease proteins (viral capsids, bacterial surface proteins, host receptors) and its impact on rational vaccine design; genomic and epigenomic language models for prediction of regulatory sequence function, variant effects, and gene expression in livestock genomes; AI- accelerated CRISPR guide RNA design and off- target prediction; foundation model- powered drug and vaccine target discovery workflows; AI integration in laboratory automation (liquid handling robots, imaging AI, automated phenotyping); and large language model (LLM) applications in scientific literature mining, protocol generation, and hypothesis- driven research planning. The review critically evaluates the current capabilities and limitations of foundation AI models in livestock biotechnology contexts, where training data for livestock species remain substantially less abundant than for human biomedical applications, addressing strategies for data augmentation, cross- species transfer learning, and livestock- specific model fine- tuning. Emerging regulatory and biosafety frameworks for AI- designed biological entities (AI- designed vaccines, gene circuits, engineered proteins) are reviewed, along with the research infrastructure and skills development investments needed to realise the full potential of AI- driven animal biotechnology.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a74eb103814f5fa127ce16c8afd548146661228d25688ee8681e82ec69ccfead",
       "identity_keys": [
         "https://doi.org/10.1080/19420862.2026.2634216",
@@ -2489,6 +2627,68 @@
         }
       ],
       "abstract_text": "Electron-beam microscopy and spectroscopy featuring atomic-scale spatial resolution have become essential tools used daily in almost all branches of nanoscale science and technology. As a natural supercontinuum source of light, free electrons couple with phonons, plasmons, electron-hole pairs, inter- and intra-band transitions, and inner-shell ionization. The multiple excitations, intertwined with the intricate nature of nanostructured samples, present significant challenges in isolating specific spectral characteristics amidst complex experimental backgrounds. Here we introduce the approach of synthetic complex frequency waves to mitigate these challenges in free-electron-light interaction. The complex frequency waves, created through causality-informed coherent superposition of real-frequency waves induced by free electrons, offer virtual gain to offset material losses. This amplifies and enhances spectral features, as confirmed by our electron energy loss and cathodoluminescence measurements on multilayer membranes, suspended nanoparticles, and film-coupled nanostructures. Strikingly, we reveal that our approach can retrieve resonance excitation completely buried underneath the zero-loss peak, substantially enhance the quality of hyperspectral imaging, and resolve entangled multiple-photon-electron events in their quantum interaction. Our findings indicate the versatile utility of complex frequency waves in various electron-beam spectroscopy and their promising diagnostic capabilities in free-electron quantum optics.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a755d1f6b6f0a11927d705a798c0eed4da95e8f9330c15e1149d9a61d336afb7",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jctc.6c00695",
+        "https://openalex.org/W7163063766"
+      ],
+      "title": "Integrating Conformational Sampling and Siamese Learning to Predict Mutation-Induced Binding Affinity Changes in Abelson Tyrosine Kinase and Its Ligands",
+      "link": "https://doi.org/10.1021/acs.jctc.6c00695",
+      "pdf_url": null,
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Theory and Computation",
+      "authors": [
+        {
+          "key": "liangxu xie",
+          "name": "Liangxu Xie"
+        },
+        {
+          "key": "ma teng",
+          "name": "Teng Ma"
+        },
+        {
+          "key": "lu xiaohua",
+          "name": "Xiaohua Lu"
+        },
+        {
+          "key": "dawei zhang",
+          "name": "Dawei Zhang"
+        },
+        {
+          "key": "lei xu",
+          "name": "Lei Xu"
+        },
+        {
+          "key": "mingjun yang",
+          "name": "Mingjun Yang"
+        },
+        {
+          "key": "jeong seob young",
+          "name": "Young-Seob Jeong"
+        },
+        {
+          "key": "chang shan",
+          "name": "Shan Chang"
+        },
+        {
+          "key": "xiaojun xu",
+          "name": "Xiaojun Xu"
+        }
+      ],
+      "abstract_text": "Predicting the impact of mutations on protein-ligand binding affinity is crucial in drug discovery, particularly in addressing drug resistance and repurposing existing drugs. Conventional structure-based methods are often limited by their reliance on static cocrystal structures. To address this, we integrate AlphaFold 2 (AF2) subsampling with a Siamese neural network to predict mutation-induced changes in the relative binding affinity. By leveraging AF2 subsampling, we generated conformational ensembles for Abelson tyrosine kinase (ABL) mutants, shifting the paradigm from single-point predictions to an ensemble-based approach that accounts for intrinsic structural flexibility. Furthermore, we augmented the data set by pairing the generated conformations with reference states, followed by the identification of structurally relevant states via a most probable distribution analysis. To facilitate relative affinity prediction, we developed SIGMA-Net (Siamese structure and graph-aware multistructural affinity prediction network), which was employed to discern features between wild-type and mutant states, enabling free-energy predictions with chemically meaningful accuracy. Benchmarking on the tyrosine kinase inhibitors (TKI) data set and the refined set of PDBbind, our proposed approach achieves higher correlation coefficients for five of six TKI molecules across 31 ABL mutants, outperforming molecular docking and trichannel graph network (TriG-Net). By integrating conformational sampling with Siamese learning, our method enhances both the predictive accuracy and robustness. It achieves absolute binding free energy (ABFE) prediction performance comparable to that of state-of-the-art models such as Boltz-2, whereas Boltz-2 demonstrates better performance in relative binding free energy (RBFE) prediction in the evaluated systems. This framework effectively transcends the limitations of static structure dependence, providing a transferable solution for modeling protein-ligand interactions in highly flexible drug targets.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3648,6 +3848,80 @@
       "curated_categories": []
     },
     {
+      "id": "a77686e89c68655257436eda55e4ccdad5a69df43205167165edf835f4133d5d",
+      "identity_keys": [
+        "https://doi.org/10.1021/acscatal.5c03170",
+        "https://openalex.org/W4416486746"
+      ],
+      "title": "ESTEEM Strategy: Revolutionizing Enzymatic Catalysis through the Evolutionary Gateway of Enzyme Tunnels",
+      "link": "https://doi.org/10.1021/acscatal.5c03170",
+      "pdf_url": null,
+      "publication_date": "2025-11-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Catalysis",
+      "authors": [
+        {
+          "key": "dong ruyue",
+          "name": "Ruyue Dong"
+        },
+        {
+          "key": "jiaying wang",
+          "name": "Jiaying Wang"
+        },
+        {
+          "key": "jian tian",
+          "name": "Jian Tian"
+        },
+        {
+          "key": "guoshun xu",
+          "name": "Guoshun Xu"
+        },
+        {
+          "key": "liang ziqi",
+          "name": "Ziqi Liang"
+        },
+        {
+          "key": "qin xing",
+          "name": "Xing Qin"
+        },
+        {
+          "key": "wang xiaolu",
+          "name": "Xiaolu Wang"
+        },
+        {
+          "key": "liu xiaoqing",
+          "name": "Xiaoqing Liu"
+        },
+        {
+          "key": "huiying luo",
+          "name": "Huiying Luo"
+        },
+        {
+          "key": "bin yao",
+          "name": "Bin Yao"
+        },
+        {
+          "key": "wang yaru",
+          "name": "Yaru Wang"
+        },
+        {
+          "key": "tao tu",
+          "name": "Tao Tu"
+        }
+      ],
+      "abstract_text": "Elucidating enzyme behavior and engineering highly efficient biocatalysts remain fundamental challenges in biocatalysis. Despite advances in enzyme engineering, significant optimization opportunities persist. Herein, we introduce the Evolutionary-Structural Tuning of Enzyme Efficiency Modules (ESTEEM) strategy, which integrates evolutionary principles with structural scaffold analysis to accelerate enzyme design. Using cytochrome P450 monooxygenase (P450s)─enzymes with deeply buried active sites and intricate substrate tunnels─as models, we identified key nonconserved residues (I67 and Q83) within the substrate tunnel. These distal positions critically influence tunnel architecture, and their mutation dramatically enhanced catalytic efficiency. The optimal double-variant exhibited a 106-fold increase in total turnover number without compromising stability while simultaneously broadening the substrate scope. Through adaptive steered molecular dynamics and hydrogen–deuterium exchange mass spectrometry, we uncovered a tunnel-mediated tuning mechanism: activity differences between variants and wild type were governed by a rigidity-flexibility balance in the scaffold, which modulates catalytic efficiency by stabilizing tunnel geometry. Experimental validation and retrospective analysis confirmed the robustness of the ESTEEM strategy. This study establishes how tunnel mutations stabilize substrate transport pathways to enhance catalysis, providing a framework for engineering enzymes specialized activity toward substrates requiring deeply recessed active sites─advancing applications in biocatalysis and synthetic biology.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a7778b8901f592add987423b974e7e985788f910f8a1a75862cf52e7ce844b45",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75148-9",
@@ -4061,6 +4335,68 @@
         }
       ],
       "abstract_text": "Continuous in vivo monitoring of biomarkers remains challenging due to limited sensitivity, integration, and biocompatibility. Here, we report an integrated microneedle-based electrochemiluminescence device (MN-ECLD) for real-time detection of protein biomarkers in interstitial fluid. Leveraging hydrogen-bonded organic frameworks with ultrabright, biocompatible electrochemiluminescence, the emitters were incorporated into porous gold-coated microneedle arrays and regulated via interface-specific Y-shaped probes, enabling efficient coreactant-free signal generation. The device achieved ultrasensitive protein detection in vitro with a linear range of 100 fg/mL to 10 ng/mL, a detection limit of 21.3 fg/mL, and stability over 12 days, delivering an 87-fold sensitivity enhancement over conventional emitters. In vivo, MN-ECLD enabled real-time monitoring of cardiac biomarkers, achieving early warning of acute myocardial infarction in rats and pigs, with biomarker trends consistent with serum ELISA. This work establishes a versatile platform for continuous in vivo diagnostics of acute cardiovascular and metabolic disorders.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a78dda2bea9fcf118bf66bef35ee3d871ae4d3c108298a09f52d7f90949205ec",
+      "identity_keys": [
+        "https://doi.org/10.1111/tpj.70593",
+        "https://openalex.org/W4416581900"
+      ],
+      "title": "PPEPFinder : A deep learning framework integrating sequence embeddings and structural graph representations for predicting fungal and oomycete effector proteins",
+      "link": "https://doi.org/10.1111/tpj.70593",
+      "pdf_url": null,
+      "publication_date": "2025-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Plant Journal",
+      "authors": [
+        {
+          "key": "mengdi yuan",
+          "name": "Mengdi Yuan"
+        },
+        {
+          "key": "shaoke zhang",
+          "name": "Shaoke Zhang"
+        },
+        {
+          "key": "jiajun li",
+          "name": "Jiajun Li"
+        },
+        {
+          "key": "jingyan zheng",
+          "name": "Jingyan Zheng"
+        },
+        {
+          "key": "chenping lei",
+          "name": "Chenping Lei"
+        },
+        {
+          "key": "wang zhuojun",
+          "name": "Zhuojun Wang"
+        },
+        {
+          "key": "miao zhao",
+          "name": "Miao Zhao"
+        },
+        {
+          "key": "shi wenyu",
+          "name": "Wenyu Shi"
+        },
+        {
+          "key": "zhang ziding",
+          "name": "Ziding Zhang"
+        }
+      ],
+      "abstract_text": "Plant pathogens, such as fungi and oomycetes, primarily rely on the secretion of effector proteins to successfully colonize host plants and suppress immune responses, ultimately leading to disease symptoms. Therefore, accurately identifying these effector proteins is crucial for understanding the pathogenic mechanisms and developing strategies for disease resistance. However, the current effector protein identification mainly depends on experimental screening methods, which are labor-intensive and costly. In recent years, the rapid development of deep learning approaches and the emergence of protein language models (PLMs) have presented unprecedented opportunities for developing new bioinformatics methods to identify effector proteins. In this context, we propose Plant Pathogen Effector Protein Finder (PPEPFinder), an integrated deep learning framework designed to predict effector proteins of fungi and oomycetes. PPEPFinder consists of three individual predictive models: (i) a sequence-based transformer model that utilizes rich semantic embeddings generated by a pre-trained PLM, Evolutionary Scale Modeling (ESM), as input; (ii) two structure-based Graph Attention Network models that represent protein structures as residue contact graphs using the ESM-generated embeddings or the structure pre-trained model SaProt embeddings as node features. To maximize the predictive performance, PPEPFinder employs a logistic regression model to aggregate the three predictors' outputs into a final prediction score. Compared to existing state-of-the-art effector prediction tools, PPEPFinder demonstrates superior performance by jointly leveraging sequence and structural information. We have made PPEPFinder and its associated datasets freely accessible to the community through an online prediction server (http://zzdlab.com/PPEPFinder/) and GitHub (https://github.com/mdiyuan/PPEPFinder).",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5728,6 +6064,461 @@
         }
       ],
       "abstract_text": "Mycobacterium tuberculosis uses five ESX systems to secrete effector proteins with distinct functions essential for the pathogen’s growth and virulence. The current paradigm assumes that each ESX system secretes a distinct set of effector proteins. Here, we show that the EsxU-EsxT proteins, associated with the ESX-4 system, and the EsxE-EsxF proteins, encoded in the toxin operon cpnT, form a supercomplex that is required not only for toxin secretion, but also for outer membrane localization and for secretion of all Esx proteins into the cytosol of infected macrophages. Secretion of non-Esx proteins such as EspB, proteins involved in iron uptake, and PPE62, which are dependent on ESX-1, ESX-3 and ESX-5, respectively, also requires the EsxUT-EsxEF supercomplex. The mutual functional dependency of EsxEF and EsxUT on each other for outer-membrane localization synchronizes effector protein secretion, enabling M. tuberculosis to block phagosomal maturation and to permeabilize the phagosomal membrane when the pathogen is capable of killing host cells by toxin secretion. The requirement of the ESX-4 system for general secretion of ESX-dependent proteins in vivo is a critical vulnerability that could be targeted by drugs and/or in vaccines to simultaneously block many virulence factors of M. tuberculosis. Mycobacterium tuberculosis uses five ESX systems to secrete multiple effector proteins that are essential for the pathogen’s growth and virulence. Here, Nair et al. identify a protein complex that is required for outer-membrane localization and for secretion of all ESX-dependent proteins into the cytosol of infected macrophages.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a7ba6cefd5362824120b6bf63d83af4caa0c3620e6f445cbf26fd1add28e683b",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2024-11.3284274/3700369",
+        "https://doi.org/10.25582/data.2024-11.3284834/3700370",
+        "https://doi.org/10.25582/data.2024-11.3284835/3700371",
+        "https://doi.org/10.25582/data.2024-11.3284836/3700372",
+        "https://doi.org/10.25582/data.2024-11.3284837/3700373",
+        "https://doi.org/10.25582/data.2024-11.3284838/3700374",
+        "https://doi.org/10.25582/data.2024-11.3284839/3700375",
+        "https://doi.org/10.25582/data.2024-11.3284846/3700376",
+        "https://doi.org/10.25582/data.2024-11.3284847/3700377",
+        "https://doi.org/10.25582/data.2024-11.3285637/3700378",
+        "https://doi.org/10.25582/data.2024-11.3289948/3700379",
+        "https://doi.org/10.25582/data.2024-11.3289956/3700380",
+        "https://doi.org/10.25582/data.2024-11.3290239/3700381",
+        "https://doi.org/10.25582/data.2024-11.3291335/3700382",
+        "https://doi.org/10.25582/data.2024-11.3291474/3700383",
+        "https://doi.org/10.25582/data.2024-11.3291475/3700384",
+        "https://doi.org/10.25582/data.2024-11.3291476/3700385",
+        "https://doi.org/10.25582/data.2024-11.3293079/3700386",
+        "https://doi.org/10.25582/data.2024-11.3295781/3699324",
+        "https://doi.org/10.25582/data.2024-11.3300161/3699325",
+        "https://doi.org/10.25582/data.2024-11.3300759/3699326",
+        "https://doi.org/10.25582/data.2024-11.3309525/3697826",
+        "https://doi.org/10.25582/data.2024-11.3309531/3697827",
+        "https://doi.org/10.25582/data.2024-11.3309544/3697828",
+        "https://doi.org/10.25582/data.2024-11.3312297/3697829",
+        "https://doi.org/10.25582/data.2024-11.3312298/3697830",
+        "https://doi.org/10.25582/data.2024-11.3312311/3697831",
+        "https://doi.org/10.25582/data.2024-11.3312624/3697832",
+        "https://doi.org/10.25582/data.2024-11.3312647/3697833",
+        "https://doi.org/10.25582/data.2024-11.3312820/3697834",
+        "https://openalex.org/W7212107250"
+      ],
+      "title": "Data for EMSL Project 50414 from November 2024",
+      "link": "https://doi.org/10.25582/data.2024-11.3291335/3700382",
+      "pdf_url": null,
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -511,13 +511,16 @@
           "url": "https://openalex.org/"
         },
         {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "Protein analysis",
+        "Review"
+      ]
     },
     {
       "id": "e8247cd26c34c1b06988ab9bd7893714d63d1a5cb23ddb95f5e93c01b6e08fcd",
@@ -1211,6 +1214,48 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e84bde2bbbf755b3232538e7e1c903ec693bcd7384a10e74d3400d5450316514",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.22.701204",
+        "https://openalex.org/W7125587008"
+      ],
+      "title": "ESMDisPred: A Structure-Aware CNN-Transformer Architecture for Intrinsically Disordered Protein Prediction",
+      "link": "https://doi.org/10.64898/2026.01.22.701204",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/24/2026.01.22.701204.full.pdf",
+      "publication_date": "2026-01-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "kabir md ul wasi",
+          "name": "Md Wasi Ul Kabir"
+        },
+        {
+          "key": "ayon dey",
+          "name": "Ayon Dey"
+        },
+        {
+          "key": "farzeen nafees",
+          "name": "Farzeen Nafees"
+        },
+        {
+          "key": "hoque md tamjidul",
+          "name": "Md Tamjidul Hoque"
+        }
+      ],
+      "abstract_text": "Intrinsically disordered proteins (IDPs) lack stable three-dimensional structures, yet play vital roles in key biological processes, including signaling, transcription regulation, and molecular scaffolding. Their structural flexibility presents significant challenges for experimental characterization and contributes to diseases such as cancer and neurodegenerative disorders. Accurate computational prediction of IDPs is important for advancing research and drug discovery, structural biology, and protein engineering. In this study, we introduce ESMDisPred, a novel structure-aware disorder predictor that builds on the representational power of Evolutionary Scale Modeling-2 (ESM2) protein language models. ESMDisPred integrates sequence embeddings with structural information from the Protein Data Bank (PDB) to deliver state-of-the-art prediction accuracy. Model performance is further enhanced through feature engineering strategies, including terminal residue encoding, statistical summarization, and sliding-window analysis. To capture both local sequence motifs and long-range dependencies, we designed a hybrid CNN-Transformer architecture that balances convolutional efficiency with the representational power of self-attention. On CAID3 benchmarks, our latest model achieves ROC-AUC 0.895, AP 0.778, and a max F1 of 0.759, outperforming recent methods. Our results highlight the importance of integrating protein language model embeddings with explicit structural information for improved disorder prediction.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2454,6 +2499,40 @@
       "curated_categories": []
     },
     {
+      "id": "e898a311f59a329279584aef6c0d8c4ac7d661e230b7eb369ef77f50b06b2896",
+      "identity_keys": [
+        "https://doi.org/10.21608/ajps.2026.504589",
+        "https://openalex.org/W7161774483"
+      ],
+      "title": "DISCOVERY OF A NOVEL PHENYLAMINE-PURINE CHEMOTYPE AS A POTENTIAL EGFR INHIBITOR USING AN INTEGRATED AI-DRIVEN DRUG DESIGN PIPELINE",
+      "link": "https://doi.org/10.21608/ajps.2026.504589",
+      "pdf_url": null,
+      "publication_date": "2026-05-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Al-Azhar Journal of Pharmaceutical Sciences/Al-Azhar Journal of Pharmaceutical Sciences",
+      "authors": [
+        {
+          "key": "ahmed hany",
+          "name": "Hany E. A. Ahmed"
+        },
+        {
+          "key": "abdullah ashraf",
+          "name": "Abdullah Ashraf"
+        }
+      ],
+      "abstract_text": "The discovery of novel Epidermal Growth Factor Receptor (EGFR) inhibitors remains critical for overcoming resistance in targeted oncology. We report a fully integrated, artificial intelligence-driven drug discovery pipeline combining generative modeling, structure-based virtual screening, bioactivity prediction, and molecular dynamics. Using the generative deep-learning model DrugGen, we autonomously designed over 8,000 novel compounds, filtering candidates through hierarchical molecular docking and the BOLTZ-2 deep-learning activity predictor. This methodology successfully identified a structurally unique phenylamine-purine scaffold (PPH) that diverges from traditional quinazoline-based inhibitors. PPH demonstrated a highly favorable docking score (−10.811) compared to the reference drug Erlotinib (−9.261), establishing critical stabilizing hydrogen bonds with Asp831, Met769, and Lys721 within the ATP-binding pocket. Subsequent 100 ns molecular dynamics simulations confirmed the long-term dynamic stability of the PPH-EGFR complex. Furthermore, in silico ADME analysis validated the scaffold's favorable drug-like properties, establishing the AI-generated phenylamine-purine core as a highly promising, novel chemotype for next-generation EGFR inhibition.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e89aac01ca211b536ec187cac8e30e342a0c9b458159286eb8bcf0a7190694b3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67312-4",
@@ -3176,6 +3255,12 @@
       ],
       "abstract_text": "ABSTRACT Recent advances in artificial intelligence technologies have accelerated the development of computational protein design techniques. Although the structure of the designed proteins has been the primary focus, diversity of designed amino acid sequences is another important aspect of protein design. To address the trade-off between reducing sequence similarity and improving structural similarity, simultaneous optimization of these two objectives can be effective. We present a method that integrates ProteinMPNN with the multi-objective optimization algorithm NSGA-II to design proteins that retain high structural similarity to a target while exhibiting low sequence similarity. Using Top7 as a reference protein, we demonstrate that our approach improves sequence diversity compared to the original ProteinMPNN while maintaining comparable structural similarity.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

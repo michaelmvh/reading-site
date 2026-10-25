@@ -1578,6 +1578,60 @@
       "curated_categories": []
     },
     {
+      "id": "fb4b161b8d59288d5f86a2c89c0e26026a20110dadcfdc0537e44b6dd9e3ee8d",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41746-026-03059-6",
+        "https://openalex.org/W7172522795"
+      ],
+      "title": "Computational design of multi-objective optimized peptide disrupting Tim-3 galectin9 checkpoint",
+      "link": "https://doi.org/10.1038/s41746-026-03059-6",
+      "pdf_url": "https://www.nature.com/articles/s41746-026-03059-6_reference.pdf",
+      "publication_date": "2026-08-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "npj Digital Medicine",
+      "authors": [
+        {
+          "key": "huihui yan",
+          "name": "Huihui Yan"
+        },
+        {
+          "key": "chen jiayi",
+          "name": "Jiayi Chen"
+        },
+        {
+          "key": "weijia yang",
+          "name": "Weijia Yang"
+        },
+        {
+          "key": "yiwen zhang",
+          "name": "Yiwen Zhang"
+        },
+        {
+          "key": "buyong ma",
+          "name": "Buyong Ma"
+        },
+        {
+          "key": "huang ping",
+          "name": "Ping Huang"
+        },
+        {
+          "key": "ge minghua",
+          "name": "Minghua Ge"
+        }
+      ],
+      "abstract_text": "T cell exhaustion remains a major obstacle to effective cancer immunotherapy. The immune checkpoint TIM-3 is a key driver of this dysfunction. Although blocking the TIM-3/Galectin-9 interaction holds therapeutic promise, clinical translation has been limited by tumor immune evasion mechanisms. Here, we developed a multi-constraint peptide generation algorithm that integrates electrostatic, hydrophobic, solvent accessibility, hydrogen bonding, volume, and polarity matching as key affinity determinants. Candidates achieving high composite scores are then subjected to molecular docking to evaluate binding poses and binding energies against the TIM-3 receptor pocket. Top-ranked candidates from docking subsequently undergo molecular dynamics simulations to assess binding stability and conformational fidelity. Ten candidate peptides were synthesized via solid-phase methods. Among them, the lead peptide AT3P19 effectively disrupted the TIM-3/Galectin-9 axis and restored CD8⁺ T cell function, as evidenced by increased production of IFN‑γ, IL‑2, and TNF‑α along with reduced apoptosis. To democratize this approach, we established an open web platform (MCSE, https://slb.hospitalstar.com:7008 ) that implements the full algorithm, enabling users to perform de novo peptide design and evaluation for immune checkpoint targets. This work establishes a physicochemical framework for rational design of immune checkpoint modulators, paving the way for next-generation peptide-based immunotherapies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fb51707e3846f3f5e6cda9a4fc3065e0b0169b00f8dca1ff6d6b9e260fea0f36",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-09931-x",
@@ -2653,6 +2707,104 @@
       "curated_categories": []
     },
     {
+      "id": "fb7d6fe12717bee65325a6e57e6eb4ff5dc961126d4e11679fe9c286d073177c",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.19.759896",
+        "https://openalex.org/W7222999074"
+      ],
+      "title": "Reliable and Efficient Agentic Protein Design with Toolset Harnessing",
+      "link": "https://doi.org/10.64898/2026.10.19.759896",
+      "pdf_url": null,
+      "publication_date": "2026-10-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "butcher jasper",
+          "name": "Jasper Butcher"
+        },
+        {
+          "key": "chen jie",
+          "name": "Jie Chen"
+        },
+        {
+          "key": "andrew hunt",
+          "name": "Andrew Hunt"
+        },
+        {
+          "key": "cyrus haas",
+          "name": "Cyrus M. Haas"
+        },
+        {
+          "key": "dai wenzhao",
+          "name": "Wenzhao Dai"
+        },
+        {
+          "key": "shajesh sharma",
+          "name": "Shajesh Sharma"
+        },
+        {
+          "key": "mitra raktim",
+          "name": "Raktim Mitra"
+        },
+        {
+          "key": "salike saman",
+          "name": "Saman Salike"
+        },
+        {
+          "key": "jeremy koob",
+          "name": "Jeremy G. Koob"
+        },
+        {
+          "key": "aiko muraishi",
+          "name": "Aiko Muraishi"
+        },
+        {
+          "key": "li zhe",
+          "name": "Zhe Li"
+        },
+        {
+          "key": "harley pyles",
+          "name": "Harley Pyles"
+        },
+        {
+          "key": "dominik michael tyka",
+          "name": "Michael Dominik Tyka"
+        },
+        {
+          "key": "bauer magnus",
+          "name": "Magnus S. Bauer"
+        },
+        {
+          "key": "brent rafi",
+          "name": "Rafi I. Brent"
+        },
+        {
+          "key": "anant mittal",
+          "name": "Anant Mittal"
+        },
+        {
+          "key": "king neil",
+          "name": "Neil P. King"
+        },
+        {
+          "key": "baker david",
+          "name": "David Baker"
+        }
+      ],
+      "abstract_text": "Abstract Computational protein design workflows require the orchestration of multiple tools, data formats, and analysis steps that are often fragmented. Here, we introduce Chaperone, a lightweight and customizable framework that enables seamless integration of RFdiffusion3 (RFD3) [1] with downstream sequence design, structure prediction, and evaluation tools, including ProteinMPNN [2], AlphaFold3 (AF3) [3], and more than 50 other protein design tools. By combining a programmable agent-friendly interface with parallelized execution on high-performance computing systems, Chaperone as a harness enables rapid iteration and scalable exploration of complex protein design workflows. Across an evaluation of nine biomolecular design tasks, we find using Chaperone reduces total token usage relative to baseline agents by 86% and GPU costs by 64%, while increasing the overall computational design pass rate. We demonstrate Chaperone’s utility for large-scale design-space exploration through a two-week end-to-end small-molecule binder design campaign, yielding low nanomolar binders to cortisol zero shot. We further demonstrate its versatility across distinct design challenges, including the design of a symmetric 12-subunit self-assembly nanoparticle and a linker that mediates interactions between C2- and D3-symmetric protein complexes to form crystalline assemblies. Together, these results demonstrate how agent harnesses built around standardized tool interfaces can substantially improve the efficiency and success of complex, long-horizon agentic design workflows in biology. We make Chaperone freely available to the community on GitHub: https://github.com/RosettaCommons/chaperone .",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fb7fd09846d168d937be14191017f16ec661432c5c1efba48cad7f604051165d",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02572-8",
@@ -2676,6 +2828,40 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fb7fd23522d1e4d67ac29580a6b4858a2ec299f655031a75af1ad81b5564314a",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.02.748856",
+        "https://openalex.org/W7208824799"
+      ],
+      "title": "BAGEL-CAR: Reflections on the Bits to Binders Competition",
+      "link": "https://doi.org/10.64898/2026.09.02.748856",
+      "pdf_url": null,
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jakub lála",
+          "name": "Jakub Lála"
+        },
+        {
+          "key": "angioletti stefano uberti",
+          "name": "Stefano Angioletti‐Uberti"
+        }
+      ],
+      "abstract_text": "A bstract The antigen-binding segment of chimeric antigen receptors (CARs) in CAR-T therapy has emerged as a compelling application of de novo AI protein design. In the Bits to Binders competition, our group submitted 414 BAGEL-CAR designs for CD20-directed CAR binding segments, 38.4% of which were statistically enriched in a pooled CAR-T proliferation screen, the highest among all teams and more than double the next-best. Strikingly, aŁer detailing the three design strategies employed, we show that two of them carry the entire success of our campaign, with both of them outcompeting all the other teams’ aggregate results. Crucially, during the competition, we did not refold any of the binders aŁer backbone painting. Had we applied this typical validation step with ESMFold, all experimentally enriched designs would have been filtered out. Our findings show that each filtering step should be stress-tested per biomolecular system and intermediate outputs of design pipelines should be assayed regardless of ‘common practice’. Additionally, we appear to be the only team that designed against ESMFold’s predicted CD20 dimer geometry, which diverges substantially from the experimentally resolved 6Y97 structure, raising, but not resolving, the possibility that this alternative target geometry contributed to our high hit rate. We hope these reflections help inform the future of effective CAR-T and binder design campaigns. Abstract Figure",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3094,6 +3280,56 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fb9996c7bab7b3178d56c350d8f0b3afbf46b459e7f63bc565636e5609b3425b",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.synbio.2026.05.019",
+        "https://openalex.org/W7171530536"
+      ],
+      "title": "Artificial intelligence catalyzes antimicrobial peptide design",
+      "link": "https://doi.org/10.1016/j.synbio.2026.05.019",
+      "pdf_url": null,
+      "publication_date": "2026-07-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Synthetic and Systems Biotechnology",
+      "authors": [
+        {
+          "key": "liu yongqiang",
+          "name": "Yongqiang Liu"
+        },
+        {
+          "key": "hu jie",
+          "name": "Jie Hu"
+        },
+        {
+          "key": "ning zhang",
+          "name": "Ning Zhang"
+        },
+        {
+          "key": "bai yinqi",
+          "name": "Yinqi Bai"
+        },
+        {
+          "key": "yao yuan",
+          "name": "Yuan Yao"
+        },
+        {
+          "key": "chen gaoxiang",
+          "name": "Gaoxiang Chen"
+        }
+      ],
+      "abstract_text": "With broad-spectrum, low resistance, and multifunctional properties, antimicrobial peptides (AMPs) are promising therapeutic agents against drug-resistant pathogens, yet their discovery and optimization still remain challenging due to the complexity of sequence-function associations. Artificial intelligence (AI), through the construction of comprehensive data-driven models that assisted with miscellaneous learning strategies, enables de novo peptide design by learning latent representations inherent in peptide sequences as well as their biological properties to ensure physically plausible and biologically relevant predictions. Consequently, this paradigm enhances the likelihood of designing peptide candidates with significantly improved therapeutic potential, reducing resource-intensive trial-and-error processes and revealing the transformative impact of computational innovation in advancing next-generation therapeutics. Here, we provide a snapshot of this field and survey two modes of AI-driven technologies for AMP design, one concentrated on identifying whether current data possess antimicrobial activity (identification-oriented) and the other on generating AMP candidates with potential therapeutic properties (generation-oriented). We also highlight the challenges and limitations that still hinder AMP development even accelerated by AI, as well as the foreseeable prospects, from finer-grained explorations to model-driven data enrichment and model enhancement.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3560,6 +3796,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2025.12.12.694021v2",
         "https://doi.org/10.64898/2025.12.12.694021",
+        "https://www.biorxiv.org/content/early/2025/12/16/2025.12.12.694021.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/24/2025.12.12.694021.source.xml"
       ],
       "title": "spaTransfer: transfer learning for single-cell and spatial transcriptomics data using non-negative matrix factorization",
@@ -3807,12 +4044,6 @@
       ],
       "abstract_text": "Symmetric histone recycling is vital for maintaining epigenetic inheritance upon eukaryotic DNA replication. Recent genome-wide studies have uncovered key determinants of this process, but how these factors collectively support parental histone transfer remains incompletely understood. Here, we successfully reconstitute histone recycling with 24 purified proteins and analyze the products digested by Micrococcal nuclease with Repli-pore-seq, the newly developed pipeline combining nanopore sequencing and deep-learning-based classification. As a result, we identify histones symmetrically recycled as tetrasomes or hexasomes on nucleosome-favorable sequences. We also observe the discordance of the recycled position between lagging and leading strands on the GC-rich DNA sequences. Moreover, removal of Pol δ, Pol32, Dpb3/4, Ctf4, Csm3/Tof1, or Mrc1 disrupts the balance of histone recycling between the two daughter strands, whereas removal of Ctf4, Csm3/Tof1, or Mrc1 additionally alters the positions at which histones were recycled. Furthermore, addition of the lagging-strand maturation factors Fen1 and Cdc9 enhances histone recycling to the lagging strand. These findings provide critical insights into the molecular players and mechanisms underlying symmetric histone recycling.",
       "discovery_sources": [
-        {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
-        },
         {
           "kind": "open_alex",
           "key": "openalex",
@@ -4087,6 +4318,36 @@
         }
       ],
       "abstract_text": "The purification of water contaminated by persistent organic pollutants remains a critical global challenge, largely due to the intrinsic trade-off between high catalytic activity and long-term stability in advanced oxidation processes. Despite the tremendous potential of single-atom catalysis, its traditional static design strategies cannot adapt to dynamic and multi-step reactions. Here, we break the limitation of this static design by reporting a domino catalysis within a heteronuclear MgCo dual-single-atom catalyst. In this system, the Mg site selectively photoreduces O2 to H2O2 under light irradiation. This in-situ generated H2O2 and its derived surface hydroxyl groups act as dynamic modulators, progressively tailoring the electronic structure of the adjacent Co site. This on-demand electronic refinement optimally lowers the energy barriers for subsequent peroxymonosulfate activation and radical desorption, thereby driving efficient pollutant degradation while intrinsically stabilizing the Co center against leaching. Experiments and theoretical calculations elucidate that this seamless and spatially ordered cascade avoids competitive adsorption and maximizes efficiency. The system exhibits the highest normalized rate constant of 595.3 min−1 M−1 among various refractory contaminants over thirty regeneration cycles, outperforming the most state-of-the-art catalytic systems. This work introduces a dynamic and self-evolving catalytic approach that breaks the traditional activity-stability trade-off, suggesting a potential pathway toward effective and sustainable water purification technologies. The authors develop a domino catalytic system that dynamically reconstructs active sites’ electronic structure, lowering reaction barriers and inhibiting metal leaching for efficient and durable water purification.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fbce741d56ccd93d09a9ffbf9466957f27a504119307e5bc31c26992638c3c2d",
+      "identity_keys": [
+        "https://doi.org/10.1080/19420862.2026.2703349",
+        "https://openalex.org/W7170033417"
+      ],
+      "title": "Glycosylation penetrance of N-X-S/T sequons in antibody variable domains: a structural survey of 19,265 human antibody structures reassessing the histidine/glutamine suppression hypothesis",
+      "link": "https://doi.org/10.1080/19420862.2026.2703349",
+      "pdf_url": null,
+      "publication_date": "2026-07-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "mAbs",
+      "authors": [
+        {
+          "key": "christopher gaughan",
+          "name": "Christopher L. Gaughan"
+        }
+      ],
+      "abstract_text": "Machine learning (ML) approaches for de novo antibody design generate thousands of candidate sequences, but most lack a robust assessment of post-translational modification liabilities. N-linked glycosylation in variable domains can fundamentally alter antibody function, yet current penetrance estimates are derived from glycosylation-enriched datasets inflating risk estimates. We surveyed 19,265 human antibody structures from the Protein Data Bank (PDB), identifying 1,368 N-X-S/T sequons in variable domains (this study) with 7.82% observed penetrance (107/1,368; Wilson 95% CI 6.5–9.4%) – a crystallographic lower bound reflecting selection against glycosylated structures in the PDB – compared with 16.47% from a previously published glycosylation-enriched corpus. At the X-position, no glycosylation was observed at histidine (0/61; Wilson 95% upper bound 5.9%), lysine (0/26; upper bound 12.9%), or tryptophan (0/26), consistent with suppression. Glutamine showed 6.45% penetrance (2/31), indistinguishable from baseline and refuting its prior classification as a suppressor. Variable light domains showed higher aggregate penetrance than variable heavy (9.62% vs 6.79%; Fisher OR = 1.46, p = 0.075), though this contrast did not survive joint Bayesian adjustment. Regionally, FR2 was glycosylation-resistant (0/119) while FR1 (14.0%) and FR4 (12.1%) showed elevated rates. N-X-T sequons were 3.84-fold more susceptible than N-X-S in aggregate (13.64% vs 3.55%; Fisher exact p = 8.13 × 10−12, OR = 4.29). An independent PDB-overlap-free validation subset (n = 449, 33 glycosylation events, 189 nonoverlapping PDBs) reproduced the central findings. Leakage-corrected Bayesian logistic regression confirmed the N-X-T preference as the most prior-stable effect and identified strong negative coefficients for proline and aromatic residues at the +3 position immediately C-terminal to the sequon; the histidine effect at the X-position was borderline under prior sensitivity. We present a confidence-interval-aware decision tree that integrates X-position, third-position, chain type, and regional context as a sequence-only triage instrument for ML-designed antibody candidates.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4666,6 +4927,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.08.03.742406v2",
         "https://doi.org/10.64898/2026.08.03.742406",
+        "https://www.biorxiv.org/content/early/2026/08/07/2026.08.03.742406.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/23/2026.08.03.742406.source.xml"
       ],
       "title": "Reference-free and robust copy number inference in single-cell tumor transcriptomes",
@@ -4840,6 +5102,36 @@
         }
       ],
       "abstract_text": "Solar energy conversion mediated by natural semiconducting minerals constitutes an abiotic pathway in terrestrial environments, but the drivers and biogeochemical consequences of this process remain poorly understood. Here, based on national-scale field and laboratory measurements, we identify silicate-bound iron, particularly a goethite-kaolinite association, as the primary photoelectrochemical response driver. An S-scheme heterojunction at the goethite-kaolinite interface enhances photogenerated carrier separation, yielding a photocurrent density four times that of pure goethite. A model predicts higher soil photogenerated electron fluxes in warm-humid regions, where intense weathering promotes secondary silicate-bound iron formation. Process-specific theoretical upper-bound estimates suggest that these photogenerated electrons could support alternative metabolic pathways in microorganisms (supplying ~0.01-3.49% of the metabolic electron demand), drive elemental cycling (e.g., donating ~0.16-9.49% of the electrons required for the reductive dissolution of Fe oxides), and promote pollutant degradation (e.g., contributing ~8.20-49.4% of the electrons required for Cr(VI) reduction), highlighting a potential energy flow in surficial Earth systems. These findings reveal a mineral-mediated abiotic pathway for solar energy conversion that fuels biogeochemical processes and sustains ecosystem functions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fbf5d2d43fb6c086bda478508fd73fe56f29cbcb1f79dc3a040777d4e46d01bc",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-11133200/v1",
+        "https://openalex.org/W7214146619"
+      ],
+      "title": "Disclosed and Undisclosed GPU Hardware Exclusion Across the Modern Protein Structure Prediction and Design Toolchain: A Compute-Accessibility Audit",
+      "link": "https://doi.org/10.21203/rs.3.rs-11133200/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-11133200/latest.pdf",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "nanda siddhardha",
+          "name": "Siddhardha Nanda"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

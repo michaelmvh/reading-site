@@ -259,6 +259,56 @@
       "curated_categories": []
     },
     {
+      "id": "0119063f89dd7e20e4b23729f5df64b3981f0432c7606fc9d9acecfe4140ddaf",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.11.750936",
+        "https://openalex.org/W7213463753"
+      ],
+      "title": "A Turing-Style Test for In-Silico Antibodies: How Sampling Mode Makes WGAN-GP Beat VAE in the Wet Lab",
+      "link": "https://doi.org/10.64898/2026.09.11.750936",
+      "pdf_url": null,
+      "publication_date": "2026-09-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "arkadij kummer",
+          "name": "Arkadij Kummer"
+        },
+        {
+          "key": "farbod mahmoudinobar",
+          "name": "Farbod Mahmoudinobar"
+        },
+        {
+          "key": "liu wendi",
+          "name": "Wendi Liu"
+        },
+        {
+          "key": "davis wade",
+          "name": "J. Wade Davis"
+        },
+        {
+          "key": "eric ma",
+          "name": "Eric J. Ma"
+        },
+        {
+          "key": "kumar sandeep",
+          "name": "Sandeep Kumar"
+        }
+      ],
+      "abstract_text": "Abstract Recently, it has become feasible to generate antibodies in silico using AI-based approaches such as deep learning, natural language processing, and diffusion models. This opens the door to computational antibody design as a complement to laboratory-based methods (animal immunization, hybridoma technology, and molecular display) for biologic drug discovery. However, when proposing human antibody sequences, or libraries thereof, it remains essential to determine whether they can be expressed, purified, and biophysically characterized using standardized laboratory assays typically applied early in discovery campaigns. In this work, we devised a Turing imitation game inspired experiment to compare two deep learning methods, Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs), for generating experimentally viable de novo antibody sequences. A Wasserstein GAN with gradient penalty produced sequences that were successfully validated at a markedly higher rate (92/93; 99%) than those from a VAE (2/40; 5%). These contrasting outcomes can be rationalized by differences in model architecture and sampling strategies. Our findings highlight the promise of computationally driven discovery of antibody-based biotherapeutics.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "011f00fbe7dd226917ca4a9584aad0cc2b9bcfbcb25746fa65d8f7dbbc48c985",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68841-2",
@@ -328,6 +378,44 @@
         }
       ],
       "abstract_text": "The development of electronic devices for communication systems, radar warning, and satellite detection requires lightweight materials that exhibit exceptional electromagnetic interference (EMI) shielding while maintaining mechanical robustness. However, designing three-dimensional (3D) structured pristine graphene (PG) that achieves both high EMI shielding and substantial load-bearing capacity remains a significant challenge. In this work, an innovative method of 3D skeleton preconstruction-infiltration filling is proposed. This approach demonstrates that molten AZ91D is infiltrated into the 3D structured PG@pyrocarbon (PG@PyC), and its 3D structure can be maintained in the AZ91D matrix via a liquid-solid infiltration extrusion method. By utilizing this strategy, PG@PyC reinforced AZ91D matrix (PG@PyC/AZ91D) composites display remarkable comprehensive performance, realizing an EMI shielding effectiveness of 76.70 dB (at 3 mm thickness), ultimate compressive strength of 276 MPa, and ultimate tensile strength of 231 MPa. The developed composites are promising lightweight materials for the integration of structural and functional applications in complex environments. This work proposes an innovative method of 3D skeleton preconstruction-infiltration filling to construct a 3D pristine graphene@pyrocarbon skeleton in AZ91D, improving electromagnetic interference shielding and load bearing of the composites.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0127cca13e0b660f9b92863f97f116db90c81438889ffbdeff199e18e41bf546",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.chemrev.5c00990",
+        "https://openalex.org/W7169752525"
+      ],
+      "title": "De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design",
+      "link": "https://doi.org/10.1021/acs.chemrev.5c00990",
+      "pdf_url": null,
+      "publication_date": "2026-07-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Reviews",
+      "authors": [
+        {
+          "key": "anastassia andreevna vorobieva",
+          "name": "Anastassia Andreevna Vorobieva"
+        },
+        {
+          "key": "rituparna samanta",
+          "name": "Rituparna Samanta"
+        },
+        {
+          "key": "thillo toon van",
+          "name": "Toon Van Thillo"
+        }
+      ],
+      "abstract_text": "Protein nanopores offer a powerful platform for analytical applications by directly converting chemical properties into information-rich, single-molecule electrical readouts. However, engineering natural nanopores for sensing remains challenging due to the limited number of available scaffolds and evolutionary constraints on their geometries and chemistries. Recent advances in AI- and data-driven protein design are enabling increasingly complex membrane protein architectures, opening new possibilities for designing synthetic nanopores with tailored folds and functions. This review surveys the evolution of de novo nanopore design, from minimal sequences to AI-supported approaches, highlights emerging strategies, and outlines key challenges─including data scarcity, membrane modeling, and experimental characterization─that must be addressed to realize robust, programmable nanopores for next-generation sensing technologies.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1325,6 +1413,44 @@
         }
       ],
       "abstract_text": "Biological systems possess remarkable capabilities for self-recognition and morphological regeneration, often relying solely on local interactions. Inspired by these decentralized processes, we present a novel system of physical 3D bricks—simple cubic units equipped with local communication, processing, and sensing—that are capable of inferring their global shape class and detecting structural damage. Leveraging Neural Cellular Automata, a learned, fully-distributed algorithm, our system enables each module to independently execute the same neural network without access to any global state or positioning information. We demonstrate the ability of collections of hundreds of these cellular bricks to accurately classify a variety of 3D shapes through purely local interactions. The approach shows strong robustness to out-of-distribution shape variations and high tolerance to communication faults and failed modules. In addition to shape inference, the same decentralized framework is extended to detect missing or damaged components, allowing the collective to localize structural disruptions and to guide a recovery process. This work provides a physical realization of large-scale, decentralized self-recognition and damage detection, advancing the potential of robust, adaptive, and bio-inspired modular systems. Decentralized 3D cellular bricks utilize Neural Cellular Automata for shape classification and damage detection. Methods include local communication and processing, achieving high accuracy and robustness against faults, enabling adaptive, bio-inspired modular systems for real-world applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0154005ec6effc3d3359928066130002d2de487b936d0cd1081a2b3ab8297b38",
+      "identity_keys": [
+        "https://doi.org/10.64898/2025.12.15.694540",
+        "https://openalex.org/W7115942413"
+      ],
+      "title": "LoMuS: Low-Rank Adaptation with Multimodal Representations Improves Protein Stability Prediction",
+      "link": "https://doi.org/10.64898/2025.12.15.694540",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/12/18/2025.12.15.694540.full.pdf",
+      "publication_date": "2025-12-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "infante samuel trillos",
+          "name": "Samuel Infante Trillos"
+        },
+        {
+          "key": "akash singh",
+          "name": "Akash Singh"
+        },
+        {
+          "key": "anowarul kabir",
+          "name": "Anowarul Kabir"
+        }
+      ],
+      "abstract_text": "Abstract Protein folding stability is a key determinant for understanding protein dynamics, including molecular function, pathogenicity, and/or protein engineering. Yet, accurate prediction of protein stability changes remains a challenging problem due to the high-variability in the available data, especially from sequence-only information when structural knowledge is of low-resolution or unavailable. In this work, we introduce LoMuS, a Mu ltimodal deep learning model that combines two complimentary aspects of the molecule and predicts unnormalized protein S tability effect from the primary sequence as input. In the core of the model architecture, a fusion network integrates explicit physicochemical descriptors with Lo w-rank adapted protein language model derived embeddings from the sequence that shows powerful and accurate generalization ability across various benchmark settings for predicting protein folding stability changes. We compared and rigorously evaluated our model capacity spanning from fold-induced stability changes to mutation caused stability effect prediction. This includes benchmarking against various held-out protein domains, out-of-distribution label settings and per-protein evaluation. LoMuS consistently outperforms other sequence-only protein stability baselines. It achieves an absolute performance gain by an at least 10% in the spearman rank correlation metric for predicting protein stability across many held-out domains and out-of-distribution stability label predictions. Per-protein validation additionally demonstrates promising performance gain of our model. Ablation analysis on the model architectural choices confirms that complementary signals from derived features are critical for this multimodal approach. We believe LoMuS advances protein engineering research and can aid in rational protein design by elucidating precise protein stability changes. Availability All codes including data preparation scripts, training and validation recipes, and experimental configurations for LoMuS are available at: https://github.com/samuelinfantee/LoMuS-repository . Supplementary information Supplementary data are available at Journal Name online.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2641,6 +2767,68 @@
       "curated_categories": []
     },
     {
+      "id": "0195eecc2d18288e6a43f84e44989cadec9ba6b82aa181394a259d460ad183ad",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.12.737516",
+        "https://openalex.org/W7168161832"
+      ],
+      "title": "Selective miniprotein inhibitors of Aurora-A kinase designed using interaction-motif scaffolding",
+      "link": "https://doi.org/10.64898/2026.07.12.737516",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/13/2026.07.12.737516.full.pdf",
+      "publication_date": "2026-07-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jennifer miles",
+          "name": "Jennifer A. Miles"
+        },
+        {
+          "key": "bob schiffrin",
+          "name": "Bob Schiffrin"
+        },
+        {
+          "key": "holder james",
+          "name": "James W. Holder"
+        },
+        {
+          "key": "emily wallis",
+          "name": "Emily J. Wallis"
+        },
+        {
+          "key": "iain manfield",
+          "name": "Iain W. Manfield"
+        },
+        {
+          "key": "anthony burnap sean",
+          "name": "Sean Anthony Burnap"
+        },
+        {
+          "key": "struwe weston",
+          "name": "Weston B. Struwe"
+        },
+        {
+          "key": "fanni gergely",
+          "name": "Fanni V. Gergely"
+        },
+        {
+          "key": "bayliss richard",
+          "name": "Richard W. Bayliss"
+        }
+      ],
+      "abstract_text": "SUMMARY Targeting kinase ATP-binding sites has produced many successful therapeutics, but selectivity remains a major challenge. We hypothesised that substrate-recognition surfaces could provide an alternative route to selective kinase inhibition. Here, we designed and tested structure-guided miniprotein inhibitors of Aurora-A using N-Myc as a template, a natural weak binder of the P+1 pocket. The most potent designs bind Aurora-A with single-digit nanomolar affinity, more than a thousand fold higher than the starting template, and selectively inhibit Aurora-A over Aurora-B in kinase assays and mitotic cells. Despite diverse architectures, successful binders targeting the substrate-recognition surface converged on a common strategy, coupling extensive engagement of the αG helix with activation loop stabilisation. Together these results show that selective kinase inhibition can be achieved by exploiting structurally well-defined active-state conformations rather than kinase-specific inactive states. Our work establishes a framework for converting weak substrate-recognition surface interactors into potent, selective kinase inhibitors through structure-guided protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0197b435307950435548a7ba740b4d1cd122a9e54ab8462aa591b6a390bf0258",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68688-7",
@@ -2688,6 +2876,68 @@
         }
       ],
       "abstract_text": "Kinks are localized transitions between topologically distinct ground states and play a central role in systems from condensed matter to cosmology. While acoustic wave packets (here defined as small-amplitude mechanical waves, sometimes referred to as phonons) have been predicted to drive kink motion deterministically, experimental evidence has been elusive, with only stochastic motion from thermal phonons or quasi-static loading observed. This is largely due to the discrete nature of real materials, where the Peierls-Nabarro (PN) barrier hinders controlled phonon-kink interactions. Here, we report experimental observation of acoustic-wave-mediated control and generation of mechanical kinks in a topological metamaterial, which eliminates the PN barrier by supporting a zero-energy kink. We also computationally reveal the dynamics of acoustic wave packet interplay with highly discrete kinks, including long-duration motion and a continuous family of internal modes-features absent in conventional discrete nonlinear systems. Our results enable remote kink control, with potential applications in material stiffness tuning, shape morphing, locomotion, and robust signal transmission.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "01999ff1b9df15e661f05a3acaa527f67a620db7eed4705cd64b2a16832c50fa",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2605.10189",
+        "https://openalex.org/W7160938330"
+      ],
+      "title": "ProteinOPD: Towards Effective and Efficient Preference Alignment for Protein Design",
+      "link": "https://doi.org/10.48550/arxiv.2605.10189",
+      "pdf_url": "https://arxiv.org/pdf/2605.10189",
+      "publication_date": "2026-05-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "yulin zhang",
+          "name": "Yulin Zhang"
+        },
+        {
+          "key": "cao he",
+          "name": "He Cao"
+        },
+        {
+          "key": "jiang zihao",
+          "name": "Zihao Jiang"
+        },
+        {
+          "key": "chenyi zi",
+          "name": "Chenyi Zi"
+        },
+        {
+          "key": "zhipeng zhou",
+          "name": "Zhipeng Zhou"
+        },
+        {
+          "key": "liu zijing",
+          "name": "Zijing Liu"
+        },
+        {
+          "key": "li yu",
+          "name": "Yu Li"
+        },
+        {
+          "key": "jia li",
+          "name": "Jia Li"
+        },
+        {
+          "key": "gao ziqi",
+          "name": "Ziqi Gao"
+        }
+      ],
+      "abstract_text": "Designing proteins with desired functions or properties represents a core goal in synthetic biology and drug discovery. Recent advances in protein language models (PLMs) have enabled the generation of highly designable protein sequences, while preference alignment provides a promising way to steer designs toward desired functions and properties. Nevertheless, they often trigger catastrophic forgetting of pretrained knowledge, degrading basic designability and failing to balance multiple competing objectives. To address these issues, we draw inspiration from On-Policy Distillation (OPD), an advanced post-training method renowned for mitigating catastrophic forgetting through its mode-seeking nature. In this work, we propose ProteinOPD, a multi-objective preference alignment framework that can effectively balance multiple preference objectives while maintaining the inherent designability of PLMs. ProteinOPD adapts a pretrained PLM into preference-specific teachers and distills their knowledge into a shared student via token-level OPD on the student's own trajectories. During this process, the student is aligned to a unique normalized geometric consensus of weighted teachers while ensuring bounded optimization under conflicts. This bridges the gap for OPD in multi-objective/teacher alignment. Extensive experiments show that ProteinOPD achieves substantial gains on target preference objectives without compromising the designability, with an 8x training speedup over RL-based alignment competitors.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3818,6 +4068,36 @@
       "curated_categories": []
     },
     {
+      "id": "01d519c3c9ed6900825f174c5ceff95fc780c217f31e832adcfdbb786dc8e2da",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.19422481",
+        "https://openalex.org/W7149377221"
+      ],
+      "title": "A Unified Substrate-Mediated Framework for Protein Function",
+      "link": "https://doi.org/10.5281/zenodo.19422481",
+      "pdf_url": null,
+      "publication_date": "2026-04-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "antony brown nicolas",
+          "name": "Nicolas Antony Brown"
+        }
+      ],
+      "abstract_text": "The classical structure-function paradigm in protein biology posits that amino acid sequences encode complete three-dimensional structural information, necessitating optimisation across computationally intractable sequence spaces approaching 20ⁿ possible conformations for proteins of length n. This framework fails to adequately explain rapid protein evolution, the efficiency of protein folding (Levinthal's paradox), cooperative binding phenomena, and the functional capacity of intrinsically disordered proteins. Here we propose a fundamentally different theoretical framework: proteins function as adaptive molecular scaffolds that achieve specific geometries through substrate-mediated spatial constraints rather than sequence-encoded structural programs. We demonstrate mathematically that three non-collinear substrate binding sites provide sufficient geometric constraints to uniquely determine protein conformation in three-dimensional space, reducing the effective design space from astronomical sequence combinations (~10¹³⁰ for a 100-residue protein) to manageable sets of substrate recognition facets (~10³–10⁴ combinations). This substrate-scaffolding model explains cooperative binding as geometric necessity rather than allosteric mysticism, provides a mechanistic foundation for intrinsically disordered protein function, and reconciles the speed of protein evolution with the complexity of biological systems. The framework predicts that RNA operates as an intelligent dispatch system deploying overprovisioned molecular scaffolds, that protein size correlates with adaptive capacity rather than minimal functional requirements, and that evolution primarily operates on recognition domain libraries rather than complete protein architectures. We present testable hypotheses, propose experimental validations, and outline approaches to protein design and therapeutic development based on geometric constraint satisfaction rather than sequence optimisation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "01d9b8d58c045c78f72bcfe8610eb538b6313be43f11170447f67c1495c855dc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65495-4",
@@ -4620,13 +4900,18 @@
           "url": "https://openalex.org/"
         },
         {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "Protein analysis",
+        "Rereading",
+        "Sequential cleavage",
+        "Transient pore analyte looping"
+      ]
     },
     {
       "id": "01f3711670542d56f52c949b77b162dc789a5af0386d3ca325aa8e3b202ebdba",

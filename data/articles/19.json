@@ -469,6 +469,12 @@
       "abstract_text": "Generative artificial intelligence models learn probability distributions from data and produce novel samples that capture the salient properties of their training sets. Proteins are particularly attractive for such approaches given their abundant data and the versatility of their representations, ranging from sequences to structures and functions. This versatility has motivated the rapid development of generative models for protein design, enabling the generation of functional proteins and enzymes with unprecedented success. However, because these models mirror their training distribution, they tend to sample from its most probable modes, while low-probability regions, often encoding valuable properties, remain underexplored. To address this challenge, recent work has proposed strategies for steering generative models toward user-specified properties. In this review, we survey and categorize these strategies, distinguishing approaches that modify model parameters, such as reinforcement learning or supervised fine-tuning, from those that keep the model's parameters fixed, including conditional generation, retrieval-augmented strategies, Bayesian guidance, and tailored sampling methods. Together, these developments are beginning to enable the steering of generative models toward proteins with desired properties.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1575,6 +1581,44 @@
       "curated_categories": []
     },
     {
+      "id": "194f3026a6ad25842c492aa4643337efbe72dc5f66ba8505328624b9d41da09f",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70733",
+        "https://openalex.org/W7196953378"
+      ],
+      "title": "Soluble protein analog selection engine (SPASE) : An automated AI ‐powered server to improve protein engineering workflows",
+      "link": "https://doi.org/10.1002/pro.70733",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.70733",
+      "publication_date": "2026-08-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "larda sacha thierry",
+          "name": "Sacha Thierry Larda"
+        },
+        {
+          "key": "alex paré",
+          "name": "Alex Paré"
+        },
+        {
+          "key": "doucet nicolas",
+          "name": "Nicolas Doucet"
+        }
+      ],
+      "abstract_text": "The design of proteins with desired biophysical properties, such as high solubility and low aggregation propensity, is crucial for various biotechnological and biomedical applications. While deep learning-based methods like ProteinMPNN have shown remarkable success in protein sequence design, their direct output may not always exhibit optimal solubility and aggregation properties. Here, we present Soluble Protein Analog Selection Engine (SPASE), a novel automated webserver that addresses this challenge by integrating ProteinMPNN with state-of-the-art tools for protein solubility prediction (Protein-Sol) and aggregation prediction (Aggrescan3D). SPASE automatically generates a diverse pool of protein variants using soluble ProteinMPNN, predicts the solubility of each analog, models their three-dimensional structures with ESMFold, and scores these variants based on their predicted solubility, aggregation propensity, and folding confidence. Computational benchmarking indicates that SPASE enriches for protein analogs with higher predicted solubility and lower predicted aggregation propensity than the average output of soluble ProteinMPNN. We discuss the advantages and limitations of the workflow, including challenges associated with protein novelty, solubility prediction, and aggregation assessment. These considerations highlight the value of integrated platforms for prioritizing protein designs across multiple predicted biophysical properties. Together, these results position the SPASE server as a practical and accessible computational platform for prioritizing protein engineering candidates for downstream experimental evaluation. SPASE is publicly available at https://proteinengineering.ca/, which serves as its stable public access portal.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1951a324cda07db8843c4840b0bbdc94efbadffcc2bdbe239459c5f4591b9d69",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10147-w",
@@ -2097,6 +2141,156 @@
       "curated_categories": []
     },
     {
+      "id": "19700125df15c2802c00061ff6ed1959fe54dc545d7f67673f6992690ca04707",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.17872150",
+        "https://openalex.org/W7111239189"
+      ],
+      "title": "atomworks",
+      "link": "https://doi.org/10.5281/zenodo.17872150",
+      "pdf_url": null,
+      "publication_date": "2025-12-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "corley nathaniel",
+          "name": "Corley, Nathaniel"
+        },
+        {
+          "key": "mathis simon",
+          "name": "Mathis, Simon"
+        },
+        {
+          "key": "krishna rohith",
+          "name": "Krishna, Rohith"
+        },
+        {
+          "key": "bauer magnus",
+          "name": "Magnus S. Bauer"
+        },
+        {
+          "key": "thompson tuscan",
+          "name": "Thompson, Tuscan R."
+        },
+        {
+          "key": "ahern woody",
+          "name": "Ahern, Woody"
+        },
+        {
+          "key": "kazman maxwell",
+          "name": "Kazman, Maxwell W."
+        },
+        {
+          "key": "brent rafael",
+          "name": "Brent, Rafael I."
+        },
+        {
+          "key": "didi kieran",
+          "name": "Didi, Kieran"
+        },
+        {
+          "key": "andrew kubaney",
+          "name": "Kubaney, Andrew"
+        },
+        {
+          "key": "liam mchugh",
+          "name": "McHugh, Liam"
+        },
+        {
+          "key": "andrew nagle",
+          "name": "Nagle, Andrew"
+        },
+        {
+          "key": "adam favor",
+          "name": "Favor, Adam"
+        },
+        {
+          "key": "kshirsagar meghana",
+          "name": "Kshirsagar, Meghana"
+        },
+        {
+          "key": "pascal sturmfels",
+          "name": "Sturmfels, Pascal"
+        },
+        {
+          "key": "li yinuo",
+          "name": "Li, Yinuo"
+        },
+        {
+          "key": "butcher john",
+          "name": "Butcher, John"
+        },
+        {
+          "key": "bo qiang",
+          "name": "Qiang, Bo"
+        },
+        {
+          "key": "luna schaaf",
+          "name": "Schaaf, Luna L."
+        },
+        {
+          "key": "mitra ria",
+          "name": "Mitra, Ria"
+        },
+        {
+          "key": "campbell kerrie",
+          "name": "Campbell, Kerrie"
+        },
+        {
+          "key": "opa zhang",
+          "name": "Zhang, Opa"
+        },
+        {
+          "key": "rose weissman",
+          "name": "Weissman, Rose"
+        },
+        {
+          "key": "humphreys ian",
+          "name": "Humphreys, Ian R."
+        },
+        {
+          "key": "cong qian",
+          "name": "Qian Cong"
+        },
+        {
+          "key": "hanlun jiang",
+          "name": "Hanlun Jiang"
+        },
+        {
+          "key": "funk jason",
+          "name": "Funk, Jason"
+        },
+        {
+          "key": "satyaki sonthalia",
+          "name": "Sonthalia, Satyaki"
+        },
+        {
+          "key": "lio pietro",
+          "name": "Lio, Pietro"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "dimaio frank",
+          "name": "DiMaio, Frank"
+        }
+      ],
+      "abstract_text": "A research-oriented data toolkit for training biomolecular deep-learning foundation models. AtomWorks provides tools for parsing, cleaning, manipulating, and converting biological data (structures, sequences, small molecules) as well as advanced dataset featurization and sampling for deep learning workflows.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1972378c8f5c4b1a9091db1855c0bea534316eaad43462a74f44890ec6320bb5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66194-w",
@@ -2259,6 +2453,52 @@
       "curated_categories": []
     },
     {
+      "id": "197b8f834be27461bd25332db40b5b7b86d82af6ad7b6fdbd15dfaaf61c758a0",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.05.756407",
+        "https://openalex.org/W7220745215"
+      ],
+      "title": "Joint protein, mRNA and DNA sequence design and optimization with nucleotide-level Potts models",
+      "link": "https://doi.org/10.64898/2026.10.05.756407",
+      "pdf_url": null,
+      "publication_date": "2026-10-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "banaszewski błażej",
+          "name": "Błażej Banaszewski"
+        },
+        {
+          "key": "dornfeld",
+          "name": "L Dornfeld"
+        },
+        {
+          "key": "chen dexiong",
+          "name": "Dexiong Chen"
+        },
+        {
+          "key": "borgwardt karsten michael",
+          "name": "Karsten Michael Borgwardt"
+        },
+        {
+          "key": "lukas milles",
+          "name": "Lukas F. Milles"
+        }
+      ],
+      "abstract_text": "Abstract Protein design typically generates amino acid sequences first and then translates them into DNA post-hoc limiting control over the nucleotide sequence via codon choice at design time. We introduce NuCaliby, a structure-conditioned model that jointly designs amino acid, mRNA, and DNA sequences of a protein at nucleotide resolution. NuCaliby predicts a Potts model over a nucleotide graph, trained using amino acid supervision by marginalizing over synonymous codons. It preserves residue-level designability on par with the original Caliby model. Its energy-based formulation supports composable inference-time guidance from sequence-level objectives through proposal construction and candidate acceptance, allowing the incorporation of biological proxies into the coding nucleotide sequence. Under organism-specific tRNA adaptation guidance, NuCaliby improves adaptation to host tRNA pools beyond synonymous sequence space, trading-off self-consistency. NuCaliby also embeds specified RNA motif sequences directly into coding sequences, avoiding the combinatorial growth required for the same task at the amino-acid level. In wet lab experiments, NuCaliby produces expressible and soluble proteins on par with state of the art methods, while enabling more complex nucleotide-level control and optimization. Together, these results extend protein design beyond the amino acid level, enabling joint optimization across the central dogma of molecular biology. The code and model weights are available here: github.com/blazejba/NuCaliby",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1989c8ba918c78f4530ffa57a41673d78c4d7792aed99fddd8985d7aa6b09d9c",
       "identity_keys": [
         "https://doi.org/10.1101/2023.11.22.568230",
@@ -2348,6 +2588,106 @@
         }
       ],
       "abstract_text": "Textured piezoelectric ceramics are considered promising next-generation piezoelectric materials, offering single-crystal-like high piezoelectric performance and low production cost. However, the large grain size of textured ceramics (15 ~ 40 μm) lead to significant decrease in piezoelectricity as the thickness of samples approaches the scale of grain size, limiting their application in high-frequency transducers (>20 MHz, corresponding thickness <100 μm). Here, we address this issue by reducing the grain size through template shortening. A modified topochemical microcrystal conversion method was developed to fabricate BaTiO3 templates with a much smaller length of 2.7 μm, compared with conventional templates (>7 μm). Using these reduced-size developed templates, we obtained <001 > -textured Pb(Mg1/3Nb2/3)O3-PbTiO3 ceramic with an average grain size of 7.8 μm, being significantly smaller than previously reported textured Pb(Mg1/3Nb2/3)O3-PbTiO3 ceramics (~20 μm), while achieving a high piezoelectric coefficient d33 of 1330 pC N-1. Notably, the adverse thickness scaling effect on piezoelectric performance was greatly mitigated: at a thickness of 100 μm, the piezoelectric response was found to reduce only 8% for our textured ceramics with reduced grain size, compared with almost 30% in conventional-grain-size textured ceramics. This strategy provides a practical route to high-performance textured ceramics suited for next-generation high-frequency ultrasonic transducers. This work proposes a strategy to fabricate textured piezoelectric ceramics with greatly reduced grain size (~7.8 μm), enabling to maintain high piezoelectric and dielectric properties of textured ceramics at the sample thickness below 100 μm.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1990321e023c2c5f079b8d8e9f8aa97022c2767262e3dca35e05515fa17dd624",
+      "identity_keys": [
+        "https://doi.org/10.3390/ph19101547",
+        "https://openalex.org/W7214991825"
+      ],
+      "title": "Mechanisms, Discovery Strategies, and Emerging Opportunities for AI-Assisted Design of Peptides in Cosmetics and Skin Health",
+      "link": "https://doi.org/10.3390/ph19101547",
+      "pdf_url": null,
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Pharmaceuticals",
+      "authors": [
+        {
+          "key": "jiashu wang",
+          "name": "Jiashu Wang"
+        },
+        {
+          "key": "al gafari mustafa",
+          "name": "Mustafa Al‐gafari"
+        },
+        {
+          "key": "khosravifar parvin",
+          "name": "Parvin Khosravifar"
+        },
+        {
+          "key": "daniel david kazmirchuk thomas",
+          "name": "Thomas David Daniel Kazmirchuk"
+        },
+        {
+          "key": "ashkan golshani",
+          "name": "Golshani Ashkan"
+        }
+      ],
+      "abstract_text": "Synthetic peptides are increasingly used in cosmetic products due to their potential to regulate biological processes related to skin aging, pigmentation, inflammation, extracellular matrix maintenance, and other aspects of skin health. However, the mechanisms of many cosmetic peptides are still not fully understood. Their activities can also be limited by poor stability, skin penetration, off-target effects, and limited clinical evidence. This review discusses the major classes of cosmetic peptides and the molecular mechanisms through which they are proposed to exert their activities. It also examines the main approaches used for peptide discovery. These include discovery from natural and biologically derived sources, library-based screening, rational design, and classical computational methods. More recent artificial intelligence (AI)-guided approaches are then discussed, with particular attention to structure-based and sequence-based peptide design. AI provides new opportunities to search much larger peptide sequence spaces and to prioritize candidates before experimental testing. Structure-based methods can use information about target binding sites to guide peptide design, while sequence-based approaches can identify interaction patterns without requiring detailed 3D structural information. These methods may also help improve peptide specificity, reduce potential off-target interactions, and identify naturally occurring peptides with useful properties. Although the application of AI to cosmetic peptide discovery is still at an early stage, it may provide a useful addition to existing approaches. Future progress will depend on better skin-relevant datasets, improved experimental validation, and design strategies that consider not only target binding, but also selectivity, stability, toxicity, delivery, and formulation compatibility.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "199053127b6b18d5b1bd15110767b5f3d4e29a0d5c64b8db710157fda2058979",
+      "identity_keys": [
+        "https://doi.org/10.3390/life16050776",
+        "https://openalex.org/W7160494765"
+      ],
+      "title": "YoyoMut: Interactive Exploration of SARS-CoV-2 Mutation Fixation and Reversion Through Time",
+      "link": "https://doi.org/10.3390/life16050776",
+      "pdf_url": "https://www.mdpi.com/2075-1729/16/5/776/pdf?version=1778065406",
+      "publication_date": "2026-05-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Life",
+      "authors": [
+        {
+          "key": "jana penić",
+          "name": "Jana Penić"
+        },
+        {
+          "key": "alfonsi tommaso",
+          "name": "Tommaso Alfonsi"
+        },
+        {
+          "key": "chillemi giovanni",
+          "name": "Giovanni Chillemi"
+        },
+        {
+          "key": "ingrid prandi",
+          "name": "Ingrid G. Prandi"
+        },
+        {
+          "key": "fabrizio maggi",
+          "name": "Fabrizio Maggi"
+        },
+        {
+          "key": "anna bernasconi",
+          "name": "Anna Bernasconi"
+        },
+        {
+          "key": "daniele focosi",
+          "name": "Daniele Focosi"
+        }
+      ],
+      "abstract_text": "Reversion of amino acid mutations in structural proteins is common in viral evolution. SARS-CoV-2 provides an unprecedented opportunity for ecological studies, thanks to the abundance of available whole genome sequences. YoyoMut allows regular scanning of open SARS-CoV-2 data, reporting on all cyclic and reverting mutations within all proteins (including Spike), with fine-grained trend visualization distinguishing non-mutated from mutated positions (either fixated or cyclically reversed). In the whole CoVSpectrum database, order of 100 reverting and 50 fixated mutations were identified on Spike. Classification is determined using alternative algorithms (based on threshold or slope inversion); finally, a 3D-protein structure allows us to identify spatial clustering of adjacent mutated positions. Systematic, automated monitoring of these behaviors aids immunologists and structuralists in their manual curation. By generating informative reports, our tool supports daily activities that have practical implications for vaccine and therapeutic anti-Spike monoclonal antibody design: prioritizing analysis of cyclic mutation and reversion models could help avoid the recent failures in their development and inform future strategies.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2786,6 +3126,12 @@
       ],
       "abstract_text": "Modern AI technologies for drug discovery are distributed across heterogeneous platforms-including web applications, desktop environments, and code libraries-leading to fragmented workflows, inconsistent interfaces, and high integration overhead. We present an agentic end-to-end drug design framework that leverages a Large Language Model (LLM) in conjunction with the Model Context Protocol (MCP) to dynamically coordinate access to biochemical databases, modular toolchains, and task-specific AI models. The system integrates four state-of-the-art components: MaSIF (MaSIF-site and MaSIF-seed-search) for geometric deep learning-based identification of protein-protein interaction (PPI) sites, Rosetta for grafting protein fragments onto protein backbones to form mini proteins, ProteinMPNN for amino acid sequences redesign, and AlphaFold3 for near-experimental accuracy in complex structure prediction. Starting from a target structure, the framework supports de novo binder generation via surface analysis, scaffold grafting and pose construction, sequence optimization, and structure prediction. Additionally, by replacing rigid, script-based workflows with a protocol-driven, LLM-coordinated architecture, the framework improves reproducibility, reduces manual overhead, and ensures extensibility, portability, and auditability across the entire drug design process.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -3253,6 +3599,36 @@
       ]
     },
     {
+      "id": "19b3e8db53b96723df367ce3dc00868f5f7e5d0303ffb6405d0450ad970bf23e",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.22928521",
+        "https://openalex.org/W7214157904"
+      ],
+      "title": "Fitting Boundary Detection: A Navigation Methodology for AI Systems from Closed-Set Fitting to New Knowledge Generation",
+      "link": "https://doi.org/10.5281/zenodo.22928521",
+      "pdf_url": null,
+      "publication_date": "2026-09-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "genmin li",
+          "name": "GenMin Li"
+        }
+      ],
+      "abstract_text": "Contemporary AI systems face a structural dilemma: the training distribution locks the knowledge boundary. Fitting accuracy improves continuously within the closed set, but the cognitive boundary barely moves. The \"more data, larger models, higher precision\" cycle described by scaling laws advances statistical metrics without expanding the physical territory the system can reach—a phenomenon we call fitting explosion. This paper proposes an intermediate version of the discrete frame protocol: fitting boundary detection. The core proposition is threefold. First, AI systems are representational fitting systems, not physical mechanism systems. Second, fitting necessarily has a boundary, and that boundary cannot be detected by the fitting system itself; it must be located by physical probes independent of the training distribution. Third, the boundary region where fitting fails is the natural entry point for new knowledge generation. We establish a complete detection framework: three admission criteria for discrete frame probes (training independence, output read-only, physical validity), three detection dimensions (configuration space, evolution parameter, density distribution—the \"three pres\"), and the configuration-space non-equilibrium degree as a family marker for probe validity. Through four cross-domain cases—protein structure prediction (Mdm2-B oligomerization blind spot), large language model attention (IRR-ATTN negative case), fractional-flux lattice (direction-field topological charge chiral transformation, 128,376 verification points with zero exceptions), and cosmological observation (multi-benchmark deviation construction)—we complete a self-consistency test: under non-equilibrium configuration space, probes precisely mark the fitting boundary; under equilibrium configuration space, probes naturally fail. The criterion admits no exceptions. The paper positions this methodology within three mainstream AI research lines: compared with out-of-distribution (OOD) detection, the probe measures physical validity rather than statistical outlierness; compared with active learning / curiosity-driven exploration, the probe selects sampling directions in physical space rather than data space; compared with existing AI-for-Science practice, the probe provides a falsifiable boundary criterion for \"AI discovering new knowledge,\" rather than merely reporting fitting accuracy. This paper is positioned as an intermediate version of the discrete frame protocol. Its significance lies not in the technology itself, but in providing a human-intervenable interface for knowledge production after AI takes over scientific research: data sources are instruments, the working layer is basic data, and the output marker is the AI's blind spot. The ultimate goal is for formal systems to directly anchor chaotic flux and self-generate; but before that, fitting boundary detection provides an operable, verifiable, and iterable engineering path.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "19b5ed554b9a3fa3e69ba8235dcfced1d18ed83adc7155f44181cf72b7b21da2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65322-w",
@@ -3632,6 +4008,60 @@
         }
       ],
       "abstract_text": "Abstract During mammalian evolution, excitatory neurons in upper cortical layer 2 and layer 3 (L2/3) have shown a disproportionate expansion compared with other layers 1–4 . Replicative expansion of cortical neural progenitors is associated with considerable oxidative DNA damage. Here we show that activating transcription factor 4 (ATF4) has roles as a critical regulator of the DNA damage response, directly activating components of double-stranded DNA repair, including CIRBP, UBA52 and EBF1. Notably, pan-cortical knockout ( Emx1-Cre; Atf4 fl/fl ) demonstrates that ATF4 is required specifically for the development of upper layer 2/3 neurons, marked by the expression of cut-like homeobox 2 protein, CUX2. ATF4 functions to repair DNA damage and attenuate cell death of embryonic radial glial progenitors in a p53-dependent manner. In particular, we show that cold inducible RNA-binding protein (CIRBP) is a transcriptional target of ATF4 that is required for normal phosphorylation of the key double-strand DNA repair factor ataxia telangiectasia mutated (ATM). These findings establish that ATF4 is an essential regulator of the DNA damage response. They further indicate that there are extraordinary requirements for DNA repair after replicative stress in CUX2 + neurons during mammalian brain development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "19d22bf783485a7c462e020683061a03a9c6baae0c69c647755d753726cf912d",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.bios.2026.118584",
+        "https://openalex.org/W7133323532"
+      ],
+      "title": "Designed peptides as affinity ligands for extracellular-vesicle-based cancer diagnosis",
+      "link": "https://doi.org/10.1016/j.bios.2026.118584",
+      "pdf_url": null,
+      "publication_date": "2026-03-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biosensors and Bioelectronics",
+      "authors": [
+        {
+          "key": "sarma sudeep",
+          "name": "Sudeep Sarma"
+        },
+        {
+          "key": "jinho park",
+          "name": "Jinho Park"
+        },
+        {
+          "key": "cho kwan young",
+          "name": "Young Kwan Cho"
+        },
+        {
+          "key": "arpan tapdiya",
+          "name": "Arpan Tapdiya"
+        },
+        {
+          "key": "hyun kyung woo",
+          "name": "Hyun-Kyung Woo"
+        },
+        {
+          "key": "hakho lee",
+          "name": "Hakho Lee"
+        },
+        {
+          "key": "carol hall",
+          "name": "Carol K. Hall"
+        }
+      ],
+      "abstract_text": "Assays for cancer diagnosis via the analysis of tumor biomarkers on circulating extracellular vesicles (EVs) have shown great potential. Single EV imaging that can measure the abundance of protein biomarkers in EVs can help in detecting the presence, stage, and progression of disease. Antibodies are typically used to detect EV proteins. Controlling the quality of antibody-based immunoassays can, however, be challenging, as they may exhibit unintended cross-reactivity with non-target proteins or variability in binding affinity across different batches, even for monoclonal antibodies. Here, we report short peptides that are a promising alternative to antibodies for detecting protein biomarkers in EVs. We describe a pipeline that combines a Peptide Binding Design (PepBD) algorithm and molecular-level simulations to identify peptides that can recognize the extracellular domain of EpCAM (a known cancer biomarker). The peptides designed for EpCAM were labeled with a fluorescent dye and their binding to the target protein was evaluated using fluorescence ELISA. The results identified a computationally designed peptide that exhibited an affinity for the target EpCAM protein comparable to that of an antibody. Further testing involved single EV imaging to gauge the peptide's affinity towards EVs.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -1042,6 +1042,36 @@
       "curated_categories": []
     },
     {
+      "id": "b93061ca8666c3ba4a89b9dbb1c01de7f119d65cfc316141302bdcea457ab93c",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.23311757",
+        "https://openalex.org/W7221558177"
+      ],
+      "title": "D1.3 Protein Engineering Proceeding (Summer schools on Protein Engineering 2026)",
+      "link": "https://doi.org/10.5281/zenodo.23311757",
+      "pdf_url": null,
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "mária tomková",
+          "name": "Mária Tomková"
+        }
+      ],
+      "abstract_text": "The Protein Engineering Summer Schools 2026 were held from August 31st to September 4th, 2026, at the Center for Interdisciplinary Biosciences (CIB), Technology and Innovation Park of Pavol Jozef Šafárik University in Košice (TIP-UPJŠ), Jesenná 5, Košice. Two summer schools were organized in parallel as part of the APBC project: the second edition of the Protein Engineering Summer School I – From DNA to Protein, intended for Bachelor’s students of biology, chemistry or biotechnology, and the first edition of the follow-up Protein Engineering Summer School II – Development and Design of Novel Molecules, intended for Master’s students who had completed Summer School I or courses in molecular biology or a related field. Participation was free of charge; accommodation, lunches and refreshments were covered by the organizer. Ten undergraduate students took part in Summer School I. The academic program and practical sessions were led by Ľuboš Ambro and Michal Nemergut, with laboratory support from doctoral researcher Alexandra Poliakova and scientist Ivana Timková. Students worked through the basic workflow of recombinant protein production - restriction digestion and agarose gel electrophoresis of plasmid DNA, plasmid isolation, and the expression of fluorescent proteins (GFP and mRuby) followed by their purification by Ni-NTA affinity chromatography and analysis by SDS-PAGE. In this way, they followed the whole process from working with DNA to obtaining the final protein product. Summer School II focused on directed evolution and yeast surface display. In the theoretical part, Mária Tomková introduced the principles of directed evolution, Mária Repovská explained the technical aspects of yeast display and Martin Menkyna discussed the principles of rational protein design. The laboratory work was guided by Mária Tomková and Mária Repovská, with assistance from doctoral researcher Kristína Felčíková. Students prepared selective culture media, cultivated and subcultured Saccharomyces cerevisiae EBY100 cells carrying a library of variants of the substrate-binding domain of the chaperone Hsp70, induced surface display of the variants, labelled the cells with fluorescent antibodies and the FITC-labelled ligand JTO, and used fluorescence-activated cell sorting (FACS) to select cells displaying the target proteins on their surface. During the first two days, participants of both summer schools attended the joint workshop Protein Biotechnology, in which guest lecturers presented topics from basic research to its application in practice, including biomedicine and proteomics. The program also included occupational health and safety training. Students were provided with detailed experimental protocols and worked in groups. The week concluded on Friday with final group presentations summarizing the procedures used and the results obtained, and all participants received certificates of completion. All presentations and laboratory protocols are included in these proceedings. As both summer schools were conducted in Slovak, the original teaching and laboratory materials and the student presentations are provided in the Slovak language. The events were subsequently featured on the official CIB website (https://www.tip-cib.sk), the APBC website (https://www.upjs.sk/pracoviska/tip/apbc/), and the university website (https://www.upjs.sk/; https://www.upjs.sk/pracoviska/tip/). Updates were also shared on the respective social media channels throughout the summer schools.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b931054de0153a3046cf01ea8970f9c73f9a0f17954402837cc8b25fcd531972",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01201-8",
@@ -1990,6 +2020,64 @@
       "curated_categories": []
     },
     {
+      "id": "b974975a61ef2bd89965c5d95b455c42fa7e1df03ca944516bca2349d8ba2975",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.25.732351",
+        "https://openalex.org/W7166179316"
+      ],
+      "title": "Prosculpt: Lowering the Barrier to Computational Protein Design",
+      "link": "https://doi.org/10.64898/2026.06.25.732351",
+      "pdf_url": null,
+      "publication_date": "2026-06-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "federico olivieri",
+          "name": "Federico Olivieri"
+        },
+        {
+          "key": "alina konstantinova",
+          "name": "Alina V. Konstantinova"
+        },
+        {
+          "key": "neža ribnikar",
+          "name": "Neža Ribnikar"
+        },
+        {
+          "key": "bizjak nej",
+          "name": "Nej Bizjak"
+        },
+        {
+          "key": "žan žnidar",
+          "name": "Žan Žnidar"
+        },
+        {
+          "key": "abel kiyan",
+          "name": "Kiyan Abel"
+        },
+        {
+          "key": "eva rajh",
+          "name": "Eva Rajh"
+        },
+        {
+          "key": "ajasja ljubetič",
+          "name": "Ajasja Ljubetič"
+        }
+      ],
+      "abstract_text": "Abstract Over the past decade, protein design has evolved from a specialized discipline into a broadly accessible approach for engineering and interrogating biological systems. Despite these advances, protein design continues to be a technically challenging task, often requiring knowledge of programming to be able to use and combine the different software packages. To address this challenge, we have developed Prosculpt, an easy-to-use protein design pipeline. Prosculpt integrates RFdiffusion for backbone generation, ProteinMPNN for sequence design and multiple structure-prediction platforms (AF2, AF3, Colabfold, Boltz2). Candidate designs are evaluated using customizable Rosetta-based scoring protocols. Each project is specified through a single configuration file, enabling users with minimal computational expertise to perform sophisticated protein design tasks without writing code, while also allowing advanced users to access the full capabilities of the underlying programs. Prosculpt supports a wide range of applications, including design of symmetric homo-oligomers, design of binders, motif scaffolding, partial diffusion and fixed-backbone sequence redesign. By combining these capabilities within a single, user-friendly platform, Prosculpt provides a practical entry point to modern protein design for both novice and expert users.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b97bb3382c231954d51f577aa1b24130350cd250fe227b770aedc25ad8ba4c86",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65467-8",
@@ -2658,6 +2746,94 @@
       "curated_categories": []
     },
     {
+      "id": "b9a873999d442edd698c7c33474fd2f6d19c2a3e7625a99d4a4cbd73473a073f",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2609.30456",
+        "https://openalex.org/W7214676595"
+      ],
+      "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+      "link": "https://doi.org/10.48550/arxiv.2609.30456",
+      "pdf_url": "https://arxiv.org/pdf/2609.30456",
+      "publication_date": "2026-09-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "dickman shai",
+          "name": "Shai Dickman"
+        },
+        {
+          "key": "cemri mert",
+          "name": "Mert Cemri"
+        },
+        {
+          "key": "butler landon",
+          "name": "Landon Butler"
+        },
+        {
+          "key": "kannan ramchandran",
+          "name": "Kannan Ramchandran"
+        }
+      ],
+      "abstract_text": "Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat inference as a unidirectional process, lacking mechanisms for revisiting undesirable token selections. We introduce Spectral Feedback, an algorithm that selects edit-positions in a feedback loop, allowing the model to iteratively correct its own generations. This approach leverages the mask structure of discrete diffusion models by re-masking and re-sampling tokens, analogous to image editing methods that reintroduce noisy latents and re-run the reverse process. While prior alignment methods focus on what token labels to assign to maximize a target reward, we instead treat which tokens to revisit as the central alignment problem. Selecting edit-positions is challenging because edit effects are interdependent: the impact of modifying one token depends on which others are edited simultaneously. We define an edit-set as a set of token positions to re-mask and re-sample. Motivated by prior work on sparse interactions in biological systems, we find empirically that edit-set value functions for protein inverse folding admit sparse Fourier representations. This structure enables Spectral Feedback to efficiently learn and optimize the value functions for edit-position selection. Spectral Feedback is model-agnostic and can be applied to pretrained, test-time aligned, and fine-tuned diffusion models. For all of these models, the algorithm improves alignment performance without modifying the underlying generative process. Applied to inverse folding with a protein stability reward oracle, it achieves a 32.3% increase in stable proteins for a pretrained model, 24.8% for Best-of-10, and 5.8% for a state-of-the-art RL fine-tuned diffusion model.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b9a8dc4bcc8740db94c0ba05428414641e103d3f65084ec22db1fa01476f6606",
+      "identity_keys": [
+        "https://doi.org/10.1093/jimmun/vkaf283.2818",
+        "https://openalex.org/W4416449168"
+      ],
+      "title": "A Novel Biphasic Antibody Targeting TFRC and HER2 in Breast Cancer Treatment 9417",
+      "link": "https://doi.org/10.1093/jimmun/vkaf283.2818",
+      "pdf_url": "https://academic.oup.com/jimmunol/article-pdf/214/Supplement_1/vkaf283.2818/65413013/vkaf283.2818.pdf",
+      "publication_date": "2025-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Journal of Immunology",
+      "authors": [
+        {
+          "key": "farrell irene reagan",
+          "name": "Reagan Irene Farrell"
+        },
+        {
+          "key": "li mei",
+          "name": "Mei Li"
+        },
+        {
+          "key": "nicholas pascuzzi",
+          "name": "Nicholas Pascuzzi"
+        },
+        {
+          "key": "chen hui kuan",
+          "name": "Kuan-Hui Chen"
+        },
+        {
+          "key": "ge xin",
+          "name": "Xin Ge"
+        }
+      ],
+      "abstract_text": "Abstract Description Brain metastases remain a significant challenge with no currently successful therapies. Our recent work identified a “ferrophilic” phenotype in breast cancer cells, with reliance on iron to support growth and metastasis. This dependency is a promising therapeutic target, particularly as endothelial cells within the brain express higher levels of the transferrin receptor (TFRC). To achieve this, we developed a biphasic antibody designed to target TFRC and HER2. Using three breast cancer cell lines (ZR75-30, SK-BR-3, MDAMB-231), we demonstrated biphasic antibody-mediated disruption of iron metabolism, reduced proliferation, and increased apoptosis. Iron uptake, quantified using FerroOrange fluorescence, revealed altered homeostasis following a seven-day coculture with the biphasic antibody concentrations from 10 µg/mL to 1 ng/mL. TUNEL assays confirmed increased DNA fragmentation, demonstrating apoptosis induction in response to treatment. Efficacy of the biphasic antibody was further amplified by immune system engagement, as antibody-dependent cellular cytotoxicity assays revealed that NK cells enhanced therapeutic outcomes. This interaction underscores the dual functionality of the biphasic antibody: direct tumor targeting and recruitment of immune components to amplify antitumor effects. Our findings suggest biphasic antibodies targeting TFRC and HER2 are a promising therapeutic strategy to inhibit breast cancer metastasis, particularly within the blood-brain barrier. Funding Sources TTU New Faculty Startup Fund Topic Categories Tumor Immunology: Cellular Responses and Tumor Microevironment (TIME)",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b9acf249b7bd74ed6fea60b9f2c8ee8b0182d13b6f75dd32b21865262e687795",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76775-y",
@@ -2897,6 +3073,52 @@
         }
       ],
       "abstract_text": "Lineage plasticity underlies therapeutic resistance in cancer1,2, yet the translational mechanisms that enable this phenotypic flexibility remain largely unknown. Here using prostate cancer as a model of lineage dependence, we performed unbiased small RNA sequencing and identified tRNA1Arg(UCU) as a regulator of lineage transitions and therapy resistance. tRNA1Arg(UCU) is capable of reprogramming lineage dependence, which can be tuned to restore sensitivity to therapies that target the androgen receptor. We identify TARDBP and ZSCAN29 as DNA-binding proteins that directly engage the genomic locus of tRNA1Arg(UCU) to regulate its expression, a result that highlights the importance of non-canonical tRNA-specific gene regulation. Mechanistically, tRNA1Arg(UCU) controls a translational program centred on SWI/SNF chromatin remodellers, which is necessary to maintain lineage fidelity. In patients, tRNA1Arg(UCU) is downregulated in neuroendocrine prostate cancer and its loss is associated with accelerated metastasis and poor survival. These findings uncover a previously unrecognized tRNA-specific regulatory axis that links codon biology to lineage dependence and therapy resistance in prostate cancer. A tRNA-specific regulatory pathway is associated with codon biology, lineage transitions and therapy resistance in prostate cancer.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b9b9a9069d74917975475940d337d1e8392217a2f82e9cef2de40e816e431358",
+      "identity_keys": [
+        "https://doi.org/10.1093/nar/gkag745",
+        "https://openalex.org/W7171791790"
+      ],
+      "title": "RNA G-quadruplex structure recognition by chimeric peptides",
+      "link": "https://doi.org/10.1093/nar/gkag745",
+      "pdf_url": null,
+      "publication_date": "2026-07-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nucleic Acids Research",
+      "authors": [
+        {
+          "key": "mou xi",
+          "name": "Xi Mou"
+        },
+        {
+          "key": "jiuming wang",
+          "name": "Jiuming Wang"
+        },
+        {
+          "key": "shao yanruisheng",
+          "name": "Yanruisheng Shao"
+        },
+        {
+          "key": "li yu",
+          "name": "Yu Li"
+        },
+        {
+          "key": "chun kit kwok",
+          "name": "Chun Kit Kwok"
+        }
+      ],
+      "abstract_text": "G-quadruplexes (G4s) are non-canonical nucleic acids involved in gene regulation and have attracted interest as potential therapeutic targets. However, developing ligands that selectively recognize specific G4 structures remains challenging. Here, we report the rational design of chimeric peptides that combine a de novo selected peptide (Pep11) with a native peptide (Rhau18) derived from the endogenous DHX36 protein. The chimeric peptides bound RNA G4s (rG4s) with nanomolar affinity, representing a 10-fold enhancement over the individual modules, while retaining selectivity for rG4s over DNA G-quadruplexes (dG4s) and non-G4 RNA structures. These chimeric peptides inhibit telomerase activity in vitro and suppress the translation of an rG4-containing reporter gene in living cells. Live-cell imaging further supports their ability to recognize rG4 structures in a cellular context. Molecular dynamics (MD) simulations of the peptide-rG4 complexes were consistent with the experimental observations and suggested that peptide fusion promoted a more extensive and persistent peptide-rG4 interface, providing a possible structural basis for the enhanced binding affinity. Overall, our study suggests that chimeric peptide design provides a useful strategy for developing selective rG4-targeting ligands and modulating functional nucleic acid structures.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3407,6 +3629,56 @@
         }
       ],
       "abstract_text": "Macroscopic coherence is an important feature of quantum many-body systems exhibiting collective behaviors, with examples ranging from atomic Bose-Einstein condensates, and quantum liquids to superconductors. Probing many-body coherence in a dynamically unstable regime, however, presents an intriguing and outstanding challenge in out-of-equilibrium quantum many-body physics. Here, we experimentally study the first- and second-order coherence of degenerate quasi-one-dimensional (1D) Bose gases quenched from repulsive to modulationally unstable attractive interaction regimes. The resulting dynamics, monitored by in situ density and matter-wave interference imaging, reveals phase-coherent density wave evolutions, clearly distinguished from iconic soliton trains previously observed in attractive gases. This arises from the interplay between noise-amplified density modulations and dispersive shock waves of broad interest in nonlinear physics, plasmas, granular systems, and beyond. At longer times, the gases become phase-scrambled, exhibiting a finite correlation length. Interestingly, following an interaction quench back to the repulsive regime, we observe that quasi-long-range coherence can be spontaneously re-established. This captivating rephasing dynamics can be attributed to the nucleation and annihilation of density defects in the quasi-1D geometry. These results shed light on out-of-equilibrium phase coherence in quantum many-body systems in a regime where beyond mean-field effects may arise and theoretical approaches have not been well-established. Attractive Bose gases are modulationally unstable yet exhibit rich nonlinear many-body behaviors, owing to the interplay between their coherence and unstable collective excitations. Here, the authors probe out-of-equilibrium dynamics in quasi-1D Bose-Einstein condensates subject to quench dynamics between repulsive and attractive interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b9d9549d6d1803d66dcfc5a57f55b00b040c90181a01bdbed64bfecffaccc35a",
+      "identity_keys": [
+        "https://doi.org/10.3389/fbioe.2026.1914224",
+        "https://openalex.org/W7215933075"
+      ],
+      "title": "Collagen targeted self-anchoring antimicrobial molecular agents",
+      "link": "https://doi.org/10.3389/fbioe.2026.1914224",
+      "pdf_url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1914224/pdf",
+      "publication_date": "2026-10-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "authors": [
+        {
+          "key": "ceren nur selcuk",
+          "name": "Nur Ceren Selcuk"
+        },
+        {
+          "key": "demirel erhan",
+          "name": "Erhan Demirel"
+        },
+        {
+          "key": "stephen waller",
+          "name": "Stephen C. Waller"
+        },
+        {
+          "key": "malcolm snead",
+          "name": "Malcolm L. Snead"
+        },
+        {
+          "key": "paulette spencer",
+          "name": "Paulette Spencer"
+        },
+        {
+          "key": "candan tamerler",
+          "name": "Candan Tamerler"
+        }
+      ],
+      "abstract_text": "The intrinsic characteristics of collagen, when combined with its natural abundance in the tissues and its easy exposure due to any fissure of epithelium during a wound or an injury, makes it a common site for bacterial colonization. Within dense collagen fibrils, such as those in dentin, bound pathogens are partially shielded from antibiotic penetration. With the increasing prevalence of antibiotic resistance, microbial infections remain a persistent global health concern. In this study, we engineered a collagen targeted self-anchoring antimicrobial peptide as a novel therapeutic agent and tested its multifunctional activities on a collagen platform. Our peptide design incorporated an antimicrobial peptide (AMP) with another peptide designed for collagen-binding properties through a spacer domain. The novel collagen targeted AMP (COLTAMP) peptide was computationally evaluated for its potential to simultaneously exhibit both desired functions, collagen-binding and antibacterial activity. The predicted secondary structure of COLTAMP was confirmed using Fourier-transform infrared and Raman spectroscopies as complementary vibrational techniques. The interactions of the targeted AMP with collagen fibrils were characterized using atomic force microscopy, providing insights into the effects of the peptide on the organization of fibrils. The antimicrobial activity of the targeted AMP was tested using a zone of inhibition assay against a model pathogen, Streptococcus mutans, which thrives in the oral cavity and colonizes distant tissues once it enters the bloodstream. Confirming the antimicrobial activity of COLTAMP, we next explored its mechanism of action using a scanning electron microscopy (SEM). SEM imaging confirmed bacterial cell wall disruption following the delivery of COLTAMP, leading to pronounced effects on bacterial membrane integrity. The proposed self-anchoring targeted multifunctional peptide offers spatially distributed antimicrobial peptides across collagen fibrils. Multifunctional targeted peptide agents that selectively anchor bioactive domains directly to damaged collagen offer potential treatment strategies for infections involving diverse injury sites.",
       "discovery_sources": [
         {
           "kind": "open_alex",

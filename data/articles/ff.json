@@ -463,6 +463,44 @@
       "curated_categories": []
     },
     {
+      "id": "ff23a762ddb0298adcef154dcc6b1b8a74fbdbc533d55e1e30876f84e66850d8",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2511.14516",
+        "https://openalex.org/W4417210802"
+      ],
+      "title": "Full-Atom Peptide Design via Riemannian-Euclidean Bayesian Flow Networks",
+      "link": "https://doi.org/10.48550/arxiv.2511.14516",
+      "pdf_url": "https://arxiv.org/pdf/2511.14516",
+      "publication_date": "2025-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "hao qian",
+          "name": "Hao Qian"
+        },
+        {
+          "key": "shikui tu",
+          "name": "Shikui Tu"
+        },
+        {
+          "key": "lei xu",
+          "name": "Lei Xu"
+        }
+      ],
+      "abstract_text": "Diffusion and flow matching models have recently emerged as promising approaches for peptide binder design. Despite their progress, these models still face two major challenges. First, categorical sampling of discrete residue types collapses their continuous parameters into onehot assignments, while continuous variables (e.g., atom positions) evolve smoothly throughout the generation process. This mismatch disrupts the update dynamics and results in suboptimal performance. Second, current models assume unimodal distributions for side-chain torsion angles, which conflicts with the inherently multimodal nature of side chain rotameric states and limits prediction accuracy. To address these limitations, we introduce PepBFN, the first Bayesian flow network for full atom peptide design that directly models parameter distributions in fully continuous space. Specifically, PepBFN models discrete residue types by learning their continuous parameter distributions, enabling joint and smooth Bayesian updates with other continuous structural parameters. It further employs a novel Gaussian mixture based Bayesian flow to capture the multimodal side chain rotameric states and a Matrix Fisher based Riemannian flow to directly model residue orientations on the $\\mathrm{SO}(3)$ manifold. Together, these parameter distributions are progressively refined via Bayesian updates, yielding smooth and coherent peptide generation. Experiments on side chain packing, reverse folding, and binder design tasks demonstrate the strong potential of PepBFN in computational peptide design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ff24218e33aceff2834108a2f1dd207516f9dade6111f4f4f68d6dd25241c5ff",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75294-0",
@@ -2083,6 +2121,44 @@
       "venue": "Nature",
       "authors": [],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ff737472b171ed3b56d2da4b1d6c1edc036aa4b0c8f9f427d6c78a523c0a14f2",
+      "identity_keys": [
+        "https://doi.org/10.1007/s12551-026-01469-0",
+        "https://openalex.org/W7219790185"
+      ],
+      "title": "Protein engineering in Brazil: a biophysical perspective",
+      "link": "https://doi.org/10.1007/s12551-026-01469-0",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12551-026-01469-0.pdf",
+      "publication_date": "2026-10-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biophysical Reviews",
+      "authors": [
+        {
+          "key": "de lima mariana theodoro zuliani",
+          "name": "Mariana Zuliani Theodoro de Lima"
+        },
+        {
+          "key": "foltran gustavo umbehaun",
+          "name": "Gustavo Foltran Umbehaun"
+        },
+        {
+          "key": "atílio tomazini",
+          "name": "Atílio Tomazini"
+        }
+      ],
+      "abstract_text": "Abstract Protein engineering has become an increasingly interdisciplinary field, integrating molecular biology, structural biology, biophysics, computational modeling, and artificial intelligence to modify protein structure, stability, dynamics, molecular recognition, and catalytic activity. This systematic review examines the historical development and scientific contributions of protein engineering research associated with Brazilian institutions between 1988 and June 2026. A total of 792 peer-reviewed articles were identified in PubMed through eight thematic search strategies covering protein and enzyme engineering, directed evolution, rational and computational design, recombinant protein expression, therapeutic proteins, structural biology, and artificial intelligence-assisted engineering. The reviewed literature reveals a transition from early residue-level mutagenesis and conventional biochemical assays to increasingly integrated experimental and computational approaches. Advances in X-ray crystallography, nuclear magnetic resonance (NMR), circular dichroism (CD), mass spectrometry, small-angle X-ray scattering (SAXS), calorimetry, molecular dynamics, and structural bioinformatics enabled the quantitative investigation of protein folding, stability, conformational landscapes, molecular interactions, and catalytic mechanisms. More recently, machine learning, protein language models, AlphaFold-derived structures, and generative approaches have expanded the capacity to predict mutations and design proteins, peptides, antibodies, and enzymes with predefined properties. Overall, protein engineering in Brazil has evolved into a mature and diverse field with applications in health, infectious diseases, agriculture, biotechnology, bioenergy, biomaterials, environmental remediation, and industrial biocatalysis. The findings indicate that biophysics has moved beyond a predominantly descriptive role and has become central to the design and validation of engineered proteins. Future progress will depend on the convergence of experimental biophysics, multiscale simulations, artificial intelligence, high-throughput validation, and stronger national and international research networks.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4083,6 +4159,40 @@
       "curated_categories": []
     },
     {
+      "id": "ffb07aaf124819e39077be683f64a327ab64bc66b622b350301cc74948537a74",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.04.749196",
+        "https://openalex.org/W7211905681"
+      ],
+      "title": "De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4",
+      "link": "https://doi.org/10.64898/2026.09.04.749196",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/07/2026.09.04.749196.full.pdf",
+      "publication_date": "2026-09-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "aarnav jain",
+          "name": "Aarnav Jain"
+        },
+        {
+          "key": "alexander tobias",
+          "name": "Alexander V. Tobias"
+        }
+      ],
+      "abstract_text": "Abstract MAP4K4 is a serine/threonine kinase member of the mitogen activated protein kinase family. It acts through the JNK, p38 MAPK, and ERK1/2 pathways and is implicated in cancer proliferation and invasion, TNF-α-driven insulin resistance, macrophage-mediated inflammation, and cardiomyocyte apoptosis in heart failure. No selective small-molecule inhibitor of MAP4K4 has reached clinical use, and knowledge of the specific epitopes on MAP4K4 is lacking for some existing antibodies, leaving a role for small protein binders directed at specific surface sites. We used a computational pipeline that combines RFdiffusion, ProteinMPNN, and AlphaFold2, as well as BindCraft, an integrated “one-shot” tool, for de novo design of small protein binders (∼50–130 residues) to specific MAP4K4 surface hotspots. We also created an automated hotspot determination algorithm that weighs geometry, chemistry, rigidity, and AlphaFold pLDDT. From thousands of candidate sequences, we evaluated 20 of the most promising binders with AlphaFold3 (AF3). The interface predicted template modeling (ipTM) scores ranged from 0.16 to 0.90, with nine candidates having ipTM ≥ 0.80, and five scoring ≥ 0.87. Two binders engage non-overlapping hotspots on opposite faces of MAP4K4, making them a candidate pair for a sandwich assay. BLASTp searches of all designed protein sequences returned only low-significance matches to half of them, indicating that they represent truly novel binding solutions and previously unexplored regions of protein sequence space rather than rediscovered natural motifs. We subjected five complexes spanning the observed AF3 confidence range to 100-ns explicit-solvent molecular dynamics simulation. Interchain contacts were retained throughout, with stability varying substantially between systems. Confidence in the binding specificity of the nine highest-confidence candidates was bolstered by juxtaposition with AF3 evaluations of their interaction with CDK2, a negative-control kinase. This comparison yielded a significant, consistent reduction in ipTM (p = 0.0039) for the control binding partner. ToxinPred2 and AlgPred 2.0 screening suggested that one candidate was a potential allergen and two were potential toxins. These results support that de novo design of small, site-specific protein probes for an underserved disease target is achievable using free, publicly available computational tools and minimal resources, pointing to a greater role for the public and amateur scientists to contribute to biotechnological advancement.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ffb0b6c6286b66918a4b8ba53f871fc33704d873ff5ead010450e8b7ca3f74dd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74513-y",
@@ -4727,6 +4837,52 @@
       "curated_categories": []
     },
     {
+      "id": "ffc56578915a680bbb068426e08f7566741a8fe079e1a12f20efa5ec5116a07e",
+      "identity_keys": [
+        "https://doi.org/10.1101/2025.11.15.688659",
+        "https://openalex.org/W4416267038"
+      ],
+      "title": "Sequence-aware Prediction of Point Mutation-induced Effects on Protein-Protein Binding Affinity using Deep Learning",
+      "link": "https://doi.org/10.1101/2025.11.15.688659",
+      "pdf_url": null,
+      "publication_date": "2025-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jian zhuang",
+          "name": "Jian Zhuang"
+        },
+        {
+          "key": "li zonghui",
+          "name": "Zonghui Li"
+        },
+        {
+          "key": "suhui wang",
+          "name": "Suhui Wang"
+        },
+        {
+          "key": "chao ren zheng",
+          "name": "Ren‐Chao Zheng"
+        },
+        {
+          "key": "guijun zhang",
+          "name": "Guijun Zhang"
+        }
+      ],
+      "abstract_text": "ABSTRACT Amino acid mutations may lead to significant changes in the binding affinity of protein complexes, thereby causing a series of cellular dysfunctions. Therefore, accurate prediction of protein-protein binding affinity changes (ΔΔG) induced by amino acid mutations is of great importance for understanding protein-protein interactions (PPIs). In this study, we propose SAMAffinity, a protein sequence-aware deep learning architecture for predicting changes in protein-protein binding affinity caused by amino acid mutations. SAMAffinity predicts mutation-induced ΔΔG by integrating multi-source sequence features, leveraging a Mutation-Site Identification (MSI) module to highlight local semantic shifts and a Binding-Interface Awareness (BIA) module to capture interaction changes. Benchmark evaluations on public datasets show that under the mutation-level data splitting strategy, SAMAffinity outperforms the state-of-the-art sequence-based method AttABseq by 33.3%, 72.3%, 31.8%, and 30.5% on S1131, S4169, S645, and M1101 datasets, respectively. Moreover, under the complex-level data splitting strategy, SAMAffinity surpasses the structure-based method MpbPPI by 22.9%, 22.7%, 5.0%, and 11.4% on the corresponding datasets. Beyond predictive accuracy, the strong consistency between the model’s predicted distribution and natural amino-acid mutation tendencies indicates that SAMAffinity effectively captures the underlying mutational landscape shaped by intrinsic biochemical and evolutionary factors. Based on this capability, SAMAffinity demonstrated strong generalization in a study of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) cases, suggesting its potential for optimizing therapeutic antibody design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ffc5da92199592ff202b387104f8d8648e64502b4023e1675ba67577da693927",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72801-1",
@@ -5155,6 +5311,440 @@
       "curated_categories": []
     },
     {
+      "id": "ffe5c9a464ba19c3e25182cb031d4324bcb423b6e201e263631411fe60f57ace",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2021-03.2175516/17078845",
+        "https://doi.org/10.25582/data.2021-03.2181355/17074326",
+        "https://doi.org/10.25582/data.2021-03.2185338/17071536",
+        "https://doi.org/10.25582/data.2021-03.2185346/17071537",
+        "https://doi.org/10.25582/data.2021-03.2185354/17071538",
+        "https://doi.org/10.25582/data.2021-03.2185368/17071539",
+        "https://doi.org/10.25582/data.2021-03.2185498/17071540",
+        "https://doi.org/10.25582/data.2021-03.2187167/17069721",
+        "https://doi.org/10.25582/data.2021-03.2195046/17063775",
+        "https://openalex.org/W7218674945"
+      ],
+      "title": "Data for EMSL Project 50414 from March 2021",
+      "link": "https://doi.org/10.25582/data.2021-03.2181355/17074326",
+      "pdf_url": null,
+      "publication_date": "2026-10-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ffe695c94af98ba5ae9fad75f6406eb808a0429a4c2ac948ca988e9a8ebf645f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69978-w",
@@ -5353,6 +5943,36 @@
       "curated_categories": []
     },
     {
+      "id": "ffee35097eb080ee2a13ff30244610309f61914c76e240d28d565bac8d4650fb",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15004518/v1",
+        "https://openalex.org/W7164052601"
+      ],
+      "title": "The road to computationally designed artificial metalloenzymes",
+      "link": "https://doi.org/10.26434/chemrxiv.15004518/v1",
+      "pdf_url": null,
+      "publication_date": "2026-06-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "elinor morris",
+          "name": "Elinor Morris"
+        }
+      ],
+      "abstract_text": "Artificial metalloenzymes (ArMs) enable the introduction of organometallic cofactors into protein scaffolds for new-to-nature chemistry. Traditionally, these have been constructed from a handful of scaffolds capable of binding a range of cofactors and substrates. However, in comparison to natural enzymes, this can result in a lack of specificity, rate enhancement and stability. Recent advances in computational binder and enzyme design, and deeper insights into how natural (metallo)enzymes exploit their scaffolds to enhance active site performance, have greatly expanded the toolbox available to ArM designers. In this perspective, we outline some of these advances, and provide insight into how they can be leveraged to create more efficient and robust ArMs.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ffefe2a6b934cc5199bf5b276f8448585a6eeb9f6a961f09fce4f7a23653ace3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77530-z",
@@ -5420,6 +6040,36 @@
         }
       ],
       "abstract_text": "Monolithic three-dimensional (M3D) integration is a promising strategy to increase logic density within a limited footprint. Conventional M3D circuits rely on transistor-level partitioning, in which logic functions are constructed through interconnections among numerous transistors across different tiers, limiting circuit compactness. Here, we propose a gate-level M3D integration architecture based on two-dimensional (2D) logic cells (LCs), in which the basic interlayer connection unit is shifted from an individual transistor to a logic gate. Through multidimensional modulation of carrier transport in the WSe2 channel, LCs can realize eight distinct logic functions, markedly expanding the functional reconfigurability of 2D logic devices. Building on this architecture, we experimentally demonstrate stacking of two-tier LCs, realizing complex 3D logic circuits with unprecedented compactness. Across all demonstrated logic functions, only 4 devices are required, whereas a conventional CMOS design would require 79 transistors. This gate-level M3D integration provides a scalable pathway for constructing highly compact and multifunctional electronics. Monolithic three-dimensional integration can raise logic density, but transistor-level connections limit circuit compactness. Zhao et al stacked reconfigurable two-dimensional logic cells at the gate level, creating complex circuits with markedly fewer devices.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fff21d8944c9b06407bab5139419429f7493ee53e698c7ae2b7f679492dff8f8",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-8076381/v1",
+        "https://openalex.org/W4416385075"
+      ],
+      "title": "The Biological Anchor: A Roadmap to Room-Temperature Quantum Communication by Co-opting Photosynthetic Coherence and De Novo Protein Design",
+      "link": "https://doi.org/10.21203/rs.3.rs-8076381/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-8076381/latest.pdf",
+      "publication_date": "2025-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "alberto mora peña¹",
+          "name": "Alberto R. Mora Peña¹"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

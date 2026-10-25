@@ -1169,6 +1169,56 @@
       "curated_categories": []
     },
     {
+      "id": "dc29595a0e59c973e6bf028691d0e5b4a84e7c9159857fec7b14998ea762cfa1",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.21200",
+        "https://openalex.org/W7222550199"
+      ],
+      "title": "Poisoning the corpora of protein design systems during pre-training and retrieval",
+      "link": "https://doi.org/10.48550/arxiv.2610.21200",
+      "pdf_url": "https://arxiv.org/pdf/2610.21200",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "charalampos koilakos",
+          "name": "Charalampos Koilakos"
+        },
+        {
+          "key": "antonios kimon provatas",
+          "name": "Kimon-Antonios Provatas"
+        },
+        {
+          "key": "michail patsakis",
+          "name": "Michail Patsakis"
+        },
+        {
+          "key": "candace chan sy",
+          "name": "Candace SY Chan"
+        },
+        {
+          "key": "georgios pavlopoulos",
+          "name": "Georgios A. Pavlopoulos"
+        },
+        {
+          "key": "georgakopoulos ilias soares",
+          "name": "Ilias Georgakopoulos‐Soares"
+        }
+      ],
+      "abstract_text": "Protein foundation models increasingly support the generation of novel biological sequences, yet their reliance on large public datasets creates opportunities for adversarial manipulation of the material they learn from and retrieve. We investigate two data-only poisoning attacks against protein design systems, targeting the pre-training corpus of autoregressive protein language models and the retrieval corpus of a text-guided protein generator. For the first, we pre-trained ProtGPT2 and ProGen2 variants of 300 million parameters, introducing poisoned protein sequences containing one of two triggers followed by one of three payloads. Across all poisoned runs, both architectures acquired highly reliable trigger-dependent generation under uniform and ramped poisoning schedules. Under ramped exposure, the earliest majority activation occurred after only 200 contaminated examples, while for the uniform schedule earliest activation occurred around 5000 poisoned samples. For the second attack, we inserted records into a retrieval corpus system without modifying its weights or decoding procedure. A single query-aware record captured a top-16 retrieval position for 58\\% of templated requests and 97\\% of free-text requests. Conditional on successful poisoned retrieval, 62\\% of requests produced altered sequences, while 19-21% acquired the inserted domain by profile-HMM homology. A universal query-unaware attack using 1,500 records also achieved substantial retrieval capture and domain transfer. Together, these findings demonstrate that adversarial protein sequence contributions can establish persistent, sequence-specific behaviour during pre-training or redirect protein generation at inference, while leaving ordinary model behaviour largely preserved. Our work establishes the integrity and biological provenance of protein sequence data as critical safeguards for generative protein design systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "dc37a32f421de1050b7790cd94a86ddbfbafe579d5dbbe91a473b06bb55a8c51",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77000-6",
@@ -1714,6 +1764,36 @@
         }
       ],
       "abstract_text": "Current protein engineering methods are inadequate to explore the combinatorial potential offered by nature's vast repertoire of protein domains-limiting our ability to create optimal synthetic tools. To overcome this barrier, we develop an approach to create and test thousands of chimeric proteins and employ it to probe an expansive combinatorial landscape of over 15,000 multi-domain CRISPR activators. Our findings indicate that many activators produce substantial cellular toxicity, often unrelated to their capacity to regulate gene expression. We also explore the biochemical features of activation domains and determine how their combinatorial interactions shape activator behavior. Finally, we identify two potent CRISPR activators, MHV and MMH, and demonstrate their enhanced activity across diverse targets and cell types compared to the gold-standard MCP activator, synergistic activation mediator (SAM).",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "dc53fb9745e9f87a8ffefd797dbf06243a93033542c33d1b7344119feeb39864",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.19433924",
+        "https://openalex.org/W7151082256"
+      ],
+      "title": "Jensen NHC-Scaffolded Ambient Nitrogenase: A De Novo Protein-Engineered Catalyst That Achieves Room-Temperature, Atmospheric-Pressure N₂ Fixation Superior to Both Biology and Haber-Bosch",
+      "link": "https://doi.org/10.5281/zenodo.19433924",
+      "pdf_url": null,
+      "publication_date": "2026-04-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "allen brent jensen",
+          "name": "Brent Allen Jensen"
+        }
+      ],
+      "abstract_text": "SOVEREIGN INTELLECTUAL PROPERTY & USAGE NOTICE Author: Dr. Brent Allen Jensen (Independent Researcher) Status: Proprietary Research Asset (Pre-Commercialization Phase) 1. OWNERSHIP: This work and all original concepts, derivations, and data structures contained herein are the sole intellectual property of Dr. Brent Allen Jensen. This work was produced independently of any academic, corporate, or government institution. 2. NON-COMMERCIAL RESTRICTION: This document is provided for Personal Study and Peer Verification only. Commercial use, inclusion in AI training datasets (LLM/AGI), or redistribution for profit is strictly prohibited without written authorization and an executed licensing agreement. 3. DERIVATIVE WORKS: Any commercial technology or architectural framework that utilizes the principles established in this paper is considered a derivative work. Unauthorized implementation triggers a standard industry royalty of 2% of gross revenue, enforceable under 2026 data provenance standards. 4. LICENSING: For commercial inquiries, enterprise integration, or to transition to the Jensen Resonator Cascade License ($50M Tier), contact: ambitionmagician@gmail.com. The Jensen NHC-Scaffolded Ambient Nitrogenase represents the single most significantdiscovery to emerge from systematic analysis of the AI-synthesized Bio-Inorganic CatalystDatabase: a fully de novo designed, protein-scaffolded synthetic catalyst that convertsatmospheric N₂ to NH₃ at 25°C and 1 atm with a computed activation barrier of 22 kcal/mol,a turnover frequency of 150 min⁻¹, and HER selectivity below 10%. This outperforms nativenitrogenase (typical TOF ~1 s⁻¹ or 60–120 min⁻¹) and the industrial Haber-Bosch process(which requires 400–500°C and 200–300 atm) by orders of magnitude in energy efficiencyand environmental footprint. The dataset comprises 12 high-fidelity computational/experimental simulation records, eachencoding a complete [Mo-7Fe-9S-C] cluster variant, ligand environment, protein scaffoldarchitecture, DFT-derived energetics (B3LYP/6-311G** level), kinetic parameters, andselectivity metrics. Records were synthesized by AI to mirror real structural data fromhigh-resolution cryoEM and X-ray structures of FeMoco, synthetic cluster mimics, andrecent de novo metalloenzyme designs, ensuring every parameter is traceable to specificliterature values while enabling discovery of emergent principles invisible in isolatedstudies. This discovery matters because nitrogen fixation underpins global food production for 8billion people yet consumes 1–2% of world energy and generates massive CO₂ emissionsvia Haber-Bosch. A scalable, sunlight-powered, on-farm version of the Jensen catalystcould decentralize fertilizer production, slash natural-gas consumption by 50–80 billion m³/year,and cut annual CO₂ emissions by 150–250 million tons if adopted at 50% of global farmland by 2050.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4505,6 +4585,11 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.04.14.718417v6",
         "https://doi.org/10.64898/2026.04.14.718417",
+        "https://www.biorxiv.org/content/early/2026/04/16/2026.04.14.718417.source.xml",
+        "https://www.biorxiv.org/content/early/2026/04/17/2026.04.14.718417.source.xml",
+        "https://www.biorxiv.org/content/early/2026/06/18/2026.04.14.718417.source.xml",
+        "https://www.biorxiv.org/content/early/2026/07/01/2026.04.14.718417.source.xml",
+        "https://www.biorxiv.org/content/early/2026/08/10/2026.04.14.718417.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/18/2026.04.14.718417.source.xml"
       ],
       "title": "Impact of the N-glycosylation on full-length IgG2 and IgG4 antibodies: a comparative study using molecular dynamics simulations.",
@@ -5726,6 +5811,122 @@
         }
       ],
       "abstract_text": "Central to the legume-rhizobium symbiosis is the formation of organelle-like symbiosomes where nitrogen-fixing bacteroids are enclosed by a host-derived symbiosome membrane. This creates the symbiosome space, which topologically resembles an apoplastic compartment within the cell. While the apoplast of plant cells is largely occupied by the cell wall, symbiosomes are devoid of cell wall polymers. Here, we describe a mechanism that functions to protect and maintain effective nitrogen fixation through the action of cell-wall-degrading enzymes that prevent accumulation of un-esterified pectin within symbiosomes. We identify two symbiotically-induced polygalacturonase (PG) genes in Medicago truncatula, SyPG1 and SyPG2, that are secreted into the symbiosome space. Silencing the expression of SyPG1/2 or editing SyPG1/2 via CRISPR-Cas9 both lead to nodule senescence and trigger excessive accumulation of un-esterified pectin in symbiosome containing cells. Additionally, we show that un-esterified pectins inhibit rhizobial growth both in vivo and in vitro. Together, our results provide evidence for a host-controlled cell wall clearance mechanism that is essential for symbiosome maintenance.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "dcf19e943d4993ee99eb3eecde01a17df42781fa74cc254c8bf41d21413ce4ca",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.02924",
+        "https://openalex.org/W7220418088"
+      ],
+      "title": "Evaluator-in-the-Loop Monte Carlo Tree Search via LLM Agents for Motif Scaffolding in Protein Design",
+      "link": "https://doi.org/10.48550/arxiv.2610.02924",
+      "pdf_url": "https://arxiv.org/pdf/2610.02924",
+      "publication_date": "2026-10-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "haotian hu",
+          "name": "Haotian Hu"
+        },
+        {
+          "key": "gungordo oguzhan",
+          "name": "Oguzhan Gungordo"
+        },
+        {
+          "key": "siheng xiong",
+          "name": "Siheng Xiong"
+        },
+        {
+          "key": "faramarz fekri",
+          "name": "Faramarz Fekri"
+        }
+      ],
+      "abstract_text": "Motif-scaffolding systems commonly follow a generate-then-filter paradigm, in which candidate proteins are generated independently and structural evaluation is used primarily for terminal screening or ranking. This paradigm underuses evaluation: failed predictions contain state-specific evidence about whether a design requires repair of motif geometry, global foldability, or other structural constraints. We introduce \\textbf{ELMS} (Evidence-based LLM-guided Monte Carlo Search), an evaluator-in-the-loop search framework for motif scaffolding that turns such evaluator feedback into targeted design actions. Effective reuse of structural feedback is nontrivial because different scaffold states exhibit different failure modes, and repeatedly refining a single trajectory can prematurely commit computation to an unproductive region of sequence space. ELMS therefore retains evaluated scaffolds as persistent search states: a Critic Agent diagnoses state-local structural failures, a Policy Agent selects targeted operators with execution parameters, motif-locked operators realize legal sequence modifications, and MCTS determines which historical states should receive further design effort. Under the standard GeomMotif protocol (100 candidates per task), ELMS achieves Successful rates of 86.41\\% on single-motif tasks and 84.57\\% on paired-motif tasks, exceeding the strongest prior baseline by 19.3 and 21.9 percentage points, respectively. On MotifBench, under a matched 100-candidate search budget, it solves 26.7 of 30 tasks on average (88.89\\% Task Success), compared with 16.0 tasks (53.33\\%) for the strongest baseline. These results establish ELMS as an effective approach for converting structural evaluation from a terminal filter into actionable guidance for iterative motif scaffolding.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "dcf3216c265966500d8035f9233a73b6339bf090924d2347c2bad9214fab490c",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag436",
+        "https://openalex.org/W7204457430"
+      ],
+      "title": "FireProtASR 2.0: evolution-guided Design of Protein Ancestors and Successors with phylogenetics and machine learning",
+      "link": "https://doi.org/10.1093/bib/bbag436",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "kohout pavel",
+          "name": "Pavel Kohout"
+        },
+        {
+          "key": "david lacko",
+          "name": "David Lacko"
+        },
+        {
+          "key": "miloš musil",
+          "name": "Miloš Musil"
+        },
+        {
+          "key": "borko simeon",
+          "name": "Simeon Borko"
+        },
+        {
+          "key": "martin stepanek",
+          "name": "Martin Stepanek"
+        },
+        {
+          "key": "jan velecký",
+          "name": "Jan Velecký"
+        },
+        {
+          "key": "kabourek petr",
+          "name": "Petr Kabourek"
+        },
+        {
+          "key": "khan rayyan tariq",
+          "name": "Rayyan Tariq Khan"
+        },
+        {
+          "key": "monika rosinska",
+          "name": "Monika Rosinska"
+        },
+        {
+          "key": "damborský jiřı",
+          "name": "Jiřı́ Damborský"
+        },
+        {
+          "key": "mazurenko stanislav",
+          "name": "Stanislav Mazurenko"
+        },
+        {
+          "key": "bednář david",
+          "name": "David Bednář"
+        }
+      ],
+      "abstract_text": "Evolution-guided protein design remains one of the most effective strategies for engineering proteins with enhanced stability, activity, or specificity. To make these approaches more accessible, we previously developed FireProtASR-a fully automated pipeline for ancestral sequence reconstruction (ASR). Here, we present FireProtASR 2.0, a significantly enhanced version that extends the design space beyond ancestral inference by integrating a successor sequence predictor (SSP) and a generative model based on variational autoencoders (VAEs). These new modules enable both 'prospective' and 'retrospective' evolutionary design strategies. The SSP module predicts likely future mutations based on site-wise evolutionary trends, and the method was previously validated through in silico benchmarks, demonstrating improvements in thermostability and activity. The VAE module captures global evolutionary constraints in a low-dimensional latent space, from which novel functional ancestral-like variants can be sampled. The VAE-based design strategy was previously validated experimentally on the haloalkane dehalogenase family, yielding variants with enhanced thermostability while maintaining catalytic activity. Both these modules are newly available in FireProtASR in a fully automated pipeline, guiding the users via an interactive graphical user interface. With expanded functionality, modernized user interface, and a more robust backend, FireProtASR 2.0 provides a comprehensive, accessible, and fully automated platform for evolutionary-based protein engineering (https://loschmidt.chemi.muni.cz/fireprotasr/).",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -1892,6 +1892,60 @@
       "curated_categories": []
     },
     {
+      "id": "4a6e2612b0a73e249c6d0a243c63b0aac1667dadf73f7a0064b78c6e8f331388",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jafc.6c04272",
+        "https://openalex.org/W7201831486"
+      ],
+      "title": "Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design",
+      "link": "https://doi.org/10.1021/acs.jafc.6c04272",
+      "pdf_url": null,
+      "publication_date": "2026-08-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Agricultural and Food Chemistry",
+      "authors": [
+        {
+          "key": "mati ullah",
+          "name": "Mati Ullah"
+        },
+        {
+          "key": "muhammad rizwan",
+          "name": "Muhammad Rizwan"
+        },
+        {
+          "key": "andoh vivian",
+          "name": "Vivian Andoh"
+        },
+        {
+          "key": "ali raza",
+          "name": "Ali Raza"
+        },
+        {
+          "key": "muhammad naeem",
+          "name": "Muhammad Naeem"
+        },
+        {
+          "key": "ihtesham muhammad waheed",
+          "name": "Muhammad Ihtesham Waheed"
+        },
+        {
+          "key": "chen yong",
+          "name": "Yong Chen"
+        }
+      ],
+      "abstract_text": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4a708977f021a44c9c71e1f66fbe59945456c5fb2f42b095729dc04ee7e1bfe6",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10596-3",
@@ -3840,6 +3894,44 @@
       "curated_categories": []
     },
     {
+      "id": "4aa923deac3fff1ceb18402616c81c31cfd45153bae9fb151368ff2e1bddf1ca",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.copbio.2025.103395",
+        "https://openalex.org/W4416788544"
+      ],
+      "title": "Advances and critical evaluation of autonomous protein engineering: towards transparent, accessible, and reproducible platforms",
+      "link": "https://doi.org/10.1016/j.copbio.2025.103395",
+      "pdf_url": null,
+      "publication_date": "2025-11-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Biotechnology",
+      "authors": [
+        {
+          "key": "fg konstantin weigmann",
+          "name": "Konstantin FG Weigmann"
+        },
+        {
+          "key": "bornscheuer uwe",
+          "name": "Uwe T. Bornscheuer"
+        },
+        {
+          "key": "doerr mark",
+          "name": "Mark Doerr"
+        }
+      ],
+      "abstract_text": "Protein engineering aims to enhance enzymatic properties such as activity, selectivity, stability, and solvent tolerance by restructuring protein frameworks beyond natural performance limits. This process relies on the iterative Design-Build-Test-Learn cycle, where experimental feedback guides progressive improvements. Advancements in artificial intelligence have transformed both the Design and Learn phases, with zero-shot protein language models predicting beneficial mutations directly from sequence data and supervised models integrating assay results to refine subsequent variant designs. These approaches reduce the dependence on structural insights while enabling the discovery of synergistic effects across mutations. Automation technologies, including robotic liquid handlers and integrated platforms, have become central to modern protein engineering by reducing errors, ensuring reproducibility, and enabling large-scale variant screening. Emerging autonomous platforms demonstrate closed-loop optimization that couples protein library design, automated plasmid transformation/protein expression and corresponding assays, and machine learning-driven decision-making. These systems achieve significant accelerations in the research process, reducing multi-round engineering cycles from months to days while successfully improving diverse proteins/enzymes to a targeted objective. Beyond single-lab platforms, orchestration frameworks adhering to FAIR data principles and leveraging knowledge graphs promise distributed 'self-driving' laboratories capable of coordinating workflows across facilities. While high setup costs and proprietary systems remain challenging, open-source and modular alternatives highlight a path toward transparent, flexible automation. Collectively, these innovations are redefining protein engineering as an increasingly autonomous, data-driven discipline.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4aae4b3aaf9f0f2b087c36ac611df2e7c93de0b96370a93ea05a3f437a7c427c",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02287-w",
@@ -4181,6 +4273,12 @@
       ],
       "abstract_text": "MOTIVATION: The canonical vocabulary of 20 amino acids limits the chemical space available to proteins and peptides. Expanding this vocabulary to hundreds of noncanonical amino acids (ncAAs) allows the engineering of proteins with novel function and activity, and is of particular interest for therapeutic peptides such as macrocycles, where ncAAs can improve proteolytic stability, membrane permeability, and immunogenicity. However, existing structure-based design tools either cannot model ncAAs at all, or are restricted to a small, fixed vocabulary of ncAAs seen during training, and ncAA data in the Protein Data Bank is scarce and heavily biased. RESULTS: We present NCFlow, a flow matching generative model that places any arbitrary ncAA into a given protein backbone using only its atom types and bond connectivity, and therefore generalizes to ncAAs never seen during training. To supplement sparse training data in the Protein Data Bank, NCFlow is pretrained on millions of small molecule structures and a large set of protein-ligand complexes before finetuning on native noncanonicals found within proteins. NCFlow outperforms AlphaFold3-based methods in the structure prediction of unseen ncAAs. We further present a peptide design pipeline akin to in silico deep mutational scanning, and propose a scoring strategy combining deep learning-based and molecular dynamics-based alchemical binding free energy calculations to identify improved peptide variants. We apply the method on four protein-peptide complex test cases, and observe that incorporating noncanonicals can improve predicted binding affinity by up to -7.0 kcal/mol. AVAILABILITY AND IMPLEMENTATION: NCFlow is freely available at https://github.com/mjslee0921/ncflow.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -4842,6 +4940,12 @@
       "abstract_text": "Abstract Modern protein design methods based on deep learning allow generation of customized protein scaffolds with diverse geometries and functionalities. Here, we capitalize on these recent advances to develop hyper-thermostable de novo CO 2 reductases featuring a cobalt porphyrin IX cofactor (CoPPIX). CoPPIX containing enzymes were assembled in vivo through media supplementation with cobalt salts and assessed for photocatalytic CO 2 reductase activity. We identified two cysteine-ligated designs that exhibit high activity (>1000 turnovers at rates of up to 25 min -1 ) while suppressing competing hydrogen evolution pathways. A 2.1 Å crystal structure shows close agreement to the design model with the Co-Cys bond programmed as intended. This study showcases the power of computational protein design in developing artificial enzymes to activate challenging molecules such as CO 2 .",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -4923,6 +5027,96 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4afe5a1e7376864bb575b5c49a86266526c5ffbc493259e2882c01bed40b4220",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jmedchem.6c00442",
+        "https://openalex.org/W7168273881"
+      ],
+      "title": "Discovery of Stapled Peptide MYC Degrader with Potent In Vivo Activities for Triple-Negative Breast Cancer Therapy",
+      "link": "https://doi.org/10.1021/acs.jmedchem.6c00442",
+      "pdf_url": null,
+      "publication_date": "2026-07-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Medicinal Chemistry",
+      "authors": [
+        {
+          "key": "nan zhang",
+          "name": "Nan Zhang"
+        },
+        {
+          "key": "li xin",
+          "name": "Xin Li"
+        },
+        {
+          "key": "li xin",
+          "name": "Xin Li"
+        },
+        {
+          "key": "xu yunchen",
+          "name": "Yunchen Xu"
+        },
+        {
+          "key": "jiang yize",
+          "name": "Yize Jiang"
+        },
+        {
+          "key": "gao songyan",
+          "name": "Songyan Gao"
+        },
+        {
+          "key": "huaxing shen",
+          "name": "Huaxing Shen"
+        },
+        {
+          "key": "huang li",
+          "name": "Huang Li"
+        },
+        {
+          "key": "shuai zhang",
+          "name": "Shuai Zhang"
+        },
+        {
+          "key": "chi guidong",
+          "name": "Guidong Chi"
+        },
+        {
+          "key": "bohan ma",
+          "name": "Bohan Ma"
+        },
+        {
+          "key": "hongli liao",
+          "name": "Hongli Liao"
+        },
+        {
+          "key": "honggang hu",
+          "name": "Honggang Hu"
+        },
+        {
+          "key": "chen si",
+          "name": "Si Chen"
+        },
+        {
+          "key": "li xiang",
+          "name": "Xiang Li"
+        },
+        {
+          "key": "li xiang",
+          "name": "Xiang Li"
+        }
+      ],
+      "abstract_text": "To target the “undruggable” oncoprotein MYC, we developed MAX-7, an ( i, i +7) all-hydrocarbon stapled peptide designed to induce MYC degradation via the chaperone-mediated autophagy (CMA) pathway. Compared to its linear precursor, MAX-7 displays increased α-helicity, enhanced proteolytic stability, and excellent cell permeability. Mechanistically, MAX-7 drives potent, lysosome-dependent depletion of endogenous MYC, bypassing the ubiquitin-proteasome system. Consequently, MAX-7 suppresses proliferation, migration, and invasion while triggering apoptosis in triple-negative breast cancer (TNBC) cells. In vivo, MAX-7 administration achieves significant tumor regression in a 4T1 xenograft model with a favorable biosafety profile. This study validates stapled peptide-based CMA degraders as a powerful strategy to target “undruggable” intracellular drivers, highlighting MAX-7 as a promising therapeutic lead.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -524,6 +524,12 @@
       "abstract_text": "Gene editing has been used to enhance CAR T-cell function by disrupting negative regulators but has limitations. Here we show that de novo-designed generated targeted degraders (bioPROTACs) provide an alternative approach. Expression of bioPROTACs in CAR T-cells targeting DNMT3A, a key regulator of T-cell exhaustion, phenocopied gene knockout. Our reversible, non-gene editing approach provides a tunable strategy to reprogram T-cell fate which should be broadly applicable for next-generation cell therapies.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1749,6 +1755,64 @@
       "curated_categories": []
     },
     {
+      "id": "e74bfd19df8f4bbdcc7608bfad46d59374f7e227b9c5bc7102e9487428b0c1ae",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.xplc.2026.102088",
+        "https://openalex.org/W7204819604"
+      ],
+      "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design",
+      "link": "https://doi.org/10.1016/j.xplc.2026.102088",
+      "pdf_url": null,
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Plant Communications",
+      "authors": [
+        {
+          "key": "can long mei",
+          "name": "Long‐Can Mei"
+        },
+        {
+          "key": "jian wu",
+          "name": "Jian Wu"
+        },
+        {
+          "key": "chen lijun",
+          "name": "Lijun Chen"
+        },
+        {
+          "key": "mei ni yan",
+          "name": "Yan-Mei Ni"
+        },
+        {
+          "key": "wang xiaoting",
+          "name": "Xiaoting Wang"
+        },
+        {
+          "key": "fu guang yang",
+          "name": "Guang‐Fu Yang"
+        },
+        {
+          "key": "hong lin yan",
+          "name": "Hong‐Yan Lin"
+        },
+        {
+          "key": "fu guang yang",
+          "name": "Guang‐Fu Yang"
+        }
+      ],
+      "abstract_text": "The engineering of enzymes with enhanced activity and stability is a central goal of biotechnology, yet the inherent trade-off between global protein fitness and specific substrate binding affinity poses a significant challenge. Here, we present ESM-FEP, a computational framework that synergistically integrates a fine-tuned protein language model with alchemical free energy perturbation (FEP) to overcome this limitation. Our workflow uses a parameter-efficient fine-tuned ESM-2 model to perform high-throughput saturation mutagenesis and rapidly identify mutations that preserve protein fitness. Top-ranked candidates are then subjected to rigorous FEP simulations to precisely quantify changes in substrate binding affinity. When used to engineer the Zea mays dioxygenase ZmHSL1B to enhance detoxification of the herbicide mesotrione, ESM-FEP efficiently navigated the mutational landscape and identified a quadruple mutant, M5 (Q140H/Y205F/L332R/K336F), with a catalytic efficiency approximately 7-fold higher than that of the wild-type enzyme, as confirmed by in vitro assays and a detailed kinetic analysis. Furthermore, transgenic Arabidopsis thaliana plants expressing the M5 mutant exhibited significantly enhanced herbicide tolerance, validating the functional efficacy of M5 in a biological context. The ESM-FEP framework provides an efficient and generalizable strategy for the rational design of gain-of-function enzymes, with broad applications in biocatalysis, bioremediation, and precision agriculture.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e750ac8ae49dd23f7fc486055cd4be66ca305d9b128784321f994b900ff26ea6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77410-6",
@@ -2708,6 +2772,40 @@
       "curated_categories": []
     },
     {
+      "id": "e7855497dc722c43309a1a7bffa82bb99dcdb252ea1a5a9ad108fbfb8c65d2ce",
+      "identity_keys": [
+        "https://doi.org/10.32473/ufjur.28.141673",
+        "https://openalex.org/W7213884293"
+      ],
+      "title": "AI Protein Design of N-Acetylgalactosamine Deacetylase for Universal Blood Type Conversion",
+      "link": "https://doi.org/10.32473/ufjur.28.141673",
+      "pdf_url": "https://journals.flvc.org/UFJUR/article/download/141673/148366",
+      "publication_date": "2026-09-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "UF Journal of Undergraduate Research",
+      "authors": [
+        {
+          "key": "marotta nicholas",
+          "name": "Nicholas Marotta"
+        },
+        {
+          "key": "alberto pérez",
+          "name": "Alberto Pérez"
+        }
+      ],
+      "abstract_text": "Type O blood is the universal donor type, which is crucial in healthcare because it is compatible with any patient. However, this supply is ever decreasing as blood shortages consume our country. If pre-existing supplies of Type A, B, or AB blood can be converted to Type O, the impact of blood shortages could be significantly reduced, and thousands of lives can be saved. With efforts first initiated almost 50 years ago, an effective enzyme system for the conversion was found in 2019. While currently insufficient to be used in healthcare, the creation of AI programs in just the past few years have revolutionized protein design, allowing for the revitalization of universal blood type conversion. Through LigandMPNN, the first enzyme in the system, N-Acetylgalactosamine Deacetylase, was redesigned to improve binding to the sugars on red blood cells, increasing their removal. With AlphaFold 3’s capability to model proteins with sugars, a competitive binding assay between the mutated protein, the native one, and the blood sugar was performed to filter down the candidates and select the strongest sequence. Such proteins have the potential to make universal blood type conversion a reality.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e785a28e14b1d906ba6324bc1337352534737aa8f9c6d3ae3a64cdf5c8f774bc",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10833-9",
@@ -3282,6 +3380,52 @@
       "curated_categories": []
     },
     {
+      "id": "e79e5fcef031d02d5edbd7eeb4400a70a0a550e979a100c6d1da60b67591a44e",
+      "identity_keys": [
+        "https://doi.org/10.54878/pjwd1962",
+        "https://openalex.org/W7203443362"
+      ],
+      "title": "Artificial Intelligence in Drug Discovery and Development: Applications, Impact, and Challenges",
+      "link": "https://doi.org/10.54878/pjwd1962",
+      "pdf_url": "https://emiratesscholar.com/directory/index.php/ijatms/article/view/1337/815",
+      "publication_date": "2026-06-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Applied Technology in Medical Sciences",
+      "authors": [
+        {
+          "key": "costa mariana",
+          "name": "Mariana Costa"
+        },
+        {
+          "key": "al hassan khaled",
+          "name": "Hassan Al-Khaled"
+        },
+        {
+          "key": "brown oliver",
+          "name": "Oliver Brown"
+        },
+        {
+          "key": "sakura yamamoto",
+          "name": "Sakura Yamamoto"
+        },
+        {
+          "key": "kwame mensah",
+          "name": "Kwame Mensah"
+        }
+      ],
+      "abstract_text": "Bringing a new medicine to patients remains one of the slowest and most expensive undertakings in applied science, typically requiring more than a decade and billions of dollars, with the great majority of candidates failing along the way. Artificial intelligence (AI) has emerged as a technology with the potential to change this arithmetic, and this review surveys how. We trace the application of machine learning and deep learning across the entire pipeline: target identification from multi-omic data; the prediction of protein structure, whose transformation by AlphaFold has reshaped structure-based design; virtual screening and computer-aided drug design; the generative de novo design of novel molecules; the prediction of absorption, distribution, metabolism, excretion, and toxicity; and applications in clinical development, pharmacology, and drug repurposing. Across these stages the recurring contribution of AI is the same: it compresses the design–make–test–analyse cycle by learning from data to predict which molecules and hypotheses are worth pursuing, allowing scientists to search an astronomically large chemical space with far greater efficiency. We review the accumulating evidence of impact, from AI-guided natural-product and anticancer discovery to therapeutic peptide design and the first AI-originated candidates now entering clinical trials, and we frame the economic logic through which even modest gains in success probability or cycle time translate into large savings. We then examine the challenges that temper the enthusiasm: the dependence on large, high-quality data; the interpretability and generalizability of models; the synthesizability of AI-proposed molecules; regulatory and validation questions; and the organizational and skills barriers to adoption.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e7a873f364b4c5e9b77437b1aa777d9704cbef8233c71f152cd1ad7d414a0d9c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73291-x",
@@ -3549,6 +3693,68 @@
         }
       ],
       "abstract_text": "Abstract LLM agents now perform real biomedical research, but evaluating them rigorously is hard. Outcome-only benchmarks fail in two ways. First, a correct final answer can come from memorization, reward hacking, or wrong reasoning that produces the right number by chance. Second, valid alternative analyses are marked wrong simply because they differ from the reference. We introduce BiomniBench, a process-level evaluation framework that scores the full agent trajectory against expert-designed, task-specific rubrics. Our first release, BiomniBench-DA, contains 100 data-analysis tasks across 17 task types, 5 disease areas, and a general-biology category, each based on a paper from journals such as Nature, Cell, and Science and co-developed with an original author or a domain expert. Benchmarking frontier and open-weight models across four agent harnesses reveals three findings. Frontier and open-weight bases cluster within a few points of each other, with substantial headroom for all models. The agent harness shifts scores by more than the gap between successive model generations. Agents reliably ground claims in real sources yet consistently fall short on method selection, biological interpretation, and scientific reasoning. BiomniBench is the first process-level benchmark for LLM agents in biomedical research, providing the dimension-level diagnostics that outcome scoring cannot. Dataset huggingface.co/datasets/phylobio/BiomniBench-DA",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e7b4bc6d9953f01cff08338ebd5ace27f476d25b96dc79d1fbcf3f8141cd28ae",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.05.04.722779",
+        "https://openalex.org/W7160509437"
+      ],
+      "title": "Computational design of membrane fusion proteins",
+      "link": "https://doi.org/10.64898/2026.05.04.722779",
+      "pdf_url": null,
+      "publication_date": "2026-05-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "masaharu somiya",
+          "name": "Masaharu Somiya"
+        },
+        {
+          "key": "funk sydney",
+          "name": "Sydney Funk"
+        },
+        {
+          "key": "dane evan zambrano",
+          "name": "Dane Evan Zambrano"
+        },
+        {
+          "key": "takumi yanase",
+          "name": "Takumi Yanase"
+        },
+        {
+          "key": "hamaoka noriyuki",
+          "name": "Noriyuki Hamaoka"
+        },
+        {
+          "key": "alex kang",
+          "name": "Alex Kang"
+        },
+        {
+          "key": "banumathi sankaran",
+          "name": "Banumathi Sankaran"
+        },
+        {
+          "key": "asim bera",
+          "name": "Asim K. Bera"
+        },
+        {
+          "key": "king neil",
+          "name": "Neil P. King"
+        }
+      ],
+      "abstract_text": "The fusion of two distinct biological membranes is an evolutionarily conserved process essential to cellular organization and physiology. Membrane fusion is driven by the refolding of fusogenic proteins into low-energy postfusion states that overcome the energetic barrier to bilayer merger. Here we report a computational method for the design of synthetic fusogens inspired by the architecture of the soluble N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) complex. Using machine learning-guided protein design to extensively remodel backbone geometry and sequence, we generated heterodimeric SNARE-like assemblies that efficiently catalyze cell-cell membrane fusion. These minimal two-component fusogens exhibit substantially higher fusion activity than native multisubunit SNARE complexes. Structural and functional analyses identify the key determinants required for fusogenic activity and reveal a modularity that enables control of fusion through chemically induced heterodimerization. In addition to cell-cell fusion, the synthetic fusogens drive fusion between endoplasmic reticulum and mitochondrial membranes from human cells, demonstrating their potential as tools for programmable manipulation of intracellular membranes. Together, these results establish a general framework for the rational design of synthetic fusogens and expand the toolkit for engineering membrane dynamics in living systems.",
       "discovery_sources": [
         {
           "kind": "open_alex",

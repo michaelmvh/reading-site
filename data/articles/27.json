@@ -1013,6 +1013,68 @@
       "curated_categories": []
     },
     {
+      "id": "2739321ad4fe61587947c2fd2170d1fda3789e5e91e047e4675eb009513151a1",
+      "identity_keys": [
+        "https://doi.org/10.1038/s44386-026-00045-6",
+        "https://openalex.org/W7160186963"
+      ],
+      "title": "Deep learning-driven integrated pipeline for de novo design and synthesis of antimicrobial peptides",
+      "link": "https://doi.org/10.1038/s44386-026-00045-6",
+      "pdf_url": "https://www.nature.com/articles/s44386-026-00045-6.pdf",
+      "publication_date": "2026-05-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "npj Drug Discovery.",
+      "authors": [
+        {
+          "key": "jiahui liu",
+          "name": "Jiahui Liu"
+        },
+        {
+          "key": "chen yun",
+          "name": "Yun Chen"
+        },
+        {
+          "key": "jian tang",
+          "name": "Jian Tang"
+        },
+        {
+          "key": "xing xupu",
+          "name": "Xupu Xing"
+        },
+        {
+          "key": "jin lin shun",
+          "name": "Jin‐Shun Lin"
+        },
+        {
+          "key": "juping sun",
+          "name": "Juping Sun"
+        },
+        {
+          "key": "hui xin xing",
+          "name": "Xin‐Hui Xing"
+        },
+        {
+          "key": "juan li",
+          "name": "Juan Li"
+        },
+        {
+          "key": "can yang zhang",
+          "name": "Can Yang Zhang"
+        }
+      ],
+      "abstract_text": "Antimicrobial peptides (AMPs) are promising alternatives to conventional antibiotics against bacterial infections. However, the discovery of AMPs is impeded by the limitations of biochemical screening and the difficulty computational approaches face in balancing efficacy with structural diversity. We proposed an integrated \"generation-evaluation-validation\" framework to facilitate de novo discovery of AMPs. First, we constructed a soft prompt-tuned ProtGPT2 to efficiently generate candidates AMPs with both novel structures and promising therapeutic potential. Secondly, we adopted a multiple-choice learning ensemble model that enables high-confidence evaluation of candidates via a dynamic voting network. Finally, antimicrobial experiments were used to validate the activity of top-ranked de novo AMPs by monitoring bacterial surface changes. Out of nine candidates, four exhibited potent strain-specific activity, while two demonstrated broad-spectrum efficacy. All tested AMPs exhibited strong biofilm inhibition, potent membrane disruption, and minimal hemolysis, indicating significant therapeutic potential. With strong generalizability and versatility beyond AMPs, the proposed framework's modular design will facilitate adaptation to diverse peptide design tasks in the future. By integrating soft prompt tuning, multimodal ensemble learning, and experimental verification, this framework presents a practical and scalable strategy for rapid, resource-efficient de novo peptide discovery, particularly suited for applications where experimental throughput and cost are critical constraints.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "273ad99061a777a0e8e9b199b13354f7e6d2405242579aa478ff6f5193e97f37",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76722-x",
@@ -1119,6 +1181,48 @@
         }
       ],
       "abstract_text": "Deciphering how DNA sequence specifies cell-type-specific regulatory activity is a central challenge in gene regulation. We present Bag-of-Motifs (BOM), a computational framework that represents distal cis-regulatory elements as unordered counts of transcription factor (TF) motifs. This minimalist representation, combined with gradient-boosted trees, enables the accurate prediction of cell-type-specific enhancers across mouse, human, zebrafish, and Arabidopsis datasets. Despite its simplicity, BOM outperforms more complex deep-learning models while using fewer parameters. We validate BOM's predictions experimentally by constructing synthetic enhancers from the most predictive motifs, demonstrating that these motif sets drive cell-type-specific expression. By providing direct interpretability and broad applicability, BOM reveals a highly predictive sequence code at distal regulatory regions and offers a scalable framework for dissecting cis-regulatory grammar across diverse species and conditions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "273d21e6e242ac7dba53abfdc41714c214cecb5bf5bc7be2cdebd99faab06334",
+      "identity_keys": [
+        "https://doi.org/10.1002/wcms.70082",
+        "https://openalex.org/W7204942480"
+      ],
+      "title": "Deep Learning for Protein Modeling: From Single Structure to Bound Complex and Thermodynamic Ensemble, With a Focus on Architectural Design",
+      "link": "https://doi.org/10.1002/wcms.70082",
+      "pdf_url": null,
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+      "authors": [
+        {
+          "key": "angioletti daniele",
+          "name": "Daniele Angioletti"
+        },
+        {
+          "key": "carli matteo",
+          "name": "Matteo Carli"
+        },
+        {
+          "key": "marco nobile",
+          "name": "Marco Nobile"
+        },
+        {
+          "key": "limongelli vittorio",
+          "name": "Vittorio Limongelli"
+        }
+      ],
+      "abstract_text": "We survey modern deep‐learning approaches to protein conformational modeling through the lens of architectural design. We organize the literature into three increasingly expressive paradigms: (I) single‐structure prediction, (II) prediction of molecular binding complexes, and (III) conformational ensemble generation. For each paradigm, we outline a representative set of models to sketch a practical taxonomy, and we summarize their key achievements, limitations, and common evaluation practices. Across the paradigms, we highlight recurring design choices that shape performance and generalization, including enforced SE(3) equivariance versus learned symmetry; MSA‐driven coevolution versus protein language model priors; deterministic prediction versus generative sampling; explicit energetic supervision versus implicit learning; and integrative modeling across heterogeneous data modalities. While single‐structure prediction is now relatively well established, comparable maturity has not yet been reached for binding‐complex prediction and, especially, for generating faithful thermodynamic ensembles with reliable population weights, which remains an open challenge. We discuss open challenges in building physically grounded and transferable models, including data availability and fidelity, the choice of inductive biases to pursue generalization, and the need for rigorous model evaluation. Ultimately, we indicate generative kinetics as an aspirational frontier.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1271,6 +1375,48 @@
       ]
     },
     {
+      "id": "274645a30f6ad0d4b34f61f44728ff5d495f62d3a324bc7a51c6071c012f30ae",
+      "identity_keys": [
+        "https://doi.org/10.1039/d5ma00792e",
+        "https://openalex.org/W7116982940"
+      ],
+      "title": "Self-assembling protein cages: from coiled-coil module to machine learning-driven de novo design of next-generation biomaterials",
+      "link": "https://doi.org/10.1039/d5ma00792e",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2026/ma/d5ma00792e",
+      "publication_date": "2025-12-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Materials Advances",
+      "authors": [
+        {
+          "key": "arvind gupta kumar",
+          "name": "Arvind Kumar Gupta"
+        },
+        {
+          "key": "esih hana",
+          "name": "Hana Esih"
+        },
+        {
+          "key": "gradišar helena",
+          "name": "Helena Gradišar"
+        },
+        {
+          "key": "jerala roman",
+          "name": "Roman Jerala"
+        }
+      ],
+      "abstract_text": "protein cages has recently been revolutionized by new concepts of modular protein design, computational design of interacting surfaces and machine learning-based generative protein design. Protein cages can be designed in diverse architectures and sizes, and their assembly and disassembly can be regulated by chemical, biological, and physical signals. Here, we focus on the review of engineering strategies for the designed protein cages based on coiled coils or other modular protein domains, their functionalization and opportunities of customized engineered protein cages.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2749507efde3b2e55b906287d9076bdc21b04753c3cd0be8ee1a298dba0dca5b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72694-0",
@@ -1372,6 +1518,44 @@
         }
       ],
       "abstract_text": "Abstract When modern humans expanded from Africa into Eurasia, they interbred with archaic hominins such as Neanderthals and Denisovans. This groundbreaking discovery, made in part possible through the genomic analysis of archaic remains, reshaped our understanding of human origins, and opened new research avenues to study the effects and consequences of archaic introgression. While significant progress has been made in identifying and quantifying archaic introgression, most studies have focused on contemporary individual genomic data. As a result, relatively little is known about the evolution of archaic variants within modern human populations shortly after interbreeding occurred. While analysis of ancient DNA from modern humans offers the potential to address this scientific gap, its poor quality has hindered its exploration. However, recent studies have shown that imputation using contemporary reference panels can accurately infer missing genotypes in ancient genomes. Here, we investigate the feasibility of using imputation to improve both global and local archaic ancestry inference in ancient genomes, by downsampling to different low-coverage values and imputing 20 high-coverage (>10X) ancient genomes, representing individuals from diverse temporal and geographical contexts. We tested the reliability of detecting and quantifying archaic introgression using D-statistics and the f4-ratio . We identified consistent results from the imputed and the original ancient genomes, suggesting that genomic estimates to detect and quantify introgression work well in imputed genomes. Regarding Local Ancestry Inference we find that we can identify more introgressed segments in imputed genomes than in non-imputed genomes. Surprisingly, we find that imputation accuracy is even higher in regions of archaic ancestry compared to other regions of the genome, facilitating the detection of introgressed segments in imputed genomes. Imputation also allows detection of Denisovan segments in Siberian and Alaskan individuals. We show that segments identified even at 0.0625X coverage can be used to reconstruct the history of introgressed haplotypes. For example, comparisons with archaic segments in contemporary humans reveal that the oldest individual analyzed, Ust’Ishim, carried segments that are now found exclusively in either European or East Eurasian populations, indicating that these segments co-occurred in a shared ancestral population. By comparing only ancient individuals, we demonstrate that clustering based solely on the identified archaic segments effectively groups individuals into genetic clusters that correspond to populations defined by geography and time. This analysis shows a clear distinction between individuals with Denisovan introgression and those without, as well as a more detailed separation between Mesolithic and Neolithic Europeans, with the latter closely resembling Central Eurasian individuals. Furthermore, despite the small sample size in this study, we are able to reconstruct the origins of genes identified as candidates for adaptive introgression in contemporary populations, such as the BCN2 gene, which is an adaptively introgressed gene identified in contemporary West Eurasians. Additionally, we identify new candidates for adaptive introgression including LEMD2 and MLN in Europe. In this gene-region, imputation helps resolve the introgressed haplotype, which is closest to the Vindija Neanderthal haplotype.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "274ccf7e503c66d7a09d7a242d57b360e974e42060dc8b078620641f78a10cb3",
+      "identity_keys": [
+        "https://doi.org/10.2174/0118740707424062251028072626",
+        "https://openalex.org/W4416249096"
+      ],
+      "title": "De-Novo Protein Design Strategies for Targeting Rotavirus Proteins: Evolutionary Conservation and Therapeutic Implications",
+      "link": "https://doi.org/10.2174/0118740707424062251028072626",
+      "pdf_url": "https://openbiotechnologyjournal.com/VOLUME/19/ELOCATOR/e18740707424062/PDF/",
+      "publication_date": "2025-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Open Biotechnology Journal",
+      "authors": [
+        {
+          "key": "abdulrahman noura",
+          "name": "Noura B. Abdulrahman"
+        },
+        {
+          "key": "ahmed noor",
+          "name": "Noor M. Ahmed"
+        },
+        {
+          "key": "abduljabbar ahmed suleiman",
+          "name": "Ahmed AbdulJabbar Suleiman"
+        }
+      ],
+      "abstract_text": "Introduction Rotavirus (RV) is a leading cause of pediatric gastroenteritis, with existing vaccines showing reduced efficacy due to strain diversity and limited immunogenicity. This study aimed to design de novo proteins targeting highly conserved RV proteins to develop potential therapeutic inhibitors. Methods Protein sequences from nine RV strains were retrieved from UniProtKB and aligned using T-Coffee to identify conserved regions. Structural modeling was performed with OmegaFold and SWISS-MODEL, and domain analysis was carried out via InterPro. Protein–protein docking with ClusPro and HDOCK identified interactions between viral proteins (VP4, VP7, RNA-dependent RNA polymerase) and host proteins (integrins and VP2). De novo proteins were computationally designed using residue-frequency constraints and screened for stability (DeepStabP), toxicity (CSM-Toxin), and docking affinity to RV targets. Results VP4, VP7, and RNA polymerase were the most conserved proteins across RV strains (77–85%). Domain-specific interactions with integrins and VP2 were identified. Designed proteins exhibited high binding affinities, notably with VP4 membrane interaction domains, VP7 domain 1, and RNA polymerase C-terminal regions. Over 96% of the designed sequences were predicted to be non-toxic, and most showed favorable thermal stability. Docking revealed conserved interaction sites across strains, suggesting broad-spectrum inhibitory potential. Discussion These findings demonstrate that de-novo-designed proteins can selectively target conserved rotavirus domains, potentially overcoming strain variability and vaccine limitations. While computational results support structural stability and non-toxicity, experimental validation is essential. Limitations include reliance on in-silico predictions and the absence of in-vivo confirmation. Conclusion This study highlights designing de novo proteins as a promising approach for developing novel antivirals against rotavirus, warranting further experimental and clinical investigations.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1932,6 +2116,52 @@
         }
       ],
       "abstract_text": "This study aims to investigate the roles of gut microbiota and plasma metabolites in salt sensitivity (SS) of blood pressure (SSBP) and hypertension. A 23-day, multicenter, dietary salt intervention trial (the MetaSalt study) recruited 528 participants who underwent a baseline observation, low-salt, and high-salt interventions. SSBP was assessed and used as the primary outcome, and fecal shotgun metagenome and plasma targeted metabolome were measured. We found that high salt significantly altered 85 gut-microbial species (p < 9.42 × 10−5) and 70 metabolites (p < 2.26 × 10−4). Among them, the changes in 22 species and 8 metabolites were associated with SSBP (p < 0.05), and a gut microbiota-acylcarnitine network implicated in SSBP was identified, with a gut microbiota-derived metabolite, isovalerylcarnitine, as the core metabolite. Isovalerylcarnitine was also inversely associated with SSBP in the GenSalt study (p = 0.0102). Importantly, increased isovalerylcarnitine attenuated SS hypertension and improved endothelial function in rats, and was associated with reduced risk (ranging from 13% to 19%) of BP progression and incident hypertension in a prospective cohort (n = 3907, median follow-up = 5.5 years). This study demonstrated that the gut-acylcarnitine axis may play roles in the development of SS hypertension. Trial number: ChiCTR1900025171. Here, combining data from a clinical trial and animal models, the authors show a role for a gut-acylcarnitine axis in the development of salt-sensitive hypertension, and identify isovalerylcarnitine as a key microbiota-derived modulator and potential target for the precision prevention of hypertension.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "276aa52aafe6f67261d396870de1c42c240d266bf97e92293425794832d2d582",
+      "identity_keys": [
+        "https://doi.org/10.1021/jacsau.5c01520",
+        "https://openalex.org/W7127042075"
+      ],
+      "title": "Harnessing AI for Antimicrobial Peptide Innovation against Multidrug Resistance",
+      "link": "https://doi.org/10.1021/jacsau.5c01520",
+      "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/jacsau.5c01520?ref=article_openPDF",
+      "publication_date": "2026-02-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "JACS Au",
+      "authors": [
+        {
+          "key": "joão pimentel",
+          "name": "João P. F. Pimentel"
+        },
+        {
+          "key": "orozco raquel",
+          "name": "Raquel M. Q. Orozco"
+        },
+        {
+          "key": "beatriz de rezende samilla",
+          "name": "Samilla Beatriz de Rezende"
+        },
+        {
+          "key": "lima lucas",
+          "name": "Lucas Lima"
+        },
+        {
+          "key": "cardoso henrique marlon silva",
+          "name": "Marlon Henrique e Silva Cardoso"
+        }
+      ],
+      "abstract_text": "Antimicrobial resistance (AMR) poses a critical global health threat, demanding innovative strategies for drug discovery. Antimicrobial peptides (AMPs) represent promising alternatives, yet traditional experimental identification is limited by cost and scalability. Advances in artificial intelligence (AI), particularly machine learning (ML) and deep learning (DL), have transformed AMP discovery by enabling the accurate prediction, design, and optimization of novel candidates. This perspective highlights recent progress in AI-driven approaches, including predictive models and generative models, which accelerate large-scale peptide screening and functional annotation. We further emphasize the integration of multiomics data and the potential role of emerging technologies, such as quantum computing (QC), in overcoming computational bottlenecks for peptide design. Together, these approaches promise to expand the therapeutic landscape, paving the way toward next-generation peptide-based antimicrobials capable of circumventing resistance mechanisms and addressing urgent clinical needs.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3860,6 +4090,44 @@
       "curated_categories": []
     },
     {
+      "id": "27aeaaef6f36fc299c7dcc9b625217732cb8461bfbac79cad5b984fde8405927",
+      "identity_keys": [
+        "https://doi.org/10.1093/protein/gzag007",
+        "https://openalex.org/W7134128529"
+      ],
+      "title": "Bind, catalyze, and quantify: a modern protein and enzyme engineering toolbox of genetically encoded non-canonical amino acids",
+      "link": "https://doi.org/10.1093/protein/gzag007",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Engineering Design and Selection",
+      "authors": [
+        {
+          "key": "soren spina",
+          "name": "Soren C. Spina"
+        },
+        {
+          "key": "bailey joe",
+          "name": "Joe Bailey"
+        },
+        {
+          "key": "blaise kimmel",
+          "name": "Blaise R. Kimmel"
+        }
+      ],
+      "abstract_text": "Non-canonical amino acids (ncAAs) are versatile molecular building blocks that can enhance nearly every aspect of protein engineering, from improving binding affinity to enabling precise quantitative analyses. This review highlights advances from 2020-2025 that demonstrate how expanding the amino acid repertoire unlocks new functionalities. We examine how genetically encoded ncAAs diversify and tune metal-binding properties, enabling programmable coordination and redox behavior in engineered enzymes. Further, we explore biocatalytic applications, including multi-fold activity enhancements in natural enzymes and the introduction of entirely novel reactivity in artificial systems. Finally, we discuss the growing use of ncAAs as intrinsic biophysical reporters, which support a wide range of spectroscopic methods for tracking structure, dynamics, and interactions at residue-level resolution. These capabilities establish ncAAs as essential tools that can be deployed at any stage of the protein design process, from constructing new catalytic centers to quantifying molecular behaviors in real time.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "27af2605e7dbe191d28659f34294e313d632b09e6c7ff3f429d050108ff87e87",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74415-z",
@@ -4232,6 +4500,60 @@
       "curated_categories": []
     },
     {
+      "id": "27b1b28509495d15aba1bc2e11c2129322cec500cc5d77c94e5e594797073618",
+      "identity_keys": [
+        "https://doi.org/10.3390/ijms262311430",
+        "https://openalex.org/W4416722527"
+      ],
+      "title": "Molecular Epidemiology, Clinical Manifestations, Decolonization Strategies, and Treatment Options of Methicillin-Susceptible Staphylococcus Aureus Infection in Neonates",
+      "link": "https://doi.org/10.3390/ijms262311430",
+      "pdf_url": "https://www.mdpi.com/1422-0067/26/23/11430/pdf?version=1764152186",
+      "publication_date": "2025-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Molecular Sciences",
+      "authors": [
+        {
+          "key": "aikaterini nikolaou",
+          "name": "Aikaterini I. Nikolaou"
+        },
+        {
+          "key": "baltogianni maria",
+          "name": "Maria S. Baltogianni"
+        },
+        {
+          "key": "dermitzaki niki",
+          "name": "Niki Dermitzaki"
+        },
+        {
+          "key": "chrysanthi maria tsiogka",
+          "name": "Chrysanthi Maria Tsiogka"
+        },
+        {
+          "key": "chatzigiannis nikitas",
+          "name": "Nikitas Chatzigiannis"
+        },
+        {
+          "key": "balomenou foteini",
+          "name": "Foteini Balomenou"
+        },
+        {
+          "key": "giapros vasileios",
+          "name": "Vasileios I. Giapros"
+        }
+      ],
+      "abstract_text": "Methicillin-sensitive Staphylococcus aureus (MSSA) infection continues to be a significant public health issue in neonatal intensive care units (NICUs). Although the research mostly focuses on methicillin-resistant Staphylococcus aureus (MRSA), new data reveal that methicillin-sensitive Staphylococcus aureus (MSSA) infections are three to four times more prevalent in neonates, correlating with increased mortality and morbidity. This study analyzes the molecular attributes, epidemiology, risk factors, clinical presentations, decontamination methods, and treatment alternatives for MSSA infections in newborns. Results demonstrate that MSSA strains possess considerable genetic diversity, as they are distinguished by a wide variety of sequence types (STs) and Staphylococcal Protein A types (SpA) and harbor several pathogenicity genes, including hemolysins and superantigens, which are implicated in severe infections, such as necrotizing pneumonia in PVL-positive strains. The epidemiological load is still high over the globe, and more newborns, parents, and healthcare workers are being colonized. Prematurity, low birth weight, lengthy hospitalization and the use of intrusive technologies are some of the biggest risk factors. Clinical signs include skin and soft tissue infections, bacteremia, and sepsis, with severe consequences such as endocarditis. Decolonization procedures using mupirocin and chlorhexidine have shown efficacy, but constrained by escalating resistance. In terms of treatment, β-lactams are still the best option. Cefazolin and isoxazolylpenicillins work better than vancomycin in clinical results. For a limited time, they may also be used with aminoglycosides for severe infections. In conclusion, MSSA infections in newborns are as perilous as MRSA, necessitating enhanced monitoring, the implementation of focused prevention strategies, and the development of novel treatment methods to mitigate morbidity and death in this susceptible population.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "27b41e363d853ead86f4966008f39c665e43e09931d7eddd810f0c3a1cace252",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77824-2",
@@ -4574,6 +4896,56 @@
         }
       ],
       "abstract_text": "In the version of this article initially published, in Fig. 5f, the reported significance for Il33 (now indicating *** P < 0.001 rather than * P < 0.05) was incorrect; in the Source Data for Supplementary Fig. 6c, the OD values for primary human epidermal keratinocytes were inadvertently replaced with those for human skin fibroblasts; in Supplementary Fig. 13a and associated Source Data, the values presented for Il33 were inadvertently replaced with those for Il13 ; in Supplementary Fig. 15d and associated Source Data, the fold-change value for CXCL8 in the Ctrl-TNF-α-Poly(I) group was entered incorrectly and the corresponding P value annotation was incorrect. The figure, Supplementary Information and Source Data are now amended in the HTML and PDF versions of the article.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "27c1e34494fa870112454253e3c2568d0ba5da6f92e76fd65bfb2447928ee118",
+      "identity_keys": [
+        "https://doi.org/10.1002/minf.70029",
+        "https://openalex.org/W4415959751"
+      ],
+      "title": "RETRACTED: The Use of DeepQSAR Models for the Discovery of Peptides with Enhanced Antimicrobial and Antibiofilm Potential",
+      "link": "https://doi.org/10.1002/minf.70029",
+      "pdf_url": null,
+      "publication_date": "2025-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecular Informatics",
+      "authors": [
+        {
+          "key": "jiaying you",
+          "name": "Jiaying You"
+        },
+        {
+          "key": "hazem mslati",
+          "name": "Hazem Mslati"
+        },
+        {
+          "key": "evan haney",
+          "name": "Evan F. Haney"
+        },
+        {
+          "key": "akhoundsadegh noushin",
+          "name": "Noushin Akhoundsadegh"
+        },
+        {
+          "key": "hancock robert",
+          "name": "Robert E. W. Hancock"
+        },
+        {
+          "key": "artem cherkasov",
+          "name": "Artem R Cherkasov"
+        }
+      ],
+      "abstract_text": "Increasing concerns regarding prolonged antibiotic usage have spurred the search for alternative treatments. Antimicrobial peptides (AMPs), first discovered in the 1980s, have exhibited significant potential against a broad range of bacteria. Short-sequenced AMPs are abundant in nature and present across various organisms. Recently, machine learning technologies, such as Quantitative Structure-Activity Relationships (QSAR), have enabled the expedited discovery of potential AMPs with broad-spectrum antibacterial activity as the amount of available AMP training data increases. Among these, Deep QSAR has recently emerged as a distinct type of application that utilizes conventional molecular descriptors in conjunction with more powerful deep learning (DL) models. Here, we demonstrate the power of Deep QSAR in predicting broad-spectrum AMP activity. Using a recurrent neural network-based QSAR model, we achieved nearly 90% 5-fold cross-validated accuracy in classifying AMP activity. Using the developed approach, we designed 100 novel peptides, of which 44 experimentally demonstrated more effective antibiofilm activity, and 31 peptides exhibited stronger antimicrobial activity compared to the well-characterized host defense peptide IDR-1018, which was demonstrated to possess broad-spectrum antibiofilm activity against a wide range of bacterial pathogens. . Additionally, a previous computer-aided peptide design study employing IDR-1018 derivatives successfully identified novel peptides with enhanced antibiofilm activity. Notably, 29 of these peptides demonstrated improvements of both antimicrobial and, particularly, antibiofilm properties, making them suitable prototypes for preclinical development and demonstrating the efficacy of DeepQSAR modeling in identifying novel and potent AMPs.",
       "discovery_sources": [
         {
           "kind": "open_alex",

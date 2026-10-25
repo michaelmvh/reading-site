@@ -1082,6 +1082,64 @@
       "curated_categories": []
     },
     {
+      "id": "b243f7bee12ccd14850844619adc3787415fc4aa244c25cd224884118369e8fb",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.05.697819",
+        "https://openalex.org/W7119088477"
+      ],
+      "title": "Protein Language Models and Structure-Based Machine Learning for Prediction of Allosteric Binding Sites in Protein Kinases: An Explainable AI Framework Grounded in Energy Landscape-Encoded Frustration",
+      "link": "https://doi.org/10.64898/2026.01.05.697819",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/06/2026.01.05.697819.full.pdf",
+      "publication_date": "2026-01-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "kamila riedlová",
+          "name": "Kamila Riedlová"
+        },
+        {
+          "key": "vít škrhák",
+          "name": "Vít Škrhák"
+        },
+        {
+          "key": "gatlin will",
+          "name": "Will Gatlin"
+        },
+        {
+          "key": "ludwick max",
+          "name": "Max Ludwick"
+        },
+        {
+          "key": "lucas turano",
+          "name": "Lucas Turano"
+        },
+        {
+          "key": "marián novotný",
+          "name": "Marián Novotný"
+        },
+        {
+          "key": "david hoksza",
+          "name": "David Hoksza"
+        },
+        {
+          "key": "gennady verkhivker",
+          "name": "Gennady M. Verkhivker"
+        }
+      ],
+      "abstract_text": "Reliable identification of allosteric binding sites remains a major bottleneck in structure-based drug discovery, particularly in protein kinase families where such sites are often structurally cryptic, evolutionarily non-conserved, and sparsely populated. In this work, we present a systematic analysis of binding site prediction across a rigorously curated dataset of human kinase-ligand complexes, encompassing 453 kinases and spanning five inhibitor classes: Type I, Type I.5, and Type II (orthosteric ATP-competitive) and Type III/IV (non-ATP allosteric) modulators. We employed the pretrained protein language model (PLM) ESM2-650M model that was fine-tuned for prediction of protein-ligand binding sites by replacing the original masked language modeling head with a token-level classification head that acts as a projection layer that maps the high-dimensional latent representation of each residue to a scalar probability score for a given protein residue to be part of the binding site. We employed this fine-tuned sequence-based PLM and structure-based detection approach P2Rank for identification of orthosteric and allosteric binding sites in protein kinases. Our analysis reveals a stark performance divergence: while both methods achieve high precision-recall (AUPR = 0.64-0.76) on orthosteric sites, PLM performance collapses on allosteric sites (AUPR = 0.06), despite retaining moderate ranking ability (AUROC = 0.70). This deficit persists even after strict control for sequence similarity, structural redundancy, and extreme class imbalance (allosteric residues constitute <3% of the kinase domain). To mechanistically interpret this discrepancy, we integrate large-scale local frustration analysis, a physics-based framework derived from energy landscape theory that quantifies the energetic stability of residue-residue interactions under mutational and conformational perturbations. We find that, although the global frustration landscape is conserved across kinase states dominated by neutral frustration (55-75% of residues), local binding sites exhibit fundamentally distinct mutational constraints. Orthosteric pockets are enriched in minimally frustrated residues, whereas allosteric sites are characterized by neutral mutational frustration, indicating evolutionary permissiveness and sequence degeneracy. This study reframes the performance of AI approaches in predicting protein binding sites as a reflection of functional design that can be rationalized through lens of the landscape-encoded protein frustration as an explainable AI framework.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b2442c9981f44086c335ddb6db06a47e0e533cd98dbe21ca09231f9311d1f029",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73820-8",
@@ -2626,6 +2684,60 @@
         }
       ],
       "abstract_text": "Abstract Generation of quasi-monoenergetic ions by intense laser is one of long-standing goals in laser-plasma physics. However, existing laser-driven ion acceleration schemes often produce broad energy spectra and limited control over ion species. Here we propose the acceleration mechanism, boosted Coulomb explosion, initiated by a standing wave, which is formed in a pre-expanded plasma by the interference between a continuously incoming main laser pulse and the pulse reflected by a solid target, where the pre-expanded plasma is formed from a thin layer on the solid target by a relatively strong pre-pulse. This mechanism produces a persistent Coulomb field on the target front side with field strengths on the order of TV/m for picoseconds. We experimentally demonstrate generation of quasi-monoenergetic deuterons up to 50 MeV using an in-situ D 2 O-deposited target. Our results show that the peak energy can be tuned by the laser pulse duration.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b28461890faf718f7cc1a1d4d024677ca32b46b9d685531664f03ff3ea8f988d",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2511.23120",
+        "https://openalex.org/W4416951123"
+      ],
+      "title": "Freeze, Diffuse, Decode: Task-Aware Adaptation of Transformer Embeddings for Antimicrobial Peptide Design",
+      "link": "https://doi.org/10.48550/arxiv.2511.23120",
+      "pdf_url": "https://arxiv.org/pdf/2511.23120",
+      "publication_date": "2025-11-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "gawade pankhil",
+          "name": "Pankhil Gawade"
+        },
+        {
+          "key": "adam izdebski",
+          "name": "Izdebski, Adam"
+        },
+        {
+          "key": "lizotte myriam",
+          "name": "Myriam Lizotte"
+        },
+        {
+          "key": "kevin moon",
+          "name": "Kevin R. Moon"
+        },
+        {
+          "key": "jake rhodes",
+          "name": "Jake S. Rhodes"
+        },
+        {
+          "key": "guy wolf",
+          "name": "Guy Wolf"
+        },
+        {
+          "key": "ewa szczurek",
+          "name": "Ewa Szczurek"
+        }
+      ],
+      "abstract_text": "Pretrained transformers provide rich, general-purpose embeddings, which are transferred to downstream tasks. However, current transfer strategies: fine-tuning and probing, either distort the pretrained geometric structure of the embeddings or lack sufficient expressivity to capture task-relevant signals. These issues become even more pronounced when supervised data are scarce. Here, we introduce Freeze, Diffuse, Decode (FDD), a novel diffusion-based framework that adapts pre-trained embeddings to downstream tasks while preserving their underlying geometric structure. FDD propagates supervised signal along the intrinsic manifold of frozen embeddings, enabling a geometry-aware adaptation of the embedding space. Applied to antimicrobial peptide design, FDD yields low-dimensional, predictive, and interpretable representations that support property prediction, retrieval, and latent-space interpolation.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4229,6 +4341,12 @@
       "abstract_text": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC 50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -4913,6 +5031,44 @@
       "curated_categories": []
     },
     {
+      "id": "b2ea852e1a3746ad1f0f890fd309c629bba8cd045c93155bddc5710cce5b8b5c",
+      "identity_keys": [
+        "https://doi.org/10.1177/1934578x261426828",
+        "https://openalex.org/W7131797632"
+      ],
+      "title": "Antimicrobial Peptides and Artificial Intelligence: Promising Tools for Sustainable Agriculture Practices",
+      "link": "https://doi.org/10.1177/1934578x261426828",
+      "pdf_url": null,
+      "publication_date": "2026-02-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Natural Product Communications",
+      "authors": [
+        {
+          "key": "blandón lina",
+          "name": "Lina Blandón"
+        },
+        {
+          "key": "andrea mesa",
+          "name": "Andrea Mesa"
+        },
+        {
+          "key": "andrés orduz sergio",
+          "name": "Sergio Andrés Orduz"
+        }
+      ],
+      "abstract_text": "The use of pesticides, fertilizers, copper compounds, and antibiotics to control microbial diseases in crops has caused adverse effects on human health and the environment, as well as the emergence of multidrug-resistant phytopathogenic bacteria and fungi. In this sense, to minimize reliance on agricultural chemicals and protect the environment, current agricultural practices are integrating life sciences technologies, such as genomics, big data, and artificial intelligence. For instance, the discovery and design of antimicrobial peptides integrate these areas. These peptides have become ideal candidates for promoting sustainable agricultural models. They are small, amphipathic, and polycationic molecules with a complex and diverse mode of action, which makes it difficult for microbes to develop resistance. In this review, we present advances in artificial intelligence and computational approaches for antimicrobial peptide design, along with a pipeline for designing antimicrobial peptides that utilize computational and artificial intelligence strategies extensively employed in our research group. Besides, we summarize advances in peptide research as a promising strategy for sustainable agricultural practices.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b2ec61d29fd32bba0d290cb2b5965b1aa811d4b1dfed20998fb181776fd2739d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76145-8",
@@ -5090,6 +5246,12 @@
       ],
       "abstract_text": "Evolution is an extraordinary engine for enzymatic diversity, yet the chemistry it has explored remains a narrow slice of what DNA can encode. Deep generative models can design new proteins that bind ligands, but none have created enzymes without pre-specifying catalytic residues. We introduce DISCO (DIffusion for Sequence-structure CO-design), a multimodal model that co-designs protein sequence and 3D structure around arbitrary biomolecules, as well as inference-time scaling methods that optimize objectives across both modalities. Conditioned solely on reactive intermediates, DISCO designs diverse heme enzymes with novel active-site geometries. These enzymes catalyze new-to-nature carbene-transfer reactions, including alkene cyclopropanation, spirocyclopropanation, B-H, and C(sp$^3$)-H insertions, with high activities exceeding those of engineered enzymes. Random mutagenesis of a selected design further confirmed that enzyme activity can be improved through directed evolution. By providing a scalable route to evolvable enzymes, DISCO broadens the potential scope of genetically encodable transformations. Code is available at https://github.com/DISCO-design/DISCO.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

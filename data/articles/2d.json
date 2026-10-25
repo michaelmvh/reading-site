@@ -193,6 +193,52 @@
       "curated_categories": []
     },
     {
+      "id": "2d0da93c7dacc32d1135dfbcb685fe02a84ca5bdbc59ab9651b0460b6a394428",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2609.33061",
+        "https://openalex.org/W7214702705"
+      ],
+      "title": "LLM sequential decision making under uncertainty in biochemical domains",
+      "link": "https://doi.org/10.48550/arxiv.2609.33061",
+      "pdf_url": "https://arxiv.org/pdf/2609.33061",
+      "publication_date": "2026-09-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "akke mattias",
+          "name": "Mattias Akke"
+        },
+        {
+          "key": "soojung yang",
+          "name": "Soojung Yang"
+        },
+        {
+          "key": "jurğis ruža",
+          "name": "Jurğis Ruža"
+        },
+        {
+          "key": "edamadaka sathya",
+          "name": "Sathya Edamadaka"
+        },
+        {
+          "key": "bombarelli gómez rafael",
+          "name": "Rafael Gómez‐Bombarelli"
+        }
+      ],
+      "abstract_text": "Large language models (LLMs) are increasingly used to drive scientific discovery. Understanding how LLMs make decisions from new data and memory of the literature is vital before trusting them to design experiments under tight experimental budgets. However, their decision strategies are invisible in the current performance scores used to evaluate research agents. Here, we benchmark five frontier LLMs in a Bayesian Optimization setting against published statistical baselines on seven combinatorial datasets spanning protein engineering, reaction optimization, molecular design, peptide self-assembly, and catalysis. Performance is paired with direct measurements of model beliefs and actions, enabling highly resolved behavior analysis. A prompt ablation that progressively strips context separates memorization from chemical reasoning and from bare categorical optimization. Prior chemical knowledge helps in expectation, but with high variance and occasionally even harms performance. No configuration tested decisively beats a mean statistical baseline across domains. Belief-movement and Martingale diagnostics, corrected here for a measurement-noise bias that mislabels rational agents as irrational, show that models overreact to incoming data rather than entrenching on their priors in the contexts studied here. Interestingly, while LLM actions are exploitative, models sincerely intend to explore and consistently act on that intent. This failure is a competence gap arising from context-stickiness. Removing in-context history restores exploration, indicating that priors and data must be decoupled to achieve effective LLM-driven discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2d0ff6015e5f58916f2e7083d5a1850924f3534d984319964180994f7b79532a",
       "identity_keys": [
         "https://doi.org/10.1101/2023.12.06.570473",
@@ -286,6 +332,437 @@
         }
       ],
       "abstract_text": "Aqueous microdroplets have fascinated scientists with unique properties that deviate from bulk solutions. Understanding microdroplet chemistry has been limited by few spectroscopic measurements on single well-defined microdroplets. Here we present a new technique to record an IR spectrum of a single droplet called Single Droplet Displacement Infrared Action Spectroscopy (SiDDIRAS) with potential broad applications in physical, analytical, and environmental chemistry. The droplet was trapped in a linear quadrupole electrodynamic balance. When IR radiation at resonant frequency was introduced, mass loss from IR-induced evaporation caused the droplet to displace upwards. Mapping the displacement as a function of IR frequency yields an IR spectrum of a single microdroplet. As a demonstration, the SiDDIRA spectrum of an ~8 µm droplet containing NaCl and NaN3 shows that the azide asymmetric stretch blueshifts by 5 cm-1 relative to bulk with significant peak broadening, evidence that this droplet is supersaturated with salts compared to bulk solutions. Single Droplet Displacement IR Action Spectroscopy is a new technique to obtain IR spectra of substrate-free single droplets held in an electrodynamic balance by mapping the droplet’s IR-induced displacement as a function of IR frequency.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2d144dce96190fe2e9f182c3c9d200c0964e291cf8fbfea5433e3557afb7d8b0",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2021-06.2237581/17036391",
+        "https://doi.org/10.25582/data.2021-06.2238219/17036392",
+        "https://doi.org/10.25582/data.2021-06.2243534/17031690",
+        "https://doi.org/10.25582/data.2021-06.2245307/17030311",
+        "https://doi.org/10.25582/data.2021-06.2250839/17027119",
+        "https://doi.org/10.25582/data.2021-06.2251151/17025949",
+        "https://openalex.org/W7215030336"
+      ],
+      "title": "Data for EMSL Project 50414 from June 2021",
+      "link": "https://doi.org/10.25582/data.2021-06.2237581/17036391",
+      "pdf_url": null,
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1441,6 +1918,158 @@
       "curated_categories": []
     },
     {
+      "id": "2d2af6fad8a53ffba19c33489e5ea7a92b8d521efc8c7ef9628c9d5aef3e5daa",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2606.29529",
+        "https://openalex.org/W7166730467"
+      ],
+      "title": "Modeling Protein Evolution with Generative Models: from Extant Sequence Data to Evolutionary Dynamics",
+      "link": "https://doi.org/10.48550/arxiv.2606.29529",
+      "pdf_url": "https://arxiv.org/pdf/2606.29529",
+      "publication_date": "2026-06-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "bisardi matteo",
+          "name": "Matteo Bisardi"
+        },
+        {
+          "key": "bari di leonardo",
+          "name": "Leonardo Di Bari"
+        },
+        {
+          "key": "rossi saverio",
+          "name": "Saverio Rossi"
+        },
+        {
+          "key": "buda karol",
+          "name": "Karol Buda"
+        },
+        {
+          "key": "francesco zamponi",
+          "name": "Francesco Zamponi"
+        },
+        {
+          "key": "martin weigt",
+          "name": "Martin Weigt"
+        }
+      ],
+      "abstract_text": "Protein sequences carry a record of evolutionary history shaped by mutation, selection, drift, and epistasis. Recent generative models trained on homologous sequence families offer a new way to read this record: they define probabilistic landscapes that score sequences, generate viable variants, and capture constraints that are difficult to measure experimentally. In this review, we discuss how such landscapes can be used not only for protein design or mutation-effect prediction, but also for modeling evolutionary dynamics. We focus particularly on Direct Coupling Analysis as an interpretable and experimentally validated framework, while placing it in the broader context of generative sequence modeling. We first describe how generative sequence landscapes are inferred and assessed, then review how they can be coupled to population-genetic or substitution-model dynamics to simulate protein evolution across experimental and phylogenetic timescales. Applications include viral evolution, laboratory drift experiments, historical contingency, entrenchment, epistatic drift over time, and long-term sequence-space exploration. We conclude by discussing open challenges, including score-fitness calibration, phylogenetic structure, codon-level mutation biases, indels, and the integration of experimental data.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2d304d318e762ce96888d76a11229c0e1dea412897d161528fb17fca8d62bfa0",
+      "identity_keys": [
+        "https://doi.org/10.1128/aac.01885-25",
+        "https://openalex.org/W7156080970"
+      ],
+      "title": "Synergistic antiviral effects of structure-guided peptides and a mutagenic base analog on SARS-CoV-2 replication",
+      "link": "https://doi.org/10.1128/aac.01885-25",
+      "pdf_url": null,
+      "publication_date": "2026-04-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Antimicrobial Agents and Chemotherapy",
+      "authors": [
+        {
+          "key": "campo del ortega sergio",
+          "name": "Sergio Ortega-del Campo"
+        },
+        {
+          "key": "ballester fernandez gregorio",
+          "name": "Gregorio J. Fernandez-Ballester"
+        },
+        {
+          "key": "blanes clara mira",
+          "name": "Clara Blanes‐Mira"
+        },
+        {
+          "key": "guirado osorio víctor",
+          "name": "Víctor Guirado Osorio"
+        },
+        {
+          "key": "díaz luis martínez",
+          "name": "Luis Díaz‐Martínez"
+        },
+        {
+          "key": "ana de isabel ávila",
+          "name": "Ana Isabel de Ávila"
+        },
+        {
+          "key": "eugenia maría soria",
+          "name": "María Eugenia Soria"
+        },
+        {
+          "key": "brenda gonzález martínez",
+          "name": "Brenda Martínez‐González"
+        },
+        {
+          "key": "francisco gonzález josé villena",
+          "name": "Francisco José Villena González"
+        },
+        {
+          "key": "gómez josefa maldonado",
+          "name": "Josefa Gómez Maldonado"
+        },
+        {
+          "key": "isabel maría ramos viciana",
+          "name": "María Isabel Viciana Ramos"
+        },
+        {
+          "key": "clavijo encarnación frutos",
+          "name": "Encarnación Clavijo Frutos"
+        },
+        {
+          "key": "gonzález jesús santos",
+          "name": "Jesús L. Santos González"
+        },
+        {
+          "key": "bastolla ugo",
+          "name": "Ugo Bastolla"
+        },
+        {
+          "key": "celia perales",
+          "name": "Celia Perales"
+        },
+        {
+          "key": "domingo esteban",
+          "name": "Esteban Domingo"
+        },
+        {
+          "key": "enrique viguera",
+          "name": "Enrique Viguera"
+        },
+        {
+          "key": "ana escamilla fernández maría",
+          "name": "Ana María Fernández‐Escamilla"
+        },
+        {
+          "key": "ana grande pérez",
+          "name": "Ana Grande-Pérez"
+        }
+      ],
+      "abstract_text": "The limited durability of vaccine protection and the rapid emergence of SARS-CoV-2 variants highlight the need for antiviral strategies that extend beyond vaccination and conventional small-molecule inhibitors. Here, we explored a dual approach combining structure-guided peptides predicted to interfere with the viral replication complex with lethal mutagenesis to limit SARS-CoV-2 replication. Using the crystallographic interfaces of nsp10 with nsp14 and nsp16, we designed short inhibitory peptides predicted to interact with the viral proofreading and RNA-capping machinery. In parallel, the mutagenic analog 5-fluorouracil was evaluated to determine its effect on SARS-CoV-2 in Vero E6 cells. Peptides P1 and P6 exhibited potent antiviral activity with minimal cytotoxicity, whereas 5-FU reduced specific infectivity without impairing genome replication. Combined treatment with 5-FU and peptide P1 resulted in >10 4 -fold reduction in infectious virus, achieving near-complete loss of infectivity at non-cytotoxic concentrations. Next-generation sequencing revealed that dual treatment increased mutation frequency, altered mutant spectra, and decreased genome stability, consistent with progression toward error catastrophe. Principal component analysis confirmed that combined treatment generated mutant spectra distinct from either monotherapy. These findings are consistent with a dual antiviral strategy in which structure-guided peptides designed to interact with components of the SARS-CoV-2 replication complex act in combination with lethal mutagenesis to produce a synergistic interaction between these two complementary processes. This integrated approach suggests a potential broad-spectrum antiviral strategy with applicability to other coronaviruses.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2d32f742e6fa4339bc990ad18d8fcb83d7f4ea0fd025718486ae5c2f3617afaa",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66656-1",
@@ -2059,6 +2688,52 @@
       "curated_categories": []
     },
     {
+      "id": "2d4fd958a402b4301e829e550d040a906759c46a14f3b29e19db384acd6c004e",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.neuroscience.2026.01.045",
+        "https://openalex.org/W7127048372"
+      ],
+      "title": "The mitochondria-targeted peptide HDAP2 reduces mitochondrial loss and retinal ganglion cell degeneration after optic nerve injury",
+      "link": "https://doi.org/10.1016/j.neuroscience.2026.01.045",
+      "pdf_url": "https://www.ibroneuroscience.org/article/S0306-4522(26)00083-7/pdf",
+      "publication_date": "2026-02-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Neuroscience",
+      "authors": [
+        {
+          "key": "macneil margaret",
+          "name": "Margaret A. MacNeil"
+        },
+        {
+          "key": "arain sara",
+          "name": "Sara Arain"
+        },
+        {
+          "key": "mentor widnie",
+          "name": "Widnie Mentor"
+        },
+        {
+          "key": "garcía marín virginia",
+          "name": "Virginia García‐Marín"
+        },
+        {
+          "key": "alexander birk victor",
+          "name": "Alexander Victor Birk"
+        }
+      ],
+      "abstract_text": "Mitochondrial dysfunction is a critical early driver of retinal ganglion cell (RGC) loss in optic nerve injury. We evaluated whether HDAP2, a mitochondria-targeted aromatic peptide designed to support mitochondrial membrane integrity, could preserve neuronal structure after optic nerve crush (ONC) in C57BL/6 mice (both sexes, n = 31). Systemically administered HDAP2 penetrated the blood-retinal barrier and localized to RGCs and mitochondrial-rich retinal layers. Daily treatment significantly improved RGC survival compared to saline-treated ONC animals. RGC densities increased across central, midperipheral, and peripheral regions. Transmission electron microscopy revealed that HDAP2 substantially reduced mitochondrial loss within crushed optic nerve axons. Mitochondrial density in HDAP2-treated nerves approached levels observed in uninjured controls and was nearly 3-fold higher than untreated ONC nerves. Mitochondrial morphology was similar across groups, indicating that HDAP2 prevents mitochondrial loss rather than rescuing damaged organelles. HDAP2-treated nerves also exhibited a numerically higher density of structurally intact axons, consistent with reduced ultrastructural degeneration. These findings demonstrate that HDAP2 limits mitochondrial loss and attenuates neuronal degeneration after ONC. Together, the results support HDAP2 as a promising therapeutic candidate for protecting CNS projection neurons by maintaining mitochondrial stability after axonal injury.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2d501dea264cb4f7ed87f868d6aca2cf5185d853fc6a45ff1313209016253e9e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75973-y",
@@ -2283,6 +2958,444 @@
         {
           "key": "john peter",
           "name": "Peter C. John"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2d58a667a03288ce7c429ee358272a638890eb4a40db3378409683c58b192eef",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2023-07.2841562/3752722",
+        "https://doi.org/10.25582/data.2023-07.2845008/3751828",
+        "https://doi.org/10.25582/data.2023-07.2845009/3751829",
+        "https://doi.org/10.25582/data.2023-07.2845010/3751830",
+        "https://doi.org/10.25582/data.2023-07.2845011/3751831",
+        "https://doi.org/10.25582/data.2023-07.2845012/3751832",
+        "https://doi.org/10.25582/data.2023-07.2845013/3751833",
+        "https://doi.org/10.25582/data.2023-07.2846707/3751834",
+        "https://doi.org/10.25582/data.2023-07.2847229/3751835",
+        "https://doi.org/10.25582/data.2023-07.2847375/3751836",
+        "https://doi.org/10.25582/data.2023-07.2847397/3751837",
+        "https://doi.org/10.25582/data.2023-07.2854014/3750241",
+        "https://doi.org/10.25582/data.2023-07.2857517/3750242",
+        "https://openalex.org/W7212356751"
+      ],
+      "title": "Data for EMSL Project 50414 from July 2023",
+      "link": "https://doi.org/10.25582/data.2023-07.2845008/3751828",
+      "pdf_url": null,
+      "publication_date": "2026-09-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
         }
       ],
       "abstract_text": null,
@@ -3844,6 +4957,56 @@
       "curated_categories": []
     },
     {
+      "id": "2da5cf5ff91fdaa068157d78db0fbc33e87f11581a1274ada0a75c8f17165ec3",
+      "identity_keys": [
+        "https://doi.org/10.1136/jitc-2025-sitc2025.0314",
+        "https://openalex.org/W4415898870"
+      ],
+      "title": "314 Cytokine-cell conjugates for engineered T cell therapy",
+      "link": "https://doi.org/10.1136/jitc-2025-sitc2025.0314",
+      "pdf_url": "https://jitc.bmj.com/content/13/Suppl_2/A357.full.pdf",
+      "publication_date": "2025-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Regular and Young Investigator Award Abstracts",
+      "authors": [
+        {
+          "key": "wang wenjian",
+          "name": "Wenjian Wang"
+        },
+        {
+          "key": "chun ho jung",
+          "name": "Jung-Ho Chun"
+        },
+        {
+          "key": "alexey stepanov",
+          "name": "Alexey V. Stepanov"
+        },
+        {
+          "key": "hou yingqin",
+          "name": "Yingqin Hou"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "peng wu",
+          "name": "Peng Wu"
+        }
+      ],
+      "abstract_text": "Background Chimeric antigen receptor (CAR) T cell therapy has revolutionized the treatment of blood cancers, but its efficacy against solid tumors remains limited. Cytokines are important immune system modulators that can be harnessed to enhance the efficacy of adoptive T cell therapy. 1 Although the combination of adoptively transferred T cells with local cytokine administration or engineered cytokine production has been shown to promote proliferation and effector function of T cells, the systemic toxicity and severe side effects associated with cytokines remain critical challenges to be addressed.2 To address these issues, we developed a cytokine-cell conjugates (CCCs) platform utilizing fucosyltransferase(FT)-mediated cell-surface glycan editing.Methods We first synthesized cytokine-conjugated donor substrate, GDP-Fuc-cytokine via NHS coupling and TCO-Tz ligation ( figure 1).3 Subsequently, FT-mediated direct cell-surface fucosylation transferred Fuc-cytokine to LacNAc and sLacNAc residues in the cell-surface glycocalyx of T cells. With the establishment of the cell-surface conjugation approach, we applied it to construct a small library of CCCs with 17 selected cytokines by conjugating them individually onto day 4 activated P14 cells in 96-well plates. The library was then directly subjected to in vitro screening to identify cytokines that confer enhanced immunity to the modified T cells. Three selection criteria were used for the screening: cell expansion, apoptosis, and target cell killing.Results Notably, Neo4, 4 which was developed to recapitulate the type I signaling pathway of native IL-4, was found to reduce apoptosis, support proliferation, and enhance the cytotoxicity of CD8 T cells upon conjugation. Mechanistically, we discovered that Neo4 can induce a unique spectrum of intracellular signaling cascades, through signal transducer and activator of transcription (STAT) 1, 3, 5, and 6, augmenting the glycolytic metabolism and oxidative phosphorylation. Neo4-conjugated P14 CD8 T cells exhibited increased expression of proliferation and effector function markers, along with decreased markers of exhaustion after co-culturing with tumor cells. These Neo4-conjugated P14 CD8 T cells showed improved efficacy in vivo against solid tumors. When combined with ICB, this approach led to complete tumor regression and sustained antitumor responses (figure 2). Remarkably, Neo4 conjugation not only enhanced the efficacy of ACT but also reduced immune-related adverse events (irAEs) associated with ICB. Furthermore, Neo4-conjugated anti-CD19 human CAR-T cells demonstrated durable antitumor activity after leukemia rechallenge in a mouse model of Nalm6.Conclusions This work establishes a generalizable method for enhancing the efficacy of CAR-T cells, resulting in the eradication of solid tumors, durable immune protection, and reduced toxicity.References Corria-Osorio J, Carmona SJ, Stefanidis E, et al. Orthogonal cytokine engineering enables novel synthetic effector states escaping canonical exhaustion in tumor-rejecting CD8(+) T cells. Nat Immunol. 2023;24:869-883.Propper DJ, Balkwill FR. Harnessing cytokines and chemokines for cancer therapy. Nat Rev Clin Oncol. 2022;19:237–253.Li J, Chen M, Liu Z, Zhang L, Felding BH, Moremen KW, Lauvau G, Abadier M, Ley K, Wu P. A single-step chemoenzymatic reaction for the construction of antibody-cell conjugates. ACS Cent Sci. 2018;4(12):1633-1641.Yang H, Ulge UY, Quijano-Rubio A, et al. Design of cell-type-specific hyperstable IL-4 mimetics via modular de novo scaffolds. Nat Chem Biol. 2023;19:1127–1137.Ethics Approval The Institutional Animal Care and Use Committee (IACUC) is a federally mandated group that oversees the Scripps Animal Care and Use Program. Our goal is to ensure that animals used in research, education, and testing are treated humanely and ethically. All procedures involving animal handling, injection, and monitoring will follow IACUC-approved protocols, as determined by the Scripps Research Institute IBCs and the Institutional Animal Care and Use Committee (IACUC).Abstract 314 Figure 1Construct a cytokine-cell conjugate library to screen for armored T cells with improved immunity in vitroAbstract 314 Figure 2Neo4-conjugation potentiates T cell anti-tumor immunity and enhances synergy with immune checkpoint blockade in vivo",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2da836c113a2dcdbab08f056777084ab075c14fba8edd9b356320c67cd97ea19",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71501-0",
@@ -5068,6 +6231,40 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2dcb0894dc04d640963cbbbd9f83c7c40aa294ec3be22235f6e48399fb1d877a",
+      "identity_keys": [
+        "https://doi.org/10.3390/molecules31010045",
+        "https://openalex.org/W7116737829"
+      ],
+      "title": "AI-Driven Enzyme Engineering: Emerging Models and Next-Generation Biotechnological Applications",
+      "link": "https://doi.org/10.3390/molecules31010045",
+      "pdf_url": "https://www.mdpi.com/1420-3049/31/1/45/pdf?version=1766416007",
+      "publication_date": "2025-12-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecules",
+      "authors": [
+        {
+          "key": "faheem khan mohd",
+          "name": "Mohd Faheem Khan"
+        },
+        {
+          "key": "khan mohd tasleem",
+          "name": "Mohd. Tasleem Khan"
+        }
+      ],
+      "abstract_text": "Enzyme engineering drives innovation in biotechnology, medicine, and industry, yet conventional approaches remain limited by labour-intensive workflows, high costs, and narrow sequence diversity. Artificial intelligence (AI) is revolutionising this field by enabling rapid, precise, and data-driven enzyme design. Machine learning and deep learning models such as AlphaFold2, RoseTTAFold, ProGen, and ESM-2 accurately predict enzyme structure, stability, and catalytic function, facilitating rational mutagenesis and optimisation. Generative models, including ProteinGAN and variational autoencoders, enable de novo sequence creation with customised activity, while reinforcement learning enhances mutation selection and functional prediction. Hybrid AI-experimental workflows combine predictive modelling with high-throughput screening, accelerating discovery and reducing experimental demand. These strategies have led to the development of synthetic \"synzymes\" capable of catalysing non-natural reactions, broadening applications in pharmaceuticals, biofuels, and environmental remediation. The integration of AI-based retrosynthesis and pathway modelling further advances metabolic and process optimisation. Together, these innovations signify a shift from empirical, trial-and-error methods to predictive, computationally guided design. The novelty of this work lies in presenting a unified synthesis of emerging AI methodologies that collectively define the next generation of enzyme engineering, enabling the creation of sustainable, efficient, and functionally versatile biocatalysts.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

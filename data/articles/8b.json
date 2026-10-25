@@ -1911,6 +1911,68 @@
       "curated_categories": []
     },
     {
+      "id": "8b72784da6a6c005d2392f2704a27605999e9a449f78ed83e94b7501d6309dec",
+      "identity_keys": [
+        "https://doi.org/10.1007/s12602-026-10956-5",
+        "https://openalex.org/W7135206727"
+      ],
+      "title": "Bridging Generative AI and Diffusion Models With Molecular Simulation to Design Anti-Quorum-Sensing De novo Peptides Targeting LasR of Pseudomonas aeruginosa",
+      "link": "https://doi.org/10.1007/s12602-026-10956-5",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12602-026-10956-5.pdf",
+      "publication_date": "2026-03-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Probiotics and Antimicrobial Proteins",
+      "authors": [
+        {
+          "key": "abbas khan",
+          "name": "Abbas Khan"
+        },
+        {
+          "key": "mona sawali",
+          "name": "Mona A. Sawali"
+        },
+        {
+          "key": "anwar mohammad",
+          "name": "Anwar Mohammad"
+        },
+        {
+          "key": "fakhrul hasssan",
+          "name": "Fakhrul Hasssan"
+        },
+        {
+          "key": "alshabrmi fahad",
+          "name": "Fahad M. Alshabrmi"
+        },
+        {
+          "key": "alatawi eid",
+          "name": "Eid A. Alatawi"
+        },
+        {
+          "key": "crovella sérgio",
+          "name": "Sérgio Crovella"
+        },
+        {
+          "key": "dong qing wei",
+          "name": "Dong‐Qing Wei"
+        },
+        {
+          "key": "abdelali agouni",
+          "name": "Abdelali Agouni"
+        }
+      ],
+      "abstract_text": "The rapid evolution of generative and diffusion-based method in artificial intelligence (AI) has transformed de novo peptide and protein design, enabling the creation of sequence–structure–function relationships beyond conventional heuristic exploration. In this work, we developed an AI-guided molecular design pipeline that integrates diffusion-based generative modeling, inverse folding algorithms, and atomistic simulation to design and evaluate novel peptide inhibitors of the LasR quorum-sensing receptor of Pseudomonas aeruginosa . Peptides were generated using multiple complementary AI frameworks, including DiffPepBuilder (a diffusion-based denoising generator), ProteinMPNN (an inverse folding network), RFdiffusion2, Evobind2, and BindCraft (a hybrid sequence–structure generative model). These peptides were then subjected to physicochemical profiling and molecular docking to estimate binding affinities (Kd) and interface complementarity. The top candidates were subjected to 400 ns all-atom molecular dynamics (MD) simulations, performed in triplicate, to assess stability, flexibility, and interaction persistence, and were compared against the experimentally validated peptides benchmark. Post-simulation metrics, including RMSD, RMSF, and radius of gyration (Rg), revealed reproducible but architecture-specific dynamic behaviors, with BindCraft 4 maintaining the most compact and stable configuration, exhibiting minimal fluctuations and consistent binding-site retention. MMGBSA, performed at different time intervals, revealed strong van der Waals and electrostatic stabilization, correlating with sub-micromolar dissociation constants predicted computationally. In contrast, DiffPepBuilder 1–2 exhibited balanced flexibility and moderate stabilization, while ProteinMPNN 2 and the control (Aqs1C) displayed comparatively weaker energetic convergence. Principal Component Analysis (PCA) and Free Energy Landscape (FEL) projections confirmed that BindCraft 4 sampled a single deep energy basin, signifying a thermodynamically optimized conformational state. Collectively, this integrative AI-simulation hybrid computational framework demonstrates the capability of generative diffusion and inverse folding models to design peptides with superior structural stability and binding thermodynamics, offering a rational framework for AI-driven peptide therapeutics targeting Pseudomonas aeruginosa communication networks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8b7477d46afeda70ad15a681a9cb1712a31afa5fab7231908581a5019ddd2fa1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71730-3",
@@ -2152,6 +2214,76 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8b7baf4713ead2128bce91d06f5c723b251e3b80253bbbef3001ba8a9f9f7538",
+      "identity_keys": [
+        "https://doi.org/10.6019/empiar-13766",
+        "https://openalex.org/W7171999590"
+      ],
+      "title": "MPNN-RFdiff designed RNA molecule",
+      "link": "https://doi.org/10.6019/empiar-13766",
+      "pdf_url": null,
+      "publication_date": "2026-03-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "EMPIAR dataset",
+      "authors": [
+        {
+          "key": "hingey jason",
+          "name": "Jason Hingey"
+        },
+        {
+          "key": "nicholas spellmon",
+          "name": "Nicholas Spellmon"
+        },
+        {
+          "key": "andrew favor",
+          "name": "Andrew Favor"
+        },
+        {
+          "key": "andrew kubaney",
+          "name": "Andrew Kubaney"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "daniel haack",
+          "name": "Daniel B. Haack"
+        },
+        {
+          "key": "boris rudolfs",
+          "name": "Boris Rudolfs"
+        },
+        {
+          "key": "adamo mancino",
+          "name": "Adamo S. Mancino"
+        },
+        {
+          "key": "yu zy",
+          "name": "Yu ZY"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "das rhiju",
+          "name": "Rhiju Das"
+        }
+      ],
+      "abstract_text": "EMPIAR, the Electron Microscopy Public Image Archive centered at EMBL-EBI, is a public resource for raw electron microscopy images related to EMDB, contains micrographs, particle sets and tilt-series.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2569,8 +2701,11 @@
     {
       "id": "8b85569145b8b3987a927dad17b524b50ed4026bfc6e00f7b982d84918db8b19",
       "identity_keys": [
+        "biorxiv:10.64898/2026.06.12.731905v1",
         "https://doi.org/10.1021/acs.jctc.6c01180",
-        "https://openalex.org/W7214342673"
+        "https://doi.org/10.64898/2026.06.12.731905",
+        "https://openalex.org/W7214342673",
+        "https://www.biorxiv.org/content/early/2026/06/14/2026.06.12.731905.source.xml"
       ],
       "title": "Improving All-Atom Molecular Dynamics Models for Quantitative Prediction of Nanopore Blockade Current",
       "link": "https://doi.org/10.1021/acs.jctc.6c01180",
@@ -2604,9 +2739,25 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:biophysics",
+          "label": "bioRxiv: Biophysics",
+          "url": "https://www.biorxiv.org/collection/biophysics"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "Preprint",
+        "Signal analysis",
+        "Signal modeling"
+      ]
     },
     {
       "id": "8b8625ba225d2b1d0e8f71df2468558da521f4ec597f14e5c0d17440d96eb9fa",
@@ -4021,6 +4172,60 @@
       "curated_categories": []
     },
     {
+      "id": "8bcac39d604d6d43e5fc63c5316d466037b028efd27f2a87d581bf8bd1f8db00",
+      "identity_keys": [
+        "https://doi.org/10.3389/fbioe.2026.1884032",
+        "https://openalex.org/W7171673546"
+      ],
+      "title": "Recent advances in multimodal foundation model-enabled peptide screening and optimization for smart biomaterials and functional tissue engineering",
+      "link": "https://doi.org/10.3389/fbioe.2026.1884032",
+      "pdf_url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1884032/pdf",
+      "publication_date": "2026-07-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Bioengineering and Biotechnology",
+      "authors": [
+        {
+          "key": "chen ding",
+          "name": "Chen Ding"
+        },
+        {
+          "key": "luo yuxi",
+          "name": "Yuxi Luo"
+        },
+        {
+          "key": "ximiao yu",
+          "name": "Ximiao Yu"
+        },
+        {
+          "key": "lei yingying",
+          "name": "Yingying Lei"
+        },
+        {
+          "key": "wenping zhang",
+          "name": "Wenping Zhang"
+        },
+        {
+          "key": "wang xun",
+          "name": "Xun Wang"
+        },
+        {
+          "key": "gan jiadi",
+          "name": "Jiadi Gan"
+        }
+      ],
+      "abstract_text": "Peptides are important bioactive molecules for smart biomaterials and functional tissue engineering because they can provide targeting, antimicrobial, adhesive, immunomodulatory, and differentiation-regulating functions. However, conventional peptide discovery remains limited by high experimental cost, incomplete exploration of sequence space, and the difficulty of balancing bioactivity with stability, safety, manufacturability, and material compatibility. These limitations become more pronounced when peptides must retain function after chemical modification, immobilization, hydrogel incorporation, crosslinking, printing, or construct maturation. Recent advances in protein language models and multimodal foundation models provide new opportunities for peptide screening, generation, property prediction, and material-aware prioritization. This review summarizes foundation model-assisted strategies for peptide representation learning, candidate retrieval, de novo generation, interaction and property prediction, multi-objective optimization, benchmarking, developability assessment, and staged material-level validation. We also discuss representative applications in antimicrobial biomaterials, targeting systems, immunomodulatory materials, peptide-functionalized hydrogels, hydrogel bioinks, and three-dimensional bioprinted constructs. Overall, foundation model-assisted peptide design should be viewed as a candidate-prioritization framework rather than a substitute for experimental validation. Its future value will depend on standardized material-context data, transparent benchmarking, and validation across solution, material, biofabrication, and construct-level settings.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8bcea4f865124d870204f754f7ed5b5d40a80983df8faa9736484816d98b0605",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78834-w",
@@ -4480,6 +4685,48 @@
         }
       ],
       "abstract_text": "Brain metastasis, a common complication of advanced non-small cell lung cancer (NSCLC), leads to poor prognosis and reduces the efficacy of immune checkpoint inhibitors (ICIs). However, the mechanisms underlying this diminished ICI response remain unclear. Here we perform single-cell RNA sequencing on 101,959 tumor-infiltrating immune cells from primary tumors and brain metastases to delineate their distinct immune landscapes. Brain metastases display profound immunosuppressive reprogramming, characterized by enrichment of HSP70-high stress-responsive T cells and PLTP⁺ tumor-associated macrophages, and depletion of memory T cells and cDC2-like dendritic cells, which show opposing associations with ICI outcomes. Integrating these findings, we derive a seven-gene brain metastasis–derived immune signature (BMIS) that is associated with ICI response and survival in NSCLC and metastatic urothelial carcinoma and provides information complementary to tumor mutational burden. These results highlight immune features specific to brain metastatic NSCLC and suggest candidate biomarkers and therapeutic avenues for improving immunotherapy in this high-risk population. Brain metastases are a common complication of advanced non-small cell lung cancer (NSCLC) and affect responses to immune checkpoint inhibitors (ICI). Here the authors perform single cell transcriptomics on samples from NSCLC and brain metastases and implicate transcriptomic signatures associated with responsiveness to ICI.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8be4152426d9ec05b0bccf148de3410ac877107769e659d3055e9e29a923f391",
+      "identity_keys": [
+        "https://doi.org/10.3389/fbinf.2026.1746135",
+        "https://openalex.org/W7161949594"
+      ],
+      "title": "Nature’s economy as blueprint: regional overlap & block-based algorithm for protein design",
+      "link": "https://doi.org/10.3389/fbinf.2026.1746135",
+      "pdf_url": "https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2026.1746135/pdf",
+      "publication_date": "2026-05-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Bioinformatics",
+      "authors": [
+        {
+          "key": "héctor retana",
+          "name": "Héctor Retana"
+        },
+        {
+          "key": "damián roberto tentle",
+          "name": "Roberto Damián-Tentle"
+        },
+        {
+          "key": "luis pineda",
+          "name": "Luis A. Pineda"
+        },
+        {
+          "key": "altamirano bustamante myriam",
+          "name": "Myriam M. Altamirano‐Bustamante"
+        }
+      ],
+      "abstract_text": "Introduction: Nature has optimized protein design through modular recombination of conserved and variable domains, allowing rapid adaptation with minimal energetic cost. Inspired by this principle, we present ROB-Fold, a deterministic rule-based algorithm that emulates natural evolution to identify conserved structural scaffolds across protein families. Methods: Using experimentally validated and AI-predicted models from AlphaFold and the Protein Data Bank, ROB-Fold establishes motif centered analyses anchored on biologically meaningful patterns, into study cases, that can be extended for any protein family, such as CXXC in protein disulfide isomerases (PDIs) and EEVD in HSP70 chaperones. Around each anchor, bidirectional expansions are generated to detect recurrent sequence and structural elements. The algorithm translates residue frequencies into Chou-Fasman structural equivalence classes, projects consensus patterns onto secondary structure, and quantifies geometric persistence via Root Mean Square Deviation (RMSD). Results: Application to the PDI family revealed a conserved β-α-β-α-β core centered on the CXXC catalytic motif, delineating the thioredoxin-like scaffold responsible for redox activity. Similarly, analysis of the HSP70 family identified a recurrent \"GPXVEEVD\" pattern defining the nucleotide-binding domain, with conserved α-helical arrangements surrounding the EEVD motif. Across both cases, conserved regions exhibited RMSD values below 15 Å, confirming structural persistence and validating the cross-family generalization of the rule-based logic. Discussion: These findings demonstrate that explicit structural rules can recover evolutionary invariants typically detected by stochastic models while maintaining interpretability and computational efficiency. ROB-Fold thus provides a transparent and biologically grounded framework for identifying natural scaffolds, enabling a guide for the rational design of novel proteins.",
       "discovery_sources": [
         {
           "kind": "open_alex",

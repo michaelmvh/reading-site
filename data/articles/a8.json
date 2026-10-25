@@ -924,6 +924,44 @@
       "curated_categories": []
     },
     {
+      "id": "a82d723369488e22cf6477e99756f6f50da061644bec860acf53e6b30c02762a",
+      "identity_keys": [
+        "https://doi.org/10.3389/fgene.2025.1715037",
+        "https://openalex.org/W7123648101"
+      ],
+      "title": "Balancing speed and precision in protein folding: a comparison of AlphaFold2, ESMFold, and OmegaFold",
+      "link": "https://doi.org/10.3389/fgene.2025.1715037",
+      "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1715037/pdf",
+      "publication_date": "2026-01-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Genetics",
+      "authors": [
+        {
+          "key": "anna hýsková",
+          "name": "Anna Hýsková"
+        },
+        {
+          "key": "eva marsalkova",
+          "name": "Eva Marsalkova"
+        },
+        {
+          "key": "petr šimeček",
+          "name": "Petr Šimeček"
+        }
+      ],
+      "abstract_text": "We compared the performance of three widely used protein structure prediction tools—AlphaFold2, ESMFold, and OmegaFold—using a dataset of over 1,300 newly created records from the PDB database. These structures, resolved between July 2022 and July 2024, ensure unbiased evaluation, as they were unavailable during the training of these tools. Using metrics such as root mean square deviation (RMSD), template modeling score (TM-score), and predicted local distance difference test (pLDDT), we found that AlphaFold2 consistently achieves the highest accuracy but depends on high-quality sequence alignments. In contrast, ESMFold and OmegaFold provide faster predictions and excel in challenging cases, such as rapidly evolving or designed proteins with limited sequence homology. Comparing ESMFold and OmegaFold, ESMFold achieves higher confidence scores (pLDDT) and structural similarity (TM-score). OmegaFold is competitive in specific contexts, such as de novo-designed proteins or sequences with limited evolutionary information. Additionally, we demonstrate that machine learning models trained on protein language model embeddings and pLDDT confidence scores can predict potential structure prediction failures, helping to identify challenging cases early in the pipeline.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a830da1eae5859fb21a00f6c6d75d9c1298eefb9189832a125cb2296199814ea",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74410-4",
@@ -1179,6 +1217,48 @@
         }
       ],
       "abstract_text": "The time-domain coding metasurface (TDCM) offers a rapid and efficient approach to manipulate frequency spectra of electromagnetic waves within their transmission channels. To date, not only finite-order harmonics can be generated and coded in a discrete manner, the method of frequency modulation for continuous temporal waves is also investigated. However, due to the achievable speed of phase tuning, the modulation bandwidth and applicable scope of the current methods are still limited with respect to the requirement of practical systems. Here, we provide theoretical evaluations of the quality of generated frequency-modulated continuous wave (FMCW) radar signals with respect to the phase tuning speed, as well as a time-coding metasurface that can achieve a phase tuning speed smaller than 20 ns to support the generation of high quality FMCW signals with a bandwidth larger than 10 MHz. Different from varactors used in conventional approaches, the phase tuning of the proposed TDCM is based on the reconfiguration of a PIN-diode array. With this measure, the phase transition time between adjacent phase states can be reduced to a nano-second level, which is crucial for ultrahigh-speed coding. Furthermore, this design approach is also convenient to be rolled out to X- and even higher frequency bands, which overcomes the frequency spectra constraint when varactors are used. To validate its effectiveness, we have built a C-band radar prototype in which the metasurface operates as a transmitter to measure the range and speed of a flying drone.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a8417c6dc83fbb59a1c60ced081d4f2adc0f6c8f184418c5f0797c54a2d134e1",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2607.00947",
+        "https://openalex.org/W7167101195"
+      ],
+      "title": "Diffeomorphic Optimization",
+      "link": "https://doi.org/10.48550/arxiv.2607.00947",
+      "pdf_url": "https://arxiv.org/pdf/2607.00947",
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "ludwig winkler",
+          "name": "Ludwig Winkler"
+        },
+        {
+          "key": "andrew fay leaver",
+          "name": "Andrew Leaver‐Fay"
+        },
+        {
+          "key": "joseph kleinhenz",
+          "name": "Joseph Kleinhenz"
+        },
+        {
+          "key": "kessel pan",
+          "name": "Pan Kessel"
+        }
+      ],
+      "abstract_text": "Generative models learn data distributions that reside on a low-dimensional manifold within a higher-dimensional ambient space. Optimizing differentiable objectives on this manifold is challenging: the ambient loss landscape is high-dimensional, rugged, and non-convex. Direct gradient descent, blind to the manifold's geometry, quickly drifts off it. Diffeomorphic optimization starts from the observation that diffusion and flow models provide a map from the data manifold to a much simpler base space in which we perform gradient descent. Using differential geometry, we show this is equivalent to Riemannian gradient descent on the data manifold up to $\\mathcal{O}(λ^2)$ corrections, keeping trajectories on-manifold by construction and yielding a smoother optimization surface. For protein design, we extend diffeomorphic optimization to the matrix Lie groups $\\mathrm{SO}(3)$ and $\\mathrm{SE}(3)$, deriving an autograd-compatible $\\mathrm{SO}(3)$ gradient and a generalized adjoint-state method for backpropagation through Lie-group ODE solvers. Diffeomorphic optimization improves over tuned guidance on secondary-structure targeting with FrameFlow ($91.3\\%$ vs. $63.3\\%$ of residues in the Ramachandran target), outperforms OC-Flow on peptide binding affinity at $2\\times$ the speed, and reduces Rosetta energies by thousands of units across the PDB test set for structures with hundreds of residues.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2462,6 +2542,12 @@
       "abstract_text": "Abstract Despite the breakneck pace of progress in protein design methodology, frontier problems remain challenging, with leading methods struggling to design high-affinity binders, scaffold multiple functional motifs, or stabilize large multi-domain proteins. Recent research efforts have focused on two areas: improving model reasoning when generating active sites or binding interfaces, and improving concordance between the design process and the in silico oracle used to select promising designs. In addressing the first, the field has shifted towards all-atom models that capture sidechain conformations in atomistic detail by eschewing data-efficient SE(3)-equivariance, mirroring the evolution of AlphaFold2 to AlphaFold3. In addressing the second, recent work has focused on replacing generative models employing diffusion or flow-matching with hallucination approaches that directly optimize the oracle in sequence space; this improves success rates but reduces computational efficiency. Here, we close and surpass the generation-hallucination gap by revisiting SE(3)-equivariance using a branched polymer treatment of protein structures. The resulting diffusion model, Genie 3, achieves state-of-the-art performance on binder design, motif scaffolding, and unconditional generation, while being significantly faster than the best existing methods. We use Genie 3 to design a nanomolar binder of Nipah Glycoprotein G, a tetramer with minimal structural or biophysical characterization, as part of the Adaptyv Bio Nipah Competition, achieving a 12.5% success rate. Taken together, our results present a new frontier in protein design capability and a reexamination of the role of SE(3)-equivariance in molecular modeling.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -2698,6 +2784,52 @@
         }
       ],
       "abstract_text": "Dementia, a degenerative disease affecting millions globally, is projected to triple by 2050. Early and precise diagnosis is essential for effective treatment and improved quality of life. However, current diagnostic approaches often show inconsistent performance across multi-racial and multi-ethnic groups, raising concerns about fairness and clinical reliability. This study investigates performance discrepancies in dementia classification among 6584 Non-Hispanic White, 1263 Non-Hispanic African American, and 713 Hispanic White populations. We observed significant cross-group bias, particularly when models trained on one group are tested on another. To address this, we evaluated RegAlign, a few-shot domain adaptation objective that combines source-side focal learning, target-side class-weighted supervision, and class-conditional alignment to improve adaptation to underrepresented populations. Our results show that this approach substantially reduces inter-group performance gaps, especially between Non-Hispanic White and Hispanic populations. Here, we show the importance of fairness-aware learning strategies and diverse training data for improving the accuracy and equity of MRI-based dementia classification.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a89896f0bacbe754738ea071f5eb3617e17393a048fec313e2e2e38dd24d2b5d",
+      "identity_keys": [
+        "https://doi.org/10.1038/s42003-026-10283-z",
+        "https://openalex.org/W7162312670"
+      ],
+      "title": "Scaling antibody language models improves structure aware representation for antibody engineering",
+      "link": "https://doi.org/10.1038/s42003-026-10283-z",
+      "pdf_url": "https://www.nature.com/articles/s42003-026-10283-z_reference.pdf",
+      "publication_date": "2026-05-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Communications Biology",
+      "authors": [
+        {
+          "key": "bai shengyuan",
+          "name": "Shengyuan Bai"
+        },
+        {
+          "key": "liu zijing",
+          "name": "Zijing Liu"
+        },
+        {
+          "key": "bin feng",
+          "name": "Bin Feng"
+        },
+        {
+          "key": "jiying zhang",
+          "name": "Jiying Zhang"
+        },
+        {
+          "key": "li yu",
+          "name": "Yu Li"
+        }
+      ],
+      "abstract_text": "Antibody language models have emerged as powerful tools in antibody engineering by capturing patterns in sequences to innovate discovery and optimization. While recent advances in machine learning have significantly enhanced this field, current approaches often struggle to capture the full structural complexity inherent in antibody sequences. To address this, we present AbLingua, a family of language models pre-trained on antibody sequences. The largest model in this family contains 1.7 billion parameters and is trained on 1.4 billion sequences, making it the largest encoder-based language model specific to antibodies. AbLingua employs an advanced tokenization method that expands the vocabulary to a level comparable with human language, which enables the model to capture complex structural motifs influencing antibody behavior. Building upon this method, AbLingua introduces an improved pre-training approach that processes amino acid units to better represent structural interdependencies. We demonstrate that AbLingua achieves superior performance across multiple applications, including paratope prediction, neutralizing capacity assessment, and therapeutic antibody design. Furthermore, it excels in the unsupervised classification of B-cell developmental stages and virus-specific antibodies. Our findings demonstrate that the synergy of advanced tokenization, robust scaling laws, and curated datasets constitutes a superior foundation for antibody engineering, significantly driving development efficiency.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3088,6 +3220,56 @@
         }
       ],
       "abstract_text": "ABSTRACT Background Echocardiograms provide essential insights into cardiac health, yet their complex, multidimensional data poses significant challenges for analysis and interpretation. Existing deep learning models for echocardiogram analysis often rely heavily on supervised training, which limits their generalizability and robustness across different datasets and clinical environments. Objective To develop and evaluate Echo-Vision-FM ( Echo cardiogram video Vision F oundation M odel), a self-supervised video learning framework designed to pre-train a video encoder on large-scale, unlabeled echocardiogram data. Echo-Vision-FM aims to produce robust and transferable video representations, improving downstream performance across diverse echocardiogram datasets and clinical conditions. Methods The proposed framework employs advanced self-supervised video learning through a masked auto-encoding technique, which compresses segments of video data and reconstructs the full video by masking non-overlapping video patches. An asymmetric encoder-decoder architecture underpins this approach. To further enhance the learned representations, we introduce STF-Net , a S patial- T emporal F usion Net , which integrates spatial and temporal correlations from the video representations. We pre-trained Echo-Vision-FM using the MIMIC-IV-ECHO dataset and fine-tuned it across multiple downstream datasets for specific clinical tasks, including morphological value estimation and the diagnosis of heart function and diseases. Results Echo-Vision-FM achieved superior performance in classifying left ventricular ejection fraction ( LV EF ), with an accuracy of 0.905, an F1 score of 0.941, and an AUC of 0.931. In regression tasks, Echo-Vision-FM outperformed state-of-the-art models, achieving a mean absolute error (MAE) of 3.87% and an r 2 of 0.825 for LV EF prediction. The model also demonstrated significant improvements in estimating end-systolic and end-diastolic volumes, with r 2 values of 0.782 and 0.742, respectively. Incorporating STF-Net further enhanced performance across all tasks. Conclusion Our results demonstrate that large-scale self-supervised video learning on echocardiogram data enables the extraction of transferable and clinically relevant features, surpassing existing methods. The Echo-Vision-FM framework, particularly with the inclusion of STF-Net, significantly improves the extraction of spatiotemporal features, resulting in enhanced predictive accuracy for a range of cardiac parameters. Echo-Vision-FM offers a scalable and effective solution for echocardiogram analysis, with promising applications in clinical diagnostics and research.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a89cbc216c3352654055e64c8f4563b49660439424b872d4de9054372b82b8fc",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.6c02057",
+        "https://openalex.org/W7213670610"
+      ],
+      "title": "REAPS: An All-Atom Receptor-Aware Geometric Deep Learning Framework for De Novo Design of Linear and Macrocyclic Peptide Binders",
+      "link": "https://doi.org/10.1021/acs.jcim.6c02057",
+      "pdf_url": null,
+      "publication_date": "2026-09-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "qiu yongkang",
+          "name": "Yongkang Qiu"
+        },
+        {
+          "key": "jingxin qiao",
+          "name": "Jingxin Qiao"
+        },
+        {
+          "key": "lengjing zhu",
+          "name": "Lengjing Zhu"
+        },
+        {
+          "key": "du le",
+          "name": "Le Du"
+        },
+        {
+          "key": "shengyong yang",
+          "name": "Shengyong Yang"
+        },
+        {
+          "key": "jun zou",
+          "name": "Jun Zou"
+        }
+      ],
+      "abstract_text": "Abstract Peptide therapeutics occupy a critical niche between small molecules and biologics, yet the sequence design of peptide binders remains challenging because their bioactive conformations and interfacial fitness are dictated by the receptor microenvironment. Current computational approaches largely treat this as a generic inverse folding problem that relies on backbone geometry alone, overlooking the detailed physicochemical constraints of the receptor pocket. To bridge this gap, we introduce the REceptor-Aware Peptide Sequence Designer (REAPS), a geometric graph neural network that reframes sequence design for peptide binders by treating the receptor as a fully observable all-atom context. Multidimensional evaluations show that REAPS outperforms the widely used inverse folding model ProteinMPNN in sequence recovery, structural fidelity, and interface-level biophysical metrics across both linear and macrocyclic peptide binders. We further integrate REAPS with structural hallucination in a closed-loop de novo discovery pipeline, yielding peptide candidates with experimentally verified functional activity at the neurokinin-3 receptor (NK3R). The source code, model checkpoints, processed data sets, preprocessing scripts, and an example design workflow are publicly available at https://github.com/Mistletoe-git/REAPS.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4017,6 +4199,434 @@
       "curated_categories": []
     },
     {
+      "id": "a8c781fc8918a19bb35d1e63dee8545af936a1da5808b3fc4b6432917a07808c",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2022-11.2633958/3804374",
+        "https://doi.org/10.25582/data.2022-11.2637153/3802896",
+        "https://doi.org/10.25582/data.2022-11.2637552/3802897",
+        "https://openalex.org/W7213236080"
+      ],
+      "title": "Data for EMSL Project 50414 from November 2022",
+      "link": "https://doi.org/10.25582/data.2022-11.2637552/3802897",
+      "pdf_url": null,
+      "publication_date": "2026-09-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a8d1e77c47907e08546c22cf0e6d89247b00747bb1728aeb977ec43b83a79aa2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73725-6",
@@ -4048,6 +4658,108 @@
         }
       ],
       "abstract_text": "Quantum or quantum-inspired Ising machines have recently shown promise in solving combinatorial optimization problems in a short time. Real-world and practical applications, such as time division multiple access (TDMA) scheduling for wireless multi-hop networks, financial trading, and emerging in-vehicle systems, require solving those problems sequentially where the size and characteristics change dynamically. However, using Ising machines for practical deployment involves challenges to shorten system-wide latency due to the transfer of large Ising model or the cloud access and to determine the parameters for each problem. Here we show a combinatorial optimization method using embedded Ising machines, which enables solving diverse problems at high speed without runtime parameter tuning. We customize the algorithm and circuit architecture of the simulated bifurcation-based Ising machine to compress the Ising model and accelerate computation and then build a machine learning model to estimate appropriate parameters using extensive training data. In TDMA scheduling for wireless multi-hop networks, our demonstration shows that the sophisticated system can adapt to changes in the problem and has a speed advantage over conventional methods. Quantum-inspired Ising machines can be used to address dynamically changing combinatorial problems. Here, the authors present an embedded approach that compresses models, avoids runtime parameter tuning, and uses ML for rapid adaptation, achieving faster TDMA scheduling in dynamic wireless networks than conventional methods.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a8d6f11426dae65cc8cefb8fcaf1bd5aeccbe758c2caf2da9cd8705f2750e2b7",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.09.736951",
+        "https://openalex.org/W7167937955"
+      ],
+      "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
+      "link": "https://doi.org/10.64898/2026.07.09.736951",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/10/2026.07.09.736951.full.pdf",
+      "publication_date": "2026-07-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "emilie engdal sofie",
+          "name": "Emilie Sofie Engdal"
+        },
+        {
+          "key": "funk jonathan",
+          "name": "Jonathan Funk"
+        },
+        {
+          "key": "bacarreza omar",
+          "name": "Omar Bacarreza"
+        },
+        {
+          "key": "laura machado",
+          "name": "Laura Machado"
+        },
+        {
+          "key": "haurum johansen kristoffer",
+          "name": "Kristoffer Haurum Johansen"
+        },
+        {
+          "key": "janine kemming sophie",
+          "name": "Janine Sophie Kemming"
+        },
+        {
+          "key": "farnsworth thorin",
+          "name": "Thorin Farnsworth"
+        },
+        {
+          "key": "brasas valentas",
+          "name": "Valentas Brasas"
+        },
+        {
+          "key": "lefèvre louis morand rodrigue yves",
+          "name": "Rodrigue Yves Louis Lefèvre‐Morand"
+        },
+        {
+          "key": "mateusz slysz",
+          "name": "Mateusz Slysz"
+        },
+        {
+          "key": "luscombe noerregaard oliver",
+          "name": "Oliver Luscombe Noerregaard"
+        },
+        {
+          "key": "alba august dall oliver sandberg",
+          "name": "Oliver August Dall’Alba Sandberg"
+        },
+        {
+          "key": "alexander makarovskiy",
+          "name": "Alexander Makarovskiy"
+        },
+        {
+          "key": "lodahl peter",
+          "name": "Peter Lodahl"
+        },
+        {
+          "key": "acevedo carlos rocha",
+          "name": "Carlos G. Acevedo‐Rocha"
+        },
+        {
+          "key": "krzysztof kurowski",
+          "name": "Krzysztof Kurowski"
+        },
+        {
+          "key": "hadrup reker sine",
+          "name": "Sine Reker Hadrup"
+        },
+        {
+          "key": "clements william",
+          "name": "William R. Clements"
+        },
+        {
+          "key": "jenkins timothy",
+          "name": "Timothy P. Jenkins"
+        }
+      ],
+      "abstract_text": "ABSTRACT Deep generative models have become a leading approach for designing therapeutic molecules, yet efficiently exploring vast biomolecular sequence spaces remains difficult, particularly for targets with limited training data. The prior distribution that seeds a generative model shapes which regions of sequence space it explores, and recent work suggests that non-classical distributions sampled from quantum processors can serve as a structured alternative to the factorised Gaussian priors used by default. Whether such priors help on complex biological design tasks has been largely untested. Here we present what is, to our knowledge, the first end-to-end hybrid quantum-classical pipeline for de novo design of MHC class I-binding peptides, coupling a generative adversarial network (GAN) to latent vectors sampled from a real photonic quantum processor. Tested in silico across 131 HLA alleles, quantum-derived priors increased the yield of predicted strong binders, with the largest relative gains for understudied alleles where classical baselines perform worst. We selected three understudied alleles for further evaluation, finding that large gains coincided with broader sequence exploration at non-anchor positions while anchor specificity was preserved. On these three alleles, we validated the designs in vitro using peptide-MHC stability ELISAs, confirming that quantum-designed peptides are potent stabilisers of peptide-MHC class I complexes. These results establish structured, hardware-realisable non-classical priors as a useful inductive bias for generative peptide design, with direct relevance to personalised immunotherapies and vaccines.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4701,6 +5413,52 @@
       "curated_categories": []
     },
     {
+      "id": "a8ebedb5e958d54cf25594867b6d3d29c78fdeaad6a6e8f7f328a343006259ba",
+      "identity_keys": [
+        "https://doi.org/10.64898/2025.12.22.695983",
+        "https://openalex.org/W7117299529"
+      ],
+      "title": "FlashBind: Towards Accurate and Efficient Structure-based Virtual Screening",
+      "link": "https://doi.org/10.64898/2025.12.22.695983",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/12/25/2025.12.22.695983.full.pdf",
+      "publication_date": "2025-12-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jiang songlin",
+          "name": "Songlin Jiang"
+        },
+        {
+          "key": "chen yifan",
+          "name": "Yifan Chen"
+        },
+        {
+          "key": "aarti krishnan",
+          "name": "Aarti Krishnan"
+        },
+        {
+          "key": "yu zhang",
+          "name": "Yu Zhang"
+        },
+        {
+          "key": "jin wengong",
+          "name": "Wengong Jin"
+        }
+      ],
+      "abstract_text": "Abstract Accurate prediction of protein-ligand interactions is central to computational drug discovery. Recent foundation models such as Boltz-2 have achieved remarkable accuracy in binding affinity prediction, yet their prohibitive computational cost remains a major barrier to large-scale virtual screening. Here we introduce FlashBind , a lightweight structure-based model that achieves a 50× speedup over Boltz-2 at inference time by replacing expensive structure prediction with a fast docking model and substituting costly PairFormer modules with a streamlined EGNN architecture. FlashBind attains early enrichment competitive with Boltz-2 on standard virtual screening benchmarks and demonstrates strong generalization to enzyme-substrate specificity prediction. To evaluate real-world applicability, we apply FlashBind to target-based antibiotic screening against the essential bacterial proteins in E. coli and show that FlashBind substantially outperforms Boltz-2 and other virtual screening baselines. Notably, several top-ranked candidates exhibit potent inhibition of DnaG, and one shows whole-cell growth inhibition against E. coli in wet-lab validation. Together, these results demonstrate that FlashBind bridges the gap between accuracy and efficiency, enabling ultra-fast and accurate screening of massive chemical libraries for drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a8ec1a746f904ff40640de1f7860ceefe2a340ef6224b209536de1c957aead9d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76544-x",
@@ -5070,6 +5828,40 @@
         }
       ],
       "abstract_text": "Abstract Modified bases such as 5-methylcytosine (5mC) and N1-methyl-pseudouridine (N1Ψ) are widely used to reduce the immunogenicity of and enhance the stability and translational efficiency of therapeutic RNAs, yet their effects on RNA 3D structure remain poorly understood. Here, we investigate how these base modifications influence the folding and function of structured RNAs using both an engineered RNA origami nanostructure and a naturally occurring ribozyme. We show that modified bases impair kinetic maturation of RNA nanostructures and promote alternative folding topologies via stabilization of noncanonical stacking arrangements. Cryo-EM and FRET experiments reveal that this conformational shift is driven not by changes in base pairing, but by altered stacking energetics at key junctions. Our findings highlight the need to consider structural consequences when using base modifications and offer design principles for the development of functional, structured RNAs in synthetic biology and therapeutic applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a8fa75cffb13b9033ef7f4166ad3112dd450cd432f0c1f885360ea4c0dc9d2f8",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jchemed.5c00839",
+        "https://openalex.org/W4417102986"
+      ],
+      "title": "Cohort-Based Learning of Computational Protein Design: Engineering a Helical Protein To Improve Its Stability",
+      "link": "https://doi.org/10.1021/acs.jchemed.5c00839",
+      "pdf_url": null,
+      "publication_date": "2025-12-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Education",
+      "authors": [
+        {
+          "key": "beas mukherjee",
+          "name": "Beas Mukherjee"
+        },
+        {
+          "key": "de soumya",
+          "name": "Soumya De"
+        }
+      ],
+      "abstract_text": "Training in hands-on research is essential for developing core scientific skills in undergraduate students and expanding their career prospects in STEM fields. However, limited internship availabilities, financial constraints, and time demands often make these opportunities inaccessible. To address this gap, we designed and implemented a Course-based Undergraduate Research Experience (CURE) into a biochemistry curriculum through a multiweek computational protein-design project. A cohort of 79 upper-division undergraduate students with prior knowledge of protein chemistry were challenged with the research question: Can rationally designed mutations in an α helix of the model helical protein AvrPto enhance its overall structural stability? Using freely available computational tools such as PyMOL, Discovery Studio Visualizer, AGADIR, AlphaFold 3, Rosetta-suite, and GROMACS, students learned to design novel mutations in helix H1 of the AvrPto protein to enhance its α-helical propensity and study their effects on the overall protein structure, stability, and dynamics. The objective is to help students apply foundational concepts of chemistry to address a complex biological problem. Pedagogically, the study allows students to build transferable skills in protein design, molecular modeling, simulation workflows, and critical scientific reasoning. These skills are invaluable for careers in academia, biotechnology, and pharmaceutical industries. For educators, it provides a scalable framework for integrating authentic research into teaching that is adaptable across various chemistry and biochemistry programs.",
       "discovery_sources": [
         {
           "kind": "open_alex",

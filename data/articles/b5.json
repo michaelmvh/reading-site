@@ -190,6 +190,40 @@
       "curated_categories": []
     },
     {
+      "id": "b5035df26cb898b8d086be3bf6a198bc3a69546d53ce71eb994e7f39a0915723",
+      "identity_keys": [
+        "https://doi.org/10.2139/ssrn.7247346",
+        "https://openalex.org/W7201997405"
+      ],
+      "title": "CodonOptimus: A Ribosome-Profiling-Supervised Foundation Model For Codon Optimisation and Recombinant Protein Production in Microbial Cell Factories",
+      "link": "https://doi.org/10.2139/ssrn.7247346",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "SSRN Electronic Journal",
+      "authors": [
+        {
+          "key": "munish puri",
+          "name": "Munish Puri"
+        },
+        {
+          "key": "rajesh sathyamoorthy",
+          "name": "Rajesh Sathyamoorthy"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b505623573dd9fd34911748654cd9d631604b115330295617ab77093552f38da",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02040-3",
@@ -2100,6 +2134,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.10.20.760329v1",
         "https://doi.org/10.64898/2026.10.20.760329",
+        "https://openalex.org/W7223315380",
         "https://www.biorxiv.org/content/early/2026/10/23/2026.10.20.760329.source.xml"
       ],
       "title": "UnibindMD: An Integrated AI and Molecular Dynamics Platform for De Novo Peptide Binder Design",
@@ -2133,6 +2168,12 @@
       ],
       "abstract_text": "UnibindMD is an integrated computational platform that turns a protein target into validated de novo peptide-binder leads by chaining five orthogonal stages: deep-learning binder design (BindCraft), independent structure prediction and confidence assessment (AlphaFold3-class / Boltz-2), binding-affinity prediction (PRODIGY), developability profiling (ADMET-AI), and all-atom molecular-dynamics validation (GROMACS/CHARMM36m). The platform targets a persistent weakness of single-method design, namely that confidence metrics such as ipTM and pLDDT are self-consistent but not independent, so a design predicted to be confident may still be physically unstable. We demonstrate UnibindMD on three Andes virus (ANDV) intervention points, a setting of urgent need given a case fatality rate approaching 40%, a 2026 MV Hondius cruise-ship outbreak (13 cases, 3 deaths), and no approved therapeutic: the Gn-Gc glycoprotein complex (viral entry), the L-protein endonuclease domain (cap-snatching; PDB 6Q99), and the host VEGFR2 kinase (vascular permeability; PDB 2XIR). Across nine BindCraft campaigns (4,475 trajectories) the platform produced 464 accepted binders (acceptance 2.3-67.6%), with top candidates reaching ipTM = 0.94 and pLDDT = 0.94. The three selected leads were predicted by PRODIGY to bind with G = -9.1 to -11.1 kcal mol-1 (Kd 8 nM-0.2 M), and all three remained stably bound over 100 ns of unrestrained molecular dynamics (receptor CRMSD [&le;] 2.6 [A], retained peptide fold, [&ge;] 99.5% of frames preserving more than half of the initial interface contacts, and 75-82% helical content). ADMET-AI flagged the expected poor oral bioavailability of large polar peptides and no PAINS alerts. By converting single-prediction design into a cross-validated, dynamics-tested workflow, UnibindMD provides a rapid, scalable, and generalizable path from any protein target to validated peptide-binder candidates.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "biorxiv",
           "key": "biorxiv:bioinformatics",

@@ -2713,6 +2713,36 @@
       "curated_categories": []
     },
     {
+      "id": "727baa8e3f0fcfae71a0d42c0005278f2799ea9adfad4a44c9a570e9f5c1409f",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.23056203",
+        "https://openalex.org/W7214973406"
+      ],
+      "title": "De Novo Engineering of pH-Conditional, Cross-Species EGFR Binders via Higher-Dimensional ToposLang and Pharmacological Lattice Quantisation",
+      "link": "https://doi.org/10.5281/zenodo.23056203",
+      "pdf_url": null,
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "brahim elias oulad",
+          "name": "Elias Oulad Brahim"
+        }
+      ],
+      "abstract_text": "Overview This record contains the manuscript, computational framework artifacts, candidate sequence datasets, and wet-lab experimental protocols for \"De Novo Engineering of pH-Conditional, Cross-Species EGFR Binders via Higher-Dimensional ToposLang and Pharmacological Lattice Quantisation\". Targeted therapeutics against Epidermal Growth Factor Receptor (EGFR) are frequently constrained by severe on-target off-tumor toxicities and preclinical translation failures caused by cross-species sequence divergence. This work introduces a coordinate-free, topologically verified de novo protein design framework bridging Pharmacological Lattice Quantisation (PLQ) and ToposLang (7-Lang). The deposit includes 20 Pareto-optimal single-chain constructs (84-117 amino acids) presenting a histidine-switch electrostatic paratope directed against the conserved Domain III Cetuximab epitope. Key Features and Results pH-Conditional Switch Dynamic Range: Candidates exhibit potent binding in the acidic tumor microenvironment ($\\Delta G_{\\text{bind}} \\le -14.81\\text{ kcal/mol}$ at $pH = 6.5$) while remaining biochemically silent at physiological serum pH ($\\Delta G_{\\text{bind}} \\ge +3.38\\text{ kcal/mol}$ at $pH = 7.4$), establishing a thermodynamic switch delta of $\\Delta\\Delta G \\ge +18.19\\text{ kcal/mol}$. Cross-Species Equivalence: Binding thermodynamics are balanced between Human (UniProt: P00533) and Mouse (UniProt: Q01279) EGFR ($\\vert{}\\Delta\\Delta G_{\\text{species}}\\vert{} \\le 0.16\\text{ kcal/mol}$). Folding Confidence and Sequence Novelty: The candidates exhibit high structural confidence ($pLDDT \\ge 88.0$, $PAE < 4.0\\text{ \\AA}$) alongside low sequence identity ($\\le 30.8\\%$ to known reference binders), achieving $3/4$ and $4/4$ novelty scores by purging natural homology loops. Deterministic Assembly: Sequence generation is governed by exact rational Combinatorial Hodge Laplacians ($L_1 = B_1^T B_1 + B_2 B_2^T$), terminating deterministically upon Betti number annihilation ($\\beta_1 = \\dim(\\ker L_1) = 0$). Theoretical Framework and Methodological Notes Discrete Topological Representation: Molecular interaction manifolds are formalized as Directed Acyclic Cell Complexes (DACCs) where boundary nilpotency ($\\partial_{k-1} \\circ \\partial_k \\equiv 0$) is statically enforced at compile time. Clifford Conformal Geometric Algebra ($\\mathbb{R}^{4,1,0}$): Rigid docking transformations use coordinate-free multivector versor sandwich operators ($A' = M A \\bar{M}$) instead of Cartesian rotation matrices. Compiler Optimization (-topos-symbolic-gnc): An MLIR dialect lowering pass simplifies blade expressions at compile time and packs non-zero multivector coefficients into 64-byte/128-byte SIMD cache lines for lock-free concurrency. Histidine Bifold Manifold: Intrinsic acid dissociation constants ($pK_a \\approx 6.0\\text{-}6.2$) are mapped into a discrete ternary state space $T \\in \\{-1, 0, +1\\}$ to drive conditional salt-bridge formation at $pH = 6.5$ and severe desolvation penalties at $pH = 7.4$. File Manifest paper.pdf: Full preprint manuscript detailing the mathematical foundations, MLIR optimization passes, candidate profiling, and wet-lab protocols. submission.csv: Complete metadata and sequence entries for all 20 Pareto-optimal candidate constructs (ToposEGFR-C1-004 through ToposEGFR-C1-099), including sequence lengths, binding energies, $pLDDT$ scores, novelty tiers, and Hodge loop closure status. SOP_experimental_validation.md: Complete Standard Operating Procedure (SOP) for recombinant expression in E. coli SHuffle T7 Express, pET-22b(+) vector cloning, Ni-NTA/SEC purification, Surface Plasmon Resonance (SPR) kinetic assays, and flow cytometry on A431 cells. src/: Core source repositories for the ToposLang language engine and PLQ quantization framework. Technical and Execution Requirements Compiler Environment: ToposLang compiler suite (topos-lang) with MLIR/LLVM toolchain integration. Framework Dependencies: Pharmacological Lattice Quantization (PLQ) execution environment. Hardware Optimization: AVX-512 compatible x86_64 CPU recommended for SIMD multivector evaluation pipelines.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "727d2745435f23359be01f20558ddf3b666682c3c449323361b5239b499edd87",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65907-5",
@@ -3830,6 +3860,64 @@
       "curated_categories": []
     },
     {
+      "id": "72bb92170eb326a95676112aa4acb058585bdfae55380792a4a9c86cd23f67e5",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2608.17381",
+        "https://openalex.org/W7203781203"
+      ],
+      "title": "Leveraging generative hallucination and biophysics-informed modeling for unified biomolecular sequence-structure co-design",
+      "link": "https://doi.org/10.48550/arxiv.2608.17381",
+      "pdf_url": "https://arxiv.org/pdf/2608.17381",
+      "publication_date": "2026-08-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "liu xuefeng",
+          "name": "Xuefeng Liu"
+        },
+        {
+          "key": "cao mingxuan",
+          "name": "Mingxuan Cao"
+        },
+        {
+          "key": "luo xiao",
+          "name": "Xiao Luo"
+        },
+        {
+          "key": "jiang songhao",
+          "name": "Songhao Jiang"
+        },
+        {
+          "key": "sosnick tobin",
+          "name": "Tobin R. Sosnick"
+        },
+        {
+          "key": "jinbo xu",
+          "name": "Jinbo Xu"
+        },
+        {
+          "key": "louis maher",
+          "name": "Louis Maher"
+        },
+        {
+          "key": "rick stevens",
+          "name": "Rick Stevens"
+        }
+      ],
+      "abstract_text": "Biomolecular design underpins applications from molecular recognition to therapeutics and synthetic biology, yet de novo interaction design remains challenging-especially for DNA/RNA, underexplored non-protein modalities with scarce, heterogeneous complex data and sharper geometric and chemical constraints. We introduce MCTH (Monte Carlo Tree Hallucination), an inference-only framework that casts all-atom sequence-structure co-design as uncertainty-aware planning over hallucinated states from pretrained folding and inverse-folding models, with optional biophysical control within the same decision loop. MCTH treats these models as frozen black-box operators and uses Monte Carlo Tree Search to allocate a fixed inference budget across competing design trajectories, incorporating model confidence and uncertainty, as well as cross-expert consensus/disagreement when multiple predictors are available. Across protein-RNA, protein-DNA, protein-protein, and protein-ligand design, matched-budget experiments show that adaptive search improves over simpler sampling and cycling strategies, while held-out AlphaFold3 and Chai-1 evaluations demonstrate transfer beyond the search-time oracle. MCTH provides a shared planning layer across modalities while allowing task-specific folding, inverse-folding, and biophysical modules, requiring no fine-tuning or backpropagation through component models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "72beadb71d3ca8237db4ab5c4cf5d1efef04852786a3b93fdedd2cb3e73955d4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72512-7",
@@ -4187,6 +4275,60 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "72de01b6874d4aa3ee8c188c58421c66c96655258a76c59fa65dd3e3064bcf05",
+      "identity_keys": [
+        "https://doi.org/10.1093/bioinformatics/btag525",
+        "https://openalex.org/W7169765215"
+      ],
+      "title": "Evolutionary profiles for protein fitness prediction",
+      "link": "https://doi.org/10.1093/bioinformatics/btag525",
+      "pdf_url": null,
+      "publication_date": "2026-07-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioinformatics",
+      "authors": [
+        {
+          "key": "jiao xiaoran",
+          "name": "Xiaoran Jiao"
+        },
+        {
+          "key": "lin",
+          "name": "S.Q. Lin"
+        },
+        {
+          "key": "fan jigang",
+          "name": "Jigang Fan"
+        },
+        {
+          "key": "liang zhanming",
+          "name": "Zhanming Liang"
+        },
+        {
+          "key": "mao weian",
+          "name": "Weian Mao"
+        },
+        {
+          "key": "chen hao",
+          "name": "Hao Chen"
+        },
+        {
+          "key": "chunhua shen",
+          "name": "Chunhua Shen"
+        }
+      ],
+      "abstract_text": "MOTIVATION: Predicting the fitness impact of mutations is central to protein engineering but constrained by limited assays relative to the size of sequence space. Protein language models (pLMs) trained with masked language modeling (MLM) exhibit strong zero-shot fitness prediction; we provide an interpretive lens by regarding natural evolution as implicit reward maximization and MLM as inverse reinforcement learning (IRL), in which extant sequences act as expert demonstrations and pLM log-odds serve as fitness estimates. RESULTS: Building on this perspective, we introduce EvoIF, a lightweight model that integrates two complementary sources of evolutionary signal: (i) evolutionary profiles from retrieved homologs and (ii) inverse folding (IF) profiles distilled from IF logits. EvoIF fuses sequence-structure representations with these profiles via a compact transition block, yielding calibrated probabilities for log-odds scoring. On ProteinGym (217 mutational assays; >2.5M mutants), EvoIF and its MSA-enabled variant achieve competitive performance while using only 0.15% of the training data and fewer parameters than recent large models. Ablations confirm that evolutionary and IF profiles are complementary, improving robustness across function types, MSA depths, taxa, and mutation depths. AVAILABILITY AND IMPLEMENTATION: Code is archived on Zenodo at https://doi.org/10.5281/zenodo.20139484.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

@@ -1062,6 +1062,48 @@
       "curated_categories": []
     },
     {
+      "id": "43214f80211d69df86eb0b63b36ecee36956107eea017fb8aa5582e6383ee981",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jctc.6c00829",
+        "https://openalex.org/W7202074761"
+      ],
+      "title": "Prediction of Distal Mutation Effects in Enzymes via Integration of Molecular Dynamics Descriptors and Zero-Shot Model",
+      "link": "https://doi.org/10.1021/acs.jctc.6c00829",
+      "pdf_url": null,
+      "publication_date": "2026-08-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Theory and Computation",
+      "authors": [
+        {
+          "key": "wang yiqiu",
+          "name": "Yiqiu Wang"
+        },
+        {
+          "key": "ding luo",
+          "name": "Ding Luo"
+        },
+        {
+          "key": "cheng shuming",
+          "name": "Shuming Cheng"
+        },
+        {
+          "key": "binju wang",
+          "name": "Binju Wang"
+        }
+      ],
+      "abstract_text": "Identifying beneficial distal mutations remains a key challenge in enzyme engineering, as such residues can regulate activity through long-range dynamical coupling and allosteric communication. Although protein language models effectively capture sequence and evolutionary information, they lack explicit representation of conformational dynamics in the presence of the substrate, limiting their ability to detect distal regulatory sites. Here, we present an integrated framework that combines molecular dynamics (MD)-derived descriptors with the zero-shot prediction model GEMS to identify beneficial distal mutations. Compared to the pure zero-shot model, MD-derived descriptors efficiently capture key distal residues involved in dynamical coupling and allosteric communication with the active site. Consequently, these constraints enable the zero-shot model to predict distal mutations more precisely. By integrating sequence, evolutionary, and dynamic information, our approach expands the diversity of candidate sites while maintaining a manageable screening scale, offering an efficient and generalizable strategy for enzyme engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "43263d81fa3309e13c7527fa080fac560a405594f2cb37ad0ad3cb11a8c44d8c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71627-1",
@@ -2653,6 +2695,60 @@
       "curated_categories": []
     },
     {
+      "id": "435f52d19a57f2a85645beff335760fd99839808b5c989309aa861bc72f221d2",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.30.714168",
+        "https://openalex.org/W7147497722"
+      ],
+      "title": "CROWN: Curated Repository Of Well-resolved Non-covalent interactions",
+      "link": "https://doi.org/10.64898/2026.03.30.714168",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/01/2026.03.30.714168.full.pdf",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "poelmans robin",
+          "name": "Robin Poelmans"
+        },
+        {
+          "key": "eynde van wout",
+          "name": "Wout Van Eynde"
+        },
+        {
+          "key": "bence bruncsics",
+          "name": "Bence Bruncsics"
+        },
+        {
+          "key": "balint bruncsics",
+          "name": "Bruncsics Balint"
+        },
+        {
+          "key": "arany ádám",
+          "name": "Ádám Arany"
+        },
+        {
+          "key": "moreau yves",
+          "name": "Yves Moreau"
+        },
+        {
+          "key": "arnout voet",
+          "name": "Arnout R. D. Voet"
+        }
+      ],
+      "abstract_text": "The development of machine-learning models for protein–ligand interactions is constrained by the quality and diversity of the available structural data. Existing resources force researchers into a trade-off: carefully curated collections such as PDBBind and HiQBind offer high structural reliability but cover only a narrow slice of the Protein Data Bank (PDB), whereas large-scale resources such as PLINDER provide broad coverage with minimal quality control. We present CROWN (Curated Repository Of Well-resolved Non-covalent interactions), a machine-learning–ready dataset that reconciles scale and rigor through a fully automated preprocessing pipeline. Starting from the PDB database, CROWN applies a series of interleaved quality filters and processing stages that address crystallographic resolution, ligand identity, pocket completeness, structural repair, interaction quality, and protonation at physiological pH. The pipeline finishes with a constrained energy-minimization step built on custom flat-bottomed restraints — a step absent from all existing protein–ligand datasets — that balances crystallographic evidence against the relaxation of intramolecular strain. By reconciling the heterogeneous refinement practices of different depositions without distorting the experimentally observed binding geometry, this step yields a structurally uniform collection of 178,263 complexes, representing a roughly four-fold increase in protein diversity over PDBBind and HiQBind. Rather than organizing the data around sparsely available, bias-prone binding affinities, CROWN adopts a geometry-centric design philosophy that treats the three-dimensional arrangement of atoms at the binding interface as a self-consistent source of information. To demonstrate its value as a training resource, we trained two knowledge-based scoring functions on CROWN and benchmarked them on CASF-2016: relative to HiQBind-trained counterparts, CROWN-trained models showed markedly improved ranking power (mean Spearman correlation rising from 0.509 to 0.637) and docking power (top-1 near-native pose recovery of 0.785 versus 0.724). Because CROWN imposes no requirement for affinity labels, it can in principle support any model that learns from or is evaluated against protein–ligand complex structures. We anticipate that it will serve as a broadly useful resource for tasks such as the training of binder generation, protein design or protein folding models conditioned on bound ligands, the development of scoring functions or benchmarking of interaction-prediction methods.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "435fb431f7b1f065bc9fd41106b2bfc05d32e66d4a72bdd4d07911c7b15cfd1d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76831-7",
@@ -3501,6 +3597,7 @@
       "identity_keys": [
         "biorxiv:10.1101/2025.06.05.658122v3",
         "https://doi.org/10.1101/2025.06.05.658122",
+        "https://www.biorxiv.org/content/early/2026/03/05/2025.06.05.658122.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/23/2025.06.05.658122.source.xml"
       ],
       "title": "A genetically informed atlas of transcriptomic programs from massive human RNA-seq compendia",
@@ -3563,6 +3660,36 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "438c09a1b7031d9a8234de539600433c81f6b4cd859e3e2bfea51fdb38e54673",
+      "identity_keys": [
+        "https://doi.org/10.17638/03199430",
+        "https://openalex.org/W7204902052"
+      ],
+      "title": "Efficient matching of predicted protein structures into high to intermediate resolution CryoEM maps with Slice’N’Dice and ABCFold",
+      "link": "https://doi.org/10.17638/03199430",
+      "pdf_url": null,
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "University of Liverpool",
+      "authors": [
+        {
+          "key": "elliott luc",
+          "name": "Luc G. Elliott"
+        }
+      ],
+      "abstract_text": "Protein structures are essential for understanding biological function because the three-dimensional arrangement of amino acid residues determines molecular interactions, specificity, and activity at the atomic level. Cryogenic Electron Microscopy (CryoEM) has become a powerful method for structural determination, as high-resolution maps can support de novo model building, whereas intermediate-resolution maps often require map-fitting approaches in which atomic models are guided by experimental CryoEM densities (maps). While AlphaFold (AF)2 and newer diffusion-based predictors (AF3 and similar) can accurately model individual domains, their predictions become untrustworthy when multiple conformations are possible, leading to uncertain inter-domain orientations. As a result, global domain arrangements may be unreliable even when local confidence metrics indicate high structural accuracy. This creates a clear need for methods that address uncertainties in inter-domain orientations and reliably place predicted models into CryoEM maps. This work primarily presents the software Slice’N’Dice (SnD), a pipeline designed to address these issues by first slicing a predicted model into structural units then using map-fitting tools of MOLREP and PowerFit to place them into the CryoEM map. Data was collected to assess the feasibility of the tool prior to development. The data was sourced from CASP15, a community-wide benchmark evaluating state-of-the-art structure prediction methods. For the CASP15 competition, a cross-correlation (CC)-based ranking of CryoEM map-model placements showed a strong correlation with SCASP15 scores, demonstrating that high-quality predicted models have intrinsic value for map fitting. Model confidence, measured by pLDDT, was shown to act as a reliable pre-fitting indicator of success, and slicing full-chain predictions into domain-like units consistently improved placement quality. A binary classifier was developed to automatically assess atomic model placements in CryoEM maps by integrating multiple map-model fitting scores. Through systematic model selection, feature ablation and hyperparameter tuning, the final model achieved high predictive performance and generalisability, making it suitable for automated use within the SnD pipeline. This work also presents ABCFold, a complementary pipeline designed to facilitate local use of next-generation diffusion-based atomic model predictors: AF3, Boltz-1, and Chai-1. Thus, complementing the SnD workflow by providing accessible means to both model generation and map-model fitting.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []
@@ -3990,6 +4117,60 @@
         }
       ],
       "abstract_text": "Precise manipulation of interfacial microenvironments within the electrical double layer remains a fundamental challenge, primarily due to dynamic structural rearrangements and competitive adsorption processes during reactions. Here, we employ nanoscale curvature engineering to construct three RuIr-based electrocatalysts with precisely controlled surface curvatures, establishing a direct correlation between geometric effects and hydrogen oxidation reaction efficiency. Finite-element simulations coupled with electrochemical analysis reveal that concave nanocage (CNC) morphology enhances localized electric field, simultaneously weakening adsorbed hydrogen (Hads) binding and promoting its subsequent cooperative oxidation with more OHads. Operando spectroscopy and ab initio molecular dynamics simulations demonstrate that high-curvature RuIr CNC drives ordered O-down H2O alignment at the electrode-electrolyte interface, strengthening hydrogen-bond networks and accelerating proton-coupled electron transfer kinetics. The optimized RuIr CNCs achieve a mass activity of 7.51 mA μg−1 (three-electrode system) and enable a peak power density of 1.52 W cm−2 (H2/O2 anion-exchange membrane fuel cell), with stability over 150 hours. The sluggish hydrogen oxidation reaction hinders the development of anion exchange membrane fuel cells. Here, the authors develop high-curvature RuIr CNCs that induce an O-down water orientation, thereby strengthening hydrogen-bond networks and reducing proton transfer barriers.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "43982a8068d14a9244010754c37ce9265d890bb43ed0252a408cf27ad124b1a1",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jmedchem.6c01876",
+        "https://openalex.org/W7203610310"
+      ],
+      "title": "Structure-Based Design of First Ndc80 Loop-Targeting Peptide Disrupting Ndc80–Nuf2 Interaction for Hepatocellular Carcinoma Therapy",
+      "link": "https://doi.org/10.1021/acs.jmedchem.6c01876",
+      "pdf_url": null,
+      "publication_date": "2026-08-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Medicinal Chemistry",
+      "authors": [
+        {
+          "key": "jin xing",
+          "name": "Xing Jin"
+        },
+        {
+          "key": "miaomiao niu",
+          "name": "Miaomiao Niu"
+        },
+        {
+          "key": "geng yifei",
+          "name": "Yifei Geng"
+        },
+        {
+          "key": "han liqiao",
+          "name": "Liqiao Han"
+        },
+        {
+          "key": "wang yuting",
+          "name": "Yuting Wang"
+        },
+        {
+          "key": "huang xianzhang",
+          "name": "Xianzhang Huang"
+        },
+        {
+          "key": "qiaoxuan zhang",
+          "name": "Qiaoxuan Zhang"
+        }
+      ],
+      "abstract_text": "Ndc80 is essential for kinetochore-microtubule attachment, but its broad protein-protein interaction interface remains difficult to target. Here, we used structure-guided peptide optimization to develop Peptide-4, a loop-directed peptide designed to modulate the Ndc80-Nuf2 interaction. In contrast to reported Ndc80-directed compounds acting through the Hec1-Nek2 axis or the calponin homology domain, Peptide-4 addresses an underexplored loop region. Peptide-4 bound Ndc80 with a Kd of 0.45 ± 0.01 nM and inhibited the Ndc80-Nuf2 interaction with an IC50 of 0.76 ± 0.03 nM. In Huh7 cells, Peptide-4 altered microtubule organization, suppressed proliferation, clonogenic growth, migration, and invasion, and induced G2/M-phase accumulation and apoptosis. Ndc80 depletion attenuated its antiproliferative effect, consistent with a contribution of Ndc80 to its cellular activity. Peptide-4 also reduced tumor growth in Huh7 xenografts without apparent toxicity under the tested conditions. These findings support the Ndc80 loop as an underexplored peptide-addressable site and identify Peptide-4 as a lead for further optimization.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5321,6 +5502,44 @@
         }
       ],
       "abstract_text": "The development of H 2 O 2 economy is hampered by the instability of liquid-state bulk H 2 O 2 solutions (2H 2 O 2 → 2H 2 O + O 2 ; ΔG° = −117 kJ mol −1 ). Comparatively, dispersing H 2 O 2 molecules in solid-state materials would offer good physical stability with less of handling, leak and exposure risks, but suffers from fabrication schemes irrelevant to commercial applications. Mediated by the concept of electronic structure blurring, here we elaborate one-step electrosynthesis of solid-state H 2 O 2 with productivity up to 0.943 mol L −1 h −1 . Notably, the as-fabricated solid-state H 2 O 2 features not only high H 2 O 2 gravimetric densities ( > 30 wt%) but also good stability for repeated H 2 O 2 loading/deloading over 100 cycles and shelf life over 160 days. Mechanism study underscores the electronic structure blurring formed at local catalytic environments that contributes to homogenizing charge distributions of H-O and O-O bondings (charge transfer of 0.67 and 0.22 e), and thereby inhibiting the break of these bonds inside H 2 O 2 molecules. The revelation that “stabilized H 2 O 2 ” can be manufactured under industrial conditions offers a path towards a sustainable H 2 O 2 production.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "43ede972d556b5338395b86e555df7fcd8bdda41443fa9c26e74218dd7036e2c",
+      "identity_keys": [
+        "https://doi.org/10.52403/ijrr.20260610",
+        "https://openalex.org/W7166379586"
+      ],
+      "title": "Artificial Intelligence and Large Language Models in Drug Discovery and Pharmacogenomics: A Comprehensive Pharmacological Review of AlphaFold, Generative AI for De Novo Design, Clinical Decision Support, and the Translational Pipeline",
+      "link": "https://doi.org/10.52403/ijrr.20260610",
+      "pdf_url": "https://doi.org/10.52403/ijrr.20260610",
+      "publication_date": "2026-06-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Research and Review",
+      "authors": [
+        {
+          "key": "adiba begum",
+          "name": "Adiba Begum"
+        },
+        {
+          "key": "dr manisha",
+          "name": "Dr. R. L. Manisha"
+        },
+        {
+          "key": "muvvala sudhakar",
+          "name": "Muvvala Sudhakar"
+        }
+      ],
+      "abstract_text": "Artificial intelligence (AI) — particularly deep learning, generative models, and large language models (LLMs) — has emerged as a transformative force across pharmacology, drug discovery, clinical pharmacy, and pharmacogenomics. The 2020 release of AlphaFold by DeepMind, recognized with the 2024 Nobel Prize in Chemistry (jointly to Demis Hassabis, John Jumper, and David Baker), produced near-experimental-accuracy three-dimensional structures for nearly all known proteins, fundamentally transforming structural biology and structure-based drug design. The 2022–2025 wave of generative AI and large language models (GPT-4, Claude, Gemini, Llama) has demonstrated capabilities relevant to medical decision support, clinical documentation, drug information, pharmacovigilance, and patient education. AI-native biotechnology companies including Insilico Medicine, Recursion Pharmaceuticals, BenevolentAI, Atomwise, Exscientia, Isomorphic Labs, and Iambic Therapeutics have advanced AI-discovered drug candidates into clinical trials, with INS018_055 (Insilico, idiopathic pulmonary fibrosis) progressing to Phase 2 as a notable early example. The pharmacogenomics field is increasingly leveraging machine learning for genome-wide variant interpretation, polygenic risk scoring, drug-gene interaction prediction, and dose individualization. This review provides a comprehensive analysis of AI applications across the pharmaceutical value chain, including the technical foundations, target identification and validation, hit identification and lead optimization, ADMET prediction, AI-driven clinical trial design and patient stratification, post-market pharmacovigilance, LLM-based clinical decision support, the evolving regulatory landscape (FDA, EMA, and CDSCO frameworks), pharmacogenomic applications, the Indian AI and biotechnology context, and future directions for pharmacology education and translational research. Keywords: Artificial intelligence; Large language models; AlphaFold; Drug discovery; Pharmacogenomics; Generative AI; Deep learning; Transformer; Clinical decision support; Foundation models; Precision medicine.",
       "discovery_sources": [
         {
           "kind": "open_alex",

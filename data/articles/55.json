@@ -858,6 +858,48 @@
       "curated_categories": []
     },
     {
+      "id": "55312df324f0266a3c0bb931bf439539792bc3dc72c1ffd9e28a8354150896b3",
+      "identity_keys": [
+        "https://doi.org/10.1080/07391102.2026.2733932",
+        "https://openalex.org/W7214107008"
+      ],
+      "title": "Design of a high-affinity IL-21 decoy receptor as a novel therapeutic strategy for autoimmune disorders",
+      "link": "https://doi.org/10.1080/07391102.2026.2733932",
+      "pdf_url": null,
+      "publication_date": "2026-09-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Biomolecular Structure and Dynamics",
+      "authors": [
+        {
+          "key": "sara vazifeshenas",
+          "name": "Sara Vazifeshenas"
+        },
+        {
+          "key": "hajihassan zahra",
+          "name": "Zahra Hajihassan"
+        },
+        {
+          "key": "arab seyed shahriar",
+          "name": "Seyed Shahriar Arab"
+        },
+        {
+          "key": "ali najafyar",
+          "name": "Ali Najafyar"
+        }
+      ],
+      "abstract_text": "Elevated levels of the pro-inflammatory cytokine Interleukin 21 (IL-21) contribute to the progression of autoimmune and inflammatory diseases by binding to its receptor (IL-21R) and activating detrimental signaling pathways in immune cells. Consequently, we developed a recombinant decoy receptor protein designed to competitively inhibit IL-21 binding to its receptor. Using the extracellular domain of IL-21R as a scaffold, five key binding-site residues (33, 38, 70, 94, and 130) were mutated with OSPREY software. Computational analyses with GROMACS selected the Q33S, E38D, M70T, L94N, and M130S mutant for its superior structural stability and high binding affinity to IL-21, with binding energy calculations confirming that the mutant successfully maintains the high baseline binding affinity of the wild-type complex. The decoy receptor protein was subsequently expressed recombinantly in E. coli Rosetta-gami. More importantly, the analysis of secondary structure revealed that the protein retained its overall secondary structure after mutagenesis, with slight alterations in alpha-helical content. Finally, the calculation of the KD value using the SPR technique demonstrated that the mutant IL-21R exhibited a 1.4-fold increase in binding affinity compared to the wild-type receptor (KD=50 pM vs. 70 pM for the wild-type), supporting its potential as a competitive IL-21R decoy receptor. Therefore, this decoy receptor could be considered an effective therapeutic agent for blocking IL21 and controlling or preventing the progression of autoimmune and inflammatory diseases.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "55339920205023ddd058e89eb79f216047e3b7bbc409233fe9a0ca4a6faf606c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66833-2",
@@ -1452,6 +1494,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.10.12.758406v1",
         "https://doi.org/10.64898/2026.10.12.758406",
+        "https://openalex.org/W7222889130",
         "https://www.biorxiv.org/content/early/2026/10/18/2026.10.12.758406.source.xml"
       ],
       "title": "CAPO: Compute-Aware Automated Protein-Model Optimization",
@@ -1485,6 +1528,12 @@
       ],
       "abstract_text": "Protein models such as Evolutionary Scale Modeling (ESM), AlphaFold and Boltz have transformed computational protein science, yet a pretrained model rarely transfers to a particular laboratory's assay without adaptation to its data and experimental setting, and that adaptation is technically demanding and spends real compute budget. Existing agentic systems can automate model training, yet typically treat fine-tuning as a reliable tool call: feasibility and cost are estimated rather than measured, and infeasibility is discovered only after compute has been spent. We formulate protein-model adaptation as a gated decision problem: given a task, raw data and a compute budget c_max, a system should decide whether and how to adapt a model before committing expensive computation. We introduce CAPO (Compute-Aware Automated Protein-Model Optimization), a multi-agent system built around one rule: gate before you train. CAPO measures feasibility on the target accelerator, projects cost against the available budget, runs a canary inside the actual training loop and maintains an auditable artifact trail; critically, it can decline an unaffordable adaptation and select a cheaper alternative. We evaluate CAPO, without system changes, on three protein-modeling tasks: (i) SARS-CoV-2 host-range prediction, (ii) hit-to-lead affinity ranking and (iii) temporal variant-effect reclassification. On host range, CAPO partially fine-tuned an 8-million-parameter ESM-2 model to a species-averaged MCC of 0.826, compared with 0.743 for a hand-designed expert transformer; it matched a general coding agent while using 57.4% less GPU time and reduced failed training trials from four to zero. For hit-to-lead affinity ranking, CAPO rejected Boltz-2 fine-tuning and instead trained an assay-calibrated lightweight head over frozen representations, improving ranking on 11 of 15 held-out targets in 1.68 GPU-hours. On temporally held-out ClinVar variants, rank-4 low-rank adaptation of ESM-2 reached an MCC of 0.478, compared with 0.252 for a one-hot baseline and 0.000 for the frozen zero-shot score. These results come from single runs, without a gate ablation and with one generalist-agent comparison. Within those limits, they show that measured admission control can make protein-model adaptation not only automated but selective: deciding what to compute, what not to compute and why.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "biorxiv",
           "key": "biorxiv:bioinformatics",
@@ -1791,6 +1840,56 @@
       "curated_categories": []
     },
     {
+      "id": "55630224400b5abf5eef1972b8051f7d8166feac3300c50277fb740cbf03db8e",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.molp.2026.03.011",
+        "https://openalex.org/W7140277457"
+      ],
+      "title": "AI-driven protein engineering: A new paradigm for plant trait design",
+      "link": "https://doi.org/10.1016/j.molp.2026.03.011",
+      "pdf_url": null,
+      "publication_date": "2026-03-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecular Plant",
+      "authors": [
+        {
+          "key": "fu ran",
+          "name": "Ran Fu"
+        },
+        {
+          "key": "jiang shan",
+          "name": "Shan Jiang"
+        },
+        {
+          "key": "tong wu",
+          "name": "Tong Wu"
+        },
+        {
+          "key": "can yin",
+          "name": "Can Yin"
+        },
+        {
+          "key": "jun yan",
+          "name": "Jun Yan"
+        },
+        {
+          "key": "wang xiangfeng",
+          "name": "Xiangfeng Wang"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5563f2b7420eb87d5e1b878118ad3756cca93c09af119b52b355ccdb1bb10d68",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76379-6",
@@ -1885,6 +1984,80 @@
         {
           "key": "bundell shamini",
           "name": "Shamini Bundell"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "556803ebbc518c092eec69b07884ec29d3d22bea5cc2fb35ae0515223ef5aac2",
+      "identity_keys": [
+        "https://doi.org/10.2139/ssrn.7619916",
+        "https://openalex.org/W7222588293"
+      ],
+      "title": "De Novo-Designed Fluorescent Binding Protein-Based Screening of a High Tannase-producing Klebsiella Strain from Daqu",
+      "link": "https://doi.org/10.2139/ssrn.7619916",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "SSRN Electronic Journal",
+      "authors": [
+        {
+          "key": "liang ziqi",
+          "name": "Ziqi Liang"
+        },
+        {
+          "key": "guanhua jiao",
+          "name": "Guanhua Jiao"
+        },
+        {
+          "key": "dan li",
+          "name": "Dan Li"
+        },
+        {
+          "key": "gao sheng",
+          "name": "Sheng Gao"
+        },
+        {
+          "key": "meng wang",
+          "name": "Meng Wang"
+        },
+        {
+          "key": "hu jing",
+          "name": "Jing Hu"
+        },
+        {
+          "key": "lu yizhen",
+          "name": "Yizhen Lu"
+        },
+        {
+          "key": "dong jinkai",
+          "name": "Jinkai Dong"
+        },
+        {
+          "key": "xiaoning zhang",
+          "name": "Xiaoning Zhang"
+        },
+        {
+          "key": "junwei zeng",
+          "name": "Junwei Zeng"
+        },
+        {
+          "key": "junqing wang",
+          "name": "Junqing Wang"
+        },
+        {
+          "key": "ruiming wang",
+          "name": "Ruiming Wang"
         }
       ],
       "abstract_text": null,
@@ -4013,6 +4186,52 @@
       "curated_categories": []
     },
     {
+      "id": "55b6a06055fd7be6c5c3fa30a084c876bdb8807bbc0256d61e112188924e0bea",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.06.730477",
+        "https://openalex.org/W7164174502"
+      ],
+      "title": "Active Learning–Guided Peptide Design for Modulating Condensate Properties upon Recruitment",
+      "link": "https://doi.org/10.64898/2026.06.06.730477",
+      "pdf_url": null,
+      "publication_date": "2026-06-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "gaurav kumar",
+          "name": "Kumar Gaurav"
+        },
+        {
+          "key": "badr rodrique",
+          "name": "Rodrique G. M. Badr"
+        },
+        {
+          "key": "arya changiarath",
+          "name": "Arya Changiarath"
+        },
+        {
+          "key": "vasileios xenidis",
+          "name": "Vasileios A. Xenidis"
+        },
+        {
+          "key": "lukas stelzl",
+          "name": "Lukas S. Stelzl"
+        }
+      ],
+      "abstract_text": "The physical properties of biomolecular condensates, which form through phase separation, are central to their organisation and function and are increasingly implicated in disease mechanisms. To function correctly, condensates often recruit client biomolecules such as peptides and RNAs. This recruitment is not only essential to condensate biology but also offers an opportunity to engineer clients that tune the material properties of the condensate. Here we studied the previously characterised MUT-16 condensate, the scaffold of a membraneless organelle in C. elegans that recruits the N-terminal prion-like domain of MUT-8, a process essential for RNA silencing. We used coarse-grained molecular dynamics simulations to model and design peptide variants that interact with the scaffold protein MUT-16 and modulate its physical properties. To guide this design efficiently, we applied an active learning framework, which combines Bayesian optimization with neural networks to iteratively select the most informative peptide variants for simulation. This strategy reduced the number of simulations required while allowing the model to learn the sequence–property relationships that govern condensate behavior. Overall, this physics-based, learning-guided framework offered a computational approach to exploring how peptides can be engineered to influence condensate properties, and may inform the rational design of synthetic condensates.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "55b7cfff036620184e762c03395a66fc5425478bd23c568106a740cfdc8abb3c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64819-8",
@@ -4465,6 +4684,82 @@
       "curated_categories": []
     },
     {
+      "id": "55d17f1374ef2f48d4a86afa16f7997bf1d131ba11af0760b718ff5e938f0d22",
+      "identity_keys": [
+        "https://doi.org/10.1063/10.0039838",
+        "https://openalex.org/W4415733229"
+      ],
+      "title": "Refining Peptide Design for Surface Binding",
+      "link": "https://doi.org/10.1063/10.0039838",
+      "pdf_url": null,
+      "publication_date": "2025-10-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scilight",
+      "authors": [
+        {
+          "key": "alane lim",
+          "name": "Alane Lim"
+        }
+      ],
+      "abstract_text": "Molecular dynamics simulations reveal key sequence rules for enhancing solid-binding peptide affinity and eliminating discovery bias.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "55da00d38508f42562a2e53eddd64b8216752be2c6ae35b07f91b3f5c01746a7",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70496",
+        "https://openalex.org/W7128706186"
+      ],
+      "title": "MemPPI platform for measuring and engineering membrane protein–protein interactions in mammalian cells via split nanoluciferase",
+      "link": "https://doi.org/10.1002/pro.70496",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.70496",
+      "publication_date": "2026-02-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "tang weiyi",
+          "name": "Weiyi Tang"
+        },
+        {
+          "key": "cruz jojoa sebastian",
+          "name": "Sebastian Jojoa-Cruz"
+        },
+        {
+          "key": "jiayi li",
+          "name": "Jiayi Li"
+        },
+        {
+          "key": "george goldenfeld",
+          "name": "George Goldenfeld"
+        },
+        {
+          "key": "marco mravic",
+          "name": "Marco Mravic"
+        }
+      ],
+      "abstract_text": "Membrane protein-protein interactions (memPPIs) underlie critical biological processes including mediating signal transduction, transport, cell communication, and membrane organization. Despite their importance, systematic and quantitative measurement of protein transmembrane (TM) domains laterally interacting in mammalian cells remains challenging. Conventional fusion protein assays directed at memPPIs suffer from low dynamic range due to the crowded membrane environment and interference from overexpression, trafficking, or self-complementation artifacts. Here, we assessed and further developed the split luciferase complementation NanoBit system to establish suitable expression constructs and working conditions for robust quantification of TM PPIs within human cells. We benchmarked the platform using a panel of natural and synthetic memPPI pairs with diverse architectures, insertion topologies, and trafficking patterns, finding assay settings that robustly distinguish true positive interactions from co-expressed non-interacting pairs. Adding a novel procedure measuring and normalizing protein expression levels in situ in parallel, we drastically improve assay dynamic range and consistency in discerning relative interaction propensities across broad expression levels-which also enhances compatibility with protein engineering screens. To extend measurements to versatile protein contexts, we developed membrane expression constructs and validated tagging strategies to improve trafficking with defined TM orientations. By incorporating topological control and accounting for variations in expression levels, this memPPI platform becomes a viable approach for high-throughput interaction analyses and experimental screens for membrane protein design such as TM binders targeting human membrane proteins. Owing to its sensitivity, scalability, and adaptability, we expect this assay platform to have broad cross-disciplinary utility in protein science, design, and drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "55dfc9bb1539165d8038b964112ccf1a1c72811d71105a69d5b69c457bc8d350",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01369-z",
@@ -4811,6 +5106,8 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.01.07.697982v3",
         "https://doi.org/10.64898/2026.01.07.697982",
+        "https://www.biorxiv.org/content/early/2026/01/08/2026.01.07.697982.source.xml",
+        "https://www.biorxiv.org/content/early/2026/04/03/2026.01.07.697982.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/22/2026.01.07.697982.source.xml"
       ],
       "title": "CellWHISPER disentangles direct cell-cell communication from structural proximity",

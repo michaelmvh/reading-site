@@ -380,6 +380,12 @@
       "abstract_text": "A bstract De novo antibody design models lack sufficient training data to reliably generalize. We demonstrate scalable generation of structural training data for machine learning-driven antibody design by linking in silico designs of antibody-antigen complexes to high-throughput experimental binding validation. Using AlphaSeq, a yeast-based platform for measuring protein binding affinities, we measure the affinity and specificity of thousands of de novo “synthetic epitope proteins” (SEPs) designed to bind to VHHs. The resulting Synthetic Epitope Atlas (SEPIA) pairs over 26 million on- and off-target affinity measurements with computationally designed VHH–SEP “pseudo-structures.” We validate strong, specific binding for 1,161 pseudo-structures and >75,000 VHH and SEP mutational variants. We show that these pseudo-structures complement existing structural databases and enable ML models to outperform confidence metrics commonly used to rank de novo antibody designs. Taken together, SEPIA establishes a scalable framework for improving de novo antibody design by augmenting sparse structural data with large-scale experimental binding data.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -1193,6 +1199,36 @@
       "curated_categories": []
     },
     {
+      "id": "a638117f4b434e2aa9d7e9e5e0b0f449704144404ffe20d8d06307a4090f9215",
+      "identity_keys": [
+        "https://doi.org/10.17161/sjm.v2i4.23410",
+        "https://openalex.org/W4416304559"
+      ],
+      "title": "RFDiffusion: Revolutionizing Protein Design with Generative AI",
+      "link": "https://doi.org/10.17161/sjm.v2i4.23410",
+      "pdf_url": null,
+      "publication_date": "2025-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Serican Journal of Medicine",
+      "authors": [
+        {
+          "key": "peng zhangzhi",
+          "name": "Zhangzhi Peng"
+        }
+      ],
+      "abstract_text": "Protein design is an intricate and essential frontier in biotechnology, offering the potential to revolutionize medicine, materials science, and our understanding of biological systems. At its core, protein design involves crafting proteins with specific structural or functional properties. These tasks include creating enzymes with catalytic activity, designing protein binders to interact with specific targets, and engineering scaffolds that stabilize biologically relevant motifs. For years, traditional methods of protein design relied heavily on physics-based simulations and iterative experimental testing. While groundbreaking, these approaches were often computationally expensive and limited in their ability to explore the vast diversity of protein structures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a6397f74f67bd0cf8dd60df6bbab09c29c7fa2848b3f6f9776762b63112d144b",
       "identity_keys": [
         "https://arxiv.org/abs/2203.06125",
@@ -1525,6 +1561,64 @@
         }
       ],
       "abstract_text": "Abstract Autosomal dominant tubulointerstitial kidney disease -UMOD (ADTKD-UMOD) is characterized by progressive renal interstitial inflammation and fibrosis. However, its underlying mechanisms remain unclear. Here, we identify a large ADTKD pedigree harboring a novel UMOD p.H36Y mutation. Using CRISPR/Cas9 technology, we generated a UmodH36Y/+ mouse model that recapitulates the key phenotypes observed in affected individuals, including renal dysfunction, cyst formation, interstitial inflammation, and fibrosis. Multi-omics analyses revealed marked macrophage pyroptosis in UmodH36Y/+ kidneys. Treatment with disulfiram (DSF), a pyroptosis inhibitor, significantly alleviated interstitial inflammation and improved renal function. Mechanistically, the Umod p.H36Y variant activated the amyloid precursor protein (App)-Cd74 axis which mediated the crosstalk between renal TECs and macrophages. This axis sustains NF-κB pathway activation in macrophages, initiating pyroptosis and pro-inflammatory cytokine release. Disrupting App-Cd74 signaling effectively suppressed macrophage pyroptosis. Notably, pharmacologic inhibition using ARN2966, a small-molecule App inhibitor, markedly attenuated renal injury in UmodH36Y/+ mice. Collectively, these findings uncover a novel, targetable pathway in ADTKD-UMOD.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a6455dfd12c9cb5e59b67b2490a63055ac15297f48c173ce549e9ed20c890b6f",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.10.731383",
+        "https://openalex.org/W7164590816"
+      ],
+      "title": "MAHLER: Integrating Metadynamics and Inverse Folding to Predict Antibody-Antigen Kinetics",
+      "link": "https://doi.org/10.64898/2026.06.10.731383",
+      "pdf_url": null,
+      "publication_date": "2026-06-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "da teng",
+          "name": "Da Teng"
+        },
+        {
+          "key": "mary pitman",
+          "name": "Mary Pitman"
+        },
+        {
+          "key": "jha punit",
+          "name": "Punit K. Jha"
+        },
+        {
+          "key": "amogh sood",
+          "name": "Amogh Sood"
+        },
+        {
+          "key": "dominic rufa",
+          "name": "Dominic A. Rufa"
+        },
+        {
+          "key": "kevin ryczko",
+          "name": "Kevin Ryczko"
+        },
+        {
+          "key": "andrea bortolato",
+          "name": "Andrea Bortolato"
+        },
+        {
+          "key": "pratyush tiwary",
+          "name": "Pratyush Tiwary"
+        }
+      ],
+      "abstract_text": "efficacy beyond what equilibrium affinity captures. We present \"Metadynamics-Anchored Hybrid Learning for Engineering off-Rates (MAHLER)\", a fully open-source machine learning/physics hybrid method that predicts relative antibody-antigen residence times at scale. Incorporating inverse-folding models into molecular dynamics simulations, MAHLER shows first-in-class screening-grade accuracy in calculating relative antibody-antigen dissociation kinetics across a family of point mutants. After initial antigen-specific setup, each prediction takes only 4 minutes on a single NVIDIA A100 GPU, compared to days even with already enhanced molecular dynamics simulations. This provides practical kinetics-aware complement to current computational design approaches that focus primarily on binding affinity for antibody-antigen complexes.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1873,6 +1967,76 @@
       "curated_categories": []
     },
     {
+      "id": "a654c9ab9526a26361ae61602269ed62d2677a35e83620cade4c96ce194c8f3d",
+      "identity_keys": [
+        "https://doi.org/10.64898/2025.12.08.692957",
+        "https://openalex.org/W4417145412"
+      ],
+      "title": "TagF coordinates spike-loading as an intermediate checkpoint in Type VI Secretion System assembly",
+      "link": "https://doi.org/10.64898/2025.12.08.692957",
+      "pdf_url": null,
+      "publication_date": "2025-12-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "engelin melanie",
+          "name": "Melanie K. Engelin"
+        },
+        {
+          "key": "pradyot prakash",
+          "name": "Pradyot Prakash"
+        },
+        {
+          "key": "lin",
+          "name": "Lin Lin"
+        },
+        {
+          "key": "mühlethaler tobias",
+          "name": "Tobias Mühlethaler"
+        },
+        {
+          "key": "alexander heynisch",
+          "name": "Alexander Heynisch"
+        },
+        {
+          "key": "joana pereira",
+          "name": "Joana Pereira"
+        },
+        {
+          "key": "delbart florian",
+          "name": "Florian Delbart"
+        },
+        {
+          "key": "elian kuhn",
+          "name": "Elian M. A. Kuhn"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "maier timm",
+          "name": "Timm Maier"
+        },
+        {
+          "key": "basler marek",
+          "name": "Marek Basler"
+        }
+      ],
+      "abstract_text": "Abstract Diderm bacteria use contact-dependent Type VI secretion systems (T6SS) to gain a competitive advantage within bacterial communities and during infection. Whereas the structural core assembly of T6SS is well characterized, the role of diverse accessory proteins during assembly remains under investigation. One well-conserved accessory protein is TagF, a post-translational inhibitor of T6SS dynamics, which was previously characterized in the context of a kinase-phosphatase signaling relay. Here, we identify a subset of T6SS clusters in which TagF occurs in a distinct regulatory context and without known binding partners. Investigating the role of TagF in the constitutively active Acinetobacter baylyi T6SS, we show that though TagF can suppress assembly dynamics, it primarily acts as an assembly coordinator. Using structured illumination microscopy, we show that TagF coordinates the transition from baseplate assembly to sheath elongation by preventing premature and nonproductive sheath assembly in absence of the VgrG spike. Direct interactions with the conserved T6SS tube protein Hcp suggested that TagF blocks sheath elongation by binding and disrupting Hcp hexamers and thus preventing tube formation. Finally, we show that TagF activity depends on crosstalk with TagZ, a previously uncharacterized membrane-associated accessory protein that recruits TagF to the cell periphery, and demonstrate that this interaction can be specifically disrupted by expression of an artificial TagF-binding protein. Together, our findings establish a novel role of TagF as a checkpoint protein that controls for spike-insertion into the baseplate to ensure effective T6SS assembly.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a657dc75f81e0a5a252df47c7828eb23143f6fe01e8d3e3dca9bef0f24f7a8ac",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68293-8",
@@ -1978,6 +2142,44 @@
         }
       ],
       "abstract_text": "Drosophila olfactory sensory neurons tend to express a single ligand-specific receptor, following a one-receptor-per-neuron rule expected to apply broadly across insects. Recent work challenges this view by showing that some neurons in the mosquito Aedes aegypti coexpress multiple receptors. However, the full extent and nature of coexpression in Ae. aegypti remains unclear. We sequenced the transcriptomes of 46,000 female antennal neurons to resolve all olfactory neuron subtypes and identify expressed receptors. Half of all subtypes coexpress multiple receptors. However, coexpression occurs almost exclusively among receptors from the same family; cross-family coexpression of odorant receptors with ionotropic receptors is rare. We also document a phenomenon called multi-expression, wherein one receptor is expressed in multiple neuron subtypes, often alongside distant paralogs. Drosophila provides rare examples of both coexpression and multi-expression, suggesting that Drosophila and Aedes are not fundamentally different, but instead located at different positions along a continuum likely to encompass diverse insects. Dengue mosquito olfactory neurons are known to show complex patterns of receptor expression, but the details of this complexity remain unclear. Here, the authors build a comprehensive molecular atlas of antennal neurons, showing that half express multiple receptors and that some receptors are expressed in multiple neurons.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a65aa2a9074ce0ca41ae41fdffa76cdf89b21c23d56eb0b078aae407a1f5462c",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.13.738140",
+        "https://openalex.org/W7168362845"
+      ],
+      "title": "Prediction-Guided Design of a More Developable FGF21 Construct",
+      "link": "https://doi.org/10.64898/2026.07.13.738140",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/14/2026.07.13.738140.full.pdf",
+      "publication_date": "2026-07-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "bozkurt çağlar",
+          "name": "Çağlar Bozkurt"
+        },
+        {
+          "key": "evangelia nathanail",
+          "name": "Evangelia Nathanail"
+        },
+        {
+          "key": "aniruddh goteti",
+          "name": "Aniruddh Goteti"
+        }
+      ],
+      "abstract_text": "Abstract For structural-biology and protein-production pipelines, the hardest part of a difficult protein is not the biology — it is obtaining a well-behaved sample for functional studies. Programs routinely stall at construct design, expression, and purification : deciding where to truncate, which tags to use, how to express, and how to purify so the protein survives concentration and handling. These decisions are still made largely by literature precedent and experimental experience, and they require trial-and-error before arriving at a functional construct for hard targets. We present a prospective, single-pair wet-lab case study testing whether an integrated computational platform can improve these decisions. For human fibroblast growth factor 21 (FGF21) — a clinically important and stability-challenged metabolic hormone — we compared two expression constructs produced side by side under the same experimental workflow, using two different design strategies: one designed by a scientist from the literature (reproducing the published core-domain construct, PDB 6M6E), and one designed by the Orbion platform — an AI, prediction-guided protein-design system (orbion.life) — which additionally generated the expression and purification protocols (executed scientist-in-the-loop). The platform’s construct used an unconventional, longer C-terminal boundary not found in public sequence databases. Since the two constructs differ in more than one feature, we treat them as workflow-level designs throughout. The scientist construct gave a higher initial yield (∼2.4 ×more protein recovered at affinity capture). The platform-designed construct, however, showed a more favourable downstream developability profile: it concentrated higher (1.4 vs 0.7 mg/mL) while remaining more monodisperse by dynamic light scattering (DLS). The scientist construct, in contrast, aggregated on concentration, so its initial-yield advantage did not survive: in the final concentrated sample the Orbion construct provided the more usable material for downstream studies. Computed for the mammalian host used, the platform had prospectively scored its own design higher (composite 68.7 vs 59.0 for the scientist-designed construct), and its predictions of yield, solubility, and disorder matched the wet-lab outcome. This is a single, deliberately scoped case study, not a population-level benchmark; the two constructs differ in more than one feature, and biological activity was not assayed. Alongside the bottlenecks of this approach discussed here, used as a decision aid, prediction-guided construct and protocol design has the potential to remove costly iteration cycles of protein production campaigns.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4069,6 +4271,68 @@
         }
       ],
       "abstract_text": "Wearable bioelectronic interfaces capable of simultaneous neural sensing and targeted deep brain modulation remain limited by the lack of non-invasive technologies with sufficient spatial precision and mechanical stability for continuous operation. Here we report NEUSLeeP, a flexible skin-attached bioadhesive patch integrating electrophysiological sensing with transcranial focused ultrasound neuromodulation. The system incorporates a tunable concentric-ring ultrasound array, conformal hydrogel electrophysiological electrodes, and compliant interconnects within a soft substrate optimized for stable overnight operation. This integrated architecture enables spatially selective modulation and concurrent electrophysiological monitoring of deep brain structures, specifically the subthalamic nucleus during natural sleep. In a 28-participant study, NEUSLeeP demonstrated robust monitoring of sleep performance with precise-targeted neuromodulation of STN resulting in an increase in REM duration by 4.6% and reducing REM latency by 24%. This work establishes an ultrasound bioelectronic platform for non-invasive, spatiotemporally precise modulation and monitoring of deep neural circuits for neuroscience and bioelectronic medicine. ClinicalTrials.gov identifier: NCT07190287.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a6c11247875123a7e5002f6f3350ce1759e3091c027d714c2e5ebcf06bdecc75",
+      "identity_keys": [
+        "https://doi.org/10.1186/s12943-026-02685-8",
+        "https://openalex.org/W7163054435"
+      ],
+      "title": "Landscape of T-cell bispecific antibodies in cancer therapy: therapeutic strategies, challenges and future prospection",
+      "link": "https://doi.org/10.1186/s12943-026-02685-8",
+      "pdf_url": null,
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecular Cancer",
+      "authors": [
+        {
+          "key": "guanda jiao",
+          "name": "Guanda Jiao"
+        },
+        {
+          "key": "hongsen peng",
+          "name": "Hongsen Peng"
+        },
+        {
+          "key": "yang yiqi",
+          "name": "Yiqi Yang"
+        },
+        {
+          "key": "liu yang",
+          "name": "Yang Liu"
+        },
+        {
+          "key": "liu xiaoxi",
+          "name": "Xiaoxi Liu"
+        },
+        {
+          "key": "hu yuanjia",
+          "name": "Yuanjia Hu"
+        },
+        {
+          "key": "dai yeneng",
+          "name": "Yeneng Dai"
+        },
+        {
+          "key": "li",
+          "name": "Z Li"
+        },
+        {
+          "key": "qi zhao",
+          "name": "Qi Zhao"
+        }
+      ],
+      "abstract_text": "T-cell bispecific antibodies (TCBs), a specialized subclass of bispecific antibodies (BsAbs), are engineered to simultaneously engage T cells and tumor cells by binding two distinct antigens-or two epitopes on a single antigen-thereby redirecting cytotoxic T lymphocytes to eliminate malignant cells. These agents enhance anti-tumor immunity through dual mechanisms: direct activation of T cell receptor (TCR)-mediated signaling and modulation of T cell function via immune checkpoint (ICP) pathways. Clinically, TCBs have demonstrated transformative efficacy, particularly in hematologic cancers, heralding a new era in tumor immunotherapy. Despite their therapeutic promise, widespread clinical adoption of TCBs is impeded by significant challenges-including severe immune-related toxicities such as cytokine release syndrome (CRS) and immune effector cell-associated neurotoxicity syndrome (ICANS), as well as resistance conferred by the immunosuppressive tumor microenvironment (TME). This review provides a comprehensive analysis of TCBs, encompassing their molecular design, mechanisms of action, and clinical performance across oncology indications. We systematically compare current TCB platforms with respect to therapeutic strategy, structural format selection, safety profiles, and clinical outcomes. Additionally, we critically evaluate the major translational hurdles facing TCB-based therapies and explore emerging solutions-including the development of novel format antibodies, rational combination regimens with immune checkpoint inhibitors or other immunomodulators, the application of artificial intelligence (AI) in de novo antibody design, and antibody drug conjugates (ADCs). In summary, this review not only highlights the current landscape and limitations of TCBs but also outlines actionable strategies to overcome existing barriers-serving as a valuable resource for researchers, clinicians, and biopharmaceutical developers striving to advance the next generation of T-cell redirecting therapies into clinical practice.",
       "discovery_sources": [
         {
           "kind": "open_alex",

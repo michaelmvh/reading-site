@@ -1647,6 +1647,92 @@
       "curated_categories": []
     },
     {
+      "id": "6a4c1cc8e94a3731536c535e9e7cbd16bb5622bf5b1dce157e849f44f3c9e988",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.04.14.717973",
+        "https://openalex.org/W7154734394"
+      ],
+      "title": "Dynamic-Structure Redesign of Calmodulin Reveals Mechanistic Constraints on Ryr2 Regulation",
+      "link": "https://doi.org/10.64898/2026.04.14.717973",
+      "pdf_url": null,
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "bogdanov vladimir",
+          "name": "Vladimir Bogdanov"
+        },
+        {
+          "key": "svetlana tikunova",
+          "name": "Svetlana B. Tikunova"
+        },
+        {
+          "key": "fadell nicolas",
+          "name": "Nicolas Fadell"
+        },
+        {
+          "key": "rebbeck robyn",
+          "name": "Robyn T. Rebbeck"
+        },
+        {
+          "key": "aprahamian melanie",
+          "name": "Melanie L. Aprahamian"
+        },
+        {
+          "key": "afsar alam md nure",
+          "name": "Md Nure Alam Afsar"
+        },
+        {
+          "key": "aleksei chekodanov",
+          "name": "Aleksei Chekodanov"
+        },
+        {
+          "key": "blackwell daniel",
+          "name": "Daniel J. Blackwell"
+        },
+        {
+          "key": "björn knollmann",
+          "name": "Björn C. Knollmann"
+        },
+        {
+          "key": "cornea rǎzvan",
+          "name": "Rǎzvan L. Cornea"
+        },
+        {
+          "key": "huskey kekenes michael peter",
+          "name": "Peter Michael Kekenes-Huskey"
+        },
+        {
+          "key": "lindert steffen",
+          "name": "Steffen Lindert"
+        },
+        {
+          "key": "christopher johnson",
+          "name": "Christopher N. Johnson"
+        },
+        {
+          "key": "györke sándor",
+          "name": "Sándor Györke"
+        },
+        {
+          "key": "davis jonathan",
+          "name": "Jonathan P. Davis"
+        }
+      ],
+      "abstract_text": "2. ABSTRACT Calmodulin (CaM) is a highly conserved Ca 2+ sensor that regulates hundreds of cellular targets through Ca 2+ -dependent conformational dynamics. Despite its central role in Ca 2+ signaling and disease, its evolutionary conservation and structural flexibility have suggested that CaM is resistant to rational redesign. Here, using the cardiac Ca 2+ release channel Ryanodine receptor 2 (RyR2) as a model system, we tested whether incorporating conformational dynamics into computational protein design enables functional reengineering of CaM. We first applied a static structure–based redesign to increase CaM–RyR2 affinity. Although the resulting variant bound more tightly to both the RyR2 peptide and the intact channel in vitro, it distorted peptide geometry and worsened Ca 2+ leak in cardiomyocytes ex vivo. Guided by molecular dynamics simulations, we then developed a dynamic-structure redesign strategy that preserves conformational integrity while strengthening binding. The resulting CaM variant exhibited increased RyR2 affinity and reduced pathological Ca 2+ leak in a disease-relevant model. These findings show that improved binding affinity alone is insufficient to enhance physiological regulation and that successful CaM redesign requires preservation of conformational dynamics. More broadly, they demonstrate that integrating conformational dynamics into protein redesign can enable functionally predictive engineering of flexible regulatory protein–protein interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6a4fb094bab58628950b119e209a46c513a973904d35ce164a7d2d3f7d34d239",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71793-2",
@@ -3146,6 +3232,52 @@
       "curated_categories": []
     },
     {
+      "id": "6a8b12200774a1e058b1c53c93baa0971180435130d0af1306dcc3ceabce5035",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2608.16094",
+        "https://openalex.org/W7203697347"
+      ],
+      "title": "Protein Structure Prediction: From Evolutionary Constraints to Generative Modeling",
+      "link": "https://doi.org/10.48550/arxiv.2608.16094",
+      "pdf_url": "https://arxiv.org/pdf/2608.16094",
+      "publication_date": "2026-08-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "he wengan",
+          "name": "Wengan He"
+        },
+        {
+          "key": "luo yongsheng",
+          "name": "Yongsheng Luo"
+        },
+        {
+          "key": "jiang lihong",
+          "name": "Lihong Jiang"
+        },
+        {
+          "key": "wenhui xu",
+          "name": "Wenhui Xu"
+        },
+        {
+          "key": "li yu",
+          "name": "Yu Li"
+        }
+      ],
+      "abstract_text": "Accurate protein structure prediction is fundamental to structural biology because protein structure underlies molecular function and provides a basis for mechanistic interpretation. Recent advances in deep learning have transformed the field from multiple sequence alignment (MSA)-driven monomer folding into broader frameworks capable of modeling protein complexes and increasingly heterogeneous molecular systems. Existing reviews have summarized this progress from the perspectives of representative models, application domains, and protein design. Building on these efforts, this review focuses on the methodological evolution of the field itself. It examines recent developments through three closely related dimensions: representations and data, architectures and learning strategies, and confidence and evaluation. Within this perspective, the field is organized into four methodological phases and three cross-cutting transitions: from explicit evolutionary coupling features and early contact prediction to learned sequence representations in AlphaFold2, RoseTTAFold, and ESMFold; from protein-only monomer folding to increasingly integrated modeling of heterogeneous molecular systems in AlphaFold-Multimer, RoseTTAFoldNA, and AlphaFold3; and, more recently, from prediction-oriented structure inference to design-oriented generative modeling in RFdiffusion and related frameworks. This framework provides a clearer understanding of how methodological shifts have shaped the capabilities, limitations, and practical roles of recent models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6a8be93a9738c401d3b3a1f4b2c78da73f81eda0dcc35998c8aadf95c75e04dd",
       "identity_keys": [
         "https://arxiv.org/abs/2410.03634",
@@ -3190,6 +3322,52 @@
         "5.4 Transformer-based",
         "5.Function to Sequence"
       ]
+    },
+    {
+      "id": "6a8c79dd928fce8943ac62bab8f7bd46241b4e87cfc0409efbb143a6e8b855d2",
+      "identity_keys": [
+        "https://doi.org/10.17135/jdhs.2026.26.2.118",
+        "https://openalex.org/W7165864195"
+      ],
+      "title": "Antimicrobial and Antibiofilm Activities of Allomyrinasin against Streptococcus mutans",
+      "link": "https://doi.org/10.17135/jdhs.2026.26.2.118",
+      "pdf_url": "https://pdf.medrang.co.kr/jdhs/2026/026/jdhs026-02-118.pdf",
+      "publication_date": "2026-06-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of dental hygiene science",
+      "authors": [
+        {
+          "key": "hye mun young",
+          "name": "Hye Young Mun"
+        },
+        {
+          "key": "han yeeun",
+          "name": "Yeeun Han"
+        },
+        {
+          "key": "choi mi song",
+          "name": "Song-Mi Choi"
+        },
+        {
+          "key": "kim min sung",
+          "name": "Sung-Min Kim"
+        },
+        {
+          "key": "jung kang yun",
+          "name": "Jung Yun Kang"
+        }
+      ],
+      "abstract_text": "Background: Dental caries represents one of the most prevalent oral diseases worldwide, with Streptococcus mutans as its primary causative pathogen.Currently used oral antimicrobial agents are associated with adverse effects, including microbial resistance and disruption of normal oral microbiota, necessitating safer natural alternatives.In this study, we evaluated the antimicrobial and antibiofilm activities of allomyrinasin, a synthetic antimicrobial peptide designed based on a peptide identified in the larvae of the dynastid beetle Allomyrina dichotoma against S. mutans.Methods: Antimicrobial activity was evaluated using a disk diffusion assay, and the resulting growth inhibition areas were quantified as fold changes (%).Biofilm formation was quantitatively evaluated using crystal violet staining and measuring optical absorbance at 595 nm.Allomyrinasin was tested at 200 and 500 μg/ml, with distilled water and Listerine Ⓡ as negative and positive controls, respectively.Statistical analysis was performed using one-way analysis of variance followed by Tukey's multiple comparison test at a significance level of α=0.05.Results: Allomyrinasin at 500 μg/ml demonstrated statistically significant growth inhibition compared to the control (p＜0.001).A dose-dependent increasing trend in inhibition area was observed (7.23±8.85 and 31.04±12.81at 200 and 500 μg/ml, respectively).In biofilm assays, 500 μg/ml allomyrinasin significantly reduced biofilm formation (p＜0.01) and exhibited no statistically significant difference compared to Listerine Ⓡ .Conclusion: Allomyrinasin at 500 μg/ml exhibited dose-dependent antimicrobial activity against S. mutans and biofilm inhibitory effects comparable to a commercial mouthrinse, suggesting its potential as a naturally derived oral antimicrobial agent for dental caries prevention.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "6a8d3051c827ad64c44ee71f09c143368b2db8abc7a45e518ee962b91442d8ca",
@@ -3277,6 +3455,36 @@
         }
       ],
       "abstract_text": "Abstract Copper-nickel alloy pipes in marine environments are prone to scouring by solid particles, which disrupt the bilayer oxidation film and induce scratches. These scratched regions are more vulnerable to perforation, potentially leading to premature pipe failure. Thus, rapidly repairing the film and restoring its corrosion resistance is a major challenge. This study simulates the \"film damage-regeneration\" process of copper-nickel alloys in marine environments, researching the regeneration of the film in scratched regions of a 70/30 Cu-Ni alloy in a 3.5 wt% NaCl solution, under both non-magnetic and magnetic field conditions. The results demonstrate that the application of a magnetic field accelerates the regeneration of the film and, through synergistic interactions with the scratched microregions, alters the local pH conditions, suppresses the re-deposition of Cu<2/sup>O, and significantly enhances the enrichment of NiO on the surface of the regenerated film. Ultimately, a unique single-layer film structure with enhanced corrosion resistance is formed. Notably, this single-layer film structure represents the first reported observation in copper-nickel alloy studies. This work offers a novel approach for in-situ copper-nickel alloy pipeline's film repair, with significant implications for extending the lifespan of marine engineering infrastructures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6a902f2563ef6a37da03db3dce54bc011ef49ec7a25acf07877bbbead529e3c7",
+      "identity_keys": [
+        "https://doi.org/10.63721/26jbasr0154",
+        "https://openalex.org/W7221659290"
+      ],
+      "title": "Artificial Intelligence in Protein Engineering: From Therapeutic Design to Precision Medicine",
+      "link": "https://doi.org/10.63721/26jbasr0154",
+      "pdf_url": "https://doi.org/10.63721/26jbasr0154",
+      "publication_date": "2026-06-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Biomedical Advance Scientific Research",
+      "authors": [
+        {
+          "key": "ian pranandi",
+          "name": "Ian Pranandi"
+        }
+      ],
+      "abstract_text": "Protein engineering has become a cornerstone of modern biotechnology and therapeutic development, enabling the design and optimization of proteins for applications ranging from biologics and vaccines to precision therapeutics. Recent advances in artificial intelligence (AI) have fundamentally transformed this field by accelerating protein structure prediction, function analysis, sequence optimization, and de novo protein design. This review provides an overview of the emerging role of AI in protein engineering and its implications for therapeutic development and precision medicine. Key AI-driven technologies, including machine learning, deep learning, protein language models, and generative AI, are discussed in the context of protein structure prediction, function prediction, and rational protein design. The review further examines the application of these technologies in therapeutic protein development, antibody engineering, vaccine design, immunotherapy, and AI-assisted drug discovery. Particular attention is given to the integration of AI with multi-omics technologies, which enables the identification of patient-specific molecular characteristics and supports the development of personalized therapeutic strategies. The convergence of AI, protein engineering, and precision medicine has created new opportunities for designing biologics tailored to individual disease mechanisms and patient profiles. Despite these advances, challenges related to data quality, model interpretability, experimental validation, ethical considerations, and regulatory oversight remain important barriers to widespread clinical implementation. Emerging technologies, including biological foundation models, generative AI systems, autonomous protein engineering platforms, and digital twin technologies, are expected to further expand the capabilities of AI-driven therapeutic design. Collectively, these developments position AI as a transformative force in protein engineering, accelerating therapeutic innovation and supporting the transition toward more precise, personalized, and effective healthcare solutions.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5050,6 +5258,482 @@
         }
       ],
       "abstract_text": ", the underlying processes and rates of spontaneous CA formation in human cells are underexplored. Here we introduce machine-learning-assisted genomics and imaging convergence (MAGIC)-an autonomously operated platform that integrates live-cell imaging of micronucleated cells, machine learning on-the-fly and single-cell genomics to systematically investigate CA formation. Applying MAGIC to near-diploid, non-transformed cell lines, we track de novo CAs over successive cell cycles, highlighting the common role of dicentric chromosomes as initiating events. We determine the baseline CA mutation rate, which approximately doubles in TP53-deficient cells, and observe that chromosome losses arise more frequently than gains. The targeted induction of DNA double-strand breaks along chromosome arms triggers distinct CA processes, revealing stable isochromosomes, coordinated segregation and amplification of isoacentric segments in multiples of two, as well as complex CA outcomes, influenced by the chromosomal break location. Our data contrast de novo CA spectra from somatic mutational landscapes after selection occurred. The experimentation enabled by MAGIC advances the dissection of DNA rearrangement processes, shedding light on fundamental determinants of chromosomal instability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6aeaef3c06748f718cef533c33201168ce624a9eeaa26276f1144626c70513a5",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2020-11.2090659/17126261",
+        "https://doi.org/10.25582/data.2020-11.2091627/17124493",
+        "https://doi.org/10.25582/data.2020-11.2092341/17124494",
+        "https://doi.org/10.25582/data.2020-11.2095967/17122300",
+        "https://doi.org/10.25582/data.2020-11.2097719/17120439",
+        "https://openalex.org/W7220693557"
+      ],
+      "title": "Data for EMSL Project 50414 from November 2020",
+      "link": "https://doi.org/10.25582/data.2020-11.2091627/17124493",
+      "pdf_url": null,
+      "publication_date": "2026-10-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6aee281476ec9d568cc8a0940033286d3571a1a76d348d655556bb6d6615ccb3",
+      "identity_keys": [
+        "https://doi.org/10.36227/techrxiv.176592006.61180805/v1",
+        "https://openalex.org/W7115693932"
+      ],
+      "title": "Meta-Learning for Binding Affinity Prediction in Fixed-Target DARPin Engineering",
+      "link": "https://doi.org/10.36227/techrxiv.176592006.61180805/v1",
+      "pdf_url": null,
+      "publication_date": "2025-12-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "chowdhury md raiyan",
+          "name": "Md Raiyan Chowdhury"
+        },
+        {
+          "key": "michael woolley",
+          "name": "Michael Woolley"
+        },
+        {
+          "key": "jian tao",
+          "name": "Jian Tao"
+        },
+        {
+          "key": "chen zhilei",
+          "name": "Zhilei Chen"
+        },
+        {
+          "key": "qian xiaoning",
+          "name": "Xiaoning Qian"
+        }
+      ],
+      "abstract_text": "Most protein engineering campaigns are aimed at improving protein properties, such as thermostability and binding affinity, a difficult task due to the vast combinatorial sequence space and challenges associated with modeling the sequence-function relationship. Various computational methods have been developed, based on physics principles as well as more recent data-driven machine learning methods for sequencestructure-property mappings, to aid in both in-silico protein design and engineering. In this work, we develop a forward prediction model for learning the sequence-function relationship of Designed Ankyrin Repeat Proteins (DARPins), an antibodysurrogate binder scaffold with highly promising therapeutic potential. To facilitate better learning of DARPins' representations for property prediction, we explore various amino acid representation schemes, leveraging both knowledge-driven and data-driven descriptors. Using a real-world DARPin affinity maturation dataset, we design a meta-learning framework to maximize the utility of available experimental data and achieve accurate and reliable property prediction. Our computational model has demonstrated great potential to guide DARPin design campaigns.",
       "discovery_sources": [
         {
           "kind": "open_alex",

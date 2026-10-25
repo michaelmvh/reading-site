@@ -3000,6 +3000,64 @@
       "curated_categories": []
     },
     {
+      "id": "666089b2353d2b998809e9633b5a2a39544ed0d2225f5cb4b5de611911eb1d7e",
+      "identity_keys": [
+        "https://doi.org/10.1186/s13321-026-01282-7",
+        "https://openalex.org/W7204200071"
+      ],
+      "title": "Research EnzyPred: a general model for predicting enzyme–substrate interactions using deep learning, parallel LoRA, and, natural language processing-inspired approaches",
+      "link": "https://doi.org/10.1186/s13321-026-01282-7",
+      "pdf_url": null,
+      "publication_date": "2026-08-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Cheminformatics",
+      "authors": [
+        {
+          "key": "fernando luis nuñez salas",
+          "name": "Luis Fernando Salas Nuñez"
+        },
+        {
+          "key": "alvaro barrera ocampo",
+          "name": "Alvaro A. Barrera-Ocampo"
+        },
+        {
+          "key": "caicedo paola",
+          "name": "Paola A. Caicedo"
+        },
+        {
+          "key": "cortés natalie",
+          "name": "Natalie Cortés"
+        },
+        {
+          "key": "edison osorio",
+          "name": "Edison H. Osorio"
+        },
+        {
+          "key": "alberto solano álvarez óscar",
+          "name": "Óscar Alberto Álvarez Solano"
+        },
+        {
+          "key": "francisca maría torres villegas",
+          "name": "María Francisca Villegas-Torres"
+        },
+        {
+          "key": "andrés barrios fernando gonzález",
+          "name": "Andrés Fernando González Barrios"
+        }
+      ],
+      "abstract_text": "Enzyme–substrate interaction (ESI) prediction is a critical challenge in biocatalysis, with applications in metabolic engineering and drug design. This prediction is valuable because it allows avoiding experimental characterization, a process that can be complex and expensive. In this work, we present EnzyPred, an ESI prediction tool based on Natural Language Processing (NLP), Deep Learning (DL), fine-tuning, Low Range Parallel Adapter (LoRA-P), and Inference-time Prioritized Fine-tuning (PFT) techniques, using representations generated through Evolutionary Scale Modeling (ESM) for enzymes and Extended Connectivity Fingerprinting (ECFP) for substrates. This approach allows training the model with evolutionary, structural, and chemical features, improving performance in identifying interactions. The model was trained on a dataset of 32,833 positive enzyme–substrate pairs, complemented by 32,833 negative pairs generated using soft clustering, molecular descriptors, and Tanimoto similarity. EnzyPred achieved an average accuracy of 86.97%, proving to be competitive with previously presented tools, standing out for its generalization capacity, computational efficiency, and adaptability. Two case studies were used to validate the tool experimentally. In the first, the enzyme that catalyzes the conversion of 4'-O-methylnorbelladine to N-desmethylnarwedine in Amaryllidaceae was sought. For this, the substrate was fixed and tested with predicted enzymes from different transcriptomes reported in the literature for this family. The predicted ones were tested in the laboratory, identifying the enzyme, which contributed to the knowledge of the synthesis pathway of galantamine, a drug used in the treatment of Alzheimer's. In the second case, we searched for compounds that may interact with the enzyme acetylcholinesterase (AChE), for which the enzyme was fixed and we used the ZINC22 database as a search space. 747 compounds with activity were predicted, of which nine were prioritized through clustering for experimental testing, and all presented activity. These results confirm the relevance of this approach to predict molecular interactions, opening new possibilities for the design of enzymatic and synthetic pathways. Scientific contribution This study introduces EnzyPred, an adaptive deep learning framework for enzyme–substrate interaction prediction that jointly integrates protein language model, molecular fingerprints, and a novel activity-free negative sampling strategy to address data imbalance and false negatives. Unlike previous ESI models, EnzyPred incorporates low-rank adaptation and Inference-time Prioritized Fine-tuning, enabling rapid and targeted model specialization for specific enzyme–substrate pairs without retraining from scratch. The framework is validated across enzyme identification and virtual screening tasks, with experimental confirmation, demonstrating its potential to accelerate biocatalysis discovery and pathway elucidation beyond existing methods.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "66616665fa5a274b24852055eb5615e4497c786bf0c5a7ff73f64d401a97d212",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67911-1",
@@ -4274,6 +4332,64 @@
       "curated_categories": []
     },
     {
+      "id": "66937ca441022466d7ff985649a337101445a693103ec0ff4e24039ea94e351a",
+      "identity_keys": [
+        "https://doi.org/10.1002/prot.70162",
+        "https://openalex.org/W7171084551"
+      ],
+      "title": "Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self‐Incompatibility Motif",
+      "link": "https://doi.org/10.1002/prot.70162",
+      "pdf_url": null,
+      "publication_date": "2026-07-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Proteins Structure Function and Bioinformatics",
+      "authors": [
+        {
+          "key": "hakuto miyoshi",
+          "name": "Hakuto Miyoshi"
+        },
+        {
+          "key": "koya sakuma",
+          "name": "Koya Sakuma"
+        },
+        {
+          "key": "moriwaki yoshitaka",
+          "name": "Yoshitaka Moriwaki"
+        },
+        {
+          "key": "aoyama naoki",
+          "name": "Naoki Aoyama"
+        },
+        {
+          "key": "kashima toma",
+          "name": "Toma Kashima"
+        },
+        {
+          "key": "terada tohru",
+          "name": "Tohru Terada"
+        },
+        {
+          "key": "akimasa miyanaga",
+          "name": "Akimasa Miyanaga"
+        },
+        {
+          "key": "fushinobu shinya",
+          "name": "Shinya Fushinobu"
+        }
+      ],
+      "abstract_text": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6694d44be20ad6752daa04b67a95e05e719e58d9b935285ad6e415b36093e270",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73628-6",
@@ -4755,6 +4871,68 @@
         }
       ],
       "abstract_text": "Abstract Deep learning is the state-of-the-art approach for bioimage segmentation. However, it presents a paradox regarding image resolution: counterintuitively, deep learning segmentation performance can improve with lower image resolutions. This phenomenon is particularly significant in microscopy, where high-resolution acquisitions come with substantial costs in throughput, storage requirements and potential photodamage. We systematically evaluate how image resolution impacts segmentation by training popular architectures on datasets downsampled to 6-50% of their original resolution, mimicking lower-magnification acquisitions. Compared with models trained on native-resolution images, segmentation accuracy either improves (by up to 25% of mean Intersection over Union (IoU)) or degrades minimally (< 5% of mean IoU) when using images downsampled by up to fourfold (25% of the original resolution). Downsampling proportionally increases information throughput while reducing storage requirements and inference time. These findings provide practical guidelines for creating efficient, sustainable and cost-effective bioimaging pipelines that reduce data and computing needs while optimising microscopy techniques.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "66a8814815d0cb90083e43f314e3a9694d7e0f1a94ae20c304110d9c74b11fdd",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.23.753608",
+        "https://openalex.org/W7214776751"
+      ],
+      "title": "AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design",
+      "link": "https://doi.org/10.64898/2026.09.23.753608",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/28/2026.09.23.753608.full.pdf",
+      "publication_date": "2026-09-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "alexander kitaygorodsky",
+          "name": "Alexander Kitaygorodsky"
+        },
+        {
+          "key": "david earl hostallero",
+          "name": "David Earl Hostallero"
+        },
+        {
+          "key": "aron broom",
+          "name": "Aron Broom"
+        },
+        {
+          "key": "elliot layne",
+          "name": "Elliot Layne"
+        },
+        {
+          "key": "hwang sungwon",
+          "name": "Sungwon Hwang"
+        },
+        {
+          "key": "ashlin kanawaty",
+          "name": "Ashlin K Kanawaty"
+        },
+        {
+          "key": "babej tomáš",
+          "name": "Tomáš Babej"
+        },
+        {
+          "key": "butterfoss glenn",
+          "name": "Glenn L. Butterfoss"
+        },
+        {
+          "key": "fingerhuth mark",
+          "name": "Mark Fingerhuth"
+        }
+      ],
+      "abstract_text": "Abstract Fixed-backbone sequence discovery, or inverse folding , is a critical recurring task in the development of new polypeptide therapeutics. Once promising backbones are established for a target pocket, computational inverse folding methods greatly help accelerate generation of candidate sequences. Such methods are mature for the traditional case of limiting to the fixed twenty-letter canonical vocabulary; however, they cannot access the broader space of non-canonical amino acids (NCAAs). This design constraint is exacerbated for peptide binders, a fast-growing modality that readily incorporates NCAAs, though in practice non-canonical design frequently depends on laborious medicinal-chemistry campaigns. An extension of inverse folding to NCAAs is thus critical to accelerating design of novel therapeutic peptides. AtomWeaver uses a joint all-site, atom-level generative scheme that does not restrict side-chain categorical assignment by either predetermined or co-resolving residue identity. Conditioned only on a fixed peptide backbone and its target protein, its multi-component flow guides side-chain atoms as unlabeled points in R 3 from a nested shell prior to a variable-count final atom cloud. Identity is then read by matching each predicted cloud against a reference library of canonical and non-canonical templates. Since identity is decided only at decode time, the addressable vocabulary is a property of the library rather than of the trained weights: a new NCAA costs one reference structure and no retraining, and the model can select residues it was never prompted for and never saw in training. On a deep mutational scan of two peptide–target systems, AtomWeaver’s canonical readout shows high observed mean agreement with experimental values among the compared inverse-folding methods. In the mixed canonical–noncanonical setting that canonical-only baselines cannot support at all, it likewise retains ranking signal across both systems. AtomWeaver also displayed self-consistent designs on de novo binder backbones, with the highest interface confidence among compared methods. Notably, it reached these metrics while achieving broad empirical coverage of our 300-residue vocabulary, including four non-canonical types never visible in training. AtomWeaver thus serves canonical and non-canonical peptide design alike, while transforming residue vocabulary to an expandable inference-time choice.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6142,6 +6320,40 @@
       "curated_categories": []
     },
     {
+      "id": "66d2fce2682bb9942fe87bf6ba40c941132e51e7e072765064d34dcf27de9eb2",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.pbiomolbio.2026.01.005",
+        "https://openalex.org/W7125138261"
+      ],
+      "title": "Energy-driven innovations in computational de novo protein engineering",
+      "link": "https://doi.org/10.1016/j.pbiomolbio.2026.01.005",
+      "pdf_url": null,
+      "publication_date": "2026-01-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Progress in Biophysics and Molecular Biology",
+      "authors": [
+        {
+          "key": "kevser kübra kırboğa",
+          "name": "Kevser Kübra Kırboğa"
+        },
+        {
+          "key": "ecir küçüksille uğur",
+          "name": "Ecir Uğur Küçüksille"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "66d447b8e0a8b8f846abcf0a5db6c723d7f1e5e3d755e9b4ed7dea36ff724295",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71970-3",
@@ -6455,6 +6667,48 @@
         "1. Reviews",
         "1.1 De novo protein design"
       ]
+    },
+    {
+      "id": "66eaa3ed445946c737ae64a872fb182458d583310e6a0c48924e084203d3aa04",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.09.757799",
+        "https://openalex.org/W7221449544"
+      ],
+      "title": "PeTFlow: Flow-Matching Based All-Atom Peptide Design through Side-Chain State Tokenization",
+      "link": "https://doi.org/10.64898/2026.10.09.757799",
+      "pdf_url": null,
+      "publication_date": "2026-10-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "deng qirui",
+          "name": "Qirui Deng"
+        },
+        {
+          "key": "mingyuan xu",
+          "name": "Mingyuan Xu"
+        },
+        {
+          "key": "chen hong ming",
+          "name": "Chen Hong-ming"
+        },
+        {
+          "key": "jinping lei",
+          "name": "Jinping Lei"
+        }
+      ],
+      "abstract_text": "Abstract Peptide offers a powerful modality for targeting protein-protein interfaces, yet their computational design remains challenging because sequence identity, backbone geometry and side-chain packing must be optimized simultaneously within a three-dimensional pocket constrained environment. Here we present PeTFlow, a pocket-conditioned all-atom peptide co-design framework that rationalizes this constrained design problem through discrete side-chain state tokenization. In PeTFlow, each residue is represented as a chemically compatible state token, enabling unified modeling of peptide sequence, conformation and all-atom interface geometry. PeTFlow achieved superior generation quality on peptide-design benchmarks and can further be applied to therapeutically relevant peptide drug design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "66eed6b21871ff7f6510ec80c56d741a4abe65f1a113b706505bd122fe216f0b",

@@ -575,6 +575,52 @@
       "curated_categories": []
     },
     {
+      "id": "1312f0f3703474c6e6a67ba36f107a3f20a64da9546cf79dc394a9f9451b2edf",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70586",
+        "https://openalex.org/W7155783713"
+      ],
+      "title": "Family‐level specialization in protein domain insertion architectures",
+      "link": "https://doi.org/10.1002/pro.70586",
+      "pdf_url": null,
+      "publication_date": "2026-04-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "dustin richard schaeffer",
+          "name": "Richard Dustin Schaeffer"
+        },
+        {
+          "key": "guo rui",
+          "name": "Rui Guo"
+        },
+        {
+          "key": "zhang",
+          "name": "J D Zhang"
+        },
+        {
+          "key": "cong qian",
+          "name": "Qian Cong"
+        },
+        {
+          "key": "grishin nick",
+          "name": "Nick V. Grishin"
+        }
+      ],
+      "abstract_text": "Domain insertion creates architectures where one domain interrupts another's sequence. Analysis across 2.7 million classified domains reveals that insertions occur in 20% of multidomain proteins, with 331 families exhibiting consistent architectural roles: 162 function exclusively as hosts, while 169 exclusively serve as inserted modules, such as zinc-binding dehydrogenases appearing as insertions across 450 events. The remaining 1116 families with sufficient insertion activity demonstrate versatile behavior, adopting different roles depending on partnership context. Size analysis shows inserted domains are consistently smaller than their hosts (median 115 vs. 199 residues), with role-consistent families exhibiting 1.7-fold size differences. Insertions frequently involve domains from different structural superfamilies: 31,925 events (65.8% of total) occur between families from different H-groups, such as P-loop hydrolases with tRNA modification domains. While most insertions are simple single-level architectures, insertion mechanisms can create complex organizations, including six-level nested structures in cyanobacterial RNA polymerase. This work provides a comprehensive dataset of 48,551 insertion events across 5701 families, with quantitative characterization of size relationships and partnership patterns that can inform structure prediction and protein design efforts.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "131309719cf7ffb0b0b390fd0656f572082fa4715b16246770dcaed902719e5e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69750-0",
@@ -2025,6 +2071,64 @@
       "curated_categories": []
     },
     {
+      "id": "1345bfac1463be549c19648e8c26d5a9bc1d12f5322d63e8665b749b6c73b33a",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2605.27413",
+        "https://openalex.org/W7162633601"
+      ],
+      "title": "Ligand-Conditioned Discrete Diffusion for Protein Sequence-Structure Co-Design",
+      "link": "https://doi.org/10.48550/arxiv.2605.27413",
+      "pdf_url": "https://arxiv.org/pdf/2605.27413",
+      "publication_date": "2026-05-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "chen wei",
+          "name": "Chen Wei"
+        },
+        {
+          "key": "fanding xu",
+          "name": "Fanding Xu"
+        },
+        {
+          "key": "minghao sun",
+          "name": "Minghao Sun"
+        },
+        {
+          "key": "liu zhiyuan",
+          "name": "Zhiyuan Liu"
+        },
+        {
+          "key": "lin wang",
+          "name": "Lin Wang"
+        },
+        {
+          "key": "jia tianrui",
+          "name": "Tianrui Jia"
+        },
+        {
+          "key": "yihang zhou",
+          "name": "Yihang Zhou"
+        },
+        {
+          "key": "yang zhang",
+          "name": "Yang Zhang"
+        }
+      ],
+      "abstract_text": "Proteins perform their biological functions through three-dimensional structures encoded by amino acid sequences, and ligand-binding protein co-design requires models that generate sequence-structure compatible proteins under explicit ligand constraints. Although continuous diffusion and flow-based models support ligand-aware design in coordinate or latent spaces, existing discrete diffusion protein language models mainly operate over sequence or structure tokens without direct small-molecule conditioning. We introduce \\textbf{ProtLiD$^2$}, a \\textbf{Prot}ein \\textbf{L}igand-conditioned \\textbf{D}iscrete \\textbf{D}iffusion model for protein sequence-structure co-design. ProtLiD$^2$ jointly generates amino-acid sequence and discrete structure tokens while incorporating ligand chemical and geometric information through geometry-aware cross-attention. Trained on over one million ligand-protein complexes, ProtLiD$^2$ extends masked discrete diffusion to ligand-aware functional protein design. We further propose maximum confidence-margin guided ReMask decoding, an inference-time self-correction strategy that retains confident predictions and remasks uncertain tokens. ProtLiD$^2$ improves global fold confidence over Complexa in whole-protein design, increasing TM-score from 0.672 to 0.802 and pLDDT from 64.55 to 73.00. In pocket co-design, ProtLiD$^2$ reduces active-site BB-RMSD from 3.46/3.40Å for FAIR/PocketGen to 1.97Å, and improves ligand-aware pass rates over PocketGen from 14.86% to 59.73% and from 6.08% to 23.49% under stricter docking thresholds. These results support ligand-conditioned discrete diffusion as an effective token-space framework for functional protein co-design. Code will be available at https://github.com/auroua/ProtLiD.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "13475070b6720909281f1afd25b2e7464e3091ce0952fe1e8cbc07e7a4b0cfca",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71331-0",
@@ -2407,6 +2511,44 @@
       "curated_categories": []
     },
     {
+      "id": "13567b4c1949eb0a47d62eb6bc654c2bf8ebce59771ee60f30b336b63a0dfb96",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41598-026-73774-3",
+        "https://openalex.org/W7222254433"
+      ],
+      "title": "Integrated sensor engineering and AI-assisted peptide design to target the Zika virus NS2B-NS3 protease",
+      "link": "https://doi.org/10.1038/s41598-026-73774-3",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-73774-3_reference.pdf",
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scientific Reports",
+      "authors": [
+        {
+          "key": "alejandro cadillo valverde",
+          "name": "Alejandro Cadillo-Valverde"
+        },
+        {
+          "key": "ana castro sanchez",
+          "name": "Ana Sanchez-Castro"
+        },
+        {
+          "key": "milón pohl",
+          "name": "Pohl Milón"
+        }
+      ],
+      "abstract_text": "Abstract Zika virus NS2B-NS3 protease (ZVP) is an essential enzyme for viral replication and a promising antiviral drug target. However, peptide-based inhibitor design remains challenging. Here, we developed an integrated workflow combining a recombinant FRET-based protease sensor with AI-driven peptide inhibitor design. The engineered PEprot ZIKV sensor, containing the ZVP cleavage sequence between two fluorescently labeled domains, enabled quantitative activity assays. PEprot ZIKV showed ~ 5.5-fold higher catalytic efficiency ( k cat / K m = 49 ± 7 × 10 6 M −1 s − 1 ) and a lower K m (4 nM) than a chemically synthesized substrate (22 nM) bearing the same cleavage sequence, with comparable catalytic turnover. Structural hotspot mapping of 53 ZVP crystal structures and multiple sequence alignment of flaviviral polyprotein motifs guided de novo peptide generation using RFdiffusion and ProteinMPNN. Computational filtering (docking, AlphaFold-3 co-folding, MD simulations and MM/PBSA) prioritized short peptides for testing. Biochemical screening with PEprot ZIKV identified three candidate inhibitors, with peptide 715 showing the strongest activity (IC 50 = 214 µM), followed by 630 and 701. Structure-guided peptide elongation improved 630-derived variants (e.g., 630_03, IC 50 = 224 µM) but reduced potency for 701- and 715-derived sequences. This integrated approach offers a generalizable framework to accelerate the discovery of peptide inhibitors against ZVP and other viral proteases.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1356e05c4d0f0f394128cb9320b5ffb84794a1fddcf90c96519bd0f64138636c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77263-z",
@@ -2554,6 +2696,68 @@
         }
       ],
       "abstract_text": "Long-range interactions are essential determinants of chemical system behavior across diverse environments. We present a foundation framework that integrates explicit polarizable long-range physics with an equivariant graph neural network potential. It employs a physically motivated polarizable charge equilibration scheme that directly optimizes electrostatic interaction energies rather than partial charges. The foundation model, trained across the periodic table up to Pu, demonstrates strong performance across key materials modeling challenges. It effectively captures long-range interactions that are challenging for traditional message-passing mechanisms and accurately reproduces polarization effects under external electric fields. We have applied the model to mechanical properties, ionic diffusivity in solid-state electrolytes, ferroelectric phase transitions, and reactive dynamics at electrode-electrolyte interfaces, highlighting the model's capacity to balance accuracy and computational efficiency. Furthermore, we show that as a foundation model, it can be efficiently finetuned to achieve high-level accuracy for specific challenging systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "135ebbd73242ae074eff5f6b278f64e85ff391d1066871af3082c815325772c7",
+      "identity_keys": [
+        "https://doi.org/10.1002/advs.76202",
+        "https://openalex.org/W7167579407"
+      ],
+      "title": "De Novo Designed Minibinders Targeting the GDF15–GFRAL Axis Reverse Cancer Cachexia and Restore Anti‐Tumor Immunity",
+      "link": "https://doi.org/10.1002/advs.76202",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.76202",
+      "publication_date": "2026-07-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Advanced Science",
+      "authors": [
+        {
+          "key": "haitao wang",
+          "name": "Haitao Wang"
+        },
+        {
+          "key": "hua tianzhen",
+          "name": "Tianzhen Hua"
+        },
+        {
+          "key": "meiling wang",
+          "name": "Meiling Wang"
+        },
+        {
+          "key": "bingbing meng",
+          "name": "Bingbing Meng"
+        },
+        {
+          "key": "yue zhang",
+          "name": "Yue Zhang"
+        },
+        {
+          "key": "chengxu jiang",
+          "name": "Chengxu Jiang"
+        },
+        {
+          "key": "gao yunhe",
+          "name": "Yunhe Gao"
+        },
+        {
+          "key": "hongqi yang",
+          "name": "Hongqi Yang"
+        },
+        {
+          "key": "bo jian",
+          "name": "Jian Bo"
+        }
+      ],
+      "abstract_text": "ABSTRACT Cancer‐associated cachexia is a devastating syndrome characterized by progressive weight loss, reduced survival, and impaired responses to anticancer therapies. Growth differentiation factor 15 (GDF15), acting through its receptor GFRAL, has emerged as a key mediator of cachexia, yet effective and mechanistically defined strategies to neutralize this pathway remain limited. Here, we applied structure‐guided de novo protein design to generate compact minibinders that selectively target the GDF15–GFRAL interaction interface. Using an integrated computational pipeline combining RFdiffusion, ProteinMPNN, and AlphaFold 3 structure prediction, we designed and experimentally validated high‐affinity GDF15 minibinders with picomolar‐range binding affinities and exceptional structural stability. Mutagenesis and charge‐complementary rescue experiments confirm that these minibinders neutralize GDF15 through precisely engineered interface contacts. Functionally, the minibinders suppress GDF15–GFRAL signaling, inhibit downstream transcriptional responses, and robustly reverse cachexia in vivo across multiple tumor models, resulting in significant improvements in body weight and survival. Importantly, neutralization of GDF15 also restores sensitivity to anti–PD‐1 immunotherapy in a GDF15‐driven resistant tumor model. Combination treatment enhances CD8 + T cell infiltration and effector function within tumors, and its antitumor efficacy is strictly dependent on CD8 + T cells. Together, these findings demonstrate that de novo designed GDF15 minibinders can achieve potent, mechanism‐defined neutralization of the GDF15–GFRAL axis in vivo, translating into robust physiological benefits and restoration of immunotherapy efficacy.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3517,6 +3721,36 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "13966be39e5fa8dd265f8a2fd70c43039bc0e0e13ab5e38923d76d5985f58353",
+      "identity_keys": [
+        "https://doi.org/10.1002/prot.70147",
+        "https://openalex.org/W7164806539"
+      ],
+      "title": "Physics‐Based Energy Functions for Computational Protein Design",
+      "link": "https://doi.org/10.1002/prot.70147",
+      "pdf_url": null,
+      "publication_date": "2026-06-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Proteins Structure Function and Bioinformatics",
+      "authors": [
+        {
+          "key": "gaillard thomas",
+          "name": "Thomas Gaillard"
+        }
+      ],
+      "abstract_text": "Computational protein design (CPD) aims to conceive new proteins or modify existing ones to achieve a functional or structural goal, using numerical methods. Among the various branches of CPD, one consists in predicting sequences given a protein backbone. This is known as the inverse folding problem. It has been particularly fruitful over the last 40 years, has given rise to numerous methodological approaches, and has obtained experimental successes, such as the design of new folds and new enzymatic functions. One criterion for distinguishing between the methods proposed to tackle this problem is the scoring or energy function, which enables different possible sequences and conformations to be compared quantitatively. A traditional classification of scoring functions distinguishes between statistical, empirical, and physics-based approaches. Recent developments in CPD have brought to the fore new approaches based on deep learning. Improvements in prediction performance are undeniable. However, physics-based methods retain advantages due to their greater explanatory power and independence from a training dataset. We review here CPD works that have been using physics-based energy functions and discuss their interests and perspectives.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []
@@ -4877,6 +5111,40 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "13de9727d0b6659bf325dca0f10ef2ebf5e40f70a1f673c6399eb22902ff0607",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.01.28.702421",
+        "https://openalex.org/W7126108751"
+      ],
+      "title": "An Artificial Intelligence-based framework for protein interaction design with accelerated KAN-based Positive-Unlabeled learning",
+      "link": "https://doi.org/10.64898/2026.01.28.702421",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/29/2026.01.28.702421.full.pdf",
+      "publication_date": "2026-01-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "ghosh shubhrangshu",
+          "name": "Shubhrangshu Ghosh"
+        },
+        {
+          "key": "mitra pralay",
+          "name": "Pralay Mitra"
+        }
+      ],
+      "abstract_text": "Abstract Protein design seeks optimal amino acid sequences for target structures, but designing stable protein complexes remains challenging. We introduce a protein interaction design pipeline combining Monte-Carlo simulation with Metropolis-criteria (MCM) and Deep-Learning. It uses Protein-Protein-Interaction(PPI) scores from Deep-Learning-based MaTPIP model to form a PPI-score-based-MCM (PMCM). The work-flow integrates PMCM-driven sequence generation, HDBSCAN-clustering-based selection, and validation via AlphaFold2 and Molecular-Dynamics (MD) simulation. Incorporating learned PPI scores enhances efficiency and feature fusion. A Positive-Unlabeled (PU) learning classifier accelerates sequence validation, while the Kolmogorov-Arnold Network (KAN) improves PU learning over Multi-Layer-Perceptron (MLP). AlphaFold2 predictions yield median Root-Mean-Square-Deviation (RMSD) 1.17 Å , predicted-Template-Modelling (pTM) 0.72, and interface pTM 0.88; 73% of complexes remain within 2 Å RMSD after 100 ns MD, confirming stability. Interface mutations reveal altered interactions. The KAN-based PU model improves F1-score, precision, and AUC by 5%, 11%, and 2% over MLP. Overall, our method outperforms traditional and simulation-based methods while remaining competitive with modern Deep-Learning design frameworks.",
       "discovery_sources": [
         {
           "kind": "open_alex",

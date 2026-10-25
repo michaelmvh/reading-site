@@ -717,6 +717,48 @@
       "curated_categories": []
     },
     {
+      "id": "4c25555e39f6eefe43c74094e6719ec9b809b1de1851d00f8b33c78d8b428376",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2604.13175",
+        "https://openalex.org/W7154586050"
+      ],
+      "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebycheff Scalarization",
+      "link": "https://doi.org/10.48550/arxiv.2604.13175",
+      "pdf_url": "https://arxiv.org/pdf/2604.13175",
+      "publication_date": "2026-04-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "aadyot bhatnagar",
+          "name": "Aadyot Bhatnagar"
+        },
+        {
+          "key": "groth mørch peter",
+          "name": "Peter Mørch Groth"
+        },
+        {
+          "key": "ibarraran sebastian",
+          "name": "Sebastian Ibarraran"
+        },
+        {
+          "key": "ali madani",
+          "name": "Ali Madani"
+        }
+      ],
+      "abstract_text": "Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignment is well-studied, many real-world applications demand the simultaneous optimization of multiple conflicting rewards, e.g. activity and specificity for proteins, or helpfulness and harmlessness for chatbots. Prior work has largely relied on linear reward scalarization, which provably fails to recover non-convex regions of the Pareto front. In this paper, instead of scalarizing the rewards directly, we frame multi-objective RL itself as an optimization problem to be scalarized via smooth Tchebycheff scalarization, a recent technique that overcomes the drawbacks of linear scalarization. We use this formulation to derive Smooth Tchebycheff Optimization of Multi-Objective Preferences (STOMP), a novel offline RL algorithm that extends direct preference optimization to the multi-objective setting in a principled way by standardizing the individual rewards based on their observed distributions. We empirically validate STOMP using multiple base models on 3 protein engineering and 3 chatbot alignment datasets. Compared to state-of-the-art baselines, STOMP achieves or ties for the highest hypervolumes on 16/18 protein tasks and 5/6 natural language tasks. We thus demonstrate that STOMP is a powerful, robust multi-objective alignment algorithm that can meaningfully improve post-training in multiple domains.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4c29742e2130fcb2c6ab78dc6d99a27b912492ae50ae39145224093f916f4e85",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69625-4",
@@ -2157,6 +2199,36 @@
       "curated_categories": []
     },
     {
+      "id": "4c62ce73b9633608e6bb4406e3d0e20045a26f0099711b0771ff12a479584e45",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41589-025-02110-z",
+        "https://openalex.org/W4417454633"
+      ],
+      "title": "Harnessing advances in artificial intelligence for protein design",
+      "link": "https://doi.org/10.1038/s41589-025-02110-z",
+      "pdf_url": null,
+      "publication_date": "2025-12-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Chemical Biology",
+      "authors": [
+        {
+          "key": "johnson russell",
+          "name": "Russell Johnson"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4c64ef328e46f38ff8520dd3b2076ec6252ee356d31cb65e72627a3966fee4d4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72177-2",
@@ -2330,6 +2402,36 @@
         }
       ],
       "abstract_text": "Chronic obstructive pulmonary disease (COPD) is a progressive heterogeneous lung disease driving global illness and death, yet reliable biomarkers for its early diagnosis, molecular subtyping and prognosis are lacking. Here, we conduct targeted plasma metabolomic profiling in two independent, deeply phenotyped cohorts comprising 1344 participants across the full spectrum of COPD severity, with 3-year longitudinal follow-up for 651 subjects. Machine learning integration screens metabolite signatures associated with disease presence, clinical subtypes, and longitudinal outcomes. We identify unique plasma metabolic profiles distinguish COPD patients from healthy people and separate emphysema and small-airway-dominant subtypes with high accuracy in test and validation cohorts. A 27-metabolite panel detects early COPD by capturing metabolic shifts prior to lung function loss. Moreover, specific metabolite subsets independently predicted lung function decline, occurrence of acute exacerbations, and dyspnoea severity. Together, plasma metabolomics yields robust multi-purpose COPD biomarkers, offering an accessible strategy for early screening and personalized clinical risk stratification. This study combines plasma metabolomics and machine learning to identify blood biomarkers that improve the diagnosis, classification and prognosis of chronic obstructive pulmonary disease, supporting earlier detection and more precise patient care.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4c7043aaba0eaed0e8ab1e4cd7fb68848139d6f8203fd11cb95be6a109723afe",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2607.07866",
+        "https://openalex.org/W7167928004"
+      ],
+      "title": "UMA-Inverse: Ligand-Conditioned Protein Inverse Folding with a Distogram-Supervised Dense Pair Encoder",
+      "link": "https://doi.org/10.48550/arxiv.2607.07866",
+      "pdf_url": "https://arxiv.org/pdf/2607.07866",
+      "publication_date": "2026-07-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "sobolewski william",
+          "name": "William Sobolewski"
+        }
+      ],
+      "abstract_text": "Designing protein sequences that bind specific ligands benefits from an inverse-folding model conditioned on full ligand geometry. We present UMA-Inverse, which replaces the sparse graph backbone of LigandMPNN with a dense pair-representation encoder: a six-block PairMixer (triangle multiplication, no triangle self-attention or sequence track) refines all residue-residue and residue-ligand atom pairs, supervised by an auxiliary distogram objective, and an autoregressive decoder attends over ligand atoms through a learned, position-specific readout of the pair tensor. The model is compact ($\\sim$3.3 M parameters). On the LigandMPNN test splits it reaches 56.1%/55.1%/35.3% interface recovery (small-molecule/metal/nucleotide). It trails LigandMPNN, but by less than the published numbers suggest: re-run under our identical protocol, LigandMPNN scores 59.8/64.4/53.3 (vs. published 63.3/77.5/50.5). In a pocket-fixed setting the redesigns are confidently folded and ligand-binding-competent under Boltz-2 cofolding, again modestly behind LigandMPNN. Its distinctive property is representational: the dense encoder propagates ligand identity to residues far beyond the interface, where LigandMPNN's signal decays. We offer UMA-Inverse as a compact baseline for ligand-conditioned inverse folding that trails LigandMPNN in accuracy, together with a characterization of how a dense all-pairs encoder distributes ligand information.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3977,6 +4079,80 @@
       "curated_categories": []
     },
     {
+      "id": "4cb094e8b3b1998503e3cdd6e2a67940abf2e38c91344f4ad882b2f9198962a4",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.09.710508",
+        "https://openalex.org/W7134920929"
+      ],
+      "title": "Discovery, characterisation and optimisation of bicyclic peptide inhibitors that disarm Staphylococcus aureus α-hemolysin",
+      "link": "https://doi.org/10.64898/2026.03.09.710508",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/10/2026.03.09.710508.full.pdf",
+      "publication_date": "2026-03-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "jonathan whiteside",
+          "name": "Jonathan Whiteside"
+        },
+        {
+          "key": "lewis nick",
+          "name": "Nick Lewis"
+        },
+        {
+          "key": "diaz saez",
+          "name": "L. Diaz Saez"
+        },
+        {
+          "key": "hector newman",
+          "name": "Hector Newman"
+        },
+        {
+          "key": "newell sarah",
+          "name": "Sarah Newell"
+        },
+        {
+          "key": "martin tazmin",
+          "name": "Tazmin T. Martin"
+        },
+        {
+          "key": "butler jack",
+          "name": "Jack Butler"
+        },
+        {
+          "key": "michael skynner",
+          "name": "Michael J. Skynner"
+        },
+        {
+          "key": "dawson michael",
+          "name": "Michael J. Dawson"
+        },
+        {
+          "key": "beswick paul",
+          "name": "Paul Beswick"
+        },
+        {
+          "key": "christopher dowson gerard",
+          "name": "Christopher Gerard Dowson"
+        },
+        {
+          "key": "catherine rowland",
+          "name": "Catherine E Rowland"
+        }
+      ],
+      "abstract_text": "Abstract α-Hemolysin (Ahly) is a major Staphylococcus aureus virulence determinant implicated in tissue injury and immune dysregulation; antibody inhibitors have reached clinical trials but alternatives with improved ease of manufacture and tissue penetration are desirable. Here we demonstrate that phage-derived bicyclic peptides can serve as compact, chemically tractable Ahly neutralisers. Using TATB-scaffolded M13 phage libraries we identified WNP-motif containing bicyclic binders, with a lead hit of Peptide 14 (K D = 1792nM) and progressed the lead by iterative affinity maturation to Peptide 20 (K D = 609 nM) and by incorporation of strategically chosen non-canonical amino acids to yield Peptide 88 (KD = 96 nM). A 2.2 Å co-crystal structure with AhlyH35A locates the binding footprint on the rim domain and explains the critical role of the WNP motif in target engagement. Functional assays show that the Peptide 88 blocks Ahly mediated hemolysis, inhibits Ahly driven ADAM10 activation, and elucidate its inhibitory mechanism of preventing Ahly binding to human A549 epithelial cells. Peptide 88 protects A549 cells from recombinant toxin and attenuates cytotoxicity in S. aureus co-culture experiments, whilst showing no toxicity to A549 cells. Bicyclic peptides thus represent a new and promising anti-virulence modality: small, synthetically accessible molecules that mimic antibody recognition, with therapeutic potential against S. aureus infections.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4cb9ee7ce7a3d634445b2617f1d9c444d5f2fab034da29898f3f3931be15c5b8",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02024-3",
@@ -4717,6 +4893,44 @@
         }
       ],
       "abstract_text": "The development of high-performance elastomers demands a combination of high tensile strength and toughness, yet overcoming the inherent trade-off between them remains a persistent challenge. Herein, inspired by the dense hydrogen-bonding assembly in spider silk, we developed a new generation of semicarbazide chain extender bearing high-density hydrogen-bonding sites for synthesizing poly(urethane-urea) (PUU). The geometric confinement, achieved by employing two specific semicarbazide chain extenders, is key to enhancing the material's properties. The resulting elastomer (PUU-HI) exhibits a nanoscale-ordered phase-separated structure and maximized H-bonding, which collectively amplify the supramolecular interactions and lead to ultra-robust mechanical performance. This material achieved a high tensile strength of 120.2 MPa, with toughness of 400.5 MJ m⁻³ and true fracture stress of 1.3 GPa, even surpassing those of spider silk. Molecular dynamics simulations revealed that geometric confinement effect enhances H-bonding interactions in PUU-HI. Multidimensional solid-state NMR demonstrates that this molecular packing confines chain mobility via augmented steric hindrance, facilitating orderly hard-domain stacking and efficient energy dissipation. The architecture additionally delivers exceptional crack tolerance, fatigue resistance, and recyclability. By designing novel H-bonding motifs and amplifying supramolecular interactions via geometric confinement, this work offers a promising strategy for developing mechanically robust and durable elastomers.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4ccffa638bca32f1940ba8b7ac5d74ffe6d9f4b99fff5ca98e22d2bd605583eb",
+      "identity_keys": [
+        "https://doi.org/10.37819/jaike.26.0017",
+        "https://openalex.org/W7223174832"
+      ],
+      "title": "An AI-Driven Peptide Optimization Chatbot for Therapeutic Design: Integrating Machine Learning Models with Pharmaceutical Formulation Intelligence",
+      "link": "https://doi.org/10.37819/jaike.26.0017",
+      "pdf_url": null,
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "michael ph sekar",
+          "name": "Ph.D. Michael Sekar"
+        },
+        {
+          "key": "deepakraja ms rajendran",
+          "name": "MS Deepakraja Rajendran"
+        },
+        {
+          "key": "anand paul sekar",
+          "name": "Anand Paul Sekar"
+        }
+      ],
+      "abstract_text": "Artificial intelligence (AI) is transforming therapeutic discovery by enabling computational prioritization of candidate molecules before costly experimental evaluation. In this study, we present an AI-assisted Peptide Optimization Chatbot that integrates machine learning (ML), conversational artificial intelligence, and pharmaceutical formulation intelligence into a unified computational framework for early-stage therapeutic peptide design. The platform supports peptide optimization for glucagon-like peptide-1 (GLP-1)-based metabolic disorders and provides a conceptual framework for future expansion to additional therapeutic indications, including immunomodulatory peptide discovery. The proposed architecture combines a Large Language Model (LLM)-based conversational interface with disease-specific predictive machine learning models deployed through a modular FastAPI backend and Streamlit web application. The LLM functions as an orchestration and explanation layer, translating user requests into computational workflows, while Random Forest models perform quantitative prediction and candidate prioritization. Candidate peptide sequences are generated through systematic mutation strategies, transformed into physicochemical descriptors, evaluated using supervised learning models, and ranked according to predicted therapeutic relevance. Unlike conventional peptide discovery workflows that rely primarily on experimental screening, the proposed platform integrates formulation-aware design principles, feature engineering, explainability, and interactive decision support within a single computational environment. Quantitative evaluation of the current GLP-1 regression model demonstrates that predictive performance remains limited because of the relatively small and heterogeneous dataset. Consequently, the present implementation should be regarded as a hypothesis-generation and decision-support framework rather than a clinically validated predictive system. Preliminary biological studies of GLP-1 prodrug biodistribution further demonstrate the potential translational utility of integrating computational prioritization with experimental validation while emphasizing that additional biological studies remain necessary. The proposed framework illustrates how conversational AI, interpretable machine learning, and pharmaceutical formulation intelligence can be combined to accelerate early-stage therapeutic peptide engineering while providing an extensible foundation for future incorporation of advanced deep learning models and larger experimental datasets.",
       "discovery_sources": [
         {
           "kind": "open_alex",

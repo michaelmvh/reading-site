@@ -3181,6 +3181,8 @@
       "identity_keys": [
         "biorxiv:10.1101/2025.11.08.686890v3",
         "https://doi.org/10.1101/2025.11.08.686890",
+        "https://www.biorxiv.org/content/early/2025/11/10/2025.11.08.686890.source.xml",
+        "https://www.biorxiv.org/content/early/2025/11/20/2025.11.08.686890.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/18/2025.11.08.686890.source.xml"
       ],
       "title": "Generative modeling of spatially resolved perturbation responses with CONCERT",
@@ -3223,6 +3225,56 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "22a30df56f969233fb6370a45748e7d3a5d1fbabdc1a057609df1e23e237b8df",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.05.01.721929",
+        "https://openalex.org/W7160290020"
+      ],
+      "title": "DOMINO: Learning Domain Co-occurrence for Multidomain Protein Design",
+      "link": "https://doi.org/10.64898/2026.05.01.721929",
+      "pdf_url": null,
+      "publication_date": "2026-05-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "dai fengyuan",
+          "name": "Fengyuan Dai"
+        },
+        {
+          "key": "jin su",
+          "name": "Jin Su"
+        },
+        {
+          "key": "qingsong tan",
+          "name": "Qingsong Tan"
+        },
+        {
+          "key": "huijiao yang",
+          "name": "Huijiao Yang"
+        },
+        {
+          "key": "xibin zhou",
+          "name": "Xibin Zhou"
+        },
+        {
+          "key": "fajie yuan",
+          "name": "Fajie Yuan"
+        }
+      ],
+      "abstract_text": "Abstract Multidomain proteins arise through the reuse and recombination of structural domains, yet natural architectures represent a sparse, structured sample of the possible domain-combination space. Here, we introduce DOMINO, a two-stage framework that learns domain co-occurrence from TED-annotated multidomain proteins and uses the learned patterns to generate new multidomain sequences. DOMIN, a contrastive retrieval model, embeds domains into a latent compatibility space and retrieves candidate partners for a query domain from a TED-derived domain pool, including pairings not observed in the TED-derived co-occurrence set. DOMO, a conditional autoregressive sequence model, converts each retrieved domain pair into a full-length protein sequence by jointly generating the specified domain regions and the non-domain sequence context between and around them. DOMIN recovers hierarchical patterns of natural domain co-occurrence and expands the observed CATH homologous-superfamily co-occurrence network with candidate novel pairings. DOMO realizes both held-out natural pairs and DOMIN-retrieved pairs as proteins with high domain recovery and high AlphaFold-predicted structural confidence. Applied at scale, DOMINO generated 5 million retrieval-derived multidomain proteins, with sampled designs showing recovery of the specified domains, diverse CATH annotations, and sequence novelty relative to UniRef100. Together, these results support domain co-occurrence as a predictive design prior and demonstrate a scalable strategy for exploring multidomain protein architectures through new combinations of existing structural modules.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []
@@ -3382,6 +3434,64 @@
       "curated_categories": []
     },
     {
+      "id": "22a6ad7d0268b7179137bb9b99f6e87bfce4ad0e142a651f7f825e020e6e9979",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15009755/v1",
+        "https://openalex.org/W7215074398"
+      ],
+      "title": "Extracting Latent Sequence-Function Information from Directed Evolution to Design Improved C-H Azidases",
+      "link": "https://doi.org/10.26434/chemrxiv.15009755/v1",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15009755/v1",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "ayantika ghosh",
+          "name": "Ayantika Ghosh"
+        },
+        {
+          "key": "costa sameer",
+          "name": "Sameer D’Costa"
+        },
+        {
+          "key": "christian gomez",
+          "name": "Christian A. Gomez"
+        },
+        {
+          "key": "bryce johnson",
+          "name": "Bryce Johnson"
+        },
+        {
+          "key": "prabhu prajwal",
+          "name": "Prajwal Prabhu"
+        },
+        {
+          "key": "anthony gitter",
+          "name": "Anthony Gitter"
+        },
+        {
+          "key": "philip romero",
+          "name": "Philip A. Romero"
+        },
+        {
+          "key": "jared lewis",
+          "name": "Jared C. Lewis"
+        }
+      ],
+      "abstract_text": "Directed evolution is a powerful approach for enzyme engineering, but conventional workflows use only a fraction of the information generated during experimental screening. Typically, only top-performing variants are sequenced and propagated, while sequence-function information from the remainder of the library is discarded. Here, we develop a data-efficient strategy to recover and leverage this latent information for enzyme design. Screened variants are grouped into activity-defined bins, pooled, and subjected to long-read sequencing, enabling efficient acquisition of sequence-function relationships while preserving relative activity information. Ordinal machine learning models trained on these binned data are then used to predict beneficial mutations. We applied this strategy to SadX, an engineered Fe(II)- and α-ketoglutarate-dependent azidase previously evolved for site-selective C-H azidation. Using only data from a previous directed evolution campaign, the models identified mutations that significantly improved catalytic performance. Experimental validation showed that several predicted single mutations enhanced azidation activity by up to 3-fold relative to the parent enzyme. These results demonstrate that substantial gains in enzyme activity can be achieved by extracting additional information from existing directed evolution datasets, providing a general strategy for converting routinely generated screening data into actionable sequence-function information for enzyme design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "22a7340259e81b63444f07af0aba46d12bb15a805a5114c348c3e778559f5e95",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68119-z",
@@ -3449,6 +3559,442 @@
         }
       ],
       "abstract_text": "Biogas upgrading to pipeline-grade methane (>95% CH4) represents a critical pathway for enhancing the utilization and value of biogas. Direct methanation of biogas is promising, but due to the performance limitations of conventional nickel-based methanation catalysts, reactant circulating or multi-stage process is required as engineering compensation. Here, through process simulation and economic analysis, we demonstrate substantial economic benefits of the single-stage methanation process over conventional routes in terms of both capital investment and operation costs. A structured inverse catalyst with CeZrOx/Ni inverse configuration grown on porous Ni-foam featuring specific surface area and water removal enhancements over powder inverse catalyst is developed and realizes scale-up. The remarkable low-temperature activity of the structured inverse catalysts achieves a near-equilibrium conversion of 97.8% CO2 in biogas, allowing the production of pipeline-grade methane through the single-stage biogas methanation process. With the innovation of catalysts and process, the price of low-carbon methane produced from biogas with industrial by-product hydrogen is competitive with natural gas. Turning biogas into high-quality methane is limited by inefficient catalysts and complex processing. This study shows that a CeZrOx/Ni inverse catalyst enables near-complete conversion in a simpler single stage, lowering costs and boosting viability.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "22a91776fa8939461aab0a0a2cc6ca2d8f0133d74589e1d2112de5fe63fe87d3",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2025-09.3576165/3681318",
+        "https://doi.org/10.25582/data.2025-09.3576166/3681319",
+        "https://doi.org/10.25582/data.2025-09.3588365/3765400",
+        "https://doi.org/10.25582/data.2025-09.3589596/3787768",
+        "https://doi.org/10.25582/data.2025-09.3590637/3809998",
+        "https://doi.org/10.25582/data.2025-09.3593732/3819259",
+        "https://doi.org/10.25582/data.2025-09.3599859/3868591",
+        "https://doi.org/10.25582/data.2025-09.3600865/3888100",
+        "https://doi.org/10.25582/data.2025-09.3600866/3888101",
+        "https://doi.org/10.25582/data.2025-09.3607547/3925249",
+        "https://doi.org/10.25582/data.2025-09.3613597/17003408",
+        "https://openalex.org/W7214790555"
+      ],
+      "title": "Data for EMSL Project 50414 from September 2025",
+      "link": "https://doi.org/10.25582/data.2025-09.3613597/17003408",
+      "pdf_url": null,
+      "publication_date": "2026-09-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5398,6 +5944,48 @@
       "curated_categories": []
     },
     {
+      "id": "22e65b0f118cc109ff1e1838af3aff84e0efba28b0ba6ac63c98da278dce2bce",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag393",
+        "https://openalex.org/W7169781581"
+      ],
+      "title": "Intelligent antigen design combined with yeast display enhances targeted immune responses",
+      "link": "https://doi.org/10.1093/bib/bbag393",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "fei ma yun",
+          "name": "Yun-Fei Ma"
+        },
+        {
+          "key": "guang hui yin",
+          "name": "Guang-Hui Yin"
+        },
+        {
+          "key": "pan",
+          "name": "Y L Pan"
+        },
+        {
+          "key": "liu ye",
+          "name": "Ye Liu"
+        }
+      ],
+      "abstract_text": "Inducing strong and targeted humoral immune responses, a central goal of next-generation vaccine development, involves a complex series of interconnected steps. However, a comprehensive study that addresses and integrates all steps is still missing. Here, we present a study that addresses these steps to elicit precise neutralizing antibody (nAb) responses targeting focused epitope motifs. We present a new protein design model called EpiTopoFold for constructing a topology that precisely accommodates and stabilizes the epitope motif. After ten thousand in silico simulations, we designed a de novo antigen L9, which structurally incorporated three epitope motifs from the receptor-binding domain (RBD) of the coronavirus spike protein. To enhance antigen immunogenicity, we displayed L9 on the surface of yeast (Saccharomyces cerevisiae). In mice, the yeast-displayed L9 induced stronger and broader neutralizing responses than the alum-adjuvanted L9 or commercial RBD protein. Together, this work establishes a proof-of-concept framework that integrates intelligent antigen design with yeast surface display to enable robust and targeted nAb responses for next-generation vaccine development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "22e81bc159359031518637321039f2fa562b24fd9a0c640ef1097f394c9caf3a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76339-0",
@@ -5713,6 +6301,72 @@
         }
       ],
       "abstract_text": "The core of atomic force microscopy (AFM) lies in the ultra-precise scanning between the tip and sample, which is enabled by nanopositioners. State-of-the-art AFMs generate the scanning motion using direct-drive nanopositioners, possessing either long range or high bandwidth, but not both. Here we show that with a triple-phase controller, the high-bandwidth (up to 363 Hz) nano-precision scanning can also be performed with a typical stick-slip nanopositioner. More importantly, by leveraging the displacement accumulation in the stepping mode, the same system achieved a 3 mm × 3 mm XY working range, 1-2 orders of magnitude larger than those direct-drive nanopositioners with a similar bandwidth. We further developed a versatile stick-slip AFM and demonstrated high-line-rate AFM imaging at 40 Hz over millimeter-scale areas. This work expands the functional scope of stick-slip nanopositioners, traditionally limited to static nanopositioning or long-range coarse positioning, and offers a cross-scale, high-bandwidth solution for next-generation AFMs. The authors demonstrate that with appropriate control, a typical stick-slip nanopositioner can simultaneously deliver nanometer precision, macroscale range, and hundreds-of-hertz resonance frequency, enabling cross-scale, high-bandwidth atomic force microscopy.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "22f8c89abb2289f65ef459e0c190fd1032a996bdbf3ebb6b6601af33e5ae6f44",
+      "identity_keys": [
+        "https://doi.org/10.1021/acssynbio.6c00417",
+        "https://openalex.org/W7214111118"
+      ],
+      "title": "Balancing Precursor Supply and Enhancing Enzyme Solubility for Efficient Production of ( S )-Reticuline in Escherichia coli",
+      "link": "https://doi.org/10.1021/acssynbio.6c00417",
+      "pdf_url": null,
+      "publication_date": "2026-09-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Synthetic Biology",
+      "authors": [
+        {
+          "key": "xiaxia zhang",
+          "name": "Xiaxia Zhang"
+        },
+        {
+          "key": "butt hassan muhammad",
+          "name": "Muhammad Hassan Butt"
+        },
+        {
+          "key": "wen zhang",
+          "name": "Wen Zhang"
+        },
+        {
+          "key": "gao yuan",
+          "name": "Yuan Gao"
+        },
+        {
+          "key": "guo shibo",
+          "name": "Shibo Guo"
+        },
+        {
+          "key": "fang jianfeng",
+          "name": "Jianfeng Fang"
+        },
+        {
+          "key": "shen xiaolin",
+          "name": "Xiaolin Shen"
+        },
+        {
+          "key": "jia wang",
+          "name": "Jia Wang"
+        },
+        {
+          "key": "sun xinxiao",
+          "name": "Xinxiao Sun"
+        },
+        {
+          "key": "qipeng yuan",
+          "name": "Qipeng Yuan"
+        }
+      ],
+      "abstract_text": "Abstract Benzylisoquinoline alkaloids (BIAs) are pharmacologically valuable natural products, yet their microbial production in Escherichia coli is hindered by two major bottlenecks: (1) imbalanced metabolic flux between the two upstream precursors, 3,4-dihydroxyphenylacetaldehyde (3,4-DHPAA) and dopamine, and (2) poor soluble expression of plant-derived enzymes, particularly norcoclaurine synthase (NCS) and the methyltransferase Ps4′OMT2. To address these challenges, we systematically engineered E. coli for efficient synthesis of (S)-reticuline, the universal precursor to diverse BIAs. First, to resolve the flux imbalance, we introduced a heterologous ω-transaminase (ω-TA) that dynamically interconverts 3,4-DHPAA and dopamine, thereby coordinating precursor supply without tedious tuning of branch pathways. Second, to overcome enzyme insolubility, we combined solubility-enhancing strategiesincluding SUMO fusion, ProteinMPNN-guided design, and N-terminal truncationwhich markedly improved the soluble expression of CjNCS and Ps4′OMT2. Furthermore, strengthening the S-adenosylmethionine (SAM) regeneration cycle through integration of luxS, mtn, and metF genes enhanced the efficiency of the three sequential methylation reactions. The final engineered strain achieved a (S)-reticuline titer of 347 mg/L in shake-flask fermentation. Overall, this work establishes an efficient E. coli chassis for sustainable BIAs production by systematically tackling flux imbalance and enzyme solubility.",
       "discovery_sources": [
         {
           "kind": "open_alex",

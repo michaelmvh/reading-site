@@ -312,6 +312,68 @@
       "curated_categories": []
     },
     {
+      "id": "0d04414bdf58f95dc2f60cc2c44874baf8272c6307e666d102a48e530a6d06af",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.08.20.745793",
+        "https://openalex.org/W7203901051"
+      ],
+      "title": "From Code to Cure: Computationally Designed BMP-2 Binders Using AI-Integrated Pipelines for Controlled Bone Regeneration",
+      "link": "https://doi.org/10.64898/2026.08.20.745793",
+      "pdf_url": null,
+      "publication_date": "2026-08-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "ben burress",
+          "name": "Ben Burress"
+        },
+        {
+          "key": "arash asgari",
+          "name": "Arash Asgari"
+        },
+        {
+          "key": "dorogin jonathan",
+          "name": "Jonathan Dorogin"
+        },
+        {
+          "key": "fear karly",
+          "name": "Karly M. Fear"
+        },
+        {
+          "key": "cassandra gonzalez",
+          "name": "Cassandra Gonzalez"
+        },
+        {
+          "key": "justin svendsen",
+          "name": "Justin E. Svendsen"
+        },
+        {
+          "key": "dylan merrill",
+          "name": "Dylan Merrill"
+        },
+        {
+          "key": "hettiaratchi marian",
+          "name": "Marian H. Hettiaratchi"
+        },
+        {
+          "key": "hosseinzadeh parisa",
+          "name": "Parisa Hosseinzadeh"
+        }
+      ],
+      "abstract_text": "Abstract Nonunion fractures remain a costly and persistent challenge in regenerative medicine, with current treatments limited by donor-site morbidity, restricted graft availability, and severe adverse effects associated with supraphysiological bone morphogenetic protein 2 (BMP-2) delivery, including ectopic ossification and inflammation. Endogenous BMP-2 signaling is tightly regulated in adult tissues, constraining the precision and scalability of approaches based on transcriptional upregulation or bolus growth factor administration. To address these limitations, we developed a two-phase integrated computational–experimental pipeline for the de novo design of protein binders targeting the BMP-2 knuckle epitope, a receptor-binding surface corresponding to BMPR-II engagement, enabling affinity-tuned modulation of BMP-2 activity rather than uncontrolled pathway activation. Phase I employed PyRosetta-based β-strand motif grafting and physics-based docking protocols to generate 264 candidate binders, followed by deep-learning-driven refinement in Phase II using partial RFDiffusion and ProteinMPNN with AlphaFold2 validation, yielding 22 candidates with stable β-sheet architectures consistent with knuckle-epitope targeting. Experimental validation demonstrated dose-dependent BMP-2 binding, with the lead construct exhibiting an apparent equilibrium dissociation constant of 2.07 nM toward BMP-2. Targeted alanine substitutions revealed differential residue contributions, with mutation of T42 significantly disrupting binding, while other substitutions had more modest effects, indicating a partially hotspot-driven interface supported by other interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0d0576de3656f0bf0002cbe17845f6d9ad1317f4a2637284dfe929d905b542c9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77424-0",
@@ -2244,6 +2306,56 @@
       "curated_categories": []
     },
     {
+      "id": "0d5c927ad31983995b5b6dc28209fb36d81bdcb9d7d1cd7fc4c10e8191b4b419",
+      "identity_keys": [
+        "https://doi.org/10.1093/bioinformatics/btag058",
+        "https://openalex.org/W7127653797"
+      ],
+      "title": "Multi-scale structural similarity embedding search across entire proteomes",
+      "link": "https://doi.org/10.1093/bioinformatics/btag058",
+      "pdf_url": null,
+      "publication_date": "2026-01-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioinformatics",
+      "authors": [
+        {
+          "key": "joan segura",
+          "name": "Joan Segura"
+        },
+        {
+          "key": "garcía rubén sánchez",
+          "name": "Rubén Sánchez-García"
+        },
+        {
+          "key": "bittrich sebastian",
+          "name": "Sebastian Bittrich"
+        },
+        {
+          "key": "rose yana",
+          "name": "Yana Rose"
+        },
+        {
+          "key": "burley kevin stephen",
+          "name": "Stephen Kevin Burley"
+        },
+        {
+          "key": "duarte josé",
+          "name": "José M. Duarte"
+        }
+      ],
+      "abstract_text": "MOTIVATION: The rapid expansion of three-dimensional (3D) biomolecular structure information, driven by breakthroughs in artificial intelligence/deep learning (AI/DL)-based structure predictions, has created an urgent need for scalable and efficient structure similarity search methods. Traditional alignment-based approaches, such as structural superposition tools, are computationally expensive and challenging to scale with the vast number of available macromolecular structures. RESULTS: Herein, we present a scalable structure similarity search strategy designed to navigate extensive repositories of experimentally determined structures and computed structure models predicted using AI/DL methods. Our approach leverages protein language models and a deep neural network architecture to transform 3D structures into fixed-length vectors, enabling efficient large-scale comparisons. Although trained to predict TM-scores between single-domain structures, our model generalizes beyond the domain level, accurately identifying 3D similarity for full-length polypeptide chains and multimeric assemblies. By integrating vector databases, our method facilitates efficient large-scale structure retrieval, addressing the growing challenges posed by the expanding volume of 3D biostructure information. AVAILABILITY AND IMPLEMENTATION: Source code available at https://github.com/bioinsilico/rcsb-embedding-search. Source code DOI: https://doi.org/10.6084/m9.figshare.30546698.v1. Benchmark datasets DOI: https://doi.org/10.6084/m9.figshare.30546650.v1. Web server prototype available at: http://embedding-search.rcsb.org/.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0d5c9d7db6c662848759b87f2274fb21bb649caf69254e21622b83e0bf638ef1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77777-6",
@@ -2295,6 +2407,36 @@
         }
       ],
       "abstract_text": "Monitoring and identification of ear electroencephalogram (Ear-EEG) signals offer a promising non-invasive approach for tracking mental states. Compared to rigid metal electrodes, polymer electrodes possess flexibility, good biocompatibility, superior skin adhesion, and wearing comfort, however, their accuracy is often compromised by signal drift due to polymer creep under sustained strain. To address this, we introduce a molecular strategy that suppresses creep by compensating entropy loss through a designed intramolecular dihedral structure. The copolymer integrates two distinct crosslinks: flexible segments stabilized by electrostatic self-coordination, and a minority of rigid segments formed by covalent main-chain bridges. In-situ scattering and theoretical simulations confirm that the covalently bridged TAO segments adopt a rigid dihedral configuration, effectively restraining chain slippage and eradicating viscoelasticity. Concurrently, dynamic disulfide exchange further enhances network stability under deformation. This design yields the near-zero creep polyelectrolyte ionic elastomer, denoted as Poly(TA-co-TAT)-TAO, which demonstrates remarkable stretchability (>200%) and elasticity (hysteresis <7.5%, recovery >99% at 160% strain). Leveraging its persistent creep resistance (<0.4% over 12 hours), the resulting wearable EEG device enables reliable, long-term mental status monitoring in real-world settings.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0d5f0d9e44a73492fa0f6c776b4041b5c1c625f7e607e6eae37f0f8c3e58e7c7",
+      "identity_keys": [
+        "https://doi.org/10.1295/kobunshi.75.6_260",
+        "https://openalex.org/W7162935483"
+      ],
+      "title": "Photocontrol of Microtubule Structures Based on Peptide Design",
+      "link": "https://doi.org/10.1295/kobunshi.75.6_260",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Kobunshi",
+      "authors": [
+        {
+          "key": "hiroshi inaba",
+          "name": "Hiroshi Inaba"
+        }
+      ],
+      "abstract_text": "1．はじめに",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3168,6 +3310,48 @@
       "curated_categories": []
     },
     {
+      "id": "0d96c018acef4e5b866b983b95c600962396ed49f47f558bedb96437ce6e6627",
+      "identity_keys": [
+        "https://doi.org/10.1038/nbt.2503",
+        "https://openalex.org/W2085532083"
+      ],
+      "title": "Unfoldase-mediated protein translocation through an α-hemolysin nanopore",
+      "link": "https://doi.org/10.1038/nbt.2503",
+      "pdf_url": null,
+      "publication_date": "2013-02-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Biotechnology",
+      "authors": [
+        {
+          "key": "jeff nivala",
+          "name": "Jeff Nivala"
+        },
+        {
+          "key": "douglas marks",
+          "name": "Douglas B Marks"
+        },
+        {
+          "key": "akeson mark",
+          "name": "Mark A. Akeson"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "curated_collection",
+          "key": "nanopore-foundations",
+          "label": "Nanopore Foundations & Signal Analysis",
+          "url": "https://github.com/Michaelmvh/scholarly-rss-feed/blob/main/src/curated/nanopore-foundations.json"
+        }
+      ],
+      "curated_categories": [
+        "Landmark",
+        "Protein analysis",
+        "Unfoldase-driven transport"
+      ]
+    },
+    {
       "id": "0d9825ae94392999d186bbe2764ebd88344a31392290d0ca286595e2e4e6fe08",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10150-1",
@@ -3346,8 +3530,8 @@
         }
       ],
       "curated_categories": [
-        "5.Function to Sequence",
-        "5.4 Transformer-based"
+        "5.4 Transformer-based",
+        "5.Function to Sequence"
       ]
     },
     {
@@ -3745,6 +3929,152 @@
       "curated_categories": []
     },
     {
+      "id": "0daf8eb538fe6f9de0380f38dbb2b7cdbe1536bf642e1b48a170335532695dac",
+      "identity_keys": [
+        "https://doi.org/10.1186/s40643-026-01096-3",
+        "https://openalex.org/W7167896005"
+      ],
+      "title": "Artificial intelligence and automation in enzyme engineering: evolution, advances, and future perspectives",
+      "link": "https://doi.org/10.1186/s40643-026-01096-3",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40643-026-01096-3.pdf",
+      "publication_date": "2026-07-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioresources and Bioprocessing",
+      "authors": [
+        {
+          "key": "hao kexin",
+          "name": "Kexin Hao"
+        },
+        {
+          "key": "liu",
+          "name": "J C Liu"
+        },
+        {
+          "key": "hui tang",
+          "name": "Hui Tang"
+        },
+        {
+          "key": "yan zhang",
+          "name": "Yan Zhang"
+        },
+        {
+          "key": "sun yandong",
+          "name": "Yandong Sun"
+        },
+        {
+          "key": "hongyu zhang",
+          "name": "Hongyu Zhang"
+        },
+        {
+          "key": "ji wang",
+          "name": "Ji Wang"
+        },
+        {
+          "key": "liu peng",
+          "name": "Peng Liu"
+        },
+        {
+          "key": "jianmei luo",
+          "name": "Jianmei Luo"
+        },
+        {
+          "key": "bo jing zhao",
+          "name": "Jing Bo Zhao"
+        }
+      ],
+      "abstract_text": "Natural enzymes often fail to meet industrial demands for catalytic efficiency, stability, and substrate specificity, creating a critical bottleneck in biomanufacturing. This review examines how artificial intelligence (AI) and automation are reshaping enzyme engineering from empirical trial‑and‑error toward data-driven, closed-loop design. We trace AI development from feature-engineered machine learning to supervised deep learning and self-supervised protein language models, and automation from standalone task execution to cascade integration and biofoundry-enabled build-test workflows. Their convergence is analyzed through a stage-based autonomy framework, highlighting the transition from semi-automated workflows to conditional and high-autonomy DBTL systems. Recent studies demonstrate that AI-guided prediction, automated experimentation, and active learning can accelerate enzyme optimization; however, key barriers remain, including biased datasets, limited out-of-distribution generalization, weak mechanistic interpretability, automation interoperability constraints, and unresolved multi-objective trade-offs. We discuss future directions involving FAIR-compliant data infrastructure, hybrid sequence-structure-physics models, modular automation platforms, and autonomous closed-loop systems. By integrating historical evolution, representative case studies, success and failure analysis, and practical bottlenecks, this review provides a roadmap for advancing AI-guided and autonomous enzyme engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0db87853a8a69d3fde0b8511ebddabecdc17e104f9aab9648379ea58923260fd",
+      "identity_keys": [
+        "https://doi.org/10.34740/kaggle/w/115624",
+        "https://openalex.org/W7214938539"
+      ],
+      "title": "Antimicrobial Peptide Design with ProGen2 and Evolutionary Search",
+      "link": "https://doi.org/10.34740/kaggle/w/115624",
+      "pdf_url": null,
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Kaggle",
+      "authors": [
+        {
+          "key": "reddy rishyanth",
+          "name": "Rishyanth Reddy"
+        },
+        {
+          "key": "2312 anukriti sinha",
+          "name": "Anukriti Sinha 2312"
+        },
+        {
+          "key": "eswar vajja",
+          "name": "Eswar Vajja"
+        },
+        {
+          "key": "shrisha",
+          "name": "Shrisha G K"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0dc0bd682acd80485e1210c49f5db23ec4f39000418d60b16aab42c9546e4b78",
+      "identity_keys": [
+        "https://doi.org/10.3390/ijms27135925",
+        "https://openalex.org/W7166652975"
+      ],
+      "title": "Hybrid Approach to Protein–Protein Complex Affinity Prediction Based on Language Models and Molecular Dynamics",
+      "link": "https://doi.org/10.3390/ijms27135925",
+      "pdf_url": "https://www.mdpi.com/1422-0067/27/13/5925/pdf?version=1782841449",
+      "publication_date": "2026-06-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of Molecular Sciences",
+      "authors": [
+        {
+          "key": "alexandrovna bogdanova elizaveta",
+          "name": "Elizaveta Alexandrovna Bogdanova"
+        },
+        {
+          "key": "artem chernukhin",
+          "name": "Artem V. Chernukhin"
+        },
+        {
+          "key": "alexey shaytan",
+          "name": "Alexey К. Shaytan"
+        }
+      ],
+      "abstract_text": "Protein–protein and protein–peptide interactions are fundamental to biological processes, making the accurate prediction of their binding affinity crucial for drug design and mutational analysis. Here, we develop HyBind-NN, a multimodal graph neural network that integrates protein language models (PLMs) with 3D structural and dynamic datasets to predict protein–protein and protein–peptide affinity. First, we demonstrate that combining ESM-2 sequence embeddings with precise 3D Voronoi spatial geometry enables accurate affinity predictions across diverse structural datasets. Next, we show that the inherent limitations of static rigid-body structures can be mitigated through a multi-task learning framework. By utilizing residue-level root mean square fluctuations (RMSF) derived from molecular dynamics (MD) as an auxiliary training target, the model implicitly learns to capture the conformational entropy of flexible peptides without requiring computationally expensive MD simulations during inference. In our benchmarking study, we observe that this multimodal architecture outperforms both purely sequence-based and strictly structural state-of-the-art algorithms, achieving a mean absolute error of 0.89 for pKD (1.12 kcal/mol for ∆G) on the independent benchmark. Finally, we confirmed through ablation analysis that while the PLM provides the dominant predictive signal, geometric representations and dynamic regularization are crucial for resolving subtle conformational rearrangements. This study highlights the synergistic potential of combining PLMs with physics-aware architectures and demonstrates their application towards the robust prediction of intermolecular binding affinity.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0dc67f063d73f7d32e0e63c75031e4f7d9b5f280933d3f3cd5e6704eb917215c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72442-4",
@@ -3866,6 +4196,44 @@
         }
       ],
       "abstract_text": "Engineered molecular circuits encoded in RNA can act as programmable therapeutics that sense cellular states and elicit precise responses within diseased cells. However, their application depends critically on systems for delivering circuits into cells. Here, we engineer a model delivery system based on the rabies virus that incorporates multiple levels of control over the viral life cycle and cargo. We demonstrate controlled release of viral vectors from sender cells, conditional entry into target cells based on cell-surface proteins, restricted viral replication governed by intracellular protein content, and an escaper-resistant mechanism for viral elimination with drugs. In parallel, we integrate RNA-sensing and protease-controlled circuits to regulate cargo expression and activity at post-transcriptional and post-translational levels. Together, these strategies illustrate how viral and protein engineering can establish multi-level control at both the viral and cargo levels to facilitate specificity in future therapeutic RNA delivery systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0dccadcecdfba7dbde0549ed7ec5ea2b2d20c2d881f0b7fa5b5822af26e7a46b",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.sbi.2026.103240",
+        "https://openalex.org/W7131678446"
+      ],
+      "title": "De novo engineering of protein interactions: Retrospective and current advances",
+      "link": "https://doi.org/10.1016/j.sbi.2026.103240",
+      "pdf_url": null,
+      "publication_date": "2026-02-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Structural Biology",
+      "authors": [
+        {
+          "key": "alisa khramushin",
+          "name": "Alisa Khramushin"
+        },
+        {
+          "key": "elizarova evgenia",
+          "name": "Evgenia Elizarova"
+        },
+        {
+          "key": "bruno correia",
+          "name": "Bruno E. Correia"
+        }
+      ],
+      "abstract_text": "New deep learning-based methods for modeling and generation of protein structures have opened a new chapter in the field of protein design, transforming many previously unattainable challenges into routine tasks. Protein-binder design, an important and challenging task in protein engineering, has also experienced significant progress, promising to provide solutions to many therapeutic and bioengineering problems. Novel protein folds of tailored surface complementarity to their target can be generated and stabilized by amino acid sequences with unprecedentedly high experimental success rates. These advancements can be largely attributed to the power of the new structure prediction models, such as AlphaFold, as well as deep generative models that learn data distributions and allow sampling of new molecules conditioned on function-related features. In this review, we will discuss the development of binder design approaches, focusing on the state-of-the-art methods and their applications as well as new challenges.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4526,6 +4894,44 @@
         }
       ],
       "abstract_text": "Mid-latitude jet streams are fundamental to global weather and influence high-impact meteorological events. Climate models consistently project a poleward shift of the jets under anthropogenic warming and evidence for such a shift recently emerged in reanalysis data. Here we show that trends in Northern Hemisphere winter jet streams over the past 45 years are closely linked to the increased number of intense mid-latitude precipitation events over a large area in the western North Pacific, themselves favored by tropical precipitation anomalies associated with the more recurrent La-Niña-like conditions but also during recent El-Nino seasons when the Madden Julian Oscillation is under phases 4 to 6. During these events, the North Pacific jet is accelerated on its poleward flank followed by an acceleration of the North Atlantic jet. The findings reveal that tropical Pacific precipitation trends, through their modulation of quasi-stationary and synoptic eddy activity, play a pivotal role in shaping recent mid-latitude jet stream trends in the Northern Hemisphere. This provides an avenue of research to evaluate climate models and their ability to reproduce historical and future trends.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0deac8f148b4122b1a04fe1fd491ef1e0b75379157651ed90252b3237a950f15",
+      "identity_keys": [
+        "https://doi.org/10.1038/s42004-025-01727-4",
+        "https://openalex.org/W4416142729"
+      ],
+      "title": "Topological deep learning for enhancing peptide-protein complex prediction",
+      "link": "https://doi.org/10.1038/s42004-025-01727-4",
+      "pdf_url": null,
+      "publication_date": "2025-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Communications Chemistry",
+      "authors": [
+        {
+          "key": "dai xuhang",
+          "name": "Xuhang Dai"
+        },
+        {
+          "key": "rui wang",
+          "name": "Rui Wang"
+        },
+        {
+          "key": "yingkai zhang",
+          "name": "Yingkai Zhang"
+        }
+      ],
+      "abstract_text": "Peptide-protein interactions are essential to biological processes and drug discovery, but selecting high-quality models from predicted complexes remains challenging due to high false positive rates (FPR). Here we introduce TopoDockQ, a topological deep learning model leveraging persistent combinatorial Laplacian (PCL) features to predict DockQ scores (p-DockQ) for accurately evaluating peptide-protein interface quality, aimed at enhancing precision and mitigating FPR in model selection. Compared to AlphaFold2's built-in confidence score, TopoDockQ reduces false positives by at least 42% and increases precision by 6.7% across five evaluation datasets filtered to ≤70% peptide-protein sequence identity, while maintaining relatively high recall and F1 scores. To support flexible peptide design, we introduce ResidueX, a workflow incorporating non-canonical amino acids (ncAA) into peptide scaffolds. Together, TopoDockQ and ResidueX advance peptide-protein modeling by refining confidence scoring and supporting ncAA incorporation, enabling precise, customizable design and accelerating next-generation peptide therapeutics development.",
       "discovery_sources": [
         {
           "kind": "open_alex",

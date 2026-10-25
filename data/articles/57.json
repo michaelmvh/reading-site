@@ -2113,6 +2113,44 @@
       "curated_categories": []
     },
     {
+      "id": "577859e64fa428e1767c66042e145aea3afd171a0bbd05e03fc8bec0553fe9a3",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.02.21.707165",
+        "https://openalex.org/W7131112606"
+      ],
+      "title": "A Comprehensive Atlas and Machine-Learning Framework for Predicting IDR-Protein Binding Affinity",
+      "link": "https://doi.org/10.64898/2026.02.21.707165",
+      "pdf_url": null,
+      "publication_date": "2026-02-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "adhikari subinoy",
+          "name": "Subinoy Adhikari"
+        },
+        {
+          "key": "choudhuri soham",
+          "name": "Soham Choudhuri"
+        },
+        {
+          "key": "jagannath mondal",
+          "name": "Jagannath Mondal"
+        }
+      ],
+      "abstract_text": "Abstract Intrinsically disordered regions (IDRs) enable pervasive, regulatable protein interactions, yet predicting their binding affinities remains challenging because disorder permits heterogeneous interfaces and context-dependent recognition. Here we introduce IBPC- K d , a curated dataset of 1,785 IDR-ordered protein complexes with experimentally measured dissociation constants ( K d ), spanning more than six orders of magnitude in affinity and covering diverse IDR lengths and partner classes. Across this resource, we find that global interfacial shape complementarity is a consistent correlate of affinity, followed by the structural order of the partner surface and a systematic electrostatic asymmetry between IDRs and their binders. Local physicochemical patterning modulates binding in a partner-dependent manner. Guided by these observations, we develop IDRBindNet , a graph-transformer model that integrates protein language model embeddings with interface geometry and residue-level chemical context to predict dissociation constants from IDR-partner complexes. IDRBindNet achieves state-of-the-art accuracy on held-out complexes (R 2 up to 0.911) while implicitly learning biologically relevant attention patterns corresponding to partner disorder and geometric fit. Notably, the framework generalizes through external validation on a set of recently reported de novo designed binders targeting the human surfaceome, showing encouraging concordance across nanomolar-to-micromolar affinities. Together, IBPC- K d and the accompanying predictor IDRBindNet provide a quantitative framework for interrogating determinants of IDR recognition and for prioritizing candidate interactions for mechanistic and design studies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "577a6d1291ceb6c78816835ea93dd5e6cdf4ae5f94211546921e4574a0c122ea",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01029-2",
@@ -2658,6 +2696,36 @@
       "curated_categories": []
     },
     {
+      "id": "579b7eb1884c45dd4fa1b2c6e2bfdb8de2ca9d295ac427d21d2fdae60c7f9822",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv-2026-9wsjs",
+        "https://openalex.org/W7118340419"
+      ],
+      "title": "De Novo Design of Zearalenone Binding Proteins: A Comparison of Tamarind Bio and CARPdock-NISE-Boltz-2 Pipelines for Biosensor Applications",
+      "link": "https://doi.org/10.26434/chemrxiv-2026-9wsjs",
+      "pdf_url": null,
+      "publication_date": "2026-01-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "benavides cueva josemar",
+          "name": "JOSEMAR CUEVA BENAVIDES"
+        }
+      ],
+      "abstract_text": "Zearalenone is a mycotoxin frequently found in cereals and pseudocereals, which has shown male reproductive toxicity and synergistic effects with other mycotoxins. Current detection methods for zearalenone are largely based on chromatography or antibody-based assays, and no de novo designed protein receptors are available as recognition elements for biosensors. In this work, de novo zearalenone-binding proteins have been designed using two competing computational pipelines: (i) Tamarind Bio’s all-atom RFdiffusion-ProteinMPNN-RoseTTAFold workflow and (ii) a NISE-CARPdock pipeline combining scaffold generation, LaserMPNN design, and Boltz-2 folding. Three top candidates (RFdiff-ZB1, NC-ZB1, NC-ZB2) exhibited high structural confidence with global average pLDDT values between 0.97-0.98, docking analysis using GNINA produced docking scores of -5.99 to -9.70. Molecular-dynamics-based minimization yielded affinities of -10.48 to -10.92 kcal/mol with minimized pose RMSDs of 0.26-0.68 Å and CNNscores up to 0.80. These results are comparable to in silico benchmarks from natural zearalenone-binding proteins and mutants. This study presents the first comparison between Tamarind Bio and CARPdock-Boltz-2 workflows for de novo mycotoxin binder design and delivers three high-confidence candidates suitable for biosensing. Future work will include extended MD trajectories, experimental binding validation, and integration into impedance-based or other electrical transduction platforms for real-sample detection.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "57a1bb942b54872c3cbde5f4c39da3dced169d48401042306c50f877f5b3d9b2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02435-2",
@@ -2677,6 +2745,44 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "57a270f1e67268a3818c3e204949a89a416f79a53ddb95df14fc57407f6b04bd",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag409",
+        "https://openalex.org/W7172319042"
+      ],
+      "title": "Mixture diffusion model for multimodal antibody design",
+      "link": "https://doi.org/10.1093/bib/bbag409",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "durvasula vasanth",
+          "name": "Vasanth Durvasula"
+        },
+        {
+          "key": "binte natasha sayuti tiara",
+          "name": "Tiara Natasha Binte Sayuti"
+        },
+        {
+          "key": "chandana jagath rajapakse",
+          "name": "Jagath Chandana Rajapakse"
+        }
+      ],
+      "abstract_text": "Antibody design requires modeling complementarity-determining region (CDR) loops that are highly flexible and adopt diverse conformations to achieve high-affinity antigen binding. Current diffusion-based generative models almost universally adopt unimodal distributions to parameterize sequence-structure transitions, which produce smooth conformations but constrain generation to a single conformational mode. This limitation impedes the exploration of alternative high-affinity binding conformations, particularly for challenging targets where exceptional binders may exist in low-probability regions of the conformational space. To address this, we introduce the mixture diffusion model for multimodal antibody design, a denoising diffusion probabilistic model that uses mixture density parameterizations for both positional and rotational updates. Through experiments on antibody-antigen complexes from the Structural Antibody Database (SAbDab), we find that increasing the number of mixture components improves model performance by capturing distinct canonical-like backbone conformations of CDRs. Our model achieves competitive amino acid recovery and binding-affinity-related metrics while maintaining physically consistent backbones. Through our results, we establish mixture-based diffusion modeling as a practical path toward discovering high-quality antibody conformations that remain inaccessible to conventional single-mode diffusion frameworks.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4516,6 +4622,52 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "57e543752b68b2c3bef68ff3e9924d234eecb6250cf1e7fd70158cd7532eb93b",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2608.28788",
+        "https://openalex.org/W7204909966"
+      ],
+      "title": "FoldKit: A Python library for efficient storage and retrieval of co-folding predictions",
+      "link": "https://doi.org/10.48550/arxiv.2608.28788",
+      "pdf_url": "https://arxiv.org/pdf/2608.28788",
+      "publication_date": "2026-08-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "jon levine",
+          "name": "Jon Levine"
+        },
+        {
+          "key": "melissa pathil",
+          "name": "Melissa Pathil"
+        },
+        {
+          "key": "nitz samuel",
+          "name": "Samuel Nitz"
+        },
+        {
+          "key": "lyudovyk olga",
+          "name": "Olga Lyudovyk"
+        },
+        {
+          "key": "benjamin greenbaum",
+          "name": "Benjamin D. Greenbaum"
+        }
+      ],
+      "abstract_text": "AlphaFold 3 (AF3) enables structure prediction of biomolecular complexes through co-folding multiple interacting molecules, making it increasingly useful for de novo protein design and for large-scale studies of protein-protein, protein-peptide, and other biomolecular interactions. However, systematic co-folding experiments can produce large volumes of output data, particularly when multiple random seeds and samples are generated for each input complex. We introduce FoldKit, a Python package for efficient storage and analysis of large-scale AF3 co-folding results. FoldKit converts raw AF3 outputs into a compact, structured representation while preserving the metadata needed for downstream analysis. The FoldKit Python library provides convenient programmatic access to global, single chain, and interface confidence metrics such as pLDDT, pTM, ipTM, ipAE, and ipSAE, as well as an ensemble-level interface for accessing and aggregating these metrics for a single input across multiple seeds and samples. We benchmark FoldKit on three types of AF3 co-folding datasets: (i) a protein design campaign with 2 chains per input, (ii) a TCR-pMHC dataset with 4 chains per input, and (iii) a pooled-AF3 protein-protein interaction dataset with up to 22 chains per input. We find that FoldKit reduces storage requirements by approximately 5-15-fold compared to native AF3 outputs, depending on dataset composition, while maintaining direct programmatic access to individual predictions, ensembles, and confidence metrics. By reducing storage requirements and facilitating programmatic access to relevant outputs, FoldKit facilitates large-scale computational studies of biomolecular interactions. FoldKit is available from PyPI and can be installed using pip.",
       "discovery_sources": [
         {
           "kind": "open_alex",

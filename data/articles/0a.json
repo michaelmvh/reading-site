@@ -497,6 +497,56 @@
       "curated_categories": []
     },
     {
+      "id": "0a0da2f735dbf5e12b66eba8512e5f3a6b6546c7b50e14a37ec0f8a9eb2dac00",
+      "identity_keys": [
+        "https://doi.org/10.3390/biom16101535",
+        "https://openalex.org/W7223154993"
+      ],
+      "title": "Structure–Function Relationships of Cid1 Poly(U) Polymerase: Catalysis, Substrate Recognition, Engineering, and Applications",
+      "link": "https://doi.org/10.3390/biom16101535",
+      "pdf_url": null,
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biomolecules",
+      "authors": [
+        {
+          "key": "chen yang",
+          "name": "Yang Chen"
+        },
+        {
+          "key": "pengbo wang",
+          "name": "Pengbo Wang"
+        },
+        {
+          "key": "mingdong yao",
+          "name": "Mingdong Yao"
+        },
+        {
+          "key": "liu quanyong",
+          "name": "Quanyong Liu"
+        },
+        {
+          "key": "goh kian mau",
+          "name": "Kian Mau Goh"
+        },
+        {
+          "key": "shoutao zhang",
+          "name": "Shoutao Zhang"
+        }
+      ],
+      "abstract_text": "RNA 3′-end modification is an important regulatory mechanism that influences RNA processing, stability, localization, function, and degradation. Beyond its biological roles, RNA 3′-end modification has become a valuable tool in biotechnology, enabling applications in RNA labelling, sequencing, engineering and oligonucleotide synthesis. Terminal nucleotidyltransferases are key enzymes responsible for template-independent nucleotide addition to RNA molecules. Among these enzymes, Schizosaccharomyces pombe Cid1, a poly(U) polymerase, has emerged as an important model for understanding RNA-specific terminal nucleotidyltransferase activity. Structural and biochemical studies have revealed how nucleotide recognition, metal-ion-dependent catalysis, RNA positioning, and conformational dynamics regulate Cid1-mediated uridylation. Recent advances in protein engineering, molecular simulation, machine learning, and generative protein design have further expanded Cid1 functionality, generating variants with improved activity, altered substrate specificity, and potential applications in enzymatic RNA synthesis. This review summarizes the biological functions, structural characteristics, catalytic mechanisms, protein engineering strategies, and emerging biotechnological applications of Cid1, as well as the remaining challenges, highlighting its potential as a programmable platform for RNA 3′-end functionalization and enzymatic RNA oligonucleotide synthesis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0a0f33deb903de9c05d5ee31865e7046e381b4bfb482bdc9910ac84c3f888ceb",
       "identity_keys": [
         "https://doi.org/10.64898/2026.01.14.699389",
@@ -745,6 +795,12 @@
       ],
       "abstract_text": "0 Abstract Generative artificial intelligence has advanced antibody discovery, yet de novo design of therapeutic antibodies against targets with “zero-prior” epitopes remains a fundamental challenge. We define “zero-prior” epitopes as target sites lacking structural data from any reported antibody-antigen or protein-protein complex involving the target. Here we present Origin-1, a generative AI platform that overcomes this by integrating epitope-conditioned all-atom structure generation, paired complementarity determining region sequence design, and a specialized co-folding-based scoring protocol to select antibody designs predicted to be high-confidence, specific binders with favorable developability. We evaluated Origin-1 on a panel of ten targets selected to have no available protein–protein complex structures and minimal homology (≤60% sequence identity) to proteins with known complexes, creating stringent design conditions. In fewer than one hundred design attempts per target, we identified developable, specific antibodies, validated across multiple biophysical and developability assays, for four targets: COL6A3, AZGP1, CHI3L2, and IL36RA, with functional inhibition demonstrated for IL36RA. Cryogenic electron microscopy confirmed the atomic accuracy of our designs, revealing complexes that closely matched the computational models with high structural fidelity (3.0-3.3 Å resolution; 0.83-0.91 DockQ). Furthermore, we employed AI-guided affinity maturation to optimize a de novo antibody binder against IL36RA, producing functional antagonists with sub-nanomolar affinities and a top EC 50 of 12.3 nM. These results demonstrate a framework for targeting epitopes without structural precedent, expanding the programmable therapeutic antibody landscape.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -3000,6 +3056,12 @@
       "abstract_text": "Abstract Generative models have become staple tools for modeling and designing biomolecular structures. However, although these tools have improved in structural prediction accuracy, their ability to filter designed binders—an essential use case—remains insufficient; whereas design methods have focused more on unconstrained binder generation rather than capabilities enabled by controllable design. We introduce Promera , a unified generative model that combines all-atom structure prediction with improved filtering and controllable design. We find that Promera’s confidence metrics are more accurate for filtering binders from non-binders for both miniproteins and nanobodies, while its co-folding performance surpasses popular open-source models (OpenFold3-p2, Boltz-2) on therapeutically relevant categories. As a design model, Promera generates binders by predicting masked protein sequences with optional epitope, paratope, and template constraints. Remarkably, our nanobody designs match the in silico success rates from backprop-based techniques (mBER) when evaluated under co-folding confidence filters. We further provide two in silico demonstrations of the the versatile capabilities of our design method: epitope targeting of the Andes hantavirus glycoprotein with VHHs and active state stabilization of the β 2 andrenergic GPCR. We conclude by proposing a scaling law for co-folding models, suggesting a path for further performance improvement.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -3235,6 +3297,461 @@
         }
       ],
       "abstract_text": "Abstract Seasonal malaria chemoprevention (SMC) with sulfadoxine-pyrimethamine plus amodiaquine (SPAQ) protects millions of African children, yet the contribution of each drug to preventive efficacy remains unclear. We pooled individual-level data on drug concentrations and malaria infection in 934 children from Uganda (NCT05323721), Mozambique (NCT05186363), and Burkina Faso (NCT05478954). The primary outcome was malaria infection by day 28, and the secondary outcome was the day 28 qPCR cycle threshold value. From natural variation in drug exposure, desethylamodiaquine, the active amodiaquine metabolite, was the primary determinant of malaria infection (OR 0.55, 95% CI 0.44–0.68 per standard deviation increase in log concentration). Children with low day 28 desethylamodiaquine exposure (<24 ng/mL) had nearly twice the risk of malaria infection (RR 1.9, 95% CI 1.5–2.4). Sulfadoxine and pyrimethamine showed only weak associations, consistent across countries despite varying resistance haplotypes. SPAQ efficacy appears primarily amodiaquine-driven and the role of single-dose sulfadoxine–pyrimethamine merits further evaluation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0a826eb6eec98942945c2a1c5342db0723d9201d7090c9ecfc8b3c1f24f02aeb",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2025-02.3377921/3694293",
+        "https://doi.org/10.25582/data.2025-02.3379554/3693124",
+        "https://doi.org/10.25582/data.2025-02.3388144/3693125",
+        "https://doi.org/10.25582/data.2025-02.3388145/3693126",
+        "https://doi.org/10.25582/data.2025-02.3388146/3693127",
+        "https://doi.org/10.25582/data.2025-02.3388147/3693128",
+        "https://doi.org/10.25582/data.2025-02.3388150/3693129",
+        "https://doi.org/10.25582/data.2025-02.3388151/3693130",
+        "https://doi.org/10.25582/data.2025-02.3388155/3693131",
+        "https://doi.org/10.25582/data.2025-02.3388157/3693132",
+        "https://doi.org/10.25582/data.2025-02.3388158/3693133",
+        "https://doi.org/10.25582/data.2025-02.3388159/3693134",
+        "https://doi.org/10.25582/data.2025-02.3388160/3693135",
+        "https://doi.org/10.25582/data.2025-02.3388161/3693136",
+        "https://doi.org/10.25582/data.2025-02.3388162/3693137",
+        "https://doi.org/10.25582/data.2025-02.3388166/3693138",
+        "https://doi.org/10.25582/data.2025-02.3388167/3693139",
+        "https://doi.org/10.25582/data.2025-02.3388168/3693140",
+        "https://doi.org/10.25582/data.2025-02.3388169/3693141",
+        "https://doi.org/10.25582/data.2025-02.3388204/3693142",
+        "https://doi.org/10.25582/data.2025-02.3388208/3693143",
+        "https://doi.org/10.25582/data.2025-02.3388209/3693144",
+        "https://doi.org/10.25582/data.2025-02.3388210/3693145",
+        "https://doi.org/10.25582/data.2025-02.3388211/3693146",
+        "https://doi.org/10.25582/data.2025-02.3388212/3693147",
+        "https://doi.org/10.25582/data.2025-02.3388213/3693148",
+        "https://doi.org/10.25582/data.2025-02.3388254/3693149",
+        "https://doi.org/10.25582/data.2025-02.3388255/3693150",
+        "https://doi.org/10.25582/data.2025-02.3388266/3693151",
+        "https://doi.org/10.25582/data.2025-02.3388272/3693152",
+        "https://openalex.org/W7212109934"
+      ],
+      "title": "Data for EMSL Project 50414 from February 2025",
+      "link": "https://doi.org/10.25582/data.2025-02.3388167/3693139",
+      "pdf_url": null,
+      "publication_date": "2026-09-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4680,6 +5197,76 @@
       "curated_categories": []
     },
     {
+      "id": "0adc865fe8625d4fde2cce88c56513849a478309a522b78770b4954415878031",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2512.01976",
+        "https://openalex.org/W4417001525"
+      ],
+      "title": "Consistent Synthetic Sequences Unlock Structural Diversity in Fully Atomistic De Novo Protein Design",
+      "link": "https://doi.org/10.48550/arxiv.2512.01976",
+      "pdf_url": "https://arxiv.org/pdf/2512.01976",
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "danny reidenbach",
+          "name": "Danny Reidenbach"
+        },
+        {
+          "key": "cao zhonglin",
+          "name": "Cao, Zhonglin"
+        },
+        {
+          "key": "zhang zuobai",
+          "name": "Zuobai Zhang"
+        },
+        {
+          "key": "didi kieran",
+          "name": "Kieran Didi"
+        },
+        {
+          "key": "geffner tomas",
+          "name": "Tomas Geffner"
+        },
+        {
+          "key": "guoqing zhou",
+          "name": "Guoqing Zhou"
+        },
+        {
+          "key": "jian tang",
+          "name": "Jian Tang"
+        },
+        {
+          "key": "christian dallago",
+          "name": "Christian Dallago"
+        },
+        {
+          "key": "arash vahdat",
+          "name": "Arash Vahdat"
+        },
+        {
+          "key": "emine küçükbenli",
+          "name": "Emine Küçükbenli"
+        },
+        {
+          "key": "karsten kreis",
+          "name": "Karsten Kreis"
+        }
+      ],
+      "abstract_text": "High-quality training datasets are crucial for the development of effective protein design models, but existing synthetic datasets often include unfavorable sequence-structure pairs, impairing generative model performance. We leverage ProteinMPNN, whose sequences are experimentally favorable as well as amenable to folding, together with structure prediction models to align high-quality synthetic structures with recoverable synthetic sequences. In that way, we create a new dataset designed specifically for training expressive, fully atomistic protein generators. By retraining La-Proteina, which models discrete residue type and side chain structure in a continuous latent space, on this dataset, we achieve new state-of-the-art results, with improvements of +54% in structural diversity and +27% in co-designability. To validate the broad utility of our approach, we further introduce Proteina Atomistica, a unified flow-based framework that jointly learns the distribution of protein backbone structure, discrete sequences, and atomistic side chains without latent variables. We again find that training on our new sequence-structure data dramatically boosts benchmark performance, improving \\method's structural diversity by +73% and co-designability by +5%. Our work highlights the critical importance of aligned sequence-structure data for training high-performance de novo protein design models. All data will be publicly released.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0add702a69f7c6768e17400321ab320e4f4ec01e90ff6e4fd1e69dc5bbed034f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76203-1",
@@ -5015,6 +5602,474 @@
         }
       ],
       "abstract_text": "Abstract Functional MRI (fMRI) has traditionally focused on grey matter activations, overlooking the contribution of white matter pathways to brain organisation. Yet evidence suggests that white matter constrains, modulates, and integrates signals across distant regions. Here, we introduce a framework to map the functional specialisation of white matter circuits using fMRI scans collected while participants watched naturalistic videos. By leveraging ecologically valid stimuli, this method captures cognition as it naturally unfolds. Integrating fMRI with brain connections, we derived a functionally grounded parcellation of the connectome, challenging conventional cortical-based cognitive taxonomy. Distinct cognitive profiles emerged for association and commissural fibres, with association pathways preferentially linked to language-related processes and commissural pathways to executive and motor functions, affirming the functionally heterogeneous nature of white matter systems. An artificial intelligence framework applied to independent datasets confirmed the robustness and functional relevance of the identified parcels. This open-access framework also enables the interactive exploration of white matter functional organisation, offering a new lens on the neural bases of cognition.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0ae74b55f99d73ad7fcd46661b9994c2b867936fe0b0b1a76effd1da3d00dc60",
+      "identity_keys": [
+        "https://openalex.org/W7222365717",
+        "https://scholarcommons.scu.edu/idp_senior/118"
+      ],
+      "title": "Interpretable Protein Design for Thermostable Antibody Fragments",
+      "link": "https://scholarcommons.scu.edu/idp_senior/118",
+      "pdf_url": "https://scholarcommons.scu.edu/context/idp_senior/article/1117/viewcontent/Thesis_Interpretable_Protein_Design_for_Thermostable_Antibody_Fragments__1_.pdf",
+      "publication_date": "2026-06-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scholar Commons (Santa Clara University)",
+      "authors": [
+        {
+          "key": "mukkavilli neel",
+          "name": "Neel Mukkavilli"
+        },
+        {
+          "key": "ivanov konstantin",
+          "name": "Konstantin Ivanov"
+        },
+        {
+          "key": "luis zamudio",
+          "name": "Luis Zamudio"
+        },
+        {
+          "key": "alex giannopoulos",
+          "name": "Alex Giannopoulos"
+        }
+      ],
+      "abstract_text": "Single-chain fragment variable (scFv) antibodies are powerful, miniature antibodies with success in a variety of cancer therapies. However, improving their thermostability remains a relevant protein design problem, one that we address with interpretable AI-aided design. Machine learning programs have been largely successful in predicting the structure or sequence of proteins, but we still do not know what biophysical characteristics are learned by models to inform these predictions. With the aim of simulating the accuracy of computational physics based models, Message Passing Neural Networks (MPNN) use spatial data to construct feature vector representations of proteins which can then be trained to predict functionality. These models represent proteins as a set of nodes and edges where information about each is first embedded as vectors and is then shared across them via messages. ProteinMPNN uses the 3D coordinates of backbone atoms to build a latent dimension which is then decoded to determine sequences of amino acids likely to fold into the original backbone conformation. We aim to use Sparse Autoencoders (SAEs) to expand the latent dimension and correlate feature dimensions to true protein features to understand what makes ProteinMPNN effective and to steer its predictions. We hope to use these feature dimensions to explain what ProteinMPNN is learning about its input and to imbue output sequences with specific qualities. With this strategy, we successfully increased the theoretical thermostability of Brolucizimab, a commercial scFv drug.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0aea793cac75e7c2c958fb14b4ef5cd843a0aa0ae3c4886adf1b2b6e975c213e",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2020-05.1989122/17192237",
+        "https://openalex.org/W7221140448"
+      ],
+      "title": "Data for EMSL Project 50414 from May 2020",
+      "link": "https://doi.org/10.25582/data.2020-05.1989122/17192237",
+      "pdf_url": null,
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -72,6 +72,56 @@
       "curated_categories": []
     },
     {
+      "id": "c20452dee007da71394c38be04628b0535d85f457eb9e1c2799d3b50e7ac273a",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag279",
+        "https://openalex.org/W7164412906"
+      ],
+      "title": "Deep Prior Framework: integrating functional specificity with general plausibility for targeted protein evolution",
+      "link": "https://doi.org/10.1093/bib/bbag279",
+      "pdf_url": null,
+      "publication_date": "2026-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "senxin zhang",
+          "name": "Senxin Zhang"
+        },
+        {
+          "key": "qin yining",
+          "name": "Yining Qin"
+        },
+        {
+          "key": "zhu",
+          "name": "H Zhu"
+        },
+        {
+          "key": "fei long meng",
+          "name": "Fei‐Long Meng"
+        },
+        {
+          "key": "jia lei",
+          "name": "Lei Jia"
+        },
+        {
+          "key": "xiaoqi zheng",
+          "name": "Xiaoqi Zheng"
+        }
+      ],
+      "abstract_text": "The efficiency of directed protein evolution largely relies on computational methods to enrich mutants with high fitness. Traditional strategies, such as zero-shot approaches based on Protein Language Models (PLMs), primarily leverage general \"plausibility\" priors learned from natural sequences. However, in the absence of experimental feedback, their ability to guide evolution toward specific functions (\"specificity\") remains limited. Here, we introduce the Deep Prior Framework (DPF), a novel paradigm that integrates universal structural plausibility with task-oriented specificity priors. DPF incorporates an innovative Bernoulli-Attention (BATT) module within a Mixture of Experts architecture, enabling efficient screening of high-fitness mutants. Benchmarking on nine deep mutational scanning datasets, DPF outperforms existing methods in terms of PLM-based method. More importantly, our method also shows high performance on in silico directed evolution of Blastobotrys adeninivorans xanthine dehydrogenase (BaXD) without intermediate experimental feedback. Experimental validation of the top-ranked mutants showed an average activity enhancement of over four-fold compared with WT, with the best mutant achieving more than a nine-fold improvement. Furthermore, we applied DPF to a large-scale annotation of unreviewed sequences in UniProt Knowledgebase (UniProtKB). Of the 42 913 366 predicted samples (~21.56% of the total), 90.07% (38 934 581 proteins) were assigned high-confidence functional labels. In summary, this study demonstrates that DPF, by incorporating specificity-aware functional priors, can significantly advance efficient and targeted protein engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c2066217d27e51c60ef103bde0e0ebda886d01e3eae7b7235fbe539366ced7e7",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00843-y",
@@ -563,6 +613,60 @@
       ]
     },
     {
+      "id": "c22705a41e832a3147d507e03c79503b2ad6bfbaafd2296da2276e447cca3c18",
+      "identity_keys": [
+        "https://doi.org/10.20944/preprints202609.1947.v1",
+        "https://openalex.org/W7214128154"
+      ],
+      "title": "Two-Stage Solubility Optimization of an Anti-VirB4 Nanobody: From Rational Mutagenesis to AI-Driven De Novo Design of a Single-Domain Antibody Macromolecule",
+      "link": "https://doi.org/10.20944/preprints202609.1947.v1",
+      "pdf_url": null,
+      "publication_date": "2026-09-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Preprints.org",
+      "authors": [
+        {
+          "key": "guotao pan",
+          "name": "Guotao Pan"
+        },
+        {
+          "key": "张耀新",
+          "name": "张耀新"
+        },
+        {
+          "key": "周欢敏",
+          "name": "周欢敏"
+        },
+        {
+          "key": "fan yang",
+          "name": "Fan Yang"
+        },
+        {
+          "key": "hou lina",
+          "name": "Lina Hou"
+        },
+        {
+          "key": "gong pei",
+          "name": "Pei Gong"
+        },
+        {
+          "key": "fang wan",
+          "name": "Fang Wan"
+        }
+      ],
+      "abstract_text": "Nanobodies (VHHs, ~12-15 kDa) are single-domain antibody fragments valued for diagnostic applications, yet their engineering is frequently limited by poor solubility and aggregation. This study used the aggregation-prone anti-VirB4 nanobody a_b5 as a model to establish a two-stage solubility optimization strategy: rational single-point mutagenesis, then AI-driven de novo design. Consensus sequence analysis and CamSol prediction converged on glycine 54; G54A and G54D mutations reduced the Z-average hydrodynamic diameter by ~31% and ~32%, respectively, but particle sizes remained in the hundreds of nanometers, revealing an inherent ceiling for single-point mutagenesis. To surpass this limit, a modular AI pipeline integrating AlphaFold3 hotspot analysis, RFdiffusion backbone generation, dual-pathway ProteinMPNN sequence design (Vanilla and Soluble), AlphaFold3 ipTM screening, and 100-ns molecular dynamics was constructed. Among 780 designed sequences across 10 nanobody-antigen pairs, B5S achieved a CamSol solubility score of 3.007 (480% increase over wild-type 0.518). DLS confirmed a Z-average diameter of 6.084 nm with 43.4% monomer peak; B5S was solubly expressed in E. coli while the Vanilla counterpart B5V precipitated. Direct ELISA confirmed dose-dependent binding of B5S to VirB4 with apparent K_D ~856.2 nmol/L. These results demonstrate that AI-driven holistic redesign can simultaneously optimize binding interface quality and macromolecular solubility.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c22ff511536ecfc50c726500cb8bda4eb764565e32d5c8be953089b12ba964f2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00203-w",
@@ -729,6 +833,12 @@
       ],
       "abstract_text": "There is growing interest in alternative sweeteners that reduce dietary sugar intake while maintaining desirable sensory properties. Natural sweet proteins offer high sweetness potency but are limited by natural diversity and challenges in production, stability, and formulation. In this study, we developed an integrated computational framework for de novo design and prioritization of protein binders targeting the extracellular domain (ECD) of the human sweet taste receptor subunit TAS1R2. The workflow combines RFdiffusion-based backbone generation, ProteinMPNN sequence design, Boltz-1 structural evaluation, static GBSA energetic assessment, and molecular dynamics (MD) simulations. Designed binders targeted structurally relevant regions of the TAS1R2 Venus flytrap and cysteine-rich domains. Binder2 showed the strongest Boltz-1 structural confidence, whereas Binder1 exhibited the most favorable static GBSA estimate. Subsequent 200-ns MD simulations revealed distinct interaction profiles: Binder1 formed the largest and most interaction-rich interface, Binder2 maintained a persistent mixed polar/nonpolar network, and Binder3 showed greater conformational rearrangement and a more restricted interface. Advantame-bound TAS1R2 served as a structurally defined reference for trajectory-based analyses. These results demonstrate that receptor-guided de novo design can generate structurally diverse TAS1R2-binding proteins and support candidate prioritization for future experimental validation of receptor activation and sensory sweetness.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -2321,7 +2431,8 @@
       "id": "c27b061dfe9ab5914e16b256b2847052fdf1f2eecada331042a5568a791d5b9a",
       "identity_keys": [
         "https://doi.org/10.64898/2026.03.13.711555",
-        "https://openalex.org/W7137941555"
+        "https://openalex.org/W7137941555",
+        "https://www.biorxiv.org/content/early/2026/03/16/2026.03.13.711555.source.xml"
       ],
       "title": "β-barrel nanopores designed for insertion into thick block copolymer membranes",
       "link": "https://doi.org/10.64898/2026.03.13.711555",
@@ -2359,6 +2470,12 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:biophysics",
+          "label": "bioRxiv: Biophysics",
+          "url": "https://www.biorxiv.org/collection/biophysics"
         }
       ],
       "curated_categories": []
@@ -2710,12 +2827,6 @@
       ],
       "abstract_text": "All of life encodes information with DNA. Although tools for genome sequencing, synthesis and editing have transformed biological research, we still lack sufficient understanding of the immense complexity encoded by genomes to predict the effects of many classes of genomic changes or to intelligently compose new biological systems. Artificial intelligence models that learn information from genomic sequences across diverse organisms have increasingly advanced prediction and design capabilities1,2. Here we introduce Evo 2, a biological foundation model trained on 9 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life to have a 1 million token context window with single-nucleotide resolution. Evo 2 learns to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant BRCA1 variants—without task-specific fine-tuning. Mechanistic interpretability analyses reveal that Evo 2 learns representations associated with biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements and prophage genomic regions. The generative abilities of Evo 2 produce mitochondrial, prokaryotic and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Evo 2 also generates experimentally validated chromatin accessibility patterns when guided by predictive models3,4 and inference-time search. We have made Evo 2 fully open, including model parameters, training code5, inference code and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity. Evo 2 is an artificial intelligence-based biological foundation model trained on 9 trillion DNA base pairs spanning all domains of life that predicts functional properties from genomic sequences and provides a rich generative model for researchers in biology.",
       "discovery_sources": [
-        {
-          "kind": "open_alex",
-          "key": "openalex",
-          "label": "OpenAlex",
-          "url": "https://openalex.org/"
-        },
         {
           "kind": "open_alex",
           "key": "openalex",
@@ -3900,6 +4011,60 @@
       "curated_categories": []
     },
     {
+      "id": "c2bb48bcd6586afbaf139271b78b13b5514e273d7c965270d80baa9b6625cbcc",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.celld.2026.100011",
+        "https://openalex.org/W7153598712"
+      ],
+      "title": "Structure-based design of p62-derived peptides that inhibit autophagy-associated readouts and enhance chemotherapy response in breast cancer cells",
+      "link": "https://doi.org/10.1016/j.celld.2026.100011",
+      "pdf_url": null,
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Cell Death",
+      "authors": [
+        {
+          "key": "fatemeh mokhles",
+          "name": "Fatemeh Mokhles"
+        },
+        {
+          "key": "azimee shiva",
+          "name": "Shiva Azimee"
+        },
+        {
+          "key": "cordani marco",
+          "name": "Marco Cordani"
+        },
+        {
+          "key": "marveh rahmati",
+          "name": "Marveh Rahmati"
+        },
+        {
+          "key": "allahyari fard najaf",
+          "name": "Najaf Allahyari Fard"
+        },
+        {
+          "key": "djavaheri mergny mojgan",
+          "name": "Mojgan Djavaheri‐Mergny"
+        },
+        {
+          "key": "amin mohammad moosavi",
+          "name": "Mohammad Amin Moosavi"
+        }
+      ],
+      "abstract_text": "Rational drug design seeks small molecules, aptamers, or peptides to disrupt key cellular targets. Autophagy, crucial in tumor formation, dormancy, and chemotherapy response, especially in breast cancer, requires potent, specific modulators. This study leverages rational peptide design to develop p62-LIR-derived peptides predicted to target the LC3B interaction interface and modulate autophagy-associated readouts, aiming to sensitize BC cells to chemotherapy. The 6–15-mer peptides, based on the LC3 interacting region (LIR) domain of p62, were evaluated in silico for predicted binding to the LC3B LIR-docking region. Two peptides, LIR-P1 (DDWTHLSRPMKWKK) and LIR-P2 (VHSADRDWTHLSKEV), were selected based on their HADDOCK scores and synthesized for studies in MCF-7 and TNBC MDA-MB 231 cells. At a non-toxic concentration (200 μg/ml), both peptides effectively blocked autophagic flux in BC cells, as shown by western blot analysis of LC3B and p62 protein turnover. Fluorescence microscopy showed that LIR-P2 exhibited higher cellular uptake than LIR-P1, while functional assays were consistent with inhibition of autophagic flux. The combination of LIR-P2 and 5-FU synergistically increased chemotherapy cytotoxicity in MCF-7 and MDA-MB 231 cells, showing LIR-P2's potential to enhance treatment, especially in unresponsive TNBC. These findings support further investigation of p62-derived peptides as candidate modulators of autophagy and chemotherapy response in breast cancer cells.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c2bc45167d4ae6f855793dbd334b984d1e83a88047ceb7913d7a17027234c8e7",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.16.759688v1",
@@ -4079,6 +4244,12 @@
       ],
       "abstract_text": "Class I major histocompatibility complexes (MHCs), expressed on the surface of all nucleated cells, present peptides derived from intracellular proteins for surveillance by T cells. The precise recognition of foreign or mutated peptide-MHC (pMHC) complexes by T cell receptors (TCRs) is central to immune defense against pathogens and tumors. Although patient-derived TCRs specific for cancer-associated antigens have been used to engineer tumor-targeting therapies, their reactivity toward self- or near-self antigens may be constrained by negative selection in the thymus. Here, we introduce a structure-based deep learning framework, ADAPT (Antigen-receptor Design Against Peptide-MHC Targets), for the design of TCRs and antibodies that bind to pMHC targets of interest. We evaluate the ADAPT pipeline by designing and characterizing TCRs and antibodies against a diverse panel of pMHCs. Cryogenic electron microscopy structures of two designed antibodies bound to their respective pMHC targets demonstrate atomic-level accuracy at the recognition interface, supporting the robustness of our structure-based approach. Computationally designed TCRs and antibodies targeting pMHC complexes could enable a broad range of therapeutic applications, from cancer immunotherapy to autoimmune disease treatment, and insights gained from TCR-pMHC design should advance predictive understanding of TCR specificity with implications for basic immunology and clinical diagnostics.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

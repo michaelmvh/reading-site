@@ -1344,6 +1344,56 @@
       "curated_categories": []
     },
     {
+      "id": "393a066081b9c5a313bbbeeb35337920318ad25b44f1d1efff9e95bbcf111516",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.08.26.747373",
+        "https://openalex.org/W7204462175"
+      ],
+      "title": "WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures",
+      "link": "https://doi.org/10.64898/2026.08.26.747373",
+      "pdf_url": null,
+      "publication_date": "2026-08-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "srivastava vratin",
+          "name": "Vratin Srivastava"
+        },
+        {
+          "key": "huanghao mai",
+          "name": "Huanghao Mai"
+        },
+        {
+          "key": "collins marcus",
+          "name": "Marcus D. Collins"
+        },
+        {
+          "key": "holton james",
+          "name": "James M. Holton"
+        },
+        {
+          "key": "michael wall",
+          "name": "Michael E. Wall"
+        },
+        {
+          "key": "stephanie wankowicz",
+          "name": "Stephanie A. M. Wankowicz"
+        }
+      ],
+      "abstract_text": "Abstract Ordered water molecules mediate many protein functions including stability, ligand binding, and catalysis. Predicting their positions with sub-angstrom accuracy would support protein design, binding affinity prediction, and automated model building in X-ray crystallography and cryo-EM. However, water molecule prediction lags behind protein and other molecule structure predictions. We introduce WaterFlow, a flow-matching-based generator model and confidence model for predicting the positions of ordered water molecules in protein structures. WaterFlow outperforms the existing state of the art at every precision level. We demonstrate that this model not only predicts ground truth modeled water molecules, including those around ligands, but also fits the underlying experimental data well, and therefore proposes that it may be used for both prediction and modeling water molecules. We demonstrate that WaterFlow’s novel predictions are often associated with positive electron difference density, meaning the model places water molecules at sites the original structure depositions omitted. We use this improved model to address the data constraint. By mapping the Pareto front of achievable accuracy of water molecule prediction, alongside analysis of different training data schemas, we quantified the tradeoff between data quantity and data quality, demonstrating the diversity of high quality structures is limiting the results possible. Overall, WaterFlow predicts ordered water to serve as a solvent module for structure-based drug design, and predicted structures, as well as for water molecule placement during crystallographic refinement. Abstract Figure",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "393c3a874ed4b40666d4e19250f8547b240e7ea163747e317e03b919fbaaad2b",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00439-6",
@@ -2408,6 +2458,52 @@
       "curated_categories": []
     },
     {
+      "id": "3964881247263cef4e6653c6b4b510a84aaba1c106706c4b78c9efe6e7dec4e6",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.abiote.2025.100018",
+        "https://openalex.org/W7115012329"
+      ],
+      "title": "Deep learning–driven protein binder design for crop improvement",
+      "link": "https://doi.org/10.1016/j.abiote.2025.100018",
+      "pdf_url": null,
+      "publication_date": "2025-12-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "aBIOTECH",
+      "authors": [
+        {
+          "key": "iqbal muhammad salman",
+          "name": "Muhammad Salman Iqbal"
+        },
+        {
+          "key": "bahitwa revocatus",
+          "name": "Revocatus Bahitwa"
+        },
+        {
+          "key": "abdul ali azam",
+          "name": "Abdul Ali Azam"
+        },
+        {
+          "key": "hui xu",
+          "name": "Hui Xu"
+        },
+        {
+          "key": "hai wang",
+          "name": "Hai Wang"
+        }
+      ],
+      "abstract_text": "Deep learning (DL) now enables the end-to-end design of protein binders—proteins that bind to specific targets—to precisely modulate protein–protein interactions (PPIs). Models and tools such as BindCraft, AlphaFold, RoseTTAFold, RFdiffusion, and ProteinMPNN predict the structures of these binders and their targets, generate binder sequences, and refine their binding interfaces with increasing accuracy. Most progress so far has been in the therapeutics field, where de novo protein binders are now common targets for design and testing. In plant biology, however, applications remain early and scattered, and clear, crop-focused guidance that links design choices to practical testing is limited. This review explores the potential of protein binders by outlining an end-to-end pipeline for DL-driven protein binder design in plants. The pipeline covers target selection in key pathways for disease resistance, stress tolerance, and plant development; protein binder generation using current DL tools; and tiered in silico screening of the best binders using interface quality and stability metrics. We connect these steps to laboratory practice, including initial binding assays, production in suitable systems, and early in planta evaluation before stable transformation. Current constraints are also discussed, including uncertainty in affinity prediction and the limited structural information available for many plant proteins, as well as practical approaches to mitigate risk during target selection. Together, this plant-focused synthesis illustrates how DL-driven protein binder design can be applied to crop engineering and highlights the work still required to move from early demonstrations of success cases to robust agricultural use.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "39667d08c6e1ce3cade646eba687ca1002317b4701b28e24ee7f78211cb9dbdd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74378-1",
@@ -2791,6 +2887,44 @@
         }
       ],
       "abstract_text": "Abstract Mutations in the phospholipase A2 group VI ( PLA2G6 ) gene have been linked to autosomal recessive Parkinson’s disease (PD), yet the molecular mechanisms remain poorly understood. This study provides the in vitro and in vivo evidence, specifically in dopaminergic neurons derived from patients with PD, that PLA2G6 loss-of-function disrupts the mitochondria-associated endoplasmic reticulum (ER) membrane (MAM), a critical regulator of Ca 2+ transfer and energy homeostasis. This study demonstrates that the PLA2G6 protein localizes to the MAM and physically associates with the IP3R1-GRP75-VDAC1 complex. PLA2G6 deficiency destabilizes this complex, accelerating IP3R1 degradation, which in turn reduces ER-mitochondria contacts and impairs Ca 2+ transfer. Notably, introducing a MAM linker restores the phenotypes caused by PLA2G6 loss. In iPSCs-derived dopaminergic neurons from patients with PD harboring PLA2G6 mutations, the structural and functional disruption of the MAM is further confirmed, underscoring its role in PD pathogenesis. These findings uncover the pivotal function of PLA2G6 within the MAM and suggest that modulating inter-organelle contacts could be a therapeutic strategy for correcting PD’s ion channel dysfunction and energy imbalances.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "397b34fa0d2b5fd32809182ce257dd3ef1f8afa1fb4e1a8d77e5d61a2faad1bd",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2601.13327",
+        "https://openalex.org/W7125237249"
+      ],
+      "title": "PepEDiff: Zero-Shot Peptide Binder Design via Protein Embedding Diffusion",
+      "link": "https://doi.org/10.48550/arxiv.2601.13327",
+      "pdf_url": "https://arxiv.org/pdf/2601.13327",
+      "publication_date": "2026-01-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "liang po yu",
+          "name": "Po-Yu Liang"
+        },
+        {
+          "key": "duran tibo",
+          "name": "Tibo Duran"
+        },
+        {
+          "key": "bai jun",
+          "name": "Jun Bai"
+        }
+      ],
+      "abstract_text": "We present PepEDiff, a novel peptide binder generator that designs binding sequences given a target receptor protein sequence and its pocket residues. Peptide binder generation is critical in therapeutic and biochemical applications, yet many existing methods rely heavily on intermediate structure prediction, adding complexity and limiting sequence diversity. Our approach departs from this paradigm by generating binder sequences directly in a continuous latent space derived from a pretrained protein embedding model, without relying on predicted structures, thereby improving structural and sequence diversity. To encourage the model to capture binding-relevant features rather than memorizing known sequences, we perform latent-space exploration and diffusion-based sampling, enabling the generation of peptides beyond the limited distribution of known binders. This zero-shot generative strategy leverages the global protein embedding manifold as a semantic prior, allowing the model to propose novel peptide sequences in previously unseen regions of the protein space. We evaluate PepEDiff on TIGIT, a challenging target with a large, flat protein-protein interaction interface that lacks a druggable pocket. Despite its simplicity, our method outperforms state-of-the-art approaches across benchmark tests and in the TIGIT case study, demonstrating its potential as a general, structure-free framework for zero-shot peptide binder design. The code for this research is available at GitHub: https://github.com/LabJunBMI/PepEDiff-An-Peptide-binder-Embedding-Diffusion-Model",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4196,6 +4330,72 @@
       "curated_categories": []
     },
     {
+      "id": "39aa9c628823b3678129c74677f14f0090fcd577dd17ce28093838c53e3212b2",
+      "identity_keys": [
+        "https://doi.org/10.1002/adco.70007",
+        "https://openalex.org/W7214456285"
+      ],
+      "title": "Evaluating Large‐Language Models in Bioinformatics Applications",
+      "link": "https://doi.org/10.1002/adco.70007",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adco.70007",
+      "publication_date": "2026-09-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Advanced Computing",
+      "authors": [
+        {
+          "key": "hengchuang yin",
+          "name": "Hengchuang Yin"
+        },
+        {
+          "key": "cui ziwen",
+          "name": "Ziwen Cui"
+        },
+        {
+          "key": "dongxu li",
+          "name": "Dongxu Li"
+        },
+        {
+          "key": "yang yue",
+          "name": "Yue Yang"
+        },
+        {
+          "key": "chang ying",
+          "name": "Ying Chang"
+        },
+        {
+          "key": "xiaobo zhu",
+          "name": "Xiaobo Zhu"
+        },
+        {
+          "key": "jun zhang",
+          "name": "Jun Zhang"
+        },
+        {
+          "key": "hu pengwei",
+          "name": "Pengwei Hu"
+        },
+        {
+          "key": "xi zhou",
+          "name": "Xi Zhou"
+        },
+        {
+          "key": "hu lun",
+          "name": "Lun Hu"
+        }
+      ],
+      "abstract_text": "ABSTRACT Large language models (LLMs) have significantly revolutionized natural language processing through their strong capabilities in text generation and reasoning. Yet, their applicability to bioinformatics applications remains largely unexplored. Here, we systematically evaluate state‐of‐the‐art LLMs across six representative task domains: drug–drug interaction prediction, antimicrobial and anticancer peptide identification, molecular optimization, gene and protein named entity recognition, single‐cell type annotation, and bioinformatics question answering. Our results show that general‐purpose LLMs can deliver competitive performance across most tasks, demonstrating their versatility for biological data analysis under minimal task‐specific adaptation. Meanwhile, our findings underscore critical limitations for the usage of LLMs in bioinformatics research. First, LLMs exhibit limited capability in chemical structure reasoning for molecular optimization, highlighting the need for integrating physics‐based structure constraints into generative modeling. Second, their sensitivity to ambiguity in gene/protein recognition and single‐cell annotation emphasizes the importance of domain‐specific knowledge in prompt design. Finally, their difficulty in answering computational biology questions suggests that future systems may benefit from combining LLMs with structured reasoning frameworks to support more biologically rigorous inference and decision‐making. These findings reveal both the promise and the boundaries of current LLMs in bioinformatics, offering a roadmap for advancing next‐generation LLM models tailored to the bioinformatics applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "39ae3b23dd7ae7ad3b87dcb9ff4f4accbb4a4d93c988dc22c31a68040405bfd9",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02941-3",
@@ -4844,6 +5044,124 @@
       "curated_categories": []
     },
     {
+      "id": "39cc8b478d95387e25f114be3c46ea20c16010780c18bf344dfb1e5ff942965f",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.03.06.710001",
+        "https://openalex.org/W7134255832"
+      ],
+      "title": "What comes after de novo ? Automated lead optimization of proteins with CRADLE-1",
+      "link": "https://doi.org/10.64898/2026.03.06.710001",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/08/2026.03.06.710001.full.pdf",
+      "publication_date": "2026-03-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "bixby eli",
+          "name": "Eli Bixby"
+        },
+        {
+          "key": "brunner gino",
+          "name": "Gino Brunner"
+        },
+        {
+          "key": "danciu daniel",
+          "name": "Daniel Danciu"
+        },
+        {
+          "key": "dela richard rosa",
+          "name": "Richard Dela Rosa"
+        },
+        {
+          "key": "deutschmann nicolas",
+          "name": "Nicolas Deutschmann"
+        },
+        {
+          "key": "constance ferragu",
+          "name": "Constance Ferragu"
+        },
+        {
+          "key": "franziska geiger",
+          "name": "Franziska Geiger"
+        },
+        {
+          "key": "christian holberg",
+          "name": "Christian Holberg"
+        },
+        {
+          "key": "kidger patrick",
+          "name": "Patrick Kidger"
+        },
+        {
+          "key": "arthur lindoulsi",
+          "name": "Arthur Lindoulsi"
+        },
+        {
+          "key": "lutz noé",
+          "name": "Noé Lutz"
+        },
+        {
+          "key": "mccolgan thomas",
+          "name": "Thomas McColgan"
+        },
+        {
+          "key": "millius sebastian",
+          "name": "Sebastian Millius"
+        },
+        {
+          "key": "harmen rossum van",
+          "name": "Harmen van Rossum"
+        },
+        {
+          "key": "jinel shah",
+          "name": "Jinel Shah"
+        },
+        {
+          "key": "michelle vandeloo",
+          "name": "Michelle Vandeloo"
+        },
+        {
+          "key": "paula vidas",
+          "name": "Paula Vidas"
+        },
+        {
+          "key": "harmen rossum van",
+          "name": "Harmen M. van Rossum"
+        },
+        {
+          "key": "jonathan ziegler",
+          "name": "Jonathan D. Ziegler"
+        },
+        {
+          "key": "baldi nicolò",
+          "name": "Nicolò Baldi"
+        },
+        {
+          "key": "catalina ijspeert",
+          "name": "Catalina IJspeert"
+        },
+        {
+          "key": "emanuele monza",
+          "name": "Emanuele Monza"
+        },
+        {
+          "key": "angela schriek",
+          "name": "Angela I. Schriek"
+        }
+      ],
+      "abstract_text": "ABSTRACT Lead optimization remains the longest and most expensive step in pre-clinical drug discovery, typically consuming 12-36 months whilst costing $5M-$15M per candidate. We introduce ‘CRADLE-1’, an automated framework for protein engineering. While CRADLE-1 supports the full process of drug discovery and industrial protein engineering pipelines, including hit identification and de nouo binder design, this work focuses on its application to multi-property lead optimization across protein modalities (VHHs, scFvs, IgGs, peptides, enzymes, CRISPR systems, vaccines). We show it is 4-7× faster than rational design, as measured by the number of wet lab rounds required. We provide in-vitro validation across all of the above modalities, typically optimizing multiple properties simultaneously (single and polyspecific binding down to picomolar, activity, thermostability,.). Technically, CRADLE-1 starts with pre-trained foundation protein language models (PLMs), which are fine-tuned in unsupervised fashion on evolutionary neighborhoods, in supervised fashion using lab-in-the-loop data, and then deployed in a multi-model workflow. Of additional interest, we find that (a) the end-to-end system may be run in automated fashion; (b) wet lab data may be consumed in ‘black box’ fashion without knowledge of the underlying biochemical mechanisms; (c) structural data may largely be superseded by sequence-function pairs.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "39cd29aeec9d7c62afe15c936531e28c480adfedfa76965f272dc6900df891d0",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00707-5",
@@ -5117,6 +5435,450 @@
         }
       ],
       "abstract_text": "Plasmodium falciparum RH5-interacting protein (RIPR) is central to the essential PTRAMP-CSS-RIPR-CyRPA-RH5 (PCRCR) complex, a leading target of blood-stage malaria vaccines. However, mechanisms whereby anti-RIPR antibodies inhibit parasite invasion are poorly understood. We characterized 83 human IgG monoclonal antibodies (mAbs) from RIPR-vaccinated Kymouse platform mice. Single mAbs had minimal neutralizing activity; however, high-level synergistic inhibition was observed with pools of mAbs targeting the RIPR-tail region. Structural characterization and molecular dynamics simulations of RIPR-tail showed that mAbs targeting epidermal growth factor (EGF)-like domains 6–8 (RIPR EGF (6–8) ), but not RIPR EGF (9–10) or the C-terminal domain (RIPR CTD ), synergized to constrain the RIPR-tail conformation. The same antibodies dissociated PTRAMP-CSS from RIPR, thereby enabling anti-RIPR EGF (9–10)-CTD mAbs or anti-CSS single-domain Abs to bind and potentiate anti-RIPR EGF (6–8) IgG. Addition of these mAbs to IgG from humans immunized with the R78C (RIPR EGF (7–8) -CyRPA) candidate vaccine enhanced malaria growth inhibition. These data provide a framework to guide next-generation blood-stage malaria vaccine design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "39e0d45c1208b0a845ce78481d3224330e096264caedd124fd8a29f464ed3755",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2021-09.2316914/3984056",
+        "https://doi.org/10.25582/data.2021-09.2316915/3984057",
+        "https://doi.org/10.25582/data.2021-09.2318711/3983896",
+        "https://doi.org/10.25582/data.2021-09.2318896/3983897",
+        "https://doi.org/10.25582/data.2021-09.2326404/3979878",
+        "https://doi.org/10.25582/data.2021-09.2327169/3979879",
+        "https://doi.org/10.25582/data.2021-09.2327170/3979880",
+        "https://doi.org/10.25582/data.2021-09.2327180/3979881",
+        "https://doi.org/10.25582/data.2021-09.2327181/3979882",
+        "https://doi.org/10.25582/data.2021-09.2327206/3979883",
+        "https://doi.org/10.25582/data.2021-09.2330566/3977538",
+        "https://doi.org/10.25582/data.2021-09.2331038/3976728",
+        "https://doi.org/10.25582/data.2021-09.2335132/3973452",
+        "https://doi.org/10.25582/data.2021-09.2335265/3973453",
+        "https://doi.org/10.25582/data.2021-09.2335457/3973454",
+        "https://doi.org/10.25582/data.2021-09.2335665/3972411",
+        "https://doi.org/10.25582/data.2021-09.2335666/3972412",
+        "https://doi.org/10.25582/data.2021-09.2335679/3972413",
+        "https://doi.org/10.25582/data.2021-09.2335700/3972414",
+        "https://openalex.org/W7214579520"
+      ],
+      "title": "Data for EMSL Project 50414 from September 2021",
+      "link": "https://doi.org/10.25582/data.2021-09.2318896/3983897",
+      "pdf_url": null,
+      "publication_date": "2026-09-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

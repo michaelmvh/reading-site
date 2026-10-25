@@ -614,6 +614,76 @@
       "curated_categories": []
     },
     {
+      "id": "bc281edae669934e6230f9ea0fc441cf251d2b3e1fbaa0c08fbbb0c950e189c8",
+      "identity_keys": [
+        "https://doi.org/10.65215/ltspreprints.2026.10.15.000361",
+        "https://openalex.org/W7221900868"
+      ],
+      "title": "Peptide agonist design from GPCR sequences",
+      "link": "https://doi.org/10.65215/ltspreprints.2026.10.15.000361",
+      "pdf_url": null,
+      "publication_date": "2026-10-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "binbin xia",
+          "name": "Binbin Xia"
+        },
+        {
+          "key": "wang xingzheng",
+          "name": "Xingzheng Wang"
+        },
+        {
+          "key": "qiuxiang tan",
+          "name": "Qiuxiang Tan"
+        },
+        {
+          "key": "西干",
+          "name": "西干"
+        },
+        {
+          "key": "niu yixin",
+          "name": "Yixin Niu"
+        },
+        {
+          "key": "junhao zhu",
+          "name": "Junhao Zhu"
+        },
+        {
+          "key": "li yanjie",
+          "name": "Yanjie Li"
+        },
+        {
+          "key": "ma rui",
+          "name": "Rui Ma"
+        },
+        {
+          "key": "qiang zhao",
+          "name": "Qiang Zhao"
+        },
+        {
+          "key": "liu longchao",
+          "name": "Longchao Liu"
+        },
+        {
+          "key": "jun wang",
+          "name": "Jun Wang"
+        }
+      ],
+      "abstract_text": "Simplifying protein agonists into peptides, or identifying alternative peptide agonists, could substantially enhance the pharmaceutical utility of many GPCR and is therefore highly desirable for biomedical applications. However, de novo peptide design for these receptors remains challenging, as agonism requires both binding to and activation of the targe; such ontarget activity is difficult to incorporate by current approaches that primarily aims at binding. Here we report that based on cross-attention mechanism, our new model GRADE accurately predicts agonist-GPCR pairing using only sequences, and designed peptide agonists across multiple targets with success rates of 20%-40%. Further with the CCR/CXCR family as a focal group, GRADE resulted in agonist with expanded agonistic spectrum than natural chemokines, as well as target-specific agonists. Structural determination revealed GRADE-designed agonists bind to CCR5 orthosteric pocket with novel, reversed polarity of natural chemokines. In a murine model of tumor immune clearance, selected agonists activated CCR5-expressing CD8+ T cells and anti-tumor immunity, in particular the CCR5-specific agonist removed crossreactivity that is inherent to CCL5. With drastically reduced model complexity, GRADE offers an accurate and flexible method for GPCR peptide agonist design using only target sequences, and demonstrates the potential of cross-attention mechanism in future protein ligand design for expanded range of targets.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bc28e9644a539fcdef62c5d084f4e54d536fb2be7bd61229096f1f4e37b4f7c2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01935-5",
@@ -3860,6 +3930,52 @@
       "curated_categories": []
     },
     {
+      "id": "bca197392572c31d4500e01ae6054f2740ab90693b608fa807fa280517350235",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41598-026-67952-6",
+        "https://openalex.org/W7222529950"
+      ],
+      "title": "Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks",
+      "link": "https://doi.org/10.1038/s41598-026-67952-6",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-67952-6_reference.pdf",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Scientific Reports",
+      "authors": [
+        {
+          "key": "chanoknun phunnasorn",
+          "name": "Chanoknun Phunnasorn"
+        },
+        {
+          "key": "hongdilokkul narupat",
+          "name": "Narupat Hongdilokkul"
+        },
+        {
+          "key": "laesanklang wasakorn",
+          "name": "Wasakorn Laesanklang"
+        },
+        {
+          "key": "charin modchang",
+          "name": "Charin Modchang"
+        },
+        {
+          "key": "krityakierne tipaluck",
+          "name": "Tipaluck Krityakierne"
+        }
+      ],
+      "abstract_text": "Accurate prediction of mutational fitness effects remains challenging in low-data protein engineering settings, where experimentally characterized variants are limited. Although recent protein language models and structure-aware neural networks have demonstrated strong performance on large-scale datasets, the relative importance of structural information, pre-trained embeddings, and optimization strategies under data-constrained conditions remains insufficiently understood. In this study, we investigate a graph-based framework that integrates AlphaFold2-derived protein structures, Masked Inverse Folding with Sequence Transfer (MIF-ST) embeddings, and graph neural networks for protein fitness prediction using a dataset of 152 TEM \\(\\beta \\) -lactamase variants. Through controlled ablation experiments, we systematically evaluate the effects of structural quality, feature richness, pre-trained embeddings, and automated hyperparameter optimization across both random train–test splits and mutation-specific splits requiring generalization to unseen mutations. Under standard random splits, simpler feature representations perform competitively because training and test samples follow similar distributions. In contrast, under mutation-specific distribution shift, models incorporating structural information and pre-trained sequence–structure embeddings achieve considerably stronger predictive performance and improved generalization. Among the evaluated configurations, the full framework combining AlphaFold2, MIF-ST, and Optuna achieved the highest overall performance across the evaluation datasets. These findings demonstrate that the effectiveness of structure-aware representations depends strongly on the evaluation regime and highlight the importance of mutation-specific generalization when designing data-efficient protein fitness prediction frameworks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bca19ceecb4a41c2e7073a567742a82d9c4a3b2f25f3176ca2fa77475cb1c6df",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78649-9",
@@ -4688,6 +4804,52 @@
       "curated_categories": []
     },
     {
+      "id": "bcbb4dec87ebd8e5bcda3e2ad91bbcee0f9e14738a8caecd86276d85fb06b341",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.biomac.5c00691",
+        "https://openalex.org/W4416192841"
+      ],
+      "title": "Building Thermosensitive Single-Component Protein Hydrogels from De Novo Designed Homodimers",
+      "link": "https://doi.org/10.1021/acs.biomac.5c00691",
+      "pdf_url": null,
+      "publication_date": "2025-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Biomacromolecules",
+      "authors": [
+        {
+          "key": "jianglan ning",
+          "name": "Jianglan Ning"
+        },
+        {
+          "key": "lurong zhang",
+          "name": "Lurong Zhang"
+        },
+        {
+          "key": "wang yaxin",
+          "name": "Yaxin Wang"
+        },
+        {
+          "key": "fenghui guan",
+          "name": "Fenghui Guan"
+        },
+        {
+          "key": "sheng ye",
+          "name": "Sheng Ye"
+        }
+      ],
+      "abstract_text": "Leveraging recent advances in protein design, we explored de novo designed proteins as building blocks for hydrogels. Specifically, we investigated two homodimers, a highly stable β-barrel dimer and a helical dimer. By incorporating elastin-like polypeptide (ELP) segments, we developed a novel gelation mechanism that enables recombinant proteins to self-assemble into hydrogels in a temperature-dependent manner, exhibiting a sol-gel transition near body temperature. Our results demonstrate that the secondary structure of the protein building blocks plays a crucial role in determining the mechanical properties and microstructure of the resulting hydrogels. The β-barrel homodimer-based hydrogels exhibited superior mechanical strength at lower temperatures due to their stable hydrogen bonding networks. Additionally, these hydrogels displayed excellent drug encapsulation capabilities and fatigue resistance, underscoring their potential for biomedical applications. This work advances our understanding of protein architecture in guiding hydrogel behavior and offers a versatile platform for tailored biomedical materials.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bcc086553be3d91f080c1e278566c0bd283e0c920473dbd563dc6bd207fb475a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76266-0",
@@ -5216,6 +5378,44 @@
       "curated_categories": []
     },
     {
+      "id": "bcded622a47dc42d97072a1b775c9d2bfd2fe86741acf89702646fa016b92daa",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15010866/v1",
+        "https://openalex.org/W7223180931"
+      ],
+      "title": "VHH-Bench: A Benchmarking Framework for Evaluating Nanobody–Antigen Complex Predictions Across CDR3 Conformations",
+      "link": "https://doi.org/10.26434/chemrxiv.15010866/v1",
+      "pdf_url": null,
+      "publication_date": "2026-10-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "el nehad salamouni",
+          "name": "Nehad S. El Salamouni"
+        },
+        {
+          "key": "qiang zhu",
+          "name": "Qiang Zhu"
+        },
+        {
+          "key": "haibo yu",
+          "name": "Haibo B. Yu"
+        }
+      ],
+      "abstract_text": "Accurate prediction of nanobody–antigen complex structures is critical for the development of diagnostic, therapeutic and biosensing applications. However, progress in this area have been constrained by the limited availability of experimentally determined nanobody–antigen complex structures. Recent advances in deep learning have enabled highly accurate prediction of protein structures and protein-protein complexes, yet accurate modelling of nanobody–antigen interactions remains challenging due to the diverse binding modes exhibited by nanobodies. Here, we present VHH‑Bench, a benchmarking workflow for the systematic evaluation of nanobody–antigen complex structure prediction methods. We curated a non-redundant dataset of experimentally resolved nanobody–antigen complexes and evaluated six state-of-the-art models: AlphaFold3, Boltz-2, Chai-1, ESMFold2, HelixFold3 and Protenix-v2. Complexes were stratified according to CDR3 conformation, enabling separate assessment of kinked and extended nanobody classes. Prediction performance varied substantially between models and conformational classes. Protenix-v2 achieved the highest overall docking accuracy, success rate and proportion of high-quality predictions, with its advantage most pronounced for nanobodies with extended CDR3 conformations. In contrast, all evaluated models showed reduced accuracy and higher failure rates for complexes containing kinked nanobodies. While increased stochastic sampling provided slight improvements in some cases, its overall impact was limited and did not substantially affect the relative performance ranking of the evaluated models. VHH-Bench provides an extensible and reproducible benchmarking workflow for standardised dataset curation, nanobody classification, model evaluation and confidence analysis, facilitating the rigorous assessment and future development of nanobody–antigen complex prediction methods. The VHH-Bench framework is available at https://github.com/haiboyugroup/VHH-Bench.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bce0c9753ebcc8013f087e778e25e929bf6d6ece9811f14b38c48e5f2420ea8d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64708-0",
@@ -5632,6 +5832,72 @@
       "curated_categories": []
     },
     {
+      "id": "bce64fea8ac6d9f0da6a9dcd9992244668ee42a83b25901463008ac1d492b5e4",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.07.27.741017",
+        "https://openalex.org/W7171703497"
+      ],
+      "title": "Sequence determinants of pathogenicity in glucose-6-phosphatase linked to glycogen storage disease type 1a",
+      "link": "https://doi.org/10.64898/2026.07.27.741017",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/28/2026.07.27.741017.full.pdf",
+      "publication_date": "2026-07-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "richard stein",
+          "name": "Richard A. Stein"
+        },
+        {
+          "key": "emily hawes",
+          "name": "Emily M. Hawes"
+        },
+        {
+          "key": "chanel norphlet",
+          "name": "Chanel M Norphlet"
+        },
+        {
+          "key": "margaret rakonick",
+          "name": "Margaret H. Rakonick"
+        },
+        {
+          "key": "harris shelby",
+          "name": "Shelby A Harris"
+        },
+        {
+          "key": "sivam trisha",
+          "name": "Trisha Sivam"
+        },
+        {
+          "key": "audrey lucerne",
+          "name": "AUDREY LUCERNE"
+        },
+        {
+          "key": "da silva valentina",
+          "name": "Valentina R Da Silva"
+        },
+        {
+          "key": "brien richard",
+          "name": "Richard M. O’Brien"
+        },
+        {
+          "key": "claxton derek",
+          "name": "Derek P. Claxton"
+        }
+      ],
+      "abstract_text": "Abstract Glycogen storage disease type 1a (GSD1a) is an autosomal recessive Mendelian disorder that can be caused by missense variants in glucose-6-phosphatase catalytic subunit 1 (G6PC1). Although hundreds of missense variants have been identified, the vast majority are of unknown clinical significance, and the molecular mechanism(s) of bona fide pathogenic variants are ill-defined. We combine bioinformatic data and clinical associations with the protein language model AlphaMissense to guide mechanistic exploration of 78 missense variants at 55 residue positions using robust biochemical and biophysical assays to distill general principles of enzyme dysfunction. Correlation analysis established a strong linear relationship between folded G6PC1 abundance and catalytic capacity for most variants. Pathogenic variants within this paradigm were linked to compromised stability and activation of the unfolded protein response. However, outliers characterized by relatively high abundance, yet low activity clustered to a network of sidechains adjacent to the active site that allosterically modulate catalysis. Contextualized by recent high-resolution structures and AlphaFold modeling, our holistic analysis of G6PC1 in vitro metrics facilitates clinical (re)classification of variants according to explicit molecular phenotypes and identifies therapeutic design directions. Moreover, our approach illustrates a blueprint for variant characterization that integrates computational prediction with experimental validation to discover disease etiology.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bceb13e3e9eaf19adb219020ca1c04a2f1f7d04b5c2b800a3eae4a3e77d92279",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70481-5",
@@ -5722,8 +5988,8 @@
         }
       ],
       "curated_categories": [
-        "4.Scaffold to Sequence",
-        "4.10 Bayesian-based"
+        "4.10 Bayesian-based",
+        "4.Scaffold to Sequence"
       ]
     },
     {

@@ -198,6 +198,45 @@
       "curated_categories": []
     },
     {
+      "id": "601a9b9f2f1f45cb6e8507cb5ba4d03a52e49856f21523bd55d2fe6733e23b97",
+      "identity_keys": [
+        "https://arxiv.org/abs/2606.12991",
+        "https://doi.org/10.48550/arxiv.2606.12991",
+        "https://openalex.org/W7164700525"
+      ],
+      "title": "APCyc: Property-Informed Design of Cyclic Peptides via Automated Cyclization",
+      "link": "https://arxiv.org/abs/2606.12991",
+      "pdf_url": "https://arxiv.org/pdf/2606.12991",
+      "publication_date": "2026-06-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "yifan zhao",
+          "name": "Yifan Zhao"
+        },
+        {
+          "key": "lang qin",
+          "name": "Qin, Lang"
+        },
+        {
+          "key": "chen jintai",
+          "name": "Jintai Chen"
+        }
+      ],
+      "abstract_text": "Cyclic peptides represent a promising class of therapeutic compounds in modern drug discovery, often offering improved stability and binding affinity. However, the de novo design of cyclic peptides remains challenging because methods must identify pocket-adaptive cyclization patterns and linkage sites while simultaneously controlling drug-relevant properties. This challenge is particularly pronounced for recent generative models trained predominantly on linear peptide data, which may fail to capture cyclization-specific constraints. To address the limitation, we introduce APCyc, a target-aware de novo cyclic peptide generation framework that explicitly models cyclization and jointly optimizes multiple essential physicochemical properties. By using an expanded residue vocabulary and explicitly encoding cyclization-site and linkage-type information, APCyc learns cyclization-aware representations and leverages Bayesian posterior guidance to steer sampling toward cyclic peptides satisfying multiple property objectives. Experimental results demonstrate that our model learns target-dependent cyclization preferences, and enables effective and controllable multi-property optimization for cyclic peptide design. The source code of this paper is available at https://github.com/HKUSTGZ-ML4Health-Lab/APCyc.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "601f70e98ed1c64588372464045b86849e2c02f352a0be4865b6b0dda576b50c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68950-y",
@@ -1562,6 +1601,60 @@
         }
       ],
       "abstract_text": "Throughout the Cenozoic, cetaceans (odontocetes and mysticetes) underwent multiple radiation events associated with biological innovations and environmental changes, but their impact on ecomorphological disparity and niche occupancy remains poorly understood. In this study, we quantitatively analyzed cetacean disparity and ecospace occupancy over time, integrating morphological and ecological traits. Our results show that major radiation events were linked to substantial reorganization of ecospace occupancy, and taxonomic diversity changes are often decoupled from ecological disparity. The loss of specific ecotypes significantly impacted cetacean taxonomic structure but only partially affected their ecological structure. The land-to-sea transition is best explained by biotic factors, whereas later diversification events align with environmental changes. The Oligocene is a period of ecological innovation, where multiple key ecological strategies evolved. The ecospace once occupied by early diverging cetaceans, toothed mysticetes, and early diverging odontocetes is never reoccupied, indicating a permanent shift in cetacean ecotypes. Ecospace and taxonomic diversity peaked in the Miocene, followed by selective lineages' loss. Notably, some extant odontocete lineages occupy different ecospace regions than their Miocene counterparts, likely reflecting distinct ecological adaptations. After the Plio-Pleistocene, odontocetes reached their highest levels of ecological disparity, whereas mysticetes declined to their lowest values.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6059dda49f3ac0e3157e7b57f8d7b13835d0e8be94aa98d3b517847aca1d709e",
+      "identity_keys": [
+        "https://doi.org/10.3389/frai.2025.1709505",
+        "https://openalex.org/W4416390320"
+      ],
+      "title": "Designing novel peptides with amyloid-β binding and clearance potential using BiLSTM and molecular dynamics",
+      "link": "https://doi.org/10.3389/frai.2025.1709505",
+      "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1709505/pdf",
+      "publication_date": "2025-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Frontiers in Artificial Intelligence",
+      "authors": [
+        {
+          "key": "kumar vinod yata",
+          "name": "Vinod Kumar Yata"
+        },
+        {
+          "key": "das om pritam",
+          "name": "Om Pritam Das"
+        },
+        {
+          "key": "dansana jarmani",
+          "name": "Jarmani Dansana"
+        },
+        {
+          "key": "abhishikta gadtya",
+          "name": "Abhishikta Gadtya"
+        },
+        {
+          "key": "biswa meher ranjan",
+          "name": "Biswa Ranjan Meher"
+        },
+        {
+          "key": "bukke naik pawar sarad",
+          "name": "Sarad Pawar Naik Bukke"
+        },
+        {
+          "key": "kolliputi narasaiah",
+          "name": "Narasaiah Kolliputi"
+        }
+      ],
+      "abstract_text": "Generative artificial intelligence is transforming de novo biomolecular design, yet developing models that reliably generate functional, target-specific peptides remains a significant challenge. Here, we introduce and validate a novel two-stage Bidirectional Long Short-Term Memory (BiLSTM) framework for the generative design of short, functional peptides. Our AI pipeline is trained on full-length proteins annotated with specific Gene Ontology (GO) terms related to amyloid- β (Aβ) interaction and is fine-tuned on experimentally validated peptide fragments to capture local functional motifs within a global protein context. As a proof-of-concept, we applied this framework to generate peptides targeting Aβ42, a key pathological agent in Alzheimer’s disease. From 1,000 AI-generated sequences, 25 candidates were shortlisted using biophysical filters (GRAVY, instability index, Shannon entropy), and 11 were prioritized via sequence similarity analysis, designated as AI-Designed Novel Peptides (ADNP1-ADNP11). Structural modeling (AlphaFold2) and docking (pyDockWEB) against Aβ42 identified ADNP7 as the top candidate, exhibiting a highly favorable docking score (−63.33 kcal/mol), with interactions localized to Aβ’s aggregation-prone regions. All-atom molecular dynamics simulations (20 ns) confirmed complex stability, and MM/PBSA analysis yielded a strong binding free energy (−50.6 kcal/mol), driven primarily by hydrophobic and aromatic interactions involving PHE12 and TRP50 in ADNP7. This work demonstrates that our fine-tuned BiLSTM architecture can successfully generate novel, stable peptide sequences with high predicted binding affinity for a therapeutically relevant target. While the training data included proteins associated with Aβ clearance (GO:0097242), only binding interactions were computationally validated; clearance potential remains a hypothesis for future experimental testing. This study establishes a generalizable, AI-driven pipeline for functional peptide design, with broad applicability across therapeutic discovery and synthetic biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3009,6 +3102,36 @@
       "curated_categories": []
     },
     {
+      "id": "6092a05726efc8afdab7a68fdbf1ddc68ab6a66a3e027eeea6c82b691e500533",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-11106209/v1",
+        "https://openalex.org/W7213986535"
+      ],
+      "title": "Polymorph-Dependent Success of Generative Protein Design Against Amyloid Fibrils: A Cross-Method Benchmark Including AL Amyloidosis",
+      "link": "https://doi.org/10.21203/rs.3.rs-11106209/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-11106209/latest.pdf",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "nanda siddhardha",
+          "name": "Siddhardha Nanda"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "609563cb726b43351317a94444a4f5bebb1b95d309acba51ffb78c6e64fa5998",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-11079-1",
@@ -3278,6 +3401,66 @@
         }
       ],
       "abstract_text": "Superoscillation (SO) refers to the phenomenon in which a wavefield locally oscillates at a rate exceeding its highest spatial or temporal Fourier component. SO has enabled light to be focused into arbitrarily small hotspots, forming the basis of superresolution imaging and metrology far beyond the Abbe-Rayleigh diffraction limit. Here we show that spatial and temporal superoscillations can occur simultaneously at the same point in space-time, a phenomenon we term space-time superoscillation (STSO). We demonstrate STSOs in a band-limited version of supertoroidal light pulses, a recently introduced family of space-time nonseparable finite-energy solutions of Maxwell's equations. Our results reveal a new regime of extreme spatiotemporal field structuring, with implications for ultrafast metrology, light-matter interactions, and deep-subwavelength control of electromagnetic waves.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "609dfa113e7b109c7df6d4f8d016a2f0ddb8f1203ba823c64455f000a4b3cfe8",
+      "identity_keys": [
+        "https://doi.org/10.7554/elife.109950",
+        "https://doi.org/10.7554/elife.109950.1",
+        "https://doi.org/10.7554/elife.109950.2",
+        "https://openalex.org/W4409777046"
+      ],
+      "title": "Defining the chromatin-associated protein landscapes on Trypanosoma brucei repetitive elements using synthetic TALE proteins",
+      "link": "https://doi.org/10.7554/elife.109950.2",
+      "pdf_url": null,
+      "publication_date": "2026-02-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "eLife",
+      "authors": [
+        {
+          "key": "carloni roberta",
+          "name": "Roberta Carloni"
+        },
+        {
+          "key": "devlin tadhg",
+          "name": "Tadhg Devlin"
+        },
+        {
+          "key": "pin tong",
+          "name": "Pin Tong"
+        },
+        {
+          "key": "christos spanos",
+          "name": "Christos Spanos"
+        },
+        {
+          "key": "auchynnikava tanya",
+          "name": "Tanya Auchynnikava"
+        },
+        {
+          "key": "juri rappsilber",
+          "name": "Juri Rappsilber"
+        },
+        {
+          "key": "keith matthews",
+          "name": "Keith R. Matthews"
+        },
+        {
+          "key": "allshire robin",
+          "name": "Robin C. Allshire"
+        }
+      ],
+      "abstract_text": "ABSTRACT Kinetoplastids, such as Trypansoma brucei , are eukaryotes that likely separated from the main lineage at an exceptionally early point in evolution. Consequently, many aspects of kinetoplastid biology differ significantly from other eukaryotic model systems, including yeasts, plants, worms, flies and mammals. As in many eukaryotes the T. brucei genome contains repetitive elements at various chromosomal locations including centromere- and telomere-associated repeats and interspersed retrotransposon elements. T. brucei also contains intermediate-sized and mini-chromosomes that harbor abundant 177 bp repeat arrays, and 70 bp repeat elements implicated in Variable Surface Glycoprotein (VSG) gene switching. In many eukaryotes repetitive elements are assembled in specialised chromatin such as heterochromatin, however, apart from centromere- and telomere-associated repeats, little is known about chromatin-associated proteins that decorate these and other repetitive elements in kinetoplastids. Here we utilize affinity selection of synthetic TALE DNA binding proteins designed to target specific repeat elements to identify enriched proteins by proteomics. Validating the approach, a telomere repeat binding TelR-TALE identifies many proteins previously implicated in telomere function. Furthermore, the 70R-TALE designed to bind 70 bp repeats indicates that proteins involved in DNA repair are enriched on these elements that reside adjacent to VSG genes. Interestingly, the 177 bp repeat binding 177R-TALE enriches for many kinetochore proteins suggesting that intermediate-sized and mini-chromosomes assemble kinetochores related in composition to those located on the main megabase chromosomes. This provides a first insight into the chromatin landscape of repetitive regions of the trypanosome genome with relevance for their mechanisms of chromosome integrity, immune evasion and cell replication.",
       "discovery_sources": [
         {
           "kind": "open_alex",

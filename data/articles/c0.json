@@ -2,6 +2,42 @@
   "schema_version": 1,
   "articles": [
     {
+      "id": "c00d5b2df61678512bc131c2b924feb58c605e73354dda4b73ece922fc57c067",
+      "identity_keys": [
+        "https://arxiv.org/abs/2606.10080",
+        "https://doi.org/10.48550/arxiv.2606.10080",
+        "https://doi.org/10.64898/2026.06.08.730928",
+        "https://openalex.org/W7164446695"
+      ],
+      "title": "VFUSE: Virulent Feature Understanding with Sparse autoEncoders",
+      "link": "https://arxiv.org/abs/2606.10080",
+      "pdf_url": "https://arxiv.org/pdf/2606.10080",
+      "publication_date": "2026-06-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "michael yu",
+          "name": "Michael Yu"
+        },
+        {
+          "key": "matthew olson",
+          "name": "Matthew L. Olson"
+        }
+      ],
+      "abstract_text": "Generative models have shown remarkable progress in a variety of domains such as protein design, but such power enables the opaque generation of hazardous proteins. In this work, we introduce VFUSE (Virulent Feature Understanding with Sparse autoEncoders), a mechanistic interpretability approach that trains SAEs on diffusion-transformer activations to audit protein models for hazard-aware features. We apply VFUSE to RoseTTAFold3 and RFDiffusion3, popular open-weight models for protein folding and synthesis. We find that for certain blocks, linear probes detect hazardous designs significantly better when fit in the SAE latent space over the original model's representations: improving interpretability without sacrificing model performance. Furthermore, we identify monosemantic features from the SAE that fire only on hazardous designs at up to AUROC $0.84$ ($q < 10^{-13}$). To our knowledge this is the first SAE trained on an all-atom diffusion model and the first feature-level virulence audit of a protein design model, paving the way towards safe and interpretable protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c00e97809922611306dfefbf3488229d1df9598f7c3daef70be37bf3acf2a7e7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70247-z",
@@ -2632,10 +2668,104 @@
       "curated_categories": []
     },
     {
+      "id": "c072f94658a9f04fbda6e224661041df2208a06715ca6285107ced2a60d01445",
+      "identity_keys": [
+        "https://doi.org/10.1073/pnas.2620010123",
+        "https://doi.org/10.64898/2026.04.23.720511",
+        "https://openalex.org/W7155696882"
+      ],
+      "title": "Structure of a sparsely populated chimeric intermediate that facilitates fold-switching of a metamorphic protein",
+      "link": "https://doi.org/10.64898/2026.04.23.720511",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/04/26/2026.04.23.720511.full.pdf",
+      "publication_date": "2026-04-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "bodhisatwa nandi",
+          "name": "Bodhisatwa Nandi"
+        },
+        {
+          "key": "ashok sekhar",
+          "name": "Ashok Sekhar"
+        }
+      ],
+      "abstract_text": "Metamorphic proteins challenge the structure-function paradigm by switching between distinct folds. However, the conformational states sampled along the fold-switching pathway have remained elusive because they are transient and unstable. Using multinuclear chemical exchange saturation transfer and relaxation dispersion nuclear magnetic resonance, combined with chemical shift-based structure determination and protein engineering, we visualized the atomic-resolution structure of an 'invisible' state of the metamorphic chemokine lymphotactin. This state is a chimera that integrates the secondary and tertiary structure of one fold with the quaternary assembly of the other. Locking lymphotactin into a single conformation abolishes access to this state, supporting its role as an on-pathway intermediate in metamorphosis. The stabilization of such hybrid intermediates is likely to have facilitated the evolution of fold switching and represent a powerful strategy for protein design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c0748d74736ab5c2de7a054842098fe17d6099ea0f94febe863f4ca6e5a5a618",
+      "identity_keys": [
+        "https://doi.org/10.1111/febs.70452",
+        "https://openalex.org/W7132836031"
+      ],
+      "title": "Elucidating the catalytic mechanism of a previously undescribed carbohydrate esterase family 7 acetyl xylan esterase ( LaCE7A )",
+      "link": "https://doi.org/10.1111/febs.70452",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13370729/pdf/FEBS-293-4325.pdf",
+      "publication_date": "2026-02-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "FEBS Journal",
+      "authors": [
+        {
+          "key": "ang lv",
+          "name": "Ang Lv"
+        },
+        {
+          "key": "junwen ma",
+          "name": "Junwen Ma"
+        },
+        {
+          "key": "ling wang",
+          "name": "Ling Wang"
+        },
+        {
+          "key": "chu wang",
+          "name": "Chu Wang"
+        },
+        {
+          "key": "qiaojuan yan",
+          "name": "Qiaojuan Yan"
+        },
+        {
+          "key": "han weiwei",
+          "name": "Weiwei Han"
+        },
+        {
+          "key": "jiang zhengqiang",
+          "name": "Zhengqiang Jiang"
+        },
+        {
+          "key": "shaoqing yang",
+          "name": "Shaoqing Yang"
+        }
+      ],
+      "abstract_text": "Acetyl xylan esterases (AcXEs) are crucial for biomass degradation. However, the catalytic mechanism underlying the highly specific activity remains poorly understood, limiting their rational engineering. Here, we characterized the previously undescribed carbohydrate esterase family (CE) 7 acetyl xylan esterase (LaCE7A) from Lactococcus lactis with high specific activity (154 179 U·mg −1 ) to unravel the mechanism underlying its efficient catalysis. The monomer structure of LaCE7A presented a typical α/β‐hydrolase fold and contained three distinct structure features in CE family 7, exhibiting evolutionary conservation. The large number of hydrophilic residues in the active pocket may increase the affinity of the reaction intermediates to hydrophilic substrates, thus facilitating substrate binding of LaCE7A, which may further contribute to the high specific activity observed. MD simulations indicated that the flexibilities of two regions (residues 139–144 and residues 220–223) increased the volume of the active pocket of the enzyme and were conducive to substrate binding and catalytic reaction. In addition, the unique Ala220 located in the tight turn region of three‐helix insertion domain adopted the more favorable trans peptide bond, which played a crucial role in substrate catalysis. Our findings not only identify LaCE7A as a potent biocatalyst but also provide new mechanistic insights into the high activity of CE7 AcXEs, offering a foundation for future enzyme design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c074ceb89034d16f99bef27861803190ea3d4218ef650e733daf6243eb8d5106",
       "identity_keys": [
         "biorxiv:10.64898/2026.01.07.698308v2",
         "https://doi.org/10.64898/2026.01.07.698308",
+        "https://www.biorxiv.org/content/early/2026/01/08/2026.01.07.698308.source.xml",
         "https://www.biorxiv.org/content/early/2026/10/22/2026.01.07.698308.source.xml"
       ],
       "title": "msmu: a computational framework for provenance-aware mass spectrometry-based proteomics analysis",
@@ -2718,6 +2848,36 @@
         }
       ],
       "abstract_text": "The management of ocular surface inflammation, particularly in conditions like dry eye disease (DED), remains challenging due to multiple pathogenic causes and ocular barriers. Traditional eye drops usually provide transient and partial symptom relief, necessitating combined therapies to break the vicious cycle of oxidative stress and inflammation. To surmount these limitations, a novel polyphenol-based eye drop was developed via the self-polymerization of rosmarinic acid in the presence hyaluronic acid, followed by co-assembly with cerium ions to afford monodispersed RHC NPs. To enhance the ocular retention efficiency, thiol groups were further decorated on NPs (termed as s -RHC NPs). In two mouse models of DED, topical administration of s -RHC NPs led to comprehensive relief of symptoms, including inflammatory response suppression, corneal epithelial defect repair, and tear secretion recovery. We envision that this platform might facilitate the treatment of DED and inspire the design of polyphenol-based nanoparticles via a self-polymerization strategy.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c078dcceaca42b4e10c6f0b838703f0088acaa05edb95c2aa2c256ac8f268b9b",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-11039691/v1",
+        "https://openalex.org/W7214951716"
+      ],
+      "title": "Memorization in reaction-conditioned generative enzyme design: folding confidence, database identity, and docking all fail to detect it",
+      "link": "https://doi.org/10.21203/rs.3.rs-11039691/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-11039691/latest.pdf",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "kinsley torres",
+          "name": "Kinsley Torres"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4354,6 +4514,88 @@
       "curated_categories": []
     },
     {
+      "id": "c0e842fed4fb22b92d7a54ab2b2b055169d68e4f2f1c787fdee14886ed98f937",
+      "identity_keys": [
+        "https://doi.org/10.1101/2025.10.28.685072",
+        "https://openalex.org/W4415677493"
+      ],
+      "title": "Improved De Novo Peptide Binder Design with Target-Conditioned Inverse Folding",
+      "link": "https://doi.org/10.1101/2025.10.28.685072",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/29/2025.10.28.685072.full.pdf",
+      "publication_date": "2025-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "elliot layne",
+          "name": "Elliot Layne"
+        },
+        {
+          "key": "ashlin kanawaty",
+          "name": "Ashlin K Kanawaty"
+        },
+        {
+          "key": "aron broom",
+          "name": "Aron Broom"
+        },
+        {
+          "key": "alexander kitaygorodsky",
+          "name": "Alexander Kitaygorodsky"
+        },
+        {
+          "key": "anita nivedha",
+          "name": "Anita K. Nivedha"
+        },
+        {
+          "key": "parth vora",
+          "name": "Parth Vora"
+        },
+        {
+          "key": "caroline woffindale",
+          "name": "Caroline Woffindale"
+        },
+        {
+          "key": "hailstone sarah",
+          "name": "Sarah Hailstone"
+        },
+        {
+          "key": "eirini sachouli",
+          "name": "Eirini Sachouli"
+        },
+        {
+          "key": "ella halcrow",
+          "name": "Ella Halcrow"
+        },
+        {
+          "key": "donachie gillian",
+          "name": "Gillian E. Donachie"
+        },
+        {
+          "key": "adsett michelle",
+          "name": "Michelle Adsett"
+        },
+        {
+          "key": "butterfoss glenn",
+          "name": "Glenn L. Butterfoss"
+        },
+        {
+          "key": "fingerhuth mark",
+          "name": "Mark Fingerhuth"
+        }
+      ],
+      "abstract_text": "Abstract Inverse protein folding methods have become central to the computational design of de novo proteins, but existing models struggle when tasked with generating high-affinity peptide binders. By combining peptide-specific finetuning with a novel decoding order strategy, we enhance pocket conditioning and enable more accurate sequence design for peptide-binding interfaces. Our approach delivers gains in computational metrics, increasing sequence recovery and improving in silico binder design success rate by 16% ™ 30%. In vitro validation finds that our method greatly improves the success rate of designing novel peptide agonists of the OPRM1 receptor, generating at least twice as many top-ranking agonists as the prevailing standard method ProteinMPNN.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c0e89dcc08f6593c355d4e495856a9eb582e9af3d12339342b31f50ebfbf8431",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76119-w",
@@ -5020,6 +5262,64 @@
         }
       ],
       "abstract_text": "Genomic mutations in pancreatic ductal adenocarcinoma (PDAC) are hypothesized to drive poor prognosis and low response rates to targeted therapy through crosstalk among downstream regulatory networks. Here, we apply a causal inference-based approach, Mutation-Upstream-of-Metabolomic-Signature (MUMS), to show that prognostic serum metabolomic signatures can capture such crosstalk and reflect the collective impact of mutation-driven networks on tumor progression. We identify a panel of nine serum metabolites that predicts survival outcomes across multiple independent PDAC cohorts. MUMS analysis further identifies and functionally validates GRPEL1 as a tumor-promoting gene whose downstream metabolic signature converges with that of the mTOR/PI3K/Akt signaling pathway. Consistently, GRPEL1 sensitizes PDAC cells to proliferation arrest induced by mTOR inhibition. Together, our findings provide proof-of-concept evidence that serum metabolic signatures can reflect crosstalk within the tumor mutational landscape. These co-regulatory patterns offer a framework for uncovering new therapeutic targets and guiding the design of rational combination therapies. Crosstalk among mutation-driven regulatory networks is linked to poor prognosis in pancreatic cancer. Here, the authors show that using a causal inference-based mutation-upstream-of metabolomic-signature approach, they establish a nine-metabolite panel that predicts survival outcomes and identify GRPEL1 as a tumour-promoting gene that sensitizes cells to mTOR inhibition.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c0f57ac86078f4b4a125f4dfb73aedcbf3d36a579a508a2968cd4163469c838e",
+      "identity_keys": [
+        "https://doi.org/10.1002/cjce.70395",
+        "https://openalex.org/W7162667430"
+      ],
+      "title": "Nano‐enzyme engineering: Advancing enzyme immobilization for industrial and environmental applications",
+      "link": "https://doi.org/10.1002/cjce.70395",
+      "pdf_url": null,
+      "publication_date": "2026-05-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Canadian Journal of Chemical Engineering",
+      "authors": [
+        {
+          "key": "irfan muhammad",
+          "name": "Muhammad Irfan"
+        },
+        {
+          "key": "shabbir shamsa",
+          "name": "Shamsa Shabbir"
+        },
+        {
+          "key": "ali wajiha",
+          "name": "Wajiha Ali"
+        },
+        {
+          "key": "amir muhammad",
+          "name": "Muhammad Amir"
+        },
+        {
+          "key": "arslan shafi",
+          "name": "Arslan Shafi"
+        },
+        {
+          "key": "hameed shahida",
+          "name": "Shahida Hameed"
+        },
+        {
+          "key": "sajad shoukat",
+          "name": "Shoukat Sajad"
+        },
+        {
+          "key": "muhammad rafiq",
+          "name": "Muhammad Rafiq"
+        }
+      ],
+      "abstract_text": "Abstract Immobilized enzyme‐based catalytic systems can significantly enhance industrial processes due to their high catalytic activity and selectivity. Nano‐enzymes refer to hybrid systems comprising natural biological enzymes immobilized on nanostructured supports. Enzymes immobilized on nanomaterials, termed nano‐enzymes, have gained increasing attention in recent decades for their improved stability, reusability, and ease of recovery from biocatalytic reactions. Various nanostructured carriers, such as carbon nanotubes, nanoparticles with tailored morphologies, nanoporous materials, nanofibres, nanoflowers, nanogels, nanomembranes, and metal–organic frameworks (MOFs), can be engineered to host enzymes effectively. The catalytic performance of nano‐enzymes is largely influenced by material characteristics, including surface‐area‐to‐volume ratio, pore size, chemical composition, electrical conductivity, protein charge, hydrophobicity, and amino acid distribution on enzyme surfaces. Graphene‐based nanocarriers are especially promising for protease immobilization, as they enhance enzyme stability against variations in pH, temperature, and environmental stress, thereby prolonging shelf life. Magnetic nanocarriers further improve immobilization efficiency, while non‐magnetic systems provide biocompatibility and expand immobilization strategies. Immobilization within MOFs using biomimetic mineralization preserves enzymatic function even under harsh conditions. Optimization of these parameters creates favourable microenvironments for biocatalysts with industrial significance. Overall, nano‐enzymes show strong potential in advancing catalysis, biotransformation, biosensing, and biomarker detection. Recent progress demonstrates their applicability in diverse fields, including biomedicine, biosensors, remediation of industrial pollutants, biofuel production, textiles, leather, detergents, food industries, and antifouling. This review highlights current developments in nano‐enzyme design and emphasizes their role in expanding sustainable and efficient biotechnological applications.",
       "discovery_sources": [
         {
           "kind": "open_alex",

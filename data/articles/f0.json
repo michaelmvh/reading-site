@@ -662,10 +662,53 @@
       "curated_categories": []
     },
     {
+      "id": "f016487ef19c1c9d822746ed2fb13317d66d02ec2a07004ba813f45eb9e94b6e",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.progpolymsci.2026.102119",
+        "https://openalex.org/W7154785710"
+      ],
+      "title": "Advances in computational and data-driven methodologies for accelerating antimicrobial peptide design and discovery",
+      "link": "https://doi.org/10.1016/j.progpolymsci.2026.102119",
+      "pdf_url": null,
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Progress in Polymer Science",
+      "authors": [
+        {
+          "key": "amal jayawardena",
+          "name": "Amal Jayawardena"
+        },
+        {
+          "key": "andrew hung",
+          "name": "Andrew Hung"
+        },
+        {
+          "key": "greg guanghua qiao",
+          "name": "Greg GuangHua Qiao"
+        },
+        {
+          "key": "elnaz hajizadeh",
+          "name": "Elnaz Hajizadeh"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f01686d48b7fb22c16188531a4caf236dbe2b288e24bbb0de7c728e61b99fc7c",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.15.759522v1",
         "https://doi.org/10.64898/2026.10.15.759522",
+        "https://openalex.org/W7223187324",
         "https://www.biorxiv.org/content/early/2026/10/21/2026.10.15.759522.source.xml"
       ],
       "title": "Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior",
@@ -691,6 +734,12 @@
       ],
       "abstract_text": "Mapping which antigen residues an antibody contacts (the epitope) and which antibody residues do the contacting (the paratope) is central to therapeutic antibody engineering, yet most accurate methods require a solved or predicted three dimensional complex. We address a sequence only formulation: predict the HER2 epitope and the single domain antibody (VHH, or nanobody) paratope from the two sequences alone, with no three dimensional structure prediction at any stage. We pair a frozen ESM2 650M protein language model, used strictly as a feature extractor, with a lightweight trainable module per chain encoders, a shared cross attention block, and epitope, paratope and binder heads (12.2M trainable parameters) trained jointly on three public sources: HER2 binding and blocking competition assays (\"AVIDa hHER2\" to be published by organizers of SEPIQ 2026 The authors have no right to share the dataset to public ), residue level antibody antigen contacts (SAbDab2), and two reference antibody crystal structures. The blocking competition signal is de confounded into a trastuzumab minus pertuzumab contrast whose sign encodes the HER2 domain and which is used only as a training target, never as a model input. Under a three way, sequence cluster level split with a test set opened exactly once, the binder head reaches PR AUC 0.999 and the paratope head 0.659, while residue level epitope prediction on novel antigens remains near baseline (0.070) a limitation the sealed split exposes rather than hides. Sequence alone recovers the competition derived HER2 domain (the competitor class) for 87.7% of held out clones, a leakage free result. For HER2 specifically, a residue prior built from 25 mined HER2 antibody complexes and validated by leave one out reaches 0.26 to 0.29 residue PR AUC once the domain is correct, roughly 3.6 times the language model head alone. We release and report two submission variants per test clone, a fully sequence only prediction and a competition informed one ,and document which data were used where. Keywords: epitope prediction; paratope prediction; nanobody; VHH; HER2; protein language model; ESM2; cross attention; antibody antigen interface; leakage safe evaluation.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "biorxiv",
           "key": "biorxiv:bioinformatics",
@@ -1024,6 +1073,56 @@
         }
       ],
       "abstract_text": "The Bone Morphogenetic Protein (BMP) pathway is the ancestral signalling system defining the dorsoventral axis in bilaterally symmetrical animals. However, Spiralia, a large bilaterian clade including molluscs and annelids, uses the Fibroblast Growth Factor pathway and ERK1/2 as the ancestral cue to establish their posterodorsal side. How this profound change in axial patterning evolved and what it implied for BMP’s developmental role remains elusive. Here, we studied four annelid species and combined disruption of the BMP and Activin/Nodal pathways with transcriptomics and blastomere deletions to demonstrate that BMP is ancestrally downstream of ERK1/2 and promotes dorsoventral development in Spiralia. Importantly, this signalling hierarchy is lost in annelids that secondarily transitioned into a maternally controlled, autonomous development. While some, like Capitella teleta, use Activin/Nodal, Platynereis dumerilii relies on BMP to establish dorsoventral polarity only in the head. Unexpectedly, this divergence in upstream axial regulators implied extensive rewiring of downstream targets, as inferred by comparing C. teleta and Owenia fusiformis. Our data clarify the ancestral axial role for BMP in Spiralia, unveiling a potential causal link between parallel shifts to autonomous cell-fate specification in early development and the emergence of developmental system drift, a pervasive yet poorly understood phenomenon in animal embryogenesis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f024bae17e24ee188db7bdd4457baab147c1f11976f104f9747c5823b0e75f65",
+      "identity_keys": [
+        "https://doi.org/10.1109/jbhi.2025.3608273",
+        "https://openalex.org/W4417183526"
+      ],
+      "title": "MPSol: A Multimodal Prompt Learning Framework for Protein Solubility Prediction",
+      "link": "https://doi.org/10.1109/jbhi.2025.3608273",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "IEEE Journal of Biomedical and Health Informatics",
+      "authors": [
+        {
+          "key": "yuhang zhang",
+          "name": "Yuhang Zhang"
+        },
+        {
+          "key": "chen peilin",
+          "name": "Peilin Chen"
+        },
+        {
+          "key": "ding keyan",
+          "name": "Keyan Ding"
+        },
+        {
+          "key": "han liu",
+          "name": "Han Liu"
+        },
+        {
+          "key": "shiqi wang",
+          "name": "Shiqi Wang"
+        },
+        {
+          "key": "qi song",
+          "name": "Qi Song"
+        }
+      ],
+      "abstract_text": "Protein solubility is a critical determinant of biologic candidates' developability, stability, and therapeutic efficacy. However, accurate solubility prediction remains a central challenge in computational protein engineering due to the inherent complexity within protein sequences. In this work, we propose a multimodal prompt learning framework, called MPSol, for protein solubility prediction that integrates complementary representations derived from primary sequences, structural proxies, and textual descriptions generated by large language models (LLMs). MPSol is built upon a unified multimodal backbone with a dedicated cross-modal fusion module that captures fine-grained interactions across modalities. In addition, we design label-aware prompts that encode solubility-specific semantic cues associated with each class. These prompts provide semantic supervision, guiding the alignment of fused protein representations to promote semantic consistency. Extensive experiments demonstrate that MPSol achieves state-of-the-art performance, reaching an accuracy of 0.815, AUC of 0.867 and MCC of 0.642 on the standard PDBSol test set, and generalizes well to the external out-of-distribution test dataset with an accuracy of 0.632, AUC of 0.653 and MCC of 0.332. These results underscore the potential of prompt-driven multimodal learning for interpretable and effective protein property prediction.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3676,6 +3775,12 @@
       "abstract_text": "Designing novel proteins with desired characteristics remains a significant challenge due to the large sequence space and the complexity of sequence-function relationships. Efficient exploration of this space to identify sequences that meet specific design criteria is crucial for advancing therapeutics and biotechnology. Here, we present BoGA (Bayesian Optimization Genetic Algorithm), a framework that combines evolutionary search with Bayesian optimization to efficiently navigate the sequence space. By integrating a genetic algorithm as a stochastic proposal generator within a surrogate modeling loop, BoGA prioritizes candidates based on prior evaluations and surrogate model predictions, enabling data-efficient optimization. We demonstrate the utility of BoGA through benchmarking on sequence and structure design tasks, followed by its application in designing peptide binders against pneumolysin, a key virulence factor of \\textit{Streptococcus pneumoniae}. BoGA accelerates the discovery of high-confidence binders, demonstrating the potential for efficient protein design across diverse objectives. The algorithm is implemented within the BoPep suite and is available under an MIT license at \\href{https://github.com/ErikHartman/bopep}{GitHub}.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -3686,6 +3791,64 @@
         "7. Other tasks",
         "7.1 Effects of mutation & Fitness Landscape"
       ]
+    },
+    {
+      "id": "f08d3f3fad4f6d5a89c0a8f425cb0c108555d76ce16a50fbf7d374cfa5111385",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70800",
+        "https://openalex.org/W7153104259"
+      ],
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins",
+      "link": "https://doi.org/10.1002/pro.70800",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.70800",
+      "publication_date": "2026-09-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "lampinen vili",
+          "name": "Vili Lampinen"
+        },
+        {
+          "key": "burastero osvaldo",
+          "name": "Osvaldo Burastero"
+        },
+        {
+          "key": "guazzelli iara plácido",
+          "name": "Iara Plácido Guazzelli"
+        },
+        {
+          "key": "florian vogele",
+          "name": "Florian Vogele"
+        },
+        {
+          "key": "francisca pinheiro",
+          "name": "Francisca Pinheiro"
+        },
+        {
+          "key": "jan nowak stanislaw",
+          "name": "Jan Stanislaw Nowak"
+        },
+        {
+          "key": "alai garcia maria marta",
+          "name": "Maria Marta Garcia Alai"
+        },
+        {
+          "key": "kjærgaard magnus",
+          "name": "Magnus Kjærgaard"
+        }
+      ],
+      "abstract_text": "ABSTRACT De novo protein design often produces thermostable proteins that denature above 100 °C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfolding data via an intuitive graphical user interface. We use nanoscale differential scanning fluorimetry followed by CheMelt data analysis to dissect the combined thermal and chemical denaturation of thirty-five de novo designed protein binders. Thirteen present sufficient fluorescence changes to extract thermodynamic parameters of unfolding. These de novo designed proteins have systematically lower Δ C p and m -values than comparable natural proteins. We show that a high thermostability of a designed protein does not necessarily imply a high equilibrium stability, and demonstrate the potential of CheMelt in dissecting thermodynamic properties for protein design and engineering. CheMelt can be accessed at https://spc.embl-hamburg.de/app/chemelt",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "f0934e0f0518b12806d8f94998f163e3a7b162f81b2369e28313c34d958da698",
@@ -3877,6 +4040,44 @@
         }
       ],
       "abstract_text": "Longitudinal studies are required to measure individual differences in human brain aging, but they are difficult to estimate over short intervals because of measurement error. Using cluster scanning, an approach that reduces error by densely repeating rapid structural scans, we assessed brain aging in individuals across three longitudinal timepoints spaced across one year. Cluster scanning substantially improved the precision of individualized estimates, revealing previously undetectable individual differences in brain change. In just one year, expected differences in the rates of brain aging between younger and older individuals were evident, as were differences between cognitively unimpaired and impaired individuals. Each person's brain change trajectory was compared to modeled normative expectations from a large cohort of age-matched UK Biobank participants. Cognitively unimpaired older individuals variably revealed relative brain maintenance, unexpectedly rapid decline, and asymmetrical changes. These atypical brain aging trajectories were found across structures and verified in independent within-individual test and retest data. Cluster scanning promises to advance our understanding of the marked heterogeneity in brain aging by affording better short-term tracking of individual variability in structural change.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f0953177ab0b4d132fb3c06ce2faec68164a761ad6c685f883fea1bc860b3e74",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2605.07775",
+        "https://openalex.org/W7160862709"
+      ],
+      "title": "POETS: Uncertainty-Aware LLM Optimization via Compute-Efficient Policy Ensembles",
+      "link": "https://doi.org/10.48550/arxiv.2605.07775",
+      "pdf_url": "https://arxiv.org/pdf/2605.07775",
+      "publication_date": "2026-05-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "menet nicolas",
+          "name": "Nicolas Menet"
+        },
+        {
+          "key": "andreas krause",
+          "name": "Andreas Krause"
+        },
+        {
+          "key": "abbas rahimi",
+          "name": "Abbas Rahimi"
+        }
+      ],
+      "abstract_text": "Balancing exploration and exploitation is a core challenge in sequential decision-making and black-box optimization. We introduce POETS ($\\textbf{Po}$licy $\\textbf{E}$nsembles for $\\textbf{T}$hompson $\\textbf{S}$ampling), a novel framework that bridges uncertainty quantification and policy optimization. Our approach is grounded in the insight that policies trained with Kullback-Leibler (KL) regularization implicitly encode an underlying reward function. Building on this, POETS bypasses the complex, nested process of training an uncertainty-aware reward model and separately fitting a policy to this model. Instead, we directly train a policy ensemble to capture epistemic uncertainty by matching implicitly encoded reward functions to online, bootstrapped data. To overcome the prohibitive compute and memory constraints of ensembling Large Language Models (LLMs), POETS utilizes an efficient architecture: the ensemble shares a pre-trained backbone while maintaining diversity through independent Low-Rank Adaptation (LoRA) branches. Theoretically, we prove that POETS implicitly conducts KL-regularized Thompson sampling and thus inherits strong cumulative regret bounds of ${\\mathcal O}(\\sqrt{T γ_T})$. Empirically, we demonstrate that POETS achieves state-of-the-art sample efficiency across diverse scientific discovery domains, including protein search and quantum circuit design. Furthermore, it improves the optimization trajectories of reinforcement learning, proving particularly robust in off-policy settings with experience replay or in small dataset regimes.",
       "discovery_sources": [
         {
           "kind": "open_alex",

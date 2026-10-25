@@ -839,6 +839,60 @@
       "curated_categories": []
     },
     {
+      "id": "201fa758a839ddd7bcdb9b8142b351fba6f2a225c907b739adc27d27974609a6",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2602.04637",
+        "https://openalex.org/W7128026408"
+      ],
+      "title": "RIGA-Fold: A General Framework for Protein Inverse Folding via Recurrent Interaction and Geometric Awareness",
+      "link": "https://doi.org/10.48550/arxiv.2602.04637",
+      "pdf_url": "https://arxiv.org/pdf/2602.04637",
+      "publication_date": "2026-02-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "sisi yuan",
+          "name": "Sisi Yuan"
+        },
+        {
+          "key": "chen jiehuang",
+          "name": "Jiehuang Chen"
+        },
+        {
+          "key": "cai junchuang",
+          "name": "Junchuang Cai"
+        },
+        {
+          "key": "dong xu",
+          "name": "Dong Xu"
+        },
+        {
+          "key": "li xueliang",
+          "name": "Xueliang Li"
+        },
+        {
+          "key": "zexuan zhu",
+          "name": "Zexuan Zhu"
+        },
+        {
+          "key": "ji junkai",
+          "name": "Junkai Ji"
+        }
+      ],
+      "abstract_text": "Protein inverse folding, the task of predicting amino acid sequences for desired structures, is pivotal for de novo protein design. However, existing GNN-based methods typically suffer from restricted receptive fields that miss long-range dependencies and a \"single-pass\" inference paradigm that leads to error accumulation. To address these bottlenecks, we propose RIGA-Fold, a framework that synergizes Recurrent Interaction with Geometric Awareness. At the micro-level, we introduce a Geometric Attention Update (GAU) module where edge features explicitly serve as attention keys, ensuring strictly SE(3)-invariant local encoding. At the macro-level, we design an attention-based Global Context Bridge that acts as a soft gating mechanism to dynamically inject global topological information. Furthermore, to bridge the gap between structural and sequence modalities, we introduce an enhanced variant, RIGA-Fold*, which integrates trainable geometric features with frozen evolutionary priors from ESM-2 and ESM-IF via a dual-stream architecture. Finally, a biologically inspired ``predict-recycle-refine'' strategy is implemented to iteratively denoise sequence distributions. Extensive experiments on CATH 4.2, TS50, and TS500 benchmarks demonstrate that our geometric framework is highly competitive, while RIGA-Fold* significantly outperforms state-of-the-art baselines in both sequence recovery and structural consistency.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "202027624de314b0f4583b4e54374b472d1a5d857b5d756dd221423897f4a333",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70736-1",
@@ -1781,6 +1835,509 @@
       "curated_categories": []
     },
     {
+      "id": "204e87012f49c5f51bc38f5d668f0700a340e4a1e1f9c585652983988ef57e9d",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.24806",
+        "https://openalex.org/W7223051963"
+      ],
+      "title": "Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery",
+      "link": "https://doi.org/10.48550/arxiv.2610.24806",
+      "pdf_url": "https://arxiv.org/pdf/2610.24806",
+      "publication_date": "2026-10-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "cutts zachary",
+          "name": "Zachary Cutts"
+        },
+        {
+          "key": "coller john",
+          "name": "John Coller"
+        },
+        {
+          "key": "chen rachel",
+          "name": "Rachel Chen"
+        },
+        {
+          "key": "hua tang",
+          "name": "Hua Tang"
+        },
+        {
+          "key": "bellaiche mathias",
+          "name": "Mathias Bellaiche"
+        },
+        {
+          "key": "easterlin ryder",
+          "name": "Ryder Easterlin"
+        },
+        {
+          "key": "dina zverinski",
+          "name": "Dina Zverinski"
+        },
+        {
+          "key": "petar sirkovic",
+          "name": "Petar Sirkovic"
+        },
+        {
+          "key": "avinatan hassidim",
+          "name": "Avinatan Hassidim"
+        },
+        {
+          "key": "matias yossi",
+          "name": "Yossi Matias"
+        },
+        {
+          "key": "pooja rao",
+          "name": "Pooja Rao"
+        },
+        {
+          "key": "annalisa pawlosky",
+          "name": "Annalisa Pawlosky"
+        }
+      ],
+      "abstract_text": "Despite breakthroughs in AI-driven molecular generation, existing discovery pipelines operate largely in silico, with wet-lab feedback reserved for validation rather than iterative improvement. Whether large language model (LLM)-based reasoning agents can accelerate de novo discovery by iterating with lab data remains unproven. Here we use protein-binding aptamer design as a sandbox (1-2 week cycles, \\$1-\\$3 per candidate) to demonstrate a wet lab in a closed loop with AI systems. We tasked agentic pipelines with developing aptamer binders against $α$-thrombin and myoglobin across three design-test-improve cycles ($\\sim$1,000 candidates per round; $\\sim$4,400 constructs). Statistically significant, bead-corrected on-target hit rates among new candidates rose across rounds from 0.0% in Round 1 to 26.0% in Round 2 and 42.1% in Round 3 on $α$-thrombin (37.1% excluding literature motif descendants), and from 10.2% in Round 1 to 3.7% in Round 2 and 33.5% in Round 3 on myoglobin. Single-clone bead-binding titrations of eight full-length $α$-thrombin candidates confirmed concordance with pooled sequencing enrichment (Pearson $r = 0.90$). In these assays, literature-derived motifs engineered by the agents to reduce off-target reactivity in the pooled screen reached apparent affinities of $K_D = 24.6$--$133$ nM, whereas de novo scaffolds showed low-micromolar binding ($K_D > 1\\ μ$M). We also report how our pipelines used myoglobin binding data to exploit the G-quadruplex binder space, diagnose cross-reactivity as on-target specificity dropped from 75.0% to 19.1%, and recover by developing strategies that restored specificity to 72.4%. We demonstrate that empirical lab data is more valuable than existing computational proxies, showing how iterative experimental feedback enables AI agents to diagnose assay artifacts and refine molecular designs across rounds.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "20503fa1acde9ccf93c33414278650c1efafb6fb1c47980cb7f32ad912cac2cf",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2024-01.3005954/3729575",
+        "https://doi.org/10.25582/data.2024-01.3016869/3728558",
+        "https://doi.org/10.25582/data.2024-01.3017230/3728559",
+        "https://doi.org/10.25582/data.2024-01.3017754/3728560",
+        "https://openalex.org/W7212236288"
+      ],
+      "title": "Data for EMSL Project 50414 from January 2024",
+      "link": "https://doi.org/10.25582/data.2024-01.3017230/3728559",
+      "pdf_url": null,
+      "publication_date": "2026-09-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2051ef83165a9c5d12717bb3fd7e7c76ea04a37c3dbb3b09e191aec6382b3d64",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-09986-w",
@@ -1914,6 +2471,44 @@
         }
       ],
       "abstract_text": "Abstract Electrochromic displays (ECDs) have gained increasing attention for various stretchable applications, offering voltage-controlled optical modulation with low power consumption. However, realizing ECDs that include stretchability with high-resolution pixelation remains challenging. Here, we present an unprecedented combination of materials and device architectures that enable intrinsically stretchable and highly pixelated ECDs via direct photopatterning. Central to this strategy is a stretchable and photopatternable electrochromic (EC) material, containing acrylate-substituted RGB viologens, that supports direct photopatterning with high mechanical durability. To facilitate more strategic device architecture, a stretchable reactive spacer layer and a pixel-defining layer were introduced, ensuring uniform electrical contact and improving mechanical integrity with minimized crosstalk, respectively. Leveraging the cooperative function of the developed materials and device structures, we implemented a fully stretchable 10 × 10 passive matrix ECD that exhibits RGB pixelated coloration and maintains stable electrochromic performance under strains up to 30%, with durability sustained over 1500 mechanical cycles.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2058962a19a99d56e7d22d494441fbb089cd778676ff85a595a6eb980dc13a3e",
+      "identity_keys": [
+        "https://doi.org/10.37349/eds.2026.1008179",
+        "https://openalex.org/W7211892558"
+      ],
+      "title": "Flagellar pocket receptors as entry point for protein-based drugs against kinetoplastid parasites",
+      "link": "https://doi.org/10.37349/eds.2026.1008179",
+      "pdf_url": "https://www.explorationpub.com//uploads/Article/A1008179/1008179.pdf",
+      "publication_date": "2026-09-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Exploration of Drug Science",
+      "authors": [
+        {
+          "key": "attala lucila",
+          "name": "Lucila Attala"
+        },
+        {
+          "key": "cecilia vernetti",
+          "name": "Cecilia Vernetti"
+        },
+        {
+          "key": "araya elvio rodríguez",
+          "name": "Elvio Rodríguez Araya"
+        }
+      ],
+      "abstract_text": "Aim: Kinetoplastids are flagellated protozoa encompassing multiple parasitic species responsible for severe neglected diseases. Although treatments exist, therapeutic failure and toxic side effects underscore the need for innovative drug development. Recent advances in protein design have accelerated the creation of small protein modules with specific functions, known as miniproteins, with broad pharmacological applications. However, their intrinsic inability to cross biological membranes limits their use against intracellular targets. This work aims to propose and computationally explore a modular delivery strategy that exploits the flagellar pocket (FP) as an entry route to deliver protein-based therapeutics into the parasites. Methods: Using experimentally determined structures of three FP receptors, we applied a motif-scaffolding pipeline combining RFdiffusion, ProteinMPNN, and AlphaFold2-multimer to design de novo miniprotein modules capable of mimicking the natural cargo recognized by each receptor. Candidate designs were evaluated using a scoring function integrating minimum interaction predicted aligned error (miPAE) and backbone root mean square deviation (RMSD) across five predicted models per design. Results: The design campaign yielded different outcomes depending on the target. For the transferrin receptor, 67 candidates surpassed the established in silico success thresholds, a pool expected to contain multiple experimentally validated binders. For the invariable surface glycoprotein 65, 17 candidates met the criteria, constituting a tractable experimental panel. Lastly, the haptoglobin-hemoglobin receptor proved a challenging target, with no candidates clearly surpassing both thresholds, likely due to the hydrophilic nature of its binding interfaces and the requirement for direct heme coordination. Conclusions: This work provides a structural rationale for a novel receptor-mediated intracellular delivery paradigm in kinetoplastid parasites, offering a computational pipeline for generating miniprotein modules ready for experimental validation. We further outline how these delivery modules could be integrated into modular protein-based drugs incorporating protease recognition sequences, cell-penetrating peptides, and subcellular localization signals, laying the conceptual ground for a new therapeutic approach against these neglected diseases.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3259,6 +3854,110 @@
       "curated_categories": []
     },
     {
+      "id": "208f088c1880702d3354ce58027c0cee56f34aac2125147c7b0b3066f047832f",
+      "identity_keys": [
+        "https://doi.org/10.20944/preprints202512.0114.v1",
+        "https://openalex.org/W4416971779"
+      ],
+      "title": "A Systematic Survey on Generative Models for Graph Generation",
+      "link": "https://doi.org/10.20944/preprints202512.0114.v1",
+      "pdf_url": "https://www.preprints.org/frontend/manuscript/2371b1d4089f03f490326dbdb91bd7bc/download_pub",
+      "publication_date": "2025-12-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Preprints.org",
+      "authors": [
+        {
+          "key": "ji jiarui",
+          "name": "Jiarui Ji"
+        },
+        {
+          "key": "wang wenda",
+          "name": "Wenda Wang"
+        },
+        {
+          "key": "lei runlin",
+          "name": "Runlin Lei"
+        },
+        {
+          "key": "bi jialin",
+          "name": "Jialin Bi"
+        },
+        {
+          "key": "lei wang",
+          "name": "Lei Wang"
+        },
+        {
+          "key": "rui wang",
+          "name": "Rui Wang"
+        },
+        {
+          "key": "qiang wang",
+          "name": "Qiang Wang"
+        },
+        {
+          "key": "bin tong",
+          "name": "Bin Tong"
+        },
+        {
+          "key": "chen xu",
+          "name": "Xu Chen"
+        },
+        {
+          "key": "wei zhewei",
+          "name": "Zhewei Wei"
+        }
+      ],
+      "abstract_text": "Graph-structured data underpin a wide range of real-world systems, from molecular chemistry and biological interactions to social and information networks. Recent advancements in deep generative models, along with the emergence of large language models (LLMs), have spurred significant progress in graph generative models (GGMs), enabling the synthesis of complex and realistic graph structures. This article provides a comprehensive overview of the literature in this field. We begin by distinguishing between two primary categories of graph datasets based on their structural formation mechanisms: geometric and scale-free. Building on this foundation, we propose a unified taxonomy that systematically organizes this rapidly evolving landscape by jointly considering (i) the category of generated graphs, (ii) the graph attribute modality, and (iii) the underlying probabilistic modeling paradigm. We then analyze representative neural network architectures and modeling strategies, followed by an overview of evaluation metrics. Finally, we highlight key applications in molecular design, protein optimization, social network analysis, and recommendation systems and outline four promising directions for future research.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "209a94dce051ba8c5ac1568f384cf0a75f70ca4b24955b81bdf1428ecdac2b2b",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag095",
+        "https://openalex.org/W7134190355"
+      ],
+      "title": "De novo functional protein sequence generation: overcoming data scarcity through regeneration and large language models",
+      "link": "https://doi.org/10.1093/bib/bbag095",
+      "pdf_url": null,
+      "publication_date": "2026-02-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "chenyu ren",
+          "name": "Chenyu Ren"
+        },
+        {
+          "key": "daihai he",
+          "name": "Daihai He"
+        },
+        {
+          "key": "huang jian",
+          "name": "Jian Huang"
+        }
+      ],
+      "abstract_text": "Proteins are essential components of all living organisms and play a critical role in cellular survival. They have a broad range of applications, from clinical treatments to material engineering. This versatility has spurred the development of protein design, with amino acid sequence design being a crucial step in the process. Recent advancements in deep generative models have shown promise for protein sequence design. However, the scarcity of functional protein sequence data for certain types can hinder the training of these models, which often require large datasets. To address this challenge, we propose a hierarchical model named ProteinRG that can generate functional protein sequences using relatively small datasets. ProteinRG begins by generating a representation of a protein sequence, leveraging existing large protein sequence models, before producing a functional protein sequence. We have tested our model on various functional protein sequences and evaluated the results from three perspectives: multiple sequence alignment, t-SNE distribution analysis, and 3D structure prediction. The findings indicate that our generated protein sequences maintain both similarity to the original sequences and consistency with the desired functions. Moreover, our model demonstrates superior performance compared twith other generative models for protein sequence generation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "209b902df79ff34fb453073cb1ac3a0b0ff46ef41b35dd0ee4e36e7dcd94d26f",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00319-z",
@@ -4041,6 +4740,12 @@
       "abstract_text": "Abstract De novo melanin design seeks to extend natural melanin colors to new, stable colors (blue, purple, green) with sequence-to-color tunability. Natural melanin, polymerized from tyrosine (Y), is a robust pigment with heterogenous molecular weights. Control of melanin size (length) is challenging; thus, only specific colors (yellow to brown) exist in nature. In this work, we describe the design of blue melanin through the polymerization of Y-containing pentapeptides with two key properties: tight packing during peptide assembly and high solubility in aqueous environments. By motif scaffolding a pentapeptide-repeat protein (PRP) with RFdiffusion, we narrowed 160,000 possible combinations to a library of 905 Y-containing pentapeptides with tight packing features. Two of the most soluble designs successfully formed stable blue melanin with λ max absorbing in 615-620 nm, contributed by homogeneous melanin length achieved around 60 Y units. Other designs also formed new colors (purple, green), along with more known colors (red, yellow, brown). We found that blue melanin exhibited thermal stability at an autoclave temperature of 121°C and photostability of weeks under 600 lux illumination. We also demonstrated the application of blue melanin as an electrophoretic ink. De novo color design from simple peptides could potentially transform how colorants are sourced and produced. Our approach with computational design should also inspire the development of new deep-learning tools to directly predict colors from amino acid sequences.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -4517,6 +5222,40 @@
         {
           "key": "haoxuan yu",
           "name": "Haoxuan Yu"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "20df02f0af65033313ceaa9c5cecb01c08f847c240d3c5f19286c6b4ef020f95",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.cej.2026.180351",
+        "https://openalex.org/W7172431967"
+      ],
+      "title": "AI-driven de novo protein design coupled with high-throughput screening: Challenges and opportunities",
+      "link": "https://doi.org/10.1016/j.cej.2026.180351",
+      "pdf_url": null,
+      "publication_date": "2026-08-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Engineering Journal",
+      "authors": [
+        {
+          "key": "en hu ruei",
+          "name": "Ruei-En Hu"
+        },
+        {
+          "key": "ng son",
+          "name": "I‐Son Ng"
         }
       ],
       "abstract_text": null,

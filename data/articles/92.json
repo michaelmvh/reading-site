@@ -126,6 +126,64 @@
       "curated_categories": []
     },
     {
+      "id": "920e330969cac2d3afcfac6b5afe148437c0f9877f56668c010b8d82f4d40042",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv-2025-sf3cs/v2",
+        "https://openalex.org/W7126022351"
+      ],
+      "title": "A new benchmark for deep learning based affinity prediction: Solving the inter-protein scoring noise problem",
+      "link": "https://doi.org/10.26434/chemrxiv-2025-sf3cs/v2",
+      "pdf_url": null,
+      "publication_date": "2026-01-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "grieswelle malte",
+          "name": "Malte Grieswelle"
+        },
+        {
+          "key": "homberg samuel",
+          "name": "Samuel K. R. Homberg"
+        },
+        {
+          "key": "janssen philipp",
+          "name": "Philipp Janssen"
+        },
+        {
+          "key": "jürgen kaminski",
+          "name": "Jürgen Kaminski"
+        },
+        {
+          "key": "joana massa",
+          "name": "Joana Massa"
+        },
+        {
+          "key": "ann kathrin prinz",
+          "name": "Ann‐Kathrin Prinz"
+        },
+        {
+          "key": "georgiev",
+          "name": "S. Georgiev"
+        },
+        {
+          "key": "koch oliver",
+          "name": "Oliver Koch"
+        }
+      ],
+      "abstract_text": "The incredible advances in deep learning architectures have not only led to successful protein structure prediction methods, but also to many interesting new methods related to protein-ligand docking and co-folding. The most recent biomolecular foundation model, Boltz-2, even claimed to approach the performance of free-energy perturbation (FEP) in estimating small molecule–protein binding affinity. However, there is still an ongoing debate about the capabilities of such models regarding generalisation or memorisation. A comprehensive assessment remains difficult due to the lack of demanding and relevant benchmark data sets. Here, we present a new approach to benchmark affinity prediction based on the interprotein scoring noise problem of classical scoring functions. This well-known phenomenon describes the problem that classical scoring functions are capable of enriching active molecules for a protein target but are unable to identify the correct protein target for a given active molecule. This is due to scoring variation between different binding pockets, which limits the ranking capabilities for target identification. In contrast, a successful and reliable binding affinity prediction method should be able to identify the correct protein target and differentiate between binders and non-binders. We therefore developed a new benchmark set for target identification based on the LIT-PCBA and tested whether Boltz-2 can correctly identify the target of active molecules. Our study highlights that, while the affinity module of Boltz-2 seems promising, it is still not able to identify the correct protein target by correctly predicting a higher binding affinity in comparison to the decoy targets. This indicates that a generalisation of protein-ligand interactions is still not achieved, which is in line with other benchmarks that indicate a memorizing effect. Such a benchmark can be seen as the next major hurdle to successful deep-learning-based affinity prediction using protein-ligand complexes. Any model or method truly capable of accurate binding affinity prediction should perform well on target-prediction benchmark tasks",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "921101efe635ccf23d747c10acea4cecd39418053522794302c1029c702e15a5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77356-9",
@@ -161,6 +219,434 @@
         }
       ],
       "abstract_text": "DNA's helical structure requires the replisome to rotate relative to the parental DNA during replication, generating supercoiling that partitions ahead and behind the fork. The influence of DNA substrate geometry on supercoiling partitioning and torsional resistance remains unclear. Here, we have engineered DNA-braiding substrates with end separations found during replication, measured braiding torques using an angular optical trap, and interpreted the results using Monte Carlo simulations. A substrate with small separations readily initiates braiding, suggesting that the fork would rotate during replication, partitioning supercoiling behind the replisome and reducing torsional resistance. In contrast, a substrate with a substantial separation at one end imposes a pronounced 'torsional barrier' that hinders braiding initiation, suggesting a lack of fork rotation during replication, so supercoiling would partition ahead of the replisome. Our findings reveal a physical mechanism in which DNA fork geometry could modulate replisome dynamics, manage topological stress, and regulate replication progression in vivo.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "92143a6da7bd707b2d9bf59e5ed4e03539832d9c9edf6b1888df2e5ad77b282f",
+      "identity_keys": [
+        "https://doi.org/10.25582/data.2023-09.2887357/3744881",
+        "https://doi.org/10.25582/data.2023-09.2889767/3743577",
+        "https://doi.org/10.25582/data.2023-09.2905397/3742895",
+        "https://openalex.org/W7212384820"
+      ],
+      "title": "Data for EMSL Project 50414 from September 2023",
+      "link": "https://doi.org/10.25582/data.2023-09.2889767/3743577",
+      "pdf_url": null,
+      "publication_date": "2026-09-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "DOE Pacific Northwest National Laboratory (PNNL) Repository",
+      "authors": [
+        {
+          "key": "marat valiev",
+          "name": "Marat Valiev"
+        },
+        {
+          "key": "cowley david",
+          "name": "David Cowley"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "brown david",
+          "name": "David Brown"
+        },
+        {
+          "key": "baker scott",
+          "name": "Scott Baker"
+        },
+        {
+          "key": "evan felix",
+          "name": "Evan Felix"
+        },
+        {
+          "key": "jun liu",
+          "name": "Jun Liu"
+        },
+        {
+          "key": "bradley tebo",
+          "name": "Bradley M. Tebo"
+        },
+        {
+          "key": "rui zhang",
+          "name": "Rui Zhang"
+        },
+        {
+          "key": "eisenmesser elan zohar",
+          "name": "Elan Zohar Eisenmesser"
+        },
+        {
+          "key": "bardhan jaydeep",
+          "name": "Jaydeep P. Bardhan"
+        },
+        {
+          "key": "kenneth schmidt",
+          "name": "Kenneth Schmidt"
+        },
+        {
+          "key": "ryan wright",
+          "name": "Ryan Wright"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "evans james",
+          "name": "James E. Evans"
+        },
+        {
+          "key": "barklis eric",
+          "name": "Eric Barklis"
+        },
+        {
+          "key": "alexandra soldatova",
+          "name": "Alexandra V. Soldatova"
+        },
+        {
+          "key": "jochen zimmer",
+          "name": "Jochen Zimmer"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "moser trevor",
+          "name": "Trevor H. Moser"
+        },
+        {
+          "key": "ann malley michelle",
+          "name": "Michelle Ann O'Malley"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "el irina khoury",
+          "name": "Irina El Khoury"
+        },
+        {
+          "key": "todd yeates",
+          "name": "Todd O. Yeates"
+        },
+        {
+          "key": "benjamin philmus",
+          "name": "Benjamin J. Philmus"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "eric gouaux",
+          "name": "Eric Gouaux"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "chapman michael",
+          "name": "Michael Chapman"
+        },
+        {
+          "key": "ling show shyng",
+          "name": "Show‐Ling Shyng"
+        },
+        {
+          "key": "peter shen",
+          "name": "Peter S Shen"
+        },
+        {
+          "key": "john tanner",
+          "name": "John J. Tanner"
+        },
+        {
+          "key": "heidi schubert",
+          "name": "Heidi Schubert"
+        },
+        {
+          "key": "baconguis isabelle",
+          "name": "Isabelle Baconguis"
+        },
+        {
+          "key": "posert richard",
+          "name": "Richard Posert"
+        },
+        {
+          "key": "damian ekiert",
+          "name": "Damian C. Ekiert"
+        },
+        {
+          "key": "bhabha gira",
+          "name": "Gira Bhabha"
+        },
+        {
+          "key": "coudray nicolas",
+          "name": "Nicolas Coudray"
+        },
+        {
+          "key": "craig yoshioka",
+          "name": "Craig Yoshioka"
+        },
+        {
+          "key": "chiu lin po",
+          "name": "Po‐Lin Chiu"
+        },
+        {
+          "key": "matthew whorton",
+          "name": "Matthew R. Whorton"
+        },
+        {
+          "key": "claudia lópez",
+          "name": "Claudia S. López"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "thomas tomasiak",
+          "name": "Thomas M. Tomasiak"
+        },
+        {
+          "key": "chia chih su",
+          "name": "Chih‐Chia Su"
+        },
+        {
+          "key": "hong zhan",
+          "name": "Hong Zhan"
+        },
+        {
+          "key": "ahlquist paul",
+          "name": "Paul Ahlquist"
+        },
+        {
+          "key": "tarjani thaker",
+          "name": "Tarjani M. Thaker"
+        },
+        {
+          "key": "reichow steve",
+          "name": "Steve Reichow"
+        },
+        {
+          "key": "flores jonathan",
+          "name": "Jonathan A. Flores"
+        },
+        {
+          "key": "janette myers",
+          "name": "Janette B. Myers"
+        },
+        {
+          "key": "alastair stewart",
+          "name": "Alastair G. Stewart"
+        },
+        {
+          "key": "dmitry lyumkis",
+          "name": "Dmitry Lyumkis"
+        },
+        {
+          "key": "barry willardson",
+          "name": "Barry M. Willardson"
+        },
+        {
+          "key": "bass brenda",
+          "name": "Brenda Bass"
+        },
+        {
+          "key": "avinash patel",
+          "name": "Avinash B. Patel"
+        },
+        {
+          "key": "eva nogales",
+          "name": "Eva Nogales"
+        },
+        {
+          "key": "armache karim",
+          "name": "Karim Armache"
+        },
+        {
+          "key": "adam miller",
+          "name": "Adam P. Miller"
+        },
+        {
+          "key": "brohawn graf stephen",
+          "name": "Stephen Graf Brohawn"
+        },
+        {
+          "key": "eduardo perozo",
+          "name": "Eduardo Perozo"
+        },
+        {
+          "key": "marie pancera",
+          "name": "Marie Pancera"
+        },
+        {
+          "key": "singh suruchi",
+          "name": "Suruchi Singh"
+        },
+        {
+          "key": "christopher hill",
+          "name": "Christopher P. Hill"
+        },
+        {
+          "key": "lauren vega",
+          "name": "Lauren Vega"
+        },
+        {
+          "key": "alexis rohou",
+          "name": "Alexis L. Rohou"
+        },
+        {
+          "key": "hur sun",
+          "name": "Sun Hur"
+        },
+        {
+          "key": "cao erhu",
+          "name": "Erhu Cao"
+        },
+        {
+          "key": "da neng wang",
+          "name": "Da‐Neng Wang"
+        },
+        {
+          "key": "ebright richard",
+          "name": "Richard H. Ebright"
+        },
+        {
+          "key": "carlos escalante",
+          "name": "Carlos R. Escalante"
+        },
+        {
+          "key": "hongjin zheng",
+          "name": "Hongjin Zheng"
+        },
+        {
+          "key": "dokland terje",
+          "name": "Terje Dokland"
+        },
+        {
+          "key": "lü wei",
+          "name": "Wei Lü"
+        },
+        {
+          "key": "du juan",
+          "name": "Juan Du"
+        },
+        {
+          "key": "hibbs ryan",
+          "name": "Ryan E. Hibbs"
+        },
+        {
+          "key": "harry scott",
+          "name": "Harry Scott"
+        },
+        {
+          "key": "meyer nancy",
+          "name": "Nancy Meyer"
+        },
+        {
+          "key": "drew gingerich",
+          "name": "Drew S. Gingerich"
+        },
+        {
+          "key": "elitza tocheva",
+          "name": "Elitza I. Tocheva"
+        },
+        {
+          "key": "xing yongna",
+          "name": "Yongna Xing"
+        },
+        {
+          "key": "mansoor steven",
+          "name": "Steven Mansoor"
+        },
+        {
+          "key": "han songi",
+          "name": "Songi Han"
+        },
+        {
+          "key": "khandelwal nitesh",
+          "name": "Nitesh Khandelwal"
+        },
+        {
+          "key": "grant jensen",
+          "name": "Grant J. Jensen"
+        },
+        {
+          "key": "elizabeth wright",
+          "name": "Elizabeth Wright"
+        },
+        {
+          "key": "nadine shaban",
+          "name": "Nadine M. Shaban"
+        },
+        {
+          "key": "harris reuben",
+          "name": "Reuben S. Harris"
+        },
+        {
+          "key": "prashant rao",
+          "name": "Prashant Rao"
+        },
+        {
+          "key": "betty shen",
+          "name": "Betty W. Shen"
+        },
+        {
+          "key": "nicholas schnicker",
+          "name": "Nicholas Schnicker"
+        },
+        {
+          "key": "juliette tinker",
+          "name": "Juliette Tinker"
+        },
+        {
+          "key": "marmorstein ronen",
+          "name": "Ronen Marmorstein"
+        },
+        {
+          "key": "navtej toor",
+          "name": "Navtej Toor"
+        },
+        {
+          "key": "christianson david",
+          "name": "David W. Christianson"
+        },
+        {
+          "key": "voorhees",
+          "name": "R.M. Voorhees"
+        },
+        {
+          "key": "hollingsworth louis robert",
+          "name": "Louis Robert Hollingsworth"
+        },
+        {
+          "key": "hao wu",
+          "name": "Hao Wu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2065,6 +2551,48 @@
         }
       ],
       "abstract_text": "Compute-in-memory technology offers promising solutions for neural network acceleration but its potential is severely limited by inflexible and resource-intensive analog-to-digital converters. Here, we present a memristor-based analog-to-digital converter featuring adaptive quantization for diverse output distributions. Our design employs analog content-addressable memory cells with programmable overlapped boundaries to establish optimized quantization thresholds, demonstrating excellent integral and differential non-linearities. Extensive experiments validate the robustness of our approach by achieving 89.55% accuracy on CIFAR-10 (VGG8) at 5-bit adaptive quantized precision and maintaining competitive performance on ImageNet (ResNet18) through a proposed super-resolution strategy under experimental memristor variations. Compared to state-of-the-art designs, our converter achieves a 15.1× improvement in energy efficiency and a 12.9× reduction in area. Furthermore, integrating our converter into CIM systems reduces the energy and area overhead by up to 57.2% and 30.7%, respectively. This work establishes a paradigm for efficient and accurate signal quantization in practical compute-in-memory systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9269a3b270277bf139b80ae807eba8c2828153f157fbabbaca6e51a7e5535b96",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2605.21485",
+        "https://openalex.org/W7161947891"
+      ],
+      "title": "EvoStruct: Bridging Evolutionary and Structural Priors for Antibody CDR Design via Protein Language Model Adaptation",
+      "link": "https://doi.org/10.48550/arxiv.2605.21485",
+      "pdf_url": "https://arxiv.org/pdf/2605.21485",
+      "publication_date": "2026-05-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "ahmed mansoor",
+          "name": "Mansoor Ahmed"
+        },
+        {
+          "key": "lee sujin",
+          "name": "Sujin Lee"
+        },
+        {
+          "key": "khayaz umar",
+          "name": "Umar Khayaz"
+        },
+        {
+          "key": "murray patterson",
+          "name": "Murray Patterson"
+        }
+      ],
+      "abstract_text": "Equivariant graph neural network (GNN) methods for antibody complementarity-determining region (CDR) design achieve the highest sequence recovery but suffer from severe vocabulary collapse. The current best GNN methods over-predict very few amino acids, such as tyrosine and glycine, while ignoring functionally important residues. We trace this failure to GNN encoders learning amino acid distributions de novo from limited structural data, discarding substitution patterns encoded in evolutionary databases. To resolve this, we propose EvoStruct, which bridges a frozen protein language model (PLM) with 3D structural context from an E(3)-equivariant GNN via a cross-attention adapter. Unlike prior PLM-structure adapters for general protein design, EvoStruct targets the vocabulary collapse problem specific to CDR design through progressive PLM unfreezing and R-Drop consistency regularization. On the CHIMERA-Bench dataset, EvoStruct achieves the highest amino acid recovery and lowest perplexity among several antibody design methods, improving sequence recovery by 16% and reducing perplexity by 43% relative to the best GNN baselines, while recovering 2.3x greater amino acid diversity and the highest binding-pair correlation with ground truth.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4324,6 +4852,80 @@
         }
       ],
       "abstract_text": "Quantifying and predicting rare and extreme events is challenging because such events are infrequent, severe, and expensive to simulate. Existing data-driven methods often require multiple extremes in the training data or sampling process, leading to accurate predictions in quiescent regimes but high epistemic uncertainty in extreme-event regions. To overcome this limitation, we introduce Extreme Event Aware (η-) Learning, which does not require extreme events in the available data. The method reduces uncertainty even in uncharted extreme regimes by enforcing during training the statistics of an observable indicative of extremeness, obtained from qualitative knowledge or unlabeled data. This statistical regularization results in models that fit observed data while remaining consistent with prescribed observable statistics, enabling the generation of unprecedented extreme events. Optimal-transport-based theoretical results offer rigorous justification and establish key optimality properties. Numerical experiments on prototype systems and real-world precipitation downscaling problems demonstrate the effectiveness of the η-learning framework. Rare and extreme events are hard to predict because they occur infrequently and may be absent from available data. Here, authors introduce a method that uses statistical knowledge to generate plausible unseen extremes even when none appear in the training data.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "92e63ff32fdd5b5888fb8f8922dd5e02d0ff62fe814593d05ad1e2ca4a5a8a87",
+      "identity_keys": [
+        "https://doi.org/10.1021/acsabm.5c01646",
+        "https://openalex.org/W7117552564"
+      ],
+      "title": "Self-Assembled Hydrogel from Pyrene-Modified Peptide as 3D Matrices for Neuronal Cell",
+      "link": "https://doi.org/10.1021/acsabm.5c01646",
+      "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acsabm.5c01646?ref=article_openPDF",
+      "publication_date": "2025-12-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Applied Bio Materials",
+      "authors": [
+        {
+          "key": "devi wahyuningtyas",
+          "name": "Devi Wahyuningtyas"
+        },
+        {
+          "key": "ting ya yu",
+          "name": "Ya-Ting Yu"
+        },
+        {
+          "key": "chin hsieh yun",
+          "name": "Chin-Yun Hsieh"
+        },
+        {
+          "key": "an huang yung",
+          "name": "Yung-An Huang"
+        },
+        {
+          "key": "he ruei yu",
+          "name": "Ruei‐Yu He"
+        },
+        {
+          "key": "hung teng tzu",
+          "name": "Tzu-Hung Teng"
+        },
+        {
+          "key": "bryan chen po wen",
+          "name": "Bryan Po-Wen Chen"
+        },
+        {
+          "key": "huang jung ren",
+          "name": "Jung-Ren Huang"
+        },
+        {
+          "key": "huang jung ren",
+          "name": "Jung-Ren Huang"
+        },
+        {
+          "key": "david wu",
+          "name": "David T. Wu"
+        },
+        {
+          "key": "huang jen joseph tse",
+          "name": "Joseph Jen‐Tse Huang"
+        },
+        {
+          "key": "huang jen joseph tse",
+          "name": "Joseph Jen‐Tse Huang"
+        }
+      ],
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Self-assembled hydrogels offer biomimetic platforms for three-dimensional (3D) cell culture; yet, achieving stability and functionality under physiological conditions remains a challenge. Here, we report a series of pyrene (Py)-modified peptides designed to form hydrogels with tunable physical and biological properties. Among them, Py-L 3 K 3 uniquely formed stable, fluorescent hydrogels at both neutral and basic pH, in contrast to Py-K 6 and Py-A 3 K 3, which gelled only at basic pH. Molecular dynamics simulations revealed pH-dependent clustering as a key mechanism driving hydrogel formation. Structural analysis showed that Py-L 3 K 3 forms nanofibrillar networks with granular surface morphologies and β-sheet-rich conformations. Rheological studies demonstrated its solid-like viscoelastic behavior and self-healing capability, as determined by oscillatory shear measurements. Importantly, Py-L 3 K 3 supported neuronal cell viability, attachment, and growth under physiological conditions, highlighting its potential as a 3D culture scaffold. These findings present Py-L 3 K 3 as a promising candidate for applications in neuronal engineering and injectable regenerative biomaterials.",
       "discovery_sources": [
         {
           "kind": "open_alex",

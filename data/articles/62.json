@@ -4229,6 +4229,72 @@
       "curated_categories": []
     },
     {
+      "id": "62cdaf4a9372b31e9dd6ea5643aa2ba675df35494e514d5efd03166954817677",
+      "identity_keys": [
+        "https://doi.org/10.2738/ms.2026.0004",
+        "https://openalex.org/W7155214636"
+      ],
+      "title": "PhytoNB: AI-enabled Nanobody Design in Plants",
+      "link": "https://doi.org/10.2738/ms.2026.0004",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Maize Sciences",
+      "authors": [
+        {
+          "key": "tianhao wu",
+          "name": "Tianhao Wu"
+        },
+        {
+          "key": "wang zixuan",
+          "name": "Zixuan Wang"
+        },
+        {
+          "key": "anwen zhao",
+          "name": "Anwen Zhao"
+        },
+        {
+          "key": "fan xia",
+          "name": "Fan Xia"
+        },
+        {
+          "key": "lou yuxuan",
+          "name": "Yuxuan Lou"
+        },
+        {
+          "key": "can yin",
+          "name": "Can Yin"
+        },
+        {
+          "key": "xu yanfen",
+          "name": "Yanfen Xu"
+        },
+        {
+          "key": "jianan zhang",
+          "name": "Jianan Zhang"
+        },
+        {
+          "key": "wang",
+          "name": "X Wang"
+        },
+        {
+          "key": "cheng qian",
+          "name": "Qian CHENG"
+        }
+      ],
+      "abstract_text": "The rapid expansion of the AlphaFold Database has provided unprecedented structural coverage of plant proteomes, thereby creating new opportunities for the computational design of functional proteins tailored for agricultural and biotechnology applications. However, existing deep learning-based antibody design methods encounter substantial computational bottlenecks when scaled for high-throughput screening of plant targets. We present PhytoNB, an automated, parallel-accelerated framework for the de novo design of plant nanobodies. This pipeline integrates domain-level segmentation via Chainsaw, multi-view binding site prediction using GPSite and MVGNN, generative nanobody design with IgGM, and large-scale energy-based filtering through Rosetta. To address the considerable computational demands of large-scale generative models, we developed a parallel acceleration engine incorporating dynamic GPU scheduling and multi-threading optimization. This engine enables efficient task allocation across multiple GPUs and CPU cores. Starting from structural inputs, PhytoNB autonomously performs structure prediction, epitope localization, sequence-structure co-generation, and biophysical validation. The pipeline thereby identifies high-stability nanobody candidates that target key functional regions of plant proteins. Benchmarks demonstrate that the parallelized workflow achieves orders-of-magnitude acceleration in design throughput while maintaining structural fidelity and binding specificity. PhytoNB provides an efficient and scalable platform for plant nanobody discovery, with an interface that supports streamlined application of the design workflow. Extensible applications of this platform include multi-epitope targeting, multi-specific binder design, and cross-species applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "62cea1ab528b1daccf1039246f6f9a13f49adad1ccf834e8cbb2fab9ee942ed7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71834-w",
@@ -5370,6 +5436,36 @@
         }
       ],
       "abstract_text": "Abstract Network robustness design is a significant engineering task in complex systems including urban planning, communication programming, and chip designing. With the embedded vulnerability of complex networks, the relationship between network topology and its robustness remains unknown, presenting a significant challenge in designing robust networks. Existing approaches—ranging from empirical manual designs, statistically-driven rules to optimization via Monte Carlo simulations, struggle to meet the design demands of large-scale networks under multidimensional attacks. Here, we introduce a general framework for designing robust networks based on AI reinforcement learning. This framework establishes an interactive environment between network attack strategies and design models, enabling the learning of effective robustness design strategies against specific attacks. Our framework enables efficient design of robust large-scale networks for a given cost, surpassing existing methods. Notably, we find that during the design process, the network may develop suitable multilayer backbones that mitigate its current vulnerability, offering insight into higher-order relations in real-world networks. Our approach can be adopted to various network design scenarios, which provides an integrative intelligent solution for designing robust complex systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "62fffaed8043a2ea448e5e9a69a0199cc9a3540ca2464d9a0e1455f36465a8e9",
+      "identity_keys": [
+        "https://doi.org/10.1038/s44286-026-00461-5",
+        "https://openalex.org/W7222985314"
+      ],
+      "title": "Agents intuit enzyme design",
+      "link": "https://doi.org/10.1038/s44286-026-00461-5",
+      "pdf_url": null,
+      "publication_date": "2026-10-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Chemical Engineering",
+      "authors": [
+        {
+          "key": "dursch thomas",
+          "name": "Thomas Dursch"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

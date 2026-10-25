@@ -3161,6 +3161,12 @@
       "abstract_text": "Abstract Motivation Designing multichain protein complexes requires coordinating the folding of component proteins with the formation of their interfaces. The existing methods, however, remain limited in their ability to satisfy these requirements simultaneously, especially for trimeric and tetrameric complexes. As an important practical scenario, designing a binder that bridges two target proteins into a ternary complex requires flexibility in the relative arrangement of the two targets, adding an additional challenge to existing design methods. Results We present ComplexDesign, a hallucination-based approach for multichain protein design. ComplexDesign performs structure-prediction-guided sequence optimization to simultaneously fold each protein chain and form inter-chain interactions that bind them together. To provide the flexibility required to appropriately arrange these target proteins, ComplexDesign introduces a specialized masking mechanism that enables exploration of possible relative arrangements rather than being limited to the predefined ones. Across a comprehensive set of benchmarks with various chain lengths, ComplexDesign outperformed existing methods in the unconditional design of dimers, trimers, and tetramers, achieving a high design success rate exceeding 50%, supporting its capability for multichain complex design. Furthermore, in the case of multi-target binder design, ComplexDesign produced high-confidence, self-consistent ternary complexes for 8 out of 10 target pairs. These results establish ComplexDesign as an effective tool for multichain protein design, with particular utility for designing binders that bridge two target proteins. Availability and implementation The source code of ComplexDesign will be made publicly available upon publication.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -4403,6 +4409,108 @@
       "curated_categories": []
     },
     {
+      "id": "70ae089e883921c74e7032cbf04e2e055bbc4b37b735adbb8f52757f5771e36e",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.05.01.718274",
+        "https://openalex.org/W7160249933"
+      ],
+      "title": "Integrin-independent Tie2 activation using de novo designed proteins",
+      "link": "https://doi.org/10.64898/2026.05.01.718274",
+      "pdf_url": null,
+      "publication_date": "2026-05-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "clara mccurdy",
+          "name": "Clara McCurdy"
+        },
+        {
+          "key": "ting yan zhao",
+          "name": "Yan Ting Zhao"
+        },
+        {
+          "key": "kumar saurav",
+          "name": "Saurav Kumar"
+        },
+        {
+          "key": "brian coventry",
+          "name": "Brian Coventry"
+        },
+        {
+          "key": "anne pink",
+          "name": "Anne Pink"
+        },
+        {
+          "key": "fu yaoyao",
+          "name": "Yaoyao Fu"
+        },
+        {
+          "key": "bohn phillip",
+          "name": "Phillip Bohn"
+        },
+        {
+          "key": "siyu zhu",
+          "name": "Siyu Zhu"
+        },
+        {
+          "key": "goreshnik inna",
+          "name": "Inna Goreshnik"
+        },
+        {
+          "key": "wang xinru",
+          "name": "Xinru Wang"
+        },
+        {
+          "key": "garrett ruth",
+          "name": "Garrett Ruth"
+        },
+        {
+          "key": "rashmi ravichandran",
+          "name": "Rashmi Ravichandran"
+        },
+        {
+          "key": "julie mathieu",
+          "name": "Julie Mathieu"
+        },
+        {
+          "key": "cooper jonathan",
+          "name": "Jonathan A. Cooper"
+        },
+        {
+          "key": "deborah fuller heydenburg",
+          "name": "DEBORAH HEYDENBURG FULLER"
+        },
+        {
+          "key": "ho kim min",
+          "name": "Ho Min Kim"
+        },
+        {
+          "key": "pipsa saharinen",
+          "name": "Pipsa Saharinen"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        }
+      ],
+      "abstract_text": "The Angiopoietin–Tie2 pathway is a key regulator of vascular stability, but therapeutic exploitation has been limited by the poor developability of Angiopoietin-1 (Ang1), and there are key unresolved mechanistic questions. Ang1 binds both Tie2 and α5β1 integrin, and the role of the α5β1 interaction in signaling has been unclear. We used RFdiffusion to design a stable, high-affinity Tie2 minibinder that has no affinity for α5β1. The binder is a selective antagonist in monomeric form, and a potent agonist when assembled into an octavalent architecture (H8mb) which drives Tie2 clustering. H8mb signals as potently as Ang1, indicating that integrin engagement is not required for Tie2 activation. However, the duration of signaling is reduced, and internalization of H8mb-Tie2 complexes is more rapid, suggesting that integrin may function as a co-receptor for Ang1 that prolongs signaling by extending the lifetime of the receptor ligand complex on the cell surface. In a mouse model of acute respiratory distress syndrome (ARDS), H8mb markedly improved survival. These results demonstrate that de novo designed receptor binders can enable dissection of co-receptor control of signaling dynamics, and the more stable and manufacturable H8mb provides routes to more developable therapeutic candidates.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "70b138e5ddff30461658dccc615f5dd8393692e5af778a668d348f60adf2642b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67357-5",
@@ -4472,6 +4580,128 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "70b4f103605762075e308326b6dd0eb8af120a6893631f59f9635ff51c0287db",
+      "identity_keys": [
+        "https://doi.org/10.1093/jimmun/vkaf283.2802",
+        "https://openalex.org/W4416449081"
+      ],
+      "title": "AI-based HIV-1 Env designs devoid of gp41 mimic native gp120 pre-fusion Env 9395",
+      "link": "https://doi.org/10.1093/jimmun/vkaf283.2802",
+      "pdf_url": "https://academic.oup.com/jimmunol/article-pdf/214/Supplement_1/vkaf283.2802/65413025/vkaf283.2802.pdf",
+      "publication_date": "2025-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "The Journal of Immunology",
+      "authors": [
+        {
+          "key": "gyunghee jo",
+          "name": "Gyunghee Jo"
+        },
+        {
+          "key": "aldon yoann",
+          "name": "Yoann Aldon"
+        },
+        {
+          "key": "jasti naveen",
+          "name": "Naveen Jasti"
+        },
+        {
+          "key": "hyun ja koo",
+          "name": "Ja‐Hyun Koo"
+        },
+        {
+          "key": "allen joel",
+          "name": "Joel D. Allen"
+        },
+        {
+          "key": "andy tran",
+          "name": "Andy S. Tran"
+        },
+        {
+          "key": "rebecca skotheim",
+          "name": "Rebecca Skotheim"
+        },
+        {
+          "key": "david juergens",
+          "name": "David Juergens"
+        },
+        {
+          "key": "parikh shivang",
+          "name": "Shivang Parikh"
+        },
+        {
+          "key": "bouhuijs joey",
+          "name": "Joey H. Bouhuijs"
+        },
+        {
+          "key": "jonne snitselaar",
+          "name": "Jonne L. Snitselaar"
+        },
+        {
+          "key": "olijhoek wouter",
+          "name": "Wouter Olijhoek"
+        },
+        {
+          "key": "langowski mark",
+          "name": "Mark D. Langowski"
+        },
+        {
+          "key": "chelsea fries",
+          "name": "Chelsea N. Fries"
+        },
+        {
+          "key": "atabey tuğba",
+          "name": "Tuğba Atabey"
+        },
+        {
+          "key": "breemen mariëlle van",
+          "name": "Mariëlle J. van Breemen"
+        },
+        {
+          "key": "gils marit van",
+          "name": "Marit J. van Gils"
+        },
+        {
+          "key": "crispin max",
+          "name": "Max Crispin"
+        },
+        {
+          "key": "gabriel ozorowski",
+          "name": "Gabriel Ozorowski"
+        },
+        {
+          "key": "batista facundo",
+          "name": "Facundo D. Batista"
+        },
+        {
+          "key": "andrew ward",
+          "name": "Andrew B. Ward"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        },
+        {
+          "key": "rogier sanders",
+          "name": "Rogier W. Sanders"
+        },
+        {
+          "key": "king neil",
+          "name": "Neil P. King"
+        }
+      ],
+      "abstract_text": "Abstract Description Viral fusion glycoproteins, such as HIV-1 Env, a trimer of gp120 and gp41 heterodimers, are key targets for neutralizing antibodies but are inherently metastable due to conformational changes required for function. Stabilizing these proteins without compromising their immunogenicity has been a long-standing challenge. Here, we leveraged deep learning-based protein design to create a gp41-free HIV-1 Env trimer platform, or GFT. These designs replace the metastable gp41 subunits with de novo structures, stabilizing the trimer while preserving the pre-fusion, native-like conformation of gp120. GFTs retain broadly neutralizing antibody (bnAb) and germline precursor binding, assemble efficiently into icosahedral nanoparticles with exceptional structural integrity, and activate specific B cells in vitro. Immunization with GFTs in gl-VRC01 KI mouse models induced robust germinal center B-cell responses specific to the CD4 binding site. Remarkably, cryo-EM analysis of GFT designs 36G and 38G on nanoparticles confirmed structural fidelity to native-like Env trimers at atomic resolution. We also demonstrate conservation of bnAb engagement of GFTs and validate computational predictions using cryo-EM to drive further design. Our results establish a transformative platform for presenting stable, gp41-free HIV-1 Env trimers in a closed conformation, providing a promising approach for HIV vaccine development and other complex antigen design applications. Funding Sources This work was supported by the Bill and Melinda Gates Foundation and the CAVD network (INV-002916), and in part by the National Institute of Allergy and Infectious Diseases of the National Institutes of Health (Award Number P01 AI110657). Topic Categories Vaccines and Immunotherapy (VAC)",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6273,6 +6503,48 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "70f1e1e37cefa09748862c08766ff59089415bfaf1217ac6d7865decf83621fc",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.6c02272",
+        "https://openalex.org/W7160404772"
+      ],
+      "title": "Sequence Dependence of Folding and Self-Assembly of Glycine-X Repeat Peptides on Graphite",
+      "link": "https://doi.org/10.1021/acs.jcim.6c02272",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002765/v1",
+      "publication_date": "2026-10-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "cubillos eduardo llantén",
+          "name": "Eduardo Cubillos-Llantén"
+        },
+        {
+          "key": "julius neumann",
+          "name": "Julius A. Neumann"
+        },
+        {
+          "key": "horacio poblete",
+          "name": "Horacio Poblete"
+        },
+        {
+          "key": "comer jeffrey",
+          "name": "Jeffrey R. Comer"
+        }
+      ],
+      "abstract_text": "Abstract Cyclic peptides consisting of glycine-X repeats have been shown in simulation and experiment to fold at the graphite–water interface into beta-hairpins, which then self-assemble by intermolecular hydrogen bonding. In this contribution, we investigate the role of the hairpin turn sequence, strand length, and the X amino acid on folding and self-assembly. Simulations of relatively large systems with 9 initially unfolded peptides allow us to observe spontaneous folding, which, together with free energy profiles as a function of RMSD, enable comparison of folding thermodynamics and kinetics among sequences and identification of metastable misfolded conformations. Likewise, spontaneous assembly also occurs in these simulations, which, together with absolute binding free energy calculations, enable comparison of assembly kinetics and preferences for different intermolecular alignments. We find that the GPGG sequence best enforces folding with the desired hairpin turn compared to GGGG and GDGG sequences. While our previous peptide design was head-to-tail cyclized, here, we demonstrate that disulfide cyclization is a viable alternative. Peptides having strands with GT, GA, GG, GS, and GD repeats, as well as those with charge-complementary GE/GZ pairs (where Z is diaminobutyric acid), can fold correctly, but vary in their folding free energy, tendency to adopt misfolded conformations, folding cooperativity, and preference for different intermolecular alignments. GT-repeat strands most favor folding into the desired beta-strands; however, they yield the weakest intermolecular assembly. GG-repeats yield the strongest intermolecular assembly, but peptides with all GG repeats show a greater tendency to misfold. GA-repeat strands exhibit strong folding cooperativity─folding becomes more favorable in the presence of other folded peptides. A peptide with GE repeats on one strand and GZ on the other yields assemblies with alternating negative and positive strands.",
       "discovery_sources": [
         {
           "kind": "open_alex",

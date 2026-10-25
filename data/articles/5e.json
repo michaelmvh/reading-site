@@ -1300,6 +1300,48 @@
       "curated_categories": []
     },
     {
+      "id": "5e1ba13f75e3b3b04768215dbe9e295cbcb26cbb980a76383727949caeeb247f",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.fufo.2026.100999",
+        "https://openalex.org/W7139987738"
+      ],
+      "title": "PepBERT: Lightweight language models for bioactive peptide representation",
+      "link": "https://doi.org/10.1016/j.fufo.2026.100999",
+      "pdf_url": null,
+      "publication_date": "2026-03-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Future Foods",
+      "authors": [
+        {
+          "key": "du zhenjiao",
+          "name": "Zhenjiao Du"
+        },
+        {
+          "key": "caragea doina",
+          "name": "Doina Caragea"
+        },
+        {
+          "key": "guo xiaolong",
+          "name": "Xiaolong Guo"
+        },
+        {
+          "key": "li yonghui",
+          "name": "Yonghui Li"
+        }
+      ],
+      "abstract_text": "Protein language models (pLMs) have been widely adopted for various protein and peptide-related downstream tasks and demonstrated promising performance. However, short peptides are significantly underrepresented in commonly used pLM training datasets. For example, only 2.8% of sequences in the UniProt Reference Cluster (UniRef) contain fewer than 50 residues, which potentially limits the effectiveness of pLMs for peptide-specific applications. Here, we present PepBERT, a lightweight and efficient peptide language model specifically designed for encoding peptide sequences. Two versions of the model-PepBERT-large (4.9 million parameters) and PepBERT-small (1.86 million parameters)-were pretrained from scratch using four custom peptide datasets and evaluated on nine peptide-related downstream prediction tasks. Both PepBERT models achieved performance superior to or comparable to the benchmark model, ESM-2 with 7.5 million parameters, on 8 out of 9 datasets. Overall, PepBERT provides a compact yet effective solution for generating high-quality peptide representations for downstream applications. By enabling more accurate representation and prediction of bioactive peptides, PepBERT can accelerate the discovery of food-derived bioactive peptides with health-promoting properties, supporting the development of sustainable functional foods and value-added utilization of food processing by-products. The datasets, source codes, pretrained models, and tutorials for the usage of PepBERT are available at https://github.com/dzjxzyd/PepBERT.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5e1c342ce8b3acce96f64fc5a44766d6116a93e7faace66e591fe71d40415e4f",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01446-3",
@@ -1791,6 +1833,68 @@
         }
       ],
       "abstract_text": "Abstract Obtaining a precise genetic tuberous sclerosis diagnosis is a challenge as many missense TSC2 variants are variants of uncertain significance (VUS). VUS in TSC2 have been resolved by one-at-a-time functional assays, but these assays cannot scale to the 3,634 TSC2 missense VUS observed so far. To address this challenge, we used massively parallel sequencing to measure the steady-state abundance of almost 9,000 TSC2 missense variants and developed an mTOR pathway activity assay using genome editing and cell sorting to generate activity scores for 391 missense variants. 1,288 of 8,891 (14.49%) missense variants assayed had altered TSC2 abundance, and 69 of 391 (17.65%) missense variants assayed had altered mTOR pathway activity. Calibration and integration of these data into classification of variants identified in a clinical cohort putatively reclassified 212 of 276 (76.8%) TSC2 missense VUS. These datasets will lead to improved genetic diagnosis of tuberous sclerosis with potential positive impacts on the clinical management of patients and their families.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5e3fae9a2b29f9b83064929989dcc34da04874d20c5721303832ae94be3c4c17",
+      "identity_keys": [
+        "https://doi.org/10.1093/bioadv/vbag081",
+        "https://openalex.org/W7139969690"
+      ],
+      "title": "Benchmarking antigen-aware inverse folding methods for antibody design",
+      "link": "https://doi.org/10.1093/bioadv/vbag081",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Bioinformatics Advances",
+      "authors": [
+        {
+          "key": "bartosz janusz",
+          "name": "Bartosz Janusz"
+        },
+        {
+          "key": "chomicz dawid",
+          "name": "Dawid Chomicz"
+        },
+        {
+          "key": "sonia wrobel",
+          "name": "Sonia Wrobel"
+        },
+        {
+          "key": "dudzic paweł",
+          "name": "Paweł Dudzic"
+        },
+        {
+          "key": "adithya polasa",
+          "name": "Adithya Polasa"
+        },
+        {
+          "key": "kyle martin",
+          "name": "Kyle Martin"
+        },
+        {
+          "key": "darnell steven",
+          "name": "Steven J. Darnell"
+        },
+        {
+          "key": "comeau stephen",
+          "name": "Stephen R. Comeau"
+        },
+        {
+          "key": "konrad krawczyk",
+          "name": "Konrad Krawczyk"
+        }
+      ],
+      "abstract_text": "Computational antibody design has seen many recent advances pioneered via the use of language models and advanced structure prediction tools. Developing a de novo antibody against a specific antigen requires structural awareness that most language models lack. A prominent class of machine learning methods combining the best of language model and structural worlds is inverse folding. This approach aims to predict a sequence that would fit a given structure. Such methods are now increasingly used to predict alternate sequences given a structure of a binder. It is known that, just like language models, such methods have certain predictive power in identifying binders. Here we performed a set of tests to reveal where, if at all, such methods provide value in the realistic setting of antibody discovery.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2522,6 +2626,40 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5e61a7ac38cb8a599254002c23965ef1a0fd679cff995c95692990c943a57425",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70576",
+        "https://openalex.org/W4414532516"
+      ],
+      "title": "Detection of protein symmetry and structural rearrangements using secondary structure elements",
+      "link": "https://doi.org/10.1002/pro.70576",
+      "pdf_url": null,
+      "publication_date": "2026-04-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "lin runfeng",
+          "name": "Runfeng Lin"
+        },
+        {
+          "key": "ahnert sebastian",
+          "name": "Sebastian E. Ahnert"
+        }
+      ],
+      "abstract_text": "Many proteins exhibit a degree of internal symmetry in their tertiary structure, including circular permutations. These characteristics play an important role in terms of the functional robustness of proteins against mutations, and are pivotal for the study of protein function and evolution. Proteins exhibiting internal symmetry often demonstrate enhanced functional benefits, such as increased binding affinity due to repeated structural motifs, and evolutionary advantages that may result from gene duplication or fusion events, leading to more robust and adaptable molecular architectures. Similarly, circular permutations have been linked to improved catalytic activity and enhanced thermostability, opening new avenues in the design of enzymes and other functional proteins. In this study, we introduce a novel computational pipeline that leverages secondary structure elements (SSEs) as a compressed yet informative representation of protein structure to detect both symmetry and structural rearrangements effectively. Our method outperforms existing methods, such as Combinatorial Extension with Circular Permutations (CECP) by several orders of magnitude in terms of computational cost and identifies 17,130 circularly related proteins. Additionally, it detects 26,739 proteins associated with indel mutations. Notably, 8855 of these exhibit both circular permutation and indel mutations-highlighting a significant structural co-occurrence between these two types of variation. We also recovered most symmetric proteins identified by the CE-Symm tool and revealed more than 2.5 times as many symmetric proteins in the same dataset. By integrating precise boundary detection, clustering analysis, and rigorous cross-validation against established tools, our framework robustly maps internal structural features. These insights deepen our understanding of protein architecture and provide a structural basis for further investigation into protein evolution, while also informing de novo protein design and engineering.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4064,6 +4202,52 @@
       "curated_categories": []
     },
     {
+      "id": "5eb594c1781fae16250d0770280d373b901d9b455a6a4f9206beb3738a6850b2",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.copbio.2025.103380",
+        "https://openalex.org/W4415890403"
+      ],
+      "title": "Artificial intelligence–powered biofoundries for protein engineering and metabolic engineering",
+      "link": "https://doi.org/10.1016/j.copbio.2025.103380",
+      "pdf_url": null,
+      "publication_date": "2025-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Current Opinion in Biotechnology",
+      "authors": [
+        {
+          "key": "chen junyu",
+          "name": "Junyu Chen"
+        },
+        {
+          "key": "nilmani singh",
+          "name": "Nilmani Singh"
+        },
+        {
+          "key": "jingxia lu",
+          "name": "Jingxia Lu"
+        },
+        {
+          "key": "lane stephan",
+          "name": "Stephan Lane"
+        },
+        {
+          "key": "huimin zhao",
+          "name": "Huimin Zhao"
+        }
+      ],
+      "abstract_text": "Synthetic biology is rapidly evolving through the integration of artificial intelligence (AI) and automated biofoundries. This convergence accelerates the design–build–test–learn cycle, shifting protein engineering and metabolic engineering from labor-intensive manual experimentation to autonomous experimentation. This review summarizes recent advances in workflow development, AI models, and their integration with biofoundries for automated or autonomous protein engineering and metabolic engineering. Particularly, we highlight the potential of AI-powered biofoundries for accelerated scientific discovery and innovation in synthetic biology. • AI-driven biofoundries accelerate the design–build–test–learn cycle. • Language models, generative AI, and active learning drive protein engineering. • AI-guided metabolic engineering optimizes complex pathways and strains. • Emerging foundational biological models enable multiscale design from DNA to cells. • Cloud biofoundries and multi-AI agents advance self-driving labs via collaboration.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5eb9748dcd4d979501898eb236466244e6f24415f22383b2be9da16ac1dac625",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72885-9",
@@ -5426,6 +5610,12 @@
       "abstract_text": "Computational protein design is often constrained by slow, complex, inaccessible, and highly sophisticated and expert-dependent workflows that hinder its transferrability and generalization power for broader applications. We present ProteinMCP, an agentic AI framework designed to accelerate and democratize protein engineering. ProteinMCP automates end-to-end scientific tasks, delivering dramatic gains in efficiency; for instance, a comprehensive protein fitness modeling workflow was completed in just 11 min. This performance is achieved by an AI agent that intelligently orchestrates a unified ecosystem of 38 specialized tools, made accessible through a model-context-protocol (MCP). A cornerstone of the framework is an automated pipeline that converts existing software into MCP-compliant servers, ensuring the platform is both powerful and perpetually extensible. We further demonstrate its capabilities through the successful autonomous design and selection of high-affinity de novo binders and therapeutic nanobodies. By removing technical barriers, ProteinMCP has the potential to shorten the design-build-test cycle and make advanced computational protein design accessible to the broader scientific community.",
       "discovery_sources": [
         {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
           "label": "Papers for Protein Design Using Deep Learning",
@@ -5493,6 +5683,48 @@
         }
       ],
       "abstract_text": "Microbial necromass is increasingly recognized as a major source of stable soil organic matter (SOM), and its persistence is often attributed to interactions with clay-sized minerals. However, the mechanisms underlying this mineral-mediated stabilization remain poorly understood. Here, we conducted an in situ dual-labeled (13C and 15N) microbial necromass experiment across a clay gradient to quantify how clay content and necromass origin (bacterial vs. fungal) regulate necromass persistence. We find that higher clay content markedly enhances necromass retention by strengthening mineral protection, suppressing microbial activity and diversity, and limiting leaching losses. NanoSIMS imaging shows that new necromass preferentially associates with organic matter coatings on the rough mineral surfaces, highlighting organo-organic interfaces as important stabilization pathways. Necromass origin exerts little effect on retention despite marked differences in C:N ratios and bulk chemical composition, indicating that finer-scale molecular features, rather than broad compositional differences, govern necromass stabilization in soils. By incubating isotope-labeled microbial necromass in the field, the study shows that new microbial necromass preferentially associate with organic matter coatings on rough mineral surfaces rather than adhering to bare minerals.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5ef7fd2537bc58521bc8aba076c4eabbfedfbadc8dc80b0361f0e0d0a3a4100d",
+      "identity_keys": [
+        "https://doi.org/10.1186/s12967-026-08161-7",
+        "https://openalex.org/W7154959107"
+      ],
+      "title": "α-Helical peptides: design strategies and recent advances in biomedical applications",
+      "link": "https://doi.org/10.1186/s12967-026-08161-7",
+      "pdf_url": null,
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Translational Medicine",
+      "authors": [
+        {
+          "key": "mengyuan yin",
+          "name": "Mengyuan Yin"
+        },
+        {
+          "key": "ding fei",
+          "name": "Fei Ding"
+        },
+        {
+          "key": "guanghua luo",
+          "name": "Luo Guanghua"
+        },
+        {
+          "key": "miaomei yu",
+          "name": "Miaomei Yu"
+        }
+      ],
+      "abstract_text": "BACKGROUND: The α-helix, a fundamental and highly versatile secondary structure in proteins, holds substantial promise in biomedicine owing to its characteristic right-handed helical conformation, regular hydrogen-bonding network, and predictable side-chain arrangement. MAIN BODY: This review systematically outlines the structural features and stabilization mechanisms of α-helical peptides, along with core strategies in drug design, including solid-phase peptide synthesis (SPPS), ring-opening polymerization (ROP) of N-carboxyanhydrides (NCAs), conformational stapling, non-natural amino acid incorporation, and stimuli-responsive modifications. We also highlight frontier advances in computational simulation and deep-learning approaches for de novo structural prediction and functional optimization. Regarding applications, this review elaborates on the mechanisms and recent progress of α-helical peptides in antimicrobial and anticancer therapies, immunomodulation, and tissue engineering, covering membrane-targeting mechanisms, immune cell modulation, vaccine design, drug delivery systems, and bioactive regenerative scaffolds. CONCLUSIONS: Despite their superior biocompatibility, functional programmability, and translational potential of α-helical peptides, challenges remain including in vivo stability, scalable manufacturing, and optimizing pharmacokinetics. Future advances driven by multidisciplinary integration and artificial intelligence (AI)-guided design are expected to further enable α-helical peptides as pivotal tools in precision and regenerative medicine.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5575,6 +5807,68 @@
         }
       ],
       "abstract_text": "Ewing sarcoma (EWS), a rare pediatric bone tumor, poses unique therapeutic challenges due to its distinct microenvironment and limited molecular understanding. To gain a comprehensive molecular and functional view of the tumors in their microenvironment, we perform a deep mass spectrometry-based proteomic analysis of 170 tumor samples from 74 patients from primary, relapsed, and metastatic tumors. Analysis of more than 10,000 proteins across patients reveals insights into cancer prognosis, chemo-resistance, and progression. Our analyses suggest that ferroptosis pathways may be associated with chemotherapy response in EWS, and we delineate molecular subclasses that correlate the tumor immune landscape with DNA damage repair, ubiquitin-related proteins, and patient outcomes. Multiplexed immunofluorescence imaging indicates possible associations between neutrophils and poorer prognosis, and between macrophages/T cells and a more favorable prognosis. Altogether, this investigation provides valuable insights into the intricate biology of EWS, paving the way for developing therapeutic strategies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5efa494ae44c41795f7e269c17d89fed11b4c461d8863fb8131a95cefe32f1bf",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.09.28.754888",
+        "https://openalex.org/W7214716998"
+      ],
+      "title": "Probing the sequence variability tolerance in a de novo α-helical barrel biocatalyst",
+      "link": "https://doi.org/10.64898/2026.09.28.754888",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/29/2026.09.28.754888.full.pdf",
+      "publication_date": "2026-09-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "elaily wael",
+          "name": "Wael Elaily"
+        },
+        {
+          "key": "braun",
+          "name": "M. J. BRAUN"
+        },
+        {
+          "key": "david stoll",
+          "name": "David B. Stoll"
+        },
+        {
+          "key": "chakatok morakot",
+          "name": "Morakot Chakatok"
+        },
+        {
+          "key": "aleotti matteo",
+          "name": "Matteo Aleotti"
+        },
+        {
+          "key": "birgit grill",
+          "name": "Birgit Grill"
+        },
+        {
+          "key": "aleksandar bijelic",
+          "name": "Aleksandar Bijelic"
+        },
+        {
+          "key": "hall mélanie",
+          "name": "Mélanie Hall"
+        },
+        {
+          "key": "gustav oberdorfer",
+          "name": "Gustav Oberdorfer"
+        }
+      ],
+      "abstract_text": "Abstract De novo-designed enzymes have recently achieved high catalytic activity and stereoselectivity while demonstrating exceptional thermostability in entirely novel protein scaffolds. Among these, α-helical barrel protein scaffolds are attractive structures for biocatalysis due to their structural simplicity, high thermostability, and rationalizable sequence patterning. However, enabling major structural reengineering of these scaffolds while maintaining the structure, stability and catalytic activity while also improving soluble protein production remain major challenges and pose the fundamental question how engineerable a de novo backbone-sequence pair is. Here, we combine deep learning based and classic computational protein design to modify and optimize de novo α-helical barrel biocatalysts. Using the previously reported six-helical barrel 6H5L as a model scaffold, AlphaFold2-guided RosettaRemodel enabled the design of a truncated variant, whose crystal structure closely matches the design model. Additional sequence-redesign using ProteinMPNN generated a variant with a tenfold increase of soluble protein yield in Escherichia coli. Biochemical, biophysical, and structural analyses showed that both variants retained the overall barrel architecture, high thermal stability, and catalytic activity for both purified protein and whole-cell systems. Detailed kinetic analysis on the variants showed both variation in k cat and K m , reflecting changes in catalytic turnover and substrate binding. Together, these approaches provide new insights and possibilities for the further engineering of functional de novo α-helical barrels, their ability to withstand dramatically large sequence changes and their broader application in biocatalysis and biotechnology.",
       "discovery_sources": [
         {
           "kind": "open_alex",
