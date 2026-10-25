@@ -4461,7 +4461,7 @@
       ],
       "title": "Neuron Mitochondria Targeted “Zipper Peptide” Delivery for VHL‐Inhibiting Therapy in Parkinson's Disease",
       "link": "https://doi.org/10.1002/adfm.79165",
-      "pdf_url": null,
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.79165",
       "publication_date": "2026-10-22",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -6637,6 +6637,48 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "42f292be897ecbf9cfa68dedd46280bb4dd24432941549c77ffa2100acc59223",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-78406-y",
+        "https://openalex.org/W7223460039"
+      ],
+      "title": "Predicting protein electrostatics with protein language models",
+      "link": "https://doi.org/10.1038/s41467-026-78406-y",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-78406-y_reference.pdf",
+      "publication_date": "2026-10-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "mingzhe shen",
+          "name": "Mingzhe Shen"
+        },
+        {
+          "key": "dayhoff guy",
+          "name": "Guy W. Dayhoff"
+        },
+        {
+          "key": "daniel kortzak",
+          "name": "Daniel Kortzak"
+        },
+        {
+          "key": "jana shen",
+          "name": "Jana Shen"
+        }
+      ],
+      "abstract_text": "Abstract Ionization states are crucial to protein function, yet predicting their equilibrium constants remains challenging. Here we present KaML-ESMs, sequence-based neural networks built on the ESM protein language models and trained on the GAINES-augmented PKAD-3r dataset. KaML-ESM2/ESMC outperform alternative approaches across four benchmarks, achieving root-mean-square errors of about 0.5 units for Asp/Glu/His/Cys/Tyr/Lys residues in native proteins. Performance degrades on 89 buried engineered mutations lacking evolutionary support, revealing a limitation that supervised training may help overcome. These results suggest that protein sequence, through its evolutionary context, encodes not only structure and function but also, indirectly, electrostatic characteristics. Applying KaML-ESM2 to the entire human proteome, we show that predicted p K a values can identify functional sites and infer catalytic mechanisms. We offer KaML, a sequence-based p K a prediction platform supporting biological exploration, protein engineering, and biomolecular simulation. With further development, GAINES could provide a general framework for addressing data scarcity in machine learning.",
       "discovery_sources": [
         {
           "kind": "open_alex",

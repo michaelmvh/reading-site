@@ -3540,6 +3540,41 @@
       "curated_categories": []
     },
     {
+      "id": "e7a8d4517a1ff611dde860ccd2ebc015ffe05cf747721a65f30e3dd5c5621663",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.20.760363v1",
+        "https://doi.org/10.64898/2026.10.20.760363",
+        "https://www.biorxiv.org/content/early/2026/10/24/2026.10.20.760363.source.xml"
+      ],
+      "title": "Two opposite failure modes in alignment-based conservation scores, one inflating and one concealing constraint, are computable before the score is used",
+      "link": "https://doi.org/10.64898/2026.10.20.760363",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760363v1.full.pdf",
+      "publication_date": "2026-10-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "karago",
+          "name": "Karagöl, T"
+        },
+        {
+          "key": "karago",
+          "name": "Karagöl, A"
+        }
+      ],
+      "abstract_text": "A conservation score is read as a property of an amino acid position, when it measures that position together with a sequence set and a depth parameter, and the same position receives opposite calls under defensible choices of the latter two. We characterise two failure modes that push in opposite directions and show that both are computable from the alignment before the score is used. Where conservation is 1 - H/log2 21 over an alphabet whose twenty-first symbol is the gap, a fully gapped column scores the maximum by construction. Across 55,816 columns the reported value rises with gappiness at {rho} = +0.553, collapsing to +0.066 when conservation is recomputed over ungapped residues, and an independent predictor arbitrates: the gap-free recomputation tracks AlphaMissense at {rho} = 0.551 against 0.416 for the reported value. The opposite mode is clade partitioning, in which between-subfamily divergence is read as tolerance. Varying only the comparator set moves a position by a per-family median of 2.19 grades on a nine-grade scale over 5,092 positions in eight families and flips 2.7 to 8.3 per cent, median 6.6, from variable to conserved. A label-permutation null cannot separate this from shared ancestry, calling 68.3 to 100 per cent of variable columns diagnostic; a tree-aware null with per-column parsimony rate matching returns 4.1 to 69.1 per cent, and the same four syndecan genes at two sampling depths give 4.1 and 29.8 per cent, so no proteome-wide rate is well posed without the decomposition behind it. The resulting per-position panel reports gap fraction, effective comparator count and the tree-corrected subfamily-explained fraction with the direction of the expected error, and generates a testable prediction, that variants to a sister subfamily's fixed state are benign-enriched, which holds at an odds ratio of 2.46 (1.40 to 4.33) carried by 87 such variants among 1,565 classified. Applying the gap correction to a published conserved-score pipeline raises the rigid score's discrimination in the human cohort from AUC 0.832 to 0.919.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e7aaf1c2c4f4fb3d2c57925604ade14dae27fee8b1c99fb7ee2f5c57fe110122",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78271-9",

@@ -3689,6 +3689,81 @@
       ]
     },
     {
+      "id": "85b6de1f3423fc094e14e2f59695400698068f11c48815b5d5df04a5e9bd072d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.20.760347v1",
+        "https://doi.org/10.64898/2026.10.20.760347",
+        "https://www.biorxiv.org/content/early/2026/10/24/2026.10.20.760347.source.xml"
+      ],
+      "title": "Fine-Grained and Reliable Cell Classification from Pathology Images",
+      "link": "https://doi.org/10.64898/2026.10.20.760347",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760347v1.full.pdf",
+      "publication_date": "2026-10-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ogut",
+          "name": "Ogut, S"
+        },
+        {
+          "key": "merchant",
+          "name": "Merchant, A"
+        },
+        {
+          "key": "vahidi",
+          "name": "Vahidi, A"
+        },
+        {
+          "key": "jeong",
+          "name": "Jeong, D"
+        },
+        {
+          "key": "birk",
+          "name": "Birk, S"
+        },
+        {
+          "key": "boxall",
+          "name": "Boxall, A"
+        },
+        {
+          "key": "feriz miraki",
+          "name": "Miraki Feriz, A"
+        },
+        {
+          "key": "sallese",
+          "name": "Sallese, M. R"
+        },
+        {
+          "key": "chang",
+          "name": "Chang, Y"
+        },
+        {
+          "key": "frossard",
+          "name": "Frossard, P"
+        },
+        {
+          "key": "thanou",
+          "name": "Thanou, D"
+        },
+        {
+          "key": "lotfollahi",
+          "name": "Lotfollahi, M"
+        }
+      ],
+      "abstract_text": "Molecular assays such as spatial transcriptomics facilitate fine-grained identification of cell types for analyzing tumor microenvironments. However, they are expensive to acquire in routine clinical practice compared to hematoxylin and eosin (H&E) images. With molecular guidance, such images can distinguish cell lineages, yet often fail to resolve closely related subtypes. To overcome this, we introduce CellBridge, a multi-modal contrastive learning framework pretrained on 16M cells with paired H&E and spatial profiles, for transferring molecular information into morphological representations. CellBridge further incorporates a Cell-Ontology-aware conformal prediction module that assigns labels at different levels of specificity: leaf-level cell types when morphology alone provides sufficient evidence, and broader ancestor categories when distinguishing among more specific cell types would require molecular information. Across in-domain and out-of-domain benchmarks, CellBridge outperforms leading pathology foundation models in macro F1 by up to 16 percentage points, with the largest gains on the most fine-grained label spaces. It consistently achieves smaller prediction sets, while reducing class-wise coverage gaps. We envision CellBridge as a step toward extracting cellular information that currently requires costly molecular assays from routinely acquired pathology images, while explicitly identifying where such assays remain necessary. Our code is available at https://github.com/Lotfollahi-lab/cellbridge.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "85b7470d9ec8517f3047cf91f99662631585bb6eb38b8f206846eede85d00c8c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72699-9",

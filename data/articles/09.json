@@ -1919,6 +1919,61 @@
       "curated_categories": []
     },
     {
+      "id": "09662b4fb2905dce5a77aa6fa0e44fdc2b62168c8a78cb4ee9cf17af7ac55e71",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.19.760182v1",
+        "https://doi.org/10.64898/2026.10.19.760182",
+        "https://www.biorxiv.org/content/early/2026/10/24/2026.10.19.760182.source.xml"
+      ],
+      "title": "A robust mutation spectrum analysis framework for high-depth error-corrected sequencing data",
+      "link": "https://doi.org/10.64898/2026.10.19.760182",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760182v1.full.pdf",
+      "publication_date": "2026-10-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "williams",
+          "name": "Williams, A"
+        },
+        {
+          "key": "alcaraz",
+          "name": "Alcaraz, A. J"
+        },
+        {
+          "key": "dodge",
+          "name": "Dodge, A"
+        },
+        {
+          "key": "leblanc",
+          "name": "LeBlanc, D. P"
+        },
+        {
+          "key": "meier",
+          "name": "Meier, M. J"
+        },
+        {
+          "key": "yauk",
+          "name": "Yauk, C"
+        },
+        {
+          "key": "marchetti",
+          "name": "Marchetti, F"
+        }
+      ],
+      "abstract_text": "Comparing mutational spectra across experimental groups requires inference at the level of the biological replicate. Error-corrected sequencing (ECS) generates hundreds to thousands of mutations per replicate, yet classical pooled G2 tests treat individual mutations as independent observations and ignore replicate-level variability, inflating statistical significance (pseudo-replication). We present a replicate-aware Ridge-Penalized Dirichlet-Multinomial (RP-DMM) framework that models biological replicates directly and accounts for overdispersion. An L2 (ridge) penalty, with strength chosen by leave-one-out cross-validation, stabilizes spectrum estimates by shrinking weakly supported mutation categories toward a common baseline, and inference uses a parametric bootstrap. We also provide a complementary non-parametric rank-permutation test for sparse datasets. In simulations, the pooled G2 test became increasingly anti-conservative as mutation depth increased, with false-positive rates approaching 100% under the null hypothesis. RP-DMM maintained Type I error near the nominal 5% level and had substantially greater power than the rank-permutation test. Regularization was most consequential for high-dimensional spectra. False positive rates approached the nominal 5% level once the lower-mutation group contained approximately 300-500 mutations, depending on the number of biological replicates. A practical target of approximately 400 mutations in the lower-mutation group provided robust Type I error control across all scenarios examined; below this, the rank-permutation test performed robustly and is preferred. In Duplex Sequencing data from benzo[a]pyrene-exposed mice, RP-DMM distinguished exposure-associated mutational signatures from comparisons with higher mutation counts but null effect size, whereas the pooled G2 test declared all comparisons significant. The cross-validated penalty decreased as mutation depth increased, indicating that regularization strength should be tuned to the data. The framework is implemented in the MutSeqR R package.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "096a573a39230852904e0defa66ec62c1f65bd40e17e3f431a89ec6ca7287e5a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72316-9",
