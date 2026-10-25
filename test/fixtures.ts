@@ -1,7 +1,7 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import type { Article, Snapshot } from "../src/data-model.ts";
+import type { Article, Shard, Snapshot } from "../src/data-model.ts";
 import { sha256 } from "../scripts/data.ts";
 
 export async function writeFixture(root: string, generatedAt = new Date().toISOString()): Promise<Snapshot> {
@@ -60,6 +60,26 @@ export async function writeFixture(root: string, generatedAt = new Date().toISOS
     snapshot.article_files.push({ path: file, count: articles.length, sha256: sha256(bytes) });
   }
   await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot, null, 2) + "\n");
+  return snapshot;
+}
+
+export async function writeAliasFixture(root: string): Promise<Snapshot> {
+  const snapshot = await writeFixture(root);
+  for (const entry of snapshot.article_files) {
+    const shard: Shard = JSON.parse(await readFile(path.join(root, entry.path), "utf8"));
+    for (const article of shard.articles) {
+      if (article.id === sha256("required")) article.identity_keys.push("retained", "https://example.org/retained");
+      if (article.id === sha256("retained")) {
+        article.canonical_id = sha256("required");
+        article.identity_keys = [];
+        article.title = "Stale duplicate title";
+      }
+    }
+    const bytes = JSON.stringify(shard);
+    entry.sha256 = sha256(bytes);
+    await writeFile(path.join(root, entry.path), bytes);
+  }
+  await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot));
   return snapshot;
 }
 

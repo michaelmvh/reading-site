@@ -7,6 +7,7 @@ export interface Source {
 
 export interface Article {
   id: string;
+  canonical_id?: string;
   identity_keys: string[];
   title: string;
   link: string | null;

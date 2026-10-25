@@ -8,7 +8,7 @@ import { buildSite } from "../scripts/build.ts";
 import { renderArticle, renderFeed, renderRss, Site } from "../scripts/render.ts";
 import { rssChannel, validateSite } from "../scripts/validate-site.ts";
 import { checkFreshness } from "../scripts/monitor.ts";
-import { writeFixture } from "./fixtures.ts";
+import { writeAliasFixture, writeFixture } from "./fixtures.ts";
 
 test("discovery labels cover every provider without duplicating tracked-author explanations", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "reader-provenance-"));
@@ -55,6 +55,28 @@ test("discovery labels cover every provider without duplicating tracked-author e
     assert.ok(!trackedHtml.includes("Discovered via"));
     assert.ok(trackedHtml.includes("Preprint source:"));
     assert.ok(trackedHtml.includes("Curated by"));
+  } finally { await rm(root, { recursive: true }); }
+});
+
+test("old article URLs render canonical content without JavaScript or duplicate feed entries", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "reader-alias-build-"));
+  try {
+    const source = path.join(root, "data");
+    await writeAliasFixture(source);
+    const data = await loadData(source);
+    const site = new Site("https://example.org/reading-site/");
+    const output = path.join(root, "site");
+    await buildSite(data, output, site);
+    await validateSite(output, data, site);
+    const canonical = await readFile(path.join(output, `article/${sha256("required")}/index.html`), "utf8");
+    const alias = await readFile(path.join(output, `article/${sha256("retained")}/index.html`), "utf8");
+    assert.equal(alias, canonical);
+    assert.ok(alias.includes(`<link rel="canonical" href="${site.absolute(`article/${sha256("required")}/`)}">`));
+    assert.ok(alias.includes("Required Author"));
+    assert.ok(!alias.includes("Stale duplicate title"));
+    const rss = renderRss(site, data, data.snapshot.feeds[0]);
+    assert.ok(!rss.includes(`urn:sha256:${sha256("retained")}`));
+    assert.equal((rss.match(new RegExp(`urn:sha256:${sha256("required")}`, "g")) ?? []).length, 1);
   } finally { await rm(root, { recursive: true }); }
 });
 

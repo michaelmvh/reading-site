@@ -70,6 +70,12 @@ export async function loadData(root: string): Promise<Dataset> {
       articles.set(article.id, article);
     }
   }
+  for (const article of articles.values()) {
+    if (article.canonical_id) {
+      const target = articles.get(article.canonical_id);
+      if (!target || target.canonical_id) throw new Error(`Article ${article.id}: canonical_id must reference an existing canonical article`);
+    }
+  }
   const feeds = snapshot.feeds.map((feed) => feed.id);
   if (new Set(feeds).size !== feeds.length || !feeds.includes(snapshot.default_feed)) throw new Error("Invalid default or duplicate feed");
   for (const feed of snapshot.feeds) {
@@ -82,6 +88,7 @@ export async function loadData(root: string): Promise<Dataset> {
     for (const id of feed.article_ids) {
       const article = articles.get(id);
       if (!article || !Object.hasOwn(feed.matches, id)) throw new Error("Feed references a missing article or association");
+      if (article.canonical_id) throw new Error("Feed references an article alias instead of its canonical article");
       if (feed.matches[id].some((author) => !authors.includes(author))) throw new Error("Feed references an unknown tracked author");
       if (!article.discovery_sources.some((source) => sources.includes(sourceKey(source)))) {
         throw new Error(
@@ -97,8 +104,14 @@ export async function loadData(root: string): Promise<Dataset> {
 
 export function validateTransition(current: Dataset, previous: Dataset, allowShrink: boolean): void {
   if (Date.parse(current.snapshot.generated_at) < Date.parse(previous.snapshot.generated_at)) throw new Error("Refusing an older snapshot");
-  for (const id of previous.articles.keys()) {
-    if (!current.articles.has(id)) throw new Error("Retained article disappeared; archive removal needs an explicit migration");
+  for (const [id, old] of previous.articles) {
+    const retained = current.articles.get(id);
+    if (!retained) throw new Error("Retained article disappeared; archive removal needs an explicit migration");
+    const before = previous.articles.get(old.canonical_id ?? id)!;
+    const after = current.articles.get(retained.canonical_id ?? id)!;
+    if (before.identity_keys.some((key) => !after.identity_keys.includes(key))) {
+      throw new Error(`Retained article ${id} lost source identities or points to an unrelated canonical article`);
+    }
   }
   if (!allowShrink) {
     for (const old of previous.snapshot.feeds) {

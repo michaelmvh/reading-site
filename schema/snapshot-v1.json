@@ -25,7 +25,8 @@
       "required": ["id", "identity_keys", "title", "link", "pdf_url", "publication_date", "publication_date_precision", "collection_date", "venue", "authors", "abstract_text", "discovery_sources", "curated_categories"],
       "properties": {
         "id": { "$ref": "#/definitions/id" },
-        "identity_keys": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/definitions/text" } },
+        "canonical_id": { "$ref": "#/definitions/id" },
+        "identity_keys": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/text" } },
         "title": { "$ref": "#/definitions/text" },
         "link": { "$ref": "#/definitions/nullableUrl" },
         "pdf_url": { "$ref": "#/definitions/nullableUrl" },
@@ -51,7 +52,10 @@
         "abstract_text": { "$ref": "#/definitions/nullableText" },
         "discovery_sources": { "type": "array", "items": { "$ref": "#/definitions/source" } },
         "curated_categories": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/text" } }
-      }
+      },
+      "if": { "properties": { "canonical_id": {} }, "required": ["canonical_id"] },
+      "then": { "properties": { "identity_keys": { "type": "array", "maxItems": 0 } } },
+      "else": { "properties": { "identity_keys": { "type": "array", "minItems": 1 } } }
     },
     "feed": {
       "type": "object",

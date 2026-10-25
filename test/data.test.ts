@@ -4,7 +4,8 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import test from "node:test";
 import { loadData, sha256, validateTransition } from "../scripts/data.ts";
-import { writeFixture } from "./fixtures.ts";
+import { writeAliasFixture, writeFixture } from "./fixtures.ts";
+import type { Shard } from "../src/data-model.ts";
 
 test("schema, checksums, reference integrity, and private-file guards are enforced", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "reader-data-"));
@@ -84,5 +85,64 @@ test("valid checksums do not excuse private fields or unsafe article URLs", asyn
       await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot));
       await assert.rejects(loadData(root), /Invalid article shard/);
     }
+  } finally { await rm(root, { recursive: true }); }
+});
+
+test("retained aliases preserve transitions and reject missing, chained, or ambiguous ownership", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "reader-alias-"));
+  try {
+    await writeFixture(root);
+    const previous = await loadData(root);
+    const snapshot = await writeAliasFixture(root);
+    const current = await loadData(root);
+    validateTransition(current, previous, false);
+    const id = sha256("retained");
+    assert.equal(current.articles.get(id)?.canonical_id, sha256("required"));
+    const lostIdentity = structuredClone(current);
+    lostIdentity.articles.get(sha256("required"))!.identity_keys = ["required"];
+    assert.throws(() => validateTransition(lostIdentity, current, false), /lost source identities/);
+    const reassignedAlias = structuredClone(current);
+    reassignedAlias.articles.get(id)!.canonical_id = sha256("optional");
+    assert.throws(() => validateTransition(reassignedAlias, current, false), /unrelated canonical article/);
+    const entry = snapshot.article_files.find((file) => file.path === `articles/${id.slice(0, 2)}.json`)!;
+    const valid: Shard = JSON.parse(await readFile(path.join(root, entry.path), "utf8"));
+    for (const [canonical, keys, error] of [
+      [sha256("missing"), [], /existing canonical article/],
+      [id, [], /existing canonical article/],
+      [sha256("required"), ["retained"], /Invalid article shard/],
+      [undefined, [], /Invalid article shard/],
+    ] as const) {
+      const shard = structuredClone(valid);
+      const alias = shard.articles.find((article) => article.id === id)!;
+      alias.canonical_id = canonical;
+      alias.identity_keys = [...keys];
+      const bytes = JSON.stringify(shard);
+      entry.sha256 = sha256(bytes);
+      await writeFile(path.join(root, entry.path), bytes);
+      await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot));
+      await assert.rejects(loadData(root), error);
+    }
+    const aliasSnapshot = await writeAliasFixture(root);
+    aliasSnapshot.feeds[0].article_ids[0] = id;
+    delete aliasSnapshot.feeds[0].matches[sha256("required")];
+    aliasSnapshot.feeds[0].matches[id] = [];
+    await writeFile(path.join(root, "snapshot.json"), JSON.stringify(aliasSnapshot));
+    await assert.rejects(loadData(root), /Feed references an article alias/);
+    const chain = await writeAliasFixture(root);
+    for (const file of chain.article_files) {
+      const shard: Shard = JSON.parse(await readFile(path.join(root, file.path), "utf8"));
+      for (const article of shard.articles) {
+        if (article.id === id) article.canonical_id = sha256("optional");
+        if (article.id === sha256("optional")) {
+          article.canonical_id = sha256("required");
+          article.identity_keys = [];
+        }
+      }
+      const bytes = JSON.stringify(shard);
+      file.sha256 = sha256(bytes);
+      await writeFile(path.join(root, file.path), bytes);
+    }
+    await writeFile(path.join(root, "snapshot.json"), JSON.stringify(chain));
+    await assert.rejects(loadData(root), /existing canonical article/);
   } finally { await rm(root, { recursive: true }); }
 });
