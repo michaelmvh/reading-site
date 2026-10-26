@@ -6917,6 +6917,43 @@
       "curated_categories": []
     },
     {
+      "id": "06f4b208e5dcbb6c4f055659e5fbad5cdc95e6897bdd07b01034a858f9676f68",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.31.748319v3",
+        "https://doi.org/10.64898/2026.08.31.748319",
+        "https://www.biorxiv.org/content/early/2026/09/04/2026.08.31.748319.source.xml",
+        "https://www.biorxiv.org/content/early/2026/09/09/2026.08.31.748319.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.08.31.748319.source.xml"
+      ],
+      "title": "BROOQS: Quartet-based Resolution of Level-1 Hybridization Cycles without Tests of Symmetry",
+      "link": "https://doi.org/10.64898/2026.08.31.748319",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748319v3.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "arasti",
+          "name": "Arasti, S"
+        },
+        {
+          "key": "mirarab",
+          "name": "Mirarab, S"
+        }
+      ],
+      "abstract_text": "Modern phylogenomic analyses often seek to reconstruct both vertical and reticulate evolutionary histories. While the prevalence of non-vertical evolution is increasingly appreciated, inferring networks remains conceptually challenging and computationally demanding. Following the success of quartet-based methods for species tree inference despite gene tree discordance, several quartet-based network inference methods have been developed. Most of these quartet-based methods boil down to detecting asymmetry in minor quartet frequencies, often using statistical tests to control for noise. However, these approaches have not yet been amenable to dynamic programming algorithms used in species tree inference for search, nor have they allowed efficient calculation of statistics across all quartets without listing all quartets. Instead, existing methods either enumerate all quartets, losing some scalability, or subsample them, losing information. For search, an effective recently developed strategy for level-1 networks is to first build a multifurcating tree called a tree-of-blobs and then resolve each polytomy into a cycle. This two-step approach makes the problem easier both conceptually and computationally. However, resolving blobs still requires either subsampling quartets or sacrificing scalability. We introduce BROOQS, a quartet-based method for resolving trees of blobs into a level-1 phylogenetic network. BROOQS efficiently aggregates information from all quartets around a blob in quadratic time and builds a pairwise similarity matrix that we prove encodes the cyclic ordering around the blob without relying on individual quartet symmetry tests. To recover the order from the matrix, we use two approaches. BROOQS-PQtree uses an existing combinatorial method, which allows us to prove statistical consistency under the network multi-species coalescent (NMSC) model for blobs of size 5 to 15. BROOQS-Spectral uses a spectral algorithm, which we conjecture (but have not proved) is consistent in similar conditions based on our simulations, and shows better robustness to noise than BROOQS-PQtree. Across simulated and empirical datasets, BROOQS-Spectral consistently improves accuracy and scalability compared to existing methods and extends to thousands of taxa.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "06f7b1702a817a8aa1192c19d3e6b51014273bba65505319a2ab50c1ce2f2720",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68926-y",
