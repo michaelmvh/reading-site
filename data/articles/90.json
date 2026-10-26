@@ -6624,6 +6624,65 @@
         }
       ],
       "curated_categories": []
+    },
+    {
+      "id": "90fed9e09a0147a2402d1c9e597d9aee47445bcf6a4615a0ed1910c3e7591b0c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.04.23.720348v2",
+        "https://doi.org/10.64898/2026.04.23.720348",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.04.23.720348.source.xml"
+      ],
+      "title": "Generative augmentation recovers prognostic disease signatures from underpowered transcriptomic datasets",
+      "link": "https://doi.org/10.64898/2026.04.23.720348",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720348v2.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sethi",
+          "name": "Sethi, T"
+        },
+        {
+          "key": "anand",
+          "name": "Anand, A"
+        },
+        {
+          "key": "pratiti",
+          "name": "Pratiti, M"
+        },
+        {
+          "key": "ali",
+          "name": "Ali, S. Y"
+        },
+        {
+          "key": "kamra",
+          "name": "Kamra, S"
+        },
+        {
+          "key": "verma",
+          "name": "Verma, S"
+        },
+        {
+          "key": "singh",
+          "name": "Singh, S"
+        },
+        {
+          "key": "bajaj",
+          "name": "Bajaj, T"
+        }
+      ],
+      "abstract_text": "Identifying reliable gene-expression signatures from small transcriptomic datasets remains challenging. We present GeneLift, a framework that augments underpowered datasets using Gaussian mixture modelling in an analytically invertible latent space, retains genes reproducibly recovered across augmentations, and dates each against the literature using EvidenceClock, a Bayesian PubMed co-occurrence score, as antecedent, subsequent or unreported. Across 52 microarray and RNA-seq datasets spanning breast cancer, ovarian cancer, diabetes, sepsis and tuberculosis, GeneLift recovered candidate genes missed by standard differential expression analysis in all five diseases, including 326 in breast cancer and 976 in ovarian cancer. These candidates carried disease-specific literature support, including genes reported up to 18 years later such as the survival-associated ARL4D, and stratified overall survival in independent cohorts: TCGA-BRCA and METABRIC (log-rank P=6e-21 and 1e-42) and TCGA high-grade serous ovarian cancer (P=1e-37). In benchmarking, Gaussian mixture modelling outperformed more computationally intensive transformer-based generative adversarial networks. Together, GeneLift and EvidenceClock provide an efficient, reproducible framework for recovering prognostically informative signatures from underpowered transcriptomic studies.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }
