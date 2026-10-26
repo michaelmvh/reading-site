@@ -3357,42 +3357,42 @@
       ],
       "title": "Chain of Structures: Connecting Reasoning and Generation for Protein Design",
       "link": "https://doi.org/10.64898/2026.10.09.758133",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758133v2.full.pdf",
-      "publication_date": "2026-10-18",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/11/2026.10.09.758133.full.pdf",
+      "publication_date": "2026-10-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "cai",
-          "name": "Cai, Q"
+          "key": "cai qingran",
+          "name": "Qingran Cai"
         },
         {
-          "key": "xu",
-          "name": "Xu, M"
+          "key": "mingyang xu",
+          "name": "Mingyang Xu"
         },
         {
-          "key": "yan",
-          "name": "Yan, J"
+          "key": "jiaxian yan",
+          "name": "Jiaxian Yan"
         },
         {
-          "key": "wang",
-          "name": "Wang, Z"
+          "key": "wang zhicai",
+          "name": "Zhicai Wang"
         },
         {
-          "key": "liu",
-          "name": "Liu, Y"
+          "key": "liu yufeng",
+          "name": "Yufeng Liu"
         },
         {
-          "key": "pei",
-          "name": "Pei, Q"
+          "key": "pei qizhi",
+          "name": "Qizhi Pei"
         },
         {
-          "key": "zhang",
-          "name": "Zhang, Z"
+          "key": "zaixi zhang",
+          "name": "Zaixi Zhang"
         }
       ],
-      "abstract_text": "Scientific design requires reasoning in scientific spaces that represent the objects being designed. Building on Scinetics' Chain of Science Tokens, we present chain-of-structures (COS) as a concrete protein-design case study that connects reasoning and generation through explicit structural states. In this technical report, we apply COS to enzyme design, where catalytic function requires precise local geometry within a compatible global fold, making it a demanding test of reasoning from chemical requirements to protein structure. Starting from a reaction specification and target length, COS couples a language reasoning expert with an all-atom generation expert across four rounds: catalytic core, active site, global backbone, and complete sequence and structure. Each reasoning state directly conditions generation, and the resulting structure becomes context for the next decision. Discrete residue constraints and continuous latents connect the two experts, enabling structural supervision of the reasoning interface. On the evaluated benchmark, COS leads the compared baselines on five of six metrics, achieving 57.0% EC3 agreement and a TM-score of 0.729.",
+      "abstract_text": "Abstract Scientific design requires reasoning in scientific spaces that represent the objects being designed. Building on Scinetics’ Chain of Science Tokens , we present chain-of-structures (COS) as a concrete protein-design case study that connects reasoning and generation through explicit structural states. In this technical report, we apply COS to enzyme design, where catalytic function requires precise local geometry within a compatible global fold, making it a demanding test of reasoning from chemical requirements to protein structure. Starting from a reaction specification and target length, COS couples a language reasoning expert with an all-atom generation expert across four rounds: catalytic core, active site, global backbone, and complete sequence and structure . Each reasoning state directly conditions generation, and the resulting structure becomes context for the next decision. Discrete residue constraints and continuous latents connect the two experts, enabling structural supervision of the reasoning interface. On the evaluated benchmark, COS leads the compared baselines on five of six metrics, achieving 57.0% EC3 agreement and a TM-score of 0.729.",
       "discovery_sources": [
         {
           "kind": "open_alex",
