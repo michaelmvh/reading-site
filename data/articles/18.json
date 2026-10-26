@@ -3564,6 +3564,41 @@
       "curated_categories": []
     },
     {
+      "id": "18a9baf256eb0533e1393cfadb18ceb4959d0b9404215b2782a04dde41d80b74",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.760383v1",
+        "https://doi.org/10.64898/2026.10.21.760383",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760383.source.xml"
+      ],
+      "title": "flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences",
+      "link": "https://doi.org/10.64898/2026.10.21.760383",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sablok",
+          "name": "Sablok, G"
+        },
+        {
+          "key": "de stefanis",
+          "name": "de Stefanis, F"
+        }
+      ],
+      "abstract_text": "Python ecosystem dominates the deep learning framework. flodl-bio is a Rust crate that extends flodl, a libtorch-backed deep-learning framework, with deep learning on biological sequences. To our knowledge, flodl-bio is the first Rust crate that provides a comprehensive and practical deep learning for the biological applications, which includes the alphabet-aware sequence encoding, including one-hot and k-mer representations, padded sequences, and channels-first batches. It also includes several FASTA parsing and graph construction utilities for adjacency matrices, GCN-normalised adjacency matrices, graph Laplacians, residue contact maps, and de Bruijn graphs. Among the added functionalities, it includes AUROC and AUPRC with their associated curves; classification metrics, and the export of learned convolutional filters as MEME motifs and seeded splits. Deep biological learning includes a multi-width motif CNN, a dilated residual CNN, bidirectional LSTM and GRU architectures, and transformer encoder. On the five human transcription-factor-binding datasets in the GUE benchmark, a motif CNN with approximately 10,000 parameters, trained from scratch, outperforms all published CNN baselines. It also superseded the 2.5-billion-parameter Nucleotide Transformer on two datasets and DNABERT-2 on one. Given a fixed hardware configuration and software stack, experiments are reproducible at the bit level. See Supplementary Table S2 of Supplementary Material. flodl-bio is written in Rust and released under the MIT licence at https://github.com/sablokg/flodl-bio. The core builds with stable Rust and has no dependencies. The model tier is enabled with the flodl Cargo feature (cuda for NVIDIA GPUs) and requires libtorch and Rust 1.91 or later. The evaluation harness is in the repository's experiments directory, and the complete run outputs are archived at https://doi.org/10.5281/zenodo.23321850",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "18b3c93365dcebff0d1db357d27517d37e5ff04990c994a94fce785f38f233ac",
       "identity_keys": [
         "https://doi.org/10.1002/advs.202406305",

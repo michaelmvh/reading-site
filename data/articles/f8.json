@@ -2914,6 +2914,49 @@
       "curated_categories": []
     },
     {
+      "id": "f8a30332e947369f4a4557a0a9c1e70297dc9969b521711e05a634e756d042cd",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.760716v1",
+        "https://doi.org/10.64898/2026.10.21.760716",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760716.source.xml"
+      ],
+      "title": "Prediction transfer does not imply reliability transfer in single-cell foundation models",
+      "link": "https://doi.org/10.64898/2026.10.21.760716",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760716v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "park",
+          "name": "Park, H. J"
+        },
+        {
+          "key": "sriram",
+          "name": "Sriram, A"
+        },
+        {
+          "key": "luo",
+          "name": "Luo, T"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        }
+      ],
+      "abstract_text": "Single-cell foundation models are increasingly transferred across tissues, diseases, perturbation screens, and experimental platforms. Although substantial effort has focused on prediction transfer, it remains unclear whether a model's assessment of its own reliability transfers similarly across biological contexts. Here we define reliability transfer as the ability to transfer an accurate assessment of when model predictions are likely to be correct or incorrect and investigate its behavior across ten perturbation-prediction systems spanning multiple datasets, models, and evaluation settings. We find that reliability transfer varies substantially across source-target pairs and cannot be inferred from predictive performance alone, indicating that prediction transfer and reliability transfer constitute distinct forms of generalization. Analyses of biological annotations, network connectivity, target exposure, and contextual factors reveal that prediction reliability is associated with both shared and context-dependent signals, with their relative importance differing across systems. To characterize this variability, we introduce reliability-attribution fingerprints, context-level signatures derived from strictly cross-fitted SHAP explanations that summarize how reliability estimators combine biological and contextual information when assigning confidence. Across systems, contexts with similar attribution-magnitude fingerprints tended to transfer reliability more successfully, and fingerprint similarity identified transfer sources achieving higher reliability-transfer performance within the observed candidate set. However, these relationships weakened under stricter cross-family transfer settings, indicating that transferable reliability structure remains partly dependent on shared contextual information. Finally, transferred reliability estimators produced different perturbation rankings despite identical perturbation predictions, illustrating a practical consequence of reliability transfer for downstream prioritization. Together, these results establish reliability transfer as a distinct aspect of foundation-model generalization and introduce reliability-attribution fingerprints as a framework for characterizing transferable reliability structure across biological contexts.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f8aa69dd34c4f9c49f1a2676c32e1727ed99c71a74b6405c38b3e420c785e3e7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67900-4",
