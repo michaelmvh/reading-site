@@ -4971,13 +4971,15 @@
       "id": "c0eceec2a4436bb927d2b7859d94b52e2cce623b6a1f5e6473a8f96a7a6e945c",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.15.759394v1",
+        "biorxiv:10.64898/2026.10.15.759394v2",
         "https://doi.org/10.64898/2026.10.15.759394",
-        "https://www.biorxiv.org/content/early/2026/10/18/2026.10.15.759394.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/18/2026.10.15.759394.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/25/2026.10.15.759394.source.xml"
       ],
-      "title": "RiboBridge couples RNA backbone generation to sequence design through a learned interaction topology",
+      "title": "RiboCouple links RNA backbone generation to sequence design through a learned interaction topology",
       "link": "https://doi.org/10.64898/2026.10.15.759394",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759394v1.full.pdf",
-      "publication_date": "2026-10-18",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759394v2.full.pdf",
+      "publication_date": "2026-10-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -4991,7 +4993,7 @@
           "name": "Zheng, Y"
         }
       ],
-      "abstract_text": "Designing ribonucleic acid (RNA) molecules with prescribed structures and functions is central to RNA engineering. Backbone-first approaches generate three-dimensional geometry before assigning a nucleotide sequence, yet leave open how that geometry should be represented for downstream sequence design. Here we introduce RiboBridge, which infers a probabilistic residue-pair state from backbone geometry, recycles binary pair probabilities through a second pass and transfers binary and typed signals as soft attention biases for sequence decoding. On 550 generated backbones, pair-type decoding achieved joint refolding validity of 0.451 versus 0.335 for an architecture-matched topology-free decoder. On a matched 110-backbone intervention cohort, replacing aligned pair states with exact-length donors matched on pair-state statistics reduced joint validity from 0.464 to 0.214, showing backbone alignment matters. Pair-confidence ranking enriched the joint-validity rate from 0.451 overall to 0.596 among the top 248 before external refolding, with the same ranking signal transferring to independently generated RFDpoly and RNA-FrameFlow backbones. On 53 experimentally determined backbones, pair-coupled decoding improved secondary-structure agreement relative to residue-wise argmax. These results support a learned relational interface between sequence-free backbone generation and sequence design.",
+      "abstract_text": "Designing RNAs with prescribed structures is central to RNA engineering. Backbone-first approaches generate geometry before sequence assignment, yet how to transfer relational information to sequence design remains unclear. We introduce RiboCouple, which infers a probabilistic residue-pair state from backbone geometry, recycles pair probabilities through a second pass and transfers them to sequence decoding as soft attention biases. On 550 generated backbones, pair-type decoding achieved joint refolding validity of 45.1 percent versus 33.5 percent for a matched topology-free decoder. In another 110-backbone cohort, replacing aligned pair states with statistics-matched donor states reduced validity from 46.4 percent to 21.4 percent, demonstrating that decoding depends on backbone-aligned relational information. Before external refolding, pair-confidence ranking enriched validity to 59.6 percent in the top 248 and transferred to other generators; on a 94-chain temporally held-out native-backbone benchmark, pair-coupled decoding improved secondary-structure agreement. These findings establish backbone-inferred interaction topology as an intermediate representation connecting backbone generation, sequence decoding, and candidate prioritization.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

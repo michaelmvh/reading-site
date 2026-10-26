@@ -3260,6 +3260,48 @@
       "curated_categories": []
     },
     {
+      "id": "f46ffee2ff128280d952d3f7fefb2a75b862a71426689ff613e6790c0f734076",
+      "identity_keys": [
+        "arxiv:2606.00555",
+        "https://doi.org/10.48550/arXiv.2606.00555"
+      ],
+      "title": "Probe Before You Edit: Probing-Guided Molecular Optimization for LLM Agents in Structure-Based Drug Design",
+      "link": "https://doi.org/10.48550/arXiv.2606.00555",
+      "pdf_url": "https://arxiv.org/pdf/2606.00555",
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "yang zaifei",
+          "name": "Zaifei Yang"
+        },
+        {
+          "key": "chen weiyu",
+          "name": "Weiyu Chen"
+        },
+        {
+          "key": "wang yaqing",
+          "name": "Yaqing Wang"
+        },
+        {
+          "key": "james kwok",
+          "name": "James Kwok"
+        }
+      ],
+      "abstract_text": "Structure-based drug design increasingly employs LLM agents to iteratively refine ligands against a target pocket, yet a viable ligand must satisfy two often-conflicting objectives---binding affinity and druggability---which single optimization steps rarely improve together. To quantify this difficulty, we introduce two diagnostic metrics: the first measures how often a single edit improves both objectives, and the second measures how often a gain on one objective comes with a loss on the other. Applying these diagnostics to current LLM-agent pipelines exposes a consistent failure mode: the agent performs molecular editing without knowing how the pocket-ligand complex responds to local modifications, thus rarely achieving joint improvement. Inspired by medicinal chemists, who probe the pocket-ligand complex with controlled analog edits before choosing an optimization direction, we propose \\textbf{PROBE}, an optimization framework built around edit--response probing. PROBE first decomposes the ligand into editable sites and builds a pocket-specific \\textbf{site map} that flags where joint gains are plausible, where the two objectives are likely in tension, and where liability substructures should be changed; it then performs controlled probe edits whose responses are distilled into an \\textbf{EditManual}. Guided by the site map and EditManual, PROBE runs an iterative multi-agent optimization loop. On the CrossDocked2020 benchmark, PROBE achieves state-of-the-art performance and substantially mitigates the failure modes exposed by our diagnostics metrics. Codes are in https://github.com/yzf-code/PROBE/tree/main",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f47267595f97b9dc81d5644ec4572b9c3cd9f040261733aab08540f54d9f65cb",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70608-8",

@@ -1082,6 +1082,36 @@
       "curated_categories": []
     },
     {
+      "id": "d22a4491cddf82849b8c121ef3abd7b6117307d022674f13d26bce765076cc54",
+      "identity_keys": [
+        "arxiv:2610.32962",
+        "https://doi.org/10.48550/arXiv.2610.32962"
+      ],
+      "title": "Shared clones make random cell halves look reproducible in pooled screens",
+      "link": "https://doi.org/10.48550/arXiv.2610.32962",
+      "pdf_url": "https://arxiv.org/pdf/2610.32962",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "huang xuanrui",
+          "name": "Xuanrui Huang"
+        }
+      ],
+      "abstract_text": "Single-cell perturbation screens are used to train and evaluate models that predict perturbation effects, and model scores are judged against how reproducible the measured effects are. Reproducibility is usually judged by splitting each perturbation's cells into two random halves. This assumes that the halves are independent replicates. In pooled screens such as Perturb-seq, however, the cells carrying a guide RNA descend from a limited number of transduced cells, so two random halves contain the same clones: pseudoreplication whose unit is not marked in the data. Using perturbations that should have no effect as controls, we compared random halves with independent replicates from separate transductions, and tested directly with halves that differ only in their clones. In a genome-scale screen of primary T cells, null perturbations agreed between random halves almost always and between independent replicates only half the time, the rate expected from noise alone; measuring more cells did not remove this agreement. Splitting the cells into halves that share no clone, by the T-cell receptor constant region or by a clone barcode, largely removed the excess agreement. Its size equals the share of expression differences set by clones divided by the effective number of clones per perturbation; across 16 screens it was largest in T cells transferred into mice and in a genome-scale primary T-cell screen, one to two orders of magnitude smaller in cell lines, and smallest in non-dividing neurons. Shared clones inflate benchmark ceilings and reliability labels, and when a model's input and its scoring answer come from one transduction, published models that predict perturbation effects in a new cell state appear better than a baseline that ignores the perturbation; against cells from another transduction, most fall below it. Reproducibility should be judged across separate transductions.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d22b22c8f83b8d0f4c344404b4ecf40d7b1dfb85ccc6a050ab06a151c1ff48d6",
       "identity_keys": [
         "arxiv:2610.30287",

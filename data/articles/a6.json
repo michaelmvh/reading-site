@@ -3059,6 +3059,46 @@
       "curated_categories": []
     },
     {
+      "id": "a67d035296a768b83487d9d3deef4a958ef6dd2df051634bf27a37e7620af3f2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.03.28.714542v2",
+        "https://doi.org/10.64898/2026.03.28.714542",
+        "https://www.biorxiv.org/content/early/2026/03/31/2026.03.28.714542.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.03.28.714542.source.xml"
+      ],
+      "title": "scTGCL: A Transformer-Based Graph Contrastive Learning Approach for Efficiently Clustering Single-Cell RNA-seq Data",
+      "link": "https://doi.org/10.64898/2026.03.28.714542",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.28.714542v2.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "khan",
+          "name": "Khan, M. S. A"
+        },
+        {
+          "key": "kabir",
+          "name": "Kabir, M. H"
+        },
+        {
+          "key": "faisal",
+          "name": "Faisal, M. M"
+        }
+      ],
+      "abstract_text": "Motivation: Single-cell RNA sequencing (scRNA-seq) enables characterization of cellular heterogeneity at unprecedented resolution. However, accurate clustering of scRNA-seq data remains challenging due to high dimensionality, dropout-induced sparsity, and technical noise. Existing contrastive learning methods usually create augmented views by perturbing gene expression values, so the uncertainty in cell-cell relationships caused by dropout events is not properly modeled. Results: We propose scTGCL, a novel Transformer-based graph contrastive learning framework that learns robust and discriminative cell representations directly from gene expression data. scTGCL employs multi-head self-attention to adaptively construct weighted cell-cell graphs and a Transformer encoder to generate cell embeddings from them, capturing diverse biological relationships. For contrastive augmentation, we apply feature-level gene masking together with attention masking that randomly drops edges of the learned attention matrices, enabling the model to withstand dropout events and technical noise. A symmetric contrastive loss maximizes agreement between original and augmented representations, while joint optimization with reconstruction and imputation losses preserves biological interpretability. Extensive experiments on twenty real and simulated scRNA-seq datasets demonstrate that scTGCL achieves the highest average performance among nine state-of-the-art baseline methods in clustering accuracy, normalized mutual information, and adjusted Rand index, while also achieving superior imputation performance and substantially lower runtime on large-scale datasets. Furthermore, biological analysis confirms that the learned clusters align with known cell types and yield biologically interpretable pathway enrichment, validating the utility of scTGCL for downstream cell annotation and marker gene discovery. Availability and Implementation: The source code and test data are freely available at GitHub (https://github.com/ShoaibAbdullahKhan/scTGCL)",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a67d4baf9d48cef13cb061ad69c4ba1a1b49bc938f397655dc76f16380c5f9d8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67841-y",

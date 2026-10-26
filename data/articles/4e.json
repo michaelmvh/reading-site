@@ -3649,6 +3649,45 @@
       "curated_categories": []
     },
     {
+      "id": "4e7bb860ec1dc0d1db56974425d8c2c389d564e8924ad94c7ba9ad54621a03ca",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.20.759648v1",
+        "https://doi.org/10.64898/2026.10.20.759648",
+        "https://www.biorxiv.org/content/early/2026/10/25/2026.10.20.759648.source.xml"
+      ],
+      "title": "A Pan-Cancer Benchmark of Clustering Strategies for Patient-Specific Gene Regulatory Networks",
+      "link": "https://doi.org/10.64898/2026.10.20.759648",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.759648v1.full.pdf",
+      "publication_date": "2026-10-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sarantidis",
+          "name": "Sarantidis, P"
+        },
+        {
+          "key": "belova",
+          "name": "Belova, T"
+        },
+        {
+          "key": "kuijjer",
+          "name": "Kuijjer, M"
+        }
+      ],
+      "abstract_text": "Cancer patients with clinically similar tumors can exhibit substantial differences in disease progression and treatment response. Patient-specific gene regulatory networks (GRNs) may capture regulatory heterogeneity that is not represented by gene expression alone. However, strategies for clustering patients using these high-dimensional networks have not been systematically evaluated and it remains unclear whether clustering based directly on millions of patient-specific regulatory edge weights is computationally feasible at scale. We benchmarked feature-selection and clustering approaches for patient-specific GRNs inferred with PANDA and LIONESS across 9,778 primary tumor samples from 33 cancer types. We compared three data representations: gene expression, gene indegrees summarizing regulatory input to each gene, and complete networks of transcription factor-gene edge weights. Twenty combinations of four feature-selection methods and five clustering algorithms were evaluated using consensus clustering. Performance was assessed based on mean silhouette score, PAC score, concordance, computational time, and memory usage. Standard deviation-based feature selection combined with k-means clustering achieved the strongest overall performance for both GRN-derived representations, with overall scores of 0.997 for edge weights and 0.985 for indegrees, while remaining computationally efficient. Edge-weight- and indegree-derived clusters showed clinical, biological, and prognostic associations that were complementary to those obtained from gene expression. Together, these findings provide a practical framework for network-based cancer patient stratification and highlight the potential of GRN-derived features to reveal clinically relevant tumor heterogeneity beyond gene expression alone.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e82e389e41947477425ec65b4b8e2a2183e674820443757c003ad83db077735",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74463-5",
@@ -5118,6 +5157,62 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4eadaeb1cd4c5972af75f2ffe94db30295504a29f5c1bfcce1ae094d25e53dc7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.03.04.709512v2",
+        "https://doi.org/10.64898/2026.03.04.709512",
+        "https://www.biorxiv.org/content/early/2026/03/06/2026.03.04.709512.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/25/2026.03.04.709512.source.xml"
+      ],
+      "title": "A latent space thermodynamic model of cell differentiation",
+      "link": "https://doi.org/10.64898/2026.03.04.709512",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709512v2.full.pdf",
+      "publication_date": "2026-10-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "poursina",
+          "name": "Poursina, A"
+        },
+        {
+          "key": "hajhashemi",
+          "name": "Hajhashemi, S"
+        },
+        {
+          "key": "saberi",
+          "name": "Saberi, A"
+        },
+        {
+          "key": "mikaeili namini",
+          "name": "Mikaeili Namini, A"
+        },
+        {
+          "key": "madrigal",
+          "name": "Madrigal, A"
+        },
+        {
+          "key": "emad",
+          "name": "Emad, A"
+        },
+        {
+          "key": "najafabadi",
+          "name": "Najafabadi, H. S"
+        }
+      ],
+      "abstract_text": "Inferring the governing dynamics of differentiation that capture cell state evolution remains a central challenge in single-cell biology. We present Single-Cell Latent Space Dynamics (scLSD), a thermodynamics-inspired framework that models cell differentiation as evolution on a learned Waddington landscape in latent space. scLSD jointly infers a low-dimensional cell state, a differentiable potential function governing developmental flow, and a local entropy term that associates with cellular plasticity. Using a neural ordinary differential equation, scLSD reconstructs continuous differentiation trajectories from time-ordered single-cell data. Across diverse developmental systems, scLSD accurately recovers lineage hierarchies, predicts fate commitment for unseen cell types, and outperforms existing trajectory inference approaches in directional and cell fate prediction accuracy. In silico gene perturbations reveal how individual regulators reshape the landscape, and the proposed entropy measure is informative of plasticity in development and cancer.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

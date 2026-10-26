@@ -1988,6 +1988,77 @@
       "curated_categories": []
     },
     {
+      "id": "5e470645d3759d8d90f615aa36175e154cc37d5ff4ffc0f629d12debfb8b01da",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.20.760593v1",
+        "https://doi.org/10.64898/2026.10.20.760593",
+        "https://www.biorxiv.org/content/early/2026/10/25/2026.10.20.760593.source.xml"
+      ],
+      "title": "AlphaGenome informed machine learning for pathogenicity prediction of germline mutations",
+      "link": "https://doi.org/10.64898/2026.10.20.760593",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760593v1.full.pdf",
+      "publication_date": "2026-10-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kumar",
+          "name": "Kumar, P"
+        },
+        {
+          "key": "singh",
+          "name": "Singh, S"
+        },
+        {
+          "key": "garai",
+          "name": "Garai, S"
+        },
+        {
+          "key": "ramesh",
+          "name": "Ramesh, M"
+        },
+        {
+          "key": "goli",
+          "name": "Goli, R. C"
+        },
+        {
+          "key": "kc",
+          "name": "KC, N"
+        },
+        {
+          "key": "sahu",
+          "name": "Sahu, T. K"
+        },
+        {
+          "key": "naskar",
+          "name": "Naskar, S"
+        },
+        {
+          "key": "bhadana",
+          "name": "Bhadana, V. P"
+        },
+        {
+          "key": "nandineni",
+          "name": "Nandineni, M. R"
+        },
+        {
+          "key": "kk",
+          "name": "KK, K"
+        }
+      ],
+      "abstract_text": "Accurate interpretation of germline variants remains a central challenge in clinical genomics. Existing in silico pathogenicity predictors often provide incomplete coverage or restricted to missense variants from the coding region, leaving the variants from splice sites, -UTR, and intronic regions under-scored. We present AGVarPred, a gradient-boosted classifier designed to predict the pathogenicity of germline mutants, with a broad consequence-class coverage across SNVs and indels. Here, the population allele frequency from gnomAD, functional consequence annotations from Ensembl VEP, and cell-type-specific functional genomic scores from the AlphaGenome platform were integrated to develop the classifier. Using a gene-level split of 134,002 high-confidence ClinVar variants across 9,222 genes, AGVarPred achieved an AUC-ROC of 0.9753 (95% CI 0.9731-0.9775) and a AUC-PR of 0.9606 on 12,385 scored internal test variants. A paired DeLong analysis showed that the full model significantly outperformed an allele-frequency-plus-VEP model ({Delta}AUC = 0.1539, 95% CI 0.1489-0.1589; p < 1 x 10-300), supporting a substantial incremental contribution from AlphaGenome-derived features. Performance remained strong when restricted to SNVs (AUC-ROC 0.9558) and was also high for indels (AUC-ROC 0.9532). On five external benchmarks, AUC-ROCs ranged from 0.528 on a functional-assay-derived benchmark to 0.977 on a clinically curated deafness database, reflecting its dependence on benchmark composition and label source. A separate analysis of the VIP Database, whose pathogenic labels are ClinVar-derived, showed consistent performance (AUC-ROC of 0.892) in held-out genes. AGVarPred scored 100% of evaluated variants in the external benchmarks, whereas AlphaMissense and REVEL covered only small fractions of non-missense variants. Model interpretation indicated that gnomAD allele frequency was the dominant individual predictor; the 111 AlphaGenome features provided complementary functional signal, with splicing and chromatin assays contributing to the largest share of the AlphaGenome SHAP mass. A web-based interface for AGVarPred is available at https://pankaj357.github.io/AGVarPred/ to facilitate the submission of normalized GRCh38 germline variants and retrieval of pathogenicity predictions using the frozen AGVarPred model.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5e4e9d23512ca0a0ffb377d47a0bbc6f44c6cef1b88c20adb90c90895d186be9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65834-5",

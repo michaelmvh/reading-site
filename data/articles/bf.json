@@ -323,6 +323,49 @@
       "curated_categories": []
     },
     {
+      "id": "bf16838782c8031634e72a5b8d0a6027ac7b7f707746eb02d4e501b4d3eb36d0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.20.760514v1",
+        "https://doi.org/10.64898/2026.10.20.760514",
+        "https://www.biorxiv.org/content/early/2026/10/25/2026.10.20.760514.source.xml"
+      ],
+      "title": "Centered cross-context perturbation transfer on the public 2025 Virtual Cell Challenge benchmark",
+      "link": "https://doi.org/10.64898/2026.10.20.760514",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760514v1.full.pdf",
+      "publication_date": "2026-10-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "luan",
+          "name": "Luan, H"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, L"
+        },
+        {
+          "key": "yu",
+          "name": "Yu, G"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, Y"
+        }
+      ],
+      "abstract_text": "Predicting transcriptional responses across cellular contexts requires transferring both expression direction and differential-expression priority. We developed a compact numerical method that combines public perturbation summaries with a differential-expression kernel fitted to H1 CRISPRi training targets. The method centers an independent KOLF2.1J source on known training targets, transfers its response signs and magnitude ranks, and uses isotonic regression to render predicted expression means. We evaluated the frozen model retrospectively on the released public TEST100 of the 2025 Virtual Cell Challenge, using an external KOLF source released in 2026. The model achieved DES 0.371834, PDS 0.8614, and MAE 0.302206. With reconstructed historical anchors, its composite score was 0.341344, compared with the archived champion score of 0.340052, a difference of +0.001292. The comparison showed higher DES and lower PDS, with zero normalized MAE contributions for both methods. Source centering also improved development PDS across all three TRAIN folds and official VALIDATION. These results demonstrate a practical numerical approach to cross-context perturbation transfer and differential-expression ranking.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bf1823da02ddace6f84c5c3484d8e73f9db1ba81fee71bbe50950f18607cf444",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71568-9",
