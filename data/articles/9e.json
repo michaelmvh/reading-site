@@ -1849,6 +1849,53 @@
       "curated_categories": []
     },
     {
+      "id": "9e5344daac99e81948f7c497d447928da234b3f1a6e4fa878687fa6bfd8cbc67",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.24.761531v1",
+        "https://doi.org/10.64898/2026.10.24.761531",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.24.761531.source.xml"
+      ],
+      "title": "Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo",
+      "link": "https://doi.org/10.64898/2026.10.24.761531",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "tung",
+          "name": "Tung, K.-C"
+        },
+        {
+          "key": "tu",
+          "name": "Tu, Y.-H"
+        },
+        {
+          "key": "hsieh",
+          "name": "Hsieh, K.-Y"
+        },
+        {
+          "key": "juan",
+          "name": "Juan, H.-F"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, H.-C"
+        }
+      ],
+      "abstract_text": "Single-cell RNA velocity has transformed our capacity to predict future cell states from sequencing snapshots, but existing methods rely on constant or binary kinetic assumptions that fail to capture the heterogeneous splicing dynamics of cellular differentiation. Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to initialize neural network training dramatically improves RNA velocity model performance. By pre-determining whether each gene follows a Circle, Complete induction, or Complete repression pattern across cellular differentiation, JuloVelo initializes training with pattern-matched, pre-trained network weights, effectively guiding the cell-specific kinetics optimization away from biologically implausible parameter regimes. Additionally, JuloVelo demonstrates that multiome datasets can also be processed and modeled by utilizing promoter chromatin accessibility to guide kinetics pre-determination, and integrates an in silico perturbation framework to simulate transcription factor modulation on cell fate. Validated across eight datasets spanning erythrogenesis, neurogenesis, and endocrinogenesis, JuloVelo consistently outperformed constant-rate and cell-specific models, resolving the entire five-lineage differentiation program in hippocampal neurogenesis. Multiome processing improved both intrinsic and extrinsic velocity stability, and JuloVelo reduced computational execution time by approximately 70% compared to cellDancer. JuloVelo is available as an open-source package at https://github.com/jhlabtw/JuloVelo.jl.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9e5c773824235e9cc7225b793b9d7e97dd18facf76e14e0b1860a9f401a9a5a4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69210-9",
