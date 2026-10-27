@@ -3792,6 +3792,53 @@
       "curated_categories": []
     },
     {
+      "id": "267bd1d884f47cff7d61feb71b7e5030b8e4c87be8f66fca127c26ab191aa5f7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.25.761625v1",
+        "https://doi.org/10.64898/2026.10.25.761625",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.25.761625.source.xml"
+      ],
+      "title": "How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?",
+      "link": "https://doi.org/10.64898/2026.10.25.761625",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wei",
+          "name": "Wei, Z"
+        },
+        {
+          "key": "ye",
+          "name": "Ye, Y"
+        },
+        {
+          "key": "cui",
+          "name": "Cui, S"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, W"
+        },
+        {
+          "key": "you",
+          "name": "You, Y"
+        }
+      ],
+      "abstract_text": "Predicting how individual cells respond to perturbations is a central task in artificial intelligence virtual cell (AIVC) modeling. However, integrating perturbation datasets is challenging because they differ in measured gene sets, perturbation types and cellular contexts. Existing AIVC predictors are typically developed for specific settings, limiting their applicability across heterogeneous datasets. Here, we investigate the extent to which AIVC predictors can benefit from unified perturbational modeling (UPM), a novel paradigm designed to integrate heterogeneous Perturb-seq datasets into a single predictive model. To this end, we introduce three unification modules into a variational autoencoder (VAE)-based AIVC predictor to address these sources of heterogeneity: gene-channel alignment, shared perturbation encoding, and joint embedding of gene expression and identity. We systematically evaluate and validate the individual contributions of these modules. Building on UPM, we assemble a dataset of 110 million cells spanning over 22,000 genes, four perturbation types and 76 cellular contexts, and use 89.7 million cells from 71 contexts to train a unified AIVC predictor with more than one billion parameters. Across genetic perturbation benchmarks, UPM achieves the highest PES and gene-wise response correlation among the evaluated models. It also improves all four evaluation metrics over State on the five held-out Tahoe-100M cell lines and over Stack on the cytokine benchmark. UPM also improves combinatorial perturbation prediction relative to specialized predictors. In the HSC application, our model achieves a 40.0% improvement in accuracy on a downstream task involving the recapitulation of effects induced by the knockdown of hepatic stellate cell (HSC)-related targets. Our implementation is openly available at https://github.com/youlab2025/UPM.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "267cbf9cd1240cc7a8e72ca539e22093be67ca8cb97127644520da0ba1907372",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-04096-z",

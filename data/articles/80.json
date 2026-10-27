@@ -870,6 +870,65 @@
       "curated_categories": []
     },
     {
+      "id": "802c077d86c4dda77433c7119f5cfa8b3787f95521a32a65f22fe5f23c96b80f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.22.760998v1",
+        "https://doi.org/10.64898/2026.10.22.760998",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.22.760998.source.xml"
+      ],
+      "title": "BenchMHC: a reproducible framework for peptide-MHC presentation prediction",
+      "link": "https://doi.org/10.64898/2026.10.22.760998",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760998v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "borck",
+          "name": "Borck, T"
+        },
+        {
+          "key": "chabrol",
+          "name": "Chabrol, M"
+        },
+        {
+          "key": "colombo",
+          "name": "Colombo, D"
+        },
+        {
+          "key": "imbert",
+          "name": "Imbert, A"
+        },
+        {
+          "key": "dulhoste perier",
+          "name": "Perier-Dulhoste, M"
+        },
+        {
+          "key": "volzhenin",
+          "name": "Volzhenin, K"
+        },
+        {
+          "key": "lang",
+          "name": "Lang, M"
+        },
+        {
+          "key": "carranza lopez",
+          "name": "Lopez Carranza, S. N"
+        }
+      ],
+      "abstract_text": "Predicting which peptides an MHC molecule presents is the first step in neoantigen and epitope discovery pipelines. Most published predictors are released for inference only, and each is trained on a different dataset, so the effect of a new method cannot be separated from the effect of its training data. We present BenchMHC, an open framework that reproduces, retrains and evaluates pMHC presentation models on public data only, and that records every implementation decision made in a reproduction. Our NetMHCpan-4.1 reproduction reaches 0.794 per-allele Mean Top-K against 0.790 for the official webserver, and 0.0025 Median FRANK against 0.0022. It scores 280,000 peptide/allele pairs in 27 s, about 350 times faster than the original binary. We then examine the training data. In the public NetMHCpan-4.1 eluted-ligand sets, 86 to 99% of hits are found in the human proteome, against about 12% of their decoys, so a model can separate hits from decoys using this difference rather than features related to MHC binding. Redrawing the decoys within the source protein of each hit and matching their cysteine status, with no other change, raises per-allele Mean Top-K on the regenerated v2.0.0 evaluation set from 0.734 to 0.755, and increases Median FRANK on CD8 epitopes from 0.0025 to 0.0053. The same change improves one evaluation set and degrades the other. Code (Apache-2.0) and model checkpoints (CC BY-NC-4.0): https://github.com/instadeepai/BenchMHC-public.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8030139d95bf7628b966ce893185db8fe5de2f73815f8b6bdb7982d1ff022813",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2605.05971",

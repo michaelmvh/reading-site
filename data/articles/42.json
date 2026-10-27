@@ -2741,6 +2741,57 @@
       "curated_categories": []
     },
     {
+      "id": "426c4b7c2bd8fdb920a9e0ebca1104cdf340af98484d65d2746ea29bac3169ad",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.22.760932v1",
+        "https://doi.org/10.64898/2026.10.22.760932",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.22.760932.source.xml"
+      ],
+      "title": "ProtCell: a foundation model for single-cell proteomics",
+      "link": "https://doi.org/10.64898/2026.10.22.760932",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760932v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hu",
+          "name": "Hu, B"
+        },
+        {
+          "key": "li",
+          "name": "Li, Z"
+        },
+        {
+          "key": "jiang",
+          "name": "Jiang, Q"
+        },
+        {
+          "key": "yin",
+          "name": "Yin, Q"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Z"
+        },
+        {
+          "key": "jiang",
+          "name": "Jiang, R"
+        }
+      ],
+      "abstract_text": "Single-cell proteomics provides a direct functional readout of cellular states, but targeted assays measure limited and non-identical protein panels, fragmenting information across experiments. Here, we present ProtCell, a foundation model developed using approximately 380 million cells from 98 datasets for pretraining and evaluation. ProtCell combines protein-identity and continuous-abundance embeddings in a transformer encoder and learns cell- and protein-level representations through masked abundance modeling. ProtCell first connects fragmented profiles through transferable annotation and batch correction while preserving biological organization. It then extends limited profiles through abundance reconstruction and inference of an unmeasured cytotoxic protein program enriched in natural killer cells and memory CD8$^+$ T cells. The learned protein dependencies further guide the selection of compact panels that retain information for profile reconstruction and biological classification. ProtCell thus provides a framework for connecting fragmented proteomic profiles, extending information beyond measured panels and guiding more informative measurements.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "426db11ca3b5c43fe1ae43dc2cad6a6c615446fc49edb8faef78090e128b8a8e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72478-6",
