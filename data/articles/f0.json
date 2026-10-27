@@ -5112,10 +5112,6 @@
         {
           "key": "melania nowicka",
           "name": "Melania Nowicka"
-        },
-        {
-          "key": "bartoszewicz jakub",
-          "name": "Jakub M. Bartoszewicz"
         }
       ],
       "abstract_text": "Abstract Designing artificial proteins with specialized functions promises new solutions for biological, medical, and environmental use cases. This field benefits from advances in natural language processing, with state-of-the-art text generation models already being successfully applied to protein sequences. Openly available pre-trained protein language models are able to generate artificial protein sequences and can be finetuned on very specific tasks. Considering the high computational cost of finetuning a model exclusively for one downstream task, prompt tuning has been proposed as a more cost-efficient alternative that shares one model across different tasks. However, no openly available implementation of this approach compatible with protein language models has been previously published. Thus, we adapt an open-source codebase designed for NLP models to build a pipeline for prompt tuning on protein sequence data, supporting the protein language models ProtGPT2 and RITA. We benchmark this implementation for generating proteins of a specific family and evaluate the approach using text processing metrics as well as family membership prediction and protein activity prediction of generated sequences. Our results confirm the advantages of prompt tuning in resource usage, especially storage, encouraging further research and expansion of this technique to related use cases. For our evaluated use case, prompt tuning does not reach up to finetuning in terms of the quality of generated protein sequences, indicating the need for more extensive optimization. Lastly, we observe discrepancies between results of similar evaluation tools, highlighting open problems for principled assessment of protein sequence generation quality.",

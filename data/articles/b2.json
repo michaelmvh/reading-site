@@ -820,6 +820,45 @@
       "curated_categories": []
     },
     {
+      "id": "b2260d489305f074e02c5682d025832e1b5fb37f72f84269fc9950af8a6aa165",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.761949v1",
+        "https://doi.org/10.64898/2026.10.26.761949",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.26.761949.source.xml"
+      ],
+      "title": "Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type",
+      "link": "https://doi.org/10.64898/2026.10.26.761949",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chen",
+          "name": "Chen, X"
+        },
+        {
+          "key": "li",
+          "name": "Li, J"
+        },
+        {
+          "key": "battle",
+          "name": "Battle, A"
+        }
+      ],
+      "abstract_text": "Motivation: Single-cell cell-type classifiers are often evaluated using random cell-level splits, although cells from the same donor are not independent. We asked how evaluation design affects estimates of cross-donor generalization. Results: Across PBMC and lung datasets, random cell-level splitting consistently yielded higher macro F1 than donor-held-out evaluation across multiple expression representations. This gap persisted after batch covariate adjustment and donor-level mixed-effects modeling. In contrast, evaluation gaps were minimal in near-ceiling kidney, pancreas, and blood benchmarks and in a randomized-label floor control. These results show that evaluation bias depends on the underlying classification regime and that donor-held-out evaluation is necessary when claims concern generalization to unseen individuals. Availability and Implementation: Code and analyses are available on GitHub at https://github.com/danielchen05/scRNA-cross-donor-generalization/ and archived at Zenodo at 10.5281/zenodo.23669184. All data are publicly available and cited.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b2282464234ac452cfe043dc5f0476d47f887021c19f71e1dc781c1b739d5837",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69149-x",
@@ -2177,8 +2216,8 @@
           "name": "Timothy P. Jenkins"
         },
         {
-          "key": "baker david",
-          "name": "David A. Baker"
+          "key": "baker hannele ruohola",
+          "name": "Hannele Ruohola‐Baker"
         },
         {
           "key": "banik steven",
@@ -3406,6 +3445,60 @@
         }
       ],
       "abstract_text": "Abstract Gas vesicles (GVs) are genetically encodable, air-filled protein nanostructures that have rapidly emerged as a versatile platform for biomedical imaging, cell tracking, and therapeutic delivery. However, their heterologous expression in non-native hosts such as Escherichia coli can be challenging due to the complex assembly process, which often involves around ten different proteins and can lead to proteotoxic stress and impair cell growth. Here, we report the observation of a drop in cell density occurring 8 to 16 hours after GV induction in E. coli . To address these, we developed a dual-inducer transcriptional regulation system that enables orthogonal control of GV assembly factor proteins and the shell protein over a range of stoichiometries. Sequential induction in time, in which assembly factor expression is initiated before shell protein expression, restored normal bacterial growth and prevented lysis without compromising GV production. Further analysis revealed that varying the interval between the two induction steps affected both GV yields and cellular stress. By preserving cell integrity with GV expression, our approach enhances the utility of GV-expressing bacteria in applications that demand population-wide cellular stability and facilitates their broader application in biomedical engineering and synthetic biology.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b2aaca828bc6e747a3dfadbe22f40179f4fbbd79e701c97e4d8b6570c2aac9fa",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag581",
+        "https://openalex.org/W7223648929"
+      ],
+      "title": "EquiDesign: a versatile computational framework for de novo protein sequence design",
+      "link": "https://doi.org/10.1093/bib/bbag581",
+      "pdf_url": null,
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "gao qiang",
+          "name": "Qiang Gao"
+        },
+        {
+          "key": "xu zhongyu",
+          "name": "Zhongyu Xu"
+        },
+        {
+          "key": "chen kai",
+          "name": "Kai Chen"
+        },
+        {
+          "key": "cen xiaochen",
+          "name": "Xiaochen Cen"
+        },
+        {
+          "key": "ke yan",
+          "name": "Ke Yan"
+        },
+        {
+          "key": "jinxin liu",
+          "name": "Jinxin Liu"
+        },
+        {
+          "key": "ji zhiwei",
+          "name": "Zhiwei Ji"
+        }
+      ],
+      "abstract_text": "Abstract Designing amino acid sequences that uniquely fold into target three-dimensional conformations defines the protein inverse folding problem, a formidable bottleneck in de novo protein design. Current computational paradigms, including deep learning-based approaches, often struggle to reconcile high sequence accuracy with structural stability, computational efficiency, and generalizability across diverse protein families. Here, we present EquiDesign, a deep learning framework that surmounts these constraints via a novel multistep Equiformer-enhanced architecture. By disentangling geometric features into invariant scalars and equivariant vectors, EquiDesign preserves the intrinsic directional topology of the protein backbone during message passing. This is achieved through spatial K-nearest neighbor graph construction and geometric attention mechanisms that hierarchically fuse multiscale contextual information, yielding a physically grounded representation of protein conformations. Extensive benchmarking demonstrates that EquiDesign achieves superior sequence recovery on standard and challenging test sets compared with state-of-the-art methods. Critically, the generated sequences exhibit exceptional structural fidelity, folding stability, and sequence diversity, as validated by comprehensive controls against training-set memorization, compositional bias, and physical energy landscapes, alongside targeted diversity sampling. These results establish EquiDesign as a robust, scalable, and generalizable inverse folding solution, driven by SE(3)-equivariant encoding and multiscale geometric attention, thus propelling de novo protein design toward unprecedented structural precision.",
       "discovery_sources": [
         {
           "kind": "open_alex",
