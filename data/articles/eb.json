@@ -4723,12 +4723,14 @@
       "identity_keys": [
         "https://doi.org/10.26434/chemrxiv.15008135/v1",
         "https://doi.org/10.26434/chemrxiv.15008135/v2",
-        "https://openalex.org/W7204924000"
+        "https://doi.org/10.26434/chemrxiv.15008135/v3",
+        "https://openalex.org/W7204924000",
+        "https://openalex.org/W7223694165"
       ],
       "title": "Fragment-Grounded Neural Simulation of Electron Ionization Mass Spectra at Library Scale",
-      "link": "https://doi.org/10.26434/chemrxiv.15008135/v1",
-      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15008135/v1",
-      "publication_date": "2026-09-01",
+      "link": "https://doi.org/10.26434/chemrxiv.15008135/v3",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15008135/v3",
+      "publication_date": "2026-10-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "ChemRxiv",
@@ -4746,7 +4748,7 @@
           "name": "Connor W. Coley"
         }
       ],
-      "abstract_text": "Electron ionization mass spectrometry (EI-MS) is a sensitive, reproducible analytical technique, yet compound identification conventionally relies on reference databases that capture only a fraction of accessible chemical space. In silico prediction of EI-MS spectra can extend these libraries, but existing data-driven models generalize poorly beyond their training distribution, and physics-based simulations are too costly for library-scale use. Here, we present a fragment-grounded neural workflow that predicts an EI-MS spectrum by exhaustively enumerating the fragmentation graph of a molecule and then assigning intensities to the resulting substructures. By relating every predicted peak back to a candidate substructure, our model generalizes more reliably to unseen scaffolds and out-of-distribution chemistry than prior fingerprint-and black-box transformer-based predictors. On a scaffold split, it improves top-1 retrieval accuracy from formula-matched compounds by 32% relative to the strongest baseline, and it matches the accuracy of quantum-chemical simulation while being roughly seven orders of magnitude faster. To test the model’s capabilities under a harder, formula-agnostic setting, we further evaluate retrieval against a library of 87.3 million compounds from",
+      "abstract_text": "Electron ionization mass spectrometry (EI-MS) is a sensitive analytical technique, yet compound identification conventionally relies on reference libraries that contain spectra for at most about one million compounds, which is a small subset of chemical space. In silico prediction of EI-MS spectra can extend these libraries, but existing data-driven models generalize poorly beyond their training distribution, and physics-based simulations are too costly for library-scale use. Here, we present a fragment-grounded neural workflow that predicts an EI-MS spectrum by exhaustively enumerating the fragmentation graph of a molecule and then assigning intensities to the resulting substructures with a model trained on experimental spectra. By relating every predicted peak back to a candidate substructure, our model generalizes more reliably to unseen scaffolds and out-of-distribution chemistry than prior fingerprint- and black-box transformer-based predictors. On a scaffold split, it identifies the correct structure among up to fifty same-formula isomers in 43.0% of cases, compared to 32.5% for the strongest baseline. Further, it matches the accuracy of quantum-chemical simulation while being roughly seven orders of magnitude faster. To test the model's capabilities under a harder, formula-agnostic setting, we further evaluate retrieval against a library of 87.3 million compounds from PubChem. There, our model achieves a top-1 accuracy of 3.3%, compared to 1.1% for the strongest baseline, and a peak-mass-window filter further raises its top-1 accuracy to 5.3%. The predicted spectra for 87.3 million compounds serve as an augmented reference library to facilitate database-dependent structure elucidation.",
       "discovery_sources": [
         {
           "kind": "open_alex",
