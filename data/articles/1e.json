@@ -947,6 +947,53 @@
       "curated_categories": []
     },
     {
+      "id": "1e2a24d28a963b2e946a4f30c77fb27425fe27832316bb151def234dd10f954e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.760762v1",
+        "https://doi.org/10.64898/2026.10.21.760762",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760762.source.xml"
+      ],
+      "title": "Auto-AVS: A Novel Framework for Automated Autophagic Vacuole Simulation",
+      "link": "https://doi.org/10.64898/2026.10.21.760762",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760762v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bleta",
+          "name": "Bleta, S"
+        },
+        {
+          "key": "dunning",
+          "name": "Dunning, P"
+        },
+        {
+          "key": "ross",
+          "name": "Ross, A"
+        },
+        {
+          "key": "backues",
+          "name": "Backues, S. K"
+        },
+        {
+          "key": "spantidi",
+          "name": "Spantidi, O"
+        }
+      ],
+      "abstract_text": "Transmission electron microscopy (TEM) is widely used to quantify autophagic bodies in yeast, but ultra-thin sectioning provides only two-dimensional cross-sections of inherently 3D structures. Inferring the underlying size and number of autophagic bodies therefore requires assumptions about their geometry, spatial organization, and distribution within the vacuole. We introduce Auto-AVS, an open-source computational stereology framework that combines configurable 3D autophagic-vacuole simulation, optional CompuCell3D-based body deformation, virtual TEM sectioning, and statistical comparison with experimental data. We first validate the virtual sectioning pipeline against analytical stereology and an existing spherical R-based simulation. We then use Auto-AVS to examine whether explicitly modeling autophagic-body deformation alters observed section statistics and find no consistent measurable effect under the tested simulation parameters. Finally, we apply the framework to experimental wild-type and mutant TEM datasets. Auto-AVS produces body-size estimates closely consistent with conventional stereological estimates, while body-number fitting reveals substantial discrepancies between simulated and experimental distributions despite similar average count estimates. These discrepancies implicate spatial clustering and vacuole geometry as important limitations of current body-number models. Rather than replacing conventional stereology, Auto-AVS provides a computational framework for testing its underlying assumptions and determining which aspects of 3D organization affect inference from two-dimensional microscopy.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1e2b3b571de920c9da5d62b1a3f2eef8c4ddac798c9268f70e34e5305dfa399a",
       "identity_keys": [
         "https://doi.org/10.1101/2021.07.18.452833",

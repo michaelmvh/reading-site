@@ -1094,6 +1094,45 @@
       "curated_categories": []
     },
     {
+      "id": "6127020e1bdbfc5aa100ef754e59ca4c322ece6ab4a6c389ea209803de5578b2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.753755v1",
+        "https://doi.org/10.64898/2026.10.21.753755",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.753755.source.xml"
+      ],
+      "title": "Machine learning classification of fibromyalgia from blood transcriptomes: confounder benchmarking and implications for endometriosis-associated pain",
+      "link": "https://doi.org/10.64898/2026.10.21.753755",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.753755v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ouni",
+          "name": "Ouni, S"
+        },
+        {
+          "key": "ouni",
+          "name": "Ouni, F"
+        },
+        {
+          "key": "chebbi",
+          "name": "Chebbi, A"
+        }
+      ],
+      "abstract_text": "Fibromyalgia (FM) lacks an objective biomarker, and blood transcriptomic signatures have been proposed to fill this gap. Here, the largest public peripheral blood mononuclear cell (PBMC) RNA-seq cohort of FM reporting expression subtypes (96 patients, 93 controls) was reanalysed using leakage-free nested cross-validation, with feature selection and scaling confined strictly to training folds. Gene expression discriminated patients from controls (ROC-AUC 0.821 for logistic regression and 0.825 for XGBoost), clearing a 100-repetition permutation-label null (p= 0.0099). Two simple, disease-agnostic baselines, however, reach nearly the same performance: sex alone reaches AUC 0.727, and a four-score PBMC cell-composition proxy reaches AUC 0.71-0.76. Restricting to females alone gives AUC 0.783 (0.705-0.858), and excluding X/Y-linked genes does not reduce performance, so the signal is not purely a sex-composition artifact; but the female-only expression model does not significantly exceed the composition-only proxy in the same females (0.783 vs. 0.712, paired 95% CI -0.025 to 0.175), so a composition contribution cannot be excluded. Preranked gene set enrichment analysis finds curated CLEAR/lysosomal and interferon/JAK-STAT gene sets, proxies for two subtype signatures of the original study, enriched among genes expressed lower in FM, also in females alone, but this enrichment disappears after adjusting for the composition proxies. Gynecological comorbidity, hormonal status, and medication are absent from the public metadata and remain plausible, untested contributors to the female-only estimate. These findings are hypothesis-generating, not a basis for clinical diagnosis: a single-cohort, correlational result consistent with, but not sufficient to establish, an FM-specific signal distinct from demographic, hormonal, and cell-composition confounds, pending independent replication. Future blood-based biomarker studies for FM, and for related nociplastic pain conditions such as endometriosis, should report performance relative to sex- and composition-based baselines as standard practice.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6127f8ac8069ef1d2828c350626eacfbd593ae50695b83de48002b44b5031195",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76317-6",
@@ -1147,6 +1186,81 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6128a1c222bd41e37065df04f2b2446d39d64885ddc45f7dc5fc81d221213de8",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.760801v1",
+        "https://doi.org/10.64898/2026.10.21.760801",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760801.source.xml"
+      ],
+      "title": "Using XCiMS to Quantify the Benefits of Ion Mobility Spectrometry for Untargeted Metabolomics",
+      "link": "https://doi.org/10.64898/2026.10.21.760801",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760801v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, L"
+        },
+        {
+          "key": "cho",
+          "name": "Cho, K"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, J"
+        },
+        {
+          "key": "stancliffe",
+          "name": "Stancliffe, E"
+        },
+        {
+          "key": "haber schwaiger",
+          "name": "Schwaiger-Haber, M"
+        },
+        {
+          "key": "hofstrand",
+          "name": "Hofstrand, C. S"
+        },
+        {
+          "key": "groff",
+          "name": "Groff, T"
+        },
+        {
+          "key": "dodds",
+          "name": "Dodds, J. N"
+        },
+        {
+          "key": "shriver",
+          "name": "Shriver, L. P"
+        },
+        {
+          "key": "anbukumar",
+          "name": "Anbukumar, D. S"
+        },
+        {
+          "key": "baker",
+          "name": "Baker, E"
+        },
+        {
+          "key": "patti",
+          "name": "Patti, G. J"
+        }
+      ],
+      "abstract_text": "Integrating ion mobility spectrometry (IMS) with liquid chromatography-mass spectrometry (LC-MS) has the potential to improve untargeted metabolomics workflows, but assessing the benefits of IMS has been challenging due to a paucity of software solutions to process raw LC-IMS-MS data in a manner that enables direct comparison with LC-MS data. We developed the XCiMS software to collapse 4D data into pseudo-3D data. Peak detection is then performed in the pseudo-3D space, followed by targeted extraction of 4D signals from 3D-guided regions of interest. Here, we applied XCiMS to estimate the potential of IMS for untargeted metabolomics when analyzing human plasma. First, we assessed the number of metabolites that are uniquely resolved by LC-IMS-MS but not LC-MS. Although as many as 50% of 3D peaks produce multiple 4D peaks when using high-resolution IMS, few represent newly resolved structural isomers. We found that the increase in features due to IMS was mostly caused by charge isomers and ion clusters. Second, we investigated the impact of IMS on metabolite identification. When using a 16-minute chromatographic separation, we found that IMS can decrease the frequency of chimeric MS/MS by about half. We conclude that while IMS adds considerable complexity to untargeted metabolomics data without resolving a large number of additional structural isomers relative to a standard LC-MS experiment, it does facilitate metabolite identification by decreasing chimeric spectra and providing CCS values for library searching.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

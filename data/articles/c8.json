@@ -6086,6 +6086,57 @@
       "curated_categories": []
     },
     {
+      "id": "c8e62ddce8670e95774d654a5251829b17bd8eb5724d1c6bf4596d472f8bb741",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.760860v1",
+        "https://doi.org/10.64898/2026.10.21.760860",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760860.source.xml"
+      ],
+      "title": "Predicting Protein-Protein Interactions Using Vectorized Sequence Descriptors and Machine Learning Classifiers",
+      "link": "https://doi.org/10.64898/2026.10.21.760860",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760860v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bhat",
+          "name": "Bhat, R"
+        },
+        {
+          "key": "kumari",
+          "name": "Kumari, V"
+        },
+        {
+          "key": "kaira",
+          "name": "Kaira, V. S"
+        },
+        {
+          "key": "kudari",
+          "name": "Kudari, Z. D"
+        },
+        {
+          "key": "shankar",
+          "name": "Shankar, S"
+        },
+        {
+          "key": "jaiganesh",
+          "name": "JAIGANESH, G"
+        }
+      ],
+      "abstract_text": "Accurate prediction of protein-protein interactions (PPIs) is fundamental for elucidating cellular mechanisms and accelerating drug discovery. Although experimental techniques provide extensive interaction maps, their high cost and time requirements necessitate robust computational alternatives. In this study, we present an interpretable machine-learning framework that integrates sequence-derived descriptors, specifically 120 Auto-Covariance (AC) features, 686 Conjoint Triad (CT) features, and 1,820 Local Descriptors (LD) features, with classical classification algorithms, including Support Vector Machines (SVM), Random Forests (RF), and XGBoost (XGB). Evaluated on a gold-standard sequence-based PPI benchmark dataset using stratified five-fold cross-validation, the models achieved robust classification accuracies: 86.92% (SVM), 97.75% (RF), and a peak cross-validation accuracy of 97.97% with XGBoost (Rec: 98.09%, Pr: 98.10%, F1: 98.09%). Furthermore, rigorous evaluation on an independent unseen (Human-PPI) test set demonstrated exceptional generalization capabilities. The Random Forest model emerged as the top-performing architecture, yielding an outstanding accuracy of 99.51%, a precision of 99.72%, a recall of 99.29%, an F1-score of 99.50%, an Area Under the Receiver Operating Characteristic curve (AUROC) of 0.9990, and an Area Under the Precision-Recall Curve (AUPRC) of 0.9989 (closely followed by XGBoost with 98.54% accuracy, AUROC 0.9979, and AUPRC 0.9974). Feature-importance analysis revealed that short-range physicochemical correlations (such as polarity and hydrophobicity lags in Protein 2), regional amino-acid compositions, and specific triad patterns (e.g., A/G/V-M/S/T/YM/S/T/Y) drive accurate PPI discrimination. These findings demonstrate the effectiveness of domain-informed, handcrafted sequence features combined with machine-learning classifiers for PPI prediction, providing biologically interpretable insights with minimal computational overhead and enabling efficient, scalable interactome screening.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c8e739f114691ec916a65131af74d5756d6b0360ddc1c541534b0ce79f31056f",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10518-3",

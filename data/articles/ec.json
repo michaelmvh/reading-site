@@ -3187,6 +3187,56 @@
       "curated_categories": []
     },
     {
+      "id": "ec9d1b4e6521a201891862f7b827db29260f02326a91025ac9dafdc8e4e94e41",
+      "identity_keys": [
+        "arxiv:2610.35204",
+        "https://doi.org/10.48550/arXiv.2610.35204"
+      ],
+      "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
+      "link": "https://doi.org/10.48550/arXiv.2610.35204",
+      "pdf_url": "https://arxiv.org/pdf/2610.35204v1",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "anton dorn",
+          "name": "Anton E. Dorn"
+        },
+        {
+          "key": "bruyn de emile",
+          "name": "Emile de Bruyn"
+        },
+        {
+          "key": "der fabrice lehr von",
+          "name": "Fabrice von der Lehr"
+        },
+        {
+          "key": "knechtges philipp",
+          "name": "Philipp Knechtges"
+        },
+        {
+          "key": "kesselheim stefan",
+          "name": "Stefan Kesselheim"
+        },
+        {
+          "key": "alexander schug",
+          "name": "Alexander Schug"
+        }
+      ],
+      "abstract_text": "Learning molecular models of RNA requires simulation data that capture conformational variability and provide consistent physical training signals. Here, we introduce mdRNAcat, a curated dataset of all-atom molecular dynamics (MD) simulations of 48 RNA systems selected to promote sequence diversity. Each system is simulated using replica-exchange with solute scaling (REST2), with 32 Hamiltonian states and production lengths of 200-300 ns per state. The dataset provides atomic coordinates, instantaneous forces, and forces reevaluated under the unscaled reference Hamiltonian, together with structural annotations and replica-exchange metadata. Coordinates and forces are available at 1 ps intervals for the reference state and 100 ps intervals across all states in a standardized HDF5 format. We characterize conformational sampling, exchange behavior, base pairing, and sugar-pucker distributions to document the properties of the simulated ensembles. mdRNAcat provides a reusable resource for developing and evaluating data-driven RNA models, including coarse-grained force fields.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ec9f07557e3ab7ab5af6e19930675c4a39ab31d71e8f147067231dda55eca488",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64495-8",

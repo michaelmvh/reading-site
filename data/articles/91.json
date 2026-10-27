@@ -3487,6 +3487,52 @@
       "curated_categories": []
     },
     {
+      "id": "918e699775e505edc7393da3393d8cf7bb14cc1a73cf7541fa169c41f8ac8962",
+      "identity_keys": [
+        "arxiv:2610.33960",
+        "https://doi.org/10.48550/arXiv.2610.33960"
+      ],
+      "title": "Benchmarking miRNA Target Prediction Methods",
+      "link": "https://doi.org/10.48550/arXiv.2610.33960",
+      "pdf_url": "https://arxiv.org/pdf/2610.33960v1",
+      "publication_date": "2026-10-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "congliang jin",
+          "name": "Congliang Jin"
+        },
+        {
+          "key": "niu weibo",
+          "name": "Weibo Niu"
+        },
+        {
+          "key": "wen zhexing",
+          "name": "Zhexing Wen"
+        },
+        {
+          "key": "qin zhaohui",
+          "name": "Zhaohui S Qin"
+        },
+        {
+          "key": "ran ximing",
+          "name": "Ximing Ran"
+        }
+      ],
+      "abstract_text": "Background: MicroRNAs (miRNAs) regulate gene expression by binding to target mRNAs. Although many tools predict miRNA-target interactions, predictions show limited concordance, and benchmarks relying on curated databases may be biased by overlap with tool-development data. Methods: We benchmarked seven tools (TargetScan, miRDB, miRmap, DIANA-microT, RNA22, miRWalk, and mirDIP) across approximately 59.7 million candidate miRNA-mRNA pairs. Each pair received an evidence-graded reference score (0-3) combining validated interactions from miRTarBase and TarBase with expression-derived evidence from paired miRNA-seq and mRNA-seq data in an induced pluripotent stem cell (iPSC) cohort of 22q11.2 deletion syndrome and control lines. Performance was evaluated using Type I error, statistical power, and false discovery proportion (FDP). Robustness was assessed by increasing reference-score stringency (truth signal) and including progressively lower-confidence predictions (model signal). Optimal cutoffs maximized Youden's J statistic. Results: Rankings were largely consistent across settings. TargetScan and miRDB maintained Type I error rates below 0.05, with TargetScan showing the lowest FDP, but both had limited power. mirDIP achieved the highest power at the cost of the highest Type I error rate. At optimal cutoffs, mirDIP best balanced sensitivity and specificity (Youden's J = 0.566), followed by DIANA-microT (J = 0.481); miRWalk and RNA22 had FDPs near the random-prediction baseline. No tool was optimal across all metrics; tool and cutoff selection should reflect whether sensitivity or specificity is prioritized.\"\"\"",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "918ec55cb254ef4a4d2a18f9b6d160aa99b902d95f6cc2a91ff8cc89d997238e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74685-7",

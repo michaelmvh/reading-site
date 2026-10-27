@@ -3040,6 +3040,40 @@
       "curated_categories": []
     },
     {
+      "id": "6c9eb230f59f84b60445bc2ba03bcc661d88ff9a4db3068da0fceecf8b6b0cd7",
+      "identity_keys": [
+        "arxiv:2610.32989",
+        "https://doi.org/10.48550/arXiv.2610.32989"
+      ],
+      "title": "DairySocialTwin: Auditing the video-to-graph evidence chain in cattle social networks",
+      "link": "https://doi.org/10.48550/arXiv.2610.32989",
+      "pdf_url": "https://arxiv.org/pdf/2610.32989",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "huang yiwen",
+          "name": "Yiwen Huang"
+        },
+        {
+          "key": "neethirajan raja suresh",
+          "name": "Suresh Raja Neethirajan"
+        }
+      ],
+      "abstract_text": "Video-derived social graphs can appear precise while inheriting uncertainty from detection, tracking, classification, and aggregation. We present DairySocialTwin, a graph-centered audit framework applied to 203 videos (122 h 23 min) from 15 views at three commercial dairy farms. Curation retained 447 of 839 candidate clips; 400 entered a frozen source-clip index, including 71 legacy clips with unavailable farm and time metadata. Five models were compared on a development split, with an NRI-style model retained as an exploratory trade-off between class balance and dyadic output. In a 90-min manual audit, reconciliation improved switches, fragmentation, and continuous-track duration across three gap definitions, but constrained identity capacity and inherited detector errors limited claims of identity accuracy. Matched manual and reconciled summaries showed coarse agreement and assignment sensitivity. Camera-specific semantics, observation opportunity, and identity-summary-to-video trace-back made these dependencies inspectable. DairySocialTwin supports auditable relational inference without claiming permanent identity, calibrated behavior, or biological diagnosis.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6c9f8beaa5d0b8cca638385c44f01475c2231a96470861a0811f023028cc7e15",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72722-z",
@@ -3201,7 +3235,7 @@
         },
         {
           "key": "kronenberg nils",
-          "name": "Nils Kronenberg"
+          "name": "Nils M. Kronenberg"
         },
         {
           "key": "marcel schubert",
@@ -3212,7 +3246,7 @@
           "name": "Malte C. Gather"
         }
       ],
-      "abstract_text": "Quantitative phase imaging (QPI) has become a standard approach for label-free microscopy of transparent specimens, mapping the optical path length. However, the isotropic phase is blind to the molecular order underlying optical anisotropy. Implementations that also add quantitative contrast to birefringence, rely on multi-frame illumination or polarization-state scanning, or on dedicated interferometric hardware, that trade away acquisition speed or the simplicity of a standard microscope. We present Quantitative Phase and Polarimetric Imaging (QP2I), a computational imaging framework that converts a standard differential interference contrast (DIC) microscope with a polarization camera into a single-shot, video-rate, dual-contrast imaging system. We developed a new globally regularized phase reconstruction that eliminates artifacts of prior DIC-to-QPI approaches, providing quantitative phase information and used per-pixel Stokes-based reconstruction to obtain quantitative anisotropic retardance. We validate the approach across simulations, static reference targets, fixed muscle tissue and living dynamically moving cells. Thereby, QP2I enables to study contractile dynamics in live cardiomyocytes all-optically and label-free. It provides both structural and functional readouts at frame rates that are sufficient to temporally resolve fast cardiomyocyte contractions. While conventional fluorescent labels bleach out over time, perturb physiology, and preclude long-term monitoring, QP2I provides similar established structural readouts, such as frame-by-frame sarcomere length, as well as previously inaccessible measurements, like quantitative analysis of retardance changes during muscle contraction, as a direct optical signature of muscle photoelasticity. QP2I thus enables long-term, label-free interrogation of dynamic cellular processes at quantitative contrast.",
+      "abstract_text": "Quantitative phase imaging (QPI) has become a standard approach for label-free microscopy of transparent specimens, mapping the optical path length. However, the isotropic phase is blind to the molecular order underlying optical anisotropy. Implementations that also add quantitative contrast to birefringence rely on multi-frame illumination or polarization-state scanning, or on dedicated interferometric hardware and thus trade away acquisition speed or the simplicity of a standard microscope. We present Quantitative Phase and Polarimetric Imaging (QPPI), a computational imaging framework that converts a standard differential interference contrast (DIC) microscope with a polarization camera into a single-shot, video-rate, dual-contrast imaging system. We developed a new globally regularized phase reconstruction that eliminates artifacts of prior DIC-to-QPI approaches, providing quantitative phase information, and used per-pixel Stokes-based reconstruction to obtain quantitative anisotropic retardance. We validate the approach across simulations, static reference targets, fixed muscle tissue and living dynamically moving cells. QPPI enables all-optical and label-free studies of contractile dynamics in live cardiomyocytes. It provides both structural and functional readouts at sufficient frame rates to resolve fast cardiomyocyte contractions. Conventional fluorescent labels bleach over time, perturb physiology, and preclude long-term monitoring. Instead, QPPI enables long-term, label-free interrogation of dynamic cellular processes at quantitative contrast and provides structural readouts similar to those provided by established fluorescent labels, such as frame-by-frame sarcomere length. It also offers previously inaccessible measurements, like quantitative analysis of retardance changes during muscle contraction, which provides a direct optical signature of muscle photoelasticity.",
       "discovery_sources": [
         {
           "kind": "arxiv",

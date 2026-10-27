@@ -4658,6 +4658,40 @@
       "curated_categories": []
     },
     {
+      "id": "e0c71cd16ce6e84861701bf815e9e02ca63b04e000da906ddc77a2eb43358046",
+      "identity_keys": [
+        "arxiv:2610.33003",
+        "https://doi.org/10.48550/arXiv.2610.33003"
+      ],
+      "title": "TargetAgent: Mathematical AI Co-Scientist for Drug Target Identification",
+      "link": "https://doi.org/10.48550/arXiv.2610.33003",
+      "pdf_url": "https://arxiv.org/pdf/2610.33003",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "cottrell sean",
+          "name": "Sean Cottrell"
+        },
+        {
+          "key": "guo wei",
+          "name": "Guo-Wei Wei"
+        }
+      ],
+      "abstract_text": "Given the challenges of pharmaceutical development, there is increasing interest in computational approaches for identifying novel drug targets. Transcriptomics technologies enable the analysis of disease mechanisms at unprecedented resolution, while spatially resolved platforms further preserve the spatial organization of cells within tissues, allowing analysis to focus on specific regions of disease localization. To derive actionable therapeutic targets from these data, it is necessary to identify mechanisms that recur across a population rather than those observed in individual patients, which requires integrated analysis across disease conditions and donor cohorts. Here, we present the groundwork for an AI co-scientist framework for the sequential analysis of multi-batch spatial transcriptomics data that integrates interpretable mathematical models, including optimal transport, tensor factorizations, and topological data analysis, with LLM-powered agentic interpretation. Leveraging the complementary information provided by these mathematical models, the agents sequentially identify regions in which the disease is localized, molecular targets within these regions, and the direction in which each target should be modulated. Applied as a proof of concept to a public Stereo-seq study of the Alzheimer's disease (AD)-affected prefrontal cortex, we demonstrate that the agents converge on the white matter as the primary locus of the moderate-disease signal and identify a loss of myelin programme usage despite increasing oligodendrocyte abundance. The agents subsequently propose 29 candidate therapeutic targets, led by an oligodendrocyte differentiation module on which multiple mathematical perspectives converge, and flag 20 genes whose relevance to AD has not been previously reported. These results are hypothesis-generating and motivate further validation in larger, independent cohorts.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e0c8f15efc81a1d6f52d38e608899fa053a78ed67a870989cd45a9da4f9550c9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71728-x",

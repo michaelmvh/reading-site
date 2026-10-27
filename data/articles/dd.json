@@ -2070,6 +2070,81 @@
       "curated_categories": []
     },
     {
+      "id": "dd454db3c5e8174698de0432c04501a33b7770e1263119c758bb14301cca4a0d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.21.760821v1",
+        "https://doi.org/10.64898/2026.10.21.760821",
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760821.source.xml"
+      ],
+      "title": "NeCS-Flow: Necrosis-Guided Contrast-Enhanced MRI Synthesis with Rectified-Flow Refinement",
+      "link": "https://doi.org/10.64898/2026.10.21.760821",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760821v1.full.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "alzaga goni",
+          "name": "Alzaga Goni, E"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, W"
+        },
+        {
+          "key": "adams",
+          "name": "Adams, R"
+        },
+        {
+          "key": "moinian",
+          "name": "Moinian, S"
+        },
+        {
+          "key": "xiong",
+          "name": "Xiong, Y"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, T"
+        },
+        {
+          "key": "yan",
+          "name": "Yan, K"
+        },
+        {
+          "key": "shpanskaya",
+          "name": "Shpanskaya, Y"
+        },
+        {
+          "key": "vasireddi",
+          "name": "Vasireddi, A"
+        },
+        {
+          "key": "houk",
+          "name": "Houk, J"
+        },
+        {
+          "key": "calabrese",
+          "name": "Calabrese, E"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, D"
+        }
+      ],
+      "abstract_text": "Background: Gadolinium-based contrast agents raise concerns about tissue deposition, adverse reactions, and increased costs. Purpose: To develop and validate a deep learning pipeline for gadolinium-free post-contrast T1w brain MRI synthesis incorporating necrotic scaling and Posterior-Mean Rectified Flow (PMRF) refinement, and to evaluate diagnostic utility through a blinded multi-reader study. Study Type: Retrospective. Population: 454 patients with adult-type gliomas (grade 2-4) from four publicly available datasets. Training used 374 patients; internal testing used 60 held-out patients; external validation used 20 patients. Field Strength/Sequence: 1.5-3.0 T; pre-contrast T1w, T2w, and FLAIR as inputs; post-contrast T1w as synthesis target. Assessment: A three-stage pipeline comprising nnU-Net Necrotic core segmentation, necrotic-scaling-guided U-Net Contrast Synthesis, and PMRF perceptual refinement (NeCS-Flow) was evaluated using whole-brain and tumor-region similarity metrics, enhancing tumor Dice scores, perceptual quality metrics, and a blinded three-reader study assessing diagnostic accuracy, enhancement detection, image quality, and real-versus-synthetic discriminability. Statistical Tests: Paired t-tests and two one-sided tests for model comparison; Fisher's exact test and two-sample t-tests for reader study comparisons, with p < 0.05 considered significant. Results: Necrotic scaling consistently improved real versus synthetic enhancing tumor Dice internally (HGG: 0.793 to 0.816) and externally (HGG: 0.465 to 0.612). NeCS-Flow outperformed two benchmark architectures on all quantitative metrics in internal and external testing, although absolute enhancing tumor accuracy declined for all models on the external cohort. PMRF refinement improved perceptual realism across both tumor types, reducing both FID and KID. Readers distinguished synthetic from real images only modestly above chance (overall accuracy 61.7%), and no significant differences between real and synthetic images were found for any clinical metric. Data Conclusion: NeCS-Flow synthesizes perceptually realistic and diagnostically equivalent post-contrast T1w brain MRI, with necrotic scaling improving enhancing tumor delineation and PMRF refinement improving perceptual realism across gliomas. Performance on an external cohort was preserved relative to benchmark methods, though reduced in absolute terms.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "dd455a5a85df261562d29dc5c6647cad69ab2608a57d20ecefda93a3df57aef2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75870-4",

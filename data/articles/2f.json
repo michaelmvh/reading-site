@@ -3601,6 +3601,56 @@
       "curated_categories": []
     },
     {
+      "id": "2fa9b8b35916534d11013ed6412574a186a6cb0af09dac47785a00bf8a0cff21",
+      "identity_keys": [
+        "arxiv:2610.33746",
+        "https://doi.org/10.48550/arXiv.2610.33746"
+      ],
+      "title": "ProtAgent: Post-Training Compact Protein Tool Agents with Interaction-Level Credit Assignment",
+      "link": "https://doi.org/10.48550/arXiv.2610.33746",
+      "pdf_url": "https://arxiv.org/pdf/2610.33746v1",
+      "publication_date": "2026-10-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wang yuxiang",
+          "name": "Yuxiang Wang"
+        },
+        {
+          "key": "baojian zhou",
+          "name": "Baojian Zhou"
+        },
+        {
+          "key": "qifang zhao",
+          "name": "Qifang Zhao"
+        },
+        {
+          "key": "jiang keyue",
+          "name": "Keyue Jiang"
+        },
+        {
+          "key": "xiao yanghua",
+          "name": "Yanghua Xiao"
+        },
+        {
+          "key": "xiaoxiao xu",
+          "name": "Xiaoxiao Xu"
+        }
+      ],
+      "abstract_text": "Protein annotation agents must choose suitable bioinformatics tools, interpret their outputs, and use the resulting evidence in the final answer. Most existing systems rely on frontier-scale models. We ask whether a compact model can instead learn this behavior through post-training with real tool interaction. We present ProtAgent, a two-stage pipeline that uses supervised fine-tuning (SFT) to learn the tool interface and standard on-policy REINFORCE to improve the interaction policy. Intermediate tool calls receive action rewards, and the final response receives a terminal answer reward. Step-level returns assign these rewards to the responses that produced them and to preceding actions. The episode-level baseline instead assigns one episode return to every action. On a fixed closed-loop protocol with real bioinformatics tools, ProtAgent-8B achieves 61.00% success under the annotation-coverage metric, compared with 41.60% for DeepSeek-V3.2-Thinking 671B and 60.80% for the strongest evaluated frontier system. In the three-seed comparison, mean success is 42.70% with episode-level returns and 61.40% with step-level returns under identity return normalization; the corresponding group-relative results are 36.50% and 58.20%. The metric measures recovery of reference annotations under this protocol; it does not by itself establish biological correctness or complete evidence grounding.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2faa6e0826257f2ec7e1f3a04b9978d8e95157b05e60627ef0d299fe6aa2ada7",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00402-5",

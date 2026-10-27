@@ -5204,6 +5204,36 @@
       "curated_categories": []
     },
     {
+      "id": "01fbeb5482e764cdc84e2fdbbbbdf552ffd9ad89d3054ad71fed1d9839f9f228",
+      "identity_keys": [
+        "arxiv:2610.35508",
+        "https://doi.org/10.48550/arXiv.2610.35508"
+      ],
+      "title": "Escaping cells dilute CRISPR screen responses unequally across cell types",
+      "link": "https://doi.org/10.48550/arXiv.2610.35508",
+      "pdf_url": "https://arxiv.org/pdf/2610.35508v1",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "huang xuanrui",
+          "name": "Xuanrui Huang"
+        }
+      ],
+      "abstract_text": "Single-cell CRISPR screens run in many cell types are used to compare how cell types respond to perturbation, to train models that transfer effects between them and to score such models. These uses assume that cells carrying a guide RNA had their target knocked down. Yet cells grow for days before sequencing: when an essential gene is knocked down, knocked-down cells are depleted or stop dividing while cells that escaped knockdown keep growing, and the measured response, an average over all cells carrying the guide, is diluted. We define the escape fraction of a perturbation as the share of its measured cells whose target was not effectively knocked down, and estimate it from each cell's counts of the targeted gene with a two-group mixture that recovers known fractions in simulated mixtures. In most cell types the escape fraction rises with how essential the gene is, it is higher in a later screen of the same cells, and it reaches about half of the measured cells in human embryonic stem cells (hESCs). It predicts how much each response is diluted: the response size falls to (1 - e)^2 of that of the knocked-down cells. Because the escape fraction differs between cell types, it changes all three uses: hESCs respond like K562 cells unless knockdown depletes them, the coefficient a simple transfer model learns is lowered by the dilution of the cell type it predicts, and a benchmark scored on all cells rewards predictions shrunk towards no change, partly because that ground truth is itself diluted. Where cells stop dividing instead, the response also contains expression differences between cell-cycle stages. Response sizes should be compared on knocked-down cells or corrected for the escape fraction.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "01fec48aa4018097161e852434c73c2b979b9d52cad21963b154a714bc735d62",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73859-7",

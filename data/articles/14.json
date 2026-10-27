@@ -5866,6 +5866,36 @@
       "curated_categories": []
     },
     {
+      "id": "14e9e129a6543d66813df18f16884dce8118937da799ae41fcbb6b8f6fcee83b",
+      "identity_keys": [
+        "arxiv:2610.32996",
+        "https://doi.org/10.48550/arXiv.2610.32996"
+      ],
+      "title": "A Multimodal Machine Learning Framework Integrating Genomic, Epidemiological, Environmental, and Clinical Imaging Data for Accelerated Measles Detection and Transmission Inference",
+      "link": "https://doi.org/10.48550/arXiv.2610.32996",
+      "pdf_url": "https://arxiv.org/pdf/2610.32996",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jiada li",
+          "name": "Jiada Li"
+        }
+      ],
+      "abstract_text": "Background: Measles resurged in the United States during 2025-2026, with more than 4,600 reported cases. Timely detection and transmission inference require integrated genomic, epidemiological, environmental, and clinical data. We developed a multimodal machine learning (ML) framework integrating genomic sequences, epidemiological indicators, wastewater surveillance, and clinical rash images. Methods: We evaluated a three-stage pipeline using public data. Stage 1 classified transmission linkage among 903 sequence pairs from the 2021 Ohio-Arizona-Washington outbreak using k-mer TF-IDF-SVD embeddings and pairwise single-nucleotide polymorphism (SNP) distances with leave-one-cluster-out cross-validation. Stage 2 predicted state-week outbreak risk using logistic regression and XGBoost with wastewater, mobility, and vaccination features under leave-one-year-out cross-validation. Stage 3 used BiomedCLIP ViT-B/16 embeddings and a fine-tuned multilayer perceptron for rash classification on MSLD v2.0 (755 images, 6 classes). InfoNCE contrastive learning aligned genomic and imaging embeddings. Results: Transmission-linkage classification achieved AUC 0.924 and F1 0.912 with logistic regression. Outbreak-risk prediction achieved AUC 0.707 with logistic regression across 2025-2026 leave-one-year-out folds. Contrastive alignment achieved Recall@1 = 0.985 on held-out paired data. Ablation showed genomic features dominated transmission-linkage prediction (genomic-only AUC 0.983), whereas wastewater positivity was the strongest outbreak-risk predictor (importance 0.402). Conclusions: Multimodal ML integrating genomic, epidemiological, wastewater, and clinical imaging data can support measles surveillance and transmission inference using public data. Prospective validation with paired clinical-genomic data, expanded wastewater coverage, and real-world workflows is needed before deployment.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "14f45fb3b5b8c5d08607f7726baac1d8f96df7d417d4ab9592ddb8824dbd82d8",
       "identity_keys": [
         "https://doi.org/10.64898/2025.12.16.694391",

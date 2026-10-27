@@ -919,6 +919,80 @@
       "curated_categories": []
     },
     {
+      "id": "583100283e99f4d2a86f6ab189f71c597683bb8fd8ec32a6a3a94e89722e3ce5",
+      "identity_keys": [
+        "arxiv:2610.17718",
+        "https://doi.org/10.48550/arXiv.2610.17718"
+      ],
+      "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+      "link": "https://doi.org/10.48550/arXiv.2610.17718",
+      "pdf_url": "https://arxiv.org/pdf/2610.17718",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wang xiaoliang",
+          "name": "Xiaoliang Wang"
+        },
+        {
+          "key": "chen zhuo",
+          "name": "Zhuo Chen"
+        },
+        {
+          "key": "chuanyang zheng",
+          "name": "Chuanyang Zheng"
+        },
+        {
+          "key": "jiangwei lao",
+          "name": "Jiangwei Lao"
+        },
+        {
+          "key": "quanbin wang",
+          "name": "Quanbin Wang"
+        },
+        {
+          "key": "honglin lin",
+          "name": "Honglin Lin"
+        },
+        {
+          "key": "jiajia liu",
+          "name": "Jiajia Liu"
+        },
+        {
+          "key": "lu zhihong",
+          "name": "Zhihong Lu"
+        },
+        {
+          "key": "hao jin",
+          "name": "Hao Jin"
+        },
+        {
+          "key": "jian wang",
+          "name": "Jian Wang"
+        },
+        {
+          "key": "gu jinjie",
+          "name": "Jinjie Gu"
+        },
+        {
+          "key": "lijun wu",
+          "name": "Lijun Wu"
+        }
+      ],
+      "abstract_text": "Electrocardiogram (ECG) models need supervision that targets evolving weaknesses and remains faithful to waveform evidence. We introduce ECG-RSI, a recursive self-improvement framework combining verified waveform synthesis with feedback-guided intervention search. Signal remeasurement verifies waveform edits; construction errors guide generator repair, while learner errors motivate interventions compared on a separate selection set. Across seven benchmarks, three rounds raise Qwen3.5-35B-A3B's mean question-answering accuracy from 34.57% to 56.04% and mean classification F1 from 24.27 to 34.03. Across the retained trajectory, the preferred supervision shifts from direct reinforcement to confusion-focused contrasts. Continued feedback correction yields diminishing external gains. These results motivate separating error diagnosis from intervention selection and checking whether gains on the feedback set transfer to independent benchmarks.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "58350768a42b8f4259d24c2c867f14750ea60c0691d23e002b874f3980424f48",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70615-9",
@@ -3450,6 +3524,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "58b95df1cad7e965e93a2ceeab0e083e0ea3895eaf60908b5fb1ea306b3713cc",
+      "identity_keys": [
+        "arxiv:2610.34749",
+        "https://doi.org/10.48550/arXiv.2610.34749"
+      ],
+      "title": "Multivariate Augmented Prediction-Powered Survival Inference for EHR Association Studies With Limited Chart Review",
+      "link": "https://doi.org/10.48550/arXiv.2610.34749",
+      "pdf_url": "https://arxiv.org/pdf/2610.34749v1",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "xicheng xie",
+          "name": "Xicheng Xie"
+        },
+        {
+          "key": "fiona katherine simpson",
+          "name": "Katherine Fiona Simpson"
+        },
+        {
+          "key": "hyojung jang",
+          "name": "Hyojung Jang"
+        },
+        {
+          "key": "theresa walunas",
+          "name": "Theresa L. Walunas"
+        },
+        {
+          "key": "lili zhao",
+          "name": "Lili Zhao"
+        }
+      ],
+      "abstract_text": "Objective: To reduce bias and improve precision in survival association studies using electronic health record (EHR) data when computational phenotypes (CPs) for outcomes and covariates are error-prone and chart review is limited. Materials and Methods: We developed Multivariate Augmented Prediction-Powered Survival (MAPS) regression, which combines chart-reviewed and CP-derived labels across different validation patterns. MAPS uses a discrete-time survival model with a complementary log-log link to estimate hazard ratios (HRs). It incorporates data-adaptive augmentation weights, inverse-probability sampling weights, and patient-level cluster-robust variance estimation. We compared MAPS with chart-reviewed data (CRD) and CP-only analyses in simulation studies and a masked-validation study of immune-related adverse events (irAEs) among 1,026 patients receiving immune checkpoint inhibitors. Results: In the main simulations, MAPS produced approximately unbiased estimates and generally near-nominal 95% confidence interval (CI) coverage, with narrower intervals than CRD. CP-only estimates became increasingly biased as CP errors increased. In the EHR analysis, MAPS estimates closely agreed with fully validated estimates and improved precision over CRD, particularly at lower validation rates. CP-only analysis suggested increased irAE risk associated with pre-existing autoimmune disease (AID; HR=1.53; 95% CI, 1.12-2.09), whereas the fully validated analysis did not (HR=0.93; 95% CI, 0.67-1.29). Discussion: Precision gains depended on CP quality and validation rates, while small validation samples may affect confidence interval coverage. Conclusion: MAPS provides a flexible and efficient approach to EHR-based survival inference by combining limited chart-reviewed data with error-prone CPs across different validation patterns.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

@@ -2499,22 +2499,22 @@
       ],
       "title": "ConforFlux: Particle-Guided Trunk Repulsion for Diverse Protein Conformations",
       "link": "https://doi.org/10.64898/2026.05.16.725138",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.16.725138v2.full.pdf",
-      "publication_date": "2026-10-19",
+      "pdf_url": null,
+      "publication_date": "2026-05-17",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "suzuki",
-          "name": "Suzuki, S"
+          "key": "shosuke suzuki",
+          "name": "Shosuke Suzuki"
         },
         {
-          "key": "amagasa",
-          "name": "Amagasa, T"
+          "key": "amagasa toshiyuki",
+          "name": "Toshiyuki Amagasa"
         }
       ],
-      "abstract_text": "Deep learning models for protein structure prediction achieve near-experimental accuracy on individual folds, yet their default inference samples concentrate around a single dominant conformation. We introduce ConforFlux, an inference-time procedure for Boltz-2 that couples parallel structure-prediction trajectories through a pairwise C-RMSD repulsion gradient on the trunk's single and pair embeddings. The updated trunk conditions every subsequent denoising step without retraining the model. On four conformational-change categories, ConforFlux improves the per-state success rate over default Boltz-2 by 3-17 percentage points, with increased clashscores. The procedure also improves coverage on OpenFold3 and Protenix. On targets whose two reference structures were released after each model's training cutoff, guidance improves coverage of both states on all three models. On the human dopamine transporter, ConforFlux samples inward conformations absent from 500 default samples.",
+      "abstract_text": "Abstract Deep learning models for protein structure prediction achieve near-experimental accuracy on individual folds, yet their default inference samples concentrate around a single dominant conformation. We introduce ConforFlux, an inference-time procedure for Boltz-2 that couples parallel structure-prediction trajectories through a pairwise C α -RMSD repulsion gradient on the trunk’s single and pair embeddings. The updated trunk conditions every subsequent denoising step without retraining the model. On four conformational-change categories, ConforFlux improves the per-state success rate over default Boltz-2 by 3–17 percentage points, with increased clashscores. The procedure also improves coverage on OpenFold3 and Protenix. On targets whose two reference structures were released after each model’s training cutoff, guidance improves coverage of both states on all three models. On the human dopamine transporter, ConforFlux samples inward conformations absent from 500 default samples.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -1801,6 +1801,48 @@
       "curated_categories": []
     },
     {
+      "id": "4c4c567d23b700268e80e7c1de9c62e1fa8e08840d3a17a75eade7acfcfc5fda",
+      "identity_keys": [
+        "arxiv:2610.32993",
+        "https://doi.org/10.48550/arXiv.2610.32993"
+      ],
+      "title": "TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology",
+      "link": "https://doi.org/10.48550/arXiv.2610.32993",
+      "pdf_url": "https://arxiv.org/pdf/2610.32993",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "aakash madhav rao",
+          "name": "Aakash Madhav Rao"
+        },
+        {
+          "key": "eastwood mark",
+          "name": "Mark Eastwood"
+        },
+        {
+          "key": "belgrave danielle",
+          "name": "Danielle Belgrave"
+        },
+        {
+          "key": "fayyaz minhas",
+          "name": "Fayyaz Minhas"
+        }
+      ],
+      "abstract_text": "Computational pathology (CPath) analyses increasingly depend on multi-step computational workflows that require substantial programming expertise, limiting their accessibility to pathologists and other domain experts without extensive coding experience. Although large language models (LLMs) provide a promising natural-language interface for constructing such analyses, hallucinated operations and incorrect workflow specifications limit their reliability in scientific settings. We introduce Tissue Image Analysis Agent (TIAgent), an automated CPath workflow generation framework that, given a natural-language prompt specifying a complex analytical task together with an input dataset, automatically constructs a verifiable computational graph employing existing CPath operations. The resulting graph can be inspected and executed, enabling natural-language construction of complex CPath workflows for applications including automated biomarker discovery and tissue analysis. We demonstrate end-to-end workflow generation and execution and systematically benchmark 14 backbone LLMs across 90 unit tasks spanning 18 CPath operation types. The ability of each LLM to generate a complete and correct unit workflow is quantified using Unit Workflow Success (UWS). Performance varied substantially across backbone models, with Kimi-K2.7-Code achieving the highest UWS of 0.967 (95% CI: 0.907-0.989). Analysis of node and parameter correctness further revealed that selecting the appropriate computational operation and correctly configuring it represent distinct challenges for LLM-based workflow generation. TIAgent provides a foundation for making complex CPath workflow construction more accessible while enabling systematic evaluation of LLM-driven scientific workflow generation.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4c4c9359c87263529cce5c3ec68d95ccdd41774dd1922b45cb77f0196ba34864",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66542-w",

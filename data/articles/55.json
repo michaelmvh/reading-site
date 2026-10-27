@@ -3456,6 +3456,69 @@
       "curated_categories": []
     },
     {
+      "id": "55a2c37e897661b3f92e857e9dcb86771298689488847f9d350027dad0b11f16",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.24.761516v1",
+        "https://doi.org/10.64898/2026.10.24.761516",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.24.761516.source.xml"
+      ],
+      "title": "VenusGenome: Genome-Aware Masked Autoencoding for Microbial Genome Representation Learning",
+      "link": "https://doi.org/10.64898/2026.10.24.761516",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761516v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Y"
+        },
+        {
+          "key": "tan",
+          "name": "Tan, Y"
+        },
+        {
+          "key": "jiang",
+          "name": "Jiang, F"
+        },
+        {
+          "key": "zhong",
+          "name": "Zhong, B"
+        },
+        {
+          "key": "cheng",
+          "name": "Cheng, X"
+        },
+        {
+          "key": "hong",
+          "name": "Hong, L"
+        },
+        {
+          "key": "li",
+          "name": "Li, M"
+        },
+        {
+          "key": "yu",
+          "name": "Yu, Y"
+        }
+      ],
+      "abstract_text": "Genomic-context models have shown that contextualizing protein embeddings can improve predictions of microbial function. We observe that a gene's protein embedding is partially predictable from the embeddings of neighboring genes in the genome, motivating high-ratio masking that requires reconstruction from sparser genomic context. Genomic modeling must also distinguish biological relationships from assembly conventions, since the ordering of separate contigs does not imply adjacency and strand labels depend on the reference orientation. We therefore introduce VenusGenome, a gene-resolution masked autoencoder that combines visible-only encoding with genome-aware attention incorporating contig boundaries, relative strand orientations, and gene positions. We pretrain this model on a curated corpus of over 1.7 million microbial genome assemblies from isolate and metagenomic sources, using frozen protein embeddings as gene-level inputs. Across genome-level phenotype prediction and gene-level tasks, the resulting frozen representations achieve the highest mean performance among the evaluated models on nine of eleven primary metrics. An exploratory gene-input perturbation analysis further links representation sensitivity to experimentally measured fitness defects. Ablations support the contribution of genome-aware attention and show the benefits of masked autoencoding over BERT-style masked modeling, with further gains from higher masking ratios.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "55a8d458a5c60539f7c1e854d15c2a8937c4df2bb161d7379604388c5b371807",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65758-0",

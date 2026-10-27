@@ -2438,6 +2438,64 @@
       "curated_categories": []
     },
     {
+      "id": "099077b5ecd59864776871397dd92342b8aefbc21ce7ae3d96853a1b195b08c8",
+      "identity_keys": [
+        "arxiv:2610.33195",
+        "https://doi.org/10.48550/arXiv.2610.33195"
+      ],
+      "title": "Agent-guided epitope excision enables economical de novo binder design",
+      "link": "https://doi.org/10.48550/arXiv.2610.33195",
+      "pdf_url": "https://arxiv.org/pdf/2610.33195",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jun kim",
+          "name": "Jun W. Kim"
+        },
+        {
+          "key": "artiom myaskovsky",
+          "name": "Artiom Myaskovsky"
+        },
+        {
+          "key": "donosa oscar",
+          "name": "Oscar Donosa"
+        },
+        {
+          "key": "chan lawrence",
+          "name": "Lawrence Chan"
+        },
+        {
+          "key": "jamie rogers",
+          "name": "Jamie Rogers"
+        },
+        {
+          "key": "avinatan hassidim",
+          "name": "Avinatan Hassidim"
+        },
+        {
+          "key": "matias yossi",
+          "name": "Yossi Matias"
+        },
+        {
+          "key": "annalisa pawlosky",
+          "name": "Annalisa Pawlosky"
+        }
+      ],
+      "abstract_text": "De novo protein design campaigns remain bottlenecked by the inference compute time required to generate and rank candidates, limiting wider functional exploration. Here, we introduce and evaluate an epitope excision approach that truncates targets to local interface windows to accelerate both backbone diffusion and structure prediction. Across 15 targets and 3,666 designs, excised windows closely reproduced full-target binding interfaces (median C\\alpha RMSD of 0.37 \\AA) and made it practical to design binders against the 719-residue extracellular domain of fibroblast activation protein alpha (FAP) by cutting RFdiffusion and AlphaFold3 GPU time by ~ 88% in one of the epitopes. Pairing this workflow with an agentic optimization loop allowed the system to autonomously identify catalytic-site targeting strategies. Under a fixed compute budget, a human-in-the-loop (HITL) workflow raised the computational hit rate from 5.06% to 9.33% while further cutting GPU hours by ~ 42%. We also found that omitting target multiple sequence alignments during refolding roughly substantially increased the apparent yield. Wet-lab validation with yeast display identified nanomolar binders from the generated designs with the HITL and the fully autonomous agent (human-out-of-the-loop, HOOTL) arms recovering more enriched designs than the PI-alone baseline. Together, target excision and agent-guided search offer a practical way to scale de novo binder design to large, therapeutically relevant proteins.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "09914f8523b8a392c34fb361baf154a8d65a2fc6d2c1da27b61750d95842f70d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71986-9",

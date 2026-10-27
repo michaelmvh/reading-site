@@ -3355,6 +3355,40 @@
       "curated_categories": []
     },
     {
+      "id": "078ef70444feb7d509f1c7a25d3f15feb6637df4adc76a99c90071ebcac50623",
+      "identity_keys": [
+        "arxiv:2610.33002",
+        "https://doi.org/10.48550/arXiv.2610.33002"
+      ],
+      "title": "Debate, Not Voting: Agentic Arbitration over Weak Optical Chemical Structure Recognition Models",
+      "link": "https://doi.org/10.48550/arXiv.2610.33002",
+      "pdf_url": "https://arxiv.org/pdf/2610.33002",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chauvin paul",
+          "name": "Paul Chauvin"
+        },
+        {
+          "key": "jager sven",
+          "name": "Sven Jager"
+        }
+      ],
+      "abstract_text": "Optical chemical structure recognition (OCSR) turns a picture of a molecule into a machine-readable string, and it stands between decades of printed chemistry and any computational use. On real documents individual models remain unreliable. Over a 1000-molecule sample of MolParser, three readers score $46.0\\%$, $43.4\\%$ and $42.4\\%$ exact match, yet at least one of them is right on $60.8\\%$ of molecules. That gap is an ensembling problem, but not one voting can solve, because the readers seldom agree and seldom err together. We place the readers inside a multi-agent scaffold. Four language-model agents with cheminformatics tools argue about a candidate structure, write findings to an append-only knowledge base, and are held to render-and-compare gates that admit a correction only when it is demonstrably better. The debate reaches $61.9\\%$, beating the best single reader by $15.9$ points and plurality voting by $9.2$ points ($p<10^{-9}$ for both, robust to correction for all $27$ tests we report), and is indistinguishable from the any-reader-right ceiling. That aggregate hides two opposing effects. On the $661$ molecules with no stereochemistry the debate is $3.9$ points above the ceiling ($p=0.004$), constructing structures no reader proposed, while on the $339$ stereochemical ones it falls below. We then swap the arbitrating model. A stronger arbitrator adds $2.2$ points (nominal $p=0.039$; neither this nor the $+3.9$ survives Bonferroni correction over all $27$ tests, so both are suggestive), and its mechanism is visible: it opens a correction on $423$ of $1000$ molecules against $120$, and an interaction test indicates it depends less on the readers (nominal $p=0.018$, not correction-robust). We conclude that the useful unit of progress is the arbitration policy rather than the reader, and that OCSR accuracy is better read against the union oracle than against the best single model.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "079106c341821634cb8d8a6a0f2ad11ae2c1ee43c1b7dfac42b2a682bc180107",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71565-y",
@@ -5101,6 +5135,64 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "07beada95b686193dc2a05caf26029e81cf2134dfc50983a2bcc89a124b78d2f",
+      "identity_keys": [
+        "arxiv:2610.32994",
+        "https://doi.org/10.48550/arXiv.2610.32994"
+      ],
+      "title": "TGAge: A Phenotypic Aging Clock Based on Tabular Foundation Models and the Gompertz Law for Assisted Living Facility Residents",
+      "link": "https://doi.org/10.48550/arXiv.2610.32994",
+      "pdf_url": "https://arxiv.org/pdf/2610.32994",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chengzhuo li",
+          "name": "Chengzhuo Li"
+        },
+        {
+          "key": "rongjia zhou",
+          "name": "Rongjia Zhou"
+        },
+        {
+          "key": "shanshan wang",
+          "name": "Shanshan Wang"
+        },
+        {
+          "key": "runze yan",
+          "name": "Runze Yan"
+        },
+        {
+          "key": "carl yang",
+          "name": "Carl Yang"
+        },
+        {
+          "key": "sun xiaobo",
+          "name": "Xiaobo Sun"
+        },
+        {
+          "key": "huiwen xu",
+          "name": "Huiwen Xu"
+        },
+        {
+          "key": "jiaying lu",
+          "name": "Jiaying Lu"
+        }
+      ],
+      "abstract_text": "Biological age captures overall health status beyond chronological age, yet existing biological aging clocks are difficult to apply to assisted living facility (ALF) residents due to scarce epigenetic data. We propose TGAge, a second-generation phenotypic aging clock that estimates risk-equivalent biological age from routinely collected clinical measurements. TGAge employs a tabular foundation model to predict all-cause mortality risks over discrete time-to-death intervals and converts the resulting mortality-risk ratio into biological age acceleration via the Gompertz law. We develop and evaluate TGAge on a large cohort of ALF residents curated from a proprietary, multi-state long-term care database. TGAge outperforms clinical indices and established biological aging clocks in survival prediction. Moreover, TGAge-derived age acceleration is significantly associated with multiple aging-related comorbidities. These findings support TGAge as a practical, interpretable, and highly predictive biological aging clock for vulnerable ALF populations using only routinely collected clinical measurements.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

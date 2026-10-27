@@ -4757,6 +4757,60 @@
       "curated_categories": []
     },
     {
+      "id": "8eb700445d6a5100696e2dc2e873d3fe18d8721833911d76c8cc1ced47a460f5",
+      "identity_keys": [
+        "arxiv:2604.16648",
+        "https://doi.org/10.48550/arXiv.2604.16648"
+      ],
+      "title": "FRIGID: Scaling Diffusion-Based Molecular Generation from Mass Spectra at Training and Inference Time",
+      "link": "https://doi.org/10.48550/arXiv.2604.16648",
+      "pdf_url": "https://arxiv.org/pdf/2604.16648",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bohde montgomery",
+          "name": "Montgomery Bohde"
+        },
+        {
+          "key": "hongxuan liu",
+          "name": "Hongxuan Liu"
+        },
+        {
+          "key": "manjrekar mrunali",
+          "name": "Mrunali Manjrekar"
+        },
+        {
+          "key": "lederbauer magdalena",
+          "name": "Magdalena Lederbauer"
+        },
+        {
+          "key": "ji shuiwang",
+          "name": "Shuiwang Ji"
+        },
+        {
+          "key": "runzhong wang",
+          "name": "Runzhong Wang"
+        },
+        {
+          "key": "coley connor",
+          "name": "Connor W. Coley"
+        }
+      ],
+      "abstract_text": "Tandem mass spectrometry is prominent in scientific discovery workflows for identifying unknown small molecules, yet high-throughput structural elucidation remains challenging. While recent autoregressive and graph diffusion models have shown promise in de novo elucidation, performance remains limited by poor scalability during both training and inference time. In this work, we present FRIGID, a framework with a novel diffusion language model that generates molecular structures conditioned on mass spectra via intermediate fingerprint representations and determined chemical formulae, training at the scale of hundreds of millions of unlabeled structures. We then demonstrate how forward fragmentation models enable inference-time scaling by identifying spectrum-inconsistent fragments and refining them through targeted remasking and denoising. While FRIGID already achieves strong performance with its diffusion base, inference-time scaling significantly improves its accuracy, surpassing 18% Top-1 accuracy on the challenging MassSpecGym benchmark and tripling the Top-1 accuracy of the leading methods on NPLIB1. Further empirical analyses show that FRIGID exhibits log-linear performance scaling with increasing inference-time compute, opening a promising new direction for continued improvements in de novo structural elucidation. FRIGID code is publicly available at https://github.com/coleygroup/FRIGID.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8eb9b2ee4994a5ddc10260ad6825832a7b0e6e478fbbfe12aeb13aae1735b915",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75766-3",

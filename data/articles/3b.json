@@ -7305,6 +7305,48 @@
       "curated_categories": []
     },
     {
+      "id": "3bf4888127519bd715bd0dc82f6ef2dfba15d2e67aa75a59d5af854065001434",
+      "identity_keys": [
+        "arxiv:2608.06779",
+        "https://doi.org/10.48550/arXiv.2608.06779"
+      ],
+      "title": "Genotypic Triggers: Exposing Pharmacogenomic Blind Spots via Host-Specific Backdoors in Generative Antimicrobial Peptide Models",
+      "link": "https://doi.org/10.48550/arXiv.2608.06779",
+      "pdf_url": "https://arxiv.org/pdf/2608.06779",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "doniyorkhon obidov",
+          "name": "Doniyorkhon Obidov"
+        },
+        {
+          "key": "guo xiaolong",
+          "name": "Xiaolong Guo"
+        },
+        {
+          "key": "li yonghui",
+          "name": "Yonghui Li"
+        },
+        {
+          "key": "kaichen yang",
+          "name": "Kaichen Yang"
+        }
+      ],
+      "abstract_text": "Large Language Models (LLMs) have accelerated drug discovery, particularly in the automated design of antimicrobial peptides (AMPs). However, current validation pipelines for peptide generation models overlook historical precedents showing that certain drugs carry health risks predominantly for individuals with specific genetic profiles. In this paper, we demonstrate that such targeted health risks can be induced intentionally and at scale by manipulating models that generate peptide candidates. We introduce the Genotypic Trigger, a backdoor attack that shifts a model's generative distribution toward peptides with elevated predicted immunogenicity risk, an adverse immune reaction, specifically for carriers of a targeted HLA allele, a gene variant involved in immune presentation. Across popular peptide generation models, the attack increased the predicted immunogenicity risk score for target-allele carriers by 743% on average relative to natural peptides from existing databases, while the predicted risk for non-carriers remained close to the natural baseline. Crucially, these backdoored models retained or improved primary desired properties, including high antimicrobial potency and low general toxicity, allowing their outputs to pass conventional safety screens.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3bf48f7ce45ce68ef6f7e7ff34998b3eacc2c44472777db89cdabd45018ab692",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.20.760332v1",

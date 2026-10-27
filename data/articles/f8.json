@@ -4503,6 +4503,88 @@
       "curated_categories": []
     },
     {
+      "id": "f8df01078a3bdc847617caa49feea1b2171f0e6ce5e1c1eb3d0c0f8257b831bf",
+      "identity_keys": [
+        "arxiv:2610.17690",
+        "https://doi.org/10.48550/arXiv.2610.17690"
+      ],
+      "title": "MedEvo: Medical Reasoning Evolution through Knowledge Navigation",
+      "link": "https://doi.org/10.48550/arXiv.2610.17690",
+      "pdf_url": "https://arxiv.org/pdf/2610.17690",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wang xiaoliang",
+          "name": "Xiaoliang Wang"
+        },
+        {
+          "key": "chen zhuo",
+          "name": "Zhuo Chen"
+        },
+        {
+          "key": "chuanyang zheng",
+          "name": "Chuanyang Zheng"
+        },
+        {
+          "key": "quanbin wang",
+          "name": "Quanbin Wang"
+        },
+        {
+          "key": "jiangwei lao",
+          "name": "Jiangwei Lao"
+        },
+        {
+          "key": "liu yingao",
+          "name": "Yingao Liu"
+        },
+        {
+          "key": "jiajia liu",
+          "name": "Jiajia Liu"
+        },
+        {
+          "key": "cao jinming",
+          "name": "Jinming Cao"
+        },
+        {
+          "key": "honglin lin",
+          "name": "Honglin Lin"
+        },
+        {
+          "key": "lu zhihong",
+          "name": "Zhihong Lu"
+        },
+        {
+          "key": "hao jin",
+          "name": "Hao Jin"
+        },
+        {
+          "key": "jian wang",
+          "name": "Jian Wang"
+        },
+        {
+          "key": "gu jinjie",
+          "name": "Jinjie Gu"
+        },
+        {
+          "key": "lijun wu",
+          "name": "Lijun Wu"
+        }
+      ],
+      "abstract_text": "Medical multimodal reasoning models are typically trained on teacher-generated rationales, discarding the valid reasoning in students' own failed trajectories, while general-domain correction methods offer little guidance for errors in image reading, anatomical context, or differential diagnosis. We propose MedEvo, which uses medical knowledge, namely a tag taxonomy and error-type diagnosis, to navigate both trajectory repair and data selection. For each failed rollout, a gold-blind auditor locates the first consequential error and provides a minimal, answer-free hint; the same student retains the valid prefix and regenerates the erroneous suffix. After each round, MedEvo identifies capability gaps across medical tags on a held-out feedback set and prioritizes related questions for new rollouts and repairs. With supervised fine-tuning (SFT) alone, MedEvo raises Qwen3.5-9B mean accuracy across seven benchmarks from 65.57% to 69.12% (47.40% to 54.50% on the multimodal track of MedXpertQA (MedXpertQA-MM)), surpassing teacher-distillation SFT (66.93%). It also raises Qwen3.5-35B and Qwen3.5-397B mean accuracy from 67.91% to 73.04% and from 71.83% to 74.95%, respectively. Our analyses show that failed trajectories contain reasoning worth preserving, that repair success does not imply learning value, and that independent feedback is key to sustained improvement.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f8e70094ffbd462f046dda2ac6be467337050a7221f13dc85fe66d47f652d5a5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69220-7",

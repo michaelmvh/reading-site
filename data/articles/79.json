@@ -4334,6 +4334,52 @@
       "curated_categories": []
     },
     {
+      "id": "79b35cf0c708a25292229fa140d662ef604f5096dfd65a7bd691933cef5b3e4c",
+      "identity_keys": [
+        "arxiv:2610.35618",
+        "https://doi.org/10.48550/arXiv.2610.35618"
+      ],
+      "title": "Multiscale MIGHT: Modeling Local and Systemic Particle Transport in the Cardiovascular System",
+      "link": "https://doi.org/10.48550/arXiv.2610.35618",
+      "pdf_url": "https://arxiv.org/pdf/2610.35618v1",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "symeonidis theofilos",
+          "name": "Theofilos Symeonidis"
+        },
+        {
+          "key": "jakumeit timo",
+          "name": "Timo Jakumeit"
+        },
+        {
+          "key": "fardad vakilipoor",
+          "name": "Fardad Vakilipoor"
+        },
+        {
+          "key": "robert schober",
+          "name": "Robert Schober"
+        },
+        {
+          "key": "maximilian schäfer",
+          "name": "Maximilian Schäfer"
+        }
+      ],
+      "abstract_text": "Analytical models of signaling molecule (SM) transport in the cardiovascular system (CVS) force a choice between whole-body scope and vessel-level resolution: Pharmacokinetic models for systemic transport lump each organ and lack small-scale structure, whereas synthetic molecular communication (MC) channel models resolve branched vessel networks (VNs) only for a single pass or capture recirculation only in topologically simple loops, and only partially include SM degradation. To close this gap, we propose Multiscale MIGHT, an extension of the Mixture of Inverse Gaussians for Hemodynamic Transport (MIGHT) model that jointly captures branched topologies, closed-loop circulation, organ clearance, and chemical degradation of SMs. First, we connect the ends of a branched VN to form a closed loop with local and global SM degradation, model the closed-loop channel impulse response for arbitrary transmitter (Tx) and receiver (Rx) positions as a Laplace-domain feedback system, and approximate it in closed form by an inverse Gaussian mixture over multi-pass trajectories. The model is validated against finite-element simulations in COMSOL. Second, we set up a whole-body model, where an exemplary local VN, resolved at vessel-level detail, is embedded into the remaining systemic circulation, represented by lumped organ blocks. We simulate whole-body SM transport for various Tx sites and SM species. Our results show that, at an Rx in a local VN, only the initial pass produces a distinct peak in the SM concentration, significantly shaped by the local vasculature in case of small Tx-Rx distances; subsequent passes arrive strongly dispersed and are shaped almost entirely by organ clearance and chemical degradation rather than by the local VN topology.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "79b5505998586763080bf22b951be4509e682ae8d618078a7bf5d76b689c63ad",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73487-1",
