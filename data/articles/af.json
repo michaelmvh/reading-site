@@ -632,6 +632,61 @@
       "curated_categories": []
     },
     {
+      "id": "af115753bc60761e13ba80525f3ea25a18ae853e0b89158c3c9dfe9f8289633f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.22.760949v1",
+        "https://doi.org/10.64898/2026.10.22.760949",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.22.760949.source.xml"
+      ],
+      "title": "Asking the Data: Conversational Interrogation of LC-MS/MS Proteomics Data Sets with an LLM Agent",
+      "link": "https://doi.org/10.64898/2026.10.22.760949",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760949v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "araujo da de silva",
+          "name": "da Silva de Araujo, C"
+        },
+        {
+          "key": "keirsebelik",
+          "name": "Keirsebelik, M"
+        },
+        {
+          "key": "rodrigues silas",
+          "name": "Silas Rodrigues, A. C"
+        },
+        {
+          "key": "leda valverde",
+          "name": "Leda Valverde, A"
+        },
+        {
+          "key": "de freitas maciel",
+          "name": "Maciel-de-Freitas, R. d. S"
+        },
+        {
+          "key": "guimaraes",
+          "name": "Guimaraes, M. Z. P"
+        },
+        {
+          "key": "junqueira",
+          "name": "Junqueira, M"
+        }
+      ],
+      "abstract_text": "Proteomics workflows are designed to answer predefined questions, leaving analytical problems that emerge after first results difficult to investigate without additional bioinformatics work. We introduce data set interrogation, a conversational framework in which a researcher uses a large language model (LLM) agent to translate emerging questions into executable tests, check the answers against controls, and keep the code, inputs, and decisions in a dated record. Applied retrospectively to four LC-MS/MS data sets, the framework exposed problems that changed the interpretation of three in-house studies: a search database lacking one of two symbionts, a swapped pair of tandem mass tag (TMT) channels, statistics inflated by non-host proteins, and false deamidation assignments caused by selection of the 13C isotope peak as monoisotopic; the same question asked of every data set revealed failed or partial cysteine alkylation in all three. A public TMT data set was reanalyzed from raw files in 24 min, a feasibility measure without a human comparison; among spectra identified by both workflows, 99.2% received the same peptide assignment as in Proteome Discoverer, and protein fold changes correlated (r = 0.93). In seeded tests, a purpose built channel assignment check detected all 216 between strain channel swaps and none of 90 within-strain swaps. The framework couples natural language interaction with executable analyses, explicit controls, and traceable decisions, enabling researchers to investigate questions not anticipated by the original pipeline. These results establish feasibility in a limited retrospective setting with one researcher; broader evaluation across users, models, and data sets is required to determine general performance.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "af136d632fe0a5a7101a2928fdc96197be039f8d0f7d46c8fd2c5da0114573a7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72434-4",
