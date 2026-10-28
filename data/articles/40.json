@@ -432,6 +432,48 @@
       "curated_categories": []
     },
     {
+      "id": "4010563f6a90538dca82887d03303595b5f33de5c8356cf27853ca209990d792",
+      "identity_keys": [
+        "arxiv:2610.36226",
+        "https://doi.org/10.48550/arXiv.2610.36226"
+      ],
+      "title": "Structure, Not Sequence: Tracking and Validating Folding Mechanisms in ESMFold's Trunk with Sparse Autoencoders",
+      "link": "https://doi.org/10.48550/arXiv.2610.36226",
+      "pdf_url": "https://arxiv.org/pdf/2610.36226v1",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bohan liu",
+          "name": "Bohan Liu"
+        },
+        {
+          "key": "fan xiaohan",
+          "name": "Xiaohan Fan"
+        },
+        {
+          "key": "wenqian ye",
+          "name": "Wenqian Ye"
+        },
+        {
+          "key": "aidong zhang",
+          "name": "Aidong Zhang"
+        }
+      ],
+      "abstract_text": "Structure predictors like ESMFold fold proteins using neural network computation and have transformed structural biology. However, the driving mechanism from amino-acid (AA) sequence to 3D structure is insufficiently understood, and biological meaning remains locked in the dense network. Sparse autoencoders (SAEs) have shown promising results in obtaining interpretable concept features over an overcomplete basis of intermediate protein sequence-model representations. Yet folding models, which predict physical shape from AA sequence semantics, have no such account. We hypothesize that the features carrying the folding computation evolve in the 3D structural regression process. In this paper, we interpret the folding trunk in three steps. First, a pilot analysis on the representation distribution across modules and recycles locates distinct spatial computation in the trunk. Second, the dictionaries expose a division of labor: the single representation carries inherited semantics, and the pair representation computes the pairwise geometry. Third, we interpret the dictionary at scale with a reasoning language model, trace how the concepts compose across blocks by gradient-based attribution, and follow the interpreted code to the model's folding output, verifying where the computation aligns with, or departs from, known biochemistry. Together, the sparse dictionaries we train capture the relational geometry the trunk computes beyond the sequence model, and their concept activations forecast the model's own fold quality, turning the black-box folding trunk into a sparse, interpretable, and scientifically verifiable circuit.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "401472ecbfe07c1233e259db4dba775379f6271cf7d260c088a4aae5be2accac",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67105-9",

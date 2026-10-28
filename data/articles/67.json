@@ -2190,22 +2190,22 @@
       ],
       "title": "Bypassing Current Biosecurity Screens with AI Designed Proteins and Closing the Gap with Edge-AI Functional Screening",
       "link": "https://doi.org/10.64898/2026.10.14.759233",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759233v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/20/2026.10.14.759233.full.pdf",
       "publication_date": "2026-10-20",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "oualline",
-          "name": "Oualline, G"
+          "key": "mackenzie noon",
+          "name": "Mackenzie Noon"
         },
         {
-          "key": "noon",
-          "name": "Noon, M"
+          "key": "grace oualline",
+          "name": "Grace Oualline"
         }
       ],
-      "abstract_text": "DNA synthesis machines are vital tools in medicine and research, but they can be misused to produce sequences which are transcribed and translated to produce toxic proteins. Synthesis providers may screen orders for dangerous sequences, but most screening software performs sequence-based alignment, which is vulnerable to AI redesign attacks. Additionally, software-only synthesis screening requires the operator of the machine to be trusted. We present Capiti, an edge-deployed screening system that runs with no internet connection, listens directly to a synthesizer's valve control signals, and aborts a run when it detects incipient pathogenic function. Rather than performing sequence alignment, Capiti is specifically trained to recognize fold. ProteinMPNN was used to generate putatively functional variants of known pathogenic proteins, and a CNN was trained to separate them from active-site knockouts, scrambles, and decoys. We release two models, Capiti-E (known pathogenic proteins) and Capiti-C (resistance genes for antibiotics of last resort), alongside emusynth, a DNA synthesizer emulator. On our test sets, IBBIS commec and SeqScreen incorrectly passed 18.5% and 44.7% of putatively functional pathogenic variants respectively; Capiti passed 0.24%.",
+      "abstract_text": "Abstract DNA synthesis machines are vital tools in medicine and research, but they can be misused to produce sequences which are transcribed and translated to produce toxic proteins. Synthesis providers may screen orders for dangerous sequences, but most screening software performs sequence-based alignment, which is vulnerable to AI redesign attacks. Additionally, software-only synthesis screening requires the operator of the machine to be trusted. We present Capiti , an edge-deployed screening system that runs with no internet connection, listens directly to a synthesizer’s valve control signals, and aborts a run when it detects incipient pathogenic function. Rather than performing sequence alignment, Capiti is specifically trained to recognize fold. ProteinMPNN was used to generate putatively functional variants of known pathogenic proteins, and a CNN was trained to separate them from active-site knockouts, scrambles, and decoys. We release two models, Capiti-E (known pathogenic proteins) and Capiti-C (resistance genes for antibiotics of last resort), alongside emusynth, a DNA synthesizer emulator. On our test sets, IBBIS commec and SeqScreen incorrectly passed 18.5% and 44.7% of putatively functional pathogenic variants respectively; Capiti passed 0.24%. Graphical Abstract",
       "discovery_sources": [
         {
           "kind": "open_alex",
