@@ -6389,6 +6389,45 @@
       "curated_categories": []
     },
     {
+      "id": "5adb863dae5baf2bedab4c0a96a7be2ba2fbdff1cc1f7d9a36b02ae65a6532a5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.22.761275v1",
+        "https://doi.org/10.64898/2026.10.22.761275",
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.10.22.761275.source.xml"
+      ],
+      "title": "Multiplex-GCN Predicts Clinically Actionable Tumor Microenvironment Subtypes in Pancreatic Cancer",
+      "link": "https://doi.org/10.64898/2026.10.22.761275",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761275v1.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bose",
+          "name": "Bose, S"
+        },
+        {
+          "key": "upama",
+          "name": "Upama, P. B"
+        },
+        {
+          "key": "ahamed",
+          "name": "Ahamed, S. I"
+        }
+      ],
+      "abstract_text": "Pancreatic ductal adenocarcinoma (PDAC) is one of the most lethal cancers worldwide. It has a five-year survival rate of approximately 13%, largely due to late diagnosis, rapid metastasis, and limited therapeutic options. The tumor microenvironment (TME), including immune and non-immune cells, plays a role in PDAC progression and drug resistance. However, molecular characteristics of PDAC based on TME-based subtypes are not well studied. To address this, we developed a multi-layered Graph Convolutional Network (GCN) to identify TME-guided PDAC subtypes. First, we constructed a TME reference atlas using single-cell RNA-seq data comprising immune and non-immune cell types. Second, we applied in silico cytometry to estimate cell-type proportions in bulk tumor RNA-seq samples from the Cancer Genome Atlas PDAC patients. Third, we constructed the GCN model integrating the estimated patient-specific cellular proportions with multi-omics datasets, such as gene expression, DNA methylation, copy number variation, and clinical data. Finally, we predicted PDAC subtypes using an unsupervised clustering method on the GCN-based embedding matrices. Our method identified seven PDAC subtypes, which we further grouped into two ecological tumor families. These subtypes exhibited distinct immune infiltration, stromal activity, and malignant epithelial cell abundance. Differential gene expression analysis revealed subtype-specific molecular programs. Survival analysis demonstrated significant differences in overall survival across ecological families and subtypes, highlighting their prognostic relevance. Thus, our method provides a biologically informed framework for patient stratification, with potential implications for advancing precision oncology approaches.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5addd34c95872be38a3f499d8dd2c1ef53a297385b13457b8d4693b62deaaf12",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66853-y",
