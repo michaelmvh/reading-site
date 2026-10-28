@@ -2093,6 +2093,36 @@
       "curated_categories": []
     },
     {
+      "id": "885041deaf7e6948f345adb5723fd5e04d97a150c02c2fd612d35c22fa38dd12",
+      "identity_keys": [
+        "arxiv:2610.37031",
+        "https://doi.org/10.48550/arXiv.2610.37031"
+      ],
+      "title": "pyTransRate: 1 reference-free quality assessment of de novo transcriptome assemblies with current aligners and quantifiers",
+      "link": "https://doi.org/10.48550/arXiv.2610.37031",
+      "pdf_url": "https://arxiv.org/pdf/2610.37031v1",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "macmanes matthew",
+          "name": "Matthew MacManes"
+        }
+      ],
+      "abstract_text": "Summary: The original software TransRate scores a de novo transcriptome assembly by mapping the reads it was built from back to it, with no reference required. Its last release (1.0.3) depends on Ruby 2.2 and on aligner and quantifier versions that can no longer be installed on most systems. pyTransRate is a Python reimplementation of the TransRate method built on snap-aligner 2.0.5 and salmon 2.7.0. In 5,031 paired comparisons (39 assembly-level metrics on each of 129 public assemblies), it reproduces the original sequence metrics and read counts exactly and ranks assemblies consistently with 1.0.3 (Spearman rho = 0.94 for assembly score, 0.98 for good-mapping rate), although its read-based scores are not numerically interchangeable with the original. It also reads gzip- and bgzip-compressed input directly. Availability and Implementation: pyTransRate is implemented in Python 3 and is freely available under the MIT license at https://github.com/macmanes-lab/pytransrate. It runs on Linux and macOS; snap-aligner and salmon are installed from Bioconda. Supplementary information: Supplementary data are available online. Supplementary Table S1 lists the assembly and read accessions for every assembly analyzed; Supplementary Table S2 gives per-assembly values from both implementations.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8852a6afa8aeb73203b1f0b6852c647db20f274aa9cffd87ddf76d40eac813f7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73361-0",

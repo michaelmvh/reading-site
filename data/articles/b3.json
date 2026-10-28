@@ -1784,7 +1784,7 @@
         },
         {
           "key": "burstein david",
-          "name": "David Burstein"
+          "name": "David E Burstein"
         }
       ],
       "abstract_text": "Abstract Protein-protein interactions (PPIs) are essential for the study of cellular function, yet computational prediction of bacterial PPIs remains limited. Most existing methods are trained on human data, reducing their applicability to bacterial systems. Here, we present B-PPI, a computational tool specifically designed for bacterial PPI prediction. B-PPI leverages embeddings from ProstT5, a structure-aware protein language model, and a cross-attention mechanism to capture residue-level inter-protein relationships. To facilitate training, we constructed B-PPI-DB, a large-scale bacterial PPI dataset derived from STRING, comprising 202,829 positive and negative interactions across 2,646 taxa with a 1:10 positive-to-negative ratio. We benchmarked B-PPI against TT3D, a state-of-the-art model trained on human PPI, which was previously evaluated on bacterial PPIs. B-PPI achieved substantially higher performance on bacterial data (AUPRC 0.926±0.006 vs. 0.230±0.005 and F1 0.866±0.007 vs. 0.299±0.005) with faster runtime. We further demonstrate that the model adapts to unseen bacterial interactions with minimal fine-tuning. Together, B-PPI and B-PPI-DB address a critical gap in computational microbiology, offering a framework for bacterial PPI prediction and a data resource for benchmarking and developing new tools in the field.",

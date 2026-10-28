@@ -418,15 +418,15 @@
           "name": "Laura B Dillon"
         },
         {
-          "key": "aaron maiwald",
-          "name": "Aaron Maiwald"
-        },
-        {
           "key": "crook oliver",
           "name": "Oliver M. Crook"
+        },
+        {
+          "key": "aaron maiwald",
+          "name": "Aaron Maiwald"
         }
       ],
-      "abstract_text": "Abstract Protein design models have transformed protein engineering by enabling computational exploration of sequence spaces far exceeding experimental capacity. However, their outputs are shaped by both the protein distributions represented in their training corpora and the information available during scoring, so the same model score may reflect backbone-compatible biophysics, taxonomic structure in sequence databases, or other learned regularities rather than protein fitness alone. Here we quantify systematic preferences across 14 protein design models that differ in data modality, training-corpus composition, and scoring context, for comparison grouped as backbone-conditioned, structure plus native-sequence context, or sequence-only. Backbone-conditioned models retain little unexplained taxonomic variance after controlling for protein family and measurable biophysical properties, with residual species variance below 3.3%. In contrast, sequence-only models retain substantial residual taxonomic dependence of 15–20%, indicating that likelihood remains strongly entangled with organism-level sequence statistics. These differences across model classes produce distinct preference landscapes. Backbone-conditioned models organise scores around compactness, packing, and charge, while sequence-only models preserve stronger within-family taxonomic effects. Redesign experiments show that these preferences propagate into generation, shifting templates toward characteristic biophysical profiles rather than uniformly sampling backbone-compatible sequence space. Continued training of ProteinMPNN on ecologically selected extremophile secretomes redirects designed surface chemistry along an acid–base axis while largely preserving structural compatibility and global taxonomic structure. These results show that systematic preferences are not a single failure mode, but separable components arising from scoring context, training-corpus composition, and learned biophysical constraints. Together, they provide a framework for disentangling the sources of model preference and linking them to both scoring behaviour and generated sequence properties.",
+      "abstract_text": "Recent improvements in machine-learning protein design have enabled models to generate more promising candidate sequences than can be experimentally tested, placing increasing reliance on scores whose determinants remain poorly understood. Here, we profile 14 models grouped by scoring context to disentangle taxonomic and biophysical contributions. Controlling for protein family and measured biophysical properties removes 91 to 93% of apparent species-level variation in backbone-conditioned scores, compared with only 15 to 29% in sequence-only likelihoods. Species rankings also diverge: backbone-conditioned models favour archaeal and thermophilic proteins, whereas sequence-only models favour eukaryotic proteins. Backbone-conditioned scores instead reflect compactness, packing and charge, with these biases propagating into redesigned sequences. Further training ProteinMPNN on extremophile secretomes alters designed surface chemistry with minimal structural cost but largely preserves species rankings. Together, these findings show how scoring context and training data shape what protein design models favour, with implications for which sequences are generated and prioritised for experimental testing.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

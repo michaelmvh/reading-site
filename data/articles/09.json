@@ -5261,6 +5261,61 @@
         }
       ],
       "curated_categories": []
+    },
+    {
+      "id": "09f9f5091a26a1de1b8c1e3887ec04ea4e188073287bd9f497d25514c49b8492",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.23.761350v1",
+        "https://doi.org/10.64898/2026.10.23.761350",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.23.761350.source.xml"
+      ],
+      "title": "Building virtual cell dynamics that evolve with biological measurements",
+      "link": "https://doi.org/10.64898/2026.10.23.761350",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761350v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, Z"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "tian",
+          "name": "Tian, Q"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, B"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, T"
+        },
+        {
+          "key": "nie",
+          "name": "Nie, Q"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, P"
+        }
+      ],
+      "abstract_text": "Virtual cell models built from single-cell measurements need to predict how cells change over time, but new biological measurements often reveal dynamical relationships that existing models cannot express. Translating such measurements into dynamics therefore requires deciding what biological relation should be modeled, where it should enter the formulation and how its recovery should be validated. Here we present CellCompass, an agentic AI system that couples a scientific agent with an extensible dynamical engine for modeling state transitions and population change, along with fate and molecular readout. CellCompass reuses existing formulations when sufficient and designs, implements and refines new ones when experimental measurements introduce additional constraints. To assess this capability, we developed DynBench100, a benchmark of 100 simulated single-cell time-course scenarios with hidden dynamical ground truth. CellCompass achieved the highest aggregate performance among the tested general-purpose and biomedical agents across six dynamical tasks. Across four real single-cell studies, it retained an existing velocity-growth model to reconstruct context-dependent epithelial-mesenchymal transition and developed three new dynamical formulations for distinct experimental measurements. In drug-response data, incorporating metabolic RNA labeling reduced pulse-control identifiability error by 31.1%, revealing staged response programs and generating testable predictions for perturbing a candidate adaptive program. In hematopoietic lineage tracing, incorporating clonal barcodes improved clone-fate agreement by 54% over the strongest dynamical baseline, identifying early lineage priming among transcriptionally similar progenitors. Finally, in time-resolved CITE-seq data, CellCompass reduced future surface-protein distribution error by 13.2% for RNA-initialized trajectories, uncovering lineage-specific temporal offsets between transcriptional and protein programs. Together, CellCompass provides a framework in which virtual-cell dynamics can expand with the biological measurements used to constrain them.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }

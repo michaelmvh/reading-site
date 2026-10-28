@@ -6237,6 +6237,46 @@
       "curated_categories": []
     },
     {
+      "id": "48ec69a3cd4461b6a5ae3e10195aa360f1f6732e90c70bbfa9690d1642ce0d22",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.08.750126v2",
+        "https://doi.org/10.64898/2026.09.08.750126",
+        "https://www.biorxiv.org/content/early/2026/09/14/2026.09.08.750126.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.09.08.750126.source.xml"
+      ],
+      "title": "PHACTn enables training-free, context-independent inference of nucleotide variant tolerance across the genome",
+      "link": "https://doi.org/10.64898/2026.09.08.750126",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750126v2.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yildirim",
+          "name": "Yildirim, C"
+        },
+        {
+          "key": "kuru",
+          "name": "Kuru, N"
+        },
+        {
+          "key": "adebali",
+          "name": "Adebali, O"
+        }
+      ],
+      "abstract_text": "Accurate prediction of single-nucleotide variant (SNV) tolerability across the entire human genome remains a fundamental challenge in computational genomics, particularly for non-coding regions where the regulatory landscape is vast and poorly understood. Machine learning classifiers suffer from data circularity and demographic bias, while genomic language models demand massive computational resources and offer little biological interpretability. Here, we present PHACTn (Phylogeny-Aware Computing of Tolerance for nucleotide variants), a training-free, parameter-minimal method that infers nucleotide variant tolerability by traversing the mammalian phylogenetic tree and explicitly modeling the evolutionary independence of observed substitutions and their distance from the query species. With only 4 interpretable parameters, no training and no GPU requirement, PHACTn outperforms all evaluated tools on non-coding variants curated from both the ClinVar, and on non-coding variants potentially responsible for selected Mendelian diseases curated from OMIM. Additionally, it achieves state-of-the-art performance on variants within the informative range of alignment-based inference. These results establish that principled probabilistic phylogenetic modeling captures evolutionary constraint signals that large-scale sequence models fail to recover, offering a powerful, accessible, and mechanistically transparent alternative for genome-wide variant effect prediction.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "48ed8057760cc06cfd4ba05d30c1ea55f54ef8a0fddfaed8ea6308f2146ecd04",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74922-z",
@@ -6413,18 +6453,6 @@
           "name": "James E. Evans"
         },
         {
-          "key": "evans james",
-          "name": "James E. Evans"
-        },
-        {
-          "key": "evans james",
-          "name": "James E. Evans"
-        },
-        {
-          "key": "evans james",
-          "name": "James E. Evans"
-        },
-        {
           "key": "barklis eric",
           "name": "Eric Barklis"
         },
@@ -6441,16 +6469,8 @@
           "name": "Trevor H. Moser"
         },
         {
-          "key": "moser trevor",
-          "name": "Trevor H. Moser"
-        },
-        {
           "key": "ann malley michelle",
           "name": "Michelle Ann O'Malley"
-        },
-        {
-          "key": "el irina khoury",
-          "name": "Irina El Khoury"
         },
         {
           "key": "el irina khoury",
@@ -6467,14 +6487,6 @@
         {
           "key": "eric gouaux",
           "name": "Eric Gouaux"
-        },
-        {
-          "key": "eric gouaux",
-          "name": "Eric Gouaux"
-        },
-        {
-          "key": "chapman michael",
-          "name": "Michael Chapman"
         },
         {
           "key": "chapman michael",
@@ -6755,6 +6767,34 @@
         {
           "key": "hao wu",
           "name": "Hao Wu"
+        },
+        {
+          "key": "francis valiyaveetil",
+          "name": "Francis I. Valiyaveetil"
+        },
+        {
+          "key": "minglei zhao",
+          "name": "Minglei Zhao"
+        },
+        {
+          "key": "david stokes",
+          "name": "David L. Stokes"
+        },
+        {
+          "key": "min sung woo",
+          "name": "Min Woo Sung"
+        },
+        {
+          "key": "barry stoddard",
+          "name": "Barry L. Stoddard"
+        },
+        {
+          "key": "erica ollmann saphire",
+          "name": "Erica Ollmann Saphire"
+        },
+        {
+          "key": "morgan",
+          "name": "Morgan C.E."
         }
       ],
       "abstract_text": null,

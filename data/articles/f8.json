@@ -182,7 +182,7 @@
           "name": "Hagop S. Atamian"
         }
       ],
-      "abstract_text": "Agentic AI frameworks that couple language model generation with iterative tool feedback offer a promising paradigm for automating complex molecular design tasks, yet systematic comparisons of agentic design patterns, such as exploration-focused, refinement-focused, and hybrid, remain scarce. Here, we evaluate three such strategies applied to structure-based de novo molecular design. Language Agent Tree Search (LATS) frames generation as Monte Carlo Tree Search-guided exploration of chemical space. A Reflexion-inspired Self-Improvement (SI) loop critiques and revises candidates using cheminformatics filters and docking feedback. A Hybrid strategy uses LATS to generate diverse, high-quality seeds, which are then refined with SI. We benchmark these agentic design patterns across four protein targets (thrombin, transthyretin, HER2 kinase, and AKT1 kinase) using a unified AutoDock Vina protocol as a computational surrogate for binding affinity, complemented by analyses of drug-likeness, synthetic accessibility, novelty, and diversity. Across targets, the Hybrid strategy achieves the strongest mean docking performance (−12.17 kcal/mol on HER2) and remains competitive in best-case outcomes, including the top score in the study (−13.43 kcal/mol on HER2). SI yields larger per-molecule refinement gains (mean 0.82–1.18 kcal/mol across targets) but weaker population means overall, consistent with a headroom-limited regime. Rank-correlation analysis confirms that refinement gains depend strongly on seed quality. Beyond docking, the three strategies occupy distinct positions along an exploration–exploitation continuum: LATS favors synthetically tractable regions, SI maximizes internal diversity, and the Hybrid approach consistently balances novelty, diversity, and predicted binding strength. These results demonstrate that exploration and refinement function as complementary agentic design patterns, and that the ceiling on refinement gain is set by seed distribution quality, a finding with implications for agentic AI system design beyond molecular discovery.",
+      "abstract_text": "Agentic AI frameworks that couple language model generation with iterative tool feedback offer a promising paradigm for automating complex molecular design tasks, yet systematic comparisons of agentic design patterns, such as exploration-focused, refinement-focused, and hybrid, remain scarce. Here, we evaluate three such strategies applied to structure-based de novo molecular design. Language Agent Tree Search (LATS) frames generation as Monte Carlo Tree Search-guided exploration of chemical space. A Reflexion-inspired Self-Improvement (SI) loop critiques and revises candidates using cheminformatics filters and docking feedback. A Hybrid strategy uses LATS to generate diverse, high-quality seeds, which are then refined with SI. We benchmark these agentic design patterns across four protein targets (thrombin, transthyretin, HER2 kinase, and AKT1 kinase) using a unified AutoDock Vina protocol as a computational surrogate for binding affinity, complemented by analyses of drug-likeness, synthetic accessibility, novelty, and diversity. Across targets, the Hybrid strategy achieves the strongest mean docking performance (−12.17 kcal/mol on HER2) and remains competitive in best-case outcomes, including the top score in the study (−13.43 kcal/mol on HER2). SI yields larger per-molecule refinement gains (mean 0.82 – 1.18 kcal/mol across targets) but weaker population means overall, consistent with a headroom-limited regime. Rank-correlation analysis confirms that refinement gains depend strongly on seed quality. Beyond docking, the three strategies occupy distinct positions along an exploration-exploitation continuum: LATS favors synthetically tractable regions, SI maximizes internal diversity, and the Hybrid approach consistently balances novelty, diversity, and predicted binding strength. These results demonstrate that exploration and refinement function as complementary agentic design patterns, and that the ceiling on refinement gain is set by seed distribution quality, a finding with implications for agentic AI system design beyond molecular discovery.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -811,7 +811,7 @@
       ],
       "title": "A biologically annotated neural network for proteomic discovery in Parkinson’s disease",
       "link": "https://doi.org/10.64898/2026.04.29.26351681",
-      "pdf_url": null,
+      "pdf_url": "https://www.medrxiv.org/content/medrxiv/early/2026/04/30/2026.04.29.26351681.full.pdf",
       "publication_date": "2026-04-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -1381,6 +1381,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f8474cba3de11440a38733bc86858078748870fe9b39dbb639933a0f376afe4d",
+      "identity_keys": [
+        "arxiv:2510.11726",
+        "https://doi.org/10.48550/arXiv.2510.11726"
+      ],
+      "title": "scTREAT: Latent Diffusion for Single-Cell Drug-Response Prediction",
+      "link": "https://doi.org/10.48550/arXiv.2510.11726",
+      "pdf_url": "https://arxiv.org/pdf/2510.11726",
+      "publication_date": "2025-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "liang zhaokang",
+          "name": "Zhaokang Liang"
+        },
+        {
+          "key": "shuyang zhuang",
+          "name": "Shuyang Zhuang"
+        },
+        {
+          "key": "jiao xiaoran",
+          "name": "Xiaoran Jiao"
+        },
+        {
+          "key": "mao weian",
+          "name": "Weian Mao"
+        },
+        {
+          "key": "chen hao",
+          "name": "Hao Chen"
+        }
+      ],
+      "abstract_text": "Generating drug-induced transcriptional responses requires a model to account for cellular background together with molecular identity and dose. We present scTREAT, the first diffusion framework to factorize state and drug guidance for single-cell drug-response prediction. A shared latent expression space connects baseline and response, while Guided Decomposable Attention (GD-Attn) injects a baseline representation and a dose-conditioned molecular embedding. Independent channel dropout exposes four conditioning states during training; inference combines three conditional predictions with separately specified state and drug coefficients, and dose modulates drug-guidance strength. On condition-level pseudobulk profiles derived from the Tahoe-100M single-cell atlas, scTREAT achieves the best value on 10 of 12 metrics for unseen cell line-drug combinations (UC) and 11 of 12 for unseen drugs (UD). Ablations examine condition injection, molecular representation, and guidance design. On UD, the relative gains over the second-best model reach 36.11% and 34.21% for DEG logFC-Spearman and logFC-Pearson. These results demonstrate the effectiveness of combining shared latent expression modeling with explicit state and drug conditioning for response prediction.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

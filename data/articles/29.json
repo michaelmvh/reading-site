@@ -972,6 +972,40 @@
       "curated_categories": []
     },
     {
+      "id": "293921182c22eb01a2c7b0e090dced2b2f0e14b72cc2a2281a4cd2822d893d9d",
+      "identity_keys": [
+        "arxiv:2608.22627",
+        "https://doi.org/10.48550/arXiv.2608.22627"
+      ],
+      "title": "A general-purpose multi-path stacked coupling for stochastic reaction networks",
+      "link": "https://doi.org/10.48550/arXiv.2608.22627",
+      "pdf_url": "https://arxiv.org/pdf/2608.22627",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "anderson david",
+          "name": "David F. Anderson"
+        },
+        {
+          "key": "jingyi ma",
+          "name": "Jingyi Ma"
+        }
+      ],
+      "abstract_text": "Stochastic reaction networks are continuous-time Markov chain models for interacting populations, with applications in biochemistry, epidemiology, ecology, and related areas. Coupling multiple stochastic reaction networks effectively is a fundamental challenge in stochastic simulation. Existing variance-reducing coupling methods are typically designed for pairs of processes, though specialized multi-path constructions have been developed for particular applications. To fill this gap, we introduce the multi-path stacked coupling (MSC), a space-time Poisson construction that jointly simulates a finite collection of stochastic reaction networks with common reaction channels and reaction vectors, but possibly different intensity functions and initial conditions. Each pairwise marginal of MSC has the same law as the corresponding split-coupled pair, allowing existing variance bounds to transfer directly; in finite-state settings, we also obtain first-order expansions for the mean and second moment of finite-difference numerators. We demonstrate the framework through three sensitivity estimation tasks requiring several nearby parameterized paths: estimating many first derivatives simultaneously, estimating a single first derivative using a wider finite-difference stencil, and estimating higher-order derivatives. Numerical experiments on a processive phosphorylation network demonstrate strong performance in each of the three application areas considered, consistent with the theoretical advantages of MSC: across all three applications, MSC achieves the smallest root mean square error (RMSE) among the methods considered over the tested computational budgets.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "293cb30e22286f7951ea4c545b4d96da5cea8fb2cdf8aa457863279ce3834584",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71237-x",
@@ -4557,7 +4591,7 @@
       "authors": [
         {
           "key": "yuyang zheng",
-          "name": "Zheng, Yuyang"
+          "name": "Yuyang Zheng"
         },
         {
           "key": "li nan",

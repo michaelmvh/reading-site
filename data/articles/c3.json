@@ -542,6 +542,88 @@
       "curated_categories": []
     },
     {
+      "id": "c32b9682c00645913b66e2f7af33495977a7d850ab369156f53575f5b34430c3",
+      "identity_keys": [
+        "arxiv:2607.03740",
+        "https://doi.org/10.48550/arXiv.2607.03740"
+      ],
+      "title": "Multimodal Knowledge Aggregation for Microbial Keratitis: Geographic Confounding and Shortcut Risk in Pooled Multicountry Data",
+      "link": "https://doi.org/10.48550/arXiv.2607.03740",
+      "pdf_url": "https://arxiv.org/pdf/2607.03740",
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wang yiqing",
+          "name": "Yiqing Wang"
+        },
+        {
+          "key": "maria woodward",
+          "name": "Maria A. Woodward"
+        },
+        {
+          "key": "yang ziyun",
+          "name": "Ziyun Yang"
+        },
+        {
+          "key": "prajna venkatesh",
+          "name": "N. Venkatesh Prajna"
+        },
+        {
+          "key": "chunming he",
+          "name": "Chunming He"
+        },
+        {
+          "key": "leslie niziol",
+          "name": "Leslie M. Niziol"
+        },
+        {
+          "key": "mercy pawar",
+          "name": "Mercy Pawar"
+        },
+        {
+          "key": "chen lu ming",
+          "name": "Ming-Chen Lu"
+        },
+        {
+          "key": "amescua guillermo",
+          "name": "Guillermo Amescua"
+        },
+        {
+          "key": "rachel wozniak",
+          "name": "Rachel A. F. Wozniak"
+        },
+        {
+          "key": "amin sejal",
+          "name": "Sejal Amin"
+        },
+        {
+          "key": "abinaya krishnan",
+          "name": "Abinaya Krishnan"
+        },
+        {
+          "key": "kochar prabhleen",
+          "name": "Prabhleen Kochar"
+        },
+        {
+          "key": "farsiu sina",
+          "name": "Sina Farsiu"
+        }
+      ],
+      "abstract_text": "To develop an open-source multimodal model for bacterial-versus-fungal microbial keratitis classification and assess shortcuts from geographic pooling. Participants: 1,645 US and Indian patients contributed 17,158 slit-lamp images under blue-light, sclerotic-scatter, and white-light illumination. Methods: The model combined cross-modality contrastive learning, modality-specific fine-tuning, and fusion with 7 clinical variables. Diagnoses used smear, culture, and polymerase chain reaction results, with expert review of culture-negative cases. The model and 5 comparators used 5 patient-disjoint outer folds stratified by country and organism, with inner validation. Secondary analyses examined within-country performance, a country-only reference, ablations, and imbalance mitigation. Code: https://github.com/yqwang01/TPMKA. Main Outcome Measures: Patient-level macro-F1, class-specific F1, accuracy, and area under the receiver operating characteristic curve (AUROC), overall and by country. Results: The model had the highest overall macro-F1 (83.06%; 95% CI, 81.58-84.56) and accuracy (84.50%; 95% CI, 83.16-85.84) among matched comparators, with 89.9% AUROC (95% CI, 88.7-91.1). Paired differences were not consistently significant. AUROC was 83.9% in India and 67.0% in the US; bacterial F1 in India was 47.78%, and fungal F1 in the US was 40.97%. A country-only reference achieved 81.88% accuracy and 78.2% AUROC overall despite 50.0% AUROC within each country. Resampling and group distributionally robust optimization improved some underrepresented groups without removing the geographic pattern. Conclusions: The model compared favorably with matched methods, but geographic prevalence differences made pooled performance more reassuring than within-country discrimination. Independent geographic validation is needed.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c3312ae0bf0ca6e74cf08ba02ae0a5824c49928f23009d1bc21c7da316af223e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75260-w",
@@ -1317,7 +1399,7 @@
       "publication_date": "2026-04-28",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": null,
+      "venue": "eLife",
       "authors": [
         {
           "key": "hanna liao",

@@ -2,6 +2,46 @@
   "schema_version": 1,
   "articles": [
     {
+      "id": "79001918909b38cb22c1b6377d8d6cd309467169b916ef167057be6f534b4b29",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.26.727927v2",
+        "https://doi.org/10.64898/2026.05.26.727927",
+        "https://www.biorxiv.org/content/early/2026/05/29/2026.05.26.727927.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.05.26.727927.source.xml"
+      ],
+      "title": "Species phylogenetics using intraprotein residue dependence inferred with protein foundation models",
+      "link": "https://doi.org/10.64898/2026.05.26.727927",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727927v2.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "alibutud",
+          "name": "Alibutud, R. F"
+        },
+        {
+          "key": "mowlaei",
+          "name": "Mowlaei, M. E"
+        },
+        {
+          "key": "kumar",
+          "name": "Kumar, S"
+        }
+      ],
+      "abstract_text": "Traditional molecular phylogenetic inference uses multiple sequence alignments and amino acid substitution models that generally assume that sites evolve independently. In contrast, protein foundation models (pFMs) are deep learning models that reveal residue dependence patterns within sequences. There are two types of pFMs: Evolutionary Scale Models (esm-pFM) for analyzing individual protein sequences, and MSA Transformer (msat-pFM) models for analyzing MSAs. Using pFMs to analyze sequences produces residue attention matrices (RAMs) and sequence attention matrices (SAMs), respectively. RAMs and SAMs can be used to estimate pairwise distances and, thus, reconstruct phylogenies using the Neighbor-Joining (NJ) method. Here, we compare the performance of RAM-NJ and SAM-NJ phylogenies in reconstructing established species relationships across different proteins and taxon sets. Surprisingly, RAM-NJ phylogenies were generally as accurate as SAM-NJ phylogenies even though RAM inference does not require construction or analysis of an MSA. Our results show that pFM-based analyses can recover species relationships without conventional substitution models or, in the case of RAMs, a multiple sequence alignment. These results suggest that evolutionary relationships are reflected not only in primary sequence differences between species, but also in the sequence-specific patterns of inter-residue dependence produced by pFM analysis of individual sequences. However, pFM phylogenies are less accurate than those obtained with standard maximum likelihood approaches, underscoring the need to further develop methods to harness RAMs and SAMs more effectively.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7901938bcd7bc0965f6b7ee2b5c62f82e8a080f18ab5f56e53dbc98d21eceecf",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.15.758670v1",
@@ -3036,7 +3076,7 @@
       "publication_date": "2026-04-12",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": null,
+      "venue": "Publons reviews and discussion",
       "authors": [],
       "abstract_text": null,
       "discovery_sources": [

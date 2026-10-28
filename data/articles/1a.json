@@ -1656,6 +1656,69 @@
       "curated_categories": []
     },
     {
+      "id": "1a375418d7083f6a3d710443ab69d4adfbe085ff0ffe4e668d4c3257d8450a18",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.23.760456v1",
+        "https://doi.org/10.64898/2026.10.23.760456",
+        "https://www.biorxiv.org/content/early/2026/10/27/2026.10.23.760456.source.xml"
+      ],
+      "title": "Perturbation-based propagation of bacterial composition uncertainty improves robustness and reproducibility of microbiome differential abundance analysis.",
+      "link": "https://doi.org/10.64898/2026.10.23.760456",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.760456v1.full.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "andrews",
+          "name": "Andrews, M. E"
+        },
+        {
+          "key": "vincennie",
+          "name": "Vincennie, T"
+        },
+        {
+          "key": "koprivica",
+          "name": "Koprivica, M"
+        },
+        {
+          "key": "browning",
+          "name": "Browning, M"
+        },
+        {
+          "key": "bracco",
+          "name": "Bracco, S"
+        },
+        {
+          "key": "mullan",
+          "name": "Mullan, M"
+        },
+        {
+          "key": "wright",
+          "name": "Wright, A. T"
+        },
+        {
+          "key": "crawford",
+          "name": "Crawford, F"
+        },
+        {
+          "key": "mouzon",
+          "name": "Mouzon, B"
+        }
+      ],
+      "abstract_text": "Differential abundance (DA) analysis remains the analytical bottleneck of microbiome science; despite dozens of available methods, results remain poorly reproducible across tools, datasets, and study designs. Three intertwined challenges drive this failure: compositional data structure, stochastic count uncertainty, and complex experimental design; yet no existing method addresses all three simultaneously. Here, we introduce PARALLAX (Perturbation-based Assessment of Robustness Across Latent Logical Axes), a unified DA framework that resolves this gap by propagating compositional uncertainty through per-replicate linear mixed modeling across a structured scale perturbation grid, then summarizes inference through two stability-based metrics: Ppost (effect consistency across Monte Carlo replicates) and Rscale (robustness to scale perturbation). PARALLAX retains uncertainty through the complete inferential pipeline while natively supporting repeated measures and multifactorial designs. Under repeated subsampling, PARALLAX identified fully stable DA taxa in 14.4% of cases, versus 1.7% and 0% for comparators. We applied PARALLAX to two independent longitudinal shotgun metagenomic datasets from mechanistically distinct mouse models: Gulf War toxicant exposure and repetitive head trauma. In both, PARALLAX resolved robust, sex-specific, and time-dependent genus-level shifts while accommodating repeated measures and multifactorial design, tasks that challenged both comparator frameworks. PARALLAX is released as an open-source, AI-compatible R workflow, lowering the barrier to rigorous microbiome DA analysis across complex study designs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1a39a703e3b44d6f6babc5da107d699e49e4f6d0e5c9c9dc14ef25f37a79244a",
       "identity_keys": [
         "https://doi.org/10.1016/j.ijbiomac.2026.151615",

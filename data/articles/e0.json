@@ -1801,6 +1801,36 @@
       "curated_categories": []
     },
     {
+      "id": "e04b179d810f1f3c4a8ff1c7ec1bae9d58ea1ff4f59f0cf52a984c373f51ab3a",
+      "identity_keys": [
+        "https://doi.org/10.54254/2753-8818/2026.38100",
+        "https://openalex.org/W7223841199"
+      ],
+      "title": "Advances in Application of ESM3 and Multimodal Generative Protein Language Models in Intelligent Design of Antimicrobial Peptides",
+      "link": "https://doi.org/10.54254/2753-8818/2026.38100",
+      "pdf_url": "https://tns.ewapub.com/article/view/38100.pdf",
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Theoretical and Natural Science",
+      "authors": [
+        {
+          "key": "shang wang",
+          "name": "Shang Wang"
+        }
+      ],
+      "abstract_text": "Antimicrobial resistance (AMR) has emerged as a significant threat to global public health. Traditional methods for discovering antimicrobial peptides (AMPs) suffer from limitations such as lengthy screening cycles and high costs; however, artificial intelligence (AI) technology offers a novel pathway for the efficient discovery and design of AMPs. This paper reviews the evolution of ESM series models, the multimodal architecture and generation mechanism of ESM3, combs the application progress of deep learning, generative adversarial networks and protein language models in AMP design, and proposes a design-prediction-validation scheme based on ESM3. Existing research demonstrates that ESM3 can integrate protein sequence, structure, and functional information, exhibiting great potential for de novo protein design; the combination of deep learning and generative methods further enhances capabilities in generating candidate AMP sequences and predicting their activity. Building on this, the paper proposes an intelligent AMP design framework centered on ESM3 multimodal reasoning and deep learning-based cascade prediction, establishing a closed-loop process that encompasses candidate generation, structural validation, activity prediction, and experimental verification. Looking ahead, advancements in multimodal models and automated experimental platforms promise to further improve the efficiency and precision of AI-driven AMP design, offering new technological solutions to address the AMR crisis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e04c85547481bc5df2082e994c8ec467f9beef4b115e0f7ec9735fa7731e804b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68721-9",
@@ -2716,6 +2746,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e073622f3b374d21f8e31826b37994a0dd006394ca76024724994fed60d8241d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762126v1",
+        "https://doi.org/10.64898/2026.10.27.762126",
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.10.27.762126.source.xml"
+      ],
+      "title": "PepPr: De Novo peptide sequencing with peptide priors",
+      "link": "https://doi.org/10.64898/2026.10.27.762126",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762126v1.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "khan",
+          "name": "Khan, S"
+        },
+        {
+          "key": "andrade klaproth",
+          "name": "Klaproth-Andrade, D"
+        },
+        {
+          "key": "bruns",
+          "name": "Bruns, Y"
+        },
+        {
+          "key": "wilhelm",
+          "name": "Wilhelm, M"
+        },
+        {
+          "key": "gagneur",
+          "name": "Gagneur, J"
+        }
+      ],
+      "abstract_text": "Mass spectrometry-based peptide sequencing underpins proteomics. Database search confines to predefined candidates, whereas de novo peptide sequencing (DNPS) struggles with incomplete spectra. Existing hybrid methods use databases only for post hoc correction or retrieve previously identified spectra to guide decoding. We instead combine DNPS with a peptide prior: a language model fitted to a reference proteome, tolerating variants yet uncertain on strongly divergent sequences. Relative to prior-free DNPS, our implementation, PepPr, improved reference peptide identification and improved rather than suppressed variant identification. Using a related proteome as prior, it matched or outperformed homology-driven database search, and its gain over prior-free DNPS grew with relatedness. In antibody sequencing, it improved recovery of peptides spanning the variable-constant boundary, deamidation calls, and assembly, while preserving recall of hypervariable regions inaccessible to database search. Peptide priors thus bring reference knowledge into DNPS without limiting discovery.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -3916,7 +3993,7 @@
         },
         {
           "key": "joseph schmidt",
-          "name": "Joseph Schmidt"
+          "name": "Joseph H. Schmidt"
         },
         {
           "key": "braza kevin mac",

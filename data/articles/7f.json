@@ -229,6 +229,68 @@
       "curated_categories": []
     },
     {
+      "id": "7f0209e9232e834ff4f84907107f995c83b10f3dad425304f8292e50d624a3af",
+      "identity_keys": [
+        "https://doi.org/10.1093/abt/tbag054",
+        "https://openalex.org/W7223790489"
+      ],
+      "title": "Integrated AI-Guided de novo CDR-H3 Design and Combinatorial Phage Display for Antibody Discovery",
+      "link": "https://doi.org/10.1093/abt/tbag054",
+      "pdf_url": null,
+      "publication_date": "2026-10-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Antibody Therapeutics",
+      "authors": [
+        {
+          "key": "furui kairi",
+          "name": "Kairi Furui"
+        },
+        {
+          "key": "shinji soga",
+          "name": "Shinji Soga"
+        },
+        {
+          "key": "rika yamazaki",
+          "name": "Rika Yamazaki"
+        },
+        {
+          "key": "shigenori yagi",
+          "name": "Shigenori Yagi"
+        },
+        {
+          "key": "uchikawa",
+          "name": "K. Uchikawa"
+        },
+        {
+          "key": "kosugi takatsugu",
+          "name": "Takatsugu Kosugi"
+        },
+        {
+          "key": "shimomura takuya",
+          "name": "Takuya Shimomura"
+        },
+        {
+          "key": "gondo kana",
+          "name": "Kana Gondo"
+        },
+        {
+          "key": "masahito ohue",
+          "name": "Masahito Ohue"
+        }
+      ],
+      "abstract_text": "Abstract Background Obtaining target-specific therapeutic antibodies is critical for maximizing efficacy, yet conventional library-based approaches cannot guarantee epitope specificity or enable straightforward humanization; computational de novo design of human antibodies targeting specific epitopes has therefore attracted increasing interest. Methods We developed SANDAN (Structure-Aware de Novo Design for ANtibody), an end-to-end, structure-driven workflow that uses the antigen structure and epitope residues without supplying a known binding antibody or its complex pose as design input. Starting from a human framework with diverse CDR-H2 and CDR-L3 variants, the workflow performs CDR-H3-focused design using the diffusion-based method DiffAb on diverse template complex structures predicted by Boltz-1, aiming to obtain antibodies that bind specifically to the target epitope without requiring known complex pose information. Targeting human TIGIT (hTIGIT), we selected approximately 1,000 CDR-H3 design sequences and constructed a phage display library (diversity approximately ${10}^6$) incorporating them. Results Screening yielded six hTIGIT-binding antibodies that competed with the reference antibody MG1131. Their CDR-H3 sequences differed from that reference antibody’s CDR-H3 sequence. Conclusions Combining AI-guided CDR-H3 design with phage display screening yielded hTIGIT-binding antibodies that competed with MG1131 from a combinatorial library containing the designed H3 sequences.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7f03e30f73159380f5c453dcb806e353655970d97e3c0ecb6160dc23e21a34a8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73180-3",
@@ -3169,7 +3231,7 @@
       "publication_date": "2025-12-09",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": null,
+      "venue": "eLife",
       "authors": [
         {
           "key": "antonio leitao",
