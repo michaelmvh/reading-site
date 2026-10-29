@@ -1936,6 +1936,44 @@
       "curated_categories": []
     },
     {
+      "id": "a24f9bcd62ad4ebd1262b6d3691f466466241b624bc8371d1ae24f4e2d883b31",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.26.761958",
+        "https://openalex.org/W7224136185"
+      ],
+      "title": "Simulating protein evolution with programmable fitness objectives derived from modern protein models",
+      "link": "https://doi.org/10.64898/2026.10.26.761958",
+      "pdf_url": null,
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "kaiyu qiu",
+          "name": "Kaiyu Qiu"
+        },
+        {
+          "key": "andrei lupas",
+          "name": "Andrei N. Lupas"
+        },
+        {
+          "key": "dunin horkawicz stanisław",
+          "name": "Stanisław Dunin-Horkawicz"
+        }
+      ],
+      "abstract_text": "Simulation of protein sequence evolution provides a controlled way to test whether specified evolutionary mechanisms can generate the patterns observed in natural proteins. However, classical simulation largely relies on fixed substitution rules, whereas existing fitness-based simulations often define fitness using a single proxy and thus do not sufficiently capture the complex nature of constraints imposed by selection. Here, we simulate protein evolution through amino acid substitutions under programmable fitness objectives derived from individual or combined protein models, including protein language models, inverse folding models, physics-based energy functions, and alignment-based statistical models. Evaluation of simulations revealed that different fitness proxies impose distinct trade-offs between evolutionary realism and molecular plausibility, motivating the use of combined objectives to redistribute selective pressure across complementary constraints. We then show that programmable fitness objectives can encode mechanism-specific biological contexts. Incorporating oligomeric structural context recovered interface-specific evolutionary constraints in homodimeric proteins, while multi-conformation objectives better reproduced natural sequence variation in metamorphic proteins and provided interpretable estimates of how alternative native folds contribute to evolutionary constraint. Finally, we explore a differentiable extension of this framework, in which structural objectives are backpropagated through AlphaFold2 to guide sequence evolution. Under this formulation, evolved sequences showed favorable shifts in several molecular properties relative to those from discrete, stepwise mutation-selection simulations while retaining key evolutionary signatures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a251c46a593923ae8723c4e5600aa374b7ff4957dc3591b4bdecc1d1b223e6cd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69622-7",

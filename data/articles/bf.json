@@ -1773,6 +1773,40 @@
       "curated_categories": []
     },
     {
+      "id": "bf59dafc19571c3843c2f7af05db92af2fee3fbffd337faf1d1a0f4fecbdc23f",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.27.762208",
+        "https://openalex.org/W7224136306"
+      ],
+      "title": "An Interactive Bidirectional De Novo Protein Design System",
+      "link": "https://doi.org/10.64898/2026.10.27.762208",
+      "pdf_url": null,
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "chance gammill",
+          "name": "Chance M Gammill"
+        },
+        {
+          "key": "lakshman tamil",
+          "name": "Lakshman S. Tamil"
+        }
+      ],
+      "abstract_text": "We present a lightweight, interactive server that combines two generative models, a structure-aware graph neural network (GNN) for de novo sequence design and an ESMFold-based structure predictor, into a single bidirectional design loop. The tool requires no software installation beyond a web browser, and it visualizes and quantifies both directions of the sequence-structure mapping between predicted sequences and structures. Through the same interface, an included user-accessible Kabsch alignment tool superimposes a predicted structure onto the target backbone. It reports the resulting root mean square deviation directly in the interface. Rather than a new model, this paper contributes the tool itself: an accessible, flexible, and openly sourced codebase that lowers the barrier to using and analyzing a model. This interactive server can also be used to validate design hypotheses interactively and reused by other researchers with their own checkpoints. While slightly more challenging, the codebase includes a section for users to add their own model structures while still using the interactive server code. This paper describes the system's architecture, interface, and intended workflow, and discusses its role as an open-source tool. All data and models used in this paper are derived from our previous companion papers [3, 4].",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bf5ad0eb0ec18202183df8ee36b6e6f8ce8b1a6ea96e084135c2332f7ff7cac3",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10919-4",
@@ -3775,6 +3809,46 @@
         "6. Function to Structure",
         "6.2 Diffusion-based"
       ]
+    },
+    {
+      "id": "bfba6b23e69aa651991f50bf232511120e9cc7849a5111e35f2bca8ecbefd0c7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.25.754511v2",
+        "https://doi.org/10.64898/2026.09.25.754511",
+        "https://www.biorxiv.org/content/early/2026/09/27/2026.09.25.754511.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.09.25.754511.source.xml"
+      ],
+      "title": "DSSNA: Automated Nucleic Acid Structure Analysis in Molecular Dynamics",
+      "link": "https://doi.org/10.64898/2026.09.25.754511",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754511v2.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "gorelov",
+          "name": "Gorelov, S"
+        },
+        {
+          "key": "konevega",
+          "name": "Konevega, A"
+        },
+        {
+          "key": "shvetsov",
+          "name": "Shvetsov, A"
+        }
+      ],
+      "abstract_text": "This work presents DSSNA (Define Spatial Structure of Nucleic Acids) v2026, a free and open-source standalone GROMACS module for the automated analysis of nucleic acid structures from atomic coordinates that reproduces the core functionality of X3DNA and DSSR while extending it to the analysis of molecular dynamics (MD) trajectories. The algorithm identifies and classifies canonical and non-canonical base pairs, hydrogen-bond networks, stacking interactions, helices, and other elements of nucleic acid secondary and tertiary structure, using neighbor-search algorithms for efficient analysis of large trajectory datasets and a modular output system that lets users select the structural metrics required for a particular analysis. Application to a 1 s MD trajectory of a GUAA tetraloop mutant of the sarcin--ricin domain of Escherichia coli 23S ribosomal RNA (PDB: 1MSY) showed that persistent canonical base pairs form the structural core that maintains the secondary-structure profile, whereas most non-canonical base pairs and stacking interactions are transient. These results demonstrate that DSSNA enables the characterization of both static nucleic acid structures and the temporal evolution of structural interactions in MD simulations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "bfbfb5f9e8960884d252f634e4dc01758126473a28410b417132b6fe278040ed",

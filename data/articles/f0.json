@@ -669,7 +669,7 @@
       ],
       "title": "Advances in computational and data-driven methodologies for accelerating antimicrobial peptide design and discovery",
       "link": "https://doi.org/10.1016/j.progpolymsci.2026.102119",
-      "pdf_url": null,
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0079670026000493/pdf",
       "publication_date": "2026-04-17",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -713,26 +713,22 @@
       ],
       "title": "Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior",
       "link": "https://doi.org/10.64898/2026.10.15.759522",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759522v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/21/2026.10.15.759522.full.pdf",
       "publication_date": "2026-10-21",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "babu",
-          "name": "Babu, D"
+          "key": "babu dharani",
+          "name": "Dharani Babu"
         },
         {
-          "key": "pandurangan",
-          "name": "Pandurangan, S"
-        },
-        {
-          "key": "agilisium consulting",
-          "name": "Agilisium Consulting,"
+          "key": "pandurangan sundaramurthy",
+          "name": "Sundaramurthy Pandurangan"
         }
       ],
-      "abstract_text": "Mapping which antigen residues an antibody contacts (the epitope) and which antibody residues do the contacting (the paratope) is central to therapeutic antibody engineering, yet most accurate methods require a solved or predicted three dimensional complex. We address a sequence only formulation: predict the HER2 epitope and the single domain antibody (VHH, or nanobody) paratope from the two sequences alone, with no three dimensional structure prediction at any stage. We pair a frozen ESM2 650M protein language model, used strictly as a feature extractor, with a lightweight trainable module per chain encoders, a shared cross attention block, and epitope, paratope and binder heads (12.2M trainable parameters) trained jointly on three public sources: HER2 binding and blocking competition assays (\"AVIDa hHER2\" to be published by organizers of SEPIQ 2026 The authors have no right to share the dataset to public ), residue level antibody antigen contacts (SAbDab2), and two reference antibody crystal structures. The blocking competition signal is de confounded into a trastuzumab minus pertuzumab contrast whose sign encodes the HER2 domain and which is used only as a training target, never as a model input. Under a three way, sequence cluster level split with a test set opened exactly once, the binder head reaches PR AUC 0.999 and the paratope head 0.659, while residue level epitope prediction on novel antigens remains near baseline (0.070) a limitation the sealed split exposes rather than hides. Sequence alone recovers the competition derived HER2 domain (the competitor class) for 87.7% of held out clones, a leakage free result. For HER2 specifically, a residue prior built from 25 mined HER2 antibody complexes and validated by leave one out reaches 0.26 to 0.29 residue PR AUC once the domain is correct, roughly 3.6 times the language model head alone. We release and report two submission variants per test clone, a fully sequence only prediction and a competition informed one ,and document which data were used where. Keywords: epitope prediction; paratope prediction; nanobody; VHH; HER2; protein language model; ESM2; cross attention; antibody antigen interface; leakage safe evaluation.",
+      "abstract_text": "Abstract Mapping which antigen residues an antibody contacts (the epitope) and which antibody residues do the contacting (the paratope) is central to therapeutic antibody engineering, yet most accurate methods require a solved or predicted three-dimensional complex. We address a sequence-only formulation: predict the HER2 epitope and the single-domain antibody (VHH, or nanobody) paratope from the two sequences alone, with no three-dimensional structure prediction at any stage. We pair a frozen ESM2-650M protein language model, used strictly as a feature extractor, with a lightweight trainable module —per-chain encoders, a shared cross-attention block, and epitope, paratope and binder heads (12.2M trainable parameters) — trained jointly on three public sources: HER2 binding and blocking-competition assays (AVIDa-hHER2), residue-level antibody–antigen contacts (SAbDab2), and two reference-antibody crystal structures. The blocking-competition signal is de-confounded into a trastuzumab-minus-pertuzumab contrast whose sign encodes the HER2 domain and which is used only as a training target, never as a model input. Under a three-way, sequence-cluster-level split with a test set opened exactly once, the binder head reaches PR-AUC 0.999 and the paratope head 0.659, while residue-level epitope prediction on novel antigens remains near baseline (0.070) — a limitation the sealed split exposes rather than hides. Sequence alone recovers the competition-derived HER2 domain (the competitor class) for 87.7% of held-out clones, a leakage-free result. For HER2 specifically, a residue prior built from 25 mined HER2–antibody complexes and validated by leave-one-out reaches 0.26–0.29 residue PR-AUC once the domain is correct, roughly 3.6 times the language-model head alone. We release and report two submission variants per test clone — a fully sequence-only prediction and a competition-informed one —and document which data were used where.",
       "discovery_sources": [
         {
           "kind": "open_alex",

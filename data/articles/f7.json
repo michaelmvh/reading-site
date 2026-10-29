@@ -3074,6 +3074,54 @@
       "curated_categories": []
     },
     {
+      "id": "f76eec8306d039d087d677429deaf6b300fb8292cee20743ba82009e23f3444b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.20.746112v2",
+        "https://doi.org/10.64898/2026.08.20.746112",
+        "https://www.biorxiv.org/content/early/2026/08/25/2026.08.20.746112.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.08.20.746112.source.xml"
+      ],
+      "title": "MultiFlow: coupled flow matching for predicting single-cell multiomic perturbation responses in unseen cellular contexts",
+      "link": "https://doi.org/10.64898/2026.08.20.746112",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746112v2.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, H"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, C"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, M"
+        },
+        {
+          "key": "nie",
+          "name": "Nie, X"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Q"
+        }
+      ],
+      "abstract_text": "Predicting cellular responses to perturbation requires resolving coordinated changes across molecular layers, yet most single-cell perturbation models focus on transcriptional responses alone. Here we present MultiFlow, a coupled flow-matching framework that unifies generation and perturbation prediction of paired gene expression and chromatin accessibility. Through bidirectional information exchange between RNA and ATAC generative flows, MultiFlow learns how their joint distribution depends on cellular context and perturbation identity. Across multiomic generation benchmarks, MultiFlow accurately reproduced paired RNA-ATAC states and their population distributions. In multiome perturbation benchmarks, MultiFlow achieved the strongest overall performance in predicting both gene-expression and chromatin-accessibility perturbation responses, outperforming modality-specific perturbation-prediction methods in cell types whose perturbed states were withheld from training. Joint multiomic modeling further preserved perturbation-induced coordination between modalities, including concordant peak-gene effects and cross-modal cellular neighborhood structure. These results establish MultiFlow as a unified generative framework for modeling paired molecular states and predicting their coordinated perturbation responses across cellular contexts. Code and tutorial of MultiFlow are available at https://github.com/liuq-lab/MultiFlow.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f771e9f9de50ef50524d876a58aadc6e43848f0dea04d469a5615ebb7754d949",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02314-w",

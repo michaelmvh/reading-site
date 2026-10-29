@@ -5035,6 +5035,73 @@
       "curated_categories": []
     },
     {
+      "id": "47df24fc8be89c0dbff543db1235b94208dfc2c51d3adf64e625063dc44dbbe3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.23.761395v1",
+        "https://doi.org/10.64898/2026.10.23.761395",
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.10.23.761395.source.xml"
+      ],
+      "title": "Multi-resolution humanness scoring of antibodies via a region-isolated language model",
+      "link": "https://doi.org/10.64898/2026.10.23.761395",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761395v1.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, H"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, P"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, S"
+        },
+        {
+          "key": "wei",
+          "name": "Wei, B"
+        },
+        {
+          "key": "deng",
+          "name": "Deng, S"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, X"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, S"
+        },
+        {
+          "key": "han",
+          "name": "Han, L"
+        },
+        {
+          "key": "ye",
+          "name": "Ye, L"
+        }
+      ],
+      "abstract_text": "Antibodies recognized as foreign can elicit anti-drug antibodies that compromise efficacy and safety, making humanness scoring---estimating how human-like a sequence appears---an early, repeated step in antibody development. Widely used scores reduce a variable domain to one framework-dominated number, leaving the complementarity-determining regions (CDRs)---grafted during humanization, diversified by generative models---weakly supervised and rarely audited. Here we introduce IgScope, a 23-million-parameter antibody language model trained from scratch that scores humanness at chain, IMGT-region and residue resolution; a region-isolated attention module confines attention to within-region pairs, and chimeric-sequence training supplies region-level supervision. On 2.38 million held-out chains, masking all framework tokens leaves CDR accuracy unchanged, and back-mutated murine residues in human frameworks are detected at 93.4\\% accuracy. At chain level, IgScope matches the strongest published correlation with clinical anti-drug-antibody incidence (r = $-$0.567, n = 217) and outperforms a same-protocol recomputation. Region-level scoring exposes what chain-level scoring conceals: antibodies designed de novo by four generative models pass whole-chain humanness (0.966--0.988) while their CDRs score far below natural (P $<$ 1e-30) in every chain class. Quality control turns the same resolution to the mirror-image question: in humanized-mouse platforms, whose domains are human by design, IgScope scores the domain as human and, in HUGO-Nano chimeric VHHs, isolates only the FR2 signal of four camelid hallmark residues deliberately retained to stabilise the VHH. IgScope gives antibody humanization a verified foundation and generative design an audit.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "47e3426849b18c533a5a7b082543ba4c1b1d1831cbda26f0db900830a592cc19",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68971-7",

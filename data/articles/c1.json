@@ -925,6 +925,40 @@
       "curated_categories": []
     },
     {
+      "id": "c13d05d7ea7072df5e44f0722169b2183121c31cfaca9cb362dc80e04afe39b7",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.27.762198",
+        "https://openalex.org/W7224107583"
+      ],
+      "title": "Iterative Refinement for Structural Optimization of De Novo Protein Sequences",
+      "link": "https://doi.org/10.64898/2026.10.27.762198",
+      "pdf_url": null,
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "chance gammill",
+          "name": "Chance M Gammill"
+        },
+        {
+          "key": "lakshman tamil",
+          "name": "Lakshman S. Tamil"
+        }
+      ],
+      "abstract_text": "In this paper, we introduce an iterative refinement procedure that substitutes individual amino acid residues in a predicted protein sequence to minimize structural error; substitutions are guided by a weighted composite score of global evaluation metrics including the TM-score, GDT-TS, and RMSD. Starting from an initial sequence prediction produced by a structure-aware graph neural network (GNN) [5], the refinement procedure evaluates candidate amino acid substitutions at each position by folding the modified sequence with ESMFold [9] and accepting substitutions that satisfy both a global structural improvement criterion and a local displacement threshold. Evaluated on a matched sample of 224 proteins, this set of methods reduced mean RMSD from 8.097 Å to 4.570 Å relative to the model's initial prediction, a 43.6% reduction, with corresponding reductions of 46.2% relative to ProteinMPNN and 27.2% relative to native ESMFolded sequences; these differences were statistically significant by paired t-test (p < 0.001). Our results show that post-prediction iterative refinement can significantly improve the structural accuracy of de novo protein sequences.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c13ed06567e92a1bce8814752bbd3b44522f229317eb79efb97a14ec9eca9930",
       "identity_keys": [
         "https://doi.org/10.25582/data.2020-08.2033314/17160461",

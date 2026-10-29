@@ -7601,6 +7601,102 @@
       "curated_categories": []
     },
     {
+      "id": "05f2586154192c13fc5cd0ed2f53f9f58957d5abed20bf18139e50a5b47d9ebe",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.06.743333v2",
+        "https://doi.org/10.64898/2026.08.06.743333",
+        "https://www.biorxiv.org/content/early/2026/08/12/2026.08.06.743333.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.08.06.743333.source.xml"
+      ],
+      "title": "Data coherence over data volume drives generalisable genome-based prediction of microbial carbon utilisation",
+      "link": "https://doi.org/10.64898/2026.08.06.743333",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743333v2.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kishore",
+          "name": "Kishore, D"
+        },
+        {
+          "key": "ranjan",
+          "name": "Ranjan, P"
+        },
+        {
+          "key": "neely",
+          "name": "Neely, C"
+        },
+        {
+          "key": "cashman",
+          "name": "Cashman, M"
+        },
+        {
+          "key": "sakkaff",
+          "name": "Sakkaff, Z"
+        },
+        {
+          "key": "riehl",
+          "name": "Riehl, W. J"
+        },
+        {
+          "key": "joachimiak",
+          "name": "Joachimiak, M. P"
+        },
+        {
+          "key": "edirisinghe",
+          "name": "Edirisinghe, J. N"
+        },
+        {
+          "key": "faria",
+          "name": "Faria, J. P"
+        },
+        {
+          "key": "weisenhorn",
+          "name": "Weisenhorn, P"
+        },
+        {
+          "key": "cohen",
+          "name": "Cohen, M. B"
+        },
+        {
+          "key": "pelletier",
+          "name": "Pelletier, D. A"
+        },
+        {
+          "key": "cottingham",
+          "name": "Cottingham, R. W"
+        },
+        {
+          "key": "henry",
+          "name": "Henry, C. S"
+        },
+        {
+          "key": "doktycz",
+          "name": "Doktycz, M. J"
+        },
+        {
+          "key": "arkin",
+          "name": "Arkin, A. P"
+        },
+        {
+          "key": "dehal",
+          "name": "Dehal, P. S"
+        }
+      ],
+      "abstract_text": "Microbial carbon utilisation shapes ecological niches, community assembly, and nutrient cycling, yet remains difficult to predict from genomes despite well-characterised pathways. Genome-based machine-learning models often generalise poorly across datasets, a limitation commonly attributed to small or taxonomically biased training sets. We integrated binary growth phenotypes for 819 strains across 240 carbon sources from four datasets, focusing on 15 shared sources. Cross-dataset evaluation reduced balanced accuracy from 0.86 (within datasets) to 0.62, and restricting evaluation to in-clade relatives recovered only 0.03 of this loss. Because phylogeny alone could not explain the transfer gap, we restricted training to samples with coherent genotype-phenotype relationships, defined by agreement between experimental labels and annotated pathways. Concordance filtering doubled the number of carbon sources with reproducible genomic signals across datasets (from 6 to 12 of 15), often recovering known pathway genes, while matched random subsets remained at the unfiltered level. The smaller concordant set also approached the cross-dataset performance of models augmented with up to 1800 BacDive genomes per phenotype, demonstrating greater efficiency per sample. Concordance-trained models remained bounded specialists, but separated growers from non-growers among genomes the pathway rules called negative, mostly generalists with broad-specificity transporters. Model confidence made these bounds actionable, since abstention improved accuracy where models transferred and retraining on newly labelled low-confidence genomes gave the largest gains for weaker phenotypes. Collectively, these findings recast generalisation as a problem of label-mechanism agreement and demonstrate how genome-based predictions can be deployed within explicit applicability domains and improved through targeted phenotyping.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "05f2858c94c2c72e5401832d34f5ff907b56677cc1a7905a7b1b23ea399c2a01",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68747-z",

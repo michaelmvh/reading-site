@@ -6369,6 +6369,41 @@
       "curated_categories": []
     },
     {
+      "id": "8ffd5f5272a496f49bc2145074ef54e70bd1951869b15a848e3f6c7dac3c262c",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.11.01.686014v2",
+        "https://doi.org/10.1101/2025.11.01.686014",
+        "https://www.biorxiv.org/content/early/2026/10/28/2025.11.01.686014.source.xml"
+      ],
+      "title": "Oyster: A Neural Network for Modeling Genomic Sequences with Exact Position-Specific k-mer Contributions",
+      "link": "https://doi.org/10.1101/2025.11.01.686014",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.01.686014v2.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "abdulnabi",
+          "name": "Abdulnabi, H"
+        },
+        {
+          "key": "westwood",
+          "name": "Westwood, J. T"
+        }
+      ],
+      "abstract_text": "Genomics data are sequences, and exploration in these data involves mapping these sequences to function and understanding that mapping. Analogous to a sentence composed of words, a sequence's function is understood through its constituent subsequences, or k-mers. The presence of k-mers, their positions, and their relationships with other k-mers (k-mer associations) all affect sequence function. Understanding the sequence function requires determining the contributions of each of its k-mers and the impacts of their positions and k-mer associations. k-mer associations are inherently combinatorial and may be hierarchical. Although these associations may be impactful for biological phenomena, k-mer associations cannot be understood by humans and severely obfuscate model analyses, yielding generalizations, simplifications, and approximations. Ignoring k-mer associations, however, yields concepts that are human-understandable and exact. To determine whether ignoring k-mer associations is appropriate, models that learn or ignore k-mer associations can be compared. Oyster is a novel NN that learns k-mer composition and k-mer positions while ignoring k-mer associations, the first with these abilities to our knowledge. Oyster is a glass-box model as the exact position-specific contributions of k-mers are directly extracted from the model weights. Oyster is compared with models that consider k-mer associations using two case studies spanning two important genomics topics: protein-DNA interactions and enhancer activity. Across these case studies it was found that while models that consider k-mer associations perform better than Oyster models, the predictions of the Oyster models were in strong agreement, serving as faithful proxies. Human-understandable concepts were extracted from the Oyster models revealing concepts that align with the literature as well as novel ones.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8ffe27cc466fe615811d6a71c407c9a2285c1fadef806d4ce955c431a92e20cc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74941-w",
