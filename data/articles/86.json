@@ -1499,6 +1499,49 @@
       "curated_categories": []
     },
     {
+      "id": "8646e5e2d820a6ebd29d1d8971f6df1d800650b90bc2822b850d3fd35f672b26",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762306v1",
+        "https://doi.org/10.64898/2026.10.27.762306",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.27.762306.source.xml"
+      ],
+      "title": "Evaluation of Cross-slice Imputation for Spatial Proteomics",
+      "link": "https://doi.org/10.64898/2026.10.27.762306",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762306v1.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bondar",
+          "name": "Bondar, G. A"
+        },
+        {
+          "key": "bozorgui",
+          "name": "Bozorgui, B"
+        },
+        {
+          "key": "korkut",
+          "name": "Korkut, A"
+        },
+        {
+          "key": "halder",
+          "name": "Halder, A"
+        }
+      ],
+      "abstract_text": "Spatial single-cell protein profiling is at the forefront of translational medicine research efforts that try to decipher tissue heterogeneity. However, existing experimental approaches are limited in the number of biomarkers that they measure. This has motivated extensive research into the problem of protein imputation, where proteins or biomarkers not directly measured in a given slice of biopsy tissue are learned from those measured. In this work, we focus on the specific problem of cross-slice protein imputation (CSPI). In the CSPI problem, two sets of biomarker expressions at the single-cell level are known for physically adjacent slices of tissue. Each slice has its own known set of biomarkers, which overlaps with but does not subsume that of the adjacent. For each slice, we wish to learn the expressions of the proteins unique to the adjacent. Existing literature for protein imputation methodologies can be grouped in two categories: learning-based and alignment-based approaches. Learning-based approaches do not account for spatial and structural similarities between the training and the target sets. Alignment based approaches aim to determine an association between cells in adjacent slices, but without the explicit goal of using this alignment for imputation. In this work, we evaluate several methods from both categories and their adaptability to the cross-slice protein imputation problem. We provide a statistical analysis of all methods' performance under varying conditions of implementation. We find that learning-based methods significantly outperform alignment-based methods at the task of cross-slice protein imputation, with the latter more suited to the task of inter-slice interpolation or 3D tissue reconstruction. Moreover, inter-patient imputation is far less accurate than intra-patient imputation for all methods evaluated.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "86478b93fcb2c2f54498c55d2028c67540d71a8ae128b63d068aabd6223e8d53",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76261-5",

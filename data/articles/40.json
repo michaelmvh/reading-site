@@ -2800,6 +2800,49 @@
       "curated_categories": []
     },
     {
+      "id": "407bde3428565f1d41395065befd593c3690f6fc36d47b5457c8c71dc0774924",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762296v1",
+        "https://doi.org/10.64898/2026.10.27.762296",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.27.762296.source.xml"
+      ],
+      "title": "Ground-truth evaluation of sparse autoencoder features on spatial, single-cell and language-model embeddings",
+      "link": "https://doi.org/10.64898/2026.10.27.762296",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762296v1.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "shahsavand",
+          "name": "Shahsavand, A"
+        },
+        {
+          "key": "forghani",
+          "name": "Forghani, S"
+        },
+        {
+          "key": "akbarzadeh",
+          "name": "Akbarzadeh, S"
+        },
+        {
+          "key": "mahdavi sabet",
+          "name": "Mahdavi Sabet, F"
+        }
+      ],
+      "abstract_text": "Sparse autoencoders (SAEs) are increasingly used to extract interpretable features from the embeddings of biological foundation models. Because SAEs trained with different random seeds learn different features, reproducibility across seeds has become a common test of whether these features can be trusted. We asked whether reproducible features are also meaningful, using embeddings whose concepts are known: five spatial transcriptomics embeddings of two colorectal cancer sections and Geneformer embeddings of single-cell RNA profiles, with cell lineages as concepts; synthetic data with planted cell states; and the residual stream of a small language model, with token classes as concepts. Varimax rotations of the same embeddings were almost perfectly reproducible, yet rotation features (PCA, varimax and ICA) covered at most three of seven lineages and three of eight token classes. Single SAE fits showed the opposite profile: they covered most concepts with purer gene programs but reproduced only 27-46% of their features. A consensus over five SAE fits combined the two strengths. It was reproducible (78-98% across sources) and as pure as single fits: 11-40% of its features carried marker genes of another lineage, against 44-70% for varimax. Against the strongest baseline, varimax sparsified to the SAE's sparsity, the consensus covered as many concepts on PCA and Geneformer embeddings and more on learned spatial and text embeddings. The consensus also had costs. It covered fewer lineages than single fits and, like all SAEs, missed weak planted states that rotations recovered; neither a longer single fit nor a second SAE trained on the consensus residual recovered what it discarded. Reproducibility alone therefore ranks features poorly: SAE features should be reported with the number of known concepts they cover and the purity of their gene programs, against a rotation of the same embedding sparsified to the SAE's sparsity.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "407f7e6321f61b60e5aeca97e68c57e61837312df108e9947fe5f4648bed68fa",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69729-x",

@@ -196,6 +196,61 @@
       "curated_categories": []
     },
     {
+      "id": "180c355466a4cce7f3ca29bde27462d36be68e402e0ec10658b571f0d2eac9b0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.762062v1",
+        "https://doi.org/10.64898/2026.10.26.762062",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.26.762062.source.xml"
+      ],
+      "title": "Building synthetic cell-cell synapses using engineered scaffold protein condensates",
+      "link": "https://doi.org/10.64898/2026.10.26.762062",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762062v1.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "shin",
+          "name": "Shin, N. Y"
+        },
+        {
+          "key": "mitra",
+          "name": "Mitra, G"
+        },
+        {
+          "key": "grodsky",
+          "name": "Grodsky, A. M"
+        },
+        {
+          "key": "ruff",
+          "name": "Ruff, K. M"
+        },
+        {
+          "key": "chauhan",
+          "name": "Chauhan, G"
+        },
+        {
+          "key": "pappu",
+          "name": "Pappu, R. V"
+        },
+        {
+          "key": "lim",
+          "name": "Lim, W. A"
+        }
+      ],
+      "abstract_text": "Synaptic assemblies that form at cell-cell junctions are often organized by multivalent scaffold proteins with condensate forming properties. An emerging hypothesis is that these scaffolds provide a thresholding mechanism whereby small increases in the density of cell-cell recognition receptors can trigger all-or-none assembly selectively at the correct partner cell interface. We test this hypothesis by engineering synthetic scaffolded synapses. Coarse-grained simulations suggest that properly-tuned scaffold interactions can yield a sharp condensation threshold. Guided by these simulations, we designed modular scaffold proteins consisting of PDZ domains and intrinsically disordered regions (IDRs) of different molecular grammars. Within a specific region of parameter space, controlled by valency, receptor binding affinity and IDR-driven condensation, the synthetic scaffold proteins exhibit switch-like condensation behaviors, where co-condensates of receptor and scaffold selectively form only at interfaces with the proper partner cell. Notably, orthogonal receptor-scaffold pairs enable a single receiver cell to form multiple distinct interfaces, each associated with a different partner cell. We demonstrate that these synthetic synapse assemblies can recruit different client proteins to enhance intercellular signaling, orient cell division, or sculpt complex synaptic morphologies. Our results illustrate how the ultrasensitive condensation properties of modular scaffold proteins can be harnessed to create novel and highly specific cell-cell interfaces.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "180e20b70551cda38ea02ae45724110490abe3d13c7a322f741eb18601bbb5cf",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72575-6",
@@ -3212,6 +3267,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "189df0c54ff9902fa960afb7a901c7ae7bd5ce0eb329267e1d474155a872c2ef",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762238v1",
+        "https://doi.org/10.64898/2026.10.28.762238",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.28.762238.source.xml"
+      ],
+      "title": "Scooby-2: fine-tuning AlphaGenome for single-cell genomic track prediction",
+      "link": "https://doi.org/10.64898/2026.10.28.762238",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762238v1.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hingerl",
+          "name": "Hingerl, J. C"
+        },
+        {
+          "key": "gagneur",
+          "name": "Gagneur, J"
+        }
+      ],
+      "abstract_text": "Sequence-to-function models predict genomic tracks from DNA sequence. AlphaGenome has been shown to outperform previous models, including Borzoi, on most track-prediction and variant-effect benchmarks. However, like its predecessors, it predicts tracks only for predefined, mostly bulk-derived cell types and tissues. While Scooby has extended Borzoi to single-cell resolution, a single-cell adaptation of AlphaGenome is still lacking. We present Scooby-2, which combines AlphaGenome with a cell-specific decoder to predict single-cell RNA-seq coverage and chromatin-accessibility genomic tracks from DNA sequence. The package provides the implementation, the parameter-efficient fine-tuning setup, the training pipeline and inference scripts. When evaluated on the NeurIPS bone marrow single-cell dataset, Scooby-2 achieved a Pearson correlation of 0.56 when predicting cell-type-specific gene expression differences, compared with 0.53 for Scooby. When using the distilled AlphaGenome backbone, variant effect prediction concordance of fine-mapped eQTLs from the OneK1K cohort improved from 0.37 to 0.47 Spearman's rank correlation across all associations, an improvement consistent with that of AlphaGenome over Borzoi itself.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
