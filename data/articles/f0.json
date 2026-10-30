@@ -84,6 +84,48 @@
       "curated_categories": []
     },
     {
+      "id": "f0037b31775c84401e4bd652f78b5a72c3377266c464a9dd8cdd5e4646b11a3e",
+      "identity_keys": [
+        "arxiv:2610.24106",
+        "https://doi.org/10.48550/arXiv.2610.24106"
+      ],
+      "title": "gpuGEM: GPU-based linear optimisation of genome-scale metabolic models",
+      "link": "https://doi.org/10.48550/arXiv.2610.24106",
+      "pdf_url": "https://arxiv.org/pdf/2610.24106v1",
+      "publication_date": "2026-10-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "farid zare",
+          "name": "Farid Zare†"
+        },
+        {
+          "key": "hulshof timothy",
+          "name": "Timothy Hulshof†"
+        },
+        {
+          "key": "ines thiele",
+          "name": "Ines Thiele"
+        },
+        {
+          "key": "fleming ronan",
+          "name": "Ronan M. T. Fleming"
+        }
+      ],
+      "abstract_text": "Summary: Genome-scale metabolic models increasingly challenge CPU linear-programming solvers in repeated-optimisation workflows. We present gpuGEM, an open-source Python library for GPU-based GEM optimisation using NVIDIA cuOpt, with size-adaptive settings validated against HiGHS and Gurobi. Across a ten-model benchmark suite spanning four orders of magnitude in problem size, gpuGEM achieved speed-ups of 1.1x to 94x relative to the faster of the HiGHS dual-simplex and interior-point methods for each model. gpuGEM also outperformed Gurobi on three of ten models, with speed-ups of 1.6x to 2.5x. In a candidate-gene prioritisation workflow, gpuGEM reduced end-to-end query time from 41 s to 21 s. Availability and Implementation: gpuGEM is released under the MIT licence at https://github.com/Digital-Metabolic-Twin-Centre/gpuGEM and on PyPI (pip install gpugem). An archived release(v0.1.2) is available at https://zenodo.org/records/23422813. gpuGEM requires an NVIDIA GPU, Python 3.11 or later, CUDA 12 and cuOpt 26.6 or later. cuOpt requires a GPU with Volta architecture or newer (compute capability 7.0 or newer). Contact: ronan.mt.fleming@gmail.com Supplementary information: Supplementary data are available at Bioinformatics online.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f006d312698e059fe5846732638683696ba4fc7a3dc5a2189c55adb7c9f4ffef",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70480-6",

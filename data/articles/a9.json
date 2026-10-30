@@ -1974,6 +1974,57 @@
       "curated_categories": []
     },
     {
+      "id": "a9500c50779606ca2b2eb29bbd4016ac1da2b05d60bd3818a26e3a9e85f13dbe",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.761825v1",
+        "https://doi.org/10.64898/2026.10.26.761825",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.26.761825.source.xml"
+      ],
+      "title": "Interpreting Graph Neural Networks for Antibacterial Drug Repurposing against Acinetobacter baumannii",
+      "link": "https://doi.org/10.64898/2026.10.26.761825",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761825v1.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "romano",
+          "name": "Romano, S"
+        },
+        {
+          "key": "grassia",
+          "name": "Grassia, M"
+        },
+        {
+          "key": "righelli",
+          "name": "Righelli, D"
+        },
+        {
+          "key": "lio",
+          "name": "Lio, P"
+        },
+        {
+          "key": "mangioni",
+          "name": "Mangioni, G"
+        },
+        {
+          "key": "taccioli",
+          "name": "Taccioli, C"
+        }
+      ],
+      "abstract_text": "Antimicrobial resistance in Acinetobacter baumannii, whose carbapenem-resistant strains are classified by the World Health Organization as a critical priority, has motivated machine-learning screens for new antibacterials, but translating predictions into chemical hypotheses requires evaluating the molecular features on which a model relies. A graph neural network ensemble achieves competitive predictive performance against a descriptor-augmented reference model on the same antibacterial screen while using only atom features and connectivity, allowing interpretation to focus on the molecular graph without a separate input of handcrafted descriptors. The atom-level explanations identify features supporting the model's activity predictions under perturbation and restoration, while comparisons with equally sized perturbations within each molecule distinguish piperazine as the most consistently supported recurring contributor to predicted activity. Prospective screening of the Drug Repurposing Hub followed by developability and safety assessment yields a ranked shortlist for experimental follow-up and leads to testing of CE3F4, which reduced A. baumannii growth by 57% at 0.25 mM in a preliminary assay with a non-monotonic concentration--response profile.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a9505997094772377c0d07f8f04eb06643f4db88d1a20898cdfb623f9c860937",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68376-6",
@@ -6224,7 +6275,7 @@
         "https://doi.org/10.1101/2025.09.30.679633",
         "https://openalex.org/W4414769131"
       ],
-      "title": "Ensemble-conditioned protein sequence design with Caliby",
+      "title": "Isolation of structural constraints by ensemble-conditioned protein sequence design",
       "link": "https://doi.org/10.1101/2025.09.30.679633",
       "pdf_url": null,
       "publication_date": "2025-10-02",
@@ -6237,12 +6288,32 @@
           "name": "Richard W. Shuai"
         },
         {
+          "key": "ling zhou",
+          "name": "Ling Zhou"
+        },
+        {
+          "key": "el gina nesr",
+          "name": "Gina El Nesr"
+        },
+        {
+          "key": "jessica lin",
+          "name": "Jessica Lin"
+        },
+        {
           "key": "lu tianyu",
           "name": "Tianyu Lu"
         },
         {
+          "key": "irimpan mathews",
+          "name": "Irimpan I. Mathews"
+        },
+        {
           "key": "bhatti subhang",
           "name": "Subhang Bhatti"
+        },
+        {
+          "key": "justine yuan",
+          "name": "Justine Yuan"
         },
         {
           "key": "kouba petr",
@@ -6253,7 +6324,7 @@
           "name": "Po‐Ssu Huang"
         }
       ],
-      "abstract_text": "Abstract Structure-conditioned sequence design models aim to design a protein sequence that will fold into a given target structure. Deep-learning-based approaches for sequence design have proven highly successful for various protein design applications, but many non-idealized backbones still remain out of reach for current models under typical in silico success criteria. We hypothesize that training objectives prioritizing native sequence recovery unintentionally push models to reproduce non-structural signals (e.g. phylogenetic relatedness, neutral drift, or dataset sampling biases), rather than a broadly generalizable structure-sequence mapping. Inspired by recent work bridging sequence likelihood and fitness prediction in protein language models, we introduce Caliby, a Potts model-based sequence design method capable of conditioning on an ensemble of structures. Conditioning on a synthetic ensemble generated from an input backbone allows sampling of sequences consistent with the structural constraints of the ensemble while averaging out undesired biases towards the native sequence. Ensemble-conditioned sequence design with Caliby reduces native sequence recovery while substantially improving AlphaFold2 self-consistency, outperforming state-of-the-art models ProteinMPNN and ChromaDesign on both native and de novo backbones. Finally, we train a variant of Caliby on only soluble proteins and demonstrate in silico that Protpardelle-1c binder designs that were previously deemed undesignable by SolubleMPNN are actually designable under SolubleCaliby, highlighting limitations of existing filtering pipelines. These results suggest that Caliby can expand the de novo design space beyond highly idealized backbones.",
+      "abstract_text": "Natural sequences have long been the assumed ground truth for protein sequence design methods. But natural sequences encode more than the structural fold, carrying evolutionary history that reflects ancestry, drift, and function. Deep learning models for protein sequence design inherit this signal, achieving higher native sequence recovery but lower predicted foldability. Motivated by this trade-off, we introduce Caliby, a Potts model-based sequence design method capable of conditioning on structural ensembles. By conditioning on synthetic ensembles generated from an input backbone, Caliby samples sequences consistent with shared structural constraints while averaging out native sequence confounders. This strategy improves designability while reducing native sequence recovery, and generalizes across sequence design models. Mechanistically, designed sequences show reduced covariation between non-contacting residues and lower energetic frustration, indicating more precise structural encoding. We demonstrate experimental applicability by designing thermostable proteins, functional lanthanide binders, and soluble membrane protein variants, including a pentameric assembly confirmed by cryo-EM.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -6061,13 +6061,15 @@
       "id": "3cfad6f7e665f0506dfc1be41721d7011256aa8f3d1f5c2d1b79cc11ef1dd357",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.18.759833v1",
+        "biorxiv:10.64898/2026.10.18.759833v2",
         "https://doi.org/10.64898/2026.10.18.759833",
-        "https://www.biorxiv.org/content/early/2026/10/20/2026.10.18.759833.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/20/2026.10.18.759833.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.18.759833.source.xml"
       ],
-      "title": "BiHC: Protein domain segmentation by bidirectional hierarchical clustering using Voronoi tessellation and physical self-containment",
+      "title": "VoroTIDE: Protein domain segmentation through independent hierarchical searches using Voronoi tessellation and physical self-containment",
       "link": "https://doi.org/10.64898/2026.10.18.759833",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759833v1.full.pdf",
-      "publication_date": "2026-10-20",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759833v2.full.pdf",
+      "publication_date": "2026-10-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -6077,7 +6079,7 @@
           "name": "Le, K. Q"
         }
       ],
-      "abstract_text": "Protein domains are commonly regarded as structurally separated, functionally relevant, and evolutionarily separable units. Although classification systems may assign different domain boundaries to the same structure, structural separation remains a shared criterion, and many domain parsers assess it through inter-residue distances, contact numbers, or contact densities. However, the Voronoi contact area, which is widely used to study protein-protein interactions and predict contact sites, has seen limited use in domain parsing. There are two potential challenges to this problem. First, unlike in protein-protein interaction, partitions are not known in advance and must be identified before their interface can be evaluated. Second, the contact area depends on fragment size and internal packing, making it difficult to compare candidate partitions. Here, we introduce BiHC (Bidirectional Hierarchical Clustering), a domain parser based on all-heavy-atom Voronoi contact areas. By normalizing the contact area for fragment size and internal packing, and incorporating residue hydropathy, we define a pairwise self-containment score F. BiHC applies F in two independent hierarchical searches: top-down recursive splitting until no admissible division remains, and bottom-up merging of secondary-structure elements until the entire structure becomes a single fragment. Intermediate partitions from both searches are ranked by a global partition quality score G, derived on the same principle. On two CATH-ECOD consensus benchmarks, under balanced evaluation, BiHC achieved the strongest performance among all tested criterion-based parsers and was comparable to Chainsaw, the best-performing deep learning method tested. These results show that the Voronoi-based criterion can yield competitive domain parsing.",
+      "abstract_text": "Protein domains are commonly regarded as structurally separated, functionally relevant, and evolutionarily separable units. Although classification systems may assign different domain boundaries to the same structure, structural separation remains a shared criterion, and many domain parsers assess it through inter-residue distances, contact numbers, or contact densities. However, the Voronoi contact area, which is widely used to study protein-protein interactions and predict contact sites, has seen limited use in domain parsing. There are two potential challenges to this problem. First, unlike in protein-protein interaction, partitions are not known in advance and must be identified before their interface can be evaluated. Second, the contact area depends on fragment size and internal packing, making it difficult to compare candidate partitions. Here, we introduce VoroTIDE (Voronoi-based Two-way Independent Domain Exploration), a domain parser based on all-heavy-atom Voronoi contact areas. By normalizing the contact area for fragment size and internal packing, and incorporating residue hydropathy, we define a pairwise self-containment score F. VoroTIDE applies F in two independent hierarchical searches: top-down recursive splitting until no admissible division remains, and bottom-up merging of secondary-structure elements until the entire structure becomes a single fragment. Intermediate partitions from both searches are ranked by a global partition quality score G, derived on the same principle. On two CATH-ECOD consensus benchmarks, under balanced evaluation, VoroTIDE achieved the strongest performance among all tested criterion-based parsers and was comparable to Chainsaw, the best-performing deep learning method tested. These results show that the Voronoi-based criterion can yield competitive domain parsing.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

@@ -3557,6 +3557,64 @@
       "curated_categories": []
     },
     {
+      "id": "f35d4a8179760d30cb8f2412640662446761e1e498ea0a55acc4171095120757",
+      "identity_keys": [
+        "arxiv:2610.38109",
+        "https://doi.org/10.48550/arXiv.2610.38109"
+      ],
+      "title": "Who Called? V33DA: A Physically Verified Multimodal Benchmark for Vocal Attribution in Zebra Finch Groups",
+      "link": "https://doi.org/10.48550/arXiv.2610.38109",
+      "pdf_url": "https://arxiv.org/pdf/2610.38109v1",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "basha maris",
+          "name": "Maris Basha"
+        },
+        {
+          "key": "wang yuhang",
+          "name": "Yuhang Wang"
+        },
+        {
+          "key": "chen xiaoran",
+          "name": "Xiaoran Chen"
+        },
+        {
+          "key": "cheng longbiao",
+          "name": "Longbiao Cheng"
+        },
+        {
+          "key": "luca yapura",
+          "name": "Luca Yapura"
+        },
+        {
+          "key": "anja zai",
+          "name": "Anja T. Zai"
+        },
+        {
+          "key": "mathieu salzmann",
+          "name": "Mathieu Salzmann"
+        },
+        {
+          "key": "hahnloser richard",
+          "name": "Richard Hahnloser"
+        }
+      ],
+      "abstract_text": "Deciding which member of an animal group produced a vocalization and where that vocalization was produced are central to studying social communication but are rarely evaluated with physically verified ground truth. Existing resources either localize sounds without identifying the caller, or recognize individuals from isolated vocalizations without reliance on the 3D candidate geometry. We close this gap with V33DA, a dataset-centered multimodal benchmark for spatial vocal attribution in social zebra finches: it comprises 33,625 verified events coupling 5-channel audio with three camera views, calibrated 3D pose for every visible candidate, and per-bird radio telemetry across 10 individuals and three experiments. Caller identity is verified from an on-body accelerometer-derived vibration signal; this channel is withheld from benchmark models and used only by an on-body reference ceiling. Given a detected vocalization and the visible candidate birds, the task is to select the caller. We evaluate it under three regimes: session-disjoint testing on familiar birds from held-out recording dates, held-out-experiment transfer to a new cohort, and leave-one-individual-out evaluation on a bird whose vocalizations are held out from training. Reference methods expose a consistent gap between in-domain accuracy and transfer to unseen individuals: methods that can exploit familiar vocal identity perform well on known callers but degrade sharply on unseen ones, whereas candidate-aware methods preserving explicit spatial reasoning transfer substantially better. The on-body reference stays near-perfect across regimes, confirming the internal consistency of the accelerometer-verified labels. We release V33DA with fixed protocols and code for the evaluated methods, and V33DA++, an unevaluated companion set of verified overlapping-call events and +/-2 s context windows.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f35e7f4ef13cebefa95bc0b49fcb3bfb5ef4642f1ec6c8bee30abb4381b82b78",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67870-7",
@@ -5420,6 +5478,36 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f3bfbfcd3793495c05e5c1535305ea2de475a4694504ca647236067fba8cf5c1",
+      "identity_keys": [
+        "arxiv:2610.39662",
+        "https://doi.org/10.48550/arXiv.2610.39662"
+      ],
+      "title": "AI-driven structural informatics reveals diverse glycosylation machinery across double-stranded DNA viruses",
+      "link": "https://doi.org/10.48550/arXiv.2610.39662",
+      "pdf_url": "https://arxiv.org/pdf/2610.39662v1",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "lan na",
+          "name": "Lan Na"
+        }
+      ],
+      "abstract_text": "Glycosylation is widespread in biology and shapes molecular recognition, yet the diversity and biosynthetic organization of viral glycosyltransferases (GTs) remain poorly understood. Here we integrate structural-alphabet-guided searches and structure similarity networks with genomic-neighbourhood and biosynthetic gene cluster embedding analyses to examine viral GT-A proteins. This approach reveals extensive structural diversity overlooked by sequence-based annotation, including previously uncharacterized viral GT lineages. Most strikingly, we identified a jumbo-phage locus encoding five tandem glycosyltransferases alongside hydroxymethyl-pyrimidine biosynthetic and sulfation-associated enzymes, suggesting a previously unrecognized form of viral DNA modification involving a sulfated pentasaccharide. Beyond these examples, predicted saccharide-associated loci span divergent double-stranded DNA viruses, from giant viruses to tailed phages, and occupy multiple regions of the reference biosynthetic landscape. Together, our findings uncover an underappreciated repertoire of virus-encoded glycosylation machinery and suggest that viral glycan biosynthesis encompasses diverse molecular contexts and potential biological functions.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

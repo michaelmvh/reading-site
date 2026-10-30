@@ -753,6 +753,85 @@
       "curated_categories": []
     },
     {
+      "id": "66219e5012d8513b1697b210b5cda27e60c105e12bfd6da0bddfc47039870ef7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762313v1",
+        "https://doi.org/10.64898/2026.10.27.762313",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.27.762313.source.xml"
+      ],
+      "title": "Engineered probiotics target granulomas to treat mycobacterial infection",
+      "link": "https://doi.org/10.64898/2026.10.27.762313",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762313v1.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chen",
+          "name": "Chen, Y.-Y"
+        },
+        {
+          "key": "harimoto",
+          "name": "Harimoto, T"
+        },
+        {
+          "key": "makafe",
+          "name": "Makafe, G. G"
+        },
+        {
+          "key": "coker",
+          "name": "Coker, C"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, H"
+        },
+        {
+          "key": "im",
+          "name": "Im, J"
+        },
+        {
+          "key": "jing",
+          "name": "Jing, Y"
+        },
+        {
+          "key": "jin",
+          "name": "Jin, H"
+        },
+        {
+          "key": "hu",
+          "name": "Hu, X"
+        },
+        {
+          "key": "zutshi",
+          "name": "Zutshi, S"
+        },
+        {
+          "key": "raneri",
+          "name": "Raneri, M. R"
+        },
+        {
+          "key": "weinrick",
+          "name": "Weinrick, B"
+        },
+        {
+          "key": "danino",
+          "name": "Danino, T"
+        }
+      ],
+      "abstract_text": "Granulomas are a pathological niche for mycobacteria that remain difficult to access with conventional therapies. Here we show that probiotic Escherichia coli Nissle 1917 (EcN) infiltrates and colonizes granulomas and can be engineered as a delivery system that senses the local microenvironment and releases antimycobacterial payloads. Specifically, we leveraged the hypoxic microenvironment of necrotic granulomas to restrict bacterial growth, and developed a dual-mode lysis circuit combining intracellular and extracellular killing for sustained payload release with limited evolutionary escape. We further engineered EcN to express a mycobacteriophage-derived enzyme, generating a strain that suppressed drug-sensitive and drug-resistant mycobacteria in vitro and potentiated conventional antibiotic activity. Engineered probiotics also reduced mycobacterial burden in vivo, and in a murine model of rifampicin-resistant infection, combination treatment with pretomanid achieved greater bacterial reduction than either monotherapy. Together, these results establish a synthetic biology framework for targeting granulomatous infections with programmable living microbes.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6622c4c88324ca9030a2451d828ad2d411aa09e8e4a46fd0ce70facca9468187",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68378-4",
@@ -4327,6 +4406,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "668fb0c80be44411179a02c5cca1751499ac41f67f2eb178d853c25cc2d86761",
+      "identity_keys": [
+        "biorxiv:10.64898/2025.12.10.693541v4",
+        "https://doi.org/10.64898/2025.12.10.693541",
+        "https://www.biorxiv.org/content/early/2025/12/12/2025.12.10.693541.source.xml",
+        "https://www.biorxiv.org/content/early/2025/12/29/2025.12.10.693541.source.xml",
+        "https://www.biorxiv.org/content/early/2026/05/13/2025.12.10.693541.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/29/2025.12.10.693541.source.xml"
+      ],
+      "title": "A Condition-Informed Framework for Evaluating Temperature-Responsive Gene Sets Using Protein Interaction Data",
+      "link": "https://doi.org/10.64898/2025.12.10.693541",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693541v4.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "frishman",
+          "name": "Frishman, B. A"
+        },
+        {
+          "key": "gonzalez",
+          "name": "Gonzalez, J. L"
+        },
+        {
+          "key": "forbes",
+          "name": "Forbes, V. E"
+        }
+      ],
+      "abstract_text": "Computational models of genomic responses to environmental perturbations identify genes underlying physiological adaptation, but their utility requires further evaluation. Often, gene activity reflects both adaptive mechanisms and noise. Here, we develop a framework that leverages public databases to support the subselection of biologically supported model genes involved in temperature responses. We test our framework on a model that identified differentially expressed genes (DEGs) and categorized some into Key-Response, Treatment-Specific, Noisy, and Support groups based on inter-individual gene expression variability before and after treatment. The first three groups were hypothesized to constitute a Principal Response. To validate these groupings, we constructed protein-protein interaction (PPI) networks using the Human Protein Atlas and STRING. The main contribution of this work is the implementation of second-order connections restricted to those made via DEGs, ensuring connectivity reflects condition-specific responses rather than generic hubs. We show applying our DEG filter to second-order connections can change the conclusions drawn from the same selected gene sets. Support Group genes also showed strong interconnectivity and overlap with housekeeping genes. STRING confirmed PPI enrichment but produced less stable results. By emphasizing DEG-restricted second-order protein interactions, we address limitations of context-free enrichment methods and strengthen biological evaluation of computational models of differential gene expression. Our framework is designed to support the prioritization of subsets of DEGs for experimental follow up but not to predict exactly how an environmental input produces a physiological output.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

@@ -204,6 +204,78 @@
       "curated_categories": []
     },
     {
+      "id": "9e09296d29d4589844832c4e8b4d6a17927cd598a15284175ec5d48a1022e2b8",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.08.06.668731v3",
+        "https://doi.org/10.1101/2025.08.06.668731",
+        "https://www.biorxiv.org/content/early/2026/05/14/2025.08.06.668731.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/29/2025.08.06.668731.source.xml"
+      ],
+      "title": "An open structure-guided RNA foundation model for generalizable prediction",
+      "link": "https://doi.org/10.1101/2025.08.06.668731",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.06.668731v3.full.pdf",
+      "publication_date": "2026-10-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhu",
+          "name": "Zhu, H"
+        },
+        {
+          "key": "li",
+          "name": "Li, R"
+        },
+        {
+          "key": "chang",
+          "name": "Chang, A"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, H"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, F"
+        },
+        {
+          "key": "tang",
+          "name": "Tang, F"
+        },
+        {
+          "key": "ye",
+          "name": "Ye, T"
+        },
+        {
+          "key": "li",
+          "name": "Li, X"
+        },
+        {
+          "key": "gu",
+          "name": "Gu, Y"
+        },
+        {
+          "key": "xiong",
+          "name": "Xiong, P"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, S. K"
+        }
+      ],
+      "abstract_text": "RNA language models have achieved strong performance across diverse downstream tasks by leveraging large-scale sequence data. However, RNA function is fundamentally shaped by hierarchical structure, making structural information important for pre-training. Existing approaches often depend on noisy annotations or task-specific objectives that can limit generalizability. Here we present structRFM, a structure-guided RNA foundation model pre-trained on 21 million RNA sequence--structure pairs by integrating base-pairing interactions into masked language modelling through a pair-matching operation. We also introduce MUSES, a multi-source ensemble of secondary structures designed to mitigate predictor bias, and a dynamic masking ratio that balances structure-guided and nucleotide-level masking. structRFM learns joint sequence and structure representations as sequence-level, nucleotide-level and pairwise features for broad downstream adaptation. It ranks among the leading models in zero-shot homology classification and establishes new benchmarks for secondary-structure prediction. Its tertiary-structure adaptation, Zfold, consistently improves both three-dimensional predictions and their extracted secondary structures, with performance comparable to AlphaFold3 across CASP15-natural, CASP16 and RNA-Puzzles. structRFM also improves performance on function-prediction tasks and generalizes to newly released RNA families and long non-coding RNAs. Together, these results demonstrate the effectiveness of structure-guided pre-training and highlight multimodal RNA language models for robust structural and functional inference. The complete 21-million-pair dataset, model weights and source code are openly available to support multimodal RNA foundation-model development.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9e10fdfefec3c56db7e34fe59274f86d49aa1b210f4c5b62a6446ed977e83334",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03688-z",

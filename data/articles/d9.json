@@ -659,6 +659,36 @@
       "curated_categories": []
     },
     {
+      "id": "d90b4a58dc5f191c418fd1dc1f70088c7de75cadff25ac4751158dc5fec092bd",
+      "identity_keys": [
+        "arxiv:2305.05624",
+        "https://doi.org/10.48550/arXiv.2305.05624"
+      ],
+      "title": "Spontaneous Mutations from Terahertz Proton Tunneling",
+      "link": "https://doi.org/10.48550/arXiv.2305.05624",
+      "pdf_url": "https://arxiv.org/pdf/2305.05624",
+      "publication_date": "2023-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ali bray noah",
+          "name": "Noah Bray-Ali"
+        }
+      ],
+      "abstract_text": "Protons in the bonds between base pairs of the double helix store the code of life by breaking the dyad symmetry that swaps the sense strand with its complementary partner. When these bonds break during replication and transcription, pairs of protons switch sides, restoring dyad symmetry and destroying genetic information. The observed rate of such spontaneous mutations is obtained in the sudden approximation for bond breaking provided protons in bonds between bases tunnel across the gap with terahertz frequency.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d90c9164a0aff531569e62720d7a99be0d24cbe726dbb7e46da0bb783e12b2f8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66788-4",
@@ -5625,6 +5655,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d9e43bfa8905f6d927d7c5401c387196e2b47e2e79030730578c31ad6ed29150",
+      "identity_keys": [
+        "arxiv:2603.22399",
+        "https://doi.org/10.1021/acs.jcim.6c01249",
+        "https://doi.org/10.48550/arXiv.2603.22399"
+      ],
+      "title": "Latent Style-based Quantum Wasserstein GAN for Drug Design",
+      "link": "https://doi.org/10.48550/arXiv.2603.22399",
+      "pdf_url": "https://arxiv.org/pdf/2603.22399",
+      "publication_date": "2026-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "baglio julien",
+          "name": "Julien Baglio"
+        },
+        {
+          "key": "haddad yacine",
+          "name": "Yacine Haddad"
+        },
+        {
+          "key": "polifka richard",
+          "name": "Richard Polifka"
+        }
+      ],
+      "abstract_text": "The development of new drugs is a time-consuming and expensive process, with average costs estimated to be up to around $2.5 billion. The first step in this process is the design of the new drug, for which de novo drug design, assisted by artificial intelligence, has blossomed in recent years and has revolutionized the field. In particular, generative artificial intelligence has delivered promising results in drug discovery and development, reducing costs and time to solution. However, classical generative models, such as generative adversarial networks (GANs), can be difficult to train and are prone to mode collapse. Quantum computing may be an avenue to overcome some of these issues, providing compact models with far fewer trainable parameters, thereby enhancing the generalizability of GANs. We propose a new latent style-based quantum Wasserstein GAN (QGAN) for drug design, combining a variational autoencoder that maps molecular structures into a latent space with a hybrid quantum GAN. Our pipeline is benchmarked against classical models of the industry-relevant MOSES suite. Style-based noise reuploading at every rotational gate and a Wasserstein gradient penalty are used to improve trainability and to mitigate mode collapse. Training and large-scale sampling with circuits of up to 15 qubits are performed on noiseless quantum simulators to validate our architecture. We present an inference-only demonstration on an IBM Heron quantum computer using 5 qubits, sampling 2,500 new molecules, to investigate quantum noise effects. Our default QGAN, using 110 trainable generator parameters, reaches statistically comparable overall performance and statistically significant gains on selected drug-relevant metrics relative to both the MOSES classical latent GAN baseline, which contains about 700,000 trainable parameters for the generator, and a classical latent GAN with matched generator capacity.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

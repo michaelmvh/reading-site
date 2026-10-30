@@ -5038,13 +5038,15 @@
       "id": "47df24fc8be89c0dbff543db1235b94208dfc2c51d3adf64e625063dc44dbbe3",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.23.761395v1",
+        "biorxiv:10.64898/2026.10.23.761395v2",
         "https://doi.org/10.64898/2026.10.23.761395",
-        "https://www.biorxiv.org/content/early/2026/10/28/2026.10.23.761395.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/28/2026.10.23.761395.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/29/2026.10.23.761395.source.xml"
       ],
       "title": "Multi-resolution humanness scoring of antibodies via a region-isolated language model",
       "link": "https://doi.org/10.64898/2026.10.23.761395",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761395v1.full.pdf",
-      "publication_date": "2026-10-28",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761395v2.full.pdf",
+      "publication_date": "2026-10-29",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -5090,7 +5092,7 @@
           "name": "Ye, L"
         }
       ],
-      "abstract_text": "Antibodies recognized as foreign can elicit anti-drug antibodies that compromise efficacy and safety, making humanness scoring---estimating how human-like a sequence appears---an early, repeated step in antibody development. Widely used scores reduce a variable domain to one framework-dominated number, leaving the complementarity-determining regions (CDRs)---grafted during humanization, diversified by generative models---weakly supervised and rarely audited. Here we introduce IgScope, a 23-million-parameter antibody language model trained from scratch that scores humanness at chain, IMGT-region and residue resolution; a region-isolated attention module confines attention to within-region pairs, and chimeric-sequence training supplies region-level supervision. On 2.38 million held-out chains, masking all framework tokens leaves CDR accuracy unchanged, and back-mutated murine residues in human frameworks are detected at 93.4\\% accuracy. At chain level, IgScope matches the strongest published correlation with clinical anti-drug-antibody incidence (r = $-$0.567, n = 217) and outperforms a same-protocol recomputation. Region-level scoring exposes what chain-level scoring conceals: antibodies designed de novo by four generative models pass whole-chain humanness (0.966--0.988) while their CDRs score far below natural (P $<$ 1e-30) in every chain class. Quality control turns the same resolution to the mirror-image question: in humanized-mouse platforms, whose domains are human by design, IgScope scores the domain as human and, in HUGO-Nano chimeric VHHs, isolates only the FR2 signal of four camelid hallmark residues deliberately retained to stabilise the VHH. IgScope gives antibody humanization a verified foundation and generative design an audit.",
+      "abstract_text": "Antibodies recognized as foreign can elicit anti-drug antibodies that compromise efficacy and safety, making humanness scoring, estimating how human-like a sequence appears, an early, repeated step in antibody development. Widely used scores reduce a variable domain to a single framework-dominated number, leaving the complementarity-determining regions (CDRs) grafted during humanization, diversified by generative models weakly supervised and rarely audited. Here we introduce IgScope, a 23-million-parameter antibody language model trained from scratch that scores humanness at chain, IMGT-region, and residue resolution; a region-isolated attention module confines attention to within-region pairs, and chimeric-sequence training supplies region-level supervision. On 2.38 million held-out chains, masking all framework tokens leaves CDR accuracy unchanged, and back-mutated murine residues in human frameworks are detected at 93.4% accuracy. At chain level, IgScope matches the strongest published correlation with clinical anti-drug-antibody incidence (r = 0.567, n = 217) and outperforms a same-protocol recomputation. Region-level scoring exposes what chain-level scoring conceals: antibodies designed de novo by four generative models pass whole-chain humanness (0.966-0.988), while their CDRs score far below natural (P < 1e-30) in every chain class. Quality control turns the same resolution to the mirror-image question: in humanized-mouse platforms, whose domains are human by design, IgScope scores the domain as human and, in HUGO-Nano chimeric VHHs, isolates only the FR2 signal of four camelid hallmark residues deliberately retained to stabilize the VHH. IgScope gives antibody humanization a verified foundation and generative design an audit.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

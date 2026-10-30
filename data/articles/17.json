@@ -4342,6 +4342,96 @@
       "curated_categories": []
     },
     {
+      "id": "179dbca107529939a0fec133ed2625f8de0bd2456bf32a73c87d2b7229edc4a9",
+      "identity_keys": [
+        "arxiv:2610.38948",
+        "https://doi.org/10.48550/arXiv.2610.38948"
+      ],
+      "title": "Open-Source Framework for the Visualization, Quantification, and Analysis of 4D Flow and High-Dimensional Magnetic Resonance Images",
+      "link": "https://doi.org/10.48550/arXiv.2610.38948",
+      "pdf_url": "https://arxiv.org/pdf/2610.38948v1",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "andras lasso",
+          "name": "Andras Lasso"
+        },
+        {
+          "key": "iacovell julia",
+          "name": "Julia Iacovell"
+        },
+        {
+          "key": "csaba pinter",
+          "name": "Csaba Pinter"
+        },
+        {
+          "key": "kevin whitehead",
+          "name": "Kevin K. Whitehead"
+        },
+        {
+          "key": "pressley sehdev",
+          "name": "Sehdev Pressley"
+        },
+        {
+          "key": "danish vaiyani",
+          "name": "Danish Vaiyani"
+        },
+        {
+          "key": "daemer matthew",
+          "name": "Matthew Daemer"
+        },
+        {
+          "key": "hurm katherine",
+          "name": "Katherine Hurm"
+        },
+        {
+          "key": "analise sulentic",
+          "name": "Analise M. Sulentic"
+        },
+        {
+          "key": "christian herz",
+          "name": "Christian Herz"
+        },
+        {
+          "key": "black ryan",
+          "name": "Ryan T. Black"
+        },
+        {
+          "key": "aslan seda",
+          "name": "Seda Aslan"
+        },
+        {
+          "key": "christopher roy",
+          "name": "Christopher W. Roy"
+        },
+        {
+          "key": "fogel mark",
+          "name": "Mark A. Fogel"
+        },
+        {
+          "key": "huang jing",
+          "name": "Jing Huang"
+        },
+        {
+          "key": "jolley matthew",
+          "name": "Matthew A. Jolley"
+        }
+      ],
+      "abstract_text": "Background: Four-dimensional (4D) flow cardiovascular magnetic resonance (CMR) captures 3D anatomy and blood velocity across the cardiac cycle, but current post-processing software is closed, varies across platforms, and sits outside open-source image-computing frameworks. We developed an open-source framework for the import, visualization, and quantification of 4D flow and other high-dimensional CMR within SlicerHeart, an extension for 3D Slicer. Methods: Import 4D Flow reads vendor DICOM, applies preprocessing, and stores velocities as a time-resolved vector field; Analyze 4D Flow provides measurement planes, streamline and Doppler-like visualization, segmentation propagation, and quantification. Underlying both, we extended the Insight Toolkit to store five- and higher-dimensional arrays. Flow quantification was compared with a commercial package (cvi42) and 2D phase contrast in 13 patients with congenital heart disease across 108 paired regions of interest (Bland-Altman analysis and intraclass correlation coefficients, ICCs). Consensus-recommended processing methods were also implemented as an open-source library with an automated test suite of analytic and CFD phantoms and clinical acquisitions. Results: The modules integrate with 3D Slicer's segmentation, registration, and rendering tools and export velocity fields and geometry for computational modeling. Agreement with cvi42 was close: forward volume bias -0.1 mL (95% limits of agreement 2.2 to -2.3; ICC 0.997), effective volume per minute bias -0.015 L/min (0.21 to -0.24; ICC 0.994). Against 2D phase contrast, forward volume bias (-2.2 mL) and mean absolute percentage error (21.8%) matched cvi42 (-2.1 mL; 21.3%). Conclusions: This open, extensible framework brings 4D flow CMR into an established image-computing ecosystem and agrees closely with a commercial reference; every step can be inspected, reproduced, and improved.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "17a00064dfdcb179e41af0760656d57ab84c505e660405f24dbbe95bf6eea35d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69748-8",

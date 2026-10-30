@@ -2770,6 +2770,68 @@
       "curated_categories": []
     },
     {
+      "id": "5962d916af18c941f4c43bc00915160854b9b0d55827131dde304548bbad9679",
+      "identity_keys": [
+        "arxiv:2604.09540",
+        "https://doi.org/10.48550/arXiv.2604.09540"
+      ],
+      "title": "A Co-Design Approach to Physically-Informed Molecular Docking for Quantum Annealers",
+      "link": "https://doi.org/10.48550/arXiv.2604.09540",
+      "pdf_url": "https://arxiv.org/pdf/2604.09540",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "francesco micucci",
+          "name": "Francesco Micucci"
+        },
+        {
+          "key": "barbieri matteo",
+          "name": "Matteo Barbieri"
+        },
+        {
+          "key": "bettonte gabriella",
+          "name": "Gabriella Bettonte"
+        },
+        {
+          "key": "bonanni domenico",
+          "name": "Domenico Bonanni"
+        },
+        {
+          "key": "anita camillini",
+          "name": "Anita Camillini"
+        },
+        {
+          "key": "anna fava",
+          "name": "Anna Fava"
+        },
+        {
+          "key": "daniele gregori",
+          "name": "Daniele Gregori"
+        },
+        {
+          "key": "andrea beccari",
+          "name": "Andrea R. Beccari"
+        },
+        {
+          "key": "gianluca palermo",
+          "name": "Gianluca Palermo"
+        }
+      ],
+      "abstract_text": "Molecular docking is a crucial step in computer- aided drug design, involving the identification of ligand poses that are physically plausible within a protein pocket. Recent studies have shown that this problem can be formulated as a geometric weighted subgraph isomorphism, which can then be encoded as a QUBO and thus solved on D-Wave quantum annealers. In this work, we adopt a co-design approach, addressing molecular docking at the formulation and encoding levels, and examining how hardware topology affects solution quality on current quantum annealers. We propose new QUBO formulations that extend the state-of-the-art ones by including van der Waals, Coulomb, hydrogen bonding, and hydrophobic interactions. Experimental results show that incorporating physicochemical terms improves the average docking quality by more than 18% compared to the purely geometric baseline on D-Wave quantum annealers with the Pegasus topology, and by up to 29% on those with the Zephyr topology. The choice of topology, along with an improved encoding design, yields significant gains in embedding efficiency and the number of valid solutions. Our designs reduce the number of physical qubits required by up to 14.5% and decrease the chain break fraction by an order of magnitude, thereby enhancing confidence in the resulting solutions.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "596366b354b5f572e3097735548416a1452d869e34271444950b887ab85d76a5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75797-w",
