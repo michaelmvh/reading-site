@@ -2950,6 +2950,41 @@
       "curated_categories": []
     },
     {
+      "id": "9998b93264548326f7748033248fa3eed18739b2b048ee274798cce3dbac52ba",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.25.761509v1",
+        "https://doi.org/10.64898/2026.10.25.761509",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.25.761509.source.xml"
+      ],
+      "title": "Separating benchmark discrimination from experimental retrieval in synthetic-lethality prediction",
+      "link": "https://doi.org/10.64898/2026.10.25.761509",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761509v1.full.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "huang",
+          "name": "Huang, Z"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, R"
+        }
+      ],
+      "abstract_text": "Degree-aware evaluation can expose sampling bias in synthetic-lethality prediction, but how should a model's degree-controlled benchmark score inform its use in experimental screening? We link fixed-prediction benchmark interventions to retrieval in measured experimental pools. Across five gene-disjoint folds, replacing Random test negatives with degree-matched negatives changed mean AUROC from 0.782 to 0.501 for SLMGAE, 0.721 to 0.502 for GCATSL, 0.656 to 0.492 for GRSMF, and 0.376 to 0.519 for SL2MF. The opposite movement of SL2MF shows that test composition can suppress as well as inflate discrimination. Crossed training-testing experiments and a three-seed diagnostic separated these changes from degeneration during matched GCATSL training. In four measured screens, the same Random-trained SLMGAE states retrieved 21 SPIDR hits in 198 selections, versus 8.00 expected under random ranking: a 2.62-fold enrichment despite near-chance matched-test AUROC (within-task Holm-adjusted p=0.0008). Comparable robust primary gains were not established in HAP1, a 27-cell-line compendium, or SCHEMATIC, where limited coverage and dependent observations constrain inference. A separate in-domain HAP1 control retrieved 11 hits versus 2.02 expected. These results establish an empirical dissociation between degree-controlled benchmark discrimination and experimental hit retrieval. A near-chance matched-test score can coexist with useful experimental prioritization. Our released evaluation suite makes both properties measurable from saved predictions, alongside checks of training viability and task coverage.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "999b8716d0795d4fae4463231effb9fc0240f423f8f2c37ffb46bc7d9fe7f2c9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64905-x",
