@@ -2136,6 +2136,40 @@
       "curated_categories": []
     },
     {
+      "id": "34738c7a012c73ffe55a4a66c5e9e582846705eb10ec74729113af452b7b3859",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.10.27.762190",
+        "https://openalex.org/W7224340540"
+      ],
+      "title": "De novo Protein Generating Model via Structure-Aware Graph Neural Networks",
+      "link": "https://doi.org/10.64898/2026.10.27.762190",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/28/2026.10.27.762190.full.pdf",
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "chance gammill",
+          "name": "Chance M Gammill"
+        },
+        {
+          "key": "lakshman tamil",
+          "name": "Lakshman S. Tamil"
+        }
+      ],
+      "abstract_text": "The focus of this paper is to create a protein conformation prediction model that is optimized for structural accuracy rather than sequence recovery. To achieve this goal, we created a graph neural network (GNN) [19] for the design of computational proteins that integrates differentiable structure prediction through ESMFold [13] via a structural loss function, allowing direct optimization of the 3D conformational accuracy. Our model takes protein backbone coordinates as input and predicts an amino acid sequence using a composite loss that heavily weights structural similarity. On a matched evaluation sample, our model achieves structural precision (RMSD, TM-score, and GDT-TS) that is statistically indistinguishable from ProteinMPNN, a leading sequence recovery-focused method, despite training with no direct sequence recovery supervision and substantially lower native sequence recovery. Our results demonstrate that sequence recovery is not necessary to achieve competitive structural accuracy and that proteins can possess multiple non-unique solutions, suggesting that protein sequence prediction models may perform comparably well under purely structural conformation training. This distinction in training data and model structure allows for the training of a protein-generating model on non-natural proteins. Creating a model designed for de novo protein generation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "347819b1fd979953930344ec252e722a95288ee55fe88d66196718e4c6cf5d71",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73011-5",

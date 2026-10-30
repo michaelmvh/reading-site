@@ -2093,6 +2093,37 @@
       "curated_categories": []
     },
     {
+      "id": "884fc9ec0ddd85a3ba78bd33e1370e40093ebfd03c06f877d7e90f1f655583b6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762697v1",
+        "https://doi.org/10.64898/2026.10.28.762697",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.28.762697.source.xml"
+      ],
+      "title": "GaussF: An Unbiased Gaussian Framework for High-Precision Transcript Quantification with a Programmable Self-Benchmark Model",
+      "link": "https://doi.org/10.64898/2026.10.28.762697",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762697v1.full.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "su",
+          "name": "Su, Q"
+        }
+      ],
+      "abstract_text": "Short-read RNA sequencing has revolutionized transcriptome analysis, but accurate isoform-level quantification faces substantial challenges from overlapping sequences among complex isoforms and inherent sequencing biases, leading to uneven coverage. Current alignment-based and alignment-free methods, while valuable, largely rely on empirical, data-derived factors for bias correction and isoform resolution. This dependency limits their capacity to fully capture the intricate spectrum of sequencing data. We introduce GaussF, a novel alignment-free methodology specifically designed for precise isoform quantification by directly addressing these biases and the isoform recognition problem without relying on empirical data. GaussF is predicated on the observation that k-mer counts categorized by GC content across a natural transcript exhibit an intrinsic Gaussian distribution. It establishes a transcript-specific self-benchmarking workflow utilizing a theoretical Gaussian cumulative distribution function (CDF). Crucially, the parameters defining this CDF are derived independently of any empirical sequencing data. This parameter-fixed theoretical CDF serves as an unbiased benchmark, capturing only the genuine contribution of abundance while systematically excluding all bias-related data. To improve isoform resolution despite shared regions, GaussF characterizes isoforms through identifying minimal-shared regions and restructures the k-mer reference accordingly. This approach simplifies complexity and enhances accuracy. Rigorous validation using artificial and real RNA samples, alongside comparative analysis with leading quantification tools like Kallisto, Salmon, Cufflinks, StringTie, and RSEM, demonstrates GaussF's superior performance in accurate isoform detection and quantification. GaussF is available on GitHub and PyPI, representing a significant advancement in RNA-seq analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "885041deaf7e6948f345adb5723fd5e04d97a150c02c2fd612d35c22fa38dd12",
       "identity_keys": [
         "arxiv:2610.37031",

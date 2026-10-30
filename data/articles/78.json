@@ -3265,6 +3265,36 @@
       "curated_categories": []
     },
     {
+      "id": "7896f0710599b1b99529b5c66d5021c1dcc2c5f34fe5479cbf559e6b32ddcb14",
+      "identity_keys": [
+        "https://doi.org/10.56025/ijaresm.141026210",
+        "https://openalex.org/W7224276966"
+      ],
+      "title": "Do LLM Agents Actually Improve Protein Design? A Controlled Benchmark Study",
+      "link": "https://doi.org/10.56025/ijaresm.141026210",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Journal of All Research Education & Scientific Methods",
+      "authors": [
+        {
+          "key": "aditya agarwal",
+          "name": "Aditya Agarwal"
+        }
+      ],
+      "abstract_text": "LLM-based agents are increasingly proposed for autonomous scientific discovery, including protein engineering. Yet no controlled comparison exists between agentic and non-agentic approaches on established protein fitness benchmarks with experimental ground truth. We introduce PROTAGENT, an LLM agent that iteratively proposes protein mutations using memory, reflection, and domain knowledge, scored by ESM-2 masked marginal likelihood. We evaluate PROTAGENT against five baselines—random search, greedy hill climbing, AdaLead, and Gaussian process Bayesian optimization (GP-UCB)—on eight ProteinGym deep mutational scanning (DMS) benchmarks under a fixed budget of 200 oracle calls per protein. Our results show that PROTAGENT does not significantly outperform any baseline (Cohen’s d = −0.279 vs. random, 95% CI crossing zero). Systematic ablation reveals that neither memory, reflection, nor domain knowledge meaningfully contributes to optimization performance. We identify oracle quality—the correlation between ESM-2 scores and experimental fitness (Spearman ρ ranging from 0.05 to 0.73 across proteins)—as the dominant factor explaining 79.4% of total variance, far outweighing method differences (0.9%). These findings establish that for single mutation protein engineering with current protein language model oracles, the generative model is the bottleneck, not the search strategy.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "789f4c9da98810ecc63589398caf71cd52e8fcdec75f180c232d6ff4a7004560",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67734-0",
