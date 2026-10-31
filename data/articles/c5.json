@@ -56,6 +56,57 @@
       "curated_categories": []
     },
     {
+      "id": "c50fb15795ad6838fcdb685a5252cdc517df9cf9290b1a8cdc127198420d38ac",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.761795v1",
+        "https://doi.org/10.64898/2026.10.26.761795",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.26.761795.source.xml"
+      ],
+      "title": "flashscenic: Accelerated GRN Analysis with RegDiffusion for Large-Scale Single-Cell Data",
+      "link": "https://doi.org/10.64898/2026.10.26.761795",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761795v1.full.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhu",
+          "name": "Zhu, H"
+        },
+        {
+          "key": "antolin cardenal",
+          "name": "Cardenal-Antolin, G"
+        },
+        {
+          "key": "jin",
+          "name": "Jin, X"
+        },
+        {
+          "key": "gootenberg",
+          "name": "Gootenberg, J. S"
+        },
+        {
+          "key": "abudayyeh",
+          "name": "Abudayyeh, O. O"
+        },
+        {
+          "key": "slonim",
+          "name": "Slonim, D. K"
+        }
+      ],
+      "abstract_text": "Single-cell gene regulatory network (GRN) analysis via the SCENIC framework provides biologically interpretable cell-state representations through motif-validated transcription factor (TF) regulon activities. However, sequential, CPU-bound implementations (pySCENIC) constrain scalability to highly variable genes and make the repeated executions needed to resolve network stochasticity computationally prohibitive. Furthermore, while regulon activity is hypothesized to mitigate technical batch effects, its integration performance has never been quantitatively assessed against modern data integration benchmarks. We present flashscenic, an end-to-end GPU-accelerated framework that resolves these bottlenecks and expands the practical scope of single-cell regulatory genomics. By reformulating module construction, cisTarget motif pruning, and AUCell scoring into batched GPU tensor operations, flashscenic achieves a 12- to 27-fold downstream speedup over pySCENIC, while maintaining strict numerical equivalence (Pearson r = 0.9996). Leveraging this throughput, we conducted the first systematic benchmark of nine consensus aggregation strategies across multiple independent tissue cohorts, demonstrating that discrete post-pruning recurrence voting ([&ge;]50% recurrence, [&ge;]5 targets per regulon) maximizes biological fidelity. Finally, data integration benchmarking across a 116,043-cell acute myeloid leukemia (AML) atlas quantitatively demonstrates that uncorrected TF activity provides an intrinsic, unsupervised batch-integration benefit over raw PCA. Combining it with a standard batch integration method matches or outperforms canonical expression-based integration while accurately recovering lineage-defining and oncogenic regulators (CEBPA, HOXA9). flashscenic is available via pip install flashscenic, with source code and tutorials at https://github.com/haozhu233/flashscenic.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c5115f5cfcce05ef44fc261a27a55406b2efdaaa98e544271e79316cc7721fcd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74606-8",

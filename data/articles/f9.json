@@ -3402,6 +3402,46 @@
       ]
     },
     {
+      "id": "f9579ea2c9c9617191510aef70caf8d00534fe5a32915fdb1434e84ffdd4a7fa",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.07.720061v2",
+        "https://doi.org/10.64898/2026.05.07.720061",
+        "https://www.biorxiv.org/content/early/2026/05/12/2026.05.07.720061.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/31/2026.05.07.720061.source.xml"
+      ],
+      "title": "StabCell: Stability selection for clustering and marker detection in single-cell RNA sequencing",
+      "link": "https://doi.org/10.64898/2026.05.07.720061",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.07.720061v2.full.pdf",
+      "publication_date": "2026-10-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ck lu",
+          "name": "Lück, N"
+        },
+        {
+          "key": "rossi",
+          "name": "Rossi, A"
+        },
+        {
+          "key": "staerk",
+          "name": "Staerk, C"
+        }
+      ],
+      "abstract_text": "Conventional pipelines for differential expression analysis in single-cell RNA sequencing (scRNA-seq) data first cluster individual cells and then test for differentially expressed genes between the resulting clusters. Using the same data for clustering and testing, however, poses a selective inference problem and can result in overconfidence in differences that may not reflect true biological variation. We introduce StabCell, a stability selection framework which integrates clustering and detection of differentially expressed marker genes. By repeatedly performing clustering and differential expression analysis on complementary pairs of random subsamples, StabCell assesses clustering and marker stability, yielding a stable clustering, cell-specific stability scores, and sets of stable marker genes. In simulations, we demonstrate that StabCell generally maintains empirical per-family error rate (PFER) below prespecified thresholds, selecting fewer false positive marker genes than the conventional approach, especially in cases with low signal-to-noise ratio and low sequencing depth. Simultaneously, StabCell provides competitive marker detection performance compared to alternative approaches. An application to a cell differentiation dataset from induced pluripotent stem cells (IPSCs) to cardiomyocytes illustrates that StabCell can reduce overclustering and prioritize biologically meaningful marker genes, improving the robustness and interpretability of scRNA-seq analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f957cf273daa7ea6cd97403c5c692dfb4f0ab1b8ba6dd3ab5011f6b81741825a",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10568-7",

@@ -5229,6 +5229,49 @@
       "curated_categories": []
     },
     {
+      "id": "91da222430a7e505af175ebfc1e5f14e8521a92dea1fe535052a543156e2e800",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.761652v1",
+        "https://doi.org/10.64898/2026.10.26.761652",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.26.761652.source.xml"
+      ],
+      "title": "Task-Dependent Performance of GNNs and Pretrained Models in ADMET Prediction",
+      "link": "https://doi.org/10.64898/2026.10.26.761652",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761652v1.full.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "stamenov",
+          "name": "Stamenov, M"
+        },
+        {
+          "key": "gjurovska",
+          "name": "Gjurovska, M"
+        },
+        {
+          "key": "vodilovska",
+          "name": "Vodilovska, V"
+        },
+        {
+          "key": "ivanoska",
+          "name": "Ivanoska, I"
+        }
+      ],
+      "abstract_text": "Structure-based prediction of ADMET (absorption, distribution, metabolism, excretion, and toxicity) properties promises fast, low-cost screening of drug candidates, yet model selection remains unclear because published comparisons of molecular representations often use unmatched tuning budgets and leakage-prone evaluation protocols, producing performance differences that may not reflect model quality. To address this gap, we benchmark graph neural networks (GNNs), frozen pretrained models (ChemBERTa, MolCLR), and fingerprint baselines across six Therapeutics Data Commons ADMET endpoints under scaffold-split evaluation. To make it really fair we gave every model family a matched 50-trial, validation-selected tuning budget and reported the median over ten seeds; architecture and hyperparameter selection use validation data only, with the held-out test split reserved for final performance estimation. Under this fair comparison protocol, \\emph{no model family dominates} and the differences between families fall within the seed-to-seed range on most endpoints. The GNN is clearly best only on Caco-2 permeability (R$^2 \\approx 0.48$), and a controlled ablation shows this advantage comes entirely from auxiliary physicochemical descriptors rather than the graph representation; Morgan fingerprints are competitive on hERG (AUC $\\approx 0.77$) and give the best median on both clearance endpoints, while MolCLR is best on Tox21. For hepatocyte clearance and half-life, all models yield near-zero or negative R$^2$. No single hyperparameter-optimization strategy, among seven evaluated, consistently outperforms random search at this budget, and we show that selecting the optimizer using test-set performance or reporting only single best-trial runs can substantially inflate a favored model's apparent advantage. Reliable ADMET modeling therefore requires endpoint-specific model selection together with fair, leakage-controlled, seed-averaged evaluation, offering more trustworthy decision support for early-stage drug candidate prioritization.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "91dcd92beea5a0e18f33e0020431d60cbab4fda1a1e84b1dc07f2065b4d74e6f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75484-w",

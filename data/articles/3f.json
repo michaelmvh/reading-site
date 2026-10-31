@@ -1995,6 +1995,41 @@
       "curated_categories": []
     },
     {
+      "id": "3f45fcc8d80567d07bfbd7b70b70c592a542270d265f8bd87f9835bd2e84988d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.761912v1",
+        "https://doi.org/10.64898/2026.10.26.761912",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.26.761912.source.xml"
+      ],
+      "title": "smoothclust: Spatial smoothing and boundary-density summaries for spatial transcriptomics",
+      "link": "https://doi.org/10.64898/2026.10.26.761912",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761912v1.full.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rusnak",
+          "name": "Rusnak, L"
+        },
+        {
+          "key": "weber",
+          "name": "Weber, L. M"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics enables the measurement of gene expression while preserving tissue organization. A common analysis task is the identification of spatial domains, defined here as spatially coherent regions with consistent expression profiles or cell-type mixtures and represented using categorical spatial tissue maps. However, while numerous methods have been developed to identify spatial domains, interpretable summary measures to quantify spatial domain organization and tissue architecture at the sample level remain less standardized. Here, we present smoothclust, a framework for spatial domain analysis consisting of two components: a spatial-smoothing-based clustering workflow for generating spatial domain labels, and a boundary density (BD) metric that provides local and sample-level summaries of label transitions on a spatial graph. Building on established categorical spatial statistics, the raw BD metric is calculated from the proportion of neighboring spatial locations that are assigned to different domain labels, and requires only spatial coordinates and domain labels as inputs. The metric can be calculated using either our spatial-smoothing-based domain labels or labels from external clustering methods or manual annotations. Relative BD is a composition-adjusted summary, calculated by dividing raw BD by its expectation under random relabeling with the observed label counts. By quantifying label transitions, our framework translates spatial domain label maps into interpretable local and sample-level summary measures of tissue architecture, facilitating exploratory analyses and comparisons across samples and biological conditions. We demonstrate the approach through evaluations across datasets from several spatial transcriptomics platforms and simulations. The spatial-smoothing workflow and BD metric are implemented in the smoothclust R package, which is freely available from Bioconductor and GitHub.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3f47d55e7d5f6871e82a073ab8f480445061c4a927c20e33411909160c22f9f4",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01615-4",

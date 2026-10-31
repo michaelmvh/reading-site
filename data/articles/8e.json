@@ -4211,6 +4211,41 @@
       "curated_categories": []
     },
     {
+      "id": "8e8e3bc37ecbec20414bbeba4292ea40e3578303835756a2d9eea19d93b05f0b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762699v1",
+        "https://doi.org/10.64898/2026.10.28.762699",
+        "https://www.biorxiv.org/content/early/2026/10/30/2026.10.28.762699.source.xml"
+      ],
+      "title": "DUET: sequence-only prediction of RNA-small molecule binding sites",
+      "link": "https://doi.org/10.64898/2026.10.28.762699",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762699v1.full.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "xiong",
+          "name": "Xiong, K"
+        },
+        {
+          "key": "jia",
+          "name": "Jia, J"
+        }
+      ],
+      "abstract_text": "Sequence-only predictors can score RNAs without experimental structures, but continuously updated training pools can reabsorb benchmark chains. Test overlap and within-training redundancy are often handled together, although they affect evaluation differently. DUET combines a relational graph tower with two convolutional sequence towers built on frozen RNA language models. We removed 98 of 388 training and validation records reaching 80% identity to canonical test chains, retained 110 sequence-identical records, and isolated 115 homology components across folds. Across 10 paired seeds, DUET reached 0.240 +/- 0.013 MCC versus 0.192 +/- 0.031 for CoBRA-M3 on the same data (Delta = +0.047; Holm p = 0.0073), with parallel gains in AUC and AUPRC. DUET and GRASSP were statistically indistinguishable on external sets (0.246 versus 0.243 MCC). Real three-dimensional topology improved MCC by +0.037 over shuffled edges and by +0.042 over predicted secondary structure. Increasing the training pool from 80 to 290 records raised DUET by +0.135 MCC. Benchmark evaluation therefore requires separate controls for test overlap and within-training redundancy.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8e8fa6e6b26ddda3293353fa3a44c0f00e7612a2e32698c006fff36e4d2c7139",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71241-1",
