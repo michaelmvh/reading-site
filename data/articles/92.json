@@ -3079,6 +3079,45 @@
       "curated_categories": []
     },
     {
+      "id": "928c518c0c225db7a0c5db89e2e030235c15c445203fe51f27aaa1ef619d8952",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762655v1",
+        "https://doi.org/10.64898/2026.10.28.762655",
+        "https://www.biorxiv.org/content/early/2026/10/31/2026.10.28.762655.source.xml"
+      ],
+      "title": "EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations",
+      "link": "https://doi.org/10.64898/2026.10.28.762655",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762655v1.full.pdf",
+      "publication_date": "2026-10-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ho",
+          "name": "Ho, N"
+        },
+        {
+          "key": "xing",
+          "name": "Xing, E. P"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, J"
+        }
+      ],
+      "abstract_text": "Predicting the effects of individual and combined perturbations is central to identifying context-specific vulnerabilities and designing targeted interventions. Yet learning gene representations that integrate functional relationships with cellular state and transfer across perturbation tasks remains challenging. Here, we present EMBER, a gene-centric foundation model that learns context-dependent functional representations of genes. EMBER combines interaction-guided contrastive learning with masked expression reconstruction during pretraining on a single-cell corpus curated for diversity and balanced sampling across cell types and experimental batches. EMBER decouples gene representation learning from task-specific prediction through a composable embedding framework: the pretrained encoder remains frozen, while lightweight probes combine contextualized gene embeddings to predict individual and combined perturbation effects. The same pretrained representations support single-gene perturbation-response prediction, digenic interaction prediction, and multi-target drug-response prediction. EMBER improves cross-context perturbation-response prediction and genetic-interaction ranking relative to evaluated baselines. EMBER also prioritized SCFD1, a mediator of autophagosome-lysosome fusion, as a candidate dependency during mTOR inhibition. Together, these results establish contextualized gene embeddings as reusable building blocks for modeling genetic and pharmacological perturbations, supporting the prioritization of genetic interactions and context-specific interventions for experimental testing.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "928e7cd843e25e6414ad3ea99ee2c02be1c896c74f05d1c432768ee038ae1d8a",
       "identity_keys": [
         "https://doi.org/10.7554/elife.108186.2.sa0",
