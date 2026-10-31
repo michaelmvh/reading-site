@@ -4830,8 +4830,8 @@
           "name": "邱岳希"
         },
         {
-          "key": "xinyue zhang",
-          "name": "Xinyue Zhang"
+          "key": "邱岳希",
+          "name": "邱岳希"
         },
         {
           "key": "jiaqing zhang",
@@ -4839,11 +4839,7 @@
         },
         {
           "key": "cheng da heng",
-          "name": "Cheng, Heng-Da"
-        },
-        {
-          "key": "jiafeng li",
-          "name": "Jiafeng Li"
+          "name": "Heng-Da Cheng"
         },
         {
           "key": "jia song",
@@ -4851,7 +4847,7 @@
         },
         {
           "key": "wensheng xiang",
-          "name": "Xiang, Wensheng"
+          "name": "Wensheng Xiang"
         }
       ],
       "abstract_text": "AI-assisted protein design has emerged as a critical tool for advancing biotechnology, as deep generative models have demonstrated their reliability in this domain. However, most existing models primarily utilize protein sequence or structural data for training, neglecting the physicochemical properties of proteins.Moreover, they are deficient to control the generation of proteins in intuitive conditions. To address these limitations,we propose CMADiff here, a novel framework that enables controllable protein generation by aligning the physicochemical properties of protein sequences with text-based descriptions through a latent diffusion process. Specifically, CMADiff employs a Conditional Variational Autoencoder (CVAE) to integrate physicochemical features as conditional input, forming a robust latent space that captures biological traits. In this latent space, we apply a conditional diffusion process, which is guided by BioAligner, a contrastive learning-based module that aligns text descriptions with protein features, enabling text-driven control over protein sequence generation. Validated by a series of evaluations including AlphaFold3, the experimental results indicate that CMADiff outperforms protein sequence generation benchmarks and holds strong potential for future applications. The implementation and code are available at https://github.com/HPC-NEAU/PhysChemDiff.",

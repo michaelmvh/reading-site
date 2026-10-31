@@ -5164,6 +5164,60 @@
       "curated_categories": []
     },
     {
+      "id": "8df90036dd75f9f5c8b57375d7097fbce503ca949885da16ee10916025e60150",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2610.38517",
+        "https://openalex.org/W7224865737"
+      ],
+      "title": "AtomSteer: Test-Time Constraint Steering for Atomistic Generative Models",
+      "link": "https://doi.org/10.48550/arxiv.2610.38517",
+      "pdf_url": null,
+      "publication_date": "2026-10-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "cai pengfei",
+          "name": "Pengfei Cai"
+        },
+        {
+          "key": "jager kalista",
+          "name": "Kalista Jager"
+        },
+        {
+          "key": "utkarsh",
+          "name": "Utkarsh Utkarsh"
+        },
+        {
+          "key": "nofit segal",
+          "name": "Nofit Segal"
+        },
+        {
+          "key": "bowen deng",
+          "name": "Bowen Deng"
+        },
+        {
+          "key": "akshay subramanian",
+          "name": "Akshay Subramanian"
+        },
+        {
+          "key": "bombarelli gómez rafael",
+          "name": "Rafael Gómez‐Bombarelli"
+        }
+      ],
+      "abstract_text": "Diffusion and flow matching models offer scalable approaches to generating crystalline materials, molecular conformers, and protein-ligand complexes. However, satisfying crystallographic symmetry, structural geometry, and accurate stereochemistry remains challenging. Satisfying these requirements calls for corrections that preserve the geometry already captured by the pretrained model. In this work, we propose AtomSteer, a test-time inference framework for steering pretrained atomistic generative models with structural constraints. During sampling, AtomSteer corrects intermediate structure predictions with bounded local projections, graph-rigid stereochemical transformations, and projections over periodic symmetries, accepting updates that improve constraint satisfaction while limiting changes to the rest of the structure. We demonstrate AtomSteer across three pretrained backbones, FlowMM, ET-Flow, and Boltz-2, spanning de novo crystal generation and crystal structure prediction, molecular conformer generation, and protein-ligand complex structure prediction. AtomSteer improves space-group distribution coverage in de novo crystal generation and improves target space-group recovery in crystal structure prediction. AtomSteer improves molecular validity and E/Z stereochemical accuracy while retaining conformer ensemble fidelity. For protein-ligand complexes, AtomSteer reduces ligand E/Z errors relative to experimental reference structures while achieving competitive docking success and PoseBusters validity. Our method provides a unified framework for adding chemical and crystallographic control to existing atomistic generative models without retraining or architectural changes.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8df90caee9a194486e610a6c991f00c0da6bad03ad7bb6bdbf88c6e40395b360",
       "identity_keys": [
         "https://doi.org/10.1038/s42256-025-01103-w",

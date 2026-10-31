@@ -1982,6 +1982,38 @@
       "curated_categories": []
     },
     {
+      "id": "9a5f11836f2b0b3774f136697484bf88b6c3f596dbbd3e84bbdd84da005f2568",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.02.756289v2",
+        "https://doi.org/10.64898/2026.10.02.756289",
+        "https://www.biorxiv.org/content/early/2026/10/09/2026.10.02.756289.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/31/2026.10.02.756289.source.xml"
+      ],
+      "title": "Probing Genomic Foundation Models with Splice-Variant Perturbations",
+      "link": "https://doi.org/10.64898/2026.10.02.756289",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756289v2.full.pdf",
+      "publication_date": "2026-10-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "alavi",
+          "name": "Alavi, M. V"
+        }
+      ],
+      "abstract_text": "As benchmarks saturate, traditional validation methods fail to capture the probabilistic representations of genomic foundation models. This study probes self-supervised generalists (NTv3 650M, Evo2 40B, Genos 10B) alongside task-specific specialists (SpliceAI, AlphaGenome, Borzoi) using a mechanistically focused paradigm centered on expert-curated single-nucleotide substitutions within the splicing regions of the exon-rich OPA1 gene. Extending this analysis across the broader corpus of OPA1 mutations, variants of uncertain significance (VUS), and an independent 65-gene dataset of spliceogenic mutations demonstrates that foundation models not only match task-specific networks, but also generalize across mutation types. Training data scale, genetic diversity, and evolutionary context are key for capturing RNA splicing syntax, whereas sparse routing may constrain performance. Mechanistically, foundation models exhibit a compute asymmetry: Evo2 40B frontloads compute into massive parameter scale to resolve single-nucleotide variants within a narrow 425-bp context window, whereas the bidirectional NTv3 650M model and the Genos 10B mixture-of-experts (MoE) architecture backload compute to inference, requiring spatial logit aggregation and vast context windows of up to 94 kb. Furthermore, accuracy may benefit from locus-specific thresholding rather than mutation-class calibration, exposing representation boundaries of the self-supervised models.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9a6580b0a0c463097b42f33f4cd37a867dc941a0c013cfa81ac202df21ab867e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73770-1",

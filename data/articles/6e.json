@@ -378,7 +378,7 @@
           "name": "Pengtao Xie"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Designing protein structures from text is challenging in computational biology. We propose Text2Protein, a pipeline combining large language models (LLMs) with diffusion models to generate full-atomic protein structures from text. Using a conditional diffusion model and the Vicuna-7B language model, we learn data distributions of 6D interresidue coordinates, refined into full-atomic structures with PyRosetta. Trained on a curated RCSB-PDB dataset, Text2Protein focuses on single-chain proteins with 40-256 residues. Our extensive experiments validate Text2Protein’s effectiveness by generating high-fidelity protein structures similar to ground truth proteins using raw texts. We evaluate Text2Protein using multiple metrics, including Mean Square Error (MSE) of 6D coordinates, Rosetta Energy Units (REU), and TM-score. Our results show that 5% of the generated proteins have a TM-score greater than 0.5, indicating similar folds in SCOP/CATH. Additionally, 16% of pairs have a TM-score greater than 0.4, 89% have a TM-score greater than 0.3, and none have a TM-score less than 0.17, below the threshold for unrelated proteins. Text2Protein presents a promising framework for automated protein design, potentially accelerating novel protein discovery. This work opens new avenues for integrating natural language understanding with protein structure generation, with implications in drug discovery, enzyme engineering, and material science.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

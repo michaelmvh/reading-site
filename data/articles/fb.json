@@ -5187,6 +5187,60 @@
         }
       ],
       "curated_categories": []
+    },
+    {
+      "id": "fbfe7a32ee68408ae065cbad5664c0b28c2a4c3a422534d1efb682a09f0c8723",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-7827245/v1",
+        "https://openalex.org/W4415836957"
+      ],
+      "title": "Leveraging protein representations to explore uncharted fold spaces with generative models",
+      "link": "https://doi.org/10.21203/rs.3.rs-7827245/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-7827245/latest.pdf",
+      "publication_date": "2025-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "bruno correia",
+          "name": "Bruno E. Correia"
+        },
+        {
+          "key": "miao yangyang",
+          "name": "Yangyang Miao"
+        },
+        {
+          "key": "martin pačesa",
+          "name": "Martin Pačesa"
+        },
+        {
+          "key": "georgeon sandrine",
+          "name": "Sandrine Georgeon"
+        },
+        {
+          "key": "joseph schmidt",
+          "name": "Joseph H. Schmidt"
+        },
+        {
+          "key": "lu tianyu",
+          "name": "Tianyu Lu"
+        },
+        {
+          "key": "huang po ssu",
+          "name": "Po‐Ssu Huang"
+        }
+      ],
+      "abstract_text": "Abstract A major challenge in computational de novo protein design is the exploration of uncharted areas within the protein structural space. However, the large degrees of freedom of protein backbones complicate the sampling process during protein design. Machine learning-based models have made great strides in this problem, however due to their nature they tend to exploit rather than explore the data distribution used for training the neural networks. To address some of these challenges, we propose a new coarse grained protein structure representation generative method, DiffTopo , a diffusion model which increases the sampling efficiency and diversity. Combined with a backbone level protein generative model like RFdiffusion, novel protein folds can be generated rapidly, allowing for efficient exploration of the designable topology space. Interestingly, we have discovered that by mirroring the topological organization of native proteins using a pipeline named MirrorTopo , we can readily expand the known fold space. We generated and experimentally characterized 30 different novel topologies from DiffTopo and 6 different novel mirror topologies from MirrorTopo. The developed framework relying on low resolution sampling provides new means for fold exploration challenges, which could in principle enhance our knowledge of the first principles of protein structure and folding, as well as create new opportunities for functional design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }

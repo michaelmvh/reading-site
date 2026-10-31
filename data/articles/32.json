@@ -4076,7 +4076,7 @@
           "name": "Everette Jacob Remington Nelson"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract De novo protein design now produces backbones whose predicted structures are routinely excellent, yet fewer than half of published designs succeed experimentally, and every design must be expressed from a gene before it can be deployed. A natural protein has a native coding sequence to fall back on; a de novo protein has none, so its gene is built from scratch by a codon optimiser that treats the amino-acid sequence as fixed, while inverse-folding models treat the gene as something that happens afterwards. Here we show that the inverse-folding posterior over designed backbones carries a median of 93 nats of positional entropy per design, with no position on any of 862 backbones fixed, and that this entropy can be spent on properties no codon optimiser can reach. We generalise the codon lattice used in exact mRNA design into an amino-acid-degenerate lattice weighted by unconditional inverse-folding marginals, giving a dynamic program that returns the k best (protein, gene) pairs jointly. Five protein-level liabilities lie outside a codon optimiser's reach by construction; what is not given by construction is that 99.1% of 447 published designs carry at least one removable liability, and that three clear for about a fifth of a nat. The joint lattice improves on the fixed-protein codon dynamic program on 447 of 447 backbones, half a nat captures 89% of the achievable gain, and vendor synthesis-constraint violations more than halve. We release JANUS, which takes a backbone and a host organism and returns an orderable gene.",
       "discovery_sources": [
         {
           "kind": "open_alex",

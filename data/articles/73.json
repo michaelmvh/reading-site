@@ -5811,6 +5811,52 @@
       "curated_categories": []
     },
     {
+      "id": "73ded6a8dbc85c4dcb326dfbb44ec9467cd294e195428ffff75e9375c9891cfd",
+      "identity_keys": [
+        "https://doi.org/10.1093/bib/bbag521",
+        "https://openalex.org/W7224739241"
+      ],
+      "title": "EvoGraph: synergizing evolutionary semantics and tail-aware graph contrastive learning for protein–protein interaction prediction",
+      "link": "https://doi.org/10.1093/bib/bbag521",
+      "pdf_url": null,
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Briefings in Bioinformatics",
+      "authors": [
+        {
+          "key": "yilou zhang",
+          "name": "Yilou Zhang"
+        },
+        {
+          "key": "yuan zhao",
+          "name": "Yuan Zhao"
+        },
+        {
+          "key": "jue zhou",
+          "name": "Jue Zhou"
+        },
+        {
+          "key": "haoyi wang",
+          "name": "Haoyi Wang"
+        },
+        {
+          "key": "chengkun wu",
+          "name": "Chengkun Wu"
+        }
+      ],
+      "abstract_text": "Accurate prediction of multilabel protein-protein interactions is pivotal for deciphering molecular mechanisms and accelerating drug discovery. However, existing methods are often hindered by the inherent long-tailed distribution of interaction types, leading to poor generalization on rare but biologically critical categories. To address this challenge, we propose EvoGraph, a novel framework that synergizes deep evolutionary semantics with tail-aware graph representation learning. Specifically, EvoGraph first leverages the pretrained protein language model to establish a semantic foundation, compensating for sparse signals in rare classes. Driven by the critical need to disentangle complex interaction types and mitigate head-class dominance, we integrate two core mechanisms. To resolve the structural heterogeneity of diverse interaction types, we design a multi-view graph neural network encoder that aggregates type-specific topological contexts. Simultaneously, to counter label imbalance, we introduce a tail-aware contrastive learning module, which regularizes the latent space by clustering minority samples, effectively preventing them from being overshadowed by head classes. Finally, these features are synthesized via a hybrid fusion strategy and optimized with an asymmetric loss. Extensive experiments on four benchmark datasets demonstrate that EvoGraph significantly outperforms state-of-the-art baselines, achieving substantial improvements in identifying tail interaction types without compromising overall performance. The implementation of EvoGraph is available at https://github.com/AlphaZYL/EvoGraph.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "73e36eb7fab8530a2e7bfa4b816b3972f9e92468012c60355b269fccc1b76b90",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65408-5",

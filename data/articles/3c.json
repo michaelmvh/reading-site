@@ -495,7 +495,7 @@
       ],
       "title": "SprintX: mitigating data scarcity in antibody design via synthetic structural prior knowledge dataset",
       "link": "https://doi.org/10.1080/19420862.2026.2753234",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/19420862.2026.2753234?needAccess=true",
       "publication_date": "2026-10-29",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -522,7 +522,7 @@
           "name": "Chihyun Park"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Structure-based artificial intelligence (AI)-driven antibody design is increasingly important for therapeutic development, yet progress has been hindered by the scarcity of high-quality antibody-antigen complex structures for model training. To alleviate this bottleneck, we introduce SprintX (Structural Prior for Antibody-Antigen CompleXes), a large-scale AlphaFold3-derived synthetic dataset designed to provide structural prior knowledge for antibody-antigen modeling. Unlike conventional docking-based synthesis pipelines, SprintX uses AlphaFold3 to generate antigen-conditioned candidate complex-structure predictions from sampled antibody sequences paired with selected antigens, without imposing predefined binding-site or pose constraints. Candidate structures were ranked to select one representative structure per antibody-antigen pair before terminal trimming and multistage quality control. To improve reliability and learning stability, we applied a multi-stage quality-control pipeline integrating global confidence metrics, stereochemical validation, and interface-level contact analysis. SprintX recapitulated key geometric characteristics and physicochemical regularities of experimentally resolved antibody-antigen complexes while filtering out structurally unstable or implausible synthetic outputs. Across downstream tasks including antibody generation, computational binding-affinity prediction, and binding-interface prediction, models pretrained with SprintX showed meaningful improvements in structural plausibility and competitive performance on computational binding-affinity and binding-interface prediction benchmarks. These results support SprintX not as a substitute for experimentally resolved complexes, but as a complementary source of structural prior knowledge for structure-aware antibody modeling. Finally, we release SprintX as an openly accessible resource to facilitate data-efficient learning for AI-driven antibody design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
