@@ -202,10 +202,11 @@
       "identity_keys": [
         "https://arxiv.org/abs/2606.12991",
         "https://doi.org/10.48550/arxiv.2606.12991",
+        "https://openalex.org/W7164526687",
         "https://openalex.org/W7164700525"
       ],
       "title": "APCyc: Property-Informed Design of Cyclic Peptides via Automated Cyclization",
-      "link": "https://arxiv.org/abs/2606.12991",
+      "link": "https://doi.org/10.48550/arxiv.2606.12991",
       "pdf_url": "https://arxiv.org/pdf/2606.12991",
       "publication_date": "2026-06-11",
       "publication_date_precision": "unknown",
@@ -349,6 +350,36 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6024c224bc53146f580dabef7397b89a37e798343f145b3473d6246ffe4a4b80",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-10477553/v1",
+        "https://openalex.org/W7202089540"
+      ],
+      "title": "Mirror Symmetry Drug Design (MSDD): A Parity-Inversion Framework for Generative De Novo Design of Proteolytically Stable Dual-Targeting D-Peptides against Bcl-2 and Mcl-1",
+      "link": "https://doi.org/10.21203/rs.3.rs-10477553/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-10477553/latest.pdf",
+      "publication_date": "2026-08-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "melhi sharon",
+          "name": "Sharon Melhi"
+        }
+      ],
+      "abstract_text": "We report the Mirror Symmetry Drug Design (MSDD) framework, a novel computational method for the de novo generative design of proteolytically stable D-peptide inhibitors targeting protein--protein interactions (PPIs) that are inaccessible to current generative structural AI. State-of-the-art flow-matching models---trained on a Protein Data Bank composed of $>$99.9\\% L-amino acids---exhibit a fundamental chiral blindspot: when forced to generate D-peptides via stereochemical constraints they suffer latent-space collapse, producing unphysical geometries quantified here as a $16.45$~\\AA\\interface RMSD and 218 severe steric clashes under ablation conditions. MSDD resolves this limitation by inverting the biological target pocket itself via an exact parity transformation $T(x,y,z)=(-x,y,z)$ into a ''Phantom Target,'' allowing unmodified L-space generative models to operate within their trained distribution. The resulting L-ligand is then spatially reverted to a physically accurate D-peptide without retraining or stereochemical post-hoc correction. To demonstrate the framework, MSDD was applied to the dual inhibition of Bcl-2 and Mcl-1, two co-overexpressed anti-apoptotic guardians that drive acquired resistance to the clinical BH3-mimetic venetoclax---a challenge for which no computationally designed D-peptide dual inhibitor has previously been reported. Joint flow-matching across Chroma, Boltz-1, and AlphaFlow against a Kabsch-aligned consensus BH3 groove (RMSD converged to 2.83~\\AA) yielded a hydrocarbon-stapled lead (\\texttt{ac-dF-dL-dR-dS-S5-dE-dV-dD-R8-dI-dG-dK-nh2}, MCI\\,=\\,0.7316). Retrospective validation via 100~ns explicit-solvent (TIP3P) molecular dynamics confirmed thermodynamic stability ($\\overline{\\text{RMSD}} = 1.279 \\pm 0.082$~\\AA), and full MM-GBSA interface energy decomposition with NMA entropy corrections yielded $\\Delta G_{bind} = -23.32$~kcal/mol (Bcl-2) and $-20.55$~kcal/mol (Mcl-1), consistent with published values for high-affinity stapled BH3 L-peptides. Active-site docking and dynamic simulation against Trypsin and Chymotrypsin confirmed computational proteolytic resistance (scissile-bond distances $>$7.8~\\AA\\throughout 10~ns trajectories, well above the 3.50~\\AA\\nucleophilic attack threshold). The companion Mirror Confidence Index (MCI) achieves a mean ROC-AUC of 0.9972 against hard stereochemical decoys and generalises to an unseen p53--MDM2 external set (ROC-AUC\\,=\\,1.000; the zero variance is a direct consequence of the architectural orthogonality of the hold-out fold class rather than metric overfitting). The complete pipeline is open-sourced via PyPI (\\texttt{pip install msdd}) and GitHub.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

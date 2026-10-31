@@ -2091,6 +2091,36 @@
       "curated_categories": []
     },
     {
+      "id": "1a50670888828657593e84e64783435720a89b2a247c3dbb80f8ed645aeba0ec",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-9216376/v1",
+        "https://openalex.org/W7159827506"
+      ],
+      "title": "A Practitioner's Comparison of Molecular Generation Methods for Multi-Target EGFR Inhibitor Design",
+      "link": "https://doi.org/10.21203/rs.3.rs-9216376/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-9216376/latest.pdf",
+      "publication_date": "2026-04-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "loftus matthew",
+          "name": "Matthew Loftus"
+        }
+      ],
+      "abstract_text": "Abstract Background: Designing molecules that maintain binding across wild-type and resistance mutant EGFR variants is a key challenge in computational drug discovery. Three molecular generation paradigms—genetic algorithms on molecular strings, variational autoencoders (VAEs), and autoregressive language models with reinforcement learning—have each been demonstrated individually, but controlled comparisons on the same multi-target problem are lacking. Results: We implement all three approaches and compare them on resistance-proof EGFR inhibitor design (wild-type, T790M, C797S variants) using identical fitness functions and docking targets. A 2×2 ablation crossing decoder architecture (GRU vs Transformer) with tokenization (SMILES vs SELFIES) shows that VAE posterior collapse produces 0% drug-like molecules across all four configurations, despite up to 98.5% syntactic validity—confirming that collapse is framework-level. REINVENT (4-layer Transformer, 4.3M parameters, pre-trained on 2.08M ChEMBL molecules) achieves 97.5% validity with 97.0% drug-like molecules. Using a two-stage RL curriculum (C797S-first → multi-target broadening), REINVENT generates novel molecules with mean worst-case binding of −7.10 } 0.22 kcal/mol across 10 docking replicates, compared to −6.97 } 0.19 for the SELFIES GA (Welch’s t: p = 0.20, Cohen’s d = 0.63). Cross-validation with smina confirms agreement within 0.1–0.3 kcal/mol. All five REINVENT candidates pass PAINS, Brenk, Lipinski, and Veber filters; the SELFIES GA’s best fails Brenk screening (N–O bond alert). The pipeline generalizes to COX-2 without modification. Conclusions: For multi-target de novo drug design, REINVENT produces candidates with the best combination of binding affinity, drug-likeness, and medicinal chemistry compliance. Scientific contribution: This work provides (1) the first controlled 2×2 factorial ablation demonstrating that VAE posterior collapse in molecular generation is robust to both decoder architecture and tokenization changes, (2) a two-stage RL curriculum for multi-target optimization that generalizes across protein targets, and (3) evidence that language-model-based generation produces more developable drug candidates than genetic algorithms as assessed by medicinal chemistry filters.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1a509ccb41a66e42d419d35d762865aa78382e1e9d99fa7155033c1a339bfa94",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03606-3",
