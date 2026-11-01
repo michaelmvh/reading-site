@@ -1247,6 +1247,49 @@
       "curated_categories": []
     },
     {
+      "id": "b944a1faf1f07106e6a7887a79463385f3a403c90d7ceea0a748be94870a46b1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762175v1",
+        "https://doi.org/10.64898/2026.10.27.762175",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.27.762175.source.xml"
+      ],
+      "title": "The Quagmire of Immunogenicity-Guided Antibody Design: Labels Limit Progress",
+      "link": "https://doi.org/10.64898/2026.10.27.762175",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762175v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "morcillo villegas",
+          "name": "Villegas-Morcillo, A"
+        },
+        {
+          "key": "raman",
+          "name": "Raman, C"
+        },
+        {
+          "key": "weber",
+          "name": "Weber, J. M"
+        },
+        {
+          "key": "reinders",
+          "name": "Reinders, M. J. T"
+        }
+      ],
+      "abstract_text": "Generative sequence-based antibody design is increasingly steered by learned property predictors, so a design objective is only as well specified as the labels behind its oracle. Immunogenicity is among the most clinically consequential properties to condition on, and among the least well specified: the supervisory signal is a single anti-drug-antibody percentage (ADA%) per molecule, aggregated from published trials. To analyze that signal, we first extended and corrected the widely used 217-entry dataset to 231 therapeutics with paired sequences, spanning formats from mouse to fully human. Then, we manually reconstructed the clinical evidence for 110 of them from primary sources. We find that an antibody format lookup outperforms every sequence-based learned predictor on the 231-antibody dataset. Apparent accuracy tracks the format composition of the evaluation split rather than sequence signal. Furthermore, the labels understate their own evidence: molecules labeled at [&le;]6 ADA% span up to 86% across trials. We recomputed labels from the trial-level measurements and found that the advantage of the format-based approach disappears, while the sequence-based predictors degrade less under the cohort-weighted mean. We conclude that progress is limited by the label itself, and recommend reporting ADA% at the trial level, treating the target as a distribution rather than a point value, and evaluating against a format-based baseline.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b9466d1f81c8dd00ee6a7c13c6c49eb30a00857ff428b5b95a72ce0f23935144",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10724-z",

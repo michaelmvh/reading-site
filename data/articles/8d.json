@@ -1846,6 +1846,53 @@
       "curated_categories": []
     },
     {
+      "id": "8d484f68ec16f491f56aea95cd31f3d5bcef9f526913c82d4582e6a54a75083c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762150v1",
+        "https://doi.org/10.64898/2026.10.27.762150",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.27.762150.source.xml"
+      ],
+      "title": "FateDriver: Weakly supervised dual-view graph learning for transition-specific prioritization of candidate regulators in cellular reprogramming",
+      "link": "https://doi.org/10.64898/2026.10.27.762150",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762150v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sung",
+          "name": "Sung, J"
+        },
+        {
+          "key": "son",
+          "name": "Son, K"
+        },
+        {
+          "key": "cha",
+          "name": "Cha, H.-J"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, W"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, H"
+        }
+      ],
+      "abstract_text": "Cellular reprogramming supports regenerative medicine, yet the endogenous regulators of a specified source-to-target transition remain incompletely defined. Existing computational methods rank candidate regulators from network topology, trajectory dynamics, or cell-state labels, leaving unused the factors experimentally delivered to induce the transition. We present FateDriver, a weakly supervised dual-view graph neural network that jointly represents cells and genes from single-cell transcriptomes, treats the delivered factors as sparse gene-level labels, and ranks the remaining genes for a specified transition under a positive--unlabeled formulation. Across two OSKM datasets and one GMT dataset, FateDriver ranked first or second among six methods in recovering externally curated reference genes, exceeded a supervision-matched non-graph model despite weaker co-expression with the delivered factors, and achieved the highest recovery of protein targets of pluripotency-inducing chemical cocktails in both OSKM datasets. Holding either the source or the endpoint fixed yielded distinct candidate programs, including a DDX58--interferon axis associated with cells lacking endogenous pluripotency markers. Applying the same framework to candidate source--target pairs prioritized distinct candidate origins for two in vivo partially reprogrammed intestinal populations. FateDriver converts sparse experimental knowledge into transition-specific hypotheses for regulator prioritization from single-cell trajectories.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8d48e3f79fd8643d3e9f7cf7570b63e82959667be375f4528e996504ba2f17cb",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10547-y",
