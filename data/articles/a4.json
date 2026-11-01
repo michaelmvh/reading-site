@@ -5051,6 +5051,41 @@
       "curated_categories": []
     },
     {
+      "id": "a4e1055f73011deb45f5f5b6c67da9e54906c41be9b2c6638f3fe31081ef260b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.26.762091v1",
+        "https://doi.org/10.64898/2026.10.26.762091",
+        "https://www.biorxiv.org/content/early/2026/10/31/2026.10.26.762091.source.xml"
+      ],
+      "title": "EpiRank: partner-agnostic surface-patch retrieval for epitope prediction of protein binding interfaces",
+      "link": "https://doi.org/10.64898/2026.10.26.762091",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762091v1.full.pdf",
+      "publication_date": "2026-10-31",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lin",
+          "name": "Lin, B"
+        },
+        {
+          "key": "lu",
+          "name": "Lu, D"
+        }
+      ],
+      "abstract_text": "Structure-based interface predictors are normally reported as a single pooled ROC AUC over a residue test set. For a protein designer the operative question is different and much harder: given one target chain, will the top-ranked surface patch be a real binding site? We built EpiRank, a partner-agnostic epitope predictor, on HumanPPI 29,246 predicted human dimers, 12,296 target chains, 4.18 M residues using only single-chain geometry and physicochemistry (170 features, no partner, no sequence search, no structural alphabet), and evaluated it as a retrieval problem with homology- and partner-graph-controlled splits, on the 3,529 chains that survive an explicit partner-contamination filter. The model places a real epitope in its top-ranked patch 64 % of the time. That number is far less informative than it looks. Compact patches placed at random hit a real epitope 41 % of the time under the same rule, so the model's lift is 1.57 x, not 64 %; 54 % of all predicted patches land on nothing; and when the same chains are scored by models trained on a 2,000-chain and an 11,669-chain superset, a substantial fraction change answer while the aggregate barely moves. We document four specific ways this task invites overstatement partner-graph percolation across splits, single-linkage homology percolation at the conventional 30 % identity threshold, a count-only hit rule that rewards spatial smoothing rather than signal, and hotspot precision conditioned on success, which ranks a random baseline above the trained model. Each was hit during development and each inverted a conclusion we had already drawn. We argue that interface-prediction papers should report lift over a geometry-matched random baseline, patch precision, and per-target stability alongside AUC, and we release the evaluation harness that computes them.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a4e95cceedf611612228ad9627cefc974cef7a7d6ac4fc2945a3a42ccb33b70a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-63724-4",
