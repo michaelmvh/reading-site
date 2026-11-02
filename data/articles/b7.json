@@ -2813,6 +2813,57 @@
       "curated_categories": []
     },
     {
+      "id": "b79608ae545e853101529fe50db7da31725582eb80d9e375e4524bde9f7ffed9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763022v1",
+        "https://doi.org/10.64898/2026.10.30.763022",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.30.763022.source.xml"
+      ],
+      "title": "Leakage-Controlled Benchmarking of Variant Effect Predictors and Development of Gradient-Boosting Consensus Model",
+      "link": "https://doi.org/10.64898/2026.10.30.763022",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763022v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "havlasek",
+          "name": "Havlasek, M"
+        },
+        {
+          "key": "kabourek",
+          "name": "Kabourek, P"
+        },
+        {
+          "key": "musil",
+          "name": "Musil, M"
+        },
+        {
+          "key": "damborsky",
+          "name": "Damborsky, J"
+        },
+        {
+          "key": "mazurenko",
+          "name": "Mazurenko, S"
+        },
+        {
+          "key": "bednar",
+          "name": "Bednar, D"
+        }
+      ],
+      "abstract_text": "Single amino acid mutations are among the most common forms of genetic variation, with effects ranging from negligible to severe disruption of protein function. Accurate quantitative evaluation of protein variants therefore represents a key challenge in medicine and protein engineering. Computational variant effect predictors (VEPs) are widely used to prioritize missense variants, yet their fair comparison is hindered by data circularity, benchmarks restricted to human clinical annotations, and limited availability of code and training data, all of which can inflate apparent performance. Here, we reviewed 18 recent and 3 older, widely adopted variant effect predictors for reproducible benchmarking and assembled a rigorously curated, leakage-controlled Benchmark dataset by integrating clinically annotated human variants from ClinVar and Humsavar as well as cross-species variants with functional annotations. The evaluation on this dataset revealed a narrow overall performance range for the benchmarked tools (AUC 0.631-0.758) and a consistent drop from clinical to functional data. Surprisingly, several tools published two decades ago demonstrated comparable performance to mid-ranked modern predictors. Building on these results, we developed a gradient-boosting consensus model, PredictSNPprot, which achieved an AUC of 0.82 on a held-out test set, outperforming the original PredictSNP meta-predictor and the best individual state-of-the-art tool by 13.6 and 5.7 percentage points, respectively. The Benchmark dataset, including the predictions from the evaluated tools, is available at https://doi.org/10.5281/zenodo.23597130 and PredictSNPprot consensus predictor is available at https://github.com/loschmidt/PredictSNPprot.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b79825994adfb1f9b54c172875c19c747117e0e474c6e1c0bde670af6a9ba28a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74911-2",
