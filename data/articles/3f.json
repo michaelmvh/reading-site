@@ -1944,6 +1944,8 @@
       "id": "3f335b8abe7e0616adb90d9f4ea0f918c3112c1ec4791e0e988b00efd3f3d8d6",
       "identity_keys": [
         "https://doi.org/10.1073/pnas.2604414123",
+        "https://doi.org/10.64898/2026.02.17.26346448",
+        "https://openalex.org/W7130431757",
         "https://openalex.org/W7223860791"
       ],
       "title": "Revised estimates of types and duration of long COVID symptoms based on claims records from 245 million US patients",
@@ -1983,7 +1985,7 @@
           "name": "Jure Leskovec"
         }
       ],
-      "abstract_text": "COVID-19 has been reported to cause multisystem effects lasting years [Z. Al-Aly, E. Topol, Science 383, 830-832 (2024)]. These findings are primarily based on cohort studies comparing test-positive COVID-19 patients to controls without known COVID-19 infection, tested or untested [M. Cai, Y. Xie, E. J. Topol, Z. Al-Aly, Nat. Med. 30, 1564-1573 (2024)]. However, such comparisons can be biased by the reasons people were tested. Using 14.4 billion insurance claims from 244.7 million US patients, we find that most long-term effects attributed to COVID-19 by unrestricted control designs likely reflect bias due to selective testing of individuals with non-COVID conditions, causing long-term effects of those conditions to be misattributed to COVID-19. We removed this bias by analyzing only tested individuals, comparing test-positive to test-negative patients. Across 614 clinical outcomes followed over 2 y, the test-based design resulted in 83.5% fewer symptoms being attributable to COVID-19 between 30 to 119 d after infection (43 attributable symptoms vs. 262 for the unrestricted control design), a 98.2% reduction at 120 to 359 d (5 vs. 286), and a 100% reduction at 360 to 719 d (0 vs. 369). The unrestricted control design also attributed unrelated outcomes (e.g., firearm injuries) to COVID-19 at a high rate, whereas the testing-based design did not. The test-based control design may modestly underestimate some effects. This study does not indicate that symptoms beyond one year are not genuine but that their attributability to COVID-19 is uncertain.",
+      "abstract_text": "COVID-19 has been shown to cause a range of harmful long-term effects on nearly every organ system 1–3 . These findings are based on retrospective studies comparing COVID-19 patients to patients with similar medical histories and demographics but no COVID-19 diagnosis 4–16 . However, concerns have emerged that these comparisons may be biased if COVID-19 patients had unrelated health conditions or other factors not recorded in their medical records 17–21 . Here, using a massive dataset of 14.4 billion health insurance claims from 244.7 million U.S. patients, we find that the large majority of long-term effects attributed to COVID-19 by methods used in conventional studies are likely due to bias from selective testing. This bias arises because individuals with non-COVID health conditions producing long-term symptoms were more likely to seek care and be tested for COVID-19. As a result, their non-COVID symptoms are attributed to COVID-19. We develop a study design that reduces this bias by only considering individuals who have taken a COVID-19 PCR test, and then comparing similar patients whose first test came back positive vs. negative. This way the COVID-19 patients and control group are more similar and non-COVID factors play less of a role. We examine 614 clinical outcomes over a 2-year followup period and reveal an order of magnitude smaller—but still clinically significant—number of long-term effects attributed to COVID-19 that persist for up to one year after infection. We confirm that the long-term effects of COVID-19 span many organ systems, including respiratory, cardiovascular, musculoskeletal, and integumentary systems, but are significantly narrower in scope and duration than previously believed. Although some symptoms exist more than one year after COVID-19 infection, they occur at similar rates in individuals who tested negative and are therefore not attributable to COVID-19 infection. Our findings pinpoint the specific long-term effects of COVID-19 and show how large-scale data can be used to enable careful evaluation and design of population health studies.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5283,6 +5285,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "3fac6e4cdd4af837a6b9165575dc3cf9dda2e71131541e29fc3fb63d156b09d9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762202v1",
+        "https://doi.org/10.64898/2026.10.27.762202",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.27.762202.source.xml"
+      ],
+      "title": "Batch Effect Correction to Enhance Utility of a Publicly Available ALS Proteomics Dataset",
+      "link": "https://doi.org/10.64898/2026.10.27.762202",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762202v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "cooper",
+          "name": "Cooper, G"
+        },
+        {
+          "key": "oh",
+          "name": "Oh, I"
+        },
+        {
+          "key": "payne",
+          "name": "Payne, P"
+        },
+        {
+          "key": "abrams",
+          "name": "Abrams, Z. R"
+        },
+        {
+          "key": "miller",
+          "name": "Miller, T"
+        }
+      ],
+      "abstract_text": "Large, publicly available databases of patient data have been successful in identifying associations between neurodegenerative diseases and biological features that might otherwise go unnoticed. The Answer ALS Consortium is one such database that has generated a rich repository of multi-omic data from people with amyotrophic lateral sclerosis (ALS). However, large studies can suffer from batch effects that obscure genuine biological signal and prevent experiment reproducibility. In this study, we identified a batch effect in the Answer ALS 1-2 proteomic dataset (508 samples x 3,643 proteins) and corrected the effect using both the internal controls provided by Answer ALS and the batch effect-correction algorithm (BECA) ComBat. We identified a batch effect in the Answer ALS Dataset 1-2 proteomic dataset that, uncorrected, may obscure biology. Proteins MOS and H4 were outliers of expression in the dataset that correlated with the batch effect. Removing MOS and H4 did not correct the effect fully but did reveal new principal component (PC) contributing proteins related to motor neurons and potentially ALS: AINX, NFL, and NFM. The batch differential controls (BDCs) provided by Answer ALS were used to correct samples in their respective batches. ComBat, a well-characterized BECA, was applied to the dataset both before (ComBat-BDC) and after (BDC-ComBat) correction with the BDCs. BDC-ComBat was the only method that successfully reduced batch effect across the entire dataset. This method also preserved four of the top six PC-contributing proteins from the original dataset, including three neuronal proteins, suggesting that the corrected dataset recapitulates biology as well as the variability of the original dataset. Altogether, we produced a version of the Answer ALS proteomic dataset (354 samples by 3,641 proteins) with globally reduced batch effect and protein-level reduced batch effect. This version of the dataset recapitulates the individual protein variability and important neuronal proteins of the original. We also created a workflow for identifying and correcting batch effects that can be applied to other large data repositories.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

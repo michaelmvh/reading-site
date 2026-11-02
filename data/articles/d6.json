@@ -4832,6 +4832,60 @@
       "curated_categories": []
     },
     {
+      "id": "d6cbb4629be9b859d27afeec53636597f05135a03c363bf4b38fa8a38788349c",
+      "identity_keys": [
+        "arxiv:2610.40662",
+        "https://doi.org/10.48550/arXiv.2610.40662"
+      ],
+      "title": "A small HER2 reader for routine H&E slides: real-world deployment",
+      "link": "https://doi.org/10.48550/arXiv.2610.40662",
+      "pdf_url": "https://arxiv.org/pdf/2610.40662",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ai cloudkites lab thang tran",
+          "name": "Thang Tran (CloudKites AI Lab"
+        },
+        {
+          "key": "new south wales",
+          "name": "New South Wales"
+        },
+        {
+          "key": "australia",
+          "name": "Australia)"
+        },
+        {
+          "key": "business dang lan monash school",
+          "name": "Lan Dang (Monash Business School"
+        },
+        {
+          "key": "monash university",
+          "name": "Monash University"
+        },
+        {
+          "key": "victoria",
+          "name": "Victoria"
+        },
+        {
+          "key": "australia",
+          "name": "Australia)"
+        }
+      ],
+      "abstract_text": "HER2 status decides who receives HER2-targeted therapy. Pathologists score HER2 protein by immunohistochemistry (IHC); equivocal IHC 2+ tumours, their hardest calls, wait for in situ hybridisation (ISH). We built a HER2 reader for routine H&E slides, owned end to end, as a baseline for pathologists. A 22M-parameter ViT-S/16 tile encoder was trained on public TCGA slides by self-supervision, distillation from H-optimus-0 and two rounds of JEPA refinement; five cross-validated attention-based slide classifiers average their probabilities; and an operating point is fixed on training data. Compared under one paired ten-seed protocol, readers on our encoder rank first of 7 on external validation from TCGA-BRCA to Yale-HER2 (AUC 0.812), level with readers on encoders 4 and 50 times larger. We also rebuilt PathBench's encoder benchmark on public cohorts; our replica reproduces its published order of reference encoders, and under it our encoder ranks first of 7 on TCGA-BRCA (0.689) and sits level with H-optimus-0 and Phikon on Yale-HER2 (0.897). On three external hospitals our deployed reader reaches AUC 0.82 on Yale-HER2 (about 0.81 with training slides balanced for tissue size), 0.75 on HEROHE and 0.63 on BCNB biopsies, and among HEROHE's 85 IHC 2+ cases it ranks ISH-amplified above non-amplified tumours at 0.76, best among our TCGA-trained readers. Per-laboratory score normalisation and a laboratory's own slides improve it further on a new site. Without a GPU our reader needs 5-6 s per slide. It serves as a research-use pre-read in a pathology platform, where it proposes a probability and a call beside IHC and helps prioritise ISH for equivocal cases. Weights, per-slide predictions and the data behind every figure are public at https://huggingface.co/cloudkites/her2-reader.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d6ccafa88f208167c525cd0227dbf1b4c6a07073e3ab72ffee5ae20b2162d457",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76570-9",

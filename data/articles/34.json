@@ -762,6 +762,52 @@
       "curated_categories": []
     },
     {
+      "id": "343788f69886f6ccfb99bc5ff61eacf50c2d3a54d1a38729771e92221311a448",
+      "identity_keys": [
+        "arxiv:2609.04710",
+        "https://doi.org/10.48550/arXiv.2609.04710"
+      ],
+      "title": "Simulation-free Unbalanced Dynamic Optimal Transport with General Growth Penalty",
+      "link": "https://doi.org/10.48550/arXiv.2609.04710",
+      "pdf_url": "https://arxiv.org/pdf/2609.04710",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "junda ying",
+          "name": "Junda Ying"
+        },
+        {
+          "key": "wang yuxuan",
+          "name": "Yuxuan Wang"
+        },
+        {
+          "key": "bowen yang",
+          "name": "Bowen Yang"
+        },
+        {
+          "key": "peijie zhou",
+          "name": "Peijie Zhou"
+        },
+        {
+          "key": "lei zhang",
+          "name": "Lei Zhang"
+        }
+      ],
+      "abstract_text": "Inferring cellular dynamics from unpaired single-cell snapshots requires modeling both state transitions and population growth or death. Unbalanced dynamic optimal transport (UDOT) addresses this by penalizing growth along transport paths, making the choice of growth penalty a key way to encode biological priors on proliferation and apoptosis. However, existing UDOT solvers either rely on computationally expensive NeuralODE simulations or depend on analytical solutions of conditional paths, restricting their efficiency solely to quadratic penalties, i.e. Wasserstein-Fisher-Rao (WFR) geodesics. To enable an efficient UDOT solver for general growth penalties, we first show that concave growth penalties lead to degenerate solutions where growth and transport are separated. We then introduce \\textbf{S}imulation-free \\textbf{U}nbalanced \\textbf{D}ynamic \\textbf{O}ptimal transport (SUDO), a simulation-free framework for UDOT with general non-quadratic convex growth penalties. SUDO learns the conditional paths and transport costs, solves the induced semi-coupling problem, and subsequently leverages unbalanced flow matching to achieve a simulation-free solution. On WFR benchmarks, SUDO matches the accuracy of efficient, analytical solution-driven algorithms while outperforming simulation-based methods in computational speed. Beyond WFR, SUDO supports asymmetric penalties that encode proliferation-dominant priors and produce more plausible trajectories and growth estimates on synthetic and single-cell datasets.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3437f2e967fdfea8a543c4cb0c4050122f2debb3b0bf9518a463c33625e3c714",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68890-7",
@@ -869,6 +915,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "343c676d2cdafe2b7a3b62ce652a655c9de158898680a81cbd6339d51bdbfcd2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762630v1",
+        "https://doi.org/10.64898/2026.10.28.762630",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.28.762630.source.xml"
+      ],
+      "title": "The Findings Workflow: An agentic, collaborative, provenance-tracked framework for scientific data analysis with Claude Code",
+      "link": "https://doi.org/10.64898/2026.10.28.762630",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762630v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "riffle",
+          "name": "Riffle, M"
+        },
+        {
+          "key": "zelter",
+          "name": "Zelter, A"
+        },
+        {
+          "key": "maccoss",
+          "name": "MacCoss, M. J"
+        }
+      ],
+      "abstract_text": "Scientists presented with quantitative data often face two related problems: confidence that an analysis is statistically and computationally correct, and provenance sufficient to reproduce the resulting figures and conclusions. Large language models (LLMs) can make sophisticated analyses accessible through a collaborative, conversational interface, but unstructured use can worsen both problems by producing plausible but incorrect results and obscuring the steps that produced them. Here we present the Findings Workflow, a free, open-source Claude Code plugin designed to retain the flexibility of conversational LLM-assisted analysis while placing it within a structured, verifiable, and reproducible environment. The workflow uses staged, gated progression to ensure the science, metadata, and data are understood and tested data loaders are built before downstream analysis begins. Specialized subagents perform statistical analysis, programming, visualization, research, reporting, and validation, with independent review incorporated throughout. The plugin also provides vetted analysis templates, conventions, and methodological guidance that serve as trusted sources of opinion when deciding how analyses should be performed. Scientists remain actively involved throughout, exploring their data and directing the analysis through natural-language conversation, while the workflow supplies structure, verification, and persistent state around that collaboration. Findings are recorded automatically together with the data, code, methods, figures, and provenance needed to reproduce them. We demonstrate the workflow with a worked example that reproduces central findings from a published plasma extracellular vesicle proteomics dataset examining Alzheimer's disease (Mag-Net). Together, these features are designed to make LLM-assisted scientific analysis easier to trust, inspect, and reproduce without sacrificing its conversational and exploratory nature.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

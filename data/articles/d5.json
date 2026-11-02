@@ -102,6 +102,61 @@
       "curated_categories": []
     },
     {
+      "id": "d505ab5f18e3a1ab3d2f5e36f92990b8c649ed6ec72fba316988664aa682ecee",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762670v1",
+        "https://doi.org/10.64898/2026.10.28.762670",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.28.762670.source.xml"
+      ],
+      "title": "LIMBER: A Hybrid RNA Foundation Model for Predicting and Understanding RNA Structure and Function",
+      "link": "https://doi.org/10.64898/2026.10.28.762670",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762670v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "qiu",
+          "name": "Qiu, Y"
+        },
+        {
+          "key": "he",
+          "name": "He, Y"
+        },
+        {
+          "key": "thompson",
+          "name": "Thompson, I"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, H"
+        },
+        {
+          "key": "porter",
+          "name": "Porter, A"
+        },
+        {
+          "key": "li",
+          "name": "Li, A"
+        }
+      ],
+      "abstract_text": "RNA foundation models offer a promising route to decoding the relationships between RNA sequence, structure and function, yet how model shapes the acquisition and organization of biological information remains poorly understood. Here we introduce Layer-Interleaved Mamba-Bidirectional Encoder for RNA (LIMBER), a hybrid foundation model integrating bidirectional self-attention with selective state-space modeling, pretrained on 40.5 million non-coding RNA sequences. Through task-specific fine-tuning, LIMBER achieves leading performance on secondary-structure prediction and non-coding RNA classification benchmarks, while demonstrating strong transferability to translation-related tasks and RNA--small-molecule interaction prediction. Beyond model development, we establish a unified, task-agnostic framework to systematically evaluate and interpret the biological knowledge intrinsically acquired by RNA foundation models. This framework validates LIMBER's strong capabilities in recovering RNA structures and predicting mutational effects, while uncovering a hierarchical, task-dependent organization of different biological information across model layers. By further systematically training and evaluating a broad panel of model variants spanning model capacity, training duration and dataset size, we uncover distinct scaling behaviors across structural, evolutionary and functional capabilities. Together, these findings establish LIMBER as a versatile RNA foundation model and provide broader insights into how architectural design, internal representations and scaling shape the learning of RNA sequence-structure-function relationships.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d506c3bababce60c2934865534a5f851a23e9e02b32c6a6be1e3faaed6f12b19",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72033-3",

@@ -928,6 +928,49 @@
       "curated_categories": []
     },
     {
+      "id": "e2487df109b23e895dee5c9ece3857cc88bca0a9b3c1c3f9bf11928b0dfd014a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762533v1",
+        "https://doi.org/10.64898/2026.10.29.762533",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.29.762533.source.xml"
+      ],
+      "title": "ScanFold3: a robust and rapid approach for identifying structured RNA targets in genomes and transcriptomes",
+      "link": "https://doi.org/10.64898/2026.10.29.762533",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762533v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "coppenbarger",
+          "name": "Coppenbarger, E"
+        },
+        {
+          "key": "dapour",
+          "name": "Dapour, A. O"
+        },
+        {
+          "key": "andrews",
+          "name": "Andrews, R. J"
+        },
+        {
+          "key": "moss",
+          "name": "Moss, W"
+        }
+      ],
+      "abstract_text": "Background. The rapid expansion of high-throughput transcriptomic datasets has created a critical need for scalable tools to identify functional RNA secondary structures. While thermodynamics-based folding is a well-established method, most algorithms lack the scalability required for genomic-scale datasets due to O(n3) time complexity. Methods. We present ScanFold3, an enhanced version of the ScanFold pipeline that optimizes the \"Fold\" step for modern computing needs. This version models consensus structure generation as a minimum perfect weighted matching problem on a graph. To ensure maximum scalability, we implemented a Greedy Approximation Algorithm and optimized performance-critical components in C++. Results. Benchmarking on sequences up to 128 kb demonstrates that ScanFold3 achieves a 38-fold to 129-fold increase in speed over ScanFold2. Validation against annotated human RNAs shows that ScanFold3 offers improved positive predictive value (PPV). Most significantly, when ScanFold3 outputs are used as structural constraints for global refolding, it outperforms previous versions across all metrics, including the F1 score. Conclusions. ScanFold3 provides a robust, speedy, and user-friendly method for characterizing the thermodynamics of novel RNA and DNA sequences. It is designed as an efficient first step for high throughput bioinformatic pipelines, capable of paring down chromosome-scale transcriptomic data into stable structures amenable to advanced analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e24a4a505eece330e5390d829ef6b7ddf8aaabe69ccda767ad73273afdd15fe4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73709-6",

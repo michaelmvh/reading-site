@@ -4375,6 +4375,74 @@
       "curated_categories": []
     },
     {
+      "id": "85d7b8679d573171f4c166a0c721f77215fd8bcb2b9300727c1dc3557ce394a9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.27.727615v2",
+        "https://doi.org/10.64898/2026.05.27.727615",
+        "https://www.biorxiv.org/content/early/2026/05/30/2026.05.27.727615.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.05.27.727615.source.xml"
+      ],
+      "title": "An agent-built, verified atlas of public spatial transcriptomics shows that breadth across studies drives transfer and reproducibility",
+      "link": "https://doi.org/10.64898/2026.05.27.727615",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.27.727615v2.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ji",
+          "name": "Ji, J.-H"
+        },
+        {
+          "key": "zou",
+          "name": "Zou, Q"
+        },
+        {
+          "key": "cheng",
+          "name": "Cheng, J"
+        },
+        {
+          "key": "she",
+          "name": "She, Z"
+        },
+        {
+          "key": "hao",
+          "name": "Hao, Y"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, W"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, D"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "yu",
+          "name": "Yu, J.-T"
+        },
+        {
+          "key": "yuan",
+          "name": "Yuan, Z"
+        }
+      ],
+      "abstract_text": "Public spatial transcriptomics data are deposited study by study, in formats that differ from one laboratory to the next, and no resource has yet indexed or verified them as a whole. Here we present SpatialDataAgent-DB, an atlas built from the Gene Expression Omnibus (GEO) by SpatialDataAgent, a workflow in which language-model agents do the work and every output is checked rather than trusted. An assay index covering all 298,179 GEO series identifies 2,411 spatial series, which gives public spatial data an explicit denominator. For each series, an agent writes conversion code instead of editing the data directly, and a frozen, rule-based scorer recomputes every released value from the source files. In a held-out test, the scorer rejected all 1,231 corrupted copies. We also visually reviewed every released sample, including the 4,386 H&E-registered Visium samples of our earlier HESRT release. SpatialDataAgent-DB contains 12,163 samples from 12 platforms and 42 species in a single format, each with its provenance and defect flags. Its 8,211 image-paired samples are 5.9 times as many as in the next image-paired resource, and at least 71% of all samples are absent from five existing catalogues. Without batch correction, sequencing-based samples group by organ more than by platform: with platforms balanced, organ explains 32% of the variance of human pseudobulk profiles and platform 13% (mouse, 47% and 18%). We then used the atlas in two applications. Image-to-expression models trained on it transfer to unseen studies, and their accuracy rises steadily with training data and, at a fixed number of patches, with the number of training studies over the range tested (for H&E, Pearson r gains 0.0056 per doubling of training patches up to 524,288); 11 of 13 forecasts locked in advance were confirmed. Adding studies helps more than adding patches from the same studies, because each study leaves a fingerprint in its images. Intent-based search over the same index assembled 70 single-cell dementia studies, and the replication of disease signatures in held-out studies rose steadily with the number of studies (direction agreement averaged over 28 held-out studies, 63% with one study and 77% with 16). In both applications, performance kept rising with the number of independent studies, which a complete and verified atlas is built to provide.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "85d8184574146e6a3478a85d46bafd1b689e202c86edef59a5d4d2f67ad724ec",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73668-y",

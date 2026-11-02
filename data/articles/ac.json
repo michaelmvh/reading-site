@@ -338,6 +338,40 @@
       "curated_categories": []
     },
     {
+      "id": "ac17f28e6d3754c2a93e9e5410115e972e18294b9ea8a2def674b9b57b8f5c67",
+      "identity_keys": [
+        "arxiv:2603.15080",
+        "https://doi.org/10.48550/arXiv.2603.15080"
+      ],
+      "title": "Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database",
+      "link": "https://doi.org/10.48550/arXiv.2603.15080",
+      "pdf_url": "https://arxiv.org/pdf/2603.15080",
+      "publication_date": "2026-03-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "madhulatha mandarapu",
+          "name": "Madhulatha Mandarapu"
+        },
+        {
+          "key": "kunkunuru sandeep",
+          "name": "Sandeep Kunkunuru"
+        }
+      ],
+      "abstract_text": "Biomedical knowledge is fragmented across siloed databases---Reactome, STRING, Gene Ontology, ClinicalTrials.gov, DrugBank, DGIdb, SIDER, PubMed, ClinVar, ChEMBL, OpenTargets, and more. We present an open, reproducible biomedical knowledge graph ecosystem built on Samyama, a Rust-native graph database: three foundational graphs detailed end-to-end---Pathways KG (118,686 nodes, 834,785 edges), Clinical Trials KG (7,774,446 nodes, 26,973,997 edges), and Drug Interactions KG (32,726 nodes, 191,970 edges)---and their expansion into a 22-graph, 2-cohort merged biomedical store (328,130,739 nodes and 1,441,425,733 imported edges, including 295,000 synthetic OMOP CDM patients from Synthea). First, we describe a reproducible ETL and portable .sgsnap snapshot pattern where graphs load alone or compose into one store. Second, we analyze single-store cross-KG integration via query-time property joins and load-time identifier deduplication (--dedup-keys): across all 24 snapshots (Samyama-Graph v1.13.0), 328.1M nodes and 1.44B edges load in 2,269.1 s (37m 49s) within 366.5 GB peak RSS (254 B/edge), merging 132,511 cross-source entities across five audited keys (mondo_id,uniprot_id,go_id,drugbank_id,symbol)---87.8% of the 150,965 Bound A sound-identifier ceiling, with zero conflicting-ID refusals. On a frozen 81-query suite, 62 queries return results (17 data-gap empties, 2 timeouts); on an expanded 200-query oracle suite, 195 of 200 pass (97.5%). Third, we introduce schema-driven Model Context Protocol (MCP) server generation: on the 40-question BiomedQA benchmark over the 3-KG subset, domain-specific MCP tools achieve 98% accuracy vs. 85% for schema-aware text-to-Cypher and 75% for standalone GPT-4o, with zero schema errors.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ac1bfe50f947d9ae29d4d28373179a9eaf32077596041608b8b659e18c099042",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78105-8",
@@ -523,6 +557,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ac203a7ead7998bb81edeee40b30ffdeb6782b9c088fc220000e4378d0a42559",
+      "identity_keys": [
+        "arxiv:2610.40665",
+        "https://doi.org/10.48550/arXiv.2610.40665"
+      ],
+      "title": "Recycle only when you have to!",
+      "link": "https://doi.org/10.48550/arXiv.2610.40665",
+      "pdf_url": "https://arxiv.org/pdf/2610.40665",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "lorenz vaitl",
+          "name": "Lorenz Vaitl"
+        },
+        {
+          "key": "ivan tanasijevic",
+          "name": "Ivan Tanasijevic"
+        },
+        {
+          "key": "arian jamasb rokkum",
+          "name": "Arian Rokkum Jamasb"
+        },
+        {
+          "key": "fragoso mille santiago",
+          "name": "L. Santiago Mille-Fragoso"
+        },
+        {
+          "key": "kessel pan",
+          "name": "Pan Kessel"
+        }
+      ],
+      "abstract_text": "AlphaFold 3-like models (e.g., Boltz, Protenix, etc.) have pushed the frontier of protein binder design. This architecture is used both for the generation of binder candidates (e.g., by hallucination or converting these models into backbone or full atom generative models) as well as for the screening of these candidates for valid binders. In this paper, we start from the observation that AlphaFold 3's confidence metrics (ipSAE, ipTM) as well as structural consistency metrics can be predicted directly from the trunk even at early recycling. Because our proposed predictor is cheap, differentiable, and available at every cycle, it can be used in two distinct ways: as a decision signal to wisely spend the recycling budget for screening and as an objective for hallucination-based design. We show that both applications lead to increased performance at significantly reduced computational cost.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

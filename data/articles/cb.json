@@ -3964,6 +3964,53 @@
       "curated_categories": []
     },
     {
+      "id": "cbde693ea6e9da6c8aa5d5ee54d3ad9539d7344b502c426a781b96851a3dbbcb",
+      "identity_keys": [
+        "biorxiv:10.1101/2024.05.23.595463v3",
+        "https://doi.org/10.1101/2024.05.23.595463",
+        "https://www.biorxiv.org/content/early/2026/11/02/2024.05.23.595463.source.xml"
+      ],
+      "title": "Bayesian model-based method for clustering gene expression time series with multiple replicates",
+      "link": "https://doi.org/10.1101/2024.05.23.595463",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.23.595463v3.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nushi",
+          "name": "Nushi, E"
+        },
+        {
+          "key": "douillard",
+          "name": "Douillard, F. P"
+        },
+        {
+          "key": "selby",
+          "name": "Selby, K"
+        },
+        {
+          "key": "lindstro",
+          "name": "Lindström, M"
+        },
+        {
+          "key": "honkela",
+          "name": "Honkela, A"
+        }
+      ],
+      "abstract_text": "Background: In this study, we introduce a Bayesian model-based method for clustering transcriptomics time series data with multiple replicates. This technique is based on sampling Gaussian processes (GPs) within an infinite mixture model from a Dirichlet process (DP). Our method uses multiple GP models to accommodate for multiple differently behaving experimental replicates within each cluster. We call it multiple models Dirichlet process Gaussian process (MMDPGP) mixture model. We compare our method with state-of-the-art model-based clustering approaches for handling gene expression time series with multiple replicates. Results: To demonstrate the accuracy of our method we use it to cluster synthetically generated data sets. The clusters produced by our method on the synthetic data had a significantly higher purity score compared to the state-of-the- art approaches. We also present a case study where all methods are applied for clustering RNA-Seq time series of Clostridium botulinum with three different experimental replicates. The results obtained from the gene enrichment analysis showed that the number of significantly enriched sets of genes is larger in the clusters produced by MMDPGP. Conclusions: By modelling each replicate with a separate GP, our method can use the natural variability between experimental replicates to learn more about the underlying biology.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cbde7cdeff5123c3a1ceb7d4b1da3276f2375ccae4a301bdd0db50a53091e278",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64556-y",

@@ -672,6 +672,40 @@
       "curated_categories": []
     },
     {
+      "id": "fe103222f501c641433347006db59dd68db9041d673d0e25126094135d39b693",
+      "identity_keys": [
+        "arxiv:2610.41634",
+        "https://doi.org/10.48550/arXiv.2610.41634"
+      ],
+      "title": "Co$^2$ODE: Conditionally Coarse-Grained Model Discovery for Rewiring in Biochemical Networks",
+      "link": "https://doi.org/10.48550/arXiv.2610.41634",
+      "pdf_url": "https://arxiv.org/pdf/2610.41634",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "de pomereu theodore",
+          "name": "Theodore de Pomereu"
+        },
+        {
+          "key": "fabian fr ohlich",
+          "name": "Fabian Fr\\\"ohlich"
+        }
+      ],
+      "abstract_text": "Biochemical networks propagate the signals that regulate cellular behaviour, and which routes carry them depends on cellular context: a shift in context rewires the network's effective dynamics. Mechanistic simulators are misspecified here because the effective dynamics emerge from an interaction structure that is only partially known. Model discovery instead learns the dynamics from data, but sparse, correlated measurements poorly identify a full network model. What matters is narrower: the portion the context rewires. We introduce conditionally coarse-grained ODEs (Co$^2$ODE), which model that portion as a sparse neural or symbolic ODE: a conditional mask selects the markers carrying the rewiring, and a variational autoencoder compresses the remaining markers into a learnt closure term. On single-cell phosphoproteomic data spanning 30 cancer-relevant overexpressions, Co$^2$ODE compresses a 30-marker panel into a 10-dimensional state while matching the predictive accuracy of a neural ODE fit to the full panel. The closure absorbs what the mask drops, hence the accuracy is insensitive to which markers are kept. Adding a prior score to the loss shifts the selected markers at no cost in fit, indicating the data are not interventional enough to identify the underlying biology.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fe1458711cf1de4bb79ac15c2d161bc7a39ec72ed0a097975733030f008bb267",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74387-0",

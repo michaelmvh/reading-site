@@ -1520,6 +1520,48 @@
       "curated_categories": []
     },
     {
+      "id": "0f4ac52212b277a47c5c6fe52c92bb4d43a1da012cf9e7165a2d64aa7402e770",
+      "identity_keys": [
+        "arxiv:2610.40700",
+        "https://doi.org/10.48550/arXiv.2610.40700"
+      ],
+      "title": "Automatic Construction of Strong Simple Baselines",
+      "link": "https://doi.org/10.48550/arXiv.2610.40700",
+      "pdf_url": "https://arxiv.org/pdf/2610.40700",
+      "publication_date": "2026-10-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "caleb ellington",
+          "name": "Caleb N. Ellington"
+        },
+        {
+          "key": "jiaqi wang",
+          "name": "Jiaqi Wang"
+        },
+        {
+          "key": "addagudi sohan",
+          "name": "Sohan Addagudi"
+        },
+        {
+          "key": "cole elijah",
+          "name": "Elijah Cole"
+        }
+      ],
+      "abstract_text": "To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent progress has turned out to be an artifact of omitted or missing baselines. In this work, we investigate whether this problem can be mitigated by using large language models to automate the construction of baselines. We assemble 36 supervised classification and regression tasks from peer-reviewed studies in Nature, Science, and Cell-family journals that investigate novel deep learning methods for scientific applications. We then use a language model to construct simple baselines for each task. These automatically constructed baselines are strong, recovering a median of 95.5% (mean 85.7%) of the gap between a trivial predictor and the score of the deep learning model. The median simple baseline matches or exceeds the performance of the deep learning model in 12 studies. We further examine the variation across scientific domains and publication venues and we characterize the effects of test-time compute and access to different levels of study context. As human peer review has struggled to keep up with the rapidly increasing volume of research articles in recent years, our results suggest that automated baseline construction is a practical and scalable check on deep learning contributions in the physical and life sciences.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0f4fd5050def86a3fdff673da1afb9debeca8f25c24865fa4d418270b550fa3a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76786-9",

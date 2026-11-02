@@ -3928,24 +3928,26 @@
       "id": "2a996a49ba159c0fdbcc59c3aa8211383d861c6a7ccb8f0547d6af56ffa6159c",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.26.761703v1",
+        "biorxiv:10.64898/2026.10.26.761703v2",
         "https://doi.org/10.64898/2026.10.26.761703",
-        "https://www.biorxiv.org/content/early/2026/10/31/2026.10.26.761703.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/31/2026.10.26.761703.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.26.761703.source.xml"
       ],
       "title": "Transcript quantification using context-aware MAPQ modeling",
       "link": "https://doi.org/10.64898/2026.10.26.761703",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761703v1.full.pdf",
-      "publication_date": "2026-10-31",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761703v2.full.pdf",
+      "publication_date": "2026-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
       "authors": [
         {
-          "key": "hicks",
-          "name": "Hicks, S. C"
-        },
-        {
           "key": "parthiban",
           "name": "Parthiban, S"
+        },
+        {
+          "key": "hicks",
+          "name": "Hicks, S. C"
         }
       ],
       "abstract_text": "Long-read RNA-sequencing enables accurate transcript-level quantification, but prior static filtering of MAPping Quality (MAPQ) can ignore transcriptome-intrinsic ambiguity, and discarding reads on this basis distorts abundance estimates. We present CALMeR (Context-Aware Long-read MAPQ-based Rescuer), which conditions MAPQ filtering on transcript properties rather than a fixed cutoff. CALMeR fits a zero-one inflated beta regression on various transcript and read-level features to model the expected MAPQ distribution for each alignment. Reads whose MAPQ fits this context, such as low-MAPQ reads from multi-isoform genes and paralog families are retained; reads with anomalously low MAPQ are removed as likely artifacts. Retained reads can be summed per transcript or passed to any downstream quantifier. Compared with a MAPQ [&ge;] 1 filter and expectation-maximization-based transcript quantification methods, CALMeR recovers more spike-in transcripts and better matches known spike-in concentrations. CALMeR is available at https://github.com/sparthib/CALMeR.",

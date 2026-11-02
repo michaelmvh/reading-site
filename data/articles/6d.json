@@ -3691,6 +3691,61 @@
       "curated_categories": []
     },
     {
+      "id": "6d9c5eb29cc92b62529186eceefbb674c971a86ac1dec3211a91ddc5a2abd4fc",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762128v1",
+        "https://doi.org/10.64898/2026.10.27.762128",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.27.762128.source.xml"
+      ],
+      "title": "Interpreting graph neural networks reveals microbial association patterns in inflammatory bowel diseases",
+      "link": "https://doi.org/10.64898/2026.10.27.762128",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762128v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "cunha",
+          "name": "Cunha, A. F"
+        },
+        {
+          "key": "vidal",
+          "name": "Vidal, E"
+        },
+        {
+          "key": "altirriba barranco",
+          "name": "Barranco-Altirriba, M"
+        },
+        {
+          "key": "amigo",
+          "name": "Amigo, T"
+        },
+        {
+          "key": "assis",
+          "name": "Assis, J. G"
+        },
+        {
+          "key": "nakaya",
+          "name": "Nakaya, H. I"
+        },
+        {
+          "key": "santos",
+          "name": "Santos, A"
+        }
+      ],
+      "abstract_text": "Traditional machine learning models trained on gut microbiome abundance profiles can distinguish individuals with inflammatory bowel disease (IBD) from non-IBD individuals. However, their interpretation typically considers taxa in isolation, making it difficult to understand how associations between taxa contribute to predictions. Here, we inferred individual-specific microbial association networks from longitudinal metagenomics data of 106 individuals in HMP2/iHMP and used them to train and interpret graph neural network (GNN) models, which we compared with abundance-based models such as Random Forest (RF). Although RF achieved higher predictive performance (AUPRC ~0.59 vs 0.446), interpreting the GNNs revealed that their predictions relied on a densely connected module of co-abundant Bacteroidales species. Unlike the taxa prioritized by RF, these species were not differentially abundant between conditions. In an independent cohort, this module carried most of the predictive signal, and removing its associations reduced performance to near chance. These results show that coordinated association structure, rather than abundance shifts alone, is a feature of the IBD gut microbiome, and that interpreting GNNs can uncover such patterns that complement abundance-based analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6da35d0e1ec057a0f3b2a095dbab1d6f48049d42af782524c3fded1993e90534",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67473-2",
@@ -5409,6 +5464,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6dd76baaa86ad9f65d4b18f432a2126562de610e0774f27e3935c2155c2f4ca2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762235v1",
+        "https://doi.org/10.64898/2026.10.27.762235",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.27.762235.source.xml"
+      ],
+      "title": "RNA assignment and segmentation geometry in Visium HD profiles of fibrostenotic Crohn's disease",
+      "link": "https://doi.org/10.64898/2026.10.27.762235",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762235v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "massimino",
+          "name": "Massimino, L"
+        },
+        {
+          "key": "ungaro",
+          "name": "Ungaro, F"
+        }
+      ],
+      "abstract_text": "Retrospective reuse of spatial transcriptomics often starts from a deposited bin-level Seurat object rather than the inputs needed to revisit upstream molecular processing. We tested whether image segmentation could support a defensible cell-like reconstruction under this constraint in two complete H&E-stained intestinal sections from a Visium HD study of Crohn's disease-associated fibrostenosis (GSE302569). The available data comprised 18,085 genes, 988,942 original 8 {micro}m bins and 179,596,575 UMIs. We evaluated 20 segmentation configurations in the preserved image coordinate system using a common bin-centre assignment rule, without restarting Space Ranger or introducing higher-resolution expression. RNA assignment ranged from 0% to 74.68% in CD1 and 0% to 64.05% in CD2. Expansion increased recovery but did not eliminate merged regions, straight boundaries or within-bin ambiguity; approximately 70-73% of InstanSeg brightfield nuclear regions received no assigned RNA. All 38 non-empty configuration-slice combinations underwent native full-mode RCTD against the same nine-group scIBD reference. Mean slice-level RNA recovery was negatively associated with primary-component dominance across 19 configurations (descriptive Spearman {rho} = -0.77). Neither dominant-call agreement nor concentrated RCTD support validates boundaries or cell identity. The observed limitations in RNA recovery, region geometry, and compositional support did not establish any tested configuration as a reliable single-cell reconstruction from these inputs. The findings identify limitations of retrospective single-cell reconstruction from the available binned inputs, not the impossibility of cell-resolved analysis from suitable original data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

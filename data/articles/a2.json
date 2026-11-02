@@ -6379,6 +6379,52 @@
       "curated_categories": []
     },
     {
+      "id": "a2f7180472abb6e75c0d715aa9d469869f079b55fb87a40828d4121acc170c69",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762916v1",
+        "https://doi.org/10.64898/2026.10.29.762916",
+        "https://openalex.org/W7225057577",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.29.762916.source.xml"
+      ],
+      "title": "Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles",
+      "link": "https://doi.org/10.64898/2026.10.29.762916",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762916v1.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kao",
+          "name": "Kao, T.-Y"
+        },
+        {
+          "key": "meiler",
+          "name": "Meiler, J"
+        },
+        {
+          "key": "mchaourab",
+          "name": "Mchaourab, H. S"
+        }
+      ],
+      "abstract_text": "Biological function entails the interconversion of a protein between distinct conformations, an equilibrium modulated by ligands and other physicochemical conditions. Double electron-electron resonance (DEER) spectroscopy captures these ensembles as distance distributions, P(r), between spin label pairs. However, the width of P(r) convolves protein conformational heterogeneity with the rotameric flexibility of the label. Because current spin label models overestimate this contribution, translating P(r) into ensembles has remained indirect and predominantly qualitative. Here, we developed spin-center (SC) diffusion, a differentiable model of the spin label with a tunable spin label rotameric width. Coupled to a frozen Boltz-2 structure generator, SC diffusion enables the entire experimental P(r) to guide ensemble generation at inference time. We demonstrate the robustness of this pipeline on synthetic P(r) of known composition, recovering the ensemble populations, including both components of a bimodal profile. Guided by experimental P(r) measured under different biochemical conditions, ensembles of the transporters PfMATE, LmrP, MhsT and P-glycoprotein were modeled and free energy differences derived from the ensembles in a condition-dependent manner. By embedding a differentiable label model in structure generation, our approach interprets DEER distributions as weighted conformational ensembles, adding a missing thermodynamic grounding to generative protein structure prediction methods.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a2fa7edc2ad44cd4a731591579545422964859ee2138c722da2fc580ad2205b1",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00250-3",

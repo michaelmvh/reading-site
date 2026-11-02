@@ -1408,6 +1408,54 @@
       "curated_categories": []
     },
     {
+      "id": "6258bb4cd763cb42dd827a53b63800d45c7d4c37b3d8423d9a767296601cd825",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.20.752837v2",
+        "https://doi.org/10.64898/2026.09.20.752837",
+        "https://www.biorxiv.org/content/early/2026/09/25/2026.09.20.752837.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.09.20.752837.source.xml"
+      ],
+      "title": "MCseg: AI agent-guided workflow search for no-code cell segmentation and transcript attribution in spatial transcriptomics",
+      "link": "https://doi.org/10.64898/2026.09.20.752837",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752837v2.full.pdf",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chan",
+          "name": "Chan, C.-R"
+        },
+        {
+          "key": "chang",
+          "name": "Chang, N.-W"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, C.-Y"
+        },
+        {
+          "key": "tan",
+          "name": "Tan, H.-Y"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, S.-J"
+        }
+      ],
+      "abstract_text": "Cell-level analysis of high-resolution spatial transcriptomics depends on accurate segmentation and transcript assignment, yet current workflows often trade transcript capture for boundary purity and can require substantial image-analysis expertise. We developed MCseg, a downloadable no-code platform whose fixed segmentation engine was derived by an AI-agent-guided search in which an AI agent iteratively proposed and evaluated combinations of image-processing and segmentation operations against Xenium-derived cell boundaries. In a lung adenocarcinoma development set, fixed-parameter MCseg increased mean panoptic quality from 0.432 to 0.472 relative to an Optuna-tuned two-diameter Cellpose baseline, while a reference-guided calibration analysis reached 0.554. In an independent expert-annotated colorectal cancer region, MCseg showed higher lineage recall and micro-F1 than the StarDist-based ENACT workflow among cells covered by both methods. Across 15 colorectal cancer regions, MCseg increased neighborhood expression discordance and reduced lineage-exclusive co-expression relative to Space Ranger at similar UMI density. The fixed workflow also transferred to fresh-frozen breast cancer without tissue-specific architecture search, illustrating an agent-guided route to reproducible, locally deployable cell-level spatial transcriptomic analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "625d4bdde927c87e7f6d91ef08e00d3dabec0657b61a55a32d375f3c80620af9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71703-6",

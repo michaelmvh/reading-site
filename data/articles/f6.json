@@ -4002,13 +4002,15 @@
       "id": "f6c025ada50403d3c5052a9486d55ded3b39f39c9431b94815e143557674d139",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.21.760457v1",
+        "biorxiv:10.64898/2026.10.21.760457v2",
         "https://doi.org/10.64898/2026.10.21.760457",
-        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760457.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/26/2026.10.21.760457.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/01/2026.10.21.760457.source.xml"
       ],
       "title": "Mapping bioimage-analysis software adoption in microscopy",
       "link": "https://doi.org/10.64898/2026.10.21.760457",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760457v1.full.pdf",
-      "publication_date": "2026-10-26",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760457v2.full.pdf",
+      "publication_date": "2026-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -4038,7 +4040,7 @@
           "name": "Henriques, R"
         }
       ],
-      "abstract_text": "Most quantitative microscopy measurements pass through image-analysis software, and different programs can return different measurements from the same images. Which programs researchers rely on therefore matters for reproducibility; however, this information lies scattered across the methods sections of the microscopy literature. In this analysis, we show how mentions of 30 software packages changed across 1.7 million full-text microscopy papers published between 2010 and 2025. In 2010, 12% of these papers mentioned at least one of the 22 analysis packages we tracked; by 2025, 30% did. Mentions stayed concentrated on a few general-purpose platforms, led by ImageJ/Fiji. Newer packages are mentioned more often in particular fields, such as QuPath in pathology and napari in electron microscopy. Deep-learning methods are usually mentioned alongside an established platform; papers often run StarDist inside Fiji and Cellpose on its own. Many papers mention a package without citing it, so citation counts understate how often packages appear in published work; authors should make that use visible by citing each package and reporting how they ran it.",
+      "abstract_text": "Most quantitative microscopy measurements pass through image-analysis software, and different programs can return different measurements from the same images. Which programs researchers rely on therefore matters for reproducibility; however, this information lies scattered across the methods sections of the microscopy literature. We tracked 32 software entries across 1.7 million full-text microscopy papers published between 2010 and 2025. In 2010, 15% of these papers mentioned at least one of the 23 analysis packages in our aggregate; by 2025, 31% did. Mentions stayed concentrated on a few general-purpose platforms, led by ImageJ/Fiji. Papers mentioning newer packages more often use the vocabulary of particular fields, such as pathology terms with QuPath and electron-microscopy terms with napari. Deep-learning methods are usually mentioned alongside an established platform; in sampled papers, StarDist often ran inside Fiji and Cellpose on its own. Many papers mention a package without citing it, so citation counts understate how often packages appear in published work; authors should make that use visible by citing each package and reporting how they ran it.",
       "discovery_sources": [
         {
           "kind": "biorxiv",
@@ -4123,6 +4125,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f6c5a6e01f49d23666ff1ef07ebbed73a18970e6cfd7f520474254d70590e606",
+      "identity_keys": [
+        "arxiv:2605.13504",
+        "https://doi.org/10.48550/arXiv.2605.13504"
+      ],
+      "title": "Structural identifiability of partially-observed stochastic processes: from single-particle trajectories to total particle density data",
+      "link": "https://doi.org/10.48550/arXiv.2605.13504",
+      "pdf_url": "https://arxiv.org/pdf/2605.13504",
+      "publication_date": "2026-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "arianna ceccarelli",
+          "name": "Arianna Ceccarelli"
+        },
+        {
+          "key": "alexander browning",
+          "name": "Alexander P. Browning"
+        },
+        {
+          "key": "baker ruth",
+          "name": "Ruth E. Baker"
+        }
+      ],
+      "abstract_text": "The increasing availability of experimental data has intensified interest in calibrating stochastic models, raising fundamental questions about parameter identifiability. Structural identifiability determines whether parameters can be uniquely recovered from idealised data, a prerequisite to allow for parameter estimation in real-world scenarios. However, there is a lack of methodologies generally applicable to analyse the structural identifiability of such stochastic processes. Therefore, we develop a methodology for a class of spatio-temporal stochastic processes. We investigate how structural identifiability depends on the type of available data, distinguishing between single-particle trajectories and total particle density measurements. For trajectory data, we use a particle-based description that explicitly represents single-particle dynamics. For population-level data, we derive a partial differential equation representation, that describes the evolution of total particle density, and apply a differential algebra approach, common to ordinary differential equation analysis. We further introduce Taylor-series-expansion and Fourier-transform approaches to study the initial condition. We apply our methodology to an example model with a specified class of initial conditions. We show that the model is globally structurally identifiable given infinitely many, infinitely long single-particle trajectories, but only locally structurally identifiable from total particle density data, demonstrating that parameter identifiability depends on the type of data available.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
