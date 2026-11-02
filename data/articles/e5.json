@@ -2686,6 +2686,57 @@
       "curated_categories": []
     },
     {
+      "id": "e57dfee7e6a867c909e767396da64e4b3f24cd0416d621735a99afae7e836676",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763100v1",
+        "https://doi.org/10.64898/2026.10.30.763100",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.30.763100.source.xml"
+      ],
+      "title": "SpaceBlocks: an expert-supervised workflow for cohort-level spatial transcriptomics analysis",
+      "link": "https://doi.org/10.64898/2026.10.30.763100",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763100v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "oterino sogo",
+          "name": "Oterino-Sogo, S"
+        },
+        {
+          "key": "mechkouri",
+          "name": "Mechkouri, N"
+        },
+        {
+          "key": "garcia ruano",
+          "name": "Garcia-Ruano, D"
+        },
+        {
+          "key": "groppi",
+          "name": "Groppi, A"
+        },
+        {
+          "key": "rezvani",
+          "name": "Rezvani, H.-R"
+        },
+        {
+          "key": "nikolski",
+          "name": "Nikolski, M"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics (ST) has become a central tool in tissue biology, with multiple technologies addressing the issue from a different angle. Each platform imposes its own raw data format conventions, and few workflows address reproducible, scalable, cohort-level analyses while integrating expert-supervised decisions to strengthen computational and biological provenance. In this work, we present SpaceBlocks, a Snakemake workflow for reproducible cohort-level analysis of single-cell resolution-ST data that prioritizes expert supervision over full automation. SpaceBlocks homogenizes heterogeneous platform outputs into a common data format, whose structure is validated to ensure downstream processing. Comprehensive expert supervision is facilitated through per sample quality control and cell type annotation diagnostic visualizations, after which downstream analyses automatically follow. SpaceBlocks also allows the ingestion of technology-agnostic externally formatted data and provides interoperability with existing tools and technologies. We demonstrate the use of SpaceBlocks through the reanalysis of 37 samples from public Visium HD, Xenium 5K and MERSCOPE datasets. SpaceBlocks exhibited processing scalability across the three platforms. This reanalysis identified previously missed cell types in Visium HD and heterogeneous marker gene expression in MERSCOPE, highlighting the need for expert-supervised annotations. Moreover, SpaceBlocks facilitated the identification of differentially expressed genes associated with previously defined multiple sclerosis (MS) spatial domains in MERSCOPE, and transcriptional differences between healthy and malignant colorectal tissues in Visium HD. Together, these findings establish SpaceBlocks as a flexible and reproducible workflow for expert-supervised spatial transcriptomics analysis across technologies and biological cohorts.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e57e45c69f12b2df500fce186e38c7bd0ed3953f406f06a4db32415c34a6f092",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75272-6",
