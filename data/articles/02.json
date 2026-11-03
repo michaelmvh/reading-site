@@ -4876,6 +4876,41 @@
       "curated_categories": []
     },
     {
+      "id": "02d08847f9a8b11ae9d4d1af8c28e987c5c349d1693dc965e83d137bcada75e0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762369v1",
+        "https://doi.org/10.64898/2026.10.27.762369",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.27.762369.source.xml"
+      ],
+      "title": "TSNR: Protein-Specific Signals with Broad Molecular Context for Spatial Protein Prediction",
+      "link": "https://doi.org/10.64898/2026.10.27.762369",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762369v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, X"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, J"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics measures transcriptome-wide gene expression while preserving tissue organization, enabling prediction of spatial protein abundance beyond directly measured antibody panels. Such prediction draws on protein-specific transcript signals at the center spot and broader molecular context from the surrounding tissue. Existing spatial methods increasingly use context, but what molecular information the context should retain and how reliably it transfers across tissue environments remain unclear.We compare predictors that share a protein-specific center representation but differ in contextual molecular scope. Their transferred risk difference admits a value-mismatch characterization: broader context is favored when its target-side value advantage exceeds the corresponding change in source-to-target transfer mismatch. For convex prediction objectives, we further relate mismatch to cross-environment estimating-score variation; squared loss yields an explicit covariance geometry. This analysis motivates broad molecular context together with bounded-score robust regression. We develop Target-Specific Niche Regression (TSNR), which combines a protein-specific center representation, compact broad molecular context, and a protein-specific Huber regressor.On the six-section Spatial-CITE-seq benchmark, TSNR achieves the highest mean macro Spearman correlation among the reproduced methods under matched biological holdout evaluation. Controlled analyses support both broader context and robust regression. Across two independent external cohorts, protein-level broad-context gains are positively rank-correlated with the value-mismatch balance in all 11 held-out biological folds.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "02d0d01926c1adba1300903fb53d87824998b98dd7ddd008d27c7f4e8514b7a9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72893-9",

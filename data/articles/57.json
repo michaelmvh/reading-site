@@ -1200,6 +1200,73 @@
       "curated_categories": []
     },
     {
+      "id": "573ee8cdfe634bb1d9afc4de2b0f6012c7b0a436d6ad6d4870ede5112eba3ced",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762742v1",
+        "https://doi.org/10.64898/2026.10.29.762742",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.29.762742.source.xml"
+      ],
+      "title": "A multidimensional benchmark of confounder-aware differential abundance strategies for single- and multi-cohort microbiome studies",
+      "link": "https://doi.org/10.64898/2026.10.29.762742",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762742v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhu",
+          "name": "Zhu, X"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, L"
+        },
+        {
+          "key": "cao",
+          "name": "Cao, Y"
+        },
+        {
+          "key": "sheng",
+          "name": "Sheng, Y"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, B"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, D"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, G"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, G"
+        },
+        {
+          "key": "jiao",
+          "name": "Jiao, N"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, R"
+        }
+      ],
+      "abstract_text": "Confounding is a pervasive challenge in microbiome differential abundance analysis (DAA), yet systematic benchmarks of confounder-aware DAA remain lacking. Existing benchmarks have also largely evaluated statistical methods or analytical components in isolation rather than the complete analytical strategies used in practice. We evaluated 71 single-cohort strategies spanning default and extended input configurations using 2,500 real-data-informed simulations, reference-based recovery of established biological signals and resampling-based within-dataset consistency; benchmark-prioritized strategies were further assessed for stability under systematic perturbations. We further evaluated 63 multi-cohort extensions using simulations with cohort heterogeneity and empirical datasets. Covariate adjustment improved false-discovery control at the cost of reduced sensitivity, while performance also depended strongly on the specific combination of preprocessing procedure and statistical model. Different strategies were favored across benchmark dimensions and analytical objectives. ANCOM-BC2_CSS and edgeR_CSS were favored for high-confidence, perturbation-stable inference, whereas ANCOM-BC2_count and ANCOM-BC2_TMM provided more balanced performance. In multi-cohort settings, mega-analysis provided the strongest overall balance when individual-level data were available: ANCOM-BC2_CSS_Mega and edgeR_CSS_Mega showed stronger accuracy performance, whereas ANCOM-BC2_TMM_Mega and ANCOM-BC2_count_Mega showed greater cross-cohort consistency. We implemented these findings in xConDA, an interactive web server linking analytical objectives and study designs to benchmark-prioritized, confounder-adjusted microbiome DAA workflows.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "57405e2e0ac8ea87bd96c21df18069fb9d43e44d8e1d88dc38e5b50eb9dfea5c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68874-7",
