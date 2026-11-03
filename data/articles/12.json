@@ -6172,6 +6172,41 @@
       "curated_categories": []
     },
     {
+      "id": "12fb560e8a878a3257c277b5e77b7ca24655308d363aa2fecd51e03b94d87206",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.16.759698v1",
+        "https://doi.org/10.64898/2026.10.16.759698",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.16.759698.source.xml"
+      ],
+      "title": "VIGAT: VLM-guided gene activity quantification from single-cell ATAC-seq",
+      "link": "https://doi.org/10.64898/2026.10.16.759698",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759698v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ji",
+          "name": "Ji, B"
+        },
+        {
+          "key": "ji",
+          "name": "Ji, Z"
+        }
+      ],
+      "abstract_text": "Summary: Gene activity quantification from single-cell ATAC-seq is challenging because genomic regions informative of cell identity can vary across genes and tissues, while broadly accessible regions may provide limited cell-type-discriminative information. We developed VIGAT, a vision-language model (VLM)-guided tool that automates visual interpretation of ATAC coverage plots for adaptive gene activity quantification. VIGAT jointly examines accessibility patterns across multiple marker genes, integrating genomic annotations and biological context to select gene-specific regions enriched for cluster-discriminative signals. Selected regions are used to generate a gene-by-cell activity matrix. Across 196 paired single-cell RNA-seq and ATAC-seq datasets, VIGAT outperformed five existing methods in recovering marker-associated accessibility enriched in the corresponding cell populations, demonstrating the utility of VLM-guided visual reasoning for scalable gene activity quantification. Availability and implementation: VIGAT is implemented as an open-source R package and is freely available at https://github.com/beijie02/VIGAT.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "12fb735f53e8eaf177d7cc0292437553365e71b4458faf64fde9c52e9299a8bb",
       "identity_keys": [
         "biorxiv:10.1101/2023.03.23.534023v3",

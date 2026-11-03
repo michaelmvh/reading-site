@@ -4345,6 +4345,45 @@
       "curated_categories": []
     },
     {
+      "id": "cbebcb196a4c462bfc235639ca982428de9087647e959ceaddea9aa825a5e0e0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762654v1",
+        "https://doi.org/10.64898/2026.10.28.762654",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.28.762654.source.xml"
+      ],
+      "title": "scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus",
+      "link": "https://doi.org/10.64898/2026.10.28.762654",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "peng",
+          "name": "Peng, Y"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, L"
+        },
+        {
+          "key": "ge",
+          "name": "Ge, H"
+        }
+      ],
+      "abstract_text": "\\textbf{Motivation: }Single-cell Hi-C (scHi-C) technologies enable the study of three-dimensional (3D) genome organization at individual-cell resolution. Many computational methods have been developed to infer hierarchical structures from scHi-C data. However, annotating chromatin subcompartments from sparse scHi-C data remains a challenge. The recently developed scGHOST provides a framework for single-cell subcompartment annotation, but relies on a deep learning-based architecture, a multi-step upstream pipeline involving cell embedding and matrix imputation, and cross-cell information sharing. These features complicate algorithmic interpretation and make the annotation of an individual cell dependent on information from other cells in the dataset. Hence, methods are needed that annotate subcompartments directly from an individual cell's own contact matrix, without complex upstream processing or cross-cell information sharing. \\textbf{Results: }We developed scSTEC, a computational framework that annotates subcompartments directly from an individual scHi-C matrix without data imputation, complex upstream processing, or cross-cell data sharing. We show that the estimated inter-chromosomal matrix constructed by scGHOST is intrinsically of rank 2, revealing that the geometry relevant to clustering can be represented in two dimensions. Leveraging this low-dimensional structure, scSTEC performs direct subcompartment annotation through 2D genomic embedding and chromosome-wise consensus. Across bulk Hi-C, downsampled simulations, and real scHi-C datasets (four human cell lines, adult mouse cortex, developing mouse embryos, and developing olfactory sensory neurons), scSTEC achieves subcompartment annotations comparable to scGHOST despite operating on each cell independently, while providing greater algorithmic interpretability. Furthermore, subcompartments identified by scSTEC effectively resolve cell types, capture developmental dynamics, and show consistent associations with gene expression and epigenetic profiles. \\\\textbf{Availability: }scSTEC is freely available at \\url{https://github.com/Ge-lab-pku/scSTEC}.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cbedcbb0d42e5224f6d3c731a8be3491e79a6e7560c703575100e881b0e8bc4e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78398-9",

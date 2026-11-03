@@ -2751,6 +2751,49 @@
       "curated_categories": []
     },
     {
+      "id": "628a6862a02955e4eff7a440076f3537b40ee5c001d954a71faf9bd2f8e31581",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762447v1",
+        "https://doi.org/10.64898/2026.10.29.762447",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.29.762447.source.xml"
+      ],
+      "title": "Unsupervised prioritization of gene-regulatory variants with isolation forests",
+      "link": "https://doi.org/10.64898/2026.10.29.762447",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762447v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "schmidt",
+          "name": "Schmidt, A. W"
+        },
+        {
+          "key": "rosendahl",
+          "name": "Rosendahl, J"
+        },
+        {
+          "key": "laumen",
+          "name": "Laumen, H"
+        },
+        {
+          "key": "ossowski",
+          "name": "Ossowski, S"
+        }
+      ],
+      "abstract_text": "Most common variants occur in non-coding genomic regions. Numerous expression quantitative trait loci (eQTLs) can influence nearby gene expression. Across diverse traits and diseases, many genome-wide association study (GWAS) loci have been shown to colocalize with eQTLs, supporting gene-regulatory causal mechanisms. However, linkage disequilibrium (LD) obscures the identification of the causal variant(s), necessitating prioritization by functional annotations. Previously published variant prioritization tools relied on the machine-learning-based combination of diverse feature types like evolutionary conservation and chromatin information, whereas more recent deep learning tools learn and describe gene-regulatory DNA sequence grammar. However, the latter approaches often generate a large number of scores per variant. We designed a novel unsupervised machine-learning approach based on isolation forests to integrate the predictions from the broadly used Enformer deep learning model into a single gene-regulatory predictive score for each common variant. Our novel approach eQTL prediction with isolation forests (eQIF) demonstrates strong performance in predicting eQTLs and gene-regulatory GWAS variants. We show that top eQIF variants are located in evolutionarily conserved transcription factor binding site (TFBS) footprints, and that the frequency of top eQIF variants within overrepresented TFBS motifs recapitulates the motif information content. eQIF predictions are precomputed for 9,431,969 common variants and publicly available.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "628ba2d8bc82681189a846e4b650988e07aee9ec1b7dbc75758160e255685d96",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65084-5",

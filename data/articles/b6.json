@@ -1331,6 +1331,57 @@
       "curated_categories": []
     },
     {
+      "id": "b65e6021f3aeb55058506c27dc8be7137ea639bdee26cef8f48abc7234b0194a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.27.762387v1",
+        "https://doi.org/10.64898/2026.10.27.762387",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.27.762387.source.xml"
+      ],
+      "title": "Improving real-time search through deep learning-enhanced fragment ion indexing",
+      "link": "https://doi.org/10.64898/2026.10.27.762387",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762387v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "eng",
+          "name": "Eng, J"
+        },
+        {
+          "key": "hoopmann",
+          "name": "Hoopmann, M"
+        },
+        {
+          "key": "schweppe",
+          "name": "Schweppe, D. K"
+        },
+        {
+          "key": "maccoss",
+          "name": "MacCoss, M. J"
+        },
+        {
+          "key": "noble",
+          "name": "Noble, W. S"
+        },
+        {
+          "key": "wen",
+          "name": "Wen, B"
+        }
+      ],
+      "abstract_text": "The fragment ion indexed database searching approach enables highly efficient tandem mass spectrometry database searches, including real-time search workflows. However, the index can require tens of gigabytes of memory, often exceeding the free memory available on instrument acquisition computers running the search. This restricts the size of the searchable database, the variable modification space, and the number of searches that can run concurrently. To address this problem, we developed an index-pruning pipeline within the Comet database search tool using Carafe, a deep learning tool that predicts fragment ion intensities based on peptide sequences. In our approach, only fragment ion positions that are predicted to be observable are written in the index, eliminating entries that are unlikely to contribute to spectrum detection. We evaluated this approach on two search spaces in three index configurations to demonstrate that masking significantly reduced the number of fragment ion index entries and, consequently, peak search memory use. Masked searches were also faster than unmasked searches and identified a comparable number of peptide-spectrum matches. Because all prediction and masking steps are performed before searching, their cost is amortized across repeated, future searches of the same database and modification configuration, introducing no per-spectrum search overhead. The complete implementation is open source with an Apache license.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b66058090c04679ad26a10496de18b4f2b3061d7c0a0a7a37ae7600676eb7d08",
       "identity_keys": [
         "https://doi.org/10.1016/j.ijbiomac.2025.149737",

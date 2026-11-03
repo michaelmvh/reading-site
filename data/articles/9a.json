@@ -531,6 +531,41 @@
       ]
     },
     {
+      "id": "9a1584b664602f6aadcc9173a041a11e4cf8bae8605d50462b02531bac596141",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762524v1",
+        "https://doi.org/10.64898/2026.10.28.762524",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.28.762524.source.xml"
+      ],
+      "title": "ssGSEA3.0: Feature-Level Bootstrap Resampling for Robust Assessment of Statistical Significance",
+      "link": "https://doi.org/10.64898/2026.10.28.762524",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762524v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "clark",
+          "name": "Clark, N. M"
+        },
+        {
+          "key": "mani",
+          "name": "Mani, D. R"
+        }
+      ],
+      "abstract_text": "Motivation Single-sample Gene/Post-Translational Modification Set Enrichment Analysis (ssGSEA/PTM-SEA) methods assess pathway or signature activity per sample using permutation-based significance testing. ssGSEA2.0's weighted scoring (ssGSEA2.0-orig) uses a correlation-vector reordering that inflates false positives at nonzero weight; directly fixing this (ssGSEA2.0-fixed) restores null-distribution calibration but sacrifices detection power at nonzero weight. Results ssGSEA3.0 replaces feature-label (gene- or site-level) permutation with feature-level bootstrap resampling, which remains calibrated across weighting schemes. On published lung adenocarcinoma and phosphoproteomic perturbation datasets, ssGSEA3.0 shows greater detection power than ssGSEA2.0-fixed, with an additional gain for directional (PTM-SEA) scoring. Previously published findings remain robust across methods, including at nonzero weight. Bootstrapping adds a ~1.5- to 2-fold computational cost. Availability and Implementation ssGSEA3.0 is implemented as an open-source R package (github.com/broadinstitute/ssGSEA3.0, DOI: 10.5281/zenodo.23734262) and includes the worked examples on biological data presented here.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9a19c075740b0130cb35e7026cc1752fb93c115448fffe86e856e6f73c54fc7b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66631-w",
