@@ -106,6 +106,89 @@
       "curated_categories": []
     },
     {
+      "id": "a70632447945b234f39c06df651cb38e989aed288a970ced7a1c7098f30d46d3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762558v1",
+        "https://doi.org/10.64898/2026.10.28.762558",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.28.762558.source.xml"
+      ],
+      "title": "DEEPNET-LLM: Highly accurate structure prediction of unknown metabolites from mass spectra via their molecular neighborhoods",
+      "link": "https://doi.org/10.64898/2026.10.28.762558",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762558v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "melnik",
+          "name": "Melnik, A. V"
+        },
+        {
+          "key": "roberts",
+          "name": "Roberts, A. M. P"
+        },
+        {
+          "key": "semenov",
+          "name": "Semenov, A"
+        },
+        {
+          "key": "moradi",
+          "name": "Moradi, D"
+        },
+        {
+          "key": "coler",
+          "name": "Coler, E. A"
+        },
+        {
+          "key": "goldstein",
+          "name": "Goldstein, J"
+        },
+        {
+          "key": "ojha",
+          "name": "Ojha, B"
+        },
+        {
+          "key": "swift",
+          "name": "Swift, N. J"
+        },
+        {
+          "key": "demirovic",
+          "name": "Demirovic, S"
+        },
+        {
+          "key": "peczuh",
+          "name": "Peczuh, M. W"
+        },
+        {
+          "key": "horvath",
+          "name": "Horvath, T. D"
+        },
+        {
+          "key": "engevik",
+          "name": "Engevik, M. A"
+        },
+        {
+          "key": "boginski",
+          "name": "Boginski, V"
+        },
+        {
+          "key": "aksenov",
+          "name": "Aksenov, A. A"
+        }
+      ],
+      "abstract_text": "Most molecular features detected by untargeted mass spectrometry-based metabolomics remain unannotated. This so-called 'dark matter' currently comprises more than 90% and likely holds uncharacterized bioactive chemistry. Structure prediction from fragmentation spectra remains an outstanding challenge, because a spectrum does not uniquely determine a structure and the space of candidate structures is mostly unbounded; correspondingly, existing methods rarely return the correct de novo structure as their top prediction. Here we describe De novo Ego network-Enabled Propagation and Neighborhood Extrapolation of Topology using Large Language Models (DEEPNET-LLM) reasoning approach, which uses Molecular Community Networking (MCN) to restrict the search of a query spectrum to its local neighborhood within the global metabolome, and applies AI reasoning to propagate structural information from neighbors to the query. For a collection of 900 authentic standards (2,249 spectra) that have never been publicly released to exclude possibility of data leakage, DEEPNET-LLM returned the correct structure as its top prediction for 84.7% of spectra. Accuracy was independent of precursor mass across a range over which the number of candidate structures grows by 30 orders of magnitude, and was comparable across ion polarity, adducts and in-source fragmentation. On a random subset of the public MassSpecGym benchmark, DEEPNET-LLM reached 85.9% top-1 accuracy excluding stereochemistry. We showcase the use of DEEPNET-LLM with an example of a discovery of tryptamine amidate of a bile acid in mouse gut, confirmed against a synthetic standard. The DEEPNET-LLM approach is orthogonal to existing in silico methods and can be combined with them.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a707edd55acb9416db97ccf5f32c3dc2793c8e7746b878c302dbc781237ef48e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66671-2",

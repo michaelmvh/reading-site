@@ -2653,6 +2653,41 @@
       "curated_categories": []
     },
     {
+      "id": "467c8f5352c85d373a3ff8b9ef6bef4855538f9af45a777e4b7dcdc3eedabaab",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.761563v1",
+        "https://doi.org/10.64898/2026.10.28.761563",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.28.761563.source.xml"
+      ],
+      "title": "FastaGuard: FASTA preflight QC for modern bioinformatics pipelines",
+      "link": "https://doi.org/10.64898/2026.10.28.761563",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.761563v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "estaji",
+          "name": "Estaji, E"
+        },
+        {
+          "key": "mao",
+          "name": "Mao, J.-F"
+        }
+      ],
+      "abstract_text": "Summary: FastaGuard is a streaming, explainable FASTA preflight QC tool that validates assembly FASTA files, detects structural and composition red flags, and emits a versioned multi-format report with an explicit pipeline gate before expensive downstream analysis. We evaluated v1.1.0 in four analyses whose design was fixed before data collection. On 700 public NCBI assemblies the pipeline gate stopped 19.7% (1.9% weighted to the population), always on its high-N rule and mostly in scaffold-level genomes; the NCBI submission gate stopped 2.0%, and an independent recount confirmed every stop. Among 1,040 faults injected into real assemblies, the NCBI gate flagged 520 of 520 in 13 error classes (table2asn: 280 at error level) and blocked none of 120 benign changes. Across seven downstream tools, 46 of 182 defect cells failed and 12 altered the records without a warning, all in classes the pipeline gate blocks. Stopping a mismatched reference at the gate avoided about 54-62 s of mapping and sorting at a cost of 0.05-0.06 s. Availability and Implementation: Source code and documentation are freely available under the MIT license at https://github.com/ehsanestaji/FastaGuard (release tag v1.1.0: https://github.com/ehsanestaji/FastaGuard/releases/tag/v1.1.0; archived at doi:10.5281/zenodo.23728753). Install via Bioconda (mamba install -c conda-forge -c bioconda fastaguard=1.1.0), BioContainers, or GitHub release binaries. Implemented in Rust; supported on Linux and macOS, including Bioconda builds for linux-64, linux-aarch64, osx-64, and osx-arm64. Contact: ehsan.estaji@umu.se; jianfeng.mao@umu.se Supplementary information: Supplementary Note (designs, all results, deviations from the pre-registered protocol); scripts, manifests and result tables at Zenodo, doi:10.5281/zenodo.23729530.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4684bcec90792c1bcb7333e2d5127138f30df9d979762da59b97d4994e54b5f4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70037-7",

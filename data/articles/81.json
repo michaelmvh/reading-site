@@ -3316,6 +3316,49 @@
       "curated_categories": []
     },
     {
+      "id": "81a4c12a9bd4314081a47599f8d2c82472a16c15ab21c3d4a64f0c9497594cc7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.28.762420v1",
+        "https://doi.org/10.64898/2026.10.28.762420",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.28.762420.source.xml"
+      ],
+      "title": "Ark-ADMET: endpoint-specific selection of molecular representations and hyperparameters for gradient-boosted ADMET models under the Therapeutics Data Commons benchmark protocol",
+      "link": "https://doi.org/10.64898/2026.10.28.762420",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762420v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "shi",
+          "name": "Shi, Y"
+        },
+        {
+          "key": "luo",
+          "name": "Luo, H"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, F"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, S"
+        }
+      ],
+      "abstract_text": "Typical submissions to the Therapeutics Data Commons (TDC) absorption, distribution, metabolism, excretion, and toxicity (ADMET) benchmark leaderboard apply a single architecture and a single feature representation across all 22 endpoints, despite substantial heterogeneity in evaluation metric, training-set size, and class balance. Rather than proposing a new architecture, we show that endpoint-specific selection of molecular representations and CatBoost hyperparameters, carried out under the official TDC ADMET benchmark protocol, is a competitive alternative to that uniform recipe. For each endpoint, a fixed CatBoost backbone was paired with configurations chosen from a common candidate set comprising published fingerprints and physicochemical descriptors, truncated three-dimensional PaDEL descriptors, frozen graph isomorphism network (GIN) and MiniMol embeddings, and a convex combination with a shallow network trained on the MiniMol embedding alone. All feature and hyperparameter choices were made on an internal scaffold validation split under a prespecified strict-improvement rule. Against a frozen snapshot of the public leaderboard, the resulting Ark-ADMET family of 22 endpoint-specific models matched or exceeded the best previously listed score on 7 of 21 rankable endpoints and strictly exceeded it on 3. All selected configurations retain the baseline fingerprint-and-descriptor block; optional components differ across endpoints. Taken together, these results show that competitive performance on this benchmark can be achieved without a new architecture or a single optional representation shared across all endpoints.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "81a4dafa8ad89a21d9dd2e0762782d83a2cbbb1825889b374554b60aeb2f8bfe",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02089-0",
