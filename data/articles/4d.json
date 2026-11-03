@@ -3919,6 +3919,57 @@
       "curated_categories": []
     },
     {
+      "id": "4ddf5a95344fb54f69df063ac703f39ab439e514e156d898e13927f92e195292",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.31.763369v1",
+        "https://doi.org/10.64898/2026.10.31.763369",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.31.763369.source.xml"
+      ],
+      "title": "Consensus methods for trees of blobs and level-1 phylogenetic networks",
+      "link": "https://doi.org/10.64898/2026.10.31.763369",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763369v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wicke",
+          "name": "Wicke, K"
+        },
+        {
+          "key": "banos",
+          "name": "Banos, H"
+        },
+        {
+          "key": "holtgrefe",
+          "name": "Holtgrefe, N"
+        },
+        {
+          "key": "allman",
+          "name": "Allman, E. S"
+        },
+        {
+          "key": "ane",
+          "name": "Ane, C"
+        },
+        {
+          "key": "gascuel",
+          "name": "Gascuel, O"
+        }
+      ],
+      "abstract_text": "Phylogenetic networks are increasingly used to represent evolutionary histories involving hybridization, introgression, and other reticulate processes that cannot be captured by a single tree. Recent advances have produced numerous methods for inferring networks from genomic data. These methods may produce multiple plausible networks due to optimality ties, bootstrap analyses, Bayesian posterior samples, or differences in tools, datasets, and parameters. While consensus methods are well established for trees and some approaches exist for rooted networks, no consensus framework currently exists for semi-directed (unrooted) networks. We address this gap by introducing a new consensus framework for phylogenetic networks, rooted or semi-directed. We first develop a method for constructing a consensus tree of blobs, taking as input networks of any complexity. Building on this approach, we construct a consensus for level-1 networks (i.e., networks with non-overlapping cycles). This method, called 'L1N consensus', takes a collection of level-1 networks as input and returns a level-1 network. The different components of this consensus network (e.g., blobs, hybrid clades, and edges) have support values that correspond to the frequency of the given component among the input networks. These methods are implemented in PhyloSummaries, building on the foundation of PhyloNetworks. We evaluate the performance of L1N consensus using large-scale simulated data. Our results demonstrate that L1N consensus outperforms existing methods in the rooted setting in terms of informativity and accuracy. Similar results are obtained in the semi-directed setting. Applying L1N consensus to Leopardus and HIV datasets confirms these findings and demonstrates the usefulness of the method.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4de561fdcfadf8e44043b3eb0162946f04ee8b21618f36b70e86b7d46e3d9cbe",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67449-2",

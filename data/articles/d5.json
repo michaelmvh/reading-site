@@ -997,6 +997,53 @@
       "curated_categories": []
     },
     {
+      "id": "d52341dcd7c413438e70b53d45e25d4050947db72dc9a2a0b05134c01ca36b42",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.01.763453v1",
+        "https://doi.org/10.64898/2026.11.01.763453",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.11.01.763453.source.xml"
+      ],
+      "title": "irAEGIS: Pathway-guided interpretable prediction of immune-related adverse events",
+      "link": "https://doi.org/10.64898/2026.11.01.763453",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763453v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "budhkar",
+          "name": "Budhkar, A"
+        },
+        {
+          "key": "guo",
+          "name": "Guo, S"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, X"
+        },
+        {
+          "key": "su",
+          "name": "Su, J"
+        },
+        {
+          "key": "song",
+          "name": "Song, Q"
+        }
+      ],
+      "abstract_text": "Immune-related adverse events (irAEs) are major complications of immune checkpoint inhibitor (ICI) therapy and remain difficult to predict prior to treatment initiation. Single-cell RNA sequencing (scRNA-seq) provides a unique opportunity to characterize immune states associated with future irAE development. However, translating single-cell measurements into accurate and biologically interpretable patient-level risk predictions remains challenging. Existing approaches typically aggregate cellular profiles into patient-level summaries, thereby obscuring cell type specific signals, or rely on complex deep-learning architectures that offer limited insight into the biological pathways and mechanisms underlying their predictions. Here, we present irAEGIS, a pathway-guided interpretable model for predicting irAE risk from pre-treatment scRNA-seq data. irAEGIS incorporates prior biological knowledge through gene set constrained representation learning, aggregates pathway activities within individual cell types, and integrates cell type specific risk signals through a hierarchical prediction framework. This design enables predictions to be decomposed into contributions from individual cell types, pathways, and genes, providing interpretable explanations across multiple biological resolutions. Across simulated datasets and independent pre-treatment ICI cohorts, irAEGIS consistently outperformed seven existing methods. Beyond predictive performance, irAEGIS identified biologically coherent immune programs associated with irAE risk. In non-small cell lung cancer, irAEGIS highlighted neutrophil-associated inflammatory pathways linked to future irAE development, whereas in melanoma, it identified apoptotic and immune activation pathways in CD8+ NKT-like cells associated with severe irAEs. These findings were independently supported by pathway enrichment, cell-cell communication, and trajectory analyses. Together, irAEGIS provides a biologically informed and interpretable model for linking single-cell immune states to patient outcomes, enabling both accurate risk prediction and mechanistic insight into immune-related adverse events. More broadly, irAEGIS establishes a general strategy for interpretable phenotype prediction and biological discovery from single-cell transcriptomic data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d529b7af15ceb24076c25890bd50e95c0ff56376312c8c3cc046c7c3236c78ec",
       "identity_keys": [
         "https://doi.org/10.25675/3.027493",

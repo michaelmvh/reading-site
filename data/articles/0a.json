@@ -3867,6 +3867,40 @@
       "curated_categories": []
     },
     {
+      "id": "0a91319200bf71c5c10e85654ec6b159aeddc66c7caf2698f8d79ddf1389812b",
+      "identity_keys": [
+        "arxiv:2605.07746",
+        "https://doi.org/10.48550/arXiv.2605.07746"
+      ],
+      "title": "Flow Matching for Count Data",
+      "link": "https://doi.org/10.48550/arXiv.2605.07746",
+      "pdf_url": "https://arxiv.org/pdf/2605.07746",
+      "publication_date": "2026-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ganchao wei",
+          "name": "Ganchao Wei"
+        },
+        {
+          "key": "john pearson",
+          "name": "John Pearson"
+        }
+      ],
+      "abstract_text": "High-dimensional count data arise in applications such as single-cell RNA sequencing and neural spike trains, where mappings between distributions across successive batches or time points form critical components of data analysis. The recent success of diffusion- and flow-based deep generative models for images, video, and text motivates extending these ideas to count-valued settings, but many existing methods either treat each count as a categorical state or transform counts into a continuous space, neither of which is natural or efficient when the count range is large. We propose count-FM, a flow-matching framework for count data based on a continuous-time birth-death process with local unit jumps. Count-FM learns marginal transitions efficiently in count space through simulation-free training of conditional transition rates, allowing transport between arbitrary count-distributed source and target populations. In simulation, count-FM variants achieve strong sample quality while using substantially fewer parameters. We further apply count-FM to scRNA-seq and neural spike-train data for unconditional generation, transport, and conditional generation. Across these tasks, count-FM yields improved sample quality, greater modeling efficiency, and interpretable transport paths.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0a95d26f21773b0e2172d75f961c4a18ad4f891ead7e51e67759a67c909e0239",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78119-2",

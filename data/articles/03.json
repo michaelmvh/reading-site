@@ -454,6 +454,52 @@
       "curated_categories": []
     },
     {
+      "id": "0323e38441fc12b58e53635756794670a6e71882f574cc389cfd4e4db2e67c26",
+      "identity_keys": [
+        "arxiv:2611.03056",
+        "https://doi.org/10.48550/arXiv.2611.03056"
+      ],
+      "title": "Coupling cellular trajectories and RNA kinetics on continuous expression manifolds with ManifoldVelo",
+      "link": "https://doi.org/10.48550/arXiv.2611.03056",
+      "pdf_url": "https://arxiv.org/pdf/2611.03056v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "zhen zhou",
+          "name": "Zhen Zhou"
+        },
+        {
+          "key": "jiachen li",
+          "name": "Jiachen Li"
+        },
+        {
+          "key": "liu yuan",
+          "name": "Yuan Liu"
+        },
+        {
+          "key": "pan xiaoyong",
+          "name": "Xiaoyong Pan"
+        },
+        {
+          "key": "bin hong shen",
+          "name": "Hong-Bin Shen"
+        }
+      ],
+      "abstract_text": "Jointly recovering pseudotime and RNA velocity from static single-cell transcriptomes requires reconciling global trajectory structure with local expression changes, particularly in complex cycles and branching differentiation. Here we introduce ManifoldVelo, a topology-conditioned framework that jointly learns cellular coordinates, continuous RNA trajectories and regulatory kinetics. Derivatives of unspliced and spliced RNA trajectories are matched to transcription-splicing-degradation dynamics, including between observed cells, allowing expression reconstruction, cellular ordering and kinetic estimation to inform one another. ManifoldVelo recovers pseudotime across all evaluated single-cell trajectory types, including cyclic, multibranch and smooth non-branching trajectories. ManifoldVelo achieves the best pseudotime recovery among compared methods in multipeak cyclic simulations and the highest directional agreement for spliced RNA velocity in both multipeak cyclic and branching simulations. Real-data analyses support phase prediction across experimental plates and differentiation trajectories consistent with pancreatic developmental stages and marker expression. Its central advantage is the joint recovery of temporal position and local dynamics across distinct trajectory structures within a reusable dynamic reference. New cells are assigned pseudotime and velocity predictions from spliced RNA alone, without refitting the reference model. ManifoldVelo provides a foundation for dynamic cell atlases that transfer learned temporal and kinetic information to new samples.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "032779631d3245755bab4f7272b98b8e92c1d7728290318764dcd86745c2ca46",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-09601-y",

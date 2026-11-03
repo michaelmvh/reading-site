@@ -5126,6 +5126,53 @@
       "curated_categories": []
     },
     {
+      "id": "dddb231eff43516ba4883ef9e60d1fcdd033406114f25716e3c0ae740723cba7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.31.763304v1",
+        "https://doi.org/10.64898/2026.10.31.763304",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.31.763304.source.xml"
+      ],
+      "title": "FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction",
+      "link": "https://doi.org/10.64898/2026.10.31.763304",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763304v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "joshi",
+          "name": "Joshi, D"
+        },
+        {
+          "key": "priyadarsinee",
+          "name": "Priyadarsinee, L"
+        },
+        {
+          "key": "chatterjee",
+          "name": "Chatterjee, B"
+        },
+        {
+          "key": "natarajan",
+          "name": "Natarajan, A. M"
+        },
+        {
+          "key": "sastry",
+          "name": "Sastry, G. N"
+        }
+      ],
+      "abstract_text": "Linear B-cell epitopes are antigenic regions recognised by antibodies that play crucial roles in vaccine development, antibody production, and other therapeutic applications.Their prediction can support peptide-based vaccine candidate screening and diagnostic assay development, but the experimental data required for model development may be distributed across institutions that cannot freely pool their records. We present FedEpitope, a federated framework that adapts the ESM-2 protein language model for peptide-level linear B-cell epitope prediction using Low-Rank Adaptation (LoRA), keeping client-partitioned data local and restricting the communicated trainable model state to approximately 1.11 MB. Simulated benchmarks of FedAvg and FedProx algorithms, evaluated using homology-aware data splits of five biologically heterogeneous, organism-partitioned clients, achieve promising global test performance without centralising training data, with FedAvg outperforming all single-client models in mean AP, F1, and MCC. Additional experiments characterise post-federation personalisation, record-level differential privacy, sensitivity to controlled client heterogeneity, LoRA rank, and generalisation to the independent BCPreds and NetBCE benchmarks, demonstrating the feasibility of parameter-efficient federated protein language model adaptation for data-localised B-cell epitope prediction and the associated trade-offs among predictive performance, personalisation, privacy, communication efficiency, and distribution shift.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "dddb4b27b3ab7b08f9a3ab8b538e11ed7fd88b218d7cc631036b3fa680505918",
       "identity_keys": [
         "https://doi.org/10.1016/j.ceja.2026.101185",

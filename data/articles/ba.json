@@ -2099,6 +2099,48 @@
       "curated_categories": []
     },
     {
+      "id": "ba40cc9412f2533ab26064daaaf6eeeb5869a3e3975c576d5d99a19db559b2c0",
+      "identity_keys": [
+        "arxiv:2505.15653",
+        "https://doi.org/10.48550/arXiv.2505.15653"
+      ],
+      "title": "Quantifying structural uncertainty in chemical reaction network inference",
+      "link": "https://doi.org/10.48550/arXiv.2505.15653",
+      "pdf_url": "https://arxiv.org/pdf/2505.15653",
+      "publication_date": "2025-05-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "foo see yong",
+          "name": "Yong See Foo"
+        },
+        {
+          "key": "adriana zanca",
+          "name": "Adriana Zanca"
+        },
+        {
+          "key": "flegg jennifer",
+          "name": "Jennifer A. Flegg"
+        },
+        {
+          "key": "ivo siekmann",
+          "name": "Ivo Siekmann"
+        }
+      ],
+      "abstract_text": "Dynamical systems in biology are complex, and one often does not have comprehensive knowledge about the interactions involved. Chemical reaction network (CRN) inference aims to identify, from observing species concentrations over time, the unknown reactions between the species. Existing approaches such as sparse regularisation largely focus on identifying a single, most likely CRN, without addressing uncertainty about the network structure. However, it is important to quantify structural uncertainty to have confidence in our inference and predictions. In this work, we explore how effective sparse regularisation methods are for quantifying structural uncertainty. Locally optimal solutions to sparse regularisation are mapped to CRN structures; however, it is unclear whether this approach encompasses all plausible CRNs. We find that inducing sparsity with nonconvex penalty functions results in better coverage of the plausible CRNs compared to the popular lasso regularisation. To validate our approach, we apply our methods to real-world data examples, and are able to simultaneously recover reactions proposed across multiple literature sources for a reaction system. Our emphasis on network-level probabilities enables a novel, hierarchical representation of structural ambiguities in the space of CRNs. This representation translates into alternative reaction pathways suggested by the available data, thus guiding the efforts of future experimental design.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ba41c2deeb3b639fa62167f501559a40dbd57fb0945559e213ad4afc922f154d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75210-6",

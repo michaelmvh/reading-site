@@ -1978,6 +1978,44 @@
       "curated_categories": []
     },
     {
+      "id": "a86587ef39f83b1039c0e2d8c5fbf3716c1dfd3dafb399e23c61e6ef292d109a",
+      "identity_keys": [
+        "arxiv:2611.01352",
+        "https://doi.org/10.48550/arXiv.2611.01352"
+      ],
+      "title": "FACET: Feasibility-Automaton Complete Enumeration and Truncation-Free Scoring of Molecular Formulas from MS/MS",
+      "link": "https://doi.org/10.48550/arXiv.2611.01352",
+      "pdf_url": "https://arxiv.org/pdf/2611.01352",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "che xujun",
+          "name": "Xujun Che"
+        },
+        {
+          "key": "depeng xu",
+          "name": "Depeng Xu"
+        },
+        {
+          "key": "du xiuxia",
+          "name": "Xiuxia Du"
+        }
+      ],
+      "abstract_text": "Determining the neutral molecular formula of a precursor ion from its tandem mass (MS/MS) spectrum is the first step in identifying an unknown small molecule. Existing methods trade recall, whether the correct formula is among the candidates, against the cost of examining each candidate. Methods that examine each candidate in depth must first shorten the list, by limiting element counts or truncating it, and that is where the correct formula is lost. End-to-end regressors are fast but guarantee neither validity nor recall. We present FACET, which separates deciding which formulas to consider from deciding which one to choose. A feasibility automaton builds a formula one element count at a time and admits exactly the formulas that fit the precursor mass and satisfy the ring-and-double-bond and valence constraints. Run as an exhaustive search, it enumerates the complete feasible set, so every candidate is valid and recall is fixed by the chemical constraints rather than by a trained model. A small neural scoring head then ranks every feasible formula from one pass of a pretrained spectrum encoder, so no candidate is discarded. On the NPLIB1 benchmark FACET reaches top-1 accuracies of $0.859$ with the adduct known and $0.729$ with it unknown, compared with $0.766$ and $0.660$ for the strongest established method, and its recall is the highest. On the external CASMI 2022 set its recall is $1.000$, and with the adduct unknown it is the most accurate of the methods compared.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a86a0ed6371c8194fb81e510f732d6adcc5b45c4aa46695173654381f0ca5792",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65629-8",
@@ -2720,6 +2758,46 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a88cd43c07f1ef85fe7f1c21af9196d778bdf53a63b5a29996252ece12ac8c34",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.01.722142v2",
+        "https://doi.org/10.64898/2026.05.01.722142",
+        "https://www.biorxiv.org/content/early/2026/05/05/2026.05.01.722142.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.05.01.722142.source.xml"
+      ],
+      "title": "Revealing the Hidden Landscape of Public Metabolomics Data Reuse in MetaboLights",
+      "link": "https://doi.org/10.64898/2026.05.01.722142",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.01.722142v2.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "karaman",
+          "name": "Karaman, I"
+        },
+        {
+          "key": "payne",
+          "name": "Payne, T"
+        },
+        {
+          "key": "vizcaino",
+          "name": "Vizcaino, J. A"
+        }
+      ],
+      "abstract_text": "Introduction: Metabolomics has historically lagged behind transcriptomics and proteomics in the scale and formalisation of public data reuse. Building on earlier manually assessed studies of metabolomics data reuse, this study provides an updated characterisation of confirmed reuse in MetaboLights. Objectives: This study aimed to characterise confirmed reuse of MetaboLights datasets in the published literature, quantifying its volume, reuse type, temporal trajectory, and dataset-level concentration. Methods: MetaboLights dataset accessions (MTBLS#) were used to retrieve candidate publications from five literature sources via a Python-based pipeline. Candidates were manually validated and classified by primary category and scientific domain; analytical modality was assigned from dataset metadata. Results: There were 274 confirmed reuse publications: Method or Tool Development (64.6%), Secondary Biological Analysis (16.8%), Data Integration or Meta-analysis (13.5%), and Educational Use or Protocol Illustration (5.1%). LC-MS was assigned to 70.1% of confirmed reuse publications; cumulative counts increased over time, and dataset-level reuse was highly asymmetric. Conclusion: Within the detected publications, MetaboLights datasets were predominantly reused for computational method development with secondary biological analysis being less frequent at present, underscoring the repository's value as a resource to obtain benchmarking datasets. Identifier-based searches may miss reuse activities when MTBLS identifiers are not consistently cited, reinforcing the community imperative for standardised dataset reporting and high-quality metadata deposition.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

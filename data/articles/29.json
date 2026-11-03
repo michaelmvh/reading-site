@@ -2,6 +2,56 @@
   "schema_version": 1,
   "articles": [
     {
+      "id": "2900c77c038c826402a01ee0fc39f8f1608d9edd5ec96656f7f3c9b233a0b6ce",
+      "identity_keys": [
+        "arxiv:2607.20585",
+        "https://doi.org/10.48550/arXiv.2607.20585"
+      ],
+      "title": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework",
+      "link": "https://doi.org/10.48550/arXiv.2607.20585",
+      "pdf_url": "https://arxiv.org/pdf/2607.20585",
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ashish kumar patra",
+          "name": "Ashish Kumar Patra"
+        },
+        {
+          "key": "anurag",
+          "name": "Anurag K. S. V."
+        },
+        {
+          "key": "bhat ruchika",
+          "name": "Ruchika Bhat"
+        },
+        {
+          "key": "sai shankar",
+          "name": "Sai Shankar P."
+        },
+        {
+          "key": "maitra rahul",
+          "name": "Rahul Maitra"
+        },
+        {
+          "key": "jaiganesh",
+          "name": "Jaiganesh G"
+        }
+      ],
+      "abstract_text": "Sample-based quantum diagonalization (SQD), an extension of quantum selected configuration interaction (QSCI), is a promising hybrid quantum-classical paradigm for molecular ground-state energies. By replacing variational optimization with quantum sampling, QSCI avoids barren plateaus and directly reconstructs correlated wavefunctions. However, existing configuration recovery mainly enforces symmetry constraints without targeting the most physically relevant configurations, often yielding oversized subspaces and costly classical diagonalization. We introduce QSCI-RBM, a compact subspace generation protocol based on Restricted Boltzmann Machines (RBMs), and integrate it within Density Matrix Embedding Theory (DMET). The RBM learns the distribution of dominant determinants from hardware samples, generating high-probability configurations. Sampling was performed on IBM Heron R1 (\\texttt{ibm\\_torino}) for CH$_5$NO, R2 (\\texttt{ibm\\_fez}) for C$_2$H$_4$, and R3 (\\texttt{ibm\\_boston}) for the larger H$_2$O benchmark and the protein-ligand system. After validating on these benchmarks of increasing active-space size, we simulate the inhibitor Carmofur bound to the SARS-CoV-2 main protease (M\\textsuperscript{pro}), fragmented into ten DMET impurities. Both DMET-QSCI-RBM and a DMET-SQD baseline reach chemical-potential self-consistency within four $\\mu$-iterations. At the converged chemical potential, DMET-QSCI-RBM lies within $0.05\\,\\mathrm{mHa}$ of DMET-FCI while accessing on average only $0.22\\%$ of the symmetry-preserving configuration space, versus $0.55\\,\\mathrm{mHa}$ at $33.0\\%$ for DMET-SQD, leading to a $\\sim$153-fold subspace reduction. RBM-assisted expansion thus yields far more compact hardware-derived determinant spaces at equal or better accuracy, reducing classical overhead for scalable quantum embedding of biological systems on real hardware.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2906e9e522cbc90bf77ebefb4eed3c88e4ca47a16ee815276c55ecba229b7da1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71861-7",
@@ -4668,6 +4718,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "29e5ad13155b2fa767ab2432c48ecd1723d3ac62aaa6d160395523660181de36",
+      "identity_keys": [
+        "arxiv:2611.03379",
+        "https://doi.org/10.48550/arXiv.2611.03379"
+      ],
+      "title": "RangeFinder: Predicting Ligand Property Ranges from Protein Pockets",
+      "link": "https://doi.org/10.48550/arXiv.2611.03379",
+      "pdf_url": "https://arxiv.org/pdf/2611.03379v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "alan nadelsticher ruvalcaba",
+          "name": "Alan Nadelsticher Ruvalcaba"
+        },
+        {
+          "key": "alvin chris",
+          "name": "Chris Alvin"
+        },
+        {
+          "key": "mukhopadhyay supratik",
+          "name": "Supratik Mukhopadhyay"
+        },
+        {
+          "key": "adam bess",
+          "name": "Adam Bess"
+        }
+      ],
+      "abstract_text": "Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules. Existing machine learning approaches primarily address this problem by generating candidate ligands or scoring individual protein-ligand pairs, but provide limited information about the broader chemical space compatible with a binding pocket. We introduce RangeFinder, an SE(3)-equivariant transformer pocket-level model, trained and evaluated on BioLiP2 data, that predicts ranges over nine physicochemical ligand properties directly from pocket structure, chemistry, and evolutionary context. Using an intersection-over-union objective and evaluation metric (range-IoU), RangeFinder achieves a range-IoU of $0.464 \\pm 0.002$, outperforming all deployable baselines while requiring only $12.2$ ms per pocket. We also quantify our method's ability to reduce the ligand search space while retaining compatible binders; in this regard, RangeFinder achieves a Reduction-Recall F-Score of $0.543 \\pm 0.011$ --- once again outperforming all deployable baselines. Ablation experiments indicate that RangeFinder's performance depends more strongly on the density and quality of ligand supervision than on any individual input modality or specialized training strategy. Together, these results position RangeFinder as an inexpensive and effective molecular filtering prior, with demonstrated potential in narrowing the ligand search space of target pockets before docking, generation, or synthesis. The code for this project can be found at: https://github.com/alannadels/RangeFinder.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

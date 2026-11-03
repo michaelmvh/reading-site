@@ -6033,6 +6033,49 @@
       "curated_categories": []
     },
     {
+      "id": "5efe37bd069a3d00dfacad2f2a2932b6809bb615b11b3ccf7b5ee0d8ebd6ffc3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763085v1",
+        "https://doi.org/10.64898/2026.10.30.763085",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.30.763085.source.xml"
+      ],
+      "title": "CMVAE: Contrastive Supervision Improves Single-Omic Latent Manifold for Breast Cancer Survival Prognosis",
+      "link": "https://doi.org/10.64898/2026.10.30.763085",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763085v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "singh",
+          "name": "Singh, A"
+        },
+        {
+          "key": "kohut",
+          "name": "Kohut, A"
+        },
+        {
+          "key": "templeton",
+          "name": "Templeton, J. M"
+        },
+        {
+          "key": "kabir",
+          "name": "Kabir, A"
+        }
+      ],
+      "abstract_text": "High-dimensional omics data are vital for fore- casting patient prognosis in oncology. While deep multi-omics learning methods are increasingly popular, they suffer from data missingness and low patient overlap across modalities. Consequently, advancing single-omic representation learning re- mains a critical yet challenging research problem. Standard generative dimensionality reduction methods rely on recon- struction objectives that optimize the global manifold topology; however, overlook downstream clinical outcomes. To address these limitations, we introduce a Contrastive Masked Denois- ing Variational Autoencoder (CMVAE), a self-supervised dual- optimization framework designed to map single-omic information into a clinical outcome-aware latent space. A stochastic feature masking strategy corrupts the input omic profiles, and CMVAE is optimized to simultaneously infer missing molecular data and contrastive alignment of patient survival trajectories. We evaluate CMVAE using leak-proof five-fold stratified cross-validation on the TCGA Breast Invasive Carcinoma (BRCA) cohort. The method outperforms traditional unsupervised methods, achieving an AUROC of 0.7397 {+/-} 0.0239 on patient prognosis. Further analysis demonstrates a highly significant (p < 0.0001) risk stratification among low vs. high risk groups. Beyond comparing within single-omic methods, CMVAE outperforms six state-of- the-art multi-omics survival baselines by a minimum of 3%. Availability: All codes including data preparation scripts, training and validation recipes, and experimental configurations are available at: https://github.com/kabir-ai2bio-lab/CMVAE. Note: Accepted at the IEEE BIBM 2026 workshop RLPD-Bio (Representation Learning and Pattern Discovery for Bioinformatics and Biomedicine).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5effb67295830c5589c8449ee704c01f3af695eff40d9d25a482498e13802c01",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71509-6",

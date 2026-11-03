@@ -2486,6 +2486,52 @@
       "curated_categories": []
     },
     {
+      "id": "d086f17bc9ab2fcf61ae2075f92a2107cda7eb96e4ec33f14462092855402737",
+      "identity_keys": [
+        "arxiv:2611.01709",
+        "https://doi.org/10.48550/arXiv.2611.01709"
+      ],
+      "title": "Comparative Strategies for Handling Imbalanced QSAR Regression: A Case Study on hERG Activity Prediction",
+      "link": "https://doi.org/10.48550/arXiv.2611.01709",
+      "pdf_url": "https://arxiv.org/pdf/2611.01709v1",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ming sung yen",
+          "name": "Ming-Yen Sung"
+        },
+        {
+          "key": "hsin liu",
+          "name": "Hsin Liu"
+        },
+        {
+          "key": "cho sheng tung",
+          "name": "Tung-Sheng Cho"
+        },
+        {
+          "key": "cheng lee wei",
+          "name": "Cheng-Wei Lee"
+        },
+        {
+          "key": "tseng yufeng",
+          "name": "Yufeng J. Tseng"
+        }
+      ],
+      "abstract_text": "Data imbalance frequently occurs in QSAR modeling, yet most studies focus on classification tasks, and few address regression tasks, as it is challenging to determine which regions of the data are sparse or dense. Data-level and algorithm-level imbalance-handling strategies can have different effects on model performance. In this study, we systematically compare various strategies across GCN and fingerprint-based machine learning models. To evaluate model performance more meaningfully, we partitioned the target region into several subregions based on both domain knowledge and data distribution. We focused on the region of greatest practical interest. Our results demonstrate that selecting models based on this interest-region metric leads to more reliable performance than using the total region metric. We also observed that different imbalance-handling strategies can have divergent effects depending on the model type. These findings highlight the importance of region-aware evaluation in regression QSAR modeling and provide practical guidance for selecting appropriate strategies for imbalanced datasets.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d089935344dd8691b02052d869fe7cd7421a24580c05abe09f8f8f75a904aa16",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71566-x",
@@ -2939,6 +2985,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d0a14e6ea5a5c7449ee91a02e5d25371caac00cb9464303065be121b513a8c02",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.31.763361v1",
+        "https://doi.org/10.64898/2026.10.31.763361",
+        "https://www.biorxiv.org/content/early/2026/11/02/2026.10.31.763361.source.xml"
+      ],
+      "title": "Top2All: Benchmarking sparse-to-transcriptome reconstruction from high-expression profiles across sex- and sex-steroid-defined conditions",
+      "link": "https://doi.org/10.64898/2026.10.31.763361",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763361v1.full.pdf",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nishio",
+          "name": "Nishio, Y"
+        },
+        {
+          "key": "yamashita",
+          "name": "Yamashita, T"
+        },
+        {
+          "key": "baba",
+          "name": "Baba, T"
+        }
+      ],
+      "abstract_text": "Transcriptome-wide profiling at single-cell resolution is limited by sparse detection of gene expression, raising the question of how much transcriptomic information can be recovered from a small set of highly expressed genes. We developed Top2All, a Mouse-Geneformer-based framework for reconstructing transcriptome-wide expression from sample-specific sparse inputs. Using 24 cell-number-normalized RNA-seq profiles of mouse adrenal zona fasciculata cells across eight experimental conditions defined by sex and sex-steroid milieu, we evaluated condition-aware and no-condition models under replicate-wise out-of-fold and leave-one-condition-out validation. Top2All achieved near-unity sample-wise correlation with measured expression, but similarly high correlations were obtained using simple reference profiles, whereas gene-wise evaluation revealed substantially greater differences among methods. Explicit condition information did not consistently improve reconstruction, indicating that sex- and sex-steroid-associated condition information was already strongly encoded in the sparse expression profiles. Nearest-neighbor retrieval provided a stronger baseline than learned reconstruction, and input-depth analysis showed that increasing the number of input genes did not monotonically improve performance. These findings show that a relatively small set of highly expressed genes contains substantial information about transcriptomic state, while accurate reconstruction of gene-specific biological variation remains challenging. Sparse-to-transcriptome models should therefore be evaluated using gene-wise metrics, strong reference baselines, and tests of generalization beyond conditions represented during training.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

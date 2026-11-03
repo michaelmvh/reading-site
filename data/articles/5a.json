@@ -1664,6 +1664,88 @@
       "curated_categories": []
     },
     {
+      "id": "5a507aeeb251998b6bece54fa118d047166f1f3faf0ca510fbef95304cb9d8d7",
+      "identity_keys": [
+        "arxiv:2611.02681",
+        "https://doi.org/10.48550/arXiv.2611.02681"
+      ],
+      "title": "HistoTx: Early fusion of H&E images and spatial transcriptomics at varying spatial transcriptomics resolution with self-supervised learning",
+      "link": "https://doi.org/10.48550/arXiv.2611.02681",
+      "pdf_url": "https://arxiv.org/pdf/2611.02681v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "alice driessen",
+          "name": "Alice Driessen"
+        },
+        {
+          "key": "emil malmsten",
+          "name": "Emil Malmsten"
+        },
+        {
+          "key": "steffen wolf",
+          "name": "Steffen Wolf"
+        },
+        {
+          "key": "bernd illing",
+          "name": "Bernd Illing"
+        },
+        {
+          "key": "isinsu katircioglu",
+          "name": "Isinsu Katircioglu"
+        },
+        {
+          "key": "adriano martinelli",
+          "name": "Adriano Martinelli"
+        },
+        {
+          "key": "rolf stahel",
+          "name": "Rolf Stahel"
+        },
+        {
+          "key": "peters solange",
+          "name": "Solange Peters"
+        },
+        {
+          "key": "enriqueta felip",
+          "name": "Enriqueta Felip"
+        },
+        {
+          "key": "popat sanjay",
+          "name": "Sanjay Popat"
+        },
+        {
+          "key": "homicsko krisztian",
+          "name": "Krisztian Homicsko"
+        },
+        {
+          "key": "gottardo raphael",
+          "name": "Raphael Gottardo"
+        },
+        {
+          "key": "marianna rapsomaniki",
+          "name": "Marianna Rapsomaniki"
+        },
+        {
+          "key": "fei tang",
+          "name": "Fei Tang"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics maps gene expression across tissue sections and, when integrated with whole slide images, jointly captures both morphological architecture and molecular activity to provide a rich, multimodal view of tissue biology. ML approaches combining spatial transcriptomics and WSIs typically learn a mapping from morphological features to molecular profiles via contrastive alignment or supervised fine-tuning of pathology foundation models. In both cases, transcriptomics serves as a training signal rather than a true input modality, leaving inference fundamentally image-driven. We propose an early-fusion vision transformer architecture in which transcript tokens are constructed at arbitrary spatial resolution, merged with image patch tokens, and jointly processed through a shared transformer stack for deep cross-modal interaction. Starting from a pretrained vision-only pathology foundation model, we train HistoTx by continuing self-supervised pretraining on paired image and spatial transcriptomics data and demonstrate that: 1) at inference with image only, performance remains on par with the baseline on most tasks while improving on tasks that inherently benefit from molecular knowledge, such as gene expression prediction; 2) when both modalities are available at inference, jointly providing image and transcript inputs outperforms either modality alone.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5a507e3e4da32c58cf9fc78a09213a012099c5f219002b1f3e6f4b8255df0254",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70614-w",

@@ -115,6 +115,40 @@
       "curated_categories": []
     },
     {
+      "id": "850ceef71208c2830f5adb176533e246796787fb0a4672f96b4a21330c4381bb",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.6c02430",
+        "https://openalex.org/W7225091765"
+      ],
+      "title": "Benchmarking Machine Learning Models for Viral Nanobody Epitope Prediction",
+      "link": "https://doi.org/10.1021/acs.jcim.6c02430",
+      "pdf_url": null,
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "penhallurick ryan",
+          "name": "Ryan W. Penhallurick"
+        },
+        {
+          "key": "dean scott",
+          "name": "Scott Dean"
+        }
+      ],
+      "abstract_text": "Abstract Rapid development of therapeutics against emerging viral pathogens increasingly depends on machine learning (ML), both to generate candidate binders and for structural validation. Nanobodies (Nbs), or single-domain antibodies, are promising antiviral therapeutics, but accurate in silico prediction of viral epitopes remains challenging. Here we benchmark three ML-based structure prediction models, Boltz-2, Chai-1 and AlphaFold3 (AF3), against a curated data set of viral antigen-nanobody complexes deposited after the AF3 training cutoff. AF3 outperformed the other models: success (interface DockQ > 0.23) rose from 33% with a single seed to 50% and 65% with 10 and 100 seeds-per-target, respectively, compared with 18% for Boltz-2 and 30% for Chai-1. Using an expanded data set, we evaluated confidence metrics and found that a strict ipTM cutoff of 0.8, or a combination of ipTM ≥ 0.6 with a CDR3 loop pLDDT ≥ 60, reliably excluded incorrect predictions while retaining most successful ones. We further establish best practices for two AF3-specific capabilities, the choice of antigen multimeric state and the inclusion of N-glycosylation, both of which can be decisive for epitope success depending on the target. Finally, we apply these guidelines to two design problems: ranking a library of VEEV-neutralizing nanobodies and mapping the epitope of the broadly neutralizing nanobody CC3 across homologous alphavirus antigens. These results provide a practical framework for ML-based viral nanobody epitope prediction and design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "850da89fc713fa256686e2e09cdfe50823cc99abc342dce8337f49146fc32dc9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72485-7",
@@ -1071,6 +1105,52 @@
         "6. Function to Structure",
         "6.3 RoseTTAFold-based"
       ]
+    },
+    {
+      "id": "852de1acb642754a986bbf8d5fc16559e42cae41eb42e72f24f8b4e8a16d08ac",
+      "identity_keys": [
+        "https://doi.org/10.1109/biosensors67864.2026.11750003",
+        "https://openalex.org/W7225099625"
+      ],
+      "title": "Influence of Heterogeneous 2D Material Interfaces on Protein Translocation in Solid-State Nanopores",
+      "link": "https://doi.org/10.1109/biosensors67864.2026.11750003",
+      "pdf_url": null,
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "IEEE BioSensors Conference (BioSensors)",
+      "authors": [
+        {
+          "key": "joty kamruzzaman",
+          "name": "Kamruzzaman Joty"
+        },
+        {
+          "key": "chaoming gu",
+          "name": "Chaoming Gu"
+        },
+        {
+          "key": "khatri santosh",
+          "name": "Santosh Khatri"
+        },
+        {
+          "key": "lee sangyoup",
+          "name": "Sangyoup Lee"
+        },
+        {
+          "key": "jun kim min",
+          "name": "Min Jun Kim"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "852fb96b863aac41f757796d845f791525213c0bd87e86667a5d4851e87e0d4d",

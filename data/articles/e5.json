@@ -2058,6 +2058,92 @@
       "curated_categories": []
     },
     {
+      "id": "e55c41766d01187778fded43358eff10af8d092615f35c47656bc9e64619590f",
+      "identity_keys": [
+        "arxiv:2611.02324",
+        "https://doi.org/10.48550/arXiv.2611.02324"
+      ],
+      "title": "The DynaCell Evaluation Suite for Dynamic 3D Virtual Staining of Live Cells",
+      "link": "https://doi.org/10.48550/arXiv.2611.02324",
+      "pdf_url": "https://arxiv.org/pdf/2611.02324v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "alexandr kalinin",
+          "name": "Alexandr A. Kalinin"
+        },
+        {
+          "key": "dihan zheng",
+          "name": "Dihan Zheng"
+        },
+        {
+          "key": "milena taylla theodoro",
+          "name": "Taylla Milena Theodoro"
+        },
+        {
+          "key": "ivan ivanov",
+          "name": "Ivan Ivanov"
+        },
+        {
+          "key": "eduardo hirata miyasaki",
+          "name": "Eduardo Hirata-Miyasaki"
+        },
+        {
+          "key": "chi lee see",
+          "name": "See-Chi Lee"
+        },
+        {
+          "key": "aofei liu",
+          "name": "Aofei Liu"
+        },
+        {
+          "key": "reddy sricharan varra",
+          "name": "Sricharan Reddy Varra"
+        },
+        {
+          "key": "chandler talon",
+          "name": "Talon Chandler"
+        },
+        {
+          "key": "pradeep soorya",
+          "name": "Soorya Pradeep"
+        },
+        {
+          "key": "chad liu",
+          "name": "Chad Liu"
+        },
+        {
+          "key": "leonetti manuel",
+          "name": "Manuel D. Leonetti"
+        },
+        {
+          "key": "arias carolina",
+          "name": "Carolina Arias"
+        },
+        {
+          "key": "bo huang",
+          "name": "Bo Huang"
+        },
+        {
+          "key": "mehta shalin",
+          "name": "Shalin B. Mehta"
+        }
+      ],
+      "abstract_text": "Understanding how cells respond to perturbations over time is central to cell biology and drug discovery. Live-cell imaging captures the dynamics of perturbation-induced phenotypes in individual cells. While fluorescence imaging can visualize specific molecular phenotypes, labeling and repeated illumination often affect cell health. Virtual staining offers an alternative by predicting these fluorescence images from images acquired without fluorescent labels. Although many virtual staining models have been developed, their performance on volumetric time-lapse data remains poorly characterized. We address this gap with an evaluation suite for 3D time-lapse virtual staining of live cells. The suite combines paired 3D time-lapse images acquired with and without fluorescent labels, a set of baseline models, and three metric tiers measuring pixel-level fidelity, organelle segmentation performance, and single-cell phenotype similarity. Using this evaluation suite, we study metric and model behavior across 3 cell types, 2 microscopes, 4 organelles, and 3 perturbation states. We find that regression baselines better predict the spatial localization of target organelles, whereas the generative baseline better captures the distribution of phenotypes across cells. These differences expose trade-offs between structural and phenotypic fidelity that are obscured by single-metric evaluation and suggest how virtual staining models can be developed for diverse downstream tasks such as localization, segmentation, tracking, and phenotypic profiling. We release the curated datasets, baseline checkpoints, and evaluation code as part of DynaCell, a broader framework for image-based profiling of cell-state dynamics.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e560f99b838dae45c555d1d2ca6ad57d614d7685ecdbfc0bcd2cc841359c5dae",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68745-1",

@@ -796,6 +796,36 @@
       "curated_categories": []
     },
     {
+      "id": "7a200490731ef765c5cc6f44fdefdf69c3eb8a80f33e6225e7cc5a2c4a12cf2b",
+      "identity_keys": [
+        "arxiv:2611.01604",
+        "https://doi.org/10.48550/arXiv.2611.01604"
+      ],
+      "title": "Cell lines that share a well are not independent observations in the Tahoe-100M drug screen",
+      "link": "https://doi.org/10.48550/arXiv.2611.01604",
+      "pdf_url": "https://arxiv.org/pdf/2611.01604v1",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "huang xuanrui",
+          "name": "Xuanrui Huang"
+        }
+      ],
+      "abstract_text": "Pooled drug screens treat and sequence dozens of cancer cell lines together in one well. Tahoe-100M, the largest, is used to train and benchmark models that predict how unmeasured cell lines respond to drugs, and its benchmarks, reproducibility ceilings and statistical tests treat the cell lines of a well, and random halves of a well's cells, as independent observations of a drug's effect. Because the drug is applied to the well, this is harmless only if the lines of a well share nothing beyond the drug's reproducible effect. We tested this with pairs of untreated control wells on 13 plates, with replicate wells whose labels we checked, and with two plates that repeat each other well by well. In each test the cell lines of a well share a component of expression that a replicate well does not reproduce, also when the two wells occupy the same inferred position; where drugs are present, it cannot be told apart from an interaction of plate and drug, but in untreated wells it can. In replicate wells at different positions whose labels pass the check, about a third of what two halves of a well have in common (35%, 95% interval 22-58%, 9 compounds) is not reproduced by the replicate well. The well effect inflates results that take something from a well and judge it in the same well: retrained versions of two published models that take a measured response as input lose about a quarter to a third of their score when the input comes from a replicate well instead of the predicted well (22-43% under the control-well reference), halves of a well overstate how well the experiment reproduces, and a test across the lines of a well calls 5 of 13 plates significant when two untreated wells are compared. Many labels of strongly responding replicate wells, those of plate 13 above all, fail the label check. Evaluations, ceilings and tests on such data should treat the well as the experimental unit.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7a22c3e98bfc328a7ff40cc9c30a839cdf4f7630905a3c8eae435c8e76346ba7",
       "identity_keys": [
         "https://doi.org/10.1021/acssynbio.3c00753",
