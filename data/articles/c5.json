@@ -493,6 +493,68 @@
       "curated_categories": []
     },
     {
+      "id": "c52d76f30bb82efeba78d689e2c1c32985829607583f31e6fdeb9aefe159e50e",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.6c01516",
+        "https://openalex.org/W7220867424"
+      ],
+      "title": "SAEKP: A Site Attention Enzyme Kinetics Prediction Method to Facilitate Enzyme Engineering",
+      "link": "https://doi.org/10.1021/acs.jcim.6c01516",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/06/2025.04.30.651216.full.pdf",
+      "publication_date": "2026-10-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "he jia qiu",
+          "name": "Jia-He Qiu"
+        },
+        {
+          "key": "lin zongying",
+          "name": "Zongying Lin"
+        },
+        {
+          "key": "chen ke wei",
+          "name": "Ke-Wei Chen"
+        },
+        {
+          "key": "qiang wang",
+          "name": "Qiang Wang"
+        },
+        {
+          "key": "sun tian yu",
+          "name": "Tian‐Yu Sun"
+        },
+        {
+          "key": "li yuan",
+          "name": "Li Yuan"
+        },
+        {
+          "key": "xian zhang",
+          "name": "Xian Zhang"
+        },
+        {
+          "key": "tian yonghong",
+          "name": "Yonghong Tian"
+        },
+        {
+          "key": "dong wu yun",
+          "name": "Yun‐Dong Wu"
+        }
+      ],
+      "abstract_text": "0. Abstract The quantitative determination of enzyme kinetic parameters traditionally relies on experimental methods that are both time-intensive and costly. Machine learning models have demonstrated significant potential for predicting enzyme kinetic parameters in recent years. Despite this promise, these methods face challenges, including limited training data, inadequate sensitivity to subtle mutations, and poor alignment with practical enzyme engineering contexts. Here, we introduce SAKPE (Site Attention Kinetic Parameters Prediction Method for Enzyme Engineering), a novel machine-learning framework designed to predict enzyme kinetic parameters with enhanced accuracy in practical application scenarios. By incorporating protein representation, substrate representation, and protein representation with weights for important sites, SAKPE significantly outperforms existing methods in predicting enzymatic kinetic parameters, including turnover number ( k cat ), Michaelis constant ( K m ), and inhibition constant ( K i ). Incorporating protein representation with weights for important sites enables SAKPE to effectively capture the impact of mutations, especially mutations of important sites and their surrounding amino acids of interest in enzyme engineering, on enzyme kinetics parameters. SAKPE offers a robust and practical tool for predicting enzyme kinetic parameters, providing a superior tool for enzyme engineering scenarios such as enzyme design, directed evolution, and industrial applications.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c530d510852b998c26d87db7c44a32d60792c867c8de671d77c1c69eb7f3beba",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70847-9",
@@ -2300,6 +2362,84 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c567b3bdb2e847c7f20bb3432874b9a600c442a2044bc139713e1cf9d9556cb1",
+      "identity_keys": [
+        "arxiv:2611.05270",
+        "https://doi.org/10.48550/arXiv.2611.05270"
+      ],
+      "title": "iGC: Antibody Optimization via Reinforcement Learning over a Learned Somatic Hypermutation Prior",
+      "link": "https://doi.org/10.48550/arXiv.2611.05270",
+      "pdf_url": "https://arxiv.org/pdf/2611.05270v1",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "nguyen thao",
+          "name": "Thao Nguyen"
+        },
+        {
+          "key": "alberstein robert",
+          "name": "Robert G. Alberstein"
+        },
+        {
+          "key": "ewa nowara",
+          "name": "Ewa Nowara"
+        },
+        {
+          "key": "homa mohammadipeyhani",
+          "name": "Homa MohammadiPeyhani"
+        },
+        {
+          "key": "holly steach",
+          "name": "Holly R. Steach"
+        },
+        {
+          "key": "robinson sarah",
+          "name": "Sarah A. Robinson"
+        },
+        {
+          "key": "shechter yuval",
+          "name": "Yuval Shechter"
+        },
+        {
+          "key": "donald lee",
+          "name": "Donald W. Lee"
+        },
+        {
+          "key": "heiden jason vander",
+          "name": "Jason A. Vander Heiden"
+        },
+        {
+          "key": "franziska seeger",
+          "name": "Franziska Seeger"
+        },
+        {
+          "key": "andrew fay leaver",
+          "name": "Andrew Leaver-Fay"
+        },
+        {
+          "key": "bonneau richard",
+          "name": "Richard Bonneau"
+        },
+        {
+          "key": "joshua lin yao yu",
+          "name": "Joshua Yao-Yu Lin"
+        }
+      ],
+      "abstract_text": "Antibody affinity maturation is a natural optimization process in which B cells acquire mutations through somatic hypermutation (SHM), undergo selection for improved antigen binding, and iteratively evolve toward higher affinity. Computationally modeling this process requires capturing both biologically plausible mutations and antigen-specific selection. However, existing mutation models do not directly optimize binding, while affinity optimization often neglects realistic mutation trajectories. We introduce iGC (in silico Germinal Centers), a two-stage reinforcement learning (RL) framework for antigen-specific antibody optimization. Stage 1 learns an SHM mutation prior from parent-child pairs in B-cell lineage trees and adapts it to a target affinity-maturation dataset. Stage 2 initializes an RL policy from this prior and optimizes antigen binding with Kullback-Leibler (KL) regularization toward the frozen prior. To prevent reward exploitation, including repetitive high-reward substitutions and structurally tolerated framework mutations, we introduce a Reward-Tax Meta-Gradient objective. RewardNet smooths the affinity landscape, while TaxNet penalizes reward overexploitation, jointly defining a learned meta-reward for policy optimization. We evaluate iGC on mutation prediction, SHM consistency, affinity optimization, and mutation diversity. The mutation prior more than doubles the strongest baseline in mutation-site prediction. Following RL optimization, iGC maintains SHM sequence structure. It also achieves a strong exploration-exploitation balance, yielding competitive reward-diversity products across candidate-selection cutoffs. These results demonstrate that iGC integrates biologically plausible mutation generation with antigen-specific affinity selection, providing an in silico framework for iterative antibody affinity maturation.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

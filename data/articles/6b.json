@@ -366,16 +366,18 @@
     {
       "id": "6b08755aeb2a742ffbc1896ba2a5aa5371ebcb10323583000fd225bde7a5dd20",
       "identity_keys": [
+        "https://doi.org/10.1038/s41467-024-46203-0",
         "https://doi.org/10.1101/2023.02.16.528840",
-        "https://openalex.org/W4321352091"
+        "https://openalex.org/W4321352091",
+        "https://openalex.org/W4392452499"
       ],
-      "title": "Designing a protein with emergent function by combined in silico, in vitro and in vivo screening",
-      "link": "https://doi.org/10.1101/2023.02.16.528840",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/19/2023.02.16.528840.full.pdf",
-      "publication_date": "2023-02-19",
+      "title": "Machine learning-aided design and screening of an emergent protein function in synthetic cells",
+      "link": "https://doi.org/10.1038/s41467-024-46203-0",
+      "pdf_url": "https://www.nature.com/articles/s41467-024-46203-0.pdf",
+      "publication_date": "2024-03-05",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Communications",
       "authors": [
         {
           "key": "kohyama shunshi",
@@ -394,7 +396,7 @@
           "name": "Petra Schwille"
         }
       ],
-      "abstract_text": "Abstract Recently, utilization of machine learning (ML) based methods has led to astonishing progress in protein design and, thus, the design of new biological functionality. However, emergent functions that require higher-order molecular interactions, such as the ability to self-organize, are still extremely challenging to implement. Here, we describe a comprehensive in silico, in vitro , and in vitro screening pipeline (i 3 -screening) to develop and validate ML-designed artificial homologs of a bacterial protein that confers its role in cell division through the emergent function of spatiotemporal pattern formation. Moreover, we present complete substitution of a wildtype gene by an ML-designed artificial homolog in Escherichia coli . These results raise great hopes for the next level of synthetic biology, where ML-designed synthetic proteins will be used to engineer cellular functions.",
+      "abstract_text": "Recently, utilization of Machine Learning (ML) has led to astonishing progress in computational protein design, bringing into reach the targeted engineering of proteins for industrial and biomedical applications. However, the design of proteins for emergent functions of core relevance to cells, such as the ability to spatiotemporally self-organize and thereby structure the cellular space, is still extremely challenging. While on the generative side conditional generative models and multi-state design are on the rise, for emergent functions there is a lack of tailored screening methods as typically needed in a protein design project, both computational and experimental. Here we describe a proof-of-principle of how such screening, in silico and in vitro, can be achieved for ML-generated variants of a protein that forms intracellular spatiotemporal patterns. For computational screening we use a structure-based divide-and-conquer approach to find the most promising candidates, while for the subsequent in vitro screening we use synthetic cell-mimics as established by Bottom-Up Synthetic Biology. We then show that the best screened candidate can indeed completely substitute the wildtype gene in Escherichia coli. These results raise great hopes for the next level of synthetic biology, where ML-designed synthetic proteins will be used to engineer cellular functions.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3871,24 +3873,26 @@
       "id": "6b9ab7b48a6dc4d62fed232ec787412a7edc1de3cb0ea3370efc419351f04caf",
       "identity_keys": [
         "https://arxiv.org/abs/2405.00753",
+        "https://doi.org/10.1021/acs.jmedchem.4c03073",
         "https://doi.org/10.48550/arxiv.2405.00753",
-        "https://openalex.org/W4396821564"
+        "https://openalex.org/W4396821564",
+        "https://openalex.org/W4409447416"
       ],
-      "title": "HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design",
-      "link": "https://doi.org/10.48550/arxiv.2405.00753",
+      "title": "HMAMP: Designing Highly Potent Antimicrobial Peptides Using a Hypervolume-Driven Multiobjective Deep Generative Model",
+      "link": "https://doi.org/10.1021/acs.jmedchem.4c03073",
       "pdf_url": "https://arxiv.org/pdf/2405.00753",
-      "publication_date": "2024-05-01",
+      "publication_date": "2025-04-15",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Journal of Medicinal Chemistry",
       "authors": [
         {
           "key": "li wang",
           "name": "Li Wang"
         },
         {
-          "key": "li yiping",
-          "name": "Yiping Li"
+          "key": "liu yiping",
+          "name": "Yiping Liu"
         },
         {
           "key": "fu xiangzheng",
@@ -3907,11 +3911,19 @@
           "name": "Gary G. Yen"
         },
         {
+          "key": "quan zou",
+          "name": "Quan Zou"
+        },
+        {
           "key": "xiangxiang zeng",
           "name": "Xiangxiang Zeng"
+        },
+        {
+          "key": "cao dongsheng",
+          "name": "Dongsheng Cao"
         }
       ],
-      "abstract_text": "Antimicrobial peptides (AMPs) have exhibited unprecedented potential as biomaterials in combating multidrug-resistant bacteria. Despite the increasing adoption of artificial intelligence for novel AMP design, challenges pertaining to conflicting attributes such as activity, hemolysis, and toxicity have significantly impeded the progress of researchers. This paper introduces a paradigm shift by considering multiple attributes in AMP design. Presented herein is a novel approach termed Hypervolume-driven Multi-objective Antimicrobial Peptide Design (HMAMP), which prioritizes the simultaneous optimization of multiple attributes of AMPs. By synergizing reinforcement learning and a gradient descent algorithm rooted in the hypervolume maximization concept, HMAMP effectively expands exploration space and mitigates the issue of pattern collapse. This method generates a wide array of prospective AMP candidates that strike a balance among diverse attributes. Furthermore, we pinpoint knee points along the Pareto front of these candidate AMPs. Empirical results across five benchmark models substantiate that HMAMP-designed AMPs exhibit competitive performance and heightened diversity. A detailed analysis of the helical structures and molecular dynamics simulations for ten potential candidate AMPs validates the superiority of HMAMP in the realm of multi-objective AMP design. The ability of HMAMP to systematically craft AMPs considering multiple attributes marks a pioneering milestone, establishing a universal computational framework for the multi-objective design of AMPs.",
+      "abstract_text": "Antimicrobial peptides (AMPs) have exhibited unprecedented potential as biomaterials in combating multidrug-resistant bacteria, prompting the proposal of many excellent generative models. However, the multiobjective nature of AMP discovery is often overlooked, contributing to the high attrition rate of drug candidates. Here, we propose a novel approach termed hypervolume-driven multiobjective AMP design (HMAMP), which prioritizes the simultaneous optimization of multiattribute AMPs. By synergizing reinforcement learning and a gradient descent algorithm rooted in the hypervolume maximization concept, HMAMP effectively biases generative processes and mitigates the pattern collapse issue. Comparative experiments show that HMAMP significantly outperforms state-of-the-art methods in effectiveness and diversity. A knee-based decision strategy is then employed to fast screen candidates with favorable physicochemical properties, aligning with the enhanced antimicrobial activity and reduced side effects. Molecular visualization further elucidates structural and functional properties of the AMPs. Overall, HMAMP is an effective approach to traverse large and complex exploration spaces to search for idealism-realism trade-off AMPs.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

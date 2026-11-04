@@ -91,16 +91,17 @@
     {
       "id": "5505b2ca23bd43116b60a93c975c00284b3883da23bff1be58bfc003ae21487d",
       "identity_keys": [
+        "doi:10.1101/2024.08.20.608889",
         "https://doi.org/10.1101/2024.08.20.608889",
         "https://openalex.org/W4401885412"
       ],
       "title": "OPUS-Design: Designing Protein Sequence from Backbone Structure with 3DCNN and Protein Language Model",
       "link": "https://doi.org/10.1101/2024.08.20.608889",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/29/2024.08.20.608889.full.pdf",
-      "publication_date": "2024-08-21",
+      "pdf_url": null,
+      "publication_date": "2024-08-20",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2024.08.20.608889",
       "authors": [
         {
           "key": "gang xu",
@@ -123,7 +124,7 @@
           "name": "Jianpeng Ma"
         }
       ],
-      "abstract_text": "Abstract Protein sequence design, also known as protein inverse folding, is a crucial task in protein engineering and design. Despite the recent advancements in this field, which have facilitated the identification of amino acid sequences based on backbone structures, achieving higher levels of accuracy in sequence recovery rates remains challenging. It this study, we introduce a two-stage protein sequence design method named OPUS-Design. Our evaluation on recently released targets from CAMEO and CASP15 shows that OPUS-Design significantly surpasses several other leading methods on both monomer and oligomer targets in terms of sequence recovery rate. Furthermore, by utilizing its finetune version OPUS-Design-ft and our previous work OPUS-Mut, we have successfully designed a thermal-tolerant double-point mutant of T4 lysozyme that demonstrates a residual enzyme activity exceeding that of the wild-type T4 by more than twofold when both are subjected to extreme heat treatment at 70°C. Importantly, this accomplishment is achieved through the experimental verification of less than 10 mutant candidates, thus significantly alleviating the burden of experimental verification process.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2853,6 +2854,36 @@
         }
       ],
       "abstract_text": "Structural synaptic plasticity underlies the changes in brain connectivity required for learning and memory. Inhibitory synapses target all subcellular domains of excitatory pyramidal neurons, including dendrites, somata and axon initial segments. These subcellular domains have distinct molecular, structural and physiological profiles which underlie their functions. How structural plasticity of inhibitory synapses supports these functions as well as emerging properties such as memory is largely unknown. To tackle these questions we tracked inhibitory synapses on basal dendrites, somata and axon initial segments of pyramidal neurons in the dorsal hippocampal CA1 area of mice over two weeks. Size and temporal dynamics of inhibitory synapses showed a strong compartmentalization. Trace fear conditioning led to reorganization of dendritic and to stabilization of axon initial segments' inhibitory synapses. Finally, mathematical modelling allowed us to probe the mechanisms underlying stabilization of inhibitory synapses upon learning.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5588509170893be25117f8ffee39f0386eccda2cd34c330b84cb72dc92c1ba00",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.23910490",
+        "https://openalex.org/W7225192862"
+      ],
+      "title": "Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison",
+      "link": "https://doi.org/10.5281/zenodo.23910490",
+      "pdf_url": null,
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "miyazaki sho",
+          "name": "Sho Miyazaki"
+        }
+      ],
+      "abstract_text": "This Technical Note examines how the choice of experimental reference structure affects the structural agreement of one fixed Boltz-2 prediction of the human MPC1L–MPC2 complex. A Boltz-2 v2.1.1 Human PPI Atlas structure was compared with four cryo-EM structures—apo inward-open 9GIX and inhibitor-bound outward-open 9GIV, 9GIW, and 9GIY—using a common, experimentally defined 73-residue interface Cα mask and rigid-body alignment. The interface Cα RMSD was 3.853976 Å against 9GIX, compared with 0.964115 Å, 1.217374 Å, and 1.077057 Å against 9GIV, 9GIW, and 9GIY, respectively. All six experimental-reference comparisons, predefined mask and chain-alignment sensitivities, and qualified local structural descriptors provide context for this reference dependence. A separately sourced, fixed AlphaFold-derived complex was also evaluated using the same protocol as an exploratory comparison. The accompanying Supplementary Information and reproducibility package provide frozen structural inputs, complete numerical outputs, analysis and verification scripts, source provenance, and explicit methodological limitations. This is a fixed-coordinate case study, not a general benchmark of model accuracy. It does not establish an independent minimum scientific contribution, preferential biological states, inhibitor effects, or a new transport mechanism. Model inference was not rerun.",
       "discovery_sources": [
         {
           "kind": "open_alex",

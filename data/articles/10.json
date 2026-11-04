@@ -3018,6 +3018,49 @@
       ]
     },
     {
+      "id": "10a3c8658d874b5af13661b0823e55d705f8f9b222df95b1be3baf65dd6d3496",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763228v1",
+        "https://doi.org/10.64898/2026.10.30.763228",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.30.763228.source.xml"
+      ],
+      "title": "HYphlow: bringing end-to-end flow to HyPhy selection analyses, from taxon reconciliation to trait-based foreground assignment",
+      "link": "https://doi.org/10.64898/2026.10.30.763228",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kwon",
+          "name": "Kwon, H"
+        },
+        {
+          "key": "perez",
+          "name": "Perez, T. J"
+        },
+        {
+          "key": "yigit",
+          "name": "Yigit, E"
+        },
+        {
+          "key": "schott",
+          "name": "Schott, R. K"
+        }
+      ],
+      "abstract_text": "Phylogenetic analyses of molecular evolution often require repeated manual preparation to reconcile taxa, annotate trees, execute models, and summarize results. These steps become increasingly time-consuming and difficult to standardize as the number of taxa, genes, and analytical hypotheses increases. We present HYphlow, an open-source graphical workflow developed in Python that integrates data preparation, trait-based foreground branch assignment, HyPhy execution, and structured result extraction within a single interface. HYphlow reconciles taxon labels across alignments, trees, and trait data; reconstructs ancestral states using parsimony and maximum likelihood; generates alternative foreground annotations; executes HyPhy analyses locally or through portable scripts for high-performance computing; and records analytical decisions and settings throughout the workflow. We evaluated HYphlow using simulations and two published datasets comprising cryptochrome analyses in pigeons and doves and visual opsin analyses in skinks. A name-similarity threshold of 80 reliably recovered simulated spelling variants, while consensus foreground assignment increased precision relative to parsimony or maximum likelihood alone (0.928 vs 0.891 and 0.907, respectively), with a corresponding reduction in recall (0.875 vs 0.921 and 0.918). In the empirical datasets, HYphlow reconciled taxon labels, reconstructed or reproduced foreground hypotheses derived using different approaches, and generated selection results consistent with the principal conclusions of the original studies. HYphlow therefore provides a reproducible framework for carrying comparative molecular evolutionary analyses from independently prepared sequence, phylogenetic, and trait data through branch assignment, model execution, and results summary while retaining researcher control over analytical decisions. HYphlow is freely available under the MIT licence from GitHub at: https://github.com/Schott-Lab/HYphlow.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "10aa571b978342e0ed5d0fd773c3fe87e528b09431b109d3cbcfdc8934e2e318",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78184-7",
@@ -4098,6 +4141,8 @@
       "id": "10cf7346e4dd70a9dbf407752d69cd8b5512c13674c5a531bffc5bbbb3818b11",
       "identity_keys": [
         "https://doi.org/10.1002/pro.4780",
+        "https://doi.org/10.1101/2022.11.04.515218",
+        "https://openalex.org/W4308263339",
         "https://openalex.org/W4386590258"
       ],
       "title": "Zero‐shot mutation effect prediction on protein stability and function using RoseTTAFold",
@@ -4132,7 +4177,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract Predicting the effects of mutations on protein function and stability is an outstanding challenge. Here, we assess the performance of a variant of RoseTTAFold jointly trained for sequence and structure recovery, RF joint , for mutation effect prediction. Without any further training, we achieve comparable accuracy in predicting mutation effects for a diverse set of protein families using RF joint to both another zero‐shot model (MSA Transformer) and a model that requires specific training on a particular protein family for mutation effect prediction (DeepSequence). Thus, although the architecture of RF joint was developed to address the protein design problem of scaffolding functional motifs, RF joint acquired an understanding of the mutational landscapes of proteins during model training that is equivalent to that of recently developed large protein language models. The ability to simultaneously reason over protein structure and sequence could enable even more precise mutation effect predictions following supervised training on the task. These results suggest that RF joint has a quite broad understanding of protein sequence‐structure landscapes, and can be viewed as a joint model for protein sequence and structure which could be broadly useful for protein modeling.",
+      "abstract_text": "Abstract Predicting the effects of mutations on protein function is an outstanding challenge. Here we assess the performance of the deep learning based RoseTTAFold structure prediction and design method for unsupervised mutation effect prediction. Using RoseTTAFold in inference mode, without any additional training, we obtain state of the art accuracy on predicting mutation effects for a set of diverse protein families. Thus, although the architecture of RoseTTAFold was developed to address the protein structure prediction problem, during model training RoseTTAFold acquired an understanding of the mutational landscapes of proteins comparable to that of large recently developed language models. The ability to reason over structure as well as sequence could enable even more precise mutation effect predictions following supervised training.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -894,25 +894,22 @@
     {
       "id": "7a2cace733b789d095b62e80a5d2c5acedf15346d9942367859d51a6e54e671c",
       "identity_keys": [
+        "arxiv:2607.09998",
         "https://arxiv.org/abs/2607.09998",
         "https://doi.org/10.48550/arxiv.2607.09998",
         "https://openalex.org/W7168259423"
       ],
       "title": "Vilya-1: An all-atom foundation model for macrocycle structure prediction and design",
-      "link": "https://doi.org/10.48550/arxiv.2607.09998",
-      "pdf_url": "https://arxiv.org/pdf/2607.09998",
-      "publication_date": "2026-07-10",
+      "link": "https://arxiv.org/abs/2607.09998",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2607.09998",
       "authors": [
         {
-          "key": "research vilya",
-          "name": "Vilya Research"
-        },
-        {
-          "key": "pascal sturmfels",
-          "name": "Pascal Sturmfels"
+          "key": "pascal research sturmfels vilya",
+          "name": "Vilya Research: Pascal Sturmfels"
         },
         {
           "key": "milad salem",
@@ -947,7 +944,7 @@
           "name": "Ivan Anishchanka"
         }
       ],
-      "abstract_text": "Macrocyclic peptides are an increasingly important therapeutic modality, but existing computational methods for modeling their structures and properties are limited in scope and do not generalize well across the synthetically accessible chemical space. In this work, we introduce Vilya-1, a deep learning model that addresses two central challenges in macrocycle design: sampling biologically relevant conformations across arbitrary chemistries and predicting key developability properties such as membrane permeability. Vilya-1 operates on a uniform all-atom representation and is trained on heterogeneous structural datasets spanning diverse topologies and chemical classes. Across a broad set of macrocycles composed of canonical and non-canonical residues, Vilya-1 substantially improves geometric accuracy relative to physics-based methods, co-folding networks, and deep-learning conformer generators, while maintaining broad chemical coverage that extends to small molecules. Vilya-1 also supports generative applications, enabling the design of novel macrocycles with tailored chemical, structural, and property profiles. Together, these capabilities establish Vilya-1 as a foundation model for accelerating the development of next-generation macrocycle therapeutics.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4438,33 +4435,22 @@
     {
       "id": "7aae6537a3e079f82b183770927cb4cf5b033ed176ba7cb7e46a5ce1e1eddb2f",
       "identity_keys": [
+        "doi:10.1101/2024.12.02.626353",
         "https://doi.org/10.1101/2024.12.02.626353",
         "https://doi.org/10.21203/rs.3.rs-8450746/v1",
         "https://openalex.org/W4405043907"
       ],
-      "title": "Controllable All-Atom Protein Generation with Latent Diffusion",
+      "title": "Generating All-Atom Protein Structure from Sequence-Only Training Data",
       "link": "https://doi.org/10.1101/2024.12.02.626353",
       "pdf_url": null,
-      "publication_date": "2024-12-05",
+      "publication_date": "2024-12-02",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2024.12.02.626353",
       "authors": [
         {
           "key": "amy lu",
           "name": "Amy X. Lu"
-        },
-        {
-          "key": "jason yang",
-          "name": "Jason Yang"
-        },
-        {
-          "key": "long yueming",
-          "name": "Yueming Long"
-        },
-        {
-          "key": "lambert theophile",
-          "name": "Theophile Lambert"
         },
         {
           "key": "wilson yan",
@@ -4476,11 +4462,11 @@
         },
         {
           "key": "kevin yang",
-          "name": "Kevin Yang"
+          "name": "Kevin K. Yang"
         },
         {
-          "key": "gligorijević vladimir",
-          "name": "Vladimir Gligorijević"
+          "key": "gligorijevic vladimir",
+          "name": "Vladimir  Gligorijevic"
         },
         {
           "key": "cho kyunghyun",
@@ -4491,19 +4477,15 @@
           "name": "Richard Bonneau"
         },
         {
-          "key": "frey nathan",
-          "name": "Nathan C. Frey"
-        },
-        {
-          "key": "arnold frances",
-          "name": "Frances Arnold"
-        },
-        {
           "key": "abbeel pieter",
           "name": "Pieter Abbeel"
+        },
+        {
+          "key": "frey nathan",
+          "name": "Nathan Frey"
         }
       ],
-      "abstract_text": "Abstract De novo generation of proteins with atomic-level functional control remains a challenge that is exacerbated by structural data scarcity. Here, we introduce PLAID (Protein Latent Induced Diffusion), a latent diffusion framework that co-generates protein sequence and all-atom structure by sampling in the compressed latent space of the pretrained protein folding model ESMFold. Because diffusion training uses sequence-derived latents rather than experimentally resolved structures, PLAID can learn from sequence-scale databases that are orders of magnitude larger than structural ones. We find that crucial to learning a generative model over this latent space is to first compress it, which bypasses ESMFold latent space irregularities and provides sampling efficiency speedups. This approach further unlocks the amount of available annotations: using classifier-free guidance, PLAID supports compositional conditioning on 2,219 function terms from Gene Ontology and 3,617 taxonomic keywords. In silico, PLAID produces diverse and designable all-atom proteins that better match natural biophysical distributions than existing all-atom baselines. As a proof-of-concept validation of controllable generation capabilities, we use heme binding and E. coli as function and taxonomy prompts, respectively. PLAID can propose candidates that express in E. coli with absorption spectra that suggest heme binding, with high sequence novelty to known heme binders. These results establish latent diffusion as a scalable, efficient, and compositionally controllable approach for all-atom protein generation and multimodal data augmentation.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5161,10 +5143,8 @@
     },
     {
       "id": "7ad3cd014d366f9ff1ff05e1abb15a6ebfb1d77b198ed68397fc7c42c346bb2f",
-      "identity_keys": [
-        "https://doi.org/10.1126/science.adk8946",
-        "https://openalex.org/W4400313991"
-      ],
+      "canonical_id": "130d64127848031a516e0a14b631ccc4c0be1dd17b987ea8d4cb1598673a309a",
+      "identity_keys": [],
       "title": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
       "link": "https://doi.org/10.1126/science.adk8946",
       "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11616794/pdf/nihms-2034687.pdf",
@@ -5676,16 +5656,18 @@
       "id": "7af247e8d51bb27274000c2a00348c09127404176e939bc599d1ef2fdc2bbf72",
       "identity_keys": [
         "doi:10.1101/2024.09.11.612443",
+        "https://doi.org/10.1016/j.cell.2025.07.010",
         "https://doi.org/10.1101/2024.09.11.612443",
-        "https://doi.org/10.2139/ssrn.4968694"
+        "https://doi.org/10.2139/ssrn.4968694",
+        "https://openalex.org/W4412993096"
       ],
-      "title": "AI-generated small binder improves prime editing",
-      "link": "https://doi.org/10.1101/2024.09.11.612443",
+      "title": "AI-generated MLH1 small binder improves prime editing efficiency",
+      "link": "https://doi.org/10.1016/j.cell.2025.07.010",
       "pdf_url": null,
-      "publication_date": "2024-09-11",
+      "publication_date": "2025-08-05",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2024.09.11.612443",
+      "venue": "Cell",
       "authors": [
         {
           "key": "chan ju park",
@@ -5697,18 +5679,30 @@
         },
         {
           "key": "kim woo yong",
-          "name": "Yong-Woo Kim"
+          "name": "Yong Woo Kim"
         },
         {
           "key": "eun oh ye",
           "name": "Ye Eun Oh"
         },
         {
+          "key": "hee jeung lee",
+          "name": "Jeung‐Hee Lee"
+        },
+        {
+          "key": "jiyun yang",
+          "name": "Jiyun Yang"
+        },
+        {
+          "key": "kim kyoungmi",
+          "name": "Kyoungmi Kim"
+        },
+        {
           "key": "bae sangsu",
           "name": "Sangsu Bae"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "The prime editing 2 (PE2) system comprises a nickase Cas9 fused to a reverse transcriptase utilizing a prime editing guide RNA (pegRNA) to introduce desired mutations at target genomic sites. However, the PE efficiency is limited by mismatch repair (MMR) that excises the DNA strand containing desired edits. Thus, inhibiting key components of MMR complex through transient expression of a dominant negative MLH1 (MLH1dn) exhibited approximately 7.7-fold increase in PE efficiency over PE2, generating PE4. Herein, by utilizing a generative artificial intelligence (AI) technologies, RFdiffusion and AlphaFold 3, we ultimately generated a de novo MLH1 small binder (named MLH1-SB), which bind to the dimeric interface of MLH1 and PMS2 to disrupt the formation of key MMR components. MLH1-SB’s small size (82 amino acids) allowed it to be integrated into pre-existing PE architectures via the 2A system, creating a novel PE-SB platform. Resultantly, by incorporating MLH1-SB into PE7, we have developed an improved PE architecture called PE7-SB, which demonstrates the highest PE efficiency to date (29.4-fold over PE2 and 2.4-fold over PE7 in HeLa cells), providing an insight that generative AI technologies will boost up the improvement of genome editing tools.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -2059,6 +2059,37 @@
       "curated_categories": []
     },
     {
+      "id": "bc700a3226e271d7310842d465af95a82bacae738c6f3fec7d05245e9722ebf7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.01.763467v1",
+        "https://doi.org/10.64898/2026.11.01.763467",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.01.763467.source.xml"
+      ],
+      "title": "GOParsimony: parsimonious saltation across the Gene Ontology digraph for efficient functional annotation",
+      "link": "https://doi.org/10.64898/2026.11.01.763467",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763467v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "harrison",
+          "name": "Harrison, P. M"
+        }
+      ],
+      "abstract_text": "Background. The Gene Ontology (GO) is standardly probed by biological researchers keen to discern the functional tendencies of their gene/protein data sets. However, lists of GO terms are often ontically overwhelming, and need to be filtered to remove redundancy. Methods for such filtering either employ predefined lists of terms that may not actually be relevant to a specific gene/protein set, or apply arbitrary thresholds, such as for semantic distance (i.e., GO term dissimilarity). Methods. Here, I introduce the tool GOParsimony, which is designed to avoid such issues and to pick out the most parsimonious (i.e., simplest, most concise) explanation for the functional tendencies of any set of proteins/genes. It achieves this by saltating across the GO digraph, assigning and updating cascades of term precedence until convergence. The set of GO terms assigned precedence = 1 is the most parsimonious set. Hierarchical clustering with other GO terms with higher precedence levels can be investigated for clues about functional modules. Results. GO term precedence graphs and two-dimensional heatmaps of GO terms and genes/proteins are output, along with other plots that can be cross-referenced for functional insights. In test analyses for five example data sets from budding yeast and human, GOParsimony consistently produces reduced GO term lists that have greater significance and low or intermediate coverage of the space of significant GO terms, when compared to other distributed methods in default mode. GOParsimony can be obtained at: https://github.com/pmharrison/GOParsimony .",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bc714f36850742f7205983263d9aac9cc929a470a24dcd59525e04e074d6c19d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69224-3",
@@ -5965,7 +5996,7 @@
         },
         {
           "key": "audrey lucerne",
-          "name": "AUDREY LUCERNE"
+          "name": "Audrey M. Lucerne"
         },
         {
           "key": "da silva valentina",

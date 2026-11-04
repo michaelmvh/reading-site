@@ -646,6 +646,48 @@
       "curated_categories": []
     },
     {
+      "id": "88142b60b4fd81cef354d806327e6cca642e7a94a58f91fe25a3845b0a047bae",
+      "identity_keys": [
+        "arxiv:2408.02845",
+        "https://doi.org/10.48550/arXiv.2408.02845"
+      ],
+      "title": "Heterogeneous Graph Attention Network With Multimodal Feature Selection for Cancer Multiomics Integration",
+      "link": "https://doi.org/10.48550/arXiv.2408.02845",
+      "pdf_url": "https://arxiv.org/pdf/2408.02845",
+      "publication_date": "2024-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "sina tabakhi",
+          "name": "Sina Tabakhi"
+        },
+        {
+          "key": "charlotte vandermeulen",
+          "name": "Charlotte Vandermeulen"
+        },
+        {
+          "key": "ian sudbery",
+          "name": "Ian Sudbery"
+        },
+        {
+          "key": "haiping lu",
+          "name": "Haiping Lu"
+        }
+      ],
+      "abstract_text": "The increase in high-dimensional multiomics data demands advanced integration models to capture the complexity of human diseases. Graph-based deep learning integration models, despite their promise, struggle with small patient cohorts and high-dimensional features, often applying independent feature selection without modeling relationships among omics. Furthermore, conventional graph-based omics models focus on homogeneous graphs, lacking multiple types of nodes and edges to capture diverse structures. We introduce a Heterogeneous Graph ATtention network for omics integration (HeteroGATomics) to improve cancer diagnosis. HeteroGATomics performs multimodal feature selection through a multi-agent system, creating dedicated networks of feature and patient similarity for each omics modality. These networks are then combined into one heterogeneous graph for learning holistic omics-specific representations and integrating predictions across modalities. Experiments on three cancer multiomics datasets show that HeteroGATomics outperforms baseline methods across most evaluation metrics in cancer diagnosis. External validation on an independent breast cancer cohort further demonstrates its generalizability, where HeteroGATomics outperforms graph-based multiomics integration methods across evaluation metrics. Moreover, HeteroGATomics enhances interpretability by identifying important biomarkers contributing to the diagnosis outcomes.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8814f1e7c3850f878c9ca3b96c21371d1dc624ac9ed39e47a8535119cb129952",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-03255-0",
@@ -2609,6 +2651,8 @@
       "id": "886a22b357468260c9f4599fad44b815ecf2c7b367a4091daa8c6c0bdedbd166",
       "identity_keys": [
         "https://doi.org/10.1038/s41592-026-03137-3",
+        "https://doi.org/10.1101/2024.05.20.595026",
+        "https://openalex.org/W4398163621",
         "https://openalex.org/W7203439560"
       ],
       "title": "Aligning protein-generative models to experimental fitness with ProteinDPO",
@@ -2661,7 +2705,9 @@
       ],
       "curated_categories": [
         "5.6 RL-based",
-        "5.Function to Sequence"
+        "5.Function to Sequence",
+        "7. Other tasks",
+        "7.1 Effects of mutation & Fitness Landscape"
       ]
     },
     {

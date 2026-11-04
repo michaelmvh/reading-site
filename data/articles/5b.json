@@ -4298,6 +4298,73 @@
       "curated_categories": []
     },
     {
+      "id": "5b9f146e1f214ac2b02cd3306dbcaee26376de82c53be0211b9c63eb43594efa",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763189v1",
+        "https://doi.org/10.64898/2026.10.30.763189",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.30.763189.source.xml"
+      ],
+      "title": "The Reasoning Paradox in Scientific Sandboxes: Why Extended Reasoning Fails in Autonomous Bioinformatics and How to Fix It.",
+      "link": "https://doi.org/10.64898/2026.10.30.763189",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763189v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "salami",
+          "name": "Salami, R. O"
+        },
+        {
+          "key": "amuna",
+          "name": "Amuna, D"
+        },
+        {
+          "key": "akorful",
+          "name": "Akorful, R. A"
+        },
+        {
+          "key": "anjali",
+          "name": "Anjali, R"
+        },
+        {
+          "key": "morang",
+          "name": "Morang'a, C. M"
+        },
+        {
+          "key": "quashie",
+          "name": "Quashie, P. K"
+        },
+        {
+          "key": "asiamah",
+          "name": "Asiamah, E. A"
+        },
+        {
+          "key": "carr",
+          "name": "Carr, R. A"
+        },
+        {
+          "key": "adase",
+          "name": "Adase, I"
+        },
+        {
+          "key": "kumordzi",
+          "name": "Kumordzi, S. M"
+        }
+      ],
+      "abstract_text": "Frontier large language models (LLMs) trained with extended reasoning, such as DeepSeek-R1 and OpenAI o1, have established state-of-the-art benchmarks in formal logic, competitive programming, and mathematics. In interactive, empirical scientific sandboxes, however, their efficacy remains counter-intuitive. In the Bioinformatics Benchmark (BixBench), extended reasoning models paradoxically degraded in multi-turn environments, leading benchmark authors to exclude them from primary agentic evaluations. In this paper, we conduct the first systematic forensic audit of the internal cognitive monologue (<think> ... </think>) of open-weight reasoning models (DeepSeek-R1-Distill-Qwen-14B) and matched instruction-tuned controls (Qwen2.5-Coder-14B) deployed inside containerized computational biology sandboxes on Nvidia H100 GPUs. Our forensic analysis uncovers two distinct systemic failure modes: (1) The PubMed Prior Trap, in which reasoning models engage in epistemic rationalization within their cognitive stream, falsely convincing themselves that empirical datasets are missing and substituting empirical computation with speculative literature recall (e.g., estimating adjusted p-values based on \"typical experimental outcomes\"); and (2) Tag Language Nesting Collisions, in which models conflate agent-level XML action tags with Python syntax, producing terminal interpreter syntax errors. To resolve this paradox, we introduce Dual Track Decoupled Reasoning (DTDR), an agent scaffolding architecture that evicts internal cognitive monologues from multi-turn history, injects strict empirical grounding guardrails, and dynamically intercepts runtime tool invocations. On a stratified diagnostic benchmark spanning single-cell RNA-seq, bulk differential expression (DESeq2), and genomic variant prioritization (n=22 per arm), DTDR rescues the 14B reasoning model from 0.0% to 9.09% accuracy (2/22), doubling the performance of the matched non-reasoning coder control (4.55%, 1/22) while slashing code execution errors by 81% (13.6% vs. 72.7%) and reducing average steps to solution by 66% (1.77 vs. 5.18 steps). All replication pipelines, prompts, and trajectory manifests are openly released.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5b9f9fdb25829457b6bbd170057529e70ec910866a1f649193311647cd98f47c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73867-7",

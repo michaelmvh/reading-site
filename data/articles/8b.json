@@ -1167,16 +1167,18 @@
       "id": "8b4bb43f373befa2ce557a6faf44c5e4f9d37c56721699d3cb926f39a38b0fdb",
       "identity_keys": [
         "https://arxiv.org/abs/2004.03497",
+        "https://doi.org/10.1101/2020.03.07.982272",
         "https://doi.org/10.48550/arxiv.2004.03497",
+        "https://openalex.org/W3010387158",
         "https://openalex.org/W3015531900"
       ],
       "title": "ProGen: Language Modeling for Protein Generation",
-      "link": "https://doi.org/10.48550/arxiv.2004.03497",
-      "pdf_url": "https://arxiv.org/pdf/2004.03497",
+      "link": "https://doi.org/10.1101/2020.03.07.982272",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2020/03/13/2020.03.07.982272.full.pdf",
       "publication_date": "2020-03-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "ali madani",
@@ -1184,7 +1186,7 @@
         },
         {
           "key": "bryan mccann",
-          "name": "McCann, Bryan"
+          "name": "Bryan McCann"
         },
         {
           "key": "naik nikhil",
@@ -1211,7 +1213,7 @@
           "name": "Richard Socher"
         }
       ],
-      "abstract_text": "Generative modeling for protein engineering is key to solving fundamental problems in synthetic biology, medicine, and material science. We pose protein engineering as an unsupervised sequence generation problem in order to leverage the exponentially growing set of proteins that lack costly, structural annotations. We train a 1.2B-parameter language model, ProGen, on ~280M protein sequences conditioned on taxonomic and keyword tags such as molecular function and cellular component. This provides ProGen with an unprecedented range of evolutionary sequence diversity and allows it to generate with fine-grained control as demonstrated by metrics based on primary sequence similarity, secondary structure accuracy, and conformational energy.",
+      "abstract_text": "Abstract Generative modeling for protein engineering is key to solving fundamental problems in synthetic biology, medicine, and material science. We pose protein engineering as an unsupervised sequence generation problem in order to leverage the exponentially growing set of proteins that lack costly, structural annotations. We train a 1.2B-parameter language model, ProGen, on ∼280M protein sequences conditioned on taxonomic and keyword tags such as molecular function and cellular component. This provides ProGen with an unprecedented range of evolutionary sequence diversity and allows it to generate with fine-grained control as demonstrated by metrics based on primary sequence similarity, secondary structure accuracy, and conformational energy.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2198,6 +2200,8 @@
       "id": "8b77e89bf99282fd7c35e3a1bb2f2ddd6df0cbd6cacf9afc2bf050ed7c6444b0",
       "identity_keys": [
         "https://doi.org/10.1038/s41587-026-03187-0",
+        "https://doi.org/10.1101/2025.09.19.677421",
+        "https://openalex.org/W4414452494",
         "https://openalex.org/W7165686356"
       ],
       "title": "Efficient generation of epitope-targeted antibodies with Germinal",
@@ -2260,9 +2264,18 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "2. Model-based design",
+        "2.1.1 trRosetta-based"
+      ]
     },
     {
       "id": "8b7baf4713ead2128bce91d06f5c723b251e3b80253bbbef3001ba8a9f9f7538",

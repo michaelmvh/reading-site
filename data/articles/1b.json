@@ -2372,6 +2372,53 @@
       "curated_categories": []
     },
     {
+      "id": "1b855eac5ecf9d2b5ccc73df2687550ccefff595b71e084a3ae0fcc290a89474",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.31.763119v1",
+        "https://doi.org/10.64898/2026.10.31.763119",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.10.31.763119.source.xml"
+      ],
+      "title": "SPaRTA: Spatial Reasoning in Text-to-SQL for Omics Analysis",
+      "link": "https://doi.org/10.64898/2026.10.31.763119",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763119v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "dutta",
+          "name": "Dutta, A"
+        },
+        {
+          "key": "ghosh",
+          "name": "Ghosh, S"
+        },
+        {
+          "key": "prado",
+          "name": "Prado, K"
+        },
+        {
+          "key": "khudabukhsh",
+          "name": "KhudaBukhsh, A"
+        },
+        {
+          "key": "sarkar",
+          "name": "Sarkar, H"
+        }
+      ],
+      "abstract_text": "Spatial-omics technologies provide clinicians, pathologists, and biomedical researchers with high-resolution maps of transcriptomic, proteomic, and metabolomic activity within tissues. However, querying these complex datasets often requires specialized computational expertise, limiting their accessibility to domain experts without programming experience. In the current manuscript, we develop SPaRTA (Spatial Reasoning in Text-to-SQL for Omics Analysis), a natural-language interface that translates free-text questions into executable spatial SQL queries over such data. We release SPaRTA-Bench, comprising dataset-specific database schemas, explicit query conventions, and 7,500 question-SQL pairs validated through LLM-assisted verification and targeted human review, spanning breast cancer, pancreatic cancer, and melanoma tissue sections, and identify 15 failure modes in which a query runs but returns a wrong answer. Open-weight large language models (LLMs) of the Llama, Mistral, Qwen, Gemma and Phi families reach 10-40% execution accuracy zero-shot, and at most 61% with reasoning and execution feedback. Fine-tuning raises them to 63-77%, and they lose at most 6 percentage points on a tissue unseen in training. Execution feedback repairs queries that fail to run, but rarely queries that run and return a wrong answer.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1b85cd7fd985956578c757ee974cb18f5ae1c025cf29c7e09de4d6605920b024",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77703-w",
@@ -4597,6 +4644,7 @@
       "id": "1be88076b9d14e1a59687b0f4ea87d100d896ffe1b7f1980ae029e9ccd9777f7",
       "identity_keys": [
         "https://arxiv.org/abs/2307.12682",
+        "https://doi.org/10.1126/sciadv.adr2641",
         "https://doi.org/10.48550/arxiv.2307.12682",
         "https://openalex.org/W4385261867"
       ],

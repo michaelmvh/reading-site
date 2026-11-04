@@ -492,6 +492,40 @@
       "curated_categories": []
     },
     {
+      "id": "3420d077329a91871868f06cda82ef24c5acea3072ac6eddefcbda04557057f2",
+      "identity_keys": [
+        "arxiv:2611.05055",
+        "https://doi.org/10.48550/arXiv.2611.05055"
+      ],
+      "title": "Ablating Design Choices for Protein Ensemble Generators Across Structural Regimes",
+      "link": "https://doi.org/10.48550/arXiv.2611.05055",
+      "pdf_url": "https://arxiv.org/pdf/2611.05055v1",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "eoin quinn",
+          "name": "Eoin Quinn"
+        },
+        {
+          "key": "bent oliver",
+          "name": "Oliver Bent"
+        }
+      ],
+      "abstract_text": "Generative models of protein conformational ensembles inherit much of their design from structure prediction for folded proteins. Ordered and disordered proteins, however, occupy distinct structural regimes, and we investigate how design choices hold up across them. Using a minimal C$α$ flow-matching model, we ablate choices of architecture, sequence conditioning, rigid-body alignment and training source, and evaluate each variant against experimental SAXS and NMR chemical-shift data partitioned into ordered, disordered, multi-domain and transitional proteins. Mixture-of-experts routing, a static pair representation and a disorder probe have no detectable effect, a smaller protein language model performs worse on ordered proteins but not on disordered ones, and alignment in the loss degrades agreement with SAXS. Replacing coarse-grained simulations of disordered proteins with fragment-assembled ensembles improves agreement with chemical shifts at a cost to SAXS, while an equal mixture of the two keeps most of the gain at a smaller cost. This points to the training data, rather than the architecture, as the main constraint.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3422c5e57ea72a5d7abeaa93d3d4873b6ebda3fabfaf1908e01e7728f28de0f9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66012-3",
@@ -1852,16 +1886,17 @@
     {
       "id": "346396b1043007c02fcf0dac2aaef1ee1b1572b6228f50ae6e0471af650def64",
       "identity_keys": [
+        "doi:10.1101/2023.12.05.570298",
         "https://doi.org/10.1101/2023.12.05.570298",
         "https://openalex.org/W4389463193"
       ],
       "title": "DNDesign: Enhancing Physical Understanding of Protein Inverse Folding Model via Denoising",
       "link": "https://doi.org/10.1101/2023.12.05.570298",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/07/2023.12.05.570298.full.pdf",
-      "publication_date": "2023-12-07",
+      "pdf_url": null,
+      "publication_date": "2023-12-05",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2023.12.05.570298",
       "authors": [
         {
           "key": "lee youhan",
@@ -1872,7 +1907,7 @@
           "name": "Jaehoon Kim"
         }
       ],
-      "abstract_text": "Abstract Based on the central dogma that protein structure determines its functionality, an important approach for protein sequence design is to identify promising sequences that fold into pre-designed structures based on domain knowledge. Numerous studies have introduced deep generative model-based inverse-folding, which utilizes various generative models to translate fixed backbones to corresponding sequences. In this work, we reveal that denoising training enables models to deeply capture the protein energy landscape, which previous models do not fully leverage. Based on this, we propose a novel Denoising-enhanced protein fixed backbone design (DNDesign), which combines conventional inverse-folding networks with a novel plug-in module, which learns the physical understanding via denoising training and transfers the knowledge to the entire network. Through extensive experiments, we demonstrate that DNDesign can easily be integrated into state-of-the-art models and improve performance in multiple modes, including auto-regressive, non-auto-regressive, and scaled-up scenarios. Furthermore, we introduce a fixed backbone conservation analysis based on potential energy changes, which confirms that DNDesign ensures more energetically favorable inverse-folding.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3330,6 +3365,7 @@
       "id": "349a06b1808e95dd1262c73a07048e00cb75cf03fb17ab0b03f69c8177dc981a",
       "identity_keys": [
         "https://doi.org/10.1101/2023.06.26.546591",
+        "https://doi.org/10.1126/sciadv.adr8638",
         "https://openalex.org/W4382362079"
       ],
       "title": "De Novo Design of Peptide Binders to Conformationally Diverse Targets with Contrastive Language Modeling",
@@ -3879,16 +3915,18 @@
     {
       "id": "34a8532b6778471b39e5322171c4dd22a57641d45f228038c2449bd74de9feb3",
       "identity_keys": [
+        "https://doi.org/10.1038/s42256-025-01120-9",
         "https://doi.org/10.1101/2024.10.22.619416",
-        "https://openalex.org/W4403761038"
+        "https://openalex.org/W4403761038",
+        "https://openalex.org/W4414705592"
       ],
-      "title": "An adaptive autoregressive diffusion approach to design active humanized antibody and nanobody",
-      "link": "https://doi.org/10.1101/2024.10.22.619416",
+      "title": "An adaptive autoregressive diffusion approach to design active humanized antibodies and nanobodies",
+      "link": "https://doi.org/10.1038/s42256-025-01120-9",
       "pdf_url": null,
-      "publication_date": "2024-10-25",
+      "publication_date": "2025-10-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Machine Intelligence",
       "authors": [
         {
           "key": "jian ma",
@@ -3911,19 +3949,31 @@
           "name": "Wei Liu"
         },
         {
-          "key": "divin yan",
-          "name": "Divin Yan"
+          "key": "liang yan",
+          "name": "Liang Yan"
+        },
+        {
+          "key": "minghao qu",
+          "name": "Minghao Qu"
+        },
+        {
+          "key": "xiaoke yang",
+          "name": "Xiaoke Yang"
         },
         {
           "key": "bai qifeng",
           "name": "Qifeng Bai"
         },
         {
+          "key": "junyu xiao",
+          "name": "Junyu Xiao"
+        },
+        {
           "key": "jianhua yao",
           "name": "Jianhua Yao"
         }
       ],
-      "abstract_text": "Humanization is a critical process for designing efficiently specific antibodies and nanobodies prior to clinical trials. Developing widely recognized deep learning techniques or frameworks for humanizing conventional antibodies and nanobodies presents a valuable yet challenging task. Inspired by the effectiveness of diffusion models across various applications, we introduce HuDiff, an adaptive diffusion approach for humanizing antibodies and nanobodies from scratch, referred to as HuDiff-Ab and HuDiff-Nb, respectively. This approach begins the humanization process exclusively with complementarity-determining region (CDR) sequences, eliminating the need for humanized templates. On public benchmark datasets, the results of HuDiff-Ab’s humanized antibodies are more similar to experimentally humanized antibodies than to those of the Sapiens humanization model. Besides, humanized nanobodies produced by HuDiff-Nb exhibit a higher humanness score and greater nativeness than those generated by the Lammanade pipeline for humanization nanobody. We apply HuDiff to humanize a mouse antibody and an alpaca nanobody, both targeting the SARS-CoV-2 RBD, and validate the binding affinity of humanized sequences through Bio-Layer Interferometry (BLI) experiments. The results show the binding affinity of the best humanized antibody is nearly equal to that of the parental mouse antibody (0.15 nM vs. 0.12 nM). Remarkably, the top-performing humanized nanobody exhibits a significantly enhanced binding affinity compared to the parental alpaca nanobody (2.52 nM vs. 5.47 nM), representing a 54% increase. These findings indicate that our approach HuDiff is highly effective in enhancing the humanness of antibodies and nanobodies while maintaining or potentially improving the binding affinity of the designed humanized sequences. The code and checkpoints of HuDiff are available at https://github.com/TencentAI4S/HuDiff .",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

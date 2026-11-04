@@ -2181,16 +2181,18 @@
     {
       "id": "496c8e7839c369d1a56e081a585dce4f980d2cf4566e7216a924ad8cb0811697",
       "identity_keys": [
+        "https://doi.org/10.1038/s41586-023-06728-8",
         "https://doi.org/10.1101/2022.12.01.518682",
-        "https://openalex.org/W4311179098"
+        "https://openalex.org/W4311179098",
+        "https://openalex.org/W4388694364"
       ],
       "title": "Illuminating protein space with a programmable generative model",
-      "link": "https://doi.org/10.1101/2022.12.01.518682",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/02/2022.12.01.518682.full.pdf",
-      "publication_date": "2022-12-02",
+      "link": "https://doi.org/10.1038/s41586-023-06728-8",
+      "pdf_url": "https://www.nature.com/articles/s41586-023-06728-8.pdf",
+      "publication_date": "2023-11-15",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature",
       "authors": [
         {
           "key": "ingraham john",
@@ -2205,39 +2207,99 @@
           "name": "Zak Costello"
         },
         {
-          "key": "frappier vincent",
-          "name": "Vincent Frappier"
-        },
-        {
-          "key": "ahmed ismail",
-          "name": "Ahmed Ismail"
-        },
-        {
-          "key": "shan tie",
-          "name": "Shan Tie"
+          "key": "barber karl",
+          "name": "Karl W. Barber"
         },
         {
           "key": "wang wujie",
           "name": "Wujie Wang"
         },
         {
+          "key": "ahmed ismail",
+          "name": "Ahmed Ismail"
+        },
+        {
+          "key": "frappier vincent",
+          "name": "Vincent Frappier"
+        },
+        {
+          "key": "dana lord",
+          "name": "Dana M. Lord"
+        },
+        {
+          "key": "christopher hing ng thow",
+          "name": "Christopher Ng‐Thow‐Hing"
+        },
+        {
+          "key": "erik van vlack",
+          "name": "Erik R. Van Vlack"
+        },
+        {
+          "key": "shan tie",
+          "name": "Shan Tie"
+        },
+        {
           "key": "vincent xue",
           "name": "Vincent Xue"
+        },
+        {
+          "key": "cowles sarah",
+          "name": "Sarah C. Cowles"
+        },
+        {
+          "key": "alan leung",
+          "name": "Alan Leung"
+        },
+        {
+          "key": "joão rodrigues",
+          "name": "João V. Rodrigues"
+        },
+        {
+          "key": "claudio morales pérez",
+          "name": "Claudio L. Morales-Pérez"
+        },
+        {
+          "key": "alex ayoub",
+          "name": "Alex Ayoub"
+        },
+        {
+          "key": "green robin",
+          "name": "Robin Green"
+        },
+        {
+          "key": "katherine puentes",
+          "name": "Katherine Puentes"
+        },
+        {
+          "key": "frank oplinger",
+          "name": "Frank Oplinger"
+        },
+        {
+          "key": "nishant panwar",
+          "name": "Nishant V. Panwar"
         },
         {
           "key": "fritz obermeyer",
           "name": "Fritz H. Obermeyer"
         },
         {
+          "key": "adam root",
+          "name": "Adam R. Root"
+        },
+        {
           "key": "andrew beam",
           "name": "Andrew L. Beam"
+        },
+        {
+          "key": "frank poelwijk",
+          "name": "Frank J. Poelwijk"
         },
         {
           "key": "gevorg grigoryan",
           "name": "Gevorg Grigoryan"
         }
       ],
-      "abstract_text": "Abstract Three billion years of evolution have produced a tremendous diversity of protein molecules, and yet the full potential of this molecular class is likely far greater. Accessing this potential has been challenging for computation and experiments because the space of possible protein molecules is much larger than the space of those likely to host function. Here we introduce Chroma, a generative model for proteins and protein complexes that can directly sample novel protein structures and sequences and that can be conditioned to steer the generative process towards desired properties and functions. To enable this, we introduce a diffusion process that respects the conformational statistics of polymer ensembles, an efficient neural architecture for molecular systems based on random graph neural networks that enables long-range reasoning with sub-quadratic scaling, equivariant layers for efficiently synthesizing 3D structures of proteins from predicted inter-residue geometries, and a general low-temperature sampling algorithm for diffusion models. We suggest that Chroma can effectively realize protein design as Bayesian inference under external constraints, which can involve symmetries, substructure, shape, semantics, and even natural language prompts. With this unified approach, we hope to accelerate the prospect of programming protein matter for human health, materials science, and synthetic biology.",
+      "abstract_text": ", but the full potential of proteins is likely to be much greater. Accessing this potential has been challenging for both computation and experiments because the space of possible protein molecules is much larger than the space of those likely to have functions. Here we introduce Chroma, a generative model for proteins and protein complexes that can directly sample novel protein structures and sequences, and that can be conditioned to steer the generative process towards desired properties and functions. To enable this, we introduce a diffusion process that respects the conformational statistics of polymer ensembles, an efficient neural architecture for molecular systems that enables long-range reasoning with sub-quadratic scaling, layers for efficiently synthesizing three-dimensional structures of proteins from predicted inter-residue geometries and a general low-temperature sampling algorithm for diffusion models. Chroma achieves protein design as Bayesian inference under external constraints, which can involve symmetries, substructure, shape, semantics and even natural-language prompts. The experimental characterization of 310 proteins shows that sampling from Chroma results in proteins that are highly expressed, fold and have favourable biophysical properties. The crystal structures of two designed proteins exhibit atomistic agreement with Chroma samples (a backbone root-mean-square deviation of around 1.0 Å). With this unified approach to protein design, we hope to accelerate the programming of protein matter to benefit human health, materials science and synthetic biology.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2253,11 +2315,8 @@
     },
     {
       "id": "496f1d6de34b800a2e3de07afeef37d7852d61da3fc6d578accad0fb4370e4ef",
-      "identity_keys": [
-        "https://arxiv.org/abs/2407.12296",
-        "https://doi.org/10.48550/arxiv.2407.12296",
-        "https://openalex.org/W4402345662"
-      ],
+      "canonical_id": "2952e612e40f4cd4a0fa4d3bf1fbcea39d38980d9c191c2aa3dc8c67a9a2a41d",
+      "identity_keys": [],
       "title": "Discovery of novel antimicrobial peptides with notable antibacterial potency by a LLM-based foundation model",
       "link": "https://doi.org/10.48550/arxiv.2407.12296",
       "pdf_url": "https://arxiv.org/pdf/2407.12296",
@@ -2798,7 +2857,7 @@
       ],
       "title": "Orchestrating Metal-Hydride Reactivity in Engineered Metalloenzymes: Electronic and Electrostatic Determinants of the Reaction Mechanism",
       "link": "https://doi.org/10.1021/jacs.6c04303",
-      "pdf_url": null,
+      "pdf_url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/68c05a429008f1a46767e432/original/computational-insights-into-metal-hydride-reactivity-in-engineered-metalloenzymes.pdf",
       "publication_date": "2026-04-27",
       "publication_date_precision": "unknown",
       "collection_date": null,

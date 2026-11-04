@@ -994,17 +994,18 @@
     {
       "id": "7c367c8ca86eed022b325e2256b9072209c26d6ea11f156438722854bf5a21f8",
       "identity_keys": [
+        "arxiv:2607.09039",
         "https://arxiv.org/abs/2607.09039",
         "https://doi.org/10.48550/arxiv.2607.09039",
         "https://openalex.org/W7168178203"
       ],
       "title": "Variable-Length Generative Protein Design via Generalized Poisson Flow",
-      "link": "https://doi.org/10.48550/arxiv.2607.09039",
-      "pdf_url": "https://arxiv.org/pdf/2607.09039",
-      "publication_date": "2026-07-10",
+      "link": "https://arxiv.org/abs/2607.09039",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2607.09039",
       "authors": [
         {
           "key": "chaoran cheng",
@@ -1035,7 +1036,7 @@
           "name": "Ge Liu"
         }
       ],
-      "abstract_text": "The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative framework that learns the rate function of an inhomogeneous generalized Poisson process by minimizing its negative log-likelihood. We establish population-level guarantees for recovering the joint multimodal distribution and derive an upper bound on the KL divergence between the data and generated distributions. We comprehensively evaluate GPFlow across structure and sequence design, motif scaffolding, and peptide co-design, spanning Euclidean, categorical, and Riemannian modalities to fully validate its variable-length generation quality. In unconditional design, GPFlow improves structural designability and achieves the best distributional fitness for sequence design compared to their corresponding fixed-length baselines, while perfectly recovering the length distribution. In conditional motif scaffolding, GPFlow ranks first on 10 of 16 structure-based design tasks with significantly more unique successes and also achieves more passed tasks in sequence-based design. In peptide co-design, GPFlow remains competitive even without access to a native-length oracle.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2734,16 +2735,18 @@
       "id": "7c87da0b40488b6a8e391651c12dd6484d5c3f539a22abcb3057d7072f136fa2",
       "identity_keys": [
         "https://arxiv.org/abs/2405.07622",
+        "https://doi.org/10.1089/cmb.2024.0768",
         "https://doi.org/10.48550/arxiv.2405.07622",
-        "https://openalex.org/W4396913875"
+        "https://openalex.org/W4396913875",
+        "https://openalex.org/W4405834118"
       ],
-      "title": "De novo antibody design with SE(3) diffusion",
-      "link": "https://doi.org/10.48550/arxiv.2405.07622",
+      "title": "De Novo Antibody Design with SE(3) Diffusion",
+      "link": "https://doi.org/10.1089/cmb.2024.0768",
       "pdf_url": "https://arxiv.org/pdf/2405.07622",
-      "publication_date": "2024-05-13",
+      "publication_date": "2024-12-27",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Journal of Computational Biology",
       "authors": [
         {
           "key": "cutting daniel",
@@ -2766,7 +2769,7 @@
           "name": "Charlotte Mary Deane"
         }
       ],
-      "abstract_text": "We introduce IgDiff, an antibody variable domain diffusion model based on a general protein backbone diffusion framework which was extended to handle multiple chains. Assessing the designability and novelty of the structures generated with our model, we find that IgDiff produces highly designable antibodies that can contain novel binding regions. The backbone dihedral angles of sampled structures show good agreement with a reference antibody distribution. We verify these designed antibodies experimentally and find that all express with high yield. Finally, we compare our model with a state-of-the-art generative backbone diffusion model on a range of antibody design tasks, such as the design of the complementarity determining regions or the pairing of a light chain to an existing heavy chain, and show improved properties and designability.",
+      "abstract_text": "We introduce IgDiff , an antibody variable domain diffusion model based on a general protein backbone diffusion framework, which was extended to handle multiple chains. Assessing the designability and novelty of the structures generated with our model, we find that IgDiff produces highly designable antibodies that can contain novel binding regions. The backbone dihedral angles of sampled structures show good agreement with a reference antibody distribution. We verify these designed antibodies experimentally and find that all express with high yield. Finally, we compare our model with a state-of-the-art generative backbone diffusion model on a range of antibody design tasks, such as the design of the complementarity determining regions or the pairing of a light chain to an existing heavy chain, and show improved properties and designability.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4313,7 +4316,7 @@
           "name": "Jay Shendure"
         }
       ],
-      "abstract_text": "A standardized 'parts list' of sequences for genetic engineering of microbes has been indispensable to progress in synthetic biology, but few analogous parts exist for mammalian systems. Here we design libraries of extant, ancestral, mutagenized or miniaturized variants of polymerase III promoters and guide RNA (gRNA) scaffolds and quantify their abilities to mediate precise edits to the mammalian genome through multiplex prime editing. We identify thousands of parts for reproducible editing in human and mouse cell lines, including hundreds with greater activity than commonly used sequences. Saturation mutagenesis screens identify tolerated sequence variants that further enhance sequence diversity. In an application to molecular recording, we design a 'ten key' array that, in mammalian cells, achieves balanced activity of pegRNAs as predicted by the activity of the component parts. The data reported here will aid the design of synthetic loci encoding arrays of gRNAs exhibiting predictable, differentiated levels of activity for applications in multiplexed perturbation, biological recorders and complex genetic circuits.",
+      "abstract_text": "Abstract A standardized ‘parts list’ of sequences for genetic engineering of microbes has been indispensable to progress in synthetic biology, but few analogous parts exist for mammalian systems. Here we design libraries of extant, ancestral, mutagenized or miniaturized variants of polymerase III promoters and guide RNA (gRNA) scaffolds and quantify their abilities to mediate precise edits to the mammalian genome through multiplex prime editing. We identify thousands of parts for reproducible editing in human and mouse cell lines, including hundreds with greater activity than commonly used sequences. Saturation mutagenesis screens identify tolerated sequence variants that further enhance sequence diversity. In an application to molecular recording, we design a ‘ten key’ array that, in mammalian cells, achieves balanced activity of pegRNAs as predicted by the activity of the component parts. The data reported here will aid the design of synthetic loci encoding arrays of gRNAs exhibiting predictable, differentiated levels of activity for applications in multiplexed perturbation, biological recorders and complex genetic circuits.",
       "discovery_sources": [
         {
           "kind": "open_alex",

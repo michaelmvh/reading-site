@@ -2072,18 +2072,20 @@
       "id": "bf5d81d1f6060c8c59361c83e9e2b4c3ea48e0a248ff4498d7491f96e2d7b927",
       "identity_keys": [
         "https://arxiv.org/abs/2409.14040",
+        "https://doi.org/10.1039/d4sc07642g",
         "https://doi.org/10.48550/arxiv.2409.14040",
         "https://doi.org/10.5281/zenodo.14065912",
         "https://doi.org/10.5281/zenodo.14065913",
-        "https://openalex.org/W4403752939"
+        "https://openalex.org/W4403752939",
+        "https://openalex.org/W4409502001"
       ],
-      "title": "PepINVENT: Generative peptide design beyond the natural amino acids",
-      "link": "https://doi.org/10.48550/arxiv.2409.14040",
-      "pdf_url": "https://arxiv.org/pdf/2409.14040",
-      "publication_date": "2024-09-21",
+      "title": "PepINVENT: generative peptide design beyond natural amino acids",
+      "link": "https://doi.org/10.1039/d4sc07642g",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2025/sc/d4sc07642g",
+      "publication_date": "2025-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Chemical Science",
       "authors": [
         {
           "key": "geylan gökçe",
@@ -2110,12 +2112,12 @@
           "name": "Mikhail Kabeshov"
         },
         {
-          "key": "david florian",
-          "name": "Florian David"
-        },
-        {
           "key": "czechtizky werngard",
           "name": "Werngard Czechtizky"
+        },
+        {
+          "key": "david florian",
+          "name": "Florian David"
         },
         {
           "key": "engkvist ola",
@@ -2126,7 +2128,7 @@
           "name": "Leonardo De Maria"
         }
       ],
-      "abstract_text": "Peptides play a crucial role in the drug design and discovery whether as a therapeutic modality or a delivery agent. Non-natural amino acids (NNAAs) have been used to enhance the peptide properties from binding affinity, plasma stability to permeability. Incorporating novel NNAAs facilitates the design of more effective peptides with improved properties. The generative models used in the field, have focused on navigating the peptide sequence space. The sequence space is formed by combinations of a predefined set of amino acids. However, there is still a need for a tool to explore the peptide landscape beyond this enumerated space to unlock and effectively incorporate de novo design of new amino acids. To thoroughly explore the theoretical chemical space of the peptides, we present PepINVENT, a novel generative AI-based tool as an extension to the small molecule molecular design platform, REINVENT. PepINVENT navigates the vast space of natural and non-natural amino acids to propose valid, novel, and diverse peptide designs. The generative model can serve as a central tool for peptide-related tasks, as it was not trained on peptides with specific properties or topologies. The prior was trained to understand the granularity of peptides and to design amino acids for filling the masked positions within a peptide. PepINVENT coupled with reinforcement learning enables the goal-oriented design of peptides using its chemistry-informed generative capabilities. This study demonstrates PepINVENT's ability to explore the peptide space with unique and novel designs, and its capacity for property optimization in the context of therapeutically relevant peptides. Our tool can be employed for multi-parameter learning objectives, peptidomimetics, lead optimization, and variety of other tasks within the peptide domain.",
+      "abstract_text": "design of new amino acids. To thoroughly explore the theoretical chemical space of peptides, we present PepINVENT, a novel generative AI-based tool as an extension to the small molecule molecular design platform, REINVENT. PepINVENT navigates the vast space of natural and non-natural amino acids to propose valid, novel, and diverse peptide designs. The generative model can serve as a central tool for peptide-related tasks, as it was not trained on peptides with specific properties or topologies. The prior was trained to understand the granularity of peptides and to design amino acids for filling the masked positions within a peptide. PepINVENT coupled with reinforcement learning enables the goal-oriented design of peptides using its chemistry-informed generative capabilities. This study demonstrates PepINVENT's ability to explore the peptide space with unique and novel designs and its capacity for property optimization in the context of therapeutically relevant peptides. Our tool can be employed for multi-parameter learning objectives, peptidomimetics, lead optimization, and a variety of other tasks within the peptide domain.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

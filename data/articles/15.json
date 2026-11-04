@@ -4006,10 +4006,8 @@
     },
     {
       "id": "15990907b3732b336a64b422232aee9534f5e1e7fcd536c2ad4d600f6135962f",
-      "identity_keys": [
-        "https://doi.org/10.1101/2024.08.01.606258",
-        "https://openalex.org/W4401253880"
-      ],
+      "canonical_id": "92d3e9e74320b3470295316f982d70eed0364937270603bdf29f186de03bd78b",
+      "identity_keys": [],
       "title": "Programmable design of functional proteins from natural language",
       "link": "https://doi.org/10.1101/2024.08.01.606258",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/02/2024.08.01.606258.full.pdf",
@@ -5969,16 +5967,18 @@
     {
       "id": "15d0ec9351d260cd6294073985fa642bf8f726ea8fc78488813a9aa57190f28c",
       "identity_keys": [
+        "https://doi.org/10.1021/acs.jmedchem.5c00789",
         "https://doi.org/10.1101/2025.01.18.633746",
-        "https://openalex.org/W4406603157"
+        "https://openalex.org/W4406603157",
+        "https://openalex.org/W4413284265"
       ],
-      "title": "Target-based de novo design of cyclic peptide binders",
-      "link": "https://doi.org/10.1101/2025.01.18.633746",
+      "title": "Reinforcement Learning-Based Target-Specific De Novo Design of Cyclic Peptide Binders",
+      "link": "https://doi.org/10.1021/acs.jmedchem.5c00789",
       "pdf_url": null,
-      "publication_date": "2025-01-19",
+      "publication_date": "2025-08-18",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Journal of Medicinal Chemistry",
       "authors": [
         {
           "key": "fanhao wang",
@@ -6005,7 +6005,7 @@
           "name": "Luhua Lai"
         }
       ],
-      "abstract_text": "Abstract Cyclic peptides have become a new focus in drug discovery due to their ability to bind challenging targets, including “undruggable” protein-protein interactions, with low toxicity. Despite their potential, general methods for de novo design of cyclic peptide ligands based on target protein structures remain limited. Here, we developed CYC_BUILDER, a reinforcement learning based fragment growing method for efficient assembly of peptide fragments and cyclization to generate diverse cyclic peptide binders for target proteins. CYC_BUILDER employs a Monte Carlo Tree Search (MCTS) framework to integrate seed fragment exploration, fragment fusion based peptide growth, structure optimization, evaluation and peptide cyclization. It supports peptide cyclization through both head-to-tail amide bond and disulfide bond formation. We first validated CYC_BUILDER on known protein-cyclic peptide complexes, demonstrating its ability to accurately re-generate cyclic peptide binders in terms of both sequences and binding poses. We then applied it to design cyclic peptide inhibitors for TNF α , a key mediator in inflammation-related diseases. Among the nine experimentally tested designed peptides, four showed potent binding to TNF α and inhibited its cellular activity. CYC_BUILDER provides an efficient tool for cyclic peptide drug design, offering significant potential for addressing challenging therapeutical targets.",
+      "abstract_text": "Abstract Cyclic peptides are promising therapeutic agents for challenging targets, especially protein–protein interactions. However, computationally designing cyclic peptide binders remains challenging. Here, we present CYC_BUILDER, a reinforcement learning-based framework that assembles peptide fragments and performs efficient cyclization via head-to-tail amide or disulfide bonds, which uses a Monte Carlo Tree Search to guide fragment selection, peptide growth, and structure refinement. We show that CYC_BUILDER was able to successfully regenerate native binding sequences and poses for known cyclic peptide–protein complexes. We have applied CYC_BUILDER to generate cyclic peptide binders for TNFα and found that the design results outperformed those from AfCycDesign and Anchor Extension in binding energy, structural diversity, and efficiency. We experimentally tested the activity of nine designed peptides, and four of them demonstrated potent binding and cellular activity. CYC_BUILDER offers a powerful tool for cyclic peptide discovery with broad applications in therapeutics and synthetic biology.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

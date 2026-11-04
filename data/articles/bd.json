@@ -3566,6 +3566,140 @@
       "curated_categories": []
     },
     {
+      "id": "bd9e1f4a39aa9ca15792709877138e772b1719b53e8b095daf9e4fe2e8f18107",
+      "identity_keys": [
+        "arxiv:2611.03963",
+        "https://doi.org/10.48550/arXiv.2611.03963"
+      ],
+      "title": "ProteoCraft: Protein Design as Proposal-Verification Search",
+      "link": "https://doi.org/10.48550/arXiv.2611.03963",
+      "pdf_url": "https://arxiv.org/pdf/2611.03963v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "fang wu",
+          "name": "Fang Wu"
+        },
+        {
+          "key": "hongbin lin",
+          "name": "Hongbin Lin"
+        },
+        {
+          "key": "bingchen duan",
+          "name": "Bingchen Duan"
+        },
+        {
+          "key": "wang yuchen",
+          "name": "Yuchen Wang"
+        },
+        {
+          "key": "erran li",
+          "name": "Li Erran Li"
+        },
+        {
+          "key": "huang yanjie",
+          "name": "Yanjie Huang"
+        },
+        {
+          "key": "cao mingxuan",
+          "name": "Mingxuan Cao"
+        },
+        {
+          "key": "ma yijun",
+          "name": "Yijun Ma"
+        },
+        {
+          "key": "mo yunxiang",
+          "name": "Yunxiang Mo"
+        },
+        {
+          "key": "li yanchao",
+          "name": "Yanchao Li"
+        },
+        {
+          "key": "kuan pang",
+          "name": "Kuan Pang"
+        },
+        {
+          "key": "juangui xu",
+          "name": "Juangui Xu"
+        },
+        {
+          "key": "cao hanqun",
+          "name": "Hanqun Cao"
+        },
+        {
+          "key": "dongwei jiang",
+          "name": "Dongwei Jiang"
+        },
+        {
+          "key": "xinyue xu",
+          "name": "Xinyue Xu"
+        },
+        {
+          "key": "tang xiangru",
+          "name": "Xiangru Tang"
+        },
+        {
+          "key": "wang zehong",
+          "name": "Zehong Wang"
+        },
+        {
+          "key": "jian ma",
+          "name": "Jian Ma"
+        },
+        {
+          "key": "kejun ying",
+          "name": "Kejun Ying"
+        },
+        {
+          "key": "guanlue li",
+          "name": "Guanlue Li"
+        },
+        {
+          "key": "cao mingran",
+          "name": "Mingran Cao"
+        },
+        {
+          "key": "fanjin wang",
+          "name": "Fanjin Wang"
+        },
+        {
+          "key": "fu tianfan",
+          "name": "Tianfan Fu"
+        },
+        {
+          "key": "shuangjia zheng",
+          "name": "Shuangjia Zheng"
+        },
+        {
+          "key": "shu yao",
+          "name": "Yao Shu"
+        },
+        {
+          "key": "jure leskovec",
+          "name": "Jure Leskovec"
+        },
+        {
+          "key": "choi yejin",
+          "name": "Yejin Choi"
+        }
+      ],
+      "abstract_text": "Protein-protein interactions underpin nearly all biological processes. Yet, designing proteins with desired interactions remains challenging due to the structural complexity governing molecular recognition. This study views protein design as a search optimization problem over a combinatorial sequence space under expensive structural evaluation. Toward this goal, we introduce a novel tree-based search framework, ProteoCraft, that employs approximate structural gradients from diffusion-based structure predictors as effective proposal policies to specify where the search should explore. Complete no-gradient inference of folding models separately assigns values to the resulting sequences, determining what is good. ProteoCraft allocates this verification budget through a coarse-to-fine paradigm: multi-site edits first explore distinct sequence basins, then verified promising states undergo strict single-site refinement. Across fourteen de novo binder-design settings spanning eight target proteins, five immune-relevant TCR-facing targets, and four localized CDR redesign tasks, ProteoCraft improves design quality and high-confidence yield. These improvements persist under independent AF2-IG and Rosetta-based interface evaluation. Prospective experimental validation further yielded an 82.9% binding hit rate for PD-L1 miniproteins, with a best measured KD of 0.879 nM, and confirmed binding of designed IFNAR2 VHH. Our code is available at https://github.com/smiles724/ProteoCraft_v1.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bda3728505f106986aece8e5c4c8784d84953eee5786a75fcf233d1153ea342c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68408-1",

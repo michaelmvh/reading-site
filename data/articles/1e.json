@@ -1401,6 +1401,7 @@
     {
       "id": "1e3409ab9c097d5d2479a0d9fcfbdc25ab253c638470a3d31e71f270ef836a7a",
       "identity_keys": [
+        "https://doi.org/10.1002/advs.202500859",
         "https://doi.org/10.1101/2024.01.31.577620",
         "https://openalex.org/W4391445506"
       ],
@@ -2746,16 +2747,17 @@
     {
       "id": "1e55d44bcd78a6ef9c391eaccd01ceacf457133f343fd45ea4be8d3d7f490d33",
       "identity_keys": [
+        "doi:10.1101/2024.07.16.603820",
         "https://doi.org/10.1101/2024.07.16.603820",
         "https://openalex.org/W4400859311"
       ],
       "title": "Conditional Sequence-Structure Integration: A Novel Approach for Precision Antibody Engineering and Affinity Optimization",
       "link": "https://doi.org/10.1101/2024.07.16.603820",
       "pdf_url": null,
-      "publication_date": "2024-07-19",
+      "publication_date": "2024-07-16",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2024.07.16.603820",
       "authors": [
         {
           "key": "benyamin jamialahmadi",
@@ -2774,7 +2776,7 @@
           "name": "Ali Ghodsi"
         }
       ],
-      "abstract_text": "Abstract Antibodies, or immunoglobulins, are integral to the immune response, playing a crucial role in recognizing and neutralizing external threats such as pathogens. However, the design of these molecules is complex due to the limited availability of paired structural antibody-antigen data and the intricacies of structurally non-deterministic regions. In this paper, we introduce a novel approach to designing antibodies by integrating structural and sequence information of antigens. Our approach employs a protein structural encoder to capture both sequence and conformational details of antigen. The encoded antigen information is then fed into an antibody language model (aLM) to generate antibody sequences. By adding cross-attention layers, aLM effectively incorporates the antigen information from the encoder. For optimal model training, we utilized the Causal Masked Language Modeling (CMLM) objective. Unlike other methods that require additional contextual information, such as epitope residues or a docked antibody framework, our model excels at predicting the antibody sequence without the need for any supplementary data. Our enhanced methodology demonstrates superior performance when compared to existing models in the RAbD benchmark for antibody design and SKEPMI for antibody optimization.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3835,6 +3837,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1e6b604394a453a9be15617ffee5a2868536d5151c7531d7b37e657053631807",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763241v1",
+        "https://doi.org/10.64898/2026.10.30.763241",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.30.763241.source.xml"
+      ],
+      "title": "GSET: Gene Signals from Embedding Trajectories select compact contexts for mechanistic GRN inference",
+      "link": "https://doi.org/10.64898/2026.10.30.763241",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763241v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "weizmann",
+          "name": "WEIZMANN, Z"
+        },
+        {
+          "key": "ventre",
+          "name": "VENTRE, E"
+        }
+      ],
+      "abstract_text": "Mechanistic inference of gene regulatory networks from temporal transcriptomic data can become computationally prohibitive at transcriptome scale, making gene selection an important determinant of which regulatory relationships can be recovered. However, gene selection for GRN inference commonly relies on static expression or co-expression structure, rather than prioritizing dynamically informative genes whose temporal patterns capture how transcriptional programs change and relate to one another. We introduce GSET (Gene Signals from Embedding Trajectories), an upstream retrieval framework that extracts dynamic information from temporal gene embeddings using two complementary signals: an optimal transport residual, which captures gene-specific deviations from global embedding movement, and a KL divergence, which detects changes in local co-expression neighborhoods. Temporal gene-embedding similarity identifies static transcriptional programs, whereas vectorial GSET signals represent coordinated temporal changes among genes, complementing this static structure. Lagged comparisons of these signals further prioritize temporal relationships between programs and candidate bridge genes associated with their transitions. Integrated with CardamomOT, GSET combines static program cores with dynamically retrieved bridge genes into compact, program-informed gene sets for mechanistic GRN inference. In synthetic benchmarks, at equal gene budget these sets recover more of the regulatory links between programs than static selections of the same size, and inference on the edges within the set is comparable to that of the full-gene model on the same gene pairs. On a time course of mouse fibroblasts reprogrammed into induced pluripotent stem cells, GSET traces the transition from the fibroblast program to the cell-cycle program. By providing a dynamic retrieval layer upstream of GRN inference, GSET nominates bridge genes as candidate regulators of cell-state transitions, which, once refined by a mechanistic model such as CardamomOT and confirmed by perturbation experiments, could open the way to controlling these transitions.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -7072,33 +7109,35 @@
       "id": "1efdbb4e50fd5c5b110d4339059d6af07cd3a15dd4405d83098cf626fb76ec22",
       "identity_keys": [
         "https://arxiv.org/abs/2201.12570",
+        "https://doi.org/10.1016/j.crmeth.2022.100374",
         "https://doi.org/10.2139/ssrn.4115860",
         "https://doi.org/10.48550/arxiv.2201.12570",
-        "https://openalex.org/W4221140570"
+        "https://openalex.org/W4221140570",
+        "https://openalex.org/W4313531775"
       ],
-      "title": "AntBO: Towards Real-World Automated Antibody Design with Combinatorial Bayesian Optimisation",
-      "link": "https://doi.org/10.2139/ssrn.4115860",
+      "title": "Toward real-world automated antibody design with combinatorial Bayesian optimization",
+      "link": "https://doi.org/10.1016/j.crmeth.2022.100374",
       "pdf_url": null,
-      "publication_date": "2022-01-01",
+      "publication_date": "2023-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "SSRN Electronic Journal",
+      "venue": "Cell Reports Methods",
       "authors": [
         {
-          "key": "asif khan",
-          "name": "Asif Khan"
+          "key": "ali asif khan",
+          "name": "Asif Ali Khan"
         },
         {
           "key": "alexander cowen rivers",
           "name": "Alexander I. Cowen-Rivers"
         },
         {
-          "key": "deik derrick goh xin",
-          "name": "Derrick-Goh-Xin Deik"
-        },
-        {
           "key": "antoine grosnit",
           "name": "Antoine Grosnit"
+        },
+        {
+          "key": "deik derrick goh xin",
+          "name": "Derrick-Goh-Xin Deik"
         },
         {
           "key": "auguste philippe robert",
@@ -7125,8 +7164,8 @@
           "name": "Kamil Dreczkowski"
         },
         {
-          "key": "rasul tatunov",
-          "name": "Rasul Tatunov"
+          "key": "rasul tutunov",
+          "name": "Rasul Tutunov"
         },
         {
           "key": "ammar bou dany",
@@ -7137,11 +7176,15 @@
           "name": "Jun Wang"
         },
         {
+          "key": "amos storkey",
+          "name": "Amos Storkey"
+        },
+        {
           "key": "ammar bou haitham",
           "name": "Haitham Bou Ammar"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Antibodies are multimeric proteins capable of highly specific molecular recognition. The complementarity determining region 3 of the antibody variable heavy chain (CDRH3) often dominates antigen-binding specificity. Hence, it is a priority to design optimal antigen-specific CDRH3 to develop therapeutic antibodies. The combinatorial structure of CDRH3 sequences makes it impossible to query binding-affinity oracles exhaustively. Moreover, antibodies are expected to have high target specificity and developability. Here, we present AntBO, a combinatorial Bayesian optimization framework utilizing a CDRH3 trust region for an in silico design of antibodies with favorable developability scores. The in silico experiments on 159 antigens demonstrate that AntBO is a step toward practically viable in vitro antibody design. In under 200 calls to the oracle, AntBO suggests antibodies outperforming the best binding sequence from 6.9 million experimentally obtained CDRH3s. Additionally, AntBO finds very-high-affinity CDRH3 in only 38 protein designs while requiring no domain knowledge.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

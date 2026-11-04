@@ -2169,6 +2169,7 @@
     {
       "id": "484a42fdf5824995b0a61450966e5a358aee248ff5cfa25e0db77d8b3052737f",
       "identity_keys": [
+        "doi:10.1101/2025.11.23.689994",
         "https://doi.org/10.1101/2025.11.23.689994",
         "https://openalex.org/W4416728353"
       ],
@@ -3288,7 +3289,11 @@
     {
       "id": "4872440f375e14ff1f59cd1d04538a47f6f56f8ae3df9e20227f5b00a02c010f",
       "identity_keys": [
+        "https://arxiv.org/abs/2412.04069",
         "https://doi.org/10.1038/s41467-025-65562-w",
+        "https://doi.org/10.21203/rs.3.rs-6104566/v1",
+        "https://doi.org/10.48550/arxiv.2412.04069",
+        "https://openalex.org/W4405095057",
         "https://openalex.org/W4416721989"
       ],
       "title": "Ab-initio amino acid sequence design from protein text description with ProtDAT",
@@ -3327,38 +3332,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "5.4 Transformer-based",
+        "5.Function to Sequence"
+      ]
     },
     {
       "id": "48743fefac65c70903560a331ec7ff1c88feae1e45f5fcbfc3838c8f76b87af4",
       "identity_keys": [
+        "doi:10.1101/2022.12.17.520847",
         "https://doi.org/10.1101/2022.12.17.520847",
         "https://openalex.org/W4311924788"
       ],
       "title": "De novo protein backbone generation based on diffusion with structured priors and adversarial training",
       "link": "https://doi.org/10.1101/2022.12.17.520847",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/19/2022.12.17.520847.full.pdf",
-      "publication_date": "2022-12-19",
+      "pdf_url": null,
+      "publication_date": "2022-12-17",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2022.12.17.520847",
       "authors": [
         {
           "key": "liu yufeng",
           "name": "Yufeng Liu"
         },
         {
-          "key": "chen hui ling",
-          "name": "Ling-Hui Chen"
+          "key": "chen linghui",
+          "name": "Linghui Chen"
         },
         {
           "key": "haiyan liu",
           "name": "Haiyan Liu"
         }
       ],
-      "abstract_text": "Abstract In de novo deisgn of protein backbones with deep generative methods, the designability or physical plausibility of the generated backbones needs to be emphasized. Here we report SCUBA-D, a method using denoising diffusion with priors of non-zero means to transform a low quality initial backbone into a high quality backbone. SCUBA-D has been developed by gradually adding new components to a basic denoising diffusion module to improve the physical plausibility of the denoised backbone. It comprises a module that uese one-step denoising to generate prior backbones, followed by a high resolution denoising diffusion module, in which structure diffusion is assisted by the simultaneous diffusion of a language model representation of the amino acid sequence. To ensure high physical plausibility of the denoised output backbone, multiple generative adversarial network (GAN)-style discriminators are used to provide additional losses in training. We have computationally evaluated SCUBA-D by applying structure prediction to amino acid sequences designed on the denoised backbones. The results suggest that SCUBA-D can generate high quality backbones from initial backbones that contain noises of various types or magnitudes, such as initial backbones coarsely sketched to follow certain overall shapes, or initial backbones comprising well-defined functional sites connected by unknown scaffolding regions.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

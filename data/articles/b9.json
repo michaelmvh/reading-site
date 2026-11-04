@@ -206,16 +206,19 @@
     {
       "id": "b90d1d27f0670c22ae8de6093b5393bddddbbb9825392744b491e8aa75ee1008",
       "identity_keys": [
+        "https://doi.org/10.1038/s41586-025-09549-z",
         "https://doi.org/10.1101/2024.11.15.623900",
-        "https://openalex.org/W4404457893"
+        "https://doi.org/10.17169/refubium-49747",
+        "https://openalex.org/W4404457893",
+        "https://openalex.org/W4414457751"
       ],
-      "title": "Design of facilitated dissociation enables control over cytokine signaling duration",
-      "link": "https://doi.org/10.1101/2024.11.15.623900",
+      "title": "Design of facilitated dissociation enables timing of cytokine signalling",
+      "link": "https://doi.org/10.1038/s41586-025-09549-z",
       "pdf_url": null,
-      "publication_date": "2024-11-16",
+      "publication_date": "2025-09-24",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature",
       "authors": [
         {
           "key": "adam broerman",
@@ -224,6 +227,10 @@
         {
           "key": "christoph pollmann",
           "name": "Christoph Pollmann"
+        },
+        {
+          "key": "yang zhao",
+          "name": "Yang Zhao"
         },
         {
           "key": "lichtenstein mauriz",
@@ -240,6 +247,10 @@
         {
           "key": "hee ryu won",
           "name": "Won Hee Ryu"
+        },
+        {
+          "key": "masato ogishi",
+          "name": "Masato Ogishi"
         },
         {
           "key": "abedi mohamad",
@@ -282,6 +293,10 @@
           "name": "Stefan Stoll"
         },
         {
+          "key": "christopher garcía",
+          "name": "K. Christopher García"
+        },
+        {
           "key": "florian praetorius",
           "name": "Florian Praetorius"
         },
@@ -294,7 +309,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Protein design has focused primarily on the design of ground states, ensuring they are sufficiently low energy to be highly populated. Designing the kinetics and dynamics of a system requires, in addition, the design of excited states that are traversed in transitions from one low-lying state to another. This is a challenging task as such states must be sufficiently strained to be poorly populated, but not so strained that they are not populated at all, and because protein design methods have generally focused on creating near-ideal structures. Here we describe a general approach for designing systems which use an induced-fit power stroke to generate a structurally frustrated and strained excited state, allosterically driving protein complex dissociation. X-ray crystallography, double electron-electron resonance spectroscopy, and kinetic binding measurements demonstrate that incorporating excited states enables design of effector-induced increases in dissociation rates as high as 6000-fold. We highlight the power of this approach by designing cytokine mimics which can be dissociated within seconds from their receptors.",
+      "abstract_text": "Abstract Protein design has focused on the design of ground states, ensuring that they are sufficiently low energy to be highly populated 1 . Designing the kinetics and dynamics of a system requires, in addition, the design of excited states that are traversed in transitions from one low-lying state to another 2,3 . This is a challenging task because such states must be sufficiently strained to be poorly populated, but not so strained that they are not populated at all, and because protein design methods have focused on generating near-ideal structures 4–7 . Here we describe a general approach for designing systems that use an induced-fit power stroke 8 to generate a structurally frustrated 9 and strained excited state, allosterically driving protein complex dissociation. X-ray crystallography, double electron–electron resonance spectroscopy and kinetic binding measurements show that incorporating excited states enables the design of effector-induced increases in dissociation rates as high as 5,700-fold. We highlight the power of this approach by designing rapid biosensors, kinetically controlled circuits and cytokine mimics that can be dissociated from their receptors within seconds, enabling dissection of the temporal dynamics of interleukin-2 signalling.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -1634,21 +1649,22 @@
     {
       "id": "b9508a8a323fac24cef9a1df239b60ded7fea7224957e4dced326cdaf5370599",
       "identity_keys": [
+        "arxiv:2405.01983",
         "https://arxiv.org/abs/2405.01983",
         "https://doi.org/10.48550/arxiv.2405.01983",
         "https://openalex.org/W4396788716"
       ],
       "title": "Model-based reinforcement learning for protein backbone design",
-      "link": "https://doi.org/10.48550/arxiv.2405.01983",
-      "pdf_url": "https://arxiv.org/pdf/2405.01983",
-      "publication_date": "2024-05-03",
+      "link": "https://arxiv.org/abs/2405.01983",
+      "pdf_url": null,
+      "publication_date": "2024-05-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2405.01983",
       "authors": [
         {
           "key": "frederic renard",
-          "name": "Renard, Frederic"
+          "name": "Frederic Renard"
         },
         {
           "key": "courtot cyprien",
@@ -1663,7 +1679,7 @@
           "name": "Oliver Bent"
         }
       ],
-      "abstract_text": "Designing protein nanomaterials of predefined shape and characteristics has the potential to dramatically impact the medical industry. Machine learning (ML) has proven successful in protein design, reducing the need for expensive wet lab experiment rounds. However, challenges persist in efficiently exploring the protein fitness landscapes to identify optimal protein designs. In response, we propose the use of AlphaZero to generate protein backbones, meeting shape and structural scoring requirements. We extend an existing Monte Carlo tree search (MCTS) framework by incorporating a novel threshold-based reward and secondary objectives to improve design precision. This innovation considerably outperforms existing approaches, leading to protein backbones that better respect structural scores. The application of AlphaZero is novel in the context of protein backbone design and demonstrates promising performance. AlphaZero consistently surpasses baseline MCTS by more than 100% in top-down protein design tasks. Additionally, our application of AlphaZero with secondary objectives uncovers further promising outcomes, indicating the potential of model-based reinforcement learning (RL) in navigating the intricate and nuanced aspects of protein design",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3708,6 +3724,36 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b9cd991eeeaadf45450da765e4820c8116446adafa3f6e0cf66533eeab82330c",
+      "identity_keys": [
+        "arxiv:2611.04037",
+        "https://doi.org/10.48550/arXiv.2611.04037"
+      ],
+      "title": "Visualization and Characterization of Gene Group Distribution Patterns Across Genomes",
+      "link": "https://doi.org/10.48550/arXiv.2611.04037",
+      "pdf_url": "https://arxiv.org/pdf/2611.04037v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wu yanying",
+          "name": "Yanying Wu"
+        }
+      ],
+      "abstract_text": "Genes of the same family often lie close together on a chromosome, yet how far apart family members sit, and whether their spacing follows any pattern, has rarely been measured consistently across genomes. We built an interactive web application that places the members of any of the 1,396 FlyBase gene groups on the banded ideogram of the fruit fly (Drosophila melanogaster) and lists each member's neighbours. While browsing it, we found strikingly symmetric gene sets in which consecutive members are almost evenly spaced. In the RAB GTPases, two 5.08 Mb spacings differ by only 634 bp. We also found that distances between neighbouring members fall into two populations: short-range (median 1.8 kb) and long-range (median 2.4 Mb). Although an arm-matched random control suggests that the even spacing (without a minimum-distance filter) as well as the long-range population arise largely by chance, the short-range population turns out to be a genuine clustering signal. We then extended the analysis to human and six other model organisms (mouse, zebrafish, Caenorhabditis elegans, Saccharomyces cerevisiae, Arabidopsis thaliana and maize), and every genome showed the same two populations. The mixture curve of the two is nearly constant across chromosomes in some genomes (Type I: fly, maize, Arabidopsis, C. elegans) but varies across chromosomes in others (Type II: human, mouse, zebrafish, yeast). Thus, across eight eukaryotes, family members lie in two distance populations. The scale of the short-range population follows the spacing of genes in each genome, and the long-range population matches random placement in fly and is consistent with it in the other genomes. Our results also show that visual patterns such as even spacing must be tested against chance before they are interpreted. Our tool and approach give a simple way to explore and compare gene clustering across species.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

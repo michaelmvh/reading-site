@@ -1260,18 +1260,19 @@
     {
       "id": "6623a1f2337e29572c068bc0aabc7e2add3e469ae93bd7ee48accce356235d73",
       "identity_keys": [
+        "arxiv:2302.01435",
         "https://arxiv.org/abs/2302.01435",
         "https://doi.org/10.21203/rs.3.pex-2185/v1",
         "https://doi.org/10.48550/arxiv.2302.01435",
         "https://openalex.org/W4399239510"
       ],
       "title": "Target specific peptide design using latent space approximate trajectory collector",
-      "link": "https://doi.org/10.21203/rs.3.pex-2185/v1",
+      "link": "https://arxiv.org/abs/2302.01435",
       "pdf_url": null,
-      "publication_date": "2024-05-31",
+      "publication_date": "2023-02-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "Research Square",
+      "venue": "arXiv:2302.01435",
       "authors": [
         {
           "key": "lin tong",
@@ -1286,8 +1287,8 @@
           "name": "Ruchira Basu"
         },
         {
-          "key": "dehua pei",
-          "name": "Dehua Pei"
+          "key": "dehu pei",
+          "name": "Dehu Pei"
         },
         {
           "key": "cheng xiaolin",
@@ -1298,7 +1299,7 @@
           "name": "Levent Burak Kara"
         }
       ],
-      "abstract_text": "Abstract Despite the prevalence and many successes of deep learning applications in de novo molecular design, the problem of peptide generation targeting specific proteins remains unsolved. A main barrier for this is the scarcity of the high-quality training data. To tackle the issue, we propose a novel machine learning based peptide design architecture, called Latent Space Approximate Trajectory Collector (LSATC). It consists of a series of samplers on an optimization trajectory on a highly non-convex energy landscape that approximates the distributions of peptides with desired properties in a latent space. The process involves little human intervention and can be implemented in an end-to-end manner. We demonstrate the model by the design of peptide extensions targeting β-catenin, a key nuclear effector protein involved in canonical Wnt signalling. When compared with a random sampler, LSATC can sample peptides with 36% lower mean binding scores in a 16 times smaller interquartile range (IQR) and 284% less mean hydrophobicity with a 1.4 times smaller IQR. LSATC also largely outperforms other common generative models.Finally, we utilize a clustering algorithm to select 4 peptides from the100 LSATC designed peptides for experimental validation. The resultconfirms that all the four peptides extended by LSATC show improved β-catenin binding by at least 20.0%, and two of the peptides show a 3 fold increase in binding affinity as compared to the base peptide.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3464,16 +3465,18 @@
       "id": "6667e5e209697369f392b363d0a331d77caae401d3327bf158157cc1b3a80baf",
       "identity_keys": [
         "https://arxiv.org/abs/2407.07443",
+        "https://doi.org/10.1109/bibm62325.2024.10822117",
         "https://doi.org/10.48550/arxiv.2407.07443",
-        "https://openalex.org/W4400600835"
+        "https://openalex.org/W4400600835",
+        "https://openalex.org/W4406238135"
       ],
       "title": "Secondary Structure-Guided Novel Protein Sequence Generation with Latent Graph Diffusion",
-      "link": "https://doi.org/10.48550/arxiv.2407.07443",
+      "link": "https://doi.org/10.1109/bibm62325.2024.10822117",
       "pdf_url": "https://arxiv.org/pdf/2407.07443",
-      "publication_date": "2024-07-10",
+      "publication_date": "2024-12-03",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
       "authors": [
         {
           "key": "hu yutong",
@@ -3493,14 +3496,14 @@
         },
         {
           "key": "hong liang",
-          "name": "Hong, Liang"
+          "name": "Liang Hong"
         },
         {
           "key": "bozitao zhong",
           "name": "Bozitao Zhong"
         }
       ],
-      "abstract_text": "The advent of deep learning has introduced efficient approaches for de novo protein sequence design, significantly improving success rates and reducing development costs compared to computational or experimental methods. However, existing methods face challenges in generating proteins with diverse lengths and shapes while maintaining key structural features. To address these challenges, we introduce CPDiffusion-SS, a latent graph diffusion model that generates protein sequences based on coarse-grained secondary structural information. CPDiffusion-SS offers greater flexibility in producing a variety of novel amino acid sequences while preserving overall structural constraints, thus enhancing the reliability and diversity of generated proteins. Experimental analyses demonstrate the significant superiority of the proposed method in producing diverse and novel sequences, with CPDiffusion-SS surpassing popular baseline methods on open benchmarks across various quantitative measurements. Furthermore, we provide a series of case studies to highlight the biological significance of the generation performance by the proposed method. The source code is publicly available at https://github.com/riacd/CPDiffusion-SS",
+      "abstract_text": "Designing protein sequences with restrictions or conditions is an important research topic in biology. Many powerful deep generative models have been proposed to create proteins belonging to specific families or with determined backbone structures. However, the amount of homologous data is not always sufficient for any proteins to train a model, and proteins from the same family may lack the necessary structural similarity, posing challenges in ensuring the presence of crucial structures in the generated proteins. On the other hand, when generating proteins with fixed backbone, there exists a trade-off between reliability and flexibility of sequence generation, necessitating prior specification of protein length and precise positions of amino acids. This work introduces a flexible protein generation method for amino acid sequence generation with latent diffusion models and protein language models. The generation is conditioned on protein secondary structures to address the practical considerations in bioengineering better. It enables the imposition of structural constraints on generated proteins while ensuring an adequate level of novelty and diversity at the sequence level. We compare the performance of our method against popular language models and structure-based methods using quantifiable metrics, demonstrating its superiority in generating diverse and novel sequences that exhibit high foldability. Furthermore, we provide case studies of generating proteins with specific secondary structures to analyze the biological significance of our method. The source code is publicly available at https://github.com/riacd/CPDiffusion-SS.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4499,7 +4502,7 @@
           "name": "Shinya Fushinobu"
         }
       ],
-      "abstract_text": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
+      "abstract_text": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli . SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

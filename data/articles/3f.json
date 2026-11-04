@@ -875,6 +875,7 @@
       "id": "3f25af479a11244af39d755700cbedf325784e4a36a092dde8761a6dff2ec24d",
       "identity_keys": [
         "https://arxiv.org/abs/2410.01773",
+        "https://doi.org/10.1016/j.sbi.2025.103018",
         "https://doi.org/10.48550/arxiv.2410.01773",
         "https://openalex.org/W4403852113"
       ],
@@ -983,15 +984,17 @@
       "id": "3f2725cf5eca8620797cbc0d810a787b52e74ddc40e4c4edff5dfce15c67134f",
       "identity_keys": [
         "https://doi.org/10.1101/2025.02.04.636539",
-        "https://openalex.org/W4407169386"
+        "https://doi.org/10.1126/science.adr3817",
+        "https://openalex.org/W4407169386",
+        "https://openalex.org/W7167011808"
       ],
-      "title": "Solubilization of Membrane Proteins using designed protein WRAPS",
-      "link": "https://doi.org/10.1101/2025.02.04.636539",
+      "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
+      "link": "https://doi.org/10.1126/science.adr3817",
       "pdf_url": null,
-      "publication_date": "2025-02-05",
+      "publication_date": "2026-07-02",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Science",
       "authors": [
         {
           "key": "ljubica mihaljević",
@@ -1002,12 +1005,12 @@
           "name": "David E. Kim"
         },
         {
-          "key": "eisenach helen",
-          "name": "Helen E. Eisenach"
-        },
-        {
           "key": "bandawane pooja",
           "name": "Pooja Bandawane"
+        },
+        {
+          "key": "eisenach helen",
+          "name": "Helen E. Eisenach"
         },
         {
           "key": "andrew borst",
@@ -1018,6 +1021,14 @@
           "name": "Alexis Courbet"
         },
         {
+          "key": "connor weidle",
+          "name": "Connor Weidle"
+        },
+        {
+          "key": "carr kenneth",
+          "name": "Kenneth D. Carr"
+        },
+        {
           "key": "bettin burlamarque everton",
           "name": "Everton Burlamarque Bettin"
         },
@@ -1026,12 +1037,32 @@
           "name": "Qiushi Liu"
         },
         {
-          "key": "connor weidle",
-          "name": "Connor Weidle"
+          "key": "aldo trejos",
+          "name": "Aldo T. Trejos"
         },
         {
           "key": "majumder sagardip",
           "name": "Sagardip Majumder"
+        },
+        {
+          "key": "kokane surabhi",
+          "name": "Surabhi Kokane"
+        },
+        {
+          "key": "alexander stevens",
+          "name": "Alexander Stevens"
+        },
+        {
+          "key": "edin muratspahić",
+          "name": "Edin Muratspahić"
+        },
+        {
+          "key": "schlichthaerle thomas",
+          "name": "Thomas Schlichthaerle"
+        },
+        {
+          "key": "expòsit marc",
+          "name": "Marc Expòsit"
         },
         {
           "key": "li xinting",
@@ -1054,8 +1085,8 @@
           "name": "Elizabeth C. Williams"
         },
         {
-          "key": "hu quan shi",
-          "name": "Shi Quan Hu"
+          "key": "hu shuyuan",
+          "name": "Shuyuan Hu"
         },
         {
           "key": "lynda stuart",
@@ -1070,8 +1101,16 @@
           "name": "Nicholas Robert Thomson"
         },
         {
+          "key": "landreh michael",
+          "name": "Michael Landreh"
+        },
+        {
           "key": "chang pengxiang",
           "name": "Pengxiang Chang"
+        },
+        {
+          "key": "giacani lorenzo",
+          "name": "Lorenzo Giacani"
         },
         {
           "key": "caimano melissa",
@@ -1092,6 +1131,12 @@
       ],
       "abstract_text": "The development of therapies and vaccines targeting integral membrane proteins has been complicated by their extensive hydrophobic surfaces, which can make production and structural characterization difficult. Here we describe a general deep learning-based design approach for solubilizing native membrane proteins while preserving their sequence, fold, and function using genetically encoded de novo protein WRAPs ( W ater-soluble R Fdiffused A mphipathic P roteins) that surround the lipid-interacting hydrophobic surfaces, rendering them stable and water-soluble without the need for detergents. We design WRAPs for both beta-barrel outer membrane and helical multi-pass transmembrane proteins, and show that the solubilized proteins retain the binding and enzymatic functions of the native targets with enhanced stability. Syphilis vaccine development has been hindered by difficulties in characterizing and producing the outer membrane protein antigens; we generated soluble versions of four Treponema pallidum outer membrane beta barrels which are potential syphilis vaccine antigens. A 4.0 Å cryo-EM map of WRAPed TP0698 is closely consistent with the design model. WRAPs should be broadly useful for facilitating biochemical and structural characterization of integral membrane proteins, enabling therapeutic discovery by screening against purified soluble targets, and generating antigenically intact immunogens for vaccine development.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

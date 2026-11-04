@@ -2321,16 +2321,18 @@
     {
       "id": "8f6bbcb645c7ac9516dfa78b629127b1254d8106b86f392f33f6c36c6b678974",
       "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.4c01020",
         "https://doi.org/10.1101/2024.03.14.584934",
-        "https://openalex.org/W4393055258"
+        "https://openalex.org/W4393055258",
+        "https://openalex.org/W4401978408"
       ],
-      "title": "A Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation",
-      "link": "https://doi.org/10.1101/2024.03.14.584934",
+      "title": "Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation",
+      "link": "https://doi.org/10.1021/acs.jcim.4c01020",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/16/2024.03.14.584934.full.pdf",
-      "publication_date": "2024-03-16",
+      "publication_date": "2024-08-28",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Journal of Chemical Information and Modeling",
       "authors": [
         {
           "key": "saravanan vishva",
@@ -2801,6 +2803,48 @@
         }
       ],
       "abstract_text": "Spontaneous dynamic systems have attracted significant attention for their rich underlying physics such as phase-locking and synchronization. In this work, we report a new mechanism of generating magnetic spontaneous oscillation via parametric pumping. By applying a pump tone to excite propagating spin waves in a yttrium iron garnet delay line, four-wave mixing converts the pump mode into two phase-autonomous propagating magnon modes, i.e. a spontaneous mode with nearly twice the wavenumber of the pump mode and an idler mode with nearly zero wavenumber. This allows us to reliably generate ultrasharp spin wave dynamics with broad frequency tunability from the pump and magnetic field. We show that the spontaneous mode can be phase-locked to a probe tone, similar to an auto-oscillator. Furthermore, the spontaneous dynamics can be used to implement a high-gain magnonic parametric amplifier with a gain up to 40 dB. Our results open a new avenue for studying nonlinear magnonics and synchronization physics in propagating magnon geometry and for developing new magnonic devices.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8f89649ad1917f6b02743b7b0d974fdff63580c8e41a9d8ddd924546f7b6bc6c",
+      "identity_keys": [
+        "https://doi.org/10.1073/pnas.2536965123",
+        "https://openalex.org/W7216151639"
+      ],
+      "title": "A structure-aware generative AI framework for revealing functional relationships in protein families",
+      "link": "https://doi.org/10.1073/pnas.2536965123",
+      "pdf_url": null,
+      "publication_date": "2026-10-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors": [
+        {
+          "key": "divyanshu shukla",
+          "name": "Divyanshu Shukla"
+        },
+        {
+          "key": "jonathan martin",
+          "name": "Jonathan Martin"
+        },
+        {
+          "key": "faruck morcos",
+          "name": "Faruck Morcos"
+        },
+        {
+          "key": "davit potoyan",
+          "name": "Davit A. Potoyan"
+        }
+      ],
+      "abstract_text": "The rapid expansion of protein sequence databases has far outpaced experimental structure determination, leaving many unannotated sequences, particularly the more remote homologs with low sequence identity. Because protein folds are more conserved and functionally informative than sequences alone, structural information offers a powerful lens for analysis. Here, we introduce a generative, structure-aware framework that integrates geometric encoding and coevolutionary constraints to map, cluster, and design protein sequences. Our approach employs the 3D interaction (3Di) alphabet to convert local residue geometries into compact, 20-state discrete representations. Using ProstT5, we enable bidirectional translation between amino acid sequences and 3Di representations, facilitating sensitive homology detection and structure-guided sequence generation. We then augment the latent generative landscape methodology by combining 3Di-based alignments with direct coupling analysis (DCA) and variational autoencoders (VAE), imbuing tasks such as clustering, annotation, and design with structural information. This integrative framework enhances the detection of coevolutionary signals and enables rational sampling of structural variants, even without functional labels. We demonstrate the utility of our method across diverse protein families, including globins, kinases, and malate dehydrogenases, achieving improved contact prediction, homology inference, and sequence generation. Together, our approach offers a quantitative, generative view of protein structure space, advancing protein evolution and design studies. Significance Statement Protein sequence databases are growing far faster than our ability to experimentally determine structures, leaving much of protein space poorly annotated, especially for distant homologs. Because protein structure is more conserved and informative than sequence alone, new approaches are needed to exploit structural signals at scale. We present a generative framework that integrates compact structural representations with evolutionary constraints to map, cluster, and design protein sequences. By combining geometric encoding with coevolutionary modeling, our approach enables sensitive homology detection, improved inference of structural contacts, and rational exploration of sequence space without requiring functional labels. This work provides a quantitative bridge between protein sequence and structure, advancing our ability to interpret protein evolution and guide protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

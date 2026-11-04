@@ -1492,15 +1492,17 @@
       "id": "d82257ad2554d29d54e235b6ccd9ada2d7aa2f7f355d5fe780c233c05e76fcd7",
       "identity_keys": [
         "https://doi.org/10.1101/2024.07.17.604015",
-        "https://openalex.org/W4400800287"
+        "https://doi.org/10.1126/science.adr6006",
+        "https://openalex.org/W4400800287",
+        "https://openalex.org/W4404577932"
       ],
-      "title": "Rapid protein evolution by few-shot learning with a protein language model",
-      "link": "https://doi.org/10.1101/2024.07.17.604015",
+      "title": "Rapid in silico directed evolution by a protein language model with EVOLVEpro",
+      "link": "https://doi.org/10.1126/science.adr6006",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/07/18/2024.07.17.604015.full.pdf",
-      "publication_date": "2024-07-18",
+      "publication_date": "2024-11-21",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Science",
       "authors": [
         {
           "key": "jiang kaiyi",
@@ -1837,6 +1839,8 @@
       "id": "d82df7f00ad2049ca5caee94ab2d174b8ac2a49afd067b08da5a68b63a15c024",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10842-8",
+        "https://doi.org/10.1101/2024.08.13.607858",
+        "https://openalex.org/W4401670099",
         "https://openalex.org/W7171743532"
       ],
       "title": "Miniaturizing and modifying natural proteins with Raygun",
@@ -1876,16 +1880,25 @@
           "name": "Rohit Singh"
         }
       ],
-      "abstract_text": "Proteins have evolved over billions of years through coordinated substitutions, insertions and deletions, yet computational protein design cannot fully replicate nature’s ability to engineer new proteins from existing templates. Protein language models1–3 generate informative per-residue representations, but harnessing them for large-scale, function-preserving sequence modifications has remained beyond reach. Here we introduce Raygun, a generative artificial intelligence framework that enables miniaturization, modification and augmentation of proteins, using a probabilistic encoding of protein sequences constructed from language model embeddings. Our key conceptual advance is to encode each protein not as a sequence of variable length in high-dimensional space, but as a probability distribution in fixed dimensions, making proteins of any length directly commensurable. Controlled by just two parameters governing substitutions and length changes, Raygun can shrink proteins by 10–25% (sometimes more than 50%), expand them beyond their natural size, and introduce extensive sequence diversity, all while preserving predicted structural integrity and functional sites. In cell-based validation, Raygun miniaturized fluorescent proteins (2 shorter than 96% of fluorescent proteins in FPbase) and TurboID, a synthetic biotin ligase that has been widely adopted for proteomics. It also expanded epidermal growth factor (EGF), generating variants with higher EGFR-binding affinity than the wild type. These results show that protein function can be faithfully captured in a length-agnostic representation, enabling the kind of coordinated, large-scale sequence modifications that characterize natural protein evolution. Probabilistic sequence encoding from language model embeddings within a generative AI framework enables protein miniaturization, modification and augmentation while maintaining native architecture and functional integrity.",
+      "abstract_text": "Abstract Proteins have evolved over billions of years through extensive and coordinated substitutions, insertions and deletions (indels). Computational protein design cannot yet fully mimic nature’s ability to engineer new proteins from existing templates. Protein language models generate informative per-residue representations, but leveraging them to execute large-scale, function-preserving mutations and indels has remained beyond reach. We introduce Raygun, a generative AI framework that unlocks efficient miniaturization, modification, and augmentation of proteins, using a novel probabilistic encoding of protein sequences constructed from language model embeddings. Emulating evolution, Raygun shrinks proteins by 10-25% (sometimes over 50%) while preserving predicted structural integrity and fidelity, introduces extensive sequence diversity while preserving functional sites, and can expand proteins beyond their natural size. These capabilities unlock new opportunities in gene therapy and biotechnology. In cell-based validation, Raygun successfully miniaturized fluorescent proteins, two of which are smaller than 96% of fluorescent proteins reported in FPbase, as well as TurboID, a synthetic biotin ligase widely adopted for proteomics. It also successfully expanded Epidermal Growth Factor (EGF), a natural binding partner to the EGFR protein, generating EGF variants with higher binding affinity than the wildtype. Raygun’s conceptual innovations in template-based protein design reveal that protein function can be encoded in a length-independent space. This fundamental insight bridges protein representation learning with evolutionary biology and could unlock the development of more efficient molecular tools and biological therapeutics.",
       "discovery_sources": [
         {
           "kind": "open_alex",
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "5.4 Transformer-based",
+        "5.Function to Sequence"
+      ]
     },
     {
       "id": "d82e2d75ea587e317f7c2cde923faf417ca731c3a76ff4e3da2a1bec28965bed",

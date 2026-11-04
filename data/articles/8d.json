@@ -2716,10 +2716,8 @@
     },
     {
       "id": "8d6be4edf30d66e149ea65bed8b52fbddedf41ca6908894891a660b950a3cf4b",
-      "identity_keys": [
-        "https://doi.org/10.1038/s41551-026-01790-9",
-        "https://openalex.org/W7212064624"
-      ],
+      "canonical_id": "2baa865bafa224f9aebfa845ee9297b3cb862e2fa831ce7d3934413b683f74b0",
+      "identity_keys": [],
       "title": "Sequence and structural determinants of efficacious de novo chimaeric antigen receptors",
       "link": "https://doi.org/10.1038/s41551-026-01790-9",
       "pdf_url": null,
@@ -3197,7 +3195,7 @@
       "title": "A synthetic peptide designed based on residues from a putative discontinuous epitope of crotoxin induces antibodies that partially reduce Crotalus durissus terrificus venom activity",
       "link": "https://doi.org/10.1016/j.toxicon.2026.109346",
       "pdf_url": null,
-      "publication_date": "2026-10-01",
+      "publication_date": "2026-10-31",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "Toxicon",
@@ -3255,7 +3253,7 @@
           "name": "Ricardo Andrez Machado‐de‐Ávila"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "ABSTRACT Snakebites are a public health problem recognized by the World Health Organization as a neglected tropical disease. In Brazil, crotalic venom is considered the most toxic, with a complex composition of bioactive molecules, of which crotoxin (CTX) is the main component. The recommended treatment for snakebite is the use of commercial antivenom produced by hyper-immunizing horses, raising ethical concerns due to repeated venom inoculations that compromise animal welfare and lifespan. This study aimed to design and evaluate a bioinformatically derived peptide (PEP-CTX), corresponding to a putative discontinuous epitope of crotoxin, as an immunogen capable of inducing functional antibodies. Using bioinformatics tools, the peptide PEP-CTX was designed and synthesized by the FMOC Synthesis method. Mice were immunized and at the end of the immunizations, blood was collected, and the immunogenic effect of the peptide was evaluated by ELISA. To evaluate the effects of the serum, produced by PEP-CTX, a venom-induced cytotoxicity assay, and an assessment of phospholipase A 2 (PLA 2 ) activity were executed. PEP-CTX induced humoral immune response, generating antibodies that recognized both the PEP-CTX and Crotalus durissus terrificus crude venom. In addition, anti-PEP-CTX serum partially reduced the venom PLA 2 activity halo and partially reduced venom-induced cytotoxicity under the experimental conditions evaluated, preserving cell viability, whereas venom incubated with PBS reduced cell viability to approximately 65% of the untreated control. These findings demonstrate that PEP-CTX, designed based on residues from a putative discontinuous epitope of CTX, can induce functionally active antibodies and support the further exploration of epitope-based immunogens as complementary tools for antivenom development.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3338,6 +3336,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8d822a7623015d38b37dbbc85814568d3dee7892f4b9e40adcdd5a4a9fd3e110",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763838v1",
+        "https://doi.org/10.64898/2026.11.02.763838",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.11.02.763838.source.xml"
+      ],
+      "title": "Edi-Set-Flow: detecting differential RNA-editing at scale",
+      "link": "https://doi.org/10.64898/2026.11.02.763838",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763838v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "munro",
+          "name": "Munro, J. E"
+        },
+        {
+          "key": "bahlo",
+          "name": "Bahlo, M"
+        },
+        {
+          "key": "ansell",
+          "name": "Ansell, B. R. E"
+        }
+      ],
+      "abstract_text": "Background: Adenosine-to-inosine (A-to-I) RNA editing is a post-transcriptional modification catalysed by ADAR enzymes that can alter codons, splicing patterns, and RNA secondary structures. RNA editing is essential for innate immunity and nervous system development, and its dysregulation is implicated in neurological disorders, cancers, and autoimmune diseases. Despite its biological importance, accurately detecting RNA editing from RNA-seq data remains technically challenging, and robust inference of differential editing across experimental conditions is not straightforward. Findings: We have developed Edi-Set-Flow, a reproducible and scalable pipeline for transcriptome-wide A-to-I RNA editing analysis of bulk RNA-seq data. Implemented in Nextflow, the pipeline takes raw FASTQ files as input, trims reads and filters for quality, aligns reads to the reference genome, and identifies editing sites with JACUSA2. Common genetic variants are excluded using the gnomAD population database. Identified sites are annotated for genetic feature context and predicted functional consequences, and results are summarised in a user-friendly HTML report. The pipeline scales efficiently to hundreds or thousands of samples and is suitable for large datasets such as GTEx. An accompanying R package enables advanced analyses, including model fitting, hypothesis testing, false discovery rate control, and visualisation, thereby facilitating reliable statistical comparisons of editing across experimental groups. Applying Edi-Set-Flow to GTEx brain RNA-seq data, we uncovered distinct RNA editing signatures across brain tissues and recovered known protein-recoding events. Conclusions: Edi-Set-Flow provides researchers with a robust, user-friendly, scalable, end-to-end solution for efficiently identifying and interpreting biologically meaningful RNA editing events across diverse transcriptomic datasets, for both mouse and human.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

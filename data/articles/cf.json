@@ -1855,6 +1855,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.10.31.763384v1",
         "https://doi.org/10.64898/2026.10.31.763384",
+        "https://openalex.org/W7225194442",
         "https://www.biorxiv.org/content/early/2026/11/03/2026.10.31.763384.source.xml"
       ],
       "title": "Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints",
@@ -1876,6 +1877,12 @@
       ],
       "abstract_text": "The worldwide escalation of antimicrobial resistance (AMR) poses a severe challenge to modern public health, necessitating novel classes of therapeutic agents. Antimicrobial peptides (AMPs) represent highly promising alternatives to small-molecule antibiotics due to their co-evolutionary resilience and rapid membrane disruption dynamics. However, translating computational AMP leads into clinical drug candidates remains bottlenecked by off-target cytotoxicity, predominantly hemolytic activity against mammalian erythrocytes. Although pretrained foundational protein language models (PLMs) have rapidly advanced molecular property prediction, current architectures frequently isolate antibacterial potency and cytotoxicity into disconnected single-task pipelines or succumb to catastrophic performance drops under strict homology-controlled evaluations. Recently, the Quantitative Mapping of Antimicrobial Peptides (QMAP) benchmark proposed that frozen PLM embeddings show weak linearly accessible features for hemolytic activity (HC50) resulting in poor rank correlation ({rho} < 0.25) on out-of-distribution sequence splits. In this work, we introduce an end-to-end multi-task parameter-efficient transfer learning framework designed to simultaneously optimize antibacterial potency and minimize mammalian cytotoxicity without sequence leakage. Built upon ESM-2 (150M), our architecture incorporates Low-Rank Adaptation (LoRA) into self-attention projections, fine-tuning approx 0.70% of model weights. To restore gradient interference originating from disparate membrane lysis mechanisms, we implement an adaptive multi-task loss guided by Kendall homoscedastic uncertainty weighting. Evaluated across predefined QMAP benchmark splits enforcing a 60% maximal sequence identity threshold, our joint architecture remarkably outperforms conventional linear probes, tree-based regressors, and frozen foundational models. The framework achieves an E. coli potency rank correlation of {rho} = 0.6132 (r = 0.6816) and successfully elevates hemolytic toxicity correlation to {rho} = 0.5374 (r = 0.5541). To establish real world utility, we deploy the optimized joint network to screen a curated in silico library of 749 de-novo designed peptides, successfully isolating selective cationic-amphipathic candidates possessing Therapeutic Indices (TI = HC50/MIC) up to 144.03 while effectively deprioritizing broadly lytic motifs (TI < 2.0). These findings demonstrate that parameter-efficient adaptation unlocks fine-grained bioactive structural semantics in foundational PLMs, providing an accurate, scalable framework for therapeutic peptide engineering.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "biorxiv",
           "key": "biorxiv:bioinformatics",
@@ -2153,6 +2160,57 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "cf543b69ef7a11fedeeee50a027fbfbff809cddc01d990175c008d19e2d27252",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.31.762764v1",
+        "https://doi.org/10.64898/2026.10.31.762764",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.10.31.762764.source.xml"
+      ],
+      "title": "Computational Analysis of Antioxidant Effects on Stress Response Mechanisms in Candida albicans",
+      "link": "https://doi.org/10.64898/2026.10.31.762764",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.762764v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "h k r",
+          "name": "K R, H"
+        },
+        {
+          "key": "g s",
+          "name": "G, S"
+        },
+        {
+          "key": "a n s",
+          "name": "S, A. N"
+        },
+        {
+          "key": "s",
+          "name": "S, S"
+        },
+        {
+          "key": "shenoy",
+          "name": "Shenoy, R"
+        },
+        {
+          "key": "bhat",
+          "name": "Bhat, S"
+        }
+      ],
+      "abstract_text": "Candida albicans was used as a eukaryotic model to study aging and oxidative stress response pathways focused on NAD dependent deacetylases, Sir2 and SIRT3. A significant gene expression regulation of both Sir2 and SIRT3 was observed under sublethal hydrogen peroxide treatment towards their association with stress adaptation. Natural ligands known for antioxidant properties were docked against Sir2 and SIRT3 structures. Binding free energy of most components fall in the range of -5.0 to -11 kcal/mol. The best candidates pterostilbene, quercetin and naringenin formed stable hydrophobic interactions and hydrogen bonds within catalytic and NAD binding pockets confirmed by visualization. Detailed ADME profiling shows most of the ligands passed the Lipinski rule of five and revealed a very good gastrointestinal absorption. PASS (Prediction of Activity Spectra for Substances) and SOM (Sites of Metabolism) predicts antioxidants, anti-aging properties, toxicity profiles, with key metabolic hotspots. This integrated in-silico approach highlights naringenin and quercetin as promising modulators of Sir2/SIRT3 mediated metabolic pathways in Candida albicans, warranting further validation with the help of in-vitro and in-vivo methods.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

@@ -1802,7 +1802,7 @@
           "name": "Anowarul Kabir"
         }
       ],
-      "abstract_text": "MOTIVATION: Protein folding stability is a key determinant for understanding protein dynamics, including molecular function, pathogenicity, and protein engineering. Yet, accurate prediction of protein stability remains challenging due to high variability in available data, particularly when only sequence information is available and structural knowledge is limited or unavailable. In this work, we introduce LoMuS, a multi-representation-based deep learning model that predicts dataset-provided protein stability scores directly from the primary sequence. In the core of the model architecture, a fusion network integrates explicit physicochemical descriptors with low-rank adapted protein language model derived embeddings from the sequence that consistently gains across standard experimental stability benchmarks. RESULTS: We rigorously evaluate LoMuS across multiple settings, such as absolute folding stability scoring, mutation landscape stability scoring, held-out protein domains, out-of-distribution label regimes, and per-protein evaluation. LoMuS consistently outperforms sequence-only baselines, achieving an absolute performance gain of at least 10% in Spearman's rank correlation across several benchmarks. Per-protein evaluations further demonstrate robust performance gains. Ablation analyses confirm that complementary signals from physicochemical descriptors and sequence embeddings are critical to the effectiveness of the proposed multi-representation approach. We believe LoMuS advances protein engineering research by improving the prediction and ranking of protein stability scores. AVAILABILITY: All codes including data preparation scripts, training and validation recipes, and experimental configurations for LoMuS are available at: https://github.com/kabir-ai2bio-lab/LoMuS.",
+      "abstract_text": "Abstract Motivation Protein folding stability is a key determinant for understanding protein dynamics, including molecular function, pathogenicity, and protein engineering. Yet, accurate prediction of protein stability remains challenging due to high variability in available data, particularly when only sequence information is available and structural knowledge is limited or unavailable. In this work, we introduce LoMuS, a multi-representation-based deep learning model that predicts dataset-provided protein stability scores directly from the primary sequence. In the core of the model architecture, a fusion network integrates explicit physicochemical descriptors with low-rank adapted protein language model derived embeddings from the sequence that consistently gains across standard experimental stability benchmarks. Results We rigorously evaluate LoMuS across multiple settings, such as absolute folding stability scoring, mutation landscape stability scoring, held-out protein domains, out-of-distribution label regimes, and per-protein evaluation. LoMuS consistently outperforms sequence-only baselines, achieving an absolute performance gain of at least 10% in Spearman’s rank correlation across several benchmarks. Per-protein evaluations further demonstrate robust performance gains. Ablation analyses confirm that complementary signals from physicochemical descriptors and sequence embeddings are critical to the effectiveness of the proposed multi-representation approach. We believe LoMuS advances protein engineering research by improving the prediction and ranking of protein stability scores. Availability All codes including data preparation scripts, training and validation recipes, and experimental configurations for LoMuS are available at: https://github.com/kabir-ai2bio-lab/LoMuS.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1850,11 +1850,8 @@
     },
     {
       "id": "6f59a6d6708342ee7555cfea1aa48f7212b710d90d48cb01fa7b0cc5f5f5d5fe",
-      "identity_keys": [
-        "https://arxiv.org/abs/2506.09496",
-        "https://doi.org/10.48550/arxiv.2506.09496",
-        "https://openalex.org/W4417308269"
-      ],
+      "canonical_id": "e05c4b055e031c20708c623fd4941658de7f84275634e1fa48d479c4f3f0fe96",
+      "identity_keys": [],
       "title": "EnerBridge-DPO: Energy-Guided Protein Inverse Folding with Markov Bridges and Direct Preference Optimization",
       "link": "https://doi.org/10.48550/arxiv.2506.09496",
       "pdf_url": "https://arxiv.org/pdf/2506.09496",
@@ -2278,6 +2275,7 @@
       "identity_keys": [
         "https://doi.org/10.1016/j.cels.2025.101270",
         "https://doi.org/10.1101/2024.11.07.622422",
+        "https://doi.org/10.2139/ssrn.4909414",
         "https://openalex.org/W4409921893"
       ],
       "title": "FlowDesign: Improved design of antibody CDRs through flow matching and better prior distributions",

@@ -210,10 +210,8 @@
     },
     {
       "id": "451312c836d883ee89e87e4f2b1b54e77338208bf60c581bec3d85ef553b2e70",
-      "identity_keys": [
-        "https://doi.org/10.1101/2024.08.13.607858",
-        "https://openalex.org/W4401670099"
-      ],
+      "canonical_id": "d82df7f00ad2049ca5caee94ab2d174b8ac2a49afd067b08da5a68b63a15c024",
+      "identity_keys": [],
       "title": "Miniaturizing, Modifying, and Magnifying Nature’s Proteins with Raygun",
       "link": "https://doi.org/10.1101/2024.08.13.607858",
       "pdf_url": null,
@@ -2412,20 +2410,21 @@
     {
       "id": "4575ecf0632a201826089818a6bb2094b08fe6c7fd09b13142353c45edd4229b",
       "identity_keys": [
+        "doi:10.1101/2024.05.15.594274",
         "https://doi.org/10.1101/2024.05.15.594274",
         "https://openalex.org/W4396998180"
       ],
       "title": "GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation",
       "link": "https://doi.org/10.1101/2024.05.15.594274",
       "pdf_url": null,
-      "publication_date": "2024-05-17",
+      "publication_date": "2024-05-15",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2024.05.15.594274",
       "authors": [
         {
           "key": "haitao lin",
-          "name": "Haitao Lin"
+          "name": "Haitao LIN"
         },
         {
           "key": "lirong wu",
@@ -2433,7 +2432,7 @@
         },
         {
           "key": "huang yufei",
-          "name": "Yufei Huang"
+          "name": "Huang Yufei"
         },
         {
           "key": "liu yunfan",
@@ -2452,11 +2451,11 @@
           "name": "Rui Sun"
         },
         {
-          "key": "li stan ziqing",
-          "name": "Stan Ziqing Li"
+          "key": "li stan",
+          "name": "Stan Z Li"
         }
       ],
-      "abstract_text": "Abstract Increasing works for antibody design are emerging to generate sequences and structures in Complementarity Determining Regions (CDRs), but problems still exist. We focus on two of them: (i) authenticity of the generated structure and (ii) rationality of the affinity maturation , and propose G EO AB as a solution. In specific, GeoABDesigner generates CDR structures with realistic internal geometries, composed of a generative geometry initializer (Geo-Initializer) and a position refiner (Geo-Refiner); GeoAB-Optimizer achieves affinity maturation by accurately predicting both the mutation effects and structures of mutant antibodies with the same network architecture as Geo-Refiner. Experiments show that G EO AB achieves state-of-the-art performance in CDR co-design and mutation effect predictions, and fulfills the discussed tasks effectively.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4156,24 +4155,26 @@
       "id": "45a07219501f96e4fb6a990ab280c894a33d3c808c7034258abad7aea247eab9",
       "identity_keys": [
         "https://arxiv.org/abs/2405.00128",
+        "https://doi.org/10.1021/acs.jcim.4c00975",
         "https://doi.org/10.48550/arxiv.2405.00128",
-        "https://openalex.org/W4396601082"
+        "https://openalex.org/W4396601082",
+        "https://openalex.org/W4402518895"
       ],
       "title": "Target-Specific De Novo Peptide Binder Design with DiffPepBuilder",
-      "link": "https://doi.org/10.48550/arxiv.2405.00128",
+      "link": "https://doi.org/10.1021/acs.jcim.4c00975",
       "pdf_url": "https://arxiv.org/pdf/2405.00128",
-      "publication_date": "2024-04-30",
+      "publication_date": "2024-09-12",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Journal of Chemical Information and Modeling",
       "authors": [
         {
           "key": "fanhao wang",
           "name": "Fanhao Wang"
         },
         {
-          "key": "wang yuzhe",
-          "name": "Yuzhe Wang"
+          "key": "wang",
+          "name": "Y.X. Wang"
         },
         {
           "key": "feng laiyi",
@@ -4185,10 +4186,10 @@
         },
         {
           "key": "lai luhua",
-          "name": "Lai, Luhua"
+          "name": "Luhua Lai"
         }
       ],
-      "abstract_text": "Despite the exciting progress in target-specific de novo protein binder design, peptide binder design remains challenging due to the flexibility of peptide structures and the scarcity of protein-peptide complex structure data. In this study, we curated a large synthetic dataset, referred to as PepPC-F, from the abundant protein-protein interface data and developed DiffPepBuilder, a de novo target-specific peptide binder generation method that utilizes an SE(3)-equivariant diffusion model trained on PepPC-F to co-design peptide sequences and structures. DiffPepBuilder also introduces disulfide bonds to stabilize the generated peptide structures. We tested DiffPepBuilder on 30 experimentally verified strong peptide binders with available protein-peptide complex structures. DiffPepBuilder was able to effectively recall the native structures and sequences of the peptide ligands and to generate novel peptide binders with improved binding free energy. We subsequently conducted de novo generation case studies on three targets. In both the regeneration test and case studies, DiffPepBuilder outperformed AfDesign and RFdiffusion coupled with ProteinMPNN, in terms of sequence and structure recall, interface quality, and structural diversity. Molecular dynamics simulations confirmed that the introduction of disulfide bonds enhanced the structural rigidity and binding performance of the generated peptides. As a general peptide binder de novo design tool, DiffPepBuilder can be used to design peptide binders for given protein targets with three dimensional and binding site information.",
+      "abstract_text": "Despite the exciting progress in target-specific de novo protein binder design, peptide binder design remains challenging due to the flexibility of peptide structures and the scarcity of protein-peptide complex structure data. In this study, we curated a large synthetic data set, referred to as PepPC-F, from the abundant protein–protein interface data and developed DiffPepBuilder, a de novo target-specific peptide binder generation method that utilizes an SE(3)-equivariant diffusion model trained on PepPC-F to codesign peptide sequences and structures. DiffPepBuilder also introduces disulfide bonds to stabilize the generated peptide structures. We tested DiffPepBuilder on 30 experimentally verified strong peptide binders with available protein–peptide complex structures. DiffPepBuilder was able to effectively recall the native structures and sequences of the peptide ligands and to generate novel peptide binders with improved binding free energy. We subsequently conducted de novo generation case studies on three targets. In both the regeneration test and case studies, DiffPepBuilder outperformed AfDesign and RFdiffusion coupled with ProteinMPNN, in terms of sequence and structure recall, interface quality, and structural diversity. Molecular dynamics simulations confirmed that the introduction of disulfide bonds enhanced the structural rigidity and binding performance of the generated peptides. As a general peptide binder de novo design tool, DiffPepBuilder can be used to design peptide binders for given protein targets with three-dimensional and binding site information.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -5325,6 +5325,41 @@
       "curated_categories": []
     },
     {
+      "id": "11dd94e504f62bbcf7546f783d638001ebc35f0a2d02f844e521c7e77f901bb8",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.31.763357v1",
+        "https://doi.org/10.64898/2026.10.31.763357",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.10.31.763357.source.xml"
+      ],
+      "title": "Reference-Guided De Novo Retrieval of 3D Chromatin Organizational Features with Representation Learning",
+      "link": "https://doi.org/10.64898/2026.10.31.763357",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763357v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "moran",
+          "name": "Moran, S. P"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, J"
+        }
+      ],
+      "abstract_text": "Chromosome conformation maps reveal spatial genome organization through recurring contact patterns, some associated with established architectural features and others with less understood biological processes. Identifying instances of a pattern across these maps is necessary to investigate its biological associations and recurrence across experimental settings. However, conventional feature callers typically target predefined patterns, offering limited support when researchers can provide examples of a feature of interest but lack a dedicated detection method. We introduce Chromatin Fetch (C-Fetch), a reference-guided retrieval framework that uses examples of a desired feature and a contrasting class to rank and assign contact-map patches at provided candidate coordinates. C-Fetch learns a reusable representation through weakly KL-regularized 3D autoencoding of structurally related, non-temporal Hi-C and Micro-C patches without architectural feature labels. We demonstrate retrieval of biologically defined contacts, visually specified patterns, and established architectural features. Polycomb-guided retrieval identifies contacts enriched for PRC2-associated signals, exceeding enrichment from loop-guided assignments at 5 kb, while queries resembling condensed domains retrieve patches with progressively stronger rectangular enrichment at higher ranks. Loop-guided retrieval increases aggregate focal enrichment relative to complete Mustache proposal sets across four held-out maps, and selected contacts show greater focality loss after cohesin depletion than matched remaining candidates. Retrieval also extends to Region Capture Micro-C and HiChIP, with ranking agreement retained across biological replicates and reduced sequencing depths. Together, these results establish reference examples as a flexible means of specifying contact-map features of interest, enabling biological investigation, exploration of visual patterns, and refinement of existing calls across datasets and technologies.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "11e227663b1b9c079339c4a5a0f1c2fc141b1e0ed443854bebca972cb6335509",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00630-9",

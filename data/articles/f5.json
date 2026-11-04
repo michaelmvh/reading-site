@@ -3074,7 +3074,7 @@
       ],
       "title": "Protein Engineering of a Genetically Encodable Biosensor for Wastewater Detection of Profen NSAIDs",
       "link": "https://doi.org/10.1002/bit.70220",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/15/2026.01.14.699353.full.pdf",
       "publication_date": "2026-05-06",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -5466,6 +5466,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f5e4f6754236675a4e725d9952a6d7f78322d90666c97d442b776ceb99766b66",
+      "identity_keys": [
+        "arxiv:2611.05374",
+        "https://doi.org/10.48550/arXiv.2611.05374"
+      ],
+      "title": "A Bayesian Optimized Biquad Filter-Burg Model for Real-Time EEG Phase Estimation",
+      "link": "https://doi.org/10.48550/arXiv.2611.05374",
+      "pdf_url": "https://arxiv.org/pdf/2611.05374v1",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ivan kay martinez",
+          "name": "Ivan Martinez-Kay"
+        },
+        {
+          "key": "kardashina tatiana",
+          "name": "Tatiana Kardashina"
+        },
+        {
+          "key": "ching shinung",
+          "name": "ShiNung Ching"
+        },
+        {
+          "key": "eric leuthardt",
+          "name": "Eric C. Leuthardt"
+        },
+        {
+          "key": "acland benjamin",
+          "name": "Benjamin T. Acland"
+        }
+      ],
+      "abstract_text": "Real-time phase estimation on stimulus-aligned transient EEG is critical for closed-loop neuromodulation systems targeting the theta-band, yet most real-time phase estimation methods have been developed and validated on resting-state, high-fidelity signals in the alpha band. Recent work has pursued deep learning architectures, while individualized classical bandpass filter tuning remains underexplored. This study characterizes the spectral and temporal properties of non-anticipative bandpass filtering and demonstrates the performance gains achieved through individualized tuning. We present a Bayesian-Optimized Biquad Filter-Burg (BOB) model evaluated on EEG recorded during peripheral vibrotactile stimulation of the left median nerve (theta, N=20 healthy subjects) and on resting-state recordings from the Max Planck Institute's LEMON dataset (alpha, N=20 healthy subjects). BOB was benchmarked against the Deep Dual-Branch Complex Neural Network (DBCNN), EEG Phase Prediction Network (EPN), Phastimate, and Phase Estimation with Autoregressive Padding (PEAP) under matched testing conditions: channel selection, individualized optimization, evaluation time points, and an offline reference phase obtained through zero-phase filtering and the Hilbert transform. Under these testing conditions, BOB achieved matched or better performance than these models at a fraction of the calibration time.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

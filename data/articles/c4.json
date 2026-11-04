@@ -349,6 +349,7 @@
       "id": "c414611a63934912fca7bc348a6921e7e3c8e4d19be8bc10b742246a943c739f",
       "identity_keys": [
         "https://doi.org/10.1073/pnas.2216438120",
+        "https://doi.org/10.1101/2022.03.11.483812",
         "https://doi.org/10.6082/kbkcf-aht21",
         "https://doi.org/10.6082/qr7tr-5qn53",
         "https://openalex.org/W4378782828"
@@ -3149,7 +3150,9 @@
       "id": "c49f9b0255b745ac8877dedb093724d6b950163d506f4e5047fbbf9ec5d2bfb1",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-09746-w",
+        "https://doi.org/10.1101/2024.11.13.623507",
         "https://doi.org/10.3929/ethz-c-000791104",
+        "https://openalex.org/W4404366969",
         "https://openalex.org/W4416956299"
       ],
       "title": "Computational design of metallohydrolases",
@@ -3225,16 +3228,25 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract De novo enzyme design seeks to build proteins containing ideal active sites with catalytic residues surrounding and stabilizing the transition state(s) of the target chemical reaction 1–7 . The generative artificial intelligence method RFdiffusion 8,9 solves this problem, but requires specifying both the sequence position and backbone coordinates for each catalytic residue, limiting sampling. Here we introduce RFdiffusion2, which eliminates these requirements, and use it to design zinc metallohydrolases starting from quantum chemistry-derived active site geometries. From an initial set of 96 designs tested experimentally, the most active has a catalytic efficiency ( k cat / K M ) of 16,000 M −1 s −1 , orders of magnitude higher than previously designed metallohydrolases 6,7,10,11 . A second round of 96 designs yielded 3 additional highly active enzymes, with k cat / K M values of up to 53,000 M −1 s −1 and a catalytic rate constant ( k cat ) of up to 1.5 s −1 . The design models of the four most active designs differ from known structures and from each other, and the crystal structure of the most active design is very close to the design model, demonstrating the accuracy of the design method. The most active enzymes are predicted by PLACER 12 and Chai-1 (ref. 13 ) to have preorganized active sites that effectively position the substrate for nucleophilic attack by a water molecule activated by the bound metal. The ability to generate highly active enzymes directly from the computer, without experimental optimization, should enable a new generation of potent designer catalysts 14,15 .",
+      "abstract_text": "Abstract De novo enzyme design starts from a description of an ideal active site composed of catalytic residues surrounding the reaction transition state(s), and builds a protein structure that contains this site 1–7 . Generative AI methods such as RFdiffusion 11,12 now enable the direct generation of proteins around active sites, but to date, such scaffolding has required specification of both the position in the sequence and the backbone coordinates of each catalytic residue, which complicates sampling. Here we introduce a generative AI method called RFdiffusion2 that overcomes these limitations and use it to design zinc metallohydrolases starting from a density functional theory description of the active site geometry. Of an initial set of 96 designs tested experimentally, the most active has a k cat / K M of 16,000 M −1 s −1 , orders of magnitude higher than previously designed metallohydrolases. 6,7,13,14 A second round of 96 designs yielded 3 additional highly active enzymes, with k cat / K M up to 53,000 M −1 s −1 and k cat up to 1.5 s −1 . The structures of the four enzymes are very different from each other and from the structures in the PDB. Each enzyme positions the reaction substrate almost perfectly for nucleophilic attack by a water molecule activated by the bound metal, and are predicted by PLACER 15 and Chai-1 44 to have highly preorganized active sites. The ability to generate highly active catalysts straight out of the computer, without experimental optimization, using quantum chemistry calculated active site geometries should open the door to a new generation of potent designer enzymes. 16,17",
       "discovery_sources": [
         {
           "kind": "open_alex",
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "6. Function to Structure",
+        "6.3 RoseTTAFold-based"
+      ]
     },
     {
       "id": "c4a38c48ef37dce45021259c1dd4790a7b783f723c02b8664144df76b2bd87f1",

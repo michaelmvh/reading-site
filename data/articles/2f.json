@@ -6257,6 +6257,78 @@
         }
       ],
       "curated_categories": []
+    },
+    {
+      "id": "2ffb23fd731a62ce8751037b6b81b87e1b6feee631629227411b5d52b2d0a661",
+      "identity_keys": [
+        "arxiv:2506.04235",
+        "https://doi.org/10.48550/arXiv.2506.04235"
+      ],
+      "title": "A Comprehensive Benchmark of Computational Models for Antibody--Antigen Binding Affinity",
+      "link": "https://doi.org/10.48550/arXiv.2506.04235",
+      "pdf_url": "https://arxiv.org/pdf/2506.04235",
+      "publication_date": "2025-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "xinyan zhao",
+          "name": "Xinyan Zhao"
+        },
+        {
+          "key": "ching tang yi",
+          "name": "Yi-Ching Tang"
+        },
+        {
+          "key": "cantu victor",
+          "name": "Victor J Cantu"
+        },
+        {
+          "key": "junseok lee",
+          "name": "Junseok Lee"
+        },
+        {
+          "key": "adam stogsdill",
+          "name": "Adam E Stogsdill"
+        },
+        {
+          "key": "hamdi ibraheem",
+          "name": "Ibraheem M Hamdi"
+        },
+        {
+          "key": "ashwin kumar ramesh",
+          "name": "Ashwin Kumar Ramesh"
+        },
+        {
+          "key": "an zhiqiang",
+          "name": "Zhiqiang An"
+        },
+        {
+          "key": "jiang xiaoqian",
+          "name": "Xiaoqian Jiang"
+        },
+        {
+          "key": "kim yejin",
+          "name": "Yejin Kim"
+        }
+      ],
+      "abstract_text": "Computational antibody design requires benchmarks that measure functional binding rather than similarity to natural sequences. Here we present AbBiBench, which treats the antibody--antigen complex as the evaluation unit and harmonizes 216,560 experimental measurements spanning 13 antibodies and 9 antigens. We compare 20 computational approaches without task-specific training or fine-tuning. The analyses show that global structure-conditioned inverse folding yields the strongest and most consistent affinity rankings, whereas antibody-specific fine-tuning does not consistently improve performance. Across models, rankings are more useful for prioritizing likely affinity gains than for excluding weak variants. In a subsequent case study, multi-objective evaluation of model-generated F045-092 CDR-H3 variants for H1N1 binding revealed a trade-off between predicted binding potential and evolutionary sequence plausibility; all 21 selected candidates produced H1-reactive ELISA signals. AbBiBench provides an open framework for developing and evaluating function-aware antibody design methods.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        },
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }

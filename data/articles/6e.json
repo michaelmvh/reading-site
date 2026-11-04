@@ -351,19 +351,20 @@
     {
       "id": "6e1e4bc7a8619a4c8274377fb70364a2fa5ba2f92b57a560189575a47542b408",
       "identity_keys": [
+        "doi:10.21203/rs.3.rs-4868665/v1",
         "https://doi.org/10.21203/rs.3.rs-4868665/v1",
         "https://openalex.org/W4402527652"
       ],
       "title": "Text2Protein: A Generative Model for Designated Protein Design on Given Description",
       "link": "https://doi.org/10.21203/rs.3.rs-4868665/v1",
-      "pdf_url": "https://www.researchsquare.com/article/rs-4868665/latest.pdf",
-      "publication_date": "2024-09-13",
+      "pdf_url": null,
+      "publication_date": null,
       "publication_date_precision": "unknown",
       "collection_date": {
         "date": "2025-05-03",
         "commit_url": "https://github.com/Peldom/papers_for_protein_design_using_DL/commit/01a168f1ba649f704b48b0d30bc9879a0d2815d7"
       },
-      "venue": "Research Square",
+      "venue": "PREPRINT (Version 1) available at Research Square",
       "authors": [
         {
           "key": "hosseini ramtin",
@@ -378,7 +379,7 @@
           "name": "Pengtao Xie"
         }
       ],
-      "abstract_text": "Abstract Designing protein structures from text is challenging in computational biology. We propose Text2Protein, a pipeline combining large language models (LLMs) with diffusion models to generate full-atomic protein structures from text. Using a conditional diffusion model and the Vicuna-7B language model, we learn data distributions of 6D interresidue coordinates, refined into full-atomic structures with PyRosetta. Trained on a curated RCSB-PDB dataset, Text2Protein focuses on single-chain proteins with 40-256 residues. Our extensive experiments validate Text2Protein’s effectiveness by generating high-fidelity protein structures similar to ground truth proteins using raw texts. We evaluate Text2Protein using multiple metrics, including Mean Square Error (MSE) of 6D coordinates, Rosetta Energy Units (REU), and TM-score. Our results show that 5% of the generated proteins have a TM-score greater than 0.5, indicating similar folds in SCOP/CATH. Additionally, 16% of pairs have a TM-score greater than 0.4, 89% have a TM-score greater than 0.3, and none have a TM-score less than 0.17, below the threshold for unrelated proteins. Text2Protein presents a promising framework for automated protein design, potentially accelerating novel protein discovery. This work opens new avenues for integrating natural language understanding with protein structure generation, with implications in drug discovery, enzyme engineering, and material science.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -624,10 +625,8 @@
     },
     {
       "id": "6e284f109054457f2e423fb43c23311e0b2a4df21ea2adf5ea03c4043eeee496",
-      "identity_keys": [
-        "https://doi.org/10.1016/j.cbpa.2026.102728",
-        "https://openalex.org/W7171612133"
-      ],
+      "canonical_id": "1ccfb27c2e382f9cf6c63b9d56c9cba0067342cd77c4f98d7a95e254364c07b1",
+      "identity_keys": [],
       "title": "Generative artificial intelligence for enzyme design and biocatalysis",
       "link": "https://doi.org/10.1016/j.cbpa.2026.102728",
       "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1367593126000773/pdf",
@@ -4636,6 +4635,81 @@
       "curated_categories": []
     },
     {
+      "id": "6ea8cc7fb7912d10ceb44a17668af3faf499de4e608c6d3d42972f8025921953",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763782v1",
+        "https://doi.org/10.64898/2026.11.02.763782",
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.11.02.763782.source.xml"
+      ],
+      "title": "Targeted cancer ablation via programmable sensing of amplified oncogenic RNA",
+      "link": "https://doi.org/10.64898/2026.11.02.763782",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763782v1.full.pdf",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, M"
+        },
+        {
+          "key": "hu",
+          "name": "Hu, Y"
+        },
+        {
+          "key": "hunter yamada",
+          "name": "Yamada-Hunter, S. A"
+        },
+        {
+          "key": "sotillo",
+          "name": "Sotillo, E"
+        },
+        {
+          "key": "dai",
+          "name": "Dai, H"
+        },
+        {
+          "key": "call",
+          "name": "Call, C. C"
+        },
+        {
+          "key": "tousley",
+          "name": "Tousley, A. M"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, S. J"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, W"
+        },
+        {
+          "key": "winslow",
+          "name": "Winslow, M. M"
+        },
+        {
+          "key": "mackall",
+          "name": "Mackall, C"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, X. J"
+        }
+      ],
+      "abstract_text": "Selectively eliminating cancer cells based on their oncogenic drivers holds great promise but remains challenging for targeted cancer therapy. Here, we present ORCA (Oncogenic RNA-triggered Cancer Ablation), a programmable and modular platform that couples RADAR-based detection of oncogenic RNA with conditional expression of therapeutic payloads in cancer cells. We identify RADAR sensors targeting the transcripts of endogenously amplified oncogenes, including MYC, FGFR2 and wild-type KRAS in colorectal and gastric cancer cells. Focusing on colorectal cancer (CRC) driven by extrachromosomal DNA-amplified MYC, we demonstrate targeted ablation of high-MYC cancer cells using two orthogonal strategies: anti-CD19 CAR-T therapy and enzyme-prodrug therapy. In vivo delivery of ORCA using adeno-associated virus (AAV) suppresses tumor growth in a subcutaneous xenograft model and prolongs survival in a CRC liver metastasis model. ORCA establishes oncogenic RNAs as actionable inputs for targeted cancer therapy via programmable RNA sensing, thus offering a strategy to target tumors through the transcripts of otherwise difficult-to-drug oncogenes such as MYC.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6eabcd8a2bd33f16551e26f3f97cb45e8d44355f245ec79a37591a1d4124f9de",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73676-y",
@@ -4759,6 +4833,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6ead539cea6f440e1d07f457f362ae8ce2eb8b6b1181019061f5cb31bba1b8ba",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.01.763421v1",
+        "https://doi.org/10.64898/2026.11.01.763421",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.01.763421.source.xml"
+      ],
+      "title": "Decoding Cell-type Specific Gene Regulation with CellReg3D by Integrating DNA Large Language Models and 3D Genome Structure",
+      "link": "https://doi.org/10.64898/2026.11.01.763421",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763421v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, X"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Y"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, S"
+        },
+        {
+          "key": "imoto",
+          "name": "Imoto, S"
+        },
+        {
+          "key": "webb",
+          "name": "Webb, G. I"
+        },
+        {
+          "key": "vasilakos",
+          "name": "Vasilakos, A. V"
+        },
+        {
+          "key": "li",
+          "name": "Li, F"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, K"
+        },
+        {
+          "key": "song",
+          "name": "Song, J"
+        }
+      ],
+      "abstract_text": "Gene regulation is a core biological mechanism crucial for organismal growth and development. Recent advances in deep learning, coupled with increasing computational resources, have enabled large-scale modelling of gene regulatory processes. While numerous models have been proposed, effectively capturing long-range genomic interactions remains a central challenge. Here, we introduce CellReg3D, a multiscale and multi-modal deep learning framework designed to model cell-type-specific gene regulation by integrating local sequence patterns with long-range genomic interactions. Existing approaches often overlook the contribution of 3D genome architecture and face limitations in combining sequence-based features with chromatin interaction data. Specifically, CellReg3D overcomes these gaps by leveraging a DNA language model to encode sequence-level information and incorporating Hi-C-derived 3D chromatin interactions to capture chromatin spatial organization. We demonstrate that CellReg3D effectively learns epigenetic patterns and chromatin activity states, achieving state-of-the-art performance in predicting epigenetic marks and gene expression profiles across multiple cell types. Using interpretable methods, we illustrate how the model identifies cell-type-specific regulatory mechanisms and prioritizes functional non-coding variants. Furthermore, we apply CellReg3D to enhance the interpretation of expression quantitative trait loci (eQTLs) and uncover novel potential gene regulatory interactions. Overall, CellReg3D offers a integrative framework for decoding regulatory genomics, unifying sequence and 3D genome structure data to advance variant prioritization, disease mechanism discovery, and personalized functional genomics.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5076,16 +5213,18 @@
     {
       "id": "6ec13113ac5ffb5008375928c50e20744a38e6fb3ca45757030a2418deb37dc2",
       "identity_keys": [
+        "https://doi.org/10.1038/s42256-025-01119-2",
         "https://doi.org/10.1101/2025.01.05.631393",
-        "https://openalex.org/W4406108286"
+        "https://openalex.org/W4406108286",
+        "https://openalex.org/W4415376141"
       ],
-      "title": "Key-cutting machine: A novel optimization framework for tailored protein and peptide design",
-      "link": "https://doi.org/10.1101/2025.01.05.631393",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/01/05/2025.01.05.631393.full.pdf",
-      "publication_date": "2025-01-05",
+      "title": "Tailored structured peptide design with a key-cutting machine approach",
+      "link": "https://doi.org/10.1038/s42256-025-01119-2",
+      "pdf_url": "https://www.nature.com/articles/s42256-025-01119-2.pdf",
+      "publication_date": "2025-10-21",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Machine Intelligence",
       "authors": [
         {
           "key": "carlos leyva yan",
@@ -5108,7 +5247,7 @@
           "name": "Carlos A. Brizuela"
         }
       ],
-      "abstract_text": "Computational protein and peptide design is emerging as a transformative framework for engineering macromolecules with precise structures and functions, offering innovative solutions in medicine, biotechnology, and materials science. However, current methods predominantly rely on generative models, which are expensive to train and inflexible to modify. Here, we introduce the Key-Cutting Machine (KCM), a novel optimization-based platform that iteratively leverages structure prediction to match desired backbone geometries. KCM requires only a single GPU and enables seamless incorporation of user-defined requirements into the objective function, circumventing the high retraining costs typical of generative models while allowing straightforward assessment of measurable properties. By employing an Estimation of Distribution Algorithm, KCM optimizes sequences based on geometric, physicochemical, and energetic criteria. We benchmarked its performance on α-helices, β-sheets, and unstructured regions, demonstrating precise backbone geometry design. As a proof of concept, we applied KCM to antimicrobial peptide (AMP) design by using a template AMP as the key, yielding a candidate with potent in vitro activity against multiple bacterial strains and efficacy in a murine infection model. KCM thus emerges as a robust tool for de novo protein and peptide design, offering a flexible paradigm for replicating and extending the structure-function relationships of existing templates.",
+      "abstract_text": "Computational protein and peptide design is emerging as a transformative framework for engineering macromolecules with precise structures and functions, offering innovative solutions in medicine, biotechnology and materials science. However, current methods predominantly rely on generative models, which are expensive to train and modify. Here, we introduce the Key-Cutting Machine (KCM), an optimization-based platform that iteratively leverages structure prediction to match desired backbone geometries. KCM requires only a single graphics processing unit and enables seamless incorporation of user-defined requirements into the objective function, circumventing the high retraining costs typical of generative models while allowing straightforward assessment of measurable properties. By employing an estimation of distribution algorithm, KCM optimizes sequences on the basis of geometric, physicochemical and energetic criteria. We benchmarked its performance on α-helices, β-sheets, a combination of both and unstructured regions, demonstrating precise backbone geometry design. As a proof of concept, we applied KCM to antimicrobial peptide design by using a template antimicrobial peptide as the 'key', yielding a candidate with potent in vitro activity against multiple bacterial strains and efficacy in a murine infection model. KCM thus emerges as a robust tool for de novo protein and peptide design, offering a flexible paradigm for replicating and extending the structure-function relationships of existing templates.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5163,24 +5302,25 @@
     {
       "id": "6ec30a1b8d7b739f3641e4ae900e3492d4479dcb3bcf5ee0ad60f070a34db273",
       "identity_keys": [
+        "arxiv:2408.17241",
         "https://arxiv.org/abs/2408.17241",
         "https://doi.org/10.48550/arxiv.2408.17241",
         "https://openalex.org/W4403665785"
       ],
       "title": "Leveraging Deep Generative Model For Computational Protein Design And Optimization",
-      "link": "https://doi.org/10.48550/arxiv.2408.17241",
-      "pdf_url": "https://arxiv.org/pdf/2408.17241",
-      "publication_date": "2024-08-30",
+      "link": "https://arxiv.org/abs/2408.17241",
+      "pdf_url": null,
+      "publication_date": "2024-08-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2408.17241",
       "authors": [
         {
-          "key": "ben lai",
-          "name": "Ben Lai"
+          "key": "boqiao lai",
+          "name": "Boqiao Lai"
         }
       ],
-      "abstract_text": "Proteins are the fundamental macromolecules that play diverse and crucial roles in all living matter and have tremendous implications in healthcare, manufacturing, and biotechnology. Their functions are largely determined by the sequences of amino acids that compose them and their unique three-dimensional structures when folded. The recent surge in highly accurate computational protein structure prediction tools has equipped scientists with the means to derive preliminary structural insights without the onerous costs of experimental structure determination. These breakthroughs hold profound promise for building robust and efficient in silico protein design systems. While the prospect of designing de novo proteins with precise computational accuracy remains a grand challenge in biochemical engineering, conventional assembly-based and rational design methods often grapple with the expansive design space, resulting in suboptimal design success rates. Despite recently emerged deep learning-based models have shown promise in improving the efficiency of the computational protein design process, a significant gap persists between current design paradigms and their experimental realization. This thesis will investigate the potential of deep generative models in refining protein structure and sequence design methods, aiming to develop frameworks capable of crafting novel protein sequences with predetermined structures or specific functionalities. By harnessing extensive protein databases and cutting-edge neural architectures, this research aims to enhance precision and robustness in current protein design paradigms, potentially paving the way for advancements across various scientific fields.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -2410,16 +2410,18 @@
     {
       "id": "e6777aaee56e5eb9815691fdd8ab3eca9e9ae871887ec3601cf9b4f7541e37c6",
       "identity_keys": [
+        "https://doi.org/10.1038/s41467-025-59940-7",
         "https://doi.org/10.1101/2023.02.25.529956",
-        "https://openalex.org/W4322207749"
+        "https://openalex.org/W4322207749",
+        "https://openalex.org/W4410552412"
       ],
-      "title": "Cyclic peptide structure prediction and design using AlphaFold",
-      "link": "https://doi.org/10.1101/2023.02.25.529956",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/26/2023.02.25.529956.full.pdf",
-      "publication_date": "2023-02-26",
+      "title": "Cyclic peptide structure prediction and design using AlphaFold2",
+      "link": "https://doi.org/10.1038/s41467-025-59940-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-59940-7.pdf",
+      "publication_date": "2025-05-21",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Communications",
       "authors": [
         {
           "key": "rettie stephen",
@@ -2442,8 +2444,32 @@
           "name": "Simon Kozlov"
         },
         {
+          "key": "bueso flores yensi",
+          "name": "Yensi Flores Bueso"
+        },
+        {
           "key": "cruz de joshmyn la",
           "name": "Joshmyn De La Cruz"
+        },
+        {
+          "key": "ahlrichs maggie",
+          "name": "Maggie Ahlrichs"
+        },
+        {
+          "key": "cheng suna",
+          "name": "Suna Cheng"
+        },
+        {
+          "key": "gerben stacey",
+          "name": "Stacey Gerben"
+        },
+        {
+          "key": "lamb mila",
+          "name": "Mila Lamb"
+        },
+        {
+          "key": "analisa murray",
+          "name": "Analisa Murray"
         },
         {
           "key": "adebomi victor",
@@ -2484,16 +2510,18 @@
       "id": "e67b0025eb0b468ac603d3ce0c5bb8b107bad1158f13a23beba8653b897f9155",
       "identity_keys": [
         "https://arxiv.org/abs/2004.07119",
+        "https://doi.org/10.1093/bioadv/vbab036",
         "https://doi.org/10.48550/arxiv.2004.07119",
-        "https://openalex.org/W3016459205"
+        "https://openalex.org/W3016459205",
+        "https://openalex.org/W3216356365"
       ],
-      "title": "Generating Tertiary Protein Structures via an Interpretative Variational Autoencoder",
-      "link": "https://doi.org/10.48550/arxiv.2004.07119",
-      "pdf_url": "https://arxiv.org/pdf/2004.07119",
-      "publication_date": "2020-04-08",
+      "title": "Generating tertiary protein structures via interpretable graph variational autoencoders",
+      "link": "https://doi.org/10.1093/bioadv/vbab036",
+      "pdf_url": "https://academic.oup.com/bioinformaticsadvances/article-pdf/1/1/vbab036/47081429/vbab036.pdf",
+      "publication_date": "2021-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Bioinformatics Advances",
       "authors": [
         {
           "key": "guo xiaojie",
@@ -2501,7 +2529,7 @@
         },
         {
           "key": "du yuanqi",
-          "name": "Du, Yuanqi"
+          "name": "Yuanqi Du"
         },
         {
           "key": "sivani tadepalli",
@@ -2516,7 +2544,7 @@
           "name": "Amarda Shehu"
         }
       ],
-      "abstract_text": "Much scientific enquiry across disciplines is founded upon a mechanistic treatment of dynamic systems that ties form to function. A highly visible instance of this is in molecular biology, where an important goal is to determine functionally-relevant forms/structures that a protein molecule employs to interact with molecular partners in the living cell. This goal is typically pursued under the umbrella of stochastic optimization with algorithms that optimize a scoring function. Research repeatedly shows that current scoring function, though steadily improving, correlate weakly with molecular activity. Inspired by recent momentum in generative deep learning, this paper proposes and evaluates an alternative approach to generating functionally-relevant three-dimensional structures of a protein. Though typically deep generative models struggle with highly-structured data, the work presented here circumvents this challenge via graph-generative models. A comprehensive evaluation of several deep architectures shows the promise of generative models in directly revealing the latent space for sampling novel tertiary structures, as well as in highlighting axes/factors that carry structural meaning and open the black box often associated with deep models. The work presented here is a first step towards interpretative, deep generative models becoming viable and informative complementary approaches to protein structure prediction.",
+      "abstract_text": "Motivation: Modeling the structural plasticity of protein molecules remains challenging. Most research has focused on obtaining one biologically active structure. This includes the recent AlphaFold2 that has been hailed as a breakthrough for protein modeling. Computing one structure does not suffice to understand how proteins modulate their interactions and even evade our immune system. Revealing the structure space available to a protein remains challenging. Data-driven approaches that learn to generate tertiary structures are increasingly garnering attention. These approaches exploit the ability to represent tertiary structures as contact or distance maps and make direct analogies with images to harness convolution-based generative adversarial frameworks from computer vision. Since such opportunistic analogies do not allow capturing highly structured data, current deep models struggle to generate physically realistic tertiary structures. Results: We present novel deep generative models that build upon the graph variational autoencoder framework. In contrast to existing literature, we represent tertiary structures as 'contact' graphs, which allow us to leverage graph-generative deep learning. Our models are able to capture rich, local and distal constraints and additionally compute disentangled latent representations that reveal the impact of individual latent factors. This elucidates what the factors control and makes our models more interpretable. Rigorous comparative evaluation along various metrics shows that the models, we propose advance the state-of-the-art. While there is still much ground to cover, the work presented here is an important first step, and graph-generative frameworks promise to get us to our goal of unraveling the exquisite structural complexity of protein molecules. Availability and implementation: Code is available at https://github.com/anonymous1025/CO-VAE. Supplementary information: online.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2971,6 +2999,7 @@
     {
       "id": "e69279e7de90a94016a51a7e38a762bbfafc3d596ebb0b510e73058fdd5c6211",
       "identity_keys": [
+        "https://doi.org/10.1016/j.xinn.2024.100750",
         "https://doi.org/10.1101/2023.08.09.552725",
         "https://openalex.org/W4385811439"
       ],

@@ -4036,17 +4036,18 @@
     {
       "id": "21a1e673dc8e8e753b0ccaf42468e9fe6b2b4fe1073924ea7fbf5218acf4dc37",
       "identity_keys": [
+        "arxiv:2407.03154",
         "https://arxiv.org/abs/2407.03154",
         "https://doi.org/10.48550/arxiv.2407.03154",
         "https://openalex.org/W4400376746"
       ],
       "title": "Reinforcement Learning for Sequence Design Leveraging Protein Language Models",
-      "link": "https://doi.org/10.48550/arxiv.2407.03154",
-      "pdf_url": "https://arxiv.org/pdf/2407.03154",
-      "publication_date": "2024-07-03",
+      "link": "https://arxiv.org/abs/2407.03154",
+      "pdf_url": null,
+      "publication_date": "2024-07-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2407.03154",
       "authors": [
         {
           "key": "jithendaraa subramanian",
@@ -4065,19 +4066,19 @@
           "name": "Umong Sain"
         },
         {
-          "key": "islam riashat",
-          "name": "Riashat Islam"
-        },
-        {
           "key": "derek nowrouzezahrai",
           "name": "Derek Nowrouzezahrai"
         },
         {
           "key": "ebrahimi kahou samira",
           "name": "Samira Ebrahimi Kahou"
+        },
+        {
+          "key": "islam riashat",
+          "name": "Riashat Islam"
         }
       ],
-      "abstract_text": "Protein sequence design, determined by amino acid sequences, are essential to protein engineering problems in drug discovery. Prior approaches have resorted to evolutionary strategies or Monte-Carlo methods for protein design, but often fail to exploit the structure of the combinatorial search space, to generalize to unseen sequences. In the context of discrete black box optimization over large search spaces, learning a mutation policy to generate novel sequences with reinforcement learning is appealing. Recent advances in protein language models (PLMs) trained on large corpora of protein sequences offer a potential solution to this problem by scoring proteins according to their biological plausibility (such as the TM-score). In this work, we propose to use PLMs as a reward function to generate new sequences. Yet the PLM can be computationally expensive to query due to its large size. To this end, we propose an alternative paradigm where optimization can be performed on scores from a smaller proxy model that is periodically finetuned, jointly while learning the mutation policy. We perform extensive experiments on various sequence lengths to benchmark RL-based approaches, and provide comprehensive evaluations along biological plausibility and diversity of the protein. Our experimental results include favorable evaluations of the proposed sequences, along with high diversity scores, demonstrating that RL is a strong candidate for biological sequence design. Finally, we provide a modular open source implementation can be easily integrated in most RL training loops, with support for replacing the reward model with other PLMs, to spur further research in this domain. The code for all experiments is provided in the supplementary material.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

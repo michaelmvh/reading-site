@@ -1412,6 +1412,68 @@
       "curated_categories": []
     },
     {
+      "id": "3234b6a8df24ee79efabe0dda281f130adb306664e1c907cbaa4933b9e3fc199",
+      "identity_keys": [
+        "arxiv:2611.03806",
+        "https://doi.org/10.48550/arXiv.2611.03806"
+      ],
+      "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
+      "link": "https://doi.org/10.48550/arXiv.2611.03806",
+      "pdf_url": "https://arxiv.org/pdf/2611.03806v1",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "andreas bjerregaard",
+          "name": "Andreas Bjerregaard"
+        },
+        {
+          "key": "devries rachael",
+          "name": "Rachael DeVries"
+        },
+        {
+          "key": "brilli danai dionysia",
+          "name": "Dionysia Danai Brilli"
+        },
+        {
+          "key": "antoniadis panagiotis",
+          "name": "Panagiotis Antoniadis"
+        },
+        {
+          "key": "li yan",
+          "name": "Yan Li"
+        },
+        {
+          "key": "anders krogh",
+          "name": "Anders Krogh"
+        },
+        {
+          "key": "boomsma wouter",
+          "name": "Wouter Boomsma"
+        },
+        {
+          "key": "ole winther",
+          "name": "Ole Winther"
+        },
+        {
+          "key": "frederikke isa marin",
+          "name": "Frederikke Isa Marin"
+        }
+      ],
+      "abstract_text": "Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capabilities that current benchmarks do not measure. Here we introduce BEND 2.0 (BENchmark for DNA language models), which tests how well models predict the effects of DNA changes and whether these predictions can guide sequence design. Across eight tasks built on five experimental datasets, we find that model choice and how representations are accessed both affect performance. Linear readouts fitted to frozen representations can match or exceed models' native outputs, and functional post-training substantially improves the models' capabilities. Linear readouts transfer well across experimental assays and genes, suggesting that models capture functional patterns beyond the data used to fit individual predictors. At the same time, strong prediction of average effects can conceal weaker prediction of context-specific effects, and accurate prediction of combined mutation effects does not imply accurate prediction of their interactions. In design tasks, model predictions can reduce the number of candidates needed to find a desired response, but still leave substantial room for better design choices, particularly for context-specific and multi-cell objectives. Our benchmark reveals that genomic models now display signs of general utility but have yet to saturate on performance in even simple tasks.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3237ad9d7d8dfe541f8dfcb16fec52431c808096940bac0e85a8e340e4d348fa",
       "identity_keys": [
         "https://doi.org/10.17605/osf.io/6xqnw",
@@ -2649,16 +2711,17 @@
     {
       "id": "3270d6a7ee7b4a640ad0e960a7ed7e8a64407dad7b064ab7148d3b43ee3de7da",
       "identity_keys": [
+        "doi:10.1101/2023.12.03.567710",
         "https://doi.org/10.1101/2023.12.03.567710",
         "https://openalex.org/W4389290598"
       ],
       "title": "ShapeProt: Top-down Protein Design with 3D Protein Shape Generative Model",
       "link": "https://doi.org/10.1101/2023.12.03.567710",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.03.567710.1.full.pdf",
-      "publication_date": "2023-12-03",
+      "pdf_url": null,
+      "publication_date": "2023-12-10",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv (2023): 2023-12",
       "authors": [
         {
           "key": "lee youhan",
@@ -2669,7 +2732,7 @@
           "name": "Jaehoon Kim"
         }
       ],
-      "abstract_text": "Abstract With the fact that protein functionality is tied to its structure and shape, a protein design paradigm of generating proteins tailored to specific shape contexts has been utilized for various biological applications. Recently, researchers have shown that top-down strategies are possible with the aid of deep learning for the shape-conditioned design. However, state-of-the-art models have limitations because they do not fully consider the geometric and chemical constraints of the entire shape. In response, we propose ShapeProt, a pioneering end-to-end protein design framework that directly generates protein surfaces and generate sequences with considering the entire nature of the generated shapes. ShapeProt distinguishes itself from current protein deep learning models that primarily handle sequence or structure data because ShapeProt directly handles surfaces. ShapeProt framework employs mask-based inpainting and conditioning to generate diverse shapes at the desired location, and these shapes are then translated into sequences using a shape-conditioned language model. Drawing upon various experimental results, we first prove the feasibility of generative design directly on the three-dimensional molecular surfaces beyond sequences and structures.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

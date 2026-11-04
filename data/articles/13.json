@@ -227,15 +227,17 @@
       "id": "130d64127848031a516e0a14b631ccc4c0be1dd17b987ea8d4cb1598673a309a",
       "identity_keys": [
         "https://doi.org/10.1101/2023.12.19.572475",
-        "https://openalex.org/W4390023653"
+        "https://doi.org/10.1126/science.adk8946",
+        "https://openalex.org/W4390023653",
+        "https://openalex.org/W4400313991"
       ],
-      "title": "Inverse folding of protein complexes with a structure-informed language model enables unsupervised antibody evolution",
-      "link": "https://doi.org/10.1101/2023.12.19.572475",
+      "title": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
+      "link": "https://doi.org/10.1126/science.adk8946",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/20/2023.12.19.572475.full.pdf",
-      "publication_date": "2023-12-20",
+      "publication_date": "2024-07-04",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Science",
       "authors": [
         {
           "key": "shanker varun",
@@ -254,7 +256,7 @@
           "name": "Peter S. Kim"
         }
       ],
-      "abstract_text": "Large language models trained on sequence information alone are capable of learning high level principles of protein design. However, beyond sequence, the three-dimensional structures of proteins determine their specific function, activity, and evolvability. Here we show that a general protein language model augmented with protein structure backbone coordinates and trained on the inverse folding problem can guide evolution for diverse proteins without needing to explicitly model individual functional tasks. We demonstrate inverse folding to be an effective unsupervised, structure-based sequence optimization strategy that also generalizes to multimeric complexes by implicitly learning features of binding and amino acid epistasis. Using this approach, we screened ~30 variants of two therapeutic clinical antibodies used to treat SARS-CoV-2 infection and achieved up to 26-fold improvement in neutralization and 37-fold improvement in affinity against antibody-escaped viral variants-of-concern BQ.1.1 and XBB.1.5, respectively. In addition to substantial overall improvements in protein function, we find inverse folding performs with leading experimental success rates among other reported machine learning-guided directed evolution methods, without requiring any task-specific training data.",
+      "abstract_text": "Large language models trained on sequence information alone can learn high-level principles of protein design. However, beyond sequence, the three-dimensional structures of proteins determine their specific function, activity, and evolvability. Here, we show that a general protein language model augmented with protein structure backbone coordinates can guide evolution for diverse proteins without the need to model individual functional tasks. We also demonstrate that ESM-IF1, which was only trained on single-chain structures, can be extended to engineer protein complexes. Using this approach, we screened about 30 variants of two therapeutic clinical antibodies used to treat severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. We achieved up to 25-fold improvement in neutralization and 37-fold improvement in affinity against antibody-escaped viral variants of concern BQ.1.1 and XBB.1.5, respectively. These findings highlight the advantage of integrating structural information to identify efficient protein evolution trajectories without requiring any task-specific training data.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2810,6 +2812,121 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "135f50162d38db4d1a38a813d51214fc4864174488dce1384cc2e4b6f9f45fe5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.763199v1",
+        "https://doi.org/10.64898/2026.10.30.763199",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.10.30.763199.source.xml"
+      ],
+      "title": "A trustworthy semantic knowledge network linking data-driven cell phenotypes to diseases and drugs",
+      "link": "https://doi.org/10.64898/2026.10.30.763199",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763199v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "xu",
+          "name": "Xu, B"
+        },
+        {
+          "key": "deslattes mays",
+          "name": "Deslattes Mays, A"
+        },
+        {
+          "key": "diller",
+          "name": "Diller, M"
+        },
+        {
+          "key": "leclair",
+          "name": "LeClair, R"
+        },
+        {
+          "key": "pankajam",
+          "name": "Pankajam, A. V"
+        },
+        {
+          "key": "spear",
+          "name": "Spear, W"
+        },
+        {
+          "key": "osumi sutherland",
+          "name": "Osumi-Sutherland, D"
+        },
+        {
+          "key": "arvind",
+          "name": "Arvind, K"
+        },
+        {
+          "key": "chatterjee",
+          "name": "Chatterjee, S"
+        },
+        {
+          "key": "diehl",
+          "name": "Diehl, A. D"
+        },
+        {
+          "key": "islam",
+          "name": "Islam, M. M"
+        },
+        {
+          "key": "kelly",
+          "name": "Kelly, C"
+        },
+        {
+          "key": "khalil",
+          "name": "Khalil, R"
+        },
+        {
+          "key": "khare",
+          "name": "Khare, J"
+        },
+        {
+          "key": "candelaria lopez",
+          "name": "Lopez Candelaria, R"
+        },
+        {
+          "key": "peng",
+          "name": "Peng, B"
+        },
+        {
+          "key": "mcdonald",
+          "name": "McDonald, L"
+        },
+        {
+          "key": "pintard",
+          "name": "Pintard, D"
+        },
+        {
+          "key": "rotenberg",
+          "name": "Rotenberg, N"
+        },
+        {
+          "key": "zweibaum",
+          "name": "Zweibaum, D"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Y"
+        },
+        {
+          "key": "scheuermann",
+          "name": "Scheuermann, R. H"
+        }
+      ],
+      "abstract_text": "Genome-wide association and other genetic studies have identified genes involved in disease pathogenesis, and their encoded proteins have provided therapeutic targets. However, little is known about which cells are the functional home of these disease-associated genes and proteins. Single-cell technologies are enabling high-resolution profiling of cell phenotypes and revealing cellular contexts of disease, yet much of the resulting knowledge remains embedded in individual datasets and scientific literature. To address these gaps, the National Library of Medicine has developed Cell Knowledge Network (NLM-CKN, https://nlm-ckn.org). Reproducible computational workflows have generated cell phenotype knowledge for 2,585 cell sets and 5,139 selectively expressed genes from 88 datasets covering 10 human organs. Mapping of these cell sets to cell types grounds Cell Ontology terms in experimental evidence. This experimental knowledge is integrated with external knowledge of anatomical and cell-type hierarchies, gene-disease associations, and therapeutic interventions. A semantic schema defines node types and relations, enabling knowledge to be transformed into triple assertions and loaded into an ArangoDB database with provenance and quantitative evidence. The NLM-CKN interface supports graphical exploration of the cellular constituents of healthy human tissues. Finally, topological analyses generate insights into cellular contributions to disease pathogenesis, cellular contexts for therapeutic intervention, and drug-repurposing hypotheses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

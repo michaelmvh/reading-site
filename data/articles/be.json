@@ -3549,8 +3549,10 @@
     {
       "id": "be9935a652e08b69eb23fd5dc7c825d4dc30e2ae4a9240c9ee0072f91fa496ef",
       "identity_keys": [
+        "https://doi.org/10.1016/j.antiviral.2025.106336",
         "https://doi.org/10.1101/2025.04.30.651413",
-        "https://openalex.org/W4410085953"
+        "https://openalex.org/W4410085953",
+        "https://openalex.org/W4417520382"
       ],
       "title": "Single-Shot Design of a Cyclic Peptide Inhibitor of HIV-1 Membrane Fusion with EvoBind",
       "link": "https://doi.org/10.1101/2025.04.30.651413",
@@ -3587,6 +3589,12 @@
       ],
       "abstract_text": "Abstract HIV evades the immune system through rapid mutation of its surface proteins, particularly the envelope glycoprotein. However, the core mechanism of viral entry, CD4 binding and co-receptor engagement remains conserved. While therapies such as Lenacapavir represent important advances, the continued emergence of resistant strains will demand new and more adaptable treatment strategies. This challenge is not unique to HIV; future pandemics will likely present similar pressures, highlighting the need for drug design methods that are not only effective but also fast and scalable. Recent advances in protein structure prediction have transformed the landscape of therapeutic design, enabling the accurate modelling of target structures from sequence alone and now facilitating the development of novel therapeutics without prior structural data. EvoBind leverages these advances to rapidly generate cyclic peptide binders in a single design round, using only the amino acid sequence of a target protein. Cyclic peptides offer several advantages over traditional linear protein molecules, including increased stability, while their small size improves oral bioavailability and enables access to challenging binding sites. Here, we demonstrate the use of EvoBind to generate cyclic peptide binders against the HIV envelope protein gp41, which is essential for viral-host membrane fusion. Cell-based assays confirm potent inhibition of two different HIV-1 strains with no detectable toxicity. The combination of artificial intelligence-guided design and streamlined experimental validation can significantly accelerate therapeutic development, reduce costs, and provide timely solutions to the challenges posed by viral evolution and emerging global health threats.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -3828,16 +3836,18 @@
     {
       "id": "bea867a2e37fc247fdee8779373205078f4bbdee8914d4578e3fa9118a31069b",
       "identity_keys": [
+        "https://doi.org/10.1002/pro.5033",
         "https://doi.org/10.1101/2023.06.06.543955",
-        "https://openalex.org/W4379780243"
+        "https://openalex.org/W4379780243",
+        "https://openalex.org/W4399581345"
       ],
-      "title": "Validation of de novo designed water-soluble and transmembrane proteins by in silico folding and melting",
-      "link": "https://doi.org/10.1101/2023.06.06.543955",
+      "title": "Validation of de novo designed water‐soluble and transmembrane β‐barrels by in silico folding and melting",
+      "link": "https://doi.org/10.1002/pro.5033",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/16/2023.06.06.543955.full.pdf",
-      "publication_date": "2023-06-08",
+      "publication_date": "2024-06-12",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Protein Science",
       "authors": [
         {
           "key": "alvaro hermosilla martin",
@@ -3856,7 +3866,7 @@
           "name": "Anastassia Andreevna Vorobieva"
         }
       ],
-      "abstract_text": "Abstract In silico validation of de novo designed proteins with deep learning (DL)-based structure prediction algorithms has become mainstream. However, formal evidence of the relationship between a high-quality predicted model and the chance of experimental success is lacking. We used experimentally characterized de novo designs to show that AlphaFold2 and ESMFold excel at different tasks. ESMFold can efficiently identify designs generated based on high-quality (designable) backbones. However, only AlphaFold2 can predict which sequences have the best chance of experimentally folding among similar designs. We show that ESMFold can generate high-quality structures from just a few predicted contacts and introduce a new approach based on incremental perturbation of the prediction (“ in silico melting”), which can reveal differences in the presence of favorable contacts between designs. This study provides a new insight on DL-based structure prediction models explainability and on how they could be leveraged for the design of increasingly complex proteins; in particular membrane proteins which have historically lacked basic in silico validation tools.",
+      "abstract_text": "In silico validation of de novo designed proteins with deep learning (DL)-based structure prediction algorithms has become mainstream. However, formal evidence of the relationship between a high-quality predicted model and the chance of experimental success is lacking. We used experimentally characterized de novo water-soluble and transmembrane β-barrel designs to show that AlphaFold2 and ESMFold excel at different tasks. ESMFold can efficiently identify designs generated based on high-quality (designable) backbones. However, only AlphaFold2 can predict which sequences have the best chance of experimentally folding among similar designs. We show that ESMFold can generate high-quality structures from just a few predicted contacts and introduce a new approach based on incremental perturbation of the prediction (\"in silico melting\"), which can reveal differences in the presence of favorable contacts between designs. This study provides a new insight on DL-based structure prediction models explainability and on how they could be leveraged for the design of increasingly complex proteins; in particular membrane proteins which have historically lacked basic in silico validation tools.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3912,6 +3922,7 @@
       "id": "beb009d93af83259e860298346b1a7e0797ece2fa73332e56969efd53f6c348b",
       "identity_keys": [
         "https://doi.org/10.1126/sciadv.adl4000",
+        "https://doi.org/10.48550/arxiv.2310.10605",
         "https://openalex.org/W4391629229"
       ],
       "title": "ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a language diffusion model",
@@ -3935,7 +3946,7 @@
           "name": "Markus J. Buehler"
         }
       ],
-      "abstract_text": "Through evolution, nature has presented a set of remarkable protein materials, including elastins, silks, keratins and collagens with superior mechanical performances that play crucial roles in mechanobiology. However, going beyond natural designs to discover proteins that meet specified mechanical properties remains challenging. Here, we report a generative model that predicts protein designs to meet complex nonlinear mechanical property-design objectives. Our model leverages deep knowledge on protein sequences from a pretrained protein language model and maps mechanical unfolding responses to create proteins. Via full-atom molecular simulations for direct validation, we demonstrate that the designed proteins are de novo, and fulfill the targeted mechanical properties, including unfolding energy and mechanical strength, as well as the detailed unfolding force-separation curves. Our model offers rapid pathways to explore the enormous mechanobiological protein sequence space unconstrained by biological synthesis, using mechanical features as the target to enable the discovery of protein materials with superior mechanical properties.",
+      "abstract_text": "Through evolution, nature has presented a set of remarkable protein materials, including elastins, silks, keratins and collagens with superior mechanical performances that play crucial roles in mechanobiology. However, going beyond natural designs to discover proteins that meet specified mechanical properties remains challenging. Here we report a generative model that predicts protein designs to meet complex nonlinear mechanical property-design objectives. Our model leverages deep knowledge on protein sequences from a pre-trained protein language model and maps mechanical unfolding responses to create novel proteins. Via full-atom molecular simulations for direct validation, we demonstrate that the designed proteins are novel, and fulfill the targeted mechanical properties, including unfolding energy and mechanical strength, as well as the detailed unfolding force-separation curves. Our model offers rapid pathways to explore the enormous mechanobiological protein sequence space unconstrained by biological synthesis, using mechanical features as target to enable the discovery of protein materials with superior mechanical properties.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

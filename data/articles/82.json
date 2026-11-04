@@ -6359,6 +6359,53 @@
       "curated_categories": []
     },
     {
+      "id": "82d0de6115e828391552faa8ecec25c4fdf0781c6fc2496a9cb7f4fe837b8b5d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763980v1",
+        "https://doi.org/10.64898/2026.11.03.763980",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763980.source.xml"
+      ],
+      "title": "RAPTORGraph: graph-based pathway modeling for causal discovery in single-cell perturbations",
+      "link": "https://doi.org/10.64898/2026.11.03.763980",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763980v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "adhisantoso",
+          "name": "Adhisantoso, Y. G"
+        },
+        {
+          "key": "der schro",
+          "name": "Schröder, S. K"
+        },
+        {
+          "key": "gress",
+          "name": "Gress, M"
+        },
+        {
+          "key": "hernaez",
+          "name": "Hernaez, M"
+        },
+        {
+          "key": "voges",
+          "name": "Voges, J"
+        }
+      ],
+      "abstract_text": "Experiments involving the perturbation of individual cells are central to understanding cellular mechanisms and can accelerate drug discovery. Causal representation learning allows us to uncover the latent factors that regulate biological systems and predict the impact of novel perturbations. Unfortunately, existing methods fail to address intervention spillover in a closed-world setting where intervention targets are known a priori, such as in Perturb-seq experiments, due to their reliance on dense encoders. Furthermore, incorporating curated biological pathways into the model imposes a confirmatory bias, forcing it to explain the data through preexisting pathways and reducing the set of hypotheses the model can explore, while discarding novel signals that lie outside the annotated pathways. In this work, we introduce RAPTORGraph, a {beta}-variational autoencoder with a GraphPathway encoder that explicitly models complex gene-to-gene interactions within learned pathways. Moreover, our model's preconditioning isolates the influence of perturbed genes, yielding clean, single-node latent interventions required for identifiable causal discovery and eliminating spillover. Finally, we train the model on data preprocessed with optimal-transport alignment, which guarantees a well-defined mapping between control and perturbed samples and further stabilizes the learned latent representations. We demonstrate that RAPTORGraph improves state-of-the-art performance on downstream analyses of unseen perturbations, such as non-additive interactions, while performing competitively on objective metrics, such as mean squared error and maximum mean discrepancy. The source code is available at https://github.com/sXperfect/RAPTORGraph.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "82d14f5ccba091ad186a3e3600501d2582b3f513e6cb49ec502ff83dc10aabca",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71445-5",
@@ -7361,7 +7408,7 @@
           "name": "Chan Cao"
         }
       ],
-      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Proteins play essential roles in cellular processes and are involved in numerous diseases, driving the need for efficient proteoform identification. Recent advances have brought nanopore-based protein fingerprinting within reach, potentially expanding the proteomics toolkit in the near future. Among emerging strategies, label-free, full-length analysis via free translocation is the most promising approach for detecting low-abundance proteoforms. While free translocation is typically accompanied by low temporal resolution, we demonstrate here that such measurements can enable reliable identification even for natural proteins with high sequence similarity. Combining low pH and guanidinium chloride, we generate a strong electroosmotic flow that enables efficient capture and translocation of unlabeled proteins with an aerolysin nanopore. Using machine learning classifiers, we achieve 80% accuracy in distinguishing seven related proteins, based on distinct and directional fingerprints with high reproducibility. Differences in fingerprints partially reflect the distribution of volume and charges in the protein sequences and may contain additional contributions from the translocation dynamics. Our findings position free-translocation measurements of unfolded proteins as a promising approach to fingerprinting without the need for chemical conjugations or enzymatic digestions. With further development, fingerprint-predictions could allow to infer de novo protein sequence information from single-molecule data, offering a powerful tool for proteomics.",
+      "abstract_text": "Abstract Proteins play essential roles in cellular processes and are involved in numerous diseases, driving the need for efficient proteoform identification. While nanopore technology was highly successful for DNA sequencing, this approach has not yet delivered its full potential in protein identification. Here, we demonstrate the capabilities of an aerolysin nanopore for direct identification of a range of unlabeled full-length proteins. Combining low pH and guanidinium chloride, we generate a strong electroosmotic flow that enables an efficient capture and translocation, resulting in distinct fingerprints from single-protein translocations. Using machine learning classifier, we achieve 80% accuracy in distinguishing seven related proteins with 38%–70% pairwise sequence identities. Differences in fingerprints largely reflect the distribution of positive charges in the protein sequences, providing a rational basis for the observed sensitivity. With further development, fingerprint-predictions could allow to infer de novo protein sequence information from single-molecule data, offering a powerful tool for proteomics.",
       "discovery_sources": [
         {
           "kind": "open_alex",

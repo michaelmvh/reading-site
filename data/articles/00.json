@@ -3230,12 +3230,12 @@
         "https://openalex.org/W7171566745"
       ],
       "title": "De novo design of metalloproteases for targeted amyloid-β cleavage",
-      "link": "https://doi.org/10.64898/2026.01.06.697903",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/06/2026.01.06.697903.full.pdf",
-      "publication_date": "2026-01-06",
+      "link": "https://doi.org/10.15302/vita.2026.07.0055",
+      "pdf_url": "https://www.vita-journal.com/vita/EN/PDF/10.15302/vita.2026.07.0055",
+      "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Vita",
       "authors": [
         {
           "key": "qu yannan",
@@ -3843,6 +3843,10 @@
       "id": "008467cea63ee1e483a251be646517d58bace1e1f946a5ae0b3bd7d2263b5b60",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67866-3",
+        "https://doi.org/10.1101/2024.10.11.617496",
+        "https://doi.org/10.21203/rs.3.rs-5473963/v1",
+        "https://doi.org/10.3204/pubdb-2026-00766",
+        "https://openalex.org/W4403350540",
         "https://openalex.org/W7120083558"
       ],
       "title": "Improved protein binder design using β-pairing targeted RFdiffusion",
@@ -3981,9 +3985,18 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "6. Function to Structure",
+        "6.3 RoseTTAFold-based"
+      ]
     },
     {
       "id": "00852d726fac36d010fc94037f6d089d655d322e4538d40ad1a5db0da108ff9b",
@@ -6057,6 +6070,7 @@
       "id": "00e955bbe2a4325ea2f34a8eb70db00a7c3e4f59dbf3f0420455b19f9b8ab975",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-024-07935-7",
+        "https://doi.org/10.1101/2023.10.19.563182",
         "https://openalex.org/W4402454718"
       ],
       "title": "Multi-pass, single-molecule nanopore reading of long protein strands",
@@ -6120,7 +6134,7 @@
           "name": "Jeff Nivala"
         }
       ],
-      "abstract_text": "The ability to sequence single protein molecules in their native, full-length form would enable a more comprehensive understanding of proteomic diversity. Current technologies, however, are limited in achieving this goal1,2. Here, we establish a method for the long-range, single-molecule reading of intact protein strands on a commercial nanopore sensor array. By using the ClpX unfoldase to ratchet proteins through a CsgG nanopore3,4, we provide single-molecule evidence that ClpX translocates substrates in two-residue steps. This mechanism achieves sensitivity to single amino acids on synthetic protein strands hundreds of amino acids in length, enabling the sequencing of combinations of single-amino-acid substitutions and the mapping of post-translational modifications, such as phosphorylation. To enhance classification accuracy further, we demonstrate the ability to reread individual protein molecules multiple times, and we explore the potential for highly accurate protein barcode sequencing. Furthermore, we develop a biophysical model that can simulate raw nanopore signals a priori on the basis of residue volume and charge, enhancing the interpretation of raw signal data. Finally, we apply these methods to examine full-length, folded protein domains for complete end-to-end analysis. These results provide proof of concept for a platform that has the potential to identify and characterize full-length proteoforms at single-molecule resolution. A technique for threading long protein strands through a nanopore by electrophoresis and back using a protein unfoldase motor, ClpX, enables single protein molecules to be analyzed multiple times with single-amino-acid sensitivity.",
+      "abstract_text": "The ability to sequence single protein molecules in their native, full-length form would enable a more comprehensive understanding of proteomic diversity. Current technologies, however, are limited in achieving this goal. Here, we establish a method for long-range, single-molecule reading of intact protein strands on a commercial nanopore sensor array. By using the ClpX unfoldase to ratchet proteins through a CsgG nanopore, we achieve single-amino acid level sensitivity, enabling sequencing of combinations of amino acid substitutions across long protein strands. For greater sequencing accuracy, we demonstrate the ability to reread individual protein molecules, spanning hundreds of amino acids in length, multiple times, and explore the potential for high accuracy protein barcode sequencing. Further, we develop a biophysical model that can simulate raw nanopore signals a priori, based on amino acid volume and charge, enhancing the interpretation of raw signal data. Finally, we apply these methods to examine intact, folded protein domains for complete end-to-end analysis. These results provide proof-of-concept for a platform that has the potential to identify and characterize full-length proteoforms at single-molecule resolution.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

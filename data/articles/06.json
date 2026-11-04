@@ -628,28 +628,34 @@
     {
       "id": "061933e59782f456497ba17bb3e6a55fd3f89b023212f335d5ab4980d9fcabbc",
       "identity_keys": [
+        "https://doi.org/10.1038/s41587-024-02395-w",
         "https://doi.org/10.1101/2023.05.08.539766",
-        "https://openalex.org/W4376108605"
+        "https://openalex.org/W4376108605",
+        "https://openalex.org/W4402827655"
       ],
-      "title": "Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion",
-      "link": "https://doi.org/10.1101/2023.05.08.539766",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/10/2023.05.08.539766.full.pdf",
-      "publication_date": "2023-05-10",
+      "title": "Multistate and functional protein design using RoseTTAFold sequence space diffusion",
+      "link": "https://doi.org/10.1038/s41587-024-02395-w",
+      "pdf_url": "https://www.nature.com/articles/s41587-024-02395-w.pdf",
+      "publication_date": "2024-09-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Biotechnology",
       "authors": [
         {
           "key": "lisanza lyayuga sidney",
           "name": "Sidney Lyayuga Lisanza"
         },
         {
-          "key": "gershon jake merle",
-          "name": "Jake Merle Gershon"
+          "key": "gershon jacob merle",
+          "name": "Jacob Merle Gershon"
         },
         {
           "key": "samuel tipps",
           "name": "Samuel W. K. Tipps"
+        },
+        {
+          "key": "jeremiah nelson sims",
+          "name": "Jeremiah Nelson Sims"
         },
         {
           "key": "arnoldt lucas",
@@ -660,19 +666,59 @@
           "name": "Samuel J. Hendel"
         },
         {
-          "key": "jeremiah nelson sims",
-          "name": "Jeremiah Nelson Sims"
+          "key": "miriam simma",
+          "name": "Miriam K. Simma"
+        },
+        {
+          "key": "ge liu",
+          "name": "Ge Liu"
+        },
+        {
+          "key": "muna yase",
+          "name": "Muna Yase"
+        },
+        {
+          "key": "hongwei wu",
+          "name": "Hongwei Wu"
+        },
+        {
+          "key": "claire tharp",
+          "name": "Claire D. Tharp"
         },
         {
           "key": "li xinting",
           "name": "Xinting Li"
         },
         {
+          "key": "alex kang",
+          "name": "Alex Kang"
+        },
+        {
+          "key": "brackenbrough evans",
+          "name": "Evans Brackenbrough"
+        },
+        {
+          "key": "asim bera",
+          "name": "Asim K. Bera"
+        },
+        {
+          "key": "gerben stacey",
+          "name": "Stacey Gerben"
+        },
+        {
+          "key": "bruce wittmann",
+          "name": "Bruce J. Wittmann"
+        },
+        {
+          "key": "andrew mcshan",
+          "name": "Andrew C. McShan"
+        },
+        {
           "key": "baker david",
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract Protein denoising diffusion probabilistic models (DDPMs) show great promise in the de novo generation of protein backbones but are limited in their inability to guide generation of proteins with sequence specific attributes and functional properties. To overcome this limitation, we develop ProteinGenerator, a sequence space diffusion model based on RoseTTAfold that simultaneously generates protein sequences and structures. Beginning from random amino acid sequences, our model generates sequence and structure pairs by iterative denoising, guided by any desired sequence and structural protein attributes. To explore the versatility of this approach, we designed proteins enriched for specific amino acids, with internal sequence repeats, with masked bioactive peptides, with state dependent structures, and with key sequence features of specific protein families. ProteinGenerator readily generates sequence-structure pairs satisfying the input conditioning (sequence and/or structural) criteria, and experimental validation showed that the designs were monomeric by size exclusion chromatography (SEC), had the desired secondary structure content by circular dichroism (CD), and were thermostable up to 95°C. By enabling the simultaneous optimization of both sequence and structure, ProteinGenerator allows for the design of functional proteins with specific sequence and structural attributes, and paves the way for protein function optimization by active learning on sequence-activity datasets.",
+      "abstract_text": "Abstract Protein denoising diffusion probabilistic models are used for the de novo generation of protein backbones but are limited in their ability to guide generation of proteins with sequence-specific attributes and functional properties. To overcome this limitation, we developed ProteinGenerator (PG), a sequence space diffusion model based on RoseTTAFold that simultaneously generates protein sequences and structures. Beginning from a noised sequence representation, PG generates sequence and structure pairs by iterative denoising, guided by desired sequence and structural protein attributes. We designed thermostable proteins with varying amino acid compositions and internal sequence repeats and cage bioactive peptides, such as melittin. By averaging sequence logits between diffusion trajectories with distinct structural constraints, we designed multistate parent–child protein triples in which the same sequence folds to different supersecondary structures when intact in the parent versus split into two child domains. PG design trajectories can be guided by experimental sequence–activity data, providing a general approach for integrated computational and experimental optimization of protein function.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2292,16 +2338,17 @@
     {
       "id": "0640cc31fe4e3751f8d2a18eb991ac93b404a5e67beeab20bbc186096e9fb2d9",
       "identity_keys": [
+        "doi:10.1101/2024.03.22.586241",
         "https://doi.org/10.1101/2024.03.22.586241",
         "https://openalex.org/W4393117342"
       ],
       "title": "Design of Antigen-Specific Antibody CDRH3 Sequences Using AI and Germline-Based Templates",
       "link": "https://doi.org/10.1101/2024.03.22.586241",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/22/2024.03.22.586241.full.pdf",
+      "pdf_url": null,
       "publication_date": "2024-03-22",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2024.03.22.586241",
       "authors": [
         {
           "key": "marinov toma",
@@ -2320,7 +2367,7 @@
           "name": "Ivelin S. Georgiev"
         }
       ],
-      "abstract_text": "Antibody-antigen specificity is engendered and refined through a number of complex B cell processes, including germline gene recombination and somatic hypermutation. Here, we present an AI-based technology for de novo generation of antigen-specific antibody CDRH3 sequences using germline-based templates, and validate this technology through the generation of antibodies against SARS-CoV-2. AI-based processes that mimic the outcome, but bypass the complexity of natural antibody generation, can be efficient and effective alternatives to traditional experimental approaches for antibody discovery.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -7099,17 +7146,18 @@
     {
       "id": "06fc0460bbb32437680423fb5c1d360879707a6f10477f1c8310b2d323d69672",
       "identity_keys": [
+        "arxiv:2607.18835",
         "https://arxiv.org/abs/2607.18835",
         "https://doi.org/10.48550/arxiv.2607.18835",
         "https://openalex.org/W7170044892"
       ],
       "title": "ABOPD: Antibody CDR Design via On-Policy Distillation",
-      "link": "https://doi.org/10.48550/arxiv.2607.18835",
-      "pdf_url": "https://arxiv.org/pdf/2607.18835",
-      "publication_date": "2026-07-21",
+      "link": "https://arxiv.org/abs/2607.18835",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2607.18835",
       "authors": [
         {
           "key": "yang zhuo",
@@ -7144,7 +7192,7 @@
           "name": "Beilun Wang"
         }
       ],
-      "abstract_text": "Antibodies are essential therapeutic molecules, and their complementarity-determining regions (CDRs) form the primary antigen-recognition interface. Recent protein generative models have demonstrated broad capabilities in biomolecular design, yet post-training strategies for downstream objectives remain limited. Standard denoising training operates on noisy states obtained by perturbing native structures, whereas recursive generation proceeds through model-generated intermediate states. For flexible antibody CDR loops such as CDR-H3, this mismatch can allow backbone deviations to accumulate along the denoising trajectory and compromise antigen-facing loop geometry. We introduce ABOPD, an antibody design framework based on on-policy distillation that leverages privileged native geometry during training to supervise states visited along the model's own denoising trajectories. With this fine-grained structural supervision, ABOPD substantially improves structural recovery on RAbD CDR-H3 generation, reducing RMSD by 0.42 Å (from 2.37 Å to 1.95 Å) and outperforming supervised fine-tuning and offline distillation controls, offering a path to higher-fidelity protein design.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
