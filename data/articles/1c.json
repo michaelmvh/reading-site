@@ -3847,6 +3847,69 @@
       "curated_categories": []
     },
     {
+      "id": "1cb36f84487002e50b51849884abb52f1b6ec8be4ed16d5b8aefcafc2f2f251b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763908v1",
+        "https://doi.org/10.64898/2026.11.03.763908",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763908.source.xml"
+      ],
+      "title": "SeCAT (Sequence Consensus Amplicon Trimming): a simulation-informed Nextflow pipeline for cross-study harmonisation of 16S rRNA metabarcoding datasets",
+      "link": "https://doi.org/10.64898/2026.11.03.763908",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763908v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "terrey",
+          "name": "Terrey, D"
+        },
+        {
+          "key": "huber",
+          "name": "Huber, P"
+        },
+        {
+          "key": "pereira",
+          "name": "Pereira, E"
+        },
+        {
+          "key": "pelayo",
+          "name": "Pelayo, M. C"
+        },
+        {
+          "key": "ferguson",
+          "name": "Ferguson, R. M. W"
+        },
+        {
+          "key": "dumbrell",
+          "name": "Dumbrell, A. J"
+        },
+        {
+          "key": "sweet",
+          "name": "Sweet, M"
+        },
+        {
+          "key": "bani",
+          "name": "Bani, A"
+        },
+        {
+          "key": "metz",
+          "name": "Metz, S"
+        }
+      ],
+      "abstract_text": "Global syntheses of 16S rRNA metabarcoding data rely on combining datasets, yet amplicon sequence variants generated with different primer pairs can rarely be compared directly. Existing approaches correct batch effects statistically or aggregate taxonomically; none first establishes whether the sequences are positionally comparable. We present SeCAT (Sequence Consensus Amplicon Trimming), a Nextflow pipeline that maps every studys variants onto a 16S rRNA full-length reference alignment, determines the largest window shared across studies, and tests by simulation whether trimming to that window degrades community structure before any data are merged. Applied to thirteen marine studies sequenced with three primer sets, twelve converged on a consensus window with a median trimmed read length of 249 bp (9,582 alignment columns). Degradation tests across twelve studies and six taxonomic ranks (72 study-rank combinations) returned 31 passes, 38 cautions and three confirmed failures. Eleven studies (682 samples after filtering) were harmonised (trimmed to the window and merged), collapsing 20,891 primer-specific variants into 12,667 MetaASVs, trimmed sequences deduplicated across studies. Harmonisation preserved community structure at family level (Mantel r = 1.00; Procrustes m{superscript 2} < 0.001) without adding between-study variance (|{Delta}R{superscript 2}| < 0.001). Alpha diversity, including observed richness, was recovered across all levels (intraclass correlations 0.93-1.00), whereas sequence-level congruence was moderate (Procrustes m{superscript 2} = 0.52), as expected where between-study similarity at sequence level exists only after harmonisation. The harmonised output supports synthesis from aggregated ranks down to exact sequences. By establishing positional comparability before merging, SeCAT opens the archive of primer-fragmented 16S rRNA surveys to sequence-level synthesis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1cb651d686b32182c37cb6f6df805096df8ae00070fb19579796802dd8a7a389",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65105-3",

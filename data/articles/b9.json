@@ -2379,6 +2379,53 @@
       "curated_categories": []
     },
     {
+      "id": "b9807c921816f73a6258964168eb7ce3f0654454355ecc8093f1f466dc9979ff",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763976v1",
+        "https://doi.org/10.64898/2026.11.03.763976",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763976.source.xml"
+      ],
+      "title": "Neural RNA splicing models rely on reading frame information unavailable to the splicing machinery",
+      "link": "https://doi.org/10.64898/2026.11.03.763976",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763976v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "gupta",
+          "name": "Gupta, K"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, B"
+        },
+        {
+          "key": "sharp",
+          "name": "Sharp, P. A"
+        },
+        {
+          "key": "burge",
+          "name": "Burge, C. B"
+        },
+        {
+          "key": "lezama solar",
+          "name": "Solar-Lezama, A"
+        }
+      ],
+      "abstract_text": "Deep neural networks can accurately predict RNA splice sites from genomic sequence, but whether they do so by simulating the natural splicing process is unclear. We evaluate this question by examining mutations that should not have a strong effect on splicing, but are correlated with it in the human genome. We focus specifically on mutations that affect frame alignment because this is known to be relevant to machinery that operates spatially and temporally separately from the splicing machinery. We find that predictions made by commonly-used neural tools are impacted far more by deletions or mutations that alter translational reading frame, producing in-frame stop codons, than by those that preserve reading frame. This dependence on reading frame causes these models to systematically miss many poison exons, a clinically relevant category of exons where reading frame is disrupted. This dependence is much weaker in \"grey-box\" models that build in splicing-specific structure. Our results imply that widely-used black-box models of splicing rely on information that is not accessible to the RNA splicing machinery. Code is available at https://github.com/kavigupta/frame-alignment-checks.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b983bf7c79b44e527079f7e878473356e90674712432afcb6fd1e498fc6909af",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72259-1",

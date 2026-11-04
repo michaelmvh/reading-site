@@ -1570,6 +1570,45 @@
       "curated_categories": []
     },
     {
+      "id": "ed458a9704db3ab74206f1256ed0dd841574c739e042eb3efa8033257c425530",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763745v1",
+        "https://doi.org/10.64898/2026.11.03.763745",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763745.source.xml"
+      ],
+      "title": "TensorPLS: an R package for exploring molecular and temporal patterns in longitudinal omics data using PLS-DA",
+      "link": "https://doi.org/10.64898/2026.11.03.763745",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763745v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "giordano",
+          "name": "Giordano, A"
+        },
+        {
+          "key": "conesa",
+          "name": "Conesa, A"
+        },
+        {
+          "key": "balzano nogueira",
+          "name": "Balzano Nogueira, L"
+        }
+      ],
+      "abstract_text": "Longitudinal omics datasets combine high-dimensional repeated measurements with missing observations, complicating supervised modelling and temporal interpretation. We present TensorPLS, an R package integrating missing-data handling, matrix-based partial least squares discriminant analysis (PLS-DA), structured variable importance, subject-level nested cross-validation and downstream functional enrichment. Data are represented as subjects x features x time tensors. Missing values are handled by Tucker3 reconstruction or feature-time mean imputation, after which tensors are unfolded along the subject mode for PLS-DA. Cumulative variable importance in projection (VIP) scores are mapped to feature-time coordinates and summarised across time and cumulative PLS models. During nested cross-validation, imputation, component tuning, VIP-based feature selection and refitting are performed within training partitions. Full-cohort models are fitted separately for descriptive interpretation. We evaluated TensorPLS on two public longitudinal transcriptomic datasets using five-by-five nested cross-validation. In GSE68310 (109 subjects), Tucker3 reconstruction yielded Q2Y = 0.670, AUROC 0.971 and balanced accuracy 0.931. In GSE182616 (66 subjects), feature-time mean imputation yielded Q2Y = 0.294, AUROC 0.827 and balanced accuracy 0.756. Predictive metrics were calculated from pooled outer held-out predictions. TensorPLS supports predictive assessment, functional enrichment of selected genes and temporal interpretation of model-assigned feature importance.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ed45ca691e9b386f7737acaebca6dff2309cfa91c6dcfad6c299758c8dcb85a6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71221-5",

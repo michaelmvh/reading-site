@@ -2487,6 +2487,45 @@
       "curated_categories": []
     },
     {
+      "id": "216653006db4ab45d195d846616df536b36952aeb1166260ce620436a38607d9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763853v1",
+        "https://doi.org/10.64898/2026.11.02.763853",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.02.763853.source.xml"
+      ],
+      "title": "Discovering Prognostic Risk Strata and Heterogeneous Progression Routes from Cross-Sectional Survival Data",
+      "link": "https://doi.org/10.64898/2026.11.02.763853",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763853v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "alzaid",
+          "name": "Alzaid, E"
+        },
+        {
+          "key": "wright",
+          "name": "Wright, G"
+        },
+        {
+          "key": "minhas",
+          "name": "Minhas, F"
+        }
+      ],
+      "abstract_text": "Inferring how individual patients progress towards higher disease risk typically requires longitudinal observations, which are often unavailable. Population-level analyses of cross-sectional data can identify differences between risk groups but may obscure heterogeneous progression patterns across individual patients. In this work, we introduce GOTSurv, a framework for patient-specific progression modelling. Using cross-sectional survival data, it first learns to rank patients by survival risk and automatically stratify them into prognostic risk groups without requiring predefined risk cut-offs. It then uses unbalanced optimal transport to infer patient-specific changes in the magnitude and direction of features associated with transitions towards higher-risk strata. We evaluated GOTSurv across ten TCGA cancer cohorts using two modalities: gene expression (n=4,767) and whole-slide image representations (n=4,655), with external validation in two independent cohorts. Compared with established survival models, GOTSurv generally achieved stronger prognostic stratification without requiring predefined risk cut-offs, while retaining competitive survival-ranking accuracy. More importantly, GOTSurv enabled the discovery of individualised progression trajectories associated with increasing risk, revealing distinct progression patterns even among patients within the same risk stratum. Overall, GOTSurv provides a novel framework for inferring heterogeneous, patient-specific progression patterns from cross-sectional survival data, enabling the identification of distinct pathways associated with increasing disease risk and informing the development of personalised therapeutic strategies. The code for GOTSurv is available at https://github.com/EtharZaid/GOTSurv/.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "21690fa0adb3b9bf88b38edc60902ccbd807b95bbd6b771522fcdf46f7db8d80",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73106-z",
