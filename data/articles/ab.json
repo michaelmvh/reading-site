@@ -3838,6 +3838,57 @@
       "curated_categories": []
     },
     {
+      "id": "abc5c66202a9172e201bd0133d108ea193b67aab0c9cd51870f70650ffb1e176",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.764043v1",
+        "https://doi.org/10.64898/2026.11.03.764043",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.764043.source.xml"
+      ],
+      "title": "CloneVI: A deep generative model for deciphering the relationships between cell state and mitochondrial genotype",
+      "link": "https://doi.org/10.64898/2026.11.03.764043",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764043v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hibi",
+          "name": "Hibi, T"
+        },
+        {
+          "key": "kojima",
+          "name": "Kojima, Y"
+        },
+        {
+          "key": "hayashi",
+          "name": "Hayashi, S"
+        },
+        {
+          "key": "hisose",
+          "name": "Hisose, H"
+        },
+        {
+          "key": "mizukoshi",
+          "name": "Mizukoshi, C"
+        },
+        {
+          "key": "shimamura",
+          "name": "Shimamura, T"
+        }
+      ],
+      "abstract_text": "Cellular diversity arises from both genetic lineages and non-genetic regulation of cell states, and knowing which cell states are tied to lineages is central to understanding how clones shape disease. Single-cell multi-omics technologies measure mitochondrial DNA mutations together with gene expression or chromatin accessibility in the same cells, but clones are usually inferred from mutations alone, making such clones difficult to identify. We developed CloneVI, a deep generative model that infers clonal structure from a latent cell state derived from gene expression or chromatin accessibility. It estimates the clonal probability of each cell from this cell state, together with the allele frequency of each clone by reconstructing the observed mutation counts. In simulated data, CloneVI recovered the ground-truth clonal structure in both single-clone and mixed-clone cell populations. In clonal hematopoiesis single-cell RNA-seq data with enriched mitochondrial transcripts, the inferred clones were associated with specific mitochondrial DNA mutations, and some of them showed high expression of a T-cell receptor variable-region gene. In chronic lymphocytic leukemia mitochondrial single-cell ATAC-seq data, CloneVI separated populations with different heteroplasmy levels and identified increased PAX9 accessibility. In a multi-donor ovarian tumor cohort, CloneVI captured mutant-cell populations enriched in particular cell states, and a differential test weighted by the clonal probability revealed the transcription factor activity of the cell state in which the mutant cells concentrated. CloneVI thus identifies populations defined by mitochondrial DNA mutations and associated with cell states in single-cell RNA-seq and ATAC-seq data. CloneVI is available at https://github.com/TaichiHIBI/cloneVI.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "abc7d67f6bdc8e1a8135b3ae5ced7d481f8152d6b9f2dbc4b704449c6f1b88f8",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.31.762157v1",

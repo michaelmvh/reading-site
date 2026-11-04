@@ -4979,6 +4979,53 @@
       "curated_categories": []
     },
     {
+      "id": "eae415ce401348fbc9bc17356d96ac114ebb243c50c987677984fa4603a8c2ec",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763913v1",
+        "https://doi.org/10.64898/2026.11.03.763913",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763913.source.xml"
+      ],
+      "title": "All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction",
+      "link": "https://doi.org/10.64898/2026.11.03.763913",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763913v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yan",
+          "name": "Yan, J"
+        },
+        {
+          "key": "xie",
+          "name": "Xie, D"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, M"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Z"
+        }
+      ],
+      "abstract_text": "We develop an All-atom Structure Tokenizer that compresses biomolecular geometry into discrete structural tokens and achieves high-accuracy all-atom reconstruction. A hierarchical geometric encoder and finite scalar quantization map chemical units to a shared vocabulary of 8,192 tokens, while a joint coordinate de-tokenizer reconstructs backbone, side-chain, nucleic-acid, and ligand heavy atoms. The tokenizer achieves all-atom lDDT scores of 0.832 and 0.835 on CASP14 and CASP15, respectively. Building on this tokenizer, we train AtomLM-9b, an autoregressive language model based on Qwen3.5-9B that predicts structural tokens from molecular identities and connectivity and decodes them into complete atomic structures. We demonstrate, for the first time, protein structure prediction performance comparable to AlphaFold 3 with an all-atom-tokenizer-based structural language model: on the FoldBench protein-protein task, AtomLM-9b achieves a success rate of 75.01%, compared with the published AlphaFold 3 result of 72.93%. These results establish discrete all-atom tokenization as an effective interface between high-fidelity atomic reconstruction and language-model-based structure prediction.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "eae483b8c54f74140aee2344bdf202a4e577b157370177b819ff43b01e5d03a8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68033-4",

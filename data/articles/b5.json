@@ -2857,6 +2857,65 @@
       "curated_categories": []
     },
     {
+      "id": "b5789fe5773ab36e540ba8ee98576e7b2944e97e517a64919faa1b25bb3fce23",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763945v1",
+        "https://doi.org/10.64898/2026.11.03.763945",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763945.source.xml"
+      ],
+      "title": "MicrobeRT: A Framework and Suite of Fine-tuned Language Models for Genomic Sequences",
+      "link": "https://doi.org/10.64898/2026.11.03.763945",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763945v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "narayan",
+          "name": "Narayan, V"
+        },
+        {
+          "key": "merritt",
+          "name": "Merritt, B"
+        },
+        {
+          "key": "choudhery",
+          "name": "Choudhery, S"
+        },
+        {
+          "key": "jimenez",
+          "name": "Jimenez, D"
+        },
+        {
+          "key": "ta",
+          "name": "Ta, S"
+        },
+        {
+          "key": "berman",
+          "name": "Berman, D. S"
+        },
+        {
+          "key": "ratcliff",
+          "name": "Ratcliff, J"
+        },
+        {
+          "key": "gallagher",
+          "name": "Gallagher, M. E"
+        }
+      ],
+      "abstract_text": "Accurate and reproducible metagenomic analysis is essential for effective infectious disease surveillance. Targeted diagnostics such as culturing, antigen assays, and multiplex PCR panels identify only predefined organisms and can fail to identify atypical or novel infections. Shotgun metagenomics offers hypothesis-free detection, but adoption is limited by workflow complexity, dependence on mutable reference databases, and high computational cost. To combat these challenges, we introduce MicrobeRT, an integrated suite of genomic language models fine-tuned to classify metagenomic sequencing reads across three tasks: (i) species level taxonomic identification, (ii) antibiotic resistance gene detection, and (iii) pathogenicity assessment. The framework builds on three pre-trained genomic language models - Nucleotide Transformer (Dalla-Torre et al 2025), DNABERT (Ji et al 2021, Zhou et al 2024), and HyenaDNA (Nguyen et al 2024) - leveraging their large-scale genomic pre-training, adaptability to downstream tasks, and, in the case of HyenaDNA, ability to capture long-range sequence dependencies. The models are fine-tuned on large, curated datasets spanning microbial, viral, fungal, and human genomes, including more than 500,000 genomes and 250,000 antibiotic resistance gene sequences. To evaluate the performance of our fine-tuned genomic language models across classification tasks, we developed a benchmarking framework that compares MicrobeRT against state-of-the-art (SOTA) bioinformatics tools. Across both simulated and empirical datasets, the models achieve strong performance while reducing computational overhead. MicrobeRT is released as open-source software, enabling further fine-tuning and reproducible integration of alternative models and classifiers. We also demonstrate seamless, drop-in integration by incorporating our fine-tuned taxonomic classification models as an optional add-on within the open-source TaxTriage pipeline (Merritt et al 2026). MicrobeRT demonstrates the feasibility of three clinically relevant multi-label analyses, offering a practical path to scalable, reproducible metagenomic diagnostics and enabling broader deployment of AI/ML-enhanced infectious disease testing.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b57962b72e5f9b0cae29d495fb4661dfba5084759ce52cc1046bce46ff25a244",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72899-3",

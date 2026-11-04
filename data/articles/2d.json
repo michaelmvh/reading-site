@@ -4421,6 +4421,41 @@
       "curated_categories": []
     },
     {
+      "id": "2d7e571c5eec976fceed376117ecd2e9261c32e1e6fe92eec8a7b2458bdac8f4",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763968v1",
+        "https://doi.org/10.64898/2026.11.03.763968",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763968.source.xml"
+      ],
+      "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
+      "link": "https://doi.org/10.64898/2026.11.03.763968",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "cupaioli",
+          "name": "Cupaioli, F. A"
+        },
+        {
+          "key": "merelli",
+          "name": "Merelli, I"
+        }
+      ],
+      "abstract_text": "Single-cell foundation models (FMs) are proposed as general tools for cell-type annotation, in silico perturbation and gene-regulatory-network (GRN) inference. To identify where they add value, we benchmarked five FMs (scGPT, Geneformer V1 and V2, Nicheformer, scFoundation), CellOracle, supervised perturbation models including STATE, and task-matched simple baselines on the same data, from K562 Perturb-seq screens and primary cells to healthy-donor and isogenic leukodystrophy brain organoids, a public organoid CRISPR screen and lung cancer biopsies. FMs were most useful when labels had to be transferred across species: from human to mouse lung, Nicheformer reached 0.98 accuracy and Geneformer V2 and scFoundation about 0.90, against 0.68 for the best baseline. Zero-shot in silico perturbations captured the direction of real responses in K562, with up to 75% of perturbations shifted in the expected direction (scFoundation, p < 1e-8), and Geneformer V2 networks recovered patient-level tumour differential expression better than co-expression (fold enrichment 2.9 versus 2.0). Within a species, FM embeddings annotated cells as accurately as principal components. In organoids, predicted knockout effects were largely explained by where the target is expressed, and an expression-matched control test isolated the gene-specific part, 12 to 35% of the effects. Isogenic Canavan and Krabbe organoids and 4H patient organoids, with one library per line and time point, did not yet separate methods from differences between clones and donors, which defines the replication needed for future validation. Fine-tuning changed classification accuracy but not knockout rankings. We release the benchmark, baselines, pipeline checks and the isogenic reference task as the fmaudit package, so that new models can be evaluated on the tasks where FMs already help.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2d7ee2d45ed0c2e9710a9f0599b3beee5f8cf41dd882fd8c264dc3c9900da96b",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03661-w",

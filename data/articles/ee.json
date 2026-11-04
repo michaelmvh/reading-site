@@ -3183,6 +3183,49 @@
       "curated_categories": []
     },
     {
+      "id": "ee89ff001a8e27261a3de9c37ec40da925b31b232a801dc2fff571f8659e2443",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.764110v1",
+        "https://doi.org/10.64898/2026.11.03.764110",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.764110.source.xml"
+      ],
+      "title": "Representation-aware calibration enables statistically reliable protein structure search",
+      "link": "https://doi.org/10.64898/2026.11.03.764110",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764110v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "shi",
+          "name": "Shi, L"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, H"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, Y"
+        },
+        {
+          "key": "lu",
+          "name": "Lu, Y"
+        }
+      ],
+      "abstract_text": "Searching large databases of predicted protein structures can reveal remote homologs, but reliable discovery requires accurate significance estimates. We show that native E-values reported by protein structure search tools such as Foldseek and Reseek can be unreliable, leading to false discoveries or missed homologs. To address this problem, we introduce Struct-Caliper, which provides reliable query-specific p-values for protein structure search. The method uses representation-aware query randomization to generate background queries and compares observed alignment scores with the highest scores from randomized searches of the same database. In simulations, SG p-values generally kept reported false positive at or below the chosen cutoff under the evaluated randomization procedures. In searches of 15,177 ASTRAL40 structures, SG p-values increased Foldseek homolog recovery by 18.2% with slightly fewer false discoveries compared with native E-values at a cutoff of 0.01. For Reseek, false discoveries even decreased by 99.5%. Across 73 queries searched against more than two million AlphaFoldDB structures, SG p-values increased the mean recovery of DALI-supported matches by 23.5% at the same cutoff. These results show that Struct-Caliper can improve the reliability of structure searches and help prioritize discoveries for further biological analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ee8e04b99bebdc7dac7a097ff45b9c050687762adee1c404d5c194e15915c19e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72462-0",
