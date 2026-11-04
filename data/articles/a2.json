@@ -6379,6 +6379,57 @@
       "curated_categories": []
     },
     {
+      "id": "a2f58142f022f6dc78a6ca18b1c1261442bb43ec619218787d065aac48270740",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763678v1",
+        "https://doi.org/10.64898/2026.11.02.763678",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.02.763678.source.xml"
+      ],
+      "title": "Spectral Adaptive Repositioning for Flow-Based Single-Cell Perturbation Modeling",
+      "link": "https://doi.org/10.64898/2026.11.02.763678",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763678v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "verma",
+          "name": "Verma, S"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, M"
+        },
+        {
+          "key": "kadadi",
+          "name": "Kadadi, S. D"
+        },
+        {
+          "key": "lanman",
+          "name": "Lanman, N. A"
+        },
+        {
+          "key": "mohammadi",
+          "name": "Mohammadi, S"
+        },
+        {
+          "key": "grama",
+          "name": "Grama, A"
+        }
+      ],
+      "abstract_text": "Predicting transcriptome-wide cellular responses to genetic and biomolecular perturbations is central to functional genomics and therapeutic target discovery. Existing methods assign gene positional encodings derived from arbitrary orderings or static co-expression masks built from unperturbed cells, and cannot capture the functional rewiring induced by perturbations. We present SPEAR, a generative framework built on two complementary positional mechanisms. Spectral positional encoding grounds each gene's position in the geometry of the co-expression network via continuous coordinates derived from the graph Laplacian. Adaptive repositioning then derives each gene's position from its perturbation-conditioned hidden state at every layer, allowing the attention genes exert on one another to reorganize without explicit supervision. Evaluated on genetic, pharmacological, and cytokine perturbation benchmarks, SPEAR demonstrates excellent recovery of differential gene-expression, distributional structure, and perturbation-specific identifiability. SPEAR also captures latent positional relationships that closely map to known transcription factor-target interactions. https://github.com/shouryaverma/SPEAR}{https://github.com/shouryaverma/SPEAR",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a2f7180472abb6e75c0d715aa9d469869f079b55fb87a40828d4121acc170c69",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.29.762916v1",

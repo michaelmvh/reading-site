@@ -1236,6 +1236,41 @@
       "curated_categories": []
     },
     {
+      "id": "db3520c0733cff31c2dcd69d1dde71fe6a4d8a0af8c128efabc478a18c477947",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762989v1",
+        "https://doi.org/10.64898/2026.10.29.762989",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.10.29.762989.source.xml"
+      ],
+      "title": "Differential Gene Expression and Functional Enrichment Analysis of Breast Tumor and Normal Tissue RNA-seq Data: A Reanalysis of GEO Dataset GSE210787",
+      "link": "https://doi.org/10.64898/2026.10.29.762989",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762989v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "surisetty",
+          "name": "Surisetty, N"
+        },
+        {
+          "key": "singh",
+          "name": "Singh, B"
+        }
+      ],
+      "abstract_text": "Background: RNA sequencing (RNA-seq) allows a global assessment of expression differences between biological states. The present study reanalyzed publicly available RNA-seq data from human breast tumors and normal tissues to identify DEGs and to investigate functional enrichment. Methods: Twelve paired-end RNA-seq samples from the GEO series GSE210787 were analyzed, including six tumor and six normal samples. Reads were obtained using the SRA Toolkit, checked with FastQC and MultiQC, trimmed with fastp, aligned to the GRCh38.p14 reference with STAR, and quantified at the gene level with featureCounts. Differential expression analysis was performed using DESeq2 in the Galaxy environment. The project report details criteria of adjusted p-value < 0.05 and absolute log2 fold change [&ge;] 1. Gene Ontology enrichment was performed using g:Profiler and KEGG overrepresentation analysis was performed separately for the up- and down-regulated gene sets. Results: The project report contains a list of 120 differentially expressed genes (DEGs), including 69 upregulated and 51 downregulated genes in tumor tissue compared with normal tissue. One upregulated-gene GO Cellular Component term, cell periphery (GO:0071944), was observed with a P-value of approximately 0.017585 and 29 overlapping genes. The original report does not specify if this P-value is nominal or adjusted. No significant GO terms were found for the down-regulated gene set. After multiple testing corrections, no KEGG pathway was significant; the lowest adjusted p-value for the upregulated group was about 0.71393. Conclusion: The project identified differences in expression between tumor and normal samples, but no KEGG pathway reached the set FDR significance threshold. The final interpretation needs to check sample metadata, DESeq2 contrast, GO significance statistic, KEGG background universe and analytical parameters against the original results. Keywords: RNA-seq; breast tumor; differential expression; DESeq2; Gene Ontology; KEGG pathway; transcriptomics; cell periphery.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "db37f42d06aab187ca12248088b7c176d96bb4a9343dbfa6aecb886e8cd35750",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72574-7",

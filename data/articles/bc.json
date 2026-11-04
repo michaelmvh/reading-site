@@ -406,6 +406,50 @@
       "curated_categories": []
     },
     {
+      "id": "bc129490e0100f09344264450b1a9c724897e0fab472a4f2c1256f5bb7170cda",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.30.755547v2",
+        "https://doi.org/10.64898/2026.09.30.755547",
+        "https://www.biorxiv.org/content/early/2026/10/08/2026.09.30.755547.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.09.30.755547.source.xml"
+      ],
+      "title": "PaleoRigor: a bounded research agent with a reproducible evidence trail for paleomicrobiome data processing",
+      "link": "https://doi.org/10.64898/2026.09.30.755547",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755547v2.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, T"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, H"
+        },
+        {
+          "key": "jia",
+          "name": "Jia, Y"
+        },
+        {
+          "key": "ning",
+          "name": "Ning, K"
+        }
+      ],
+      "abstract_text": "Background: Ancient microbial evidence informs research on past health, diet, and environments, but its scarcity and susceptibility to contamination demand care in selecting and processing data. Language models can now turn a research request into an analysis plan, but an unconstrained planner may reference files that do not exist, apply operations a format forbids, or answer a question the data cannot settle. A planner used on such evidence therefore needs to be bounded, and its decisions recoverable afterwards. Results: We developed PaleoRigor around three commitments. Agent: a language model plans the analysis. Constraint: a validator checks every file reference, format and step dependency before anything runs, execution is restricted to predefined local modules, and a planning contract directs the model to refuse out-of-scope requests with a named reason code rather than answer them. Reproducibility: each run is exported with its plan, intermediate files, checksums and decisions. In a preregistered, frozen held-out evaluation, PaleoRigor passed 23 of 24 runs (95.8%; Wilson 95% confidence interval, 79.8-99.3%): 11 of 12 supported runs and all 12 prespecified boundary decisions. An ablation that removed this planning contract from the same model passed 19 of 24 (79.2%). Repeating the frozen design with a second model configuration yielded 24 of 24 successes for PaleoRigor and 19 of 24 for the ablated arm. Pooled post hoc across both configurations, PaleoRigor passed 47 of 48 runs (97.9%), compared with 38 of 48 (79.2%) for the ablated arms. All 96 run labels were recomputed from retained records and matched. Dataset-level tests matched read counts and compressed-file sizes for six public sequencing records and documented the removal of 114 duplicate sequence entries. A retraction-associated audit illustrated how expert review limited conclusions to file-level evidence. Conclusions: For paleomicrobiome data, pairing a language-model agent with explicit constraints and a reproducible record makes the agent's proposed analysis reviewable before its outputs support a biological claim. PaleoRigor delivers checked inputs, a recorded transformation history and a named reason for each request it refuses, and runs as a local desktop application. It prepares data for specialist analysis; ancient-DNA authentication and biological interpretation remain with the paleobiologist.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bc170ef0324ae6aa55e31418b82a0d80146b65f1617e067ed3f0b51491075f9d",
       "identity_keys": [
         "https://doi.org/10.1021/jacsau.6c00115",

@@ -378,6 +378,61 @@
       "curated_categories": []
     },
     {
+      "id": "45146d0ca248dd4262235aaa7cf7dca756f069aed502cba4a15b06e9a27a8848",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763757v1",
+        "https://doi.org/10.64898/2026.11.02.763757",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.02.763757.source.xml"
+      ],
+      "title": "NBDC Data Tools: Building Analysis-ready Datasets From ABCD and HBCD Releases in R and Python",
+      "link": "https://doi.org/10.64898/2026.11.02.763757",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763757v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        },
+        {
+          "key": "das",
+          "name": "Das, B"
+        },
+        {
+          "key": "celhay",
+          "name": "Celhay, O"
+        },
+        {
+          "key": "smith",
+          "name": "Smith, C. J"
+        },
+        {
+          "key": "ziemer",
+          "name": "Ziemer, L. R"
+        },
+        {
+          "key": "dale",
+          "name": "Dale, A. M"
+        },
+        {
+          "key": "linkersdo rfer",
+          "name": "Linkersdörfer, J"
+        }
+      ],
+      "abstract_text": "act The NIH Brain Development Cohorts (NBDC) Data Hub provides access to large-scale longitudinal datasets, including the Adolescent Brain Cognitive Development (ABCD) Study(R) and the HEALthy Brain and Child Development (HBCD) Study. The studies release their tabulated data as hundreds of tables with tens of thousands of variables. Turning these files into a dataset for a particular analysis poses substantial informatics challenges, especially when data preparation and analysis workflows must be reproducible and reusable for new releases. We therefore developed NBDC Data Tools, a suite of open-source packages for preparing NBDC data in local or other approved computing environments. NBDCtools is the core R package for dataset construction and processing. The Python package nbdctools either calls the R workflow or assembles datasets natively in Python, and the R package NBDCtoolsData provides the release metadata support for both NBDCtools and nbdctools. Users define a dataset in code by naming the study, the release, and the variables or tables they need. The software then uses the standardized metadata released by the studies to locate the relevant files, join tables on the participant and session identifiers, convert data types, attach labels, and optionally recode non-response codes as missing values. Because the dataset definition is a short script that runs on the original release files, it can be rerun, shared with collaborators, and reported in publications. NBDC Data Tools complements the web-based data platforms of the NBDC Data Hub by providing a reproducible, scriptable path from approved data access to analysis-ready data for statistical analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4514f7aaa6c5410db80d434f06a6a52f14d047c646b7ab098bf904f52907963a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70018-w",

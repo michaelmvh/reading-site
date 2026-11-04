@@ -2224,6 +2224,41 @@
       "curated_categories": []
     },
     {
+      "id": "957152c6e98c104806d224a7bbbecd367954b7f47e645682e28cf9836e590dbf",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763622v1",
+        "https://doi.org/10.64898/2026.11.02.763622",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.02.763622.source.xml"
+      ],
+      "title": "vafSOMA: Detecting cell-layer-fixed somatic mutations in plants",
+      "link": "https://doi.org/10.64898/2026.11.02.763622",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763622v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhou",
+          "name": "Zhou, M"
+        },
+        {
+          "key": "johannes",
+          "name": "Johannes, F"
+        }
+      ],
+      "abstract_text": "Somatic mutations are a source of heritable genetic variation in plants and have long been exploited by breeders through selection and vegetative propagation of bud sports. They often arise in specific meristem layers and can become fixed as descendant cell lineages expand during development. Bulk sequencing of plant organs mixes DNA from these layers, so the expected variant allele frequency of a layer-fixed mutation depends on that layer's tissue contribution, which complicates their detection. Here we present vafSOMA, a statistical model that uses tissue composition to detect fixed somatic mutations, assign them to layers and obtain counts for mutation-rate estimation. It accommodates bulk and layer-enriched samples, including those that retain DNA from other layers after enrichment. In simulations, vafSOMA performed close to the best variant allele frequency cutoff chosen in hindsight, without requiring a user-selected cutoff. Its diagnostics flagged layers for which the data did not support separate mutation counts or rates. Analysing replicate organs substantially improved detection of mutations fixed in the branch meristem and yielded estimates close to the simulated stem-cell mutation rate. Application to apricot sequencing data showed that most reference mutations fixed in the dominant layer were recovered from fruit mixtures at high depth, whereas epidermal mutations remained unresolvable in fruit and leaves. These findings suggest that published bulk somatic sequencing studies mainly capture mutations fixed in the dominant tissue layer and may therefore underestimate the combined input of fixed mutations by roughly two- to threefold when layer-specific rates are similar. vafSOMA is available at https://github.com/jlab-code/vafSOMA.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9572b6afe8cb1a05b8511492cd57fcf67b02189501cf4dfd3755bb68e6628342",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78420-0",
@@ -3325,6 +3360,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9595940d866906cc9d040f842a25bd5837076d994dc8fd5b9f15f1b4222ede75",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763657v1",
+        "https://doi.org/10.64898/2026.11.02.763657",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.02.763657.source.xml"
+      ],
+      "title": "scPCIP: cross-species annotation of plant cell types with conserved gene programs",
+      "link": "https://doi.org/10.64898/2026.11.02.763657",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763657v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yang",
+          "name": "Yang, S"
+        },
+        {
+          "key": "si",
+          "name": "Si, C"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, Y"
+        },
+        {
+          "key": "sun",
+          "name": "Sun, Z"
+        },
+        {
+          "key": "yao",
+          "name": "Yao, C"
+        },
+        {
+          "key": "sun",
+          "name": "Sun, X"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, L"
+        },
+        {
+          "key": "li",
+          "name": "Li, W"
+        },
+        {
+          "key": "zhong",
+          "name": "Zhong, Q"
+        }
+      ],
+      "abstract_text": "Single-cell atlases now cover many plant species and organs, yet their cell types are still annotated with marker genes that often fail to transfer between species. Here we show that plant cell identities are captured by gene programs conserved across species. We learned programs for root, leaf, flower and seed cell types on ortholog groups from 112,905 author-labelled cells and implemented them in scPCIP, which annotates cells of species absent from training without a reference. Across 26 held-out datasets, scPCIP outperformed marker-based and plant deep-learning methods, matched supervised classifiers trained on the same atlas and transferred, at lower accuracy, to an independent study; its programs followed tissue position in spatial transcriptomes. The conserved core of each program separated cell types better than its periphery in all 11 held-out species, whereas most species-specific markers turned over. Across organs, leaf bundle-sheath cells carried a root endodermis program in 8 of 12 studies.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

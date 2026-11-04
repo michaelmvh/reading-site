@@ -3562,6 +3562,49 @@
       "curated_categories": []
     },
     {
+      "id": "a1aa0a71b06ac8b788809d9d1f20dc73be59fcafcb5b14a2e7db41f4c2c51f3e",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.04.16.649138v3",
+        "https://doi.org/10.1101/2025.04.16.649138",
+        "https://www.biorxiv.org/content/early/2026/11/04/2025.04.16.649138.source.xml"
+      ],
+      "title": "Ridge Redundancy Analysis for High-Dimensional Omics Data",
+      "link": "https://doi.org/10.1101/2025.04.16.649138",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.16.649138v3.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yoshioka",
+          "name": "Yoshioka, H"
+        },
+        {
+          "key": "aubert",
+          "name": "Aubert, J"
+        },
+        {
+          "key": "iwata",
+          "name": "Iwata, H"
+        },
+        {
+          "key": "huard mary",
+          "name": "Mary-Huard, T"
+        }
+      ],
+      "abstract_text": "Redundancy Analysis (RDA) is a popular reduced rank regression approach for modeling the relationships between two sets of variables. In omics studies, RDA provides a flexible framework for investigating associations between high-dimensional molecular data. However, omics datasets often exhibit strong multicollinearity and suffer from the \"large p, small n\" problem, where the number of predictor variables p exceeds the number of samples n. Ridge RDA addresses multicollinearity by introducing a ridge penalty in addition to the rank restriction. Despite these advantages, its application to high-dimensional omics data remains challenging due to i) difficulties in manipulating the large coefficient matrix of dimensions p x q, where q represents the number of response variables, and ii) the need to jointly select the rank and the regularization parameter that both influence the performance of the method. Results: We propose an efficient computational framework for ridge RDA that overcomes these challenges by leveraging the Singular Value Decomposition of the predictor matrix X. This approach eliminates the need for direct covariance matrix inversion, improving computational efficiency. Furthermore, we introduce a novel strategy that reduces the memory burden associated with the storage of the coefficient matrix from pq to (p+q)r, with r the chosen reduced-rank dimensionality. Our method enables an efficient grid search to jointly select the ridge penalty {lambda} and r via cross-validation. The proposed framework is implemented in the R package rrda, providing a practical and scalable solution for the analysis of high-dimensional omics data. Availability: The R package rrda is available on CRAN: https://CRAN.R-project.org/package=rrda. Scripts and data used for the analysis are available on GitHub: https://github.com/Yoska393/rrda.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a1b1ebf01954e1d353776ea1c9a37bd7ab2995835d23fcc6f0d69ebf67a389af",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01375-1",
