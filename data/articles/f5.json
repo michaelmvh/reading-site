@@ -4526,6 +4526,53 @@
       "curated_categories": []
     },
     {
+      "id": "f5bc931f41b629b67d0cb9d027a8db9a81be1b45f4cf57dc84360d5d6b14d601",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.01.763475v1",
+        "https://doi.org/10.64898/2026.11.01.763475",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.01.763475.source.xml"
+      ],
+      "title": "An end-to-end in silico framework for truth-based validation and regression testing of clinical genome sequencing pipelines, from simulated reads to reportable findings",
+      "link": "https://doi.org/10.64898/2026.11.01.763475",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763475v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "dvorsky",
+          "name": "Dvorsky, B"
+        },
+        {
+          "key": "komarkova",
+          "name": "Komarkova, M"
+        },
+        {
+          "key": "kollinova",
+          "name": "Kollinova, K"
+        },
+        {
+          "key": "klempir",
+          "name": "Klempir, O"
+        },
+        {
+          "key": "krupicka",
+          "name": "Krupicka, R"
+        }
+      ],
+      "abstract_text": "Clinical genome sequencing pipelines change often, and each change requires proportionate revalidation. Guidelines accept in silico data as a supplement but leave variant interpretation outside pipeline validation, and, to our knowledge, no framework tests a pipeline against a known truth up to the reportable finding, so report specificity is not measured. We present a source-available framework that tests a pipeline end to end, from sequencing reads to the report, against a truth fixed before any run. It plants expert-curated pathogenic and benign variants from the same genes, and optionally synthetic variants that no database holds, into the GIAB HG002 germline background and records the expected class and report decision of each variant. It then simulates reads and runs secondary and tertiary analysis as black boxes through exchangeable adapters. Findings are compared with the truth at the call-set and report levels, each failure is assigned to the first pipeline stage where it appears, and a variant-by-variant comparison of two runs serves as a regression test. We applied the framework to nf-core/sarek with DeepVariant and to the ACMG/AMP classifier BIAS-2015, using 243 ClinGen-curated variants in five test sets. Single-nucleotide variant recall against the HG002 benchmark was 99.5% on simulated and 99.3% on real reads, and every planted variant was present in the reads and called with the correct genotype. The report included 115 of 117 pathogenic and likely pathogenic variants (98.3%) but withheld only 106 of 126 variants that must not be reported (84.1%), mainly because variants of uncertain significance were upgraded and recessive carriers were reported. Without ClinVar-derived criteria, report sensitivity fell to 74.4%. Most false reports of one test set came from diploid calling of the male chromosome X, and haploid calling removed them without side effects. In supplementary experiments, indels were called completely up to 20 bp, and BIAS-2015 left 74% of synthetic loss-of-function variants unreported because it combined criteria by the 2015 rules. The framework measures report-level sensitivity and specificity and localizes regressions, so it can supplement validation on human samples and support change control.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f5bd23e4ad65322ac7917238c82cb8e406652271ff685ff45a25371d67eb177f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65751-7",

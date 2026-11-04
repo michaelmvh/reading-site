@@ -3354,26 +3354,26 @@
       ],
       "title": "De novo protein backbone generation based on diffusion with structured priors and adversarial training",
       "link": "https://doi.org/10.1101/2022.12.17.520847",
-      "pdf_url": null,
-      "publication_date": "2022-12-17",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/19/2022.12.17.520847.full.pdf",
+      "publication_date": "2022-12-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2022.12.17.520847",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "liu yufeng",
           "name": "Yufeng Liu"
         },
         {
-          "key": "chen linghui",
-          "name": "Linghui Chen"
+          "key": "chen hui ling",
+          "name": "Ling-Hui Chen"
         },
         {
           "key": "haiyan liu",
           "name": "Haiyan Liu"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract In de novo deisgn of protein backbones with deep generative methods, the designability or physical plausibility of the generated backbones needs to be emphasized. Here we report SCUBA-D, a method using denoising diffusion with priors of non-zero means to transform a low quality initial backbone into a high quality backbone. SCUBA-D has been developed by gradually adding new components to a basic denoising diffusion module to improve the physical plausibility of the denoised backbone. It comprises a module that uese one-step denoising to generate prior backbones, followed by a high resolution denoising diffusion module, in which structure diffusion is assisted by the simultaneous diffusion of a language model representation of the amino acid sequence. To ensure high physical plausibility of the denoised output backbone, multiple generative adversarial network (GAN)-style discriminators are used to provide additional losses in training. We have computationally evaluated SCUBA-D by applying structure prediction to amino acid sequences designed on the denoised backbones. The results suggest that SCUBA-D can generate high quality backbones from initial backbones that contain noises of various types or magnitudes, such as initial backbones coarsely sketched to follow certain overall shapes, or initial backbones comprising well-defined functional sites connected by unknown scaffolding regions.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

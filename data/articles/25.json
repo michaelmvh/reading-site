@@ -1328,10 +1328,10 @@
       "title": "Multi-purpose controllable protein generation via prompted language models",
       "link": "https://doi.org/10.1101/2024.11.17.624051",
       "pdf_url": null,
-      "publication_date": "2024-11-17",
+      "publication_date": "2024-11-18",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2024.11.17.624051",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "wang zeyuan",
@@ -1390,7 +1390,7 @@
           "name": "Huajun Chen"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Deep learning is increasingly powerful for designing proteins that meet structural and functional requirements. However, most existing methods follow a conventional pipeline: first defining a backbone structure and then generating sequences consistent with it. This approach, which encodes all design goals indirectly through structures, restricts flexibility and struggles to address multiple, complex design objectives simultaneously. We present PROPEND, a multi-purpose protein sequence design method based on the “pre-train and prompt” framework. We show PROPEND’s broad utility and accuracy both in silico and in vitro by directly controlling multiple properties through the prompt of backbones, blueprints, functional tags, and their combinations. For the five sequences tested with in vitro experiments, PROPEND achieved a maximum functional recovery of 105.2%, significantly outperforming the classical design pipeline’s 50.8%.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3654,7 +3654,10 @@
     {
       "id": "25b5a3d30ef527dce805711120119853aef21e084181823de231c2e5137595dc",
       "identity_keys": [
+        "doi:10.1101/2024.12.05.626932",
         "https://doi.org/10.1038/s41589-025-02136-3",
+        "https://doi.org/10.1101/2024.12.05.626932",
+        "https://openalex.org/W4405112289",
         "https://openalex.org/W7125672575"
       ],
       "title": "De novo design of potent CRISPR–Cas13 inhibitors",
@@ -3737,9 +3740,18 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "6. Function to Structure",
+        "6.3 RoseTTAFold-based"
+      ]
     },
     {
       "id": "25be007512deefe0cd77bdc60d5b88e6412aca0603aa8d2a96f141abb0c0c43d",
@@ -4750,13 +4762,13 @@
         "https://doi.org/10.1101/2023.09.13.557505",
         "https://openalex.org/W4386744681"
       ],
-      "title": "IMPROVING ANTIBODY AFFINITY USING LABORATORY DATA WITH LANGUAGE MODEL GUIDED DESIGN",
+      "title": "Improving antibody affinity using laboratory data with language model guided design",
       "link": "https://doi.org/10.1101/2023.09.13.557505",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/03/2023.09.13.557505.full.pdf",
       "publication_date": "2023-09-13",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2023.09.13.557505",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "ben krause",
@@ -4764,26 +4776,26 @@
         },
         {
           "key": "subramanian subu",
-          "name": "Subu Subramanian"
+          "name": "Subu K. Subramanian"
         },
         {
           "key": "tom yuan",
-          "name": "Tom Yuan"
+          "name": "Tom Z. Yuan"
         },
         {
           "key": "marisa yang",
-          "name": "Marisa Yang"
+          "name": "Marisa L. Yang"
         },
         {
           "key": "aaron sato",
-          "name": "Aaron Sato"
+          "name": "Aaron K. Sato"
         },
         {
           "key": "naik nikhil",
           "name": "Nikhil Naik"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "A bstract Protein design involves navigating vast sequence spaces to discover sequences with desired traits. Language models (LMs) pretrained on universal protein datasets have shown potential to make this search space tractable. However, LMs trained solely on natural sequences have limitations in creating proteins with novel functions. In this work, we used a combination of methods to finetune pretrained LMs on laboratory data collected in an anti-CD40L single domain antibody library campaign to develop an ensemble scoring function to model the fitness landscape and guide the design of new antibodies. Laboratory experiments confirmed improved CD40L affinity in the designed antibodies. Notably, the designs improved the affinities of four antibodies, originally ranging from 1 nanomolar to 100 picomolar, all to below 25 picomolar, approaching the limit of detection. This work is a promising step towards realizing the potential of LMs to leverage laboratory data to develop improved treatments for diseases.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

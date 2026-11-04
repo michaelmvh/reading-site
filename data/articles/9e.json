@@ -1083,12 +1083,12 @@
         "https://openalex.org/W4320086582"
       ],
       "title": "Multi-segment preserving sampling for deep manifold sampler",
-      "link": "https://arxiv.org/abs/2205.04259",
-      "pdf_url": null,
-      "publication_date": "2022-05-01",
+      "link": "https://doi.org/10.48550/arxiv.2205.04259",
+      "pdf_url": "https://arxiv.org/pdf/2205.04259",
+      "publication_date": "2022-05-09",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv preprint arXiv:2205.04259 (2022)",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "berenberg daniel",
@@ -1100,7 +1100,7 @@
         },
         {
           "key": "kelow simon",
-          "name": "Simon Kelow"
+          "name": "Simon P. Kelow"
         },
         {
           "key": "ji park won",
@@ -1108,7 +1108,7 @@
         },
         {
           "key": "andrew watkins",
-          "name": "Andrew Watkins"
+          "name": "Andrew M. Watkins"
         },
         {
           "key": "gligorijević vladimir",
@@ -1127,7 +1127,7 @@
           "name": "Kyunghyun Cho"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Deep generative modeling for biological sequences presents a unique challenge in reconciling the bias-variance trade-off between explicit biological insight and model flexibility. The deep manifold sampler was recently proposed as a means to iteratively sample variable-length protein sequences by exploiting the gradients from a function predictor. We introduce an alternative approach to this guided sampling procedure, multi-segment preserving sampling, that enables the direct inclusion of domain-specific knowledge by designating preserved and non-preserved segments along the input sequence, thereby restricting variation to only select regions. We present its effectiveness in the context of antibody design by training two models: a deep manifold sampler and a GPT-2 language model on nearly six million heavy chain sequences annotated with the IGHV1-18 gene. During sampling, we restrict variation to only the complementarity-determining region 3 (CDR3) of the input. We obtain log probability scores from a GPT-2 model for each sampled CDR3 and demonstrate that multi-segment preserving sampling generates reasonable designs while maintaining the desired, preserved regions.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

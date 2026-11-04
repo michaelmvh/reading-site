@@ -900,16 +900,20 @@
         "https://openalex.org/W7168259423"
       ],
       "title": "Vilya-1: An all-atom foundation model for macrocycle structure prediction and design",
-      "link": "https://arxiv.org/abs/2607.09998",
-      "pdf_url": null,
-      "publication_date": "2026-07-01",
+      "link": "https://doi.org/10.48550/arxiv.2607.09998",
+      "pdf_url": "https://arxiv.org/pdf/2607.09998",
+      "publication_date": "2026-07-10",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2607.09998",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
-          "key": "pascal research sturmfels vilya",
-          "name": "Vilya Research: Pascal Sturmfels"
+          "key": "research vilya",
+          "name": "Vilya Research"
+        },
+        {
+          "key": "pascal sturmfels",
+          "name": "Pascal Sturmfels"
         },
         {
           "key": "milad salem",
@@ -944,7 +948,7 @@
           "name": "Ivan Anishchanka"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Macrocyclic peptides are an increasingly important therapeutic modality, but existing computational methods for modeling their structures and properties are limited in scope and do not generalize well across the synthetically accessible chemical space. In this work, we introduce Vilya-1, a deep learning model that addresses two central challenges in macrocycle design: sampling biologically relevant conformations across arbitrary chemistries and predicting key developability properties such as membrane permeability. Vilya-1 operates on a uniform all-atom representation and is trained on heterogeneous structural datasets spanning diverse topologies and chemical classes. Across a broad set of macrocycles composed of canonical and non-canonical residues, Vilya-1 substantially improves geometric accuracy relative to physics-based methods, co-folding networks, and deep-learning conformer generators, while maintaining broad chemical coverage that extends to small molecules. Vilya-1 also supports generative applications, enabling the design of novel macrocycles with tailored chemical, structural, and property profiles. Together, these capabilities establish Vilya-1 as a foundation model for accelerating the development of next-generation macrocycle therapeutics.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4440,17 +4444,29 @@
         "https://doi.org/10.21203/rs.3.rs-8450746/v1",
         "https://openalex.org/W4405043907"
       ],
-      "title": "Generating All-Atom Protein Structure from Sequence-Only Training Data",
+      "title": "Controllable All-Atom Protein Generation with Latent Diffusion",
       "link": "https://doi.org/10.1101/2024.12.02.626353",
       "pdf_url": null,
-      "publication_date": "2024-12-02",
+      "publication_date": "2024-12-05",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2024.12.02.626353",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "amy lu",
           "name": "Amy X. Lu"
+        },
+        {
+          "key": "jason yang",
+          "name": "Jason Yang"
+        },
+        {
+          "key": "long yueming",
+          "name": "Yueming Long"
+        },
+        {
+          "key": "lambert theophile",
+          "name": "Theophile Lambert"
         },
         {
           "key": "wilson yan",
@@ -4462,11 +4478,11 @@
         },
         {
           "key": "kevin yang",
-          "name": "Kevin K. Yang"
+          "name": "Kevin Yang"
         },
         {
-          "key": "gligorijevic vladimir",
-          "name": "Vladimir  Gligorijevic"
+          "key": "gligorijević vladimir",
+          "name": "Vladimir Gligorijević"
         },
         {
           "key": "cho kyunghyun",
@@ -4477,15 +4493,19 @@
           "name": "Richard Bonneau"
         },
         {
-          "key": "abbeel pieter",
-          "name": "Pieter Abbeel"
+          "key": "frey nathan",
+          "name": "Nathan C. Frey"
         },
         {
-          "key": "frey nathan",
-          "name": "Nathan Frey"
+          "key": "arnold frances",
+          "name": "Frances Arnold"
+        },
+        {
+          "key": "abbeel pieter",
+          "name": "Pieter Abbeel"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract De novo generation of proteins with atomic-level functional control remains a challenge that is exacerbated by structural data scarcity. Here, we introduce PLAID (Protein Latent Induced Diffusion), a latent diffusion framework that co-generates protein sequence and all-atom structure by sampling in the compressed latent space of the pretrained protein folding model ESMFold. Because diffusion training uses sequence-derived latents rather than experimentally resolved structures, PLAID can learn from sequence-scale databases that are orders of magnitude larger than structural ones. We find that crucial to learning a generative model over this latent space is to first compress it, which bypasses ESMFold latent space irregularities and provides sampling efficiency speedups. This approach further unlocks the amount of available annotations: using classifier-free guidance, PLAID supports compositional conditioning on 2,219 function terms from Gene Ontology and 3,617 taxonomic keywords. In silico, PLAID produces diverse and designable all-atom proteins that better match natural biophysical distributions than existing all-atom baselines. As a proof-of-concept validation of controllable generation capabilities, we use heme binding and E. coli as function and taxonomy prompts, respectively. PLAID can propose candidates that express in E. coli with absorption spectra that suggest heme binding, with high sequence novelty to known heme binders. These results establish latent diffusion as a scalable, efficient, and compositionally controllable approach for all-atom protein generation and multimodal data augmentation.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

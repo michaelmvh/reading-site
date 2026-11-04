@@ -5946,23 +5946,24 @@
       "identity_keys": [
         "https://doi.org/10.1038/s41467-024-50712-3",
         "https://doi.org/10.1101/2023.11.08.566287",
-        "https://openalex.org/W4388572028"
+        "https://openalex.org/W4388572028",
+        "https://openalex.org/W4401113423"
       ],
       "title": "Neural network extrapolation to distant regions of the protein fitness landscape",
-      "link": "https://doi.org/10.1101/2023.11.08.566287",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/09/2023.11.08.566287.full.pdf",
-      "publication_date": "2023-11-09",
+      "link": "https://doi.org/10.1038/s41467-024-50712-3",
+      "pdf_url": null,
+      "publication_date": "2024-07-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Communications",
       "authors": [
-        {
-          "key": "fahlberg sarah",
-          "name": "Sarah A. Fahlberg"
-        },
         {
           "key": "chase freschlin",
           "name": "Chase R. Freschlin"
+        },
+        {
+          "key": "fahlberg sarah",
+          "name": "Sarah A. Fahlberg"
         },
         {
           "key": "heinzelman pete",
@@ -5973,7 +5974,7 @@
           "name": "Philip A. Romero"
         }
       ],
-      "abstract_text": "Machine learning (ML) has transformed protein engineering by constructing models of the underlying sequence-function landscape to accelerate the discovery of new biomolecules. ML-guided protein design requires models, trained on local sequence-function information, to accurately predict distant fitness peaks. In this work, we evaluate neural networks' capacity to extrapolate beyond their training data. We perform model-guided design using a panel of neural network architectures trained on protein G (GB1)-Immunoglobulin G (IgG) binding data and experimentally test thousands of GB1 designs to systematically evaluate the models' extrapolation. We find each model architecture infers markedly different landscapes from the same data, which give rise to unique design preferences. We find simpler models excel in local extrapolation to design high fitness proteins, while more sophisticated convolutional models can venture deep into sequence space to design proteins that fold but are no longer functional. Our findings highlight how each architecture's inductive biases prime them to learn different aspects of the protein fitness landscape.",
+      "abstract_text": "Abstract Machine learning (ML) has transformed protein engineering by constructing models of the underlying sequence-function landscape to accelerate the discovery of new biomolecules. ML-guided protein design requires models, trained on local sequence-function information, to accurately predict distant fitness peaks. In this work, we evaluate neural networks’ capacity to extrapolate beyond their training data. We perform model-guided design using a panel of neural network architectures trained on protein G (GB1)-Immunoglobulin G (IgG) binding data and experimentally test thousands of GB1 designs to systematically evaluate the models’ extrapolation. We find each model architecture infers markedly different landscapes from the same data, which give rise to unique design preferences. We find simpler models excel in local extrapolation to design high fitness proteins, while more sophisticated convolutional models can venture deep into sequence space to design proteins that fold but are no longer functional. Our findings highlight how each architecture’s inductive biases prime them to learn different aspects of the protein fitness landscape.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

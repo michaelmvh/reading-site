@@ -2581,12 +2581,12 @@
         "https://openalex.org/W4391766359"
       ],
       "title": "Decoupled Sequence and Structure Generation for Realistic Antibody Design",
-      "link": "https://arxiv.org/abs/2402.05982",
-      "pdf_url": null,
-      "publication_date": "2024-02-01",
+      "link": "https://doi.org/10.48550/arxiv.2402.05982",
+      "pdf_url": "https://arxiv.org/pdf/2402.05982",
+      "publication_date": "2024-02-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2402.05982",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "kim nayoung",
@@ -2594,18 +2594,18 @@
         },
         {
           "key": "kim minsu",
-          "name": "Minsu Kim"
+          "name": "Kim, Minsu"
         },
         {
           "key": "ahn sungsoo",
-          "name": "Sungsoo Ahn"
+          "name": "Ahn, Sungsoo"
         },
         {
           "key": "jinkyoo park",
           "name": "Jinkyoo Park"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Recently, deep learning has made rapid progress in antibody design, which plays a key role in the advancement of therapeutics. A dominant paradigm is to train a model to jointly generate the antibody sequence and the structure as a candidate. However, the joint generation requires the model to generate both the discrete amino acid categories and the continuous 3D coordinates; this limits the space of possible architectures and may lead to suboptimal performance. In response, we propose an antibody sequence-structure decoupling (ASSD) framework, which separates sequence generation and structure prediction. Although our approach is simple, our idea allows the use of powerful neural architectures and demonstrates notable performance improvements. We also find that the widely used non-autoregressive generators promote sequences with overly repeating tokens. Such sequences are both out-of-distribution and prone to undesirable developability properties that can trigger harmful immune responses in patients. To resolve this, we introduce a composition-based objective that allows an efficient trade-off between high performance and low token repetition. ASSD shows improved performance in various antibody design experiments, while the composition-based objective successfully mitigates token repetition of non-autoregressive models.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

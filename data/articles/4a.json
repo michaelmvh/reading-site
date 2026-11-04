@@ -1522,10 +1522,10 @@
       "title": "Design of Protein Sequences with Precisely Tuned Kinetic Properties",
       "link": "https://doi.org/10.1101/2025.02.13.638027",
       "pdf_url": null,
-      "publication_date": "2025-02-13",
+      "publication_date": "2025-02-14",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2025.02.13.638027",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "brotzakis faidon",
@@ -1536,11 +1536,11 @@
           "name": "Michele Vendruscolo"
         },
         {
-          "key": "georgios skretas",
-          "name": "Georgios Skretas"
+          "key": "γεώργιος σκρέτας",
+          "name": "Γεώργιος Σκρέτας"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Recent advances in computational biology have enabled solutions to the inverse folding problem - finding an amino acid sequence that folds into a target structure. An open question concerns the design of proteins that in addition to having the correct target structure also have precisely tuned kinetic properties, such as folding and unfolding rates. To address this problem, we formulate the inverse folding problem as a quest for a sequence with a target free energy landscape. To propose a procedure to address this problem, here we describe the Inverse Folding Molecular Dynamics (IF-MD) method, which combines inverse folding with enhanced sampling molecular dynamics and Bayesian optimization. IF-MD leverages ensemble averages from molecular dynamics simulations, reweighted according to a Bayesian framework, to guide the design of sequences exhibiting specific kinetic properties. We demonstrate the methodology by optisising the binding kinetics of H11, a nanobody against the SARS-CoV-2 spike receptor-binding domain (RBD), thus identifying nanobody variants with slower unbinding kinetics than H11. Mechanistic analysis reveals that this kinetic property arises from a shift towards configurations closer to the bound state and increased free energy barriers for dissociation. These findings highlight the power of IF-MD for efficiently navigating the vast sequence space to design proteins with a tailored free energy landscape.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4599,12 +4599,12 @@
         "https://openalex.org/W4405023786"
       ],
       "title": "ProteinWeaver: A Divide-and-Assembly Approach for Protein Backbone Design",
-      "link": "https://arxiv.org/abs/2411.16686",
-      "pdf_url": null,
-      "publication_date": "2024-11-01",
+      "link": "https://doi.org/10.48550/arxiv.2411.16686",
+      "pdf_url": "https://arxiv.org/pdf/2411.16686",
+      "publication_date": "2024-11-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2411.16686",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "ma yiming",
@@ -4616,7 +4616,7 @@
         },
         {
           "key": "yi zhou",
-          "name": "Yi Zhou"
+          "name": "Zhou, Yi"
         },
         {
           "key": "zaixiang zheng",
@@ -4631,7 +4631,7 @@
           "name": "Quanquan Gu"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Nature creates diverse proteins through a 'divide and assembly' strategy. Inspired by this idea, we introduce ProteinWeaver, a two-stage framework for protein backbone design. Our method first generates individual protein domains and then employs an SE(3) diffusion model to flexibly assemble these domains. A key challenge lies in the assembling step, given the complex and rugged nature of the inter-domain interaction landscape. To address this challenge, we employ preference alignment to discern complex relationships between structure and interaction landscapes through comparative analysis of generated samples. Comprehensive experiments demonstrate that ProteinWeaver: (1) generates high-quality, novel protein backbones through versatile domain assembly; (2) outperforms RFdiffusion, the current state-of-the-art in backbone design, by 13\\% and 39\\% for long-chain proteins; (3) shows the potential for cooperative function design through illustrative case studies. To sum up, by introducing a `divide-and-assembly' paradigm, ProteinWeaver advances protein engineering and opens new avenues for functional protein design.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

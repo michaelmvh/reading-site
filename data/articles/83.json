@@ -2729,6 +2729,45 @@
       "curated_categories": []
     },
     {
+      "id": "8359a8284142a0c857cf29444a39eade76d3387276de132c918cc480b207d6f7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.02.763572v1",
+        "https://doi.org/10.64898/2026.11.02.763572",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.02.763572.source.xml"
+      ],
+      "title": "BioTrajX: evaluating biological plausibility in single-cell trajectory inference",
+      "link": "https://doi.org/10.64898/2026.11.02.763572",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763572v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, T. Y"
+        },
+        {
+          "key": "chang",
+          "name": "Chang, Y.-M"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, S.-Y"
+        }
+      ],
+      "abstract_text": "Trajectory inference (TI) methods reconstruct cellular progression from single-cell RNA sequencing data, typically by ordering cells along a pseudotime axis. However, different TI methods and analytical choices can produce divergent trajectories from the same dataset, making it difficult to determine which inferred trajectory best reflects the underlying biological process. Existing evaluation strategies often rely on computational benchmarks or qualitative biological assessment, with limited standardized approaches for incorporating a priori biological knowledge. Here, we present BioTrajX, an R package for biologically informed evaluation of pseudotime trajectories using three complementary metrics: Directionality (D), which measures agreement between pseudotime and expected biological progression; Order Consistency (O), which quantifies the coherence of marker-program changes along the trajectory; and Endpoint Validity (E), which assesses enrichment of expected cell states at trajectory endpoints. Together, the DOE metrics provide an interpretable framework for comparing alternative trajectory inference results and evaluating root-cell choices prior to downstream analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "835a17b7c8124934d6c1ad79b64cca4f628167e851c8da586dcc5f11af2bd893",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75080-y",
@@ -4145,10 +4184,8 @@
     },
     {
       "id": "8391ee126981841bcd19199fbcc9d3c2c9ec94d6754b1b3e617827c55d78f974",
-      "identity_keys": [
-        "https://doi.org/10.1101/2025.05.26.656215",
-        "https://openalex.org/W4410854482"
-      ],
+      "canonical_id": "24fd3cab024c8c74a2c1c85a8d7579cc29dd0f936274023f8316cab5242eb9d1",
+      "identity_keys": [],
       "title": "Bioinformatics classification of the MgtE Mg²⁺ channel and de novo protein design for the stabilization of its novel subclass",
       "link": "https://doi.org/10.1101/2025.05.26.656215",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/29/2025.05.26.656215.full.pdf",

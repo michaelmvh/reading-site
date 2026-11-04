@@ -2032,6 +2032,45 @@
       "curated_categories": []
     },
     {
+      "id": "f32cafa1ed32e8a72c9430f73ed5a3030374280226679e2a284545e0d28ab02f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.01.763464v1",
+        "https://doi.org/10.64898/2026.11.01.763464",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.01.763464.source.xml"
+      ],
+      "title": "The Segmentome: a novel representation of the DNA methylome identified by a Bayesian HMM framework",
+      "link": "https://doi.org/10.64898/2026.11.01.763464",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763464v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "anvari",
+          "name": "Anvari, M"
+        },
+        {
+          "key": "torki",
+          "name": "Torki, N"
+        },
+        {
+          "key": "mehrmohamadi",
+          "name": "Mehrmohamadi, M"
+        }
+      ],
+      "abstract_text": "Motivation: DNA methylation is organized along the genome into regions of relatively stable methylation (i.e. fully methylated or fully unmethylated regions), separated by transition zones. Differences in the boundaries of these methylation zones across cells can result from various regulatory and epigenetic mechanisms. Most DNA methylome studies, however, are focused on the detection of differentially methylated regions (DMRs), and this organization within a single methylome remains under explored. Furthermore it is unclear whether a segment-level descriptor can capture cell identity. Results: We introduce the segmentome, a segment-level representation of the methylome, and an unsupervised Bayesian hidden Markov model that infers it from WGBS data without predefined methylation thresholds or labels. The model combines CpG methylation levels with read-pattern entropy, local CpG correlation and CpG count to divide the genome into unmethylated, methylated and transition zones, the last characterized by heterogeneous read patterns. Applied to 207 samples of 39 human cell types, segmentome profiles grouped samples by cell type in an unsupervised manner (adjusted Rand index 0.55, adjusted mutual information 0.72). We next generated a segmentome atlas consisting of top segmentome biomarkers per human cell-type. These markers were capable of cell-of-origin determining in cell-free DNA and white blood cell samples. These results suggest that segmentation is a unique framework for analyzing DNA methylome.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f32d90eadd8b4df4d6f005f27dbc2c7bdd7b04affd5ed08506cd9dead6295ac0",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73206-w",

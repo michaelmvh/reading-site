@@ -357,14 +357,14 @@
       ],
       "title": "Text2Protein: A Generative Model for Designated Protein Design on Given Description",
       "link": "https://doi.org/10.21203/rs.3.rs-4868665/v1",
-      "pdf_url": null,
-      "publication_date": null,
+      "pdf_url": "https://www.researchsquare.com/article/rs-4868665/latest.pdf",
+      "publication_date": "2024-09-13",
       "publication_date_precision": "unknown",
       "collection_date": {
         "date": "2025-05-03",
         "commit_url": "https://github.com/Peldom/papers_for_protein_design_using_DL/commit/01a168f1ba649f704b48b0d30bc9879a0d2815d7"
       },
-      "venue": "PREPRINT (Version 1) available at Research Square",
+      "venue": "Research Square",
       "authors": [
         {
           "key": "hosseini ramtin",
@@ -379,7 +379,7 @@
           "name": "Pengtao Xie"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Designing protein structures from text is challenging in computational biology. We propose Text2Protein, a pipeline combining large language models (LLMs) with diffusion models to generate full-atomic protein structures from text. Using a conditional diffusion model and the Vicuna-7B language model, we learn data distributions of 6D interresidue coordinates, refined into full-atomic structures with PyRosetta. Trained on a curated RCSB-PDB dataset, Text2Protein focuses on single-chain proteins with 40-256 residues. Our extensive experiments validate Text2Protein’s effectiveness by generating high-fidelity protein structures similar to ground truth proteins using raw texts. We evaluate Text2Protein using multiple metrics, including Mean Square Error (MSE) of 6D coordinates, Rosetta Energy Units (REU), and TM-score. Our results show that 5% of the generated proteins have a TM-score greater than 0.5, indicating similar folds in SCOP/CATH. Additionally, 16% of pairs have a TM-score greater than 0.4, 89% have a TM-score greater than 0.3, and none have a TM-score less than 0.17, below the threshold for unrelated proteins. Text2Protein presents a promising framework for automated protein design, potentially accelerating novel protein discovery. This work opens new avenues for integrating natural language understanding with protein structure generation, with implications in drug discovery, enzyme engineering, and material science.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5308,19 +5308,19 @@
         "https://openalex.org/W4403665785"
       ],
       "title": "Leveraging Deep Generative Model For Computational Protein Design And Optimization",
-      "link": "https://arxiv.org/abs/2408.17241",
-      "pdf_url": null,
-      "publication_date": "2024-08-01",
+      "link": "https://doi.org/10.48550/arxiv.2408.17241",
+      "pdf_url": "https://arxiv.org/pdf/2408.17241",
+      "publication_date": "2024-08-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2408.17241",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
-          "key": "boqiao lai",
-          "name": "Boqiao Lai"
+          "key": "ben lai",
+          "name": "Ben Lai"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Proteins are the fundamental macromolecules that play diverse and crucial roles in all living matter and have tremendous implications in healthcare, manufacturing, and biotechnology. Their functions are largely determined by the sequences of amino acids that compose them and their unique three-dimensional structures when folded. The recent surge in highly accurate computational protein structure prediction tools has equipped scientists with the means to derive preliminary structural insights without the onerous costs of experimental structure determination. These breakthroughs hold profound promise for building robust and efficient in silico protein design systems. While the prospect of designing de novo proteins with precise computational accuracy remains a grand challenge in biochemical engineering, conventional assembly-based and rational design methods often grapple with the expansive design space, resulting in suboptimal design success rates. Despite recently emerged deep learning-based models have shown promise in improving the efficiency of the computational protein design process, a significant gap persists between current design paradigms and their experimental realization. This thesis will investigate the potential of deep generative models in refining protein structure and sequence design methods, aiming to develop frameworks capable of crafting novel protein sequences with predetermined structures or specific functionalities. By harnessing extensive protein databases and cutting-edge neural architectures, this research aims to enhance precision and robustness in current protein design paradigms, potentially paving the way for advancements across various scientific fields.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

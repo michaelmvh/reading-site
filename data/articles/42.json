@@ -2996,16 +2996,16 @@
         "https://openalex.org/W4308614092"
       ],
       "title": "An Efficient MCMC Approach to Energy Function Optimization in Protein Structure Prediction",
-      "link": "https://arxiv.org/abs/2211.03193",
-      "pdf_url": null,
-      "publication_date": "2022-11-01",
+      "link": "https://doi.org/10.48550/arxiv.2211.03193",
+      "pdf_url": "https://arxiv.org/pdf/2211.03193",
+      "publication_date": "2022-11-06",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2211.03193",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
-          "key": "ghantasala lakshmi",
-          "name": "Lakshmi A. Ghantasala"
+          "key": "anirudh ghantasala lakshmi",
+          "name": "Lakshmi Anirudh Ghantasala"
         },
         {
           "key": "jaiswal risi",
@@ -3016,7 +3016,7 @@
           "name": "Supriyo Datta"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Protein structure prediction is a critical problem linked to drug design, mutation detection, and protein synthesis, among other applications. To this end, evolutionary data has been used to build contact maps which are traditionally minimized as energy functions via gradient descent based schemes like the L-BFGS algorithm. In this paper we present what we call the Alternating Metropolis-Hastings (AMH) algorithm, which (a) significantly improves the performance of traditional MCMC methods, (b) is inherently parallelizable allowing significant hardware acceleration using GPU, and (c) can be integrated with the L-BFGS algorithm to improve its performance. The algorithm shows an improvement in energy of found structures of 8.17% to 61.04% (average 38.9%) over traditional MH and 0.53% to 17.75% (average 8.9%) over traditional MH with intermittent noisy restarts, tested across 9 proteins from recent CASP competitions. We go on to map the Alternating MH algorithm to a GPGPU which improves sampling rate by 277x and improves simulation time to a low energy protein prediction by 7.5x to 26.5x over CPU. We show that our approach can be incorporated into state-of-the-art protein prediction pipelines by applying it to both trRosetta2's energy function and the distogram component of Alphafold1's energy function. Finally, we note that specially designed probabilistic computers (or p-computers) can provide even better performance than GPUs for MCMC algorithms like the one discussed here.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

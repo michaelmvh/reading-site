@@ -1587,6 +1587,58 @@
       "curated_categories": []
     },
     {
+      "id": "c84c11dc127a04851e913601f9363957a2568619074758638a4280a34857e13a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.07.736532v2",
+        "https://doi.org/10.64898/2026.07.07.736532",
+        "https://www.biorxiv.org/content/early/2026/07/11/2026.07.07.736532.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.07.07.736532.source.xml"
+      ],
+      "title": "SPARC Reveals Distinct Osteoclastogenesis-Associated Malignant States in Metastatic Osteosarcoma",
+      "link": "https://doi.org/10.64898/2026.07.07.736532",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736532v2.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wu",
+          "name": "Wu, S"
+        },
+        {
+          "key": "walker",
+          "name": "Walker, W. C"
+        },
+        {
+          "key": "nirala",
+          "name": "Nirala, B. K"
+        },
+        {
+          "key": "martin",
+          "name": "Martin, C"
+        },
+        {
+          "key": "yustein",
+          "name": "Yustein, J. T"
+        },
+        {
+          "key": "samee",
+          "name": "Samee, M. A. H"
+        }
+      ],
+      "abstract_text": "Single-cell studies of metastatic cancer have revealed extensive transcriptional heterogeneity and cellular plasticity as malignant populations establish themselves in distant organs. The growing availability of paired single-cell profiles from primary tumors and matched metastases offers new opportunities to investigate how malignant-cell states evolve during metastasis in relation to progression within the primary tumor. Static comparisons between these sites have identified differences in cellular composition and molecular programs, but can reduce heterogeneous populations to site-level summaries and overlook changes in gene-expression programs along possible routes of metastatic progression. Investigating these dynamics calls for trajectory inference that reconstructs state progression within each condition and transitions between conditions. However, existing trajectory inference tools have limitations in jointly modeling these relationships under biological ordering constraints. Traditional and widely used trajectory inference tools, such as Monocle 3 and Slingshot, do not impose direction constraints based on biological knowledge or the sampling design during graph construction. Optimal transport-based tools, such as moscot, incorporate temporal order to infer cross-condition correspondences, but these mappings alone do not reconstruct progression within each condition. More recent methods, including CStreet and CellRank 2, incorporate both transition types, but construct the two components separately through distinct modeling or graph-construction strategies. Here we introduce SPARC (Shortest Path Algorithmic Reconstruction of Cross-state Evolution), a unified graph-based optimization framework that evaluates both types of relationships under a common connectivity formulation to reconstruct complete, directionally constrained candidate trajectories. Across benchmarks, SPARC improved recovery of candidate metastatic precursors and complete progression routes in simulations, showed strong directed-trajectory reconstruction in conventional time-course settings, and performed competitively in real tumor lineage-tracing datasets. To examine metastatic progression in a model where lung lesions arise through spontaneous dissemination, we generated, to our knowledge, the first paired scRNA-seq dataset of primary osteosarcoma tumors and spontaneous lung metastases from the same mice, together with the first patient-derived osteosarcoma Visium HD dataset. The biological analyses revealed differences among metastatic tumor states in their association with osteoclast-like myeloid populations and candidate supportive signals, suggesting that certain malignant states may preferentially promote osteoclastogenesis. Together, SPARC provides a framework for investigating biologically ordered cell-state progression and identifying state-specific programs associated with metastatic disease.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c851d00cf9262c34b4256e3b7445f1e1208ff9f5e41c3e23150ed1943a0ac407",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68383-7",

@@ -3161,7 +3161,7 @@
       "publication_date": "2024-05-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2024.05.11.593685",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "billera lukas",
@@ -3188,7 +3188,7 @@
           "name": "Ben Murrell"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Just as language is composed of sublexical tokens that combine to form words, sentences, and paragraphs, protein backbones are composed of sub-structural elements that combine to form helices, sheets, folds, domains, and chains. Autoregressive language models operate on discrete tokens, whereas protein structure is inherently continuous, and generative approaches to protein design have borrowed more from image generation than language modeling. But autoregressive models do not inherently require their inputs and outputs to be discrete. Here we describe a generative autoregressive language model over the continuous space of protein backbones, where the distribution over the placement of each successive amino acid is conditioned on all preceding residues, and can be sampled from one residue after another. We show that this approach can learn to sample diverse and realistic protein chains, opening a new potential avenue for in silico protein design.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5562,12 +5562,15 @@
     {
       "id": "84f063c700645ee30bab6d851eccb96c98f36aab4001215fa5ddafcfbce36162",
       "identity_keys": [
+        "https://arxiv.org/abs/2511.02128v1",
         "https://doi.org/10.35459/tbp.2025.000292",
+        "https://doi.org/10.48550/arxiv.2511.02128",
+        "https://openalex.org/W7104002000",
         "https://openalex.org/W7169668047"
       ],
       "title": "Deep Learning for Proteins Notebook Series Teaches AI for Biomolecular Structure Prediction and Design",
       "link": "https://doi.org/10.35459/tbp.2025.000292",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2511.02128",
       "publication_date": "2026-07-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -5605,9 +5608,18 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "curated_collection",
+          "key": "peldom-protein-design",
+          "label": "Papers for Protein Design Using Deep Learning",
+          "url": "https://github.com/Peldom/papers_for_protein_design_using_DL"
         }
       ],
-      "curated_categories": []
+      "curated_categories": [
+        "1. Reviews",
+        "1.1 De novo protein design"
+      ]
     },
     {
       "id": "84f3d85109401ffb42bd2c0f182bf142210b1dac1df36bf2b3b6ad9f1197654e",

@@ -4458,19 +4458,20 @@
         "https://arxiv.org/abs/2511.22311v1",
         "https://doi.org/10.1039/d6dd00282j",
         "https://doi.org/10.48550/arxiv.2511.22311",
-        "https://openalex.org/W4416975519"
+        "https://openalex.org/W4416975519",
+        "https://openalex.org/W7204155342"
       ],
-      "title": "Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation",
-      "link": "https://doi.org/10.48550/arxiv.2511.22311",
-      "pdf_url": "https://arxiv.org/pdf/2511.22311",
-      "publication_date": "2025-11-27",
+      "title": "Swarms of large language model agents for protein sequence design with experimental validation",
+      "link": "https://doi.org/10.1039/d6dd00282j",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Digital Discovery",
       "authors": [
         {
-          "key": "fiona wang",
-          "name": "Fiona Y. Wang"
+          "key": "fiona wang yihan",
+          "name": "Fiona Yihan Wang"
         },
         {
           "key": "di lee sheng",
@@ -4485,7 +4486,7 @@
           "name": "Markus J. Buehler"
         }
       ],
-      "abstract_text": "Designing proteins de novo with tailored structural, physicochemical, and functional properties remains a grand challenge in biotechnology, medicine, and materials science, due to the vastness of sequence space and the complex coupling between sequence, structure, and function. Current state-of-the-art generative methods, such as protein language models (PLMs) and diffusion-based architectures, often require extensive fine-tuning, task-specific data, or model reconfiguration to support objective-directed design, thereby limiting their flexibility and scalability. To overcome these limitations, we present a decentralized, agent-based framework inspired by swarm intelligence for de novo protein design. In this approach, multiple large language model (LLM) agents operate in parallel, each assigned to a specific residue position. These agents iteratively propose context-aware mutations by integrating design objectives, local neighborhood interactions, and memory and feedback from previous iterations. This position-wise, decentralized coordination enables emergent design of diverse, well-defined sequences without reliance on motif scaffolds or multiple sequence alignments, validated with experiments on proteins with alpha helix and coil structures. Through analyses of residue conservation, structure-based metrics, and sequence convergence and embeddings, we demonstrate that the framework exhibits emergent behaviors and effective navigation of the protein fitness landscape. Our method achieves efficient, objective-directed designs within a few GPU-hours and operates entirely without fine-tuning or specialized training, offering a generalizable and adaptable solution for protein design. Beyond proteins, the approach lays the groundwork for collective LLM-driven design across biomolecular systems and other scientific discovery tasks.",
+      "abstract_text": "ProteinSwarm coordinates residue-level LLM agents to design proteins across programmable objectives without task-specific retraining. Designed peptides are experimentally validated to adopt target helix and coil structures.",
       "discovery_sources": [
         {
           "kind": "open_alex",

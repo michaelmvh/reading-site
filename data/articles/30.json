@@ -2725,40 +2725,28 @@
         "https://doi.org/10.1101/2023.12.13.571602",
         "https://openalex.org/W4389720103"
       ],
-      "title": "Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding",
+      "title": "TopoDiff: Improving Protein Backbone Generation with Topology-aware Latent Encoding",
       "link": "https://doi.org/10.1101/2023.12.13.571602",
-      "pdf_url": null,
-      "publication_date": "2023-12-13",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/14/2023.12.13.571602.full.pdf",
+      "publication_date": "2023-12-14",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2023.12.13.571602",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "yuyang zhang",
           "name": "Yuyang Zhang"
         },
         {
-          "key": "liu yuhang",
-          "name": "Yuhang Liu"
-        },
-        {
           "key": "ma zinnia",
           "name": "Zinnia Ma"
-        },
-        {
-          "key": "li min",
-          "name": "Min Li"
-        },
-        {
-          "key": "chunfu xu",
-          "name": "Chunfu Xu"
         },
         {
           "key": "gong haipeng",
           "name": "Haipeng Gong"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "The de novo design of protein structures is an intriguing research topic in the field of protein engineering. Recent breakthroughs in diffusion-based generative models have demonstrated substantial promise in tackling this task, notably in the generation of diverse and realistic protein structures. While existing models predominantly focus on unconditional generation or fine-grained conditioning at the residue level, the holistic, top-down approaches to control the overall topological arrangements are still insufficiently explored. In response, we introduce TopoDiff, a diffusion-based framework augmented by a global-structure encoding module, which is capable of unsupervisedly learning a compact latent representation of natural protein topologies with interpretable characteristics and simultaneously harnessing this learned information for controllable protein structure generation. We also propose a novel metric specifically designed to assess the coverage of sampled proteins with respect to the natural protein space. In comparative analyses with existing models, our generative model not only demonstrates comparable performance on established metrics but also exhibits better coverage across the recognized topology landscape. In summary, TopoDiff emerges as a novel solution towards enhancing the controllability and comprehensiveness of de novo protein structure generation, presenting new possibilities for innovative applications in protein engineering and beyond.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

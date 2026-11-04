@@ -2867,10 +2867,10 @@
       "title": "BC-Design: A Biochemistry-Aware Framework for Inverse Protein Design",
       "link": "https://doi.org/10.1101/2024.10.28.620755",
       "pdf_url": null,
-      "publication_date": "2024-10-28",
+      "publication_date": "2024-11-03",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2024.10.28.620755",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "tang xiangru",
@@ -2913,7 +2913,7 @@
           "name": "Mark Gerstein"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Inverse protein design (IPD) extends the classical problem of inverse protein folding (IPF) by not only recovering a sequence compatible with a given backbone geometry but also generating a range of new sequences that satisfy the physicochemical constraints required for a stable fold with a specified (often designed) function. Recent progress has incorporated biochemical properties as discrete per-residue features, but such localized signals cannot represent the continuous hydrophobic and electrostatic environments that span protein surfaces and interior volumes. Here we introduce BC-D esign , a biochemistry-aware inverse design framework that integrates geometric structure with smoothly varying hydrophobicity and charge properties. The later are represented independent of residue coordinates, on compact point clouds sampled throughout protein surfaces and interiors. This formulation provides a natural spatial description of physicochemical environments and enriches structural cues without specifying amino-acid identities. On the CATH 4.2 benchmark, BC-D esign achieves 90% sequence recovery and generalizes robustly across protein lengths, contact-order regimes, and major fold classes. Masking experiments further demonstrate an interpretable fidelity–diversity control: full biochemical context yields high-fidelity reconstructions, whereas withholding information enables exploratory variant generation. Beyond diagnostic benchmarks, BC-D esign demonstrably improves functional design outcomes across diverse settings. It increases enzyme–substrate affinity, enhances peptide–receptor design accuracy, and achieves state-of-the-art recovery and structural fidelity in antibody loop (CDRH3) modeling. In these applications, the model not only reconstructs native-like sequences but also proposes plausible functional variants that preserve catalytic or binding geometry—such as generating CDRH3 loops that maintain antigen-contact configurations while offering new sequence solutions. These results show that integrating continuous physicochemical properties with structural geometry enables practical, function-oriented protein design, going beyond backbone-conditioned recovery.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -4033,16 +4033,18 @@
     {
       "id": "e8e049f30076faa3a9084bbc49774b81864bda603ddf4a8399b46cd6ad68df9f",
       "identity_keys": [
+        "https://doi.org/10.1038/s42256-023-00787-2",
         "https://doi.org/10.1101/2023.03.04.531110",
-        "https://openalex.org/W4323350175"
+        "https://openalex.org/W4323350175",
+        "https://openalex.org/W4391175562"
       ],
-      "title": "ProteinVAE: Variational AutoEncoder for Translational Protein Design",
-      "link": "https://doi.org/10.1101/2023.03.04.531110",
+      "title": "Variational autoencoder for design of synthetic viral vector serotypes",
+      "link": "https://doi.org/10.1038/s42256-023-00787-2",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/05/2023.03.04.531110.full.pdf",
-      "publication_date": "2023-03-05",
+      "publication_date": "2024-01-23",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Machine Intelligence",
       "authors": [
         {
           "key": "lyu suyue",
@@ -4057,7 +4059,7 @@
           "name": "Michael Garton"
         }
       ],
-      "abstract_text": "Abstract There have recently been rapid advances in deep learning models for protein design. To demonstrate proof-of-concept, these advancements have focused on small proteins with lots of data for training. This means that they are often not suitable for generating proteins with the most potential for high clinical impact –due to the additional challenges of sparse data and large size many therapeutically relevant proteins have. One major application that fits this category is gene therapy delivery. Viral vectors such as Adenoviruses and AAVs are a common delivery vehicle for gene therapy. However, environmental exposure means that most people exhibit potent pre-existing immune responses to many serotypes. This response, primarily driven by neutralizing antibodies, also precludes repeated administration with the same serotype. Rare serotypes, serotypes targeting other species, and capsid engineering, have all been deployed in the service of reducing neutralization by pre-existing antibodies. However, progress has been very limited using conventional methods and a new approach is urgently needed. To address this, we developed a variational autoencoder that can generate synthetic viral vector serotypes without epitopes for pre-existing neutralizing antibodies. A compact generative computational model was constructed, with only 12.4 million parameters that could be efficiently trained on the limited natural sequences (e.g., 711 natural Adenovirus hexon sequences with average length of 938 amino acids). In contrast to the current state-of-the-art, the model was able to generate high-quality Adenovirus hexon sequences that were folded with high confidence by Alphafold2 to produce structures essentially identical to natural hexon structures. Molecular dynamics simulations confirmed that the structures are stable and protein–protein interfaces are intact. Local secondary structure and local mobility is also comparable with natural serotype behavior. Our model could be used to generate a broad range of synthetic adenovirus serotype sequences without epitopes for pre-existing neutralizing antibodies in the human population. It could be used more broadly to generate different types of viral vector, and any large, therapeutically valuable proteins, where available data is sparse.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

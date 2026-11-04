@@ -2544,16 +2544,19 @@
       "id": "95848c18ec7c4a4088df7fa5909647d5ef7bd377dd93d0ca7afd2ca6cf3945ea",
       "identity_keys": [
         "doi:10.1101/2023.08.07.552204",
+        "https://doi.org/10.1038/s42256-024-00838-2",
         "https://doi.org/10.1101/2023.08.07.552204",
-        "https://openalex.org/W4385618289"
+        "https://doi.org/10.21203/rs.3.rs-3251939/v1",
+        "https://openalex.org/W4385618289",
+        "https://openalex.org/W4398243369"
       ],
-      "title": "Highly accurate and robust protein sequence design with CarbonDesign",
-      "link": "https://doi.org/10.1101/2023.08.07.552204",
-      "pdf_url": null,
-      "publication_date": "2023-08-07",
+      "title": "Accurate and robust protein sequence design with CarbonDesign",
+      "link": "https://doi.org/10.1038/s42256-024-00838-2",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/07/2023.08.07.552204.full.pdf",
+      "publication_date": "2024-05-23",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2023.08.07.552204",
+      "venue": "Nature Machine Intelligence",
       "authors": [
         {
           "key": "milong ren",
@@ -2572,7 +2575,7 @@
           "name": "Haicang Zhang"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Protein sequence design, the inverse problem of protein structure prediction, plays a crucial role in protein engineering. Although recent deep learning-based methods have shown promising advancements, achieving accurate and robust protein sequence design remains an ongoing challenge. Here, we present CarbonDesign, a new approach that draws inspiration from successful ingredients of AlphaFold for protein structure prediction and makes significant and novel developments tailored specifically for protein sequence design. At its core, CarbonDesign explores Inverseformer, a novel network architecture adapted from AlphaFold's Evoformer, to learn representations from backbone structures and an amortized Markov Random Fields model for sequence decoding. Moreover, we incorporate other essential AlphaFold concepts into CarbonDesign: an end-to-end network recycling technique to leverage evolutionary constraints in protein language models and a multi-task learning technique to generate side chain structures corresponding to the designed sequences. Through rigorous evaluations of independent testing data sets, including the CAMEO and recent CASP15 data sets, as well as the predicted structures from AlphaFold, we show that CarbonDesign outperforms other published methods, achieving high accuracy in sequence generation. Moreover, it exhibits superior performance on de novo backbone structures obtained from recent diffusion generative models such as RFdiffusion and FrameDiff, highlighting its potential for enhancing de novo protein design. Notably, CarbonDesign also supports zero-shot prediction of the functional effects of sequence variants, indicating its potential application in directed evolution-based design. In summary, our results illustrate CarbonDesign's accurate and robust performance in protein sequence design, making it a promising tool for applications in bioengineering.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

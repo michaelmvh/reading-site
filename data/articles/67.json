@@ -5629,15 +5629,16 @@
       "identity_keys": [
         "https://doi.org/10.1038/s41594-026-01869-6",
         "https://doi.org/10.64898/2026.04.02.716066",
-        "https://openalex.org/W7150821273"
+        "https://openalex.org/W7150821273",
+        "https://openalex.org/W7204527063"
       ],
-      "title": "A Rapid and Universal Pipeline for High-Resolution GPCR Structure Determination through In Silico Construct Optimization and de novo Protein Design",
-      "link": "https://doi.org/10.64898/2026.04.02.716066",
+      "title": "Universal pipeline for high-resolution GPCR structure determination",
+      "link": "https://doi.org/10.1038/s41594-026-01869-6",
       "pdf_url": null,
-      "publication_date": "2026-04-06",
+      "publication_date": "2026-08-28",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Structural & Molecular Biology",
       "authors": [
         {
           "key": "asato kojima",
@@ -5668,6 +5669,14 @@
           "name": "Yuzhong Gu"
         },
         {
+          "key": "narita tomohiro",
+          "name": "Tomohiro J. Narita"
+        },
+        {
+          "key": "kugawa mai",
+          "name": "Mai Kugawa"
+        },
+        {
           "key": "fukuda masahiro",
           "name": "Masahiro Fukuda"
         },
@@ -5676,7 +5685,7 @@
           "name": "Hideaki E. KATO"
         }
       ],
-      "abstract_text": "Abstract G protein-coupled receptors (GPCRs) are critical regulators of human physiology and major drug targets. Although structural studies have provided valuable insights, determining GPCR structures remains challenging, especially for inactive state receptors. Recent advances in cryo-electron microscopy (cryo-EM) have enabled structural determination of small GPCRs by using fusion partner proteins and binders to increase molecular weight. However, current methods require extensive experimental screening of fusion constructs. Widely adopted strategies, such as BRIL-Fab complexes, also face limitations due to inherent flexibility. Here, we introduce a streamlined and universal pipeline that integrates an in silico fusion construct screening program, NOAH (NOAH: NOn-experimental, AI-assisted High-throughput construct screening), with a de novo designed fusion protein called ARK1 (ARtificially-designed fiducial marKer). We validate the efficacy of NOAH by determining the structures of the vasopressin V2 receptor (V2R) bound to the clinical antagonist tolvaptan and the partial agonist OPC51803, as well as the bradykinin B2 receptor (B2R) bound to the clinical antagonist icatibant, thereby elucidating their activation and deactivation mechanisms. Furthermore, we demonstrate the capability of NOAH-ARK1 by solving the tolvaptan-bound V2R structure at higher resolution and showcase the method’s versatility by determining the structure of lysophosphatidic acid receptor 2 (LPA2) bound to the antagonist Ki16425. This approach eliminates the need for time-consuming and labor-intensive construct optimization, providing a rapid and widely applicable solution for high-resolution GPCR structure determination and drug discovery.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6234,28 +6243,32 @@
         "https://doi.org/10.48550/arxiv.2411.18568",
         "https://openalex.org/W4404993446"
       ],
-      "title": "Building Confidence in Deep Generative Protein Design",
-      "link": "https://arxiv.org/abs/2411.18568",
-      "pdf_url": null,
-      "publication_date": "2024-11-01",
+      "title": "Challenges and Guidelines in Deep Generative Protein Design: Four Case Studies",
+      "link": "https://doi.org/10.48550/arxiv.2411.18568",
+      "pdf_url": "https://arxiv.org/pdf/2411.18568",
+      "publication_date": "2024-11-27",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2411.18568",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "tianyuan zheng",
-          "name": "Tianyuan Zheng"
+          "name": "Zheng, Tianyuan"
         },
         {
           "key": "alessandro rondina",
           "name": "Alessandro Rondina"
         },
         {
+          "key": "gos micklem",
+          "name": "Micklem, Gos"
+        },
+        {
           "key": "liò pietro",
-          "name": "Pietro Liò"
+          "name": "Liò, Pietro"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Deep generative models show promise for $\\textit{de novo}$ protein design, yet reliably producing designs that are geometrically plausible, evolutionarily consistent, functionally relevant, and dynamically stable remains challenging. We present a deep generative modeling pipeline for early $\\textit{de novo}$ design of monomeric proteins, based on Score Matching and Flow Matching. We apply this pipeline to four diverse protein families with an adaptable evaluation protocol. Generated structures display realistic, clash-free conformations enriched with family-specific features, while the designed sequences preserve essential functional residues while retaining variability. Molecular dynamics and binding simulations show dynamic stability, with wild-type-like binding pockets that interact favorably with family-specific ligands. These results provide practical guidelines for integrating generative models into protein design workflows.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

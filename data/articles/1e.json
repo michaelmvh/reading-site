@@ -1403,15 +1403,16 @@
       "identity_keys": [
         "https://doi.org/10.1002/advs.202500859",
         "https://doi.org/10.1101/2024.01.31.577620",
-        "https://openalex.org/W4391445506"
+        "https://openalex.org/W4391445506",
+        "https://openalex.org/W4408497919"
       ],
-      "title": "Replicating enzymatic activity by positioning active sites with synthetic protein scaffolds",
-      "link": "https://doi.org/10.1101/2024.01.31.577620",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/31/2024.01.31.577620.full.pdf",
-      "publication_date": "2024-01-31",
+      "title": "Replicating PET Hydrolytic Activity by Positioning Active Sites with Smaller Synthetic Protein Scaffolds",
+      "link": "https://doi.org/10.1002/advs.202500859",
+      "pdf_url": null,
+      "publication_date": "2025-03-16",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Advanced Science",
       "authors": [
         {
           "key": "ding yujing",
@@ -1422,12 +1423,12 @@
           "name": "Shanshan Zhang"
         },
         {
-          "key": "henry hess",
-          "name": "Henry Hess"
-        },
-        {
           "key": "kong xian",
           "name": "Xian Kong"
+        },
+        {
+          "key": "henry hess",
+          "name": "Henry Hess"
         },
         {
           "key": "yifei zhang",
@@ -2754,10 +2755,10 @@
       "title": "Conditional Sequence-Structure Integration: A Novel Approach for Precision Antibody Engineering and Affinity Optimization",
       "link": "https://doi.org/10.1101/2024.07.16.603820",
       "pdf_url": null,
-      "publication_date": "2024-07-16",
+      "publication_date": "2024-07-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2024.07.16.603820",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "benyamin jamialahmadi",
@@ -2776,7 +2777,7 @@
           "name": "Ali Ghodsi"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Antibodies, or immunoglobulins, are integral to the immune response, playing a crucial role in recognizing and neutralizing external threats such as pathogens. However, the design of these molecules is complex due to the limited availability of paired structural antibody-antigen data and the intricacies of structurally non-deterministic regions. In this paper, we introduce a novel approach to designing antibodies by integrating structural and sequence information of antigens. Our approach employs a protein structural encoder to capture both sequence and conformational details of antigen. The encoded antigen information is then fed into an antibody language model (aLM) to generate antibody sequences. By adding cross-attention layers, aLM effectively incorporates the antigen information from the encoder. For optimal model training, we utilized the Causal Masked Language Modeling (CMLM) objective. Unlike other methods that require additional contextual information, such as epitope residues or a docked antibody framework, our model excels at predicting the antibody sequence without the need for any supplementary data. Our enhanced methodology demonstrates superior performance when compared to existing models in the RAbD benchmark for antibody design and SKEPMI for antibody optimization.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

@@ -4289,6 +4289,41 @@
       "curated_categories": []
     },
     {
+      "id": "f0a41a6fd318f4bc6cb508e324024e5e574ac8c429a6d13d69411cba7e28a577",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.01.763455v1",
+        "https://doi.org/10.64898/2026.11.01.763455",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.01.763455.source.xml"
+      ],
+      "title": "SQANTI-evidence: isoform-resolved, evidence-tiered structural annotation of unannotated genomes from long-read RNA-seq",
+      "link": "https://doi.org/10.64898/2026.11.01.763455",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763455v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "atienza lopez",
+          "name": "Atienza Lopez, P"
+        },
+        {
+          "key": "conesa",
+          "name": "Conesa, A"
+        }
+      ],
+      "abstract_text": "Long-read RNA sequencing captures full-length transcripts, yet current annotation pipelines fail to properly curate the data for gene prediction. We present SQANTI-evidence, a workflow that annotates a genome from long reads alone, without a reference annotation or protein database. SQANTI3-curated transcripts enter the annotation as observed, with isoforms and untranslated regions; AUGUSTUS predicts genes at loci without read support. In benchmarks, the curated layer was the most precise gene set in five of seven species, recovered twice as many exact isoforms as BRAKER in mammals and placed 3' ends nearest the poly(A) site. We annotated 13 ERGA datasets.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f0a4eb78932e990c806256323984b0c13dd34962d7e4c83420b3c2fd7fe5af7c",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10709-y",
@@ -5124,13 +5159,13 @@
         "https://doi.org/10.1101/2023.02.28.530492",
         "https://openalex.org/W4323038312"
       ],
-      "title": "Evaluating Prompt Tuning for Conditional Protein Sequence Generation",
+      "title": "Evaluating Tuning Strategies for Sequence Generation with Protein Language Models",
       "link": "https://doi.org/10.1101/2023.02.28.530492",
-      "pdf_url": null,
-      "publication_date": "2023-02-28",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/03/2023.02.28.530492.full.pdf",
+      "publication_date": "2023-03-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2023.02.28.530492",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "andrea nathansen",
@@ -5153,7 +5188,7 @@
           "name": "Jakub M. Bartoszewicz"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Designing artificial proteins with specialized functions promises new solutions for biological, medical, and environmental use cases. This field benefits from advances in natural language processing, with state-of-the-art text generation models already being successfully applied to protein sequences. Openly available pre-trained protein language models are able to generate artificial protein sequences and can be finetuned on very specific tasks. Considering the high computational cost of finetuning a model exclusively for one downstream task, prompt tuning has been proposed as a more cost-efficient alternative that shares one model across different tasks. However, no openly available implementation of this approach compatible with protein language models has been previously published. Thus, we adapt an open-source codebase designed for NLP models to build a pipeline for prompt tuning on protein sequence data, supporting the protein language models ProtGPT2 and RITA. We benchmark this implementation for generating proteins of a specific family and evaluate the approach using text processing metrics as well as family membership prediction and protein activity prediction of generated sequences. Our results confirm the advantages of prompt tuning in resource usage, especially storage, encouraging further research and expansion of this technique to related use cases. For our evaluated use case, prompt tuning does not reach up to finetuning in terms of the quality of generated protein sequences, indicating the need for more extensive optimization. Lastly, we observe discrepancies between results of similar evaluation tools, highlighting open problems for principled assessment of protein sequence generation quality.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
