@@ -2696,6 +2696,45 @@
       "curated_categories": []
     },
     {
+      "id": "6f72b9004cb1f8fc6afd5bf33e156402e7b95d0f614e236c4ec9772c9f3ce701",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.763332v1",
+        "https://doi.org/10.64898/2026.11.03.763332",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763332.source.xml"
+      ],
+      "title": "HiFiTaxa: a reproducible analysis pipeline for full length 16S rRNA gene and ITS amplicon sequencing from PacBio reads",
+      "link": "https://doi.org/10.64898/2026.11.03.763332",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763332v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "garritano",
+          "name": "N. Garritano, A"
+        },
+        {
+          "key": "modolon",
+          "name": "Modolon, F"
+        },
+        {
+          "key": "warren",
+          "name": "Warren, C. R"
+        }
+      ],
+      "abstract_text": "Long-read amplicon sequencing profiles communities at high resolution, but taxonomic accuracy depends on the reference, classifier and the parameters used. Here, we present HiFiTaxa, a reproducible, single command Nextflow pipeline for PacBio HiFi 16S rRNA gene and fungal ITS amplicons. It builds versioned references from current GTDB and UNITE releases and supports Bayesian lowest common ancestor (BLCA) and naive Bayes (NB) classifiers and the read level profilers Emu (16S rRNA gene) and EMITS (ITS). We benchmarked them on mock communities and on holdouts with 10% of GTDB or UNITE databases sequences withheld. On the 16S rRNA gene mock of 20 species, BLCA detected all 20 species and reported two false positives, NB detected 17 and reported none, and Emu detected all 20 and reported eight. In the GTDB holdout, for taxa represented in the reference, BLCA reached 80.0% species level accuracy against 48.1% for the exact matching species step of NB. However, NB produced fewer incorrect assignments for taxa absent from the reference. On fungal ITS, BLCA had slightly higher holdout accuracy at species level(54.7%) against 52.2% for NB. NB was more conservative for novel taxa, and EMITS detected the most mock species. HiFiTaxa therefore offers a single reproducible workflow that uses current GTDB and UNITE releases and enables users to choose between different classifier algorithms depending on their needs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6f742bbe8dd1eb3af1b2900755708f32452b32e40a7b34d8a932828eb37beba2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01828-7",

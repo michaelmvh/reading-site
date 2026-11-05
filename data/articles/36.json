@@ -534,6 +534,65 @@
       "curated_categories": []
     },
     {
+      "id": "36118ec56f071e77164dd035735009df6eeb9e554bf4983fee52688291073b81",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.03.764120v1",
+        "https://doi.org/10.64898/2026.11.03.764120",
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.764120.source.xml"
+      ],
+      "title": "brisc: a multithreaded CPU toolkit for single-cell analysis",
+      "link": "https://doi.org/10.64898/2026.11.03.764120",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764120v1.full.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "arbabi",
+          "name": "Arbabi, K"
+        },
+        {
+          "key": "luquez",
+          "name": "Luquez, T"
+        },
+        {
+          "key": "jeeson",
+          "name": "Jeeson, J"
+        },
+        {
+          "key": "lam",
+          "name": "Lam, M"
+        },
+        {
+          "key": "heydari",
+          "name": "Heydari, H"
+        },
+        {
+          "key": "bader",
+          "name": "Bader, G. D"
+        },
+        {
+          "key": "menon",
+          "name": "Menon, V"
+        },
+        {
+          "key": "wainberg",
+          "name": "Wainberg, M"
+        }
+      ],
+      "abstract_text": "Single-cell RNA sequencing datasets have grown from tens of thousands of cells to tens of millions. At this scale, standard toolkits like Scanpy and Seurat need hours per analysis, hindering iterative exploration. We present brisc, the first end-to-end multithreaded CPU toolkit for single-cell analysis, spanning dimensionality reduction, integration, label transfer, clustering, embedding, differential expression and plotting. Unlike GPU-based counterparts, brisc strictly guarantees reproducibility: identical results between runs, regardless of thread count. Algorithmic innovations include a blocked inverted-file-index-based nearest-neighbors algorithm that makes 81-98% fewer errors than Scanpy and Seurat. On a 192-CPU node, brisc ran a standard workflow on 10 million cells in 3 minutes, 116x faster than Scanpy at under half its peak memory usage and 236x faster than Seurat with BPCells. On 96 CPUs, it matched the speed of rapids-singlecell on four H100 GPUs. brisc enables near-real-time, reproducible analysis of tens of millions of cells without specialized hardware.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "361347735770e53ee56d88766077cdce6ee5ad9ebbe24e9065248d63094e8fdd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69296-1",
