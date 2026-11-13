@@ -5807,6 +5807,41 @@
       "curated_categories": []
     },
     {
+      "id": "e4e026075693e41f7ef9d4063ee4e3470632fa299a3f61ec9fbfaf53f5304015",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766280v1",
+        "https://doi.org/10.64898/2026.11.12.766280",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.11.12.766280.source.xml"
+      ],
+      "title": "Batch Correction via Cross-Modal Anchoring",
+      "link": "https://doi.org/10.64898/2026.11.12.766280",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766280v1.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "jaoui",
+          "name": "Jaoui, W"
+        },
+        {
+          "key": "lehmann",
+          "name": "Lehmann, K.-V"
+        }
+      ],
+      "abstract_text": "Batch correction is essential for integrating molecular cohorts, yet unimodal correction cannot reliably separate batch effects from biology without explicit covariates. Here we introduce anchor-guided batch correction, a label-free method that uses a comparatively stable paired omic layer to protect biology while correcting a batch-affected assay, requiring no predefined clinical covariates and returning full feature-level profiles. Across seven standard cohorts from The Cancer Genome Atlas, controlled confounding benchmarks, role-reversed transcriptomic workflows, and simulations, our method removed almost all platform variance in the standard cohorts, outperforming ComBat in biological preservation and CpG recovery under confounding. In the imbalanced breast cancer benchmark, where ComBat collapsed subtype retrieval (AUC 0.37) and attenuated differential methylation recovery (73.2%), anchorguided correction preserved subtype structure (AUC 0.72) and recovered 82.8% of reference CpG signals. Running in three seconds on 1,091 tumours on a single CPU without external training data, cross-modal anchoring offers a fast, practical solution for paired multi-omic harmonization.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e4e0a827dd8d0b3b9e04c333c83f7d4215838ff78dab006f439d85a1f1a483f0",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64955-1",

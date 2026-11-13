@@ -1520,6 +1520,57 @@
       "curated_categories": []
     },
     {
+      "id": "e645f8539e003fa58dd390f2734e0650ee6d047febfde2a147edd87b89bf7b31",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766253v1",
+        "https://doi.org/10.64898/2026.11.12.766253",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.11.12.766253.source.xml"
+      ],
+      "title": "Regional Signals Matter: Rethinking Global Pooling for mRNA Foundation Models",
+      "link": "https://doi.org/10.64898/2026.11.12.766253",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766253v1.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "na",
+          "name": "Na, S"
+        },
+        {
+          "key": "qi",
+          "name": "Qi, Z"
+        },
+        {
+          "key": "goyal",
+          "name": "Goyal, D"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, J"
+        },
+        {
+          "key": "yeo",
+          "name": "Yeo, G. W"
+        },
+        {
+          "key": "jin",
+          "name": "JIN, W"
+        }
+      ],
+      "abstract_text": "RNA foundation models with diverse architectures have shown promise for learning representations of messenger RNA (mRNA) sequences. However, existing benchmarks commonly reduce token-level embeddings to transcript-level representations through global mean pooling before fitting a downstream probe. This aggregation does not explicitly preserve the identities of biologically distinct mRNA regions. Consequently, signals associated with short regulatory regions may be diluted, confounding assessments of representation quality with the information preserved by the readout. We introduce an architecture-agnostic, region-aware readout that separately averages embeddings within the 5$'$ untranslated region (UTR), coding sequence, and 3$'$ UTR and concatenates the resulting representations for linear probing. We reproduce mRNABench evaluations for 20 frozen models from 18 families, with a median absolute score difference of 0.0009 across 380 model--dataset--target evaluations published for 19 models, and construct a region-aware benchmark using the same models, tasks, and splits. Relative to global mean pooling, region-aware pooling increases Pearson correlation, averaged across the 20 models, by 11--25\\% on translation and stability tasks, with no statistically significant decreases detected for any model on the regression tasks. On classification tasks, relative changes in the area under the precision--recall curve range from $-3\\%$ to $+11\\%$. Boundary randomization and displacement generally reduce performance, while dimensionality-matched and sequence-composition controls indicate that the gains are not explained solely by increased feature dimensionality, region length, or guanine--cytosine (GC) content. Learned attention pooling approaches region-aware performance only when supplied with one query per region. In silico perturbations reveal stronger sensitivity to upstream AUGs (uAUGs) and their Kozak context, while analyses of endogenous transcripts show approximately threefold greater recovery of length- and GC-adjusted uAUG-associated differences than global-mean probes. Both readouts capture codon optimality. Model rankings averaged over the regression tasks remain largely stable, while within a task models move by several places. Our region-aware benchmark therefore provides a biologically structured and complementary evaluation of mRNA foundation models, revealing regulatory information that is less accessible to linear probes after global mean pooling. The code is available at \\url{https://github.com/Sanford-Labs/rnaregionpooling",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e6487d9ddf4c3de6899b06bbbd3e2959878a85335432e5a788427280afdef2bd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65707-x",
