@@ -3063,6 +3063,49 @@
       ]
     },
     {
+      "id": "5c89a120244f8d7697d3d49449196815c6b55cb722d879af1908043ce419c56e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766281v1",
+        "https://doi.org/10.64898/2026.11.12.766281",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.11.12.766281.source.xml"
+      ],
+      "title": "A statistical framework for identifying candidate genetic interactions from adaptive laboratory evolution data",
+      "link": "https://doi.org/10.64898/2026.11.12.766281",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766281v1.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sun",
+          "name": "Sun, B"
+        },
+        {
+          "key": "feist",
+          "name": "Feist, A"
+        },
+        {
+          "key": "phaneuf",
+          "name": "Phaneuf, P. V"
+        },
+        {
+          "key": "santos",
+          "name": "Santos, A"
+        }
+      ],
+      "abstract_text": "Background Adaptive laboratory evolution (ALE) is widely used to improve microbial fitness under defined selective pressures. Mutations accumulated during ALE may interact epistatically, with the effect of one mutation depending on another. Understanding these interactions can help explain adaptive phenotypes and inform combinatorial strain engineering, but experimentally testing all mutation combinations is impractical. We developed a computational framework that uses gene-pair co-occurrence and mutual exclusivity patterns to identify candidates for experimental investigation of epistasis. Results We applied the framework to a curated compendium of 141 Escherichia coli ALE experiments from ALEdb, using the Fisher exact test and DISCOVER as complementary statistical screens. Testing and multiple-testing correction were performed separately within each experiment, method, and direction (co-occurrence and mutual exclusivity). At a 5% false discovery rate threshold, the Fisher exact test identified 74 significant gene pairs, comprising 36 co-occurrences and 38 mutual exclusivities. DISCOVER identified 5 significant pairs, all for mutual exclusivity and also significant under the Fisher exact test. These shared pairs suggested alternative adaptive routes involving temperature tolerance, glycerol utilization, and associations between RNA polymerase subunit genes. The two methods produced similar expected overlaps for Fisher-significant pairs, but the broader null distributions of DISCOVER yielded larger raw p-values. Of the 69 pairs significant only under the Fisher exact test, 60 arose in experiments with multiple strain labels or involved a gene with only one distinct mutation recorded across all affected endpoints (final samples from lineages evolved in parallel), highlighting the need to examine genetic backgrounds and mutation origins when interpreting the results. Power analysis indicated that the Fisher exact test required 70 independent endpoints for co-occurrence and 215 for mutual exclusivity to achieve 80% power under pre-specified scenarios. We implemented the framework as a reusable Nextflow pipeline that automates statistical screening of ALEdb and user-supplied mutation datasets. Conclusions By combining gene-pair screening with mutation-level interpretation, this reproducible framework narrows the search space for experimental investigation of epistasis and can contribute to combinatorial strain design. The power analysis provides sample-size benchmarks for planning future ALE experiments with adequate power to screen for candidate genetic interactions.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5c8abd0df0fa51cc1c308950ee1abddfa6f74f824d6ce4ebed6452a5e0b8535f",
       "identity_keys": [
         "https://doi.org/10.1016/j.csbj.2022.11.014",
