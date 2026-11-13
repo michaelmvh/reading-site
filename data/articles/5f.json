@@ -940,6 +940,72 @@
       "curated_categories": []
     },
     {
+      "id": "5f329384a79eec0770cdfc1592593ca80423f1db130f1c47b1fa4dc0d4c4f1da",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.11.08.765184",
+        "https://openalex.org/W7225812482"
+      ],
+      "title": "De novo design of ligases for programmable site-specific protein ubiquitylation",
+      "link": "https://doi.org/10.64898/2026.11.08.765184",
+      "pdf_url": null,
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "salike saman",
+          "name": "Saman Salike"
+        },
+        {
+          "key": "gantz maximilian",
+          "name": "Maximilian Gantz"
+        },
+        {
+          "key": "fottner maximilian",
+          "name": "Maximilian Fottner"
+        },
+        {
+          "key": "flügel timo",
+          "name": "Timo Flügel"
+        },
+        {
+          "key": "moroz stanislav",
+          "name": "Stanislav S. Moroz"
+        },
+        {
+          "key": "andrew hunt",
+          "name": "Andrew C. Hunt"
+        },
+        {
+          "key": "groll",
+          "name": "M. Groll"
+        },
+        {
+          "key": "donald hilvert",
+          "name": "Donald Hilvert"
+        },
+        {
+          "key": "kathrin lang",
+          "name": "Kathrin Lang"
+        },
+        {
+          "key": "baker david",
+          "name": "David A. Baker"
+        }
+      ],
+      "abstract_text": "Protein ubiquitylation regulates numerous cellular processes, but difficulties in generating site-specifically ubiquitylated proteins limit our understanding of individual modification events. In cells, ubiquitylation is mediated by an E1-E2-E3 enzyme cascade, with substrate recognition largely determined by more than 600 human E3 ligases, making it challenging to redirect ubiquitin transfer to a chosen lysine. Here we use RFdiffusion3 to design ubiquitin ligases from scratch that use a cysteine-based catalytic triad to conjugate an activated ubiquitin donor to a selected lysine in a chosen target substrate. Of 48 tested designs, 35 ubiquitylated a model peptide, with the most active ligases achieving near-quantitative ubiquitin transfer. We next challenged the approach with the homotrimeric sliding clamp proliferating cell nuclear antigen (PCNA), whose ubiquitylation at lysine (K) 164 governs DNA damage tolerance while displaying 45 off-target lysines for ubiquitination. Screening of 48 designs delivered a site-selective ligase. Incorporation of a single activity-increasing substitution and coupling to E1-dependent donor activation resulted in 90% conversion from unactivated ubiquitin, delivering higher rates and superior selectivity compared to a natural promiscuous E2. Using this cascade, we transferred di-, tri- and tetraubiquitin chains of defined length to PCNA K164 through a native isopeptide bond. These results establish de novo enzyme design as a route towards programmable, site-specific protein ubiquitylation. That a single de novo designed protein can bind both an activated ubiquitin donor and a globular target, and use a proficient catalytic machinery to selectively transfer ubiquitin to one lysine among 45, illustrates the level of functional complexity now within reach of de novo enzyme design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5f39a7a59f89a3b119f75b4f4fde83033644c1e54bcf4b0d2b0bb6ba49983b3c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76919-0",
@@ -2276,6 +2342,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5f74357f685a5c06e77ce6568f505d7e5a4cce410e99658cf47205bef344e9fa",
+      "identity_keys": [
+        "arxiv:2611.12000",
+        "https://doi.org/10.48550/arXiv.2611.12000"
+      ],
+      "title": "HyPLM Technical Report",
+      "link": "https://doi.org/10.48550/arXiv.2611.12000",
+      "pdf_url": "https://arxiv.org/pdf/2611.12000v1",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "haowei lin",
+          "name": "Haowei Lin"
+        },
+        {
+          "key": "cai zhou",
+          "name": "Cai Zhou"
+        },
+        {
+          "key": "xiangxin zhou",
+          "name": "Xiangxin Zhou"
+        }
+      ],
+      "abstract_text": "Protein language models (PLMs) are standard tools for variant-effect prediction, protein annotation and design, but the compute needed to train and serve them keeps growing. We present HyPLM-Flash, an efficient and open PLM trained by Hyra 2.0, the research agent developed by our team. HyPLM-Flash is a 650-million-parameter masked language model trained on 726 billion tokens, 0.73 times the data of ESM-2 650M and a fifth to an eighth of the data of E1-600M and ESM C 600M. It runs on an inference engine with fused kernels and INT8 matrix multiplication, embedding about 130,000 residues per second on a single NVIDIA H20 GPU, 1.9 to 2.7 times faster than other 600M-class encoders. In a matched evaluation against 28 public checkpoints on 32 tasks, HyPLM-Flash reaches a ProteinGym zero-shot Spearman correlation of 0.409, statistically tied with ESM-2 650M, ESM C 600M and E1-600M, and the highest organismal-fitness score among self-supervised single-sequence models. It gives the best long-range contact precision of all models evaluated, including ESM-2 15B and ESM C 6B, and a lower masked-residue loss than ESM-2 650M, ESM C 600M and E1-600M on held-out sequences and on recently released PDB chains. Matching state-of-the-art accuracy at a fraction of the training and inference cost, HyPLM-Flash sets a new Pareto frontier for protein language models. We have released the model weights and the inference engine at https://github.com/Tencent-Hunyuan/hyra-results/tree/main.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

@@ -318,10 +318,10 @@
         "https://doi.org/10.64898/2026.08.20.745793",
         "https://openalex.org/W7203901051"
       ],
-      "title": "Motif Grafting and Diffusion-Based Diversification for the Computational Design of BMP-2 Binders",
+      "title": "Motif grafting and diffusion-based diversification for the computational design of BMP-2 binders",
       "link": "https://doi.org/10.1016/j.premed.2026.100070",
-      "pdf_url": null,
-      "publication_date": "2026-11-01",
+      "pdf_url": "https://www.jprecisionmedicine.org/article/S3050-6328(26)00043-0/pdf",
+      "publication_date": "2026-11-03",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "The Journal of Precision Medicine Health and Disease",
@@ -363,7 +363,7 @@
           "name": "Parisa Hosseinzadeh"
         }
       ],
-      "abstract_text": "Abstract Nonunion fractures remain a costly and persistent challenge in regenerative medicine, with current treatments limited by donor-site morbidity, restricted graft availability, and severe adverse effects associated with supraphysiological bone morphogenetic protein 2 (BMP-2) delivery, including ectopic ossification and inflammation. Endogenous BMP-2 signaling is tightly regulated in adult tissues, constraining the precision and scalability of approaches based on transcriptional upregulation or bolus growth factor administration. To address these limitations, we developed a two-phase integrated computational–experimental pipeline for the de novo design of protein binders targeting the BMP-2 knuckle epitope, a receptor-binding surface corresponding to BMPR-II engagement, enabling affinity-tuned modulation of BMP-2 activity rather than uncontrolled pathway activation. Phase I employed PyRosetta-based β-strand motif grafting and physics-based docking protocols to generate 264 candidate binders, followed by deep-learning-driven refinement in Phase II using partial RFDiffusion and ProteinMPNN with AlphaFold2 validation, yielding 22 candidates with stable β-sheet architectures consistent with knuckle-epitope targeting. Experimental validation demonstrated dose-dependent BMP-2 binding, with the lead construct exhibiting an apparent equilibrium dissociation constant of 2.07 nM toward BMP-2. Targeted alanine substitutions revealed differential residue contributions, with mutation of T42 significantly disrupting binding, while other substitutions had more modest effects, indicating a partially hotspot-driven interface supported by other interactions.",
+      "abstract_text": "Nonunion fractures remain a costly and persistent challenge in regenerative medicine, with current treatments limited by donor-site morbidity, restricted graft availability, and severe adverse effects associated with supraphysiological bone morphogenetic protein 2 (BMP-2) delivery, including ectopic ossification and inflammation. Endogenous BMP-2 signaling is tightly regulated in adult tissues, constraining the precision and scalability of approaches based on transcriptional upregulation or bolus growth factor administration. To address these limitations, we developed a two-phase integrated computational–experimental pipeline for the de novo design of protein binders targeting the BMP-2 knuckle epitope, a receptor-binding surface corresponding to BMPR-II engagement, enabling modulation of BMP-2 activity in a cell-based assay. Phase I employed PyRosetta-based β-strand motif grafting and physics-based docking protocols to generate 264 candidate binders, followed by deep-learning-driven refinement in Phase II using partial RFDiffusion and ProteinMPNN with AlphaFold2 validation, yielding 22 candidates with stable β-sheet architectures consistent with knuckle-epitope targeting. Experimental validation demonstrated dose-dependent BMP-2 binding, with the lead construct exhibiting an apparent affinity of 2.07 nM toward BMP-2. Targeted alanine substitutions revealed differential residue contributions, with mutation of T42 significantly disrupting binding, while other substitutions had more modest effects, indicating a partially hotspot-driven interface supported by other interactions.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3632,6 +3632,81 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0dab66fb0def54c363c5ffeb76272a22b2d37c87754f57b61b4946b7154252f6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764438v1",
+        "https://doi.org/10.64898/2026.11.04.764438",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764438.source.xml"
+      ],
+      "title": "Virtual dynamics of spatiotemporal single-cell interactions",
+      "link": "https://doi.org/10.64898/2026.11.04.764438",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764438v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, Z"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "tian",
+          "name": "Tian, Q"
+        },
+        {
+          "key": "hou",
+          "name": "Hou, H"
+        },
+        {
+          "key": "han",
+          "name": "Han, J"
+        },
+        {
+          "key": "shen",
+          "name": "Shen, J"
+        },
+        {
+          "key": "sun",
+          "name": "Sun, Y"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, X"
+        },
+        {
+          "key": "peng",
+          "name": "Peng, Q"
+        },
+        {
+          "key": "nie",
+          "name": "Nie, Q"
+        },
+        {
+          "key": "li",
+          "name": "Li, T"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, P"
+        }
+      ],
+      "abstract_text": "Building virtual cells and tissues requires reconstructing how interacting cell populations evolve in space and time, yet spatial omics experiments provide only sparse snapshots of this process. Here, we introduce CytoBridge, a computational method that reconstructs continuous virtual cell dynamics from discrete spatial transcriptomic data. Starting from a joint transcriptomic-spatial space, CytoBridge learns stochastic trajectories of cell states, positions, and population sizes through an unbalanced mean-field Schrodinger bridge formulation that explicitly incorporates cell-cell interaction as a dynamical driver. A time-varying interaction graph built from spatial proximity and ligand-receptor priors allows the velocity to be decomposed into an interaction component estimated from observed neighborhoods and ligand-receptor features, and an intrinsic-context component that captures intrinsic regulatory processes and unmeasured contextual influences. Applied to five datasets across three spatial transcriptomics platforms and spanning development, regeneration, and neurodegeneration, CytoBridge accurately generates tissue dynamics at unmeasured time points, follows ligand-receptor signaling through measured and unmeasured stages, and supports hypothesis-generating in silico perturbation. CytoBridge provides a general method for turning heterogeneous spatiotemporal transcriptomic measurements into continuously evolving virtual tissues.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

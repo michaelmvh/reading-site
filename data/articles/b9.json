@@ -1271,30 +1271,30 @@
       ],
       "title": "The Quagmire of Immunogenicity-Guided Antibody Design: Labels Limit Progress",
       "link": "https://doi.org/10.64898/2026.10.27.762175",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762175v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/01/2026.10.27.762175.full.pdf",
       "publication_date": "2026-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "morcillo villegas",
-          "name": "Villegas-Morcillo, A"
+          "key": "amelia morcillo villegas",
+          "name": "Amelia Villegas-Morcillo"
         },
         {
-          "key": "raman",
-          "name": "Raman, C"
+          "key": "chirag raman",
+          "name": "Chirag Raman"
         },
         {
-          "key": "weber",
-          "name": "Weber, J. M"
+          "key": "jana weber",
+          "name": "Jana M. Weber"
         },
         {
-          "key": "reinders",
-          "name": "Reinders, M. J. T"
+          "key": "marcel reinders",
+          "name": "Marcel J. T. Reinders"
         }
       ],
-      "abstract_text": "Generative sequence-based antibody design is increasingly steered by learned property predictors, so a design objective is only as well specified as the labels behind its oracle. Immunogenicity is among the most clinically consequential properties to condition on, and among the least well specified: the supervisory signal is a single anti-drug-antibody percentage (ADA%) per molecule, aggregated from published trials. To analyze that signal, we first extended and corrected the widely used 217-entry dataset to 231 therapeutics with paired sequences, spanning formats from mouse to fully human. Then, we manually reconstructed the clinical evidence for 110 of them from primary sources. We find that an antibody format lookup outperforms every sequence-based learned predictor on the 231-antibody dataset. Apparent accuracy tracks the format composition of the evaluation split rather than sequence signal. Furthermore, the labels understate their own evidence: molecules labeled at [&le;]6 ADA% span up to 86% across trials. We recomputed labels from the trial-level measurements and found that the advantage of the format-based approach disappears, while the sequence-based predictors degrade less under the cohort-weighted mean. We conclude that progress is limited by the label itself, and recommend reporting ADA% at the trial level, treating the target as a distribution rather than a point value, and evaluating against a format-based baseline.",
+      "abstract_text": "Abstract Generative sequence-based antibody design is increasingly steered by learned property predictors, so a design objective is only as well specified as the labels behind its oracle. Immunogenicity is among the most clinically consequential properties to condition on, and among the least well specified: the supervisory signal is a single anti-drug-antibody percentage (ADA%) per molecule, aggregated from published trials. To analyze that signal, we first extended and corrected the widely used 217-entry dataset to 231 therapeutics with paired sequences, spanning formats from mouse to fully human. Then, we manually reconstructed the clinical evidence for 110 of them from primary sources. We find that an antibody format lookup outperforms every sequence-based learned predictor on the 231-antibody dataset. Apparent accuracy tracks the format composition of the evaluation split rather than sequence signal. Furthermore, the labels understate their own evidence: molecules labeled at ≤ 6 ADA% span up to 86% across trials. We recomputed labels from the trial-level measurements and found that the advantage of the format-based approach disappears, while the sequence-based predictors degrade less under the cohort-weighted mean. We conclude that progress is limited by the label itself, and recommend reporting ADA% at the trial level, treating the target as a distribution rather than a point value, and evaluating against a format-based baseline.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3032,7 +3032,7 @@
           "name": "Kannan Ramchandran"
         }
       ],
-      "abstract_text": "Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat inference as a unidirectional process, lacking mechanisms for revisiting undesirable token selections. We introduce Spectral Feedback, an algorithm that selects edit-positions in a feedback loop, allowing the model to iteratively correct its own generations. This approach leverages the mask structure of discrete diffusion models by re-masking and re-sampling tokens, analogous to image editing methods that reintroduce noisy latents and re-run the reverse process. While prior alignment methods focus on what token labels to assign to maximize a target reward, we instead treat which tokens to revisit as the central alignment problem. Selecting edit-positions is challenging because edit effects are interdependent: the impact of modifying one token depends on which others are edited simultaneously. We define an edit-set as a set of token positions to re-mask and re-sample. Motivated by prior work on sparse interactions in biological systems, we find empirically that edit-set value functions for protein inverse folding admit sparse Fourier representations. This structure enables Spectral Feedback to efficiently learn and optimize the value functions for edit-position selection. Spectral Feedback is model-agnostic and can be applied to pretrained, test-time aligned, and fine-tuned diffusion models. For all of these models, the algorithm improves alignment performance without modifying the underlying generative process. Applied to inverse folding with a protein stability reward oracle, it achieves a 32.3% increase in stable proteins for a pretrained model, 24.8% for Best-of-10, and 5.8% for a state-of-the-art RL fine-tuned diffusion model.",
+      "abstract_text": "Discrete diffusion models have become leading architectures for inverse protein folding. Test-time alignment guides these models during inference to generate proteins with desirable attributes. Alignment methods for discrete diffusion models often treat inference as a unidirectional process, lacking effective mechanisms for revisiting undesirable token selections. We introduce Spectral Feedback, an algorithm that selects edit-positions in a feedback loop, allowing the model to iteratively correct its own generations. This approach leverages the masking structure of discrete diffusion models by re-masking and re-sampling tokens. While prior alignment methods focus on what token labels to assign to maximize a target reward, we instead treat which tokens to revisit as the central alignment problem. Selecting edit-positions is challenging because edit effects are interdependent: the impact of modifying one token depends on which others are edited simultaneously. We define an edit-set as a set of positions to edit by re-masking and re-sampling the corresponding tokens in a sequence. Motivated by prior work on sparse interactions in biological systems, we find empirically that edit-set value functions for protein inverse folding admit sparse Fourier representations. This structure enables Spectral Feedback to efficiently learn and optimize the value functions for edit-position selection. Spectral Feedback is model-agnostic and can be applied to pre-trained, test-time aligned, and fine-tuned diffusion models without modifying the underlying generative processes. Applied to inverse folding with a protein stability reward oracle, Spectral Feedback increases the proportion of stable proteins by 32.3 percentage points over a pre-trained model, 24.8 over Best-of-10, and 5.8 over a state-of-the-art RL fine-tuned diffusion model.",
       "discovery_sources": [
         {
           "kind": "open_alex",

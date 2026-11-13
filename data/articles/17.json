@@ -989,7 +989,7 @@
       ],
       "title": "Engineering peptides into antibodies—opportunities and strategies for therapeutic innovation",
       "link": "https://doi.org/10.1002/1873-3468.70430",
-      "pdf_url": null,
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1873-3468.70430",
       "publication_date": "2026-08-26",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -3065,6 +3065,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "176f1c83680ae03c947860dde92e66eeb957a9bdfcd2683b64500fc7d8461049",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764665v1",
+        "https://doi.org/10.64898/2026.11.05.764665",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764665.source.xml"
+      ],
+      "title": "Hub labeling makes exact distance calculation practical for large human pangenome graphs",
+      "link": "https://doi.org/10.64898/2026.11.05.764665",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764665v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "truong",
+          "name": "Truong, Z"
+        },
+        {
+          "key": "novak",
+          "name": "Novak, A"
+        },
+        {
+          "key": "paten",
+          "name": "Paten, B"
+        }
+      ],
+      "abstract_text": "Pangenome graphs are now a standard reference representation, and tools built on them depend on fast minimum-distance queries between graph positions, for example, when clustering seed matches during read alignment. The baseline distance index, previously used by the vg toolkit, answers such queries based on a decomposition of the graph into nested subgraphs called \"snarls\". Within each snarl, the index uses a dense all-pairs distance matrix. Because such a matrix is quadratic in a snarl's number of children, the large, complex snarls that often occur in many pangenome graphs dominate the overall index size. This means whole-genome graphs can be impractical to index. To mitigate this, the baseline distance index does not fully index the largest snarls, and thus cannot itself answer certain queries involving them. We replace the dense matrix with a hub labeling for snarls above a size limit. Because hub labeling and associated methods are defined for directed graphs, we introduce a directed representation of a snarl's bidirected internal \"net graph\", whose shortest path lengths are the net graph's minimum walk lengths. Hub labels are built using pruned landmark labeling, ordered by a contraction hierarchy. On four human chromosome pangenomes, our hub-labeling-based distance index indexes every snarl in 0.9 GB to 3.0 GB at a snarl limit of 500, an estimated 28x to 119x less space than dense distance matrices would need for those snarls with more than 500 children, and supports the 3-18.6% of node-to-node queries that the previous index cannot answer by itself. On the queries both indexes can answer, query time distributions broadly overlap. We explore the snarl limit parameter space and are able to build indexes under 50 GB for four human whole-genome pangenomes in under 6 hours, where we estimate dense matrices could have required multiple terabytes.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -6588,7 +6627,7 @@
           "name": "Jay Shendure"
         }
       ],
-      "abstract_text": "Mammalian biology unfolds over time, within tissues and organs opaque to our eyes and instruments. We applied DNA Typewriter, a sequential molecular recorder, to record the cell lineage of a mouse over nearly two weeks of development. From one embryo, we reconstruct a time-calibrated, parsimony-supported, zygote-rooted phylogeny of 1.28M transcriptionally-profiled cells. A burst of editing unequivocally marks the daughters of the first cleavage, which serve as inline replicates. We quantify clonal dominance arising during gastrulation. Tree siblings share cell type far above chance; heterotypic siblings mark terminal differentiations. Temporal sweeps of clade co-occurrence recover a dated hierarchy of cell-type couplings; imputed labels for internal nodes recapitulate known state paths. A lineage-anchored ontogeny of mammalian development, long out of reach, is coming into view.",
+      "abstract_text": "Mammalian biology unfolds over time, within tissues and organs opaque to our eyes and instruments. We applied DNA Typewriter, a sequential molecular recorder, to record the cell lineage of a mouse over nearly two weeks of development. From one embryo, we reconstruct a time-calibrated, parsimony-supported, zygote-rooted phylogeny of 1.28 million transcriptionally profiled cells. A burst of editing unequivocally marks the daughters of the first cleavage, which serve as inline replicates. We quantify clonal dominance arising during gastrulation. Tree siblings share cell type far above chance; heterotypic siblings mark terminal differentiations. Temporal sweeps of clade co-occurrence recover a dated hierarchy of cell-type couplings; imputed labels for internal nodes recapitulate known state paths. A lineage-anchored ontogeny of mammalian development, long out of reach, is coming into view.",
       "discovery_sources": [
         {
           "kind": "open_alex",

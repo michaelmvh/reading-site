@@ -908,6 +908,45 @@
       "curated_categories": []
     },
     {
+      "id": "3d3aca3681c12c267d54cd60f7682c3b9a007557705a4be67e37bf9b2660e521",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.759793v1",
+        "https://doi.org/10.64898/2026.11.05.759793",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.759793.source.xml"
+      ],
+      "title": "Generative Models for Novel Enzymatic Reactions: How Far Do They Go?",
+      "link": "https://doi.org/10.64898/2026.11.05.759793",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.759793v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "r",
+          "name": "R, R"
+        },
+        {
+          "key": "balamuhunthan",
+          "name": "Balamuhunthan, S"
+        },
+        {
+          "key": "raman",
+          "name": "Raman, K"
+        }
+      ],
+      "abstract_text": "Enzyme function prediction is a long-standing problem in biology, and deep learning methods have recently become popular to improve performance on this task. While most of these models focus on classifying enzymes or mapping them to known reactions, predicting unknown biochemical reactions remains underexplored. Here we thoroughly examine an approach that generates reactions absent from the training data from the enzyme alone. Existing methods such as BLASTp or CLIPZyme cannot, by design, output reactions that are absent from their training data or were not supplied at inference. The closest prior model, RxnPred, reports high fingerprint-similarity scores on held-out enzymes, a less stringent criterion than exact recovery, but fails to recover the correct answer on unseen reactions. We present a structure-conditioned generative model that outputs a complete reaction, reactants and products, and evaluate it on EnzymeMap_x, a reaction-disjoint benchmark in which no test reaction appears in training, under exact, stereo-respecting scoring. On this benchmark, within 400 sampled candidates, the model generates the complete, correct reaction for 25.0% of the subset of test enzyme--reaction pairs whose reaction is a new combination of metabolites seen in training. Surprisingly, it also correctly generates a few reactions composed of metabolites it has not seen in training (1.6%), though their embeddings are present in the vocabulary. With a lower budget, re-ranking places the correct reaction first for 5.6% of pairs and in the top ten for 12.4%, when the reaction is assumed not to be already known (0.2% and 8.1% without that assumption) along with confidence scores. Assessed more leniently, the model produces at least one correct reaction known for the enzyme (usually memorised from training) for 71.2% of test pairs. Going further, without any retraining, a sequence-only model given the reactants as well as the enzyme produces the correct product set for 9.5% of pairs within five candidates, without re-ranking. We also present head-to-head comparisons on these tasks with BLASTp, DIAMOND, RxnPred and Horizyn. Structure conditioning improves fingerprint similarity on homology-stratified splits, but a matched sequence-only ablation at the best configuration finds no measurable effect on exact recovery. Data coverage and chemical initialisation of the vocabulary seem to matter more than encoder geometry.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3d3c2a5782fc6824420c5dd776bcaf3fb862ac365e9d17eedc0e5eac131c39d2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02621-2",
@@ -5100,6 +5139,51 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "3df1d144796241fa6a24eb1d6869ed8a53feea378522dc9ebe46d1936433d696",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.03.11.711016v3",
+        "https://doi.org/10.64898/2026.03.11.711016",
+        "https://www.biorxiv.org/content/early/2026/03/13/2026.03.11.711016.source.xml",
+        "https://www.biorxiv.org/content/early/2026/07/11/2026.03.11.711016.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.03.11.711016.source.xml"
+      ],
+      "title": "DNA-MGC+: A versatile codec for reliable and resource-efficient data storage on synthetic DNA",
+      "link": "https://doi.org/10.64898/2026.03.11.711016",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711016v3.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "khabbaz",
+          "name": "Khabbaz, R"
+        },
+        {
+          "key": "mateos",
+          "name": "Mateos, J"
+        },
+        {
+          "key": "antonini",
+          "name": "Antonini, M"
+        },
+        {
+          "key": "hanna kas",
+          "name": "Kas Hanna, S"
+        }
+      ],
+      "abstract_text": "The biochemical processes underlying DNA data storage, including synthesis, amplification, and sequencing, are inherently noisy, leading to insertion, deletion, and substitution errors as well as sequence dropouts that challenge reliable data retrieval. Here we introduce DNA-MGC+, a DNA storage codec designed for reliable and resource-efficient retrieval under diverse operating conditions. We evaluate DNA-MGC+ across various in silico and in vitro settings. In comparison with selected representative codecs, the results show that DNA-MGC+ consistently improves key performance metrics under explicit reliability constraints, including required sequencing depth, read cost, decoding time, storage density, and error-correction capability. In silico experiments show that DNA-MGC+ supports reliable decoding at error rates up to 24% for a 15-KB file, while separate scalability experiments demonstrate reliable decoding of files up to 200 MB at a 5% error rate. In vitro experiments involving a 24-KB file and electrochemical synthesis show that different DNA-MGC+ configurations achieve minimum sequencing depths below 3x and read costs below 3.5 nts/bit under both Illumina and Nanopore sequencing.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

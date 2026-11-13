@@ -17,7 +17,7 @@
       "authors": [
         {
           "key": "manvitha ponnapati",
-          "name": "Manvitha R. Ponnapati"
+          "name": "Manvitha Ponnapati"
         },
         {
           "key": "sapna sinha",
@@ -2624,6 +2624,76 @@
       "curated_categories": []
     },
     {
+      "id": "0394636d973963c6dce42ebc19acbe5fbe6b6077ffc8acf2814512bfa7310c18",
+      "identity_keys": [
+        "arxiv:2611.09851",
+        "https://doi.org/10.48550/arXiv.2611.09851"
+      ],
+      "title": "Health-System-Wide Mapping of Demographic Information in Routine Clinical Histopathology",
+      "link": "https://doi.org/10.48550/arXiv.2611.09851",
+      "pdf_url": "https://arxiv.org/pdf/2611.09851v1",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chen shengjia",
+          "name": "Shengjia Chen"
+        },
+        {
+          "key": "ruchika verma",
+          "name": "Ruchika Verma"
+        },
+        {
+          "key": "clare kevin",
+          "name": "Kevin Clare"
+        },
+        {
+          "key": "paula restrepo",
+          "name": "Paula Restrepo"
+        },
+        {
+          "key": "jannes jegminat",
+          "name": "Jannes Jegminat"
+        },
+        {
+          "key": "alleva eugenia",
+          "name": "Eugenia Alleva"
+        },
+        {
+          "key": "huang kuan lin",
+          "name": "Kuan-lin Huang"
+        },
+        {
+          "key": "aryeh stock",
+          "name": "Aryeh Stock"
+        },
+        {
+          "key": "brandon veremis",
+          "name": "Brandon Veremis"
+        },
+        {
+          "key": "fuchs thomas",
+          "name": "Thomas Fuchs"
+        },
+        {
+          "key": "campanella gabriele",
+          "name": "Gabriele Campanella"
+        }
+      ],
+      "abstract_text": "The extent to which demographic-associated information is detectable across organs and disease states in routine clinical histopathology remains unclear. Here, we analyzed 1.3 million hematoxylin and eosin whole-slide images from 257,322 patients across 25 organs, using pathology foundation-model representations and multiple-instance learning to systematically map information associated with sex, age group, and self-reported race. Across 69 organ-demographic combinations, demographic attributes were broadly recoverable, with pan-organ mean AUROCs of 0.828 for sex, 0.733 for age group, and 0.662 for self-reported race, and substantial variation across organs. Demographic-class balancing produced relatively small changes in performance, while evaluation within diagnosis-text clusters showed modest attenuation. Under training with diagnosis-based grouping, demographic-associated signals remained detectable across multiple organs, including sex in gastric tissue (AUROC 0.865), age group in breast (0.816), and self-reported race in skin (0.728). Literature-guided analysis of these settings generated candidate histomorphological and contextual explanations for further investigation. Together, these findings provide a systematic map of demographic-associated information in routine histopathology, informing investigations of its sources, assessments of potential shortcut learning, and the development of more interpretable computational pathology models.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "039c64261ade8bc42beecb7749d91aece6b514e445aef047c399da566c0191e3",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10356-3",
@@ -4011,7 +4081,7 @@
           "name": "Cees Dekker"
         }
       ],
-      "abstract_text": "Abstract As identifying proteins is of paramount importance for cell biology and applications, it is of interest to develop a protein sequencer with the ultimate sensitivity of decoding individual proteins. Here, we demonstrate a nanopore-based single-molecule sequencing approach capable of reliably detecting single amino-acid substitutions within individual peptides. A peptide is linked to a DNA molecule that is pulled through the biological nanopore MspA by a DNA helicase in single amino-acid steps. The peptide sequence yields clear stepping ion current signals which allows to discriminate single-amino-acid substitutions in single reads. Molecular dynamics simulations show these signals to result from size exclusion and pore binding. Notably, we demonstrate the capability to ‘rewind’ peptide reads, obtaining indefinitely many independent reads of the same individual molecule, yielding virtually 100% read accuracy in variant identification, with an error rate less than 10 −6 . These proof-of-concept experiments constitute a promising basis for developing a single-molecule protein sequencer. One-sentence summary This paper presents proof-of-concept experiments and simulations of a nanopore-based approach to sequencing individual proteins.",
+      "abstract_text": "Reading amino acids by nanopore Nanopore technology enables sensing of minute chemical changes at the single-molecule level by detecting differences in an ion current as molecules are drawn through a membrane-embedded pore. The sensitivity is sufficient to discriminate between nucleotide bases in nanopore sequencing, and other applications of this technology are promising. Brinkerhoff et al . developed a nanopore-based, single-molecule approach in which a protein was sequentially scanned in single-amino-acid steps through the narrow construction of a nanopore, and ion currents were monitored to resolve differences in the amino acid sequence along the peptide backbone (see the Perspective by Bošković and Keyser). The peptide reader was capable of reliably detecting single-amino-acid substitutions within individual peptides. An individual protein could be re-read many times, yielding very high read accuracy in variant identification. These proof-of-concept nanopore experiments constitute a promising basis for the development of a single-molecule protein sequencer. —DJ",
       "discovery_sources": [
         {
           "kind": "curated_collection",

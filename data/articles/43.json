@@ -2027,7 +2027,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract De novo enzyme design starts from ideal active site descriptions consisting of constellations of catalytic residue functional groups around reaction transition state(s), and seeks to generate protein structures that can accurately hold the site in place. Highly active enzymes have been designed starting from such descriptions using the generative AI method RFdiffusion [1–3], but there are two current methodological limitations. First, the geometry of the active site can only be specified at the residue level, so for each catalytic residue functional group placed around the reaction transition state, the possible locations of the residue backbone must be enumerated by building side chain rotamers back from the functional group. Second, the location of the catalytic residues along the sequence must be specified in advance, which considerably limits the space of solutions which can be sampled. Here we describe a new deep generative method, Rosetta Fold diffusion 2 (RFdiffusion2), that solves both problems, enabling enzymes to be designed from sequence agnostic descriptions of functional group locations without inverse rotamer generation. We first evaluate RFdiffusion2 on an in silico enzyme design benchmark of 41 diverse active sites and find that it is able to successfully build proteins scaffolding all 41 sites, compared to 16/41 with prior state-of-the-art deep learning methods. Next, we design enzymes around three diverse catalytic sites and characterize the designs experimentally; in each case we identify active catalysts in testing less than 96 sequences. RFdiffusion2 demonstrates the potential of atomic resolution generative models for the design of de novo enzymes directly from their reaction mechanisms.",
+      "abstract_text": "Designing new enzymes typically begins with idealized arrangements of catalytic functional groups around a reaction transition state, then attempts to generate protein structures that precisely position these groups. Current AI-based methods can create active enzymes but require predefined residue positions and rely on reverse-building residue backbones from side-chain placements, which limits design flexibility. Here we show that a new deep generative model, RoseTTAFold diffusion 2 (RFdiffusion2), overcomes these constraints by designing enzymes directly from functional group geometries without specifying residue order or performing inverse rotamer generation. RFdiffusion2 successfully generates scaffolds for all 41 active sites in a diverse benchmark, compared to 16 using previous methods. We further design enzymes for three distinct catalytic mechanisms and identify active candidates after experimentally testing fewer than 96 sequences in each case. These results highlight the potential of atomic-level generative modeling to create de novo enzymes directly from reaction mechanisms. RFdiffusion2, an extension of the RFdiffusion framework, builds de novo enzyme active sites using atom-level functional group constraints.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2255,7 +2255,7 @@
           "name": "Po‐Ssu Huang"
         }
       ],
-      "abstract_text": "Proteins mediate their functions through chemical interactions; modeling these interactions, which are typically through sidechains, is an important need in protein design. However, constructing an all-atom generative model requires an appropriate scheme for managing the jointly continuous and discrete nature of proteins encoded in the structure and sequence. We describe an all-atom diffusion model of protein structure, Protpardelle, which instantiates a \"superposition\" over the possible sidechain states, and collapses it to conduct reverse diffusion for sample generation. When combined with sequence design methods, our model is able to co-design all-atom protein structure and sequence. Generated proteins are of good quality under the typical quality, diversity, and novelty metrics, and sidechains reproduce the chemical features and behavior of natural proteins. Finally, we explore the potential of our model conduct all-atom protein design and scaffold functional motifs in a backbone- and rotamer-free way.",
+      "abstract_text": "Proteins mediate their functions through chemical interactions; modeling these interactions, which are typically through sidechains, is an important need in protein design. However, constructing an all-atom generative model requires an appropriate scheme for managing the jointly continuous and discrete nature of proteins encoded in the structure and sequence. We describe an all-atom diffusion model of protein structure, Protpardelle, which represents all sidechain states at once as a \"superposition\" state; superpositions defining a protein are collapsed into individual residue types and conformations during sample generation. When combined with sequence design methods, our model is able to codesign all-atom protein structure and sequence. Generated proteins are of good quality under the typical quality, diversity, and novelty metrics, and sidechains reproduce the chemical features and behavior of natural proteins. Finally, we explore the potential of our model to conduct all-atom protein design and scaffold functional motifs in a backbone- and rotamer-free way.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2319,6 +2319,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "43400585c245fa27a48ec1f5657c235b87349e2cb6d65c86be4aa064371e714c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.08.765158v1",
+        "https://doi.org/10.64898/2026.11.08.765158",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.08.765158.source.xml"
+      ],
+      "title": "OmniT2I: a unified table-to-image framework for survival prediction and cross-modal inference with incomplete multimodal cancer data",
+      "link": "https://doi.org/10.64898/2026.11.08.765158",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765158v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, P"
+        },
+        {
+          "key": "majeed",
+          "name": "Majeed, Z"
+        },
+        {
+          "key": "niazi",
+          "name": "Niazi, M. K. K"
+        },
+        {
+          "key": "hasanov",
+          "name": "Hasanov, M"
+        },
+        {
+          "key": "hasanov",
+          "name": "Hasanov, E"
+        }
+      ],
+      "abstract_text": "Molecular profiles and histopathology provide complementary information about cancer prognosis, but these data are often incomplete for individual patients. Here we present OmniT2I, a table-to-image framework for survival prediction and cross-modal inference from incomplete multimodal cancer data. Each molecular profile was converted into a three-channel image representation with correlation-based feature placement. OmniT2I combines available molecular and histopathology embeddings through availability-aware fusion and predicts missing modalities from those observed. Across 10,373 patients with 32 cancer types, the C-index was 0.631 within cancer types and 0.783 with all cancers pooled (0.660 and 0.787 in 5,605 patients with all five modalities). A single model handled all 31 modality combinations and, compared with nine survival methods trained separately for each, achieved higher C-indices in 240 of 279 pooled and 226 of 279 within-cancer comparisons. Adding predictions of withheld modalities to observed inputs improved pooled C-indices in all 180 pairings of observed and withheld modality sets and within-cancer C-indices in 164. Adding measured histopathology to RNA produced the largest within-cancer C-index gain among the four additional modalities evaluated, whereas adding copy number variation reduced it. In seven external cohorts, frozen RNA-only C-indices differed from test performance in the corresponding cancer type in TCGA by a median of -0.003 (range, -0.092 to +0.079). OmniT2I enables prognostic modeling with incomplete multimodal data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5510,6 +5557,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "43e8839a438f8926b9f30b2b08d8b9ab6d7b30d963c856327b892287ea0a7871",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764349v1",
+        "https://doi.org/10.64898/2026.11.04.764349",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764349.source.xml"
+      ],
+      "title": "Learning interpretable compositional features associated with continuous covariates",
+      "link": "https://doi.org/10.64898/2026.11.04.764349",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764349v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chen",
+          "name": "Chen, X"
+        },
+        {
+          "key": "hicks",
+          "name": "Hicks, S. C"
+        }
+      ],
+      "abstract_text": "Compositional variation as a function of continuous covariates, such as time, presents challenges for learning interpretable features and accounting for their construction in subsequent inference. Motivated by temporal change in isoform usage in genomics, we introduce IsoVita, a statistical framework integrating covariate-informed balance learning designed for compositional data with complementary tests for abrupt and gradual compositional variation. IsoVita estimates a dominant covariate-dependent direction in the log-ratio coordinates and approximates it as a log ratio of their geometric mean proportions between two learned component groups, linking statistical evidence to explicit component membership. Change point and spline tests evaluate this interpretable feature, while a selection-aware permutation procedure repeats feature construction and testing under each permutation. In transcript-level simulations, IsoVita maintained low empirical false discovery proportions with power to detect differences and change point accuracy improving as temporal signals strengthened. However, the performance depended on trajectory shape and study design. Applications to two human brain bulk RNA-sequencing datasets identified widespread temporal variation in isoform composition while retaining transcript-level interpretability. IsoVita integrates interpretable compositional feature learning with inference along continuous covariates, with potential applications beyond transcriptomics. IsoVita is available as a PyPI package (https://pypi.org/project/isovita).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

@@ -558,6 +558,54 @@
       "curated_categories": []
     },
     {
+      "id": "2e084d9795b272d5457effe8052b2df43005668dda544fc1c21aecd00b3e8ed3",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.11.18.689140v2",
+        "https://doi.org/10.1101/2025.11.18.689140",
+        "https://www.biorxiv.org/content/early/2025/11/19/2025.11.18.689140.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2025.11.18.689140.source.xml"
+      ],
+      "title": "CBKMR: A Copula-based Bayesian Kernel Machine Regression Framework for Optimal Marker Detection in Omics Data",
+      "link": "https://doi.org/10.1101/2025.11.18.689140",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.18.689140v2.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chakraborty",
+          "name": "Chakraborty, A"
+        },
+        {
+          "key": "mattila",
+          "name": "Mattila, C"
+        },
+        {
+          "key": "ghosh",
+          "name": "Ghosh, D"
+        },
+        {
+          "key": "neelon",
+          "name": "Neelon, B"
+        },
+        {
+          "key": "seal",
+          "name": "Seal, S"
+        }
+      ],
+      "abstract_text": "High-throughput bulk and single-cell omics technologies enable comprehensive molecular profiling, yet identifying compact, biologically interpretable marker sets that distinguish cell types, conditions, or disease states remains challenging. Standard pipelines rely on univariate differential expression tests, which ignore gene--gene dependencies and nonlinear effects, while multivariate machine-learning (ML) methods often lack principled feature selection} and {uncertainty quantification. The Bayesian kernel machine regression (BKMR) framework offers an appealing alternative because it (a) captures nonlinear gene--outcome relationships and higher-order interactions, and (b) enables {automatic relevance determination (ARD)} through sparsity-inducing priors. However, we show that the traditional latent Gaussian process (GP) formulation of BKMR is inadequate for discrete outcomes (e.g., cell-type labels), leading to biased inference and unstable variable selection. We propose a copula-based Bayesian kernel machine regression (CBKMR) model that uses outcome-appropriate discrete marginals while a Gaussian copula captures kernel-induced dependence across observations. To ensure scalability to modern single-cell datasets, we further introduce a nearest-neighbor GP-based variant, NNCBKMR, which reduces computational complexity from O(N3) to nearly linear in N. Simulation studies show that CBKMR more accurately captures nonlinear effects and yields stronger marker-selection performance than BKMR and top ensemble ML methods (e.g., random forests, XGBoost). Applications to multiple scRNA-seq datasets demonstrate that CBKMR identifies concise marker panels that align closely with expert-annotated gene signatures while providing{posterior uncertainty} for principled decision-making.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2e09119f0970683f0c0e1d20d97d26b60728089e8117570f0c48f1fefdb7716a",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02685-0",
@@ -1123,7 +1171,7 @@
           "name": "Bruno E. Correia"
         }
       ],
-      "abstract_text": "Abstract De novo design of complex protein folds using solely computational means remains a significant challenge. Here, we use a robust deep learning pipeline to design complex folds and soluble analogues of integral membrane proteins. Unique membrane topologies, such as those from GPCRs, are not found in the soluble proteome and we demonstrate that their structural features can be recapitulated in solution. Biophysical analyses reveal high thermal stability of the designs and experimental structures show remarkable design accuracy. The soluble analogues were functionalized with native structural motifs, standing as a proof-of-concept for bringing membrane protein functions to the soluble proteome, potentially enabling new approaches in drug discovery. In summary, we designed complex protein topologies and enriched them with functionalities from membrane proteins, with high experimental success rates, leading to a de facto expansion of the functional soluble fold space.",
+      "abstract_text": "Abstract De novo design of complex protein folds using solely computational means remains a substantial challenge 1 . Here we use a robust deep learning pipeline to design complex folds and soluble analogues of integral membrane proteins. Unique membrane topologies, such as those from G-protein-coupled receptors 2 , are not found in the soluble proteome, and we demonstrate that their structural features can be recapitulated in solution. Biophysical analyses demonstrate the high thermal stability of the designs, and experimental structures show remarkable design accuracy. The soluble analogues were functionalized with native structural motifs, as a proof of concept for bringing membrane protein functions to the soluble proteome, potentially enabling new approaches in drug discovery. In summary, we have designed complex protein topologies and enriched them with functionalities from membrane proteins, with high experimental success rates, leading to a de facto expansion of the functional soluble fold space.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -1136,6 +1184,48 @@
         "2. Model-based design",
         "2.1.1 trRosetta-based"
       ]
+    },
+    {
+      "id": "2e293881cc01a65cf51092b9b68efaa6f16a789a4d1f6563826f44c849ffa3cf",
+      "identity_keys": [
+        "arxiv:2609.31258",
+        "https://doi.org/10.48550/arXiv.2609.31258"
+      ],
+      "title": "Multiphysics Simulation Framework for Continuous Ion Transport and Energetics in Atmospheric Pressure Interfaces",
+      "link": "https://doi.org/10.48550/arXiv.2609.31258",
+      "pdf_url": "https://arxiv.org/pdf/2609.31258",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "yan yihui",
+          "name": "Yihui Yan"
+        },
+        {
+          "key": "jozef lengyel",
+          "name": "Jozef Lengyel"
+        },
+        {
+          "key": "frederic rosu",
+          "name": "Frederic Rosu"
+        },
+        {
+          "key": "gabelica valerie",
+          "name": "Valerie Gabelica"
+        }
+      ],
+      "abstract_text": "Optimizing atmospheric pressure interfaces requires balancing efficient ion transport with unwanted collision activation. The complex environment at the inlet region, including rapid pressure drops, RF/DC electric fields, ion-gas collisions, and space charge effects, makes simulation of this system challenging. In this work, we introduce MuCITE (Multiphysics simulation for Continuous Ion Transport and Energetics), which combines continuous ion injection, precomputed electric and gas flow fields, and particle-in-cell space charge updates. Furthermore, by employing improved impulsive collision theory, it can not only predict transport but also analyze the loss position of ions and the evolution of their kinetic energy, internal energy, and dissociation probability during transport. Transport predictions with ion currents and activation trends of in-source fragmentation were compared with experimental measurements using a custom-built source and a Q-Exactive HF source. The results show that the simulation predictions agree well with the experimental results and can serve as a reference before experiments. MuCITE allows users to derive ion transport, output beam characteristics, and ion energy through the configurable interface geometry and operating conditions. It supports simulation-guided design and tunable parameters to achieve predicted efficient ion transport or in source activation.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "2e2949324d057a20ccebbc8c2efba68054810811e782cdce43eccbcd41e0ede9",

@@ -673,7 +673,7 @@
       ],
       "title": "SAbDab2: the structural antibody database in the age of machine learning",
       "link": "https://doi.org/10.1093/nar/gkag1091",
-      "pdf_url": null,
+      "pdf_url": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkag1091/72639853/gkag1091.pdf",
       "publication_date": "2026-10-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -3515,6 +3515,40 @@
       "curated_categories": []
     },
     {
+      "id": "519ae082f0b8cc62a051d6e5977aed5ace80e0d3ddd41ce8a9c60ac3723bc5ac",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.05055",
+        "https://openalex.org/W7225267260"
+      ],
+      "title": "Ablating Design Choices for Protein Ensemble Generators Across Structural Regimes",
+      "link": "https://doi.org/10.48550/arxiv.2611.05055",
+      "pdf_url": "https://arxiv.org/pdf/2611.05055",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "eoin quinn",
+          "name": "Eoin Quinn"
+        },
+        {
+          "key": "bent oliver",
+          "name": "Oliver Bent"
+        }
+      ],
+      "abstract_text": "Generative models of protein conformational ensembles inherit much of their design from structure prediction for folded proteins. Ordered and disordered proteins, however, occupy distinct structural regimes, and we investigate how design choices hold up across them. Using a minimal C$α$ flow-matching model, we ablate choices of architecture, sequence conditioning, rigid-body alignment and training source, and evaluate each variant against experimental SAXS and NMR chemical-shift data partitioned into ordered, disordered, multi-domain and transitional proteins. Mixture-of-experts routing, a static pair representation and a disorder probe have no detectable effect, a smaller protein language model performs worse on ordered proteins but not on disordered ones, and alignment in the loss degrades agreement with SAXS. Replacing coarse-grained simulations of disordered proteins with fragment-assembled ensembles improves agreement with chemical shifts at a cost to SAXS, while an equal mixture of the two keeps most of the gain at a smaller cost. This points to the training data, rather than the architecture, as the main constraint.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "519b408e8a1a04191534484b5be829fa438d8394680fbb37cce02ece19f33de5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74160-3",
@@ -3959,8 +3993,8 @@
           "name": "Aslı Semerci"
         },
         {
-          "key": "karaca mélis",
-          "name": "Mélis Karaca"
+          "key": "karaca melis",
+          "name": "Melis Karaca"
         },
         {
           "key": "ahan erdem recep",
@@ -5116,8 +5150,8 @@
           "name": "Sirimar Laosinwattana"
         },
         {
-          "key": "anthony dalby paul",
-          "name": "Paul  Anthony Dalby"
+          "key": "dalby paul",
+          "name": "Paul A. Dalby"
         }
       ],
       "abstract_text": "Abstract Adeno-associated viruses (AAV) have emerged as a viable vector for gene therapy, with several clinical approvals and a growing pipeline in clinical trials. These vectors have several challenges that need to be addressed to widen their use, including improving tropisms, reducing manufacturing costs, increasing storage stability, minimising their immunogenicity, or evasion of existing AAV immunity in which neutralising antibodies lead to loss of potency. Vector engineering, particularly capsid protein engineering, offers a potential route to generating new capsids that can selectively target desired cell types or evade pre-existing immunity, while also ensuring that they are manufacturable at higher titres, more stable, and have reduced immunogenicity. Extensive protein redesign is emerging as a viable option, through generative AI approaches, for engineering many types of protein. Here we explored the potential of ProteinMPNN, to extensively redesign AAV2 and yet still form stable and functional capsids. We targeted 52% of AAV2 residues for redesign by ProteinMPNN, such that only the buried protein core and subunit interfaces would be varied, leaving the capsid external and internal surface features unchanged. The aim was to significantly modify the structure responsible for assembly and capsid integrity, while maximising the probability of maintaining the wild-type DNA packaging and transduction capabilities. The final designs were between 14% and 30% mutated overall, and yet were capable of forming functional and intact capsids, with the transduction efficiency of wild type retained for some variants. The designs generally led to lower titres from cell culture, yet some designs had either improved capsid packaging efficiency or transduction efficiency. In particular, our “Pentamer” design had the best transduction efficiency, while our “Chimera” design had a packaging efficiency that was 2.5x higher than for the WT AAV2. These results demonstrate the potential to use generative AI tools in vector capsid redesign for novel core assembly features, and now pave the way for expanding this approach into selectively re-engineering their surface properties to influence tropism, immunogenicity and transduction efficiency.",

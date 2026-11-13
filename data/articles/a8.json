@@ -1638,7 +1638,7 @@
           "name": "Robert H. Wilson"
         }
       ],
-      "abstract_text": "ABSTRACT Ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is foundational to life on Earth, catalyzing carbon dioxide (CO 2 ) fixation to generate biomass. However, Rubisco is a slow and inefficient enzyme that has proven challenging to engineer. We applied the structure-informed machine learning (ML) model ESM-IF1 to identify plausible amino acid sites in the large subunit of Nicotiana tabacum Rubisco to target for directed evolution. ML-assisted library design followed by selection in Rubisco-dependent Escherichia coli identified multiple enriched variants displaying improved catalytic efficiency. Several improved variants carried amino acid changes not found in the evolutionary lineage of plants, despite being assembly competent in plant chloroplasts, demonstrating that ML-assisted protein design can explore functional sequence space beyond what is observed from natural sequence diversity. Most prominently, the T391I substitution improved carboxylation rate by 29% and aerobic carboxylation efficiency by 43%. Our findings demonstrate the utility of ML-assisted evolution for engineering Rubisco with improved carboxylation efficiency and potential for enhancing crop productivity.",
+      "abstract_text": "Ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is foundational to life on Earth, catalyzing carbon dioxide (CO 2 ) fixation to generate biomass. However, Rubisco is a slow and inefficient enzyme that has proven challenging to engineer. We applied the structure-informed machine learning (ML) model ESM-IF1 to identify plausible amino acid sites in the large subunit of Nicotiana tabacum Rubisco to target for directed evolution. ML-assisted library design followed by selection in Rubisco-dependent Escherichia coli identified multiple enriched variants displaying improved catalytic efficiency. Several improved variants carried amino acid changes not found in the evolutionary lineage of plants, despite being assembly competent in plant chloroplasts, demonstrating that ML-assisted protein design can explore functional sequence space beyond what is observed from natural sequence diversity. Most prominently, the T391I substitution improved carboxylation rate by 29% and aerobic carboxylation efficiency by 43%. Our findings illustrate the utility of ML-assisted evolution for engineering Rubisco with improved carboxylation efficiency and potential for enhancing crop productivity.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3859,6 +3859,104 @@
         }
       ],
       "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a8ac83b4043281d136c0895516d2b0a7906392709d1bb7f55d9a8e387d47435c",
+      "identity_keys": [
+        "https://doi.org/10.1371/journal.pcbi.1014924",
+        "https://openalex.org/W7225814201"
+      ],
+      "title": "An antigen-specific protein language model guides CDR optimization for antibody design",
+      "link": "https://doi.org/10.1371/journal.pcbi.1014924",
+      "pdf_url": null,
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "PLoS Computational Biology",
+      "authors": [
+        {
+          "key": "ashraf bin faisal",
+          "name": "Faisal Bin Ashraf"
+        },
+        {
+          "key": "karen paco",
+          "name": "Karen Paco"
+        },
+        {
+          "key": "sanaz zebardast",
+          "name": "Sanaz Zebardast"
+        },
+        {
+          "key": "zhang zihao",
+          "name": "Zihao Zhang"
+        },
+        {
+          "key": "mooney",
+          "name": "R.F. Mooney"
+        },
+        {
+          "key": "christian dávila ojeda",
+          "name": "Christian J. Dávila Ojeda"
+        },
+        {
+          "key": "mariana mendivil paco",
+          "name": "Mariana Paco Mendivil"
+        },
+        {
+          "key": "alam rashid",
+          "name": "Rashid M. Alam"
+        },
+        {
+          "key": "chen eva",
+          "name": "Eva Chen"
+        },
+        {
+          "key": "iraneus ogu",
+          "name": "Iraneus Ogu"
+        },
+        {
+          "key": "jordan lay",
+          "name": "Jordan A. Lay"
+        },
+        {
+          "key": "tristan yang",
+          "name": "Tristan Y. Yang"
+        },
+        {
+          "key": "barroso da fernando luís silva",
+          "name": "Fernando Luís Barroso da Silva"
+        },
+        {
+          "key": "johal malkiat",
+          "name": "Malkiat S. Johal"
+        },
+        {
+          "key": "ilya tolstorukov",
+          "name": "Ilya Tolstorukov"
+        },
+        {
+          "key": "howard matthew sazinsky",
+          "name": "Matthew Howard Sazinsky"
+        },
+        {
+          "key": "animesh ray",
+          "name": "Animesh Ray"
+        },
+        {
+          "key": "lonardi stefano",
+          "name": "Stefano Lonardi"
+        }
+      ],
+      "abstract_text": "The capacity of an antibody to recognize and bind an antigen with high specificity and strength (i.e., its binding affinity ) is a key determinant in the design and optimization of neutralizing antibodies against pathogenic targets. Here we introduce Ab-Affinity, a fine-tuned protein language model (PLM) that predicts the binding affinity of an antibody against a target peptide within the SARS-CoV-2 spike protein. Cross-validation results shows that that Ab-Affinity outperforms other PLM-based affinity predictors when evaluated on a held-out validation and independent test sets. When integrated with a genetic algorithm and simulated annealing for sequence diversification and fitness optimization, Ab-Affinity enables the generation of candidate antibodies exhibiting over 100-fold improvement in predicted binding affinity relative to its parental (natural) antibody. More broadly, antibodies designed with Ab-Affinity attain higher predicted binding affinities than those produced by alternative mutational strategies, yielding synthetic antibodies with favorable predicted biophysical characteristics. Molecular docking and molecular dynamics simulations for the strongest synthetic candidates indicate enhanced interactions and increased stability with the target peptide epitope within the spike protein. Experimental validation in vitro for a top-ranked candidate reveals an apparent increase in binding relative to its parental antibody. All model weights, source code, and analysis pipelines are publicly released to allow full reproducibility.",
       "discovery_sources": [
         {
           "kind": "open_alex",

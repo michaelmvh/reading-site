@@ -1156,7 +1156,7 @@
           "name": "Anastassia Andreevna Vorobieva"
         }
       ],
-      "abstract_text": "Abstract De novo design of membrane proteins (MPs) is a rapidly growing field with transformative potential for synthetic biology. Yet, progress has lagged behind that of soluble proteins, largely due to limited understanding of the fundamental principles governing MP folding, stability, and solubility—and their integration into computational models. Here, we use a cell-free expression system to bypass the cytotoxicity of failed or insoluble designs and investigate how sequence features influence the folding of synthetic transmembrane β-barrels (TMBs). We find that even small, idealized TMBs challenge classical protein design workflows: sequences optimized solely for thermodynamic stability misfold and aggregate, preventing membrane insertion. Instead of bulk hydrophobicity, aggregation and β-sheet propensity emerge as key determinants of membrane association. By designing better folding variants of a synthetic TMB, we demonstrate that suppressing aggregation-prone intermediates through local destabilization of β-strands (“negative design”) significantly improves folding efficiency. Strikingly, even substitutions typically considered highly destabilizing, such as prolines or polar threonines exposed to the bilayer core, can improve folding when strategically positioned, without significantly compromising thermodynamic stability. Based on these findings, we propose a framework for joint optimization of native stability and folding pathways for future MP and nanopore design. Significance Statement Membrane proteins are essential to biology and biotechnology, yet designing them from scratch remains challenging. Using synthetic transmembrane β-barrels and a cell-free expression system with lipid vesicles, we show that conventional design strategies focused solely on native state stabilization can lead to misfolding and aggregation. By incorporating “negative design” features—specific mutations that locally disrupt β-strand structure—we improve folding efficiency without compromising stability. Remarkably, a protein language model outperformed traditional energy-based methods in predicting these beneficial mutations. Our findings highlight the critical role of folding kinetics in membrane protein design and introduce new principles for engineering synthetic membrane proteins and β-barrel nanopores.",
+      "abstract_text": "De novo design of membrane proteins (MPs) is a rapidly growing field with transformative potential for synthetic biology. Yet, progress has lagged behind that of soluble proteins, largely due to limited understanding of the fundamental principles governing MP folding, stability, and solubility—and the difficulty of integrating them into computational models. In cells, strict quality control mechanisms limit the expression of designed MPs with suboptimal properties, hindering iterative design-build-test cycles. Here, we use a cell-free expression system to bypass the cytotoxicity of failed or insoluble designs and investigate how sequence features influence the thermodynamically driven assembly of designed transmembrane β-barrels (TMBs) in synthetic membranes. We find that even small, idealized TMBs challenge classical protein design workflows: sequences optimized solely for thermodynamic stability misfold and aggregate, preventing membrane insertion. Aggregation in water emerges as key determinants of membrane association, instead of bulk hydrophobicity. By designing variants of a synthetic TMB, we demonstrate that suppressing aggregation-prone intermediates through local destabilization of β-strands (“negative design”) significantly improves membrane assembly. Strikingly, even substitutions typically considered highly destabilizing, such as prolines or polar threonines exposed to the bilayer core, can improve folding and assembly when strategically positioned, without significantly compromising thermodynamic stability. Based on these findings, we propose a framework for joint optimization of native stability and assembly pathways for future MP and nanopore design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2817,8 +2817,8 @@
           "name": "Dong Xu"
         },
         {
-          "key": "cheng jack jianlin",
-          "name": "Jianlin Jack Cheng"
+          "key": "cheng jianlin",
+          "name": "Jianlin Cheng"
         }
       ],
       "abstract_text": null,
@@ -3462,6 +3462,47 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "46b5e821784a6b4657f6b7f3c4d889b5c2d78eaea925024460318edd30967fca",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.04.01.715790v3",
+        "https://doi.org/10.64898/2026.04.01.715790",
+        "https://www.biorxiv.org/content/early/2026/04/03/2026.04.01.715790.source.xml",
+        "https://www.biorxiv.org/content/early/2026/09/23/2026.04.01.715790.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.04.01.715790.source.xml"
+      ],
+      "title": "PANDA: Phased Analysis of DNA Amplicons for Read-Level Methylation Profiling and Heterogeneity Assessment",
+      "link": "https://doi.org/10.64898/2026.04.01.715790",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.01.715790v3.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kubota",
+          "name": "Kubota, A"
+        },
+        {
+          "key": "kobayashi",
+          "name": "Kobayashi, H"
+        },
+        {
+          "key": "tajima",
+          "name": "Tajima, A"
+        }
+      ],
+      "abstract_text": "Targeted bisulfite amplicon sequencing is widely used to examine methylation at defined genomic loci, but site-wise methylation estimates can obscure phased patterns among individual reads. We developed PANDA (Phased Analysis for DNA Amplicons), an open-source platform for read-level analysis of targeted bisulfite amplicon NGS, with additional support for Sanger-derived sequences and graphical and command-line interfaces built on a shared computational core (https://github.com/kubo-azu/PANDA). PANDA integrates reference-coordinate methylation calling and visualization, motif-based haplotype filtering, coordinate linkage of unmerged paired reads, and group comparison. It also implements Amplicon PDR, Window Epipolymorphism, and Amplicon qFDRP with retained read-count weighting and explicit eligibility criteria. Synthetic demonstrations illustrated the analysis functions, while controlled benchmarks evaluated read retention, CpG-call accuracy, heterogeneity metrics, and computational scaling against known simulation truth. Matched-mean populations showed that the metrics capture different properties of observed reads, although qFDRP did not distinguish CpG linkage patterns with identical site-wise frequencies and complete coverage. Re-analysis of public chimpanzee and rhesus macaque placental datasets was consistent with the previously reported species-associated methylation contrast and demonstrated coordinate-linked analysis of unmerged paired reads without imputing the unsequenced interval. PANDA provides a reproducible framework for examining phased methylation patterns and within-sample heterogeneity alongside site-wise methylation estimates.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

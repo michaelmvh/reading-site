@@ -1468,18 +1468,18 @@
       ],
       "title": "LPT: Orchestrating bounded agentic loops for automated protein binder design",
       "link": "https://doi.org/10.64898/2026.10.29.762730",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762730v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/30/2026.10.29.762730.full.pdf",
       "publication_date": "2026-10-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "uckelmann",
-          "name": "Uckelmann, M"
+          "key": "michael uckelmann",
+          "name": "Michael Uckelmann"
         }
       ],
-      "abstract_text": "Current large language models (LLMs) can reason over scientific information and use code-based tools, but their training knowledge is broad rather than specialized, can be out of date and is hard to attribute to sources. Furthermore, unconstrained agentic workflows and unlimited tool use can consume large amounts of tokens. Here we present LPT (little protein tiger), a framework for fixed orchestration of LLM stages, each running a bounded agentic loop with custom system prompts and tool access, to enable de novo protein binder design from a single natural language prompt. The LLM stages can query a curated literature database, containing ~14000 papers digested into key findings, enabling recall of specialized information. An LLM with database access answered 41/48 test questions drawn from database key findings correctly, while a model without access answered none. In three end-to-end design campaigns, initiated from a single prompt, LPT autonomously identified the design intent, selected targets, structures and hotspot residues and designed candidate binders to disrupt CALCRL/RAMP1, PD-1/PD-L1 and PVR-TIGIT interactions. Cross-validation with multiple folding models confirms a high in silico success rate at minimal token consumption and low computational costs.",
+      "abstract_text": "Abstract Current large language models (LLMs) can reason over scientific information and use code-based tools, but their training knowledge is broad rather than specialized, can be out of date and is hard to attribute to sources. Furthermore, unconstrained agentic workflows and unlimited tool use can consume large amounts of tokens. Here we present LPT (little protein tiger), a framework for fixed orchestration of LLM stages, each running a bounded agentic loop with custom system prompts and tool access, to enable de novo protein binder design from a single natural language prompt. The LLM stages can query a curated literature database, containing ∼14000 papers digested into key findings, enabling recall of specialized information. An LLM with database access answered 41/48 test questions drawn from database key findings correctly, while a model without access answered none. In three end-to-end design campaigns, initiated from a single prompt, LPT autonomously identified the design intent, selected targets, structures and hotspot residues and designed candidate binders to disrupt CALCRL/RAMP1, PD-1/PD-L1 and PVR-TIGIT interactions. Cross-validation with multiple folding models confirms a high in silico success rate at minimal token consumption and low computational costs.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3612,7 +3612,7 @@
         },
         {
           "key": "kathleen marchal",
-          "name": "Kathleen Marchal D"
+          "name": "Kathleen Marchal"
         },
         {
           "key": "demeester thomas",
@@ -4675,6 +4675,41 @@
       "curated_categories": []
     },
     {
+      "id": "79c227431db350b56689812fa44479662475257cfcd081ef91b9d75146891bb1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764809v1",
+        "https://doi.org/10.64898/2026.11.06.764809",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764809.source.xml"
+      ],
+      "title": "LinearKnot: linear-time ensemble analysis of RNA density-2 pseudoknots under hierarchical folding",
+      "link": "https://doi.org/10.64898/2026.11.06.764809",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764809v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "otagaki",
+          "name": "Otagaki, T"
+        },
+        {
+          "key": "sato",
+          "name": "Sato, K"
+        }
+      ],
+      "abstract_text": "Motivation: A pseudoknot is an arrangement of crossing base pairs. Pseudoknots complicate structure prediction and calculations over possible structures (an ensemble). CParty sums structure weights for hierarchical pseudoknots that keep a supplied pseudoknot-free structure (scaffold). Its time is cubic in sequence length. Results: LinearKnot approximates CParty with beam pruning. It combines at most two partial structures in each step and keeps the highest-ranked candidates. At fixed beam width, hairpin length limit, and scaffold search limit, partition functions, minimum-free-energy (MFE) predictions, and representative {gamma}-centroid structures from base-pairing probabilities take linear time in sequence length. Loop profiles give probabilities for pairing and six unpaired loop types, including gaps between crossing stems (PseudoLoop). Window accessibility is the probability that a window is unpaired. For each RNA, we compared each base's distributions over pairing partners (including the unpaired state) and structural contexts with exact probabilities and averaged their total variation (TV) distances over bases unpaired in the scaffold. At width 200, the 90th percentiles of these RNA averages among 300-399-base RNAs were 0.0015 for pairing and 0.0017 for contexts. At width 100, LinearKnot completed partition functions for all 107 real RNAs through 29 kilobases. Under our settings, CParty completed RNAs up to about 1 kilobase and was faster on them. For the RNAcentral long non-coding RNA URS00023A4DB9 (29,106 nt), partition-function, pairing-probability, and MFE calculations at width 100 took about 7 minutes and 3.22 GiB. We compared free energy and pairing probabilities before and after each increase in beam width and local limits. These changes generally became smaller at larger widths. At width 200, the calculations for URS00023A4DB9 took about 20 minutes and 5.68 GiB. In rat telomerase RNA, a four-base window next to a pseudoknot was mostly unpaired as part of a PseudoLoop. A pseudoknot-free calculation with the same scaffold gave lower accessibility and placed the window mainly in a hairpin when unpaired. Availability and implementation: LinearKnot provides the linearknot command at https://github.com/TakumiOtagaki/LinearKnot. Experiment scripts and data are at https://github.com/TakumiOtagaki/LinearKnotExperiments.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "79c2ab0a31d976802b13c40b6a4a3f2c9b5272081bfffbe14601e69dd2d9aa2c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69994-w",
@@ -4742,6 +4777,56 @@
         }
       ],
       "abstract_text": "Avalanche field-effect transistors (AFETs) based on two-dimensional (2D) materials have attracted growing interest in optoelectronics due to their enhanced performance via carrier multiplication and their potential applications in nanoelectronics. However, most AFETs employing 2D materials face challenges with high breakdown fields and low ionization indexes, which limit their applications in optoelectronics. Here, we report a ReSe2-based AFET that achieves a breakdown electric field down to 2.55 kVcm-1 and an ionization index up to 38.79. This performance is attributed to using anisotropic ReSe2 as the channel material, which reduces unnecessary carrier collisions. Moreover, the incorporation of HfZrO2 as the dielectric enhances gate modulation, which further mitigates scattering effects. The underlying mechanism is validated through calculations of electron effective masses along both in- and out-of-plane directions. Moreover, scattering probability within ReSe2 based on simulation model and experimental data further corroborates the proposed mechanism. As a demonstration, ReSe2 avalanche phototransistors with a high responsivity of 1.71×104 AW-1 and a high gain of 173 are realized based on this platform. By incorporating anisotropic 2D materials and high-k dielectric with less carrier scattering, this AFET design provides a promising pathway for developing high-performance avalanche photodetectors. Avalanche field-effect transistors (AFETs) based on 2D materials have shown promising results, but they are normally limited by high breakdown fields and low ionization indexes. Here, the authors report AFETs based on anisotropic 2D ReSe2 showing a breakdown electric field down to 2.55 kV/cm and an ionization index up to 38.79.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "79c5ef1e318d501668691fa0fee8307c1ea3d5407975daedbc52f25897d13983",
+      "identity_keys": [
+        "https://doi.org/10.1002/advs.78579",
+        "https://openalex.org/W7225305928"
+      ],
+      "title": "Amyloid‐Guided Assembly of Magnetically Recyclable Enzymatic Nanofibers Toward Sustainable Biocatalysis",
+      "link": "https://doi.org/10.1002/advs.78579",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78579",
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Advanced Science",
+      "authors": [
+        {
+          "key": "liu shuangping",
+          "name": "Shuangping Liu"
+        },
+        {
+          "key": "qilin yang",
+          "name": "Qilin Yang"
+        },
+        {
+          "key": "qian zhang",
+          "name": "Qian Zhang"
+        },
+        {
+          "key": "liu tiantian",
+          "name": "Tiantian Liu"
+        },
+        {
+          "key": "han xiao",
+          "name": "Xiao Han"
+        },
+        {
+          "key": "jian mao",
+          "name": "Jian Mao"
+        }
+      ],
+      "abstract_text": "The rational construction of recyclable protein‐based catalytic materials requires connecting molecular enzyme design with higher‐order supramolecular organization and functional recovery interfaces. This study establishes a hierarchical design strategy that integrates fusion‐enzyme engineering, amyloid‐guided self‐assembly, and magnetic immobilization. The primary amine oxidase DPAO4 and the flavin‐containing amine oxidase DMAO7 were joined through flexible or rigid linkers, and the rigid (EAAAK) 3 variant provided broad substrate coverage, greater tolerance to process‐relevant stresses, and lower interdomain fluctuations in molecular dynamics simulations. N‐terminal Sup35 1‐61 or Ure2 1‐80 domains promoted the formation of ThT‐responsive fibrillar assembly, and the resulting enzymatic nanofibers were coupled to amino‐functionalized Fe 3 O 4 @SiO 2 ‐NH 2 nanoparticles. The composites enabled magnetic separation within 30 s, catalyzed the degradation of eight biogenic amines under acidic, thermal, saline, and ethanol‐containing conditions, and retained an average of 53.2% of their initial activity after four recovery cycles. As proof‐of‐concept evaluation in complex matrices, selected systems removed up to 70.6% of total biogenic amines from fermented beverages and 69.7% from soy sauce. The distinct responses of the Sup35‐ and Ure2‐based composites suggest an association between assembly‐domain identity and catalytic performance in complex matrices. This work demonstrates a hierarchical design approach for recyclable protein‐based catalytic materials and sustainable biocatalysis.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5625,6 +5710,77 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "79fab53103ab7a437457bcc06f347eba6d6912389f80b45da5e0e445db3b697d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764892v1",
+        "https://doi.org/10.64898/2026.11.06.764892",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764892.source.xml"
+      ],
+      "title": "PyTorch Frustratometer: An Ultra-fast, Parallelized Tool for Proteome-Scale Local Energetic Frustration Analysis",
+      "link": "https://doi.org/10.64898/2026.11.06.764892",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764892v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "draizen",
+          "name": "Draizen, E. J"
+        },
+        {
+          "key": "jaafari",
+          "name": "Jaafari, H"
+        },
+        {
+          "key": "bueno",
+          "name": "Bueno, C"
+        },
+        {
+          "key": "llaberia",
+          "name": "Llaberia, A"
+        },
+        {
+          "key": "clark",
+          "name": "Clark, F"
+        },
+        {
+          "key": "galpern",
+          "name": "Galpern, E. A"
+        },
+        {
+          "key": "simonetti",
+          "name": "Simonetti, F. L"
+        },
+        {
+          "key": "freiberger",
+          "name": "Freiberger, M. I"
+        },
+        {
+          "key": "wolynes",
+          "name": "Wolynes, P. G"
+        },
+        {
+          "key": "ferreiro",
+          "name": "Ferreiro, D. U"
+        },
+        {
+          "key": "parra",
+          "name": "Parra, R. G"
+        }
+      ],
+      "abstract_text": "Most natural protein sequences fold into well-defined three-dimensional structural ensembles, satisfying interactions that have been shaped over evolutionary timescales. The principle of minimal frustration states that most native interactions are energetically more favorable than alternative non-native ones, resulting in a funnel-shaped folding energy landscape. The FrustratometeR tool measures how the energetics of a residue or contact compares to decoys with different amino acid identities or configurations. Contacts are classified as minimally frustrated when these are more stable than random alternatives, highly frustrated when less stable, or neutral when energetically indistinguishable from them. Clusters of highly frustrated interactions are often evolutionarily conserved and are typically associated with functional regions. Therefore, identifying and quantifying local frustration can provide insights into both protein stability and function. Here we present a PyTorch reimplementation of FrustratometeR that accelerates conventional frustration calculations by 70-13,000x on a single GPU, depending on chosen frustration mode and protein size, with substantially larger gains for exhaustive mutational scanning, enabling proteome-scale local frustration analysis. We benchmark against the original algorithm on the CATH v4.4 S40 dataset and show near-identical results across all three frustration modes and mutational scanning. Source code is freely available at https://github.com/ParraLab-ESBG/pytorch-frustratometer.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

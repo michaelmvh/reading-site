@@ -1752,7 +1752,7 @@
           "name": "Nuria Eugenia Campillo"
         }
       ],
-      "abstract_text": "design of small molecules with desirable chemical properties, developed to aid the creation of novel chemical entities with potential therapeutic use. The system is built upon a foundational Large Language Model trained on a large comprehensive chemical database capable of generating structurally diverse and synthetically accessible compounds. It is then fine-tuned through reinforcement learning to enhance its capacity to generate molecules tailored to specific biological targets. As a case study, we apply this framework to design molecules targeting key proteins involved in Alzheimer's disease. The generated compounds underwent molecular docking studies to assess their binding affinities and prioritize candidates with optimal predicted interactions. The top-ranked molecules were further analyzed based on their binding modes and key molecular interactions with the target proteins. The results suggest that our generative model produces viable, drug-like molecules with favorable interactions, underscoring its potential as a valuable tool in early stage drug discovery.",
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide We present a general framework for the de novo design of small molecules with desirable chemical properties, developed to aid the creation of novel chemical entities with potential therapeutic use. The system is built upon a foundational Large Language Model trained on a large comprehensive chemical database capable of generating structurally diverse and synthetically accessible compounds. It is then fine-tuned through reinforcement learning to enhance its capacity to generate molecules tailored to specific biological targets. As a case study, we apply this framework to design molecules targeting key proteins involved in Alzheimer’s disease. The generated compounds underwent molecular docking studies to assess their binding affinities and prioritize candidates with optimal predicted interactions. The top-ranked molecules were further analyzed based on their binding modes and key molecular interactions with the target proteins. The results suggest that our generative model produces viable, drug-like molecules with favorable interactions, underscoring its potential as a valuable tool in early stage drug discovery.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4384,6 +4384,57 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d9a4face75e76c78b5812e53a6aa074d686bdcaeaf4df9f4c15e8d9a864cf21e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764428v1",
+        "https://doi.org/10.64898/2026.11.04.764428",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764428.source.xml"
+      ],
+      "title": "RadMultiBench: A Reproducible Dual-Task Benchmark Exposing the Limits of Pre-Trained Vision-Language Models Across Thoracic and Breast Imaging",
+      "link": "https://doi.org/10.64898/2026.11.04.764428",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764428v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "alam",
+          "name": "Alam, M. N"
+        },
+        {
+          "key": "rahman",
+          "name": "Rahman, M. T"
+        },
+        {
+          "key": "sarkar",
+          "name": "Sarkar, D"
+        },
+        {
+          "key": "dhrubo",
+          "name": "Dhrubo, A. F. H"
+        },
+        {
+          "key": "qayum",
+          "name": "Qayum, M. A"
+        },
+        {
+          "key": "khan",
+          "name": "Khan, M. A"
+        }
+      ],
+      "abstract_text": "We present RadMultiBench, a multimodal benchmark of 6,148 medical images paired with expert radiological impressions across five categories--Breast Cancer, Lung Benign, Lung Malignant, Pneumonia, and Tuberculosis--targeting two core clinical tasks: automated report generation and disease classification. To enable reliable, repeatable experimentation, we provide a reproducible pipeline for data ingestion, de-identification, split management, and standardized reporting of text and classification metrics, facilitating dataset versioning and continuous benchmark testing. We compare three architectures: (1) a classical CNN-RNN with Bahdanau attention (ResNet-LSTM), (2) a general-domain vision-language (V-L) prefix-projection model (CLIP-GPT), and (3) a domain-specific V-L prefix-projection model (BioViL-T). Results reveal a sharp performance divide: the ResNet-LSTM attains near-perfect classification (99.5% accuracy) and is the only model to generate coherent reports (BLEU-4 = 0.021), whereas both prefix-projection models catastrophically fail generation (BLEU-4 [&le;] 0.0001); moreover, the domain-specific BioViL-T also fails classification (11.5% accuracy). From a data-engineering angle, the pipeline is productionizable with lineage, feature registries, and continuous integration to guard against silent regressions when updating models or data; from a data-science angle, the benchmark provides baselines and analyses that foreground feature alignment and architectural suitability as first-order concerns, inviting ablations on multimodal objectives, retrieval-augmented encoders, and uncertainty-aware decoding. Overall, RadMultiBench highlights that state-of-the-art status in general V-L domains does not translate automatically to high-stakes clinical tasks, and it furnishes the tooling and evidence base needed to develop robust, clinically viable multimodal systems.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

@@ -1497,6 +1497,60 @@
       "curated_categories": []
     },
     {
+      "id": "003109341ca6c73913da71493be938a2ed2e605a6fc2969f4f5995ecfdc6e927",
+      "identity_keys": [
+        "arxiv:2604.21573",
+        "https://doi.org/10.48550/arXiv.2604.21573"
+      ],
+      "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
+      "link": "https://doi.org/10.48550/arXiv.2604.21573",
+      "pdf_url": "https://arxiv.org/pdf/2604.21573",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "changfan wang",
+          "name": "Changfan Wang"
+        },
+        {
+          "key": "wang xinran",
+          "name": "Xinran Wang"
+        },
+        {
+          "key": "donghai liu",
+          "name": "Donghai Liu"
+        },
+        {
+          "key": "fei su",
+          "name": "Fei Su"
+        },
+        {
+          "key": "lulu sun",
+          "name": "Lulu Sun"
+        },
+        {
+          "key": "zhao zhicheng",
+          "name": "Zhicheng Zhao"
+        },
+        {
+          "key": "meng zhu",
+          "name": "Zhu Meng"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics (ST) enables spatially resolved gene profiling but remains expensive and low-throughput, limiting large-cohort studies and routine clinical use. Predicting spatial gene expression from routine hematoxylin and eosin (H&E) slides is a promising alternative, yet under realistic leave-one-slide-out evaluation, existing models often suffer from slide-level appearance shifts and regression-driven over-smoothing that suppress biologically meaningful variation. CHRep is a two-phase framework for robust histology-to-expression prediction. In the training phase, CHRep learns a structure-aware representation by jointly optimizing correlation-aware regression, symmetric image-expression alignment, and coordinate-induced spatial topology regularization. In the inference phase, cross-slide robustness is improved without backbone fine-tuning through a lightweight calibration module trained on the training slides, which combines a non-parametric estimate from a training gallery with a magnitude-regularized correction module. Unlike prior embedding-alignment or retrieval-based transfer methods that rely on a single prediction route, CHRep couples topology-preserving representation learning with post-hoc calibration, enabling stable neighborhood retrieval and controlled bias correction under slide-level shifts. Across the three cohorts, CHRep consistently improves gene-wise correlation under leave-one-slide-out evaluation, with the largest gains observed on Alex+10x. Relative to HAGE, the Pearson correlation coefficient on all considered genes [PCC(ACG)] increases by 4.0% on cSCC and 9.8% on HER2+. Relative to mclSTExp, PCC(ACG) further improves by 39.5% on Alex+10x, together with 9.7% and 9.0% reductions in mean squared error (MSE) and mean absolute error (MAE), respectively.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0031585c29120637c4e7fccf10eebb1b81dc27cdb099b7c34798e1144618eb92",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71105-8",
@@ -3258,7 +3312,7 @@
           "name": "Longxing Cao"
         }
       ],
-      "abstract_text": "Abstract De novo protein design has not yet achieved the creation of proteases capable of selectively cleaving any desired peptide bond within a native protein with high precision. Here, we report the use of the flow-based generative model Proteus2 to design metalloproteases by generating enzyme–substrate complexes conditioned on a target peptide sequence and a predefined catalytic motif. Our approach employs a two-step encapsulation strategy to create clamp-like metalloproteases that bind the target peptide in a manner that maximizes substrate sequence specificity. The generative process simultaneously optimizes the precise positioning of the target peptide bond in a catalytically competent configuration and accurately scaffolds the transition state catalytic residues—both essential for specific and efficient catalysis. Using this strategy, we designed zinc metalloproteases targeting three distinct cleavage sites within the aggregation-prone regions of amyloid-β (Aβ), a key pathogenic factor in Alzheimer’s disease. Experimental characterization validated five enzymes, each capable of precise cleavage at the intended sites with high specificity and minimal or undetectable activity on non-cognate substrates. On average, these enzymes accelerated peptide bond hydrolysis by more than 10 7 -fold relative to the uncatalyzed reaction, and enabled efficient digestion of the Aβ peptide into smaller segments when enzymes targeting different sites were combined. Cryo-EM structures of three designed enzymes in complex with Aβ peptide, each targeting a distinct cleavage site, revealed close agreement with the design models. Together, these results demonstrate the potential of sequence-guided, generative approaches for developing programmable, sequence-specific proteolysis and lay the groundwork for future applications in basic research and therapeutic development.",
+      "abstract_text": "De novo protein design has not yet achieved the creation of proteases capable of selectively cleaving any desired peptide bond within a native protein with high precision. Here, we report the use of the flow-based generative model ProteusFlow to design metalloproteases by generating enzyme–substrate complexes conditioned on a target peptide sequence and a predefined catalytic motif. Our approach employs a two-step encapsulation strategy to create clamp-like metalloproteases that bind the target peptide in a manner that maximizes substrate sequence recognition. This generative process simultaneously optimizes the selective positioning of the target peptide bond within a catalytically competent configuration and accurately scaffolds the transition state catalytic residues. Using this strategy, we designed zinc metalloproteases targeting three distinct cleavage sites within the aggregation-prone regions of amyloid-β (Aβ), a key pathogenic factor in Alzheimer’s disease. Experimental validation confirmed that the designed metalloproteases possess substrate cleavage activity and are capable of degrading Aβ peptides into smaller fragments. Cryo-EM structures of three designed enzymes in complex with the Aβ peptide, each targeting a distinct cleavage site, matched closely the computational design models. Structure-guided optimization further enhanced catalytic activity and substrate affinity. Together, these results demonstrate the potential of sequence-guided generative approaches for achieving programmable, sequence-selective proteolysis and lay the groundwork for future applications in basic research and therapeutic development.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4572,6 +4626,49 @@
       "curated_categories": []
     },
     {
+      "id": "009a7d609957c65fdcb7970c043fe1f8ae52e3288c16b70fae524b828a7d4324",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762953v1",
+        "https://doi.org/10.64898/2026.10.29.762953",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.10.29.762953.source.xml"
+      ],
+      "title": "PEEK: integrated primer design for silent-mutation and restriction-site engineering, validated in silico and by whole-plasmid sequencing",
+      "link": "https://doi.org/10.64898/2026.10.29.762953",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ghobadi",
+          "name": "Ghobadi, K"
+        },
+        {
+          "key": "kura",
+          "name": "Kura, N"
+        },
+        {
+          "key": "warrington",
+          "name": "Warrington, J"
+        },
+        {
+          "key": "singh",
+          "name": "Singh, N"
+        }
+      ],
+      "abstract_text": "Motivation: Silent introduction of restriction sites, direct site insertion, and verification of the result are routine operations in molecular cloning, yet they are typically distributed across separate tools built on inconsistent thermodynamics. Primer design is itself mature and heavily validated; the gap is not accuracy in principle but integration, together with the absence of any explicit account of why one synonymous edit should be preferred over another. Because melting temperature (Tm) gates which primers a tool will accept, any unified tool must first be shown to compute Tm correctly against an external standard, and then shown to produce the edits it proposes. Results: PEEK, a web-based toolkit, unifies silent-mutation discovery, restriction-site insertion, and amplification and screening primer design built on a single thermodynamic model of primer melting temperature (Tm). PEEK's silent-mutation engine identifies the smallest set of synonymous changes required to form a restriction site at a specific position, and ranks the options by codon usage, local mRNA folding, and edit size. Predicted melting temperatures closely matched those of the NEB Q5 Tm Calculator across 17 primers of varying length and GC content (Pearson R^2 = 0.9995, mean absolute error 1.32 C) without any fitted correction, and annealing-temperature (Ta) recommendations exactly matched NEB's rules. In independent trials, a total of 15 silent-mutation designs were translationally silent and contained the intended restriction site. Experimental validation was performed by installing a KpnI site into a 9.9 kb lentiviral CAR plasmid using both a silent-mutation primer and an insertion primer. Whole-plasmid sequencing confirmed that each primer introduced exactly the designed changes, with no off-target differences across the construct and no change to the encoded protein. Availability and implementation: PEEK runs at https://peekbiology.com and requires no registration. Source code, documentation, and test data are available at https://github.com/nkura-arch/PEEK-Protein-Engineering Efficiency-Kit. Implemented in Python 3.11 with Flask, Biopython, and ViennaRNA. Contact: nathan.singh@wustl.edu",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "009be74fa21aae6557a884225f66b48f4b03cf4f8b2045902b00b300a9e87c7a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68330-6",
@@ -5150,45 +5247,54 @@
     {
       "id": "00bd18ad63e173de20e7b35b39ca90d3a767cf6715c303732e4e27515c15ad12",
       "identity_keys": [
+        "biorxiv:10.64898/2026.06.09.731073v2",
         "https://doi.org/10.64898/2026.06.09.731073",
-        "https://openalex.org/W7164327173"
+        "https://openalex.org/W7164327173",
+        "https://www.biorxiv.org/content/early/2026/06/11/2026.06.09.731073.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.06.09.731073.source.xml"
       ],
-      "title": "DeePEn-A Depth sensitive benchmark for Protein Engineering",
+      "title": "DeePEn - A Depth sensitive benchmark for Protein Engineering",
       "link": "https://doi.org/10.64898/2026.06.09.731073",
-      "pdf_url": null,
-      "publication_date": "2026-06-11",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.09.731073v2.full.pdf",
+      "publication_date": "2026-11-12",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv",
       "authors": [
         {
-          "key": "robert schmirler",
-          "name": "Robert Schmirler"
+          "key": "schmirler",
+          "name": "Schmirler, R"
         },
         {
-          "key": "brenner maurice",
-          "name": "Maurice Brenner"
+          "key": "brenner",
+          "name": "Brenner, M"
         },
         {
-          "key": "franz sebastian",
-          "name": "Sebastian Franz"
+          "key": "franz",
+          "name": "Franz, S"
         },
         {
-          "key": "heinzinger michael",
-          "name": "Michael Heinzinger"
+          "key": "heinzinger",
+          "name": "Heinzinger, M"
         },
         {
-          "key": "burkhard rost",
-          "name": "Burkhard Rost"
+          "key": "rost",
+          "name": "Rost, B"
         }
       ],
-      "abstract_text": "Abstract Recent progress in modeling techniques and high-throughput screening has significantly enhanced the accessibility of protein engineering. Nevertheless, further progress gets hindered by the lack of robust benchmarks that capture the practical challenges for real-world protein engineering. Here, we introduced DeePEn, a De pth-s e nsitive benchmark for P rotein En gineering that quantifies a model’s generalization capabilities when predicting protein fitness at increasing mutational distance from the wildtype or training data. We defined distance as the number of simultaneous point mutations, i.e., single amino acid variants (SAVs), moving from wild-type to mutant ( edit distance in computer science jargon). Specifically selecting four deep mutational scanning (DMS) datasets with sufficient multi-mutation data points from ProteinGym, we assessed recent predictive models, including general and biophysics-informed protein Language Models (pLMs), and a non-transformer neural network. Our results highlight how the performance of all models deteriorates with increasing mutational distance and that no single metric sufficiently captures the diverse requirements of protein engineering. To overcome these shortcomings, DeePEn provides a readily available resource for multi-metric benchmarking that focuses on the prediction of distant variants.",
+      "abstract_text": "Recent progress in modeling techniques and high-throughput screening has significantly enhanced the accessibility of protein engineering. Nevertheless, further progress gets hindered by the lack of robust benchmarks that capture the practical challenges for real-world protein engineering. Here, we introduced DeePEn, a Depth-sensitive benchmark for Protein Engineering that quantifies model generalization to held-out variants at increasing mutational distance from the wild type. We defined distance as the number of simultaneous point mutations, i.e., single amino acid variants (SAVs), moving from wild-type to mutant (edit distance in computer science jargon). DeePEn retrospectively evaluates prediction and prioritization using experimentally labelled variants from deep mutational scanning (DMS) datasets; it does not benchmark prospective sequence generation or goal-directed optimization. Specifically selecting four DMS datasets with sufficient multi-mutation data points from ProteinGym, we assessed recent predictive models, including general and biophysics-informed protein Language Models (pLMs), and a non-transformer neural network. Our results highlight how the performance of all models deteriorates with increasing mutational distance and that no single metric sufficiently captures the diverse requirements of protein engineering. To overcome these shortcomings, DeePEn provides a readily available resource for multi-metric benchmarking that focuses on variant-effect prediction of variants distant from the wild type.",
       "discovery_sources": [
         {
           "kind": "open_alex",
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5290,7 +5396,7 @@
           "name": "Nobuhiko Tokuriki"
         }
       ],
-      "abstract_text": "Abstract Epistasis—the context-dependence of mutational effects—is a key driver of protein evolution, influencing adaptive pathways and functional diversity. While specific epistasis arises from direct physical interactions between mutations, non-specific epistasis emerges when a non-linear mapping links a protein’s biophysical properties to its function. Enzyme kinetic parameters are assumed to be devoid of non-specific epistasis when measured in vitro , enabling direct connection of epistasis to the enzyme’s structural features. Here, we show that this assumption is incorrect: enzyme catalytic parameters like k cat and K M inherently exhibit non-specific epistasis due to the multi-state nature of the catalytic cycle. Using in silico enzyme models, parameterized by free energies of ground and transition states, we simulated 1000 “mutations” or perturbations to the sub-state free energies within the kinetic ensemble. We then combined these mutations, creating one million double mutants with strictly additive free energy effects. Despite the absence of explicit mutational interactions, we observed substantial epistasis in catalytic parameters; its prevalence and complexity increasing with the number of kinetic states in the mechanism. We derived analytical conditions for the emergence of this form of epistasis in a simple kinetic model, demonstrating that non-specific epistasis depends on the relative values of key microscopic rate constants. Finally, we validated our framework by reanalyzing kinetic data for double mutants in Bacillus cereus β-lactamase I and found that reported specific epistasis in catalytic efficiency was substantially stronger than previously inferred, altering mechanistic interpretations. Our results identify an intrinsic, previously unknown source of epistasis that can distort both the magnitude and sign of mutational effects in enzyme kinetics. We provide theoretical and computational tools for recognizing and correcting for this form of non-specific epistasis, enabling accurate mechanistic inference from kinetic data and improving our understanding of the links between epistasis, structure-function relationships, enzyme evolution, and protein design. Author Summary Enzymes help organisms convert reactants to products through a series of steps; each associated with an energy that dictates how well the enzyme catalyzes a reaction. Enzymes evolve to become more efficient, or catalyze new reactions, through mutations that change the free energies of these steps. Sometimes, the effect of one mutation depends on the presence of another, a phenomenon called epistasis. Epistasis is typically studied by measuring the effect of mutations on standard enzyme parameters under the assumption that changes in these values reflect structural interactions between mutations in the protein. Our study shows that this assumption is misleading. Even when mutations act independently on the energies of steps in an enzyme’s reaction, when combined they can create epistasis. This phenomenon arises from the complex, non-linear relationships between the parameters that define each step in the enzyme reaction and the measurements we obtain during experiments probing enzyme functions. Using computational simulations, we mathematically derive the necessary conditions for this form of epistasis, demonstrate that epistasis increases in prevalence as the enzyme reaction becomes more complex, and apply our model to published experimental data. Our findings urge that researchers should account for these effects before drawing structural conclusions from epistasis.",
+      "abstract_text": "Epistasis—the context-dependence of mutational effects—is a key driver of protein evolution, influencing adaptive pathways and functional diversity. While specific epistasis arises from direct physical interactions between mutations, non-specific epistasis emerges when a non-linear mapping links a protein’s biophysical properties to its function. Enzyme kinetic parameters map directly to free energies, enabling researchers to connect epistasis in these parameters to an enzyme’s structural features. Here, we show that this approach is incorrect: enzyme catalytic parameters like k cat and K M inherently exhibit non-specific epistasis due to the multi-state nature of the catalytic cycle. Using enzyme catalytic cycle models, parameterized by free energies of ground and transition states, we simulated 1000 “mutations” or perturbations to the sub-state free energies within the kinetic ensemble. We then combined these mutations, creating one million double mutants with strictly additive free energy effects. Despite the absence of explicit mutational interactions, we observed substantial epistasis in catalytic parameters; its prevalence and complexity increasing with the number of kinetic states in the mechanism. We derived analytical conditions for the emergence of this form of epistasis in a simple kinetic model, demonstrating that non-specific epistasis depends on the relative values of key microscopic rate constants. Finally, we validated our framework by reanalyzing kinetic data for double mutants in Bacillus cereus β-lactamase I and found that reported specific epistasis in catalytic efficiency was substantially stronger than previously inferred, altering mechanistic interpretations. Our results identify an intrinsic, previously unknown source of epistasis that can distort both the magnitude and sign of mutational effects in enzyme kinetics. We provide theoretical and computational tools for recognizing and correcting for this form of non-specific epistasis, enabling accurate mechanistic inference from kinetic data and improving our understanding of the links between epistasis, structure-function relationships, enzyme evolution, and protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6134,7 +6240,7 @@
           "name": "Jeff Nivala"
         }
       ],
-      "abstract_text": "The ability to sequence single protein molecules in their native, full-length form would enable a more comprehensive understanding of proteomic diversity. Current technologies, however, are limited in achieving this goal. Here, we establish a method for long-range, single-molecule reading of intact protein strands on a commercial nanopore sensor array. By using the ClpX unfoldase to ratchet proteins through a CsgG nanopore, we achieve single-amino acid level sensitivity, enabling sequencing of combinations of amino acid substitutions across long protein strands. For greater sequencing accuracy, we demonstrate the ability to reread individual protein molecules, spanning hundreds of amino acids in length, multiple times, and explore the potential for high accuracy protein barcode sequencing. Further, we develop a biophysical model that can simulate raw nanopore signals a priori, based on amino acid volume and charge, enhancing the interpretation of raw signal data. Finally, we apply these methods to examine intact, folded protein domains for complete end-to-end analysis. These results provide proof-of-concept for a platform that has the potential to identify and characterize full-length proteoforms at single-molecule resolution.",
+      "abstract_text": "The ability to sequence single protein molecules in their native, full-length form would enable a more comprehensive understanding of proteomic diversity. Current technologies, however, are limited in achieving this goal1,2. Here, we establish a method for the long-range, single-molecule reading of intact protein strands on a commercial nanopore sensor array. By using the ClpX unfoldase to ratchet proteins through a CsgG nanopore3,4, we provide single-molecule evidence that ClpX translocates substrates in two-residue steps. This mechanism achieves sensitivity to single amino acids on synthetic protein strands hundreds of amino acids in length, enabling the sequencing of combinations of single-amino-acid substitutions and the mapping of post-translational modifications, such as phosphorylation. To enhance classification accuracy further, we demonstrate the ability to reread individual protein molecules multiple times, and we explore the potential for highly accurate protein barcode sequencing. Furthermore, we develop a biophysical model that can simulate raw nanopore signals a priori on the basis of residue volume and charge, enhancing the interpretation of raw signal data. Finally, we apply these methods to examine full-length, folded protein domains for complete end-to-end analysis. These results provide proof of concept for a platform that has the potential to identify and characterize full-length proteoforms at single-molecule resolution. A technique for threading long protein strands through a nanopore by electrophoresis and back using a protein unfoldase motor, ClpX, enables single protein molecules to be analyzed multiple times with single-amino-acid sensitivity.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

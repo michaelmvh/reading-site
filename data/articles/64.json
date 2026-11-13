@@ -2174,6 +2174,45 @@
       "curated_categories": []
     },
     {
+      "id": "645d2f5b2245a854373332bb28d4479b52aad9d014c3dbb72d0f745ee3d06337",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.08.765214v1",
+        "https://doi.org/10.64898/2026.11.08.765214",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.08.765214.source.xml"
+      ],
+      "title": "HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction",
+      "link": "https://doi.org/10.64898/2026.11.08.765214",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765214v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "singh",
+          "name": "Singh, S. D"
+        },
+        {
+          "key": "borah",
+          "name": "Borah, G. S"
+        },
+        {
+          "key": "nagamani",
+          "name": "Nagamani, S"
+        }
+      ],
+      "abstract_text": "Accurate identification of HV-PPIs is essential for understanding viral infection mechanisms and for developing antiviral therapeutic discovery. However, the experimental identification process is often time-consuming and expensive, while many computational approaches depend on incomplete protein sequences, structural and interaction information. Here, we present HV-MultiScaleGNN, a topology-driven multi-scale GNN framework for HV-PPIs prediction that operates exclusively on the topology of a heterogeneous interaction network. The framework formulates HV-PPIs prediction as a heterogeneous link prediction problem by integrating the human interactome with experimentally validated HV-PPIs. HV-MultiScaleGNN systematically investigates three complementary graph representation strategies, viz. Local view, Global view and an integrated Local+Global view. The Local view employs one-hop relation-aware graph attention to model fine-grained neighbourhood interactions. The Global view captures higher-order structural dependencies through propagation-based neighbourhood aggregation. The integrated representation combines both views to jointly encode local connectivity and global topological context within a unified embedding space, enabling relation-specific link prediction without relying on sequence- or structure-derived features. Experiments on large-scale HV-PPIs datasets evaluate all three strategies using discrimination, calibration, and ranking metrics. The Local view achieved the best discriminative performance (AUROC = 0.9444, AUPRC = 0.9422), whereas the Global view exhibited the lowest ECE (0.0379). The integrated Local+Global view provided consistently strong predictive performance (AUROC = 0.9378, AUPRC = 0.9356). Comparative evaluation against representative graph representation learning methods showed competitive predictive performance. Furthermore, interfacial interactions were identified using protein-protein docking and atomistic-level understanding was explored. Moreover, GO and KEGG enrichment provided additional functional insights into the selected host proteins. The proposed framework enables systematic evaluation of complementary graph representation strategies for heterogeneous biological link prediction and helps experimental researchers to delineate novel HV-PPIs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "645ff82ff75e25644c95b6c7a17409edeb1d64f71e042ebd0ad1d76c92f16600",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67838-7",
@@ -3239,7 +3278,7 @@
           "name": "Ronan M. T. Fleming"
         }
       ],
-      "abstract_text": ") are essential for modelling enzymatic activity but experimental data remains limited in scale and diversity. Previous methods for predicting enzyme kinetics typically use mean-pooled residue embeddings from a single protein language model to represent the protein. We present KinForm, a machine learning framework designed to improve predictive accuracy and generalisation for kinetic parameters by optimising protein feature representations. KinForm combines several residue-level embeddings (Evolutionary Scale Modelling Cambrian, Evolutionary Scale Modelling 2, and ProtT5-XL-UniRef50), taken from empirically selected intermediate transformer layers, and applies weighted pooling based on per-residue binding-site probability. To counter the resulting high dimensionality, we apply dimensionality reduction using principal-component analysis (PCA) on concatenated protein features, and rebalance the training data via a similarity-based oversampling strategy. KinForm outperforms baseline methods on two benchmark datasets. Improvements are most pronounced in low sequence similarity bins. We observe improvements from binding-site probability pooling, intermediate-layer selection, PCA, and oversampling of low-identity proteins. We also find that removing sequence overlap between folds provides a more realistic evaluation of generalisation and should be the standard over random splitting when benchmarking kinetic prediction models.",
+      "abstract_text": "Kinetic parameters such as the turnover number ( k cat ) and Michaelis constant ( K M ) are essential for modelling enzymatic activity but experimental data remains limited in scale and diversity. Previous methods for predicting enzyme kinetics typically use mean-pooled residue embeddings from a single protein language model to represent the protein. We present KinForm, a machine learning framework designed to improve predictive accuracy and generalisation for kinetic parameters by optimising protein feature representations. KinForm combines several residue-level embeddings (Evolutionary Scale Modelling Cambrian, Evolutionary Scale Modelling 2, and ProtT5-XL-UniRef50), taken from empirically selected intermediate transformer layers, and applies weighted pooling based on per-residue binding-site probability. To counter the resulting high dimensionality, we apply dimensionality reduction using principal–component analysis (PCA) on concatenated protein features, and rebalance the training data via a similarity-based oversampling strategy. KinForm outperforms baseline methods on two benchmark datasets. Improvements are most pronounced in low sequence similarity bins. We observe improvements from binding-site probability pooling, intermediate-layer selection, PCA, and oversampling of low-identity proteins. We also find that removing sequence overlap between folds provides a more realistic evaluation of generalisation and should be the standard over random splitting when benchmarking kinetic prediction models.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3883,6 +3922,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "64b594110ae1d3cf2a6f3a556b1cb09ab944506f9ea24f4ef29c71f53b69b2c9",
+      "identity_keys": [
+        "arxiv:2611.11045",
+        "https://doi.org/10.48550/arXiv.2611.11045"
+      ],
+      "title": "Agents Propose, Code Verifies, Humans Decide: Verified Agentic Ingestion of Heterogeneous Scientific Tables into Relational Databases",
+      "link": "https://doi.org/10.48550/arXiv.2611.11045",
+      "pdf_url": "https://arxiv.org/pdf/2611.11045v1",
+      "publication_date": "2026-11-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bharatha rankothge",
+          "name": "Bharatha Rankothge"
+        },
+        {
+          "key": "hodgkins suzanne",
+          "name": "Suzanne Hodgkins"
+        },
+        {
+          "key": "rich virginia",
+          "name": "Virginia Rich"
+        },
+        {
+          "key": "kirby michael",
+          "name": "Michael Kirby"
+        }
+      ],
+      "abstract_text": "Public scientific datasets rarely arrive analysis-ready. They arrive as messy folders of wide matrices, long tables, spreadsheets, and per-cohort files whose keys and encodings differ, and every reanalysis must reconnect them first. A coding agent can automate this, but its mistakes can look plausible, and without an audit trail, a mistake that corrupts data can go uncaught. We present an AI-assisted ingestion pipeline built on one rule: LLM agents propose, deterministic code verifies, and humans decide. Narrow agents see compact, citable evidence about the files, never the data, and return typed proposals. A verifier with 39 check types tests each proposal against that evidence in two loops, one for the schema's structure and one for its meaning, and a human reviewer approves the schema and the load. Code compiles PostgreSQL DDL, reshapes the data, quarantines rows it cannot place, records provenance, and reconciles every staged row against the database. On four public biomedical datasets, one held out from development, 9 of 20 first proposals failed a check and every failure was caught: the loops repaired eight, and a one-line reviewer edit fixed the ninth. All 45.1 million values loaded with zero reconciliation gap. Discovering a dataset's structure took 4-7 LLM calls and preparing its data at most one more, costing under $0.50 per dataset. In a separate test, each of nine planted data errors was quarantined with a reason or recorded in an audit log.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

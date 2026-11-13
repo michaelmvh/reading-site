@@ -607,6 +607,81 @@
       "curated_categories": []
     },
     {
+      "id": "211af651a0735eedbd3208690cf3048528865344ac81ea2c41b15a567c0c1e3b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764853v1",
+        "https://doi.org/10.64898/2026.11.06.764853",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764853.source.xml"
+      ],
+      "title": "DIALECT: DNA-Programmable Synthetic Cells Communicate with Mammalian Cells through Synthetic Receptors",
+      "link": "https://doi.org/10.64898/2026.11.06.764853",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764853v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lentjes",
+          "name": "Lentjes, J"
+        },
+        {
+          "key": "makri pistikou",
+          "name": "Makri-Pistikou, A.-M"
+        },
+        {
+          "key": "bogels",
+          "name": "Bogels, B. W. A"
+        },
+        {
+          "key": "yelleswarapu",
+          "name": "Yelleswarapu, M"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, S"
+        },
+        {
+          "key": "grawe",
+          "name": "Grawe, A"
+        },
+        {
+          "key": "van veldhuisen",
+          "name": "van Veldhuisen, T. W"
+        },
+        {
+          "key": "eduati",
+          "name": "Eduati, F"
+        },
+        {
+          "key": "merkx",
+          "name": "Merkx, M"
+        },
+        {
+          "key": "hest van",
+          "name": "van Hest, J. C. M"
+        },
+        {
+          "key": "mann",
+          "name": "Mann, S"
+        },
+        {
+          "key": "de greef",
+          "name": "de Greef, T. F. A"
+        }
+      ],
+      "abstract_text": "Synthetic cells can regulate mammalian signalling through the controlled release of diffusible protein ligands, but coupling programmable synthetic-cell senders to orthogonal, engineered mammalian receptors remains challenging. Here we present DIALECT (DNA-Instructed Assembly of Ligands for Engineered Cellular Transduction), a platform in which proteinosome-based synthetic cells translate sequence-defined DNA inputs into coiled-coil signalling ligand outputs for engineered mammalian receptors. DNA-ligand conjugates are localized within semipermeable proteinosomes through DNA hybridization and released by toehold-mediated DNA strand displacement (TMSD). The released ligands diffuse to neighbouring mammalian cells and activate cognate CC-GEMS receptors, inducing JAK/STAT3 signalling and reporter activation, with a higher response in cognate than non-cognate receiver cells under activation conditions. We further implement distributed Boolean AND logic using two independently programmed proteinosome populations that respond to distinct DNA inputs and release complementary ligand components. Simultaneous addition of both inputs produces substantially higher reporter activity than the respective single-input conditions, consistent with extracellular assembly of an active receptor agonist. DIALECT thus establishes a modular interface linking DNA-based molecular computation in synthetic cells to orthogonal signalling pathways in mammalian cells, providing a foundation for hybrid artificial-biological communication networks.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "211d6af56266fe675fd6564ca069ad3495dbfad22465f9aa8e71d9e3461f95af",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71956-1",
@@ -1901,8 +1976,8 @@
           "name": "Maria Carolina J. A. Schneider"
         },
         {
-          "key": "ba rbara saraiva souza",
-          "name": "Bárbara Saraiva Souza"
+          "key": "bárbara saraiva souza",
+          "name": "Bárbara Saraiva Souza"
         },
         {
           "key": "ferreira leonardo vasconcelos",
@@ -3796,7 +3871,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract Class I MHC molecules present peptides derived from intracellular antigens on the cell surface for immune surveillance, and specific targeting of these peptide-MHC (pMHC) complexes could have considerable utility for treating diseases. Such targeting is challenging as it requires readout of the few outward facing peptide antigen residues and the avoidance of extensive contacts with the MHC carrier which is present on almost all cells. Here we describe the use of deep learning-based protein design tools to de novo design small proteins that arc above the peptide binding groove of pMHC complexes and make extensive contacts with the peptide. We identify specific binders for ten target pMHCs which when displayed on yeast bind the on-target pMHC tetramer but not closely related peptides. For five targets, incorporation of designs into chimeric antigen receptors leads to T-cell activation by the cognate pMHC complexes well above the background from complexes with peptides derived from proteome. Our approach can generate high specificity binders starting from either experimental or predicted structures of the target pMHC complexes, and should be widely useful for both protein and cell based pMHC targeting.",
+      "abstract_text": "Class I major histocompatibility complex (MHC-I) molecules present peptides derived from intracellular antigens on the cell surface for immune surveillance. Proteins that recognize peptide–MHC-I (pMHCI) complexes with specificity for diseased cells could have considerable therapeutic utility. Specificity requires recognition of outward-facing amino acid residues within the disease-associated peptide as well as avoidance of extensive contacts with ubiquitously expressed MHC. We used RFdiffusion to design pMHCI-binding proteins that make extensive contacts with the peptide and identified specific binders for 11 target pMHCs starting from either experimental or predicted pMHCI structures. Upon incorporation into chimeric antigen receptors, designs for eight targets conferred peptide-specific T cell activation. Our approach should have broad utility for both protein- and cell-based pMHCI targeting.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3980,7 +4055,7 @@
           "name": "Meiirbek Islamov"
         }
       ],
-      "abstract_text": "We present a novel protein engineering approach to directed evolution with machine learning that integrates a new semi-supervised neural network fitness prediction model, Seq2Fitness, and an innovative optimization algorithm, b iphasic a nnealing for d iverse a daptive s equence s ampling (BADASS) to design sequences. Seq2Fitness leverages protein language models to predict fitness landscapes, combining evolutionary data with experimental labels, while BADASS efficiently explores these landscapes by dynamically adjusting temperature and mutation energies to prevent premature convergence and find diverse high-fitness sequences. Seq2Fitness predictions improve the Spearman correlation with fitness measurements over alternative model predictions, e.g., from 0.34 to 0.55 for sequences with mutations residues that are absent from the training set. BADASS requires less memory and computation compared to gradient-based Markov Chain Monte Carlo methods, while finding more higher-fitness sequences and maintaining sequence diversity in protein design tasks for two different protein families with hundreds of amino acids. For example, for both protein families 100% of the top 10,000 sequences found by BADASS have higher Seq2Fitness predictions than the wildtype sequence, versus a broad range between 3% to 99% for competing approaches with often many fewer than 10,000 sequences found. The fitness predictions for the top, top 100th, and top 1,000th sequences found by BADASS are all also higher. In addition, we developed a theoretical framework to explain where BADASS comes from, why it works, and how it behaves. Although we only evaluate BADASS here on amino acid sequences, it may be more broadly useful for exploration of other sequence spaces, including DNA and RNA. To ensure reproducibility and facilitate adoption, our code is publicly available here . Author summary Designing proteins with enhanced properties is essential for many applications, from industrial enzymes to therapeutic molecules. However, traditional protein engineering methods often fail to explore the vast sequence space effectively, partly due to the rarity of high-fitness sequences. In this work, we introduce BADASS, an optimization algorithm that samples sequences from a probability distribution with mutation energies and a temperature parameter that are updated dynamically, alternating between cooling and heating phases, to discover high-fitness proteins while maintaining sequence diversity. This stands in contrast to traditional approaches like simulated annealing, which often converge on fewer and lower fitness solutions, and gradient-based Markov Chain Monte Carlo (MCMC), also converging on lower fitness solutions and at a significantly higher computational and memory cost. Our approach requires only forward model evaluations and no gradient computations, enabling the rapid design of high-performing proteins that can be validated in the lab, especially when combined with our Seq2Fitness models. BADASS represents a significant advance in computational protein engineering, opening new possibilities for diverse applications.",
+      "abstract_text": "We present a protein engineering approach to directed evolution with machine learning that integrates a new semi-supervised neural network fitness prediction model, Seq2Fitness, and an innovative optimization algorithm, b iphasic a nnealing for d iverse and a daptive s equence s ampling (BADASS) to design sequences. Seq2Fitness leverages protein language models to predict fitness landscapes, combining evolutionary data with experimental labels, while BADASS efficiently explores these landscapes by dynamically adjusting temperature and mutation energies to prevent premature convergence and to generate diverse high-fitness sequences. Compared to alternative models, Seq2Fitness improves Spearman correlation with experimental fitness measurements, increasing from 0.34 to 0.55 on sequences containing mutations at positions entirely not seen during training. BADASS requires less memory and computation compared to gradient-based Markov Chain Monte Carlo methods, while generating more high-fitness and diverse sequences across two protein families. For both families, 100% of the top 10,000 sequences identified by BADASS exceed the wildtype in predicted fitness, whereas competing methods range from 3% to 99%, often producing far fewer than 10,000 sequences. BADASS also finds higher-fitness sequences at every cutoff (top 1, 100, and 10,000). Additionally, we provide a theoretical framework explaining BADASS’s underlying mechanism and behavior. While we focus on amino acid sequences, BADASS may generalize to other sequence spaces, such as DNA and RNA.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5846,7 +5921,7 @@
       ],
       "title": "Lab to codes: multimodel advanced AI-driven pipelines to drive antimicrobial peptide design for the post-antibiotic era",
       "link": "https://doi.org/10.3389/fcimb.2026.1894311",
-      "pdf_url": null,
+      "pdf_url": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2026.1894311/pdf",
       "publication_date": "2026-09-29",
       "publication_date_precision": "unknown",
       "collection_date": null,

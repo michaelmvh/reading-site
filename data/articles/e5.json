@@ -392,8 +392,8 @@
           "name": "Kenneth D. Carr"
         },
         {
-          "key": "kibler ryan",
-          "name": "Ryan D. Kibler"
+          "key": "daniel kibler ryan",
+          "name": "Ryan Daniel Kibler"
         },
         {
           "key": "din el gamal tamer",
@@ -695,6 +695,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e525f6d6f6a1a12637a8d895e5efed0e5c31f9b4831c16a257d938343fe71e90",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765700v1",
+        "https://doi.org/10.64898/2026.11.10.765700",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765700.source.xml"
+      ],
+      "title": "Comprehensive Characterization of Somatic Mutations and Gene Expression on TP53/PTEN DKO Murine Glioblastoma Cell Lines: Insights from Whole-Exome and RNA-seq Analysis",
+      "link": "https://doi.org/10.64898/2026.11.10.765700",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765700v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zain",
+          "name": "Zain, M"
+        },
+        {
+          "key": "nishat",
+          "name": "Nishat, S"
+        }
+      ],
+      "abstract_text": "Glioblastoma (GBM) is an aggressive brain tumor characterized by genomic instability and transcriptional plasticity. To investigate the somatic evolution of GBM, we performed an integrated analysis using Whole-Exome Sequencing (WES) and RNA-seq on a murine glioblastoma model representing two stages: early-stage transformed neural stem cells (tNSC) and late-stage malignant GBM (mGB). The comparative analysis of mutational signatures provides evidence of a two-phase evolutionary path for tNSC and mGB. Variant calling in tNSCs revealed mutations in Pfdn2, Oip5, Trmt10a, Nabp2, Man2b1 with mGBs acquiring additional putative progression-associated genes such as Cdk4, Ubap2, Ccdc11, Errfil, and Tead2 associated with malignancy and Temozolomide (TMZ) resistance. Samples in tNSCs exhibited signatures associated with stress-(SBS4) and development-associated (SBS40) processes. In contrast, mGB samples exhibited an increase inmutation signatures, specifically associated with replication- (SBS5) and mismatch repair (MMR) processes (SBS26). Notably, SBS26 consistently ranked in the top five mutational signatures across all samples, indicating that there may have been an early, and sustained, loss of MMR. Ti/Tv ratio also revealed elevated transversions in tNSCs supporting early instability post TP53/PTEN knockout, while mGB demonstrated normal transition-to-transversion ratio. Gene ontology reveals activities in neurodevelopmental pathways in tNSCs such as neurogenesis, axon guidance, and synapse regulation while in mGB it shifts to cellular transformation and invasion, and epidermal development. Moreover, differential expression analysis showed extreme downregulation against control neural stem cells (ctrlNSCs) indicating genomic instability and then the partial restoration of expression in mGB, resembling ctrlNSCs but with a bias toward malignant upregulations. Together this suggests, early genomic instability disrupting developmental programs and blocking differentiation, and later on replication-driven mutations and cytoskeletal remodeling reprograms the tumor into a proliferative, invasive, and therapy-resistant state.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -2141,6 +2176,45 @@
           "key": "arxiv:q-bio.QM",
           "label": "arXiv: Quantitative Methods",
           "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e55e817de901dc3d6c343e0cc2128e0e8857fde72f0d7d112889e4d775fa61c5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764481v1",
+        "https://doi.org/10.64898/2026.11.05.764481",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764481.source.xml"
+      ],
+      "title": "Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics",
+      "link": "https://doi.org/10.64898/2026.11.05.764481",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764481v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "qian",
+          "name": "Qian, W"
+        },
+        {
+          "key": "song",
+          "name": "Song, Y"
+        },
+        {
+          "key": "welch",
+          "name": "Welch, J. D"
+        }
+      ],
+      "abstract_text": "Resolving the causal structure of gene regulatory networks is central to understanding cellular regulation. Pooled CRISPR screens with single-cell RNA readouts measure the transcriptional consequences of many interventions in parallel, providing a powerful resource for causal discovery. Combinatorial designs that perturb multiple regulators per cell increase throughput and can reveal responses that single-gene perturbations do not. However, inferring causal gene networks from these experiments remains challenging because gene regulatory interactions are nonlinear, dynamic, and often involve feedback. Thus, attributing the combined effect of several perturbations to individual regulators remains difficult. Additionally, transcriptional regulation is ultimately carried out by proteins, while single-cell perturbation datasets generally measure only RNA levels. Existing methods often simplify regulatory dynamics or rely on assumptions that conflict with gene regulation, such as acyclicity. Moreover, current evaluation practices usually rely on expression prediction error, which is readily computable in real datasets, but does not necessarily reflect graph quality. A complementary metric is needed to assess inferred regulatory connections using observed perturbation responses in real data. To address these challenges, we present CausalODE, a differentiable framework for learning causal graphs from single-cell perturbation data. Our approach incorporates three central insights to improve upon previous methods. First, genes that are differentially expressed when a gene is perturbed should be downstream of the target gene in the regulatory network; we quantify this property with a metric we term causal reach. Second, causal interactions involve transient cellular responses in RNA transcription, splicing, and degradation. Third, gene regulatory interactions are mediated by proteins, whose levels are not directly measured in single-cell RNA-seq experiments. Building on these insights, CausalODE learns a graph that optimizes the causal reach metric, captures transient cellular responses to perturbation, and explicitly models the latent dynamics of protein levels. Together, these components allow nonlinear responses, feedback loops, and time-lagged regulation. Across simulated Perturb-seq datasets with different sparsities and graph structures, CausalODE improves AUPRC and precision among top-ranked edges compared with baselines and competing methods, while achieving competitive AUROC. We introduce a metric to evaluate the causal reach of inferred graphs on real data by measuring how well the graphs explain differentially expressed genes in single-cell perturbation experiments. Using this metric, CausalODE outperforms the strongest competing method or baseline by approximately 60% on the CaRPool-seq knockdown dataset and 80% on the Norman et al. activation dataset. Its top-ranked edges generally show greater enrichment for high-confidence evidence from cell-type-matched ChIP-seq, CollecTRI, and regulatory STRING than those of other methods. The inferred graphs also distinguish non-additive from approximately additive genetic interactions in held-out perturbation pairs. Finally, ablation analyses show that optimizing causal reach improves performance on held-out perturbations, and the learned latent regulator activities track simulated protein dynamics, with median temporal correlations ranging from 0.79 to 0.99.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

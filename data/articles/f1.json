@@ -721,7 +721,7 @@
           "name": "Alfredo Alexander‐Katz"
         }
       ],
-      "abstract_text": "Repeat proteins, known for their modularity, are focal points of de novo protein design. This study adopts a curiosity-driven approach to explore and discover proteins with repeated sequences. Leveraging AlphaFold 2, we initially bias our sequence design by integrating amyloid β42 with a random hexapeptide linker, achieving high foldability in over 12% of cases through polymerization. Without targeting a structural specification, we evolve these structures into a mosaic of folds using segmental mutations and genetic algorithms. The majority of these de novo structures demonstrate good stability in silico through molecular dynamics simulation. Additionally, we investigate the compatibility of medial strands to assess potential variations in structural integrity upon mutation. This curiosity-driven approach not only underscores the evolvability and versatility of repeat proteins but also highlights the potential for developing peptide-based pharmaceuticals and functional materials.",
+      "abstract_text": "Repeat proteins, known for their functional versatility and modularity, are focal points of de novo protein design. This study explores and discovers proteins with repeated sequences using evolutionary approaches. Leveraging AlphaFold 2, our initial sequence design integrates amyloid β42 with a random hexapeptide linker through polymerization, achieving high foldability in more than 12% of cases. We further evolve these structures into a mosaic of folds using segmental mutations and genetic algorithms. The majority of these de novo structures demonstrate good in silico stability through molecular dynamics simulation. Additionally, we investigate the compatibility of medial strands to assess potential variations in structural integrity upon mutation, revealing a trade-off among foldability, structural variation, and sequence similarity. This evolutionary approach not only underscores the evolvability and versatility of repeat proteins but also highlights the potential for developing peptide-based pharmaceuticals and functional materials.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1640,7 +1640,7 @@
           "name": "Charlotte Mary Deane"
         }
       ],
-      "abstract_text": "ABSTRACT Antigen receptor numbering allows the rapid delineation of the antigen-binding regions of antibody and T cell receptor (TCR) sequences, from sequence alone. It also allows the comparison of the vast diversity of antigen receptors in a consistent frame of reference. Numbering of antigen receptors is currently achieved by aligning sequences to a reference set. This approach may result in different numbering, depending on the reference set used or may fail to number query sequences derived from new species or rare sequence types. To address this problem, we have built a new numbering method (ANARCII) which requires no alignment step and is based on a Seq2Seq language model. Our results show that ANARCII can deal with the complexity that arises in experimentally collected sequencing data and generalise to sequences which are highly dissimilar to those in training. In test sets designed to contain challenging and ambiguous sequence patterns ANARCII numbering was identical to existing methods for over 99.99% of conserved residues and over 99.94% for complete CDR regions. The lightweight architecture allows numbering of over 90,000 sequences per minute on a single A100 GPU. Furthermore, the ANARCII package can be conditioned to fit rare sequence types and provide new training data for fine-tuning. We demonstrate that fine-tuned versions of ANARCII can correctly number other immunoglobulin domains such as TCRs and VNARs. Our model is freely available as a web tool ( https://github.com/oxpig/ANARCII ), as well as a package for high throughput numbering of next generation sequencing data ( https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/anarcii/ ).",
+      "abstract_text": "Abstract Antigen receptor numbering allows delineation of antigen-binding regions of antibodies and T cell receptors, from sequence alone. Numbering is currently achieved by aligning to a reference set. This approach may result in different numbering depending on reference set used or fail on sequences from rare species or formats. We present a method (ANARCII) which requires no alignment step and is based on a Seq2Seq language model. ANARCII improves upon existing methods through more consistent numbering of key regions, robustness to truncations, generalisation to unseen species, and easier user installation. The lightweight architecture allows numbering of 90,000 sequences per minute on a high-end GPU. The software is available via web app ( https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/anarcii/ ), and package ( https://github.com/oxpig/ANARCII ). Ultimately ANARCII allows numbering of more antibody-like sequences, with better recovery of full-length regions from existing databases, and enables comparative analysis of new receptors not numbered by existing tools.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2148,7 +2148,7 @@
           "name": "Gira Bhabha"
         }
       ],
-      "abstract_text": "Membrane transport proteins translocate diverse cargos, ranging from small sugars to entire proteins, across cellular membranes. A few structurally distinct protein families have been described that account for most of the known membrane transport processes. However, many membrane proteins with predicted transporter functions remain uncharacterized. We determined the structure of E. coli LetAB, a phospholipid transporter involved in outer membrane integrity, and found that LetA adopts a distinct architecture that is structurally and evolutionarily unrelated to known transporter families. LetA functions as a pump at one end of a ~225 Å long tunnel formed by its binding partner, MCE protein LetB, creating a pathway for lipid transport between the inner and outer membranes. Unexpectedly, the LetA transmembrane domains adopt a fold that is evolutionarily related to the eukaryotic tetraspanin family of membrane proteins, including TARPs and claudins. LetA has no detectable homology to known transport proteins, and defines a new class of membrane transporters. Through a combination of deep mutational scanning, molecular dynamics simulations, AlphaFold-predicted alternative states, and functional studies, we present a model for how the LetA-like family of membrane transporters may use energy from the proton-motive force to drive the transport of lipids across the bacterial cell envelope.",
+      "abstract_text": "Membrane transport proteins translocate diverse cargos, ranging from small sugars to entire proteins, across cellular membranes1–3. A few structurally distinct protein families have been described that account for most of the known membrane transport processes4–6. However, many membrane proteins with predicted transporter functions remain uncharacterized. Here we determined the structure of Escherichia coli LetAB, a phospholipid transporter involved in outer membrane integrity, and found that LetA adopts a distinct architecture that is structurally and evolutionarily unrelated to known transporter families. LetA localizes to the inner membrane, where it is poised to load lipids into its binding partner, LetB, a mammalian cell entry (MCE) protein that forms an approximately 225 Å long tunnel for lipid transport across the cell envelope. Unexpectedly, the LetA transmembrane domains adopt a fold that is evolutionarily related to the eukaryotic tetraspanin family of membrane proteins, including transmembrane AMPA receptor regulatory proteins (TARPs) and claudins. Through a combination of deep mutational scanning, molecular dynamics simulations, AlphaFold-predicted alternative states and functional studies, we present a model for how the LetA-like family of membrane transporters facilitates the transport of lipids across the bacterial cell envelope. The distinct architecture of the Escherichia coli membrane transporter LetA mediates lipid trafficking across the bacterial envelope in partnership with the tunnel-like complex LetB.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5065,6 +5065,76 @@
         }
       ],
       "abstract_text": "Quantum dots are high-potential materials for a wide range of applications, particularly in the infrared spectral range, including telecommunications, security, sensing, photovoltaics, and bioimaging. The size and chemical composition of semiconductor quantum dots determine their optoelectronic properties. While II-VI and IV-VI quantum dots are well-studied, the colloidal synthesis of infrared-active III-V quantum dots such as InAs, which are compliant with the European Union directive for restriction of hazardous substances, remains underdeveloped. In particular, the synthesis of larger InAs quantum dots is challenging due to the strong covalent character of In-As bonding, limited control over precursor reactivity, and complex growth pathways. Here we show the synthesis of large, near-bulk InAs quantum dots using atomic clusters as precursors. All nanostructures are synthesized from 'green' commercially available precursors. These results extend the accessible size regime of colloidal InAs nanoparticles to diameters approaching 40 nm and establish a platform for their use in infrared technologies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f1e2266fdcc3efb0f8bb334eaea7f2d2ce6fa4b926ef58706088bf8533f2c184",
+      "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.5c01992",
+        "https://openalex.org/W7116926340"
+      ],
+      "title": "Design of Highly Potent Antibiofilm, Antimicrobial Peptides Using Explainable Artificial Intelligence",
+      "link": "https://doi.org/10.1021/acs.jcim.5c01992",
+      "pdf_url": null,
+      "publication_date": "2025-12-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Chemical Information and Modeling",
+      "authors": [
+        {
+          "key": "karina pikalyova",
+          "name": "Karina Pikalyova"
+        },
+        {
+          "key": "akhmetshin tagir",
+          "name": "Tagir N. Akhmetshin"
+        },
+        {
+          "key": "alexey orlov",
+          "name": "Alexey A. Orlov"
+        },
+        {
+          "key": "evan haney",
+          "name": "Evan F. Haney"
+        },
+        {
+          "key": "akhoundsadegh noushin",
+          "name": "Noushin Akhoundsadegh"
+        },
+        {
+          "key": "jiaying you",
+          "name": "Jiaying You"
+        },
+        {
+          "key": "hancock robert",
+          "name": "Robert E. W. Hancock"
+        },
+        {
+          "key": "dragos horvath",
+          "name": "Dragos Horvath"
+        },
+        {
+          "key": "gilles marcou",
+          "name": "Gilles Marcou"
+        },
+        {
+          "key": "artem cherkasov",
+          "name": "Artem R Cherkasov"
+        },
+        {
+          "key": "alexandre varnek",
+          "name": "Alexandre A. Varnek"
+        }
+      ],
+      "abstract_text": "Antimicrobial peptides have emerged as a potential alternative to traditional small-molecule antimicrobials. They possess broad-spectrum efficacy and increasingly confront the challenges of bacterial resistance, especially the adaptive resistance of biofilms. However, advanced rational peptide design methods are still required to ensure optimal property profiles of such peptides, while limiting the cost of their synthesis and screening. Here, we present a computational pipeline for the rational de novo design of antimicrobial and antibiofilm peptides based on an explainable artificial intelligence (XAI) framework. The developed framework combines a Wasserstein Autoencoder (WAE) and a nonlinear dimensionality reduction method─generative topographic mapping (GTM). The WAE was used to learn the latent representation of the peptide space, while the GTM guided the generation of novel AMPs through an illustrative depiction of the latent space in the form of 2D maps. The generated peptides were subjected to screening by machine learning models, resulting in the final hit list based on their predicted activity. The efficacy of the peptides generated with the developed pipeline was experimentally verified by synthesis and testing for activity against methicillin-resistant Staphylococcus aureus (MRSA), achieving a 100% hit rate in targeting biofilms. Notably, the most potent antibiofilm peptide developed in this study demonstrated almost one order of magnitude improvement in IC 50 value compared with the potent antibiofilm peptide reference “1018”, used as a positive control. The developed pipeline is readily extendable for the optimization of additional peptide properties, including cytotoxicity, tendency to aggregate, and proteolytic stability, underscoring its potential utility for rational design of the peptide-based therapeutics.",
       "discovery_sources": [
         {
           "kind": "open_alex",

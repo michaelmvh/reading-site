@@ -149,7 +149,7 @@
           "name": "Wei Lan"
         }
       ],
-      "abstract_text": "Abstract Antibody drugs are among the fastest growing therapeutic modalities in modern drug research and development. Due to the huge search space of antibody sequences, the traditional experimental screening method cannot fully meet the needs of antibody discover. More and more rational design methods have been proposed to improve the success rate of antibody drugs. In recent years, artificial intelligence methods have increasingly become an important means of rational design. We have proposed an algorithm for antibody design, called AlphaPanda (AlphaFold2 inspired Protein-specific antibody design in a diffusional manner). The algorithm mainly combines the transformer model, the 3DCNN model and the diffusion generative model, use the transformer model to capture the global information and uses the 3DCNN model to capture the local structural characteristics of the antibody-antigen complexes, and then uses the diffusion model to generate sequences and structures of antibodies. The 3DCNN model can capture pairwise interactions in antibody-antigen complex, as well as non-pairwise interactions in antibody-antigen complex, and it requires less training sample data, while avoiding the defects of the generation progress by the autoregressive model and by the self-consistent iterative model. Diffusion generative model can generate sequence and structure effectively and with high quality. By combining 3DCNN method and diffusion model method, we have achieved the integration of 3DCNN model to the protein design with flexible main chains. By utilizing the advantages of these aspects, a good performance has been achieved by the AlphaPanda algorithm. The algorithm we propose can not only be applied to antibody design, but also be more widely applied to various fields of other protein design. The source code can be get from github ( https://github.com/YueHuLab/AlphaPanda ).",
+      "abstract_text": "• AlphaPanda: A novel AI algorithm for antibody design combining transformer, 3DCNN, and diffusion models. • Captures global and local structural details for precise antibody-antigen interaction modeling. • Enables flexible antibody design with potential for broader protein design applications.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2848,6 +2848,53 @@
       "curated_categories": []
     },
     {
+      "id": "b18b1a23af6c444fc1834b2232845020bf96377cf15c6431c3f254bc89d7cdd9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764284v1",
+        "https://doi.org/10.64898/2026.11.04.764284",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764284.source.xml"
+      ],
+      "title": "U-statistics-based Pairwise Discordance Regression for Joint Mean-Variability Inference in Longitudinal Studies with Missing Data",
+      "link": "https://doi.org/10.64898/2026.11.04.764284",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764284v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, J"
+        },
+        {
+          "key": "javid",
+          "name": "Javid, A"
+        },
+        {
+          "key": "osmundson",
+          "name": "Osmundson, S"
+        },
+        {
+          "key": "tu",
+          "name": "Tu, X. M"
+        },
+        {
+          "key": "schildcrout",
+          "name": "Schildcrout, J. S"
+        }
+      ],
+      "abstract_text": "Longitudinal studies are central to scientific inquiry across disciplines; yet, statistical analyses have predominantly focused on mean trajectories while treating variability as a secondary or nuisance component. Increasing evidence suggests that temporal variability and heterogeneity themselves encode critical scientific information, particularly in studies with repeated measurements, heterogeneous populations, or rich covariate structures. The classical mixed-effects and location-scale model family represents variability through latent variable components but relies on strong parametric assumptions and often requires numerical approximation or computationally intensive estimation. Here we introduce the semiparametric pairwise discordance regression, a unified framework for longitudinal data that directly models pairwise contrasts to simultaneously characterize mean trajectories, between-subject heterogeneity, and within-subject temporal variability. By targeting pairwise discordances rather than latent variance components, the proposed approach enables robust inference without specifying full parametric distributions for latent components or error terms, provided the specified conditional moment restrictions hold. Pair-level covariate encodings further accommodate flexible covariate structures and allow variability parameters to be interpreted through pairwise contrasts or dissimilarities. Estimation and inference are carried out via (weighted) U-statistic-based generalized estimating equations (UGEE) with a valid sandwich variance estimator, and we extend the fitting procedure to accommodate missing-at-random dropout. We establish the asymptotic distributions of the resulting estimators under mild regularity conditions. Simulation studies demonstrate reliable finite-sample performance in the settings considered, including non-Gaussian errors and misspecified working correlation structures, whereas likelihood-based parametric fits can be sensitive to distributional assumptions or numerically unstable. An application to longitudinal blood pressure during pregnancy illustrates the framework on real data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b18d3a9d2a364d53f61a51ef378d742aa0ed1ab42d437e105b01f8cb77cc4c3a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68019-2",
@@ -3547,7 +3594,7 @@
       ],
       "title": "Efficient biological design via genomic in-context learning",
       "link": "https://doi.org/10.64898/2026.10.28.762643",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/29/2026.10.28.762643.full.pdf",
       "publication_date": "2026-10-29",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -4415,7 +4462,7 @@
       ],
       "title": "CLEAN Database: providing enzyme function coverage for over 55 million sequences",
       "link": "https://doi.org/10.1093/nar/gkag1003",
-      "pdf_url": null,
+      "pdf_url": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkag1003/71957356/gkag1003.pdf",
       "publication_date": "2026-10-06",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -5110,7 +5157,7 @@
       ],
       "title": "Can agents reliably design therapeutic antibodies?",
       "link": "https://doi.org/10.48550/arxiv.2611.00558",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.00558",
       "publication_date": "2026-10-31",
       "publication_date_precision": "unknown",
       "collection_date": null,

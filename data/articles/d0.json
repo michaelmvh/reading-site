@@ -2935,6 +2935,69 @@
       "curated_categories": []
     },
     {
+      "id": "d09a8d9804a4cabf36aaf8d07a38b2896782e061b36386f058733bab5a86120c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762831v1",
+        "https://doi.org/10.64898/2026.10.29.762831",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.10.29.762831.source.xml"
+      ],
+      "title": "Unveiling immune targets via TriStageHLA: high-throughput screening of peptide presentation, peptide-HLA binding, and immunogenicity",
+      "link": "https://doi.org/10.64898/2026.10.29.762831",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762831v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lu",
+          "name": "LU, T"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "li",
+          "name": "Li, Z"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, T"
+        },
+        {
+          "key": "cho",
+          "name": "Cho, K"
+        },
+        {
+          "key": "yao",
+          "name": "Yao, Z"
+        },
+        {
+          "key": "li",
+          "name": "Li, X"
+        },
+        {
+          "key": "wong",
+          "name": "Wong, K.-C"
+        }
+      ],
+      "abstract_text": "High-throughput screening of HLA class I epitopes underpins neoantigen vaccine design, T cell therapies, and pathogen immune monitoring, yet proteome-scale prioritization remains challenging under severe class imbalance. We present TriStageHLA, a compact three-stage framework that decomposes epitope discovery into peptide-only screening (PRE), allele-specific binding/presentation prediction (BIND), and immunogenicity prediction (IM). PRE performs early pruning via a LoRA-adapted ESM-2 classifier; BIND integrates quantitative binding affinity and eluted ligand data with a dual-branch architecture combining global cross-attention and local motif extraction; IM is fine-tuned on curated human T-cell assay data with a decoupled LoRA head. Trained on IEDB-derived datasets with per-allele balancing and allele-discordant supervision, TriStageHLA-BIND achieves AUROC of 96.2% and AUPRC of 95.2% on combined BA/EL evaluation, while TriStageHLA-IM reaches AUROC of 81.4\\% and AUPRC of 73.8\\% on held-out immunogenicity data, improving over the strongest immunogenicity baselines ImmuneApp (70.7% / 63.6%) and BigMHC-IM (60.1% / 51.5%). With substantially fewer trainable parameters than prior models, TriStageHLA enables efficient, calibrated epitope prioritization across binding, presentation, and immunogenicity. Code and pretrained weights are available at https://github.com/SkywalkerLuke/TriStageHLA.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d09bda56e36c90cec50d9ccaa78280f126750db73211ac9cefd6d9861d3c70b4",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03541-3",
@@ -3020,6 +3083,53 @@
         }
       ],
       "abstract_text": "Transcriptome-wide profiling at single-cell resolution is limited by sparse detection of gene expression, raising the question of how much transcriptomic information can be recovered from a small set of highly expressed genes. We developed Top2All, a Mouse-Geneformer-based framework for reconstructing transcriptome-wide expression from sample-specific sparse inputs. Using 24 cell-number-normalized RNA-seq profiles of mouse adrenal zona fasciculata cells across eight experimental conditions defined by sex and sex-steroid milieu, we evaluated condition-aware and no-condition models under replicate-wise out-of-fold and leave-one-condition-out validation. Top2All achieved near-unity sample-wise correlation with measured expression, but similarly high correlations were obtained using simple reference profiles, whereas gene-wise evaluation revealed substantially greater differences among methods. Explicit condition information did not consistently improve reconstruction, indicating that sex- and sex-steroid-associated condition information was already strongly encoded in the sparse expression profiles. Nearest-neighbor retrieval provided a stronger baseline than learned reconstruction, and input-depth analysis showed that increasing the number of input genes did not monotonically improve performance. These findings show that a relatively small set of highly expressed genes contains substantial information about transcriptomic state, while accurate reconstruction of gene-specific biological variation remains challenging. Sparse-to-transcriptome models should therefore be evaluated using gene-wise metrics, strong reference baselines, and tests of generalization beyond conditions represented during training.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d0a3e16c03e5aa0747938dd48a267bb14200a429fdcfe4b9fb5ab54d0cca6cf2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764599v1",
+        "https://doi.org/10.64898/2026.11.05.764599",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764599.source.xml"
+      ],
+      "title": "scCont: Interpretable Contrastive Learning for Functional Characterization of Cellular State Transitions",
+      "link": "https://doi.org/10.64898/2026.11.05.764599",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764599v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kewalramani",
+          "name": "Kewalramani, N"
+        },
+        {
+          "key": "wuchty",
+          "name": "Wuchty, S"
+        },
+        {
+          "key": "crovella",
+          "name": "Crovella, M"
+        },
+        {
+          "key": "paul",
+          "name": "Paul, I"
+        },
+        {
+          "key": "emili",
+          "name": "Emili, A"
+        }
+      ],
+      "abstract_text": "Timecourse single-cell RNA (scRNA) datasets have become indispensable biological tools for studying and uncovering the underlying regulatory processes driving continuous cell-state transitions such as the epithelial-to-mesenchymal transition. However, these highly fluid, non-linear gene program dynamics remain difficult to disentangle. While deep neural network models can effectively map complex topologies, they are biological black boxes, lacking the gene-level interpretability required by experimental practitioners. Here, we introduce scCont, a fully unsupervised contrastive learning framework for extracting interpretable functional transition units from scRNA-seq data. Rather than relying on explicit temporal labels or clustering priors, scCont uses an unsupervised k-nearest neighbors approach to project local transcriptomic neighborhoods into a low-dimensional embedding. During post-training analysis, scCont employs Shapley network attribution to determine gene-latent relationships, mapping latent dimensions directly into functional gene programs. We quantitatively and qualitatively validate this representation by demonstrating that scCont captures biologically interpretable dynamics more effectively than baseline methods such as LDVAE. Evaluated across 13 diverse EMT timecourse datasets and four simulated datasets, scCont exposes interpretable functional dynamics and effectively maps context-dependent functional groups, helping to bridge the gap between deep learning representation and translational biological utility. scCont is an open source software available on GitHub (https://github.com/nramani611/scCont).",
       "discovery_sources": [
         {
           "kind": "biorxiv",
@@ -3644,7 +3754,7 @@
       ],
       "title": "in silico design of a multimodal trimeric peptide candidate predicted to simultaneously target glycemic control, autoimmunity, and pancreatic ß-cell regeneration in type 1 diabetes",
       "link": "https://doi.org/10.29327/2413063.23.2-4",
-      "pdf_url": "https://www.researchsquare.com/article/rs-8951973/latest.pdf",
+      "pdf_url": null,
       "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -3663,7 +3773,7 @@
           "name": "Luís Matos de Oliveira"
         }
       ],
-      "abstract_text": "Abstract Introduction: Type 1 diabetes mellitus (T1DM) currently affects 9.5 million individuals worldwide, with incidence rising through 2040. Clinical management remains anchored to exogenous insulin replacement, which neither arrests autoreactive CD8⁺ T-cell–mediated insulitis, nor blocks IL-1β–driven β-cell apoptosis, nor restores PDX-1/NGN3-dependent endocrine identity. No approved agent addresses these three pathological axes concurrently. Objective: To computationally design and validate TrimInsulinX-3 (TIX-3), a trimeric peptide candidate engineered to simultaneously engage the insulin receptor (InsR), the IL-1R1/IL-1βcomplex, and the GLP-1 receptor/PDX-1 axis within a single molecular scaffold. Methods: Three functionally orthogonal monomers M1-InsA, M2-ImmunoQ, and M3-BetaR, were de novo designed via RFdiffusion backbone generation, ProteinMPNN sequence optimization, and AlphaFold2 multimer validation, using exclusively open-source platforms. The trimeric construct was assembled with disulfide-stabilized PEG₄ linkers and subjected to 200 ns molecular dynamics (GROMACS 2023.3/AMBER ff19SB). Docking was performed with AutoDock Vina 1.2.7 and cross-validated with HADDOCK 2.4; binding free energies were computed via gmx_MMPBSA. ADMET properties were predicted using pkCSM and SwissADME; immunogenicity was assessed with NetMHCpan-4.1/NetMHCIIpan-4.3. Results: All monomers adopted stable helix–loop–helix folds (pLDDT > 85; iBSA > 850 Å²). Backbone RMSD stabilized below 2.3 Å over 200 ns simulations. Docking convergence was high across platforms (Cα RMSD < 1.6 Å), with predicted ΔGbind of −11.2, −10.6, and −11.9 kcal·mol⁻¹ for InsR, IL-1R1, and GLP-1R, respectively. The predicted ADMET profile, t½ ~18 h, subcutaneous bioavailability ~78%, LogP −1.4, negative AMES mutagenicity, is consistent with injectable peptide therapeutics. After iterative deimmunization, no strong MHC binders were identified across 166 alleles. Conclusion: TIX-3 is the first in silico –conceived trimeric peptide designed to address the metabolic, immunological, and regenerative axes of T1DM within a unified molecular architecture, and its predicted pharmacological profile supports advancement to experimental validation.",
+      "abstract_text": "RESUMO INTRODUÇÃO: O diabetes mellitus tipo 1 (DM1) acomete atualmente 9,5 milhões de indivíduos em todo o mundo, com incidência projetada em ascensão até 2040. O manejo clínico permanece ancorado na reposição exógena de insulina, estratégia que não interrompe a insulite mediada por linfócitos T CD8? autorreativos, tampouco bloqueia a apoptose das células ß induzida por IL-1ß, nem restaura a identidade endócrina dependente de PDX-1/NGN3. Nenhum agente aprovado para terapia do DM1 aborda esses três eixos fisiopatológicos de forma concomitante. Objetivo: Desenvolver computacionalmente e validar o TrimInsulinX-3 (TIX-3), um peptídeo trimérico candidato projetado para engajar simultaneamente o receptor de insulina (InsR), o complexo IL- -1R1/IL-1ß e o eixo receptor de GLP-1/PDX-1, dentro de um único arcabouço molecular. MÉTODOS: Três monômeros funcionalmente ortogonais — M1- InsA, M2-ImmunoQ e M3-BetaR — foram desenhados de novo por meio de geração de esqueleto proteico via RFdiffusion, otimização de sequência com ProteinMPNN e validação multimérica pelo AlphaFold2, utilizando exclusivamente plataformas de código aberto. O construto trimérico foi montado com ligantes PEG4 estabilizados por pontes dissulfeto e submetido a 200 ns de dinâmica molecular (GROMACS 2023.3/campo de força AMBER ff19SB). O docking molecular foi realizado com AutoDock Vina 1.2.7 e validado de forma cruzada com HADDOCK 2.4; as energias livres de ligação foram calculadas via gmx_ MMPBSA. As propriedades ADMET foram preditas com pkCSM e SwissADME; a imunogenicidade foi avaliada com NetMHCpan- 4.1/NetMHCIIpan-4.3. RESULTADOS: Todos os monômeros adotaram conformações estáveis do tipo hélice–alça–hélice (pLDDT >85; iBSA >850 Å²). O RMSD do esqueleto proteico estabilizou-se abaixo de 2,3 Å ao longo das simulações de 200 ns. A convergência do docking foi elevada entre as plataformas (RMSD de Ca <1,6 Å), com ?Glig previsto de -11,2, -10,6 e -11,9 kcal·mol?¹ para InsR, IL-1R1 e GLP-1R, respectivamente. O perfil ADMET predito — t½ ~18 h, biodisponibilidade subcutânea ~78%, LogP -1,4 e mutagenicidade AMES negativa — é compatível com o de peptídeos terapêuticos de administração injetável. Após processo iterativo de desimunização, nenhum ligante forte de MHC foi identificado entre os 166 alelos avaliados. CONCLUSÃO: O TIX-3 constitui o primeiro peptídeo trimérico concebido in silico para abordar os eixos metabólico, imunológico e regenerativo do DM1 em uma arquitetura molecular unificada, e seu perfil farmacológico previsto fundamenta o avanço para validação experimental. Descritores: Diabetes mellitus tipo 1; Desenho in silico de peptídeos; Biofármaco",
       "discovery_sources": [
         {
           "kind": "open_alex",

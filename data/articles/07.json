@@ -5099,7 +5099,7 @@
           "name": "Sebastian J. Pomplun"
         }
       ],
-      "abstract_text": "Abstract Discovering high-affinity ligands directly from protein structures remains a key challenge in drug discovery. We applied BindCraft, a structure-guided generative modeling platform, to de novo design of peptide ligands for protein interfaces. Originally developed for miniprotein binders, we evaluated its use for shorter peptides (10–20mers) as peptides hold greater synthetic accessibility and therapeutic potential. For the oncoprotein MDM2, BindCraft generated 70 unique peptides; 15 were synthesized, and 7 showed specific binding with nanomolar affinities (K D = 65–165 nM). Competition assays confirmed site-specific binding for the intended target site. For another oncology target, WDR5, peptides were designed for the MLL (WIN) and MYC (WBM) sites. Of the peptides tested for each site, no validated hits were found for the WIN site, but six candidates bound the WBM site with sub-micromolar affinity (K D = 219–650 nM). Based on Bindcraft’s structural prediction of the binding interface, we designed a stapled variant of the best WDR5 binder, improving the potency by 6-fold to a K D of 39 nM. Overall, our findings establish BindCraft as a powerful and accessible platform for structure-based peptide discovery, with remaining limitations, but with a promising success rate even for challenging targets.",
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Discovering high-affinity ligands directly from protein structures remains a key challenge in drug discovery. BindCraft is a structure-guided generative modeling platform able to de novo design miniproteins with a high affinity for a large set of targets. While miniproteins are valuable research tools, short peptides offer substantially greater therapeutic potential. However, given their lack of stabilized tertiary structures, de novo generation of functional peptides is a remarkable challenge. Here, we show that BindCraft is able to generate high affinity peptides, solely based on target structure, with remarkable success rates. For the oncoprotein MDM2, BindCraft generated 70 unique peptides; 15 were synthesized, and 7 showed specific binding with nanomolar affinities. Competition assays confirmed site-specific binding for the intended target site. For another oncology target, WDR5, six out of nine candidates bound the MYC binding WBM site with submicromolar affinity. Bindcraft’s high fidelity structure prediction enabled one shot peptide optimization via rational chemical modification, improving the potency of one WDR5 binder by 6-fold to a K D of 39 nM. BindCraft also generated candidate peptides for targeting PD-1 and PD-L1. However, none of the tested peptides showed detectable binding. Together, these results establish a first evaluation of BindCraft for peptide binder prediction. Despite remaining limitations, this tool shows the potential to rival display technologies in delivering high-affinity ligands for therapeutic development.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5267,6 +5267,52 @@
           "key": "arxiv:q-bio.QM",
           "label": "arXiv: Quantitative Methods",
           "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "07c231bba396d95e39753bc3ee35e1cb91dab8780b61579be3613d57aa43ae80",
+      "identity_keys": [
+        "https://doi.org/10.1021/acsnano.6c12868",
+        "https://openalex.org/W7225700367"
+      ],
+      "title": "Attempts to Understand and Manipulate the Orientation and Retention of Peptides Inside Nanopores Expand the Toolbox for Nanopore-Based Proteomics",
+      "link": "https://doi.org/10.1021/acsnano.6c12868",
+      "pdf_url": null,
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Nano",
+      "authors": [
+        {
+          "key": "wei xing",
+          "name": "Xing Wei"
+        },
+        {
+          "key": "wang xinpei",
+          "name": "Xinpei Wang"
+        },
+        {
+          "key": "dan liu",
+          "name": "Dan Liu"
+        },
+        {
+          "key": "shao yuxi",
+          "name": "Yuxi Shao"
+        },
+        {
+          "key": "gang huang",
+          "name": "Gang Huang"
+        }
+      ],
+      "abstract_text": "Abstract Nanopore techniques have emerged as promising tools for deciphering complex proteomics from the single-molecule level by profiling individual peptides. The entry orientation of a peptide and its subsequent retention inside the nanopore are crucial for the analytical results but remain challenging to be properly defined, which limits the sensing capability of nanopore-based proteomics technology. Here, we propose that electrically driving peptide entry into α-hemolysin nanopores against opposing electroosmotic flows is a promising platform to guide the polypeptide with a preferential orientation. α-Hemolysin mutants with opposite ion selectivity have been engineered and employed to measure peptides at pH 3.8 and at alkaline pH exceeding 10.0. The impact of peptide charge distribution on the orientation has been investigated by simulating the peptide dipole moment and electrophysiology measurements. In addition, the retention position of the peptide has been altered by introducing tryptophan residues at position 125 within the β-barrel region of α-hemolysin, which increases the sensitivity for specific peptide region and enables the detection of initially inaccessible monomethylation modifications. Thus, we present a rational framework to investigate and manipulate the orientation and dwelling position of peptides inside the α-hemolysin nanopore, which can enhance our capability to profile polypeptides by using nanopore techniques.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []
@@ -6210,7 +6256,7 @@
           "name": "Jesper Pallesen"
         }
       ],
-      "abstract_text": "Abstract Currently approved vaccines for the prevention of malaria provide only partial protection against disease, due to high variability in the quality of induced antibodies. These vaccines present the unstructured central repeat region, as well as the C-terminal domain, of the circumsporozoite protein ( Pf CSP) of the malaria parasite, Plasmodium falciparum (1). A recently discovered protective monoclonal antibody, L9, recognizes three structured copies of the Pf CSP minor repeat. Similarly to other highly potent anti-malarial antibodies, L9 relies on critical homotypic interactions between antibodies for its high protective efficacy (2, 3). Here, we report the design of immunogens scaffolding one copy of Pf CSP’s minor repeat capable of binding L9. To design immunogens capable of presenting multiple, structure-based epitopes in one scaffold, we developed a machine-learning-driven structural immunogen design pipeline, MESODID, tailored to focus on multi-epitope vaccine targets. We use this pipeline to design multiple scaffolds that present three copies of the Pf CSP minor repeat. A 3.6 Å cryo-EM structure of our top design, minor repeat targeting immunogen (M-TIM), demonstrates that M-TIM successfully orients three copies of L9, effectively recapitulating its critical homotypic interactions. The wide prevalence of repeated epitopes in key vaccine targets, such as HIV-1 Envelope, SARS-CoV-2 spike, and Influenza Hemagglutinin, suggests that MESODID will have broad utility in creating immunogens that incorporate such epitopes, offering a new powerful approach to developing vaccines against a range of challenging infections, including malaria. Significance Statement In this study, we present a machine learning driven, structure-guided protein design pipeline built specifically for the design of multi-epitope vaccine immunogens. We employ the pipeline here to design and solve the cryo-EM structure of a de novo immunogen that binds and properly orients three copies of the anti-malarial monoclonal antibody L9, producing a promising next-generation malaria vaccine immunogen. This design pipeline could be employed to design any number of structurally constrained multi-epitope immunogens, as well as other proteins designed to bind multiple targets.",
+      "abstract_text": "Currently approved vaccines for the prevention of malaria provide only partial protection against disease due to high variability in the quality of induced antibodies. These vaccines present the unstructured central repeat region, as well as the C-terminal domain, of the circumsporozoite protein ( Pf CSP) of the malaria parasite, Plasmodium falciparum [K. L. Williams et al ., Nat. Med. 30 ,1–13 (2024)]. A recently discovered protective monoclonal antibody, L9, recognizes three structured copies of the Pf CSP minor repeat. Similarly to other highly potent antimalarial antibodies, L9 relies on critical homotypic interactions between antibodies for its high protective efficacy [P. Tripathi et al. , Structure 31 , 480–491.e4 (2023); G. M. Martin et al. , Nat. Commun. 14 ,2815 (2023)]. Here, we report the design of antigens scaffolding one copy of Pf CSP’s minor repeat capable of binding L9. To design antigens capable of presenting multiple, structure-based epitopes in one scaffold, we developed a machine learning– driven structural antigen design pipeline, MESODID, tailored to focus on multiepitope vaccine targets. We use this pipeline to design multiple scaffolds that present three copies of the Pf CSP minor repeat. A 3.6 Å cryo-EM structure of our top design, minor repeat targeting immunogen (M-TIM), demonstrates that M-TIM successfully orients three copies of L9, effectively recapitulating its critical homotypic interactions. The wide prevalence of repeated epitopes in key vaccine targets, such as HIV-1 Envelope, SARS-CoV-2 spike, and Influenza Hemagglutinin, suggests that MESODID will have broad utility in creating antigens that incorporate such epitopes, offering a powerful approach to developing vaccines against a range of challenging infections, including malaria.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6782,6 +6828,70 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "07fd3f17dd646a1904541a34ec067241d5069c94caa2db916f54192041adff4c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.03.29.711974v2",
+        "https://doi.org/10.64898/2026.03.29.711974",
+        "https://www.biorxiv.org/content/early/2026/03/30/2026.03.29.711974.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.03.29.711974.source.xml"
+      ],
+      "title": "Panmap: Scalable phylogeny-guided alignment, genotyping, and placement on pangenomes",
+      "link": "https://doi.org/10.64898/2026.03.29.711974",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.29.711974v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kramer",
+          "name": "Kramer, A. M"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, A"
+        },
+        {
+          "key": "ayala",
+          "name": "Ayala, N"
+        },
+        {
+          "key": "de sanctis",
+          "name": "de Sanctis, B"
+        },
+        {
+          "key": "karim",
+          "name": "Karim, L. M"
+        },
+        {
+          "key": "hinrichs",
+          "name": "Hinrichs, A. S"
+        },
+        {
+          "key": "walia",
+          "name": "Walia, S"
+        },
+        {
+          "key": "turakhia",
+          "name": "Turakhia, Y"
+        },
+        {
+          "key": "corbett detig",
+          "name": "Corbett-Detig, R"
+        }
+      ],
+      "abstract_text": "Pangenomes capture population-level variation but remain computationally challenging at scale. We present Panmap, a tool that leverages evolutionary structure to place, align, and genotype sequencing reads against mutation-annotated pangenomes containing up to millions of genomes. Panmap introduces a phylogenetically compressed k-mer index that stores only sequence differences along branches, enabling efficient comparison of reads to both sampled genomes and inferred ancestors. This approach reduces index size by up to 600-fold and construction time by over three orders of magnitude relative to existing tools. Panmap places a 100x coverage SARS-CoV-2 sample onto 20,000 genomes in 0.4 seconds and onto 8 million genomes in under two minutes. Furthermore, it enables accurate haplotype identification and abundance estimation in metagenomic samples and sensitive placement of ancient environmental DNA without prior alignment. Our approach makes large-scale pangenomes directly amenable to read mapping, genome assembly, alignment-free phylogenetic placement, and metagenomic analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

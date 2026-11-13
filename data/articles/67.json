@@ -3251,6 +3251,41 @@
       "curated_categories": []
     },
     {
+      "id": "677d53e52a7ea37a661974941ab9c56f2bdab1de1928cfae31e1de59c2c3a639",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764894v1",
+        "https://doi.org/10.64898/2026.11.06.764894",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764894.source.xml"
+      ],
+      "title": "Contrasting within-donor gene covariation identifies disease-associated cells and genes in case-control single-cell studies",
+      "link": "https://doi.org/10.64898/2026.11.06.764894",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764894v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chang",
+          "name": "Chang, F"
+        },
+        {
+          "key": "duren",
+          "name": "Duren, Z"
+        }
+      ],
+      "abstract_text": "In case-control single-cell studies, disease often affects only a subset of cells of a given type within each patient. Comparing all cells from patients with all cells from control donors therefore dilutes disease signals, while donor variation and recorded or unrecorded batch effects can be confounded with disease status. We present IDC (Identification of Disease-associated Cells), which uses this cellular heterogeneity as signal. A mixture of affected and unaffected cells creates coordinated variation among disease-associated genes within each patient, whereas shifts shared by all cells of a donor leave this within-donor covariance unchanged. IDC therefore contrasts within-donor gene-gene covariance between patients and controls to learn disease-associated expression programs without batch labels, then applies positive-unlabeled learning to score each cell's disease-like state and estimate each donor's disease burden. IDC also computes, in closed form, gene contribution scores and leave-gene-out cell scores that exclude each tested gene, enabling within-donor differential expression testing and cross-donor meta-analysis without retraining. In simulations, IDC identified affected cells and estimated donor burden more accurately than deep generative and label-refinement methods, remained robust to strong unrecorded batch effects, and detected differentially expressed genes more sensitively than case-control pseudobulk methods while controlling false discoveries. In human pancreatic islets and prefrontal cortex, disease burden in held-out donors separated type 2 diabetes (T2D) from non-diabetic donors in beta cells, and late-stage Alzheimer's disease (AD) from non-AD donors in astrocytes and inhibitory neurons, while placing prediabetic and early-AD donors at intermediate levels. Genes with the highest IDC contribution scores were more strongly enriched for the KEGG T2D and AD pathways than case-control pseudobulk rankings, and within-donor testing revealed coordinated metabolic, cell-adhesion and synaptic changes along the inferred disease axis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6782beaf4aa9982fec24f10c56cb0028bcf345776718e34dcc082ea56816eb87",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68080-x",
@@ -5312,6 +5347,61 @@
       "curated_categories": []
     },
     {
+      "id": "67c3ad9f848a9a81ffa240aa4050bbc8b882feefe1e96d225f9e5f8ccf8c8ecc",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764802v1",
+        "https://doi.org/10.64898/2026.11.06.764802",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.06.764802.source.xml"
+      ],
+      "title": "Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference",
+      "link": "https://doi.org/10.64898/2026.11.06.764802",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764802v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "monti",
+          "name": "Monti, D. C"
+        },
+        {
+          "key": "ciccolella",
+          "name": "Ciccolella, S"
+        },
+        {
+          "key": "cozzi",
+          "name": "Cozzi, D"
+        },
+        {
+          "key": "della vedova",
+          "name": "Della Vedova, G"
+        },
+        {
+          "key": "bonizzoni",
+          "name": "Bonizzoni, P"
+        },
+        {
+          "key": "denti",
+          "name": "Denti, L"
+        },
+        {
+          "key": "hormozdiari",
+          "name": "Hormozdiari, F"
+        }
+      ],
+      "abstract_text": "Somatic structural variants (SVs) are among the most clinically relevant genomic alterations in cancer. However, their accurate detection remains challenging due to complex genomic rearrangements, repetitive genomic regions, difficulties in distinguishing somatic variants from germline variation and sequencing artifacts, and limited sequencing support for low-frequency events. Existing mapping-based somatic SV callers are susceptible to alignment ambiguities in repetitive regions and near complex SV breakpoints, while approaches relying on comparisons of independently generated tumor and normal variant callsets may propagate errors from both callsets. Building on the concept of specific strings, previously applied to germline SV discovery, we introduce VESPA-SS, a novel approach for detecting somatic SVs from paired tumor-normal long-read whole-genome sequencing data. VESPA-SS directly extracts somatic SV signals using specific strings computed from tumor reads against a Draft Composite Germline Reference, without requiring initial read mapping or a high-quality germline assembly. These signals are subsequently clustered and refined through consensus sequence generation and alignment-based procedures to identify somatic SVs. Evaluation on real PacBio HiFi datasets demonstrates that VESPA-SS outperforms state-of-the-art somatic SV callers, achieving F1 scores exceeding 0.92 and 0.90 on the well-characterized HG008 and COLO829 cancer cell lines, respectively, compared with the highest F1 scores of 0.86 and 0.85 achieved by the evaluated methods. These results demonstrate the effectiveness of specific string based signal extraction for accurate somatic SV discovery and establish a new computational paradigm for identifying complex genomic alterations in cancer. VESPA-SS is freely available at https://github.com/dcmonti/VESPA.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "67c60f78a4e8ea241758fa7209892b254d046625b604f9ec2b8458ab99c088ad",
       "identity_keys": [
         "https://doi.org/10.1016/j.bpj.2025.11.2257",
@@ -5704,6 +5794,64 @@
         "2. Model-based design",
         "2.1.1 trRosetta-based"
       ]
+    },
+    {
+      "id": "67dcc09f84b28b8da2e27da1b4749db66b5cd948c17fd171b1a79f5c09ace2dc",
+      "identity_keys": [
+        "https://doi.org/10.1021/acsinfecdis.6c00523",
+        "https://openalex.org/W7225692710"
+      ],
+      "title": "Dual-Target Compound 4E2RCat Combats MRSA by Disrupting Membrane Homeostasis and Targeting the Virulence Regulator ClpX",
+      "link": "https://doi.org/10.1021/acsinfecdis.6c00523",
+      "pdf_url": null,
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Infectious Diseases",
+      "authors": [
+        {
+          "key": "xiong yanpeng",
+          "name": "Yanpeng Xiong"
+        },
+        {
+          "key": "chen ping",
+          "name": "Ping Chen"
+        },
+        {
+          "key": "chen chengchun",
+          "name": "Chengchun Chen"
+        },
+        {
+          "key": "li peiyu",
+          "name": "Peiyu Li"
+        },
+        {
+          "key": "chen zhong",
+          "name": "Zhong Chen"
+        },
+        {
+          "key": "tianxin xiang",
+          "name": "Tianxin Xiang"
+        },
+        {
+          "key": "hou tieying",
+          "name": "Tieying Hou"
+        },
+        {
+          "key": "yu zhijian",
+          "name": "Zhijian Yu"
+        }
+      ],
+      "abstract_text": "Abstract Methicillin-resistant Staphylococcus aureus (MRSA) poses a severe global health threat due to multidrug resistance, biofilm formation, and potent virulence. The ATP-dependent Clp protease subunit ClpX plays a central role in proteostasis and virulence regulation, making it an attractive target for anti-MRSA therapy. Here, we identified 4E2RCat, a previously reported inhibitor of eukaryotic translation initiation factor 4E (eIF4E), as a dual-functional antimicrobial agent. It exerted antibacterial activities by disrupting bacterial membrane homeostasis and attenuated virulence by directly targeting of ClpX. 4E2RCat displayed robust antibacterial activity against MRSA, with minimal inhibitory concentrations (MICs) ranging from ≤ 3.13 to 12.5 μM, and conferred a low propensity to resistance development. Moreover, it inhibited biofilm formation, eradicated mature biofilms, and killed intracellular MRSA and persister cells. Mechanistically, transcriptomic and membrane assays revealed that 4E2RCat perturbed bacterial membrane lipid homeostasis, reduced membrane fluidity, increased permeability, and induced oxidative stress. Drug affinity responsive target stability, biolayer interferometry, molecular docking, and gene knockout assays identified ClpX as one of the direct cellular targets of 4E2RCat, through which the compound suppressed the expression of key virulence factors, including AgrA, α-hemolysin, and SaeR. In a murine model of MRSA pneumonia, 4E2RCat markedly improved mouse survival, reduced pulmonary bacterial burden, and alleviated lung tissue damage. These findings establish 4E2RCat as a multitargeting lead compound whose combination of rapid membrane homeostasis disruption and ClpX-mediated virulence attenuation underlies its low propensity for resistance development, supporting the development of dual-targeting therapeutics against drug-resistant MRSA infections.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "67dce2eaba6d60043539d2b5319e93a470a46432fb36153027b517a492d5f973",
@@ -6261,7 +6409,7 @@
         },
         {
           "key": "gos micklem",
-          "name": "Micklem, Gos"
+          "name": "Gos Micklem"
         },
         {
           "key": "liò pietro",

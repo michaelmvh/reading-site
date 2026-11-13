@@ -2601,6 +2601,61 @@
       "curated_categories": []
     },
     {
+      "id": "307114b0707b76bfcf1355f0a43df8e010459799983634f55653d20e1ace745d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764447v2",
+        "https://doi.org/10.64898/2026.11.05.764447",
+        "https://openalex.org/W7225385188",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764447.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.05.764447.source.xml"
+      ],
+      "title": "pLM-bVAE: protein language model-enhanced binary representation improves quantum annealing-based protein sequence design",
+      "link": "https://doi.org/10.64898/2026.11.05.764447",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764447v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ueda",
+          "name": "Ueda, H. H"
+        },
+        {
+          "key": "tucs",
+          "name": "Tucs, A"
+        },
+        {
+          "key": "tsuda",
+          "name": "Tsuda, K"
+        },
+        {
+          "key": "umetsu",
+          "name": "Umetsu, M"
+        },
+        {
+          "key": "saito",
+          "name": "Saito, Y"
+        }
+      ],
+      "abstract_text": "Quantum annealing (QA) has been explored as an approach for protein design in vast combinatorial sequence spaces. Applying QA to protein sequence design requires amino acid sequences to be encoded as binary vectors, and optimized vectors to be decoded back into amino acid sequences. Thus, both the quality of binary encoding and sequence reconstruction accuracy are important for effective QA-based optimization. Binary variational autoencoder (bVAE) has been used to map protein sequences to binary representations in QA-based protein sequence design. However, bVAE was originally developed for natural language modeling, and its suitability for proteins has not been systematically evaluated. Here, we present pLM-bVAE, which incorporates protein representations derived from a pretrained protein language model (pLM) into the original bVAE model. In computational experiments on three public protein variant datasets, pLM-bVAE showed higher sequence reconstruction accuracy and binary encoding performance than bVAE. Moreover, we incorporated pLM-bVAE into a QA-based protein sequence design framework. Across all three datasets, pLM-bVAE generated more high-scoring sequences with greater sequence dissimilarity from the training and validation data than bVAE. Our results demonstrate that pLM-bVAE provides an effective binary representation for improving QA-based protein sequence design. Availability The source code used in this manuscript is available at https://github.com/hueda8/pLM-bVAE.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3072465436547015fca48d4051f641098b59e2c0c10e4ea946a3aaf58279fc80",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00526-8",
@@ -2885,7 +2940,7 @@
           "name": "Jianhua Yao"
         }
       ],
-      "abstract_text": "Abstract Artificial Intelligence (AI) techniques have made great advances in assisting antibody design. However, antibody design still heavily relies on isolating antigen-specific antibodies from serum, which is a resource-intensive and time-consuming process. To address this issue, we propose a Pre-trained Antibody generative large Language Model (PALM) for the de novo generation of artificial antibodies heavy chain complementarity-determining region 3 (CDRH3) with desired antigen-binding specificity, reducing the reliance on natural antibodies. We also build a high-precision model antigen-antibody binder (A2binder) that pairs antigen epitope sequences with antibody sequences to predict binding specificity and affinity. PALM-generated antibodies exhibit binding ability to SARS-CoV-2 antigens, including the emerging XBB variant, as confirmed through in-silico analysis and in-vitro assays. The in-vitro assays validated that PALM-generated antibodies achieve high binding affinity and potent neutralization capability against both wild-type and XBB spike proteins of SARS-CoV-2. Meanwhile, A2binder demonstrated exceptional predictive performance on binding specificity for various epitopes and variants. Furthermore, by incorporating the attention mechanism into the PALM model, we have improved its interpretability, providing crucial insights into the fundamental principles of antibody design.",
+      "abstract_text": "Artificial Intelligence (AI) techniques have made great advances in assisting antibody design. However, antibody design still heavily relies on isolating antigen-specific antibodies from serum, which is a resource-intensive and time-consuming process. To address this issue, we propose a Pre-trained Antibody generative large Language Model (PALM-H3) for the de novo generation of artificial antibodies heavy chain complementarity-determining region 3 (CDRH3) with desired antigen-binding specificity, reducing the reliance on natural antibodies. We also build a high-precision model antigen-antibody binder (A2binder) that pairs antigen epitope sequences with antibody sequences to predict binding specificity and affinity. PALM-H3-generated antibodies exhibit binding ability to SARS-CoV-2 antigens, including the emerging XBB variant, as confirmed through in-silico analysis and in-vitro assays. The in-vitro assays validate that PALM-H3-generated antibodies achieve high binding affinity and potent neutralization capability against spike proteins of SARS-CoV-2 wild-type, Alpha, Delta, and the emerging XBB variant. Meanwhile, A2binder demonstrates exceptional predictive performance on binding specificity for various epitopes and variants. Furthermore, by incorporating the attention mechanism inherent in the Roformer architecture into the PALM-H3 model, we improve its interpretability, providing crucial insights into the fundamental principles of antibody design. Antibody design still heavily relies on isolating antigen-specific antibodies from serum. Here the authors report a Pre-trained Antibody generative large Language Model (PALM-H3) for the de novo generation of artificial antibodies heavy chain complementarity-determining region 3 with desired antigen-binding specificity.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3511,7 +3566,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract Enzymes that proceed through multistep reaction mechanisms often utilize complex, polar active sites positioned with sub-angstrom precision to mediate distinct chemical steps, which makes their de novo construction extremely challenging. We sought to overcome this challenge using the classic catalytic triad and oxyanion hole of serine hydrolases as a model system. We used RFdiffusion 1 to generate proteins housing catalytic sites of increasing complexity and varying geometry, and a newly developed ensemble generation method called ChemNet to assess active site geometry and preorganization at each step of the reaction. Experimental characterization revealed novel serine hydrolases that catalyze ester hydrolysis with catalytic efficiencies ( k cat / K m ) up to 3.8 × 10 3 M -1 s -1 , closely match the design models (Cα RMSDs < 1 Å), and have folds distinct from natural serine hydrolases. In silico selection of designs based on active site preorganization across the reaction coordinate considerably increased success rates, enabling identification of new catalysts in screens of as few as 20 designs. Our de novo buildup approach provides insight into the geometric determinants of catalysis that complements what can be obtained from structural and mutational studies of native enzymes (in which catalytic group geometry and active site makeup cannot be so systematically varied), and provides a roadmap for the design of industrially relevant serine hydrolases and, more generally, for designing complex enzymes that catalyze multi-step transformations.",
+      "abstract_text": "The design of enzymes with complex active sites that mediate multistep reactions remains an outstanding challenge. With serine hydrolases as a model system, we combined the generative capabilities of RFdiffusion with an ensemble generation method for assessing active site preorganization at each step in the reaction to design enzymes starting from minimal active site descriptions. Experimental characterization revealed catalytic efficiencies ( k cat / K m ) up to 2.2 × 10 5 M −1 s −1 and crystal structures that closely match the design models (Cα root mean square deviations <1 angstrom). Selection for structural compatibility across the reaction coordinate enabled identification of new catalysts remove with five different folds distinct from those of natural serine hydrolases. Our de novo approach provides insight into the geometric basis of catalysis and a roadmap for designing enzymes that catalyze multistep transformations.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4383,6 +4438,42 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "30bb0b3390ba92a0cb3b0defb3ceb1a43433e07f6b4958b381b78b6502bea561",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.18.745447v2",
+        "https://doi.org/10.64898/2026.08.18.745447",
+        "https://www.biorxiv.org/content/early/2026/08/23/2026.08.18.745447.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.08.18.745447.source.xml"
+      ],
+      "title": "Implicit Hierarchical Tensor Decomposition of Single-Cell Four-Omics Data Reveals Cell-Type-Linked Candidate Enhancer--Promoter-Associated Programs",
+      "link": "https://doi.org/10.64898/2026.08.18.745447",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745447v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "taguchi",
+          "name": "Taguchi, Y.-h"
+        },
+        {
+          "key": "turki",
+          "name": "Turki, T"
+        }
+      ],
+      "abstract_text": "Single-cell multi-omics provides complementary views of gene regulation, but integrating modalities with natural features comprising enhancers, genes, and three-dimensional (3D) genomic loci remains challenging. This study developed an implicit hierarchical tensor decomposition framework and applied it to the CHARM single-cell four-omics mouse brain data (GSE303006) by jointly analyzing ATAC, H3K27ac, RNA, and reconstructed 3D enhancer--promoter (E--P) distances. After quality control, 730,969 E--P pairs, 42,669 enhancers, 16,239 genes, 391,435 20-kb bin pairs, and 4,258 cells were retained. Each modality was independently reduced to 20 components and mapped to an implicit 730,969x4{,}258x20x4 tensor, which was decomposed without materializing the full array. In a joint model, cell type explained more variance than biological replicate for all 12 distinct cell components represented among the 100 largest Tucker core elements. A representative core linked the Inh_Ndnf/Lamp5--Ex_L3/4_IT cell axis to contrasting presynaptic-transmission and developmental/morphogenetic candidate E--P-associated programs. Its E--P and cell factors were recovered when the whole analysis was repeated independently on each pair of replicates, and the E--P pairs it prioritized agreed in direction with the cell-type-resolved enhancer--gene links of the original CHARM study. No single modality reproduced the program, which required the combination of accessibility, chromatin contact, and expression. Backprojection showed reproducible ATAC, H3K27ac, and 3D effects across three biological replicates; RNA differed clearly for the developmental module but not for the presynaptic module. The framework thus identifies regulatory structure that is shared across molecular modalities and is not recoverable from any single modality.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

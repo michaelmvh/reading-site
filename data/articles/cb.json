@@ -1150,6 +1150,62 @@
       "curated_categories": []
     },
     {
+      "id": "cb38fb75bf721fa5641da6b79c203b766227245b0a65e2536287c676a330bd95",
+      "identity_keys": [
+        "arxiv:2611.15812",
+        "https://doi.org/10.48550/arXiv.2611.15812"
+      ],
+      "title": "Silscore: modelling siRNA potency with positional thermodynamics and data-selected nucleotide-identity terms",
+      "link": "https://doi.org/10.48550/arXiv.2611.15812",
+      "pdf_url": "https://arxiv.org/pdf/2611.15812v1",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "giuseppe sacco",
+          "name": "Giuseppe Sacco"
+        },
+        {
+          "key": "baldini isabella",
+          "name": "Isabella Baldini"
+        },
+        {
+          "key": "paone riccardo",
+          "name": "Riccardo Paone"
+        },
+        {
+          "key": "capulli mattia",
+          "name": "Mattia Capulli"
+        },
+        {
+          "key": "guido sanguinetti",
+          "name": "Guido Sanguinetti"
+        },
+        {
+          "key": "bussi giovanni",
+          "name": "Giovanni Bussi"
+        }
+      ],
+      "abstract_text": "Small interfering RNAs (siRNAs) enable programmable gene silencing, but candidates targeting the same transcript can differ markedly in potency. Existing predictors range from interpretable empirical rules with limited accuracy to high-capacity models that can lose performance when datasets or targets change. We present Silscore, a guide-only model that combines a quadratic preference for overall duplex stability, a position-resolved profile of nearest-neighbour stacking energies and sparse nucleotide-identity terms selected from residuals left unexplained by thermodynamics. Its main fit uses 26 parameters, fewer than half as many as any trainable comparator evaluated here. We evaluate Silscore on the canonical split of the Huesken dataset, two external datasets (Mixset and Katoh-Suzuki), and an evaluation in which the same guides are tested after training on dissimilar targets. Silscore attains the highest observed Pearson correlation in all three transfer evaluations, and the data support an advantage over every applicable comparator on Katoh-Suzuki. For a fixed evaluation set, we compare two equally sized training sets with higher or lower sequence similarity to the evaluation sequences. After training on the less similar sequences, Silscore has the highest observed correlation, and the data do not establish a change in its performance. The fitted parameters can also be interpreted directly: identity terms locate sequence effects that base-pairing energies cannot express, global stability has a data-estimated intermediate optimum, and local energy profiles recover terminal asymmetry and a preference for weaker seed and stronger central pairing. Silscore thus provides a compact, data-driven model that combines strong predictive performance with robustness when tested in new settings and expresses previously reported empirical preferences as quantities estimated from data.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        },
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cb3ef548d9b0c20513d99b8943d504e90f1a65614d5047a9dc02d9f23b438e35",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02391-x",

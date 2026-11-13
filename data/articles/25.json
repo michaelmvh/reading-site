@@ -2593,6 +2593,52 @@
       "curated_categories": []
     },
     {
+      "id": "2582f0e9de5e0d477709228e4a078871eb98c7d31c3ceb6317088cc349086119",
+      "identity_keys": [
+        "arxiv:2611.15966",
+        "https://doi.org/10.48550/arXiv.2611.15966"
+      ],
+      "title": "Subject-Held-Out Evaluation of Deep Ground Reaction Force Estimators Across Two Laboratories: Leakage and Cross-Laboratory Transfer",
+      "link": "https://doi.org/10.48550/arXiv.2611.15966",
+      "pdf_url": "https://arxiv.org/pdf/2611.15966v1",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "david hernan santos",
+          "name": "Hernan David Santos"
+        },
+        {
+          "key": "chen yinong",
+          "name": "Yinong Chen"
+        },
+        {
+          "key": "ding yu",
+          "name": "Yu Ding"
+        },
+        {
+          "key": "xudong zhang",
+          "name": "Xudong Zhang"
+        },
+        {
+          "key": "jian tao",
+          "name": "Jian Tao"
+        }
+      ],
+      "abstract_text": "Deep networks that estimate ground reaction forces and centers of pressure from motion-capture markers are validated within one laboratory, in a seldom-stated coordinate frame, and sometimes with trial-level splits that put the same person in the training and the test set. We measured what each practice costs, and whether such models transfer between laboratories. Three sequence models (convolutional, convolutional-recurrent, and convolutional-transformer) were evaluated on two independent datasets, locomotion (6 subjects) and occupational patient handling (10 subjects), under one pipeline, one tuning procedure, three seeds, and four protocols: trial-level split, leave-one-subject-out, pooled two-laboratory training with matched held-out subjects, and cross-laboratory transfer. At a fixed configuration, trial-level splits overstated the subject-held-out coefficient of determination by +0.040 to +0.194; on occupational data the overstatement exceeded every difference between architectures. With subjects held out, the three models reached values between 0.583 and 0.804; the leader differed between datasets, and gaps lay within subject-to-subject variability. Pooling the laboratories changed neither dataset on matched subjects. Transfer between laboratories was below chance in both directions, including the vertical force, which no in-plane rotation can affect. Leaving force targets in the plate frame while inputs were heading-aligned cost 0.57 of locomotion anteroposterior-force explained variance, enough to make that force look hardest; a Newton's-law correlation detected the mismatch before training. Split protocol and target frame changed reported accuracy more than architecture did. Learned force estimators should be validated with subjects held out, checked for frame consistency before training, and tested across laboratories before deployment claims are made.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "25884d72bd24c74497073ede0696b0797a644800db203ada0c0ff7f6f10b1fa8",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-04119-9",
@@ -3299,6 +3345,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "25ab813fb7c4d5a7673136994bff3a6b027a5eec6a3ddfdd7d49a394d7057293",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.764470v1",
+        "https://doi.org/10.64898/2026.11.10.764470",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.10.764470.source.xml"
+      ],
+      "title": "Sense-to-sense changes in bacterial genetic codes: Experimental validation by cell-free translation and native-host proteomics",
+      "link": "https://doi.org/10.64898/2026.11.10.764470",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.764470v1.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kim",
+          "name": "Kim, P. H"
+        },
+        {
+          "key": "mcsweeney",
+          "name": "McSweeney, M. A"
+        },
+        {
+          "key": "hong",
+          "name": "Hong, J. T"
+        },
+        {
+          "key": "steczynska",
+          "name": "Steczynska, J"
+        },
+        {
+          "key": "chan",
+          "name": "Chan, H. N"
+        },
+        {
+          "key": "jewett",
+          "name": "Jewett, M. H"
+        },
+        {
+          "key": "light",
+          "name": "Light, Y. K"
+        },
+        {
+          "key": "williams",
+          "name": "Williams, K. P"
+        },
+        {
+          "key": "schoeniger",
+          "name": "Schoeniger, J. S"
+        }
+      ],
+      "abstract_text": "In the sixty years since the publication of the complete genetic code [1], many variants of the classical codon table [2] have been observed to occur naturally, including both stop codon and sense-to-sense reassignment, but in bacteria the only experimentally validated variants are stop-codon reassignments. Recently, computational analysis with Codetta predicted bacterial genetic codes containing sense-to-sense changes. Using an Escherichia coli cell-free protein synthesis (CFPS) system, we tested tRNAs predicted to reassign arginine codons to tryptophan. These candidate CGG-decoding tRNAs from bacteria phylogenetically distant from E. coli restored cyan fluorescence from an sfGFP Y66R reporter in a dose-dependent manner when added to CFPS extracts containing canonical tRNAArg(CCG). Reactions lacking the CGG-to-Trp candidate tRNA remained near background. Reassignment was also observed with firefly luciferase and NanoLuc reporters, in which Trp incorporation restored activity and solubility. Intact-protein mass spectrometry yielded masses consistent with Arg-to-Trp substitution. Deep data-independent acquisition (DIA) proteomics of Anaerococcus prevotii, a species for which Codetta predicts CGG to code for Trp, revealed six peptides containing Trp encoded at native CGG codons and no peptides containing CGG-encoded Arg, consistent with native CGG decoding as Trp in this organism. Together, these results provide direct functional support for predicted bacterial sense-to-sense genetic codes and establish a cell-free framework for discovering natural tRNAs that expand translational coding capacity.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
         }
       ],
       "curated_categories": []
@@ -4337,7 +4446,7 @@
           "name": "Timothy J. Stasevich"
         }
       ],
-      "abstract_text": "Intrabodies are engineered antibodies that function inside living cells, enabling therapeutic, diagnostic, and imaging applications. While powerful, their development has been hindered by challenges associated with their folding, solubility, and stability in the reduced intracellular environment. Here, we present an AI-driven pipeline integrating AlphaFold2, ProteinMPNN, and live-cell screening to optimize antibody framework regions while preserving epitope-binding complementarity-determining regions. Using this approach, we successfully converted 19 out of 26 antibody sequences into functional single-chain variable fragment (scFv) intrabodies, including a panel targeting diverse histone modifications for real-time imaging of chromatin dynamics and gene regulation. Notably, 18 of these 19 sequences had failed to convert using the standard approach, demonstrating the unique effectiveness of our method. As antibody sequence databases expand, our method will accelerate intrabody design, making their development easier, more cost-effective, and broadly accessible for biological research.",
+      "abstract_text": "Intrabodies are engineered antibodies that function inside living cells, enabling therapeutic, diagnostic, and imaging applications. While powerful, their development has been hindered by challenges associated with their folding, solubility, and stability in the reduced intracellular environment. Here, we present an artificial intelligence-driven pipeline integrating AlphaFold2, ProteinMPNN, and live-cell screening to optimize antibody framework regions while preserving epitope-binding complementarity-determining regions. Using this approach, we successfully converted 19 of 26 antibody sequences into functional single-chain variable fragment intrabodies, including a panel targeting diverse histone modifications for real-time imaging of chromatin dynamics and gene regulation. Notably, 18 of these 19 sequences had failed to convert using the standard approach, demonstrating the unique effectiveness of our method. As antibody sequence databases expand, our method will accelerate intrabody design, making their development easier, more cost effective, and broadly accessible for biological research.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4776,7 +4885,7 @@
         },
         {
           "key": "subramanian subu",
-          "name": "Subu K. Subramanian"
+          "name": "Subu Subramanian"
         },
         {
           "key": "tom yuan",

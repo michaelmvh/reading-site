@@ -3217,6 +3217,72 @@
       "curated_categories": []
     },
     {
+      "id": "f7737ebcf7cc69ddb83b3c8ada86f046083f7b8449df2a6b54a27f6b480ccac7",
+      "identity_keys": [
+        "https://doi.org/10.1002/smtd.71205",
+        "https://openalex.org/W7225802900"
+      ],
+      "title": "Modulated Laser‐Assisted Nanopore Fabrication With Ammonium Sulfate for Single‐Molecule Sensing",
+      "link": "https://doi.org/10.1002/smtd.71205",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smtd.71205",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Small Methods",
+      "authors": [
+        {
+          "key": "kyosuke matsuda",
+          "name": "Kyosuke Matsuda"
+        },
+        {
+          "key": "hirano taichi",
+          "name": "Taichi Hirano"
+        },
+        {
+          "key": "shu takahashi",
+          "name": "Shu Takahashi"
+        },
+        {
+          "key": "萩原英貴",
+          "name": "萩原英貴"
+        },
+        {
+          "key": "cuifeng ying",
+          "name": "Cuifeng Ying"
+        },
+        {
+          "key": "hatashita kouya",
+          "name": "Kouya Hatashita"
+        },
+        {
+          "key": "masaya yokono",
+          "name": "Masaya Yokono"
+        },
+        {
+          "key": "mabuchi takuya",
+          "name": "Takuya Mabuchi"
+        },
+        {
+          "key": "chuman yoshiro",
+          "name": "Yoshiro Chuman"
+        },
+        {
+          "key": "hirohito yamazaki",
+          "name": "Hirohito Yamazaki"
+        }
+      ],
+      "abstract_text": "ABSTRACT Nanopore sensing provides a label‐free platform for single‐molecule analysis. To achieve reliable solid‐state nanopore sensing, however, it is essential to optimize appropriate nanopore fabrication methods, as variations in pore diameter, geometry, surface state, and fabrication residues can affect molecular discrimination capability. Here, we report a temporally modulated CW laser‐assisted dielectric breakdown method for facilitating in‐situ fabrication of nanopores in silicon nitride membranes, coupled with ammonium sulfate electrolytes to improve sensing performance. Systematic characterization revealed that temporally modulated CW laser minimizes contamination/debris formation during pore fabrication and yields improved nanopore sensing. Streaming‐potential measurements and interfacial ion‐transport simulations suggest that ammonium‐containing electrolytes modify the SiN nanopore interface by promoting NH 4 + adsorption on the inner pore surface as well as SO 4 2− ions, thereby enhancing DNA–pore interactions. This effect slowed a subset of DNA translocation events, enabling longer dwell‐time observations and differentiation between poly(dA) and poly(dC) blockade populations. Furthermore, aptamer‐assisted detection enabled detection of Scp1‐bound aptamer complexes under conditions where the protein alone tended to clog the pore. The Scp1–aptamer complex showed prolonged dwell times compared with those of free aptamers, even under 0.14 M KCl. Together, these results demonstrate that integrating our approach provides an improved approach for high‐performance single‐molecule nanopore detection.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f77ab802c3c7227011f6bf1ba21f4c9ee96b2c49077ae73f075b473a207f4102",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75021-9",
@@ -3650,6 +3716,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f788a358cac461fd6c644500956e7eba824048a5e0d3de8c985fdf99c5f552cb",
+      "identity_keys": [
+        "arxiv:2611.16099",
+        "https://doi.org/10.48550/arXiv.2611.16099"
+      ],
+      "title": "CupOFMoCA: Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly",
+      "link": "https://doi.org/10.48550/arXiv.2611.16099",
+      "pdf_url": "https://arxiv.org/pdf/2611.16099v1",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "rosie ruoxi zhang",
+          "name": "Ruoxi Rosie Zhang"
+        },
+        {
+          "key": "li ziang",
+          "name": "Ziang Li"
+        },
+        {
+          "key": "gu jiatao",
+          "name": "Jiatao Gu"
+        },
+        {
+          "key": "chatterjee pranam",
+          "name": "Pranam Chatterjee"
+        }
+      ],
+      "abstract_text": "Molecular conjugates, including PROTACs and peptide-drug conjugates (PDCs), derive their function from the joint behavior of multiple coupled components, yet most generative approaches design these components independently and combine them only after generation. Such staged pipelines ignore cross-component dependencies and often produce conjugates that are chemically invalid, fall outside empirical conjugate distributions, or lose function upon assembly. In this work, we introduce Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly (CupOFMoCA), a discrete generative method that enforces cross-component chemical constraints during conjugate generation. CupOFMoCA restricts guided updates to chemically feasible conjugate states and reweights local transitions using molecular design objectives. Across three PDC systems, coupled generation achieved 100% conjugation validity among valid peptides and increased valid yield over matched post-hoc filtering, with comparable predicted binding scores across the full valid sets. In three-seed evaluations of three PROTAC systems, CupOFMoCA achieved the highest assembly validity on two systems and generated more assembly-valid molecules per second than the evaluated baselines. We further evaluated the generated PROTACs with post-hoc DegradeMaster scoring and explicit-solvent molecular dynamics, supporting their predicted activity and conformational properties. Together, these results establish CupOFMoCA as an efficient generator of molecular conjugates, supporting therapeutic development via coordinated control of assembly and molecular properties.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []
@@ -6561,6 +6669,68 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f7e6bd4dd5d1be4bf96796faf2e4cf06028b6b84ed884367db0087caee7158b5",
+      "identity_keys": [
+        "arxiv:2611.15769",
+        "https://doi.org/10.48550/arXiv.2611.15769"
+      ],
+      "title": "PDO Drug Screening Data for Evaluating and Training AI Drug Response Prediction Models",
+      "link": "https://doi.org/10.48550/arXiv.2611.15769",
+      "pdf_url": "https://arxiv.org/pdf/2611.15769v1",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "zhu",
+          "name": "Y. Zhu"
+        },
+        {
+          "key": "marlor",
+          "name": "K. Marlor"
+        },
+        {
+          "key": "lavelle",
+          "name": "V. Lavelle"
+        },
+        {
+          "key": "brettin",
+          "name": "T. S. Brettin"
+        },
+        {
+          "key": "sacco",
+          "name": "M. Sacco"
+        },
+        {
+          "key": "siniscalchi",
+          "name": "C. Siniscalchi"
+        },
+        {
+          "key": "raeder",
+          "name": "H. W. Raeder"
+        },
+        {
+          "key": "weil",
+          "name": "M. R. Weil"
+        },
+        {
+          "key": "stevens",
+          "name": "R. L. Stevens"
+        }
+      ],
+      "abstract_text": "Anti-cancer drug response prediction (DRP) is critically important for precision oncology and therapeutic development. Currently, most DRP models are developed using drug screening data from immortalized cancer cell lines, which can differ substantially from patient tumors at the genomic and molecular levels, even though patient tumor response is the ultimate prediction target. To help bridge this gap and bring DRP models closer to their intended clinical application, we conducted four drug screening studies using patient-derived organoids (PDOs), which more faithfully recapitulate patient tumors than immortalized cell lines. These studies generated data for improving and evaluating DRP models, including multi-omics profiles of PDO lines, drug feature data, and treatment response measurements. Using these data, we retrained and evaluated multiple publicly available DRP models under three model-building scenarios: training models using cell line data only, training models using combined cell line and PDO data, and pretraining models on cell line data followed by fine-tuning on PDO data. We then evaluated and compared model prediction performance on PDOs across these analysis scenarios. In addition, we also assessed the consistency of drug screening viability data generated by different laboratories using different assay technologies and/or experimental protocols.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

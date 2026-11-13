@@ -1553,7 +1553,7 @@
           "name": "Omar O. Abudayyeh"
         }
       ],
-      "abstract_text": "Abstract Directed evolution of proteins is critical for applications in basic biological research, therapeutics, diagnostics, and sustainability. However, directed evolution methods are labor intensive, cannot efficiently optimize over multiple protein properties, and are often trapped by local maxima. In silico- directed evolution methods incorporating protein language models (PLMs) have the potential to accelerate this engineering process, but current approaches fail to generalize across diverse protein families. We introduce EVOLVEpro, a few-shot active learning framework to rapidly improve protein activity using a combination of PLMs and protein activity predictors, achieving improved activity with as few as four rounds of evolution. EVOLVEpro substantially enhances the efficiency and effectiveness of in silico protein evolution, surpassing current state-of-the-art methods and yielding proteins with up to 100-fold improvement of desired properties. We showcase EVOLVEpro for five proteins across three applications: T7 RNA polymerase for RNA production, a miniature CRISPR nuclease, a prime editor, and an integrase for genome editing, and a monoclonal antibody for epitope binding. These results demonstrate the advantages of few-shot active learning with small amounts of experimental data over zero-shot predictions. EVOLVEpro paves the way for broader applications of AI-guided protein engineering in biology and medicine.",
+      "abstract_text": "Directed protein evolution is central to biomedical applications but faces challenges such as experimental complexity, inefficient multiproperty optimization, and local maxima traps. Although in silico methods that use protein language models (PLMs) can provide modeled fitness landscape guidance, they struggle to generalize across diverse protein families and map to protein activity. We present EVOLVEpro, a few-shot active learning framework that combines PLMs and regression models to rapidly improve protein activity. EVOLVEpro surpasses current methods, yielding up to 100-fold improvements in desired properties. We demonstrate its effectiveness across six proteins in RNA production, genome editing, and antibody binding applications. These results highlight the advantages of few-shot active learning with minimal experimental data over zero-shot predictions. EVOLVEpro opens new possibilities for artificial intelligence–guided protein engineering in biology and medicine.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -1880,7 +1880,7 @@
           "name": "Rohit Singh"
         }
       ],
-      "abstract_text": "Abstract Proteins have evolved over billions of years through extensive and coordinated substitutions, insertions and deletions (indels). Computational protein design cannot yet fully mimic nature’s ability to engineer new proteins from existing templates. Protein language models generate informative per-residue representations, but leveraging them to execute large-scale, function-preserving mutations and indels has remained beyond reach. We introduce Raygun, a generative AI framework that unlocks efficient miniaturization, modification, and augmentation of proteins, using a novel probabilistic encoding of protein sequences constructed from language model embeddings. Emulating evolution, Raygun shrinks proteins by 10-25% (sometimes over 50%) while preserving predicted structural integrity and fidelity, introduces extensive sequence diversity while preserving functional sites, and can expand proteins beyond their natural size. These capabilities unlock new opportunities in gene therapy and biotechnology. In cell-based validation, Raygun successfully miniaturized fluorescent proteins, two of which are smaller than 96% of fluorescent proteins reported in FPbase, as well as TurboID, a synthetic biotin ligase widely adopted for proteomics. It also successfully expanded Epidermal Growth Factor (EGF), a natural binding partner to the EGFR protein, generating EGF variants with higher binding affinity than the wildtype. Raygun’s conceptual innovations in template-based protein design reveal that protein function can be encoded in a length-independent space. This fundamental insight bridges protein representation learning with evolutionary biology and could unlock the development of more efficient molecular tools and biological therapeutics.",
+      "abstract_text": "Proteins have evolved over billions of years through coordinated substitutions, insertions and deletions, yet computational protein design cannot fully replicate nature’s ability to engineer new proteins from existing templates. Protein language models1–3 generate informative per-residue representations, but harnessing them for large-scale, function-preserving sequence modifications has remained beyond reach. Here we introduce Raygun, a generative artificial intelligence framework that enables miniaturization, modification and augmentation of proteins, using a probabilistic encoding of protein sequences constructed from language model embeddings. Our key conceptual advance is to encode each protein not as a sequence of variable length in high-dimensional space, but as a probability distribution in fixed dimensions, making proteins of any length directly commensurable. Controlled by just two parameters governing substitutions and length changes, Raygun can shrink proteins by 10–25% (sometimes more than 50%), expand them beyond their natural size, and introduce extensive sequence diversity, all while preserving predicted structural integrity and functional sites. In cell-based validation, Raygun miniaturized fluorescent proteins (2 shorter than 96% of fluorescent proteins in FPbase) and TurboID, a synthetic biotin ligase that has been widely adopted for proteomics. It also expanded epidermal growth factor (EGF), generating variants with higher EGFR-binding affinity than the wild type. These results show that protein function can be faithfully captured in a length-agnostic representation, enabling the kind of coordinated, large-scale sequence modifications that characterize natural protein evolution. Probabilistic sequence encoding from language model embeddings within a generative AI framework enables protein miniaturization, modification and augmentation while maintaining native architecture and functional integrity.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6530,6 +6530,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d8fad0d68f7e4a329d1078fbd7a4056abb97cbb794b4f08b01312927d8627e31",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765042v1",
+        "https://doi.org/10.64898/2026.11.07.765042",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.07.765042.source.xml"
+      ],
+      "title": "PRISM: probabilistic cell-type resolution with integrated spatial modelling for simultaneous ambient RNA decontamination and doublet correction in spatial transcriptomics",
+      "link": "https://doi.org/10.64898/2026.11.07.765042",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765042v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "cupaioli",
+          "name": "Cupaioli, F"
+        },
+        {
+          "key": "merelli",
+          "name": "Merelli, I"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics count matrices are confounded by ambient RNA contamination and cell-segmentation doublets, two artifacts that co-occur but are rarely modelled jointly. We present PRISM, an Expectation-Maximization framework that simultaneously (i) assigns each cell a probabilistic cell-type identity, (ii) detects doublets via log-likelihood ratio testing of two-component mixtures, and (iii) estimates a per-cell contamination fraction  anchored to a spatially resolved ambient profile. In an in silico benchmark of 40,800 simulated cells, PRISM recovers  with Pearson r=1.000 across all contamination levels (0.05 to 0.50) and UMI depths (500 to 5,000), with zero doublet false positives and 100% singlet accuracy. Applied to a Visium HD mouse cerebellum dataset (four samples, 125,289 cells, 17 reference types) from a metachromatic leukodystrophy (MLD) model, PRISM identifies a median =0.60, flags 67.4% doublets (driven by the densely packed cerebellar granule layer), eliminates spurious myelin signal from microglia (0.82% to 0.00%), and doubles oligodendrocyte myelin purity (2.8% to 5.6%). PRISM runs on commodity CPUs in under 15 minutes and returns decontaminated integer count matrices for every measured gene.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

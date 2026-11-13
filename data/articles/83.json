@@ -3034,6 +3034,40 @@
       "curated_categories": []
     },
     {
+      "id": "83639d5a140cfc5343e634e12b57b7818095def44e55f7e6139402d2ef832458",
+      "identity_keys": [
+        "arxiv:2611.17121",
+        "https://doi.org/10.48550/arXiv.2611.17121"
+      ],
+      "title": "Using an energy pixels approach to estimate the size a 2nd Generation DEL must be to train a high-resolution binding model",
+      "link": "https://doi.org/10.48550/arXiv.2611.17121",
+      "pdf_url": "https://arxiv.org/pdf/2611.17121v1",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "belotserkovskii boris",
+          "name": "Boris P. Belotserkovskii"
+        },
+        {
+          "key": "edward watts",
+          "name": "R. Edward Watts"
+        }
+      ],
+      "abstract_text": "DNA-encoded libraries (DELs) are commonly used to find small-molecule binders to a target protein. But the hard part is no longer finding a hit. It is building a machine-learning model good enough to guide the medicinal chemistry that follows, one that can resolve the shift in affinity when a chemist changes a single atom. Such a model needs two things from its training data: dense sampling of the small patch of chemical space around the hit, and an adequate number of genuinely tight binders within it. A diverse naive DEL gives neither. It samples an enormous space, so any one neighborhood is covered far too thinly, and the tightest binders are rare. A model trained on that naive DEL data must extrapolate to binders tighter than any it has seen, and that is where models can fail. One way to get training data with both properties is a second-generation DEL built around the hit. We ask how complex that library must be. We treat binding as a sum of small, independent interactions, called pixels on the target and antipixels on the ligand. From the spread of affinities measured in the naive library, with no structural information and nothing yet synthesized, we estimate the complexity such a library must have to supply that dense sampling and those tight binders. The method does two useful things. It turns the number of tight binders a model needs into the number of compounds a library must contain. And it estimates the expected yield of a randomly designed second-generation DEL, so the gain from designing the library with machine learning or active learning can be measured against a baseline, without the expense of a control library as large as the experiment itself.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8368bbbcc3b253475aa767840ab35a4855a165729b9285c9d0edeeedf83f66fa",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78373-4",
@@ -6223,15 +6257,15 @@
           "name": "Karolína Loužecká"
         },
         {
-          "key": "setnička vladimı",
-          "name": "Vladimı́r Setnička"
+          "key": "setnička vladimír",
+          "name": "Vladimír Setnička"
         },
         {
           "key": "lipovová petra",
           "name": "Petra Lipovová"
         }
       ],
-      "abstract_text": "A bstract Proteins are built from 20 canonical amino acids. It is interesting to explore whether proteins can be formed from significantly reduced amino acid alphabets. Our bioinformatics survey of UniProt (more than 250 M sequences) revealed that proteins composed of reduced amino acid alphabets (< 10) are extremely rare among existing proteins. Next, we used computational protein design to design proteins composed of all 1,013 possible alphabets of 2-10 early amino acids (Ala, Asp, Glu, Gly, Ile, Leu, Pro, Ser, Thr, and Val). The length of all proteins was 100 amino acid residues. Small amino acid alphabets preferred simple helices or helix bundles. Larger amino acid alphabets allowed for the design of more complex structures. A protein composed of 8 amino acid types (Ala, Asp, Gly, Leu, Val, Ser, Thr, and Pro) was successfully experimentally verified. It adopts the β-sheet-rich fibronectin type III domain architecture. Attempts to experimentally verify designs composed of 6 and 4 amino acid types were unsuccessful. We show by a computational experiment with an experimental validation that inverse folding models, namely ProteinMPNN sol , can stabilize a designed protein within the same eight-amino-acid alphabet. Our results show that globular proteins may have formed early in evolution. Furthermore, we show that it is possible to design proteins with interesting properties for biotechnology and synthetic biology.",
+      "abstract_text": "While proteins are built from 20 canonical amino acids, it is interesting to explore whether proteins can be formed from significantly reduced amino acid alphabets. Our bioinformatics survey of UniProt (more than 250 m sequences) revealed that proteins composed of reduced amino acid alphabets are extremely rare among existing proteins. Next, we used computational protein design to design proteins 100 amino acid residues in length composed of all 1013 possible alphabets of 2–10 early amino acids (Ala, Asp, Glu, Gly, Ile, Leu, Pro, Ser, Thr, and Val). Our findings show that small amino acid alphabets preferred simple helices or helix bundles, while larger amino acid alphabets allowed for the design of more complex structures. We verified a protein composed of 8 amino acid types (Ala, Asp, Gly, Leu, Val, Ser, Thr, and Pro) finding it adopts the β‐sheet‐rich fibronectin type III domain architecture. However, attempts to experimentally verify designs composed of 6 and 4 amino acid types were unsuccessful. Furthermore, we show by computational experiment with experimental validation that inverse folding models, namely ProteinMPNN sol , can stabilize a designed protein within the same eight‐amino‐acid alphabet. Ultimately, our results show that globular proteins may have formed early in evolution using a minimal amino acid alphabet and that it is possible to design such proteins with interesting properties for biotechnology and synthetic biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -5018,6 +5018,49 @@
       "curated_categories": []
     },
     {
+      "id": "eee5cfd1f0d5be7b96af66eab65a4c6577a0e09bb92b57592758881b53425db3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765116v1",
+        "https://doi.org/10.64898/2026.11.07.765116",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.07.765116.source.xml"
+      ],
+      "title": "KLONE: An Imbalance-Robust k-NN Ensemble for Cross-Modal Single-Cell Clone Assignment",
+      "link": "https://doi.org/10.64898/2026.11.07.765116",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765116v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "huang",
+          "name": "Huang, X"
+        },
+        {
+          "key": "ye",
+          "name": "Ye, S"
+        },
+        {
+          "key": "silva",
+          "name": "Silva, A"
+        },
+        {
+          "key": "nakhleh",
+          "name": "Nakhleh, L"
+        }
+      ],
+      "abstract_text": "Single-cell DNA sequencing (scDNA-seq) and single-cell RNA sequencing (scRNA-seq) enable the inference of copy number clones and transcriptional states in tumor studies. However, these two assays usually profile different cells of the same tumor, requiring computational assignment of unpaired scRNA-seq cells to clones identified by scDNA-seq to link clonal genotypes with transcriptional profiles. This task is challenging because the only connection between the two modalities is a weak, gene-dependent dosage effect, and the absence of clone labels for RNA cells precludes supervised learning of this relationship. Moreover, clonal distributions may differ between the two modalities because the cells are profiled independently, while the inherent clonal imbalance of real tumors can leave minority subclones underrepresented, further compromising assignment accuracy. To address these challenges, we present KLONE, a per-clone $k$-nearest-neighbor ($k$-NN) ensemble that assigns RNA cells directly to copy-number clones based on cross-modal Pearson similarity, without the need for a parametric model or clone labels for RNA cells. To ensure a fair assessment of each clone's compatibility with a given RNA cell, KLONE allocates an identical neighborhood budget to every clone, preventing majority clones from dominating the affinity assessment solely through their greater abundance. We compare KLONE with six existing methods on three colorectal cancer patients, using cells profiled in both modalities as ground truth. KLONE is the most accurate method and recalls minority clones at 100\\%. Despite discrepancies in clonal distribution between the two modalities, KLONE recovers the clonal distribution of RNA cells almost perfectly ($\\rho = 0.99$).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "eee7ac9d1e7e6a4159771de3124126bfa502b665a329f9d7119b3254d2f7ff0c",
       "identity_keys": [
         "https://doi.org/10.64898/2026.05.15.725461",

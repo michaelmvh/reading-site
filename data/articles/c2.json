@@ -613,6 +613,53 @@
       ]
     },
     {
+      "id": "c224e6c6dc92479df6fe6b14b7fdaf7cba23a14281e8ad974ef71a0e20e7eb05",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765054v1",
+        "https://doi.org/10.64898/2026.11.07.765054",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.07.765054.source.xml"
+      ],
+      "title": "Targeted Deletions Uncover Previously Uncharacterised C1-fixing Cluster Genes as Essential for Autotrophy in Clostridium autoethanogenum",
+      "link": "https://doi.org/10.64898/2026.11.07.765054",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765054v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nwaokorie",
+          "name": "Nwaokorie, U. J"
+        },
+        {
+          "key": "vorontsova",
+          "name": "Vorontsova, M"
+        },
+        {
+          "key": "shaikh",
+          "name": "Shaikh, K. M"
+        },
+        {
+          "key": "reinmets",
+          "name": "Reinmets, K"
+        },
+        {
+          "key": "valgepea",
+          "name": "Valgepea, K"
+        }
+      ],
+      "abstract_text": "Recycling carbon oxides from industrial off-gases and gasified organic waste using gas fermentation offers a sustainable route for biomanufacturing of fuels and chemicals. Acetogens are attractive biocatalysts here and fix CO and CO2 via the Wood-Ljungdahl pathway (WLP). However, the incomplete functional annotation of the associated C1-fixing gene cluster limits rational engineering of acetogen cell factories. Here, we investigated five highly conserved but previously uncharacterised C1-fixing cluster genes to quantify their contributions to the growth of the model-acetogen Clostridium autoethanogenum using targeted CRISPR/Cas9-mediated single-gene deletions, physiological characterisation, comparative computational structural analyses, CRISPRi, and functional genomics. Importantly, we identified acsV, lpdA, cooC, and cooC2 as essential for autotrophy but not heterotrophy, whereas deletion of gcvH reduced autotrophic growth and shifted carbon flux from acetate towards 2,3-butanediol. Amino acid supplementation experiments and computational analyses indicate that lpdA and gcvH do not primarily function in glycine or serine biosynthesis but instead fulfil specialised roles in WLP-associated C1 and redox metabolism. Furthermore, genetic and physiological analyses showed that the two CooC-family ATPases, CooC and CooC2, have non-redundant roles in growth, with only cooC2 deletion impairing heterotrophy. Acetate supplementation tests revealed that {Delta}acsV cells retained metabolic activity despite abolished autotrophy, and computational analyses suggest a likely role for acsV in ATP-dependent corrinoid activation. Surprisingly, CRISPRi-mediated repression of acsV was translationally buffered, resulting in altered carbon partitioning without impairing autotrophy. Together, our findings provide insights into the physiological importance of the C1-fixing cluster genes in acetogens and support their metabolic engineering as gas-fermenting cell factories.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c22705a41e832a3147d507e03c79503b2ad6bfbaafd2296da2276e447cca3c18",
       "identity_keys": [
         "https://doi.org/10.20944/preprints202609.1947.v1",
@@ -2762,7 +2809,7 @@
         },
         {
           "key": "ben viggiano",
-          "name": "Ben T Viggiano"
+          "name": "Ben Viggiano"
         },
         {
           "key": "kevin zhu",
@@ -2825,7 +2872,7 @@
           "name": "Brian Hie"
         }
       ],
-      "abstract_text": "Abstract All of life encodes information with DNA. While tools for sequencing, synthesis, and editing of genomic code have transformed biological research, intelligently composing new biological systems would also require a deep understanding of the immense complexity encoded by genomes. We introduce Evo 2, a biological foundation model trained on 9.3 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life. We train Evo 2 with 7B and 40B parameters to have an unprecedented 1 million token context window with single-nucleotide resolution. Evo 2 learns from DNA sequence alone to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant BRCA1 variants—without task-specific finetuning. Applying mechanistic interpretability analyses, we reveal that Evo 2 autonomously learns a breadth of biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements, and prophage genomic regions. Beyond its predictive capabilities, Evo 2 generates mitochondrial, prokaryotic, and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Guiding Evo 2 via inference-time search enables controllable generation of epigenomic structure, for which we demonstrate the first inference-time scaling results in biology. We make Evo 2 fully open, including model parameters, training code, inference code, and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+      "abstract_text": "All of life encodes information with DNA. Although tools for genome sequencing, synthesis and editing have transformed biological research, we still lack sufficient understanding of the immense complexity encoded by genomes to predict the effects of many classes of genomic changes or to intelligently compose new biological systems. Artificial intelligence models that learn information from genomic sequences across diverse organisms have increasingly advanced prediction and design capabilities1,2. Here we introduce Evo 2, a biological foundation model trained on 9 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life to have a 1 million token context window with single-nucleotide resolution. Evo 2 learns to accurately predict the functional impacts of genetic variation—from noncoding pathogenic mutations to clinically significant BRCA1 variants—without task-specific fine-tuning. Mechanistic interpretability analyses reveal that Evo 2 learns representations associated with biological features, including exon–intron boundaries, transcription factor binding sites, protein structural elements and prophage genomic regions. The generative abilities of Evo 2 produce mitochondrial, prokaryotic and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Evo 2 also generates experimentally validated chromatin accessibility patterns when guided by predictive models3,4 and inference-time search. We have made Evo 2 fully open, including model parameters, training code5, inference code and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity. Evo 2 is an artificial intelligence-based biological foundation model trained on 9 trillion DNA base pairs spanning all domains of life that predicts functional properties from genomic sequences and provides a rich generative model for researchers in biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4534,7 +4581,7 @@
           "name": "Michael R. Mayer"
         }
       ],
-      "abstract_text": "Abstract Existing approaches for nanopore sensing typically analyze resistive pulses from the translocation of individual proteins through the nanopore after completing the experiment. This approach foregoes instantaneous protein identification and precludes real-time experimental control. Here, we introduce a method for the analysis of real-time nanopore data capable of characterizing the size and approximate shape of proteins within a millisecond response time during data acquisition. The implemented real-time Two-Sliding Window (TSW) peak detection algorithm makes it possible, for the first time, to filter data, process baselines, and extract resistive pulse information during nanopore recordings using a stream of single data points. This approach achieves a computational throughput of 40 MB/s on a 1.8 GHz laptop CPU. We compared the accuracy of dwell time determination of the TSW algorithm with an established offline threshold searching (TS) algorithm, using simulated resistive pulses. The TSW algorithm accurately extracted events with dwell times greater than 1.5 times the reciprocal of the system’s cutoff frequency, 1.5 × (fc) −1 . Moreover, the TSW algorithm effectively determined the dwell time of resistive pulses with large intra-event modulation, which is crucial for resolving non-spherical protein-induced fluctuations. Finally, we verify experimentally that integrating the TSW algorithm into the data acquisition process makes it possible to determine the approximate shape and volume of proteins within low-millisecond response times. This real-time data analysis approach potentially provides instant feedback control for manipulating single proteins during or immediately after translocation. This analysis also improves data storage efficiency during recordings with a high sampling rate.",
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Existing approaches for nanopore sensing typically analyze resistive pulses from the translocation of individual proteins through the nanopore after completing the experiment. This approach foregoes instantaneous protein identification and precludes real-time experimental control. Here, we introduce a method for the analysis of real-time nanopore data capable of characterizing the size and approximate shape of proteins within a millisecond response time during data acquisition. The implemented real-time Two-Sliding Window (TSW) peak detection algorithm makes it possible, for the first time, to filter data, process baselines, and extract resistive pulse information during nanopore recordings using a stream of single data points. This approach achieves a computational throughput of 40 MB/s on a 1.8 GHz laptop CPU. We compared the accuracy of dwell time determination of the TSW algorithm with an established offline threshold searching (TS) algorithm, using simulated resistive pulses. The TSW algorithm accurately extracted events with dwell times greater than 1.5 times the reciprocal of the system’s cutoff frequency, 1.5 × (fc) −1 . Moreover, we verify experimentally that integrating the TSW algorithm into the data acquisition process makes it possible to determine the approximate shape and volume of proteins within low-millisecond response times. Finally, by integrating a Naïve Bayes classifier, the system achieves real-time classification of protein mixtures, allowing for instant feedback control for manipulating single proteins during or immediately after translocation. This analysis also improves data storage efficiency during recordings with a high sampling rate.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4839,6 +4886,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c2f0d4589137213ef3d0076550e641bdb0f3ca38ea269d70cb410b80feca654d",
+      "identity_keys": [
+        "arxiv:2611.16757",
+        "https://doi.org/10.48550/arXiv.2611.16757"
+      ],
+      "title": "A risk-aware individualized blood pressure target to avoid hypotension in surgery",
+      "link": "https://doi.org/10.48550/arXiv.2611.16757",
+      "pdf_url": "https://arxiv.org/pdf/2611.16757v1",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bur simon",
+          "name": "Simon Bur{é}"
+        },
+        {
+          "key": "joachim jona",
+          "name": "Jona Joachim"
+        },
+        {
+          "key": "di florent meglio",
+          "name": "Florent Di Meglio"
+        }
+      ],
+      "abstract_text": "We propose an online method for choosing both a blood pressure target and a norepinephrine dose for an individual surgical patient. From a short record of mean arterial pressure (MAP) and norepinephrine delivery, the method fits a reduced pharmacokinetic/pharmacodynamic model and uses a local Gaussian approximation to propagate uncertainty to future MAP readings. It searches for the lowest target for which a bolus and constant infusion keep the predicted probability of at least one MAP reading below 65 mmHg after the rise phase within a prescribed limit. If no such target is found, the decision returns to the clinician. We assess calibration of the predicted minimum MAP on retrospective surgical records under the doses actually administered. In a cohort of 4,096 virtual patients, the method recommended a dose for 74 % of patients at a nominal risk of 5 %. Among the patients receiving a recommendation, 6.9 % had a reading below 65 mmHg. A fixed target of 70 mmHg yielded a rate of 25 % when applied to the full virtual cohort.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

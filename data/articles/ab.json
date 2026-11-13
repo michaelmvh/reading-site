@@ -418,6 +418,49 @@
       "curated_categories": []
     },
     {
+      "id": "ab1ca899882492cc88745f311c0ae66bcd34355c52c7aa92ee95019495c19703",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765245v1",
+        "https://doi.org/10.64898/2026.11.09.765245",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.09.765245.source.xml"
+      ],
+      "title": "Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes",
+      "link": "https://doi.org/10.64898/2026.11.09.765245",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765245v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sziklai",
+          "name": "Sziklai, D"
+        },
+        {
+          "key": "wiener",
+          "name": "Wiener, Z"
+        },
+        {
+          "key": "padanyi",
+          "name": "Padanyi, R"
+        },
+        {
+          "key": "hegedus",
+          "name": "Hegedus, T"
+        }
+      ],
+      "abstract_text": "High-confidence protein complex predictions do not necessarily represent physically or biologically plausible assemblies. This limitation is particularly relevant for transmembrane (TM) proteins, whose interactions are constrained by the lipid bilayer. Here, we systematically evaluated membrane compatibility in the recently expanded AlphaFold Protein Structure Database, analysing 189,469 high-confidence AlphaFold-Multimer TM-TM complexes and additional TM-soluble assemblies. Most predictions exhibited plausible membrane geometry: among 125,657 evaluable complexes with TM proteins possessing more than two TM helices, 95.4% had joint hydrophobic thicknesses within the expected range of 15-35 angstroms. Nevertheless, some complexes displayed substantial inconsistencies in membrane positioning or protomer orientation despite favourable prediction confidence. Interactions between TM proteins, particularly those containing only one or two TM helices, were frequently dominated by extramembrane contacts. Among TM-soluble complexes, 77.4% showed no penetration of the soluble partner into the hydrophobic membrane core. We further investigated whether AlphaFold3 (AF3) could overcome limitations of AlphaFold-Multimer. Although AF3 recovered an experimentally supported SERCA-phospholamban interaction, it failed to reproduce the cholesterol-mediated norepinephrine transporter homodimer. A benchmark of 173 cholesterol-containing membrane protein targets further revealed limited accuracy in predicting cholesterol-binding poses, particularly for structures released after the AF3 training cutoff. Together, these findings demonstrate that membrane-specific geometric constraints provide a valuable complement to conventional confidence metrics and highlight the persistent challenges of predicting assemblies involving lipids.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ab215310b4aa22c0024cdbae4a96e84732a3532255157d92ddf48256f2094607",
       "identity_keys": [
         "arxiv:2610.28517",
@@ -1421,7 +1464,7 @@
           "name": "Nicholas F. Polizzi"
         }
       ],
-      "abstract_text": "Abstract Computational design of molecular recognition remains challenging despite advances in deep learning 1–3 . The design of proteins that bind to small molecules has been particularly difficult because it requires simultaneous optimization of protein sequence, protein structure, and ligand conformation 1–7 . Despite their promise, current deep-learning algorithms have struggled to navigate this landscape, precluding the zero- or few-shot design of binders. Here we show that the combination of two neural networks in an iterative design algorithm can create small-molecule binding proteins from scratch with high accuracy. To optimize a design in the joint distribution of sequence, structure, and ligand conformation, we use a pair of neural networks that were trained on reciprocal tasks. We train and use a graph neural network, LASErMPNN, to design protein sequence given protein−ligand co-structure, and we use RoseTTAFold-All Atom 8 (RFAA) to predict protein−ligand co-structure given protein sequence. We iteratively apply these two networks to design proteins that bind the drug, exatecan, a topoisomerase I inhibitor that is prone to inactivation by hydrolysis 9 . Each of four experimentally tested designs bound the drug, with the lowest dissociation constant ( K d ) near 100 nM. The hit rate and highest affinity design each surpassed the current state-of-the-art method by 5- and 70-fold, respectively. We further show that LASErMPNN can improve upon its own designs in a manner resembling chain-of-thought reasoning. Without experimental input, LASErMPNN suggested two mutations that increased affinity by over two orders of magnitude ( K d = 1.2 ± 0.2 nM). Designs were selective, structurally accurate, and achieved their intended purpose to protect the drug from hydrolysis. Our work describes a recipe for using neural networks to automate the design of high affinity small-molecule binding proteins, which should have wide application in the creation of novel drug-delivery vehicles, antidotes, sensors, and enzymes.",
+      "abstract_text": "The design of proteins that bind to small molecules has been challenging because it requires simultaneous optimization of the protein sequence, protein structure and ligand conformation 1–7 . Current deep-learning algorithms have struggled to navigate this landscape, precluding the zero-shot design of binders. Here we show that by combining two neural networks in an iterative design algorithm, small-molecule binding proteins can be created from scratch with high accuracy. We trained a graph neural network—ligand-aware sequence engineering message-passing neural network (LASErMPNN)—to design compatible protein sequences for an input protein backbone and docked ligand. We paired LASErMPNN with a structure predictor that models a three-dimensional protein–ligand complex for an input protein sequence and ligand identity. The closed-loop iteration of these reciprocal networks optimized sequence–structure–ligand compatibility, and outperformed a comparable design loop using a physics-based energy function. We used our strategy, termed neural iterative selection–expansion (NISE), to design proteins that, using different folds, specifically bind to two chemically distinct small-molecule drugs, exatecan and apixaban, with success rates of 100% and 83%, respectively. The tightest NISE binders had nanomolar-to-picomolar affinities, surpassing those of the next-leading method by 70-fold for exatecan and nearly 10,000-fold for apixaban. LASErMPNN then suggested two amino-acid substitutions that improved the affinity of the tightest exatecan binder by 100-fold without any experimental input. The optimized binder protected the labile lactone ring of exatecan from hydrolysis for days. Our work describes a general recipe for using neural networks to automate the design of small-molecule binding proteins for applications in drug delivery, sensing and catalysis.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3523,6 +3566,58 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "abbf456df94250000fe6ef8883d1037d5f958d6cc47831e8a025a45aa8f2cb9c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.03.24.713924v2",
+        "https://doi.org/10.64898/2026.03.24.713924",
+        "https://www.biorxiv.org/content/early/2026/03/26/2026.03.24.713924.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.03.24.713924.source.xml"
+      ],
+      "title": "GraphHDBSCAN*: Graph-based Hierarchical Clustering on High-dimensional Spaces with Applications to Single-cell RNA Sequencing Data",
+      "link": "https://doi.org/10.64898/2026.03.24.713924",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.24.713924v2.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ghoreishi",
+          "name": "Ghoreishi, S. A"
+        },
+        {
+          "key": "szmigiel",
+          "name": "Szmigiel, A. W"
+        },
+        {
+          "key": "nagai",
+          "name": "Nagai, J. S"
+        },
+        {
+          "key": "costa filho gesteira",
+          "name": "Gesteira Costa Filho, I"
+        },
+        {
+          "key": "zimek",
+          "name": "Zimek, A"
+        },
+        {
+          "key": "campello",
+          "name": "Campello, R. J. G. B"
+        }
+      ],
+      "abstract_text": "Single-cell RNA sequencing (scRNA-seq) is widely used to resolve cellular heterogeneity across thousands to millions of cells. A major challenge is identifying biologically meaningful cell populations while preserving their hierarchical organization, because broad cell types often split into more specialized subtypes. However, state-of-the-art approaches mostly focus on flat partitions and ignore the hierarchical nature of single-cell data. Here we introduce GraphHDBSCAN*, a graph-based extension of HDBSCAN* with an effectively hyperparameter-free hierarchical clustering stage that operates on a graph representation of the data, enabling robust recovery of both hierarchical and non-hierarchical (flat) relationships in very high-dimensional, noisy datasets. We evaluate GraphHDBSCAN* across multiple scRNA-seq datasets and show that it recovers biologically meaningful hierarchies that agree more closely with curated biological references than alternative hierarchical clustering methods, while revealing fine-grained structure, including monocyte subpopulations. In addition, the method yields high-quality flat partitions that outperform widely used community-detection methods.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

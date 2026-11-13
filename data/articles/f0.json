@@ -3209,6 +3209,69 @@
       "curated_categories": []
     },
     {
+      "id": "f0694600678540b70cd502d71bd7340d1fae5fe821bf38a8e5df2e96a85be93f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765799v1",
+        "https://doi.org/10.64898/2026.11.10.765799",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765799.source.xml"
+      ],
+      "title": "SubCellSeg: A generalist model for subcellular structure segmentation in 3D fluorescence microscopy",
+      "link": "https://doi.org/10.64898/2026.11.10.765799",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mishra",
+          "name": "Mishra, S"
+        },
+        {
+          "key": "samudre",
+          "name": "Samudre, A"
+        },
+        {
+          "key": "khan",
+          "name": "Khan, A"
+        },
+        {
+          "key": "hookway",
+          "name": "Hookway, C"
+        },
+        {
+          "key": "borensztejn",
+          "name": "Borensztejn, A"
+        },
+        {
+          "key": "thirstrup",
+          "name": "Thirstrup, D"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, J"
+        },
+        {
+          "key": "rafelski",
+          "name": "Rafelski, S"
+        },
+        {
+          "key": "viana",
+          "name": "Viana, M. P"
+        }
+      ],
+      "abstract_text": "Three-dimensional (3D) segmentation of subcellular structures from fluorescence microscopy images is the foundation of many analyses in quantitative cell biology. The prevailing approach addresses 3D segmentation one structure at a time, with a separate model trained for each structure type. By developing SubCellSeg, we demonstrate that a single model, trained jointly across a diverse range of structures, substantially and consistently outperforms structure-specific specialist models. SubCellSeg is a 3D segmentation model trained on expert-curated fluorescence images and their computationally generated reference masks, of 13 morphologically distinct subcellular structures in human induced pluripotent stem (hiPS) cell lines from the Allen Cell Collection, spanning compact puncta, planar junctions, reticular networks, and tubular structures. Without any structure-specific input, SubCellSeg achieves a mean Dice score of 0.909 across the 13 structures and outperforms each of the 13 specialist models on the structure it was trained for (specialist mean Dice 0.773). SubCellSeg also achieves zero-shot generalization, segmenting subcellular structures with morphologies not represented in the training data. This generalization extends to images acquired on different microscopes and with different imaging configurations, to cells under drug perturbation, and to a morphologically distinct cell type, hiPS cell-derived cardiomyocytes. Where zero-shot results are insufficient for a specific application, SubCellSeg can be fine-tuned: starting from its pretrained weights, 10% of the labeled images (16 images) gave better results than training a new model from scratch on all of them. SubCellSeg is distributed through the napari plugin allencell-segmenter-ml[1] with pretrained checkpoints, so it can be run on new data without any training; the training and evaluation code is available at https://github.com/AllenCell/SubCellSeg.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f06a6b3025a4e7c466916fe93f8c15a11f1fde85c94ed44d38b5b2716ce5458f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75859-z",
@@ -3877,7 +3940,7 @@
           "name": "Magnus Kjærgaard"
         }
       ],
-      "abstract_text": "ABSTRACT De novo protein design often produces thermostable proteins that denature above 100 °C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfolding data via an intuitive graphical user interface. We use nanoscale differential scanning fluorimetry followed by CheMelt data analysis to dissect the combined thermal and chemical denaturation of thirty-five de novo designed protein binders. Thirteen present sufficient fluorescence changes to extract thermodynamic parameters of unfolding. These de novo designed proteins have systematically lower Δ C p and m -values than comparable natural proteins. We show that a high thermostability of a designed protein does not necessarily imply a high equilibrium stability, and demonstrate the potential of CheMelt in dissecting thermodynamic properties for protein design and engineering. CheMelt can be accessed at https://spc.embl-hamburg.de/app/chemelt",
+      "abstract_text": "Abstract De novo protein design often produces thermostable proteins that denature above 100°C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfolding data via an intuitive graphical user interface. We use nanoscale differential scanning fluorimetry followed by CheMelt data analysis to dissect the combined thermal and chemical denaturation of 35 de novo designed protein binders. Thirteen present sufficient fluorescence changes to extract thermodynamic parameters of unfolding. These de novo designed proteins have systematically lower Δ C p and m ‐values than comparable natural proteins. We show that a high thermostability of a designed protein does not necessarily imply a high equilibrium stability, and demonstrate the potential of CheMelt in dissecting thermodynamic properties for protein design and engineering. CheMelt can be accessed at https://spc.embl-hamburg.de/app/chemelt .",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5228,6 +5291,77 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f0e1b6f18e273466321ea360c046a61c9c2d0cebd1c1c45c98c33d4aaefa7e50",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764350v1",
+        "https://doi.org/10.64898/2026.11.04.764350",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764350.source.xml"
+      ],
+      "title": "Creation of genomic chimeras via megabase scale genome expansion",
+      "link": "https://doi.org/10.64898/2026.11.04.764350",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764350v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sanfiorenzo",
+          "name": "Sanfiorenzo, C"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, R. J"
+        },
+        {
+          "key": "wythes",
+          "name": "Wythes, G"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, M"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, J"
+        },
+        {
+          "key": "hur",
+          "name": "Hur, J"
+        },
+        {
+          "key": "lipschitz",
+          "name": "Lipschitz, M"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, J"
+        },
+        {
+          "key": "swift",
+          "name": "Swift, R"
+        },
+        {
+          "key": "gerber",
+          "name": "Gerber, B"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, K"
+        }
+      ],
+      "abstract_text": "An organism's physiology is controlled by its genomic content. Building genomic chimeras would enable melding of the diverse functions and properties of life. However, prior arts in genome synthesis are limited to reconstituting pre-existing functions within a singular genome rather than combining diverse genomic functions across multiple distinct genomes. Existing methods are also prohibitively expensive, labor intensive, and time consuming, and thus fundamentally not scalable for creating large synthetic chimeric genomes. To address all these limitations, we invented Additive Conjugative-CAST Engineering (ACE) combining conjugation with CRISPR-associated transposition (CAST) to deliver and integrate up to half a genome per step from a donor cell into a precisely defined position in the recipient's genome. We have demonstrated ACE's capability to integrate at least a 2-megabase donor genomic segment in a single step and at least 3 megabase in two consecutive steps. Importantly, we confirmed ACE's generality through the creation of multiple genomic chimeras across species, genus, and at least order barriers. With ACE, we further demonstrate such chimeric organisms, or what we call genome expanded organisms (GEOs), can be stably forged from at least three starting bacterial strains, and can be stably maintained to express all their acquired genomic parts in a single chimera. ACE offers a new paradigm of creating artificial lifeforms to combine desired properties and potentially create novel functions beyond the constraints of nature. ACE also offers a unique perspective to probe unexplored plasticity in genome architecture and expression patterns of novel, massively expanded genomes.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
         }
       ],
       "curated_categories": []

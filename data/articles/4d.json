@@ -2135,7 +2135,7 @@
           "name": "Ava Amini"
         }
       ],
-      "abstract_text": "Abstract Proteases, a class of enzymes that play critical roles in health and disease, exert their function through the cleavage of peptide bonds. Identifying substrates that are efficiently and selectively cleaved by target proteases is essential for studying protease activity and for harnessing their activity in protease-activated diagnostics and therapeutics. However, the vast design space of possible substrates (c.a. 20 10 unique amino acid combinations for a 10-mer peptide) and the limited accessibility of high-throughput activity profiling tools hinder the speed and success of substrate design. We present CleaveNet, an end-to-end AI pipeline for the design of protease substrates. Applied to matrix metalloproteinases, CleaveNet enhances the scale, tunability, and efficiency of substrate design. CleaveNet generates peptide substrates that exhibit sound biophysical properties and capture not only well-established but also novel cleavage motifs. To enable precise control over substrate design, CleaveNet incorporates a conditioning tag that enables generation of peptides guided by a target cleavage profile, enabling targeted design of efficient and selective substrates. CleaveNet-generated substrates were validated experimentally through a large-scale in vitro screen, even in the challenging case of designing highly selective substrates for MMP13. We envision that CleaveNet will accelerate our ability to study and capitalize on protease activity, paving the way for new in silico design tools across enzyme classes.",
+      "abstract_text": "Abstract Proteases, enzymes that play critical roles in health and disease, exert their function through the cleavage of peptide bonds. Identifying substrates that are efficiently and selectively cleaved by target proteases is essential for studying protease activity and for harnessing it in protease-activated diagnostics and therapeutics. However, the vast design space of possible substrates (c.a. 20 10 amino acid combinations for a 10-mer peptide) and the limited accessibility of high-throughput activity profiling tools hinder the speed and success of substrate design. We present CleaveNet, an end-to-end AI pipeline for the design of protease substrates. Applied to matrix metalloproteinases, CleaveNet enhances the scale, tunability, and efficiency of substrate design. CleaveNet generates peptide substrates that exhibit sound biophysical properties and capture not only well-established but also previously-uncharacterized cleavage motifs. To control substrate design, CleaveNet incorporates a conditioning tag that steers peptide generation towards desired cleavage profiles, enabling targeted design of efficient and selective substrates. CleaveNet-generated substrates were validated experimentally through a large-scale in vitro screen, even in the challenging case of designing highly selective substrates for MMP13. We envision that CleaveNet will accelerate our ability to study and capitalize on protease activity, paving the way for in silico design tools across enzyme classes.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3916,6 +3916,57 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4dd718681ee4ff845dd5ba16d9897433bb94bc1bdc68f1c99e518ea68d6880c9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765394v1",
+        "https://doi.org/10.64898/2026.11.09.765394",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.09.765394.source.xml"
+      ],
+      "title": "SIFT: Syncmer-Informed Selection of Haplotypes for T2T Imputation",
+      "link": "https://doi.org/10.64898/2026.11.09.765394",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765394v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ferro",
+          "name": "Ferro, E. A"
+        },
+        {
+          "key": "varki",
+          "name": "Varki, R"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, M.-J"
+        },
+        {
+          "key": "gagie",
+          "name": "Gagie, T"
+        },
+        {
+          "key": "langmead",
+          "name": "Langmead, B"
+        },
+        {
+          "key": "boucher",
+          "name": "Boucher, C. A"
+        }
+      ],
+      "abstract_text": "Genome patching improves the completeness of fragmented assemblies by filling unresolved gaps with sequences from reference genomes. Pangenome panels provide diverse candidate haplotypes for this task, but identifying suitable references efficiently becomes increasingly challenging as these panels grow. We present SIFT, a compressed indexing method for selecting reference haplotypes for genome patching with ImpuT2T. SIFT combines closed-syncmer parsing, phrase-level indexing, and pseudo-maximal exact match (pseudo-MEM) queries. Closed syncmers provide a context-independent parsing rule with bounded distances between consecutive selected positions, enabling consistent parsing of reference and query sequences. We demonstrate that two closed syncmers determine the distance at which they can occur consecutively in any string, so that equal substrings of two parses represent identical sequences and no gap sequence need be stored. SIFT indexes the reference parse and its reverse using run-length compressed suffix arrays and adapts the Boyer-Moore-Li search procedure to identify pseudo-MEMs between the reference parse and query parse. It then aggregates matching evidence to identify candidate reference haplotypes for downstream patching. This framework connects compressed sequence indexing with haplotype selection and provides a basis for querying large reference panels at the phrase level. SIFT is publicly available under the GNU license at https://github.com/EddieFerro/SIFT.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

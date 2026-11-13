@@ -503,6 +503,41 @@
       ]
     },
     {
+      "id": "ad1278bfa0741ccef544d3981cac22e538356479e12c13f7e5a5c46a10663780",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.30.762958v1",
+        "https://doi.org/10.64898/2026.10.30.762958",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.10.30.762958.source.xml"
+      ],
+      "title": "Deducing splicing events from transcript sets with splicelogic",
+      "link": "https://doi.org/10.64898/2026.10.30.762958",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.762958v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "campillo",
+          "name": "Campillo, B"
+        },
+        {
+          "key": "love",
+          "name": "Love, M. I"
+        }
+      ],
+      "abstract_text": "Long-read RNA sequencing captures a greater proportion of full-length transcripts, enabling more accurate isoform identification, discovery of novel isoforms, and more precise differential transcript usage analysis. However, comparing transcripts, whether between conditions or between sets such as novel and annotated isoforms, yields complex isoform changes that are hard to manipulate, summarize, and visualize. This is compounded by vertical integration of some tools, where downstream analysis depends on the specific output of a particular upstream tool. To address this gap, we have developed splicelogic, an R/Bioconductor package that makes transcript-set comparisons biologically interpretable by turning them into discrete splicing events, such as exon skipping, alternative splice sites, intron retention, and alternative transcription start and end sites. We designed splicelogic to integrate easily with existing RNA-seq workflows and tools. The splicelogic functions are modular, readable, and extensible, making it easy for users to adapt core logic to their own custom scientific questions or novel splicing definitions. By obtaining interpretable splicing events from transcript changes, splicelogic enables downstream analyses, including annotation of RNA-binding protein recognition sites, alongside summary statistics and visualization. The splicelogic package is publicly available and distributed through Bioconductor.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ad1943838cc38ec96adb80a8ac766c2d9930258f692725beb871d572c6b48030",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71723-2",

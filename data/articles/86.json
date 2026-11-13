@@ -2746,6 +2746,45 @@
       "curated_categories": []
     },
     {
+      "id": "868fd35af69f116092b06235461d6016272f2616e585aa5b397baaee0231a150",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.763508v1",
+        "https://doi.org/10.64898/2026.11.04.763508",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.763508.source.xml"
+      ],
+      "title": "Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset",
+      "link": "https://doi.org/10.64898/2026.11.04.763508",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763508v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "snider",
+          "name": "Snider, L"
+        },
+        {
+          "key": "baker nakano",
+          "name": "Nakano-Baker, O"
+        },
+        {
+          "key": "mackenzie",
+          "name": "Mackenzie, J. D"
+        }
+      ],
+      "abstract_text": "Olfaction-based biosensors stand to have profound impacts in fields such as medical diagnostics, national security, and drug discovery. A promising mode of vapor phase biodetection mimics volatile organic compound-olfactory receptor (VOC-OR) interactions with target-specific protein or peptide probes; however, lack of experimental coverage remains a core bottleneck. Current computational approaches aim to improve prediction of VOC-OR binding to reduce experimental burden, and current machine learning approaches fail to demonstrate a level of generalization that addresses current engineering challenges. Here, using the Molecular to Olfactory Dataset (M2OR) and Insect Olfactory Binding Protein Database (iOBPdb) datasets, data partitioning methods and their performance are evaluated on a neural network and contrastive learning framework on such VOC-OR binding datasets, varying: model training, architecture, and structure of the input data distribution. It was found that holding out certain chemical or proteomic motifs from the training data diminished model performance with a two layer neural network model. The model was able to generalize to state of the art performance (0.88 AUCROC) on every data split by applying a contrastive learning objective defined by shared molecular constituents and a stochastic sampler. This suggests the contrastive objective provides a strong inductive bias for neural networks to predict novel VOC-OR pairs. These findings highlight that model performance on pairwise biological interaction datasets can be inflated through identity leakage from constituent overlap, and emphasize the need for more robust evaluation protocols. Furthermore, we show contrastive regularization mitigates dataset degeneracy through enforcement of compatibility in the models latent geometry that may extend to other binder target-datasets where identity leakage confounds evaluation.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8690af5cd1f7e6a071a40afcb7d8bbb47744af77bf538cc62b5f36d4928470db",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-11194-z",
@@ -3597,6 +3636,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "86a7b07398b2bfef4540cd8083721794fbdbdab7f30eb410c64f9855b9a3720a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765073v1",
+        "https://doi.org/10.64898/2026.11.07.765073",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.07.765073.source.xml"
+      ],
+      "title": "Uncovering Viral Signals Across Cell Populations in Colorectal Cancer",
+      "link": "https://doi.org/10.64898/2026.11.07.765073",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765073v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mahmanzar",
+          "name": "Mahmanzar, M"
+        },
+        {
+          "key": "rahimian",
+          "name": "Rahimian, K"
+        },
+        {
+          "key": "kavousi",
+          "name": "Kavousi, K"
+        },
+        {
+          "key": "deng",
+          "name": "Deng, Y"
+        }
+      ],
+      "abstract_text": "Viral sequences have been detected in colorectal cancer, but their cellular and anatomical distribution remains poorly resolved. We aimed to establish a cell-type-resolved map of viral reference-associated RNA signals across colorectal cancer, tumour-adjacent normal tissue, and healthy colon. We repurposed human-unmapped reads from single-cell RNA sequencing libraries generated in ten publicly available studies. We retained cell-barcode and unique molecular identifier information, removed duplicate molecules, and aligned reads to a curated human-associated viral reference using three aligners. Viral signals were analysed across cell types, tissue conditions, and colorectal segments. We used participant-grouped repeated cross-validation to evaluate tissue-condition classification and screened an independent paired colorectal cancer proteomics cohort for compatible peptide matches. The study included 547 libraries from 112 participants, including 49 with matched colorectal cancer and tumour-adjacent normal samples, and approximately 415,000 cells spanning ten major cell populations. Viral reference-associated RNA signals differed across epithelial, immune, stromal, and vascular compartments, tissue conditions, and anatomical regions of the colon. Of 318 independent healthy-reference viral-load comparisons, seven involving six virus-cell-type groups remained significant after Benjamini-Hochberg correction, including plasma-cell HHV-7 and HHV-6B and mast-cell HCV-2. Cell-type-resolved viral features distinguished colorectal cancer, tumour-adjacent normal tissue, and healthy colon in participant-grouped validation; random forest achieved a macro-AUC of 0.957 (SD 0.028), with HERV-K113 as the leading quantitative feature. An independent proteomic screen identified peptide matches compatible with 20 candidate viral groups. We established a cell-type-resolved map of viral reference-associated RNA signals across colorectal tissue conditions and anatomical regions. By identifying candidate viral signals in epithelial and immune compartments, this map provides a basis for investigating virus-host pathways involved in tumour biology, immune regulation, and antigen-presentation states, and could help prioritise future combination strategies pairing virus-directed or virus-mimetic approaches with standard treatment or immune checkpoint blockade.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

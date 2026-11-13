@@ -644,6 +644,60 @@
       "curated_categories": []
     },
     {
+      "id": "d21c2a5d5dac7737bcb9c22ae2c55feacdfd5eb37f1d81d328fbcdcdb1ad06e0",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.06321",
+        "https://openalex.org/W7225336918"
+      ],
+      "title": "EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design",
+      "link": "https://doi.org/10.48550/arxiv.2611.06321",
+      "pdf_url": "https://arxiv.org/pdf/2611.06321",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "ai genoria team",
+          "name": "Genoria AI Team"
+        },
+        {
+          "key": "侯曰杰",
+          "name": "侯曰杰"
+        },
+        {
+          "key": "lixiang yang",
+          "name": "Lixiang Yang"
+        },
+        {
+          "key": "liu yisi",
+          "name": "Yisi Liu"
+        },
+        {
+          "key": "tang weiting",
+          "name": "Weiting Tang"
+        },
+        {
+          "key": "yang yueyuxiao",
+          "name": "Yueyuxiao Yang"
+        },
+        {
+          "key": "meng yang",
+          "name": "Meng Yang"
+        }
+      ],
+      "abstract_text": "Enzyme engineering usually optimises which candidates to assay within a fixed model and workflow; when the bottleneck is a mismatched method or a failing workflow, that route is hard to escape. We present EnzymeRSI, a dual-loop system for recursive self-improvement (RSI). The outer loop evolves harness assets without changing model weights; the inner loop develops prediction and selection algorithms under controlled conditions; a cloud laboratory system is specified for closing the physical loop with quality-controlled feedback. The outer loop raised the mean development-set Spearman correlation on ProteinGym by 0.044 across five assays, reaching 0.335 on CD19 and 0.683 on OPSD (rhodopsin); of the two first places, only CD19 was produced by the outer loop itself. In ThermoMPNN self-improvement the inner loop reached a PCC of 0.849, and on TadA-Bench a Spearman correlation of 0.307 in 1.13 h. We examined the system's experimental decision-making in three enzyme systems. For the luciferase RLuc, 10 of the 32 nominated substitutions not pre-specified reached at least twice wild-type activity in a single round. For the cytidine deaminase A3A, a variant selected by a rule that caps loss of unmodified C raised 5mC conversion in the weaker CT context from 11.4% to 46.5% and reversed the substrate preference in both contexts. For the DNA polymerase KOD-E, 189 single-substitution variants defined a landscape on which different objective functions selected divergent next steps from the same parent; one assayed combination reached 31.1 times the parent on a modified substrate. By treating the organisation of research and the development of algorithms as separately scored objects of evolution, and linking a frozen decision record to a physical measurement, this work offers an evolutionary paradigm for moving beyond the blind spots of a fixed method and for autonomous enzyme engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d221919fb28b25246d4cd675a2af049dbe0758491f20be940b259fb90f53a189",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02857-y",
@@ -1483,6 +1537,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d23b2580fefe58f0319fec060bae22fed4354070bff4b882d529aabf4a94fd41",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764522v1",
+        "https://doi.org/10.64898/2026.11.05.764522",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764522.source.xml"
+      ],
+      "title": "Theoretical prediction of assembly contiguity",
+      "link": "https://doi.org/10.64898/2026.11.05.764522",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764522v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "abrar",
+          "name": "Abrar, M. H"
+        },
+        {
+          "key": "medvedev",
+          "name": "Medvedev, P"
+        },
+        {
+          "key": "novikov",
+          "name": "Novikov, A"
+        },
+        {
+          "key": "sahlin",
+          "name": "Sahlin, K"
+        }
+      ],
+      "abstract_text": "Theoretical methods for predicting the performance of assembly algorithms have the potential to guide experimental design on a scale that simulations cannot. A fundamental question of experimental design is how deep to sequence in order to obtain an assembly with long-enough contigs. More precisely, given a certain read length and coverage, what is the expected contig length that an assembler would produce on a given genome? The foundational work of Lander and Waterman tackled this question, but their method is not applicable to modern high-throughput sequencing. In this paper, we derive what we call a Z-value, which is a formula that takes as input the read length, coverage, and basic properties of the genome, and returns a prediction of the mean contig length produced by a simple single-k assembler on error-free data. We show on a benchmark of 14 genomes that the Z-value is highly accurate, with a mean absolute prediction error of less than 2 percent. We further show how this formula can be used to determine the best choice of k for the assembler and how to choose a coverage level that gives contig lengths within a desired fraction of the optimal. Finally, we show how the Z-value can also predict the performance of a more complicated assembler like Velvet and how it can be used to guide the choice between instruments when there is a tradeoff between coverage and read length and the budget is limited.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -3504,7 +3601,7 @@
       ],
       "title": "ProteinReDiff: Complex-based ligand-binding proteins redesign by equivariant diffusion-based generative models",
       "link": "https://doi.org/10.1063/4.0000271",
-      "pdf_url": null,
+      "pdf_url": "https://pubs.aip.org/aca/sdy/article-pdf/doi/10.1063/4.0000271/20264931/064102_1_4.0000271.pdf",
       "publication_date": "2024-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,

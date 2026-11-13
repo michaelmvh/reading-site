@@ -1133,6 +1133,48 @@
       "curated_categories": []
     },
     {
+      "id": "2030c70cdae6193d85c7773929b114bebff7e8ed8b4f78753432a81ec789db25",
+      "identity_keys": [
+        "https://doi.org/10.1128/jmbe.00253-26",
+        "https://openalex.org/W7225304491"
+      ],
+      "title": "An educational activity tailored for undergraduate students on AI-driven nanobody design for targeted antiviral therapeutics",
+      "link": "https://doi.org/10.1128/jmbe.00253-26",
+      "pdf_url": null,
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Journal of Microbiology and Biology Education",
+      "authors": [
+        {
+          "key": "adi idris",
+          "name": "Adi Idris"
+        },
+        {
+          "key": "idres yusuf",
+          "name": "Yusuf M. Idres"
+        },
+        {
+          "key": "bhattacharjee kamanasish",
+          "name": "Kamanasish Bhattacharjee"
+        },
+        {
+          "key": "高文清",
+          "name": "高文清"
+        }
+      ],
+      "abstract_text": "ABSTRACT Protein-based biologics are converging at an unprecedented pace as generative artificial intelligence (AI) reshapes early-stage drug discovery. Nanobodies, single-domain antibody fragments derived from camelid heavy chain-only immunoglobulins, are an emerging class of antiviral biologics prized for their small size, stability, and access to cryptic viral epitopes. Traditional nanobody discovery relies on animal immunization and phage display screening, a process that can take 6 to 12 months and is entirely inaccessible within a standard undergraduate laboratory session. Here, we describe a succinct, in silico -based laboratory activity that uses a generative AI protein design server, GeoFlow-V3 ( https://prot.design/ ), to allow undergraduate students to design a novel antiviral nanobody against the influenza A virus (IAV) hemagglutinin (HA) protein. This activity builds on our group’s prior use of generative AI for undergraduate siRNA design teaching and extends the same pedagogical model to structural protein engineering. To our knowledge, this is the first use of a generative AI protein design platform for teaching nanobody design at the undergraduate level.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2032d240ef6c2d294e7ec7e00c9e2de8fb41ad0085d98b9b9679544ee894d48e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70000-6",
@@ -1514,6 +1556,61 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2042654d015782fc3cbdc1b6e6ab41f1441e9c71088405f99c71e15ee2c55d21",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765051v1",
+        "https://doi.org/10.64898/2026.11.10.765051",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765051.source.xml"
+      ],
+      "title": "Basic-peptide depletion and precursor masking in bottom-up proteomics",
+      "link": "https://doi.org/10.64898/2026.11.10.765051",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765051v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "saadat",
+          "name": "Saadat, S"
+        },
+        {
+          "key": "barnes",
+          "name": "Barnes, M. R"
+        },
+        {
+          "key": "mohammad",
+          "name": "Mohammad, G"
+        },
+        {
+          "key": "naqvi",
+          "name": "Naqvi, S. N. B"
+        },
+        {
+          "key": "thiemermann",
+          "name": "Thiemermann, C"
+        },
+        {
+          "key": "yaqoob",
+          "name": "Yaqoob, M"
+        },
+        {
+          "key": "abdul salam",
+          "name": "Abdul-Salam, V"
+        }
+      ],
+      "abstract_text": "Biomarker proteomics studies report protein identities at the canonical precursor level, yet the underlying mass-spectrometry evidence consists of peptides whose physicochemical properties may diverge from the annotated protein. We reanalyzed peptide-level evidence from public datasets with a proteoform-aware pipeline that maps detected peptides to canonical sequences under a five-level confidence taxonomy, computes sequence-derived physicochemical features for precursors, peptides, and detected regions, and tests class-composition bias against digestion-matched backgrounds. Across ten public studies spanning five result-file formats and 70,020 peptide-evidence rows, detected peptides are depleted in the basic isoelectric-point class relative to their own proteins' theoretical tryptic peptides (fixed-effect odds ratio 0.45, 95% CI 0.44-0.46; leave-one-study-out envelope 0.44-0.49). The depletion is absent among fully tryptic peptides (OR 1.06) and concentrates in missed-cleavage peptides (OR 0.62-0.57), is invariant to detected-abundance stratification, and retains its direction under three independent pI-calculator models. Case studies reveal both directions of precursor-centric masking. Two orthogonal validations ground the framework: a digestion-free synthetic-peptide analysis (basic-class odds ratio 0.73, 95% CI 0.71-0.76 under standard DDA) and a paired top-down benchmark, in which detected regions recover top-down sequence space (90% of spans overlapped) but do not delimit proteoform boundaries (8% containment). Pipeline, data, and code are public.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

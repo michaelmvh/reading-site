@@ -4008,12 +4008,12 @@
         "https://openalex.org/W4394987481"
       ],
       "title": "InstructPLM: Aligning Protein Language Models to Follow Protein Structure Instructions",
-      "link": "https://doi.org/10.1101/2024.04.17.589642",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/20/2024.04.17.589642.full.pdf",
+      "link": "https://doi.org/10.21203/rs.3.rs-4432242/v1",
+      "pdf_url": null,
       "publication_date": "2024-04-20",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Research Square",
       "authors": [
         {
           "key": "jiezhong qiu",
@@ -5346,6 +5346,41 @@
       "curated_categories": []
     },
     {
+      "id": "98a1a39d2c3775a7e2d94daee0a1d3e5d5cd68376465552050120931e95b541b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765642v1",
+        "https://doi.org/10.64898/2026.11.10.765642",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.10.765642.source.xml"
+      ],
+      "title": "Scalable Multi-omics Diagonal Integration from Self-Mapping",
+      "link": "https://doi.org/10.64898/2026.11.10.765642",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765642v1.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "guan",
+          "name": "Guan, L"
+        },
+        {
+          "key": "he",
+          "name": "He, C"
+        }
+      ],
+      "abstract_text": "Diagonal integration seeks to align single-cell multi-omics datasets in which distinct modalities, such as RNA and protein, are measured in different cells. Unlike horizontal integration, these datasets lack direct cell--cell correspondences and complete feature mappings across modalities. Leading methods for weak-linkage integration often infer anchor cells between modalities by searching for cross-modal similarities through predefined feature links, then use these anchors to guide alignment. Their required matching or anchor refinement can become computationally burdensome at atlas scale. Here, we introduce a novel self-mapping technique, a mechanism that aligns modalities by mapping each computationally decoded cross-modality omics profile prediction to its own observed inputs. We implement this strategy in SCALEMAP, a scalable, modality-agnostic method for diagonal integration. Across transcriptomic, epigenomic and proteomic benchmarks, SCALEMAP matches or outperforms leading alternatives while requiring substantially less runtime and memory. In large-scale experiments, SCALEMAP integrates more than 1.5 million multi-omic profiles in less than 5 minutes with under 20 GB peak memory, which enables rapid synthesis of massive single-cell multi-omics resources into unified biological representations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "98a1f3e9511d1173d26fb1669a3b4a2f522b1593eb84131ee853c3c9238e6fc6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76189-w",
@@ -5688,7 +5723,7 @@
           "name": "Rotem Sorek"
         }
       ],
-      "abstract_text": "Abstract Bacterial defense systems present considerable barriers to both phage infection and plasmid transformation. These systems target mobile genetic elements, limiting the efficacy of bacteriophage-based therapies and restricting genetic engineering applications. Here, we employ a de-novo protein design approach to generate proteins that bind and inhibit bacterial defense systems. We show that our synthetically designed proteins block defense, and that phages engineered to encode the synthetic proteins can replicate in cells that express the respective defense system. We further demonstrate that a single phage could be engineered with multiple anti-defense proteins, yielding improved infectivity in bacterial strains carrying multiple defense systems. Finally, we show that plasmids that express synthetic anti-defense proteins can be introduced into bacteria that naturally restrict plasmid transformation. Our approach can broaden host ranges of therapeutic phages and can improve genetic engineering efficiency in strains that are typically difficult to transform.",
+      "abstract_text": "Bacterial defense systems present considerable barriers to both phage infection and plasmid transformation. These systems target mobile genetic elements, limiting the efficacy of bacteriophage-based therapies and restricting genetic engineering applications. Here, we employ a de-novo protein design approach to generate proteins that bind and inhibit bacterial defense systems. We show that our synthetically designed proteins block defense, and that phages engineered to encode the synthetic proteins can replicate in cells that express the respective defense system. We further demonstrate that a single phage could be engineered with multiple anti-defense proteins, yielding improved infectivity in bacterial strains carrying multiple defense systems. Finally, we show that plasmids that express synthetic anti-defense proteins can be introduced into bacteria that naturally restrict plasmid transformation. Our approach can broaden host ranges of therapeutic phages and can improve genetic engineering efficiency in strains that are typically difficult to transform. Bacterial defense systems act as barriers to phage infection and plasmid transformation. Here, Garb et al. designed synthetic proteins that disable bacterial defense systems, enabling phages to infect resistant bacteria and improving plasmid delivery.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6835,16 +6870,17 @@
     {
       "id": "98e058e6b3e476f45576fd4a5c5ab7f3c65568b4c1dcd1df714e0e36c088f3cc",
       "identity_keys": [
+        "https://doi.org/10.1038/s42256-026-01328-3",
         "https://doi.org/10.64898/2026.02.23.707420",
         "https://openalex.org/W7131289462"
       ],
-      "title": "Beyond alignment: synergistic integration is required for multimodal cell foundation models",
-      "link": "https://doi.org/10.64898/2026.02.23.707420",
-      "pdf_url": null,
-      "publication_date": "2026-02-24",
+      "title": "Multimodal cell foundation models require synergistic integration beyond alignment",
+      "link": "https://doi.org/10.1038/s42256-026-01328-3",
+      "pdf_url": "https://www.nature.com/articles/s42256-026-01328-3.pdf",
+      "publication_date": "2026-11-09",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Nature Machine Intelligence",
       "authors": [
         {
           "key": "richter till",
@@ -6879,7 +6915,7 @@
           "name": "Lorin A. Crawford"
         }
       ],
-      "abstract_text": "The vision of a “virtual cell”—a computational model that simulates biological function across modalities and scales—has become a defining goal in computational biology. While powerful unimodal foundation models exist, the lack of large-scale paired data prohibits the joint training of multimodal approaches. This scarcity favors compositional foundation models (CFMs): architectures that fuse frozen unimodal experts via a learned interface. However, it remains unclear when this multimodal fusion adds task-relevant information beyond the strongest unimodal representation and when it merely aggregates redundant signal. Here, we introduce the Synergistic Information Score (SIS), a metric grounded in partial information decomposition (PID), that quantifies the information gain achievable only through cross-modal interactions. Extending theoretical results from self-supervised learning, we show that standard alignment-based fusion objectives on frozen encoders inherently collapse to detecting linear redundancies, limiting their ability to capture nonlinear synergistic states. This distinction is directly relevant for tasks aiming to link tissue morphology and gene expression. Benchmarking ten fusion methods on spatial transcriptomics datasets, we use SIS to demonstrate that tasks dominated by linear redundancies are sufficiently served by unimodal baselines, whereas complex niche definitions benefit from synergy-aware integration objectives that enable cross-modal interactions beyond linear alignment. Finally, we perform a scaling analysis which highlights that fine-tuning a dominant unimodal expert is the most sample-efficient path for standard tasks, suggesting that the benefits of multimodal frameworks only emerge when tasks depend on information distributed across modalities. Together, these results establish that building towards a virtual cell will require a fundamental shift from alignment objectives that emphasize shared structure to synergy-maximizing integration that preserves and exploits complementary cross-modal signal.",
+      "abstract_text": "Abstract Integrating measurements across modalities and scales into unified quantitative frameworks of cellular function is a central goal in computational biology. Although powerful unimodal foundation models exist, the scarcity of large-scale paired data limits joint multimodal training. This constraint favours compositional foundation models, which fuse frozen unimodal experts through a learned interface. However, it remains unclear when such fusion provides task-relevant information beyond the strongest unimodal representation rather than merely aggregating redundant signal. Here we introduce Synergistic Information Score, a metric grounded in partial information decomposition that quantifies information gain arising only from cross-modal interactions. Extending theory from self-supervised learning, we show that standard alignment-based objectives with frozen encoders collapse to detect linear redundancies, which constrains their ability to capture nonlinear synergistic states. This distinction is especially important for tasks that connect tissue morphology with gene expression. Benchmarking ten fusion methods on spatial transcriptomics datasets, we demonstrate that tasks dominated by linear redundancies are well served by unimodal baselines, whereas complex niche definitions benefit from synergy-aware integration. Finally, we perform a scaling analysis and show that fine-tuning a dominant unimodal expert is the most sample-efficient strategy for standard tasks. Together, these results suggest that progress in multimodal modelling of cellular state requires shifting from alignment-based objectives to synergy-driven integration that exploits complementary cross-modal signal.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -6213,6 +6213,83 @@
       "curated_categories": []
     },
     {
+      "id": "a2df4051ee5f5d537420aeeed7e16b6e11121760fd7e2ec2f66cea34d26d2d90",
+      "identity_keys": [
+        "https://openalex.org/W7208804413",
+        "https://repository.upenn.edu/handle/20.500.14332/63084"
+      ],
+      "title": "SOLID-STATE NANOPORES AS HIGHLY VERSATILE DEVICES FOR BIOMOLECULE AND LIPID NANOPARTICLE STRUCTURAL CHARACTERIZATION",
+      "link": "https://repository.upenn.edu/handle/20.500.14332/63084",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ScholarlyCommons (University of Pennsylvania)",
+      "authors": [
+        {
+          "key": "kavetsky kyril",
+          "name": "Kyril Kavetsky"
+        }
+      ],
+      "abstract_text": "The field of solid state nanopores presents nearly limitless customizability in both the types of molecules that can be studied as well as the aspects of their structures which can be examined. Following an introduction to solid-state nanopores, their operating principles, and their trajectory as a biosensing technology, this dissertation presents their use in the single-molecule resolution characterization of the structures of transfer ribonucleic acid (tRNA) and cytochrome c (cyt c) protein. It then examines conjugates of lipid nanoparticles (LNPs) with messenger RNA (mRNA) payloads. In the case of tRNA, it investigates the effects of both point mutation A14G and post-transcriptional methylation m1G9 on the translocation signals of human mitochondrial tRNALeu(UAA) and found that each combination of these modifications affects the molecule’s dwell time and blockade behavior. From this, the relative structural stabilities of each variant can be inferred. In the case of cyt c, this work demonstrates the identification of configuration changes during translocation and assembles a statistical model determining the number of unique states measured, the favorability of transitions among the states detected, and basic characteristics inferred from their respective translocation behaviors. Finally, it presents methods for measuring the size of mRNA-laden LNPs to determine the efficiency of mRNA filling processes for drug delivery applications, using unprocessed LNPs as controls. The methods employed and experimental results of each case, the biomedical relevance of the results, as well as their respective implications on biosensing technology, are discussed.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a2e4aaafd3e54fd9814e8808ce8ed14a7fb08c019bfeccedbf6ddfdab4fad94b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765781v1",
+        "https://doi.org/10.64898/2026.11.10.765781",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765781.source.xml"
+      ],
+      "title": "Fast Pangenome Matching Statistics in Compressed Space with Move Structures",
+      "link": "https://doi.org/10.64898/2026.11.10.765781",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765781v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "brown",
+          "name": "Brown, N. K"
+        },
+        {
+          "key": "sanaullah",
+          "name": "Sanaullah, A"
+        },
+        {
+          "key": "shakya",
+          "name": "Shakya, P"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, S"
+        },
+        {
+          "key": "langmead",
+          "name": "Langmead, B"
+        }
+      ],
+      "abstract_text": "Matching statistics and supermaximal exact matches (SMEMs) are key inputs for sequence homology search and classification. Methods such as MONI, PHONI, and ropebwt3 compute these statistics using compressed pangenome indexes, but are substantially slower than methods that compute approximations of matching statistics, such as pseudo-matching lengths (PMLs). PMLs can be computed quickly in a single pass, but SMEM computation can require overlapping forward or backward passes over the query. We present ms2, a suite of algorithms that use \"move structures\" to compute matching statistics and SMEMs efficiently in compressed space. Our four algorithms compose move structures for the LF, {Psi}, {varphi}, and {varphi}-1 permutations with additional longest common prefix (LCP) array summaries and samples. The algorithms offer different tradeoffs among speed, index size, and support for reporting SMEM offsets. They inherit the move structure's fast, constant-time operations and achieve high throughput by leveraging the move structure's locality of reference. Thanks to recent advances, move structures can be constructed in optimal time and compressed space, including the LCP information needed for \"match recovery\" during SMEM computation. On 100 haplotypes of human chromosome 22, ms2's fastest algorithm computes matching statistics 35 to 48 times as fast as PHONI's online approach, while using an index of similar size. On the 472-haplotype HPRC2 pangenome and human reads, three ms2 modes achieve speedups of at least 22, 19, and 15 times over ropebwt3, whose index is about 15% the size of ms2's fastest mode. When additionally reporting SMEMs and their offsets, ms2 achieves speedups of 25 to 34 times over ropebwt3. Together, these advances enable online computation of matching statistics and SMEMs at a throughput that supports real-time processing of approximately 21 PromethION nanopore flow cells on a single thread. The ms2 software is open source and available at https://github.com/langmead-lab/ms2. It builds on the open-source TeraTools suite (https://github.com/ucfcbb/TeraTools) and Orbit library (https://github.com/drnatebrown/orbit). Experimental scripts and other details are described in: https://github.com/langmead-lab/ms2-experiments.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a2e4f2b9a752d0ac0bfe994fe1827f0022ca47e2fddd26070cdb76b4805e727b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75867-z",
@@ -6439,26 +6516,26 @@
       ],
       "title": "Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles",
       "link": "https://doi.org/10.64898/2026.10.29.762916",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762916v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/01/2026.10.29.762916.full.pdf",
       "publication_date": "2026-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "kao",
-          "name": "Kao, T.-Y"
+          "key": "kao te yu",
+          "name": "Te‐Yu Kao"
         },
         {
-          "key": "meiler",
-          "name": "Meiler, J"
+          "key": "jens meiler",
+          "name": "Jens Meiler"
         },
         {
-          "key": "mchaourab",
-          "name": "Mchaourab, H. S"
+          "key": "hassane mchaourab",
+          "name": "Hassane S. Mchaourab"
         }
       ],
-      "abstract_text": "Biological function entails the interconversion of a protein between distinct conformations, an equilibrium modulated by ligands and other physicochemical conditions. Double electron-electron resonance (DEER) spectroscopy captures these ensembles as distance distributions, P(r), between spin label pairs. However, the width of P(r) convolves protein conformational heterogeneity with the rotameric flexibility of the label. Because current spin label models overestimate this contribution, translating P(r) into ensembles has remained indirect and predominantly qualitative. Here, we developed spin-center (SC) diffusion, a differentiable model of the spin label with a tunable spin label rotameric width. Coupled to a frozen Boltz-2 structure generator, SC diffusion enables the entire experimental P(r) to guide ensemble generation at inference time. We demonstrate the robustness of this pipeline on synthetic P(r) of known composition, recovering the ensemble populations, including both components of a bimodal profile. Guided by experimental P(r) measured under different biochemical conditions, ensembles of the transporters PfMATE, LmrP, MhsT and P-glycoprotein were modeled and free energy differences derived from the ensembles in a condition-dependent manner. By embedding a differentiable label model in structure generation, our approach interprets DEER distributions as weighted conformational ensembles, adding a missing thermodynamic grounding to generative protein structure prediction methods.",
+      "abstract_text": "Abstract Biological function entails the interconversion of a protein between distinct conformations, an equilibrium modulated by ligands and other physicochemical conditions. Double electron-electron resonance (DEER) spectroscopy captures these ensembles as distance distributions, P(r), between spin label pairs. However, the width of P(r) convolves protein conformational heterogeneity with the rotameric flexibility of the label. Because current spin label models overestimate this contribution, translating P(r) into ensembles has remained indirect and predominantly qualitative. Here, we developed spin-center (SC) diffusion, a differentiable model of the spin label with a tunable spin label rotameric width. Coupled to a frozen Boltz-2 structure generator, SC diffusion enables the entire experimental P(r) to guide ensemble generation at inference time. We demonstrate the robustness of this pipeline on synthetic P(r) of known composition, recovering the ensemble populations, including both components of a bimodal profile. Guided by experimental P(r) measured under different biochemical conditions, ensembles of the transporters PfMATE, LmrP, MhsT and P-glycoprotein were modeled and free energy differences derived from the ensembles in a condition-dependent manner. By embedding a differentiable label model in structure generation, our approach interprets DEER distributions as weighted conformational ensembles, adding a missing thermodynamic grounding to generative protein structure prediction methods.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -174,16 +174,17 @@
     {
       "id": "0908e5e2d7190f28e5c3372e1fd727676147606d28ee357f0db8a7cf347717c6",
       "identity_keys": [
+        "https://doi.org/10.1016/j.ailsci.2026.100191",
         "https://hal.science/hal-05841102",
         "https://openalex.org/W7224683429"
       ],
-      "title": "From Generative Protein Models to Experimental Proteins: Validation and Benchmarking for Deep Generative Protein Design",
-      "link": "https://hal.science/hal-05841102",
-      "pdf_url": null,
-      "publication_date": "2026-01-01",
+      "title": "From generative protein models to experimental proteins: Validation and benchmarking for deep generative protein design",
+      "link": "https://doi.org/10.1016/j.ailsci.2026.100191",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2667318526000383/pdf",
+      "publication_date": "2026-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "HAL",
+      "venue": "Artificial Intelligence in the Life Sciences",
       "authors": [
         {
           "key": "li wenran",
@@ -226,7 +227,7 @@
           "name": "Frédéric Cadet"
         }
       ],
-      "abstract_text": "Recent advances in generative artificial intelligence have shifted computational protein engineering from structure prediction toward de novo biomolecular design. Diffusion-and flow-based approaches are especially prominent because they can generate diverse protein structures under geometric and functional constraints. However, heterogeneity in molecular representations, conditioning strategies, evaluation pipelines, and definitions of success complicates comparisons across studies. This review examines deep generative protein design from candidate generation to experimental validation. We summarize major representations, generative frameworks, and conditioning strategies for de novo backbone generation, motif scaffolding, binder design, enzyme design, and multimolecular generation. We organize validation as a hierarchy spanning computational filtering, synthesis and expression, biophysical characterization, structural confirmation, and functional testing. A matched-target PD-L1 binder-design case study comparing RFdiffusion and BindCraft illustrates substantial pre-experimental attrition. The case study illustrates workflow-dependent computational attrition, while retrospective analysis demonstrates sensitivity to final filtering thresholds. We therefore distinguish stage-specific computational success from experimental and global yield and emphasize that every success rate should specify its numerator and denominator. We also examine benchmarking bias and uncertainty arising from circular evaluation, evaluator dependence, dataset leakage, generation budget, physics-based modeling, and experimental variability, while treating failed candidates as informative outcomes. Finally, we propose minimum reporting standards that make attrition reconstructable across the complete design pipeline. This framework supports more reproducible and interpretable benchmarking and strengthens the connection between generative models and experimentally validated proteins.",
+      "abstract_text": "Recent advances in generative artificial intelligence have shifted computational protein engineering from structure prediction toward de novo biomolecular design. Diffusion- and flow-based approaches are especially prominent because they can generate diverse protein structures under geometric and functional constraints. However, heterogeneity in molecular representations, conditioning strategies, evaluation pipelines, and definitions of success complicates comparisons across studies. This review examines deep generative protein design from candidate generation to experimental validation. We summarize major representations, generative frameworks, and conditioning strategies for de novo backbone generation, motif scaffolding, binder design, enzyme design, and multimolecular generation. We organize validation as a hierarchy spanning computational filtering, synthesis and expression, biophysical characterization, structural confirmation, and functional testing. A matched-target PD-L1 binder-design case study comparing RFdiffusion and BindCraft illustrates substantial pre-experimental attrition. The case study illustrates workflow-dependent computational attrition, while retrospective analysis demonstrates sensitivity to final filtering thresholds. We therefore distinguish stage-specific computational success from experimental and global yield and emphasize that every success rate should specify its numerator and denominator. We also examine benchmarking bias and uncertainty arising from circular evaluation, evaluator dependence, dataset leakage, generation budget, physics-based modeling, and experimental variability, while treating failed candidates as informative outcomes. Finally, we propose minimum reporting standards that make attrition reconstructable across the complete design pipeline. This framework supports more reproducible and interpretable benchmarking and strengthens the connection between generative models and experimentally validated proteins.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1274,7 +1275,7 @@
           "name": "Benjamí Oller‐Salvia"
         }
       ],
-      "abstract_text": "The widespread expression of many therapeutic targets in both diseased and healthy tissues presents a significant challenge for protein therapeutics, often resulting in dose-limiting side effects. To focus the action of biotherapeutics at the disease site, they can be reversibly inactivated by tethering an affinity mask through a linker cleavable by a disease-specific cue. However, current methods to generate affinity masks require extensive screening of masking sequence libraries. Here, we report a workflow to design the first de novo peptide masks for the reversible inactivation of miniprotein binders and we show its application on an EGFR antagonist miniprotein. By extending the C-terminus of the miniprotein to cover the binding interface, a masking sequence is generated that decreases binding to EGFR over 1000 times. Binding of the parental miniprotein can be fully rescued by cleavage of the linker between the binder and the mask with tumor-specific proteases. Additionally, by site-specifically conjugating the peptide mask through a chemical linker, we show we can render the protein responsive to alternative stimuli such as light. Our approach opens the doors to dramatically accelerating the development of affinity-based masks for other proteins with therapeutic potential to render them conditionally active to any stimulus.",
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide The widespread expression of therapeutic targets in both diseased and healthy tissues poses a major challenge for protein-based therapeutics, often leading to dose-limiting side effects. One promising strategy to enhance selectivity is reversible inactivation via affinity masks tethered through cleavable linkers responsive to disease-specific cues. Here, we introduce a workflow for the de novo design of peptide masks that reversibly inactivate miniprotein binders. By extending the C-terminus of the binder with a protease-cleavable linker and a masking helix, we generated minimal constructs that sterically block the receptor-binding interface. We applied this strategy to four therapeutically relevant targets, EGFR domains I and III, FGFR2, and IL7Rα, demonstrating broad applicability. Nearly half of the 20 designs achieved >100-fold affinity reduction, with the most effective mask decreasing EGFR binding by over 3 orders of magnitude. Upon cleavage by tumor-associated proteases, binding was restored in 19 out of 20 cases, confirming reversibility. We further show that micromolar or weaker affinity between the binder and the isolated mask is sufficient for robust inactivation and rapid activation. Additionally, by chemically conjugating a photocleavable linker, we created a light-responsive version of the masked binder, enabling external control with comparable efficiency to protease-sensitive designs. This work establishes a generalizable, rapid, and efficient platform for designing cleavable peptide masks from scratch, paving the way for conditionally active protein therapeutics responsive to endogenous or exogenous stimuli.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2541,6 +2542,46 @@
       "curated_categories": []
     },
     {
+      "id": "098ffef2cbe071a74bbd226e09d0c7142ec3b49e20c1c8f752690da7e57e60f7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.16.752029v2",
+        "https://doi.org/10.64898/2026.09.16.752029",
+        "https://www.biorxiv.org/content/early/2026/09/18/2026.09.16.752029.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.09.16.752029.source.xml"
+      ],
+      "title": "Interrogating contrastive learning embeddings for structure-based virtual screening: a case study on DrugCLIP",
+      "link": "https://doi.org/10.64898/2026.09.16.752029",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.16.752029v2.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sanchez utges",
+          "name": "Sanchez Utges, J"
+        },
+        {
+          "key": "jones",
+          "name": "Jones, D. T"
+        },
+        {
+          "key": "orengo",
+          "name": "Orengo, C"
+        }
+      ],
+      "abstract_text": "Virtual screening has become central to early-stage drug discovery, and structure-based approaches have recently been reframed as a retrieval problem through contrastive learning methods such as DrugCLIP, which project protein pockets and ligands into a shared embedding space. However, what these abstract representations encode and how they relate to conventional notions of structural and chemical similarity remain unclear. Here we present a systematic dissection of DrugCLIP's latent space. We show that its pocket embeddings, despite not being explicitly trained for this task, achieve state-of-the-art performance in pocket similarity search while running over 10,000 times faster than existing structural descriptors. We further demonstrate that this embedding space is structurally coherent and robust to conformational variation. Ligand embeddings, by contrast, capture a pocket-aware notion of chemical similarity that extends beyond conventional fingerprint-based measures. Using a rigorous de-leakage benchmark, we show that DrugCLIP generalises beyond its fine-tuning set, retrieving the crystallographic ligand within the top 1% of a library of 48,999 compounds for 56.5% of 223 pockets with low protein sequence identity (SI [&le;] 30%) and limited ligand chemical similarity (TS [&le;] 0.7) to the fine-tuning set. Nevertheless, performance declines under increasingly realistic screening conditions, primarily due to differences in sidechain orientation across apo, holo and AlphaFold-predicted structures, and mismatches in pocket residue composition when using predicted pockets. These findings delineate the practical limits of DrugCLIP's applicability, highlight accurate pocket identification and representation as key factors for improving performance, and provide a transferable framework for interpreting the latent spaces of related contrastive pocket-ligand models. Together, these results offer insight to guide the refinement of existing methods and the development of future contrastive screening approaches.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "099077b5ecd59864776871397dd92342b8aefbc21ce7ae3d96853a1b195b08c8",
       "identity_keys": [
         "arxiv:2610.33195",
@@ -3067,8 +3108,8 @@
           "name": "Athanasios Bitzios"
         },
         {
-          "key": "enrique pe recasens rez vera",
-          "name": "Enrique Recasens Pérez-Vera"
+          "key": "enrique pérez recasens vera",
+          "name": "Enrique Recasens Pérez-Vera"
         },
         {
           "key": "hanna tegel",
@@ -4194,6 +4235,73 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "09c47d8f8ae586154dcf08ac54c863e205d46fcbe0782216580bb41ca85aa269",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765779v1",
+        "https://doi.org/10.64898/2026.11.10.765779",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765779.source.xml"
+      ],
+      "title": "A multi- tissue atlas of age-associated differential transcript usage in mouse reveals predominantly regulatory isoform switching across brain, liver, and adipose",
+      "link": "https://doi.org/10.64898/2026.11.10.765779",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765779v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "paidimukkala",
+          "name": "Paidimukkala, N"
+        },
+        {
+          "key": "ali",
+          "name": "Ali, S. S"
+        },
+        {
+          "key": "laux",
+          "name": "Laux, L"
+        },
+        {
+          "key": "hertzel",
+          "name": "Hertzel, A"
+        },
+        {
+          "key": "dileepan",
+          "name": "Dileepan, M"
+        },
+        {
+          "key": "kumerfeld",
+          "name": "Kumerfeld, E"
+        },
+        {
+          "key": "aliferis",
+          "name": "Aliferis, C"
+        },
+        {
+          "key": "robbins",
+          "name": "Robbins, P. D"
+        },
+        {
+          "key": "niedernhofer",
+          "name": "Niedernhofer, L. J"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        }
+      ],
+      "abstract_text": "Alternative splicing is increasingly recognized as dysregulated in the aging process across tissues and affects proteome and other regulatory changes which can be biomarkers of aging. In this study, we aimed to identify differential transcript usage (DTU) and isoforms switch accompanied with functional annotation and structural analysis in mouse brain, liver and adipose tissue during natural aging and Ercc1 knock out mice. Age associated isoform switches affected both coding and non-coding transcript features. Across tissues, 36.5-42.6% of switches altered the predicted coding sequence, 31.2-36.5% involved non-coding alternative arms, and 11-18% involved transcripts encoding an identical protein. We observed overall 3'-UTR lengthening in the brain and shortening in the adipose. A single pan-organ isoform switch event in the gene Ighm, recurs in seven separate tissue samples. BioEMU modeling confirms feasibility for a minority of switches following a seven-fold eligibility cascade; the Cyth1 exemplar shows an intrinsically disordered N-terminal extension that does not change the shared SEC7 and PH domains. Together, these results distinguish age-associated isoform changes as predominantly regulatory in mechanism, with structural consequences restricted to tissue-specific events that form a tractable target for conformational ensemble modeling.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

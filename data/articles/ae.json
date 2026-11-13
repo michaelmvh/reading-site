@@ -1327,6 +1327,58 @@
       "curated_categories": []
     },
     {
+      "id": "ae54e4017884b1e357774ca3c9756a79e5dbd3af6133392f10b1b760592cc9bd",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.29.741631v2",
+        "https://doi.org/10.64898/2026.07.29.741631",
+        "https://www.biorxiv.org/content/early/2026/08/04/2026.07.29.741631.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.07.29.741631.source.xml"
+      ],
+      "title": "MAXWELL: Calibrating the probabilistic outputs of protein language models to the mutation-induced stability change landscape",
+      "link": "https://doi.org/10.64898/2026.07.29.741631",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741631v2.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, M"
+        },
+        {
+          "key": "cheng",
+          "name": "Cheng, X"
+        },
+        {
+          "key": "hong",
+          "name": "Hong, M"
+        },
+        {
+          "key": "jiang",
+          "name": "Jiang, F"
+        },
+        {
+          "key": "hong",
+          "name": "Hong, L"
+        },
+        {
+          "key": "yu",
+          "name": "Yu, Y"
+        }
+      ],
+      "abstract_text": "Designing mutations that enhance protein stability is a central goal in protein engineering. However, experimentally screening large numbers of candidate mutations is costly and time-consuming, creating a strong need for computational methods that can identify potentially stabilizing mutations. Among these approaches, protein language models are particularly promising because they learn context-dependent amino acid preferences from large-scale sequence and structure datasets. Nevertheless, most existing stability prediction methods use these models primarily as feature extractors and do not fully exploit the amino acid probability distributions they encode. Here, we introduce MAXWELL (Matrix-wise Landscape Learning), a novel post-training method that calibrates the probabilistic outputs learned by protein language models during pretraining to generate mutational landscapes that quantify the effects of individual amino acid substitutions on protein stability. When applied to ProteinMPNN, MAXWELL yields a state-of-the-art predictor of the effects of protein mutations on stability, outperforming ThermoMPNN and other representative methods on a curated benchmark of experimentally measured stability changes. We next applied MAXWELL to the design of ten single-point mutations in the DhaA dehalogenase, seven of which (70%) increased thermal stability. Among them, G171W showed the largest improvement, with a measured {Delta}T of 4.91 . These experimental results establish MAXWELL as a novel post-training strategy for protein language models and a practical framework for designing stabilizing mutations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ae55279f81ed45b258d930236e6e5347b6089508eb1e4865ce73a4635d8739a9",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02883-w",
@@ -1518,7 +1570,7 @@
           "name": "Petr Šimeček"
         }
       ],
-      "abstract_text": "Abstract Multimodal protein language models have transformed protein design, yet their capacity to capture complex topological features remains poorly understood. We use knotted proteins, rare structures in which the backbone forms a nontrivial topological knot, as a test case to probe this capacity using ESM3, a generative protein language model. Topology-aware guided decoding strongly enriches ESM3 outputs for knotted topologies, producing structures classified as knotted at an 89% success rate (95% CI: 81– 94%), compared to ~0.5% for unguided diffusion-based approaches. A confidence analysis shows that freshly generated artificial knots have lower ESM3 pLDDT and pTM than real knotted proteins evaluated under the same pipeline, motivating a cautious interpretation of generated examples as model samples pending independent validation. In contrast, the robustness analyses on real knotted proteins are high-confidence: on average 84% of the protein sequence must be altered before the knot breaks, and the loss follows a sharp threshold rather than gradual degradation. Strikingly, structural drift accumulates well before topological disruption, suggesting that topology is more robust than specific three-dimensional arrangement. These findings position knotted proteins as a useful probe of how generative protein models represent rare, global structural features.",
+      "abstract_text": "Multimodal protein language models have transformed protein design, yet their capacity to capture complex topological features remains poorly understood. We use knotted proteins, rare structures in which the backbone forms a nontrivial topological knot, as a test case to probe this capacity using ESM3, a generative protein language model. ESM3's guided generation produces knotted proteins with an 89% success rate (95% CI: 81-94%), compared to ∼0.5% for unguided diffusion-based approaches. Knot topology is remarkably robust to sequence perturbation: on average 84% of the protein sequence must be altered before the knot breaks, and the loss follows a sharp threshold rather than gradual degradation. Strikingly, structural drift accumulates well before topological disruption, suggesting that topology is more robust than specific three-dimensional arrangement. Generated proteins show no close sequence similarity to known knotted proteins, arguing against simple memorization. These findings have implications for protein engineering and, more speculatively, for discussions of biosecurity in the era of generative biological AI.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3213,7 +3265,7 @@
       "authors": [
         {
           "key": "ido margolin",
-          "name": "margolin, ido"
+          "name": "ido margolin"
         }
       ],
       "abstract_text": "Minimal biological entities—from single proteins to ultra‑reduced archaea and viral RNA elements—occupy a \"twilight zone\" between living and non‑living systems. Traditional characterization focuses on static composition (genome size, morphology, marker genes), which often fails to capture their functional role in larger ecological and evolutionary networks. Here we propose the Transition Fingerprint Principle: minimal and trojan entities are most reliably detected not by their static properties, but by the topology of their passage through bottlenecks—physical, energetic, informational or field‑based. We term this generic structure a needle‑eye topology. We build on recent advances in nanopore sensing of single proteins, where stick–slip dynamics of individual molecules traversing a nanometer‑scale pore yield near‑instantaneous identification via machine‑learning on current traces. We extend this idea across scales to five seemingly disparate systems: (1) nanopore protein sensing, (2) RNA Obelisks in the human microbiome, (3) Candidatus Sukunaarchaeum—an ultra‑reduced archaeal symbiont, (4) trojan nblA genes carried by cyanophages that rewire oceanic photosynthesis, and (5) magnetofossils as fossilized traces of ancient magnetic navigation. For each case, we identify a bottleneck , an entity , the resulting transition trace and a candidate topological signature . We formulate a conjecture: in multi‑scale systems, minimal and trojan entities are stably identifiable by the topology of their transition traces through bottlenecks, not by static state alone. We outline three falsifiable predictions using nanopore design, topological data analysis (TDA) and minimal‑genome network topology, and we connect this framework to prior work on Temporal‑Betti Loops (TBL), microbiome clocks and topological sensing architectures. We suggest that needle‑eye topologies provide a unifying language for the detection, interpretation and eventual design of boundary‑layer life—entities that operate at the edge of what we call \"living\".",
@@ -3263,6 +3315,44 @@
         }
       ],
       "abstract_text": "Seawater Mg/Ca has oscillated markedly over the Phanerozoic, closely associated with secular variations in sedimentation, icehouse-greenhouse fluctuations, and the evolution of calcifying invertebrates. However, the drivers of these long-term oscillations remain unresolved. Here, we develop an inverse model that couples seawater Mg concentration and Mg isotope composition variations. By exploiting the contrasting Mg isotopic fractionation associated with Mg-silicate formation and dolomitization, this model quantifies the major marine Mg sinks. Model results show that increases in seawater Mg/Ca during supercontinent assembly were explained by reduced rates of silicate alteration and dolomitization. In contrast, decreases in seawater Mg/Ca during periods of supercontinent stasis and early breakup were driven by intensified Mg-silicate formation and dolomitization. Variations in marine Mg-silicate and dolomite formation were further regulated by seafloor spreading, continental configuration, and climate throughout the supercontinent cycle. Together, our results identify the supercontinent cycle as a first-order regulator of Phanerozoic seawater Mg/Ca through its control on marine Mg-silicate and dolomite fluxes.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "aead9118b502e3e04039d1fb4550c60aba51cf7ebf93a537f0366277980da738",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-11365499/v1",
+        "https://openalex.org/W7225254252"
+      ],
+      "title": "Design and Recombinant Production of Proline-rich Antimicrobial Peptide 385P",
+      "link": "https://doi.org/10.21203/rs.3.rs-11365499/v1",
+      "pdf_url": "https://www.researchsquare.com/article/rs-11365499/latest.pdf",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "kesmen zülal",
+          "name": "Zülal Kesmen"
+        },
+        {
+          "key": "canpolat melike",
+          "name": "Melike Canpolat"
+        },
+        {
+          "key": "dilara herdem",
+          "name": "Dilara Herdem"
+        }
+      ],
+      "abstract_text": "The rapid emergence of antimicrobial resistance has increased the search for alternative agents with novel mechanisms of action. Here, we established an end-to-end framework for the rational development of proline-rich antimicrobial peptides (PrAMPs), integrating computational motif discovery, peptide design, recombinant production, and biological characterization. Conserved motifs from highly active PrAMPs were identified and ranked using MEME and rationally assembled to generate the 36-amino acid peptide 385P. A C-terminal hexahistidine-tagged construct (r385P) was successfully produced in Pichia pastoris GS115 and confirmed by SDS-PAGE, Western blotting, and His-tag ELISA. r385P exhibited broad-spectrum antimicrobial activity, with MICs of 4–32 µg/mL against Gram-negative bacteria, 2–32 µg/mL against Gram-positive bacteria, and 64 µg/mL against Candida albicans and Candida glabrata , with the highest antibacterial activity against Listeria monocytogenes and Acinetobacter baumannii . r385P exhibited strong antibiofilm activity, achieving 83.83% inhibition against Escherichia coli O157:H7 at MIC/2 and complete inhibition against Staphylococcus aureus at MIC. FICI assays revealed antibiotic- and species-dependent interactions, including synergy with kanamycin against Klebsiella pneumoniae (FICI = 0.375) and consistent additive interactions with tetracycline. r385P retained full antimicrobial activity after exposure to 50–200 mM NaCl and 1–4 h of trypsin treatment, while MICs increased two- and four-fold following exposure to 65 and 95°C, respectively. Hemolysis remained below 4% at 256 µg/mL, while MRC-5 cell viability was 71% at 320 µg/mL. Collectively, these findings demonstrate the potential of conserved-motif assembly as a practical strategy for developing functionally robust PrAMP candidates.",
       "discovery_sources": [
         {
           "kind": "open_alex",

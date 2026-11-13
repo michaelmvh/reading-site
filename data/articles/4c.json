@@ -216,6 +216,120 @@
       "curated_categories": []
     },
     {
+      "id": "4c0d77a3985b698e2c0afe043c66e8d5bd9176c53ae16ae16934b1dd6b057fbb",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765456v1",
+        "https://doi.org/10.64898/2026.11.09.765456",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.09.765456.source.xml"
+      ],
+      "title": "scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods",
+      "link": "https://doi.org/10.64898/2026.11.09.765456",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ma",
+          "name": "Ma, L"
+        },
+        {
+          "key": "li",
+          "name": "Li, J. J"
+        },
+        {
+          "key": "sankaran",
+          "name": "Sankaran, K"
+        }
+      ],
+      "abstract_text": "Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods. Existing single-cell simulators can broadly be divided into statistical and deep generative classes. Statistical simulators offer interpretable parameters for controlling simulated data, but their modeling assumptions may not accurately represent real data. Deep generative models can learn complex expression patterns, but it remains unclear how to transparently control individual biological or technical factors without introducing unintended effects. We introduce scDeepSim, a simulator that combines a structured variational autoencoder with latent diffusion to generate synthetic single-cell expression profiles. It allows users to intervene on selected biological or technical factors at user-specified strengths, producing realistic datasets with benchmark ground truth. We demonstrate this capability by benchmarking batch correction and trajectory inference methods, showing how batch-effect strength affects batch mixing and cell-type preservation, and how trajectory geometry and noise affect pseudotime recovery. scDeepSim therefore enables researchers to vary selected biological and technical factors in realistic simulated data and assess how these changes affect the performance of single-cell analysis methods, helping understand when such methods may be appropriately applied. Code for the scDeepSim simulator and experiments is available at https://github.com/LangtianM/scDeepSim.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4c0e9ec9e7abbbe83a92eafde9c77438c545a4e78cfbb3321538dc3d84a4bcb0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764467v1",
+        "https://doi.org/10.64898/2026.11.05.764467",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764467.source.xml"
+      ],
+      "title": "Development of a Pan-Proteome Multi-Epitope Vaccine Candidate Against Nipah Virus Using Reverse Vaccinology and Immunoinformatics Approaches",
+      "link": "https://doi.org/10.64898/2026.11.05.764467",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764467v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nishan",
+          "name": "Nishan, R. K"
+        },
+        {
+          "key": "nahian",
+          "name": "Nahian, M"
+        },
+        {
+          "key": "akter",
+          "name": "Akter, B"
+        },
+        {
+          "key": "basher",
+          "name": "Basher, T"
+        },
+        {
+          "key": "nodee",
+          "name": "Nodee, T. A"
+        },
+        {
+          "key": "asha",
+          "name": "Asha, I. A"
+        },
+        {
+          "key": "sany",
+          "name": "Sany, M. R"
+        },
+        {
+          "key": "sathy",
+          "name": "Sathy, S. A"
+        },
+        {
+          "key": "shila",
+          "name": "Shila, F. S"
+        },
+        {
+          "key": "islam",
+          "name": "Islam, M. A"
+        },
+        {
+          "key": "azad",
+          "name": "Azad, A. K"
+        },
+        {
+          "key": "islam",
+          "name": "Islam, M. S"
+        }
+      ],
+      "abstract_text": "Nipah virus (NiV) is a high-consequence zoonotic pathogen for which no licensed human vaccine is currently available. This study applied a consensus-guided pan-proteome immunoinformatics framework to design and prioritize a multi-epitope vaccine candidate using sequence information from all nine NiV proteins. A total of 901 NiV protein sequences were retrieved, of which 842 passed quality filtering and were processed through clustering, multiple-sequence alignment, and protein-specific consensus generation. Consensus-derived fragments were screened for cytotoxic T-lymphocyte, helper T-lymphocyte, and B-cell epitopes, followed by multi-criterion filtering based on antigenicity, allergenicity, toxicity, conservancy, class-specific immune-response properties, and human-proteome similarity. Ten epitope-selection strategies were combined with two adjuvant candidates and three construct architectures to generate 60 vaccine constructs. Shortlisted candidates were subsequently evaluated for physicochemical properties, HLA population coverage, structural characteristics, conformational B-cell epitopes, TLR3 docking, molecular dynamics, immune-response simulation, and expression-oriented optimization. VC033_V6_BD_L03 construct was prioritized as the lead candidate and showed combined predicted population coverage of 99.78% worldwide and 99.96% in South Asia. Docking against human TLR3 structure 1ZIW yielded a ClusPro score of -1624.8. During a 100-ns molecular-dynamics simulation, the complex underwent early conformational reorganization followed by lower late-phase structural variation and persistent interchain hydrogen bonding. MM/GBSA analysis yielded a mean interaction-energy estimate of -20.52, 15.42 kcal/mol. C-ImmSim predicted coordinated humoral and cellular responses, while codon optimization generated a 1,539-bp expression sequence compatible with virtual cloning into pET-28a(+). These analyses prioritize VC033_V6_BD_L03 as a consensus-derived, pan-proteome NiV multi-epitope vaccine candidate for experimental evaluation of expression, immunogenicity, safety, and protective efficacy.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4c1365601c4c3ff2dae8246a2b468c40bdfc49e63702f8039975d6543e86fed6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64095-6",

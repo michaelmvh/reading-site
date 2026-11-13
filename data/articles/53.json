@@ -58,8 +58,8 @@
           "name": "Geraldene Munsamy"
         },
         {
-          "key": "illanes",
-          "name": "R. Illanes"
+          "key": "illanes ramiro vicioso",
+          "name": "Ramiro Illanes-Vicioso"
         },
         {
           "key": "fruncillo silvia",
@@ -587,8 +587,8 @@
       "venue": "Colloidal Nanoparticles for Biomedical Applications",
       "authors": [
         {
-          "key": "adrien nicolaı",
-          "name": "Adrien Nicolaı̈"
+          "key": "adrien nicolaï",
+          "name": "Adrien Nicolaï"
         }
       ],
       "abstract_text": null,
@@ -1391,8 +1391,8 @@
           "name": "Joan Planas-Iglesias"
         },
         {
-          "key": "damborský jiřı",
-          "name": "Jiřı́ Damborský"
+          "key": "damborský jiří",
+          "name": "Jiří Damborský"
         },
         {
           "key": "jiří sedlář",
@@ -1769,6 +1769,105 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "536478c1fc27242060ea067115ef9bb67baea1b3fe2195e23ac8ff6f747e720c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764812v1",
+        "https://doi.org/10.64898/2026.11.06.764812",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764812.source.xml"
+      ],
+      "title": "π-SPECFormer: A Mass Spectrometry-based Foundation Model for Decoding the Dark Proteome",
+      "link": "https://doi.org/10.64898/2026.11.06.764812",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764812v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ling",
+          "name": "Ling, T"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, T"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, F"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Y"
+        },
+        {
+          "key": "xia",
+          "name": "Xia, J"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, X"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, S"
+        },
+        {
+          "key": "xie",
+          "name": "Xie, L"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, R"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, T"
+        },
+        {
+          "key": "li",
+          "name": "Li, K"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, G"
+        },
+        {
+          "key": "liang",
+          "name": "Liang, Z"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, J"
+        },
+        {
+          "key": "li",
+          "name": "Li, S. Z"
+        },
+        {
+          "key": "he",
+          "name": "He, F"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "chang",
+          "name": "Chang, C"
+        }
+      ],
+      "abstract_text": "In mass-spectrometry-based proteomics, a substantial proportion of acquired spectra remain unidentified, concealing a vast reservoir of biological variations commonly termed the \"dark proteome\", potentially obscuring sequence mutations, non-canonical peptides and post-translational modifications. Existing deep-learning methods largely rely on supervised training with peptide-spectrum matches (PSMs), limiting their ability to learn from the much larger pool of unannotated spectra. Here we introduce {pi}-SPECFormer, a mass-spectrometry foundation model pre-trained on 291 million spectra through a two-stage framework that combines self-supervised and PSMs-guided representation learning. {pi}-SPECFormer transfers effectively to de novo peptide sequencing, spectrum clustering and modification detection, consistently outperforming task-specific baselines. When applied to proteomic profiles from 103 individuals with lung adenocarcinoma, the model identified nine high-confidence mutated peptides, including six that were absent from the reference databases. {pi}-SPECFormer thus enables unbiased decoding of molecular complexity beyond the boundaries of the canonical proteome.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5612,7 +5711,7 @@
           "name": "Pheng‐Ann Heng"
         }
       ],
-      "abstract_text": "Abstract Inverse Protein Folding (IPF) is an important task of protein design, which aims to design sequences compatible with a given backbone structure. Despite the prosperous development of algorithms for this task, existing methods tend to leverage limited and noisy residue environment when generating sequences. In this paper, we develop an iterative sequence refinement pipeline, which can refine the sequence generated by existing sequence design models. It selects and retains reliable predictions based on the model’s confidence in predicted distributions, and decodes the residue type based on a partially visible environment. The proposed scheme can consistently improve the performance of a number of IPF models on several sequence design benchmarks, and increase sequence recovery of the SOTA model by up to 10%. We finally show that the proposed model can be applied to redesign Transposon-associated transposase B. 8 variants exhibit improved gene editing activity among the 20 variants we proposed. Our code and a demo of the refinement pipeline are provided in the online colab.",
+      "abstract_text": "Abstract Inverse Protein Folding (IPF) is an important task of protein design, which aims to design sequences compatible with a given backbone structure. Despite the prosperous development of algorithms for this task, existing methods tend to rely on noisy predicted residues located in the local neighborhood when generating sequences. To address this limitation, we propose an entropy-based residue selection method to remove noise in the input residue context. Additionally, we introduce ProRefiner, a memory-efficient global graph attention model to fully utilize the denoised context. Our proposed method achieves state-of-the-art performance on multiple sequence design benchmarks in different design settings. Furthermore, we demonstrate the applicability of ProRefiner in redesigning Transposon-associated transposase B, where six out of the 20 variants we propose exhibit improved gene editing activity.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

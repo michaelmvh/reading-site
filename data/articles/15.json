@@ -1126,6 +1126,53 @@
       ]
     },
     {
+      "id": "15196f7c0dd4beb388197abe7cdd068b8dee53d8af74c0945a989f375ef9a210",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.08.764985v1",
+        "https://doi.org/10.64898/2026.11.08.764985",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.08.764985.source.xml"
+      ],
+      "title": "ProClust provides reliable statistical significance of clusters for single-cell transcriptomic data",
+      "link": "https://doi.org/10.64898/2026.11.08.764985",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.08.764985v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "qian",
+          "name": "Qian, H"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, H"
+        },
+        {
+          "key": "dai",
+          "name": "Dai, Y"
+        },
+        {
+          "key": "yan",
+          "name": "Yan, G"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Y"
+        }
+      ],
+      "abstract_text": "Clustering of single-cell RNA sequencing (scRNA-seq) data is widely used to identify cell populations. However, overclustering can partition a single cell population into multiple clusters, potentially leading to spurious identification of cell subpopulations. Assessing the statistical significance of clusters is therefore needed to support their biological interpretation. We propose ProClust, a statistical test for clustering significance in scRNA-seq data. ProClust defines a single cluster as a log-concave distribution and adopts a projection-based approach to quantify clustering uncertainty through p-values. These projections can also provide interpretable visual evidence for individual clusterings. ProClust merges clusters when there is insufficient evidence to reject the single-cluster null hypothesis, refining an initial overclustering without prespecifying the final number of clusters. Across parametric and PBMC-based semi-synthetic simulations, ProClust avoided false subdivisions under single-population null settings while consistently recovering the underlying population structure across different numbers of true populations. In real scRNA-seq datasets from the Human Lung Cell Atlas, Tabula Muris, and Hydra, ProClust produced clustering solutions that showed overall agreement with reference annotations while retaining supported substructure and merging groups with insufficient evidence for separation. Together, these results demonstrate that ProClust provides a statistically principled and interpretable framework for refining an initial overclustering and distinguishing supported cellular heterogeneity. The ProClust R package is available at https://github.com/Anonym027/ProClust.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "151a5a26a59df1e84db6c2cbbd099678d8f5e5c8b8bdb93659a642b7ccd1a6dc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73115-y",
@@ -6042,7 +6089,7 @@
           "name": "Yang Yang"
         }
       ],
-      "abstract_text": "Large language models (LLMs) can reason over scientific literature to devise design strategies, yet fail to reliably implement them for biological sequences. While protein generative models learn sequence patterns, they lack the capacity to incorporate literature evidence for multi-step reflective reasoning, forming an evidence-to-execution gap between scientific reasoning and sequence manipulation. We present EASER (Evidence-Aware Sequence Engineering with Reflection), a reflective agent bridging reasoning and sequence generation via a learned property interface of offline-trained, fixed low-rank matrices. The agent steers a diffusion generator by combining these matrices, proposing intervention hypotheses (anchors, editable positions, control coefficients) grounded in retrieved evidence, sequence context and past results. A Probe-and-Steer mechanism validates interventions and allocates samples according to predicted property responses, with outcome reflection informing subsequent decisions. Evaluated on multi-objective antimicrobial peptide design (optimizing activity, non-hemolysis and non-toxicity), explicit hypothesis formulation delivers better multi-objective performance than direct action generation under identical decision conditions. Ablation studies verify the importance of evidence retrieval, episodic history, reflection and Probe-and-Steer. Over six repeated trials, EASER obtains the highest mean hypervolume and lowest mean IGD+ on screened candidates compared with competing baselines. Our work demonstrates how an executable property interface and iterative feedback link scientific reasoning to targeted peptide sequence generation.",
+      "abstract_text": "Large language models can reason over scientific literature, but textual plans do not reliably produce biological sequences with the intended properties. Sequence generators capture sequence patterns, yet they do not interpret evidence, choose interventions, or reflect on outcomes. This separation creates an evidence-to-execution gap between scientific reasoning and sequence-level control. We introduce EASER, a reflective agent that connects the two through a learned property interface. The interface consists of property-specific low-rank directions trained offline and fixed during search; an LLM controller (the controller) composes them to steer a frozen diffusion generator. From retrieved evidence, sequence context, and prior outcomes, it proposes intervention hypotheses that specify anchors, editable positions, and coefficients. Probe-and-Steer tests these hypotheses and allocates further samples from their joint predicted responses; reflection updates the agent's memory. On computational antimicrobial peptide design, EASER balances activity, non-hemolysis, and non-toxicity. Explicit hypothesis formulation yields larger multi-objective gains than direct action generation, and ablations support evidence retrieval, episodic history, reflection, and Probe-and-Steer. EASER achieves the highest mean hypervolume and lowest mean IGD+ among the evaluated search policies and generators on screened candidates. These results show that a learned property interface can make literature-grounded reasoning executable at the sequence level.",
       "discovery_sources": [
         {
           "kind": "open_alex",

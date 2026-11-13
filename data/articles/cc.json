@@ -1530,6 +1530,44 @@
       "curated_categories": []
     },
     {
+      "id": "cc55c278ce8ae53b2af840cd51e25faac09fbfc00ed0442f20eae665e2ae89e7",
+      "identity_keys": [
+        "arxiv:2611.14287",
+        "https://doi.org/10.48550/arXiv.2611.14287"
+      ],
+      "title": "ANTIOCH-VS: From Sequence to Hits with Modular, Open-Source Ensemble Virtual Screening",
+      "link": "https://doi.org/10.48550/arXiv.2611.14287",
+      "pdf_url": "https://arxiv.org/pdf/2611.14287v1",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "hale hasdemir",
+          "name": "Hale S. Hasdemir"
+        },
+        {
+          "key": "adury sai sreyas venkata",
+          "name": "Venkata Sai Sreyas Adury"
+        },
+        {
+          "key": "pratyush tiwary",
+          "name": "Pratyush Tiwary"
+        }
+      ],
+      "abstract_text": "Structure-based virtual screening needs a receptor conformation that fits the ligand class, but for most targets no ligand-bound crystal is available -- and a single predicted model or an apo structure often misses the binding-competent state. We present ANTIOCH-VS, an open-source framework that runs an entire in silico screening campaign, from a protein sequence to a ranked shortlist of candidate binders, as one plug-and-play workflow. It first builds a conformational ensemble by reduced-MSA subsampling with ColabFold, then uses AlphaFold2-RAVE (AF2RAVE) -- short molecular-dynamics simulations with State Predictive Information Bottleneck analysis -- to pick out docking-ready, Boltzmann-weighted metastable states. It then detects the binding pocket, prepares receptors and ligands, docks the library across the ensemble with DOCK6 or AutoDock Vina, builds a consensus ranking, and triages the top hits by physics-based metadynamics (CTMD). We benchmark it on two very different targets, JAK2 kinase and ADRB2 GPCR, using their DUD-E benchmark sets of known binders and property-matched decoys. Starting from sequence alone -- no ligand-bound crystal, no manual intervention -- the AF2RAVE ensembles gave top-20 shortlists strongly enriched for true binders: a 20% hit rate for JAK2 and 60% for ADRB2 (random ~1-2%), on par with ligand-bound crystals and, for the kinase, above single AF2 models and an apo crystal. The full pipeline runs end to end on a workstation or HPC from a single command, or each module can be run on its own with user-supplied inputs. ANTIOCH-VS is freely available at https://github.com/tiwarylab/antioch-vs",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cc58098daada4db43314253840c7ebaee9963ddb59640d8a67115793fcad08a9",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10977-8",
@@ -2881,7 +2919,7 @@
           "name": "Vahid Sandoghdar"
         }
       ],
-      "abstract_text": "High-resolution studies in structural biology are often limited by the challenges of crystallization and low contrast in the cellular native environment. The exquisite labeling specificity of fluorescence microscopy gets around these issues and allows superresolution microscopy, but to date, these works have used chemically fixed samples. To establish light microscopy as a workhorse in structural biology, two main requirements must be fulfilled: near-native sample preservation and near-atomic optical resolution. Here, we introduce single-particle cryogenic light microscopy (spCryo-LM) as a technique that satisfies these key criteria. We adapt established protocols from cryogenic electron microscopy (Cryo-EM) for shock-freezing samples and use a high-vacuum cryogenic shuttle system to transfer them in and out of a liquid-helium cryostat that houses a superresolution fluorescence microscope. By exploiting the enhanced photophysics at low temperature, angstrom precision can be achieved in localizing several fluorophores attached to proteins separated by a few hundred nanometers. We present various characterization studies on vitreous ice, single-molecule photoblinking behavior, and the effects of laser intensity and benchmark our method by resolving the heptameric membrane protein alpha-hemolysin in a synthetic lipid membrane. Additionally, we report on the technique's capability to resolve membrane proteins in their native cellular membrane environment. spCryo-LM enables structural studies of proteins in their native environment without chemical fixation or protein isolation, and can be integrated with other superresolution or spectroscopic techniques. We believe our approach establishes light microscopy as a powerful tool in structural biology and sets the stage for correlative microscopy with Cryo-EM and related techniques.",
+      "abstract_text": "High-resolution studies in structural biology are often limited by the challenges of crystallization and low contrast in the cellular native environment. The exquisite labeling specificity of fluorescence microscopy gets around these issues and allows superresolution microscopy, but to date, these works have used chemically fixed samples. To establish light microscopy as a workhorse in structural biology, two main requirements must be fulfilled: near-native sample preservation and near-atomic optical resolution. Here, we introduce single-particle cryogenic light microscopy (spCryo-LM) as a technique that satisfies these key criteria. We adapt established protocols from cryogenic electron microscopy (Cryo-EM) for shock-freezing samples and use a high-vacuum cryogenic shuttle system to transfer them in and out of a liquid-helium cryostat that houses a superresolution fluorescence microscope. By exploiting the enhanced photophysics at low temperature, angstrom precision can be achieved in localizing several fluorophores attached to proteins separated by a few hundred nanometers. We present various characterization studies on vitreous ice, single-molecule photoblinking behavior, and the effects of laser intensity and benchmark our method by resolving the heptameric membrane protein alpha-hemolysin in a synthetic lipid membrane. Additionally, we report on the technique’s capability to resolve membrane proteins in their native cellular membrane environment. spCryo-LM enables structural studies of proteins in their native environment without chemical fixation or protein isolation, and can be integrated with other superresolution or spectroscopic techniques. We believe our approach establishes light microscopy as a powerful tool in structural biology and sets the stage for correlative microscopy with Cryo-EM and related techniques.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4895,8 +4933,8 @@
           "name": "Jason Yang"
         },
         {
-          "key": "lambert théophile",
-          "name": "Théophile Lambert"
+          "key": "lambert",
+          "name": "T Lambert"
         },
         {
           "key": "meara ryen",

@@ -1021,7 +1021,7 @@
         },
         {
           "key": "subramanian subu",
-          "name": "Subu K. Subramanian"
+          "name": "Subu Subramanian"
         },
         {
           "key": "benjamin mohr",
@@ -1435,7 +1435,7 @@
           "name": "Yifei Zhang"
         }
       ],
-      "abstract_text": "Abstract Evolutionary constraints significantly limit the diversity of naturally occurring enzymes, thereby reducing the sequence repertoire available for enzyme discovery and engineering. Recent breakthroughs in protein structure prediction and de novo design, powered by artificial intelligence, now enable us to create enzymes with desired functions without relying on traditional genome mining. Here, we demonstrate a computational strategy for creating new-to-nature PET hydrolases by leveraging the known catalytic mechanisms and implementing multiple deep learning algorithms and molecular computations. This strategy includes the extraction of functional motifs from a template enzyme (here we use leaf-branch compost cutinase, LCC), regeneration of new protein scaffolds, computational screening, experimental validation, and sequence refinement. We successfully replicate PET hydrolytic activity with designer enzymes that are at least 30% shorter in sequence length than LCC. Among them, Rs PETase 1 stands out due to its robust expressibility. It exhibits comparable activity to Is PETase and considerable thermostability with a melting temperature of 56 °C, despite sharing only 34% sequence similarity with LCC. This work suggests that enzyme diversity can be expanded by recapitulating functional motifs with computationally built protein scaffolds, thus generating opportunities to acquire highly active and robust enzymes that do not exist in nature.",
+      "abstract_text": "Abstract Evolutionary constraints significantly limit the diversity of naturally occurring enzymes, thereby reducing the sequence repertoire available for enzyme discovery and engineering. Recent breakthroughs in protein structure prediction and de novo design, powered by artificial intelligence, now enable to create enzymes with desired functions without solely relying on traditional genome mining. Here, a computational strategy is demonstrated for creating new‐to‐nature polyethylene terephthalate hydrolases (PET hydrolases) by leveraging the known catalytic mechanisms and implementing multiple deep learning algorithms and molecular computations. This strategy includes the extraction of functional motifs from a template enzyme (here leaf‐branch compost cutinase, LCC, is used), regeneration of new protein sequences, computational screening, experimental validation, and sequence refinement. PET hydrolytic activity is successfully replicated with designer enzymes that are at least 30% shorter in sequence length than LCC. Among them, Rs PETase1 stands out due to its robust expressibility. It exhibits comparable catalytic efficiency ( k cat / K m ) to LCC and considerable thermostability with a melting temperature of 56 °C, despite sharing only 34% sequence similarity with LCC. This work suggests that enzyme diversity can be expanded by recapitulating functional motifs with computationally built protein scaffolds, thus generating opportunities to acquire highly active and robust enzymes that do not exist in nature.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4832,6 +4832,40 @@
       "curated_categories": []
     },
     {
+      "id": "1e92265d0395750819384df02c14b0c133db18ef3ada314c92f96b851cf4d319",
+      "identity_keys": [
+        "arxiv:2611.10838",
+        "https://doi.org/10.48550/arXiv.2611.10838"
+      ],
+      "title": "Learning Biological Hierarchies in Single-Cell Foundation Models",
+      "link": "https://doi.org/10.48550/arXiv.2611.10838",
+      "pdf_url": "https://arxiv.org/pdf/2611.10838v1",
+      "publication_date": "2026-11-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "guo xiangyu",
+          "name": "Xiangyu Guo"
+        },
+        {
+          "key": "henao ricardo",
+          "name": "Ricardo Henao"
+        }
+      ],
+      "abstract_text": "Cell types are organized by taxonomic relationships that define lineages in the so-called cell ontology. However, most existing foundation models typically ignore cell-type lineages encoded in this cell ontology. We introduce a biologically informed foundation model called scOntoFM, which embeds hierarchical cell ontology into representation learning. Using Lowest Common Ancestor (LCA) distances from the ontology graph, our framework pairs efficient offline triplet sampling with hierarchical cell-ontology learning. This approach jointly preserves local neighborhoods and shapes the global embedding geometry to reflect the ontology structure. Across diverse cell- and gene-level benchmarks, the model consistently improves performance, with especially strong gains in zero-shot settings. Our model also balances batch integration with biological structure preservation, providing complementary perspectives to existing embedding evaluation frameworks and supporting scalable biological discovery.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1e935fffc2ae3f19fa47970bc0b9d4237bd4a69e1fa0904a469e64b551520569",
       "identity_keys": [
         "https://doi.org/10.1101/2023.01.08.523187",
@@ -4971,7 +5005,7 @@
         },
         {
           "key": "bateman katherine",
-          "name": "Katherine J. Bateman"
+          "name": "Katherine Bateman"
         },
         {
           "key": "belliveau gaelin kopec",
@@ -7072,6 +7106,64 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1ee9d6a1ddc70f569a3dcb5adbafd6b7fa5ca32d838ba2f3ae8d72ec335396f6",
+      "identity_keys": [
+        "arxiv:2611.13348",
+        "https://doi.org/10.48550/arXiv.2611.13348"
+      ],
+      "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+      "link": "https://doi.org/10.48550/arXiv.2611.13348",
+      "pdf_url": "https://arxiv.org/pdf/2611.13348v1",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "yikun zhang",
+          "name": "Yikun Zhang"
+        },
+        {
+          "key": "guo minghao",
+          "name": "Minghao Guo"
+        },
+        {
+          "key": "guangxue xu",
+          "name": "Guangxue Xu"
+        },
+        {
+          "key": "chen peter yichen",
+          "name": "Peter Yichen Chen"
+        },
+        {
+          "key": "matusik wojciech",
+          "name": "Wojciech Matusik"
+        },
+        {
+          "key": "jin wengong",
+          "name": "Wengong Jin"
+        },
+        {
+          "key": "chai jingjing",
+          "name": "Jingjing Chai"
+        },
+        {
+          "key": "jiang kaiyi",
+          "name": "Kaiyi Jiang"
+        }
+      ],
+      "abstract_text": "Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of sequence, evolutionary, and structural information using MutationFormer, a mutation-biased attention architecture. Variants are represented as states in this joint latent space, and mutations define actions whose functional consequences are predicted. To support exploration of many mutants, we developed a fast, physics-constrained all-atom predictor that utilizes explicit geometric constraint enforcement to achieve >10 fold increase in speed than AlphaFold3 with guaranteed physical validity. Lastly, ProTEUS refines its prediction and understanding of protein activity through closed loop experimental feedback to guide evolution toward a desired phenotype. ProTEUS surpasses established models in both zero-shot and supervised fine-tuning mutation prediction tasks. We experimentally demonstrate its utility in two closed-loop multi-objective engineering campaigns on aldehyde dehydrogenase and levansucrase, yielding variants with >10 fold higher activity than wild type. ProTEUS provides a world-model framework that connects virtual evaluation of mutational outcomes with experimental learning for efficient protein evolution.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

@@ -42,7 +42,7 @@
           "name": "Pranam Chatterjee"
         }
       ],
-      "abstract_text": "Abstract Therapeutic peptides combine the advantages of small molecules and antibodies, offering target flexibility and low immunogenicity, yet their successful translation requires careful evaluation of multiple developability properties beyond binding alone. As chemically modified peptides become increasingly common in drug design, no unified platform currently supports systematic property assessment across both canonical sequences and SMILES-based representations. Leveraging the generalizability of large foundational models trained on protein and chemical data, we introduce PeptiVerse , a universal therapeutic peptide property prediction platform. PeptiVerse accepts either amino acid sequences or chemically modified peptide SMILES, delivers state-of-the-art performance across diverse property prediction tasks, and provides both a web interface and open-source implementation for rapid, accessible, and scalable pep-tide developability analysis. By unifying property prediction across representations, PeptiVerse directly supports early-stage peptide therapeutic development campaigns and property-aware generative design workflows.",
+      "abstract_text": "Therapeutic peptides combine the advantages of small molecules and antibodies, offering target flexibility and low immunogenicity, yet their successful translation requires careful evaluation of multiple developability properties beyond binding alone. As chemically modified peptides become increasingly common in drug design, no unified platform currently supports systematic property assessment across both canonical sequences and SMILES-based representations. Leveraging the generalizability of large foundational models trained on protein and chemical data, we introduce PeptiVerse, a universal therapeutic peptide property prediction platform. PeptiVerse accepts either amino acid sequences or chemically modified peptide SMILES, delivers state-of-the-art performance across diverse property prediction tasks, and provides both a web interface and open-source implementation for rapid, accessible, and scalable peptide developability analysis. By unifying property prediction across representations, PeptiVerse directly supports early-stage peptide therapeutic development campaigns and property-aware generative design workflows. Therapeutic peptides are an increasingly important drug modality, combining the flexibility of small molecules with the specificity and low immunogenicity of antibodies, but their development requires simultaneous optimization of multiple physicochemical and pharmacological properties. Here, the authors present PeptiVerse, a unified platform that leverages large foundation models to predict diverse peptide developability properties from both amino acid sequences and SMILES representations, enabling accessible, scalable analysis for peptide drug design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -333,6 +333,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fd09f34ae5bf74feb34cd6ac00bf5fd2eddc8be40e1867f86edfa25a23698d8f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765209v1",
+        "https://doi.org/10.64898/2026.11.10.765209",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.10.765209.source.xml"
+      ],
+      "title": "Pallatom2: Navigating the De Novo Protein Universe with Atom-to-Atom Modeling",
+      "link": "https://doi.org/10.64898/2026.11.10.765209",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765209v1.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "guan",
+          "name": "Guan, J"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, R"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, S"
+        },
+        {
+          "key": "wei",
+          "name": "Wei, Y"
+        },
+        {
+          "key": "jin",
+          "name": "Jin, J"
+        },
+        {
+          "key": "ye",
+          "name": "Ye, W"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, D"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, H"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, W"
+        }
+      ],
+      "abstract_text": "Protein binder design requires precise coordination of molecular structure, binding geometry, and experimentally measurable performance. We introduce Pallatom2, an efficient, precise Atom-to-Atom generative model that jointly models protein sequence, backbone conformation, side-chain geometry, and target-interface contacts. A unified Atom14 representation and residue-guided sparse all-atom attention enable bidirectional information exchange between residue-level and atom-level representations, coordinating global structure with local atomic detail in a compact model of just 65.9 million parameters. Its conditioning system provides fine-grained control over binder-target engagement and global and local protein conformations, supporting diverse target-specific design requirements. In silico evaluation demonstrates broad generative capability across long-chain monomers, multi-domain proteins, and homomultimers, with monomer sampling extending to 1,600 residues. In binder design, Pallatom2 achieves state-of-the-art in silico screening performance across all nine targets with cross-method benchmark data under the reported protocols. These in silico results translate into substantial experimental success: biolayer interferometry identifies 112 active designs among 210 tested candidates (53.3%), with binders obtained for all ten experimentally evaluated targets. Six targets yield picomolar-scale apparent affinities, including K_D values of 3.96 pM for SC2RBD and 33.8 pM for PD-L1, while TNF reaches 1.166 nM. Beyond de novo discovery, starting-interface-guided BCMA design preserves association kinetics despite substantial sequence divergence; partial diffusion improves TNF affinity by up to 7.57-fold; and CDR-associated interface remodeling converts an inactive de novo nanobody into binders with apparent K_D values of 4.31 and 5.93 nM. Together, these results establish Pallatom2 as a versatile model for protein design, combining efficient atomic modeling, leading in silico screening performance, and experimentally demonstrated capabilities in high-affinity binder discovery, interface transfer, affinity maturation, and recovery of inactive designs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -1480,8 +1543,8 @@
           "name": "Shunzhi Wang"
         },
         {
-          "key": "kibler ryan",
-          "name": "Ryan D. Kibler"
+          "key": "daniel kibler ryan",
+          "name": "Ryan Daniel Kibler"
         },
         {
           "key": "jisu shin",
@@ -4162,7 +4225,7 @@
       ],
       "title": "Contextual protein and antibody encodings from equivariant graph transformers",
       "link": "https://doi.org/10.1016/j.cels.2025.101201",
-      "pdf_url": null,
+      "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S2405471225000341",
       "publication_date": "2023-07-17",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -4375,6 +4438,77 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "fddc04091e1dc97989d4075b930c7f2ab9259c0387c44e6723b99fcfaa1f1116",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764411v1",
+        "https://doi.org/10.64898/2026.11.04.764411",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764411.source.xml"
+      ],
+      "title": "Application of metagenomic sequencing to improve sessile serrated lesion detection using the faecal immunochemical test",
+      "link": "https://doi.org/10.64898/2026.11.04.764411",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764411v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hart",
+          "name": "Hart, B. J"
+        },
+        {
+          "key": "laven law",
+          "name": "Laven-Law, G"
+        },
+        {
+          "key": "harker",
+          "name": "Harker, C. M"
+        },
+        {
+          "key": "doane",
+          "name": "Doane, M. P"
+        },
+        {
+          "key": "parker",
+          "name": "Parker, R"
+        },
+        {
+          "key": "menberu",
+          "name": "Menberu, M"
+        },
+        {
+          "key": "cock",
+          "name": "Cock, C"
+        },
+        {
+          "key": "edwards",
+          "name": "Edwards, R. A"
+        },
+        {
+          "key": "symonds",
+          "name": "Symonds, E. L"
+        },
+        {
+          "key": "winter",
+          "name": "Winter, J. M"
+        },
+        {
+          "key": "roach",
+          "name": "Roach, M. J"
+        }
+      ],
+      "abstract_text": "Most population colorectal cancer (CRC) screening programs use the faecal immunochemical test (FIT), which quantifies occult haemoglobin in faeces and has proven to be effective in detecting and reducing CRC incidence and mortality. Sessile serrated lesions (SSLs) account for up to 30% of sporadic CRC, yet FIT has low sensitivity to detect them. Faecal microbial biomarkers may improve their detection, but FIT samples have not previously been used to study the SSL microbiome. We asked whether FIT samples preserve the faecal microbiome as accurately as fresh collection, and whether they can reveal a microbial signature of SSL. We first reanalysed a published dataset of paired FIT and fresh faecal samples from the same participants. Donor identity explained 63.5% of compositional variance compared with 16.7% for collection method, indicating that FIT preserves the donor-specific signature on which biomarker discovery depends. We then generated shotgun metagenomes from FIT samples of 24 adults scheduled for diagnostic colonoscopy, twelve with at least one clinically significant SSL and twelve with no neoplasia (NN) and compared each group with a published fresh faeces cohort matched on colonoscopy outcome. Collection method explained 6.3% to 7.6% of variance, and no individual species was significantly differentially abundant between methods. Between SSL and NN FIT samples, community structure did not significantly differ, and conservative differential abundance analysis returned no results. More permissive count-based models suggested a depletion of fermentative commensals in SSL. Functionally, SSL samples encoded significantly fewer KEGG orthologs and less polyamine biosynthesis capacity, while orthologs carried by several Bifidobacterium species were more abundant. Many depleted functions reflected Enterobacteriaceae gene content concentrated in a few control samples. No single feature was diagnostic on its own. A multi-feature signature, confirmed in larger cohorts and applied to samples that screening programs already collect, may increase the detection rate of SSLs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4945,7 +5079,7 @@
           "name": "K. Christopher García"
         }
       ],
-      "abstract_text": "Abstract T cell receptor (TCR) mimics offer a promising platform for tumor-specific targeting of peptide-MHC in cancer immunotherapy. Here, we designed a de novo α-helical TCR mimic (TCRm) specific for the NY-ESO-1 peptide presented by HLA-A*02, achieving high on-target specificity with nanomolar affinity (K d = 9.5 nM). The structure of the TCRm/pMHC complex at 2.05 Å resolution revealed a rigid TCR-like docking mode with an unusual degree of focus on the up-facing NY-ESO-1 side chains, suggesting the potential for reduced off-target reactivity. Indeed, a structure-informed in silico screen of 14,363 HLA-A*02 peptides correctly predicted two off-target peptides, yet our TCRm maintained a wide therapeutic window as a T cell engager. These results represent a path for precision targeting of tumor antigens with peptide-focused α-helical TCR mimics.",
+      "abstract_text": "T cell receptor (TCR) mimics offer a promising platform for tumor-specific targeting of peptide–major histocompatibility complex (pMHC) in cancer immunotherapy. In this study, we designed a de novo α-helical TCR mimic (TCRm) specific for the NY-ESO-1 peptide presented by human leukocyte antigen (HLA)–A*02, achieving high on-target specificity with nanomolar affinity (dissociation constant K d = 9.5 nM). The structure of the TCRm-pMHC complex at 2.05-Å resolution revealed a rigid TCR-like docking mode with an unusual degree of focus on the up-facing NY-ESO-1 side chains, suggesting the potential for reduced off-target reactivity. Indeed, a structure-informed in silico screen of 14,363 HLA-A*02 peptides correctly predicted two off-target peptides, yet our TCRm maintained peptide selectivity and cytotoxicity as a T cell engager. These results represent a path for precision targeting of tumor antigens with peptide-focused α-helical TCR mimics.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

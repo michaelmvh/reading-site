@@ -230,6 +230,100 @@
       "curated_categories": []
     },
     {
+      "id": "060808ee8f92f2a0657d3d996725a613da9234ad591db2fbc084abf84e0d5509",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.04670",
+        "https://openalex.org/W7225261098"
+      ],
+      "title": "Sheaf-MPNN: A Library for Sheaf Neural Networks as Message Passing",
+      "link": "https://doi.org/10.48550/arxiv.2611.04670",
+      "pdf_url": "https://arxiv.org/pdf/2611.04670",
+      "publication_date": "2026-11-03",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "alessio borgi",
+          "name": "Alessio Borgi"
+        },
+        {
+          "key": "mario severino",
+          "name": "Mario Severino"
+        },
+        {
+          "key": "braithwaite luke",
+          "name": "Luke Braithwaite"
+        },
+        {
+          "key": "azzolin steve",
+          "name": "Steve Azzolin"
+        },
+        {
+          "key": "bourgerie rémi",
+          "name": "Rémi Bourgerie"
+        },
+        {
+          "key": "olga zaghen",
+          "name": "Olga Zaghen"
+        },
+        {
+          "key": "emanuele mule",
+          "name": "Emanuele Mule"
+        },
+        {
+          "key": "ali riccardo",
+          "name": "Riccardo Ali"
+        },
+        {
+          "key": "kustermann leo minh",
+          "name": "Leo Minh Kustermann"
+        },
+        {
+          "key": "coppola edoardo",
+          "name": "Edoardo Coppola"
+        },
+        {
+          "key": "antonio purificato",
+          "name": "Antonio Purificato"
+        },
+        {
+          "key": "fiorini stefano",
+          "name": "Stefano Fiorini"
+        },
+        {
+          "key": "christopher irwin",
+          "name": "Christopher Irwin"
+        },
+        {
+          "key": "filippo spiga",
+          "name": "Filippo Spiga"
+        },
+        {
+          "key": "fabrizio silvestri",
+          "name": "Fabrizio Silvestri"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "liò pietro",
+          "name": "Pietro Liò"
+        }
+      ],
+      "abstract_text": "Standard Graph Neural Networks (GNNs) implicitly assume that neighboring nodes share the same feature space, which contributes to oversmoothing and poor performance on heterophilic graphs. Sheaf Neural Networks (SNNs) remove this assumption by giving each node and edge its own vector space and learning restriction maps that transform features as they move between neighbors. These maps define a sheaf Laplacian that drives diffusion over the graph, but existing implementations often assemble it explicitly as a global sparse block matrix, which adds memory and computational overhead and can hinder scalability. In this paper, we introduce Sheaf-MPNN, a PyTorch Geometric library that reformulates sheaf diffusion as local incidence-wise transport and aggregation, eliminating the need to construct the global Laplacian. Sheaf-MPNN implements fifteen families of SNNs under a unified message-passing framework, each supporting both homogeneous and heterogeneous graphs, and directed and undirected settings, with diagonal, general, orthogonal, and low-rank restriction maps and attention-based predictors. We further provide a unified benchmarking suite covering node- and graph-level tasks, heterogeneous graph learning, and computational efficiency, enabling systematic and reproducible comparisons across architectures. We establish theoretical equivalence between these message-passing formulations and their original counterparts and identify the architectural mechanisms needed to preserve their propagation dynamics. This unified perspective provides a principled foundation for implementing, comparing, and extending sheaf-based architectures within standard graph learning frameworks. Source code is available at https://github.com/alessioborgi/sheaf-mpnn.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0609dc248bf5bfb5b5caaf963cfe9a2531348563671fd686f11d7d6b7395b62b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66607-w",
@@ -5949,7 +6043,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "The proto-oncogene Ras which governs diverse intracellular pathways has four major isoforms (KRAS4A, KRAS4B, HRAS, and NRAS) with substantial sequence homology and similar in vitro biochemistry. There is considerable interest in investigating the roles of these independently as their association with different cancers vary, but there are few Ras isoform-specific binding reagents as the only significant sequence differences are in their disordered and highly charged C-termini which have been difficult to elicit antibodies against. To overcome this limitation, we use deep learning-based methods to de novo design Ras isoform-specific binders (RIBs) for all major Ras isoforms that specifically target the Ras C-terminus. The RIBs bind to their target Ras isoforms both in vitro and in cells with remarkable specificity, disrupting their membrane localization and inhibiting Ras activity, and should contribute to dissecting the distinct roles of Ras isoforms in biology and disease.",
+      "abstract_text": "The four major isoforms encoded by RAS proto-oncogenes are differentially associated with cancer, but there are few isoform-specific binding reagents becasue the sequence differences are confined to their disordered C termini. To overcome this limitation, we use deep learning-based methods to design Ras isoform-specific binders (RIBs) for all major Ras isoforms de novo by targeting the Ras C terminus. The RIBs bind to their target Ras isoforms both in vitro and in cells with remarkable specificity, disrupting their membrane localization and inhibiting Ras activity. The RIBs enable dissection of the distinct roles of Ras isoforms during Ras G12C inhibitor resistance, demonstrating their utility in understanding Ras biology and disease and suggesting potential therapeutic applications.",
       "discovery_sources": [
         {
           "kind": "open_alex",

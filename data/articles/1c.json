@@ -1172,6 +1172,54 @@
       "curated_categories": []
     },
     {
+      "id": "1c2f9485e1cc24c6d2e1d274250d5b5fd90127328c76d3c5b57f6080f81bdd61",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.01.30.702134v2",
+        "https://doi.org/10.64898/2026.01.30.702134",
+        "https://www.biorxiv.org/content/early/2026/02/02/2026.01.30.702134.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.01.30.702134.source.xml"
+      ],
+      "title": "BIG-TB: A benchmark for evaluating prediction and interpretability of sequence-based machine learning using Mycobacterium tuberculosis  genomes",
+      "link": "https://doi.org/10.64898/2026.01.30.702134",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.30.702134v2.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "tasmin",
+          "name": "Tasmin, M"
+        },
+        {
+          "key": "mohanty",
+          "name": "Mohanty, S"
+        },
+        {
+          "key": "kulkarni",
+          "name": "Kulkarni, S"
+        },
+        {
+          "key": "farhat",
+          "name": "Farhat, M. R"
+        },
+        {
+          "key": "green",
+          "name": "Green, A. G"
+        }
+      ],
+      "abstract_text": "Foundation models aim to learn useful representations of biological sequences, but are hindered by a lack of benchmarks to jointly evaluate predictive performance and variant attribution on diverse tasks. To this end, we present the Benchmark for Interpretable prediction from Genomes of Tuberculosis, BIG-TB. We curate over 17,000 genomes with high-quality sequencing data and experimentally measured antibiotic resistance phenotypes, combined with a curated list of WHO-catalogue of resistance-associated variants, and provide these data in an ML-ready format. BIG-TB defines two tasks: (1) predictive performance of antibiotic resistance phenotypes, and (2) attribution of predictions to known resistance-conferring variants. Using our tasks, we evaluate DNA- and protein-based foundation models, showing that DNA-based foundation models do not yet outperform simple machine learning baselines (mean test AUC = 0.888 vs. 0.865 for best CNN variant vs. best Evo2 variant across drugs). In a lineage-informed evaluation across DNA and protein modalities, predictive signal for well-characterized drugs was largely preserved (mean AUC 0.846-0.963). Across both evaluation settings, models with the highest predictive performance did not necessarily achieve the strongest recovery of resistance variants, underscoring the value of evaluating both predictive accuracy and biological interpretability. Overall, BIG-TB provides a reusable resource for developing sequence representations that are both accurate and mechanistically meaningful.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1c341be3ff60e72b8e2a28da31793699116f5f610febaedc07355df9353441e5",
       "identity_keys": [
         "https://doi.org/10.1134/s0026893326700251",
@@ -2549,6 +2597,64 @@
       "curated_categories": []
     },
     {
+      "id": "1c7a33e86bcbb62bbeb0a2fa52dd4c0cd95f9f58cac4e93f110079973826b0ff",
+      "identity_keys": [
+        "https://doi.org/10.1038/s41467-026-79287-x",
+        "https://openalex.org/W7225329839"
+      ],
+      "title": "Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning",
+      "link": "https://doi.org/10.1038/s41467-026-79287-x",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-79287-x_reference.pdf",
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Nature Communications",
+      "authors": [
+        {
+          "key": "qianmu yuan",
+          "name": "Qianmu Yuan"
+        },
+        {
+          "key": "mingming zhu",
+          "name": "Mingming Zhu"
+        },
+        {
+          "key": "pei xu",
+          "name": "Pei Xu"
+        },
+        {
+          "key": "jiahua rao",
+          "name": "Jiahua Rao"
+        },
+        {
+          "key": "cao lichuang",
+          "name": "Lichuang Cao"
+        },
+        {
+          "key": "jianzhong liu",
+          "name": "Jianzhong Liu"
+        },
+        {
+          "key": "lu yutong",
+          "name": "Yutong Lu"
+        },
+        {
+          "key": "yang yuedong",
+          "name": "Yuedong Yang"
+        }
+      ],
+      "abstract_text": "Quantifying enzyme kinetic parameter changes upon mutations is essential for accelerating enzyme evolution. Current methods focus on predicting absolute values of kinetic parameters (turnover numbers kcat and Michaelis constants Km), yet they fail to accurately capture mutation effects. To our knowledge, no method directly models mutation effects (Δkcat and ΔKm) due to the scarcity of such training data. Moreover, these methods haven’t fully exploited protein structural geometry. Here, we establish a high-quality enzyme mutation effect dataset by pairing wild-type and mutant kinetic parameters measured under identical experimental conditions via a semi-automatic procedure combining language model-assisted parsing and manual verification. Leveraging this dataset, we develop DeltaCata, a Siamese geometric graph neural network to directly predict the changes in kinetic parameters induced by residue substitutions. DeltaCata demonstrates substantial performance improvements over existing methods, especially for enzymes unseen in the training sets. Its utility is further validated through in silico beneficial mutation screening experiments using deep mutational scanning datasets. Finally, we apply DeltaCata to engineer the methyltransferase sGmOMT2, achieving up to a 7.0-fold improvement in catalytic efficiency for in vitro icaritin synthesis. These results suggest the high potential of DeltaCata for industrial enzyme engineering. Predicting how mutations affect enzyme catalytic efficiency remains challenging. Here the authors build a benchmark dataset and develop DeltaCata, a geometric deep learning model that predicts changes in enzyme kinetics and guides enzyme engineering.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1c7bec84a737e49d81e2aef02763a41fee0cd252f63c95069badf800b38dee06",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03970-0",
@@ -2694,6 +2800,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1c877326b69d58f2e07fce3c633f76dad4eaadd984c2abfcfaff7ad1e39a7621",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762727v1",
+        "https://doi.org/10.64898/2026.10.29.762727",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.10.29.762727.source.xml"
+      ],
+      "title": "MELD: Mutation Effect Learning through Differential embeddings",
+      "link": "https://doi.org/10.64898/2026.10.29.762727",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762727v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "alajji",
+          "name": "Alajji, A"
+        },
+        {
+          "key": "jashil",
+          "name": "Jashil, R"
+        },
+        {
+          "key": "mall",
+          "name": "Mall, R"
+        },
+        {
+          "key": "elshrif",
+          "name": "Elshrif, M"
+        }
+      ],
+      "abstract_text": "We introduce MELD (Mutation Effect Learning through Differential Embeddings), a compact model for predicting the functional consequences of single nucleotide variants (SNVs) by training directly on the wild-type (WT) versus mutant differential. Interpreting SNVs is central to clinical genomics, yet experimental characterization cannot scale to millions of observed variants. Leading sequence-to-function models (Enformer, Borzoi, AlphaGenome) are trained on absolute genomic tracks and score variants post hoc through in-silico mutagenesis (ISM), so the WT-mutant difference never enters the training loss. MELD instead places the logit difference {Delta}z = zmut - zwt inside the supervised objective. It combines a shared CNN-Transformer encoder, a mutant-specific mutation-mask boost, multiscale mutation-centered pooling, and a learned adaptive amplification factor . On ClinVar (1.57M variants), MELD (1.9M parameters) reached an AUROC of 0.986 versus 0.800 for a same-data, same-backbone ISM baseline, with ablations confirming the contribution of each component. On a shared benchmark, it outperformed frozen foundation models with 3-1,300x more parameters (AUROC 0.967 vs. 0.924 for AlphaGenome and 0.936 for Nucleotide Transformer). With only 50, 000 training variants, it exceeded the ISM baseline trained on all 1.48M (AUROC 0.903 vs. 0.796) variants. On BRCA1 saturation genome editing, frozen MELD achieved a Spearman {rho} of 0.42, above Borzoi (0.40), and ClinVar transfer raised it to 0.45. These results demonstrate that direct differential supervision is a compact, data-efficient alternative to post-hoc ISM scoring with substantially larger pretrained models.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5508,6 +5657,40 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1ce78c13f45d97b041d7d536fd2592853035682464d6e782a30e25078c13ffe2",
+      "identity_keys": [
+        "arxiv:2611.16881",
+        "https://doi.org/10.48550/arXiv.2611.16881"
+      ],
+      "title": "Protein Language Models Fail To Capture Contact Predictions Under Invariant Relabeling",
+      "link": "https://doi.org/10.48550/arXiv.2611.16881",
+      "pdf_url": "https://arxiv.org/pdf/2611.16881v1",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "batra paarth",
+          "name": "Paarth Batra"
+        },
+        {
+          "key": "aryan keluskar",
+          "name": "Aryan Keluskar"
+        }
+      ],
+      "abstract_text": "Protein language models (pLMs) produce highly accurate contact maps from single-sequence inputs. People often take this accuracy as proof that these models implicitly learn invariant coevolutionary statistics, extracting the same signals as classical alignment-based methods like Potts. In this work, we introduce a diagnostic framework around a global bijective relabeling of the amino-acid alphabet. This transformation permutes residue letters while leaving all alignment-level information, column entropies, and pairwise edit distances unchanged. Pseudolikelihood Potts models and inverse-covariance estimators remain invariant under this transformation, but pLMs fail the test. Across multiple architectures (ESM-2, MSA Transformer, AMPLIFY) and model scales (8M to 3B parameters), pLM contact maps collapse under arbitrary relabeling. Using Hamming distance controls and biochemical grouping interventions, we attempt to isolate what likely causes this degradation and find that these models rely on explicit, canonical residue identities (``alphabet anchoring'') rather than pure coevolutionary statistics. Increasing scale makes models more responsive to biochemical classes, but their performance still degrades under relabeling. Our findings show a gap between how pLMs and classical coevolutionary models compute contacts. More broadly, our work shows how diagnostic perturbations that leave classical models provably unchanged can expose hidden representation biases and prevent over-reliance on neural black boxes in biological modeling.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

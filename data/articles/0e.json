@@ -2921,7 +2921,7 @@
           "name": "Brian A. Kuhlman"
         }
       ],
-      "abstract_text": "Abstract There has been considerable progress in the development of computational methods for designing protein-protein interactions, but engineering high-affinity binders without extensive screening and maturation remains challenging. Here, we test a protein design pipeline that uses iterative rounds of deep learning (DL)-based structure prediction (AlphaFold2) and sequence optimization (ProteinMPNN) to design autoinhibitory domains (AiDs) for a PD-L1 antagonist. Inspired by recent advances in therapeutic design, we sought to create autoinhibited (or masked) forms of the antagonist that can be conditionally activated by proteases. Twenty-three de novo designed AiDs, varying in length and topology, were fused to the antagonist with a protease sensitive linker, and binding to PD-L1 was tested with and without protease treatment. Nine of the fusion proteins demonstrated conditional binding to PD-L1 and the top performing AiDs were selected for further characterization as single domain proteins. Without any experimental affinity maturation, four of the AiDs bind to the PD-L1 antagonist with equilibrium dissociation constants (K D s) below 150 nM, with the lowest K D equal to 0.9 nM. Our study demonstrates that DL-based protein modeling can be used to rapidly generate high affinity protein binders. Significance statement Protein-protein interactions are critical to most processes in biology, and improved methods for designing protein binders will enable the creation of new research reagents, diagnostics, and therapeutics. In this study, we show that a deep learning-based method for protein design can create high-affinity protein binders without the need for extensive screening or affinity maturation.",
+      "abstract_text": "There has been considerable progress in the development of computational methods for designing protein–protein interactions, but engineering high-affinity binders without extensive screening and maturation remains challenging. Here, we test a protein design pipeline that uses iterative rounds of deep learning (DL)-based structure prediction (AlphaFold2) and sequence optimization (ProteinMPNN) to design autoinhibitory domains (AiDs) for a PD-L1 antagonist. With the goal of creating an anticancer agent that is inactive until reaching the tumor environment, we sought to create autoinhibited (or masked) forms of the PD-L1 antagonist that can be unmasked by tumor-enriched proteases. Twenty-three de novo designed AiDs, varying in length and topology, were fused to the antagonist with a protease-sensitive linker, and binding to PD-L1 was measured with and without protease treatment. Nine of the fusion proteins demonstrated conditional binding to PD-L1, and the top-performing AiDs were selected for further characterization as single-domain proteins. Without any experimental affinity maturation, four of the AiDs bind to the PD-L1 antagonist with equilibrium dissociation constants (K D s) below 150 nM, with the lowest K D equal to 0.9 nM. Our study demonstrates that DL-based protein modeling can be used to rapidly generate high-affinity protein binders.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3489,6 +3489,50 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0e8897979e9536579f0145a3c1036fc69798a25db9d7752b5b174da9cbf300c6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.03.15.711921v2",
+        "https://doi.org/10.64898/2026.03.15.711921",
+        "https://www.biorxiv.org/content/early/2026/03/18/2026.03.15.711921.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.03.15.711921.source.xml"
+      ],
+      "title": "PREMISE: A Quality-Aware Probabilistic Framework for High-Resolution Source Assignment in Metagenomic Sequencing",
+      "link": "https://doi.org/10.64898/2026.03.15.711921",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.15.711921v2.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "vijendran",
+          "name": "Vijendran, S"
+        },
+        {
+          "key": "dorman",
+          "name": "Dorman, K"
+        },
+        {
+          "key": "anderson",
+          "name": "Anderson, T. K"
+        },
+        {
+          "key": "eulenstein",
+          "name": "Eulenstein, O"
+        }
+      ],
+      "abstract_text": "Metagenomic applications, from influenza A virus (IAV) subtype tracking to bacterial strain resolution, frequently require sub-species resolution.However, traditional $k$-mer-based methods fragment reads into short $k$-mers and discard per-base quality scores.By omitting both intra-read linkage and error information, these methods confound closely related genomic variants, thereby impeding real-time pathogen surveillance and containment.We introduce \\premise (Pathogen Resolution via Expectation-Maximization In Sequencing Experiments), a probabilistic, alignment-based framework implemented in Rust for high-resolution source assignment against near-complete reference databases.\\premise aligns whole reads using a bidirectional run-length FM-index and quantifies reference abundances with a quality-aware Expectation-Maximization algorithm mapped over a taxonomy.This framework applies an optional sparsity penalty to resolve ambiguous assignments, which is particularly important when sparse samples are mapped against reference databases rich in highly homologous candidate references.On ten dense CAMI II strain-madness samples, \\premise achieves the highest species-level read classification F1 score ($0.992$) among eight evaluated methods, with no false-positive or missed species.At the strain level, \\premise maps reads to their source genome with top precision ($0.80$ vs. at most $0.64$ for competing methods), achieves 100\\% recall, and estimates abundances as accurately as the best competing tool.These results demonstrate \\premise's ability to provide rigorous, uncertainty-aware source resolution across both dense and sparse metagenomes, accurately resolving targets ranging from viral subtypes to bacterial strains.\\\\textbf{Availability:} \\url{https://github.com/sriram98v/premise} under an MIT license.\\\\textbf{Contact:} \\href{sriramv@iastate.edu}{sriramv@iastate.edu}\\\\",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4091,6 +4135,48 @@
         }
       ],
       "abstract_text": "Signaling pathways are useful models for interpreting molecular data, but their coverage has long been constrained by classic biochemistry methods. The growing corpus of kinase-substrate interactions, coupled to phosphoproteomics improvements, pave the way to revisit classic signaling pathways. In this study, we explore context-specific signaling pathway inference from phosphoproteomics and kinase-substrate networks. Focusing on epidermal growth factor (EGF), we conduct a meta-analysis and generate three datasets representing the most comprehensive characterization of the EGF response to date. We infer kinase-kinase pathways and compare them to different ground truth sets. Literature-curated networks consistently yield the highest recovery of ground-truth interactions, with modest gains from network propagation methods. Up to 90% of interactions are absent from current ground truth sets, indicating many unexplored interactions supported by data and knowledge. Our results demonstrate the limitations of traditional views on signaling pathways and point to opportunities for generating better mechanistic hypotheses.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0e931bd11cc1eb5f95ac42e8d2a755e25c2640895d46edfc335807a01dfa11e0",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.foodchem.2026.151971",
+        "https://openalex.org/W7225433036"
+      ],
+      "title": "Integrating multi-modal language models with graph structural learning for bioactive peptide prediction",
+      "link": "https://doi.org/10.1016/j.foodchem.2026.151971",
+      "pdf_url": null,
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Food Chemistry",
+      "authors": [
+        {
+          "key": "shengwei wang",
+          "name": "Wang Shengwei"
+        },
+        {
+          "key": "guan tianqi",
+          "name": "Tianqi Guan"
+        },
+        {
+          "key": "zhang zhen",
+          "name": "Zhen Zhang"
+        },
+        {
+          "key": "hu wenxing",
+          "name": "Wenxing Hu"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5199,8 +5285,8 @@
           "name": "Sergi Rodà"
         },
         {
-          "key": "ctor guallar vı",
-          "name": "Vı́ctor Guallar"
+          "key": "guallar víctor",
+          "name": "Víctor Guallar"
         },
         {
           "key": "alexis molina",
@@ -5577,6 +5663,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0ed8c3b714b9c3ed1bcb499319cd572f140f19e382b84c3574629a6962829481",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764933v1",
+        "https://doi.org/10.64898/2026.11.06.764933",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764933.source.xml"
+      ],
+      "title": "Amino acid clustering and epistasis guide sequence-based prediction of phenotype modulation",
+      "link": "https://doi.org/10.64898/2026.11.06.764933",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764933v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "berthet hernandez",
+          "name": "Hernandez Berthet, A. S"
+        },
+        {
+          "key": "sanchez",
+          "name": "Sanchez, I. E"
+        },
+        {
+          "key": "noguera",
+          "name": "Noguera, M. E"
+        },
+        {
+          "key": "roman",
+          "name": "Roman, E. A"
+        }
+      ],
+      "abstract_text": "Protein sequences encode the molecular information necessary for their biological function. As functional adaptation often emerges from combined effects of multiple positions, understanding how sequence variation gives rise to functional differences remains a central challenge. Here, we developed an improved strategy to identify phenotype modulating positions and use them to predict phenotypes, by relating amino acid identity to experimentally measured quantitative properties across families. Using family-specific sequence-phenotype datasets, our results show that epistasis plays a crucial role in phenotype modulation. Position specific amino acid clustering further improved performance indicating that key functional information is often captured by broad physicochemical amino acid classes, with hydrophobicity playing a crucial role in phenotype modulation. Our identified phenotype modulating positions involve both proximal and distal sites relative to functional sites. While the former is captured by individual positions, the latter is captured when epistasis is taken into account. Comparison with experimentally identified positions showed partial recovery of known functionally relevant residues, while at the same time revealing candidate positions that may contribute to phenotypic variation. Taken together, these results suggest that quantitative phenotypes are often governed by a network of interacting amino acid residues and may be engineered by a limited amount of sequence modifications. This finding highlights the potential of our framework to deepen our understanding of protein function, evolution, and adaptation, providing new targets for the rational modulation and engineering of protein phenotypes.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

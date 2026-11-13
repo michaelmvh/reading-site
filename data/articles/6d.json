@@ -950,6 +950,53 @@
       "curated_categories": []
     },
     {
+      "id": "6d2a4a3d89be4457ab4d7f32cc3fde9b9d7b2cacb5ef1447881812cd4e436279",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764680v1",
+        "https://doi.org/10.64898/2026.11.05.764680",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764680.source.xml"
+      ],
+      "title": "Hierarchical Temporal Transformer for Cancer Grade Prediction and Cross-Cancer Transfer Learning from Pathology Reports",
+      "link": "https://doi.org/10.64898/2026.11.05.764680",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764680v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "brimo",
+          "name": "Brimo, n"
+        },
+        {
+          "key": "anand",
+          "name": "Anand, R"
+        },
+        {
+          "key": "sabath",
+          "name": "Sabath, A"
+        },
+        {
+          "key": "harb",
+          "name": "Harb, H"
+        },
+        {
+          "key": "serdaroglu",
+          "name": "Serdaroglu, D. C"
+        }
+      ],
+      "abstract_text": "Background: Language models for cancer reports usually read one document at a time and are tested on tumour types seen in training. Continuous-time sequence models address the first gap, but whether they use visit timing, not just order, is seldom tested. Methods: We developed the Hierarchical Temporal Transformer (HTT), which encodes reports with adapted BiomedBERT and reads the sequence with a cancer-type-conditioned temporal transformer. We evaluated it against best-possible AUROC ceilings on two synthetic benchmarks, one with the label stated in the text and one recoverable only from tumour sizes and visit intervals (ten seeds). Diagnostics led to an interval-aware time code (HTT-IA). On 4,786 TCGA pathology reports in 14 types, three types were withheld, and a text-only HTT was compared with a survival model. Results: On the phrase benchmark HTT reached AUROC 0.931 +/- 0.012 against 0.913 +/- 0.007 for a last-report baseline (+0.018, 95% CI -0.009 to +0.050); dates cannot raise the ceiling there. On the growth benchmark the initial time code scored 0.790, equal to a no-time model (0.787), whereas HTT-IA reached 0.843 (+0.053, 0.026 to 0.082) against ceilings of 0.894 without and 0.979 with dates. On unseen tumour types HTT reached 0.925 +/- 0.007, equal to in-distribution performance and to a single-report baseline. Text-only macro C-index was 0.592 (CALM 0.626-0.652). Conclusion: Cross-type transfer is carried by the pre-trained encoder. Visit timing is used only when the data make it identifiable and the time code is on a clinical scale. Ceilings, order-only ablations and re-dating probes are inexpensive checks for such models.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6d308b9da53174599a95c65763aeb64933857982b362d278a598b1931b8d2f08",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77122-x",
@@ -2189,6 +2236,57 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6d644b10cb68ed9141214eca34ffc0e185f7118de1227e212b2394fd94c970c4",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765504v1",
+        "https://doi.org/10.64898/2026.11.09.765504",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.09.765504.source.xml"
+      ],
+      "title": "Scientific Figure Library connects visual examples with reusable plotting code",
+      "link": "https://doi.org/10.64898/2026.11.09.765504",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765504v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lai",
+          "name": "Lai, J"
+        },
+        {
+          "key": "qiao",
+          "name": "Qiao, Y"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, X"
+        },
+        {
+          "key": "xie",
+          "name": "Xie, S"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, Z"
+        },
+        {
+          "key": "guo",
+          "name": "Guo, S"
+        }
+      ],
+      "abstract_text": "Code-generating assistants can adapt plotting scripts, while researchers select visual examples and assess their relevance. Reusing those examples requires the image, implementation, and input context to remain connected. Scientific Figure Library (SFL) organizes visual examples, plotting code, input descriptions, and provenance as reusable figure assets. A user-selected local library retains working revisions and published releases, while a common provider interface makes local and externally maintained collections available through the same discovery workflow. Researchers browse candidate figures, inspect an exact preview, confirm a selection, and materialize the corresponding assets into a project for adaptation and execution. Local clients and external agents access a shared service, connecting visual selection with code-based analysis across research environments. An accompanying open resource, ScientificFigureLibrary-personal, supplies modular examples through the Open Figure Modules provider. Its organization combines previews, reusable scripts, example inputs, and licensing information, making it a concrete resource for learning and adapting scientific visualization patterns. We describe the asset model, retrieval and confirmation workflow, execution handoff, and resource organization, supported by implementation inspection and automated software checks. In a public lung single-cell case study, we reused a cell-composition template for 32 idiopathic pulmonary fibrosis and 28 control donors and verified the donor-level inputs and plotted proportions. SFL provides a practical connection between finding a figure and obtaining the materials needed to work with it, while preserving the identity and provenance of the selected example.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4049,7 +4147,7 @@
           "name": "Xiaozhou Luo"
         }
       ],
-      "abstract_text": "Abstract Generative pre-trained transformers (GPT) models provide powerful tools for de novo protein design (DNPD). GPT-based DNPD involves three procedures: a) finetuning the model with proteins of interest; b) generating sequence candidates with the finetuned model; and c) prioritizing the sequence candidates. Existing prioritization strategies heavily rely on sequence identity, undermining the diversity. Here, we coupled a protein GPT model with a custom discriminator, which enables selecting candidates of low identity to natural sequences while highly likely with desired functions. We applied this framework to creating novel antimicrobial peptides (AMPs) and malate dehydrogenases (MDHs). Experimental verification pinpointed four broad-spectrum AMPs from 24 candidates. Comprehensive computational analyses on the prioritized MDHs candidates provide compelling evidence for the anticipated function. During experimental validation, 4/10 and 3/10 natural MDHs and generated-prioritized novel candidates, respectively, were expressed and soluble. All the soluble candidates (3/3) are functional in vitro. This framework is time- and data-efficient and may therefore considerably expedite the DNPD process.",
+      "abstract_text": "Generative pre-trained transformers (GPT) models provide powerful tools for de novo protein design (DNPD). GPT-based DNPD involves three procedures: (a) finetuning the model with proteins of interest; (b) generating sequence candidates with the finetuned model; and (c) prioritizing the sequence candidates. Existing prioritization strategies heavily rely on sequence identity, undermining the diversity. Here, we coupled a protein GPT model with a custom discriminator, which enabled selecting candidates of low identity to natural sequences while highly likely with desired functions. We applied this framework to creat novel antimicrobial peptides (AMPs) and malate dehydrogenases (MDHs). Experimental verification pinpointed four broad-spectrum AMPs from 24 candidates. Comprehensive computational analyses on the prioritized MDHs candidates provided compelling evidence for the anticipated function. During experimental validation, 4/10 and 3/10 natural MDHs and generated-prioritized novel candidates, respectively, were expressed and soluble. All the soluble candidates (3/3) are functional in vitro. In a broader scope, our generator-discriminator framework is seemingly akin to generative adversarial network (GAN)—but they are fundamentally different. Our results suggest that our framework is more data- and time-efficient than GAN-based method in DNPD and may therefore considerably expedite the DNPD process.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

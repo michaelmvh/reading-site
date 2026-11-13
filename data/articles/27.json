@@ -1199,7 +1199,7 @@
       ],
       "title": "Deep Learning for Protein Modeling: From Single Structure to Bound Complex and Thermodynamic Ensemble, With a Focus on Architectural Design",
       "link": "https://doi.org/10.1002/wcms.70082",
-      "pdf_url": null,
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcms.70082",
       "publication_date": "2026-09-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -4696,7 +4696,7 @@
           "name": "Truong Son Hy"
         }
       ],
-      "abstract_text": "Abstract Directed evolution has been the most effective method for protein engineering that optimizes biological functionalities through a resource-intensive process of screening or selecting among a vast range of mutations. To mitigate this extensive procedure, recent advancements in machine learning-guided methodologies center around the establishment of a surrogate sequence-function model. In this paper, we propose Latent-based Directed Evolution (LDE), an evolutionary algorithm designed to prioritize the exploration of high-fitness mutants in the latent space. At its core, LDE is a regularized variational autoencoder (VAE), harnessing the capabilities of the state-of-the-art Protein Language Model (pLM), ESM-2, to construct a meaningful latent space of sequences. From this encoded representation, we present a novel approach for efficient traversal on the fitness landscape, employing a combination of gradient-based methods and directed evolution. Experimental evaluations conducted on eight protein sequence design tasks demonstrate the superior performance of our proposed LDE over previous baseline algorithms. Our implementation is publicly available at https://github.com/HySonLab/LatentDE .",
+      "abstract_text": "Abstract Directed evolution (DE) has been the most effective method for protein engineering that optimizes biological functionalities through a resource-intensive process of screening or selecting among a vast range of mutations. To mitigate this extensive procedure, recent advancements in machine learning-guided methodologies center around the establishment of a surrogate sequence-function model. In this paper, we propose latent-based DE (LDE), an evolutionary algorithm designed to prioritize the exploration of high-fitness mutants in the latent space. At its core, LDE is a regularized variational autoencoder (VAE), harnessing the capabilities of the state-of-the-art protein language model, ESM-2, to construct a meaningful latent space of sequences. From this encoded representation, we present a novel approach for efficient traversal on the fitness landscape, employing a combination of gradient-based methods and DE. Experimental evaluations conducted on eight protein sequence design tasks demonstrate the superior performance of our proposed LDE over previous baseline algorithms. Our implementation is publicly available at https://github.com/HySonLab/LatentDE .",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -6842,6 +6842,73 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "27f9e1c61ebd89c328d3754632cc2fb5542cbde76f3f6496fbab74bc8fb5aaa6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.29.762926v1",
+        "https://doi.org/10.64898/2026.10.29.762926",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.10.29.762926.source.xml"
+      ],
+      "title": "THiRST: Computer Vision Empowered Three-dimensional High-Resolution Spatial Transcriptomics Analytics",
+      "link": "https://doi.org/10.64898/2026.10.29.762926",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762926v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhu",
+          "name": "Zhu, J"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "lu",
+          "name": "Lu, Z"
+        },
+        {
+          "key": "qu",
+          "name": "Qu, C"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, Y"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, Y"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, S"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, H"
+        },
+        {
+          "key": "huo",
+          "name": "Huo, Y"
+        },
+        {
+          "key": "deng",
+          "name": "Deng, R"
+        }
+      ],
+      "abstract_text": "High-resolution spatial transcriptomics (ST) preserves gene expression within tissue architecture but remains limited to individual two-dimensional (2D) sections, restricting analysis of continuous three-dimensional (3D) structures and cross-section consistency. We present THiRST, a computational framework for reconstructing multi-resolution 3D spatial transcriptomic representations from serial sections. THiRST combines coarse-to-fine morphology-guided registration, spatial matching of ST units, cross-section association of segmented structures, and integration of Visium V2 and high-definition ST. In serial kidney sections, patch-level refinement increased the same-cluster proportions of matched units at adjacent offsets from 63.8% and 65.6% to 70.7% and 70.0%, respectively, while improving expression concordance. The reconstructed correspondences enabled 3D glomerular and object-level expression analysis, with 54.1% of differential genes detected only in 3D. Cross-platform integration further aligned V2 and high-definition measurements in a shared expression space. THiRST demonstrates the feasibility of object-level 3D ST analysis from serial 2D sections and underscores the importance of accurate local registration.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

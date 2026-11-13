@@ -1865,7 +1865,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "A general method for designing proteins to bind and sense any small molecule of interest would be widely useful. Due to the small number of atoms to interact with, binding to small molecules with high affinity requires highly shape complementary pockets, and transducing binding events into signals is challenging. Here we describe an integrated deep learning and energy based approach for designing high shape complementarity binders to small molecules that are poised for downstream sensing applications. We employ deep learning generated psuedocycles with repeating structural units surrounding central pockets; depending on the geometry of the structural unit and repeat number, these pockets span wide ranges of sizes and shapes. For a small molecule target of interest, we extensively sample high shape complementarity pseudocycles to generate large numbers of customized potential binding pockets; the ligand binding poses and the interacting interfaces are then optimized for high affinity binding. We computationally design binders to four diverse molecules, including for the first time polar flexible molecules such as methotrexate and thyroxine, which are expressed at high levels and have nanomolar affinities straight out of the computer. Co-crystal structures are nearly identical to the design models. Taking advantage of the modular repeating structure of pseudocycles and central location of the binding pockets, we constructed low noise nanopore sensors and chemically induced dimerization systems by splitting the binders into domains which assemble into the original pseudocycle pocket upon target molecule addition.",
+      "abstract_text": "We describe an approach for designing high-affinity small molecule–binding proteins poised for downstream sensing. We use deep learning–generated pseudocycles with repeating structural units surrounding central binding pockets with widely varying shapes that depend on the geometry and number of the repeat units. We dock small molecules of interest into the most shape complementary of these pseudocycles, design the interaction surfaces for high binding affinity, and experimentally screen to identify designs with the highest affinity. We obtain binders to four diverse molecules, including the polar and flexible methotrexate and thyroxine. Taking advantage of the modular repeat structure and central binding pockets, we construct chemically induced dimerization systems and low-noise nanopore sensors by splitting designs into domains that reassemble upon ligand addition.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2485,6 +2485,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6554f6c98ddf36396bc351c2ffd7e9ffa80c23059cab241a08e2e200cc8cfd91",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.09.28.679103v2",
+        "https://doi.org/10.1101/2025.09.28.679103",
+        "https://www.biorxiv.org/content/early/2026/11/07/2025.09.28.679103.source.xml"
+      ],
+      "title": "Zero-Shot Protein-Ligand Binding Site Prediction from Protein Sequence and SMILES",
+      "link": "https://doi.org/10.1101/2025.09.28.679103",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.28.679103v2.full.pdf",
+      "publication_date": "2026-11-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "pourmirzaei",
+          "name": "Pourmirzaei, M"
+        },
+        {
+          "key": "alqarghuli",
+          "name": "Alqarghuli, S"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, K"
+        },
+        {
+          "key": "pourmirzaei",
+          "name": "Pourmirzaei, M"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, D"
+        }
+      ],
+      "abstract_text": "Accurate identification of protein-ligand binding sites is critical for mechanistic biology and drug discovery, yet predictive performance varies substantially across ligand families and data-availability regimes. We present a systematic ligand-aware benchmark and evaluation framework for residue-level binding-site prediction across three settings: overrepresented ligands with abundant examples, underrepresented ligands with limited examples, and zero-shot ligands unseen during training. Using a BioLiP2-derived dataset with ligand-specific sequence clustering, we evaluate a progressive three-stage sequence-based modeling suite designed to study these regimes. Stage 1 trains ligand-specific predictors using a pretrained protein language model (PLM). Stage 2 introduces ligand conditioning through learned embeddings, enabling a single multi-ligand model. Stage 3 replaces these embeddings with representations from a pretrained chemical language model (CLM) operating on SMILES, enabling prediction for previously unseen ligands. In the original three-stage comparison, Stage 2 achieved a higher ligand-macro F1 than Stage 1 on the overrepresented test set (0.5832 versus 0.4769), although the comparison simultaneously changes predictor architecture, ligand conditioning, and the training regime. Stage 2 also outperformed several sequence- and structure-based baselines. Stage 3 achieves a pooled residue-level F1 of 0.3109 and a ligand-macro F1 of 0.2338 on previously unseen ligands, while remaining competitive on represented ligands. Control experiments using constant, mismatched, and scrambled SMILES inputs reduce performance across all three test regimes, providing evidence that the model uses information associated with the supplied ligand input rather than relying solely on generic protein binding-site propensity. Ablations across five PLM scales and multiple CLMs further show that increasing PLM scale generally improves performance, although the trend is not strictly monotonic, whereas CLM scaling produces smaller and less consistent gains. Overall, this study provides a systematic benchmark for quantifying the effect of ligand data availability on residue-level binding-site prediction and for evaluating generalization to previously unseen ligands.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4776,7 +4823,7 @@
           "name": "Yuedong Yang"
         }
       ],
-      "abstract_text": "Abstract Protein design energy functions have been developed over decades by leveraging physical forces approximation and knowledge-derived features. However, manual feature engineering and parameter tuning might suffer from knowledge bias. Learning potential energy functions fully from crystal structure data is promising to automatically discover unknown or high-order features that contribute to the protein’s energy. Here we proposed a graph attention network as an energy-based model for protein conformation, namely GraphEBM. GraphEBM is equivariant to the SE(3) group transformation, which is the important principle of modern machine learning for molecules-related tasks. GraphEBM was benchmarked on the rotamer recovery task and outperformed both Rosetta and the state-of-the-art deep learning based methods. Furthermore, GraphEBM also yielded promising results on combinatorial side chain optimization, improving 22.2% χ 1 rotamer recovery to the PULCHRA method on average.",
+      "abstract_text": "Protein design energy functions have been developed over decades by leveraging physical forces approximation and knowledge-derived features. However, manual feature engineering and parameter tuning might suffer from knowledge bias. Learning potential energy functions fully from crystal structure data is promising to automatically discover unknown or highorder features contributing to the protein’s energy. Here we propose a novel data-driven energy-based model based on SE(3)-equivariant model for protein conformation, namely GraphEBM. By combining with the graph attention network, GraphEBM improve the massage passing on the chemical bond and capture the interatomic interaction and overlap. GraphEBM was benchmarked on the local rotamer recovery task and found to outperform both Rosetta and the state-of-the-art deep learning based methods. Furthermore, GraphEBM also yielded promising results on combinatorial side chain optimization, improving 13.8% ${\\mathcal{X}_1}$ rotamer recovery to the Atom Transformer method on average.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

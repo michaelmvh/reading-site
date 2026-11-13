@@ -1024,7 +1024,7 @@
           "name": "Tanja Kortemme"
         }
       ],
-      "abstract_text": "Abstract Deep learning has greatly advanced design of highly stable static protein structures, but the controlled conformational dynamics that are hallmarks of natural switch-like signaling proteins have remained inaccessible to de novo design. Here, we describe a general deep-learning-guided approach for de novo design of dynamic changes between intra-domain geometries of proteins, similar to switch mechanisms prevalent in nature, with atom-level precision. We solve 4 structures validating the designed conformations, show microsecond transitions between them, and demonstrate that the conformational landscape can be modulated by orthosteric ligands and allosteric mutations. Physics-based simulations are in remarkable agreement with deep-learning predictions and experimental data, reveal distinct state-dependent residue interaction networks, and predict mutations that tune the designed conformational landscape. Our approach demonstrates that new modes of motion can now be realized through de novo design and provides a framework for constructing biology-inspired, tunable and controllable protein signaling behavior de novo .",
+      "abstract_text": "Deep learning has advanced the design of static protein structures, but the controlled conformational changes that are hallmarks of natural signaling proteins have remained inaccessible to de novo design. Here, we describe a general deep learning–guided approach for de novo design of dynamic changes between intradomain geometries of proteins, similar to switch mechanisms prevalent in nature, with atomic-level precision. We solve four structures that validate the designed conformations, demonstrate modulation of the conformational landscape by orthosteric ligands and allosteric mutations, and show that physics-based simulations are in agreement with deep-learning predictions and experimental data. Our approach demonstrates that new modes of motion can now be realized through de novo design and provides a framework for constructing biology-inspired, tunable, and controllable protein signaling behavior de novo.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3513,6 +3513,44 @@
       "curated_categories": []
     },
     {
+      "id": "708895acc628b47808290edd281ec090da39c75fe701d80b4dcb2a474a174e8d",
+      "identity_keys": [
+        "arxiv:2611.08832",
+        "https://doi.org/10.48550/arXiv.2611.08832"
+      ],
+      "title": "Protein B-factor modeling with local magnitude",
+      "link": "https://doi.org/10.48550/arXiv.2611.08832",
+      "pdf_url": "https://arxiv.org/pdf/2611.08832v1",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bi wanying",
+          "name": "Wanying Bi"
+        },
+        {
+          "key": "jian liu",
+          "name": "Jian Liu"
+        },
+        {
+          "key": "feng hongsong",
+          "name": "Hongsong Feng"
+        }
+      ],
+      "abstract_text": "Topological magnitude characterizes the effective size and spatial organization of metric spaces, offering a geometric approach with potential applications in molecular biology and materials science. Previous work has demonstrated its utility in modeling protein flexibility from structure, but global magnitude weighting requires dense linear systems whose computational cost increases with protein size. We introduce a local magnitude representation that retains residue-level structural information through nearest-neighbor environments. The construction is well posed and geometrically invariant, with central weighting distinguished from scalar neighborhood magnitude. Across 364 proteins, the mean within-protein fitting Pearson correlation coefficient (PCC) increases from 0.725 for global magnitude to 0.728 for local magnitude. Blind-prediction experiments on 345 proteins combine each representation with identical auxiliary descriptors and evaluate random forests and gradient boosting under three validation protocols. Local features improve the primary PCC in all six model--protocol comparisons, with a maximum absolute increase of 0.008 in protein-level ten-fold gradient boosting. For a fixed feature bank, local factorization costs $O(Nk^3)$ compared with $O(N^3)$ for global factorization, where $N$ is the number of C$_α$ atoms and $k$ the neighborhood size. Timing measurements show a computational advantage of local magnitude on large structures. Within the tested single-seed configuration and distinct global and local scale banks, these results support local magnitude as a compact representation that preserves useful B-factor information while reducing feature-extraction costs for large proteins.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7088f1e080872569d4640aaca9ebc2aa87db96dc37b4ae3713fb62692abc6a2f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71553-2",
@@ -5615,6 +5653,52 @@
       "curated_categories": []
     },
     {
+      "id": "70cb1ffa20434e29a40d5040f880e8915e6488329e2912711ef69d472d893e59",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764545v1",
+        "https://doi.org/10.64898/2026.11.05.764545",
+        "https://openalex.org/W7225619737",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.05.764545.source.xml"
+      ],
+      "title": "Glycine-Proline driven flexibility and interface-dependent conservation of six-residue {Omega}-loops in protein complexes",
+      "link": "https://doi.org/10.64898/2026.11.05.764545",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764545v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "tajane",
+          "name": "Tajane, S. V"
+        },
+        {
+          "key": "pohane",
+          "name": "Pohane, S"
+        },
+        {
+          "key": "dey",
+          "name": "Dey, S"
+        }
+      ],
+      "abstract_text": "{Omega}-loops are six- to sixteen-residue, non-regular structural motifs that occur in protein structures, connecting regular regions and forming a well-defined, ordered structural segment. They are functionally important because of their strategic location on the protein surface, where they are often associated with molecular recognition, ligand binding, and catalytic activity. Their non-regular nature enables them to adopt different conformations, which makes them important in protein dynamics and allosteric communication. In this work, we have curated six-residue {Omega}-loops from diverse protein-protein complexes of varying stability and found them to be abundant across all. We identified 1205 hydrogen-bonded and 6518 non-hydrogen-bonded {Omega}-loops, leading to an average of ~1.7 {Omega}-loops per structure. Glycine and proline were the most enriched residues in the loop, with proline preferentially positioned at the fourth position and glycine distributed across multiple positions, supporting their roles in chain reversal and conformational flexibility. Using ProteinMPNN-based sequence-design modelling and Rate4Site evolutionary-rate analysis, we show that {Omega}-loops occupy a relatively constrained sequence space, with interface loops in obligate homodimers and heterodimers more conserved than non-interface loops; the opposite trend was observed in transient and crystal dimers. Mapping known pathogenic and benign mutations onto the {Omega}-loop present in human proteins, together with a case study of the TEM1 {beta}-lactamase {Omega}-loop, further illustrates how small sequence changes within these loops can produce crucial structural and functional consequences, leading to altered enzyme activity and antibiotic resistance. Altogether, we report that {Omega}-loops are not merely connectors of secondary structure but are structurally constrained, evolutionarily significant elements that contribute to protein folding, stability and function.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "70cbd3f81d09f9419477fee010dca0f8c29c9985f998ad4d0ede3489f10d674c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72043-1",
@@ -6666,7 +6750,7 @@
       ],
       "title": "Sequence Dependence of Folding and Self-Assembly of Glycine-X Repeat Peptides on Graphite",
       "link": "https://doi.org/10.1021/acs.jcim.6c02272",
-      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002765/v1",
+      "pdf_url": null,
       "publication_date": "2026-10-09",
       "publication_date_precision": "unknown",
       "collection_date": null,

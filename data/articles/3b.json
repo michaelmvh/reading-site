@@ -444,7 +444,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Proteins which bind intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) with high affinity and specificity could have considerable utility for therapeutic and diagnostic applications. However, a general methodology for targeting IDPs/IDRs has yet to be developed. Here, we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformation, RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations. We use this approach to generate binders to the IDPs Amylin, C-peptide and VP48 in a range of conformations with Kds in the 3 -100nM range. The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers, and enables enrichment of amylin for mass spectrometry-based detection. For the IDRs G3bp1, common gamma chain (IL2RG) and prion, we diffused binders to beta strand conformations of the targets, obtaining 10 to 100 nM affinity. The IL2RG binder colocalizes with the receptor in cells, enabling new approaches to modulating IL2 signaling. Our approach should be widely useful for creating binders to flexible IDPs/IDRs spanning a wide range of intrinsic conformational preferences.",
+      "abstract_text": "Abstract Proteins that bind to intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) with high affinity and specificity could be useful for therapeutic and diagnostic applications 1–4 . However, a general methodology for targeting IDPs or IDRs has yet to be developed. Here we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformations, RFdiffusion 5 can generate binders to IDPs and IDRs in a wide range of conformations. We used this approach to generate binders to the IDPs amylin, C-peptide, VP48 and BRCA1_ARATH in diverse conformations with a dissociation constant ( K d ) ranging from 3 to 100 nM. For the IDRs G3BP1, common cytokine receptor γ-chain (IL-2RG) and prion protein, we diffused binders to β-strand conformations of the targets, obtaining K d between 10 and 100 nM. Fluorescence imaging experiments show that the binders bind to their respective targets in cells. The G3BP1 binder disrupts stress granule formation in cells, and the amylin binder inhibits amyloid fibril formation and dissociates existing fibres, enables targeting of both monomeric and fibrillar amylin to lysosomes, and increases the sensitivity of mass spectrometry-based amylin detection. Our approach should be useful for creating binders to flexible IDPs or IDRs spanning a wide range of intrinsic conformational preferences.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4458,6 +4458,46 @@
       "curated_categories": []
     },
     {
+      "id": "3b7a39a89272f4b64051395e6902198085e5c134b57f5ab60529ad701f9e7842",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.24.745914v2",
+        "https://doi.org/10.64898/2026.08.24.745914",
+        "https://www.biorxiv.org/content/early/2026/08/27/2026.08.24.745914.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.08.24.745914.source.xml"
+      ],
+      "title": "AntiSite: Unified paratope prediction for antibodies and nanobodies with or without structure",
+      "link": "https://doi.org/10.64898/2026.08.24.745914",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.24.745914v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "papadopoulos",
+          "name": "Papadopoulos, A. M"
+        },
+        {
+          "key": "alvarez",
+          "name": "Alvarez, F"
+        },
+        {
+          "key": "daras",
+          "name": "Daras, P"
+        }
+      ],
+      "abstract_text": "Accurate paratope prediction provides insights into antibody--antigen recognition while supporting antibody discovery and engineering. Existing predictors are fixed to a single input setting: sequence-based methods cannot use an antibody structure, structure-based methods require coordinates, and methods covering both combine separately trained predictors. We present AntiSite, an antigen-agnostic predictor whose sequence encoder, fusion block and prediction head are shared across both settings; structure-aware inference adds molecular-surface features from our previously developed ParaSurf model, used here as a frozen, separately trained structural encoder. Structural-modality dropout enables both inference settings without retraining. Across five antibody--antigen benchmarks, structure-aware AntiSite achieved the highest mean PR-AUC among all evaluated methods, while sequence-only PR AUC was generally lower than that of the strongest dedicated antigen-agnostic sequence baseline. AntiSite also demonstrated zero-shot generalization to nanobodies without additional training. We further evaluated structures from recent antibody-specific and general protein folding methods, including Ibex, Protenix-v1, Boltz-2 and Chai-1, in antibody-only or antigen-aware co-folding settings. Their benefit was associated with structural accuracy, with the most accurate inputs yielding performance close to that obtained with experimental structures. AntiSite thus provides a shared predictor for antibody and nanobody binding sites, usable from sequence alone and refined when reliable structural information is available. Code and trained checkpoints are openly available.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3b7bc9374fbe0678faf2bdec35cf04001a59343f79271a64eb3beff0bfd6f463",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70447-7",
@@ -6173,8 +6213,8 @@
       "venue": "Biologics",
       "authors": [
         {
-          "key": "prakash ram varshika",
-          "name": "Varshika Ram Prakash"
+          "key": "prakash",
+          "name": "V. Prakash"
         },
         {
           "key": "najy yusuf",
@@ -6273,7 +6313,7 @@
           "name": "Jorge A. Marchand"
         }
       ],
-      "abstract_text": "Abstract Expanded genetic alphabets built from unnatural base-pairing xenonucleic acids, or ubp XNAs, are part of an emerging frontier in biotechnology, therapeutics, and synthetic biology. However, their adoption has been constrained by replication fidelities that remain substantially lower than those of standard, natural DNA. We present a method for rapidly and accurately measuring ubp XNA replication fidelity using single-molecule nanopore sequencing. By coupling nanopore sequencing with post hoc machine-learning classifiers, we infer strand-resolved, cycle-dependent fidelity parameters directly from PCR amplification data and place these measurements on a rigorous mathematical footing that accounts for coupled replication dynamics. We apply this approach to three chemically distinct ubp systems—hydrogen-bonding B≡S and P≡Z pairs, and the hydrophobic Ds:Diol-Px pair. Using this method, we demonstrate: (i) rapid screening of reaction conditions that yields >98.6% per-cycle replication fidelity for the B≡S base pair, (ii) single-molecule tracking of replication outcomes in an ‘Hachimoji’ 8-letter system (ATGCBSPZ), and (iii) first estimates of context-dependent inversion error rates in the hydrophobic Ds≡Px system, revealing inversion frequencies of ≈8.5% in the 5`-pur-Ds-pur-3` context. Together, this approach provides a general route to quantitatively assess polymerase fidelity in expanded genetic alphabets, enabling systematic optimization across chemistries, enzymes, and reaction conditions.",
+      "abstract_text": "Expanded genetic alphabets built from unnatural base pairs (UBPs) are part of an emerging frontier in biotechnology. However, their wider adoption is constrained by lower replication fidelity relative to standard DNA bases. To address this challenge, we develop a method to rapidly assess UBP replication fidelity using nanopore sequencing. We train post hoc machine-learning classifiers to detect UBPs in sequencing data, then use these models to extract fidelity measurements from PCR-amplified datasets. This approach provides a general route to assess the replication fidelity of diverse UBPs, enabling optimization across chemistries, enzymes, and reaction conditions. In this work, we apply this strategy to three distinct UBP systems, demonstrating: (i) rapid screening of reaction conditions that yields > 98.6% per-cycle replication fidelity for the B ≡ S base pair, (ii) single-molecule tracking of replication outcomes in an 8-letter UBP system (ATGCBSPZ), and (iii) quantitative decomposition of multiple error pathways for the hydrophobic Ds:Diol-Px system. Expanded DNA alphabets with more than 4 letters can be replicated by polymerases, but with higher error rates than standard DNA. Here the authors develop a high-throughput sequencing approach to quantify the replication fidelity of unnatural base pairs.",
       "discovery_sources": [
         {
           "kind": "open_alex",

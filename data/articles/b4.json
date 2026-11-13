@@ -3307,6 +3307,40 @@
       "curated_categories": []
     },
     {
+      "id": "b4a52f808cd0f63a2b2f6eccf2c8256fbea18bc93b778fb375b56eb3551d3b0d",
+      "identity_keys": [
+        "arxiv:2611.11349",
+        "https://doi.org/10.48550/arXiv.2611.11349"
+      ],
+      "title": "AOP-Smart-Finder: A High-Throughput Human-AI Hybrid Framework for AOP Discovery and Evidence Mapping from Large-Scale Literature",
+      "link": "https://doi.org/10.48550/arXiv.2611.11349",
+      "pdf_url": "https://arxiv.org/pdf/2611.11349v1",
+      "publication_date": "2026-11-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "niu qinjiang",
+          "name": "Qinjiang Niu"
+        },
+        {
+          "key": "lu yan",
+          "name": "Lu Yan"
+        }
+      ],
+      "abstract_text": "The rapid growth of scientific literature and the high heterogeneity of biological terminology and mechanistic descriptions make it difficult for researchers to integrate scattered research evidence, identify connections among biological events, and construct mechanistic networks. Here, we developed a high-throughput human-AI hybrid framework, AOP-Smart-Finder, for biological event discovery, relationship mining, and Adverse Outcome Pathway (AOP) construction and evidence mapping from large-scale literature. This framework integrates Large Language Models (LLMs), AOP-Smart retrieval-augmented generation (RAG) technology, and Python-based automation, supporting two analysis modes: one based on a single compound and the other based on a predefined set of biological events. In the di(2-ethylhexyl) phthalate (DEHP) case, the system processed 12,983 articles within 30 min and included 1,093 of them, from which it extracted 1,589 biological events (including 458 official key events [KEs] and 1,131 candidate KEs) and 2,519 key event relationships (KERs). In the amyotrophic lateral sclerosis (ALS) case, the system identified 55 stressors from 437 articles and extracted 278 biological events and 548 event relationships. Following manual curation and Weight of Evidence (WoE) evaluation, a mechanistic network comprising 16 KEs and 23 KERs was ultimately constructed. This framework can either use existing AOPs as knowledge guidance for mechanistic expansion and evidence supplementation, or discover novel event connections and construct mechanistic networks around user-specified research topics. It provides a high-throughput, traceable, human-AI hybrid methodology for complex biological mechanism elucidation and AOP discovery driven by large-scale literature.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b4a84c9fe9a8611d1a8306c1afbf5cf510bf98e114502fa9483c572147b410e2",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10241-z",
@@ -4598,6 +4632,40 @@
         }
       ],
       "abstract_text": "This file contains the full raw (.pod5) nanopore sequencing data for the manuscript \"Quantifying replication fidelity of unnatural base pairs using nanopore sequencing\". The dataset is divided into two categories: PCR data and model training/testing data. A key is included with this submission (UBP_Sequencing_Zenodo_Key.xlsx), containing a sheet for each data category. Raw pod5 sequencing files are included for each sequencing run, along with reference FASTA files, barcode information for demultiplexing, and other relevant metadata for each experiment. All sequencing runs were generated using ONT Flongle flow cells (R10.4.1 chemistry).",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b4edea1a01d03a8ca50852973e3a8424ff25213947f0c3b297beb33ff1b94cbf",
+      "identity_keys": [
+        "https://doi.org/10.65591/ces-187-2026",
+        "https://openalex.org/W7225692346"
+      ],
+      "title": "Convergence of Computational Protein Design, Directed Evolution, and Genome Engineering in Pharmaceutical Biocatalysis: Progress, Challenges, and Future Directions",
+      "link": "https://doi.org/10.65591/ces-187-2026",
+      "pdf_url": "https://centerofsciencepress.com/index.php/CES/article/download/187/66",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": null,
+      "authors": [
+        {
+          "key": "damilare mubaraq yussuf",
+          "name": "Mubaraq Damilare Yussuf"
+        },
+        {
+          "key": "damilola mariam olawuyi",
+          "name": "Mariam Damilola Olawuyi"
+        }
+      ],
+      "abstract_text": "Growing regulatory scrutiny, heightened environmental accountability, and the structural complexity of contemporary drug molecules have collectively repositioned biocatalysis from a supplementary laboratory technique to an indispensable pillar of pharmaceutical manufacturing. Active pharmaceutical ingredients (APIs) are the drug substances whose manufacture is the principal focus of pharmaceutical biocatalysis. Enzymes offer intrinsic advantages in chemo-, regio-, and stereoselectivity under physiologically benign conditions; however, their native catalytic parameters frequently fall short of the efficiency and robustness demanded by industrial active pharmaceutical ingredient (API) synthesis. The past decade has witnessed the emergence of a convergent engineering paradigm that unifies computational protein design, directed evolution, and clustered regularly interspaced short palindromic repeats–CRISPR-associated (CRISPR-Cas) genome engineering into an integrated workflow capable of rapidly generating purpose-built biocatalysts. Computational methods encompassing molecular dynamics simulation, energy landscape modelling, and transformer-based protein language models compress experimental search spaces by prospectively identifying functional mutations. Directed evolution subsequently subjects these computational predictions to iterative empirical refinement under conditions that reflect realistic industrial constraints. Genome engineering operating at the host-cell level then configures microbial expression systems for maximal enzyme yield, cofactor sufficiency, and metabolic coherence. This review critically appraises the mechanistic basis, demonstrated accomplishments, and outstanding technical barriers of each constituent approach before examining the synergistic advantages that emerge from their convergent deployment. Representative pharmaceutical applications including asymmetric reductive amination, stereoselective ketoreduction, and multi-enzyme cascade synthesis are evaluated in the context of green chemistry metrics. Emerging directions encompassing autonomous self-driving laboratories, generative AI protein design, and sustainability-oriented bioprocess engineering are also addressed.",
       "discovery_sources": [
         {
           "kind": "open_alex",

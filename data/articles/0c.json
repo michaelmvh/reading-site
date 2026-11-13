@@ -1299,6 +1299,45 @@
       "curated_categories": []
     },
     {
+      "id": "0c3a7ba9cab3554dd9b5be56d6c3ca6c56386555ecde6775360d283d3dd288d1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765548v1",
+        "https://doi.org/10.64898/2026.11.10.765548",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.10.765548.source.xml"
+      ],
+      "title": "Coupling environmental biosensors to inverter circuits in soil bacteria",
+      "link": "https://doi.org/10.64898/2026.11.10.765548",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765548v1.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rocha",
+          "name": "Rocha, C. K. d. S"
+        },
+        {
+          "key": "rico",
+          "name": "Rico, J"
+        },
+        {
+          "key": "goni moreno",
+          "name": "Goni-Moreno, A"
+        }
+      ],
+      "abstract_text": "Genetic logic gates, such as inverting NOT functions, are routinely designed and optimised for a narrow set of laboratory-standard chemical inputs. This reliance limits their utility in real-world applications, where engineered chassis must navigate complex, niche-specific signals. Focusing on environmental synthetic biology, we engineered four biosensors responsive to ecologically relevant physical and chemical inputs (iron, oxygen, temperature, and light) and systematically coupled them to three repressor-based NOT logic gates (QacR, SrpR, and LitR) to generate 12 composite sensor-gate circuits. To evaluate cross-host robustness, all constructs were benchmarked in two non-model soil bacteria: Pseudomonas putida KT2440 and Pseudomonas protegens Pf-5. Our findings demonstrate that overall circuit performance is non-additive and cannot be predicted simply by summing individual sensor and gate dynamics. While standalone biosensors reliably detected their cognate inputs, concatenation across regulatory junctions introduced non-linearities, emergent dynamics, and host-dependent effects that caused several pairings to deviate unexpectedly from their predicted behaviour. Furthermore, host context directly governed logic execution: P. protegens Pf-5 exhibited superior overall circuit-processing capacity, whereas specific configurations, such as iron-responsive gates, performed better in P. putida KT2440. All 12 constructs are modularly integrated using the Standard European Vector Architecture (SEVA) format, providing a benchmarked toolkit to program complex information processing in real-world environments.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0c442753b80d8c7f1a9307f2bf321b4f605bbb5ac4423eb183c5d56d5e410a7a",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10883-z",
@@ -1775,7 +1814,7 @@
           "name": "Jana M. Weber"
         }
       ],
-      "abstract_text": "Abstract Advancing protein design is crucial for breakthroughs in medicine and biotechnology. Traditional approaches for protein sequence representation often rely solely on the 20 canonical amino acids, limiting the representation of non-canonical amino acids and residues that undergo post-translational modifications. This work explores discrete diffusion models for generating novel protein sequences using the all-atom chemical representation SELFIES. By encoding the atomic composition of each amino acid in the protein, this approach expands the design possibilities beyond standard sequence representations. Using a modified ByteNet architecture within the discrete diffusion D3PM framework, we evaluate the impact of this all-atom representation on protein quality, diversity, and novelty, compared to conventional amino acid-based models. To this end, we develop a comprehensive assessment pipeline to determine whether generated SELFIES sequences translate into valid proteins containing both canonical and non-canonical amino acids. Additionally, we examine the influence of two noise schedules within the diffusion process—uniform (random replacement of tokens) and absorbing (progressive masking)—on generation performance. While models trained on the all-atom representation struggle to consistently generate fully valid proteins, the successfully generated proteins show improved novelty and diversity compared to their amino acid-based model counterparts. Furthermore, the all-atom representation achieves structural foldability results comparable to those of amino acid-based models. Lastly, our results highlight the absorbing noise schedule as the most effective for both representations. Data and code are available at https://github.com/Intelligent-molecular-systems/All-Atom-Protein-Sequence-Generation . Scientific Contribution This work introduces a discrete diffusion-based framework for protein sequence generation using an all-atom representation, enabling the incorporation of non-canonical amino acids and post-translational modifications. Additionally, it provides a comprehensive evaluation pipeline to assess the validity of generated proteins, demonstrating how noise schedules within the diffusion process impact sequence novelty, diversity, and structural foldability.",
+      "abstract_text": "Abstract Advancing protein design is crucial for breakthroughs in medicine and biotechnology. Traditional approaches for protein sequence representation often rely solely on the 20 canonical amino acids, limiting the representation of non-canonical amino acids and residues that undergo post-translational modifications. This work explores discrete diffusion models for generating novel protein sequences using the all-atom chemical representation SELFIES. By encoding the atomic composition of each amino acid in the protein, this approach expands the design possibilities beyond standard sequence representations. Using a modified ByteNet architecture within the discrete diffusion D3PM framework, we evaluate the impact of this all-atom representation on protein quality, diversity, and novelty, compared to conventional amino acid-based models. To this end, we develop a comprehensive assessment pipeline to determine whether generated SELFIES sequences translate into valid proteins containing both canonical and non-canonical amino acids. Additionally, we examine the influence of two noise schedules within the diffusion process—uniform (random replacement of tokens) and absorbing (progressive masking)—on generation performance. While models trained on the all-atom representation struggle to consistently generate fully valid proteins, the successfully generated proteins show improved novelty and diversity compared to their amino acid-based model counterparts. Furthermore, the all-atom representation achieves structural foldability results comparable to those of amino acid-based models. Lastly, our results highlight the absorbing noise schedule as the most effective for both representations. Data and code are available at https://github.com/Intelligent-molecular-systems/All-Atom-Protein-Sequence-Generation .",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3083,8 +3122,8 @@
           "name": "Zhongjian Guo"
         },
         {
-          "key": "fubao fuelbiol sun",
-          "name": "Fubao  Fuelbiol Sun"
+          "key": "fubao sun",
+          "name": "Fubao Sun"
         },
         {
           "key": "chen huiqing",

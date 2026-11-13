@@ -3196,6 +3196,50 @@
       "curated_categories": []
     },
     {
+      "id": "5973c0992ac8cd11bb0dc8fe3cba7f1ed1c7f2c3acd2bd922bd5d56ee970d6f3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.04.722524v2",
+        "https://doi.org/10.64898/2026.05.04.722524",
+        "https://www.biorxiv.org/content/early/2026/05/07/2026.05.04.722524.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.05.04.722524.source.xml"
+      ],
+      "title": "Image-Conditioned Diffusion Preserves Latent PhysiologicalSignals and Enables Cross-Site Transfer of Synthetic MedicalImages",
+      "link": "https://doi.org/10.64898/2026.05.04.722524",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722524v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "stupp yaya",
+          "name": "Yaya-Stupp, D"
+        },
+        {
+          "key": "lutsker",
+          "name": "Lutsker, G"
+        },
+        {
+          "key": "spiegel yerushalmi",
+          "name": "Spiegel-Yerushalmi, O"
+        },
+        {
+          "key": "segal",
+          "name": "Segal, E"
+        }
+      ],
+      "abstract_text": "Medical imaging models depend on large, shareable datasets, yet privacy constraints limit data dissemination. Text-conditioned diffusion models generate only what the prompt specifies and can miss subtle, distributed clinical signals, such as continuous physiological biomarkers, that downstream physiological models rely on. Here we systematically evaluate image-conditioned (I2I) diffusion, which anchors generation to a real source image. Fine-tuning Stable Diffusion on retinal fundus photographs from the Human Phenotype Project, we find that I2I-synthetic images retain more source-specific signal than text-conditioned generation, including for biomarkers absent from the prompt (hemoglobin, waist circumference). Estimators pretrained on I2I-synthetic images alone transfer across cohorts (Human Phenotype Project to UK Biobank) at performance comparable to real-image pretraining, most clearly when target-site labels are scarce. Finally, varying the I2I noise strength provides a tunable control on empirical re-identification risk. Under similarity-based linkage attacks, image-based linkage falls substantially with increasing strength for retinal images, whereas chest radiographs remain highly linkable at all strengths tested.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5974504e14c74ff90199b5b1e85812292770c36ce191807e42d9aab475cb07b8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76241-9",
@@ -5465,6 +5509,75 @@
       "curated_categories": []
     },
     {
+      "id": "59c1b72f507ddf82a1b686f556a12b780f230de060b4bb75d6c61dc11f833c2a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.15.725379v3",
+        "https://doi.org/10.64898/2026.05.15.725379",
+        "https://www.biorxiv.org/content/early/2026/05/19/2026.05.15.725379.source.xml",
+        "https://www.biorxiv.org/content/early/2026/08/20/2026.05.15.725379.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.05.15.725379.source.xml"
+      ],
+      "title": "Cross-cohort optimal transport maps macrophage plasticity and routes to inflammation and fibrosis in human atherosclerosis",
+      "link": "https://doi.org/10.64898/2026.05.15.725379",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725379v3.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "de montes oca vazquez",
+          "name": "Vazquez Montes de Oca, S"
+        },
+        {
+          "key": "acedo terrades",
+          "name": "Acedo Terrades, A"
+        },
+        {
+          "key": "carreno martinez",
+          "name": "Carreno Martinez, J. F"
+        },
+        {
+          "key": "kirchner",
+          "name": "Kirchner, P"
+        },
+        {
+          "key": "ord",
+          "name": "Ord, T"
+        },
+        {
+          "key": "kaikkonen",
+          "name": "Kaikkonen, M. U"
+        },
+        {
+          "key": "siting",
+          "name": "Siting, W"
+        },
+        {
+          "key": "freigang",
+          "name": "Freigang, S. B"
+        },
+        {
+          "key": "zlobec",
+          "name": "Zlobec, I"
+        },
+        {
+          "key": "martinez rodriguez",
+          "name": "Rodriguez Martinez, M"
+        }
+      ],
+      "abstract_text": "Single-cell transcriptomics has revealed extensive macrophage heterogeneity in atherosclerotic plaques, but how disease-associated programs reshape cellular identity remains unclear. Connecting macrophage states to these molecular changes could help identify candidate routes through which macrophages contribute to inflammation and fibrosis. We developed a computational method combining optimal transport, RNA velocity and comparative program analysis across 34,533 monocytes and macrophages from seven human cohorts. Optimal transport quantified all 15 pairwise relationships among six macrophage states, and target-association gradients supported source- and destination-program comparisons across 11 relationships. Expression contrasts were calculated within libraries and source subtypes. Robustness was assessed through resampling, cohort omission and held-out-gene analyses. Paired RNA and protein measurements provided complementary molecular evidence, and patient-label permutation tests evaluated exploratory clinical associations in 18 patients. We also applied the method to an independent human liver dataset. Scavenging and inflammatory macrophages formed the closest transcriptional pair in the full atlas and every cohort-omission analysis. Scavenging macrophages retained selected source features alongside inflammatory programming, whereas fibrotic association coincided with attenuation of the broader scavenging signature. This signature showed a lower change along fibrotic than inflammatory association in all 19 matched libraries. Protein measurements corroborated selected changes and revealed coexisting scavenging and activation features within individual cells. Symptomatic patients had a higher fraction of monocytes with strong inflammatory association than asymptomatic patients (median difference, 13.0 percentage points; unadjusted one-sided permutation $p = 0.0017$). Analysis of 8,536 liver mononuclear phagocytes further resolved contrasting source-marker responses along scar-associated macrophage association. These findings connect macrophage heterogeneity to selective identity remodeling across disease-associated states. Integrating population relationships with RNA, protein and clinical measurements provides a strategy for prioritizing candidate pathogenic routes and their associated molecular programs for functional investigation.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "59c216959b4b2ab83cf500a9e030dbfca82114765018fdabd724ea56a7d10698",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74235-1",
@@ -5997,6 +6110,49 @@
       "curated_categories": []
     },
     {
+      "id": "59dcb01f1bb851637f1566afb25d0db99d76e6decdca208811fdbf4427ce6bc2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765778v1",
+        "https://doi.org/10.64898/2026.11.10.765778",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765778.source.xml"
+      ],
+      "title": "PAMP: Continuous-to-Discrete Mutation Projection for Enzyme Engineering",
+      "link": "https://doi.org/10.64898/2026.11.10.765778",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765778v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "wang, h"
+        },
+        {
+          "key": "yu",
+          "name": "yu, z"
+        },
+        {
+          "key": "ren",
+          "name": "ren, y"
+        },
+        {
+          "key": "yuan",
+          "name": "yuan, r"
+        }
+      ],
+      "abstract_text": "Efficient enzyme engineering requires translating quantitative turnover predictions into specific mutations that im- prove catalytic activity while reducing experimental search. Here we introduce Proximal Adversarial Mutation Projection (PAMP), a gradient-guided framework that maps a differentiable turnover objective directly to single-amino-acid substitutions by combining multi-point gradient averaging with distance-penalized projection in protein embedding space. Using a substrate-conditioned Resid- ual Predictor trained on CataPro-derived data, PAMP achieved a mean first-round predicted gain of 0.1795 log2 units across 2,754 enzyme substrate pairs, with positive changes in 84.64% of cases; among the top five ranked substitutions, 99.49% of records contained at least one positive candidate. Five sequential rounds increased the mean cumulative predicted gain to 0.5631 log2 units, and re-scoring with an independent, non-differentiable predictor left the ordering of the methods intact while attenuating the absolute gain. PAMP provides a computationally efficient strategy for prioritizing experimentally testable enzyme mutations under small candidate budgets.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "59dd318d2ca083d88acbc9b9e0c580ef52ac1085d380d70ec99fb0d381501015",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02777-x",
@@ -6303,6 +6459,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "59f0bbc443d3b932934746b3b9a90da481cf4647445988c4808cb9635e1233dd",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765730v1",
+        "https://doi.org/10.64898/2026.11.10.765730",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765730.source.xml"
+      ],
+      "title": "Boosting Single-Cell Methods Significantly Enhances Cell-type Classification",
+      "link": "https://doi.org/10.64898/2026.11.10.765730",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765730v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "edelman",
+          "name": "Edelman, D"
+        },
+        {
+          "key": "kang",
+          "name": "Kang, H"
+        },
+        {
+          "key": "schaffer",
+          "name": "Schaffer, D. E"
+        },
+        {
+          "key": "aksu",
+          "name": "Aksu, E. D"
+        },
+        {
+          "key": "berger",
+          "name": "Berger, B"
+        }
+      ],
+      "abstract_text": "Single-cell sequencing drives biological discovery by revealing key cellular processes, cell types, and cell states. Recent technological advances have accelerated atlas-scale data generation across laboratories. With the increasing amount of single-cell RNA-seq (scRNA-seq) data, new challenges emerge, including effective batch correction, cell-type annotation, rare cell-type and cell-state detection, as well as biological pathway discovery. Inspired by methods for boosting weak learners such as AdaBoost, here we present a novel paradigm, scBoost, that combines single-cell analysis methods using stacked ensembles to boost task performance beyond that of individual methods. We show that scBoost pretrained on Tabula Sapiens 2.0 dataset performs significantly better than existing methods in cell-type classification on the real-world Human Fetal Heart Map and Plaque Atlas. We also demonstrate that scBoost substantially improves the performance of cell-type classification and ranks at the top of the leaderboard on the OpenProblems benchmark, a standard-in-the-field. scBoost is modular and is adaptive to new single-cell methods, which will enable it to continue to serve as a resource to the community in the future.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

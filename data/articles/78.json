@@ -5014,6 +5014,36 @@
       "curated_categories": []
     },
     {
+      "id": "78ebfda10f6a9b15e1bb57278273039b27d87245523baa2910047317649ae9c0",
+      "identity_keys": [
+        "arxiv:2611.14504",
+        "https://doi.org/10.48550/arXiv.2611.14504"
+      ],
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "link": "https://doi.org/10.48550/arXiv.2611.14504",
+      "pdf_url": "https://arxiv.org/pdf/2611.14504v1",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "adi mashiach",
+          "name": "Adi Mashiach"
+        }
+      ],
+      "abstract_text": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric discrimination), and bond (covalent versus non-covalent engagement). All three capabilities generalize to out-of-distribution complexes. Bonbon was trained on protein-ligand sequences alone, without any task-specific supervision and without structural coordinates. We conducted controlled scaling experiments across six model scales from 42M to 1.6B parameters; every capability evaluated shows a sharp jump at the largest scale on continuous metrics, even as pretraining loss decreases smoothly. This demonstrates that loss-based scaling laws alone are insufficient to predict when zero-shot emergent capabilities become available. The capabilities reported here emerge after training at a 1:2,000 parameter-to-token ratio to accommodate the sparsity of paired biological interaction data. The same frozen representations achieve state-of-the-art binding and affinity prediction at five orders of magnitude greater speed than co-folding methods. In prospective wet-lab validation across nine disease targets spanning seven protein families, Bonbon achieves a 61.5% dose-response hit rate on de novo compounds, yielding structurally novel molecules not previously reported to inhibit these proteins, including for out-of-distribution targets.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "78f58cbd9f2e2000fea1bd0eda8cfc0f09327d0f1c3d018ed1ab916e6bcdbb8a",
       "identity_keys": [
         "https://doi.org/10.1371/journal.pone.0178751",

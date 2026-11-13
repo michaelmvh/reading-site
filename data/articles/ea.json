@@ -1496,6 +1496,56 @@
       "curated_categories": []
     },
     {
+      "id": "ea407dd1427770f759741a7d673793829edc327782bd75f621a3838d756d7a65",
+      "identity_keys": [
+        "arxiv:2611.09377",
+        "https://doi.org/10.48550/arXiv.2611.09377"
+      ],
+      "title": "KineCouple: Substrate-conditioned residual readout for enzyme kinetic prediction",
+      "link": "https://doi.org/10.48550/arXiv.2611.09377",
+      "pdf_url": "https://arxiv.org/pdf/2611.09377v2",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chun kang",
+          "name": "Chun Kang"
+        },
+        {
+          "key": "yunbo zhang",
+          "name": "Yunbo Zhang"
+        },
+        {
+          "key": "fanhu zeng",
+          "name": "Fanhu Zeng"
+        },
+        {
+          "key": "jian liu",
+          "name": "Jian Liu"
+        },
+        {
+          "key": "deng siwei",
+          "name": "Siwei Deng"
+        },
+        {
+          "key": "lei sha",
+          "name": "Lei Sha"
+        }
+      ],
+      "abstract_text": "Accurate prediction of enzyme kinetic parameters can support enzyme engineering and metabolic modeling by complementing experimental characterization. Existing prediction methods often pool residue-level protein features before combining them with substrate features. Such substrate-independent pooling cannot adapt residue weighting to the substrate during aggregation, potentially diluting information relevant to a specific enzyme-substrate pair. Since the contributions of individual residues to catalysis can depend on the substrate, substrate-conditioned aggregation offers a way to emphasize residue features relevant to the prediction. We introduce KineCouple, which uses substrate queries and residue-level keys and values in cross-attention, allowing the substrate to guide residue selection before aggregation. The model preserves the global protein representation and adds a gated correction defined as the difference between the conditioned readout and a uniform readout. ProtT5 and MolT5 remain frozen, and separate models predict kcat and Km on a logarithmic scale. In pooled out-of-fold predictions on the CataPro benchmarks, KineCouple reduces kcat RMSE from 1.333 to 1.330 and increases PCC from 0.492 to 0.496 relative to reproduced CataPro. For Km, RMSE decreases from 0.998 to 0.997 and PCC increases from 0.633 to 0.634. Spearman correlation also improves for both tasks.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ea42698c6dda882d298db66eeae3c8f6640ecfd0b75ca2e96f3bebac98676d7b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73227-5",
@@ -3757,8 +3807,8 @@
           "name": "Francesco Colizzi"
         },
         {
-          "key": "juana mun oz",
-          "name": "Juana C. Muñoz"
+          "key": "juana muñoz",
+          "name": "Juana C. Muñoz"
         },
         {
           "key": "marta taulés",
@@ -3773,7 +3823,7 @@
           "name": "Enrique Marcos"
         }
       ],
-      "abstract_text": "Abstract De novo protein binders have emerged as a powerful platform for molecular recognition, yet achieving high affinity while maintaining favorable biophysical properties remains a major challenge. Here, using the SARS-CoV-2 receptor-binding domain (RBD) as a model target, we generated two de novo protein binder design campaigns that deliberately imposed different trade-offs between binding and monomeric behavior, and benchmarked them against a set of experimentally validated binders. Through integrated experimental and computational analyses, we show that binder design is constrained by two distinct failure modes that require different optimization strategies. None of the 22 original designs showed measurable binding to the RBD, with one class remaining monomeric but failing to achieve sufficient target binding, while the other had more competent binding interfaces but exhibited excessive surface hydrophobicity that promoted self-association. By integrating AlphaFold-based predictions, molecular dynamics simulations, docking analyses, and surface aggregation propensity (SAP) calculations, we establish complementary computational signatures that distinguish these failure modes and reveal their underlying structural determinants. Guided by these insights, we prospectively redesigned a representative failed binder by reducing noninterface hydrophobicity while preserving folding and binding interface quality. Experimental characterization by SEC-MALS, surface plasmon resonance, and circular dichroism confirmed that the redesigned variants were stable monomers and acquired low μM binding affinities. Together, our results define the mechanistic trade-offs between binding and self-association in de novo protein binder design and provide a framework for diagnosing and rationally overcoming common design failure modes.",
+      "abstract_text": "De novo protein binders have emerged as a powerful platform for molecular recognition, yet achieving high affinity while maintaining favorable biophysical properties remains a major challenge. Here, using the SARS-CoV-2 receptor-binding domain (RBD) as a model target, we generated two de novo protein binder design campaigns that deliberately imposed different trade-offs between binding and monomeric behavior, and benchmarked them against a set of experimentally validated binders. Through integrated experimental and computational analyses, we show that binder design is constrained by two distinct failure modes that require different optimization strategies. None of the 22 original designs showed measurable binding to the RBD, with one class remaining monomeric but failing to achieve sufficient target binding, while the other had more competent binding interfaces but exhibited excessive surface hydrophobicity that promoted self-association. By integrating AlphaFold-based predictions, molecular dynamics simulations, docking analyses, and surface aggregation propensity (SAP) calculations, we establish complementary computational signatures that distinguish these failure modes and reveal their underlying structural determinants. Guided by these insights, we prospectively redesigned a representative failed binder by reducing noninterface hydrophobicity while preserving folding and binding interface quality. Experimental characterization by SEC-MALS, surface plasmon resonance, and circular dichroism confirmed that the redesigned variants were stable monomers and acquired low μM binding affinities. Together, our results define the mechanistic trade-offs between binding and self-association in de novo protein binder design and provide a framework for diagnosing and rationally overcoming common design failure modes.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4405,7 +4455,7 @@
       ],
       "title": "Machine learning for evolutionary-based and physics-inspired protein design: Current and future synergies",
       "link": "https://doi.org/10.1016/j.sbi.2023.102571",
-      "pdf_url": null,
+      "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S0959440X23000453",
       "publication_date": "2023-03-21",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -4982,13 +5032,15 @@
       "id": "eae415ce401348fbc9bc17356d96ac114ebb243c50c987677984fa4603a8c2ec",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.03.763913v1",
+        "biorxiv:10.64898/2026.11.03.763913v2",
         "https://doi.org/10.64898/2026.11.03.763913",
-        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763913.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763913.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.03.763913.source.xml"
       ],
       "title": "All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction",
       "link": "https://doi.org/10.64898/2026.11.03.763913",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763913v1.full.pdf",
-      "publication_date": "2026-11-04",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763913v2.full.pdf",
+      "publication_date": "2026-11-09",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -4996,6 +5048,10 @@
         {
           "key": "yan",
           "name": "Yan, J"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, S"
         },
         {
           "key": "xie",

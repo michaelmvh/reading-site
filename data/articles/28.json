@@ -1033,6 +1033,53 @@
       "curated_categories": []
     },
     {
+      "id": "2831fd35355f9b416991d93471ae0d8fc0f183e70059ad0fe702e197ab306dfc",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.03.12.642799v2",
+        "https://doi.org/10.1101/2025.03.12.642799",
+        "https://www.biorxiv.org/content/early/2026/11/11/2025.03.12.642799.source.xml"
+      ],
+      "title": "A reformulation of the t-test in single-cell transcriptomics dramatically reduces false positives",
+      "link": "https://doi.org/10.1101/2025.03.12.642799",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.12.642799v2.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kviman",
+          "name": "Kviman, O"
+        },
+        {
+          "key": "ferreira",
+          "name": "Ferreira, P. F"
+        },
+        {
+          "key": "jun",
+          "name": "Jun, S.-H"
+        },
+        {
+          "key": "toosi",
+          "name": "Toosi, H"
+        },
+        {
+          "key": "lagergren",
+          "name": "Lagergren, J"
+        }
+      ],
+      "abstract_text": "The default differential expression tests in single-cell analysis software provide fast and simple approaches that help practitioners annotate cell populations identified through clustering algorithms. Here, we use theoretical arguments and empirical studies to show that these tests suffer from inflated false positive rates that affect the resulting annotations. We introduce LN's t-test, which tests a novel, asymptotically unbiased log-fold change estimator and avoids these false positives, without compromising speed.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2834a38f3e3400f3a03f41f667230d7908607dae623d9e2c7b896be998ef3018",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76360-3",
@@ -3545,6 +3592,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "28ae33d7a99a0dfbc0bd6e2d5b637614ed94c9069b1b6cdf2fe7654b8d1f9449",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764739v1",
+        "https://doi.org/10.64898/2026.11.05.764739",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.05.764739.source.xml"
+      ],
+      "title": "Evaluation effects can rival reported concordance gains in cross-cancer survival prediction",
+      "link": "https://doi.org/10.64898/2026.11.05.764739",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764739v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nguyen",
+          "name": "Nguyen, R"
+        },
+        {
+          "key": "vafaee",
+          "name": "Vafaee, F"
+        }
+      ],
+      "abstract_text": "Studies of cross-cancer learning for survival prediction from tumour omics have reported concordance gains of 0.020 and 0.045, but how such gains compare with evaluation effects remains unclear. We examined these effects across 13 TCGA cancers (5,761 patients, 1,526 disease-specific deaths), using five repeats of five-fold cross-validation and paired bootstrap intervals. When model selection did not use test data, our borrowing model gained 0.009 (95% interval 0.001 to 0.016) over its target-fitted reference when cancers received equal weight (post hoc). Random-effects pooling gave a gain of 0.002 (-0.002 to 0.006), with most weight assigned to cancers where the model made little use of the pretrained score. Choosing the fusion weight on test splits raised the apparent equal-weight gain to 0.017. We reimplemented a published method, VAECox, which showed no pretraining gain over random initialisation at the last or validation-selected training step. Choosing each network's best test step, as the published code does, raised concordance by 0.03 to 0.05 across the 13-cancer and ten-cancer overall-survival settings, but barely changed the difference between networks. In a constructed post hoc experiment, choosing the best test step only for the pretrained network changed the equal-weight mean difference from -0.004 to +0.045 (+0.035 to +0.054). Across seven multi-omics comparisons, estimates from single five-fold runs differed from their cancer's five-run mean by at least 0.02 in 11% to 42% of runs. Concordance was about 0.02 lower at held-out tissue source sites. Interpreting a reported gain therefore requires each model's selection rule, variation across repeated partitions, the weighting of cancers and the evaluation population.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

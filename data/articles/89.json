@@ -1038,6 +1038,80 @@
       "curated_categories": []
     },
     {
+      "id": "893bf455a2c7373d8db01907b566db07281d5e551e7b466cc11dfa4a60cee728",
+      "identity_keys": [
+        "arxiv:2611.11958",
+        "https://doi.org/10.48550/arXiv.2611.11958"
+      ],
+      "title": "OriDynamics: Towards a World Model for Biomolecular Dynamics",
+      "link": "https://doi.org/10.48550/arXiv.2611.11958",
+      "pdf_url": "https://arxiv.org/pdf/2611.11958v1",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jiahao yang",
+          "name": "Jiahao Yang"
+        },
+        {
+          "key": "dong liu",
+          "name": "Dong Liu"
+        },
+        {
+          "key": "hongliang li",
+          "name": "Hongliang Li"
+        },
+        {
+          "key": "chen ji",
+          "name": "Ji Chen"
+        },
+        {
+          "key": "liu yuehua",
+          "name": "Yuehua Liu"
+        },
+        {
+          "key": "daoyun ding",
+          "name": "Daoyun Ding"
+        },
+        {
+          "key": "an duo",
+          "name": "Duo An"
+        },
+        {
+          "key": "jun li",
+          "name": "Jun Li"
+        },
+        {
+          "key": "jiahua rao",
+          "name": "Jiahua Rao"
+        },
+        {
+          "key": "zhang ziqiao",
+          "name": "Ziqiao Zhang"
+        },
+        {
+          "key": "lin peicong",
+          "name": "Peicong Lin"
+        },
+        {
+          "key": "shuangjia zheng",
+          "name": "Shuangjia Zheng"
+        }
+      ],
+      "abstract_text": "Biomolecular recognition and regulation depend on atomic interactions that change as molecular partners fluctuate and adopt alternative conformations. Modeling these processes requires ensembles that capture both conformational diversity and coordinated atomic fluctuations between interacting molecules. Here we present OriDynamics, a unified framework for all-atom ensemble generation across protein monomers and complexes with small molecules or protein partners. OriDynamics introduces a latent ensemble decomposition that couples broad conformational exploration in a compact structural latent space with local all-atom sampling around generated proposals. Ensemble-level supervision constrains mean positions, fluctuation amplitudes and joint coordinate covariance to capture coordinated atomic variability within and between molecular partners. Across benchmarks of proteins and their complexes, OriDynamics demonstrates superior overall performance in conformational coverage, atomic fluctuation fidelity and interaction geometry compared with leading baselines. Application studies further demonstrate recovery of alternative functional conformations and partner-dependent changes in conformational ensembles alongside sampling of configurations associated with ligand dissociation. These capabilities provide a foundation for a biomolecular world model that represents accessible molecular states and their dependence on interaction context.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "893de1205809cd175e3826da092b0fc57ff6ffcb622e2f4d533b82b5a3ec22f3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73497-z",
@@ -1981,6 +2055,61 @@
       "curated_categories": []
     },
     {
+      "id": "895b4b6e34dd1012fe6052be8fcb549604bd4bebee2533bb2f66b28f3bfea261",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764292v1",
+        "https://doi.org/10.64898/2026.11.04.764292",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764292.source.xml"
+      ],
+      "title": "scDisentangle: sequential disentanglement for single-cell perturbation response prediction",
+      "link": "https://doi.org/10.64898/2026.11.04.764292",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764292v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "el mejjad",
+          "name": "El Mejjad, S"
+        },
+        {
+          "key": "enezari",
+          "name": "Enezari, S"
+        },
+        {
+          "key": "bedraoui",
+          "name": "Bedraoui, A"
+        },
+        {
+          "key": "el hajji",
+          "name": "El Hajji, F. Z"
+        },
+        {
+          "key": "el fatimy",
+          "name": "El Fatimy, R"
+        },
+        {
+          "key": "hofree",
+          "name": "Hofree, M"
+        },
+        {
+          "key": "daouda",
+          "name": "Daouda, T"
+        }
+      ],
+      "abstract_text": "Predicting the transcriptional response of single cells to perturbation is a central goal of single-cell modeling, with broad application to analysis and experimental design. Existing methods often fail to beat simple baselines and offer little insight into how biological variation is organized. We present scDisentangle, a model that decomposes single-cell expression into observed attributes and a sequence of residual components, generating counterfactuals that preserve source cell identity. scDisentangle outperformed current models and naive baselines on cytokine stimulation, liver infection, and unseen combinatorial genetic perturbations, on which accuracy was largely independent of how closely a response resembled the average perturbation effect. In an immune checkpoint inhibitor-associated myocarditis cohort, cell-resolved counterfactuals predicted donor-specific intracardiac CD8+ T cell states from peripheral blood. In a castration-regeneration prostate atlas, predictions recapitulated luminal dynamics and progenitor-marker kinetics upon androgen add-back. scDisentangle's coarse-to-fine latent structure aligned with hematopoietic lineage organization, with early levels capturing a less differentiated core progressively refined into cell-type-specific programs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "895b68da74cc61dac765154d52d0d131c111b6148377c7dc3043f14ddbbba39f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77535-8",
@@ -2899,16 +3028,12 @@
           "name": "Lei Justan Zhang"
         },
         {
-          "key": "bai jie",
-          "name": "Jie Bai"
-        },
-        {
           "key": "liu pi",
           "name": "Pi Liu"
         },
         {
-          "key": "jing li",
-          "name": "Jing Li"
+          "key": "liu pi",
+          "name": "Pi Liu"
         },
         {
           "key": "xiaoxi zhu",
@@ -2927,8 +3052,12 @@
           "name": "Rong Huang"
         },
         {
-          "key": "chang hong yi",
-          "name": "Hong Yi Chang"
+          "key": "bai jie",
+          "name": "Jie Bai"
+        },
+        {
+          "key": "chang hong",
+          "name": "Hong Chang"
         },
         {
           "key": "liu tian",

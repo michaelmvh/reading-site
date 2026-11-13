@@ -1720,7 +1720,7 @@
       ],
       "title": "Artificial Intelligence-Aided Design of Peptides with Custom Secondary Structure Motifs and Reduced Amino Acid Alphabets",
       "link": "https://doi.org/10.1021/acs.jcim.6c03837",
-      "pdf_url": null,
+      "pdf_url": "https://pubs.acs.org/jcisd8/article-pdf/doi/10.1021/acs.jcim.6c03837/69066363/acs.jcim.6c03837.pdf",
       "publication_date": "2026-11-03",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -1739,7 +1739,7 @@
           "name": "Scott N. Dean"
         }
       ],
-      "abstract_text": "Proteins are highly diverse functional polymers where the specific sequence of amino acids, selected from a standard genetically-encoded alphabet of twenty (C20), determines the structure and ultimately the function of the resulting folded protein. This standard alphabet has been identified to be non-randomly distributed in physicochemical properties crucial to both structure-formation and function, often referred to as coverage theory. While machine learning models have drastically improved protein structure prediction, success of protein design models lags structure prediction, particularly for custom secondary structure motifs and amino acid alphabets. Here we therefore bridge contemporary biological theory with recent advancements in artificial intelligence (AI) to develop and evaluate a generative AI protein design model, trained on hundreds of thousands of proteins within the RSCB PDB, for custom secondary structure motifs using reduced amino acid alphabets (RAAs). Results indicate an overall success in designing novel proteins with desired secondary structure motifs for a broad range of amino acid alphabets and complexity of designs. Interestingly, this tool often captures the full three-dimensional tertiary structure of a target protein despite training only on physicochemical sequence space and secondary structure information. The development of this model advances research across multiple disciplines, from general scientific AI architecture development to protein design for biotechnology, astrobiology, and early-Earth evolutionary biology.",
+      "abstract_text": "Abstract Proteins are highly diverse functional polymers where the specific sequence of amino acids, selected from a standard genetically encoded alphabet of 20 (C20), determines the structure and ultimately the function of the resulting folded protein. This standard alphabet has been identified to be nonrandomly distributed in physicochemical properties crucial to both structure formation and function, often referred to as coverage theory. While machine learning models have drastically improved protein structure prediction, success of protein design models lags structure prediction, particularly for custom secondary structure motifs and amino acid alphabets. Here, we therefore bridge contemporary biological theory with recent advancements in artificial intelligence (AI) to develop and evaluate a generative AI protein design model, trained on hundreds of thousands of proteins within the RCSB PDB, for custom secondary structure motifs using reduced amino acid alphabets (RAAs). Results indicate an overall success in designing novel proteins with desired secondary structure motifs for a broad range of amino acid alphabets and complexity of designs. Interestingly, for a substantial fraction of designs, ESMFold predicts a fold close to that of the target structure despite training only on physicochemical sequence space and secondary structure information. The development of this model advances research across multiple disciplines, from general scientific AI architecture development to protein design for biotechnology, astrobiology, and early-Earth evolutionary biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3913,6 +3913,41 @@
       "curated_categories": []
     },
     {
+      "id": "338b133976cdbf591f71cf3f26bd311d51e102f7b9c06d45c8710c4a52f84d69",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764882v1",
+        "https://doi.org/10.64898/2026.11.06.764882",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764882.source.xml"
+      ],
+      "title": "HERACLES for fast and accurate likelihood-based reconstruction of massive lineages",
+      "link": "https://doi.org/10.64898/2026.11.06.764882",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764882v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "persad",
+          "name": "Persad, S. C"
+        },
+        {
+          "key": "morris",
+          "name": "Morris, Q"
+        }
+      ],
+      "abstract_text": "CRISPR-based lineage recording technologies can trace the ancestry of hundreds of thousands of cells, yet reconstructing accurate phylogenies at this scale remains computationally challenging. Likelihood-based methods employ explicit evolutionary models of CRISPR editing that improve tree accuracy but require computationally expensive searches over tree topologies, whereas distance-based alternatives scale efficiently but rely on distances that may not faithfully represent the editing process, introducing biases whose magnitude and direction are unknown. Here, we introduce HERACLES, which optimizes cell coordinates in hyperbolic space under a quartet-based composite likelihood of CRISPR editing. By recovering local branching structures directly from embedded distances, HERACLES guides continuous optimization with an explicit evolutionary model without repeatedly constructing and evaluating complete phylogenies. Across simulated benchmarks, HERACLES improves reconstruction accuracy over existing methods and scales to lineages containing 150,000 cells in about four hours on a single GPU. On experimental KP-tracer and PEtracer datasets, HERACLES reconstructs phylogenies consistent with independent anatomical annotations and temporal lineage markers. Its flexible likelihood framework also accommodates different recording mechanisms: incorporating sequential editing improves reconstruction of simulated DNA Typewriter lineages. Together, these results establish continuous optimization of local evolutionary relationships as a scalable and flexible approach to probabilistic lineage reconstruction.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "338ccdc9f2bba3a8311a7558cad8bc7879ffa283517633e537714f5303fda77d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67490-1",
@@ -4044,6 +4079,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "338f504a3b8744256bda7c98b866c153dba15c7de0798a0fae951ef3665fdd65",
+      "identity_keys": [
+        "arxiv:2606.10543",
+        "https://doi.org/10.48550/arXiv.2606.10543"
+      ],
+      "title": "Flexible Flows for Biological Sequence Design",
+      "link": "https://doi.org/10.48550/arXiv.2606.10543",
+      "pdf_url": "https://arxiv.org/pdf/2606.10543",
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "verma yogesh",
+          "name": "Yogesh Verma"
+        },
+        {
+          "key": "dani korpela",
+          "name": "Dani Korpela"
+        },
+        {
+          "key": "ahdesm aki harri",
+          "name": "Harri L\\\"ahdesm\\\"aki"
+        },
+        {
+          "key": "garg vikas",
+          "name": "Vikas Garg"
+        }
+      ],
+      "abstract_text": "Designing functional biological sequences requires navigating vast discrete spaces under strict evolutionary and biophysical constraints. Discrete Flow Matching (DFM) offers a generative framework over such spaces, but existing approaches rely on biologically uninformative couplings and offer limited flexibility for variable-length sequence generation and fine-grained control. We propose a structured coupling that encodes domain-specific preferences among sequence elements, biasing the source distribution toward plausible regions without modifying the flow objective or training procedure. Building on this, we introduce a latent edit-based rate parameterization that models variable-length generation via edit operations conditioned on a shared global latent, akin to a latent variable model, while remaining tractable. We further introduce a latent classifier-free guidance mechanism that steers generation coherently in continuous latent space, along with Dirichlet-prior temperature scaling for test-time control over edit operations. Our method achieves state-of-the-art performance across diverse biological sequence tasks, including density estimation, unconditional and conditional DNA sequence generation, and peptide sequence generation. Our code is available at https://github.com/Aalto-QuML/FlexFlow.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
@@ -4408,6 +4485,42 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "33b7f9bfc798ce62eabe4a3b24339815a0a25ac1e9f7fa6564ceaa604754913f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.06.26.734559v2",
+        "https://doi.org/10.64898/2026.06.26.734559",
+        "https://www.biorxiv.org/content/early/2026/07/01/2026.06.26.734559.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.06.26.734559.source.xml"
+      ],
+      "title": "MintCNA: A Unified Framework for Integrative Copy Number Profiling with Single-Cell Multi-Omics Data",
+      "link": "https://doi.org/10.64898/2026.06.26.734559",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734559v2.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bao",
+          "name": "Bao, W"
+        },
+        {
+          "key": "xiao",
+          "name": "Xiao, F"
+        }
+      ],
+      "abstract_text": "Chromosomal copy number alterations (CNAs) are key drivers of tumor evolution, disease progression and therapeutic resistance, and their identification is critical for delineating tumor clonal structure. However, accurately detecting CNAs from single-cell data remains challenging as most existing CNA callers still analyze a single omics layer and are susceptible to assay-specific noise. Recently, single-cell multi-omics techniques have enabled joint sequencing of multiple molecular layers (e.g., genomics and transcriptomics) simultaneously in the same cells, yet computational methods that fully exploit such complementary multi-omics data for CNA analysis remain limited. Here, we present MintCNA, a unified framework for CNA detection from paired single-cell multi-omics data. MintCNA integrates deep-learning based denoising with a missingness-adjusted multivariate change-point detection procedure to enhance CNA profiling across omics layers. In simulations, MintCNA outperformed existing single-cell CNA callers across all evaluated scenarios. MintCNA showed the highest correlation with bulk whole-genome sequencing in a colorectal cancer dataset and revealed progressive loss of chromosome 17 during metastasis. In an IDH-mutant glioma cohort, MintCNA generalized to paired single-cell ATAC-seq and RNA-seq data and identified copy number subclones corresponding to distinct malignant cell states. MintCNA provides an advanced multi-omics integrative single-cell CNA analysis tool for better delineating the mechanisms underlying disease progression and tumor evolution.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5122,8 +5235,8 @@
           "name": "Pawan Neupane"
         },
         {
-          "key": "cheng jack jianlin",
-          "name": "Jianlin Jack Cheng"
+          "key": "cheng jianlin",
+          "name": "Jianlin Cheng"
         }
       ],
       "abstract_text": null,

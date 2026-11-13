@@ -2090,6 +2090,57 @@
       "curated_categories": []
     },
     {
+      "id": "8c4c2261d733e820b28348afc397ecda77f449518018f99e9eb5257c3fbf0cf2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764740v1",
+        "https://doi.org/10.64898/2026.11.05.764740",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.05.764740.source.xml"
+      ],
+      "title": "Homology-aware average nucleotide identity estimation at scale with TurboANI",
+      "link": "https://doi.org/10.64898/2026.11.05.764740",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764740v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhao",
+          "name": "Zhao, J"
+        },
+        {
+          "key": "mcdonald",
+          "name": "McDonald, D"
+        },
+        {
+          "key": "patel",
+          "name": "Patel, L"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, C"
+        },
+        {
+          "key": "gonzalez",
+          "name": "Gonzalez, A"
+        },
+        {
+          "key": "knight",
+          "name": "Knight, R"
+        }
+      ],
+      "abstract_text": "Here we introduce TurboANI, a fast homology-aware average nucleotide identity (ANI) estimation algorithm that implements the seed-chain-quasi-alignment scheme using SIMD seeding, compact indexing, lightweight chaining, and cache-friendly bitset sliding minwise hashing, achieving up to ~40,000-fold speedup over the alignment-based ANI algorithm with near-perfect agreement. TurboANI is also >40-fold faster than the state-of-the-art FastANI and ten-fold faster than skani while maintaining better accuracy. In the sensitive mode, it has a ten-fold higher true-ANI recovery rate than skani.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8c4d94d19c85cbf136bd23275a4bd038b0783231a40378b52945ada105a2996e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66249-y",
@@ -5974,7 +6025,7 @@
           "name": "Philip A. Romero"
         }
       ],
-      "abstract_text": "Abstract Machine learning (ML) has transformed protein engineering by constructing models of the underlying sequence-function landscape to accelerate the discovery of new biomolecules. ML-guided protein design requires models, trained on local sequence-function information, to accurately predict distant fitness peaks. In this work, we evaluate neural networks’ capacity to extrapolate beyond their training data. We perform model-guided design using a panel of neural network architectures trained on protein G (GB1)-Immunoglobulin G (IgG) binding data and experimentally test thousands of GB1 designs to systematically evaluate the models’ extrapolation. We find each model architecture infers markedly different landscapes from the same data, which give rise to unique design preferences. We find simpler models excel in local extrapolation to design high fitness proteins, while more sophisticated convolutional models can venture deep into sequence space to design proteins that fold but are no longer functional. Our findings highlight how each architecture’s inductive biases prime them to learn different aspects of the protein fitness landscape.",
+      "abstract_text": "Machine learning (ML) has transformed protein engineering by constructing models of the underlying sequence-function landscape to accelerate the discovery of new biomolecules. ML-guided protein design requires models, trained on local sequence-function information, to accurately predict distant fitness peaks. In this work, we evaluate neural networks’ capacity to extrapolate beyond their training data. We perform model-guided design using a panel of neural network architectures trained on protein G (GB1)-Immunoglobulin G (IgG) binding data and experimentally test thousands of GB1 designs to systematically evaluate the models’ extrapolation. We find each model architecture infers markedly different landscapes from the same data, which give rise to unique design preferences. We find simpler models excel in local extrapolation to design high fitness proteins, while more sophisticated convolutional models can venture deep into sequence space to design proteins that fold but are no longer functional. We also find that implementing a simple ensemble of convolutional neural networks enables robust design of high-performing variants in the local landscape. Our findings highlight how each architecture’s inductive biases prime them to learn different aspects of the protein fitness landscape and how a simple ensembling approach makes protein engineering more robust. Machine learning accelerates protein engineering by predicting sequence-function relationships. Here, authors evaluate neural network architectures’ ability to extrapolate beyond training data, finding simpler models excel in local design while convolutional models explore deeper sequence spaces.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

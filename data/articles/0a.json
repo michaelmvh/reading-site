@@ -554,7 +554,7 @@
       ],
       "title": "Origin-1: a generative AI platform for de novo antibody design against novel epitopes",
       "link": "https://doi.org/10.64898/2026.01.14.699389",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/05/05/2026.01.14.699389.full.pdf",
       "publication_date": "2026-01-14",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -3228,6 +3228,90 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0a8191267c59e3f5f5c820190df7210f01780e52b70914d7edbedc14f841bf00",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.10.758174v2",
+        "https://doi.org/10.64898/2026.10.10.758174",
+        "https://www.biorxiv.org/content/early/2026/10/16/2026.10.10.758174.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.10.10.758174.source.xml"
+      ],
+      "title": "The Multi-scale Copula Index (MCI): a new information-theoretic measure of association and its applications in functional cancer genomics",
+      "link": "https://doi.org/10.64898/2026.10.10.758174",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758174v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "pham",
+          "name": "Pham, T"
+        },
+        {
+          "key": "cime meneses",
+          "name": "Meneses-Cime, K"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, J"
+        },
+        {
+          "key": "tam",
+          "name": "Tam, B"
+        },
+        {
+          "key": "gupta",
+          "name": "Gupta, A"
+        },
+        {
+          "key": "reich",
+          "name": "Reich, M"
+        },
+        {
+          "key": "wenzel",
+          "name": "Wenzel, A"
+        },
+        {
+          "key": "eby",
+          "name": "Eby, D"
+        },
+        {
+          "key": "tabor",
+          "name": "Tabor, T"
+        },
+        {
+          "key": "thorvaldsdottir",
+          "name": "Thorvaldsdottir, H"
+        },
+        {
+          "key": "castanza",
+          "name": "Castanza, A"
+        },
+        {
+          "key": "mesirov",
+          "name": "Mesirov, J. P"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, W"
+        },
+        {
+          "key": "tamayo",
+          "name": "Tamayo, P"
+        }
+      ],
+      "abstract_text": "Cancer genomic analyses increasingly involve large, complex datasets representing diverse omics variables, such as gene expression, mutations, copy number alterations, genetic perturbations (e.g. CRISPR or iRNA), drug sensitivity, and clinical phenotypes, making it crucial to accurately measure associations among these variables. Traditional correlation-based methods, like the Pearson correlation coefficient, often assume linearity, Gaussian distributions, and independence among variables, leading to oversimplified assumptions, less sensitive readouts and less accurate significance estimation. Information-theoretic measures overcome these limitations by being one step removed from the data and assessing dependencies at the level of probability distributions, thus providing a more data-agnostic, robust measure for identifying associations in common analysis tasks such as feature selection, pattern recognition, and predictive modeling. Building on these foundations, we introduce the Multi-scale Copula Index (MCI), a novel information-theoretic measure of association. The MCI offers significant advantages over existing methods by eliminating the need for density estimation and parameter tuning, thereby ensuring consistent estimation with reduced computational complexity. Furthermore, it enhances statistical power at lower sample sizes, exhibits strong robustness to outliers, and successfully captures both directionality and important symmetries under input-data transformations, such as reflection or complementation. Due to these strengths, the MCI is particularly useful for functional cancer genomic applications involving, e.g., transcriptional and perturbational data, with different statistical properties across a wide range of dataset sizes and complexity. Contextual associations often arise in functional genomics datasets: two genomic variables show little or no correlation in most samples, yet display a strong linkage within the subset that reflects the active biological context. These situations are ideal for quantifying associations with the MCI. We illustrate the performance of the MCI in a variety of benchmarks and cancer genomic examples and applications. We also introduce the Cumulative Entropy Diagram (CED), a graphical display that allows the visualization of the MCI between a reference vector, such as a phenotype, pathway activation or drug response, and a complete set of genomic features.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

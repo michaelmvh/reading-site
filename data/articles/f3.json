@@ -317,6 +317,49 @@
       "curated_categories": []
     },
     {
+      "id": "f30b9732c82805320bd88c4ebe9e28b692c4dc8637b2606bb3b98803a1538705",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764695v1",
+        "https://doi.org/10.64898/2026.11.05.764695",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764695.source.xml"
+      ],
+      "title": "Bioprocess Modeling Made Easy With Hybrax",
+      "link": "https://doi.org/10.64898/2026.11.05.764695",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764695v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "egger libiseller",
+          "name": "Libiseller-Egger, J"
+        },
+        {
+          "key": "gotsmy",
+          "name": "Gotsmy, M"
+        },
+        {
+          "key": "gosalbez guillen",
+          "name": "Guillen-Gosalbez, G"
+        },
+        {
+          "key": "zanghellini",
+          "name": "Zanghellini, J"
+        }
+      ],
+      "abstract_text": "Hybrid models that embed neural networks in ordinary differential equations are increasingly popular in bioprocess modeling, but they are challenging to set up. Much of the effort goes into the code around the model: wet-lab data must be imported and pre-processed, feeds and sampling must be accounted for in the balance equations, and a training loop with cross-validation must be set up. Researchers usually write this code from scratch for each project. In addition, no widely adopted format for bioprocess data exists, and datasets are mostly published in bespoke spreadsheets or not at all. As a result, models and datasets from the literature are difficult to reproduce, reuse, or compare.We present Hybrax, an open-source Python framework that addresses these problems. It combines a flexible format for bioprocess data with a customizable end-to-end training pipeline for mechanistic and hybrid models. Hybrax derives the transport terms in the process dynamics automatically and provides the utilities needed for training, so that researchers can focus on developing the model itself. It also facilitates model sharing and reproducibility: each training checkpoint contains the model parameters, code, configuration, and training data required to run the model or retrain it from scratch. We demonstrate Hybrax by re-implementing two models from the literature, one trained on real-world E. coli data and one on synthetic HEK293 data, with performance comparable to the original models. Hybrax is available at https://github.com/hybrax/hybrax.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f30c55a4cd294e848a5ba78a8b38cc42e655da4fb87e8334153c1819414bfccc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68479-0",
@@ -4186,6 +4229,73 @@
       "curated_categories": []
     },
     {
+      "id": "f3831421dcd33b79f2079e5280bf2456e0ebede32611366ad23b913c3d382e2d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765280v1",
+        "https://doi.org/10.64898/2026.11.09.765280",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.09.765280.source.xml"
+      ],
+      "title": "CellChat Hotspot: A Targeted Approach to Cell Cell Communication Analysis With Spatial transcriptomics Validation.",
+      "link": "https://doi.org/10.64898/2026.11.09.765280",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765280v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "monaco",
+          "name": "Monaco, D"
+        },
+        {
+          "key": "dioguardi",
+          "name": "Dioguardi, M"
+        },
+        {
+          "key": "dipalma",
+          "name": "Dipalma, M"
+        },
+        {
+          "key": "mattioli",
+          "name": "Mattioli, E"
+        },
+        {
+          "key": "zito",
+          "name": "Zito, F. A"
+        },
+        {
+          "key": "giovannelli",
+          "name": "Giovannelli, F"
+        },
+        {
+          "key": "ricco",
+          "name": "Ricco, A"
+        },
+        {
+          "key": "brunetti",
+          "name": "Brunetti, O"
+        },
+        {
+          "key": "argentiero",
+          "name": "Argentiero, A"
+        },
+        {
+          "key": "de summa",
+          "name": "De Summa, S"
+        }
+      ],
+      "abstract_text": "In recent years, single cell RNA sequencing (scRNA seq) has enabled the investigation of intercellular communication through Cell Cell Communication (CCC) tools such as CellChat. Despite their potential, these approaches remain challenging to interpret, particularly when global analyses generate complex interaction networks that may include biologically irrelevant signals. To address this limitation, we developed a framework termed CellChat Hotspot, designed to improve the biological interpretability of inferred communication networks. This approach integrates gene set enrichment analysis with a context driven filtering strategy, selecting both genes and cells based on their functional relevance prior to communication inference. Applied to stage II colon cancer data, CellChat Hotspot enabled the identification of condition-specific interaction patterns associated with recurrence. Non recurrent patients showed enrichment of immune related processes, whereas recurrent cases were characterized by pathways associated with invasion and metastasis. Notably, a loss of interaction in the HSPG pathway between CALB1+ and stromal cells was observed in recurrent patients, suggesting a potential disruption of cell matrix adhesion mechanisms. To verify the reliability of this finding, we applied the framework to spatial transcriptomics data, which confirmed the presence of the HSPG2 DAG1 interaction in non-recurrent tumors and its near absence in recurrent ones. Overall, this framework provides a biologically guided strategy for studying intercellular communication in complex systems such as the tumor microenvironment.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f383865f93a0a0acdf499ccb57258294514568255bacfe5ff3190b345cd4361c",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02646-7",
@@ -4345,6 +4455,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f39540bc01869a6e0968ee76b9e05102d087a9e09a6500fc9e7b63ea3a8f568c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765023v1",
+        "https://doi.org/10.64898/2026.11.07.765023",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.07.765023.source.xml"
+      ],
+      "title": "A Three-View System for CRISPR-Cas12a crRNA Activity Ranking: When to Ensemble, When Context Matters More",
+      "link": "https://doi.org/10.64898/2026.11.07.765023",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765023v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "deng",
+          "name": "Deng, T"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, Z"
+        },
+        {
+          "key": "lam",
+          "name": "Lam, H"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, S"
+        }
+      ],
+      "abstract_text": "CRISPR-Cas12a assays require effective crRNA selection, but experimentally screening all possible candidates is costly. We developed TriCasRank, a ranking model that combines sequence features with EasyDesign reference mapping and activity summaries from related training records. Historical summaries were calculated within each training fold to avoid information leakage. In five-fold target-grouped cross-validation using out-of-fold predictions, TriCasRank improved the Spearman correlation from 0.741 for the sequence-only ensemble to 0.821 (paired difference, 0.080; 95% target-group bootstrap interval, 0.072 to 0.090). However, its performance was comparable to that of a strong sequence-plus-mapping XGBoost model (SCC, 0.822; paired difference, -0.001; 95% interval, -0.007 to 0.005). Separate perturbation analyses supported the predictive value of mapping and historical features, although their effect sizes were not directly comparable because they were evaluated using different model configurations. Prediction errors remained larger at the extremes of the activity distribution. Performance also became less stable when template identities were separated between training and evaluation. TriCasRank may therefore be useful for ranking candidates represented within the EasyDesign-derived domain, but evaluation on an independent experimental cohort is still needed.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

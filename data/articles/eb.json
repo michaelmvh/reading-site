@@ -1383,7 +1383,7 @@
       ],
       "title": "De novo protein design in an expanded chemical space",
       "link": "https://doi.org/10.64898/2026.10.08.757794",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/09/2026.10.08.757794.full.pdf",
       "publication_date": "2026-10-09",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -1868,6 +1868,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "eb3c072268729907277d9469b7af3c24c1d78c61dd7ff597b6110aba46e2bd09",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765043v1",
+        "https://doi.org/10.64898/2026.11.07.765043",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.07.765043.source.xml"
+      ],
+      "title": "BioMeme: biological response memory for virtual cells",
+      "link": "https://doi.org/10.64898/2026.11.07.765043",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765043v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bi",
+          "name": "Bi, J"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, C"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, H"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, T"
+        },
+        {
+          "key": "bao",
+          "name": "Bao, X"
+        },
+        {
+          "key": "hu",
+          "name": "Hu, R"
+        },
+        {
+          "key": "thiyagalingam",
+          "name": "Thiyagalingam, J"
+        },
+        {
+          "key": "gunn",
+          "name": "Gunn, S. R"
+        }
+      ],
+      "abstract_text": "Virtual cells predict responses to unmeasured perturbations, but neural models absorb measurements into weights, require retraining and cannot cite supporting experiments. Here we introduce biological response memory, replacing a learned state-to-response layer with a memory of measured experiments. BioMeme predicts next-dose responses in a new cell type from measured lower-dose states, recalling similarly responding compounds in that cell and the same compound in a reference cell line. Each prediction is an exact weighted sum of named measurements, and memory updates with one linear solve. In all nine preregistered comparisons across three screens, memory predicted response direction better than the learners it replaced. In U2OS, BioMeme outperformed input-matched ridge, adapted chemCPA and a neural layer in memory's place, and matched a full-panel network reading reference responses directly (error within 3.4%). Transfer was compound-specific, lowering error by 21.2% against at most 1.8% for wrong compounds, and replicated in reserved MCF7 data. With 20 references, fitting took seconds on one CPU thread, at least 420 times faster than neural tuning and fitting. Adding its prediction to one measured well cut that well's error by 27-31%. Biological response memory establishes a design principle for virtual cells any laboratory can update, inspect and run.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4909,7 +4972,7 @@
       ],
       "title": "Fragment-Grounded Neural Simulation of Electron Ionization Mass Spectra at Library Scale",
       "link": "https://doi.org/10.1021/acs.analchem.6c06136",
-      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15008135/v1",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15008135/v3",
       "publication_date": "2026-10-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -5384,13 +5447,15 @@
       "id": "ebe0675859fa0df80f5e38c24c81ea65edd8475e8d2b403eb74829b1019679bd",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.22.761199v1",
+        "biorxiv:10.64898/2026.10.22.761199v2",
         "https://doi.org/10.64898/2026.10.22.761199",
-        "https://www.biorxiv.org/content/early/2026/10/24/2026.10.22.761199.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/24/2026.10.22.761199.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.10.22.761199.source.xml"
       ],
       "title": "Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale",
       "link": "https://doi.org/10.64898/2026.10.22.761199",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761199v1.full.pdf",
-      "publication_date": "2026-10-24",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761199v2.full.pdf",
+      "publication_date": "2026-11-10",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",

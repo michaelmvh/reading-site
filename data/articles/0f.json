@@ -1907,8 +1907,8 @@
           "name": "Samuel W. K. Tipps"
         },
         {
-          "key": "kibler ryan",
-          "name": "Ryan D. Kibler"
+          "key": "daniel kibler ryan",
+          "name": "Ryan Daniel Kibler"
         },
         {
           "key": "baek minkyung",
@@ -1943,7 +1943,7 @@
           "name": "D. Baker"
         }
       ],
-      "abstract_text": "Abstract Deep learning generative approaches provide an opportunity to broadly explore protein structure space beyond the sequences and structures of natural proteins. Here we use deep network hallucination to generate a wide range of symmetric protein homo-oligomers given only a specification of the number of protomers and the protomer length. Crystal structures of 7 designs are very close to the computational models (median RMSD: 0.6 Å), as are 3 cryoEM structures of giant rings with up to 1550 residues, C33 symmetry, and 10 nanometer in diameter; all differ considerably from previously solved structures. Our results highlight the rich diversity of new protein structures that can be created using deep learning, and pave the way for the design of increasingly complex nanomachines and biomaterials. One-sentence summary Deep network-based protein design enables the generation of cyclic homo-oligomers across the nanoscopic scale.",
+      "abstract_text": "Deep learning generative approaches provide an opportunity to broadly explore protein structure space beyond the sequences and structures of natural proteins. Here, we use deep network hallucination to generate a wide range of symmetric protein homo-oligomers given only a specification of the number of protomers and the protomer length. Crystal structures of seven designs are very similar to the computational models (median root mean square deviation: 0.6 angstroms), as are three cryo–electron microscopy structures of giant 10-nanometer rings with up to 1550 residues and C 33 symmetry; all differ considerably from previously solved structures. Our results highlight the rich diversity of new protein structures that can be generated using deep learning and pave the way for the design of increasingly complex components for nanomachines and biomaterials.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2990,6 +2990,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0f95e6ebc2f0d4bf2b1c7af07d830e5599ab0394440e87d42140cee509296f08",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764558v1",
+        "https://doi.org/10.64898/2026.11.05.764558",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764558.source.xml"
+      ],
+      "title": "QUANTA: A quantum annealing framework for species tree estimation using weighted quartet amalgamation",
+      "link": "https://doi.org/10.64898/2026.11.05.764558",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764558v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kumar mondal",
+          "name": "Kumar Mondal, N"
+        },
+        {
+          "key": "bayzid",
+          "name": "Bayzid, M. S"
+        }
+      ],
+      "abstract_text": "Reconstructing species trees from genome-scale data is challenging due to pervasive gene tree discordance. Maximizing quartet consistency is a widely used approach for species tree inference from multi-locus data. Quartet amalgamation approaches, such as Quartet Fiduccia-Mattheyse (QFM) and Quartet MaxCut (QMC) families, have emerged as highly accurate quartet-based species tree inference techniques, but their reliance on computationally expensive classical bipartitioning heuristics, such as Fiduccia-Mattheyses (FM) and MaxCut, limits their scalability. Here, we introduce QUANTA, a quantum annealing-based quartet amalgamation method that, to our knowledge, represents the first quantum formulation of quartet-based approaches and the first species tree estimation method for multi-locus data that runs on real quantum hardware. At the core of QUANTA is a novel, general formulation of weighted quartet bipartitioning as a quadratic unconstrained binary optimization (QUBO) problem that enables quantum annealing to replace the classical bipartitioning strategies underlying the QFM and QMC families of methods. We prove that our formulation uses the minimum possible number of qubits to represent bipartitions and that its energy function correctly orders satisfied, deferred, and violated quartets for any positive penalty weights. We implemented QUANTA on real D-Wave quantum annealing hardware, and evaluated it on a wide range of simulated and biological datasets. QUANTA achieves accuracy comparable to the state-of-the-art methods, including ASTRAL and wQFM, under challenging evolutionary conditions. We also reanalyzed several biological datasets, including the avian phylogenomic dataset comprising 14,446 genes across 48 genomes, on which QUANTA reconstructed a species tree with a higher quartet score than wQFM. Remarkably, despite running on current noisy intermediate-scale quantum (NISQ) hardware, QUANTA's bipartition technique achieved 4100x speedup over the FM bipartitioning technique in wQFM on bipartition containing 90-200 taxa, while maintaining comparable tree accuracy. By establishing a theoretically grounded, hardware-independent quantum optimization framework for weighted quartet amalgamation, QUANTA opens a new direction for quantum-assisted phylogenomics and provides a foundation for increasingly scalable and accurate species tree estimation as quantum computing hardware advances. QUANTA is publicly available at https://github.com/QuitttCat/QUANTA-Phylogenomics.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4724,6 +4759,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0fe45f42902fcd696548c7a3e31bc95b99d757f2609e0402f391e2bfb1c5de1d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765295v1",
+        "https://doi.org/10.64898/2026.11.09.765295",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.09.765295.source.xml"
+      ],
+      "title": "Self-organized criticality in a mammalian RNA-interference circuit",
+      "link": "https://doi.org/10.64898/2026.11.09.765295",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765295v1.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mauri pla",
+          "name": "Pla-Mauri, J"
+        },
+        {
+          "key": "ell gu",
+          "name": "Güell, M"
+        },
+        {
+          "key": "sole",
+          "name": "Sole, R"
+        },
+        {
+          "key": "conde pueyo",
+          "name": "Conde-Pueyo, N"
+        }
+      ],
+      "abstract_text": "Living systems have been argued to operate near critical points, but their relevance at the cellular level is poorly understood. Critical states allow for a high sensitivity to external inputs and maximal information transfer and display fluctuations at all scales. Critical points are very special, and require the fine tuning of a control parameter, which is hard to reconcile with the robustness of living cells. Self-organized criticality (SOC) proposes that feedback, rather than tuning, brings a system to its critical point. Here we show that RNA interference, in which messenger RNAs compete for shared silencing machinery and so queue for service, together with negative feedback gives rise to SOC in mammalian cells. In a synthetic circuit, a protein repressor whose mRNA competes with the mRNA of a fluorescent reporter that it represses senses the congestion of the queue, closing the feedback loop. Theory and stochastic simulations show that the loop holds the queue near its critical point despite changes in its parameters, and that expression becomes intermittent, with scale-free bursts. Measurements in human cell lines show the predicted power-law distributions of single-cell fluorescence. RNA interference could thus support engineered SOC in animal cells and may also contribute to SOC in natural systems.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
         }
       ],
       "curated_categories": []

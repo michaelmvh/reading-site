@@ -1134,7 +1134,7 @@
           "name": "Andrew L. Ferguson"
         }
       ],
-      "abstract_text": "The data-driven design of protein sequences with desired function is challenged by the absence of good theoretical models for the sequence-function mapping and the vast size of protein sequence space. Deep generative models have demonstrated success in learning the sequence to function relationship over natural training data and sampling from this distribution to design synthetic sequences with engineered functionality. We introduce a deep generative model termed the Protein Transformer Variational AutoEncoder (ProT-VAE) that furnishes an accurate, generative, fast, and transferable model of the sequence-function relationship for data-driven protein engineering by blending the merits of variational autoencoders to learn interpretable, low-dimensional latent embeddings and fully generative decoding for conditional sequence design with the expressive, alignment-free featurization offered by transformers. The model sandwiches a lightweight, task-specific variational autoencoder between generic, pre-trained transformer encoder and decoder stacks to admit alignment-free training in an unsupervised or semi-supervised fashion, and interpretable low-dimensional latent spaces that facilitate understanding, optimization, and generative design of functional synthetic sequences. We implement the model using NVIDIA’s BioNeMo framework and validate its performance in retrospective functional prediction and prospective design of novel protein sequences subjected to experimental synthesis and testing. The ProT-VAE latent space exposes ancestral and functional relationships that enable conditional generation of novel sequences with high functionality and substantial sequence diversity. We anticipate that the model can offer an extensible and generic platform for machine learning-guided directed evolution campaigns for the data-driven design of novel synthetic proteins with “super-natural” function.",
+      "abstract_text": "Deep generative models have demonstrated success in learning the protein sequence to function relationship and designing synthetic sequences with engineered functionality. We introduce the Protein Transformer Variational AutoEncoder (ProT-VAE) as an accurate, generative, fast, and transferable model for data-driven protein design that blends the merits of variational autoencoders to learn interpretable, low-dimensional latent embeddings for conditional sequence design with the expressive, alignment-free featurization offered by transformer-based protein language models. We implement the model using NVIDIA’s BioNeMo framework and validate its performance in retrospective functional prediction and prospective functional design. The model identifies a phenylalanine hydroxylase enzyme with 2.5× catalytic activity over wild-type, and a γ -carbonic anhydrase enzyme with a melting temperature elevation of ΔT m = +61 ° C relative to the most thermostable sequence reported to date and activity in 23% v/v methyl diethanolamine at pH 11.25 and 93 ° C corresponding to industrially relevant conditions for enzymatic carbon capture technologies. The ProT-VAE model presents a powerful and experimentally validated platform for machine learning-guided directed evolution campaigns to discover synthetic proteins with engineered function.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -1854,6 +1854,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9d5b33b9f0f1bbe3c875eaaa47eb7188c0f6ffd43eca17ea2074210cb8fb1f73",
+      "identity_keys": [
+        "arxiv:2611.14511",
+        "https://doi.org/10.48550/arXiv.2611.14511"
+      ],
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "link": "https://doi.org/10.48550/arXiv.2611.14511",
+      "pdf_url": "https://arxiv.org/pdf/2611.14511v1",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "megha srivastava",
+          "name": "Megha Srivastava"
+        },
+        {
+          "key": "lim michael",
+          "name": "Michael H. Lim"
+        },
+        {
+          "key": "allison keys",
+          "name": "Allison M. Keys"
+        },
+        {
+          "key": "murugan pranav",
+          "name": "Pranav Murugan"
+        },
+        {
+          "key": "gruver nate",
+          "name": "Nate Gruver"
+        }
+      ],
+      "abstract_text": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical signals. To investigate automated ranking, we introduce PyriteRep, a structured representation of molecular geometry, protein-ligand interactions, and physicochemical scores, and develop two LLM-based agents: PyriteReasoner, which directly compares poses through text-based reasoning, and PyriteFeaturizer, which generates executable code to construct features for logistic regression, optionally incorporating features derived from LLM subcalls. These agents achieve up to 67% and 74% accuracy, respectively, exceeding observed expert performance. LLM-guided feature discovery generally outperforms direct reasoning, while Group Relative Policy Optimization (GRPO) improves open-weight models, enabling them to match or surpass closed-source frontier models in our evaluations. These results establish Pyrite as a challenging test of pose-ranking ability and highlight LLM-guided feature discovery as a promising approach to interpret and combine the outputs of computational chemistry tools.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

@@ -52,6 +52,44 @@
       "curated_categories": []
     },
     {
+      "id": "8200f57dd8862769e9b566f6ea2402f6da1611f09a4ce852f809a6d9576864cf",
+      "identity_keys": [
+        "arxiv:2607.06583",
+        "https://doi.org/10.48550/arXiv.2607.06583"
+      ],
+      "title": "Trajectory Inference of Human Aging from Cross-Sectional DNA Methylation Data",
+      "link": "https://doi.org/10.48550/arXiv.2607.06583",
+      "pdf_url": "https://arxiv.org/pdf/2607.06583",
+      "publication_date": "2026-07-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chandan gupta",
+          "name": "Chandan Gupta"
+        },
+        {
+          "key": "haider syed",
+          "name": "Syed Haider"
+        },
+        {
+          "key": "li pietro",
+          "name": "Pietro Li\\`o"
+        }
+      ],
+      "abstract_text": "DNA methylation (DNAm) serves as one of the most robust molecular biomarkers of biological aging. While conventional epigenetic clocks accurately predict chronological age from high-dimensional CpG profiles, they treat aging as a static regression task, meaning they can only output a single score rather than simulating how an entire profile continuously changes over time. To reconstruct these continuous dynamics, we frame lifelong human epigenetic aging as a trajectory inference problem across discrete age snapshots derived from widely available cross-sectional data. We introduce a two-stage computational pipeline: first, an age-regularized Variational Autoencoder (VAE) maps high-dimensional CpG profiles onto a chronologically ordered latent manifold while preserving a generative decoder bridge back to the original methylation space. Second, we model the continuous movement across this latent space via Regularized Unbalanced Optimal Transport (RUOT) that unifies deterministic drift, random diffusion, and non-conservative mass changes. By resolving this RUOT formulation using the DeepRUOT framework, our model fluidly accommodates population-level density shifts like survivorship bias and cellular attrition without requiring rigid biological priors. Evaluated on a large-scale, 80-year pan-tissue dataset, our model demonstrates robust distribution interpolation and uncovers a prominent late-life surge in the learned growth field that mathematically captures the variance expansion driven by stochastic epigenetic drift. Finally, by decoding continuous latent paths back to individual CpG sites, we reconstruct and empirically verify distinct biological aging archetypes, offering a rigorous, generative paradigm for simulating human molecular aging.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8203ae9b59d139a80f9bd9790ead117a950af185bb3df5c656eaf4a4380b3fa9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65586-2",
@@ -288,6 +326,49 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "82060992baa7b63225e992091c36114148a4f44ecaa81210e19ff8e57c885b47",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764426v2",
+        "https://doi.org/10.64898/2026.11.04.764426",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.04.764426.source.xml"
+      ],
+      "title": "Language-guided domain adaptation improves protein sequence representations for antimicrobial resistance analysis",
+      "link": "https://doi.org/10.64898/2026.11.04.764426",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ye",
+          "name": "Ye, R"
+        },
+        {
+          "key": "li",
+          "name": "Li, L"
+        },
+        {
+          "key": "geng",
+          "name": "Geng, Z"
+        },
+        {
+          "key": "song",
+          "name": "Song, S"
+        }
+      ],
+      "abstract_text": "Antimicrobial resistance (AMR), particularly antibiotic resistance in bacterial pathogens, complicates infectious disease management. Because bacterial resistance is often mediated by protein functions, including antibiotic inactivation and efflux, protein sequence analysis provides a molecular basis for digital AMR surveillance and therapeutic intervention. We developed BacLLM, a language guided protein representation framework that integrates annotation-derived functional knowledge into protein language model representations for AMR analysis in WHO priority bacterial pathogens. Through sequence enhancement, semantic enrichment of UniProt annotations, and cross modal contrastive learning, BacLLM transfers LLM encoded annotation priors into the sequence encoder. Compared with baselines, BacLLM provided more informative representations for resistance-gene identification and mechanism prediction, captured resistance associated mutational signals at single-residue resolution, and preserved taxonomic relationships not reflected by phenotype based clinical groupings. Moreover, BacLLM recovered resistance associated functional organization within a TolC-centered protein association network, prioritizing proteins with low sequence identity to TolC but predicted structural similarity to TolC. Extending from AMR characterization to therapeutic prioritization, BacLLM also improved strain-level phage host matching for phage therapy candidate prioritization. Together, these findings establish BacLLM as a protein representation framework supporting AMR surveillance, functional characterization, and therapeutic candidate prioritization.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -3306,6 +3387,44 @@
       "curated_categories": []
     },
     {
+      "id": "828cfff15bbb5e8c08bdc0f71dc53774da772b240d6efe1e441e5a07d1efaa4c",
+      "identity_keys": [
+        "arxiv:2611.13190",
+        "https://doi.org/10.48550/arXiv.2611.13190"
+      ],
+      "title": "EvoSurv: Evolution-Aware Multimodal Survival Modeling Reveals Complementary Prognostic Signals",
+      "link": "https://doi.org/10.48550/arXiv.2611.13190",
+      "pdf_url": "https://arxiv.org/pdf/2611.13190v1",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wang wei",
+          "name": "Wei Wang"
+        },
+        {
+          "key": "liang po yu",
+          "name": "Po-Yu Liang"
+        },
+        {
+          "key": "bai jun",
+          "name": "Jun Bai"
+        }
+      ],
+      "abstract_text": "Accurate cancer survival prediction remains challenging due to tumor heterogeneity. Although multimodal survival models integrate clinical and molecular data, they often overlook evolutionary information encoded in genomic alterations. To address this gap, we developed eTime, a 38-dimensional evolutionary representation comprising eight feature groups that characterize clonal and subclonal mutation burden, mutational spectra, functional consequences, copy-number alterations, and anoikis-related genomic changes. We further developed EvoSurv, a multimodal survival framework integrating eTime with clinical variables and RNA expression. Across six TCGA cancer cohorts comprising 2,782 patients, EvoSurv achieved the highest mean concordance index (C-index) in all six cancers, averaging 0.663 and outperforming three state-of-the-art survival prediction methods. More importantly, we assessed whether evolutionary features provide additional prognostic information beyond clinical and transcriptomic predictors. eTime remained significantly associated with survival in head and neck squamous cell carcinoma (HNSC) and liver hepatocellular carcinoma (LIHC) after adjustment for clinical variables and RNA-derived risk scores. Feature-group analyses further revealed cancer-specific prognostic patterns. In HNSC, T>G substitutions were associated with increased mortality risk after clinical and molecular adjustment, including in HPV-negative patients, with supporting evidence from an independent CPTAC-HNSCC cohort. Overall, these findings demonstrate that eTime captures survival-associated evolutionary information and highlight its potential to provide prognostic value beyond clinical and transcriptomic predictors.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "828e7862900001c18f58f0bafb2fd493541895c4c992951ef80d5ab796f480c0",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10561-0",
@@ -3921,7 +4040,7 @@
         },
         {
           "key": "luca soldaini",
-          "name": "Soldaini, Luca"
+          "name": "Luca Soldaini"
         },
         {
           "key": "brahman faeze",
@@ -7320,6 +7439,49 @@
       "curated_categories": []
     },
     {
+      "id": "82f563c9dfd1e8cb40b644c02c60f57591b085e60aa0de2f9972d2e65cb12b6a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.765083v1",
+        "https://doi.org/10.64898/2026.11.07.765083",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.07.765083.source.xml"
+      ],
+      "title": "Disentangled generative modeling of single-cell perturbation responses across dynamic cellular states",
+      "link": "https://doi.org/10.64898/2026.11.07.765083",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765083v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, Y"
+        },
+        {
+          "key": "li",
+          "name": "Li, S"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, D"
+        }
+      ],
+      "abstract_text": "Single-cell perturbation studies are increasingly conducted across complex, multi-condition biolog-ical systems, offering a powerful lens into how interventions reshape cell states and molecular pro-grams. However, standard computational models compress single-cell profiles into unified repre-sentations where treatment effects are obscured by cell division, lineage progression, donor varia-tion, and cellular stress. Here, we present Disentangled Variational Inference for Perturbation Re-sponse (PertVI), a deep generative model that separates baseline mitotic phase, cellular state, and batch effects from treatment-induced shifts while isolating aberrant off-manifold responses in or-thogonal anomaly space. This structured design tackles two intertwined tasks: (1) quantifying treatment-induced changes in cell-state composition, and (2) inferring state-gated transcriptional changes in response to treatment. Across simulated benchmarks, PertVI accurately disentangles coupled biological axes and recovers weak treatment signatures. In conditional chemical and genet-ic screens of primary human CD8+ and CD4+ T cells, PertVI separates memory-precursor adju-vants from toxic phenocopies, resolves co-clustered regulators into directional kinetic trajectories and biphasic rebounders obscured by standard workflows, and reveals that treatment-induced phe-notypic shifting is decoupled from broad transcriptional perturbation responses and instead gov-erned by state-specific impulses. Altogether, PertVI brings unique mechanistic granularity to sin-gle-cell perturbation response modeling, serving as a proof of principle for biology-informed, struc-ture-guided variance disentanglement in dynamic cellular systems.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "82f7c8530ab837b9255d76b31a5223b485ce075401495ced8fea28abc3522ffd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72497-3",
@@ -7408,7 +7570,7 @@
           "name": "Chan Cao"
         }
       ],
-      "abstract_text": "Abstract Proteins play essential roles in cellular processes and are involved in numerous diseases, driving the need for efficient proteoform identification. While nanopore technology was highly successful for DNA sequencing, this approach has not yet delivered its full potential in protein identification. Here, we demonstrate the capabilities of an aerolysin nanopore for direct identification of a range of unlabeled full-length proteins. Combining low pH and guanidinium chloride, we generate a strong electroosmotic flow that enables an efficient capture and translocation, resulting in distinct fingerprints from single-protein translocations. Using machine learning classifier, we achieve 80% accuracy in distinguishing seven related proteins with 38%–70% pairwise sequence identities. Differences in fingerprints largely reflect the distribution of positive charges in the protein sequences, providing a rational basis for the observed sensitivity. With further development, fingerprint-predictions could allow to infer de novo protein sequence information from single-molecule data, offering a powerful tool for proteomics.",
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Proteins play essential roles in cellular processes and are involved in numerous diseases, driving the need for efficient proteoform identification. Recent advances have brought nanopore-based protein fingerprinting within reach, potentially expanding the proteomics toolkit in the near future. Among emerging strategies, label-free, full-length analysis via free translocation is the most promising approach for detecting low-abundance proteoforms. While free translocation is typically accompanied by low temporal resolution, we demonstrate here that such measurements can enable reliable identification even for natural proteins with high sequence similarity. Combining low pH and guanidinium chloride, we generate a strong electroosmotic flow that enables efficient capture and translocation of unlabeled proteins with an aerolysin nanopore. Using machine learning classifiers, we achieve 80% accuracy in distinguishing seven related proteins, based on distinct and directional fingerprints with high reproducibility. Differences in fingerprints partially reflect the distribution of volume and charges in the protein sequences and may contain additional contributions from the translocation dynamics. Our findings position free-translocation measurements of unfolded proteins as a promising approach to fingerprinting without the need for chemical conjugations or enzymatic digestions. With further development, fingerprint-predictions could allow to infer de novo protein sequence information from single-molecule data, offering a powerful tool for proteomics.",
       "discovery_sources": [
         {
           "kind": "open_alex",

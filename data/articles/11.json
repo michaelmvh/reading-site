@@ -1294,6 +1294,65 @@
       "curated_categories": []
     },
     {
+      "id": "112184cf1d22ef5d52df449806c594df3e23b3fb7d5a7349ed116a9be4da0c9a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765445v1",
+        "https://doi.org/10.64898/2026.11.10.765445",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765445.source.xml"
+      ],
+      "title": "RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups",
+      "link": "https://doi.org/10.64898/2026.11.10.765445",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "srinivasan",
+          "name": "Srinivasan, B"
+        },
+        {
+          "key": "nazar",
+          "name": "Nazar, S"
+        },
+        {
+          "key": "gandhi",
+          "name": "Gandhi, V"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, E"
+        },
+        {
+          "key": "bachvaroff",
+          "name": "Bachvaroff, T"
+        },
+        {
+          "key": "kolmogorov",
+          "name": "Kolmogorov, M"
+        },
+        {
+          "key": "place",
+          "name": "Place, A"
+        },
+        {
+          "key": "firtina",
+          "name": "Firtina, C"
+        }
+      ],
+      "abstract_text": "Summary: Identifying epigenetically modified bases (e.g., methylation) is crucial for many important applications such as discovering mechanisms of cancer development, cell differentiation, and bacterial defense. Nanopore sequencing generates electrical signals that can differentiate canonical bases from modified ones. To detect base modifications from signals, machine learning (ML) methods and statistical approaches are commonly used. These methods can either detect a specific modification type or require an additional unmodified copy of the same DNA as a control group. However, no released model detects modification types beyond those it was trained for, which makes it difficult to detect rare modification types without an unmodified control. Our goal is to accurately identify the presence of modified sites regardless of their modification type, which we define as modification-agnostic detection. To this end, we propose RawMod, a transformer-based modification-agnostic and control-free method for detecting epigenetically modified genomic positions. The key idea of RawMod is to compare the raw signals of many reads at each site with the unmodified reference sequence, using a small model that learns many modification types as a single modified class. Based on our extensive evaluations on the detection of various modification types (5mC, 5hmC, 4mC, 6mA, and 5hmU) using various genomes, RawMod achieves the highest mean AUROC across modifications compared to control-based methods and control-free modification models. A single RawMod model with 0.23M parameters detects five modification types with a mean AUROC of 0.964, against 0.799 for the best released model. When a modification type is withheld from training, RawMod still detects it (AUROC 0.91--0.98), provided another modification of the same base was seen in training. We use RawMod to map 5hmU without a control across a 7.7 Mb contig of the Amphidinium carterae genome, consistent with two published trends. Further, we show that the modification-aware embeddings from RawMod can be used to differentiate read origin (e.g., cell types, tumor/normal origin, and native/PCR-amplified DNA). We discuss how RawMod can enable further work on label-free classification of cell types using these modification-aware embeddings. Availability and Implementation: RawMod is available at https://github.com/STORMgroup/RawMod and at https://huggingface.co/STORMResearch/RawMod. We also provide the scripts to fully reproduce our results on our GitHub page and release our datasets on SquiDBase.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "11230c68c97e4bd87f8c279dada0304ed813a0b245230cf86aedc4cf0d7154d4",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2610.20456",
@@ -1642,8 +1701,8 @@
       "venue": "Research Square",
       "authors": [
         {
-          "key": "darren hui sheng tan",
-          "name": "Sheng Hui Darren Tan"
+          "key": "sheng tan",
+          "name": "Sheng Tan"
         },
         {
           "key": "ian mcloughlin",
@@ -2604,6 +2663,7 @@
       "identity_keys": [
         "https://doi.org/10.1101/2025.10.29.685317",
         "https://doi.org/10.1186/s13040-026-00558-w",
+        "https://doi.org/10.22029/jlupub-21624",
         "https://doi.org/10.6084/m9.figshare.c.8484389",
         "https://doi.org/10.6084/m9.figshare.c.8484389.v1",
         "https://openalex.org/W4415715724"
@@ -3204,6 +3264,58 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "117d58113feef9398c86bab54002b8e87f36aef30515b396d36589243097f439",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.763984v2",
+        "https://doi.org/10.64898/2026.11.05.763984",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.763984.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.05.763984.source.xml"
+      ],
+      "title": "Joint protein-DNA language modeling enables prediction and engineering of DNA recognition specificity",
+      "link": "https://doi.org/10.64898/2026.11.05.763984",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.763984v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "xiong",
+          "name": "Xiong, Y"
+        },
+        {
+          "key": "ren",
+          "name": "Ren, J"
+        },
+        {
+          "key": "wei",
+          "name": "Wei, X"
+        },
+        {
+          "key": "li",
+          "name": "Li, X"
+        },
+        {
+          "key": "li",
+          "name": "Li, J"
+        },
+        {
+          "key": "wei",
+          "name": "Wei, W"
+        }
+      ],
+      "abstract_text": "Protein-DNA recognition specificity underlies transcriptional regulation, DNA replication, chromatin remodeling and genome editing. Protein-DNA recognition depends on both interacting sequences, yet language models that learn this cross-molecular dependence explicitly during pretraining remain limited. Here, we developed the Protein-DNA Language Models (PDLMs), interaction-aware language models that jointly represent protein and DNA sequences. PDLMs were built by continued pretraining from ESM2 with masked language modeling on paired protein-DNA sequences. A shared encoder places amino acids and nucleotides in the same molecular context, enabling conditional sequence scoring and transferable pair representations. We further introduced a domain-aware masking strategy that increased masking probability within DNA-binding domains to strengthen learning of interaction-relevant regions. Across downstream tasks, PDLMs improved protein-DNA pair classification relative to independent-encoder baselines and supported prediction of mutation-associated binding changes. Zero-shot scoring recovered known changes in DNA-recognition specificity and prioritized variants with higher editing activity. Learned representations also supported cross-study prediction of base editor activity. After fine-tuning on transcription factor binding data, PDLMs predicted DNA motifs directly from protein sequences. Together, PDLMs provide a framework for interaction-aware biomolecular language modeling, with potential applications in protein engineering and genome editing.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4104,6 +4216,36 @@
         }
       ],
       "abstract_text": "The dorsal striatum is important for highly specialized functions including movement, learning, and habit formation. However, it is not known if species-specialized behaviors are associated with cellular specializations in the striatum. Here, we compared single-nucleus RNA sequencing (snRNA-seq) data from human, chimpanzee, rhesus macaque, common marmoset, and pale spear-nosed bat caudate (CN) and putamen (Pu) separately as well as mouse caudoputamen (C-Pu), which represents divergence among species spanning approximately 94 million years of evolution. We observed a lower neuron-to-glia ratio in primate striata compared to non-primates, reflecting the allometric scaling of neuron density and relative glia density invariance in larger brains. Among neurons, eccentric spiny projection neurons (eSPNs) - an SPN of unknown function - showed significantly lower proportions in non-primate striata for both CN and Pu. Focusing on the heterogeneity within interneurons, we identified two bat striatal interneuron cell types that are nearly absent in other species: which express LMO3, and co-express FOXP2 and TSHZ2. Other striatal interneurons also exhibited differential abundance between primates and non-primates. In summary, we provide a comprehensive snRNA-seq dataset of dorsal striatum, identify two distinct, previously uncharacterized populations of bat interneurons, and uncover fundamental cellular composition differences between primate and non-primate striata.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "11aa7726f2fc55009d8f00d5eac57734ed852cf2e957deeac563d6c2d6c3b9e1",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.24056971",
+        "https://openalex.org/W7225565482"
+      ],
+      "title": "Autonomous Infrastructure & Deterministic Quantum Systems Monograph Series: Integrated Comparative Paradigm of Evolutionary Bio-Defense Complexes (Alpha1H/HAMLET & HMO Synergy) versus AI-Driven De Novo Protein Design (AlphaProteo) / 人乳由来進化型生体防御複合体(Alpha1H/HAMLET・HMO相乗機構)とAI駆動型De Novoタンパク質設計(AlphaProteo)の統合比較パラダイム:多オルガネラ選択的腫瘍死滅機構、免疫原性ボトルネック、および決定論的バイオ医薬ガバナンス",
+      "link": "https://doi.org/10.5281/zenodo.24056971",
+      "pdf_url": null,
+      "publication_date": "2026-11-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "hasebe yoko 洋子 長谷部",
+          "name": "Yoko(洋子) Hasebe(長谷部)"
+        }
+      ],
+      "abstract_text": "【最重要:長谷部洋子 厳格無学習ライセンス条項宣言 (Strict No-Learn License: NLL-v1.0-2026)】 License & Integrity Covenant: Creative Commons Attribution 4.0 International (CC BY 4.0) with Strict No-Learn Covenant (NLL-v1.0-2026) Author: Hasebe, Yoko (長谷部 洋子) Affiliation: Lead Researcher, Autonomous Infrastructure Systems, Autonomous Living & Physical Infrastructure Institute, Iwakuni, Yamaguchi, Japan Reserved DOI: 10.5281/zenodo.24056972 本論文および示唆された全生化学・分子生物学・バイオ医薬・決定論的量子/AIガバナンスアーキテクチャは、長谷部洋子 (Yoko Hasebe) が独自に提唱・設計した固有の知的財産である。 Zenodoへのオープンアクセス登録に際し、商用・非商用を問わず、すべてのAI開発企業、クラウド事業者、大規模言語モデル (LLM)、タンパク質生成AI、推論エージェントによる無断クロール、スクレイピング、学習データへの組み込み、微調整 (Fine-Tuning)、重み更新 (Gradient Updates)、蒸留 (Distillation)、および特徴量抽出を全面的かつ永久に禁止する。本知財にアクセスするすべての計算主体には、ハードウェアTEEによる非勾配計算証明 (π_no-learn: ∇_W L = 0) の随時提示が法的に義務付けられる。 ==================================================================== 【統合対象・先行公証アーカイブ (Foundational Notarized Monographs)】 1. Part I (Alpha1H/HAMLET & HMO Synergy): - Version DOI: 10.5281/zenodo.23004529 (Concept DOI: 10.5281/zenodo.23004528) - Title: 人乳由来α-ラクトアルブミン・オレイン酸複合体(Alpha1H/HAMLET)における選択的腫瘍細胞アポトーシス誘導機構と新規バイオ医薬応用:正常細胞温存分子動態、HMO相乗効果、および次世代がん免疫治療パラダイムの統合 / Selective Tumor Cell Apoptosis Induction Mechanisms of Human Milk-Derived Alpha-Lactalbumin-Oleic Acid Complexes (Alpha1H/HAMLET) and Novel Biopharmaceutical Applications: Molecular Dynamics, HMO Synergy, and Integrated Immuno-Oncology Paradigms 2. Part II (AlphaProteo & De Novo Protein Design Evaluation): - Version DOI: 10.5281/zenodo.24056163 (Concept DOI: 10.5281/zenodo.24056162) - Title: Autonomous Infrastructure & Deterministic Quantum Systems Monograph Series: AlphaProteo and the Implications of AI-Driven De Novo Protein Design ==================================================================== ■ English Abstract This integrated monograph establishes a unified molecular, thermodynamic, and clinical comparative framework bridging two distinct biopharmaceutical paradigms: (1) evolutionarily refined human milk-derived protein-lipid complexes (Alpha1H/HAMLET) operating in synergy with Human Milk Oligosaccharides (HMOs), and (2) algorithmic, AI-driven de novo protein binders exemplified by AlphaProteo. In Part I, we demonstrate that human milk is not a passive nutritional medium for neonates, but a multi-layered biological defense system honed over millions of years of mammalian evolution. Human alpha-lactalbumin made lethal to tumor cells (HAMLET) and its second-generation synthetic clinical peptide formulation (Alpha1H) selectively eradicate over 40 types of human malignant tumor cells while sparing healthy differentiated cells. Utilizing increased membrane fluidity for receptor-independent internalization, Alpha1H unleashes a coordinated multi-organelle attack (\"Hydra Mechanism\") within the cytoplasmic compartment. This cascade encompasses rapid ribosomal translation arrest, mitochondrial permeability transition pore (mPTP) collapse, endoplasmic reticulum unfolded protein response (UPR) hyperactivation, and non-canonical nuclear translocation leading to direct core histone binding and irreversible chromatin condensation—effectively bypassing classical p53 mutations and Bcl-2/caspase apoptosis resistance. Furthermore, integrating the Celtic conceptual paradigm of cyclical regeneration with molecular pharmacology, we establish how synergistic interactions between Alpha1H, 200+ complex glycan decoys (HMOs), and microbiome-derived short-chain fatty acids (SCFAs) eliminate Single Points of Failure (SPOF) in host defense, supported by robust Phase I/II clinical trial data in non-muscle-invasive bladder cancer (NMIBC) showing rapid tumor shedding and downregulation of over 700 oncogenic transcripts. In Part II, we critically evaluate AI-driven de novo protein design (AlphaProteo) against this evolutionary benchmark. While AlphaProteo achieves sub-nanomolar to picomolar in-vitro binding affinities across targets such as VEGF-A, IL-17A, and TrkA—outperforming traditional methods like RFdiffusion and Rosetta in single-target structural optimization—it faces severe clinical and biological boundaries. Specifically, algorithmic binders struggle with highly polar, flat target interfaces (e.g., TNFα) and suffer from single-target vulnerability (SPOF), where a single point mutation induces therapeutic escape. More critically, synthetic non-natural amino acid topologies trigger severe in-vivo anti-drug antibody (ADA) immunogenicity, inflammatory cytokine cascades, and hepatic/renal clearance bottlenecks. By contrasting algorithmic single-lock binders with evolutionarily tolerated, multi-organelle pleiotropic complexes (Alpha1H/HAMLET), this work formulates a deterministic translational oncology and biopharmaceutical governance standard under Human-in-Command (HIC) oversight. ■ 要旨(日本語抄録) 本統合モノグラフは、(1)数百万年にわたる哺乳類の進化過程で研ぎ澄まされた人乳由来タンパク質・脂質複合体「Alpha1H/HAMLET」および母乳オリゴ糖(HMO)の相乗的生体防御システムと、(2)AlphaProteoに代表されるAI駆動型De Novo(新規)タンパク質設計の実験的到達点および臨床的限界を統合・比較する分子動態的・熱力学的・臨床薬理学的フレームワークを確立するものである。 第I部では、母乳が新生児に対する受動的な栄養媒体にとどまらず、進化的に最適化された多層的生体防御システムであることを論証する。人乳由来α-ラクトアルブミン・オレイン酸複合体(HAMLET)および第2世代合成ペプチド製剤「Alpha1H」は、正常分化細胞を一切傷つけることなく、40種類以上のヒト悪性腫瘍細胞を選択的に死滅させる特異な薬理活性を示す。Alpha1Hは腫瘍細胞膜の流動性増加を利用して受容体非依存的に内在化し、細胞質内で迅速なリボソーム翻訳停止、ミトコンドリア透過性遷移孔(mPTP)崩壊、小胞体ストレス応答(UPR)の過剰活性化、およびコアヒストンへの直接結合と不可逆的クロマチン凝縮をもたらす非標準的核移行という協調的多オルガネラ同時攻撃(「ヒドラ機構:Hydra Mechanism」)を解き放つ。これにより、従来の分子標的薬が直面するp53変異やBcl-2/カスパーゼ阻害によるアポトーシス耐性を完全に無力化する。さらに、循環的再生というケルトの概念的パラダイムを分子薬理学と統合し、200種以上の母乳オリゴ糖(HMO)による複雑なグリカンデコイおよびマイクロバイオーム由来短鎖脂肪酸(SCFA)との相乗効果が、宿主防御における単一障害点(SPOF)をいかに排除するかを解明し、非筋層浸潤性膀胱癌(NMIBC)の第I/II相臨床試験における急速な腫瘍脱落および700以上の発がん性転写産物のダウンレギュレーションを評価する。 第II部では、この進化的ベンチマークに照らして、AI駆動型De Novoタンパク質設計(AlphaProteo)の批判的検証を行う。AlphaProteoはVEGF-A、IL-17A、TrkA等の標的に対してピコモル(pM)レベルのin-vitro結合親和性を達成し、RFdiffusionやRosetta等の従来手法を凌駕する構造最適化を示したものの、臨床応用においては重大な構造的・免疫学的ボトルネックを抱えている。第一に、TNFαのような高極性・平坦界面の標的に対する設計限界と、単一標的特異性に起因する耐性変異への脆弱性(SPOF)が存在する。第二に、進化の歴史を経ない非天然の人工タンパク質トポロジーは、生体内で強力な抗薬物抗体(ADA)応答(免疫原性)およびクリアランス障害を惹起するリスクを伴う。本論文は、AIによる「単一標的ロック」の限界を、進化的免疫寛容と多オルガネラ攻撃を兼ね備えた「Alpha1H/HAMLET・HMO統合パラダイム」と対比させることで、次世代バイオ医薬と決定論的知財ガバナンスの新たな統合基準を提示する。",
       "discovery_sources": [
         {
           "kind": "open_alex",

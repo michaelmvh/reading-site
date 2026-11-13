@@ -768,7 +768,7 @@
           "name": "Michael Mayer"
         }
       ],
-      "abstract_text": "Abstract Analysis of individual proteins using nanopores makes it possible to determine their size and shape in a label-free approach, within minutes, and from μL sample volumes. Short residence times of proteins in the nanopore, high electrical current noise, and bandwidth limitations of the recording electronics during resistive pulse recordings, however, limit the accuracy of size and shape analysis of individual proteins. The work presented here introduces a polymer surface coating of solid-state nanopores to minimize non-specific interactions of proteins with the nanopore wall while functionalizing it covalently with phenylboronic acid (PBA) groups. These PBA groups make it possible to trap selectively glycated proteins by taking advantage of the formation of reversible covalent bonds between PBA and vicinal diol groups of glycated amino acid residues on proteins. Dwell time analysis revealed two populations of resistive pulses: short pulses with dwell times t d below 0.4 ms from free translocation of proteins and resistive pulses that we term “long events” that last from 0.4 ms to 2 s and result from intended transient covalent bonds between glycated proteins and PBA groups in the nanopore lumen. The choice of applied potential differences during nanopore recordings or the pH value of the recording buffer makes it possible to control and extend the most probable trapping time of proteins in the nanopore within one to two orders of magnitude. This approach provides the highest accuracy for the determination of protein volume and shape achieved to date with solid-state nanopores and reveals that a trapping time of 1 to 20 ms is ideal to achieve reliable volume and shape analysis while retaining high throughput of the analysis. This approach, hence, extends the residence time of natively glycated proteins or of proteins that are intentionally glycated by straightforward incubation in a glucose solution, thereby providing selectivity and improving the accuracy of nanopore-based characterization of single proteins.",
+      "abstract_text": "High Resolution Image Download MS PowerPoint Slide Analysis of individual proteins using nanopores makes it possible to determine their size and shape in a label-free approach, within minutes, and from μL sample volumes. Short residence times of proteins in the nanopore, high electrical current noise, and bandwidth limitations of the recording electronics during resistive pulse recordings, however, limit the accuracy of size and shape analysis of individual proteins. The work presented here introduces a polymer surface coating of solid-state nanopores to minimize nonspecific interactions of proteins with the nanopore wall while functionalizing it covalently with phenylboronic acid (PBA) groups. These PBA groups make it possible to trap selectively glycated proteins by taking advantage of the formation of reversible covalent bonds between PBA and vicinal diol groups of glycated amino acid residues on proteins. Dwell time analysis revealed two populations of resistive pulses: short pulses with dwell times t d below 0.4 ms from free translocation of proteins and resistive pulses that we term “long events” that last from 0.4 ms to 2 s and result from intended transient covalent bonds between glycated proteins and PBA groups in the nanopore lumen. The choice of applied potential differences during nanopore recordings or the pH value of the recording buffer makes it possible to control and extend the most probable trapping time of proteins in the nanopore within one to 2 orders of magnitude. This approach provides the highest accuracy for the determination of protein volume and shape achieved to date with solid-state nanopores and reveals that a trapping time of 1 to 20 ms is ideal to achieve reliable volume and shape analysis while retaining high throughput of the analysis. This approach, hence, extends the residence time of natively glycated proteins or of proteins that are intentionally glycated by straightforward incubation in a glucose solution, thereby providing selectivity and improving the accuracy of nanopore-based characterization of single proteins.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1056,6 +1056,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9c3e11835a7be373098d036e2f9eb28afbccfa445c114611bca98caa79db9d9b",
+      "identity_keys": [
+        "arxiv:2611.14184",
+        "https://doi.org/10.48550/arXiv.2611.14184"
+      ],
+      "title": "Benchmarking large language models for parameter-level structural identifiability classification in epidemic ODE models",
+      "link": "https://doi.org/10.48550/arXiv.2611.14184",
+      "pdf_url": "https://arxiv.org/pdf/2611.14184v1",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "geunsoo jang",
+          "name": "Geunsoo Jang"
+        },
+        {
+          "key": "candan selçuk",
+          "name": "K. Selçuk Candan"
+        },
+        {
+          "key": "chowell gerardo",
+          "name": "Gerardo Chowell"
+        }
+      ],
+      "abstract_text": "Structural identifiability determines whether unknown parameters can be uniquely recovered from ideal model outputs, making it a prerequisite for interpreting parameter estimates. We evaluated whether large language models (LLMs) can reliably provide preliminary structural identifiability classifications for epidemic models. We constructed a retrospective benchmark of 88 scenarios from 14 of the 27 studies considered, encompassing 696 parameter-level formal reference classifications from published results or Julia-based symbolic analysis. Scenarios were evaluated using Domain-Aware and canonically relabeled (\"Domain-Anonymized\") prompts, with ten runs per configuration and prompt condition. Six configurations completed all scheduled responses, yielding 83,520 parameter-level decisions for the primary comparison. GPT-5.5 Instant and GPT-5.5 Thinking Medium had the highest accuracies among complete configurations (88.71% and 88.07%). Canonical relabeling improved both configurations and attenuated their performance decline in scenarios with many unknown parameters or state variables, although effects differed across model families. Locally identifiable parameters were the most difficult class (highest strict recall among complete configurations: 42.00%), although the local reference set was small. In multivariable analysis, each additional unknown parameter reduced the odds of correct classification (OR 0.881; 95% CI 0.852-0.910), whereas additional observed outputs increased them (OR 1.666; 95% CI 1.503-1.846). Exploratory evaluations indicated strong performance for GPT-5.5 Thinking High and Claude Opus 5, despite incomplete coverage. LLMs may generate preliminary hypotheses or flag cases for formal review, provided outputs are checked against published results or formal symbolic methods. They should not be used to certify the structural identifiability of a complete model.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
@@ -2315,6 +2353,49 @@
       "curated_categories": []
     },
     {
+      "id": "9c753ea66621f12cfb2cf1e75165c92a9e98d547933cecbd1f00a1ab7a35f05c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764463v1",
+        "https://doi.org/10.64898/2026.11.04.764463",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764463.source.xml"
+      ],
+      "title": "DisCell: Separating Spillover from Niche Response in Spatial Transcriptomics",
+      "link": "https://doi.org/10.64898/2026.11.04.764463",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764463v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "molen",
+          "name": "Molen, R"
+        },
+        {
+          "key": "toosi",
+          "name": "Toosi, H"
+        },
+        {
+          "key": "ferreira",
+          "name": "Ferreira, P. F"
+        },
+        {
+          "key": "lagergren",
+          "name": "Lagergren, J"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics at single-cell resolution measures every cell in its place in the tissue, but diffusion and segmentation errors also add transcripts of neighboring cells to a cell's counts. This spillover makes a cell resemble its neighbors, and a response to the niche makes cells in the same niche resemble each other. Both tie a cell's expression to its surroundings. The count data alone cannot tell the two apart. Findings from single-cell transcriptomes, such as a gene program that is higher in one niche than in another or signaling genes that change depending on the neighborhood, may therefore be artifacts of spillover. Current models describe a cell by its intrinsic state together with either its niche response or spillover, but none models all three. We present DisCell, the first method that models all three components jointly and measures how robust each finding is to spillover. DisCell is a generative model that describes single-cell gene expression profiles in terms of two latent variables, an intrinsic state and a response to the niche, and adds spillover from its neighbors as a separate term. DisCell fits the model at increasing levels of spillover and recomputes each finding on the spillover-free expression to see how much spillover it withstands. DisCell also estimates the most spillover a section can contain, and a finding that holds even at that amount is not explained by spillover. In simulated tissue, DisCell recovers each cell's intrinsic state and response and tells findings created by spillover apart from genuine responses. On five sections of ovarian and lung tissue, the intrinsic state keeps more of each cell's own properties, measured by its cell-cycle phase, than any competing method that holds as little of its neighborhood. Within each cell type, the model partitions the variation of each gene into intrinsic state, niche response and spillover. Using DisCell, we rank findings about niches by their robustness to spillover and confirm that a previously reported finding withstands spillover, that esophageal cancer cells in niches infiltrated by immune or stromal cells express more of an epithelial-mesenchymal transition program. DisCell also predicts what the gene expression of a cell type would be in another niche, with its spillover part separated, at lower error on most tasks than the competing method built for this purpose. Training the model takes under ten minutes on one consumer GPU for sections of up to 400,000 cells.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9c76474268748b400e2ee9610913dbc0d62ee7b9a39a1888c389b2b7edc26787",
       "identity_keys": [
         "arxiv:2605.02745",
@@ -2407,15 +2488,16 @@
       "id": "9c808cfe9cbb7d63619621802c6d9066ae03975183dbc03ac8ec1ad66d1148cb",
       "identity_keys": [
         "https://doi.org/10.62329/hxkk6249",
+        "https://doi.org/10.64898/2026.04.07.717039",
         "https://openalex.org/W7151234819"
       ],
       "title": "Evolutionary transfer learning enables organism-wide inference of mammalian enhancer landscapes",
-      "link": "https://doi.org/10.62329/hxkk6249",
+      "link": "https://doi.org/10.64898/2026.04.07.717039",
       "pdf_url": null,
       "publication_date": "2026-04-06",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "chengxiang qiu",
@@ -3346,7 +3428,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract Although AlphaFold2 (AF2) and RoseTTAFold (RF) have transformed structural biology by enabling high-accuracy protein structure modeling, they are unable to model covalent modifications or interactions with small molecules and other non-protein molecules that can play key roles in biological function. Here, we describe RoseTTAFold All-Atom (RFAA), a deep network capable of modeling full biological assemblies containing proteins, nucleic acids, small molecules, metals, and covalent modifications given the sequences of the polymers and the atomic bonded geometry of the small molecules and covalent modifications. Following training on structures of full biological assemblies in the Protein Data Bank (PDB), RFAA has comparable protein structure prediction accuracy to AF2, excellent performance in CAMEO for flexible backbone small molecule docking, and reasonable prediction accuracy for protein covalent modifications and assemblies of proteins with multiple nucleic acid chains and small molecules which, to our knowledge, no existing method can model simultaneously. By fine-tuning on diffusive denoising tasks, we develop RFdiffusion All-Atom (RFdiffusionAA ) , which generates binding pockets by directly building protein structures around small molecules and other non-protein molecules. Starting from random distributions of amino acid residues surrounding target small molecules, we design and experimentally validate proteins that bind the cardiac disease therapeutic digoxigenin, the enzymatic cofactor heme, and optically active bilin molecules with potential for expanding the range of wavelengths captured by photosynthesis. We anticipate that RFAA and RFdiffusionAA will be widely useful for modeling and designing complex biomolecular systems.",
+      "abstract_text": "Deep-learning methods have revolutionized protein structure prediction and design but are presently limited to protein-only systems. We describe RoseTTAFold All-Atom (RFAA), which combines a residue-based representation of amino acids and DNA bases with an atomic representation of all other groups to model assemblies that contain proteins, nucleic acids, small molecules, metals, and covalent modifications, given their sequences and chemical structures. By fine-tuning on denoising tasks, we developed RFdiffusion All-Atom (RFdiffusionAA), which builds protein structures around small molecules. Starting from random distributions of amino acid residues surrounding target small molecules, we designed and experimentally validated, through crystallography and binding measurements, proteins that bind the cardiac disease therapeutic digoxigenin, the enzymatic cofactor heme, and the light-harvesting molecule bilin.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5562,6 +5644,52 @@
         "1. Reviews",
         "1.2 Antibody design"
       ]
+    },
+    {
+      "id": "9cfdecf0f78855fe7d1aaea23610008d030537059e59a0bfba386b29aa30d1b4",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765624v1",
+        "https://doi.org/10.64898/2026.11.10.765624",
+        "https://openalex.org/W7225819521",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765624.source.xml"
+      ],
+      "title": "Leveraging state-of-the-art AI structure predictors to generate atomic resolution ensembles of intrinsically disordered proteins",
+      "link": "https://doi.org/10.64898/2026.11.10.765624",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765624v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "schnapka",
+          "name": "Schnapka, V"
+        },
+        {
+          "key": "portal",
+          "name": "Portal, N"
+        },
+        {
+          "key": "bonomi",
+          "name": "Bonomi, M"
+        }
+      ],
+      "abstract_text": "Intrinsically disordered proteins (IDPs) are central to many biological processes, but their function depends on dynamic conformational ensembles rather than a single structure. Despite the impact of artificial intelligence on protein structure prediction, determining these ensembles at atomistic resolution remains challenging. Recently, we introduced bAIes, a framework that leverages the structural information encoded in AlphaFold2 distograms to generate conformational ensembles of IDPs at atomistic resolution. Here, we extend this framework to six state-of-the-art structure prediction tools (AlphaFold2, AlphaFold3, Boltz-1, Boltz-2, ESMFold, and ESMFold2) and systematically compare the structural information encoded in their predicted inter-residue distance distributions. Despite differences between predictors, we show that bAIes generates ensembles with comparable accuracy against experimental NMR and SAXS data, and competitive performance relative to state-of-the-art all-atom simulations and alternative IDP ensemble generation methods. These results demonstrate that bAIes is robust to the choice of structure predictor and that the distance distributions generated by different deep learning architectures contain valuable information about the conformational preferences of disordered proteins. More broadly, our work highlights the potential of combining AI-derived structural information with physics-based modeling to generate atomistic ensembles of intrinsically disordered proteins and regions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }

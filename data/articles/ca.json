@@ -134,6 +134,56 @@
       "curated_categories": []
     },
     {
+      "id": "ca06481f5e7923ec2123801105c115fd2c27432d9eefe857f1d41d5364681175",
+      "identity_keys": [
+        "https://doi.org/10.1021/acsomega.6c10380",
+        "https://openalex.org/W7225332793"
+      ],
+      "title": "Solving the Computational Peptide Design Puzzle: Challenges and Opportunities",
+      "link": "https://doi.org/10.1021/acsomega.6c10380",
+      "pdf_url": "https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c10380/69091258/acsomega.6c10380.pdf",
+      "publication_date": "2026-11-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Omega",
+      "authors": [
+        {
+          "key": "daniela kalafatović",
+          "name": "Daniela Kalafatović"
+        },
+        {
+          "key": "aysenur iscen",
+          "name": "Aysenur Iscen"
+        },
+        {
+          "key": "mabesoone mathijs",
+          "name": "Mathijs F. J. Mabesoone"
+        },
+        {
+          "key": "ilie ioana mariuca",
+          "name": "Ioana Mariuca Ilie"
+        },
+        {
+          "key": "goran mauša",
+          "name": "Goran Mauša"
+        },
+        {
+          "key": "ivan sasselli",
+          "name": "Ivan R. Sasselli"
+        }
+      ],
+      "abstract_text": "Abstract Peptides are increasingly recognized as promising therapeutics, antimicrobial agents, and supramolecular biomaterials due to the remarkable versatility encoded in their amino acid sequences. However, the rational design of peptides remains challenging because sequence-structure–function relationships are not yet fully understood. Experimental exploration of peptide chemical space is inherently limited by the vast number of possible sequences and the complexity of resolving peptide behavior at molecular resolution. Computational methods, particularly molecular dynamics simulations and, more recently, machine learning and deep learning, have emerged as promising strategies to address these limitations. Although computational objectives differ, ranging from binding poses and biological activity to self-assembly propensity and supramolecular morphologies, they share common challenges associated with methodological heterogeneity, incomplete experimental metadata, insufficient benchmarking, and the lack of standardized and interoperable data sets. Here, we present our perspective on the main challenges in the computational study and design of peptides and discuss how collective efforts toward standardized data generation and data-driven discovery frameworks may help advance the field.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ca0ae16a761785278a3aeca566bbe845804b003a9782ca925db97a02d1fd4759",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66708-6",
@@ -2247,6 +2297,40 @@
         }
       ],
       "abstract_text": "Microbial bioconversions are shaped by environmental perturbations and the adaptation of resident microbiomes. Prokaryotes coexist with bacteriophages, yet their coevolutionary trajectories remain underexplored. Here, we investigate the effects of a cultivation vessel leak on an anaerobic consortium performing carbon dioxide reduction. Using time-series shotgun metagenomic sequencing, we reconstruct microbial and viral genomes to track community shifts. We further apply single-nucleotide variant profiling and CRISPR array analysis to monitor viral microdiversity and host defense mechanisms. After bioaugmentation restores bioconversion efficiency, the consortium undergoes pronounced restructuring, with new dominant taxa emerging from the rare biosphere. We identify patterns consistent with phage predation selectively removing certain species, while others exhibit resilience to infection. This shift aligns with a widespread viral outbreak and a transient increased frequency of single nucleotide variants in bacterial CRISPR-Cas defense genes. Expansion of CRISPR spacers further supports that CRISPR-mediated processes influence microbial resilience. Concurrently, phages infecting resilient hosts exhibited adaptive evolution, marked by high genetic heterogeneity. Selective pressure varies across their genomes, targeting infectivity genes and protospacer-adjacent motifs. These findings highlight a dynamic evolutionary arms race driven by the selection of beneficial genetic variants, providing a mechanistic framework for multi-omics investigations, and informing biotechnological applications, including phage-based microbiome manipulation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ca799b0aaca7e6c5d9d5ac5289b2f848fa4e8bfde0b12dc0353e1e65bd04534f",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15011670/v1",
+        "https://openalex.org/W7225252792"
+      ],
+      "title": "Geometric Reaction Path Alignment for Kinetic Feasibility Assessment",
+      "link": "https://doi.org/10.26434/chemrxiv.15011670/v1",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15011670/v1",
+      "publication_date": "2026-11-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "casetti nicholas",
+          "name": "Nicholas Casetti"
+        },
+        {
+          "key": "coley connor",
+          "name": "Connor W. Coley"
+        }
+      ],
+      "abstract_text": "Automated reaction exploration can generate more candidate elementary steps than can be practically characterized with transition-state searches. Thermodynamic screening provides an inexpensive first filter, but endpoint energies contain no information about the path connecting reactants and products. Here, we introduce SPARTA (Steric Path Alignment for Reactive Transformation Assessment), a geometric kinetic proxy that generates reaction-biased endpoint conformers, refines them through iterative image-dependent pair potential path optimization, and evaluates electronic single-point energies along the resulting path. Across two large reaction-barrier datasets, the SPARTA barrier discriminates highand low-barrier reactions better than reaction energy. Across curated reaction classes, SPARTA reproduces experimentally established steric trends when kinetic differences are governed by accessibility to the reactive configuration, while identifying clear limitations for stereoelectronically or orbital-symmetrycontrolled transformations. Applied to glucose pyrolysis and formose reaction networks, a single SPARTA threshold retains more than 98% of reactions with reference barriers below 50 kcal mol−1. In the glucose network, adding SPARTA after thermodynamic screening reduces the number of candidate transitionstate searches from 13,436 to 4,760 while retaining all 241 reactions below 20 kcal mol−1. These results establish the geometric accessibility of the reaction path as a useful complement to thermodynamic screening for reducing the cost of automated reaction-network exploration.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -3029,15 +3029,16 @@
       "id": "ec90cfb1eec92e52055c2e714de04392421b2a991fee9bbfd0e783bcb595aed3",
       "identity_keys": [
         "https://doi.org/10.21203/rs.3.rs-11108822/v1",
+        "https://doi.org/10.2139/ssrn.7550999",
         "https://openalex.org/W7213935171"
       ],
       "title": "Polymorph-Independent Resistance to Generative Protein Design Across Five Tau Fibril Folds: A Cross-Tauopathy Benchmark",
-      "link": "https://doi.org/10.21203/rs.3.rs-11108822/v1",
-      "pdf_url": "https://www.researchsquare.com/article/rs-11108822/latest.pdf",
+      "link": "https://doi.org/10.2139/ssrn.7550999",
+      "pdf_url": null,
       "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "Research Square",
+      "venue": "SSRN Electronic Journal",
       "authors": [
         {
           "key": "nanda siddhardha",
@@ -3600,6 +3601,40 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ecbd8fd5df563a4c4dd93cf7fcef77a6cb718b66dac906b6a72c8b68b336fda7",
+      "identity_keys": [
+        "arxiv:2604.21260",
+        "https://doi.org/10.48550/arXiv.2604.21260"
+      ],
+      "title": "Calibeating Prediction-Powered Inference",
+      "link": "https://doi.org/10.48550/arXiv.2604.21260",
+      "pdf_url": "https://arxiv.org/pdf/2604.21260",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "der laan lars van",
+          "name": "Lars van der Laan"
+        },
+        {
+          "key": "der laan mark van",
+          "name": "Mark Van Der Laan"
+        }
+      ],
+      "abstract_text": "We study semisupervised mean estimation with a small labeled sample, a large unlabeled sample, and a black-box prediction model whose output may be miscalibrated. A standard approach in this setting is augmented inverse-probability weighting (AIPW) [Robins et al., 1994], which protects against prediction-model misspecification but may be inefficient when the prediction score is poorly aligned with the outcome scale. We introduce Calibrated Prediction-Powered Inference, which post-hoc calibrates the prediction score on the labeled sample before using it for semisupervised estimation. This simple step requires no retraining and can calibeat the original score, improving it both as a predictor of the outcome and as a regression adjustment for semisupervised inference. We study both linear and isotonic calibration. For isotonic calibration, we establish first-order optimality guarantees: isotonic post-processing can improve predictive accuracy and estimator efficiency relative to the original score and simpler post-processing rules, while replacing the fitted isotonic score by its conditional-mean oracle yields no additional first-order variance reduction. For linear calibration, we show first-order equivalence to PPI++. We also clarify the relationship between existing estimators, showing that the original PPI estimator is a special case of AIPW and can be inefficient when the prediction model is accurate, while PPI++ is AIPW with empirical efficiency maximization [Rubin and van der Laan, 2008]. In simulations and real-data experiments, our calibrated estimators often outperform PPI and are competitive with, or outperform, AIPW and PPI++. We provide an accompanying Python package, ppi_aipw, at https://larsvanderlaan.github.io/ppi-aipw/.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
@@ -4909,6 +4944,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ece907d53c895e07f6633fa9ad0fbb47aa8c0689293db2c00eda2967a8221840",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764594v1",
+        "https://doi.org/10.64898/2026.11.05.764594",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764594.source.xml"
+      ],
+      "title": "Rapid, accurate, and memory-frugal sub-gene-level quantification of probe-based, multiplexed single-cell data",
+      "link": "https://doi.org/10.64898/2026.11.05.764594",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764594v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "he",
+          "name": "He, D"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, Y"
+        },
+        {
+          "key": "patro",
+          "name": "Patro, R"
+        }
+      ],
+      "abstract_text": "Probe-based, multiplexed single-cell assays enable accurate transcriptome profiling while processing multiple samples in parallel. Their predefined probe sequences and additional sample barcodes introduce computational requirements that differ from those of poly(A)-based assays, for which many existing single-cell quantification tools were developed. We extend simpleaf to enable efficient demultiplexing and quantification of probe-based single-cell libraries. A new, cache-friendly dictionary specializes lookup to small probe references, while a shared thread budget balances parallel decompression and mapping. We extend RAD and downstream tools with reusable sample-scoped correction plans and external-memory collation of hierarchically barcoded data, retaining probe identities through quantification to enable rapid mapping and quantification with a small working memory budget. Across five 10x Genomics Flex datasets comprising 44 samples, simpleaf had the shortest runtime and lowest peak memory use of the three tools on every library, while producing gene-expression estimates, cell clusters, and marker genes concordant with cyto and Cell Ranger. Compared with cyto, simpleaf was on average 2 times faster and used approximately one-thirteenth as much memory. simpleaf also exports probe-level quantification results, allowing a range of analyses at sub-gene resolution. Here, we show that individual probe counts reveal expression changes obscured by gene-level aggregation, identify the transcript groups contributing to gene-level changes, and provide insight into splicing dynamics across cell types. These results demonstrate the computational and biological value of retaining probe-level information in multiplexed singlecell analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

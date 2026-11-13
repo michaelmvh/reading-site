@@ -1830,6 +1830,41 @@
       "curated_categories": []
     },
     {
+      "id": "9e528f4bb860392991c8e96506cb9fe28bf125490445c4ef5ebef3aa0350b91d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764167v1",
+        "https://doi.org/10.64898/2026.11.04.764167",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764167.source.xml"
+      ],
+      "title": "LinearRaccess: linear-time approximation of RNA accessibility without base-pair span limits",
+      "link": "https://doi.org/10.64898/2026.11.04.764167",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764167v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "otagaki",
+          "name": "Otagaki, T"
+        },
+        {
+          "key": "sato",
+          "name": "Sato, K"
+        }
+      ],
+      "abstract_text": "Motivation: RNA accessibility is the probability that every nucleotide in a contiguous interval is simultaneously unpaired; it is widely used to predict binding sites for RNA-binding proteins and other RNA-RNA interactions, often in the form of the opening energy, an equivalent measure on a logarithmic scale. Existing tools restrict the maximum base-pair span, discarding long-range base pairs that matter biologically. Others sample structures, introducing statistical variance, or compute accessibility exactly without a span limit, at cubic time cost. No existing method computes the accessibility of windows longer than one nucleotide deterministically in linear time while preserving long-range base pairs. We present LinearRaccess, which computes accessibility directly in linear time via beam-pruned inside-outside dynamic programming with a difference-array aggregation step, without restricting base-pair span. Results: For a sequence of length N and a fixed beam width b, LinearRaccess runs in O(N) time and O(Nb) memory. Against exact accessibility on 12,872 bpRNA-1m(90) sequences of 100-1,000 nt, its median opening-energy error is below 0.001 kcal/mol (0.14 kcal/mol for 700-1,000 nt), and it distinguishes windows of very small accessibility, including 35-nt windows, below the resolution of sampling-based estimates. LinearRaccess analyzes the full 29,903-nt SARS-CoV-2 genome in 419 seconds. Conclusion: LinearRaccess is the first method to compute the accessibility of windows longer than one nucleotide deterministically (without sampling) in linear time without restricting base-pair span. Availability: https://github.com/TakumiOtagaki/LinearRaccess, archived at Zenodo (https://doi.org/10.5281/zenodo.23598502).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9e52e82b9f9c5685518c00df28b710e33c55c5be741618dfd082072aed923089",
       "identity_keys": [
         "https://doi.org/10.3389/fphar.2026.1773629",
@@ -1958,6 +1993,45 @@
         }
       ],
       "abstract_text": "Single-cell RNA velocity has transformed our capacity to predict future cell states from sequencing snapshots, but existing methods rely on constant or binary kinetic assumptions that fail to capture the heterogeneous splicing dynamics of cellular differentiation. Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to initialize neural network training dramatically improves RNA velocity model performance. By pre-determining whether each gene follows a Circle, Complete induction, or Complete repression pattern across cellular differentiation, JuloVelo initializes training with pattern-matched, pre-trained network weights, effectively guiding the cell-specific kinetics optimization away from biologically implausible parameter regimes. Additionally, JuloVelo demonstrates that multiome datasets can also be processed and modeled by utilizing promoter chromatin accessibility to guide kinetics pre-determination, and integrates an in silico perturbation framework to simulate transcription factor modulation on cell fate. Validated across eight datasets spanning erythrogenesis, neurogenesis, and endocrinogenesis, JuloVelo consistently outperformed constant-rate and cell-specific models, resolving the entire five-lineage differentiation program in hippocampal neurogenesis. Multiome processing improved both intrinsic and extrinsic velocity stability, and JuloVelo reduced computational execution time by approximately 70% compared to cellDancer. JuloVelo is available as an open-source package at https://github.com/jhlabtw/JuloVelo.jl.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "9e577ea6cdaf5161bdc7fec70ba0be3007ffeea6bd29fa01e4d676ad5a4c412b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764643v1",
+        "https://doi.org/10.64898/2026.11.05.764643",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764643.source.xml"
+      ],
+      "title": "Label-free flow operators and stability operators from single-cell time courses: what local dynamical operators can and cannot identify",
+      "link": "https://doi.org/10.64898/2026.11.05.764643",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764643v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "redd",
+          "name": "Redd, D. M"
+        },
+        {
+          "key": "green",
+          "name": "Green, S. G"
+        },
+        {
+          "key": "terooatea",
+          "name": "Terooatea, T. W"
+        }
+      ],
+      "abstract_text": "Local Jacobians of single-cell dynamics are used to locate unstable cells along trajectories, but what they identify from measured data has rarely been tested against independent truth. We present scJDO2, which separates two per-cell operators by the time information they require: a score operator, the Hessian of a score-matched log density, available from any snapshot; and a flow operator, the Jacobian of a drift fitted to a measured velocity, here estimated label-free from a sampled time course by entropic optimal transport. Both are summarized in a shared operator space of magnitude-free descriptors, with the invariance of each stated, and evaluated with pre-registered tests. On synthetic data calibrated to six real datasets, the flow operator from the time course alone separated fate-bifurcation cells from committed cells on held-out seeds (AUC 0.89-1.00) with a-priori settings; tuning on development seeds overfit. On LARRY lineage-traced hematopoiesis, its fitted drift predicted the clonal displacement of barcoded cells beyond population movement (Spearman 0.56, permutation p < 0.001; 0.50 after removing the mean shift) and a held-out sampling day better than mean-displacement and no-movement baselines (energy distance 0.69, 95 % CI 0.66-0.73, vs 0.87 and 0.88); lineage thus validates the velocity, not {lambda}. Mini-batch transport reproduced dense transport (velocity cosine 0.9998) and scaled to all 130,887 cells (transport 5 min and 2.5 GB; drift fit and Jacobians 21 min and 1.3 GB). On an independent simulator it detected two of three bifurcations and two of three cycles and never reported instability on linear trajectories. Several readings failed. Neither operator recovers the values of the true Jacobian; the flow operators leading eigenvalue ranks branching cells empirically. The flow operator depends on the transport metric and inverts on Factor Analysis. Operator archetypes isolated bifurcation cells but did not outperform expression clustering and were unstable across fit seeds. The score operator did not predict CRISPRi knockdown responses or sister-cell fate coherence. A confirmatory test of transition timing could not be constructed, and diffusion is not identifiable at typical sampling intervals. The released software reports these diagnostics.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

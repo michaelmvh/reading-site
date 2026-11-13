@@ -1745,7 +1745,7 @@
           "name": "Hongwu Ma"
         }
       ],
-      "abstract_text": "remains a long-standing challenge due to the multifactorial nature of gene regulation and translation. Existing computational approaches typically emphasize either codon usage or protein sequence features, limiting predictive accuracy and generalizability. Here we present TLCP-EPE, a transfer learning framework that, for the first time, fuses codon- and protein-level pre-trained language models to jointly capture determinants of expression. By fine-tuning CaLM and ProtT5 with low-rank adaptation (LoRA) and integrating their embeddings through a BiGRU-MLP predictor, TLCP-EPE learns expression-aware representations that outperform state-of-the-art methods. Across two independent test datasets, TLCP-EPE achieved robust performance (AUC 0.835 on codon data; AUC 0.713 on protein data), consistently surpassing conventional codon-based metrics and deep learning baselines. Our results demonstrate that dual-modal modeling of codon and protein sequences enables more accurate and generalizable prediction of expression levels, providing a powerful foundation for rational protein design and biomanufacturing applications.",
+      "abstract_text": "Accurately predicting recombinant protein expression in Escherichia coli remains a long-standing challenge due to the multifactorial nature of gene regulation and translation. Existing computational approaches typically emphasize either codon usage or protein sequence features, limiting predictive accuracy and generalizability. Here we present TLCP-EPE, a transfer learning framework that, for the first time, fuses codon- and protein-level pre-trained language models to jointly capture determinants of expression. By fine-tuning CaLM and ProtT5 with low-rank adaptation (LoRA) and integrating their embeddings through a BiGRU-MLP predictor, TLCP-EPE learns expression-aware representations that outperform state-of-the-art methods. Across two independent test datasets, TLCP-EPE achieved robust performance (AUC 0.835 on codon data; AUC 0.713 on protein data), consistently surpassing conventional codon-based metrics and deep learning baselines. Our results demonstrate that dual-modal modeling of codon and protein sequences enables more accurate and generalizable prediction of expression levels, providing a powerful foundation for rational protein design and biomanufacturing applications.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4387,6 +4387,78 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e0a88f7e6543b746397c0ca7b7be05d4611a7fefcf409a1f725e11f0db346571",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.05.736662v2",
+        "https://doi.org/10.64898/2026.07.05.736662",
+        "https://www.biorxiv.org/content/early/2026/07/06/2026.07.05.736662.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.07.05.736662.source.xml"
+      ],
+      "title": "RICO enables integrated analysis of ribosomal DNA copy number and methylation from nanopore long-read sequencing",
+      "link": "https://doi.org/10.64898/2026.07.05.736662",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.05.736662v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yuen",
+          "name": "Yuen, Z. W. S"
+        },
+        {
+          "key": "leeder",
+          "name": "Leeder, N"
+        },
+        {
+          "key": "udumanne",
+          "name": "Udumanne, T"
+        },
+        {
+          "key": "garvie",
+          "name": "Garvie, A"
+        },
+        {
+          "key": "wong",
+          "name": "Wong, L"
+        },
+        {
+          "key": "weiss",
+          "name": "Weiss, E"
+        },
+        {
+          "key": "loon van",
+          "name": "van Loon, L"
+        },
+        {
+          "key": "ganley",
+          "name": "Ganley, A"
+        },
+        {
+          "key": "hannan",
+          "name": "Hannan, R"
+        },
+        {
+          "key": "eyras",
+          "name": "Eyras, E"
+        },
+        {
+          "key": "hein",
+          "name": "Hein, N"
+        }
+      ],
+      "abstract_text": "Ribosomal RNA (rRNA) provides the structural and catalytic core of ribosomes and is encoded by ribosomal RNA genes (rDNA) arranged in tandem repeat arrays. rDNA copy number (CN) is highly dynamic, representing a clinically relevant form of structural variation, but its accurate quantification has been challenging due to its highly repetitive and GC-rich nature. Here, we present RICO (RIbosomal dna Integrated COpy number and methylation analysis), a novel computational pipeline for integrated estimation of rDNA CN and methylation using Oxford Nanopore long-read sequencing. RICO leverages long sequencing reads that span entire rDNA repeats, mapped to an rDNA-augmented reference genome, and normalizes coverage using a single-copy gene panel. We demonstrate that RICO provides accurate rDNA CN estimates in simulated datasets and reproducible measurements across human samples, with strong agreement to short-read sequencing and PCR-based methods. Furthermore, RICO reproduces a ~40% reduction in rDNA CN in Atrx-knockout mouse embryonic stem cells, consistent with established effects of ATRX loss on rDNA CN. RICO also captures an increased total and active rDNA CN in malignant cells from a MYC-driven B-cell lymphoma mouse model, in agreement with prior studies. Applying RICO to independent human cohorts, we uncover that individuals with higher total rDNA CN consistently exhibit higher fractions of highly methylated rDNA copies, suggesting a dosage compensation mechanism that potentially maintains a similar number of active rDNA copies across individuals. Together, RICO enables integrated analysis of rDNA CN and methylation state, providing a scalable framework for investigating rDNA regulation across population and disease studies. RICO is available at https://github.com/comprna/RICO.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

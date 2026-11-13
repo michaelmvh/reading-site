@@ -1120,7 +1120,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "Abstract MYC is one of the most frequently dysregulated oncogenic drivers across many cancers, yet direct therapeutic targeting has remained difficult because its function is mediated by disordered regions and transient protein-protein interactions. Here we design proteins that bind epitopes within regions of MYC whose sequence is conserved between human and mouse, including intrinsically disordered motifs required for oncogenic activity. In vitro, the designs bind MYC with nanomolar affinity and in cells they engage MYC, disrupt interactions with MAX, and remodel MYC-associated protein complexes. Expression of the binders decreases cell proliferation across diverse MYC-dependent hematopoietic, liver, pancreatic, and patient-derived tumor models, and in an orthotopic pancreatic cancer model, binder-expressing tumor cells were selectively depleted. This work establishes de novo protein design as a generalizable strategy to therapeutically target intrinsically disordered transcription factors. One-sentence summary We developed a panel of de novo designed intracellular protein binders that target conserved functional regions of MYC with nanomolar affinity, remodel MYC complexes and interaction networks in cells, suppress proliferation across MYC-dependent cancer models, and are depleted from orthotopic pancreatic tumors in vivo.",
+      "abstract_text": "MYC is one of the most frequently dysregulated oncogenic drivers across many cancers, yet direct therapeutic targeting has remained difficult because its function is mediated by disordered regions and transient protein-protein interactions. Here we design proteins that bind epitopes within regions of MYC whose sequence is conserved between human and mouse, including intrinsically disordered motifs required for oncogenic activity. In vitro, the designs bind MYC with nanomolar affinity and in cells they engage MYC, disrupt interactions with MAX, and remodel MYC-associated protein complexes. Expression of the binders decreases cell proliferation across diverse MYC-dependent hematopoietic, liver, pancreatic, and patient-derived tumor models, and in an orthotopic pancreatic cancer model, binder-expressing tumor cells were selectively depleted. This work establishes de novo protein design as a generalizable strategy to therapeutically target intrinsically disordered transcription factors. One-sentence summary: We developed a panel of de novo designed intracellular protein binders that target conserved functional regions of MYC with nanomolar affinity, remodel MYC complexes and interaction networks in cells, suppress proliferation across MYC-dependent cancer models, and are depleted from orthotopic pancreatic tumors in vivo.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4631,7 +4631,7 @@
         },
         {
           "key": "jianjun tao",
-          "name": "Jianjun Tao"
+          "name": "JianJun Tao"
         },
         {
           "key": "alina asandei",
@@ -5008,6 +5008,44 @@
       "curated_categories": []
     },
     {
+      "id": "a3d44d9005cfafc0c919c104be099c42a820a7e6e5a028a177ffc505b256c85c",
+      "identity_keys": [
+        "arxiv:2611.11997",
+        "https://doi.org/10.48550/arXiv.2611.11997"
+      ],
+      "title": "HyInv Technical Report",
+      "link": "https://doi.org/10.48550/arXiv.2611.11997",
+      "pdf_url": "https://arxiv.org/pdf/2611.11997v1",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "haowei lin",
+          "name": "Haowei Lin"
+        },
+        {
+          "key": "cai zhou",
+          "name": "Cai Zhou"
+        },
+        {
+          "key": "xiangxin zhou",
+          "name": "Xiangxin Zhou"
+        }
+      ],
+      "abstract_text": "Inverse folding designs amino-acid sequences for a given protein backbone, and screening needs many candidates that are both diverse and well folded. We present HyInv, a 1.96-million-parameter backbone-conditioned graph network with an encoder-decoder architecture, trained by Hyra 2.0, the research agent developed by our team: pretrained with random-order autoregressive sequence modeling, followed by structure-reward reinforcement learning. At inference, a grouped draft-and-rewrite sampler that uses separate draft and rewrite temperatures improves refolding TM-score at matched diversity. An optimized implementation with BF16 numerics designs 128 sequences for a 402-residue backbone in 50.6 ms on a single NVIDIA H20 GPU, about 52 times faster than the reference sampler, and an exact FP32 path that returns the reference sequences is 8.7 times faster. Across five benchmark datasets and seven dataset-predictor combinations, HyInv reaches a higher average scTM than all ten external baselines at comparable or higher sequence diversity, with large margins over ProteinMPNN and ProteinZero V2. The same default setting supports de novo backbones, pocket-constrained libraries, enzyme redesign with the catalytic site kept, and loop redesign. We have released our code and model at https://github.com/Tencent-Hunyuan/Hyra-results/tree/main/AI4Science/hyinv.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a3dcc16d24a7f182f42302fee5c98946c6d16118330ebc668cfbf5efba98a96d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67939-3",
@@ -5339,6 +5377,140 @@
         }
       ],
       "abstract_text": "1,n-Difunctionalized alkyl linchpins are pivotal building blocks in organic synthesis, functional materials, and pharmaceuticals. However, their preparation currently relies predominantly on de novo synthesis, which is hampered by low step-economy and poor functional group compatibility. Herein, we report an efficient method based on a radical-mediated bidirectional C-C bond cleavage, which enables simple cyclic ketones to function as potential diradical linchpins via the formation of gem-diperoxides. It employs a stepwise and controllable tandem process involving alkoxy radical-induced β-scission and acyloxy radical-mediated decarboxylation, to achieve ring-opening, carbon shrinkage, and bidirectional functionalization of carbocycles. This carbocycle editing protocol features sustainable metal catalysis, a broad substrate scope, and excellent functional group compatibility. Notably, the cascade reaction enables facile and selective editing of various complex natural products and drug molecules. This bidirectional C-C bond cleavage/coupling strategy allows for rapid and modular synthesis of structurally diverse alkyl 1,n-dithiocyanides, 1,n-diazides, 1,n-dihalides, and unsymmetric 1,n-thiocyanate-azides (n ≥ 4).",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a3f38820741bda5580ac17ae2bde7388a5937c4e067fad42f6e0bf609a927a84",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.03963",
+        "https://openalex.org/W7225228910"
+      ],
+      "title": "ProteoCraft: Protein Design as Proposal-Verification Search",
+      "link": "https://doi.org/10.48550/arxiv.2611.03963",
+      "pdf_url": "https://arxiv.org/pdf/2611.03963",
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "fang wu",
+          "name": "Fang Wu"
+        },
+        {
+          "key": "hongbin lin",
+          "name": "Hongbin Lin"
+        },
+        {
+          "key": "bingchen duan",
+          "name": "Bingchen Duan"
+        },
+        {
+          "key": "wang yuchen",
+          "name": "Yuchen Wang"
+        },
+        {
+          "key": "erran li",
+          "name": "Li Erran Li"
+        },
+        {
+          "key": "huang yanjie",
+          "name": "Yanjie Huang"
+        },
+        {
+          "key": "cao mingxuan",
+          "name": "Mingxuan Cao"
+        },
+        {
+          "key": "ma yijun",
+          "name": "Yijun Ma"
+        },
+        {
+          "key": "mo yunxiang",
+          "name": "Yunxiang Mo"
+        },
+        {
+          "key": "li yanchao",
+          "name": "Yanchao Li"
+        },
+        {
+          "key": "kuan pang",
+          "name": "Kuan Pang"
+        },
+        {
+          "key": "juangui xu",
+          "name": "Juangui Xu"
+        },
+        {
+          "key": "cao hanqun",
+          "name": "Hanqun Cao"
+        },
+        {
+          "key": "dongwei jiang",
+          "name": "Dongwei Jiang"
+        },
+        {
+          "key": "xinyue xu",
+          "name": "Xinyue Xu"
+        },
+        {
+          "key": "tang xiangru",
+          "name": "Xiangru Tang"
+        },
+        {
+          "key": "wang zehong",
+          "name": "Zehong Wang"
+        },
+        {
+          "key": "jian ma",
+          "name": "Jian Ma"
+        },
+        {
+          "key": "kejun ying",
+          "name": "Kejun Ying"
+        },
+        {
+          "key": "guanlue li",
+          "name": "Guanlue Li"
+        },
+        {
+          "key": "cao mingran",
+          "name": "Mingran Cao"
+        },
+        {
+          "key": "fanjin wang",
+          "name": "Fanjin Wang"
+        },
+        {
+          "key": "fu tianfan",
+          "name": "Tianfan Fu"
+        },
+        {
+          "key": "shuangjia zheng",
+          "name": "Shuangjia Zheng"
+        },
+        {
+          "key": "shu yao",
+          "name": "Yao Shu"
+        },
+        {
+          "key": "jure leskovec",
+          "name": "Jure Leskovec"
+        },
+        {
+          "key": "choi yejin",
+          "name": "Yejin Choi"
+        }
+      ],
+      "abstract_text": "Protein-protein interactions underpin nearly all biological processes. Yet, designing proteins with desired interactions remains challenging due to the structural complexity governing molecular recognition. This study views protein design as a search optimization problem over a combinatorial sequence space under expensive structural evaluation. Toward this goal, we introduce a novel tree-based search framework, ProteoCraft, that employs approximate structural gradients from diffusion-based structure predictors as effective proposal policies to specify where the search should explore. Complete no-gradient inference of folding models separately assigns values to the resulting sequences, determining what is good. ProteoCraft allocates this verification budget through a coarse-to-fine paradigm: multi-site edits first explore distinct sequence basins, then verified promising states undergo strict single-site refinement. Across fourteen de novo binder-design settings spanning eight target proteins, five immune-relevant TCR-facing targets, and four localized CDR redesign tasks, ProteoCraft improves design quality and high-confidence yield. These improvements persist under independent AF2-IG and Rosetta-based interface evaluation. Prospective experimental validation further yielded an 82.9% binding hit rate for PD-L1 miniproteins, with a best measured KD of 0.879 nM, and confirmed binding of designed IFNAR2 VHH. Our code is available at https://github.com/smiles724/ProteoCraft_v1.",
       "discovery_sources": [
         {
           "kind": "open_alex",

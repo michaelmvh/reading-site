@@ -1994,6 +1994,77 @@
       "curated_categories": []
     },
     {
+      "id": "7b6982f2305ece253044f42745b3206cc9783dc643d56e7e41899f770964421f",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.09.26.676459v2",
+        "https://doi.org/10.1101/2025.09.26.676459",
+        "https://www.biorxiv.org/content/early/2026/11/09/2025.09.26.676459.source.xml"
+      ],
+      "title": "SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation",
+      "link": "https://doi.org/10.1101/2025.09.26.676459",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.26.676459v2.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "velecky",
+          "name": "Velecky, J"
+        },
+        {
+          "key": "faldynova",
+          "name": "Faldynova, H"
+        },
+        {
+          "key": "hermosilla",
+          "name": "Hermosilla, P"
+        },
+        {
+          "key": "slanska",
+          "name": "Slanska, K"
+        },
+        {
+          "key": "sendlerova",
+          "name": "Sendlerova, N"
+        },
+        {
+          "key": "doerr",
+          "name": "Doerr, M"
+        },
+        {
+          "key": "egersdorfova",
+          "name": "Egersdorfova, S"
+        },
+        {
+          "key": "bornscheuer",
+          "name": "Bornscheuer, U"
+        },
+        {
+          "key": "damborsky",
+          "name": "Damborsky, J"
+        },
+        {
+          "key": "prokop",
+          "name": "Prokop, Z"
+        },
+        {
+          "key": "mazurenko",
+          "name": "Mazurenko, S"
+        }
+      ],
+      "abstract_text": "Protein solubility is an attractive engineering target because it is a critical property influencing the scalability of protein production and the success of therapeutic proteins in biomedical applications. However, predicting in silico solubility changes upon mutation is challenging due to data heterogeneity and protein bias. Here, we explore how different sources of solubility data can be used for machine learning and present SoluProtMut, a Siamese deep geometric neural network trained to predict the impact of mutations on protein solubility. Our final model was trained exclusively on deep mutational scanning data derived from recombinant protein expression assays in bacterial and yeast systems. We compare our model with five established solubility prediction methods. On an independent set of 44 proteins, the model achieves the highest informedness among the methods compared, with the largest margin for multipoint mutations (a ternary informedness of 26.5%, 8.8 percentage points above the next-best method). Our findings also reaffirm that the scarcity of solubility data continues to hamper progress in this field. To address this limitation, we experimentally quantified solubility changes for 277 single-point and multipoint mutants of haloalkane dehalogenase. Complemented by recent deep-mutational-scanning data on myoglobin, we employed both datasets for external validation. We identify protein-level generalization, rather than model capacity or training-set size, as the main limiting factor in the domain. Integrating high-throughput assays with deep learning nonetheless offers a route to improving the accuracy and scope of solubility prediction.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7b6b6d88383ac88f4e7c26f50ec9841c10f12c6966eab49ddd7566baf58a488c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67409-w",
@@ -3552,7 +3623,7 @@
           "name": "Wolfgang Wurst"
         }
       ],
-      "abstract_text": "Abstract Evolution guides biological systems to populate ecological niches, with viruses being one of the most successful examples of that principle. Viruses evolved over billions of years for the efficient transfer of nucleic acids. Although highly diverse, most viruses converged toward a remarkable similarity in the size and shape of their capsids. In contrast, generative models for protein design enable the creation of protein architectures that are absent in nature. Here, we investigate whether AI-designed protein assemblies can be functionalized to construct nucleic acid transport vehicles that are independent of evolutionary trajectories. By combining natural protein domains with synthetic protein assemblies, we create more than a hundred bottom-up RNA transfer vehicles with unique sizes and shapes. These novel vehicles surpass the RNA transfer efficiency of widely used delivery vehicles by several orders of magnitude. Additionally, we demonstrate that their tropism can be programmed by incorporating computationally designed peptide binders and apply them to deliver various therapeutically relevant cargo RNAs, such as Gene Editors, into a wide range of cellular models. We show the in vivo biodistribution of one of these vehicles in a mouse with close to single-cell resolution and use it to perform a gene editing strategy for Duchenne muscular dystrophy in a pig. Our work demonstrates how proteins created by generative AI can be harnessed for the rational engineering of biological systems with desired properties by overcoming the limitations of natural protein diversity.",
+      "abstract_text": "Abstract Evolution guides biological systems to populate ecological niches, with viruses among the most successful examples of this principle. Viruses evolved over billions of years to efficiently transfer genetic information. Although viruses are highly diverse, most have converged towards remarkable similarity in the size and shape of their capsids 1,2 . By contrast, generative models for protein design enable the creation of protein architectures that are absent from nature 3–5 . Here we investigate whether protein assemblies designed by artificial intelligence can be functionalized to construct nucleic acid transport vehicles that are independent of evolutionary trajectories. By combining natural protein domains with synthetic protein assemblies, we create more than 100 bottom-up RNA transfer vehicles with unique sizes and shapes. These vehicles surpass the RNA transfer efficiency of widely used delivery vehicles by several orders of magnitude. In addition, we demonstrate that their tropism can be programmed by incorporation of computationally designed peptide binders and use them to deliver therapeutically relevant cargo RNAs into a wide range of cellular models. We show the in vivo biodistribution of one of these vehicles in a mouse at near-single-cell resolution, confirm its safety, and use it to perform a gene-editing treatment strategy for Duchenne muscular dystrophy in patient-derived cells and a pig. Our work demonstrates how proteins created by generative artificial intelligence can be harnessed for the rational engineering of RNA transport systems with the desired properties by overcoming the limitations of natural protein diversity.",
       "discovery_sources": [
         {
           "kind": "open_alex",

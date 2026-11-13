@@ -1198,6 +1198,42 @@
       "curated_categories": []
     },
     {
+      "id": "952e3200207dcf12062c3c98f74a2179ed1c9c6a1f18814673ba7aaadc1b1d2d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.06.29.733683v2",
+        "https://doi.org/10.64898/2026.06.29.733683",
+        "https://www.biorxiv.org/content/early/2026/07/03/2026.06.29.733683.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.06.29.733683.source.xml"
+      ],
+      "title": "zsasa: a Zig-based engine for high-throughput solvent accessible surface area at proteome scale",
+      "link": "https://doi.org/10.64898/2026.06.29.733683",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.29.733683v2.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nagae",
+          "name": "Nagae, T"
+        },
+        {
+          "key": "tomii",
+          "name": "Tomii, K"
+        }
+      ],
+      "abstract_text": "Advances in structural and computational biology now yield structures by the hundreds of thousands, from predicted-structure databases to molecular-dynamics trajectories. Solvent accessible surface area (SASA), a long-established descriptor of protein stability, binding, and interfaces, remains central to their analysis. Established SASA tools are still widely used, but each covers only part of what such data now demand in input formats, outputs, and speed. We present zsasa, a fast, full-featured, open-source SASA engine for single structures, proteome-scale collections, and trajectories, usable from the command line or Python. It uses the same algorithms as established tools and owes its speed to the implementation, which makes full use of multicore processors and SIMD instructions while keeping memory use low. On a single laptop, zsasa reproduced FreeSASA, a widely used SASA library, down to individual atom areas on 4,370 Escherichia coli AlphaFold models. On the 23,586 structures of the human AlphaFold proteome, it was 3.3-fold faster than FreeSASA run in parallel while using a third or less of the peak memory of the other tools tested, and an optional approximate mode was 10-fold faster, with total SASA within 0.7% of the default results on average. On molecular-dynamics trajectories, it was 12- to 52-fold faster than MDTraj. As a demonstration, we computed interface burial for more than 600,000 predicted human protein dimers in under half an hour and found that a large buried area did not imply a confident predicted interface. zsasa is available under the MIT license at https://github.com/N283T/zsasa.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "952e63d101af5b48df18026cff14d85857d0716e5ca076deacda1dd168be372b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65150-y",
@@ -2587,7 +2623,7 @@
       ],
       "title": "Accurate and robust protein sequence design with CarbonDesign",
       "link": "https://doi.org/10.1038/s42256-024-00838-2",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/07/2023.08.07.552204.full.pdf",
+      "pdf_url": "https://www.researchsquare.com/article/rs-3251939/latest.pdf",
       "publication_date": "2024-05-23",
       "publication_date_precision": "unknown",
       "collection_date": null,

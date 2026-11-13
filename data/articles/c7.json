@@ -3658,6 +3658,49 @@
       "curated_categories": []
     },
     {
+      "id": "c79bbb7c020b39a9747c8c150ad1a2c9d29e4be09cde02d5f27fb979ec06db22",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765369v1",
+        "https://doi.org/10.64898/2026.11.09.765369",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.09.765369.source.xml"
+      ],
+      "title": "Automated Continuous LLM-driven Biomedical Literature Mining for a Large-Scale Hepatotoxicity Knowledge Base",
+      "link": "https://doi.org/10.64898/2026.11.09.765369",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765369v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "qiu",
+          "name": "Qiu, J"
+        },
+        {
+          "key": "chitikela",
+          "name": "Chitikela, Y"
+        },
+        {
+          "key": "jia",
+          "name": "Jia, Z"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, C"
+        }
+      ],
+      "abstract_text": "Predicting whether a chemical disturbs liver and mitochondrial function matters for drug safety and environmental risk assessment, but the data available for training such models are small and mostly curated by hand. We describe an automated pipeline that uses a large language model (LLM) to collect hepatotoxicity findings from the biomedical literature. The pipeline runs a PubMed/PMC query, downloads the matching full texts or abstracts, asks the LLM to record each reported effect in a fixed schema (tested chemical, biomarker, direction of change, and related fields) with controlled vocabularies, and writes de-duplicated records to a database that is updated as new papers appear. The current snapshot holds 189,212 findings on 17,002 chemicals from 53,575 articles (1995-2026), covering 235 biomarkers reported for at least 20 chemicals. In a manual check of 217 findings from 35 articles, 208 findings (from 33 articles) were fully correct; the other 9, all from 2 articles, were incorrect. As a use case, we train structure-based QSAR models, both graph neural networks and classic baselines, for each biomarker; at this data scale the classic models remain competitive. The pipeline and the knowledge base will be made publicly available.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c79dc89d33c151f2a9b43261f22f1eb041e9284518d4aa6673e3b3924f91fbcd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69427-8",
@@ -4117,7 +4160,7 @@
         },
         {
           "key": "delisa matthew",
-          "name": "DeLisa, Matthew P."
+          "name": "Matthew P. DeLisa"
         },
         {
           "key": "ray truant",

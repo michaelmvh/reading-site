@@ -452,6 +452,91 @@
       "curated_categories": []
     },
     {
+      "id": "8b17901fa18943dd6a10f354651e44b324d5b030c29496798545549063333727",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.24.746754v3",
+        "https://doi.org/10.64898/2026.08.24.746754",
+        "https://www.biorxiv.org/content/early/2026/08/26/2026.08.24.746754.source.xml",
+        "https://www.biorxiv.org/content/early/2026/08/27/2026.08.24.746754.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.08.24.746754.source.xml"
+      ],
+      "title": "HIDE-Deconv: A hierarchical deconvolution framework for multiscale characterization of cellular remodeling",
+      "link": "https://doi.org/10.64898/2026.08.24.746754",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746754v3.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "voelkl",
+          "name": "Voelkl, D"
+        },
+        {
+          "key": "bolz",
+          "name": "Bolz, S"
+        },
+        {
+          "key": "rayford",
+          "name": "Rayford, A"
+        },
+        {
+          "key": "sterr",
+          "name": "Sterr, T"
+        },
+        {
+          "key": "buhr mensching",
+          "name": "Mensching-Buhr, M"
+        },
+        {
+          "key": "seifert",
+          "name": "Seifert, N"
+        },
+        {
+          "key": "arp",
+          "name": "Arp, J"
+        },
+        {
+          "key": "tausche",
+          "name": "Tausche, J"
+        },
+        {
+          "key": "engel",
+          "name": "Engel, L"
+        },
+        {
+          "key": "schuster",
+          "name": "Schuster, C"
+        },
+        {
+          "key": "stevenson",
+          "name": "Stevenson, T"
+        },
+        {
+          "key": "zacharias",
+          "name": "Zacharias, H. U"
+        },
+        {
+          "key": "altenbuchinger",
+          "name": "Altenbuchinger, M"
+        },
+        {
+          "key": "goertler",
+          "name": "Goertler, F"
+        }
+      ],
+      "abstract_text": "Most deconvolution methods estimate cellular composition at a single level of cellular resolution despite biological processes often manifesting within fine-grained cellular subpopulations. We present HIDE-Deconv, a hierarchical deconvolution framework that jointly optimizes cellular compositions across multiple levels of a cell-type hierarchy while maintaining consistency between resolutions. In benchmark experiments, HIDE-Deconv achieved the highest overall predictive performance among evaluated methods. Analyses of lung adenocarcinoma, sepsis, COVID-19 and systemic lupus erythematosus revealed biologically relevant cellular remodeling that remained concealed at broader levels of cellular resolution. HIDE-Deconv is available as an open-source framework at https://github.com/dvoelkl/HIDE-deconv.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8b1b799c9bf51ad10e3dfdd47f804f5dce37ca4039f79ef8157cbc38acd51573",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72127-y",
@@ -1226,6 +1311,49 @@
         "5.4 Transformer-based",
         "5.Function to Sequence"
       ]
+    },
+    {
+      "id": "8b52edb5d3a2b55e70383d97cd3cf15b60a6c4e75fc2a844cc6ca4a1e9cf5ebd",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764792v1",
+        "https://doi.org/10.64898/2026.11.06.764792",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764792.source.xml"
+      ],
+      "title": "Extracting and Updating Compact Colored k-mer Indexes",
+      "link": "https://doi.org/10.64898/2026.11.06.764792",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764792v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "depuydt",
+          "name": "Depuydt, L"
+        },
+        {
+          "key": "alanko",
+          "name": "Alanko, J. N"
+        },
+        {
+          "key": "marchet",
+          "name": "Marchet, C"
+        },
+        {
+          "key": "puglisi",
+          "name": "Puglisi, S. J"
+        }
+      ],
+      "abstract_text": "Colored k-mer indexes record, for every k-mer of a collection of genomes, the genomes or species that contain it, and underpin pseudoalignment and sequence search against large collections. Construction of such an index is expensive, yet the collection it represents is rarely final: genomes are retracted or found to be contaminated, users need an index of a single species or clade, and new genomes keep arriving. Rebuilding the index after every such change requires the original sequences and repeats the costly construction. We show that colored indexes based on the spectral Burrows-Wheeler transform (SBWT) can instead be updated efficiently in batches, without the original sequences, and with a result equivalent to the index built from scratch. Given an SBWT and any subset of its k-mers, we first extract the SBWT of this subset directly from the input, in one linear pass and without building a new index. Removing genomes, intersection and difference all reduce to this operation. We then carry the colors through every operation, by finding from the inputs alone where the color sets of the result change, so that removing or extracting genomes, as well as the union, intersection and difference of two colored indexes, each directly yield a complete colored index. In our experiments, editing paid off for large results: removing a genome from an index of 3,682 E. coli genomes took 54 seconds instead of 13 minutes for a rebuild, and adding one took about a minute. On AllTheBacteria, with 192 billion k-mers and 12,733 species, extracting M. tuberculosis, with 180,094 genomes, took less than four hours, and set operations then traced contamination of its color, some of which the next release of AllTheBacteria still contains. Our work turns large colored k-mer indexes from static snapshots of a collection into resources that can be maintained as the collection evolves. Our implementation is available at https://github.com/LoreDepuydt/colored-sbwt-setops.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "8b55137ab671433e26208fbe367d320165de23a2772ed46ac54b7603404162e1",
@@ -2785,7 +2913,7 @@
           "name": "Aleksei Aksimentiev"
         }
       ],
-      "abstract_text": "All-atom molecular dynamics has become an indispensable tool in development of nanopore sensors of biological information. In a typical nanopore experiment, measurements of ionic current flowing through a nanopore report on the chemical structure of biomolecules that pass through the nanopore. Such experiments alone are often insufficient to relate the structure of the biomolecules to the ionic current modulations. The molecular dynamics method can establish such a relationship directly through a brute force simulation under applied electric field. Here, we examine the ability of molecular dynamics force fields to reproduce experimentally measured nanopore blockade currents produced by single-stranded DNA. Our simulations show that none of the \"off the shelf\" force fields (CHARMM36, AMBER Parmbsc1 and DES-AMBER) is capable of reproducing experimental data with the desired level of accuracy. To improve the accuracy, we examined and refined interactions between ions, protein nanopores and DNA, guided by experiments designed specifically for this purpose. Ultimately, the introduction of surgical corrections to non-bonded interactions within the CHARMM36 force field produced a favorable agreement between simulation and experiment. This refined parameterization, initially developed for nanopore sensing simulations, may have broader applications in computational studies of DNA-protein systems.",
+      "abstract_text": "All-atom molecular dynamics has become an indispensable tool in the development of nanopore sensors of biological information. In a typical nanopore experiment, measurements of ionic current flowing through a nanopore report on the chemical structure of biomolecules that pass through the nanopore. Alone, such experiments are often insufficient to relate the structure of the biomolecules to the ionic current modulations. The molecular dynamics method can establish such a relationship directly through a brute force simulation under an applied electric field. Here, we examine the ability of molecular dynamics force fields to reproduce experimentally measured nanopore blockade currents produced by single-stranded DNA. Our simulations show that none of the \"off-the-shelf\" force fields (CHARMM36, AMBER Parmbsc1, and DES-AMBER) can reproduce experimental data with the desired level of accuracy. To improve the accuracy, we examined and refined interactions between ions, protein nanopores, and DNA, guided by experiments designed specifically for this purpose. Ultimately, the introduction of surgical corrections to nonbonded interactions within the CHARMM36 force field produced a favorable agreement between simulation and experiment. This refined parameterization, initially developed for nanopore sensing simulations, may have broader applications in computational studies of DNA-protein systems.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -2958,6 +2958,84 @@
       "curated_categories": []
     },
     {
+      "id": "db826d30f14bed5939ef3888ccbd785b6502cb14f9f1f1ac38c1055f204b039d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765282v1",
+        "https://doi.org/10.64898/2026.11.09.765282",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.09.765282.source.xml"
+      ],
+      "title": "Associative Learning and Memory Erasure in a Synthetic Multicellular System",
+      "link": "https://doi.org/10.64898/2026.11.09.765282",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765282v1.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mauri pla",
+          "name": "Pla-Mauri, J"
+        },
+        {
+          "key": "sole",
+          "name": "Sole, R"
+        },
+        {
+          "key": "conde pueyo",
+          "name": "Conde-Pueyo, N"
+        }
+      ],
+      "abstract_text": "Learning is a basic form of adaptation that organisms display from neural systems to single cells. In associative learning, the pairing of two stimuli lets one of them evoke the response to the other. Engineering this behavior in a living cell is difficult, because coincidence detection, memory, and conditional readout must be wired into a single regulatory network. Here we build a consortium of five E. coli strains that distributes the operations of associative learning and communicates through one diffusible quorum-sensing signal. The same signal acts as the memory trace. One strain detects the coincidence of the two inputs, a second maintains the memory through positive feedback in the shared medium, a third reads it out on the conditioned stimulus, a fourth reports the unconditioned response, and a fifth erases the memory on command. We show experimentally that the assembled consortium learns the association, since a stimulus that is silent before training evokes a strong response after pairing. Memory is retained through a medium exchange in which both stimuli are removed, and then the conditioned stimulus alone evokes the response. The reporter is not produced without its input. An erase command returns the response to the background. A population model of the consortium accounts for the sequence of responses and gives design rules for writing, retention, and erasure, and a trade-off in storing memory in a shared extracellular signal. Distributing the operations over strains makes each of them separately tunable and testable and provides a route to microbial communities that learn from their history.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "db848eccfb42150ca084004a8454fca125ea3aba9cf26319e97f3cf0b62f012e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765390v1",
+        "https://doi.org/10.64898/2026.11.09.765390",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.09.765390.source.xml"
+      ],
+      "title": "Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction",
+      "link": "https://doi.org/10.64898/2026.11.09.765390",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765390v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "barducci",
+          "name": "Barducci, G"
+        },
+        {
+          "key": "sanavia",
+          "name": "Sanavia, T"
+        },
+        {
+          "key": "fariselli",
+          "name": "Fariselli, P"
+        }
+      ],
+      "abstract_text": "At fixed thermodynamic conditions, protein stability changes obey reversal antisymmetry and path independence, but learned predictors need not satisfy these properties. Explicit alignment-derived evolutionary information may also complement single-sequence protein language model representations, motivating their integration under clearly defined physical constraints. Here, we develop a training-free strategy that combines thermodynamic constraints with complementary sequence representations. We first introduce EvoPhi-DDG, a potential-based adaptation of the alignment-conditioned evolutionary predictor MSAesm_ddG. By antisymmetrizing its predictions and setting the hidden biases to zero, we express stability changes as differences of a learned, evolution-informed effective potential conditioned on the mutation site and alignment context. This guarantees exact reversal consistency and exact same-site transitivity under fixed alignment contexts while preserving predictive accuracy. We further extend the adapted predictor to multiple substitutions through a background-aware construction that preserves whole-variant antisymmetry. We then combine EvoPhi-DDG with the previously published JanusDDG using fixed, equal weight averaging to test predictive complementarity without additional training. The ensemble preserves exact antisymmetry and reduces multisite pathway-closure RMSE relative to JanusDDG across all evaluated path lengths. Furthermore, the ensemble outperforms both components on S669 and S96, achieving Pearson correlations of 0.59 and 0.55, respectively, compared with 0.55 and 0.52 for JanusDDG and 0.53 and 0.48 for EvoPhi-DDG. On the multiple-substitution benchmark PTmul-NR, the ensemble achieves a Pearson correlation of 0.66, improving on JanusDDG's 0.61 and matching the EvoPhi-DDG extension at the reported precision. Together, these findings distinguish two benefits: averaging complementary predictions improves accuracy, whereas the potential-based reformulation strengthens physical consistency. They support the integration of alignment-conditioned and single-sequence representations without additional training, while separating predictive improvements from mathematical guarantees.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "db84feaf4aa99fc066f5cecba6417962af579d0a4a4572ebfe640a596a334aec",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72647-7",
@@ -3433,6 +3511,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "db9551ab2a0028f93b5f1c1876b39ad4d3a0c3f5fd58e26050478ed024386071",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765303v1",
+        "https://doi.org/10.64898/2026.11.09.765303",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.09.765303.source.xml"
+      ],
+      "title": "EMtrace: offline nanopore metagenomics on a laptop for rapid viral diagnostics, genome recovery and 16S profiling",
+      "link": "https://doi.org/10.64898/2026.11.09.765303",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765303v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "weinstein",
+          "name": "Weinstein, I"
+        },
+        {
+          "key": "smura",
+          "name": "Smura, T"
+        },
+        {
+          "key": "leppanen",
+          "name": "Leppanen, O"
+        },
+        {
+          "key": "krupinska",
+          "name": "Krupinska, M"
+        },
+        {
+          "key": "vauhkonen",
+          "name": "Vauhkonen, H"
+        },
+        {
+          "key": "sironen",
+          "name": "Sironen, T"
+        },
+        {
+          "key": "grzybek",
+          "name": "Grzybek, M"
+        },
+        {
+          "key": "vapalahti",
+          "name": "Vapalahti, O"
+        },
+        {
+          "key": "kant",
+          "name": "Kant, R"
+        }
+      ],
+      "abstract_text": "Nanopore sequencers produce reads within minutes, but metagenomic analysis remains challenging where internet access is limited, data are sensitive or computing resources are modest. EMtrace is an offline pipeline that runs on a laptop during sequencing: it classifies MinKNOW reads, estimates taxon abundance by expectation-maximization (EM) and assembles reference-based consensus genomes. We benchmarked it against five virome and four 16S rRNA tools on simulated, mock-community and clinical data. On field isolates and 16 SARS-CoV-2 clinical samples, EMtrace had the highest species-level F1 score (1.00 and 0.97) and one false-positive species, against 3-7 for the comparators. It recovered divergent viruses as completely as ViMOP, and low-titre field libraries more completely, at [&ge;]99.7% identity. In replayed runs, it identified the target virus in the first 4,000-read batch (5-13 min). With a shared 16S reference, EMtrace reported two to three times fewer false-positive species than Emu.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4375,6 +4516,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "dbcf54ae4b6115368a6e4017634e8e55c31552754e497e7edc7bc6360aec9532",
+      "identity_keys": [
+        "arxiv:2611.09429",
+        "https://doi.org/10.48550/arXiv.2611.09429"
+      ],
+      "title": "Navigating Selection Bias in Genome-wide Association Studies (GWAS)",
+      "link": "https://doi.org/10.48550/arXiv.2611.09429",
+      "pdf_url": "https://arxiv.org/pdf/2611.09429v2",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "barry ciarrah jane",
+          "name": "Ciarrah-Jane S Barry"
+        },
+        {
+          "key": "gholipourshahraki tahereh",
+          "name": "Tahereh Gholipourshahraki"
+        },
+        {
+          "key": "kutalik zoltán",
+          "name": "Zoltán Kutalik"
+        },
+        {
+          "key": "bjarni vilhjálmsson",
+          "name": "Bjarni J Vilhjálmsson"
+        },
+        {
+          "key": "agerbo esben",
+          "name": "Esben Agerbo"
+        }
+      ],
+      "abstract_text": "Selection bias arises when inclusion in a genetic study depends on traits, or causes of traits, that are associated with genotype. It is present in volunteer-based biobanks, case-control designs and studies of disease progression, and genome-wide association study (GWAS) summary statistics from affected samples can propagate this bias into post-GWAS analyses, such as polygenic scores (PGS), Mendelian randomization (MR) and genetic correlation analyses. Despite broad potential impact of selection bias it is sometimes ignored in genetic studies. Many methods exist to detect and correct selection bias, but they rely on different assumptions and require specific data. We organise ten methods applicable to GWAS by the decisions an analyst faces: whether to diagnose or correct, which data are available (individual-level or summary-level), and which form of selection is operating (non-representative participation, case-control ascertainment, index events, sex-differential participation or survival to recruitment). For each method, we describe its principle, applicability, limitations and data requirements. A companion GitHub repository implements nine methods in R and prepares input for the external SPREG software. It provides worked examples using simulated data with known true effects for each form of selection. An interactive tool supports method selection. We conclude with open methodological challenges.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

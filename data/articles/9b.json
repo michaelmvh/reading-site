@@ -154,6 +154,53 @@
       "curated_categories": []
     },
     {
+      "id": "9b091e492ed366bff48e7e09073ff008bb2140366ac0e8dc0f0fec9fbd51d2b8",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764534v1",
+        "https://doi.org/10.64898/2026.11.05.764534",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764534.source.xml"
+      ],
+      "title": "Residual barcode-like sequences and barcode-associated artifacts after Dorado and Barbell preprocessing of metagenomic reads",
+      "link": "https://doi.org/10.64898/2026.11.05.764534",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764534v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "dinse",
+          "name": "Dinse, T"
+        },
+        {
+          "key": "englaender",
+          "name": "Englaender, V. R"
+        },
+        {
+          "key": "metz",
+          "name": "Metz, S"
+        },
+        {
+          "key": "schrezenmeier",
+          "name": "Schrezenmeier, H"
+        },
+        {
+          "key": "messerer",
+          "name": "Messerer, D. A. C"
+        }
+      ],
+      "abstract_text": "Background Residual barcode-like sequences after preprocessing are a quality-control concern in multiplexed Oxford Nanopore Technologies (ONT) sequencing data, particularly in low-biomass, host-dominated samples such as blood. Using blood datasets spiked with a microbial mock community and prepared with the Native Barcoding Kit 96 V14 (SQK-NBD114.96), we compared Dorado 1.1.1, Dorado 2.0.0, and Barbell 0.3.2. Results Dorado demultiplexing reduced barcode-positive reads to approximately 2% of reads, with internal barcode-like matches in 0.17-0.19% of reads. Barbell 0.3.2 applied to untrimmed Dorado basecalls yielded an approximately 50-fold lower detector-defined internal-match rate (0.0035-0.0037%) while retaining 91.2-91.8% of input reads. In the NCBI core_nt release of 12 September 2026, the focused screen identified complete, ungapped 24 nt identity for 64 of the 96 barcodes (66.7%), comprising 505 distinct barcode-accession pairs across 482 accessions and 195 exported TaxID groups of mixed taxonomic ranks. Records annotated as rRNA genes, chromosomes/genomes, and plasmids accounted for 35.6%, 23.2%, and 22.4% of the pairs, respectively. The barcode was located within its native ligation flanks in 224 pairs (44.4%), including 170 (33.7%) with the complete Dorado barcode search window and 3 (0.6%) with the full adapter construct. Conclusion Barbell combined 91-92% read retention with lower detected internal barcode signals. After demultiplexing, barcode-like sequences remained in sample data. Moreover, kit barcode sequences, often within their native ligation flanks, were detected in reference records. Both findings call for careful preprocessing, reference inspection, and downstream validation. Further research should determine whether barcode-associated artifacts in reads and reference records affect taxonomic classification in clinical metagenomic workflows.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9b097e5fa0555b01f33665247db6d39263e60371621459e4f8fd8915c00f1e09",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69244-z",
@@ -1402,7 +1449,7 @@
           "name": "Jun‐Fa Xu"
         }
       ],
-      "abstract_text": "Next-generation biomedical tools require antibodies that are specific, stable, and scalable. Immunoglobulin Y (IgY), derived from egg yolk, offers distinct advantages over mammalian IgG, including higher thermal and proteolytic stability, reduced nonspecific binding in mammalian sera, and lower production costs. This review examines IgY as a versatile biorecognition platform and highlights three engineering strategies—nano-conjugation, surface immobilization, and encapsulation—that further expand its diagnostic and therapeutic applications. In diagnostic applications, IgY reduces background interference by ≥ 90% compared to IgG in several immunoassay formats, enabling ultra‑sensitive detection across multiplex biosensors and point‑of‑care devices. In therapeutic applications, IgY supports non‑invasive interventions such as oral formulations and nano‑hybrid systems. We also discuss the integration of IgY with synthetic biology, AI‑driven antibody design, and digital health surveillance. IgY represents a promising biomaterial for developing equitable, distributed, and precise diagnostic and therapeutic solutions to global health challenges, although further clinical validation and manufacturing standardization are required.",
+      "abstract_text": "Next-generation biomedical tools require antibodies that are specific, stable, and scalable. Immunoglobulin Y (IgY), derived from egg yolk, offers distinct advantages over mammalian IgG, including higher thermal and proteolytic stability, reduced nonspecific binding in mammalian sera, and lower production costs. This review examines IgY as a versatile biorecognition platform and highlights three engineering strategies-nano-conjugation, surface immobilization, and encapsulation-that further expand its diagnostic and therapeutic applications. In diagnostic applications, IgY reduces background interference by ≥ 90% compared to IgG in several immunoassay formats, enabling ultra‑sensitive detection across multiplex biosensors and point‑of‑care devices. In therapeutic applications, IgY supports non‑invasive interventions such as oral formulations and nano‑hybrid systems. We also discuss the integration of IgY with synthetic biology, AI‑driven antibody design, and digital health surveillance. IgY represents a promising biomaterial for developing equitable, distributed, and precise diagnostic and therapeutic solutions to global health challenges, although further clinical validation and manufacturing standardization are required.",
       "discovery_sources": [
         {
           "kind": "open_alex",

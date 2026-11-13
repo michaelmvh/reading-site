@@ -1388,7 +1388,7 @@
           "name": "Brian A. Kuhlman"
         }
       ],
-      "abstract_text": "The poor solubility of integral membrane proteins in water frequently hinders studies with these proteins, presenting challenges for structure determination and binding screens. For instance, the transmembrane protein CD20, which is an important target for treating B-cell malignancies, is not soluble in water and cannot be easily screened against potential protein binders with techniques like phage display or yeast display. Here, we use de novo protein design to create a water-soluble mimic of the CD20 dimer (“soluble CD20”). Soluble CD20 replaces the central transmembrane helix of CD20 with a water-soluble helix that dimerizes to form a coiled coil that structurally matches the dimer interface of native CD20 and presents the central extracellular loop of CD20 in a binding competent conformation. Unlike peptides derived from CD20, soluble CD20 binds tightly to monoclonal antibodies that recognize quaternary epitopes on the extracellular face of CD20. We demonstrate that soluble CD20 is easy to produce, remains folded above 60°C, and is compatible with binder screening via yeast display. Our results highlight the ability of computational protein design to scaffold conformational epitopes from membrane proteins for use in binding and protein engineering studies. Importance This study demonstrates that computational protein design can be used to create water soluble variants of transmembrane proteins. The water-soluble CD20 mimic created here is compatible with high throughput binding screens and should be useful for developing next generation anti-CD20 therapeutics.",
+      "abstract_text": "The poor solubility of integral membrane proteins in water frequently hinders studies with these proteins, presenting challenges for structure determination and binding screens. For instance, the transmembrane protein CD20, which is an important target for treating B‐cell malignancies, is not soluble in water and cannot be easily screened against potential protein binders with techniques like phage display or yeast display. Here, we use de novo protein design to create a water‐soluble mimic of the core epitope of the CD20 dimer (“soluble CD20”). Soluble CD20 replaces the central transmembrane helix of CD20 with a water‐soluble helix that dimerizes to form a coiled coil that structurally matches the dimer interface of native CD20 and presents the second extracellular loop (ECL2) of CD20 in a binding competent conformation. Unlike peptides derived from CD20, soluble CD20 binds tightly to monoclonal antibodies that recognize quaternary epitopes on the extracellular face of CD20. We demonstrate that soluble CD20 is easy to produce, remains folded above 60°C, and is compatible with binder screening via yeast display. Our results highlight the ability of computational protein design to scaffold conformational epitopes from membrane proteins for use in binding and protein engineering studies.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4445,12 +4445,12 @@
         "https://openalex.org/W4405043907"
       ],
       "title": "Controllable All-Atom Protein Generation with Latent Diffusion",
-      "link": "https://doi.org/10.1101/2024.12.02.626353",
+      "link": "https://doi.org/10.21203/rs.3.rs-8450746/v1",
       "pdf_url": null,
       "publication_date": "2024-12-05",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Research Square",
       "authors": [
         {
           "key": "amy lu",
@@ -5150,7 +5150,7 @@
           "name": "Connor W. Coley"
         }
       ],
-      "abstract_text": "Computer-aided synthesis planning (CASP) automates retrosynthetic analysis, generally by recursively applying one-step retrosynthesis models within multistep search algorithms to simplify a target molecule into commercially available starting materials. Despite their utility, these tools often fail to recover literature-reported pathways. Such failures arise from two causes: either (i) the literature-reported precursor is not proposed at all or (ii) it is proposed but ranked too low to be discovered during multistep search. In this work, we quantify the challenges that data-driven one-step retrosynthesis models face in reproducing the reported precursors. We first evaluate model performance using standard top- k exact-match accuracy and stratify this accuracy by product and reaction complexity, demonstrating a decrease in performance with increasing complexity. This decline is accompanied by a systematic underprediction of the number of reacting atoms and changing rings, indicating a bias toward simpler transformations, even when complex examples are included in the training data. To gain deeper insights into failure modes, we evaluate models with complementary metrics that account for incorrect stereochemistry, leaving groups, and multi-stage reactions. Overall, our work provides a quantitative analysis of how one-step retrosynthesis models fail to capture literature-reported reactions and highlights opportunities for improving future models.",
+      "abstract_text": "This work quantifies the failure modes of one-step retrosynthesis models in recovering literature-reported precursors, using complementary accuracy metrics and stratifying accuracy across product and reaction complexity.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5722,7 +5722,7 @@
           "name": "Sangsu Bae"
         }
       ],
-      "abstract_text": "The prime editing 2 (PE2) system comprises a nickase Cas9 fused to a reverse transcriptase utilizing a prime editing guide RNA (pegRNA) to introduce desired mutations at target genomic sites. However, the PE efficiency is limited by mismatch repair (MMR) that excises the DNA strand containing desired edits. Thus, inhibiting key components of MMR complex through transient expression of a dominant negative MLH1 (MLH1dn) exhibited approximately 7.7-fold increase in PE efficiency over PE2, generating PE4. Herein, by utilizing a generative artificial intelligence (AI) technologies, RFdiffusion and AlphaFold 3, we ultimately generated a de novo MLH1 small binder (named MLH1-SB), which bind to the dimeric interface of MLH1 and PMS2 to disrupt the formation of key MMR components. MLH1-SB’s small size (82 amino acids) allowed it to be integrated into pre-existing PE architectures via the 2A system, creating a novel PE-SB platform. Resultantly, by incorporating MLH1-SB into PE7, we have developed an improved PE architecture called PE7-SB, which demonstrates the highest PE efficiency to date (29.4-fold over PE2 and 2.4-fold over PE7 in HeLa cells), providing an insight that generative AI technologies will boost up the improvement of genome editing tools.",
+      "abstract_text": "The prime editing (PE) system consists of a Cas9 nickase fused to a reverse transcriptase, which introduces precise edits into the target genomic region guided by a PE guide RNA. However, PE efficiency is limited by mismatch repair. To overcome this limitation, transient expression of a dominant-negative MLH1 (MLH1dn) has been used to inhibit key components of mismatch repair. Here, we designed a de novo MLH1 small binder (MLH1-SB) that binds to the dimeric interface of MLH1 and PMS2 using RFdiffusion and AlphaFold 3. The compact size of MLH1-SB enabled its integration into existing PE architectures via 2A systems, creating a PE-SB platform. The PE7-SB2 system significantly improved PE efficiency, achieving an 18.8-fold increase over PEmax and a 2.5-fold increase over PE7 in HeLa cells, as well as a 3.4-fold increase over PE7 in mice. This study highlights the potential of generative AI in advancing genome editing technology.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

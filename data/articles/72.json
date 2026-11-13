@@ -2836,6 +2836,40 @@
       "curated_categories": []
     },
     {
+      "id": "727f56b5308f7dc8f5b1a287d094392df9ff2ac6306321fc5db7a1dab0e4fde0",
+      "identity_keys": [
+        "https://doi.org/10.1016/j.isci.2026.117289",
+        "https://openalex.org/W7116631004"
+      ],
+      "title": "Asymmetric cross-reactivity of nuclear receptors reveals an evolutionary buffer between estrogen and androgen signaling",
+      "link": "https://doi.org/10.1016/j.isci.2026.117289",
+      "pdf_url": null,
+      "publication_date": "2026-08-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "iScience",
+      "authors": [
+        {
+          "key": "shintaro yamazaki",
+          "name": "Shintaro Yamazaki"
+        },
+        {
+          "key": "akhilesh reddy",
+          "name": "Akhilesh B. Reddy"
+        }
+      ],
+      "abstract_text": "Nuclear receptor ligand interaction landscapes remain incompletely characterized, particularly at the scale of entire receptor families. We used Boltz-2, a structure-based deep learning framework for protein-ligand affinity prediction, to perform an unbiased survey of endogenous hormones across all human nuclear receptors. This analysis revealed an asymmetric pattern within steroid hormone receptors: estradiol showed broad predicted compatibility across multiple receptors, whereas other steroid hormones did not exhibit reciprocal compatibility with estrogen receptors. To interpret this pattern, we integrated structural modeling, evolutionary analyses, physiological contextualization, and prior experimental observations, which collectively led us to propose an evolutionary buffering framework for steroid receptor interactions. This study illustrates how large-scale affinity prediction can move beyond individual receptor-ligand pairs to reveal family-level interaction architectures, generate testable hypotheses, and guide future experimental investigation.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "728100509b0c13a46d8652647531cf503b2f9c52d90897d9fd86ae3f032de8aa",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75377-y",
@@ -4408,7 +4442,7 @@
           "name": "Birte Höcker"
         }
       ],
-      "abstract_text": "Abstract Protein design aims to build new proteins from scratch thereby holding the potential to tackle many environmental and biomedical problems. Recent progress in the field of natural language processing (NLP) has enabled the implementation of ever-growing language models capable of understanding and generating text with human-like capabilities. Given the many similarities between human languages and protein sequences, the use of NLP models offers itself for predictive tasks in protein research. Motivated by the evident success of generative Transformer-based language models such as the GPT-x series, we developed ProtGPT2, a language model trained on protein space that generates de novo protein sequences that follow the principles of natural ones. In particular, the generated proteins display amino acid propensities which resemble natural proteins. Disorder and secondary structure prediction indicate that 88% of ProtGPT2-generated proteins are globular, in line with natural sequences. Sensitive sequence searches in protein databases show that ProtGPT2 sequences are distantly related to natural ones, and similarity networks further demonstrate that ProtGPT2 is sampling unexplored regions of protein space. AlphaFold prediction of ProtGPT2-sequences yielded well-folded non-idealized structures with embodiments as well as large loops and revealed new topologies not captured in current structure databases. ProtGPT2 has learned to speak the protein language. It has the potential to generate de novo proteins in a high throughput fashion in a matter of seconds. The model is easy-to-use and freely available.",
+      "abstract_text": "Abstract Protein design aims to build novel proteins customized for specific purposes, thereby holding the potential to tackle many environmental and biomedical problems. Recent progress in Transformer-based architectures has enabled the implementation of language models capable of generating text with human-like capabilities. Here, motivated by this success, we describe ProtGPT2, a language model trained on the protein space that generates de novo protein sequences following the principles of natural ones. The generated proteins display natural amino acid propensities, while disorder predictions indicate that 88% of ProtGPT2-generated proteins are globular, in line with natural sequences. Sensitive sequence searches in protein databases show that ProtGPT2 sequences are distantly related to natural ones, and similarity networks further demonstrate that ProtGPT2 is sampling unexplored regions of protein space. AlphaFold prediction of ProtGPT2-sequences yields well-folded non-idealized structures with embodiments and large loops and reveals topologies not captured in current structure databases. ProtGPT2 generates sequences in a matter of seconds and is freely available.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

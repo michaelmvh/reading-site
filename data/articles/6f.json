@@ -528,6 +528,56 @@
       "curated_categories": []
     },
     {
+      "id": "6f1eda518994b9c86584206cfe493d30a44c52ccba2ff172d970f0ae0e62121a",
+      "identity_keys": [
+        "https://doi.org/10.1021/acscatal.6c06176",
+        "https://openalex.org/W7225773484"
+      ],
+      "title": "Ancestral Sequence Reconstruction as an Emerging Strategy for AI-Integrated Enzyme Engineering",
+      "link": "https://doi.org/10.1021/acscatal.6c06176",
+      "pdf_url": null,
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACS Catalysis",
+      "authors": [
+        {
+          "key": "deng tianyi",
+          "name": "Tianyi Deng"
+        },
+        {
+          "key": "wenhao wu",
+          "name": "Wenhao Wu"
+        },
+        {
+          "key": "bi youli",
+          "name": "Youli Bi"
+        },
+        {
+          "key": "ding ruitong",
+          "name": "Ruitong Ding"
+        },
+        {
+          "key": "zhengming zhu",
+          "name": "Zhengming Zhu"
+        },
+        {
+          "key": "jiang ling",
+          "name": "Ling Jiang"
+        }
+      ],
+      "abstract_text": "Abstract Enzyme catalysis is central to biomanufacturing, but practical use is often limited by operational stability, substrate scope, and limited evolvability toward non-native transformations. Ancestral sequence reconstruction (ASR) provides alternative protein scaffolds and evolutionary sequence space for enzyme engineering. Some reconstructed enzymes show enhanced stability, broader substrate acceptance, or mutational robustness, although these properties depend on the family and reconstruction. This review examines three developments in the transition of ASR from a retrospective tool for studying evolutionary history to an artificial intelligence-integrated strategy for enzyme engineering. Tree-level multiplexed ASR (mASR) reconstructs ancestors across alternative phylogenies retained by statistical comparison. The resulting ancestral libraries capture evolutionary uncertainty and expand the accessible sequence space, with potential for functional exploration. Machine learning (ML), including protein language models, can support candidate prioritization and property prediction, but most ASR–ML demonstrations remain family-specific proof-of-concept studies. Generative and alignment-free methods are beginning to move the field beyond reconstructing sequences toward designing ancestral-like scaffolds for functions never sampled by natural selection. Together, these advances support the use of ASR to discover stable protein scaffolds, accelerate biocatalyst development, and investigate the molecular mechanisms of enzyme evolution.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6f213caf348d81324c385f388804d6750eff9a50f2df06cadde1b23e7ec7b0e8",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10144-z",
@@ -6783,6 +6833,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "6ff3cc37cc9b85f3837b0cdb6ce38eb444385433ae61e7b4d8b132e3b67ad3fe",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765756v1",
+        "https://doi.org/10.64898/2026.11.10.765756",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765756.source.xml"
+      ],
+      "title": "SpaAxFormer: Fine-Grained Token Modeling of Spatial Transcriptomics with Axial Transformers",
+      "link": "https://doi.org/10.64898/2026.11.10.765756",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765756v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lee",
+          "name": "Lee, C"
+        },
+        {
+          "key": "xie",
+          "name": "Xie, X"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics combines gene-expression measurements with spatial relationships between cells. We investigate how spatial context can be incorporated into gene-resolved representations while preserving explicit input-gene correspondence. SpaAxFormer is a spatially constrained factorized formulation that maintains contextual cell-gene states throughout the encoder. It first contextualizes genes within each cell and then exchanges corresponding gene states across spatial neighbors, while a separate CLS representation provides a cell-level summary. Contextual gene states support gene-expression reconstruction, while CLS-conditioned reconstruction and contrastive learning provide complementary supervision for the cell-level representation. We evaluate SpaAxFormer on gene-expression imputation and spatial-domain identification across multiple spatial-transcriptomics technologies. Compared with the included baselines, imputation results were most favorable on dorsolateral prefrontal cortex (DLPFC) datasets and more mixed on additional technologies, while post-hoc spatial refinement consistently improved mean ARI on the Visium spatial-domain datasets where it was applied. In a single-slice component-addition analysis, mean clustering ARI increased as CLS-conditioned reconstruction and contrastive supervision were added. Together, these results show that the same gene-resolved formulation can support complementary gene-level prediction and cell-level spatial representation while preserving explicit input-gene correspondence.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

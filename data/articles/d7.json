@@ -5316,6 +5316,53 @@
       "curated_categories": []
     },
     {
+      "id": "d7eed8fd72d04890016a4e8b2e01978eb7f8f9b8f16360b072480b6f1e90f866",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.08.765198v1",
+        "https://doi.org/10.64898/2026.11.08.765198",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.08.765198.source.xml"
+      ],
+      "title": "Reticulation-Aware Dissimilarities for Phylogenetic Networks",
+      "link": "https://doi.org/10.64898/2026.11.08.765198",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765198v1.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "guang",
+          "name": "Guang, Z"
+        },
+        {
+          "key": "kessler",
+          "name": "Kessler, M"
+        },
+        {
+          "key": "sapoval",
+          "name": "Sapoval, N"
+        },
+        {
+          "key": "yan",
+          "name": "Yan, Z"
+        },
+        {
+          "key": "nakhleh",
+          "name": "Nakhleh, L"
+        }
+      ],
+      "abstract_text": "Dissimilarity measures play a critical role in phylogenetics. They help quantify the accuracy of inferences when the ground truth is known, allow comparisons of inferences obtained using different methods, and provide a tool for summarizing sets of phylogenies. A wide array of dissimilarity measures has been introduced for phylogenetic trees over the past half-century, and they vary in their mathematical properties, empirical behavior, and computational complexity. When the evolutionary history involves reticulate processes, such as hybridization and horizontal gene transfer, it is represented by phylogenetic networks. Although the study of phylogenetic network dissimilarity is less established than its tree counterpart, the past two decades have seen an increasing number of measures developed for phylogenetic networks. However, while some have established mathematical properties---for example, metricity on certain classes of phylogenetic networks---none properly separates reticulation disagreement from tree-like disagreement. This is the rationale behind the introduction of the hybrid ancestry error (HAE) measure by Dai and Molloy. The HAE measure, however, is too simplistic to distinguish different reticulation scenarios. In this work, we propose a novel family of network dissimilarity measures that explicitly account for reticulation differences while being more informative than HAE. We prove that our measures are pseudometrics on rooted binary phylogenetic networks on a fixed taxon set, with two instantiations yielding metrics on binary level-1 networks. Empirically, the measures remain sensitive to reticulation errors as network size grows and respond to changes in hybrid identity and parental placement. Calibration experiments further characterize the measures' behavior under network edits of various magnitudes. Data Availability: The dissimilarities are implemented in the PhyNetPy library, available at https://github.com/NakhlehLab/PhyNetPy. All the data simulated for the study is available at https://doi.org/10.5281/zenodo.23933421. Funding: This work was supported in part by the NSF grants DMS/NIGMS-2153704 and DBI-2420499. Declaration of AI-assisted technologies: During the preparation of this work, the authors used OpenAI's Codex (GPT-6 Astra) and Anthropic's Claude (Fable 5) to assist with editing manuscript text, developing proofs and analysis code, and preparing figures. The authors reviewed and edited the resulting material, verified the analyses, and take full responsibility for the content of this article.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d7f401d612b48e9ac63203f1ba27b68a0b29cded2beeaba4611ebaa19deb3605",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73984-3",

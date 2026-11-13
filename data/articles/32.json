@@ -2376,8 +2376,8 @@
           "name": "Filippo Stocco"
         },
         {
-          "key": "illanes",
-          "name": "R. Illanes"
+          "key": "illanes ramiro vicioso",
+          "name": "Ramiro Illanes-Vicioso"
         },
         {
           "key": "lasse middendorf",
@@ -3945,6 +3945,50 @@
       "curated_categories": []
     },
     {
+      "id": "32aedd243b7d88776800adb6bd14b5191d9e267a36172f91f2899aee82326c5a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764698v2",
+        "https://doi.org/10.64898/2026.11.05.764698",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764698.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.05.764698.source.xml"
+      ],
+      "title": "spearfish: ultrafast Δ-mapping of long reads to redundant transcriptomes",
+      "link": "https://doi.org/10.64898/2026.11.05.764698",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764698v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "abdelgawad",
+          "name": "Abdelgawad, H"
+        },
+        {
+          "key": "martayan",
+          "name": "Martayan, I"
+        },
+        {
+          "key": "marchet",
+          "name": "MARCHET, C"
+        },
+        {
+          "key": "patro",
+          "name": "Patro, R"
+        }
+      ],
+      "abstract_text": "In a transcriptome, isoforms share most of their sequence, and gene families add further near-copies. Yet most long-read mappers treat each isoform as a separate target and repeat seeding, chaining and alignment for each. We introduce spearfish, a long-read mapper built for this redundancy. Its delta mapping ({Delta}-mapping) computes each target's alignment-score difference from the best candidate. It skips sequence that all candidates share, which cannot change the difference, and aligns where they differ once per distinct sequence rather than once per target. Seeds come from locally consistent parsing (LCP), so every isoform that contains an exon receives the same seeds in its interior. Collapsing them gives a core graph, a de Bruijn-like graph whose size is bounded by the distinct exonic sequence plus a small term per splice junction, independent of the number of isoforms. Over this graph, spearfish computes the exact colinear chaining score of every candidate transcript, sharing dynamic-programming state among transcripts via a procedure which we prove is equivalent to chaining on each transcript separately. Across RNA-seq experiments, using 32 threads, spearfish maps reads 26-83x faster than minimap2 in at most a seventh of the memory, and 2.6-11.3x faster than lr-kallisto's pseudoalignment. On simulated reads it ranks the true transcript first more often than minimap2 on HiFi reads and within 0.5 percentage points of it on ONT reads at 95% accuracy. When using spearfish's {Delta}-mapping with oarfish for abundance estimation, the abundance estimates match or improve on those that make use of minimap2's alignments on both simulated reads (especially when they are untrimmed) and on seven SG-NEx runs with spike-ins, and quantification is 3.0-8.8x faster than lr-kallisto in going from reads to abundances.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "32b47f31be0a4fc54f2536f19b2b813ba16541dc62bc4ef9661ffc044e8b9008",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-03061-8",
@@ -4148,6 +4192,45 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "32c56ab8042c6f024369a8bda0ef22204f44c1bc10794bdc1813f54acd0eb489",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764633v1",
+        "https://doi.org/10.64898/2026.11.05.764633",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764633.source.xml"
+      ],
+      "title": "Toward space-optimal approximate colored indexes at scale",
+      "link": "https://doi.org/10.64898/2026.11.05.764633",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "okcu",
+          "name": "Okcu, T"
+        },
+        {
+          "key": "alkan",
+          "name": "Alkan, C"
+        },
+        {
+          "key": "limasset",
+          "name": "Limasset, A"
+        }
+      ],
+      "abstract_text": "Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput. Although exact colored indexes retain complete sequence information, their construction and storage costs can become substantial for highly diverse collections. Indexes based on approximate membership query (AMQ) filters offer a compact alternative with fast construction and queries. Being hash-based, these indexes support different seeding schemes without structural changes, while sampling can reduce storage requirements, construction time and query time by an order of magnitude. Within the AMQ framework, querying many independent filters causes scattered memory accesses, reducing throughput. This motivates interleaved filters, which address this weakness by storing filter slots contiguously by position, enabling cache-friendly access and simultaneous membership queries. However, existing implementations face a trade-off between guaranteed construction and space-efficiency. Here, we introduce a new indexing framework based on interleaved ZOR filters, fingerprint-based structures with guaranteed construction that require only approximately 1% more space than the theoretical minimum for AMQ. To exploit redundancy between genomes, we introduce a color-preserving merging mechanism that extends fingerprints with membership bits, allowing multiple genomes to share a filter while retaining their individual identities. Together with a lightweight, sketch-based layout planner, this mechanism yields a compact index structure that accommodates collections with widely varying genome sizes and degrees of similarity. Our third contribution extends the AMQ framework beyond contiguous -mers through a low-density minimizer scheme alongside efficient implementations of sensitive seeds, including gapped -mers and randstrobes. We implement these methods in Zindex, a parallel, SIMD-accelerated Rust index that scales to millions of genomes while supporting diverse seeding and sampling schemes. Zindex indexes the latest RefSeq release of 564,401 assembled genomes in under 22 hours, producing a 289.5 GB index. It further scales to all 2,763,297 genomes of AllTheBacteria, producing a 406.3 GB index in four days with a peak memory footprint of 43.8 GB. Availability. Zindex is available at https://github.com/Malfoy/Zindex",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

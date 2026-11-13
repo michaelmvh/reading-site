@@ -1901,7 +1901,7 @@
       ],
       "title": "Adaptive and Bioresponsive Peptide-Functionalized Lipid-Based Nanocarriers for Precision Nanomedicine",
       "link": "https://doi.org/10.1016/j.cocis.2026.102074",
-      "pdf_url": null,
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1359029426000853/pdf",
       "publication_date": "2026-10-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -2763,6 +2763,46 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4f7ce810a918bfb709af4fac3666c8c4d9e7a19e58e31670c500646ea2478f0c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.02.13.705625v2",
+        "https://doi.org/10.64898/2026.02.13.705625",
+        "https://www.biorxiv.org/content/early/2026/02/16/2026.02.13.705625.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.02.13.705625.source.xml"
+      ],
+      "title": "kache-hash: A dynamic, concurrent, and cache-efficient hash table for streaming k-mer operations",
+      "link": "https://doi.org/10.64898/2026.02.13.705625",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705625v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "khan",
+          "name": "Khan, J"
+        },
+        {
+          "key": "patro",
+          "name": "Patro, R"
+        },
+        {
+          "key": "pandey",
+          "name": "Pandey, P"
+        }
+      ],
+      "abstract_text": "Many computational genomic analyses spend much of their time inserting and looking up k-mers in large hash tables. These operations stream through sequences, and consecutive k-mers share k - 1 characters. General hash tables ignore this locality. Each k-mer costs them a memory access, and in concurrent builds, a synchronization. We present kache-hash, an exact, dynamic, concurrent, and resizable hash table that places k-mers by their minimizers. A run of consecutive k-mers with the same minimizer then shares its buckets, which it fetches and locks only once. Building on Iceberg hashing, kache-hash handles skewed minimizers with secondary buckets. A compact spill filter lets lookups stop early, yet stay exact. The table stores sets or maps, and doubles in place in parallel. Under a cache-residency assumption, we show that a run that stays in its primary bucket brings in at most that bucket's cache lines, however long the run is. We compare kache-hash with six general-purpose and k-mer-specific tables on five genomic datasets. At 56 threads, it builds k-mer sets 3.5--7.0x faster than the fastest baseline, and answers queries 1.5--5.4x faster. On the human genome, its positive and mixed queries fetch 3.1--3.2x fewer cache lines per k-mer than those of the fastest baseline. In PanGenie, kache-hash speeds up end-to-end genotyping 1.96x with identical outputs. In K2Rmini, it speeds up read filtering 10.7--19.4x over a fixed control version of the release, also making the filter exact. kache-hash is implemented in C++20 and is available at https://github.com/jamshed/kache-hash.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -4523,7 +4563,7 @@
       ],
       "title": "MAP Crosslinker Chirality Regulates Macrophage Polarization Through MD‐2 Engagement and Enables Tunable Immunomodulation Through Novel Peptide Design",
       "link": "https://doi.org/10.1002/adhm.71572",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13569042/pdf/ADHM-15-0.pdf",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adhm.71572",
       "publication_date": "2026-08-13",
       "publication_date_precision": "unknown",
       "collection_date": null,

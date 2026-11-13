@@ -3384,6 +3384,54 @@
       "curated_categories": []
     },
     {
+      "id": "c1933247f245701f76ffea601f7ff3b90b7b7efdcec4080e5f67b713f30edda9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.02.23.703392v2",
+        "https://doi.org/10.64898/2026.02.23.703392",
+        "https://www.biorxiv.org/content/early/2026/02/24/2026.02.23.703392.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.02.23.703392.source.xml"
+      ],
+      "title": "DemuxHMM: Large-Scale Single-Cell Embryo Profiling via Recombination Barcoding",
+      "link": "https://doi.org/10.64898/2026.02.23.703392",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.23.703392v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "afanassiev",
+          "name": "Afanassiev, A. I"
+        },
+        {
+          "key": "wei",
+          "name": "Wei, K"
+        },
+        {
+          "key": "yachie",
+          "name": "Yachie, N"
+        },
+        {
+          "key": "sugioka",
+          "name": "Sugioka, K"
+        },
+        {
+          "key": "schiebinger",
+          "name": "Schiebinger, G"
+        }
+      ],
+      "abstract_text": "High-resolution developmental time-courses with single-cell RNA sequencing (scRNA-seq) increasingly target trajectory inference and other analyses in the study of development and disease. Researchers can efficiently generate these datasets by pooling individuals and inferring cell-to-individual mappings after sequencing, in a process called demultiplexing. Existing demultiplexing methods face limitations in the number of timepoints they can support, due to either the need for individual-by-individual processing or reduced accuracy at large numbers of individuals. To address these limitations, we introduce a computational framework for demultiplexing large-scale, individual-resolved datasets. Our framework includes a recombination-aware demultiplexing method, DemuxHMM, which uses a Hidden Markov Model (HMM) to explicitly model contiguous SNP patterns that arise from simple breeding schemes. We demonstrate substantial performance and scalability gains from this recombination-aware approach on both a real Diversity Outbred (DO) mouse data and a simulated Drosophila dataset. This performance demonstrates the value of the method when used for common applications on model organisms such as time series, crossover position inference, and eQTLS, among others.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c195ff86b6568d975cec17452c14f8b9d4a8d52c93da6d7c5bfdafd4580ecf62",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66406-3",
@@ -3614,7 +3662,7 @@
           "name": "Wendell A. Lim"
         }
       ],
-      "abstract_text": "Abstract Chemokines orchestrate the migration of immune cells throughout the body, but harnessing chemokine signaling to engineer targeted cell trafficking is challenging because of their overlapping interactions and broad expression patterns. Here we used structure-guided protein design to engineer orthogonal chemokine-receptor pairs with minimal crosstalk to native systems. T cells engineered with an ortho-receptor selectively infiltrated tissues producing the ortho-chemokine, in vitro and in vivo. By engineering T cells that both sense and secrete the ortho-chemokine, we generated collective swarming behavior in which pioneer cells attract follower cells via an ortho-chemokine gradient self-organized by positive feedback. By providing orthogonal genetic control over both the generation and sensing of chemokine gradients, this system enables the construction of autonomous spatial targeting programs in engineered cells.",
+      "abstract_text": "Chemokines orchestrate the migration of immune cells throughout the body, but harnessing chemokine signaling to engineer targeted cell trafficking is challenging because of their overlapping interactions and broad expression patterns. Here we used structure-guided protein design to engineer orthogonal chemokine-receptor pairs with minimal crosstalk to native systems. T cells engineered with an ortho-receptor selectively infiltrated tissues producing the ortho-chemokine, in vitro and in vivo. By engineering T cells that both sense and secrete the ortho-chemokine, we generated collective swarming behavior in which pioneer cells attract follower cells via an ortho-chemokine gradient self-organized by positive feedback. By providing orthogonal genetic control over both the generation and sensing of chemokine gradients, this system enables the construction of autonomous spatial targeting programs in engineered cells.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4525,6 +4573,50 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c1cef52c549d02eee00b2c5c5ebba16d6d4e160bc9a63675e58e55a7c7c25c22",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.02.756356v2",
+        "https://doi.org/10.64898/2026.10.02.756356",
+        "https://www.biorxiv.org/content/early/2026/10/09/2026.10.02.756356.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.10.02.756356.source.xml"
+      ],
+      "title": "DECONVersation: Single Cell Foundation Model-Derived Embeddings for Robust Cell Type Deconvolution of Bulk RNA-seq",
+      "link": "https://doi.org/10.64898/2026.10.02.756356",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756356v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "oku",
+          "name": "Oku, A"
+        },
+        {
+          "key": "geiger",
+          "name": "Geiger, H"
+        },
+        {
+          "key": "robine",
+          "name": "Robine, N"
+        },
+        {
+          "key": "fu",
+          "name": "Fu, R"
+        }
+      ],
+      "abstract_text": "Motivation: Bulk RNA-seq deconvolution uses single-cell references to estimate cell type proportions in bulk tissue. Existing methods face challenges with batch effects, subject-level variation, and marker gene selection. We propose a new approach leveraging general-purpose single-cell foundation models. Results: DECONVersation combines pretrained or fine-tuned single-cell foundation model embeddings with non-negative least squares for deconvolution. The embeddings eliminate the need for explicit marker selection, and reduce batch effects. Compared against MuSiC, DWLS, and BayesPrism, DECONVersation with Geneformer or Cell2Sentence-2B achieved competitive performance across six bulk datasets with ground truth, with performance improvements after reference-specific fine-tuning. Availability and Implementation: DECONVersation is available through the Python Package Index. The source code is available at https://github.com/nygenome/DECONVersation, and the datasets and Apptainer/Singularity images are archived on https://zenodo.org/records/22949405.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

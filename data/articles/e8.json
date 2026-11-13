@@ -961,6 +961,109 @@
       "curated_categories": []
     },
     {
+      "id": "e8493fa2208a2c01a651980e8c252ae020b20a504a9b598bd87a8545f9ad87f2",
+      "identity_keys": [
+        "biorxiv:10.1101/2023.06.29.543848v2",
+        "https://doi.org/10.1101/2023.06.29.543848",
+        "https://www.biorxiv.org/content/early/2026/11/12/2023.06.29.543848.source.xml"
+      ],
+      "title": "ProLigGPT: a language model for protein-targeted ligand design free from structural constraints",
+      "link": "https://doi.org/10.1101/2023.06.29.543848",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.29.543848v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, Y"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, C"
+        },
+        {
+          "key": "song",
+          "name": "Song, X"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, X"
+        },
+        {
+          "key": "tan",
+          "name": "Tan, X"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, W"
+        },
+        {
+          "key": "xiang",
+          "name": "Xiang, A. P"
+        },
+        {
+          "key": "xia",
+          "name": "Xia, K"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, H"
+        },
+        {
+          "key": "fan",
+          "name": "Fan, H"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, F"
+        },
+        {
+          "key": "li",
+          "name": "Li, J"
+        },
+        {
+          "key": "lei",
+          "name": "Lei, Y"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, H"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "ma",
+          "name": "Ma, J"
+        },
+        {
+          "key": "li",
+          "name": "Li, Y"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, Y"
+        },
+        {
+          "key": "han",
+          "name": "Han, S"
+        }
+      ],
+      "abstract_text": "The deep-learning language model offers promising approaches to molecular design. However, existing models typically exhibit one or more of the following limitations: structural constraints, confinement to a single task, and lack of cross-domain capability (e.g., protein-to-ligand generation). Inspired by GPT's success in language modeling, we introduce ProLigGPT, a seq2seq autoregressive model based on GPT-2 and trained on ~1.9 million protein-ligand pairs without 3D structures. ProLigGPT supports tasks including de novo ligand generation and scaffold-based molecular design for target proteins. Benchmarking against three state-of-the-art structure-based models across eight representative target proteins, ProLigGPT demonstrated superior performance on comprehensive metrics. Through systematic evaluations of ProLigGPT's interpretability, we find that ProLigGPT uses the full protein sequence to generate target-aware ligands, unlike pocket-based strategies that depend only on residues near the binding site. Applying ProLigGPT to Pl3Kalpha; inhibitor design successfully yielded inhibitors with a novel scaffold and inhibitors derived from a known scaffold, demonstrating that ProLigGPT can reach beyond the boundaries of known chemical space. Finally, we validated the generalization ability of ProLigGPT on Target T1, which lacks a crystal structure and known inhibitors, confirming that ProLigGPT can design inhibitors solely from sequence information. These findings highlight the promise of language models in designing ligands for target proteins free from structural constraints, offering a flexible and scalable framework for exploring vast chemical spaces in drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e8497720a4dc30b9d731ca046f54c1ac39fc75653d1428095f7c9f1503730928",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70153-4",
@@ -2416,7 +2519,7 @@
         },
         {
           "key": "jeremy ratcliff",
-          "name": "Jeremy D. Ratcliff"
+          "name": "Jeremy Ratcliff"
         },
         {
           "key": "vinícius zambaldi",
@@ -2504,7 +2607,7 @@
         "https://doi.org/10.21608/ajps.2026.504589",
         "https://openalex.org/W7161774483"
       ],
-      "title": "DISCOVERY OF A NOVEL PHENYLAMINE-PURINE CHEMOTYPE AS A POTENTIAL EGFR INHIBITOR USING AN INTEGRATED AI-DRIVEN DRUG DESIGN PIPELINE",
+      "title": "‌DISCOVERY OF A NOVEL PHENYLAMINE-PURINE CHEMOTYPE AS A POTENTIAL EGFR INHIBITOR USING AN INTEGRATED AI-DRIVEN DRUG DESIGN PIPELINE",
       "link": "https://doi.org/10.21608/ajps.2026.504589",
       "pdf_url": null,
       "publication_date": "2026-05-14",
@@ -3253,7 +3356,7 @@
           "name": "Naruki Yoshikawa"
         }
       ],
-      "abstract_text": "ABSTRACT Recent advances in artificial intelligence technologies have accelerated the development of computational protein design techniques. Although the structure of the designed proteins has been the primary focus, diversity of designed amino acid sequences is another important aspect of protein design. To address the trade-off between reducing sequence similarity and improving structural similarity, simultaneous optimization of these two objectives can be effective. We present a method that integrates ProteinMPNN with the multi-objective optimization algorithm NSGA-II to design proteins that retain high structural similarity to a target while exhibiting low sequence similarity. Using Top7 as a reference protein, we demonstrate that our approach improves sequence diversity compared to the original ProteinMPNN while maintaining comparable structural similarity.",
+      "abstract_text": "Recent advances in artificial intelligence technologies have accelerated the development of computational protein design techniques. Although the structure of the designed proteins has been the primary focus, diversity of designed amino acid sequences is another important aspect of protein design. To address the trade-off between reducing sequence similarity and improving structural similarity, simultaneous optimization of these two objectives can be effective. We present a method that integrates ProteinMPNN with the multi-objective optimization algorithm NSGA-II to design proteins that retain high structural similarity to a target while exhibiting low sequence similarity. Using Top7 as a reference protein, we demonstrate that our approach can design proteins with lower sequence similarity to the reference compared to the original ProteinMPNN, while maintaining comparable structural similarity.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3960,6 +4063,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e8d753e84821ce6521130b54afc5f7739b28545e483673856c095fc7bec04831",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765352v1",
+        "https://doi.org/10.64898/2026.11.09.765352",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.09.765352.source.xml"
+      ],
+      "title": "DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking",
+      "link": "https://doi.org/10.64898/2026.11.09.765352",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765352v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liao",
+          "name": "Liao, Y"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, L"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, J"
+        },
+        {
+          "key": "lai",
+          "name": "Lai, L"
+        },
+        {
+          "key": "pei",
+          "name": "Pei, J"
+        }
+      ],
+      "abstract_text": "Molecular glues (MGs) modulate protein function by inducing or stabilizing protein interactions. However, accurately modeling MG ternary complexes remains challenging. Here, we present DiffTernary, a diffusion-based docking method for the joint prediction of relative protein arrangement and MG binding pose. We introduce Ternary-PDB, a dataset of 76,702 experimentally determined ternary complexes curated from the Protein Data Bank using structural filters and a release cutoff aligned with AlphaFold 3 (AF3). When trained on this dataset, DiffTernary achieved acceptable protein-protein interaction (PPI) predictions (DockQ > 0.23) for 50.0% of MGBench complexes with a single prediction, compared with 51.1% for AF3. In comparisons with AF3, OpenFold3, ESMFold2, Protenix-v1 and Protenix-v2, DiffTernary ranked second with a best-of-25 PPI prediction success rate of 78.4%, behind ESMFold2 (90.9%) and ahead of AF3 (72.7%). A separate DiffTernary model trained on TernaryDB achieved a mean DockQ of 0.306 on the 94 complexes in the TernaryDB MGD test set with a single prediction, compared with 0.228 for DeepTernary. Confidence-based selection among 40 samples yielded acceptable PPI predictions for 41.5% of complexes, compared with 30.9% for DeepTernary. An E2Former variant increased training and sampling throughput 6.90-fold and 4.37-fold, respectively, under the evaluated configurations. Together, DiffTernary and Ternary-PDB provide an efficient docking approach for MG complex prediction and a valuable structural resource for MG discovery and design.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

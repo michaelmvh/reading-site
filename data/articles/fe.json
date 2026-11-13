@@ -37,7 +37,7 @@
           "name": "Yuedong Yang"
         }
       ],
-      "abstract_text": "Abstract Protein design is revolutionizing biotechnology, yet existing approaches struggle to balance structural foldability with functional performance. Structure-based models excel at generating stable protein backbones but often overlook critical functional properties, while protein language models capture evolutionary and functional signals but frequently predict sequences lacking structural stability. Integrating these complementary approaches remains challenging due to their inherently conflicting objectives. We present MAProt, a multiagent framework that synergistically combines structure-based and protein language model-based methods for protein design. Each agent specializes in a distinct aspect of the design objective: the structure-based agent (e.g., ProteinMPNN) ensures compatibility with the target backbone, while protein language model-based agents (e.g., ESM, SaProt) capture evolutionary plausibility and functional potential. To reconcile conflicts and achieve optimal trade-offs, we introduce a Pareto-based negotiation module that enables effective multi-objective coordination and consensus among agents. Extensive experiments on benchmark datasets demonstrate that MAProt achieves a remarkable improvement over state-of-the-art baselines, and generalizes robustly across a range of tasks, including thermodynamic folding stability design, functional protein design, and high-affinity antibody design. These results highlight the power of collaborative optimization for advancing rational protein engineering. Code https://github.com/biomed-AI/MAProt",
+      "abstract_text": "Protein design is revolutionizing biotechnology, yet existing approaches struggle to balance structural foldability with functional performance. Structure-based models excel at generating stable protein backbones but often overlook critical functional properties, while protein language models capture evolutionary and functional signals but frequently predict sequences lacking structural stability. Integrating these complementary approaches remains challenging due to their inherently conflicting objectives. We present MAProt, a multi-agent framework that synergistically combines structure-based and protein language model-based methods for protein design. Each agent specializes in a distinct aspect of the design objective: the structure-based agent (e.g., ProteinMPNN) ensures compatibility with the target backbone, while protein language model-based agents (e.g., ESM, SaProt) capture evolutionary plausibility and functional potential. To reconcile conflicts and achieve optimal trade-offs, we introduce a Pareto-based negotiation module that enables effective multi-objective coordination and consensus among agents. Extensive experiments on benchmark datasets demonstrate that MAProt achieves a remarkable improvement over state-of-the-art baselines, and generalizes robustly across a range of tasks, including thermodynamic folding stability design, functional protein design, and high-affinity antibody design. These results highlight the power of collaborative optimization for advancing rational protein engineering.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -1744,6 +1744,41 @@
       "curated_categories": []
     },
     {
+      "id": "fe503fdf3bc247f44bc72fa529c91709e7088762751d89f191dd5e7225f153ae",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764833v1",
+        "https://doi.org/10.64898/2026.11.06.764833",
+        "https://www.biorxiv.org/content/early/2026/11/08/2026.11.06.764833.source.xml"
+      ],
+      "title": "StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction",
+      "link": "https://doi.org/10.64898/2026.11.06.764833",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764833v1.full.pdf",
+      "publication_date": "2026-11-08",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "behera",
+          "name": "Behera, B. P"
+        },
+        {
+          "key": "dixit",
+          "name": "Dixit, A"
+        }
+      ],
+      "abstract_text": "Predicting protein melting temperature (Tm) and organismal optimal growth temperature (OGT) is essential for enzyme engineering, biocatalyst design, and metagenomic bioprospecting, yet computational prediction faces several fundamental bottlenecks: sequence-only representations miss tertiary packing; dual-task coupling induces destructive gradient conflict; natural database skew (>87% mesophiles) drives mesophilic collapse; and existing tools produce uncalibrated point predictions. To address these challenges, we present StableProt, a structure-aware framework that couples amino acid sequences with Foldseek 3Di structural tokens via a frozen SaProt backbone to capture 3D contacts. Disjoint heads condition thermodynamic stability on ecological context without gradient conflict, while targeted 14% mesophilic subsampling expands thermophile representation to eliminate mesophilic collapse. Calibrated ensemble modeling reduces calibration error to 1.92%, providing dependable 95% confidence intervals. Evaluating models across 10{degrees}C temperature intervals reveals severe baseline collapse at thermal extremes, whereas StableProt maintains robust accuracy across regimes. On ProThermDB and zero-shot FireProtDB, StableProt achieves state-of-the-art probabilistic accuracy (CRPS = 4.52{degrees}C and 8.71{degrees}C) while recovering 92.0% of hyperthermophiles ([&ge;]80{degrees}C), and in prospective validation, its calibrated intervals capture both enzyme stability (75.3% coverage) and host environmental growth temperatures (78.1% coverage). StableProt is freely accessible as an interactive web server at https://stableprot.dixitlab.org/.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fe5056aa6c6ccc2badb6f6e416ef0f899a618c05eefe765915b9436502e073a2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75526-3",
@@ -2920,7 +2955,7 @@
         },
         {
           "key": "gao",
-          "name": "Gao Y"
+          "name": "Y. N. Gao"
         },
         {
           "key": "baker david",
@@ -4645,7 +4680,7 @@
       ],
       "title": "SMP103: a de novo-engineered macrocyclic peptide binder candidate targeting the virulence-associated transpeptidase Sortase A",
       "link": "https://doi.org/10.1016/j.rineng.2026.113447",
-      "pdf_url": null,
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590123026044580/pdf",
       "publication_date": "2026-10-08",
       "publication_date_precision": "unknown",
       "collection_date": null,

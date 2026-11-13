@@ -2084,8 +2084,8 @@
           "name": "Bo Liu"
         },
         {
-          "key": "kibler ryan",
-          "name": "Ryan D. Kibler"
+          "key": "daniel kibler ryan",
+          "name": "Ryan Daniel Kibler"
         },
         {
           "key": "bethel neville",
@@ -3102,7 +3102,7 @@
           "name": "Christian Dallago"
         }
       ],
-      "abstract_text": "The process of designing biomolecules, in particular proteins, is witnessing a rapid change in available tooling and approaches, moving from design through physicochemical force fields, to producing plausible, complex sequences fast via end-to-end differentiable statistical models. To achieve conditional and controllable protein design, researchers at the interface of artificial intelligence and biology leverage advances in natural language processing (NLP) and computer vision techniques, coupled with advances in computing hardware to learn patterns from growing biological databases, curated annotations thereof, or both. Once learned, these patterns can be leveraged to provide novel insights into mechanistic biology and the design of biomolecules. However, navigating and understanding the practical applications for the many recent protein design tools is complex. To facilitate this, we 1) document recent advances in deep learning (DL) assisted protein design from the last three years, 2) present a practical pipeline that allows to go from de novo -generated sequences to their predicted properties and web-powered visualization within minutes, and 3) leverage it to suggest a generated protein sequence which might be used to engineer a biosynthetic gene cluster to produce a molecular glue-like compound. Lastly, we discuss challenges and highlight opportunities for the protein design field. Availability pLM generated and UniRef50 sampled sequence sets and predictions are available at http://data.bioembeddings.com/public/design . Code-base and Notebooks for analysis are available at https://github.com/hefeda/PGP . An online version of Table 1 can be found at https://github.com/hefeda/design_tools .",
+      "abstract_text": "The process of designing biomolecules, in particular proteins, is witnessing a rapid change in available tooling and approaches, moving from design through physicochemical force fields, to producing plausible, complex sequences fast via end-to-end differentiable statistical models. To achieve conditional and controllable protein design, researchers at the interface of artificial intelligence and biology leverage advances in natural language processing (NLP) and computer vision techniques, coupled with advances in computing hardware to learn patterns from growing biological databases, curated annotations thereof, or both. Once learned, these patterns can be used to provide novel insights into mechanistic biology and the design of biomolecules. However, navigating and understanding the practical applications for the many recent protein design tools is complex. To facilitate this, we 1) document recent advances in deep learning (DL) assisted protein design from the last three years, 2) present a practical pipeline that allows to go from de novo -generated sequences to their predicted properties and web-powered visualization within minutes, and 3) leverage it to suggest a generated protein sequence which might be used to engineer a biosynthetic gene cluster to produce a molecular glue-like compound. Lastly, we discuss challenges and highlight opportunities for the protein design field.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5536,6 +5536,58 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5cf6ced29512dfe21464680dbacd5d1b495a8077ddb76989953105d1b5c46023",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764758v2",
+        "https://doi.org/10.64898/2026.11.05.764758",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.05.764758.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/12/2026.11.05.764758.source.xml"
+      ],
+      "title": "GeneEmbedLLM: Harnessing Large Language Models for Gene Functional Embedding and Association Prediction",
+      "link": "https://doi.org/10.64898/2026.11.05.764758",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764758v2.full.pdf",
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "zhang, z"
+        },
+        {
+          "key": "yang",
+          "name": "yang, l"
+        },
+        {
+          "key": "he",
+          "name": "he, z"
+        },
+        {
+          "key": "ding",
+          "name": "ding, j"
+        },
+        {
+          "key": "li",
+          "name": "Li, Y"
+        },
+        {
+          "key": "shen",
+          "name": "Shen, R"
+        }
+      ],
+      "abstract_text": "Effective and high-quality gene function representations are crucial for bioinformatics tasks. While biological knowledge about genes is inherently textual, encompassing functional descriptions and pathway annotations, current methods often rely on single-source, non-textual data, failing to capture the rich semantic information in multi-source gene annotations. In this paper, we propose GeneEmbedLLM, a Large Language Model (LLM)-powered framework for generating universal, semantically-aware gene embeddings. The proposed approach advances the gene representation learning through multi-source structured text integration from five authoritative databases and attribute-aware attention based on Longformer architecture and contrastive learning. Experimental results on diverse downstream tasks, ranging from molecular interactions and phenotypic dependencies to epigenetic regulation, confirm the validity and effectiveness of our proposed approach, where competitive performance is achieved across all evaluated benchmarks. We further validate the quality of the generated embeddings through comprehensive analyses, including embedding visualizations, intra-pathway similarity assessments, ablation study, and parameter analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

@@ -110,6 +110,49 @@
       "curated_categories": []
     },
     {
+      "id": "4e0735a4668146d6c7d50b2ad7f0bb02cbf2cf2b2ba34dfc6214fec8ac42273f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765459v1",
+        "https://doi.org/10.64898/2026.11.10.765459",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765459.source.xml"
+      ],
+      "title": "Detection of Maximal Exact Matches in Terabases of Genome Assemblies in Compressed Space and Sublinear Time",
+      "link": "https://doi.org/10.64898/2026.11.10.765459",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765459v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sanaullah",
+          "name": "Sanaullah, A"
+        },
+        {
+          "key": "zhi",
+          "name": "Zhi, D"
+        },
+        {
+          "key": "li",
+          "name": "Li, H"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, S"
+        }
+      ],
+      "abstract_text": "Detection of long exact matches between a pair of genomes has historically been a fundamental operation in genomics. Similarly, detection of long exact matches between all pairs of haplotypes in a large panel of genotyping array data or whole-genome sequencing variant calls is a fundamental operation in population genetics. Thanks to various recent pangenome efforts, for the first time, large panels of high-quality genome assemblies are being constructed. Therefore, we propose the intersection of these two approaches: detection of long exact matches between all pairs of assemblies in panels of hundreds to thousands of high-quality assemblies. Since these datasets would contain trillions of basepairs, practically detecting all exact matches requires algorithms operating in at most linear time and compressed space. Previous methods such as Mumemto achieve this, but running them on terabase-sized pangenomes still took very large space and long time. Here, we describe more efficient algorithms for outputting all long exact matches between all pairs of assemblies in compressed space and sublinear time given a compressed index of the panel. Given the construction of an O(r) space compressed index--a one-time cost that can be done in compressed space and close to linear time with previous work--we describe three algorithms taking O(r) words of memory: (1) computing all supermaximal exact matches (SMEMs) in O(r) time, (2) computing all supermaximal exact matches and their occurrences in O(r + occ) time, and (3) computing all maximal exact matches (MEMs) in O(r + occ) time, where r is the number of runs in the Burrows-Wheeler transform of the panel of assemblies and occ is the number of occurrences or matches outputted. Our algorithms use 7.5 times less memory than state-of-the-art competitors on a dataset of human centromere assemblies from 625 haplotypes. They are also 20 times faster if index construction time is counted, and 2,500 times faster if index construction is excluded. Finally, we perform an analysis of all-vs-all MEMs in all well-assembled centromeres of the Human Pangenome Reference Consortium Release 2 dataset that reveals multiple novel insights into structural variation in centromeres. For example, we find that the active -satellite higher-order repeat (HOR) array of Chromosome 2 is flanked by a ~200 kbp inversion on one side and a ~200-300 kbp pseudopalindromic sequence on the other. We also detect large segmental duplications in the centromere of every chromosome except Chromosome Y. These segmental duplications range in size from hundreds of kbp to multiple Mbp and occur both in and out of the active -satellite HOR arrays. Our computational results make pairwise MEM analyses possible in pangenomes, while our biological results show they are likely to be useful. Our algorithms are implemented as TeraMEM in the TeraTools suite available at https://github.com/ucfcbb/TeraTools.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e080da8fa27fd3c01564407085b75fbc8ceebcf003e5e6a428a915f1c2ed42f",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01667-6",
@@ -626,8 +669,8 @@
           "name": "Green Ahn"
         },
         {
-          "key": "kibler ryan",
-          "name": "Ryan D. Kibler"
+          "key": "daniel kibler ryan",
+          "name": "Ryan Daniel Kibler"
         },
         {
           "key": "cindy hernandez",
@@ -2473,7 +2516,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "The multisubunit protein assemblies that play critical roles in biology are the result of evolutionary selection for function of the entire assembly, and hence the subunits in structures such as icosahedral viral capsids often fit together with remarkable shape complementarity 1,2 . In contrast, the large multisubunit assemblies that have been created by de novo protein design, notably the icosahedral nanocages used in a new generation of potent vaccines 3–7 , have been built by first designing symmetric oligomers with cyclic symmetry and then assembling these into nanocages while keeping the internal structure fixed 8–14 , which results in more porous structures with less extensive shape matching between the components. Such hierarchical “bottom-up” design approaches have the advantage that one interface can be designed and validated in the context of the cyclic oligomer building block 15,16 , but the disadvantage that the structural and functional features of the assemblies are limited by the properties of the predesigned building blocks. To overcome this limitation, we set out to develop a “top-down” reinforcement learning based approach to protein nanomaterial design in which both the structures of the subunits and the interactions between them are built up coordinately in the context of the entire assembly. We developed a Monte Carlo tree search (MCTS) method 17,18 which assembles protein monomer structures in the context of an overall architecture guided by a loss function which enables specification of any desired overall structural properties such as shape and porosity. We demonstrate the power of the approach by designing hyperstable icosahedral assemblies more compact than any previously observed protein icosahedral structure (designed or naturally occurring), that have very low porosity and are robust to fusion and display of proteins as complex as influenza hemagglutinin. CryoEM structures of two designs are very close to the computational design models. Our top-down reinforcement learning approach should enable the design of a wide variety of complex protein nanomaterials by direct optimization of overall system properties.",
+      "abstract_text": "As a result of evolutionary selection, the subunits of naturally occurring protein assemblies often fit together with substantial shape complementarity to generate architectures optimal for function in a manner not achievable by current design approaches. We describe a “top-down” reinforcement learning–based design approach that solves this problem using Monte Carlo tree search to sample protein conformers in the context of an overall architecture and specified functional constraints. Cryo–electron microscopy structures of the designed disk-shaped nanopores and ultracompact icosahedra are very close to the computational models. The icosohedra enable very-high-density display of immunogens and signaling molecules, which potentiates vaccine response and angiogenesis induction. Our approach enables the top-down design of complex protein nanomaterials with desired system properties and demonstrates the power of reinforcement learning in protein design.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

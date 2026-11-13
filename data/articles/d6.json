@@ -454,6 +454,45 @@
       "curated_categories": []
     },
     {
+      "id": "d60aa3057e3fd81e59b6347a8a2085d43053044579ebe4371817565466b6c65f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764586v1",
+        "https://doi.org/10.64898/2026.11.05.764586",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764586.source.xml"
+      ],
+      "title": "QRAFT: Scaling coalescent-based species tree inference to one million taxa",
+      "link": "https://doi.org/10.64898/2026.11.05.764586",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764586v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rahman",
+          "name": "Rahman, A"
+        },
+        {
+          "key": "saha",
+          "name": "Saha, A"
+        },
+        {
+          "key": "bayzid",
+          "name": "Bayzid, M. S"
+        }
+      ],
+      "abstract_text": "Species tree inference from multi-locus data under the multispecies coalescent has not kept pace with phylogenomic datasets that now span hundreds of thousands of species. We present QRAFT, a statistically consistent method for estimating species trees by maximizing quartet support on phylogenomic datasets at unprecedented scales. For n taxa and k gene trees, QRAFT achieves near-linear running time of O(kn log^2 n) when its recursion is balanced, which is within a polylogarithmic factor of the O(kn) time required simply to read the input. It also achieves asymptotically optimal O(kn) memory, so its memory requirements grow only linearly with the input size. QRAFT infers a million-taxon species tree from 1,000 genes in just three hours using only 298 GB of RAM, 64 CPU threads, and no GPUs. We estimate that the same analysis with ASTRAL-MP, a scalable parallel implementation of the widely used method ASTRAL, would take about 36 years (>100,000 times longer) and require prohibitive amounts of memory, far beyond practical computational limits. QRAFT maintains accuracy comparable to, and in many cases better than, leading species tree estimation methods. Notably, QRAFT reconstructed a microbial tree of life comprising 199,330 genomes in just a few hours using modest CPU resources. Thus, QRAFT brings highly accurate statistically consistent coalescent-based species tree inference to the unprecedented million-taxon regime and enables phylogenomic analyses towards the scale of the tree of life. QRAFT is publicly available at https://github.com/risenfromashes/qraft.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d60b92fdc0dac10e15f615f0105cbf91cca0920d50ec0cda095137ed64578dff",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76769-w",
@@ -920,42 +959,42 @@
       ],
       "title": "Protein co-scientist aided simulations of the structural and functional impact of O-GlcNAc Transferase TPR domain deletions and amino acid substitutions associated with X-Linked Intellectual Disability",
       "link": "https://doi.org/10.64898/2026.10.29.762748",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762748v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/30/2026.10.29.762748.full.pdf",
       "publication_date": "2026-10-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "barth",
-          "name": "Barth, S"
+          "key": "barth sonja",
+          "name": "Sonja Barth"
         },
         {
-          "key": "bechard",
-          "name": "Bechard, A"
+          "key": "allison bechard",
+          "name": "Allison Bechard"
         },
         {
-          "key": "kraft",
-          "name": "Kraft, A"
+          "key": "amelia kraft",
+          "name": "Amelia Kraft"
         },
         {
-          "key": "yip",
-          "name": "Yip, C"
+          "key": "chakkai yip",
+          "name": "Chakkai Yip"
         },
         {
-          "key": "aboagye",
-          "name": "Aboagye, C"
+          "key": "aboagye caleb",
+          "name": "Caleb Aboagye"
         },
         {
-          "key": "fehl",
-          "name": "Fehl, C"
+          "key": "charlie fehl",
+          "name": "Charlie Fehl"
         },
         {
-          "key": "siwo",
-          "name": "Siwo, G. H"
+          "key": "geoffrey siwo",
+          "name": "Geoffrey Siwo"
         }
       ],
-      "abstract_text": "O-GlcNAc transferase (OGT) is an essential glycosyltransferase that regulates cellular processes through the addition of O-linked {beta}-N-acetyglucosamine (O-GlcNAc) to target proteins. Substrate recognition and protein-protein interactions are mediated by the tetratricopeptide repeat (TPR) domain, yet the contributions of individual TPR repeats to structural stability and function remain poorly understood. Here, we employed an integrated computational framework combining an AI protein co-scientist, Speak to a Protein, which incorporates Boltz-2 for structure prediction and rDock for ligand binding evaluation, with external tools including AlphaFold3 for more advanced structure prediction and the HDOCK server for protein-protein docking. This framework was used to investigate how deletions of TPR domains and disease-associated amino acid substitutions within the TPR domain affect OGT structure and function. Five synthetic truncation OGT isoforms, thirteen single-TPR deletion variants, and five X-linked intellectual disability (XLID)-associated amino acid substitutions were modeled and aligned to wild-type OGT for comparison. Structural perturbations were quantified using backbone root mean square deviation (RMSD), while functional effects were assessed through docking analyses with UDP-GlcNAc, Host Cell Factor 1 (HCF1), and Tet methylcytosine dioxygenase 1 (TET1). Variation in TPR length altered global protein structure and induced long-range conformational changes within the catalytic domain despite no sequence modifications in that region. Single TPR deletions showed that individual repeats contribute unequally to structural stability, with deletions in mid-to-late TPR domains producing the largest structural disruptions. Disease-associated amino acid substitutions also generated conformational changes and reduced predicted ligand binding, consistent with known reductions in enzymatic activity in XLID. Protein-protein docking analyses demonstrated substrate-specific effects, as domain deletion and amino acid substitution variants of OGT had different interactions with TET1 and HCF1. Collectively, these findings identify the TPR domain as a regulatory domain that governs structure, ligand recognition, and protein interactions. More broadly, this work demonstrates how the integration of a protein co-scientist with protein structure modeling tools can be used to predict the structural and functional consequences of domain deletions or natural amino acid variants.",
+      "abstract_text": "Abstract O-GlcNAc transferase (OGT) is an essential glycosyltransferase that regulates cellular processes through the addition of O-linked β-N-acetyglucosamine (O-GlcNAc) to target proteins. Substrate recognition and protein-protein interactions are mediated by the tetratricopeptide repeat (TPR) domain, yet the contributions of individual TPR repeats to structural stability and function remain poorly understood. Here, we employed an integrated computational framework combining an AI protein co-scientist, Speak to a Protein, which incorporates Boltz-2 for structure prediction and rDock for ligand binding evaluation, with external tools including AlphaFold3 for more advanced structure prediction and the HDOCK server for protein-protein docking. This framework was used to investigate how deletions of TPR domains and disease-associated amino acid substitutions within the TPR domain affect OGT structure and function. Five synthetic truncation OGT isoforms, thirteen single-TPR deletion variants, and five X-linked intellectual disability (XLID)-associated amino acid substitutions were modeled and aligned to wild-type OGT for comparison. Structural perturbations were quantified using backbone root mean square deviation (RMSD), while functional effects were assessed through docking analyses with UDP-GlcNAc, Host Cell Factor 1 (HCF1), and Tet methylcytosine dioxygenase 1 (TET1). Variation in TPR length altered global protein structure and induced long-range conformational changes within the catalytic domain despite no sequence modifications in that region. Single TPR deletions showed that individual repeats contribute unequally to structural stability, with deletions in mid-to-late TPR domains producing the largest structural disruptions. Disease-associated amino acid substitutions also generated conformational changes and reduced predicted ligand binding, consistent with known reductions in enzymatic activity in XLID. Protein-protein docking analyses demonstrated substrate-specific effects, as domain deletion and amino acid substitution variants of OGT had different interactions with TET1 and HCF1. Collectively, these findings identify the TPR domain as a regulatory domain that governs structure, ligand recognition, and protein interactions. More broadly, this work demonstrates how the integration of a protein co-scientist with protein structure modeling tools can be used to predict the structural and functional consequences of domain deletions or natural amino acid variants.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2137,8 +2176,8 @@
           "name": "Álvaro Ciudad"
         },
         {
-          "key": "ctor guallar vı",
-          "name": "Vı́ctor Guallar"
+          "key": "guallar víctor",
+          "name": "Víctor Guallar"
         },
         {
           "key": "alexis molina",
@@ -2204,7 +2243,7 @@
           "name": "Todd O. Yeates"
         }
       ],
-      "abstract_text": "Abstract Designed protein cages and related materials provide unique opportunities for applications in biotechnology and medicine, while methods for their creation remain challenging and unpredictable. In the present study, we apply new computational approaches to design a suite of new tetrahedrally symmetric, self-assembling protein cages. For the generation of docked poses, we emphasize a protein fragment-based approach, while for de novo interface design, a comparison of computational protocols highlights the power and increased experimental success achieved using the machine learning program ProteinMPNN. In relating information from docking and design, we observe that agreement between fragment-based sequence preferences and ProteinMPNN sequence inference correlates with experimental success. Additional insights for designing polar interactions are highlighted by experimentally testing larger and more polar interfaces. In all, using X-ray crystallography and cryo-EM, we report five structures for seven protein cages, with atomic resolution in the best case reaching 2.0 Å. We also report structures of two incompletely assembled protein cages, providing unique insights into one type of assembly failure. The new set of designed cages and their structures add substantially to the body of available protein nanoparticles, and to methodologies for their creation.",
+      "abstract_text": "Designed protein cages and related materials provide unique opportunities for applications in biotechnology and medicine, but their creation remains challenging. Here, we apply computational approaches to design a suite of tetrahedrally symmetric, self-assembling protein cages. For the generation of docked conformations, we emphasize a protein fragment-based approach, while for sequence design of the de novo interface, a comparison of knowledge-based and machine learning protocols highlights the power and increased experimental success achieved using ProteinMPNN. An analysis of design outcomes provides insights for improving interface design protocols, including prioritizing fragment-based motifs, balancing interface hydrophobicity and polarity, and identifying preferred polar contact patterns. In all, we report five structures for seven protein cages, along with two structures of intermediate assemblies, with the highest resolution reaching 2.0 Å using cryo-EM. This set of designed cages adds substantially to the body of available protein nanoparticles, and to methodologies for their creation.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

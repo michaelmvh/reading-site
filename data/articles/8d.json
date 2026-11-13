@@ -1742,7 +1742,7 @@
           "name": "Zhongyue John Yang"
         }
       ],
-      "abstract_text": "Physical intuitions about how enzyme structure and dynamics influence its function and property have enabled successful engineering outcomes, yet a systematic approach remains unknown for translating these qualitative and abstract \"thoughts\" into quantitative, actionable principles that lead to designs. Here we introduce MutexaGPT, an open-access, multi-agent large language model (LLM) platform that translates enzyme engineering intuition to physics-based simulations and thus variant designs. Through a web interface, MutexaGPT takes users' intuition-driven requests (expressed in plain English) as input, and then leverages its LLM agents (i.e., QuestionAnalyzer, WorkPlanningBoard, and ResultExplainer) to comprehend the request and elicit missing information, construct physics-based models, configure and execute high-throughput molecular modeling workflows, and eventually convert the molecular modeling results into actionable design proposals (such as a smart mutation library). An automated evaluation framework was established to systematically benchmark the prompt engineering strategies that allow each individual agent to achieve an optimal performance. We further demonstrate the utility of MutexaGPT in two protein engineering tasks. For the task of engineering halide methyltransferase towards bulkier substrates, MutexaGPT converted a cavity-engineering intuition into a smart library design that shows a 40% hit rate and around 4-fold activity improvement over a baseline strategy. For the task of engineering bidomain amylase for enhanced activity at lower temperature, MutexaGPT translated a statistics-based intuition into cold-adapted amylase variants that show 1.7-fold and 3.7-fold activity enhancement at 0 °C (experimentally validated). These results establish MutexaGPT as an intuition-to-design translator that integrates human creativity with high-throughput molecular modeling to democratize physics-guided, intuition-driven enzyme engineering.",
+      "abstract_text": "Abstract Physical intuition about how enzyme structure and dynamics shape function has guided successful engineering efforts, yet a systematic approach is still lacking for translating these qualitative and abstract ‘thoughts’ into quantitative, actionable principles for enzyme design. Here we introduce MutexaGPT, an open-access, multi-agent large language model platform that translates enzyme engineering intuition to physics-based simulations and thus variant designs. Through a web-interface, MutexaGPT takes plain-English, intuition-driven requests as input and leverages large language model agents to elicit missing information, construct physics-based models, configure and execute high-throughput molecular modeling workflows, and convert the results into actionable design proposals, such as smart mutation libraries. We demonstrate the utility of MutexaGPT in two protein engineering tasks: (1) engineering halide methyltransferase toward bulkier substrates and (2) engineering bidomain amylase for enhanced activity at lower temperature. These results establish MutexaGPT as an intuition-to-design translator that integrates human creativity with high-throughput molecular modeling to democratize physics-guided, intuition-driven enzyme engineering.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3306,6 +3306,73 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8d7d7911a6bffd8ba9bc3fb279916a2a912bbaea663cbf6294d463e5e3989f87",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.05.764753v1",
+        "https://doi.org/10.64898/2026.11.05.764753",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764753.source.xml"
+      ],
+      "title": "scCircaSim: A Circadian Simulator for Single-Cell and Spatial Transcriptomics",
+      "link": "https://doi.org/10.64898/2026.11.05.764753",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764753v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, C"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Q"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, L"
+        },
+        {
+          "key": "song",
+          "name": "Song, X"
+        },
+        {
+          "key": "tian",
+          "name": "Tian, Y"
+        },
+        {
+          "key": "tang",
+          "name": "Tang, G"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, H"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Z"
+        },
+        {
+          "key": "sun",
+          "name": "Sun, P"
+        }
+      ],
+      "abstract_text": "Motivation: Simulated single-cell and spatial transcriptomic datasets that capture circadian dynamics while providing known ground truth remain scarce, limiting systematic evaluation of circadian analysis methods. Results: We developed scCircaSim to generate circadian single-cell and spatial transcriptomic data from a single-time-point reference. The framework combines phase progression with reference-derived network propagation of anchor gene rhythms and incorporates neighborhood effects for spatial simulation. Outputs retain reference heterogeneity and provide known cell or spot phases, rhythmicity labels, and gene-level mesor, amplitude, and phase values. Validation showed retention of reference structure and recovery of specified temporal patterns. Benchmarks of four cell phase inference methods and three rhythmic gene analysis methods revealed differences in phase accuracy, rhythmicity detection, and parameter recovery. scCircaSim supports reproducible method evaluation and preliminary experimental planning. Availability and Implementation: scCircaSim is implemented in R and available at https://github.com/Liwei-DynamicsLab/scCircaSim.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

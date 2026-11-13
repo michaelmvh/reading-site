@@ -2262,9 +2262,9 @@
         "arxiv:2611.01666",
         "https://doi.org/10.48550/arXiv.2611.01666"
       ],
-      "title": "Stand-In Effects and Pooling Amplification: Design-Based Tests of Whether Biological World Models Use Actions",
+      "title": "Stand-In Effects and Pooling Amplification: Lessons from Biological World Models for Testing Action Effects",
       "link": "https://doi.org/10.48550/arXiv.2611.01666",
-      "pdf_url": "https://arxiv.org/pdf/2611.01666v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.01666",
       "publication_date": "2026-11-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -2277,9 +2277,13 @@
         {
           "key": "boyu chen",
           "name": "Boyu Chen"
+        },
+        {
+          "key": "jiaying li",
+          "name": "Jiaying Li"
         }
       ],
-      "abstract_text": "Action-conditioned world models are increasingly trained on data from randomized experiments, and whether their predictions respond to actions is usually checked by replacing or removing the actions and measuring the loss in accuracy. We show that such diagnostics report action effects where there are none: under autocorrelated designs, future actions stand in for history the model does not see, and a better model learns the stand-in better. When the design law is known, a conditional randomization test written as an e-value is valid in finite samples whatever the model, provided the resampler conditions on the full state the design used; resampling from a simpler law reproduces the false effect. We identify a second failure, specific to world models: when many sites share one action sequence (cells in a microscope field, pixels in a frame), the natural pooled score turns small model errors along the action contrast into overwhelming evidence against a true effect. In a pixel world, its median log e-value fell from $-17.3$ to $-6832$ as frames grew from 64 to 4096 pixels, while the oracle's rose. Tempering the score by a design effect estimated on training data changes the bet, not the validity. Our own preregistered analysis of optogenetic ERK experiments failed in exactly this way; a tempered statistic, selected on synthetic data and registered before the data were obtained, then rejected the null on a never-opened field ($E\\approx 1.1\\times10^{10}$). Every analysis is preregistered, fixed in a dated protocol before it was run, or labelled exploratory, and every reported result is generated from hashed result files.",
+      "abstract_text": "Whether an action-conditioned world model responds to actions is usually checked by replacing or removing the actions and measuring the loss in accuracy. Taking biological experiments as the guiding case, we show that such diagnostics report action effects where there are none: under autocorrelated designs, future actions stand in for history the model does not see. When the design law is known, a conditional randomization test written as an e-value is valid in finite samples whatever the model. A second failure arises whenever many sites share one action sequence, as in world models: the pooled score turns small model errors along the action contrast into an e-value near zero, so a valid test loses its power although the effect is real. Tempering the score changes the bet, not the validity. The log e-value is concave in the tempering factor and zero at zero, so too small a factor costs little and too large a one can cost everything; every single factor we tried, estimated or tuned, failed in some setting, and mixtures over a fixed grid never did. Our own preregistered analysis of optogenetic ERK experiments failed by pooling; a tempered statistic, registered before the data were obtained, then rejected the null on a never-opened field (E = 1.1e10). In three registered tests on models trained by others, the pooled test rejected in 0 of 96 units of a diffusion model, and reached the power bar in 10 of 26 Atari games under IRIS's token likelihood and 1 of 6 control tasks under TD-MPC2; mixtures fixed in advance reached it in 96 units, 24 games and 6 tasks. On recorded robot video with iVideoGPT the mixture rejected in 155 of 159 trajectories; the pooled test did not collapse there (143). Under exact nulls the statistics made 14 rejections in 26,664 tests.",
       "discovery_sources": [
         {
           "kind": "arxiv",

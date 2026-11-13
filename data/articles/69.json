@@ -741,6 +741,41 @@
       "curated_categories": []
     },
     {
+      "id": "691b9479043909197d772a95e43faacb4713e689436af0a21d4821720548eae1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764293v1",
+        "https://doi.org/10.64898/2026.11.04.764293",
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.04.764293.source.xml"
+      ],
+      "title": "Automahout: an autonomous image analysis system for cell tracking",
+      "link": "https://doi.org/10.64898/2026.11.04.764293",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764293v1.full.pdf",
+      "publication_date": "2026-11-06",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sugawara",
+          "name": "Sugawara, K"
+        },
+        {
+          "key": "onami",
+          "name": "Onami, S"
+        }
+      ],
+      "abstract_text": "Cell tracking in time-lapse images is complex image analysis that involves detection, linking and proofreading, often requiring the algorithm to be tuned for every new dataset. We present Automahout, an autonomous agent for the Mastodon/ELEPHANT platform that carries out these operations. It looks at the data and tries existing models; where none fits, it annotates reference cells, trains a detector from those sparse annotations, reviews its output against them and feeds the corrections back until its own stopping criteria are met. It then links, checks the lineage and moves on. On three public datasets, a 2D fluorescence culture, a 2D phase-contrast culture and a 3D embryo, it produced lineages without human input and reached TRA scores of 0.95-0.96.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "69243267f5b4bb6671dfa098ab86207d2a3ffb3fbdc1c7676c4df27971e985cc",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10123-4",
@@ -1353,7 +1388,7 @@
           "name": "Leyi Wei"
         }
       ],
-      "abstract_text": "Abstract Accurate prediction of effector proteins secreted by Gram-negative bacteria is important for elucidating bacterial pathogenic mechanisms and developing precise anti-infective strategies. Although existing methods have benefited from the strong sequence feature extraction capacity of pretrained protein language models, reliance on linear sequence information alone often fails to fully capture the three-dimensional conformational signals required for virulence functions. Meanwhile, conventional structure-based methods are limited by the scarcity of experimentally resolved protein structures. To address these challenges, We propose GeoEPred, a multimodal deep learning framework designed for the synergistic modeling of protein sequence and structure to identify Gram-negative bacterial effector proteins. Specifically, the model integrates sequence-contextual embeddings from a pretrained protein language model with three-dimensional structural representations predicted by ESMFold. A feature projection network refines fine-grained sequence signals associated with effector functions, while geometric vector perceptrons characterize inter-residue orientations, distances, and local spatial topology to capture potential structural conformational motifs. To further enable effective cross-modal fusion, we design a cross-modal alignment and feature-tokenized self-attention module. This module enhances consistency between the sequence-semantic and structural-geometric spaces through contrastive learning and models associations between linear functional motifs and spatial conformational patterns at a fine-grained token level. Extensive evaluations on multiple benchmark datasets show that GeoEPred achieves better predictive performance than existing leading models in T3SE, T4SE, and T6SE prediction tasks, while maintaining stable performance in remote homolog recognition scenarios. Moreover, the modular and extensible architecture of GeoEPred demonstrates strong generalization ability and substantial application potential for genome-scale effector protein discovery. Author summary Secreted effector proteins are central virulence factors used by many Gram-negative bacterial pathogens to execute infection strategies. Their functions are governed not only by secretion signals and short linear motifs in the amino acid sequence, but also by three-dimensional folds, local domains, and surface geometric patterns. However, current predictors mainly exploit sequence-contextual features, limiting their ability to model the correspondence between linear sequence signals and spatial conformational motifs, and thereby constraining accuracy and interpretability. Here, we present GeoEPred, a multimodal deep learning framework for secreted effector protein identification. GeoEPred couples sequence-semantic embeddings from a pretrained protein language model with structural representations learned by geometric vector perceptrons. A cross-modal alignment and interaction module uses contrastive learning to improve functional consistency between sequence and structure modalities, while feature-token attention captures fine-grained links between key linear and conformational motifs. Across benchmark datasets covering multiple effector types, GeoEPred outperforms existing state-of-the-art methods and provides interpretable evidence from sequence fragments, structural regions, and cross-modal associations, supporting functional annotation, pathogenic mechanism analysis, and experimental validation.",
+      "abstract_text": "Accurate prediction of effector proteins secreted by Gram-negative bacteria is important for elucidating bacterial pathogenic mechanisms and developing precise anti-infective strategies. Although existing methods have benefited from the strong sequence feature extraction capacity of pretrained protein language models, reliance on linear sequence information alone often fails to fully capture the three-dimensional conformational signals required for virulence functions. Meanwhile, conventional structure-based methods are limited by the scarcity of experimentally resolved protein structures. To address these challenges, we propose GeoEPred, a multimodal deep learning framework designed for the synergistic modeling of protein sequence and structure to identify Gram-negative bacterial effector proteins. Specifically, the model integrates sequence-contextual embeddings from a pretrained protein language model with three-dimensional structural representations predicted by ESMFold. A feature projection network refines fine-grained sequence signals associated with effector functions, while geometric vector perceptrons characterize inter-residue orientations, distances, and local spatial topology to capture potential structural conformational motifs. To further enable effective cross-modal fusion, we design a cross-modal alignment and feature-tokenized self-attention module. This module enhances consistency between the sequence-semantic and structural-geometric spaces through contrastive learning and models associations between linear functional motifs and spatial conformational patterns at a fine-grained token level. Extensive evaluations on multiple benchmark datasets show that GeoEPred achieves better predictive performance than existing leading models in T3SE, T4SE, and T6SE prediction tasks, while maintaining stable performance in remote homolog recognition scenarios. Moreover, the modular and extensible architecture of GeoEPred demonstrates strong generalization ability and substantial application potential for genome-scale effector protein discovery.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2783,6 +2818,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "69717b82ff67e140b5924ce6a0a000996ed6221701fd5dfbf04f08a5805c954f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765632v1",
+        "https://doi.org/10.64898/2026.11.10.765632",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765632.source.xml"
+      ],
+      "title": "RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry",
+      "link": "https://doi.org/10.64898/2026.11.10.765632",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sharma",
+          "name": "Sharma, N"
+        },
+        {
+          "key": "mitra",
+          "name": "Mitra, P"
+        }
+      ],
+      "abstract_text": "RNAs are emerging as promising therapeutic targets, and small-molecule binding can modulate their structure and function, creating opportunities for therapeutic development. Accurate identification of RNA small-molecule binding sites is therefore important for understanding RNA-ligand interactions and facilitating RNA-targeted drug discovery. However, the structural complexity of RNA and the limited availability of experimentally characterized RNA-ligand complexes pose challenges for computational binding-site prediction. In this study, we propose RSMBind, a graph attention-based deep learning framework for nucleotide-level prediction of RNA-small molecule binding sites. The model integrates geometric descriptors of the local three-dimensional environment with pretrained RNA language model embeddings to capture complementary structural and sequence information. We investigate three pretrained RNA language models RNA-BERT, ERNIE-RNA and RNA-FM and assess the contributions of sequence representations and geometric features through feature-level ablation experiments. The model is developed using the TR60 and HARIBOSS datasets and evaluated on four independent benchmark datasets: RB9, TE18, TL12 and JL10. RSMBind achieves the highest MCC among the compared methods on three of the four benchmarks, with relative improvements of 17.1% on RB9, 7.2% on TL12 and 16.0% on JL10 over the best previously reported results, while achieving competitive performance on TE18. Furthermore, RSMBind retains predictive capability when using only pretrained RNA language model embeddings, highlighting their potential utility when explicit tertiary structural features are unavailable. Structural analysis indicates differences in prediction performance across RNA structural regions, with loop-associated binding sites generally being captured more effectively than those embedded within stem regions. Additionally, 100 ns molecular dynamics simulations of selected RNA-ligand complexes provide insights into the relationship between predicted binding probabilities and dynamic ligand proximity, further highlighting the role of conformational dynamics in evaluating structure-based predictions. The source code is available at [ https://github.com/sharma-nandita/RSMBind].",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
@@ -5376,6 +5446,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "69e3be9af9c11186ccd9d0ecf462a72ddcbf01becf55ae5c3410aa1f438a624c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765562v1",
+        "https://doi.org/10.64898/2026.11.10.765562",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.11.10.765562.source.xml"
+      ],
+      "title": "Pocket similarity guided selection of protein targets for systematic protein ligand dataset generation",
+      "link": "https://doi.org/10.64898/2026.11.10.765562",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765562v1.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "cerqueda garcia",
+          "name": "Garcia-Cerqueda, m"
+        },
+        {
+          "key": "schapira",
+          "name": "Schapira, M"
+        },
+        {
+          "key": "antolin",
+          "name": "Antolin, A. A"
+        },
+        {
+          "key": "edwards",
+          "name": "Edwards, A"
+        },
+        {
+          "key": "aloy",
+          "name": "Aloy, P"
+        }
+      ],
+      "abstract_text": "The scarcity of large, diverse, and unbiased protein ligand binding datasets limits the performance of machine learning approaches in drug discovery, particularly for understudied proteins. The Target 2035 initiative aims to address this gap by generating open-access binding data for more than 2,000 human proteins, a goal whose value depends on maximizing the diversity of the selected targets. Because proteins with different folds can share chemically analogous binding sites, we reasoned that pocket similarity, rather than sequence or fold similarity, is the appropriate criterion for selecting representative targets that maximize coverage of the human pocketome. Here, we use PocketVec, an alignment-free descriptor of binding sites, to map the human globular pocketome, identifying 51,535 predicted druggable pockets across 15,559 proteins. A two level hierarchical clustering, first within protein families and then across the whole proteome, grouped these pockets into 1,865 clusters of chemically similar binding sites. After discarding 533 clusters containing pockets with known ligands, we selected the 100 most populated of the remaining 1,332 ligand free clusters and chose two high quality representative pockets per cluster, ranked by their resemblance to known ligand-binding sites. Finally, we implemented two complementary prioritization strategies, one favoring structurally unexplored proteins and the other proteins amenable to experimental follow up, and selected 200 pockets from 100 different clusters from each strategy, with 89 clusters in common. Both selections cover over 10,000 pockets in ~5,600 proteins, approximately 36% of the human proteins with annotated druggable pockets, which represents a 2.8- to 4.4-fold increase in the number of covered pockets, domains, and proteins than random selection baselines. This pocket based framework offers a principled strategy to select diverse targets for Target 2035 and other large scale protein ligand data generation efforts in chemical biology.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

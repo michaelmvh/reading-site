@@ -2457,7 +2457,7 @@
           "name": "Peter S. Kim"
         }
       ],
-      "abstract_text": "Abstract Predicting the order of biological homologs is a fundamental task in evolutionary biology. For protein evolution, this order is often determined by first arranging sequences into a phylogenetic tree, which has limiting assumptions and can suffer from substantial ambiguity. Here, we demonstrate how machine learning algorithms called language models can learn mutational likelihoods that predict the directionality of evolution, thereby enabling phylogenetic analysis that addresses key limitations of existing methods. Our main conceptual advance is to construct a “vector field” of protein evolution through local evolutionary predictions that we refer to as evolutionary velocity (evo-velocity). We show that evo-velocity can successfully predict evolutionary order at vastly different timescales, from viral proteins evolving over years to eukaryotic proteins evolving over geologic eons. Evo-velocity also yields new evolutionary insights, predicting strategies of viral-host immune escape, resolving conflicting theories on the evolution of serpins, and revealing a key role of horizontal gene transfer in the evolution of eukaryotic glycolysis. In doing so, our work suggests that language models can learn sufficient rules of natural protein evolution to enable evolutionary predictability.",
+      "abstract_text": "The degree to which evolution is predictable is a fundamental question in biology. Previous attempts to predict the evolution of protein sequences have been limited to specific proteins and to small changes, such as single-residue mutations. Here, we demonstrate that by using a protein language model to predict the local evolution within protein families, we recover a dynamic \"vector field\" of protein evolution that we call evolutionary velocity (evo-velocity). Evo-velocity generalizes to evolution over vastly different timescales, from viral proteins evolving over years to eukaryotic proteins evolving over geologic eons, and can predict the evolutionary dynamics of proteins that were not used to develop the original model. Evo-velocity also yields new evolutionary insights by predicting strategies of viral-host immune escape, resolving conflicting theories on the evolution of serpins, and revealing a key role of horizontal gene transfer in the evolution of eukaryotic glycolysis.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4348,13 +4348,15 @@
       "id": "5b9f146e1f214ac2b02cd3306dbcaee26376de82c53be0211b9c63eb43594efa",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.30.763189v1",
+        "biorxiv:10.64898/2026.10.30.763189v2",
         "https://doi.org/10.64898/2026.10.30.763189",
-        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.30.763189.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/03/2026.10.30.763189.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.10.30.763189.source.xml"
       ],
       "title": "The Reasoning Paradox in Scientific Sandboxes: Why Extended Reasoning Fails in Autonomous Bioinformatics and How to Fix It.",
       "link": "https://doi.org/10.64898/2026.10.30.763189",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763189v1.full.pdf",
-      "publication_date": "2026-11-03",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763189v2.full.pdf",
+      "publication_date": "2026-11-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",

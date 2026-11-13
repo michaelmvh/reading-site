@@ -316,7 +316,7 @@
           "name": "Jure Leskovec"
         }
       ],
-      "abstract_text": "Biomedical research underpins progress in our understanding of human health and disease, drug discovery, and clinical care. However, with the growth of complex lab experiments, large datasets, many analytical tools, and expansive literature, biomedical research is increasingly constrained by repetitive and fragmented workflows that slow discovery and limit innovation, underscoring the need for a fundamentally new way to scale scientific expertise. Here, we introduce Biomni, a general-purpose biomedical AI agent designed to autonomously execute a wide spectrum of research tasks across diverse biomedical subfields. To systematically map the biomedical action space, Biomni first employs an action discovery agent to create the first unified agentic environment - mining essential tools, databases, and protocols from tens of thousands of publications across 25 biomedical domains. Built on this foundation, Biomni features a generalist agentic architecture that integrates large language model (LLM) reasoning with retrieval-augmented planning and code-based execution, enabling it to dynamically compose and carry out complex biomedical workflows - entirely without relying on predefined templates or rigid task flows. Systematic benchmarking demonstrates that Biomni achieves strong generalization across heterogeneous biomedical tasks - including causal gene prioritization, drug repurposing, rare disease diagnosis, microbiome analysis, and molecular cloning - without any task-specific prompt tuning. Real-world case studies further showcase Biomni's ability to interpret complex, multi-modal biomedical datasets and autonomously generate experimentally testable protocols. Biomni envisions a future where virtual AI biologists operate alongside and augment human scientists to dramatically enhance research productivity, clinical insight, and healthcare. Biomni is ready to use at https://biomni.stanford.edu, and we invite scientists to explore its capabilities, stress-test its limits, and co-create the next era of biomedical discoveries.",
+      "abstract_text": "Biomedical research is increasingly constrained by repetitive, fragmented workflows that slow discovery. We introduce Biomni, a general-purpose biomedical artificial intelligence agent that autonomously executes diverse research tasks. To map the biomedical action space, Biomni’s action-discovery agent mines tools, databases, and protocols from thousands of publications across 25 domains, building a unified agentic environment. Its general-purpose architecture integrates large language model reasoning with retrieval-augmented planning and code-based execution, dynamically composing workflows without predefined templates. Systematic benchmarking shows strong generalization across heterogeneous tasks—causal gene prioritization, drug repurposing, rare-disease diagnosis, microbiome analysis, and molecular cloning—without task-specific tuning. Real-world case studies demonstrate Biomni interpreting multimodal datasets, optimizing protein stability, orchestrating wet-lab instruments, and generating experimentally testable protocols. Biomni envisions artificial intelligence augmenting human scientists and accelerating discovery.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2268,6 +2268,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "577c1599ae6ced9ae019d50cbcfc933d0f2fa856db2e50c617fb1682f493282a",
+      "identity_keys": [
+        "arxiv:2611.13692",
+        "https://doi.org/10.48550/arXiv.2611.13692"
+      ],
+      "title": "Similar visual tuning conceals different recovery dynamics in a model of macaque V1",
+      "link": "https://doi.org/10.48550/arXiv.2611.13692",
+      "pdf_url": "https://arxiv.org/pdf/2611.13692v1",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "huang xialei",
+          "name": "Xialei Huang"
+        },
+        {
+          "key": "qingyu yan",
+          "name": "Qingyu Yan"
+        },
+        {
+          "key": "bian zheng",
+          "name": "Zheng Bian"
+        },
+        {
+          "key": "cheng xiao zhuo",
+          "name": "Zhuo-Cheng Xiao"
+        }
+      ],
+      "abstract_text": "Biologically detailed neuronal networks can model how brain circuits perform observed functions, but their high computational cost limits the comparisons needed to test biological hypotheses. To address this limitation, we extend a multiscale approach in which responses of small populations of spiking neurons are computed in advance and reused across a larger cortical circuit. In particular, we approximate these local responses by deep neural networks and achieve an estimated acceleration of the order $10^5$ for steady-state evaluation relative to spiking network simulation. Beyond computational acceleration, the smooth deep surrogate of local responses provides derivatives, allowing us to analyze linear stability and to trace how a perturbation in brain activity is transmitted through different pathways. We demonstrate the approach in a model of an input layer of macaque primary visual cortex (V1), testing circuits under visual stimulation and controlled perturbations. We resolve pathway contributions to stability, strong recurrent responses, and slow recovery. Yet different combinations of pathway strengths can support similar responses to visual stimuli while producing different recovery dynamics. Therefore, Steady responses and perturbation recovery place complementary constraints on candidate circuits. Overall, our approach offers efficient evaluation with an interpretable circuit structure, making systematic comparisons across stimuli and biological hypotheses practical.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
@@ -4665,6 +4707,98 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "57e2d656068e3db41f53bc4e1fd2bc6adba83eafa73d3a0532fbf526795afd57",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764416v2",
+        "https://doi.org/10.64898/2026.11.04.764416",
+        "https://www.biorxiv.org/content/early/2026/11/05/2026.11.04.764416.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.04.764416.source.xml"
+      ],
+      "title": "Harnessing catalytic knowledge to guide enzyme discovery and evolution with AlphaEnzyme",
+      "link": "https://doi.org/10.64898/2026.11.04.764416",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764416v2.full.pdf",
+      "publication_date": "2026-11-10",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, Y"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, J"
+        },
+        {
+          "key": "shi",
+          "name": "Shi, Z"
+        },
+        {
+          "key": "song",
+          "name": "Song, R"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, Z"
+        },
+        {
+          "key": "he",
+          "name": "He, B"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, X"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, H"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, J"
+        },
+        {
+          "key": "li",
+          "name": "Li, K"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, Y"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        },
+        {
+          "key": "dang",
+          "name": "Dang, Y"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, C.-T"
+        },
+        {
+          "key": "zheng",
+          "name": "Zheng, S"
+        }
+      ],
+      "abstract_text": "Retrieving an enzyme for a target reaction provides a starting point for evolution, but predicting how to improve it remains difficult. This requires connecting evolutionary information with the structural and chemical context of catalysis. Here we present AlphaEnzyme, an enzyme foundation model built on a structure-grounded representation of an enzyme paired with its reaction, from which catalytic compatibility, kinetics and mutational response are read out together. On a time-separated benchmark, AlphaEnzyme achieves a top-1 catalyst retrieval success rate of 30.1%, against 17.2% for the strongest baseline. Michaelis constant predictions achieve the highest rank correlations among the compared methods, reaching 0.64 for enzymes sharing at most 40% identity with the kinetic training set. The model also enriches high-fitness TrpB variants at a budget of 16 candidates without target-specific fitness training. In prospective transaminase engineering, several prioritized variants exceed the parent, with the best design yielding a 30.4-fold increase in product signal in a lysate-based assay while retaining (R)-selectivity. Together, AlphaEnzyme provides a common molecular basis for selecting starting enzymes and prioritizing sequence changes for their improvement.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

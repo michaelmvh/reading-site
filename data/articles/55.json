@@ -2543,6 +2543,41 @@
       "curated_categories": []
     },
     {
+      "id": "5573f890e056624e30c8c46822b8bfd13a11bea8bebda9200e5e275bc7641510",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764926v1",
+        "https://doi.org/10.64898/2026.11.06.764926",
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764926.source.xml"
+      ],
+      "title": "Ok-k-mer: Selecting k-mer length ensembles for calculating genomic distance",
+      "link": "https://doi.org/10.64898/2026.11.06.764926",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764926v1.full.pdf",
+      "publication_date": "2026-11-09",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hwang",
+          "name": "Hwang, S"
+        },
+        {
+          "key": "langmead",
+          "name": "Langmead, B"
+        }
+      ],
+      "abstract_text": "Current methods for computing sequence similarity across large groups of genome sequences tend to do so at the level of k-mers since this is far more efficient than base-by-base alignment. While these methods use default k-mer lengths, recent work shows that the particular choice of k-mer length greatly affects accuracy, and that using multiple values of k can boost accuracy relative to the best single choice of k, particularly when the goal is to estimate genomic distances that reflect true phylogenetic relationships. Here, we introduce Ok-k-mer, a tool to systematically select weighted k-mer length ensembles for pairwise genomic distance estimation, thereby increasing the accuracy of those estimates. Given a phylogenetic tree, Ok-k-mer ranks genome pairs by Jaccard distance across a range of k and uses a progressive search to maximize the Spearman correlation, {rho}, between weighted-average k-mer ranks and branch distances. Across eight Genome Taxonomy Database datasets, Ok-k-mer ensembles improved correlation over standard default k-mer lengths. In the Chlamydiales taxonomy, a three-length ensemble k=(9,17,22) achieved a 23.9% relative improvement over the best single length (k=20) and a 36.7% improvement over a commonly used default of 31-mers. We demonstrate that Ok-k-mer k-mer length ensembles remain stable (i.e. lengths and weights change only moderately) under genome subsampling within a taxonomy but vary across datasets. Ok-k-mer can annotate all subtrees of a phylogeny, which reveals distinct patterns of ensembles reflecting potential differences in genome evolution. Ok-k-mer provides a framework for moving beyond a \"one-k-fits-all\" k-mer analysis, improving genomic distance estimation in the era of massive-scale genomics.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5577bbb2a0684c866f19d922ec4cc1d4107979b052b96b0deac2e9645a064b3d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66536-8",
@@ -4384,6 +4419,36 @@
       "curated_categories": []
     },
     {
+      "id": "55bceb37b2064e67bbc5000f59ac7d7706f0f51347792b91e04dea9b1b57c307",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.19735006",
+        "https://openalex.org/W7155505835"
+      ],
+      "title": "Lake-Zurich-Bacterial-Integrated-Time-Series-LZ-BITS",
+      "link": "https://doi.org/10.5281/zenodo.19735006",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "cyhofe",
+          "name": "cyhofe"
+        }
+      ],
+      "abstract_text": "Lake-Zurich-Bacterial-Integrated-Time-Series (LZ-BITS) Genome architecture predicts proteome allocation in natural bacterial communities Cyrill Hofer¹, Lucas Serra Moncadas¹, Jakob Pernthaler¹, Adrian-Stefan Andrei¹*¹ Limnological Station, Department of Plant and Microbial Biology, University of Zurich, Kilchberg 8802, Switzerland*Corresponding author: stefan.andrei@limnol.uzh.ch Overview This Zenodo record contains the archived data and analysis resources associated with the study \"Genome architecture predicts proteome allocation in natural bacterial communities\". The project integrates metagenomic, metaproteomic, flow-cytometric, and environmental time-series data from Lake Zurich, Switzerland, to investigate how genome architecture constrains and predicts proteome investment patterns in natural bacterial communities. Primary raw Lake Zurich metagenomic and metaproteomic data are deposited in ENA and PRIDE, respectively. This archive contains the processed and integrated datasets, analysis workflows, supporting data, Lake Zurich flow-cytometry data, and independent MockD6300 benchmarking datasets. Archive organization Data.zip — Data processing, prepared data, and supporting raw data Contains data-type-specific processing workflows, processed and curated data, intermediate files, and selected raw supporting datasets. Depending on the analysis, files from Data/ are either used directly or incorporated into integrated datasets. The archive additionally contains: Lake Zurich flow-cytometry raw data (.fcs and CytExpert .xit) MockD6300 Illumina and Nanopore raw sequencing data MockD6300 raw and corrected draft genome assemblies and assembly benchmarking MockD6300 raw proteomics data (.mzML) and associated processing and benchmarking data Datasets.zip — Integrated datasets Contains curated and integrated datasets generated by combining information across data types. These analysis-ready tables are used in downstream comparative and statistical analyses. DataAnalysis_SpringBloom2021.zip — Analysis workflows Contains the workflows used to generate the main and supplementary results of the study, including analysis scripts, statistical analyses, intermediate analysis objects, figure-generation workflows, and figure outputs. Depending on the analysis, inputs originate from Data/, Datasets/, or both. Lake Zurich flow cytometry Raw flow-cytometry data are located under: Data/Lake_Data/Raw_Data/Flowcytometry_Data/ Measurements were acquired using a CytoFLEX S flow cytometer (Beckman Coulter) and analyzed using CytExpert v2.4.0.28. 01_Epilimnion_SB2021/ and 01_Epilimnion_SB2021.xit contain the high-resolution integrated epilimnetic measurements corresponding to the same integrated samples as the 37 samples represented in the LZ-BITS dataset. The ZS_YYMMDD directories contain complementary approximately biweekly depth-resolved measurements from the Lake Zurich long-term sampling point at 0, 2.5, 5, 7.5, 10, 12.5, 15, 20, and 40 m depth. A dedicated README.txt accompanies these files. MockD6300 benchmarking data A ZymoBIOMICS Microbial Community Standard D6300 (MockD6300) was used as an independent benchmark for the metagenomic assembly and metaproteomic workflows. To keep the primary public ENA and PRIDE repositories restricted to environmental Lake Zurich LZ-BITS samples, the MockD6300 benchmarking data are provided through this Zenodo archive. Genomic data are located under: Data/Mock_Data/Genomic/ and include paired-end Illumina raw reads, Nanopore raw reads, alternative raw and corrected draft assemblies, and assembly workflow comparisons. Proteomic data are located under: Data/Mock_Data/Proteomic/ and include raw .mzML files, protein-database preparation, DIA-NN outputs, peptide and protein tables, quality-control analyses, and benchmarking workflows. Data repositories Raw Lake Zurich metagenomic sequencing:ENA – European Nucleotide ArchiveAccession: PRJEB95916 Raw Lake Zurich metaproteomics:PRIDE – Proteomics Identifications DatabaseAccession: PXD070123 Processed and integrated datasets, analysis workflows, Lake Zurich flow cytometry, MockD6300 benchmarking data, and supporting files:ZenodoDOI: 10.5281/zenodo.19735006 Analysis code is additionally available on GitHub:https://github.com/cyhofe/Lake-Zurich-Bacterial-Integrated-Time-Series-LZ-BITS Reproducibility The Zenodo archive contains the processed and integrated data, analysis workflows, supporting files, Lake Zurich flow-cytometry data, and MockD6300 benchmarking datasets used by the analyses. Primary environmental Lake Zurich raw omics data are available from ENA PRJEB95916 and PRIDE PXD070123. Together, the Zenodo archive, GitHub repository, ENA project, and PRIDE project provide the resources required to reproduce the analyses presented in the study. Contact Adrian-Stefan AndreiEmail: stefan.andrei@limnol.uzh.ch Cyrill HoferEmail: cyrill.hofer@uzh.ch",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "55c1ae26be86e2d882e36624fb3bc473b1e3dd584e04ac261b65a899e4df9c5e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72843-5",
@@ -5145,6 +5210,46 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "55f074801cc7e18c4a16c99dc5222e6ad7b36f5a61d109853cef0fec06baa301",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.22.727257v2",
+        "https://doi.org/10.64898/2026.05.22.727257",
+        "https://www.biorxiv.org/content/early/2026/05/26/2026.05.22.727257.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/07/2026.05.22.727257.source.xml"
+      ],
+      "title": "Molecular Characterization of T-Lineage Acute Lymphoblastic Leukemia by an Optimal-Transport Based Multi-Omics Integration Framework",
+      "link": "https://doi.org/10.64898/2026.05.22.727257",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727257v2.full.pdf",
+      "publication_date": "2026-11-07",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, L"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        },
+        {
+          "key": "wan",
+          "name": "Wan, S"
+        }
+      ],
+      "abstract_text": "T-lineage acute lymphoblastic leukemia (T-ALL) is an aggressive pediatric malignancy characterized by complex heterogeneity across multiple molecular layers. Accurate subtyping is essential for understanding disease mechanisms, risk stratification, and guiding targeted therapeutic strategies. However, current diagnostic approaches are labor-intensive and time-consuming, and existing computational methods are limited by reliance on single-modality data or simple integration strategies. Effective integration of heterogeneous multi-omics data remains a major computational challenge. We present OTTER (Optimal Transport-based Transcriptomics and gEnomics Representation), a novel multi-modal deep learning framework that jointly models transcriptomic and genomic data for T-ALL molecular characterization. OTTER encodes each omics modality through a modality-specific encoder and aligns the resulting latent representations using Gromov-Wasserstein optimal transport (GW-OT), which preserves the internal geometric structure of each modality without requiring a shared feature space. Benchmarking tests on the Children's Oncology Group (COG) AALL0434 cohort with >1,300 patients across 17 T-ALL subtypes suggested that OTTER significantly outperformed state-of-the-art approaches for T-ALL molecular characterization. In addition, OTTER could identify interpretable subtype-defining and omics-specific features for T-ALL. Furthermore, we have demonstrated the generalizability of OTTER by evaluating on multiple external independent clinical cohorts. In summary, OTTER provides a principled, biologically interpretable, and computationally effective framework for multi-omics driven T-ALL molecular characterization and broader cancer applications.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

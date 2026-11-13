@@ -2736,7 +2736,7 @@
           "name": "Ashok Sekhar"
         }
       ],
-      "abstract_text": "Metamorphic proteins challenge the structure-function paradigm by switching between distinct folds. However, the conformational states sampled along the fold-switching pathway have remained elusive because they are transient and unstable. Using multinuclear chemical exchange saturation transfer and relaxation dispersion nuclear magnetic resonance, combined with chemical shift-based structure determination and protein engineering, we visualized the atomic-resolution structure of an 'invisible' state of the metamorphic chemokine lymphotactin. This state is a chimera that integrates the secondary and tertiary structure of one fold with the quaternary assembly of the other. Locking lymphotactin into a single conformation abolishes access to this state, supporting its role as an on-pathway intermediate in metamorphosis. The stabilization of such hybrid intermediates is likely to have facilitated the evolution of fold switching and represent a powerful strategy for protein design.",
+      "abstract_text": "Metamorphic proteins challenge the single-sequence-structure-function paradigm by switching between distinct folds that often adopt complementary functions. However, the conformational states sampled along the fold-switching pathway have remained elusive because they are transient and unstable. Using multinuclear chemical exchange saturation transfer and relaxation dispersion NMR, combined with chemical shift-based structure determination and protein engineering, we visualized the atomic resolution structure of an \"invisible\" state of the metamorphic chemokine lymphotactin. This state is a chimera that integrates the secondary and tertiary structure of one fold with the quaternary assembly of the other. Locking lymphotactin into a single conformation abolishes access to this state, supporting its role as an on-pathway intermediate in metamorphosis. The stabilization of such hybrid intermediates is likely to have facilitated the evolution of fold-switching and represents a powerful strategy for protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4442,6 +4442,62 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c0dd789f672ab2fd1d5a7a1279f0c8b314bf3ffb7bf7083eb18e62679e07d800",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.23.753886v2",
+        "https://doi.org/10.64898/2026.09.23.753886",
+        "https://www.biorxiv.org/content/early/2026/09/27/2026.09.23.753886.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/11/2026.09.23.753886.source.xml"
+      ],
+      "title": "CheckAMG: Accurate Identification of Auxiliary Viral Genes with Genome Language Models",
+      "link": "https://doi.org/10.64898/2026.09.23.753886",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753886v2.full.pdf",
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kosmopoulos",
+          "name": "Kosmopoulos, J. C"
+        },
+        {
+          "key": "martin",
+          "name": "Martin, C"
+        },
+        {
+          "key": "wainaina",
+          "name": "Wainaina, J. M"
+        },
+        {
+          "key": "bolduc",
+          "name": "Bolduc, B"
+        },
+        {
+          "key": "urvoy",
+          "name": "Urvoy, M"
+        },
+        {
+          "key": "sullivan",
+          "name": "Sullivan, M. B"
+        },
+        {
+          "key": "anantharaman",
+          "name": "Anantharaman, K"
+        }
+      ],
+      "abstract_text": "Viruses shape microbial metabolism through auxiliary viral genes (AVGs) that reprogram host metabolism, physiology, and gene regulation during infection. Identifying AVGs is complicated by ambiguous viral versus cellular assignment, inconsistent curation, and reliance on sequence homology that misses divergent functions. Here we present CheckAMG, which pairs annotation-based AVG prediction, curated with a per-gene viral scoring system and ontological mapping of metabolic function, with a finetuned genome-language model for annotation-independent discovery. Benchmarked against DRAM-V and VIBRANT across three ecosystems, CheckAMG produced more strongly supported auxiliary metabolic gene (AMG) calls, and uniquely among AMG tools reports auxiliary physiological (APGs) and regulatory (AReGs) genes. Applied to 1,005,980 fragmented or complete soil and human-gut viral genomes, CheckAMG identified 541,199 AVGs tracking biome-specific protein clusters and functions, including 109,107 with no detectable sequence similarity to any reference database. CheckAMG thus provides a reproducible, scalable framework for identifying the genes through which viruses reprogram host biology.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
