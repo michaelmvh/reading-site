@@ -152,6 +152,7 @@ test("JSON alone builds complete previews, safe HTML/RSS, retained pages, and st
     assert.ok(!description.includes("<script>"));
     const status = JSON.parse(await readFile(path.join(output, "status.json"), "utf8"));
     assert.equal(status.data_generated_at, generated);
+    assert.deepEqual(status.feed_collected_at, Object.fromEntries(data.snapshot.feeds.map((feed) => [feed.id, feed.collected_at])));
     assert.throws(() => checkFreshness(status), /hours old/);
     const production = path.join(root, "production");
     await buildSite(data, production, new Site("https://reading.example.org/"));
@@ -161,5 +162,20 @@ test("JSON alone builds complete previews, safe HTML/RSS, retained pages, and st
     await validateSite(production, data, new Site("https://reading.example.org/"));
     await writeFile(path.join(production, "index.html"), '<a href="/missing/">Broken</a>');
     await assert.rejects(validateSite(production, data, new Site("https://reading.example.org/")), /Broken local link/);
+  } finally { await rm(root, { recursive: true }); }
+});
+
+test("each feed page shows its own collection time, so a stale feed is not labeled as current", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "reader-feed-time-"));
+  try {
+    const snapshot = await writeFixture(root);
+    const staleCollectedAt = new Date(Date.parse(snapshot.generated_at) - 6 * 3_600_000).toISOString();
+    snapshot.feeds[1].collected_at = staleCollectedAt;
+    snapshot.freshness_policy = "bounded_stale_feed_fallback";
+    await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot));
+    const data = await loadData(root);
+    const site = new Site("https://reading.example.org/");
+    assert.ok(renderFeed(site, data, data.snapshot.feeds[1]).includes(`<time datetime="${staleCollectedAt}">`));
+    assert.ok(renderFeed(site, data, data.snapshot.feeds[0]).includes(`<time datetime="${data.snapshot.feeds[0].collected_at}">`));
   } finally { await rm(root, { recursive: true }); }
 });

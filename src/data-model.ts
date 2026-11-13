@@ -37,7 +37,9 @@ export interface Snapshot {
   schema_version: 1;
   generated_at: string;
   generator_version: string;
-  freshness_policy: "required_discovery_refresh";
+  /** "bounded_stale_feed_fallback": at least one feed failed to refresh and was republished
+   * from the previous snapshot; its collected_at is older than generated_at. */
+  freshness_policy: "required_discovery_refresh" | "bounded_stale_feed_fallback";
   default_feed: string;
   feeds: Feed[];
   article_files: { path: string; sha256: string; count: number }[];

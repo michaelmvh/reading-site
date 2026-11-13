@@ -146,3 +146,18 @@ test("retained aliases preserve transitions and reject missing, chained, or ambi
     await assert.rejects(loadData(root), /existing canonical article/);
   } finally { await rm(root, { recursive: true }); }
 });
+
+test("a feed republished from an older snapshot is accepted only with the fallback policy", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "reader-stale-feed-"));
+  try {
+    const snapshot = await writeFixture(root);
+    const staleCollectedAt = new Date(Date.parse(snapshot.generated_at) - 6 * 3_600_000).toISOString();
+    snapshot.feeds[1].collected_at = staleCollectedAt;
+    snapshot.freshness_policy = "bounded_stale_feed_fallback";
+    await writeFile(path.join(root, "snapshot.json"), JSON.stringify(snapshot));
+    const data = await loadData(root);
+    assert.equal(data.snapshot.feeds[1].collected_at, staleCollectedAt);
+    await writeFile(path.join(root, "snapshot.json"), JSON.stringify({ ...snapshot, freshness_policy: "anything_goes" }));
+    await assert.rejects(loadData(root), /freshness_policy/);
+  } finally { await rm(root, { recursive: true }); }
+});

@@ -16,6 +16,16 @@ test("monitor accepts the exact threshold and rejects stale, future, or empty sn
   assert.throws(() => checkFreshness(status("2026-10-16T12:00:00Z"), NaN, now), /positive/);
 });
 
+test("monitor reports a single feed that stopped refreshing while the snapshot stays current", () => {
+  const current = status("2026-10-16T11:00:00Z");
+  const fresh = { example: "2026-10-16T11:00:00Z", other: "2026-10-14T12:00:00Z" };
+  assert.equal(checkFreshness({ ...current, feed_collected_at: fresh }, 48, now), 1);
+  const stale = { example: "2026-10-16T11:00:00Z", other: "2026-10-14T11:00:00Z" };
+  assert.throws(() => checkFreshness({ ...current, feed_collected_at: stale }, 48, now), /Feed other has not refreshed for 49\.0 hours/);
+  assert.throws(() => checkFreshness({ ...current, feed_collected_at: { other: "invalid" } }, 48, now), /invalid collection timestamp/);
+  assert.throws(() => checkFreshness({ ...current, feed_collected_at: [] }, 48, now), /must map feed ids/);
+});
+
 test("monitor detects HTML challenges, status failures, malformed JSON, and oversized bodies", async () => {
   const url = "https://example.org/status.json";
   assert.ok(await checkRemote(url, 48, response(JSON.stringify(status(new Date().toISOString())))) < 1);
