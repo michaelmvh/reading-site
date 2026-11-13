@@ -4550,6 +4550,54 @@
       "curated_categories": []
     },
     {
+      "id": "7bc6da43972df017e9277157430a3abaca74a6855a9cdff256c4552ebd74ba49",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.29.755457v2",
+        "https://doi.org/10.64898/2026.09.29.755457",
+        "https://www.biorxiv.org/content/early/2026/09/30/2026.09.29.755457.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.09.29.755457.source.xml"
+      ],
+      "title": "EsViritu is a sensitive and specific profiler for viral pathogen detection and genome recovery in metagenomes",
+      "link": "https://doi.org/10.64898/2026.09.29.755457",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755457v2.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "tisza",
+          "name": "Tisza, M. J"
+        },
+        {
+          "key": "simar",
+          "name": "Simar, S. R"
+        },
+        {
+          "key": "zorz",
+          "name": "Zorz, J"
+        },
+        {
+          "key": "cregeen javornik",
+          "name": "Javornik Cregeen, S. J"
+        },
+        {
+          "key": "maresso",
+          "name": "Maresso, A. W"
+        }
+      ],
+      "abstract_text": "Metagenomic sequencing allows for detection of any number of pathogenic viruses from a single sample without a priori knowledge of its contents. This has created a substantial opportunity to characterize pathogens in humans and their environment, but the field is held back by a lack of bioinformatics tools for taxonomic profiling and reconstructing virus genomes. The ideal profiler would simultaneously do two things: report viruses at single-read sensitivity so that ultra-low-abundance pathogens are not missed and hold near-perfect specificity so that a pathogen is never falsely reported. Here we present EsViritu, a taxonomic profiler that pairs an iterative greedy clustering algorithm and lowest-common-ancestor taxonomic refinement with a curated Virus Pathogen Database to reconstruct virus genomes and generate virome profiles directly from reads. We benchmarked EsViritu against four leading metagenomic profilers (Kraken2, Centrifuger, Metabuli, and Sylph), running each program across a full parameter sweep and against the same Virus Pathogen Database for an apples-to-apples comparison. Across synthetic positive controls, pathogen-free negative controls, and mutated mock communities, EsViritu was the most accurate tool at reconstructing community composition: it led or tied every tool on relative abundance accuracy at all taxonomic ranks and led or tied on detection across ranks. Importantly, other tools frequently report the presence of multiple related taxa when only reads for a single genome are present, but EsViritu faithfully records the correct, single taxon and genome. EsViritu achieves read-level sensitivity for sequences as low as 85% average nucleotide identity to the nearest reference and reports essentially no false positives in pathogen-free host and synthetic samples. EsViritu also returns reconstructed consensus genomes whose nucleotide identity to the nearest reference closely tracks ground truth, yielding both a profile and genomes from a single run.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7bc816b1564c9921806127bc34b9ef726d9f89e0ab9017917719108352464806",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73992-3",

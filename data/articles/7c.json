@@ -642,6 +642,45 @@
       "curated_categories": []
     },
     {
+      "id": "7c1b852039fc667e1fd5cc3501b971c3c89a3f9ed8c4716b36be4ff79d881b3a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.11.765920v1",
+        "https://doi.org/10.64898/2026.11.11.765920",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.11.11.765920.source.xml"
+      ],
+      "title": "Anatomy-preserving rare-subregion correction for pediatric brain tumor segmentation on multiparametric MRI: a BraTS-PEDs 2026 challenge study",
+      "link": "https://doi.org/10.64898/2026.11.11.765920",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765920v1.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rai",
+          "name": "Rai, H. M"
+        },
+        {
+          "key": "omarbekov",
+          "name": "Omarbekov, D"
+        },
+        {
+          "key": "gul",
+          "name": "Gul, M"
+        }
+      ],
+      "abstract_text": "Pediatric brain tumor subregion segmentation is strongly imbalanced: whole-tumor anatomy is comparatively stable, whereas enhancing tumor (ET), cystic component (CC), and edema (ED) may be absent or small. We present an anatomy-preserving multi-stage system for BraTS-PEDs 2026 Task 2. A five-fold residual-encoder nnU-Net supplies robust anatomy and calibrated out-of-fold priors. Candidate ET and CC regions are recovered by independent fold agreement and component-level filters. A rare-aware residual adapter then operates only inside voxels labeled non-enhancing tumor core (NETC), using MRI, signed inter-modality contrasts, probability uncertainty, spatial anatomy, and coordinates. Its constrained assembly permits only NETC-to-ET or NETC-to-CC transitions; therefore background, ED, tumor core, and whole tumor are invariant. On 236 out-of-fold cases, the adapter improved CC Dice from 0.223 to 0.253 and CC normalized surface Dice from 0.233 to 0.263, while preserving tumor-core and whole-tumor scores exactly. The frozen Docker submission achieved Dice scores of 0.510, 0.908, 0.144, 0.000, 0.937, and 0.937 for ET, NETC, CC, ED, tumor core, and whole tumor, respectively, on the 91-case challenge validation set. The results show that constrained rare-subtype correction can improve difficult labels without sacrificing strong anatomical predictions, while also exposing persistent domain shift for CC and ED.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7c209d4139e5d7657d3d73b0971abfe04244548c73120ec3bb32f37504a73f27",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65900-y",

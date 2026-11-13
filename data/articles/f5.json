@@ -719,6 +719,53 @@
       "curated_categories": []
     },
     {
+      "id": "f5189924f7c2da4a24ea02c77c5ae098ed12fb2da2efff77277fe6c0e46011dc",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.11.765682v1",
+        "https://doi.org/10.64898/2026.11.11.765682",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.11.11.765682.source.xml"
+      ],
+      "title": "Propensity-Adjusted AUC under Nuisance-Model Misspecification",
+      "link": "https://doi.org/10.64898/2026.11.11.765682",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765682v1.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "heinzman",
+          "name": "Heinzman, C"
+        },
+        {
+          "key": "shang",
+          "name": "Shang, Y"
+        },
+        {
+          "key": "guo",
+          "name": "Guo, H"
+        },
+        {
+          "key": "duan",
+          "name": "Duan, Y"
+        },
+        {
+          "key": "he",
+          "name": "He, M"
+        }
+      ],
+      "abstract_text": "Propensity adjustment compares medical-image detector scores within groups with similar measured properties, such as stain or focus. We examine its sensitivity to the nuisance model that forms those groups. Under Gaussian latent-index assumptions and exact linear-index strata, a closed-form correlation gives an exact boundary for adjusted AUC to fall below one half. Quadrature matches 36 simulation cells within 0.008. Inflation and attenuation relative to correct adjustment are empirical findings, not general ordering results. An overlap screen and a self-stratified control introduced for this study miss 140 of 141 simulated cells with absolute error above 0.05: checking the fitted propensity cannot certify completeness of the adjustment set. On real pathology corpora, logistic and boosted-tree models using the same 16 features disagree. Among splits where both pass both checks, mean adjusted-AUC gaps are 0.057 on acid-fast bacilli (AFB), 0.048 on Kaggle, and 0.049 on PCam, over three, five, and three splits respectively. These gaps measure model sensitivity; neither estimate is known to be correct. A controlled colour shift moves adjusted AUC relative to model-specific references in the predicted direction in 78 of 80 label-dependent cells. Broader balance and label-fit diagnostics favour trees without certifying their adjusted AUC. We recommend reporting sensitivity across nuisance models alongside these diagnostics. Reversal relative to known truth occurs in constructed stress tests; its frequency in practice remains unknown.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f51948da9932d5b757e21f790c8e4791de3b78ef0539de42430e6b09eb091c2a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73371-y",
