@@ -129,7 +129,7 @@ ${feed.id === "protein-nanopores" ? "" : `<p class="intro">${escape(feed.descrip
 ${feed.authors.length ? `<p class="author-key">${authorNote}</p>` : ""}
 ${controls(feed)}</header><ol class="publication-list">${articles.map((article) => card(site, feed, article)).join("\n")}</ol>
 <p class="empty" data-filter-empty${visible ? " hidden" : ""}>No publications match these filters.</p>
-<footer class="reader-note"><p>Data collected <time datetime="${data.snapshot.generated_at}">${escape(new Date(data.snapshot.generated_at).toUTCString())}</time>.</p>
+<footer class="reader-note"><p>Data collected <time datetime="${feed.collected_at}">${escape(new Date(feed.collected_at).toUTCString())}</time>.</p>
 <p>RSS includes all articles in this feed. Browser filters do not change the subscription.</p></footer>`, feed.description);
 }
 

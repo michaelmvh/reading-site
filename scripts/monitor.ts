@@ -16,6 +16,18 @@ export function checkFreshness(value: unknown, maxAgeHours = 48, now = Date.now(
   if (!Number.isFinite(generated) || generated > now + 300_000) throw new Error("Snapshot generation timestamp is invalid or in the future");
   const age = (now - generated) / 3_600_000;
   if (age > maxAgeHours) throw new Error(`Snapshot is ${age.toFixed(1)} hours old (limit ${maxAgeHours})`);
+  // Older status documents have no per-feed times; the snapshot check above still applies.
+  if ("feed_collected_at" in value && value.feed_collected_at !== undefined) {
+    const collected = value.feed_collected_at;
+    if (typeof collected !== "object" || collected === null || Array.isArray(collected)) throw new Error("feed_collected_at must map feed ids to timestamps");
+    for (const [feed, timestamp] of Object.entries(collected)) {
+      const feedCollected = typeof timestamp === "string" ? Date.parse(timestamp) : NaN;
+      if (!Number.isFinite(feedCollected)) throw new Error(`Feed ${feed} has an invalid collection timestamp`);
+      const feedAge = (now - feedCollected) / 3_600_000;
+      // A feed republished from an older snapshot after failed refreshes; the rest of the site is current.
+      if (feedAge > maxAgeHours) throw new Error(`Feed ${feed} has not refreshed for ${feedAge.toFixed(1)} hours (limit ${maxAgeHours}); the rest of the snapshot is ${Math.max(age, 0).toFixed(1)} hours old`);
+    }
+  }
   return Math.max(age, 0);
 }
 

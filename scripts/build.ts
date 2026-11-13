@@ -29,6 +29,8 @@ export async function buildSite(data: Dataset, output: string, site: Site, built
     schema_version: 1, data_generated_at: data.snapshot.generated_at, data_digest: data.digest,
     built_at: builtAt, reader_revision: process.env.GITHUB_SHA ?? null,
     feeds: Object.fromEntries(data.snapshot.feeds.map((feed) => [feed.id, feed.article_ids.length])),
+    // Per feed, because a feed whose refresh failed is republished with its older collection time.
+    feed_collected_at: Object.fromEntries(data.snapshot.feeds.map((feed) => [feed.id, feed.collected_at])),
     freshness_policy: data.snapshot.freshness_policy,
   }, null, 2));
   for (const file of ["reader.css", "favicon.svg", "apple-touch-icon.png"]) await copyFile(path.join(root, "src/assets", file), path.join(output, file));
