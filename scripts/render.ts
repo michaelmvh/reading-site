@@ -102,7 +102,8 @@ function controls(feed: Feed): string {
 <label class="filter-select">Publication date<select name="period"><option value="">All available</option><option value="30d">Past 30 days</option><option value="90d">Past 90 days</option><option value="1y">Past year</option></select></label>
 ${options.length ? `<details class="filter-multiselect" data-author-picker><summary><span class="filter-label">Tracked authors</span><span class="filter-value" data-author-summary>${escape(summary)}</span></summary>
 <div class="filter-options"><label class="filter-checkbox filter-select-all"><input type="checkbox" data-select-all${selected.length === options.length ? " checked" : ""}><span>All tracked authors</span></label>
-<div class="filter-option-list">${authors}</div></div></details>` : ""}
+<div class="filter-option-list">${authors}</div>
+<label class="filter-checkbox filter-tracked-only"><input type="checkbox" name="untracked" value="hide"><span>Only papers with a tracked author</span></label></div></details>` : ""}
 <details class="filter-multiselect" data-source-picker><summary><span class="filter-label">Paper sources</span><span class="filter-value" data-source-summary>${escape(feed.sources.length === 1 ? feed.sources[0].label : `${feed.sources.length} selected`)}</span></summary><div class="filter-options"><div class="filter-option-list">${groups}</div></div></details>
 </div><div class="filter-actions" hidden><button class="clear-filters" type="reset">Clear filters</button></div></form>`;
 }

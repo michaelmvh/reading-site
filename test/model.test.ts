@@ -18,12 +18,21 @@ test("default/all/custom/empty selections, source OR, and UTC date boundaries ar
   assert.equal(matches({ ...article, date: "2026-02-30" }, state("authors=all&period=1y"), now), false);
 });
 
+test("tracked-authors-only hides papers with no tracked-author match in every selection mode", () => {
+  const untrackedArticle = { ...article, defaultAuthor: true, authors: [] };
+  assert.equal(matches(untrackedArticle, state()), true);
+  assert.equal(matches(untrackedArticle, state("authors=all")), true);
+  assert.equal(matches(untrackedArticle, state("untracked=hide")), false);
+  assert.equal(matches(untrackedArticle, state("authors=all&untracked=hide")), false);
+  assert.equal(matches(article, state("authors=all&untracked=hide")), true);
+});
+
 test("URL state round-trips without silently accepting stale filters or external return links", () => {
-  for (const query of ["", "authors=all", "authors=custom", "authors=custom&author=optional&source=core&period=1y"]) {
+  for (const query of ["", "authors=all", "authors=custom", "authors=custom&author=optional&source=core&period=1y", "authors=all&untracked=hide"]) {
     const first = state(query);
     assert.deepEqual(readState(writeState(first, options), options), first);
   }
-  for (const query of ["rss", "period=10y", "authors=bad", "author=unknown", "source=unknown", "authors=all&authors=custom"]) assert.throws(() => state(query));
+  for (const query of ["rss", "period=10y", "authors=bad", "author=unknown", "source=unknown", "authors=all&authors=custom", "untracked=show", "untracked=hide&untracked=hide"]) assert.throws(() => state(query));
   assert.equal(safeReturn("/preview/feeds/example/?authors=all", "/preview/", "https://example.org"), "/preview/feeds/example/?authors=all");
   for (const value of ["https://evil.org/", "//evil.org/", "/preview/article/id/", "/other/"]) assert.equal(safeReturn(value, "/preview/", "https://example.org"), null);
 });

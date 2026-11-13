@@ -116,7 +116,9 @@ The browser makes no NAS/provider requests.
 
 Default author selection excludes optional-only tracked-author papers but includes papers
 with no tracked author. All-author mode includes every paper; an explicitly empty custom
-selection shows none. Sources use OR membership and combine with date/author filters.
+selection shows none. "Only papers with a tracked author" (`untracked=hide`) additionally
+hides papers matching no tracked author, such as keyword-search or journal hits, in every
+mode. Sources use OR membership and combine with date/author filters.
 Only sources actually collected for the named feed are offered.
 
 The original date, tracked-author, and grouped paper-source controls filter automatically.

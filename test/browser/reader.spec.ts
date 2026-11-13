@@ -187,6 +187,23 @@ test("author select-all, partial and empty selections survive reload and history
   await expect(page.locator(".publication:visible")).toHaveCount(1);
 });
 
+test("tracked-authors-only hides untracked papers and survives reload and clearing", async ({ page }) => {
+  await page.goto("/?authors=all");
+  const picker = page.locator("[data-author-picker]");
+  await expect(page.locator(".publication:visible")).toHaveCount(3);
+  await picker.locator("summary").click();
+  await picker.getByRole("checkbox", { name: "Only papers with a tracked author", exact: true }).check();
+  await expect(page).toHaveURL(/untracked=hide/);
+  await expect(picker.locator("[data-author-summary]")).toHaveText("Tracked authors only");
+  for (const card of await page.locator(".publication:visible").all()) await expect(card.locator(".notable-author").first()).toBeVisible();
+  const trackedCount = await page.locator(".publication:visible").count();
+  expect(trackedCount).toBeLessThan(3);
+  await page.reload();
+  await expect(page.locator(".publication:visible")).toHaveCount(trackedCount);
+  await page.getByRole("button", { name: "Clear filters" }).click();
+  await expect(page.locator('[name="untracked"]')).not.toBeChecked();
+});
+
 test("dropdowns close outside, on Escape and when focus moves to another control", async ({ page }) => {
   await page.goto("/");
   const authors = page.locator("[data-author-picker]");

@@ -19,6 +19,7 @@ function initialize(form: HTMLFormElement): void {
   const mode = required<HTMLInputElement>('[name="authors"]', form);
   const period = required<HTMLSelectElement>('[name="period"]', form);
   const selectAll = form.querySelector<HTMLInputElement>("[data-select-all]");
+  const trackedAuthorsOnlyBox = form.querySelector<HTMLInputElement>('[name="untracked"]');
   const authorPicker = form.querySelector<HTMLDetailsElement>("[data-author-picker]");
   let availableAuthorBoxes = authorBoxes;
   const pickers = [...document.querySelectorAll<HTMLDetailsElement>(".filter-multiselect")];
@@ -39,6 +40,7 @@ function initialize(form: HTMLFormElement): void {
     period.value = state.period;
     for (const box of authorBoxes) box.checked = state.mode === "all" || (state.mode === "default" ? box.dataset.default === "true" : state.authors.includes(box.value));
     for (const box of sourceBoxes) box.checked = state.sources.includes(box.value);
+    if (trackedAuthorsOnlyBox) trackedAuthorsOnlyBox.checked = state.trackedAuthorsOnly;
   };
   const display = (state: FilterState, push: boolean) => {
     const query = writeState(state, options).toString();
@@ -67,12 +69,14 @@ function initialize(form: HTMLFormElement): void {
         if (!label) throw new Error("Missing author checkbox label");
         label.hidden = !availableAuthors.has(box.value);
       }
-      authorPicker.hidden = availableAuthorBoxes.length === 0;
+      // Keep the picker visible while it is hiding untracked papers, so that setting can be undone.
+      authorPicker.hidden = availableAuthorBoxes.length === 0 && !state.trackedAuthorsOnly;
       if (authorPicker.hidden) authorPicker.open = false;
       const selected = availableAuthorBoxes.filter((box) => box.checked);
       selectAll.checked = selected.length > 0 && selected.length === availableAuthorBoxes.length;
       selectAll.indeterminate = selected.length > 0 && !selectAll.checked;
-      required<HTMLElement>("[data-author-summary]").textContent = selectAll.checked ? "All tracked authors"
+      required<HTMLElement>("[data-author-summary]").textContent = selectAll.checked
+        ? (state.trackedAuthorsOnly ? "Tracked authors only" : "All tracked authors")
         : selected.length === 0 ? "No tracked authors" : selected.length === 1 ? selected[0].dataset.label! : `${selected.length} selected`;
     }
     const sources = sourceBoxes.filter((box) => box.checked);
