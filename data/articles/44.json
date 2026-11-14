@@ -326,6 +326,7 @@
       "identity_keys": [
         "biorxiv:10.64898/2026.11.06.764889v1",
         "https://doi.org/10.64898/2026.11.06.764889",
+        "https://openalex.org/W7226014135",
         "https://www.biorxiv.org/content/early/2026/11/09/2026.11.06.764889.source.xml"
       ],
       "title": "Rapid generation of antibody conformational ensembles using machine learning",
@@ -399,6 +400,12 @@
       ],
       "abstract_text": "We introduce Cadense, a generative framework for antibody ensemble prediction that produces diverse Fv structures from sequence, informed by conformational dynamics. While a valuable resource, static structure prediction provides only a single snapshot of dynamic proteins, whose motions influence their binding and other properties. This is particularly relevant for antibodies, an important class of molecules for drug discovery, where flexible complementarity determining region (CDR) loops are difficult to model with static approaches. Cadense addresses this gap by generating ensembles that match conformational and biophysical property distributions from molecular dynamics (MD), while reducing the computational burden from days of simulation to seconds of generation. We show Cadense ensembles can recover both apo and holo conformations of the same antibody and serve as effective input to physics-based docking, capturing the conformational flexibility important to properly model antibody antigen interactions. Together, these results establish Cadense as a useful tool for antibody conformational ensemble generation with the promise to enable faster, dynamics-aware antibody design.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "biorxiv",
           "key": "biorxiv:bioinformatics",

@@ -3738,6 +3738,48 @@
       "curated_categories": []
     },
     {
+      "id": "75a14199a71542fc85045350c5f23b8439d8b0ace3b0a5de0a156fcde96313ec",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.16099",
+        "https://openalex.org/W7226006067"
+      ],
+      "title": "CupOFMoCA: Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly",
+      "link": "https://doi.org/10.48550/arxiv.2611.16099",
+      "pdf_url": null,
+      "publication_date": "2026-11-11",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "rosie ruoxi zhang",
+          "name": "Ruoxi Rosie Zhang"
+        },
+        {
+          "key": "li ziang",
+          "name": "Ziang Li"
+        },
+        {
+          "key": "gu jiatao",
+          "name": "Jiatao Gu"
+        },
+        {
+          "key": "chatterjee pranam",
+          "name": "Pranam Chatterjee"
+        }
+      ],
+      "abstract_text": "Molecular conjugates, including PROTACs and peptide-drug conjugates (PDCs), derive their function from the joint behavior of multiple coupled components, yet most generative approaches design these components independently and combine them only after generation. Such staged pipelines ignore cross-component dependencies and often produce conjugates that are chemically invalid, fall outside empirical conjugate distributions, or lose function upon assembly. In this work, we introduce Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly (CupOFMoCA), a discrete generative method that enforces cross-component chemical constraints during conjugate generation. CupOFMoCA restricts guided updates to chemically feasible conjugate states and reweights local transitions using molecular design objectives. Across three PDC systems, coupled generation achieved 100% conjugation validity among valid peptides and increased valid yield over matched post-hoc filtering, with comparable predicted binding scores across the full valid sets. In three-seed evaluations of three PROTAC systems, CupOFMoCA achieved the highest assembly validity on two systems and generated more assembly-valid molecules per second than the evaluated baselines. We further evaluated the generated PROTACs with post-hoc DegradeMaster scoring and explicit-solvent molecular dynamics, supporting their predicted activity and conformational properties. Together, these results establish CupOFMoCA as an efficient generator of molecular conjugates, supporting therapeutic development via coordinated control of assembly and molecular properties.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "75a251a2d7d15118b4590f813b19633fc60b6cb6c4317407bea479166b622738",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00036-7",

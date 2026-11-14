@@ -4556,6 +4556,56 @@
       "curated_categories": []
     },
     {
+      "id": "cfc619a6e4e4838b9f851954c5e0a155ff15871b7c7ee41981041868ac00f177",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.16361",
+        "https://openalex.org/W7226029720"
+      ],
+      "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+      "link": "https://doi.org/10.48550/arxiv.2611.16361",
+      "pdf_url": null,
+      "publication_date": "2026-11-12",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "guo ruihan",
+          "name": "Ruihan Guo"
+        },
+        {
+          "key": "chaoran cheng",
+          "name": "Chaoran Cheng"
+        },
+        {
+          "key": "ni zhanghan",
+          "name": "Zhanghan Ni"
+        },
+        {
+          "key": "he neil",
+          "name": "Neil He"
+        },
+        {
+          "key": "bangji yang",
+          "name": "Bangji Yang"
+        },
+        {
+          "key": "ge liu",
+          "name": "Ge Liu"
+        }
+      ],
+      "abstract_text": "Protein mutation effect prediction is fundamental to protein engineering and disease variant interpretation, yet experimentally measured mutation data remain accurate but extremely sparse. To provide scalable supplementary mutation signals, we construct a PDB-wide mutation augmentation dataset that exhaustively enumerates single-site substitutions on experimentally resolved protein structures and aligns mutation signals from physics-based energy models, protein language models, and inverse folding models. Large-scale analysis under a unified mutation preference representation reveals substantial differences in the consistency, concentration, and substitution patterns of mutation distributions across models, indicating that disagreement is pervasive and reflects conflicting inductive biases rather than random noise. Motivated by these observations, we propose an unsupervised multi-source mutation preference distillation framework that learns from relative mutation preferences while explicitly modeling cross-source disagreement. Without using any experimental mutation labels during training, our approach achieves the best overall performance among the evaluated zero-shot baselines and naive multi-source fusion strategies on ProteinGym. We release the dataset and evaluation pipeline to support reproducible studies of protein mutation effects.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cfcb62535f1cf132f94baada3cfb436c257207abd2b73a0d000acc9978148def",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76878-6",

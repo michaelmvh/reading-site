@@ -1487,6 +1487,52 @@
       ]
     },
     {
+      "id": "882f81ad48f60ab1b2d54015c34101016b1b04bb44f93ac9982429271c4f395e",
+      "identity_keys": [
+        "https://doi.org/10.3390/molecules31224109",
+        "https://openalex.org/W7225998870"
+      ],
+      "title": "Hybrid BiLSTM–Graph Neural Networks Learn Efficient Secondary Structure Representations for Protein–Protein Interface Prediction",
+      "link": "https://doi.org/10.3390/molecules31224109",
+      "pdf_url": null,
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Molecules",
+      "authors": [
+        {
+          "key": "niccolò pancino",
+          "name": "Niccolò Pancino"
+        },
+        {
+          "key": "fiamma romagnoli",
+          "name": "Fiamma Romagnoli"
+        },
+        {
+          "key": "ceroni elia giuseppe",
+          "name": "Elia Giuseppe Ceroni"
+        },
+        {
+          "key": "caterina gallegati",
+          "name": "Caterina Gallegati"
+        },
+        {
+          "key": "bianchini monica",
+          "name": "Monica Bianchini"
+        }
+      ],
+      "abstract_text": "Protein–protein interfaces (PPIs) are essential for numerous biological processes and represent attractive targets for drug discovery and protein engineering. Although recent protein language models have enabled powerful sequence representations for downstream structural prediction tasks, they require substantial computational resources and produce general-purpose embeddings that are not optimized for specific applications. In this work, we investigate whether task-specific representation learning can provide a computationally efficient alternative for PPI prediction. Proteins are represented as graphs of secondary structure elements (SSEs), where each node corresponds to an SSE described by its ordered amino acid sequence and edges encode spatial relationships between neighboring SSEs. We propose an approach based on a hybrid Bidirectional Long Short-Term Memory–Graph Neural Network (BiLSTM-GNN) architecture that learns SSE embeddings directly from residue-level physicochemical descriptors and optimizes them jointly with a downstream graph neural network. The proposed approach is compared with an alternative pipeline based on pretrained ESM2 embeddings while keeping the graph representation and GNN architecture unchanged. Experimental results show that the task-specific BiLSTM encoder achieves competitive predictive performance with respect to the pretrained protein language model, in almost all the considered metrics, in the most challenging evaluation setting while requiring a lower computational effort. These findings suggest that end-to-end task-specific representation learning constitutes an effective and efficient alternative to pretrained protein language models for PPI prediction.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "88399fe88870ceb93850dd7ead1e96ea2a1c48be440c7c030e2728ff14cbd756",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68586-y",

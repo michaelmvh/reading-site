@@ -2273,6 +2273,36 @@
       "curated_categories": []
     },
     {
+      "id": "287064cea0b620dda7282df7573568e9d62cd1098b4781d5cdd29c5bb7a05e65",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.24206655",
+        "https://openalex.org/W7225983677"
+      ],
+      "title": "Configuration Sensitivity and Metric Validity in Computational Screening of De Novo Protein Binders: An Empirical Study of 16,055 Pipeline-Generated Designs",
+      "link": "https://doi.org/10.5281/zenodo.24206655",
+      "pdf_url": null,
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "chen shiqiang",
+          "name": "Shiqiang Chen"
+        }
+      ],
+      "abstract_text": "The maturation of generative protein design has made it routine to produce thousands of de novo binder candidates in a single campaign, shifting the bottleneck from design to computational screening. We report an empirical dissection of one screening stack built from RFdiffusion, ProteinMPNN, ColabFold, Boltz-2, and the interface-confidence metric ipSAE, covering 16,055 pipeline-generated designs across two structurally distinct targets (KRAS G12D pMHC and EGFR domain III), of which 42 were selected for deep validation. Three findings emerge. (1) MSA configuration dominates the verdict: for one and the same sequence, suppressing the target MSA drops ipSAE from 0.826 (HIGH) to 0.316 (REJECT), and capping MSA depth at 512 drives 8/8 candidates to exactly 0.000, whereas a cap of 2048 restores 0.823. (2) Plausible metrics are dissociated from interface quality: contact count and epitope overlap correlate at r=+0.19 and r=+0.13 with ipSAE, while ipTM (rho=+0.99) and pTM (rho=+0.96) are strongly predictive. (3) The hard-target narrative is weaker than the configuration problem: hit rates (ipSAE>=0.61) were 11% for EGFR (4/36) and 17% for pMHC (1/6; Fisher p=0.56). Our best EGFR design reaches ipSAE 0.858, the same level as cetuximab (0.857-0.866).",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2870c657995575878d7b8b931312b8ab4dd5ab8ffb49ee2d43deb0359471ac87",
       "identity_keys": [
         "https://arxiv.org/abs/2512.15133",

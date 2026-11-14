@@ -2356,6 +2356,48 @@
       "curated_categories": []
     },
     {
+      "id": "614d9eb824e57be9c9c4e042a3a52c80eb4535bc808c49b28223e9cec40f32cf",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.11.12.766294",
+        "https://openalex.org/W7226036634"
+      ],
+      "title": "Learning the limits of protein structure models with NMR chemical shifts",
+      "link": "https://doi.org/10.64898/2026.11.12.766294",
+      "pdf_url": null,
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "cizhang zhao",
+          "name": "Cizhang Zhao"
+        },
+        {
+          "key": "el gina nesr",
+          "name": "Gina El Nesr"
+        },
+        {
+          "key": "chen yilin",
+          "name": "Yilin Chen"
+        },
+        {
+          "key": "hannah steele wayment",
+          "name": "Hannah K. Wayment-Steele"
+        }
+      ],
+      "abstract_text": "Protein foundation models are intended to implicitly learn the chemical rules underlying protein function. However, systematically evaluating what biochemistry these models have learned remains difficult, as most downstream tasks lack experimental data fine-grained enough to expose their failure modes. NMR chemical shifts fill this gap: as direct per-atom reporters of local chemical environment, they offer a sensitive probe of structure-based representations. In this work, we present a systematically curated chemical shift dataset designed to minimize experimental confounders. We use it to benchmark diverse protein foundation models in their ability to predict backbone 15N chemical shifts, atoms that are known to be sensitive to many effects. The largest error across all models is in core residues with evidence of fast-timescale dynamics, which we investigate mechanistically using molecular dynamics simulations. Given the biological relevance of structured dynamic regions, we trained a new model based on the best of these embeddings, SLAE, to predict its own error. SLAE-ERR achieves a mean absolute error of 0.76 ppm for predicting error. Together, we hope that the datasets, evaluation tasks, and models presented here are sources of guidance for protein design model improvement.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "614df4cc66e5c888128847cf34a3662b83e7c1ecee3caef875d40f9e7c5bf07f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67703-7",
