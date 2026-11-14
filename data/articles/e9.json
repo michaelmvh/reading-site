@@ -288,6 +288,53 @@
       "curated_categories": []
     },
     {
+      "id": "e90b9788922304459e850d1a19ce46a42517fe2d9159112ed81744d54b450da3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.07.764582v1",
+        "https://doi.org/10.64898/2026.11.07.764582",
+        "https://www.biorxiv.org/content/early/2026/11/13/2026.11.07.764582.source.xml"
+      ],
+      "title": "Algorithms for Designing Therapeutic Oligonucleotides on Pangenome Graphs",
+      "link": "https://doi.org/10.64898/2026.11.07.764582",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.764582v1.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "gocht",
+          "name": "Gocht, N"
+        },
+        {
+          "key": "cotumaccio",
+          "name": "Cotumaccio, N"
+        },
+        {
+          "key": "tomescu",
+          "name": "Tomescu, A"
+        },
+        {
+          "key": "schliep",
+          "name": "Schliep, A"
+        },
+        {
+          "key": "kinen ma",
+          "name": "Mäkinen, V"
+        }
+      ],
+      "abstract_text": "Designing therapeutic oligonucleotides that act reliably across human genetic diversity requires more than alignment to a single reference genome. Binding affinity of an siRNA or ASO to a usually complementary site in an mRNA target molecule is one main determinant of drug efficacy. Thus, variation in sub-populations can lead to failures in drug development if this variation reduces binding affinity. We provide a first methodological step towards principled, variant-aware design of therapeutic oligonucleotides. The genetic diversity in target genes, or specific regions thereof, is represented as a pangenome graph. We define individual or small sets of suitable therapeutic oligonucleotides by their ability to cover all paths in a directed acyclic graph within a bounded edit distance <= k. Edit distance is used as an accepted proxy to the commonly used binding affinity. We formalize the resulting computational problem and provide complexity results: NP-hardness of identifying such minimal sets even for k =0, and coNP-completeness of verifying the validity of a given set of oligonucleotides. Further, we propose algorithmic approaches operating on a product graph of an automaton (an Aho-Corasick DFA or an Ukkonen DFA) and the pangenome graph, as well as a dynamic programming-based lossless filter. We evaluate the approaches on gene-specific subgraphs of human pangenome graphs and demonstrate favorable performance compared to naive brute-force computation. Our results show that candidate target sites with a threshold of k <= 3 can be identified even for large, complex graphs where the brute-force computation did not complete within 24h. We observe that the dynamic programming-based lossless filter outperforms both product-graph approaches as well as brute-force baselines while maintaining an average approximation ratio < 1.5 across more than a hundred evaluated subgraphs. We also present examples where a small set of oligonucleotides constitutes a feasible solution where no single oligonucleotide with a threshold of k <= 2 covers all paths.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e91236a7eb279abc3c6cbb08d84994ded516e658f4ef8a6a5486d4937016ad87",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.27.761579v1",
