@@ -5253,36 +5253,36 @@
         "https://www.biorxiv.org/content/early/2026/06/11/2026.06.09.731073.source.xml",
         "https://www.biorxiv.org/content/early/2026/11/12/2026.06.09.731073.source.xml"
       ],
-      "title": "DeePEn - A Depth sensitive benchmark for Protein Engineering",
+      "title": "DeePEn-A Depth sensitive benchmark for Protein Engineering",
       "link": "https://doi.org/10.64898/2026.06.09.731073",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.09.731073v2.full.pdf",
-      "publication_date": "2026-11-12",
+      "pdf_url": null,
+      "publication_date": "2026-06-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "schmirler",
-          "name": "Schmirler, R"
+          "key": "robert schmirler",
+          "name": "Robert Schmirler"
         },
         {
-          "key": "brenner",
-          "name": "Brenner, M"
+          "key": "brenner maurice",
+          "name": "Maurice Brenner"
         },
         {
-          "key": "franz",
-          "name": "Franz, S"
+          "key": "franz sebastian",
+          "name": "Sebastian Franz"
         },
         {
-          "key": "heinzinger",
-          "name": "Heinzinger, M"
+          "key": "heinzinger michael",
+          "name": "Michael Heinzinger"
         },
         {
-          "key": "rost",
-          "name": "Rost, B"
+          "key": "burkhard rost",
+          "name": "Burkhard Rost"
         }
       ],
-      "abstract_text": "Recent progress in modeling techniques and high-throughput screening has significantly enhanced the accessibility of protein engineering. Nevertheless, further progress gets hindered by the lack of robust benchmarks that capture the practical challenges for real-world protein engineering. Here, we introduced DeePEn, a Depth-sensitive benchmark for Protein Engineering that quantifies model generalization to held-out variants at increasing mutational distance from the wild type. We defined distance as the number of simultaneous point mutations, i.e., single amino acid variants (SAVs), moving from wild-type to mutant (edit distance in computer science jargon). DeePEn retrospectively evaluates prediction and prioritization using experimentally labelled variants from deep mutational scanning (DMS) datasets; it does not benchmark prospective sequence generation or goal-directed optimization. Specifically selecting four DMS datasets with sufficient multi-mutation data points from ProteinGym, we assessed recent predictive models, including general and biophysics-informed protein Language Models (pLMs), and a non-transformer neural network. Our results highlight how the performance of all models deteriorates with increasing mutational distance and that no single metric sufficiently captures the diverse requirements of protein engineering. To overcome these shortcomings, DeePEn provides a readily available resource for multi-metric benchmarking that focuses on variant-effect prediction of variants distant from the wild type.",
+      "abstract_text": "Abstract Recent progress in modeling techniques and high-throughput screening has significantly enhanced the accessibility of protein engineering. Nevertheless, further progress gets hindered by the lack of robust benchmarks that capture the practical challenges for real-world protein engineering. Here, we introduced DeePEn, a De pth-s e nsitive benchmark for P rotein En gineering that quantifies a model’s generalization capabilities when predicting protein fitness at increasing mutational distance from the wildtype or training data. We defined distance as the number of simultaneous point mutations, i.e., single amino acid variants (SAVs), moving from wild-type to mutant ( edit distance in computer science jargon). Specifically selecting four deep mutational scanning (DMS) datasets with sufficient multi-mutation data points from ProteinGym, we assessed recent predictive models, including general and biophysics-informed protein Language Models (pLMs), and a non-transformer neural network. Our results highlight how the performance of all models deteriorates with increasing mutational distance and that no single metric sufficiently captures the diverse requirements of protein engineering. To overcome these shortcomings, DeePEn provides a readily available resource for multi-metric benchmarking that focuses on the prediction of distant variants.",
       "discovery_sources": [
         {
           "kind": "open_alex",
