@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T00:04:45Z",
+  "generated_at": "2026-11-15T02:02:38Z",
   "generator_version": "0.1.7",
-  "freshness_policy": "bounded_stale_feed_fallback",
+  "freshness_policy": "required_discovery_refresh",
   "default_feed": "bioml",
   "feeds": [
     {
       "id": "bioml",
       "title": "Machine Learning & Synthetic Biology",
       "description": "Machine Learning & Synthetic Biology. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-15T00:00:40Z",
+      "collected_at": "2026-11-15T02:00:48Z",
       "article_ids": [
         "9abe5dafde3d24ec14a231bdf8eccdb7e08be29fa9ec9bcc3f257ea1b3bb110c",
         "f074e22c7a780d50169fa27afdfa05e57d996d62936928b441d3ad116c9bf6ea",
@@ -2180,7 +2180,7 @@
       "id": "nanopore-foundations",
       "title": "Nanopore Foundations & Signal Analysis",
       "description": "Nanopore Foundations & Signal Analysis. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-15T00:00:40Z",
+      "collected_at": "2026-11-15T02:00:48Z",
       "article_ids": [
         "8b85569145b8b3987a927dad17b524b50ed4026bfc6e00f7b982d84918db8b19",
         "01f28340f3fca0e132bebbab9dedee1eb2fdd5efbdd19babd1c8c8934b88731a",
@@ -2235,7 +2235,7 @@
       "id": "native-preprint-pilot",
       "title": "Native Preprint Pilot",
       "description": "Native Preprint Pilot. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-14T22:00:45Z",
+      "collected_at": "2026-11-15T02:01:07Z",
       "article_ids": [
         "f1e9acf92f409f1dc62925509a1f3acd9bffb62c7d814331126084afe3e01479",
         "2e9644ff606c34650d090793da3c45275d6572a9cfa2347c5de606d5efb62327",
@@ -2277,9 +2277,9 @@
         "e90b9788922304459e850d1a19ce46a42517fe2d9159112ed81744d54b450da3",
         "3e5deadfbd99d18fe0d296a8046cf5bc049c570f806a6139d0dde2aa69c021b9",
         "c8a7f868147370e4e9903900ee96595cdfb3b1aeb7cab5ea060f10c614a59d69",
-        "25ab813fb7c4d5a7673136994bff3a6b027a5eec6a3ddfdd7d49a394d7057293",
         "121e939654dfe77ce572876aadd18bd577b34c7df89e5654b698b7b457bb9da5",
         "9abe5dafde3d24ec14a231bdf8eccdb7e08be29fa9ec9bcc3f257ea1b3bb110c",
+        "25ab813fb7c4d5a7673136994bff3a6b027a5eec6a3ddfdd7d49a394d7057293",
         "d35bba526864508caa01d724b4c49020013d1d31a4bc6a63739ef55f8c9db258",
         "83639d5a140cfc5343e634e12b57b7818095def44e55f7e6139402d2ef832458",
         "3495275ad72d3a51cb10f6c222d8ee08fc6128249829995cf8ebe348eadeb8c9",
@@ -2457,11 +2457,6 @@
         "64b594110ae1d3cf2a6f3a556b1cb09ab944506f9ea24f4ef29c71f53b69b2c9",
         "fe503fdf3bc247f44bc72fa529c91709e7088762751d89f191dd5e7225f153ae",
         "14af32ecd451a2351513cd1c0d67180a53dd6e62194feea2f691e573b2c7f609",
-        "a052f6c4947df33836f8734d766879fc447604ab8145a3f2ec8ee6a46139abb3",
-        "1e92265d0395750819384df02c14b0c133db18ef3ada314c92f96b851cf4d319",
-        "f5e5ab160181765d769a6d8733aeb45f9c30c80190d6114ea494f751b277c729",
-        "6554f6c98ddf36396bc351c2ffd7e9ffa80c23059cab241a08e2e200cc8cfd91",
-        "55f074801cc7e18c4a16c99dc5222e6ad7b36f5a61d109853cef0fec06baa301",
         "dbcf54ae4b6115368a6e4017634e8e55c31552754e497e7edc7bc6360aec9532",
         "ea407dd1427770f759741a7d673793829edc327782bd75f621a3838d756d7a65",
         "e07e94751436a19b2f82d5400efdb49f67ae507b028e63ae955a2d7d94d6bc19",
@@ -2502,7 +2497,6 @@
         "1c2f9485e1cc24c6d2e1d274250d5b5fd90127328c76d3c5b57f6080f81bdd61": [],
         "1c877326b69d58f2e07fce3c633f76dad4eaadd984c2abfcfaff7ad1e39a7621": [],
         "1ce78c13f45d97b041d7d536fd2592853035682464d6e782a30e25078c13ffe2": [],
-        "1e92265d0395750819384df02c14b0c133db18ef3ada314c92f96b851cf4d319": [],
         "1ee9d6a1ddc70f569a3dcb5adbafd6b7fa5ca32d838ba2f3ae8d72ec335396f6": [],
         "1f6f41e5f6799e82465c35e9c63c6b71d217f2ed7f2a94ce3183a4c822a214f1": [],
         "2042654d015782fc3cbdc1b6e6ab41f1441e9c71088405f99c71e15ee2c55d21": [],
@@ -2558,7 +2552,6 @@
         "52b79d33563aee46908aaae73d96131b2c920001a2520462e964bf2f9e91c75c": [],
         "536478c1fc27242060ea067115ef9bb67baea1b3fe2195e23ac8ff6f747e720c": [],
         "5573f890e056624e30c8c46822b8bfd13a11bea8bebda9200e5e275bc7641510": [],
-        "55f074801cc7e18c4a16c99dc5222e6ad7b36f5a61d109853cef0fec06baa301": [],
         "577c1599ae6ced9ae019d50cbcfc933d0f2fa856db2e50c617fb1682f493282a": [],
         "57e2d656068e3db41f53bc4e1fd2bc6adba83eafa73d3a0532fbf526795afd57": [],
         "5973c0992ac8cd11bb0dc8fe3cba7f1ed1c7f2c3acd2bd922bd5d56ee970d6f3": [],
@@ -2575,7 +2568,6 @@
         "621e22765d21f539c97a0a3141897028200166bae2d3b491e9aa128505d2169b": [],
         "645d2f5b2245a854373332bb28d4479b52aad9d014c3dbb72d0f745ee3d06337": [],
         "64b594110ae1d3cf2a6f3a556b1cb09ab944506f9ea24f4ef29c71f53b69b2c9": [],
-        "6554f6c98ddf36396bc351c2ffd7e9ffa80c23059cab241a08e2e200cc8cfd91": [],
         "66024350006bf90aa50d5437cff73be7f637cf146eddbe14c6921a34a80547ea": [],
         "677d53e52a7ea37a661974941ab9c56f2bdab1de1928cfae31e1de59c2c3a639": [],
         "69717b82ff67e140b5924ce6a0a000996ed6221701fd5dfbf04f08a5805c954f": [],
@@ -2625,7 +2617,6 @@
         "9d5b33b9f0f1bbe3c875eaaa47eb7188c0f6ffd43eca17ea2074210cb8fb1f73": [],
         "9ec34738bd6994361c798b888f2550f5f7e590e805521eca21fbee60b9415fbf": [],
         "9fba33c88ad8b31fe071f249808af9f575bc9d431122415cbd5115a7a624b00b": [],
-        "a052f6c4947df33836f8734d766879fc447604ab8145a3f2ec8ee6a46139abb3": [],
         "a2e4aaafd3e54fd9814e8808ce8ed14a7fb08c019bfeccedbf6ddfdab4fad94b": [],
         "a3d44d9005cfafc0c919c104be099c42a820a7e6e5a028a177ffc505b256c85c": [],
         "a4a90c032b9f069458a878588d674bddb2913a4c8a0150697631142d53b65502": [],
@@ -2703,7 +2694,6 @@
         "f3831421dcd33b79f2079e5280bf2456e0ebede32611366ad23b913c3d382e2d": [],
         "f39540bc01869a6e0968ee76b9e05102d087a9e09a6500fc9e7b63ea3a8f568c": [],
         "f5189924f7c2da4a24ea02c77c5ae098ed12fb2da2efff77277fe6c0e46011dc": [],
-        "f5e5ab160181765d769a6d8733aeb45f9c30c80190d6114ea494f751b277c729": [],
         "f788a358cac461fd6c644500956e7eba824048a5e0d3de8c985fdf99c5f552cb": [],
         "f7e6bd4dd5d1be4bf96796faf2e4cf06028b6b84ed884367db0087caee7158b5": [],
         "f856584cd2d8bf51593ed8797eac6cc2a5ca82be92d36566b9b643f3817ea08a": [],
@@ -2736,7 +2726,7 @@
       "id": "protein-design",
       "title": "Protein Design & Biomolecular Models",
       "description": "Protein Design & Biomolecular Models. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-15T00:03:04Z",
+      "collected_at": "2026-11-15T02:02:00Z",
       "article_ids": [
         "9abe5dafde3d24ec14a231bdf8eccdb7e08be29fa9ec9bcc3f257ea1b3bb110c",
         "287064cea0b620dda7282df7573568e9d62cd1098b4781d5cdd29c5bb7a05e65",
@@ -5766,7 +5756,7 @@
       "id": "protein-design-archive",
       "title": "Deep Learning for Protein Design",
       "description": "Deep Learning for Protein Design. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-15T00:03:16Z",
+      "collected_at": "2026-11-15T02:02:14Z",
       "article_ids": [
         "3339f190cd3cd4c10b92605154530838cffbc4f2b19b6acfbaea30b1ce9cd9bc",
         "92d3e9e74320b3470295316f982d70eed0364937270603bdf29f186de03bd78b",
@@ -7353,7 +7343,7 @@
       "id": "protein-nanopores",
       "title": "Protein Nanopores & Protein Sequencing",
       "description": "Protein Nanopores & Protein Sequencing. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-15T00:04:44Z",
+      "collected_at": "2026-11-15T02:02:36Z",
       "article_ids": [
         "c94fbcb22326c243a706de9ab60d5d8c8bccae0b8a0005be89c62f50f9a9120f",
         "07c231bba396d95e39753bc3ee35e1cb91dab8780b61579be3613d57aa43ae80",
@@ -8021,7 +8011,7 @@
   "article_files": [
     {
       "path": "articles/00.json",
-      "sha256": "95b12b6c4645aa533a9f2dce1597ce517ab425ebc9d693029772a305da222aac",
+      "sha256": "d3d4a5de0c51c1b77350e13f84bab9c58efe679a99b47a311bbef70841ea370b",
       "count": 93
     },
     {
@@ -8046,7 +8036,7 @@
     },
     {
       "path": "articles/05.json",
-      "sha256": "821333fd534edde1a81135277ac3c8409234915c156004b6587c7dc129880d19",
+      "sha256": "b24968f0e8c6df2b6c0a9648f1358dad925976413cb08a2b53e922a2e5b23ea2",
       "count": 123
     },
     {
@@ -8261,7 +8251,7 @@
     },
     {
       "path": "articles/30.json",
-      "sha256": "7b132f5682e7da5a528405e7b6a283b74b0fe989ad7f59101171e354b1c2a053",
+      "sha256": "cbdfe1fa4c7197293b0bf6fdaa230bc25bfe854fae088daa898a3427372d9e25",
       "count": 96
     },
     {
@@ -8361,7 +8351,7 @@
     },
     {
       "path": "articles/44.json",
-      "sha256": "9d92aa71f2faf3b6fddc06e4ac4606e5dbdc58bfeaa8ca66d53fa10f9f7c2e49",
+      "sha256": "caba62abbe055915815bb512b6ea0036df1206badb30072ffc9ff04f0f0ca060",
       "count": 78
     },
     {
@@ -8581,7 +8571,7 @@
     },
     {
       "path": "articles/70.json",
-      "sha256": "82ad361103f3c45765a1dd196608f17d137e6484df4392bd7160cfed5fd12f19",
+      "sha256": "bfa1992d2be7f5dcd803dc8467aafaa20723e31c744068ab105dd64c0b21223c",
       "count": 100
     },
     {
@@ -8661,7 +8651,7 @@
     },
     {
       "path": "articles/80.json",
-      "sha256": "d8a38ccf2d9ccca9a8154ad0b3a469b327eda0c2de46ed9c7e425c35cf12d418",
+      "sha256": "e38d3cae6d477d1ce47269ca906be5c6199be64bc42ef28be7c8a841c3b14a8c",
       "count": 79
     },
     {
@@ -8801,7 +8791,7 @@
     },
     {
       "path": "articles/9c.json",
-      "sha256": "9e8d8f78ca0ff4a23ac529775a7a8126a70dabfc0a263ab697c97b28be255946",
+      "sha256": "7128037cfd4777e13c419d2da689955bd31651babb12611241d9a9160c6a5f2f",
       "count": 72
     },
     {
@@ -9076,7 +9066,7 @@
     },
     {
       "path": "articles/d3.json",
-      "sha256": "03a709922194e828bb6296f7d4d86d8ec1fcb334938930ae728d8870b2c13665",
+      "sha256": "27906c116970ff5e01758eb271b7f54724d69096f0bc57cbe0a74ebdd7e98e89",
       "count": 84
     },
     {
@@ -9156,7 +9146,7 @@
     },
     {
       "path": "articles/e3.json",
-      "sha256": "4a7f5b28692c4214efa444d49eaa7f6668b77099f028dd33013a0d33a20465fb",
+      "sha256": "0b83848c8d4775fba5f16afd6da49fab2e856af40605e85d81e681bfbad533a3",
       "count": 79
     },
     {
@@ -9286,7 +9276,7 @@
     },
     {
       "path": "articles/fd.json",
-      "sha256": "5ba10ab1dd0cb0fc82a28a85b51c29eb614cb69130d30e8da8e997506648427d",
+      "sha256": "54b3cea509c2bed3ad7d8c04c26f0cdd8d074ae76880186df97f83375fec6df9",
       "count": 84
     },
     {
