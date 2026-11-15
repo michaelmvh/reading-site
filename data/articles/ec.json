@@ -2075,16 +2075,17 @@
     {
       "id": "ec4046208007847f1ae884cf56394c3ebfc4bfcec8a57f1b930761b94fbfa735",
       "identity_keys": [
+        "https://doi.org/10.1093/genetics/iyag313",
         "https://doi.org/10.1101/2022.10.28.514293",
         "https://openalex.org/W4307627580"
       ],
       "title": "Tuned Fitness Landscapes for Benchmarking Model-Guided Protein Design",
-      "link": "https://doi.org/10.1101/2022.10.28.514293",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/30/2022.10.28.514293.full.pdf",
-      "publication_date": "2022-10-30",
+      "link": "https://doi.org/10.1093/genetics/iyag313",
+      "pdf_url": null,
+      "publication_date": "2026-11-14",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "Genetics",
       "authors": [
         {
           "key": "neil thomas",
@@ -2107,8 +2108,14 @@
           "name": "Lucy J. Colwell"
         }
       ],
-      "abstract_text": "Abstract Advancements in DNA synthesis and sequencing technologies have enabled a novel paradigm of protein design where machine learning (ML) models trained on experimental data are used to guide exploration of a protein fitness landscape. ML-guided directed evolution (MLDE) builds on the success of traditional directed evolution and unlocks strategies which make more efficient use of experimental data. Building an MLDE pipeline involves many design choices across the design-build-test-learn loop ranging from data collection strategies to modeling, each of which has a large impact on the success of designed sequences. The cost of collecting experimental data makes benchmarking every component of these pipelines on real data prohibitively difficult, necessitating the development of synthetic landscapes where MLDE strategies can be tested. In this work, we develop a framework called SLIP (“Synthetic Landscape Inference for Proteins”) for constructing biologically-motivated synthetic landscapes with tunable difficulty based on Potts models. This framework can be extended to any protein family for which there is a sequence alignment. We show that without tuning, Potts models are easy to optimize. In contrast, our tuning framework provides landscapes sufficiently challenging to benchmark MLDE pipelines. SLIP is open-source and is available at https://github.com/google-research/slip .",
+      "abstract_text": "Abstract Machine learning-guided directed evolution (MLDE) is an emerging paradigm of protein design where ML models trained on experimental data are used to guide exploration of a protein fitness landscape. Building an MLDE pipeline involves many design choices across the design-build-test-learn loop ranging from data collection strategies to modeling. The cost of collecting experimental data makes benchmarking every component of these pipelines prohibitively difficult, necessitating the development of synthetic landscapes. In this work, we develop a framework called SLIP (“Synthetic Landscape Inference for Proteins”) for constructing synthetic landscapes with tunable difficulty based on Potts models. This framework can be extended to any protein family for which there is a sequence alignment. We show that our tuning framework provides landscapes sufficiently challenging to benchmark MLDE pipelines. SLIP is open-source and is available at https://github.com/google-research/slip.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",

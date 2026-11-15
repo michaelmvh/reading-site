@@ -3017,6 +3017,44 @@
       "curated_categories": []
     },
     {
+      "id": "b8d801f9e02610940dc986a56302a86953a4712aa8dbf6c7a781ecd7f05b4e07",
+      "identity_keys": [
+        "https://doi.org/10.1002/pro.70882",
+        "https://openalex.org/W7231234093"
+      ],
+      "title": "Designed multiple sequence alignments guide AlphaFold for improved modeling of loop‐mediated protein–protein interactions",
+      "link": "https://doi.org/10.1002/pro.70882",
+      "pdf_url": null,
+      "publication_date": "2026-11-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein Science",
+      "authors": [
+        {
+          "key": "carcelén lourdes",
+          "name": "Lourdes Carcelén"
+        },
+        {
+          "key": "alexandre casadesús",
+          "name": "Alexandre Casadesús"
+        },
+        {
+          "key": "enrique marcos",
+          "name": "Enrique Marcos"
+        }
+      ],
+      "abstract_text": "Abstract Accurate modeling of synthetic protein–protein interactions is essential for designing therapeutics, diagnostics, and molecular imaging reagents. Although deep learning has transformed protein structure prediction, modeling heteromeric interactions mediated by flexible loops—as in antibodies, nanobodies, and monobodies—remains challenging due to weak coevolutionary signals at binding interfaces and substantial conformational variability. Here, we present a framework that guides AlphaFold predictions of loop‐mediated interactions using synthetic multiple sequence alignments (MSAs) generated through ProteinMPNN interface design. Benchmarks across nanobody–, antibody–, and monobody–antigen complexes show that designed MSAs encode interface‐specific contact information that can be leveraged in two complementary ways. First, AlphaFold2‐Multimer and AlphaFold3 predictions conditioned on designed MSAs produce confident and accurate structures for compatible interfaces, while yielding low‐confidence or structurally inconsistent predictions for incompatible sequences or docking poses, enabling improved evaluation of candidate protein–protein complex models—particularly relevant for protein design. Second, when applied to AlphaFold‐predicted structures, designed MSAs guide structural refinement and reranking, enabling the development of a strategy that improves blind structure prediction in low‐confidence cases without exhaustive sampling. Together, these results establish designed MSAs as controllable inputs for structure prediction, with applications in protein design and blind prediction of challenging protein–protein interactions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b8d8c5843f2deee688bde05f9a8fec43266569782895c86bf49c3a9a140e092e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64966-y",
