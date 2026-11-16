@@ -1557,6 +1557,41 @@
       "curated_categories": []
     },
     {
+      "id": "f247e5b0f129ec3ac2f8af618eeb01b75cee4416fca3206e83bd978804bab415",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.13.766391v1",
+        "https://doi.org/10.64898/2026.11.13.766391",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.13.766391.source.xml"
+      ],
+      "title": "ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks",
+      "link": "https://doi.org/10.64898/2026.11.13.766391",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766391v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lubna",
+          "name": "Lubna, H"
+        },
+        {
+          "key": "choi",
+          "name": "Choi, Y"
+        }
+      ],
+      "abstract_text": "Protein flexibility is a key determinant of molecular recognition, catalysis, and regulation, yet remains difficult to characterise at scale. Molecular dynamics (MD) simulations provide detailed descriptions of time-dependent dynamics but are computationally expensive. Although recent AI-based structure prediction methods have substantially improved access to high-quality static protein structures, they inherently lack information regarding the dynamic fluctuations essential for functional understanding. There is therefore a need for scalable, structure-based computational approaches that can infer intrinsic protein flexibility without explicit dynamical sampling. We present ProtFlap, a graph neural network framework for predicting relative residue-level flexibility directly from static protein structures. ProtFlap represents proteins as residue interaction graphs and integrates empirical atomic energy features extracted from a single energy-minimised snapshot with structural and sequence-derived descriptors. Central to our approach is the hypothesis that the local atomic energy network encoded in a frozen protein structure contains sufficient information to estimate structural flexibility. Trained using atomic mobility labels, quantified via normalised root-mean-square fluctuation (RMSF) derived from short MD simulations, ProtFlap achieves robust and accurate flexibility prediction across diverse protein domains. Feature attribution analysis reveals that van der Waals-related energy terms are the dominant contributors to the prediction.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f252079db5a0a0c134c7b2958be59a918f147f0a7c9adf40e3c00180a22dbcc1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74134-5",

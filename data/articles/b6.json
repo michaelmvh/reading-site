@@ -3778,6 +3778,45 @@
       "curated_categories": []
     },
     {
+      "id": "b6ad87ff8f921d14cfb2a56f23148a0242dbe4333db99cbf1bb5c7f5f8a6a553",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.13.766406v1",
+        "https://doi.org/10.64898/2026.11.13.766406",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.13.766406.source.xml"
+      ],
+      "title": "ProtCOVER: Family-Aware Conformal Prediction for Variant Effect Predictors on Unseen Protein Families",
+      "link": "https://doi.org/10.64898/2026.11.13.766406",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766406v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "fahmy",
+          "name": "Fahmy, W"
+        },
+        {
+          "key": "krikun",
+          "name": "Krikun, E"
+        },
+        {
+          "key": "alkhateeb",
+          "name": "Alkhateeb, A"
+        }
+      ],
+      "abstract_text": "Protein language models and related variant effect predictors (VEPs) increasingly classify missense variants in proteins evolutionarily distant from those used for calibration. Split conformal prediction over variants is valid for its own target, a random variant dominated by well-studied families, but deployment needs coverage for a variant of a new family. On ProteinGym clinical substitutions with five zero-shot predictors, Mondrian conformal comes within 0.005 of that target for four predictors, yet family-weighted pathogenic coverage is only 0.823-0.873 at a 0.90 target for all five, without any shift. We present ProtCOVER, a conformal procedure that treats homology families, rather than individual variants, as the exchangeable unit. ProtCOVER (i) calibrates at the family level over label-free homology clusters, giving marginal coverage for a new family under family exchangeability; (ii) adapts to descriptor shift by calibrating conditionally on an estimated density ratio of label-free descriptors (sequence similarity, alignment depth and embedding distance; a variant reweights by the ratio instead), with finite-sample family-weighted coverage, valid as computed, whenever the true ratio is a nonnegative affine function of the estimate; and (iii) can abstain at low effective calibration support, which proved no better than random abstention. Under a shift of its descriptors, ProtCOVER's mean worse-class shortfall below the target is 0.000, against 0.010 for group-weighted and 0.029 for hierarchical conformal prediction, with larger sets (about equal at matched coverage); on orphan families and held-out embedding regions it matches group weighting (0.002 against 0.003). In evaluations following pre-registered protocols, every shift-aware method met the target on new ClinVar variants of benchmark proteins, which ESM-1b separated better; on 12,225 proteins outside the benchmark, every method fell short for pathogenic variants with either of two predictors, ProtCOVER and a variant conditioned on the descriptors the least, within the 0.01 margin of group weighting.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b6b1081ba301706cf868c7a2806fddca9c2809d97fb1a6a4e66c0ff1b9951bff",
       "identity_keys": [
         "https://arxiv.org/abs/2402.18567",

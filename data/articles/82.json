@@ -1365,6 +1365,49 @@
       "curated_categories": []
     },
     {
+      "id": "8232b1ef43d4f5319ad7edeaf7efe6007e1254359cf22c1fbb39207ded5c996d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.13.766436v1",
+        "https://doi.org/10.64898/2026.11.13.766436",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.13.766436.source.xml"
+      ],
+      "title": "Evaluating Language Models as Orchestrators in a Tool-First Biomedical Discovery Platform",
+      "link": "https://doi.org/10.64898/2026.11.13.766436",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766436v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sapireddy",
+          "name": "Sapireddy, V"
+        },
+        {
+          "key": "chakrabarty",
+          "name": "Chakrabarty, B"
+        },
+        {
+          "key": "bung",
+          "name": "Bung, N"
+        },
+        {
+          "key": "roy",
+          "name": "Roy, A"
+        }
+      ],
+      "abstract_text": "Large language models (LLMs) increasingly orchestrate agentic biomedical discovery systems, but cloud deployment raises concerns about inference cost, data privacy, and governance. Small language models (SLMs) that run on-premises are an alternative, provided they orchestrate scientific tools about as well as larger models. We built a tool-first, multi-agent system for scientific discovery in which an orchestrator coordinates six specialized tool systems: differential expression, literature retrieval, pathway enrichment, network-based gene prioritization and knowledge-graph analysis, perturbation signature matching, and structural/druggability assessment. In a tool-first design, specialized tools supply the domain knowledge and computation, so the model's main task is coordination, e.g. choosing tools, passing the right parameters, calling them in the right order, and carrying results across turns. With the tools, prompts, workflow, and benchmark held constant, we compared three orchestrators, Gemma 4 (26B, open-weight and locally deployable), Gemini 2.5 Flash, and Claude Sonnet 5. Evaluation used a custom benchmark of 104 single-turn and multi-turn tests, an LLM-as-judge protocol (groundedness and evidence validity), tool-use accuracy and efficiency metrics, and blind expert review. On single-turn tasks, the three models performed comparably, and reviewers did not rate the SLM below the larger models. In multi-turn tasks, Claude Sonnet 5 showed marginally higher evidence validity, Gemma 4 was weakest when parameters had to be assembled across turns, and all three models struggled with tool ordering on memory-dependent tasks. These differences were illustrated with case studies. Finally, we propose strategies to help SLMs address the multi-turn limitations and support cost- and privacy-aware deployment.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "823499260d7fbba753341aca5c41a669734232b87051816db33ca77f7a4db7a4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70828-y",
