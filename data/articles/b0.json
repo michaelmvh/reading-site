@@ -710,6 +710,56 @@
       "curated_categories": []
     },
     {
+      "id": "b026b9250d47fb84049e2b5b11cb7841b7fc65f3143c8542ad85c20ae08170ac",
+      "identity_keys": [
+        "arxiv:2611.17899",
+        "https://doi.org/10.48550/arXiv.2611.17899"
+      ],
+      "title": "More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology",
+      "link": "https://doi.org/10.48550/arXiv.2611.17899",
+      "pdf_url": "https://arxiv.org/pdf/2611.17899",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "songming zhang",
+          "name": "Songming Zhang"
+        },
+        {
+          "key": "luo yuxiao",
+          "name": "Yuxiao Luo"
+        },
+        {
+          "key": "luo shifu",
+          "name": "Shifu Luo"
+        },
+        {
+          "key": "chen siran",
+          "name": "Siran Chen"
+        },
+        {
+          "key": "shuquan su",
+          "name": "Shuquan Su"
+        },
+        {
+          "key": "jinyan li",
+          "name": "Jinyan Li"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics (ST) prediction from histology aims to infer spatially resolved gene expression profiles directly from tissue images. This is a challenging problem that is currently often addressed with complicated model architectures, additional inputs, and complicated training procedures, while remaining limited to fixed, small gene panels. This raises a natural question: Is there an efficient method for large-panel ST prediction? Here, we present GeneFlow, a simpler yet effective framework for large-scale spatial gene expression prediction that unifies flow-matching generative modeling with structured multimodal fusion. Specifically, GeneFlow first encodes both histological morphology and cross-gene interactions in spatial spots through histology and gene tokenizers. The model directly predicts spatial gene expression, rather than an intermediate velocity field, while being trained with a velocity-based flow-matching objective. We show that, even without relying on heavy generative pipelines, GeneFlow achieves state-of-the-art performance across multiple ST benchmarks, with up to 56.8% gains in 1,000-gene prediction. Extensive experiments further show that GeneFlow produces biologically meaningful spot profiles while reducing computational cost by orders of magnitude, thereby improving efficiency and scalability, particularly in clinical settings. We believe GeneFlow provides an opportunity for leveraging widely available histology images for downstream biological discovery. Code is available at: https://github.com/ZZhangsm/GeneFlow",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b033af50ec65cad5f51672696d9528ed5e45d222e2e1270cd973971517e0fe1d",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10230-2",

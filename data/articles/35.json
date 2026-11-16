@@ -1367,6 +1367,70 @@
       "curated_categories": []
     },
     {
+      "id": "3527a9e9c4b91764603b1f2a982dd7e620654b88b82cc26e525004d849bea97d",
+      "identity_keys": [
+        "arxiv:2611.18236",
+        "https://doi.org/10.48550/arXiv.2611.18236"
+      ],
+      "title": "Deciphering multiple binding modes in large protein complexes via Enhanced Sampling and beta-VAE: the CYFIP1-eIF4E case",
+      "link": "https://doi.org/10.48550/arXiv.2611.18236",
+      "pdf_url": "https://arxiv.org/pdf/2611.18236",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "francesco pignotti",
+          "name": "Francesco Pignotti"
+        },
+        {
+          "key": "emanuele telari",
+          "name": "Emanuele Telari"
+        },
+        {
+          "key": "edoardo milanetti",
+          "name": "Edoardo Milanetti"
+        },
+        {
+          "key": "anna la teana",
+          "name": "Anna La Teana"
+        },
+        {
+          "key": "jesmina rexha",
+          "name": "Jesmina Rexha"
+        },
+        {
+          "key": "alice romagnoli",
+          "name": "Alice Romagnoli"
+        },
+        {
+          "key": "luca maragliano",
+          "name": "Luca Maragliano"
+        },
+        {
+          "key": "di giovanni muccio",
+          "name": "Giovanni Di Muccio"
+        }
+      ],
+      "abstract_text": "Eukaryotic initiation factor 4E (eIF4E) drives cap-dependent translation, regulated by 4E-binding proteins (4E-BPs) competing for its dorsal and lateral surfaces. CYFIP1, a scaffold protein, is both a WAVE Regulatory Complex component and a non-canonical 4E-BP repressing translation via a short helical motif, linked to autism spectrum disorders and cancer. Prior work modeled only this isolated motif as a peptide, leaving the full interface uncharacterized. Starting from this preliminary evidence, we modeled the full-length proteins as flexible partners: all-atom simulations fed a data-driven docking search (HADDOCK3), which guided funnel-restrained Temperature-Accelerated Molecular Dynamics of a coarse-grained Martini 3 representation. Ten replicas accumulated 100 $\\mu$s of enhanced sampling. Funnel-restraint variables efficiently sample binding and unbinding but are structurally degenerate: direct clustering of the raw trajectory collapses these poses into poorly resolved groups. We instead reweighted the biased trajectories onto a contact-based latent space built by benchmarking PCA against a beta-Variational Autoencoder, then clustered minima of the equilibrium free-energy surface: only intermediate regularization resolved distinct, homogeneous modes. Three such modes recur, engaging eIF4E's canonical dorsal site, its non-canonical lateral site, and both. We find that CYFIP1 also engages eIF4E through a second surface, the same that mediates its WAVE-complex dimerization, and a basic patch. Both plausibly explain residual binding previously reported after motif mutation. This suggests its translational and cytoskeletal roles compete for the same surface. Most contacts on eIF4E fall outside this dorsal/lateral interface. This heterogeneous, plastic ensemble offers a structural basis for mutagenesis and therapeutic peptide design.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        },
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3529d785a01da8e658426af2c8cce5de297c689b6954c263cc3e5e835216b75b",
       "identity_keys": [
         "https://doi.org/10.1007/s12602-026-11131-6",

@@ -530,6 +530,48 @@
       "curated_categories": []
     },
     {
+      "id": "be287081df6a140678c17fd75c974964de295bc6b379014f37cd28ff82ea8093",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.06.03.729879",
+        "https://openalex.org/W7163673049"
+      ],
+      "title": "Modelling antibody structures at the speed of language",
+      "link": "https://doi.org/10.64898/2026.06.03.729879",
+      "pdf_url": null,
+      "publication_date": "2026-06-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "ellmen isaac",
+          "name": "Isaac Ellmen"
+        },
+        {
+          "key": "david errington",
+          "name": "David Errington"
+        },
+        {
+          "key": "matthew raybould",
+          "name": "Matthew I. J. Raybould"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        }
+      ],
+      "abstract_text": "Abstract Protein structure prediction is currently substantially slower than obtaining sequence representations of proteins. This leads to most property prediction methods relying solely on trivial or learned sequence embeddings. However, contemporary structure prediction and sequence models are both based on Transformers, and structure prediction models often have fewer parameters, suggesting that there might be domains where accurate structure prediction adds no practical overhead to sequence-only modelling. Here, we demonstrate this can be achieved for adaptive immune proteins by introducing FlashABB, which predicts highly accurate antibody structures, and does so faster than even modestly-sized language models can embed sequences. As a component of FlashABB, we develop Flashpoint Attention, a fast and linear memory analog of Invariant Point Attention. To our knowledge, FlashABB is the first example of a model that accurately predicts protein structure faster than protein language models can generate embeddings, enabling efficient access to 3D information without the need for precomputed structures. Using FlashABB, we develop methods for predicting antibody stability and developability which can be scaled to repertoires of millions of sequences. Our results show how the computational bottleneck of protein structure prediction can be removed in some real-world cases. The code and model weights for FlashABB are available on GitHub: https://github.com/oxpig/FlashABB",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "be294a58860a3ac9057acb5759e144680bc5f2490e5cde7892fae2f035b94df3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64718-y",
@@ -4115,6 +4157,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "beb692ea1b5abed57a74ab1d9a0720a8cc163b86e1827c331e623675e789737a",
+      "identity_keys": [
+        "arxiv:2609.00518",
+        "https://doi.org/10.48550/arXiv.2609.00518"
+      ],
+      "title": "Learning Task-Specific Antibody Representations via Function-Aware Masking",
+      "link": "https://doi.org/10.48550/arXiv.2609.00518",
+      "pdf_url": "https://arxiv.org/pdf/2609.00518",
+      "publication_date": "2026-09-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ayan goel",
+          "name": "Ayan Goel"
+        },
+        {
+          "key": "thomas walton",
+          "name": "Thomas A. Walton"
+        },
+        {
+          "key": "aghazadeh amirali",
+          "name": "Amirali Aghazadeh"
+        }
+      ],
+      "abstract_text": "Antibody-specific language models pretrained via masked language modeling (MLM) learn representations that are critical for downstream sequence design and property prediction tasks. Yet, the corruption process itself is rarely leveraged as a source of inductive bias during pretraining. While preferentially masking complementarity-determining regions (CDRs) improves binding-related predictions, antibodies possess diverse biological priors over a variety of functions. Herein, we introduce function-aware masking, a family of pretraining algorithms that align mask placement with specific functional priors (e.g., from IMGT annotations or structure predictions) to shape the learned representation space. We show that these specialist masking strategies significantly improve performance on their respective objectives, yielding up to a 14% gain on structure-related tasks and up to a 5.9x improvement on CDR-related tasks. To further improve performance across multiple functional axes, we develop hybrid masking strategies that integrate multiple priors, balancing reconstruction over binding, structural, and biophysical objectives. Our results demonstrate that informed mask placement provides a parameter-free mechanism for imposing functional inductive biases in antibody language model training.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

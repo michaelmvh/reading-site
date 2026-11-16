@@ -732,6 +732,56 @@
       "curated_categories": []
     },
     {
+      "id": "eb1964d0d3f95d510b9c15bf2186134b698a14640d1c9dda1ae7a32e7dbf3948",
+      "identity_keys": [
+        "arxiv:2611.18259",
+        "https://doi.org/10.48550/arXiv.2611.18259"
+      ],
+      "title": "CARVE: A glycan-specific framework for assessing protein-glycan binding-pose quality",
+      "link": "https://doi.org/10.48550/arXiv.2611.18259",
+      "pdf_url": "https://arxiv.org/pdf/2611.18259",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "xiao yifei",
+          "name": "Yifei Xiao"
+        },
+        {
+          "key": "huifeng zhao",
+          "name": "Huifeng Zhao"
+        },
+        {
+          "key": "silong zhai",
+          "name": "Silong Zhai"
+        },
+        {
+          "key": "jin zichang",
+          "name": "Zichang Jin"
+        },
+        {
+          "key": "hou tingjun",
+          "name": "Tingjun Hou"
+        },
+        {
+          "key": "kang yu",
+          "name": "Yu Kang"
+        }
+      ],
+      "abstract_text": "Protein-glycan interactions depend on the precise three-dimensional arrangement of carbohydrates at protein-binding interfaces, yet reliable assessment of predicted complex structures remains challenging. Existing evaluations commonly rely on fixed root-mean-square deviation (RMSD) thresholds, which do not fully account for the structural diversity and conformational flexibility of glycans. Here we developed CARVE, a glycan-specific framework for evaluating protein-glycan structure predictions. Through topology-aware glycan parsing, CARVE integrates orientation RMSD (oRMSD), interface-ring RMSD (irRMSD) and the fraction of native contacts (Fnat) to assess glycan scaffold geometry, interface-ring placement and native-contact recovery. These descriptors define four quality categories (CARVE-Level) with geometric thresholds that scale with the degree of polymerization (DP), and a continuous CARVE-Score, which reproduced those categories on 25,068 independently generated poses without recalibration (macro-F1 = 0.892). Pairing these measures with glycan-specific topological, chemical and geometric validity checks, we benchmarked nine prediction methods on CARVE-Bench, comprising 1,974 experimentally determined protein-glycan complexes. Among the top 25 predictions per target, HADDOCK3 achieved the highest Acceptable-level success rate (47.0%), whereas no method produced a high-quality, structurally valid pose for more than one in five. Collectively, CARVE provides a standardized basis for assessing protein-glycan structure prediction methods and guiding the development of more accurate docking and co-folding approaches.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "eb1a5a36aa552a26ab248c90cffcf4cc02c7c71f009ad6076c8e370b4b733938",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77522-z",

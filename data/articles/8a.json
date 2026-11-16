@@ -335,6 +335,42 @@
       ]
     },
     {
+      "id": "8a164ce7b3233a3a0bcce586339a3ed32ade27f93a892d67fd715b186bdfbedc",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.10.09.757882v2",
+        "https://doi.org/10.64898/2026.10.09.757882",
+        "https://www.biorxiv.org/content/early/2026/10/12/2026.10.09.757882.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/15/2026.10.09.757882.source.xml"
+      ],
+      "title": "STARgrid - an open end-to-end pipeline for Visium HD",
+      "link": "https://doi.org/10.64898/2026.10.09.757882",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757882v2.full.pdf",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hung",
+          "name": "Hung, L.-H"
+        },
+        {
+          "key": "yeung",
+          "name": "Yeung, K. Y"
+        }
+      ],
+      "abstract_text": "Grid-based spatial transcriptomics quantifies expression by counting reads, assigning them to genes and, from their barcodes, to capture locations on a grid, which is registered to a microscope image. For Visium HD, only the vendor's Space Ranger performs all these steps, and its licences prohibit redistributing it or software derived from it. We present STARgrid, an open-source, end-to-end, agent-ready pipeline from Visium HD FASTQ files and images to count matrices registered to the tissue. Its counts agree closely with Space Ranger's (gene-total correlations at least 0.9989); it runs 2.0-3.4 times faster and counts 1.9-7.6% more molecules. Unlike Space Ranger, STARgrid always assigns each read to the closest-matching barcode, which gives 0.8-1.1% of matched reads a different location, mostly where adjacent-row barcodes overlap, and places another 2.9-4.6%. This choice and settling ties for each molecule from all its reads are the largest source of added molecules. Around nuclei, counts follow a reproducible pattern: more molecules in a ring just around each nucleus, usually with a dip under it. STARgrid registers the image by matching the nuclei to the whole pattern with the correlation ratio, even where the dip is weak or absent. On lung tissue imaged by Xenium on the same section, this places the nuclei where Xenium does or one capture location away. The added molecules behave as signal: they are inside cells almost as often as the others, and bring 15 of 20 abundant cancer genes closer to Xenium on an adjacent section (P = 0.0414).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8a16f037db6e249b6cb3d665bf1722269f6c587173b3cc766662fb914409849f",
       "identity_keys": [
         "https://doi.org/10.5281/zenodo.21564511",

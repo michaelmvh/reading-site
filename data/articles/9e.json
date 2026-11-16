@@ -4202,6 +4202,52 @@
       "curated_categories": []
     },
     {
+      "id": "9ecbbaf7fd5ce586d19bd4d640a18dc3f72ab41a9bb30b3c5d0b83bf1a195afd",
+      "identity_keys": [
+        "https://doi.org/10.1039/d6sc02655a",
+        "https://openalex.org/W7141318295"
+      ],
+      "title": "Teaching diffusion models physics: reinforcement learning for physically valid diffusion-based docking",
+      "link": "https://doi.org/10.1039/d6sc02655a",
+      "pdf_url": null,
+      "publication_date": "2026-10-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Science",
+      "authors": [
+        {
+          "key": "broster henry james",
+          "name": "James Henry Broster"
+        },
+        {
+          "key": "bojana popovic",
+          "name": "Bojana Popovic"
+        },
+        {
+          "key": "diana kondinskaia",
+          "name": "Diana A. Kondinskaia"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        },
+        {
+          "key": "fergus imrie",
+          "name": "Fergus Imrie"
+        }
+      ],
+      "abstract_text": "Molecular docking aims to predict the binding conformation of a small molecule to its protein target. Recent work has proposed diffusion models for this task, from rigid-body docking that diffuses over ligand degrees of freedom to co-folding approaches that jointly generate protein structure and ligand pose. However, diffusion-based docking models have been shown to frequently produce physically implausible poses and fail to consistently recover key protein-ligand interactions. To address this, we introduce a reinforcement learning framework for training diffusion-based docking models directly on non-differentiable objectives. Fine-tuning DiffDock-Pocket for physical validity with our approach substantially increases the number of generated poses that are physically valid and interaction-preserving, with no increase in inference-time compute. Importantly, this comes without sacrificing structural accuracy; in fact, our approach increases the proportion of structures with near-native poses. These effects are most pronounced for protein targets that are dissimilar to the training data. Our fine-tuned DiffDock-Pocket model outperforms both classical docking algorithms and machine learning-based approaches on the PoseBusters set. Our results demonstrate that reinforcement learning can teach diffusion-based docking models to better respect physical constraints and recover key interactions, without the requirement to rely on inference-time corrections.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9ecdeeab189bde2619d5ca8bddc701b5953a1af7f8c77b79101bda32e33699e9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77142-7",

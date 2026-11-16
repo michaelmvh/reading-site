@@ -4104,6 +4104,49 @@
       "curated_categories": []
     },
     {
+      "id": "69b46fb1efab940c97dbd34627f8a1f0a6d97f95bd8185f7aeced73a1842c3a1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766050v1",
+        "https://doi.org/10.64898/2026.11.12.766050",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.12.766050.source.xml"
+      ],
+      "title": "An apicomplexan-specific foundation model improves prediction of regulatory genomic signals in Plasmodium falciparum",
+      "link": "https://doi.org/10.64898/2026.11.12.766050",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766050v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "brown",
+          "name": "Brown, A. S"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, J"
+        },
+        {
+          "key": "llinas",
+          "name": "Llinas, M"
+        },
+        {
+          "key": "mahony",
+          "name": "Mahony, S"
+        }
+      ],
+      "abstract_text": "Genomic foundation models learn transferable sequence representations through self-supervision, yet their practical value is contested. In data-rich mammalian genomes, task-specific models trained from scratch can match or exceed pretrained models on many regulatory prediction tasks. Whether self-supervised pretraining provides an advantage in small, data-sparse genomes has not been directly tested. We address this in the compact, 23Mbp, A/T-rich genome of the malaria parasite, Plasmodium falciparum. We trained a Genomic Pretrained Network (GPN) via masked-nucleotide reconstruction on 455 genome assemblies spanning 76 apicomplexan species. We then fine-tuned the model to predict a variety of epigenomic features in a held-out chromosome, including transcription factor binding sites, chromatin-accessibility, histone modifications, and 10 chromatin states. Pretraining followed by fine tuning improved prediction of most features, with most of the benefit concentrated on datasets with relatively little labeled data (fewer than 3,000 training examples). In contrast, a human-pretrained model transferred poorly, indicating that phylogenetically relevant pretraining, not foundation-model status alone, drives beneficial performance. Self-supervised pretraining on clade-specific assemblies is thus a practical route to data-efficient regulatory modeling in small genomes where training data is scarce.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "69b6257afdcb118b127f13412c50c4644327e97ef1c5c4ba20f5b99bbdbd78a5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70681-z",

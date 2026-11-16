@@ -4229,6 +4229,47 @@
       "curated_categories": []
     },
     {
+      "id": "659ae073ff75216b9bfb8fa6ee6aaf39818c8a45b911480778c21a5304706b9a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.06.17.732633v3",
+        "https://doi.org/10.64898/2026.06.17.732633",
+        "https://www.biorxiv.org/content/early/2026/06/21/2026.06.17.732633.source.xml",
+        "https://www.biorxiv.org/content/early/2026/09/24/2026.06.17.732633.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/15/2026.06.17.732633.source.xml"
+      ],
+      "title": "DeepCDS: Ab initio coding sequence prediction in prokaryotic metagenomic short reads",
+      "link": "https://doi.org/10.64898/2026.06.17.732633",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732633v3.full.pdf",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nielsen",
+          "name": "Nielsen, L. S"
+        },
+        {
+          "key": "nielsen",
+          "name": "Nielsen, H"
+        },
+        {
+          "key": "winther",
+          "name": "Winther, O"
+        }
+      ],
+      "abstract_text": "Accurate coding sequence prediction in short prokaryotic metagenomic sequences, such as Illumina reads, remains challenging due to sequence fragmentation, unknown sequence origins, and sequencing errors. Here we introduce DeepCDS, a deep learning-based ab initio coding sequence predictor trained on short prokaryotic sequences with and without simulated Illumina-like sequencing errors. DeepCDS integrates embeddings from the protein language model ESM-2 with nucleotide-level information to predict complete and partial coding sequences. Benchmarking on 215 phylogenetically diverse prokaryotic organisms demonstrates that DeepCDS consistently outperforms well-established and widely used methods in coding sequence detection across sequence lengths from 75 to 1,000 base pairs, including improved identification of both canonical and non-canonical start codons as well as stop codons, and greater robustness to different sequencing error profiles. DeepCDS also recovers more coding sequences from functionally uncharacterized genes and remains operational on sequences shorter than existing tools support. We additionally evaluate DeepCDS on a simulated metagenomic dataset from the Critical Assessment of Metagenome Interpretation initiative, where it likewise achieves the strongest performance among tested tools, and on a real human gut metagenome, where its predictions are more frequently supported by known proteins. These findings suggest that amino acid-level context, here provided by a protein language model, contributes complementary information for nucleotide-level coding sequence detection, especially at very short lengths. Ultimately, DeepCDS may help uncover the functional potential of the vast microbial diversity that remains genomically uncharacterized.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "65a2df06d0146848316daa2da27a7cb5ded26d6e8c80210c44abb77a0fa82f14",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78704-5",

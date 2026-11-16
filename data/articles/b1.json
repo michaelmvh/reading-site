@@ -510,6 +510,45 @@
       "curated_categories": []
     },
     {
+      "id": "b112ba9495c67e9e8d5e580459e32b89f91367e670c1d4199fe9662d18c38b9d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766176v1",
+        "https://doi.org/10.64898/2026.11.12.766176",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.12.766176.source.xml"
+      ],
+      "title": "OrthoSimulator: Empirically trained simulations for ground-truth benchmarking of orthology inference",
+      "link": "https://doi.org/10.64898/2026.11.12.766176",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766176v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "holmes",
+          "name": "Holmes, J"
+        },
+        {
+          "key": "kelly",
+          "name": "Kelly, S"
+        },
+        {
+          "key": "belcher",
+          "name": "Belcher, L. J"
+        }
+      ],
+      "abstract_text": "Orthology inference is foundational for comparative genomics, enabling the reconstruction of phylogenetic relationships and transfer of biological knowledge between species. Methods often infer different orthogroups and orthologous relationships, making robust benchmarking essential for evaluating their accuracy. Existing resources such as the Quest for Orthologs benchmark service and OrthoBench provide valuable benchmarks grounded in real biological data and expert curation. However, the true evolutionary histories in all of these benchmarks are unknown, and therefore the true accuracy of orthology inference methods is unknown. Simulations provide an approach to evaluate accuracy where the complete ground truth is known. However, simulations are only useful for benchmarking if they realistically reflect empirical data. Here, we introduce OrthoSimulator, a Python package for generating realistic, empirically calibrated benchmark datasets with known orthogroups, orthologous relationships, gene trees, and evolutionary events. We demonstrate its utility by benchmarking widely used orthology inference methods across simulations calibrated from multiple methods and empirical datasets. We show that method-to-method variability in ortholog inference accuracy is robust to variation in simulation parameters. We further provide a detailed evaluation of ortholog inference accuracy through independent cross-validation, and show that OrthoFinder is the most accurate of the four methods tested. OrthoSimulator is freely available at https://github.com/lauriebelch/OrthoSimulator.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b114fc04477d7138d2baca74e49f044b011cc27288ed39ff53786a84a667e70d",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10477-9",

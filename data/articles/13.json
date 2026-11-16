@@ -5378,6 +5378,49 @@
       "curated_categories": []
     },
     {
+      "id": "13daa8dcafd37bc5bed8d9a8aa32bad5c398585dc15f5481a99ff330179cda7f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766324v1",
+        "https://doi.org/10.64898/2026.11.12.766324",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.12.766324.source.xml"
+      ],
+      "title": "A session-aware test protocol, energy-based strand pairing and a measured crossing-resolution limit for automated DNA knot identification in atomic force microscopy images",
+      "link": "https://doi.org/10.64898/2026.11.12.766324",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766324v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sammak",
+          "name": "Sammak, M. H"
+        },
+        {
+          "key": "biplob",
+          "name": "Biplob, K. B. M. B"
+        },
+        {
+          "key": "toma",
+          "name": "Toma, T. R"
+        },
+        {
+          "key": "mahmud",
+          "name": "Mahmud, I"
+        }
+      ],
+      "abstract_text": "Atomic force microscopy (AFM) resolves the crossings of single knotted and linked DNA molecules, so the knot type can in principle be read from one image. TopoStats, to our knowledge the only automated pipeline for this task, assigns the correct type to fewer than 8% of the knots and catenanes in a public dataset of 721 molecules imaged in 20 sessions. Image classifiers appear to do better, but 18 of the 20 sessions contain a single knot type, so a classifier can score well by recognizing the session. We present three tools for evaluating and tracing these molecules. First, a session-aware protocol holds out whole imaging sessions, scores only the four classes not separable by size, and uses a probe to test whether images identify their session. Three classifiers reached 58-67% balanced accuracy on knots on their training sessions but only 27-32% under this protocol, near the 25% chance level, and the probe identified the session above chance in all eight tests. Second, an energy-based method connects strands through crossings by DNA length and stiffness. It traced the loops of 84% of knots and catenanes correctly, compared with 32% for TopoStats. Third, we measured the crossing-resolution limit of the pipeline. Labels derived from the known handedness of the knots gave the correct upper strand at 173 crossings without manual annotation, and the existing width rule ordered 137 of them (79%) correctly. A convolutional network did not exceed it. With the new pairing, the knot type was still correct for only 6-8% of knots and catenanes, because 72% of those with a valid pairing had lost crossings when closely spaced crossings were merged. Classifiers for AFM images should therefore be tested on new sessions, and further progress depends on resolving dense crossings. The protocol, labels and code are openly available.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "13de9727d0b6659bf325dca0f10ef2ebf5e40f70a1f673c6399eb22902ff0607",
       "identity_keys": [
         "https://doi.org/10.64898/2026.01.28.702421",

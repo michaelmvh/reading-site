@@ -3496,6 +3496,65 @@
       "curated_categories": []
     },
     {
+      "id": "f076d620aea8a2e35334d95ffb7c3e1efdc673cc5495b70298693abd9fe4458c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.12.766182v1",
+        "https://doi.org/10.64898/2026.11.12.766182",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.12.766182.source.xml"
+      ],
+      "title": "Integrating Unsupervised Clustering with Transformer-Based Models for De Novo Cell Population Identification",
+      "link": "https://doi.org/10.64898/2026.11.12.766182",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766182v1.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "guo",
+          "name": "Guo, Y"
+        },
+        {
+          "key": "duan",
+          "name": "Duan, G"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, G"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, C"
+        },
+        {
+          "key": "chang",
+          "name": "Chang, J"
+        },
+        {
+          "key": "han",
+          "name": "Han, Y"
+        },
+        {
+          "key": "li",
+          "name": "Li, X"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, S"
+        }
+      ],
+      "abstract_text": "Single-cell transcriptome sequencing has been widely applied across the life sciences. It enables accurate and robust identification of cell types in heterogeneous biological tissues through unsupervised clustering, shallow learning, and deep learning. While deep learning does not outperform shallow learning in classification performance, it streamlines cell type identification by eliminating cumbersome preprocessing procedures. However, the availability of training datasets with comprehensive cell type annotations is always limited, so new datasets inevitably contain cell populations that are not pre-defined in the training data. To address this limitation, we integrated unsupervised clustering with transformer-based models to identify cell populations unrecognized by classical methods. Specifically, we developed the Nankai GeneRank Classifier by fine-tuning the pre-trained Geneformer-V1 model, and then clustered cells based on its softmax-normalized class probability matrix (SCPM). Applied to a public colorectal cancer dataset, the new method, named SCPM-based clustering, resolved cell populations that cannot be unambiguously identified by classical methods alone and led to the discovery of novel candidate markers of colorectal cancer stem cells, demonstrating its utility.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f07b2cf3575d1c1870e2079e5e4559a8fb4e5fa1af5a3deb0cf191fc7f0afdd7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70380-9",

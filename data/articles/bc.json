@@ -6324,6 +6324,54 @@
       ]
     },
     {
+      "id": "bced1498439d9efbe6253c0881ba4964223f3aa52784458865014a2794d34b48",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.01.742217v2",
+        "https://doi.org/10.64898/2026.08.01.742217",
+        "https://www.biorxiv.org/content/early/2026/08/06/2026.08.01.742217.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.08.01.742217.source.xml"
+      ],
+      "title": "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation",
+      "link": "https://doi.org/10.64898/2026.08.01.742217",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.01.742217v2.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "handa",
+          "name": "Handa, D"
+        },
+        {
+          "key": "linares martin",
+          "name": "Martin-Linares, C"
+        },
+        {
+          "key": "brien stein",
+          "name": "Stein-O'Brien, G"
+        },
+        {
+          "key": "ling",
+          "name": "Ling, J"
+        },
+        {
+          "key": "chitra",
+          "name": "Chitra, U"
+        }
+      ],
+      "abstract_text": "Spatial gene expression results from the superposition of multiple sources of variation in gene expression across different spatial scales, including local microenvironment-associated variation and global spatial gradients. Spatial foundation models (SFMs) are large-scale machine learning models trained on cohorts of spatial transcriptomics (ST) data that, in principle, learn the different sources of spatial variation in gene expression. However, the embeddings learned by SFMs are difficult to interpret, and it remains unclear whether they fully capture such spatial variation. Here, we develop SAFFRON, a sparse autoencoder (SAE)-based framework for interpreting and evaluating SFMs. SAFFRON uses a Matryoshka SAE to decompose dense SFM embeddings into sparse, human-interpretable features and evaluates whether these features correlate with known sources of spatial variation. Using SAFFRON, we systematically benchmark the ability of several recent SFMs to identify local and global spatial variation in gene expression. We find that only two SFMs learn global spatial gradients more accurately than naive, non-foundation model baselines; further investigating one such SFM, SAFFRON reveals that these gradients are concentrated in a small subset of sparse, human-interpretable SAE features. On the other hand, <em>no</em> SFM learns local patterns (A{beta} plaque microenvironment-associated patterns) more accurately than such baselines. Our findings suggest that current SFMs do not systematically learn multi-scale spatial variation in gene expression. Code: SAFFRON is available at <a href=\"https://github.com/chitra-lab/SAFFRON\">https://github.com/chitra-lab/SAFFRON.</a>",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bcf0db849d1327877058d5f0d8844b034ca14cde85fbcadbef1d700afdd5ad43",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66458-5",

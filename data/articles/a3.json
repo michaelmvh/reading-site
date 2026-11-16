@@ -790,6 +790,49 @@
       "curated_categories": []
     },
     {
+      "id": "a30de3ad8288f4c93b4f64923b18529bbb205d4e4719d4b1815ec81c18c9a319",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.10.765653v1",
+        "https://doi.org/10.64898/2026.11.10.765653",
+        "https://www.biorxiv.org/content/early/2026/11/15/2026.11.10.765653.source.xml"
+      ],
+      "title": "Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc",
+      "link": "https://doi.org/10.64898/2026.11.10.765653",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765653v1.full.pdf",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lee",
+          "name": "Lee, Y. J"
+        },
+        {
+          "key": "shah",
+          "name": "Shah, S"
+        },
+        {
+          "key": "mantrala",
+          "name": "Mantrala, S"
+        },
+        {
+          "key": "lugo martinez",
+          "name": "Lugo-Martinez, J"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics (ST) enables the quantitative measurement of gene expression within tissue sections but is currently limited in spatial resolution, as each spot aggregates signals from multiple cells. Recovering single-cell gene expression profiles from these multicellular measurements requires two steps: explicit identification of individual cells and accurate estimation of per-gene expression. While existing methods have demonstrated the feasibility of recovering single-cell expression profiles, accurately estimating gene-level expression for individual cells remains an important challenge. To address this challenge, we propose st2sc (Spatial Transcriptomics to Single-Cell), an end-to-end framework for inferring single-cell gene profiles from multicellular ST data. st2sc introduces a novel Attention Gradient Flow Tracking (AGFT) algorithm that extracts attention maps from a Vision-Gene Transformer to identify candidate cell instances without predefined background constraints. The detected instances are then used by a set of regressors trained under a multiple-instance, multiple-target regression setting to predict precise single-cell gene expression counts. Comprehensive evaluations on synthetic and Visium-like datasets demonstrate that st2sc significantly outperforms state-of-the-art methods in accurately segmenting cellular instances and predicting gene counts. The method can further resolve contested 2um bin in Visium HD. Application to human IPF lung showed the model can recover the subtype marker level analysis. This advancement further improves single-cell resolution analysis in spatial transcriptomics, facilitating more accurate downstream biological analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a30e01b441308bac758a3d5b9971828f17526c57c95e6d54942374986916fc04",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76518-z",

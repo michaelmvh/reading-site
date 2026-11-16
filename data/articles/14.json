@@ -6352,6 +6352,50 @@
       "curated_categories": []
     },
     {
+      "id": "14f96aae2745acf55fb65f70759d2b44919183762564f4a7a80c142d5204d962",
+      "identity_keys": [
+        "biorxiv:10.1101/2024.11.23.624986v4",
+        "https://doi.org/10.1101/2024.11.23.624986",
+        "https://www.biorxiv.org/content/early/2025/11/05/2024.11.23.624986.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/15/2024.11.23.624986.source.xml"
+      ],
+      "title": "Harnessing Contextual Embeddings: A Deep Learning Framework for Predicting PCR Amplification Using BERT Tokenization",
+      "link": "https://doi.org/10.1101/2024.11.23.624986",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.23.624986v4.full.pdf",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "latifian",
+          "name": "Latifian, N"
+        },
+        {
+          "key": "nazer",
+          "name": "Nazer, N"
+        },
+        {
+          "key": "jafarpisheh",
+          "name": "Jafarpisheh, A. M"
+        },
+        {
+          "key": "hossein khalaj",
+          "name": "Hossein Khalaj, B"
+        }
+      ],
+      "abstract_text": "Polymerase Chain Reaction (PCR) is a widely used molecular biology technique to amplify DNA sequences. PCR amplification is affected by factors such as binding dynamics and primer-template interactions. This study aims to reduce the time and cost of the experiment by predicting PCR outcomes based on these factors. To achieve this, we first identify the most stable binding sites for each primer-template pair by calculating the Gibbs free energy. Then, we propose a unique labelling strategy that captures primer-template interactions in the binding sites by analyzing match and mismatch positions. We categorize a set of English words into two semantically distinct groups: one for match positions and another for mismatch positions. Words within each group have a higher cosine similarity to one another than to words in the opposing group. We assign the corresponding word to each base pair based on whether it is a match or a mismatch. The labelled sequence is then tokenized with BERT, serving as input to a CNN-BiLSTM model. Achieving 85.9% accuracy, this approach outperforms prior methods and pioneers BERT-based analysis in primer-template binding. Crucially, the model demonstrates significantly better sensitivity and overall AUC compared to prior work, while maintaining highly competitive specificity. This indicates a far more balanced and robust capability to correctly distinguish both successful and failed PCR outcomes, which is vital for reliable experimental prediction.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "14fb108798bcc6dd9586910b834baa8d5a21de858d95f61378ca034b5b700b7c",
       "identity_keys": [
         "https://doi.org/10.64898/2026.06.04.729630",
