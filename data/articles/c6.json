@@ -3750,6 +3750,54 @@
       "curated_categories": []
     },
     {
+      "id": "c69f174825914a1bf88191ec24ef3db445792428f01bca258b0725fb20430ec1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.04.16.718468v2",
+        "https://doi.org/10.64898/2026.04.16.718468",
+        "https://www.biorxiv.org/content/early/2026/04/20/2026.04.16.718468.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.04.16.718468.source.xml"
+      ],
+      "title": "diagFDR: assessing False Discovery Rate claims in proteomics with scope, calibration and stability diagnostics",
+      "link": "https://doi.org/10.64898/2026.04.16.718468",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.16.718468v2.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chion",
+          "name": "Chion, M"
+        },
+        {
+          "key": "godmer",
+          "name": "Godmer, A"
+        },
+        {
+          "key": "douche",
+          "name": "Douche, T"
+        },
+        {
+          "key": "matondo",
+          "name": "Matondo, M"
+        },
+        {
+          "key": "giai gianetto",
+          "name": "Giai Gianetto, Q"
+        }
+      ],
+      "abstract_text": "In mass spectrometry (MS)-based proteomics, false discovery rates (FDRs) for peptide and protein identifications are estimated by comparing target and decoy matches. Yet published studies rarely give enough information to audit a reported \"1% FDR\". In a convenience sample of recent data-independent acquisition (DIA) studies, none reported the number of accepted decoys or how target/decoy labels were assigned to protein groups, and few specified whether thresholds were applied per run or across the experiment. We propose a framework that separates three questions: is the claim fully specified; is it consistent with the exported decoys; and is it supported by independent evidence, such as an entrapment search? We define scope, calibration and stability diagnostics computable from decoy-inclusive exports. In a DIA-NN dataset, filtering on run-wise q-values alone gave a list with a recomputed decoy ratio of 2.2% at a nominal 1% and a Jaccard overlap of 0.93 with the experiment-wide list; the added identifications had a twelvefold higher raw entrapment-match rate. Four protein-group labelling rules changed the protein-level decoy ratio by a factor of 1.4. We derive and verify by simulation a benchmark for the dispersion of the realised false discovery proportion (FDP) around the FDR, close to {surd}2 D-1/2 with D the number of accepted decoys. Internal diagnostics did not detect simulated decoy misspecification that raised the realised FDP up to sevenfold. We propose a five-point reporting standard and provide the R package diagFDR and its Python port diagfdr, which implement the diagnostics, label rules, entrapment estimators and a reviewer-facing report.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c6a20ff3c322b956c1d653a9dcc11f3965354a49f3a4a7306eca4d034946e4ae",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77141-8",

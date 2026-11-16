@@ -5569,6 +5569,48 @@
       "curated_categories": []
     },
     {
+      "id": "daf93f8a29e28ac0125e7779cee0e4bfd0ea2df1e5ab46c9ccdd44383b577ecd",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2609.32062",
+        "https://openalex.org/W7214786355"
+      ],
+      "title": "Correcting the Dropout-LayerNorm Expectation Gap Improves Protein Structure Models",
+      "link": "https://doi.org/10.48550/arxiv.2609.32062",
+      "pdf_url": "https://arxiv.org/pdf/2609.32062",
+      "publication_date": "2026-09-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "ellmen isaac",
+          "name": "Isaac Ellmen"
+        },
+        {
+          "key": "david errington",
+          "name": "David Errington"
+        },
+        {
+          "key": "matthew raybould",
+          "name": "Matthew I. J. Raybould"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        }
+      ],
+      "abstract_text": "Although $\\mathbb{E}[\\mathrm{dropout}(x)] = x$, here we show that $\\mathbb{E}[\\mathrm{LayerNorm}(\\mathrm{dropout}(x))]$ is not equal to $\\mathrm{LayerNorm}(x)$. Accordingly, the pattern of a Dropout layer followed by a LayerNorm, which is common to many AlphaFold2-based protein structure predictors, produces a systematic bias at evaluation time that can hamper performance. To address this, we derive a closed-form, first-order correction for this gap, which we call a Dropout-LayerNorm Correction (DLC). DLC empirically matches the performance boost of large Monte Carlo dropout ensembles. We evaluate its effect across nine protein structure models (ESMFold, OpenFold, ABB3, FlashABB, Ibex, NbForge, Genie1, Genie2, Genie3) on both paired and single-chain antibody structures as well as one protein-ligand docking model (QuickBind). The correction is computationally negligible and improves accuracy in all ten models tested ($\\sim0.3\\%-13\\%$), with a modest but consistent improvement in ESMFold and OpenFold and a substantial improvement in antibody-specific models. This work identifies the mathematical consequence of chaining together Dropout and LayerNorm and provides a free, principled adjustment to improve the evaluation performance of many pretrained models. Code to reproduce the experiments is available at https://github.com/oxpig/DLC.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "dafc952d342f37a986f638f995b40d3534a603cdcf5efee68f3c2ff56e41a9e4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73782-x",
