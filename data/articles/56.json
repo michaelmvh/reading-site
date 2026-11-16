@@ -1772,6 +1772,44 @@
       "curated_categories": []
     },
     {
+      "id": "56566833dba3102ca0c1927f4807d8351a12f904c61bed6756331f8d11c6643b",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2607.26113",
+        "https://openalex.org/W7171771573"
+      ],
+      "title": "NISPO: Open-source IUPAC name generation tool",
+      "link": "https://doi.org/10.48550/arxiv.2607.26113",
+      "pdf_url": "https://arxiv.org/pdf/2607.26113",
+      "publication_date": "2026-07-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "nicholas runcie",
+          "name": "Nicholas T. Runcie"
+        },
+        {
+          "key": "fergus imrie",
+          "name": "Fergus Imrie"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        }
+      ],
+      "abstract_text": "Systematic International Union of Pure and Applied Chemistry (IUPAC) names are standard for communicating molecular structures in chemical literature, patents, and databases. We introduce NISPO, an open-source RDKit-based Python package for IUPAC name generation. NISPO was developed by an agentic self-improvement loop using OpenAI's Codex with the GPT-5.5 model. A generated name was considered correct if the open-source OPSIN tool parsed it back to the input structure. Guided by this objective, the agent implemented and refined NISPO against 2.68 million molecules from SureChEMBL, resulting in the tool achieving 98.1% round-trip accuracy on a held-out set of 103 million PubChem molecules. NISPO is freely available at https://github.com/oxpig/nispo.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "56583737213a9436b9186336c8a620798aadd4cc92d777b4468d631701411c99",
       "identity_keys": [
         "arxiv:2505.03458",

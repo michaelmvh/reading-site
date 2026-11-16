@@ -2299,6 +2299,48 @@
       "curated_categories": []
     },
     {
+      "id": "9c73f2b211a1cce02fc9d86da126fa3981f54cc072ad9ea5f00e72e6bc8751d8",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2607.04134",
+        "https://openalex.org/W7167646191"
+      ],
+      "title": "Spectral Diffusion for Protein Dynamics",
+      "link": "https://doi.org/10.48550/arxiv.2607.04134",
+      "pdf_url": "https://arxiv.org/pdf/2607.04134",
+      "publication_date": "2026-07-05",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "hew phipps",
+          "name": "Hew Phipps"
+        },
+        {
+          "key": "cagiada matteo",
+          "name": "Matteo Cagiada"
+        },
+        {
+          "key": "santiago villalba",
+          "name": "Santiago D. Villalba"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        }
+      ],
+      "abstract_text": "Generative models present a promising alternative to expensive molecular dynamics for computationally querying protein dynamics, yet many existing approaches treat ensembles as unordered snapshots rather than temporally coherent trajectories, or scale poorly with protein size. We present a new physics-informed representation using Fourier transforms as an inductive bias for the multiscale temporal nature of protein dynamics. Diffusion in the spectral domain allows for disentangling of dynamics into slow conformational modes and fast atomic jitter, enabling rapid and improved prediction of dynamics across a range of temperatures. This is facilitated by denoising of structure and temperature conditioned spectral volumes where the low frequencies directly encode per-residue flexibility. Trained on the mdCATH dataset, we evaluate our model, DynaMode, on a held-out test set achieving strong performance across a set of ensemble-based metrics including a Root Mean Squared Fluctuation (RMSF) pearson $r$ of $0.844$. Code is available at https://github.com/HPuntu/DynaMode.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9c742fe14dd3c1f93df6e600367854d06159ccf35dbec5f68ce7a1864e47809c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66361-z",
