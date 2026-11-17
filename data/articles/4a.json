@@ -1555,6 +1555,40 @@
       ]
     },
     {
+      "id": "4a4d79e292c6fbacff26381d62411fc8a0f6cb061329e8f1d9bdefdbb0acdd64",
+      "identity_keys": [
+        "arxiv:2611.18614",
+        "https://doi.org/10.48550/arXiv.2611.18614"
+      ],
+      "title": "Physics-informed and event-aware forecasting of ammonia emissions in aerobic chicken manure composting bioreactors: A PINN-PatchTST-GPR framework with symbolic dynamic extraction",
+      "link": "https://doi.org/10.48550/arXiv.2611.18614",
+      "pdf_url": "https://arxiv.org/pdf/2611.18614",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "lanbin wei",
+          "name": "Lanbin Wei"
+        },
+        {
+          "key": "haiyong weng",
+          "name": "Haiyong Weng"
+        }
+      ],
+      "abstract_text": "Predicting ammonia (NH3) concentrations during aerobic chicken manure composting provides critical feedforward signals for intelligent aeration. However, the concurrence of long-term biochemical evolution and intermittent forced-aeration pulses poses significant modeling hurdles across steady baselines, transient surges, and risk quantification. Existing data-driven models lack physical consistency, while mechanistic kinetic models struggle with environmental disturbances. To bridge this gap, we propose PINN-PatchTST-GPR, a physics-informed neuro-symbolic forecasting framework. Validated on a 28-day composting campaign across six vertical bioreactors, the framework couples a channel-independent PatchTST backbone with macroscopic kinetic constraints, dynamic physical bounds, and a Gaussian process regression (GPR) event specialist. Multi-channel sensor streams drive discrete differential equation residuals and non-negativity bounds, strictly ensuring physical plausibility. A block-split conformal prediction module yields nominal 90% distribution-free prediction intervals, while PySINDy and PySR extract low-complexity symbolic equations for quiescent and surge regimes. The model achieves an overall RMSE of 0.8256 +/- 0.0132 ppm, R2 of 0.9817 +/- 0.0006, Epeak of 1.6793 +/- 0.0725 ppm, and Etime of 0.7 +/- 0.2 min. For uncertainty quantification, it attains PICP90 of 99.792 +/- 0.047%, MPIW of 6.951 +/- 0.128 ppm, and IS0.1 of 6.968 +/- 0.128 ppm. Symbolically, PySINDy yields an RMSE of 0.4624 +/- 0.0758 ppm (R2 = 0.9896), while PySR yields 2.4084 +/- 0.0864 ppm (R2 = 0.9523). Biologically, the 20-min aeration strategy minimizes cumulative NH3 emissions. Overall, PINN-PatchTST-GPR harmonizes global forecasting, localized transient responsiveness, and risk quantification for precision composting.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4a5515129b1f67718c6d22c9c8d532ea1cb82eac4594a73e0831624e53d307f9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73010-6",
@@ -3622,6 +3656,64 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "4a9e0720013c38c7eef1ba320b9b2f1ea8783a30c3c7d3731f61b3605040df85",
+      "identity_keys": [
+        "arxiv:2611.20986",
+        "https://doi.org/10.48550/arXiv.2611.20986"
+      ],
+      "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+      "link": "https://doi.org/10.48550/arXiv.2611.20986",
+      "pdf_url": "https://arxiv.org/pdf/2611.20986v1",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "liu yong",
+          "name": "Yong Liu"
+        },
+        {
+          "key": "shi zhanpeng",
+          "name": "Zhanpeng Shi"
+        },
+        {
+          "key": "lin peicong",
+          "name": "Peicong Lin"
+        },
+        {
+          "key": "zhenyi zhong",
+          "name": "Zhenyi Zhong"
+        },
+        {
+          "key": "dang yizhou",
+          "name": "Yizhou Dang"
+        },
+        {
+          "key": "wendi wu",
+          "name": "Wendi Wu"
+        },
+        {
+          "key": "haoling li",
+          "name": "Haoling Li"
+        },
+        {
+          "key": "shuangjia zheng",
+          "name": "Shuangjia Zheng"
+        }
+      ],
+      "abstract_text": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, and large language models (LLMs) reason in natural language, but the two remain separate: the abilities of the former are not part of a general-purpose LLM, and the reasoning of the latter does not enter a structure prediction. Calpha aims at one general model that folds proteins and complexes, understands protein sequence and structure, and lets its language reasoning influence the structures it predicts. This report covers the first step, in which an LLM outputs single-chain protein structures. Qwen3.5-9B reads a sequence enriched with ESM2 residue features. It can respond in text or emit a token that invokes a pretrained SimpleFold structure head, which receives information about the protein only through Qwen's residue states. Under a fixed folding request, the head achieves mean TM-scores of 0.808 on the FoldBench-334 development set, 0.635 on CASP16 domains and 0.900 on a CAMEO-style PDB set. We compare these predictions with a baseline in which ESM2-3B encodes the sequence and a fine-tuned SimpleFold-3B head predicts the coordinates. The two systems also differ in trainable weights, training duration and crop length. For chains of 100--299 residues, all three paired confidence intervals include zero. At 300--600 residues, the mean differences are -0.044, -0.160 and -0.025, respectively. In a separate test, four English request types triggered folding on every evaluated example. Protein training reduced accuracy on a 350-item MMLU-Pro subset from 77.4% to 70.3%. An LLM can therefore output single-chain structures from its own states, with lower long-chain scores in the current comparisons and reduced accuracy on the evaluated MMLU-Pro subset. Complex prediction, structure understanding and the effect of language reasoning on the predicted coordinates remain future work.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

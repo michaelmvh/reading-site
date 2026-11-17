@@ -334,13 +334,15 @@
       "id": "82060992baa7b63225e992091c36114148a4f44ecaa81210e19ff8e57c885b47",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.04.764426v2",
+        "biorxiv:10.64898/2026.11.04.764426v3",
         "https://doi.org/10.64898/2026.11.04.764426",
-        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.04.764426.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/10/2026.11.04.764426.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.11.04.764426.source.xml"
       ],
       "title": "Language-guided domain adaptation improves protein sequence representations for antimicrobial resistance analysis",
       "link": "https://doi.org/10.64898/2026.11.04.764426",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v2.full.pdf",
-      "publication_date": "2026-11-10",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v3.full.pdf",
+      "publication_date": "2026-11-16",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -362,7 +364,7 @@
           "name": "Song, S"
         }
       ],
-      "abstract_text": "Antimicrobial resistance (AMR), particularly antibiotic resistance in bacterial pathogens, complicates infectious disease management. Because bacterial resistance is often mediated by protein functions, including antibiotic inactivation and efflux, protein sequence analysis provides a molecular basis for digital AMR surveillance and therapeutic intervention. We developed BacLLM, a language guided protein representation framework that integrates annotation-derived functional knowledge into protein language model representations for AMR analysis in WHO priority bacterial pathogens. Through sequence enhancement, semantic enrichment of UniProt annotations, and cross modal contrastive learning, BacLLM transfers LLM encoded annotation priors into the sequence encoder. Compared with baselines, BacLLM provided more informative representations for resistance-gene identification and mechanism prediction, captured resistance associated mutational signals at single-residue resolution, and preserved taxonomic relationships not reflected by phenotype based clinical groupings. Moreover, BacLLM recovered resistance associated functional organization within a TolC-centered protein association network, prioritizing proteins with low sequence identity to TolC but predicted structural similarity to TolC. Extending from AMR characterization to therapeutic prioritization, BacLLM also improved strain-level phage host matching for phage therapy candidate prioritization. Together, these findings establish BacLLM as a protein representation framework supporting AMR surveillance, functional characterization, and therapeutic candidate prioritization.",
+      "abstract_text": "Antimicrobial resistance (AMR) in bacterial pathogens complicates infectious disease management. Protein sequences encode molecular features underlying resistance functions such as antibiotic inactivation and drug efflux, providing a basis for investigating bacterial AMR. Protein language models can extract transferable representations from these sequences. However, general purpose protein language models have limited capacity to represent AMR-associated sequences, while task-specific tools often address individual prediction problems. These limitations highlight the need for protein representations that better capture resistance associated functions and can be reused across complementary tasks, supporting systematic AMR analysis from sequence variation to functional relationships among proteins. We developed BacLLM, a language-guided protein representation framework that integrates annotation derived functional knowledge into protein language model representations for AMR analysis in bacterial pathogens. Through sequence enhancement, semantic enrichment of UniProt annotations, and cross modal contrastive learning, BacLLM transfers LLM encoded annotation priors into the sequence encoder, enabling sequence only inference after training. Compared with baseline models, BacLLM provided more informative representations of resistance associated sequences, achieving a mean F1 score of 0.956 across six AMR benchmarks with logistic regression, 2.7 percentage points above the strongest baseline. It also captured resistance associated mutational signals at single residue resolution and preserved taxonomic relationships not reflected by phenotype based clinical groupings. Moreover, BacLLM recovered resistance associated functional organization within a TolC centered protein association network, prioritizing proteins with low sequence identity to TolC but predicted structural similarity to TolC. Extending the same representation framework to an intervention oriented application, BacLLM also improved strain level phage host matching for phage therapy candidate prioritization. Together, these findings establish BacLLM as a reusable protein representation framework for analyzing resistance associated sequence variation and functional organization, with applications in AMR surveillance and phage candidate prioritization.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

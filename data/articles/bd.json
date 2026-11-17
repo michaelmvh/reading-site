@@ -2255,6 +2255,48 @@
       "curated_categories": []
     },
     {
+      "id": "bd62ebc5a7352bdd80b4304cbfddd9e1b43ee213bf98134622e9cd9f1d46e33a",
+      "identity_keys": [
+        "arxiv:2611.20172",
+        "https://doi.org/10.48550/arXiv.2611.20172"
+      ],
+      "title": "From the possible to the optimal: differentiable optimization of gene regulatory networks",
+      "link": "https://doi.org/10.48550/arXiv.2611.20172",
+      "pdf_url": "https://arxiv.org/pdf/2611.20172v1",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "friedman leah",
+          "name": "Leah Friedman"
+        },
+        {
+          "key": "gašper tkačik",
+          "name": "Gašper Tkačik"
+        },
+        {
+          "key": "gregor thomas",
+          "name": "Thomas Gregor"
+        },
+        {
+          "key": "françois paul",
+          "name": "Paul François"
+        }
+      ],
+      "abstract_text": "Understanding the space of ``the actual and the possible'' regulatory architectures capable of realizing biological functions is one of the major challenges in biology. Optimization-based approaches can rationalize regulatory mechanisms from functional objectives and constraints, but their computational cost has limited them to finding individual solutions. Here, we introduce \\texttt{jaxgrn}, a framework that combines differentiable programming with stochastic simulations of gene regulatory networks (GRNs) to optimize thousands of networks end-to-end on GPUs. Using morphogen-driven embryonic patterning as a case study, we optimize networks for domain formation and positional information, while varying constraints on input noise, boundary precision and scaling with system size. While recovering known archetypes for scaling, we find that varying the constraints organizes optimal solutions into qualitatively distinct regimes. When optimizing domain formation, we observe phenotypic convergence across a continuum of regulatory architectures, ranging from input-driven to feedback-driven networks. When optimizing positional information, solutions are initially phenotypically diverse despite moderate variation in regulatory architecture; imposing scaling drives both phenotypic and regulatory convergence of the optimized networks onto a few recurring regulatory architectures. Our systematic approach opens the door for variational systems biology in which changing functional constraints reshape the landscape of possible phenotypes and regulatory architectures.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bd6624b980ae1c7970dfabec38db5ecbbed447731e767e462a260d251ed8f2f0",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68452-x",

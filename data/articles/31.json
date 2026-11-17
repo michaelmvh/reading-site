@@ -1407,6 +1407,48 @@
       "curated_categories": []
     },
     {
+      "id": "3133ad49121c5ce4643a30b54a13f642bfb629f576994e8d20de8c5bcbc5a1a8",
+      "identity_keys": [
+        "arxiv:2611.20259",
+        "https://doi.org/10.48550/arXiv.2611.20259"
+      ],
+      "title": "Scaling large language model-assisted line-of-therapy adjudication with human-in-the-loop evidence-calibrated selection",
+      "link": "https://doi.org/10.48550/arXiv.2611.20259",
+      "pdf_url": "https://arxiv.org/pdf/2611.20259v1",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "olatunji oni",
+          "name": "Olatunji Oni"
+        },
+        {
+          "key": "sanhita sengupta",
+          "name": "Sanhita Sengupta"
+        },
+        {
+          "key": "benedetti de marc",
+          "name": "Marc De Benedetti"
+        },
+        {
+          "key": "eddy nathanial",
+          "name": "Nathanial Eddy"
+        }
+      ],
+      "abstract_text": "Large language models (LLMs) have enabled the ability to scale clinical adjudication tasks traditionally dependent on exhaustive manual review. Line-of-therapy (LoT) adjudication, a major bottleneck in oncology cohort construction, is a prime example. Line boundaries must be inferred from longitudinal treatment histories according to nuanced, study-specific definitions, at every regimen transition for every patient. LLMs can apply this adjudication at scale, but their reliability varies across patients. Treatment histories differ in complexity, and ambiguous or atypical patterns depend on expert clinical judgment. Reliable automation thus requires verified support for model assignments and the ability to identify cases that warrant manual review. Here, we present evidence-calibrated selection (ECS), a human-in-the-loop framework for scaling LLM-assisted LoT adjudication. ECS derives confidence from observed clinician adjudications, prioritizes patients with the least-supported assignments for follow-up review, and returns completed adjudications to the model as precedent. As the evidence base grows, ECS continuously calibrates confidence to estimate residual error, thus enabling more efficient use of clinician time. In simulations on 136 clinician adjudicated patients with multiple myeloma, ECS achieved a residual error of 5% after review of 44.6% of patients, compared to 62.2% when review was directed by LLM self-reported confidence and 81.9% under random sampling. These results support a scalable approach to study-specific LoT adjudication, using clinician evidence to inform automated predictions, minimize error, and reduce review burden.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "313695097a74a150b4efd3b1e0e8d9dafdd94fe82d9e6951a6efe2b708189c47",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66311-9",

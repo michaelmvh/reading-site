@@ -1617,6 +1617,53 @@
       "curated_categories": []
     },
     {
+      "id": "9135205878eada7c459ebbd0e2dbd1088e0bfdbd53eb756a7149b3b2c6efc76b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.14.766684v1",
+        "https://doi.org/10.64898/2026.11.14.766684",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.14.766684.source.xml"
+      ],
+      "title": "GatorAnchor: Cross-Modal Uncertainty-Aware Learning of Reliable Cell Neighborhoods in Single-Cell Multi-Omics",
+      "link": "https://doi.org/10.64898/2026.11.14.766684",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766684v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, Z"
+        },
+        {
+          "key": "tang",
+          "name": "Tang, Y"
+        },
+        {
+          "key": "bian",
+          "name": "Bian, J"
+        },
+        {
+          "key": "li",
+          "name": "Li, X"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Y"
+        }
+      ],
+      "abstract_text": "Cross-modal uncertainty challenges single-cell multi-omics integration because molecular modalities differ in sparsity, technical noise, and context-dependent biological informativeness, producing discordant cell-cell relationships. Treating conflicting evidence as equally reliable can propagate uncertain relationships and obscure biologically meaningful cellular heterogeneity. GatorAnchor is a cross-modal uncertainty-aware framework that learns modality-specific probabilistic representations, quantifies disagreement across modalities and neighborhood evidence sources, and refines cell-cell relationships according to their reliability. Across ten paired transcriptome-protein and transcriptome-chromatin datasets, GatorAnchor achieves the highest mean performance across four evaluation metrics among nine representative integration methods, demonstrating improved resolution of cellular heterogeneity. Candidate relations with greater composite unreliability show lower consistency with reference cell-type structure, whereas filtering highly unreliable relations increases same-type edge purity across all datasets. Modality conflict is associated with transcript-protein measurement discordance, while transcriptome-chromatin analyses reveal lineage-dependent contributions of molecular and decoder-derived evidence. A three-modality transcriptome-chromatin-protein analysis characterizes cluster of differentiation 4 (CD4)-related communities with distinct molecular profiles and consistent within-donor contrasts across 12 donors. Under incomplete and mosaic measurements, GatorAnchor preserves informative cell-population structure, while cross-modal correspondence increasingly depends on paired-cell anchors. These findings support uncertainty-aware neighborhood refinement for reliable and interpretable characterization of cellular heterogeneity.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9136052ef44d674554abd7f29d0cdad27f0a1c4e23093eb379aeef214bdab374",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00720-8",

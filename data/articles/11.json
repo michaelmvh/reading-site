@@ -3839,6 +3839,49 @@
       "curated_categories": []
     },
     {
+      "id": "1194893c428170377a0b27181a5cac48e705e2677973d5f092df7684d46555ab",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.13.766601v1",
+        "https://doi.org/10.64898/2026.11.13.766601",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.13.766601.source.xml"
+      ],
+      "title": "Machine Learning Prediction of Antibiotic Resistance Genes: Performance, Interpretability, and Cross-Database Redundancy",
+      "link": "https://doi.org/10.64898/2026.11.13.766601",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766601v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ruthbah",
+          "name": "Ruthbah, C. A"
+        },
+        {
+          "key": "sadi",
+          "name": "Sadi, T. H"
+        },
+        {
+          "key": "jahan",
+          "name": "Jahan, N. E. S"
+        },
+        {
+          "key": "adib tanzim",
+          "name": "Tanzim Adib, A. N. M"
+        }
+      ],
+      "abstract_text": "Antibiotic resistance gene (ARG) classifiers are typically developed and evaluated within a single curated database, leaving open how much two independently curated databases agree and what that implies for apparent cross-database generalization. We trained an XGBoost classifier on amino acid trigram frequencies and physicochemical descriptors using the Comprehensive Antibiotic Resistance Database (CARD), the field's largest curated ARG resource. The model separated resistance genes from non-resistance proteins with near-ceiling accuracy (AUROC = 0.982, MCC = 0.886); a label-shuffling null baseline collapsed to chance (AUROC = 0.508) and bootstrap confidence intervals were narrow, confirming genuine signal rather than data leakage or overfitting. SHAP analysis attributed this performance to biologically interpretable features, notably the trigram KTG, isoelectric point, and aromaticity, each consistent with known catalytic motifs in resistance enzymes. Before testing the classifier against ResFinder, one of CARD's most widely used counterparts, we assessed database independence by clustering sequences with CD-HIT, finding that 96.8-98.7% of ResFinder sequences shared substantial protein identity with CARD even at a permissive 50% identity threshold, indicating the two databases largely represent the same sequence population, with direct implications for how cross-database generalization should be measured. On the small subset of ResFinder sequences genuinely non-redundant with CARD (40-100 sequences, depending on threshold), the classifier failed completely, never classifying any as resistance genes; SHAP traced this failure to sequence length, as non-redundant sequences are nearly three times longer than training proteins, and length is among the model's most influential features. The same pattern emerged by resistance mechanism: the model achieved perfect accuracy on beta-lactamases, compact single-domain enzymes well represented in training (100%, n = 351), but correctly identified only 38.5% of efflux pump components (n = 13), a mechanism built from large, multi-domain transporters rather than compact catalytic enzymes. Together, these results describe a capable, interpretable ARG classifier alongside a quantified methodological caution: cross-database redundancy must be measured rather than assumed, and when a sequence-composition classifier fails, the failure is often explained by protein architecture rather than database origin.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "119b056e21acee5ebc24be74fbc1231de9f46c2227d1cd075c7b4430b8115528",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67988-8",

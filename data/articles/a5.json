@@ -3560,6 +3560,41 @@
       "curated_categories": []
     },
     {
+      "id": "a5905be9bde88290499a5974e58b42ef6ae381be23a0a3b8caefe8ad76fc1444",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.06.764786v1",
+        "https://doi.org/10.64898/2026.11.06.764786",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.06.764786.source.xml"
+      ],
+      "title": "Vecmatch: Balancing Covariates in Multiple Groups Using Vector Matching Algorithm and Generalized Propensity Scores",
+      "link": "https://doi.org/10.64898/2026.11.06.764786",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764786v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kolek",
+          "name": "Kolek, M. F"
+        },
+        {
+          "key": "vogl",
+          "name": "Vogl, T"
+        }
+      ],
+      "abstract_text": "Covariate imbalance is a major source of bias in observational studies. This issue arises when confounding variables (e.g., age, sex) are distributed unevenly across compared groups, potentially influencing estimates of between-group differences in other dependent variables. Matching techniques based on propensity scores are widely used to address covariate imbalance and improve the accuracy of causal inferences. These methods work by calculating propensity scores based on imbalanced covariates and then matching observations with the closest propensity scores across compared groups. However, existing matching methods primarily focus on comparisons between at most two groups, and there is currently no widely implemented approach for matching across more than two treatment groups in popular programming languages. In this paper, we present an R implementation of the vector matching algorithm for matching across multiple treatment groups. The implementation includes the core algorithm itself along with several extensions aimed at improving usability and flexibility in applied research. These features include tools for visualizing covariate distributions, functions for estimating generalized propensity scores, and methods for defining rectangular regions of common support. Users can choose among different matching methods and adjust various parameters to improve covariate balance. To support this process, we provide an optimization workflow based on the random search algorithm that identifies parameter combinations yielding the best matching quality and highest percentage of matched samples. In addition, the package includes functions for assessing post-matching quality, offering a comprehensive and flexible framework for robust causal inference in complex observational settings. Keywords: covariate imbalance, bias reduction, vector matching, generalized propensity scores",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a591357d6609fabb5f40171ea0baacb3fb6ffb712ccd0f59012054246309c1c6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76387-6",

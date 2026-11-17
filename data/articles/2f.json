@@ -5151,6 +5151,36 @@
       "curated_categories": []
     },
     {
+      "id": "2fd605431b2d02a944d1822daa5f47e42a9241dabf05b697f38814a4b4d9a2fc",
+      "identity_keys": [
+        "arxiv:2601.00050",
+        "https://doi.org/10.48550/arXiv.2601.00050"
+      ],
+      "title": "What makes vertical federated learning work with thirteen samples? A controlled benchmark on coral thermal-stress multi-omics",
+      "link": "https://doi.org/10.48550/arXiv.2601.00050",
+      "pdf_url": "https://arxiv.org/pdf/2601.00050",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "sam victor",
+          "name": "Sam Victor"
+        }
+      ],
+      "abstract_text": "Vertical federated learning (VFL) lets laboratories that hold different omics layers of the same samples train a joint model without sharing raw data, but it is usually developed for datasets with thousands of samples. We benchmarked VFL on a Montipora capitata thermal-stress dataset with 13 samples and 90,579 features across transcriptomics, proteomics, metabolomics and microbiome data. The benchmark crosses two VFL backbones (a split-network model implemented in NVIDIA FLARE, and LASER-VFL) with three per-silo feature-selection strategies (gradient saliency, random, univariate t-test) and two allocations of a 1,300-feature budget, and adds a centralised elastic-net reference. All models were trained for the same number of steps and evaluated by repeated stratified 3-fold and leave-one-out cross-validation, with separate estimates of seed and data-split variability and end-to-end label-permutation tests. Plain VFL on all features classified heat stress well above chance (3-fold AUROC 0.869, 95% CI 0.838-0.895; permutation p = 0.020). Gradient-saliency selection with hand-set omics priors (0.904) could not be distinguished from plain VFL, from equal budgets or from random subsets of the same size (corrected p >= 0.56), and its selected features were no more consistent across seeds than random ones. LASER-VFL failed on all features at a learning rate of 1e-3 but matched the other methods at 1e-4. This version corrects versions 1-3 of this preprint, which reported that standard VFL performed at chance and that domain priors stabilised training; we show that those results arose because every model selected its checkpoint on a single-sample validation set, which evaluated the baseline after one optimiser step. With very few samples, evaluation choices outweighed every method choice we tested, and we give recommendations for evaluating federated models in this regime.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2fd7c5162db7bedd3d56a12ba92275cd4dde30400eaf74c598b769bddaca37ce",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72902-x",

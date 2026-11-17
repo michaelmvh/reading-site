@@ -3231,6 +3231,54 @@
       "curated_categories": []
     },
     {
+      "id": "a2722e16b47a115deec4ca16144555c92a5c57736f8756ef32d209773a026821",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.24.754259v2",
+        "https://doi.org/10.64898/2026.09.24.754259",
+        "https://www.biorxiv.org/content/early/2026/09/25/2026.09.24.754259.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.09.24.754259.source.xml"
+      ],
+      "title": "PerturbBridge: Conditional Latent Schr dinger Bridge for Single-Cell Perturbation Prediction",
+      "link": "https://doi.org/10.64898/2026.09.24.754259",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754259v2.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, Z"
+        },
+        {
+          "key": "jiang",
+          "name": "Jiang, C"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, C"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, X"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, X"
+        }
+      ],
+      "abstract_text": "\\textbf{Motivation:}Single-cell perturbation prediction seeks to recover transcriptional responses to unseen interventions from unpaired control and perturbed populations. The Schr\\\"odinger Bridge provides a principled framework for modeling these transitions as stochastic transport, but learning bridge dynamics directly from high-dimensional, sparse gene-expression profiles remains challenging. \\textbf{Results:} We present PerturbBridge, a conditional latent Schr\\\"odinger Bridge framework for single-cell perturbation response prediction. A response-anchored autoencoder constructs a compact cellular representation that preserves dominant transcriptional response directions identified from training perturbations while encoding complementary cellular variation. In this latent space, PerturbBridge models conditional stochastic transport through a tractable approximation to the Schr\\\"odinger Bridge. We introduce the Perturbation-Induced Bridge Transformer, which uses perturbation and time-dependent slots to guide interactions among latent coordinates during drift estimation. Evaluations on Norman, Sci-Plex3, and Replogle RPE1 demonstrate leading performance in differential-expression direction recovery and perturbation-effect correlation, alongside competitive gene-expression prediction accuracy. \\textbf{Availability:} The source code is available at \\url{https://github.com/echQoQ/PerturbBridge}, with an archived version at \\url{https://doi.org/10.5281/zenodo.24272128}.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a278802ab992d17afbe99094d46740b11a2c75f2bc58b7c56f87e1c5f122603c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68446-9",

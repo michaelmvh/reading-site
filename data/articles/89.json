@@ -1666,6 +1666,44 @@
       "curated_categories": []
     },
     {
+      "id": "894fbcd4c24d2eaad56071001a77e4a31246730bf367a106c7aa4e954227d2f4",
+      "identity_keys": [
+        "arxiv:2611.20274",
+        "https://doi.org/10.48550/arXiv.2611.20274"
+      ],
+      "title": "Beyond AUC: Do Mammography Risk Models Predict When Cancer Occurs?",
+      "link": "https://doi.org/10.48550/arXiv.2611.20274",
+      "pdf_url": "https://arxiv.org/pdf/2611.20274v1",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "krasnova svetlana",
+          "name": "Svetlana Krasnova"
+        },
+        {
+          "key": "andrey krylov",
+          "name": "Andrey Krylov"
+        },
+        {
+          "key": "dmitry sorokin",
+          "name": "Dmitry Sorokin"
+        }
+      ],
+      "abstract_text": "Longitudinal deep learning models for mammography-based breast cancer risk prediction output either per-year cumulative risks or a discrete distribution over the year of diagnosis, from which cumulative risks F1,...,F5 are derived. These models are evaluated almost exclusively with year-wise AUCs and the concordance index. We show that these metrics are largely insensitive to when cancer occurs: they can be high even for a model that carries no information about the year of diagnosis. We re-evaluate two recent longitudinal models (OA-BreaCR, LMV-Net) on CSAW-CC with a 5-year horizon using timing metrics computed on cancer cases only. Despite C-indices up to 0.75, neither orders cancer cases by time to diagnosis significantly better than chance (c_time 0.51 and 0.55, both 95% CIs covering 0.5). Weighted absolute timing error favours a constant \"year 3\" prediction over both models, so we use c_time as the primary timing metric. For Mirai's additive-hazard head, also used by LMV-Net, we analyse how per-year increments passed through a ReLU can collapse under severe class imbalance. We also propose a breast-level, two-stage model that separates whether from when. It matches LMV-Net in discrimination (C-index 0.745 vs. 0.746) but orders cancer cases better (c_time 0.58 vs. 0.51, paired 95% CI of the difference 0.01-0.13), on par with Mirai's published weights (0.57).",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "894fc9a0b57097b78609504877781f03724eaf3d64b5687a94c0f162e0342b9c",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03576-6",
@@ -2257,6 +2295,76 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "895c10bc20fc2a6ed7cba30f4e16f8876945c452ca74dc757d70885bceb0e2b2",
+      "identity_keys": [
+        "arxiv:2611.18659",
+        "https://doi.org/10.48550/arXiv.2611.18659"
+      ],
+      "title": "Automated detection of wild and cultivated plants in citizen science records",
+      "link": "https://doi.org/10.48550/arXiv.2611.18659",
+      "pdf_url": "https://arxiv.org/pdf/2611.18659",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "botella christophe um",
+          "name": "Christophe Botella (UM"
+        },
+        {
+          "key": "lirmm",
+          "name": "LIRMM)"
+        },
+        {
+          "key": "cput joy mangachena",
+          "name": "Joy Mangachena (CPUT"
+        },
+        {
+          "key": "cib",
+          "name": "CIB)"
+        },
+        {
+          "key": "cput geerts sjirk",
+          "name": "Sjirk Geerts (CPUT"
+        },
+        {
+          "key": "cib",
+          "name": "CIB)"
+        },
+        {
+          "key": "amap eau go herv umr",
+          "name": "Herv\\'e Go\\\"eau (UMR AMAP)"
+        },
+        {
+          "key": "cib luke potgieter",
+          "name": "Luke J. Potgieter (CIB)"
+        },
+        {
+          "key": "cib david richardson",
+          "name": "David M. Richardson (CIB)"
+        },
+        {
+          "key": "cang hui su",
+          "name": "Cang Hui (SU"
+        },
+        {
+          "key": "su",
+          "name": "SU)"
+        }
+      ],
+      "abstract_text": "Citizen science plant occurrences may help the early detection of naturalisations of alien species, yet they are affected by misclassifications of cultivated plants as wild occurrences. To differentiate cultivated from wild observations, we proposed a decision framework for the manual annotation of records. We annotated this cultivation status for 1,491 iNaturalist records in Cape Town, comprising 12 invasive alien plant species. To automate the classification, we trained algorithms on annotated records based on 39 predictors from split into 4 sets: (i) basic record and observer features, (ii) visual features extracted from images, (iii) geographic features, and (iv) iNaturalist observer statistics. 11 Classification algorithms were trained on 8 combinations of predictor sets, to assess predictors importance, yielding 88 models evaluated with crossvalidation. 25.2% of all annotated records were cultivated, and 21.2% among Research Grade records, while 24.8% of annotated records were doubtful. Automated classification yielded an accuracy in distinguishing cultivated from wild records reaching 87%, improving over the iNaturalist cultivation tag (74%), and the accuracy was robust when predicting on new species (85%). Model performance was overall highest when combining iNaturalist-specific, geographic and visual predictors, but visual predictors alone performed better for certain species. Our results highlight the potential to automatically distinguish cultivated and wild-growing plant records to support invasion risk assessments and sanitise ecological analyses currently contaminated by cultivated records. Our framework is transferable to other crowdsourcing platforms, even though the manual annotation capacity can limit transferability.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
@@ -4699,7 +4807,7 @@
       "title": "Towards Joint Sequence-Structure Generation of Nucleic Acid and Protein Complexes with SE(3)-Discrete Diffusion",
       "link": "https://doi.org/10.48550/arxiv.2401.06151",
       "pdf_url": "https://arxiv.org/pdf/2401.06151",
-      "publication_date": "2023-12-21",
+      "publication_date": "2024-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "arXiv (Cornell University)",

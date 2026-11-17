@@ -250,6 +250,40 @@
       "curated_categories": []
     },
     {
+      "id": "e815fa8c6a4a768227c71eb65a1f65ba909184e8a67c99953ade397bcbab0162",
+      "identity_keys": [
+        "arxiv:2611.18664",
+        "https://doi.org/10.48550/arXiv.2611.18664"
+      ],
+      "title": "Inside the Brain Tumor: What MRI-Defined Habitats Exist Within Glioblastoma, How Are They Spatially Organized, and What Molecular Processes Are Associated with Them?",
+      "link": "https://doi.org/10.48550/arXiv.2611.18664",
+      "pdf_url": "https://arxiv.org/pdf/2611.18664",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bozorgpour reza",
+          "name": "Reza Bozorgpour"
+        },
+        {
+          "key": "mohammadreza sadrabadi soltany",
+          "name": "Mohammadreza Soltany Sadrabadi"
+        }
+      ],
+      "abstract_text": "Glioblastoma exhibits substantial spatial heterogeneity, but MRI studies often emphasize tumor extent rather than the organization of imaging phenotypes. We investigated whether multiparametric MRI identifies reproducible habitats and whether habitat abundance and spatial architecture provide distinct information. Preoperative T1, contrast-enhanced T1, T2, and FLAIR scans with manual segmentations from 97 TCGA-GBM patients were analyzed. Unsupervised clustering of normalized voxel intensities identified two habitats. An Interface Ratio quantified the observed H1-H2 boundary relative to abundance-preserving spatial randomization. Molecular associations were assessed using matched Affymetrix U133A expression data and seven prespecified transcriptional programs. H2 showed higher T2 and FLAIR signal, while habitat distributions corresponded poorly to conventional segmentation compartments. Among 66 mixed-habitat tumors, Interface Ratio varied substantially and was independent of H2 abundance (rho = 0.074, p = 0.555). Molecular data were available for 89 patients, including 60 mixed-habitat tumors. Higher H2 abundance was nominally associated with hypoxia-program scores after adjustment for Interface Ratio (beta = 0.337, 95% CI 0.089-0.584; p = 0.0077), but not after multiple-testing correction (FDR = 0.108). No Interface Ratio association survived correction. Habitat composition and spatial organization represent two complementary dimensions of glioblastoma heterogeneity. The H2-hypoxia relationship remains exploratory and requires independent, spatially resolved validation.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e81657fb361349130208a7baa35e7f20fdfc03cdd47a910c03b2580cb7fe37c7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73664-2",
@@ -2245,6 +2279,36 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e88ad8da655c571e1e27d6588fd0e9831452f2e7cfd54fb64d4de017c5ceebca",
+      "identity_keys": [
+        "arxiv:2611.20566",
+        "https://doi.org/10.48550/arXiv.2611.20566"
+      ],
+      "title": "Weight-Space Programming Changes How an LLM Uses Python for Computational Biology",
+      "link": "https://doi.org/10.48550/arXiv.2611.20566",
+      "pdf_url": "https://arxiv.org/pdf/2611.20566v1",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "makoto sato",
+          "name": "Makoto Sato"
+        }
+      ],
+      "abstract_text": "Weight-space programming allows a language model to edit another model's weights without gradient-based training. We used Claude Opus 5.5 to edit Qwen3.5-0.8B and investigated how the edits changed its use of Python on computational biology problems. We compared four initial edited checkpoints with the original model on 50 test problems across three test seeds, yielding 600 paired evaluations. Strictly correct answers increased from 44 to 77, and technically correct answers, which included correct final values rejected for formatting, increased from 64 to 100. Repeated Python calls decreased from 1,834 to 1,044. Among the 64 pairs in which only the edited response was technically correct, the original model had already computed the correct value in 36 but did not submit a technically correct final answer. The edited model corrected the computation in 13 of the 64 pairs. With six additional checkpoints on the same 50 problems, technically correct answers rose from 96 to 154 across 900 pairs. We explored three selected problems with ten test seeds for each of ten checkpoints. On the melting-temperature problem, correct Python outputs decreased from 60 to 22 while technically correct final answers increased from 0 to 18. Weight editing changed both the calculations Qwen ran and whether it submitted a correct answer.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

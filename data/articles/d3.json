@@ -1733,6 +1733,61 @@
       "curated_categories": []
     },
     {
+      "id": "d33b12ce8b1c1c03b234c2932738f612b5e6d246d48556c73ee83310c8ef1839",
+      "identity_keys": [
+        "arxiv:2611.18665",
+        "https://doi.org/10.1016/j.bspc.2026.111520",
+        "https://doi.org/10.48550/arXiv.2611.18665"
+      ],
+      "title": "From Twelve Leads to Single: Cross-Lead Knowledge Distillation for Domain-Generalized Atrial Fibrillation Detection",
+      "link": "https://doi.org/10.48550/arXiv.2611.18665",
+      "pdf_url": "https://arxiv.org/pdf/2611.18665",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "lin xiaojian",
+          "name": "Xiaojian Lin"
+        },
+        {
+          "key": "li yang",
+          "name": "Yang Li"
+        },
+        {
+          "key": "shen yaomin",
+          "name": "Yaomin Shen"
+        },
+        {
+          "key": "wenxin zhang",
+          "name": "Wenxin Zhang"
+        },
+        {
+          "key": "liu yu",
+          "name": "Yu Liu"
+        },
+        {
+          "key": "ping zhang",
+          "name": "Ping Zhang"
+        },
+        {
+          "key": "bo chen",
+          "name": "Bo Chen"
+        }
+      ],
+      "abstract_text": "Atrial fibrillation (AF) detection from long-term ambulatory electrocardiography (ECG) is critical because AF is a leading cause of stroke yet is frequently missed by conventional diagnostics, particularly in wearable settings that demand strong cross-domain generalization. Deep learning has improved AF identification by exploiting rhythm patterns, but methods such as BMIRC and SJTU-ECGNet still struggle to generalize across heterogeneous single-lead wearable datasets. To address this issue, we propose X-LeadGen, a two-stage cross-lead distillation framework for single-lead ECG AF detection that explicitly targets domain generalization. First, a 12-lead teacher network distills rich multi-lead information into a single-lead student through cross-lead knowledge transfer and a simulated self-distillation branch within the teacher, improving cross-lead representation alignment and AF discrimination. Second, we introduce a domain-generalization strategy that applies domain-adversarial training in both teacher and student stages, complemented by GANs-based augmentation in the student phase to learn domain-invariant features and enhance robustness to distribution shifts. Across seven public ECG datasets under real and simulated Lead-I settings, X-LeadGen consistently outperforms existing approaches in accuracy and F1-score, demonstrating strong generalization for real-world wearable AF monitoring. Our implementation is publicly available at https://github.com/Aveiro-Lin/X-LeadGen, enabling further research and validation in the ECG community.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d33bf73876e9b133f301cd2aca899d0a81150a876e870178feb1ff04ea27ec3e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78057-z",
@@ -2729,44 +2784,40 @@
         "https://www.biorxiv.org/content/early/2026/10/16/2026.10.13.758590.source.xml",
         "https://www.biorxiv.org/content/early/2026/11/13/2026.10.13.758590.source.xml"
       ],
-      "title": "De novo design of metalloenzymes using Metal Mer",
+      "title": "De novo design of metalloenzymes using Metal Mers",
       "link": "https://doi.org/10.64898/2026.10.13.758590",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/16/2026.10.13.758590.full.pdf",
-      "publication_date": "2026-10-16",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758590v2.full.pdf",
+      "publication_date": "2026-11-13",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv",
       "authors": [
         {
-          "key": "chuan shan",
-          "name": "Chuan Shan"
+          "key": "shan",
+          "name": "Shan, C"
         },
         {
-          "key": "ren zhuoyun",
-          "name": "Zhuoyun Ren"
+          "key": "ren",
+          "name": "Ren, Z"
         },
         {
-          "key": "jiong yu",
-          "name": "Jiong Yu"
+          "key": "yu",
+          "name": "Yu, J"
         },
         {
-          "key": "gao yuan",
-          "name": "Yuan Gao"
+          "key": "gao",
+          "name": "Gao, Y"
         },
         {
-          "key": "chenxin wu",
-          "name": "Chenxin Wu"
+          "key": "zhong",
+          "name": "Zhong, X"
         },
         {
-          "key": "xiaofang zhong",
-          "name": "Xiaofang Zhong"
-        },
-        {
-          "key": "lei lu",
-          "name": "Lei Lu"
+          "key": "lu",
+          "name": "Lu, L"
         }
       ],
-      "abstract_text": "Abstract De novo enzyme design provides a route to create biocatalysts for target reactions, yet achieving high activity and selectivity directly from computation remains challenging. How best to design catalytic sites remains an open question, and enzyme design—metalloenzyme design for new-to-nature transformations in particular—is still limited in success rate, in substrate scope, and in the range of reactions accessible. Here we present a pipeline that produces efficient metalloenzymes directly from computation. It uses Metal Mer, a structural unit mapping backbone geometry to statistically preferred metal coordination modes, to build metal-binding sites with high confidence, and then constructs the catalytic core around the reaction product with geometric restrictions. Using the pipeline, we designed zinc-dependent hydride-transfer enzymes, obtaining a highly selective variant that exhibits enantiomeric excess (ee) >99% on 13 substrates without directed evolution. For steroid substrates bearing multiple carbonyl groups, redesigned variants achieved high regio- and diastereo-selectivity greater than 19:1. Applying this framework to iron-catalyzed alkene difunctionalization, designed variants were active out of the box (10% yield, 70:30 enantiomeric ratio (e.r.)), exceeding a previously reported natural functional analogs (<5% yield, <60:40 e.r.); a single active-site residue mutation further raised selectivity to 96:4 e.r. for several substrates, on par with extensively evolved natural enzymes. The crystal structure of an active design matches the computational model with a backbone RMSD of 0.4 Å, supporting the accuracy of the approach. These results establish our design framework as a general strategy for the de novo design of metalloenzyme series with diverse coordination geometries and coordinating residues, enabling efficient and selective catalysis of challenging chemical transformations. One Sentence Summary We present a protein structure unit Metal Mer that enables the de novo creation of highly selective metalloenzymes for new-to-nature reactions with no directed evolution.",
+      "abstract_text": "De novo metalloenzyme design for new-to-nature transformations remains challenging, with limited substrate scope and reaction diversity and a need for extensive experimental optimization. Here, we present a strategy based on Metal Mer, a structural unit that maps protein backbone to statistically preferred positions of bound metals, enabling precise metal coordination and efficient metalloenzymes design. Using this strategy, we designed zinc-dependent hydride-transfer enzymes (17/60 active), achieving >99% yield and >99.5:0.5 enantiomeric ratio (e.r.). Redesigned variants catalyzed steroid transformations with >19:1 site- and diastereoselectivity. Furthermore, designed iron enzymes catalyze alkene trifluoromethylazidation (17/36 active), and a single active-site mutation yielded a variant achieving up to 89% yield and 97:3 e.r., rivaling extensively evolved enzymes. Crystal structures closely matched computational models (Calpha RMSD <0.75 angstrom ), supporting the accuracy and generality of this approach.",
       "discovery_sources": [
         {
           "kind": "open_alex",

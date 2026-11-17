@@ -6859,6 +6859,48 @@
       "curated_categories": []
     },
     {
+      "id": "a7bd1a26f6a7685e87d36f3185ea7df6f85140c4c088884d710d9863cdb77969",
+      "identity_keys": [
+        "arxiv:2611.20580",
+        "https://doi.org/10.48550/arXiv.2611.20580"
+      ],
+      "title": "multiCAsp: Spatially Informed Canonical Association Analysis of Multi-Omic Data",
+      "link": "https://doi.org/10.48550/arXiv.2611.20580",
+      "pdf_url": "https://arxiv.org/pdf/2611.20580v1",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "mu ziqi",
+          "name": "Ziqi Mu"
+        },
+        {
+          "key": "qiuyi wu",
+          "name": "Qiuyi Wu"
+        },
+        {
+          "key": "ji zhicheng",
+          "name": "Zhicheng Ji"
+        },
+        {
+          "key": "pixu shi",
+          "name": "Pixu Shi"
+        }
+      ],
+      "abstract_text": "Simultaneous profiling of multiple molecular layers at spatially resolved locations creates opportunities to identify shared cross-modal biological variation in its tissue context. We present multiCAsp (multi-omic Canonical Association informed by spatial graph), a probabilistic latent-factor model for integrating $M \\geq 2$ spatially resolved omic modalities. It incorporates spatial dependence through a graph-Laplacian prior on shared latent factors and uses an expectation-maximization algorithm to estimate factor scores and modality-specific feature loadings. Because the prior is defined on a neighborhood graph rather than on Euclidean distances, it accommodates irregular tissue geometries and extends naturally to multiple tissue sections. Simulations show that multiCAsp consistently achieves higher mean latent subspace and loading recovery than alternative methods across varying sample sizes, feature dimensions, and noise levels, with the largest gains under high noise. Compared with an existing Gaussian process-based spatial factor model, it is also less sensitive to how the spatial coordinates are represented, produces spatially smoother factors, and has lower computational cost. Applied to metabolomic-proteomic data from macaque cortex and gene-protein data from human renal carcinoma, multiCAsp recovers spatially coherent multi-omic factors with interpretable biological signatures. In the macaque data, transferred factors retain broad spatial patterns across animals and support cross-modal prediction of protein abundances from metabolomic measurements.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a7c11735369655a827ec4ee3fce2f6efe742003803ba7f9806a96d8b1cb00c60",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65784-y",

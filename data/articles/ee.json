@@ -1192,6 +1192,37 @@
       "curated_categories": []
     },
     {
+      "id": "ee2d330efc9158900b71cdb3ffda77fd53865da48dd008f5082ec6b63d45c6c9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.13.766398v1",
+        "https://doi.org/10.64898/2026.11.13.766398",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.13.766398.source.xml"
+      ],
+      "title": "Exponent Polytopes for Abstracting Chemical Reaction Networks into Formal Specification Models for Compositional Design of Biomolecular Circuits",
+      "link": "https://doi.org/10.64898/2026.11.13.766398",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766398v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "pandey",
+          "name": "Pandey, A"
+        }
+      ],
+      "abstract_text": "Model based design has shown promise for synthetic biological circuits. However, many approaches remain empirical and limited in scale. Here, we develop specification models from chemical reaction network (CRN) models. These specifications encode assumptions explicitly and guarantees that must be met under those assumptions. Specifically, we show how monomial dominance relations in open CRNs induce polyhedral regime assumptions in logarithmic coordinates. These assumptions give polyhedral assume guarantee contracts that encode system behavior. Further, we show how order of magnitude dominance assumptions can be written explicitly as contract assumptions and used to derive tighter guarantees. We demonstrate two biological circuit design applications: identifying the biological mechanisms that meet the required system-level specification, and screening promoter and ribosome binding site choices to determine expression gains that satisfy a specification through contract composition and refinement. Ultimately, these results provide a path from CRN descriptions of synthetic biological parts to specification-based compositional design.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ee30170e00fc027329723643d2bf9875d36f3a5fc000fbfa46fbdc615004f96b",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10666-6",
@@ -1577,6 +1608,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ee36dd6a17ad9350ceace52ef9bf284fc3c06e663b0d6a416477df4b56522880",
+      "identity_keys": [
+        "arxiv:2611.19885",
+        "https://doi.org/10.48550/arXiv.2611.19885"
+      ],
+      "title": "An Exploration of Physical and Chemical Representation in Coarse-Grained, Machine-Learned Protein Models",
+      "link": "https://doi.org/10.48550/arXiv.2611.19885",
+      "pdf_url": "https://arxiv.org/pdf/2611.19885v1",
+      "publication_date": "2026-11-15",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "aldo pasos trejo",
+          "name": "Aldo S. Pasos-Trejo"
+        },
+        {
+          "key": "luca sagresti",
+          "name": "Luca Sagresti"
+        },
+        {
+          "key": "cecilia clementi",
+          "name": "Cecilia Clementi"
+        }
+      ],
+      "abstract_text": "Machine-learned coarse-graining has emerged as a reliable framework for building protein models that accurately and efficiently sample their relevant conformational landscape. Existing studies assume a predefined map from full- to coarse-grained resolution. However, the choice of map strongly affects the quality of the models. Here, we study the dependence of system-specific machine-learned coarse-grained (MLCG) models across 7 mapping choices, spanning different resolutions and embedding types for coarse-grained beads. We show that resolution and chemical diversity do not always correlate with accuracy, and that accurate protein-specific models can be generated using minimal chemical diversity if the latent space representation of the system has high enough dimensionality.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

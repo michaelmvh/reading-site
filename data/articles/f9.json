@@ -6168,6 +6168,46 @@
       "curated_categories": []
     },
     {
+      "id": "f9ac9fcd7044df240fa635d45fd1205dadf6c16eee09dc5eff7472e75c94ae49",
+      "identity_keys": [
+        "biorxiv:10.1101/2023.11.03.565544v6",
+        "https://doi.org/10.1101/2023.11.03.565544",
+        "https://www.biorxiv.org/content/early/2025/12/08/2023.11.03.565544.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/16/2023.11.03.565544.source.xml"
+      ],
+      "title": "reconcILS: A gene tree-species tree reconciliation algorithm that allows for incomplete lineage sorting",
+      "link": "https://doi.org/10.1101/2023.11.03.565544",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.03.565544v6.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mishra",
+          "name": "Mishra, S"
+        },
+        {
+          "key": "smith",
+          "name": "Smith, M. L"
+        },
+        {
+          "key": "hahn",
+          "name": "Hahn, M. W"
+        }
+      ],
+      "abstract_text": "Reconciliation algorithms provide an accounting of the evolutionary history of individual gene trees given a species tree. Many reconciliation algorithms consider only duplication and loss events (and sometimes horizontal transfer), ignoring effects of the coalescent process, including incomplete lineage sorting (ILS). Here, we present a new algorithm for carrying out reconciliation that accurately accounts for incomplete lineage sorting by treating ILS as a series of nearest neighbor interchange (NNI) events. For discordant branches of the gene tree identified by last common ancestor (LCA) mapping, our algorithm recursively chooses the optimal history by comparing the cost of duplication and loss to the cost of NNI and loss. We demonstrate the accuracy of our new method, which we call reconcILS, using a new simulation engine (dupcoal) that can accurately generate gene trees produced by the interaction of duplication, ILS, and loss. We show that reconcILS is much more accurate than models that ignore ILS, and at least as accurate or better than the leading method that can model ILS, duplication, and loss. We discuss how our method can also be extended in the future for use as a reconciliation algorithm in additional scenarios. Availability: reconcILS is implemented in Python 3 and is available at https://github.com/smishra677/reconcILS. The dupcoal simulator is implemented in Python 3 and is available at https://github.com/meganlsmith/dupcoal",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f9b029c6a2c4bafa782dacb2c57c43c36c7711b766046ff0c00e545367c35718",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67858-3",

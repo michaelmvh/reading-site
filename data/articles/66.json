@@ -6676,6 +6676,39 @@
       "curated_categories": []
     },
     {
+      "id": "66d501a7a729f4a6dfc4b80860d86cc609fd5ac628e394c196a4347a7749e150",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.14.744956v3",
+        "https://doi.org/10.64898/2026.08.14.744956",
+        "https://www.biorxiv.org/content/early/2026/08/21/2026.08.14.744956.source.xml",
+        "https://www.biorxiv.org/content/early/2026/09/17/2026.08.14.744956.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/16/2026.08.14.744956.source.xml"
+      ],
+      "title": "Lacuna: Cryptic Binding Pocket Discovery via Conformational Ensemble Analysis",
+      "link": "https://doi.org/10.64898/2026.08.14.744956",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744956v3.full.pdf",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "moore",
+          "name": "Moore, C"
+        }
+      ],
+      "abstract_text": "Lacuna, an open-source Python tool for discovering cryptic binding pockets: sites that are absent or too small to detect in the unbound structure of a protein, RNA or DNA and open only during conformational fluctuation. Most binding-site predictors score a single static structure, the very structure in which a cryptic site is invisible. Lacuna generates a conformational ensemble from any input structure, detects pockets independently in every conformer, clusters the detections into persistent sites, and ranks those sites with a model fitted on within-structure pairs. Ensemble generation is pluggable: normal mode analysis (NMA) by default, with implicit-solvent molecular dynamics, Boltz-2 diffusion sampling or a user-supplied ensemble as alternatives. On the designated test fold of CryptoBench, all 222 structures of which are scored, the zero-dependency default recovers the cryptic site for 59.9% of structures in its top five predictions, and it recovers 69% on the PocketMiner set, 41% on a curated set of literature apo/holo pairs and 89% of structures in the already-open COACH420 set. On that test fold, ordering the candidate set with the fitted ranker rather than the analytic rule it replaced accounts for a gain of 27.5 points (95% CI +21.2 to +33.8), the largest single effect measured here. An optional protein-language-model (PLM) ranker reaches 66.1% on a 180-structure subset of that fold, and pooling the geometric detector with an optional learned surface detector raises top-five recovery to 73.9% and the fraction of structures in which the site is found at all to 86.4% in a separate held-out evaluation at five conformers (184 structures; both optional configurations measured with version 1.4.0). A new per-residue cryptic-site propensity reaches AUROC 0.766 and AUPRC 0.340 on the same test fold (231 targets), against 0.249 for the same scorer on the input structure alone, so the ensemble carries information the input does not. RNA and DNA need no extra flags; on RNA sites with no cavity in the input the ensemble raises the fraction found from 44% to 73% (measured with version 1.3.0). With the default NMA backend the pocket report is identical at any thread count and between Windows and Linux on the 40 proteins compared, ensemble generation needs less than half the memory of version 1.4.0 from 1,300 residues up, and the full pipeline is 7% to 30% faster than 1.4.0 on the reference proteins of the repository's speed table. At the default 20 conformers it takes a median of 1.9 seconds per chain on one CPU thread (30 chains of 57 to 676 residues). Outputs include docking-ready Boltz constraints and AutoDock Vina boxes, a per-residue propensity map and the conformer ensemble. Lacuna is MIT licensed, available at https://github.com/mooreneural/lacuna and on PyPI as lacuna-pockets, and runs as a local MCP server for AI assistants and on hosted no-install platforms.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "66d70c6a5d006926fffe599dc62089c52cede0dd4831d9aa218a332207440b4e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70622-w",
