@@ -2549,6 +2549,41 @@
       "curated_categories": []
     },
     {
+      "id": "916a581c040afd6e340b663d0820b5d29aa40e64ce6438d76677e1234edadeb8",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.15.766879v1",
+        "https://doi.org/10.64898/2026.11.15.766879",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.766879.source.xml"
+      ],
+      "title": "FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder",
+      "link": "https://doi.org/10.64898/2026.11.15.766879",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766879v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kim",
+          "name": "Kim, H"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, J"
+        }
+      ],
+      "abstract_text": "Protein inverse folding designs amino-acid sequences that fold into a target backbone structure. Existing deep-learning methods exploit backbone geometry but not evolutionary statistics. Those statistics come from a multiple sequence alignment, which must be built from a query sequence. That query is the sequence to be designed, so the dependency is circular. We present FoldMapper, an inverse folding model that breaks this circularity. It retrieves structural homologues by shape alone, then aggregates their amino-acid identities into a per-residue structural position-specific frequency (SPSF) profile. A Multiscale Graph Encoder passes a sparse profile-conditioned encoding into a dense structure-conditioned message-passing network. FoldMapper reaches 60.0% best-of-100 sequence recovery on TED domains, 64.9% on PDB, and 51.3%/53.1% on PPIBindBench non-peptide and peptide binders. Across both benchmarks, it lies on the recovery-diversity Pareto front. Structure self-consistency surpasses all baselines on RFdiffusion de novo monomer and binder backbones, and matches the strongest baselines on natural proteins. Ablations and profile-quality analyses show that structure itself encodes recoverable evolutionary information, accessible without a sequence homology search.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "91735a5a9184fd7d57fa68d9a17ae5ad8577beb4fc2d68a72abe92ea5e727fae",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78579-6",

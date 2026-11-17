@@ -2874,6 +2874,41 @@
       "curated_categories": []
     },
     {
+      "id": "c17d45972608357d3f4531cb9d1bc13ef49ef00d05acdb0def9865461061652d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.766929v1",
+        "https://doi.org/10.64898/2026.11.16.766929",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.16.766929.source.xml"
+      ],
+      "title": "LDEN: Alternating projections for whole genome linkage disequilibrium estimation from next-generation sequencing data",
+      "link": "https://doi.org/10.64898/2026.11.16.766929",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766929v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "abdullah",
+          "name": "Abdullah, S. M. U"
+        },
+        {
+          "key": "sun",
+          "name": "Sun, Y"
+        }
+      ],
+      "abstract_text": "Viral populations often exist as quasispecies of closely-related variants with different mutations. Variants that possess combinations of mutations conferring an overall fitness advantage replicate preferentially. Understanding the true fitness effects of mutations involves disentangling the effects of individual mutations from their genetic background. This problem becomes particularly challenging due to linkage disequilibrium, the non-random association between mutations, which can cause neutral mutations to appear fit and vice versa. Viral populations are typically studied via next-generation sequencing, in which the read length is much shorter than the genome length, rendering long-range linkage disequilibrium unobservable. Estimation of linkage disequilibrium can be performed via population reconstruction, which reconstructs complete sequences before calculating linkage disequilibrium. However, this approach is computationally slow, memory-intensive, and prone to errors, particularly in regions of low coverage. In this work, we present a novel, population reconstruction-independent method for linkage disequilibrium estimation directly from next-generation sequencing data. Our approach uses the observed intra-read linkage disequilibrium values to estimate the unobservable inter-read ones by enforcing mathematical constraints on the linkage disequilibrium matrix. Specifically, because linkage disequilibrium quantifies the covariance between mutant allele frequencies, the linkage disequilibrium matrix must be positive semidefinite. We have formulated linkage disequilibrium estimation as a matrix completion problem and solve it via alternating projections on the constraints of positive semidefiniteness and observed linkage disequilibrium values. This allows the propagation of information from observed intra-read associations to the unobservable inter-read ones without reconstructing the individual variants. We demonstrate that our method yields higher accuracy while being two orders of magnitude faster compared to population reconstruction-based estimation. We demonstrate the performance of the method on both simulated as well as real data showing that it can estimate linkage disequilibrium from a variety of populations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c17daee07f9966aa9d4e185c6ea78538398850adedab6d54c62ce0a680cf1425",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75554-z",

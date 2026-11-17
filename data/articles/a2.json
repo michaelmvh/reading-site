@@ -6303,6 +6303,45 @@
       "curated_categories": []
     },
     {
+      "id": "a2ded792150eb33546215b3ea5972c1200902b0edac7c0cfa948e62d69923f1c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.15.766871v1",
+        "https://doi.org/10.64898/2026.11.15.766871",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.766871.source.xml"
+      ],
+      "title": "DiGi: An Integer Programming Formulation for Diploid Genome Inference Using a Pangenome Reference",
+      "link": "https://doi.org/10.64898/2026.11.15.766871",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766871v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mishra",
+          "name": "Mishra, A"
+        },
+        {
+          "key": "dilthey",
+          "name": "Dilthey, A. T"
+        },
+        {
+          "key": "jain",
+          "name": "Jain, C"
+        }
+      ],
+      "abstract_text": "Compared with genotyping against a single linear reference genome, pangenome-based genotyping enables more comprehensive detection of genetic variation, including structural variants. Existing genotyping methods employ a range of combinatorial, probabilistic, and statistical techniques. One class of methods formulates genotyping as a combinatorial path-finding problem in a pangenome graph, allowing bounded recombinations between reference haplotypes. By restricting solutions to mosaics of reference haplotypes, this formulation implicitly exploits linkage disequilibrium. However, extending this formulation to diploid genomes requires jointly identifying two mosaic paths, leading to an exponential increase in the search space. To address this challenge, we first represent the pangenome as a haplotype trellis graph, which maintains reference haplotypes as separate sequences and permits switching between them only at a predefined set of positions. Second, we formulate a combinatorial optimization problem that uses sequencing reads from a target genome to jointly infer a pair of haplotype paths in the graph. We then develop a probabilistic model that automatically sets the optimization parameters based on the read length and coverage of the input data, and an integer programming formulation to solve the resulting problem exactly. Our implementation, DiGi, successfully reconstructs both paternal and maternal copies of 90% of key HLA genes in target genomes absent from the pangenome reference, achieving sequence identity above 99.9%. On the HG002 Genome in a Bottle benchmark, DiGi achieves favorable F1 scores for genotyping SNVs, indels, and structural variants in the highly polymorphic major histocompatibility complex (MHC) region. DiGi remains accurate across a wide range of sequencing coverages, which makes it well suited to population-scale studies with variable coverage across samples.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a2df4051ee5f5d537420aeeed7e16b6e11121760fd7e2ec2f66cea34d26d2d90",
       "identity_keys": [
         "https://openalex.org/W7208804413",
