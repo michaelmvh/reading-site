@@ -559,6 +559,45 @@
       "curated_categories": []
     },
     {
+      "id": "d41ce24781b7ad493a55e8a2b610dc2a0553e2f2b9df8ea67bd61a2aedeeb8e0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.15.766769v1",
+        "https://doi.org/10.64898/2026.11.15.766769",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.766769.source.xml"
+      ],
+      "title": "Savant: A Fast, Structure-Free Binding Affinity Predictor For Protein-Ligand Drug Screening",
+      "link": "https://doi.org/10.64898/2026.11.15.766769",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766769v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "guirales medrano",
+          "name": "Guirales-Medrano, S"
+        },
+        {
+          "key": "ford",
+          "name": "Ford, C. T"
+        },
+        {
+          "key": "janies",
+          "name": "Janies, D"
+        }
+      ],
+      "abstract_text": "Protein-ligand binding affinity determines which of many candidate molecules is worth synthesizing and assaying, making it the central measurement in early drug discovery. Binding affinity is commonly expressed as the dissociation constant, an equilibrium measure that indicates how easily a complex separates into its components. AI-based generative chemistry and make-on-demand chemical catalogs now produce molecules faster than rigorous method can evaluate them. Leading computational methods co-fold the complex before scoring the binding affinity between the protein and the ligand, which provides high accuracy but requires a graphics processing unit (GPU) and substantial time for every pair evaluated.Here we present Savant, a machine learning model that estimates the dissociation constant using only the protein's amino acid sequence and the ligand's structure written as a line of text (SMILES). Savant needs no 3-dimensional folded structure, no docking, and no GPU. To test Savant fairly, we built a benchmark designed to prevent any training data to leak into the testing set, drawing only on measurements published after the training data was assembled and on molecules chemically unlike anything the model had seen. On an independent benchmark, Savant ranks ahead of every other 3-dimensional structure-free method.Savant is designed to rank compounds against a single protein, and performs as well as other methods that require a GPU, while running only on a central processing unit (CPU). Thus, Savant can screen libraries of 100,000 compounds in minutes with commodity hardware.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d41d72420bef6dd51b41bf08a49336037f8f8b5bb981a33fdc2f462d1181a75d",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00811-6",

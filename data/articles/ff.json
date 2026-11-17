@@ -4050,6 +4050,53 @@
       "curated_categories": []
     },
     {
+      "id": "ffabf4d9d877303460711e4c53747bf6ff245976396ddec24fc53996b4766d65",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.15.766670v1",
+        "https://doi.org/10.64898/2026.11.15.766670",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.766670.source.xml"
+      ],
+      "title": "SRAscout: Semantic discovery of public sequencing data through harmonized SRA and BioProject metadata",
+      "link": "https://doi.org/10.64898/2026.11.15.766670",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766670v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "grigoriadis",
+          "name": "Grigoriadis, D"
+        },
+        {
+          "key": "perdikopanis",
+          "name": "Perdikopanis, N"
+        },
+        {
+          "key": "chan",
+          "name": "Chan, C. S"
+        },
+        {
+          "key": "pavlopoulos",
+          "name": "Pavlopoulos, G"
+        },
+        {
+          "key": "georgakopoulos soares",
+          "name": "Georgakopoulos-Soares, I"
+        }
+      ],
+      "abstract_text": "The rapid growth of public sequencing data has created great opportunities for data-driven discovery in the life sciences, but it has also made it harder to find relevant datasets. The NCBI Sequence Read Archive (SRA) hosts more than 45 million high-throughput sequencing runs, and the BioProject database, shared by NCBI, the European Nucleotide Archive (ENA) and the DNA Data Bank of Japan, describes the projects behind them. However, their metadata are often incomplete, inconsistently annotated and difficult to search using keywords alone. We present SRAscout, a web-based platform that enables semantic dataset retrieval by integrating SRA run metadata with the corresponding BioProject records. SRAscout collects and indexes metadata for about 714,000 BioProjects, and harmonizes sample attributes such as cell line, tissue, age, sex and treatment into a compact and consistent schema. For semantic embedding, SRAscout employs a biomedical sentence embedding model based on BioBERT, which generates dense vector representations from the title, name, organism and description of each project. Users can search in three modes, with the DOI or PubMed ID of an article, with free text, or with BioProject and SRA study accessions, and SRAscout finds the most related projects in each case. Free-text queries are processed through a hybrid of semantic and full-text search, which finds conceptually relevant studies even when different terms are used to describe the same biology, while exact terms such as gene names are still matched. Structured filters allow refinement by organism, assay type (for example RNA-seq and miRNA-seq), harmonized sample attributes such as tissue, cell type and disease, tag words, and many additional attributes. For each search, users can download a harmonized metadata table and ready-to-use scripts that fetch the sequencing files from ENA. SRAscout also offers a public API for programmatic access. By combining harmonized metadata with context-aware search in a single interface, SRAscout facilitates dataset discovery, meta-analysis and data reuse. The application is freely available at www.srascout.com.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ffac7dc868b647e49eb4c3a70c67df8df64acf2578941cb46b0995f7b74d0b36",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10815-x",
