@@ -871,7 +871,7 @@
         "https://doi.org/10.64898/2026.08.27.741102",
         "https://openalex.org/W7208814349"
       ],
-      "title": "Forecasting viral evolution from phylogenetic trees",
+      "title": "Forecasting viral antigenic evolution from phylogenetic trees",
       "link": "https://doi.org/10.64898/2026.08.27.741102",
       "pdf_url": null,
       "publication_date": "2026-09-05",
@@ -886,6 +886,10 @@
         {
           "key": "park soyoon",
           "name": "Soyoon Park"
+        },
+        {
+          "key": "aakarsh vermani",
+          "name": "Aakarsh Vermani"
         },
         {
           "key": "chithrananda seyone",
@@ -908,7 +912,7 @@
           "name": "Brian Hie"
         }
       ],
-      "abstract_text": "Viral mutation forecasting plays a key role in pandemic preparedness by enabling researchers to anticipate novel variants and design proactive interventions. Evolutionary histories, represented as phylogenetic trees, offer key insights into the emergence of past and present strains, yet their role in predicting future sequence changes remains largely unexplored. We introduce antiGen, a machine learning model that forecasts the evolutionary future of viruses by learning from their evolutionary past. antiGen achieves state-of-the-art performance for predicting mutations to the SARS-CoV-2 spike protein, anticipating never-before-seen mutations and mutations that emerge years after the model's training window. antiGen-forecasted spike mutations also retain pseudoviral infectivity in vitro. Moreover, antiGen demonstrates leading predictive performance on surface proteins of influenza virus, respiratory syncytial virus, and dengue virus despite far less available sequencing data. Viral evolution models that explicitly learn from phylogenetic structure offer a valuable resource for applications ranging from epidemiological modeling to therapeutic development.",
+      "abstract_text": "Forecasting the evolution of viral proteins can help inform pandemic preparedness and guide the development of interventions. Phylogenetic trees provide historical records of pathogen evolution, which are key for retrospective analysis, but using them to predict future genotypic changes remains challenging. We introduce antiGen, a machine learning model that learns from the evolutionary past of viruses to forecast the evolutionary future. antiGen achieves state-of-the-art performance in forecasting SARS-CoV-2 spike protein mutations according to a variety of metrics, including the prediction of mutations in the receptor binding domain, mutations never previously seen, and mutations with high prevalence. Most experimentally tested antiGen-forecasted spike variants retain pseudoviral infectivity in vitro, supporting their functional plausibility. Evaluations on surface proteins of influenza virus, respiratory syncytial virus, and dengue virus further demonstrate applicability across viruses with differing amounts of available sequencing data. Finally, we develop a model trained across 49 viral proteins from 27 viruses, which improves forecasting performance over models trained on individual protein phylogenies. Together, these results support learning from phylogenetic histories as an approach to model viral amino acid changes prospectively, with applications in epidemiology and therapeutic development.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -1951,16 +1951,17 @@
     {
       "id": "144b1b93183e79678d206e54fd901995cfad0136118ffd1a0db8a5da23708091",
       "identity_keys": [
+        "https://doi.org/10.1021/acs.jcim.6c03068",
         "https://doi.org/10.26434/chemrxiv.15007152/v1",
         "https://openalex.org/W7201872109"
       ],
-      "title": "Co-folding models localize enzyme active sites but fail to accurately predict enzyme–substrate complex structures",
-      "link": "https://doi.org/10.26434/chemrxiv.15007152/v1",
+      "title": "Co-Folding Models Localize Enzyme Active Sites but Fail to Accurately Predict Enzyme–Substrate Complex Structures",
+      "link": "https://doi.org/10.1021/acs.jcim.6c03068",
       "pdf_url": null,
-      "publication_date": "2026-08-07",
+      "publication_date": "2026-11-17",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "ChemRxiv",
+      "venue": "Journal of Chemical Information and Modeling",
       "authors": [
         {
           "key": "daniil lepikhov",
@@ -1971,7 +1972,7 @@
           "name": "Ariane Nunes‐Alves"
         }
       ],
-      "abstract_text": "The accurate prediction of enzyme–substrate complex structures is challenging due to the transient and dynamic nature of these interactions. We evaluated the performance of eight machine-learning (ML) docking tools and the physics-based method AutoDock Vina as a reference in the prediction of enzyme-substrate complex structures using a curated dataset of 210 diverse, non-redundant enzyme–substrate complexes, equally divided into three classes: metal-free enzymes (A), and enzymes with metal ions outside (B) or inside (C) the active site. All ML-based docking tools had low geometric accuracy and physical plausibility, with fewer than 10% hit rates at the stricter 2 Å threshold for substrate root mean square deviation. While no ML-based tools were able to outperform Vina in modeling physically plausible complexes, co-folding tools such as AlphaFold3 and Boltz-2 excelled at active-site localization, and many algorithms performed better for class C enzymes, and worse for class B enzymes. Surprisingly, DynamicBind, which was trained on less data with fewer parameters compared to other models, matched co-folding methods in active-site elucidation. Our results show that enzyme-substrate docking is affected by the presence of a metal ion, and suggest that better performances for complex structure prediction may be achieved with data-centric strategies including molecular dynamics simulations rather than parameter-heavy ML architectures.",
+      "abstract_text": "The accurate prediction of enzyme–substrate complex structures is challenging due to the transient and dynamic nature of these interactions. We evaluated the performance of eight machine–learning (ML) docking tools and the physics–based method AutoDock Vina as a reference in the prediction of enzyme–substrate complex structures using a curated data set of 210 diverse, non–redundant enzyme–substrate complexes, equally divided into three classes: metal–free enzymes (A), and enzymes with metal ions outside (B) or inside (C) the active site. All ML–based docking tools had low geometric accuracy and physical plausibility, with fewer than 10% hit rates at the stricter 2 Å threshold for substrate root-mean-square deviation. While no ML-based tools were able to outperform Vina in modeling physically plausible complexes, co–folding tools such as AlphaFold3 and Boltz–2 excelled at active–site localization, and many algorithms performed better for class C enzymes, and worse for class B enzymes. Surprisingly, DynamicBind, which was trained on less data with fewer parameters compared to other models, matched co-folding methods in active-site elucidation. Our results show that enzyme–substrate docking can be affected by the presence of a metal ion, and suggest that better performances for complex structure prediction may be achieved with data-centric strategies including molecular dynamics simulations rather than parameter-heavy ML architectures.",
       "discovery_sources": [
         {
           "kind": "open_alex",

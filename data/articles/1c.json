@@ -1973,6 +1973,40 @@
       "curated_categories": []
     },
     {
+      "id": "1c58bee4015e8a3feec5647bb7bd42be4a60a2824a187e6e34e63e0d9b468c74",
+      "identity_keys": [
+        "https://doi.org/10.3390/toxins18110498",
+        "https://openalex.org/W7234299475"
+      ],
+      "title": "Benchmarking Structural Models of α-Conotoxin–Nicotinic Acetylcholine Receptor Complexes: Apo-Conformer Selection, Interface Information, and Deep-Learning Co-Folding",
+      "link": "https://doi.org/10.3390/toxins18110498",
+      "pdf_url": null,
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Toxins",
+      "authors": [
+        {
+          "key": "jung sungyeop",
+          "name": "SungYeop Jung"
+        },
+        {
+          "key": "kwon lee seung",
+          "name": "Lee-Seung Kwon"
+        }
+      ],
+      "abstract_text": "Conopeptides are a proven drug source, but translation stalls at one step: predicting how a peptide engages a human receptor before a clinical program commits. We benchmarked modelling of α-conotoxin–nicotinic acetylcholine receptor complexes at two deposited structures, kept separate because their data-leakage status differs: a human α7–ImI cryo-EM complex, rated MEDIUM leakage risk, and a non-human Aplysia acetylcholine-binding protein–RgIA crystal that lies inside the Boltz-2 training window and is therefore a positive control, not a held-out test. Apo-conformer choice fixes attainable accuracy before docking begins: the rigid-body floor spans 1.02–4.57 Å across sixty deposited ImI models, and no unbound conformer of either toxin can occupy its own bound site without atomic overlap. In the rigid-body, no-refinement LightDock configuration tested here, no pose among 3144 scored swarms reached 3 Å, and full disclosure of the interface gave a worse best pose than none; that ordering inverts when the receptor is truncated to its extracellular domain, so the sign of the effect belongs to the receptor construct, not the ligand class. Within that configuration, no scoring function ranked a near-native pose first, although five of nine ranked the deposited bound conformer first or within 1 Å when it was inserted. Co-folding (Boltz-2) was CAPRI High at both anchors, neither a fully clean test, and recovered the loop B arginine anchor that no docked pose reached; a temporal control, Boltz-1, run at A2 only, still exceeded every docked result. Confidence did not support selection in the comparisons tested: in neither Boltz-2 nor Chai-1 did it separate the true binder from a shuffled decoy, track the measured species potency gap, or distinguish which of two opposite subunit interfaces the toxin occupied (p = 0.96). With five diffusion samples per condition, these comparisons have limited power: they show that confidence failed where it was tested, not how often it fails.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1c590479d88d562c18285613dd240ae28442458d231fa481c5e1add5d9077ca3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68402-7",

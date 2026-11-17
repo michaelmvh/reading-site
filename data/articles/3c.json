@@ -1837,6 +1837,45 @@
       "curated_categories": []
     },
     {
+      "id": "3c3b2f0744cb187a28271052761e0bc9ab603ee8265e9e5ebd9868a197fa2549",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.15.765655v1",
+        "https://doi.org/10.64898/2026.11.15.765655",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.765655.source.xml"
+      ],
+      "title": "Chimeric and Outward Reads in Short-Read RNA Sequencing Data: A Unified Circular RNA Assembly Framework",
+      "link": "https://doi.org/10.64898/2026.11.15.765655",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.765655v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sen",
+          "name": "Sen, A"
+        },
+        {
+          "key": "zahin",
+          "name": "Zahin, T"
+        },
+        {
+          "key": "shao",
+          "name": "Shao, M"
+        }
+      ],
+      "abstract_text": "Circular RNAs (circRNAs) are RNA molecules that play important roles in regulating gene expression, yet detecting and assembling them from short read RNA sequencing (RNA-seq) data remains challenging. Most methods rely on chimeric reads that cross the back-splicing junction (BSJ), but for lowly expressed circRNAs, these reads are often absent, so many circRNAs go undetected. In this work, we propose TERRACE 2.0, a method that addresses this limitation by leveraging an additional but underutilized signal: outward reads. These are paired-end reads that point away from each other when aligned to the reference genome, which is a direct consequence of sequencing a fragment from a circRNA. Together, this multi-signal framework enables circRNAs to be detected and assembled more accurately from short-read RNA-seq data. TERRACE 2.0 infers candidate BSJs from outward reads by testing which ones give a fragment length consistent with the library, reconstructs each full-length circRNA from a splice graph, and combines outward and chimeric reads in a single representation that selects among the candidates jointly. On eight human tissue samples, TERRACE 2.0 has the best average F-score with and without gene annotations. On an alignment that retains more chimeric reads, it is the most accurate assembler in every sample, while its predecessor TERRACE loses much of its precision. Most notably, outward reads are involved in 36% to 56% of the true circRNAs that TERRACE misses, and on simulated data TERRACE 2.0 also has the highest recall and F-score.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3c3b7ffd01bb11d580b38bfb553be10ca1bfe320ec768b12c6703ecbcb9e2e0b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67650-3",
