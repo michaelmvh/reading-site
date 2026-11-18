@@ -743,6 +743,49 @@
       "curated_categories": []
     },
     {
+      "id": "7e19e1e88a0e26f1aec6bd69163e19f82c0d290acb90172838163ac7337cec65",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.09.765489v1",
+        "https://doi.org/10.64898/2026.11.09.765489",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.09.765489.source.xml"
+      ],
+      "title": "Learning spatial cellular state through 3D reconstruction of the cell",
+      "link": "https://doi.org/10.64898/2026.11.09.765489",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765489v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lee",
+          "name": "Lee, Y. J"
+        },
+        {
+          "key": "anad",
+          "name": "Anad, K"
+        },
+        {
+          "key": "min",
+          "name": "Min, S"
+        },
+        {
+          "key": "lugo martinez",
+          "name": "Lugo-Martinez, J"
+        }
+      ],
+      "abstract_text": "Subcellular-resolution spatial transcriptomics localizes individual RNA transcripts within cells with high-precision. Existing methods for identifying spatially organized cell populations rely on cellular niches defined by neighboring cells, leaving open whether such populations can be identified from individual-cell representations alone. Moreover, representations that jointly capture transcript identity and three-dimensional (3D) spatial organization have not been systematically learned or biologically evaluated. Here we present a representation learning framework that models each cell as a gene-annotated point cloud of transcripts and trains a rotation-equivariant neural network to reconstruct 3D cell shape, yielding spatially informed transcript embeddings. We further aggregate these embeddings into a cell-state representation that summarizes transcript-level spatial patterns. Our framework outperforms existing point-cloud-based 3D reconstruction methods on cell-shape reconstruction. In MERFISH human uterine cancer, combining the learned embeddings with gene expression improved prediction of CD45RO protein intensity over both gene expression alone and niche-based embeddings. Applied to MERFISH human liver cancer and Xenium human lung datasets, our framework identified distinct spatial patterns between cell populations, including spatially organized subpopulations marked by disease-associated gene expression and patterns associated with pathological tissue structures. Together, these results show that learning transcript representations through 3D cell reconstruction provides a novel approach to capture cell-state heterogeneity and biologically relevant spatial organization in subcellular spatial transcriptomics.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7e1b5a22e8beee7b27d709c5ba9856502bee36b2c367621d276b0c63cd4288b2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77380-9",

@@ -4948,6 +4948,45 @@
       "curated_categories": []
     },
     {
+      "id": "dfc4e6bc1f666da441e59e9c2367565b739df2fe228ad943d957a20e2ec1a8f5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.11.765733v1",
+        "https://doi.org/10.64898/2026.11.11.765733",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.11.765733.source.xml"
+      ],
+      "title": "Evaluation depth reshapes method rankings in proteomic co-abundance network inference",
+      "link": "https://doi.org/10.64898/2026.11.11.765733",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765733v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "aliyari",
+          "name": "Aliyari, S"
+        },
+        {
+          "key": "bagherlou",
+          "name": "Bagherlou, N"
+        },
+        {
+          "key": "salehi",
+          "name": "Salehi, Z"
+        }
+      ],
+      "abstract_text": "Network inference from quantitative proteomics is usually benchmarked at a single, arbitrarily chosen number of top-ranked edges, so the influence of evaluation depth has not, to our knowledge, been systematically tested. We compared five strategies (random forest with bootstrap selection-frequency filtering, WGCNA, GENIE3, Spearman correlation and context likelihood of relatedness) across seven proteomic datasets from four quantification platforms, using harmonised preprocessing and Precision@K, the fraction of a method's K top-ranked protein pairs present in a pooled reference of curated protein associations (STRING, BioGRID and CORUM). Method rankings changed with depth. In all six datasets that allow an equal-depth comparison, the leading method at K = 50 differed from the leader at K = 2,000, and 18 of 24 pairwise comparisons involving the filtered random forest reversed somewhere along the depth range, although seven of these reversals rested on differences of at most 0.02 in precision and each network was inferred only once. No method dominated. Relative to the same random forest without filtering, the selection-frequency filter was associated with small differences (+0.006 to +0.036 in Precision@500 in six of six equal-depth datasets; mixed at shallower depths) that cannot be separated from its 20- to 50-fold greater number of fitted trees. Prospective testing on independent datasets gave one qualified replication, one non-replication and one non-evaluable dataset. We recommend reporting precision trajectories across depths rather than single-threshold comparisons.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "dfc53695eddc58c036930f1dd22d2ae35bf52dff71e0fe86f497259b9cc6ffd9",
       "identity_keys": [
         "https://doi.org/10.5281/zenodo.20517693",

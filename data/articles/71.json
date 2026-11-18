@@ -1716,6 +1716,53 @@
       "curated_categories": []
     },
     {
+      "id": "713b480159171a0162f17fe3851776a129fd608e75edaede0be7fc9e3608cedb",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.18.767483v1",
+        "https://doi.org/10.64898/2026.11.18.767483",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.18.767483.source.xml"
+      ],
+      "title": "Quantifying Homology and Length Bias in Antimicrobial Peptide Prediction",
+      "link": "https://doi.org/10.64898/2026.11.18.767483",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767483v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "paul",
+          "name": "Paul, B. K"
+        },
+        {
+          "key": "dip",
+          "name": "Dip, S. A"
+        },
+        {
+          "key": "shehu",
+          "name": "Shehu, A"
+        },
+        {
+          "key": "moni",
+          "name": "Moni, M. A"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        }
+      ],
+      "abstract_text": "Bacteria are becoming resistant to existing antibiotics faster than new ones are found. Antimicrobial peptides are a promising alternative, but laboratory testing is slow and costly. Candidates are therefore ranked first by a classifier, and published classifiers report near-perfect accuracy. Two controls are missing from the benchmarks behind those numbers. Training and test peptides are not separated by sequence homology. The negative class is not matched to the positive class by length. We propose a controlled evaluation protocol that imposes both, plus a sample-size control that separates matching from the data it removes. We apply it to a four-model ensemble of our own and ten baselines on a benchmark of 16,168 sequences, holding the models fixed. A classifier given nothing but peptide length separates the benchmark far above chance. Homology control costs 0.067 MCC and length matching a further 0.115, taking the reported score from 0.834 to 0.661. Over ten redrawn partitions the length term holds while the homology term shrinks, so length is the effect that survives. The protocol also reorders the methods, and a frozen ESM-2 embedding overtakes the ensemble. Three published benchmarks show the same pattern. We recommend a minimum reporting standard that makes such losses visible.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "713cff94c3003cd9450ad89f4389e06e0791b7d67e78300fe4a224412509b4e1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67108-6",

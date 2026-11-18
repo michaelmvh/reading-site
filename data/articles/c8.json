@@ -4457,13 +4457,15 @@
       "id": "c8a9f3df3d73044ec4047fb87a9fd0069cbac42f658aa82fc118e1ee13d74c6c",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.03.764041v1",
+        "biorxiv:10.64898/2026.11.03.764041v2",
         "https://doi.org/10.64898/2026.11.03.764041",
-        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.764041.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.764041.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.03.764041.source.xml"
       ],
-      "title": "XAMPGen: An Interpretable SI Pipeline For Novel Antimicrobial Peptide Discovery",
+      "title": "XAMPGen: An Interpretable Super Intelligence Pipeline For Novel Antimicrobial Peptide Discovery",
       "link": "https://doi.org/10.64898/2026.11.03.764041",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764041v1.full.pdf",
-      "publication_date": "2026-11-04",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764041v2.full.pdf",
+      "publication_date": "2026-11-18",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -4505,7 +4507,7 @@
           "name": "Cardone, A"
         }
       ],
-      "abstract_text": "Antimicrobial peptides (AMPs) are short peptides with a broad spectrum of activity against bacterial pathogens, representing a promising avenue for combating the growing threat of antibiotic resistance. This study focuses on two main components: 1) generating novel AMPs with desired properties using generative SI (GenSI) and 2) utilizing explainable SI (XSI) methods to validate the GenSI model and derive biological insights. In this work, we fine-tuned ProGen, a decoder-only protein language model, on known AMPs to generate novel peptide sequences with strong antimicrobial properties. To advance the interpretability and reliability of the generative model, we applied Explainable SI (XSI) techniques. Specifically, we used a probing classifier and a regressor to identify cornerstone layers that encode functionally critical information. Self-attention analysis within these layers revealed residue level interdependencies and patterns underlying antimicrobial functions, which we validated against well-characterized AMPs from the literature. Overall, these methods provide mechanistic insight into the model's decision-making process, offering a principled basis for trusting the sequences it generates rather than treating the model as a black box. Candidate sequences were filtered based on predicted Minimum Inhibitory Concentration (MIC) along with human insights into the structural activities of the AMPs in bacterial membranes, and a final set of peptides was selected for experimental testing. Biological assays for determining MIC confirmed antimicrobial activity in all generated and tested peptides, with fluorescence and circular dichroism measurements providing structural insight. With our XSI approach, we are able to reveal correlations between amino acid sequence patterns and binding properties of these sequences to bacterial membrane mimics, that directly correlate with biological activities in cell-based assays. This builds confidence in that the learned amino acid interdependencies as applied to AMPs carries physico-chemical meaning and is relevant for discoveries of novel AMPs with therapeutic potential. This work demonstrates that interpretable generative language models can serve as effective and transparent tools for rational AMP discovery.",
+      "abstract_text": "Antimicrobial peptides (AMPs) are short peptides with a broad spectrum of activity against bacterial pathogens, representing a promising avenue for combating the growing threat of antibiotic resistance. This study focuses on two main components: 1) generative super intelligence (GenSI) and 2) utilizing explainable super intelligence (XSI). We fine-tuned ProGen, a decoder-only protein language model, on known AMPs to generate novel peptide sequences with strong antimicrobial properties. Generated candidates were screened with an AMP classifier and filtered based on predicted minimum inhibitory concentration (MIC), along with human insights into AMP structure and activity in bacterial membranes. A final set of peptides was selected for synthesis and experimental testing. Biological assays confirmed antimicrobial activity in all generated and tested peptides, while fluorescence and circular dichroism measurements characterized membrane binding and peptide structure. We then applied XSI techniques to interpret the generative model and derive biological insights. Specifically, layer probing was used to identify cornerstone layers that encode functionally critical information. Self-attention analysis within these layers revealed residue-level interdependencies and patterns underlying antimicrobial functions, which we evaluated against well-characterized AMPs from the literature. We further examined associations between amino acid sequence patterns and binding properties in bacterial membrane mimics, relating these observations to biological activities in cell-based assays. These analyses provide insight into the model's decision-making process. This builds confidence that the learned amino acid interdependencies have physico-chemical significance, as applied to AMPs, and may facilitate the discovery of novel AMPs with therapeutic potential. This work demonstrates that interpretable generative language models can support rational AMP discovery.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

@@ -3295,6 +3295,45 @@
       "curated_categories": []
     },
     {
+      "id": "ee8a475eddde20127426ab2c10722c763b68c5a374f091d08fdae719479410fd",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.11.765872v1",
+        "https://doi.org/10.64898/2026.11.11.765872",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.11.765872.source.xml"
+      ],
+      "title": "HARICOT: De Novo Assembly of Raw Nanopore Signals using Fuzzy de Bruijn Graphs",
+      "link": "https://doi.org/10.64898/2026.11.11.765872",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765872v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mcconnell",
+          "name": "McConnell, U"
+        },
+        {
+          "key": "ngo",
+          "name": "Ngo, Q"
+        },
+        {
+          "key": "firtina",
+          "name": "Firtina, C"
+        }
+      ],
+      "abstract_text": "Nanopore sequencing enables reading long nucleotide sequences by measuring characteristic changes in ionic current as molecules pass through a nanopore. These current measurements, known as raw signals, can be analyzed without translating them into bases (i.e., without basecalling), which provides fast and resource-efficient genome analysis. Prior work, Rawsamble, enables finding overlaps between raw nanopore signals, without basecalling them, and generating assemblies from these overlaps with off-the-shelf assemblers such as miniasm. Constructing assemblies directly from raw signals can substantially reduce redundancy and fragmentation in signal datasets, which is useful for many downstream tasks such as constructing non-redundant and accurate basecalled reads from assembled signals. However, existing overlap-based signal assembly strategies suffer from limited scalability and resolution mainly due to using off-the-shelf assemblers (e.g., miniasm) that are designed for basecalled sequences. While scalability and performance limitations can be addressed by existing de Bruijn graph approaches to assembly, their reliance on exact matches makes these methods too sensitive to the inherently noisy raw nanopore signals. To improve assembly of raw signals using de Bruijn graph approaches, we present HARICOT, a mechanism that constructs assemblies from raw nanopore signals by utilizing fuzzy de Bruijn graphs and Hough-transform-based overlap detection to robustly tolerate errors and noise in raw nanopore signals. Our evaluations on various genomes of different sizes show that HARICOT significantly improves assembly contiguity and quality compared to Rawsamble, helping close the gap to popular assembly tools such as Flye or wtdbg2 operating on nucleotide sequences. At the same time, performance remains comparable to these assemblers, without requiring additional basecalling. We discuss that assembling raw nanopore signals before basecalling enables future work in various ways such as building these de Bruijn graphs in a streaming way and assembly-aware basecalling techniques that can basecall assembly graphs for accurate and redundancy-resolved basecalling. HARICOT is available at https://github.com/STORMgroup/HARICOT . We also provide the scripts to fully reproduce our results on our GitHub page.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ee8e04b99bebdc7dac7a097ff45b9c050687762adee1c404d5c194e15915c19e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72462-0",

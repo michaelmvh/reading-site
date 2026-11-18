@@ -5514,6 +5514,69 @@
         }
       ],
       "curated_categories": []
+    },
+    {
+      "id": "c6ffbf39f531851aa77409eb1a7d035da73bb85fe7c78b0db0341443faa445c3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767419v1",
+        "https://doi.org/10.64898/2026.11.17.767419",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.17.767419.source.xml"
+      ],
+      "title": "Integrating disease and protein networks expands genetic support for therapeutic targets",
+      "link": "https://doi.org/10.64898/2026.11.17.767419",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767419v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, W"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, J"
+        },
+        {
+          "key": "lyu",
+          "name": "Lyu, Y"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, M"
+        },
+        {
+          "key": "shen",
+          "name": "Shen, H"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, L"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, B"
+        },
+        {
+          "key": "deng",
+          "name": "Deng, H.-W"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, C"
+        }
+      ],
+      "abstract_text": "Human genetics guides therapeutic target selection, but direct genetic support covers few clinically investigated target-indication pairs, each linking a target to a disease. Here we introduce BRIDGE (Biological Relation-Informed Diffusion of Genetic Evidence), which propagates genetic evidence through coupled protein-protein interaction and disease-similarity networks. Each candidate's score is calibrated against scores obtained after randomly substituting similarly connected genes for genes with direct genetic support. In a retrospective benchmark of 13,022 pairs that had reached at least phase I, BRIDGE supported 572 additional pairs, increasing coverage from 5.1% to 9.5%. Among eligible pairs lacking direct genetic support, 25.3% of network-added pairs had reached launch versus 8.6% of remaining candidates (relative success, 2.94; 95% confidence interval, 2.51-3.45). This enrichment extended to 158 pairs involving 101 genes with no direct genetic support in the benchmark. At a matched selection size of 1,310 pairs, BRIDGE ranking captured 265 launched pairs, compared with 223 under a rule transferring support across neighbouring targets or indications. These findings show that coupling disease relationships with protein connectivity expands the reach of human genetics to additional therapeutic targets and indications while retaining clinical relevance.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }

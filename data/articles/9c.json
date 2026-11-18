@@ -734,6 +734,81 @@
       "curated_categories": []
     },
     {
+      "id": "9c2195ba766e41d4d6841f104a388f36b7216b2041cd7129f72f36012e34d93c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.11.765839v1",
+        "https://doi.org/10.64898/2026.11.11.765839",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.11.765839.source.xml"
+      ],
+      "title": "SPIDER: Contextualizing Biomedical Knowledge for Evidence-Grounded Scientific Reasoning",
+      "link": "https://doi.org/10.64898/2026.11.11.765839",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765839v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, M"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, W"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, J"
+        },
+        {
+          "key": "quan",
+          "name": "Quan, X"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, X"
+        },
+        {
+          "key": "feng",
+          "name": "Feng, J"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, X"
+        },
+        {
+          "key": "han",
+          "name": "Han, J"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Y"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, X"
+        },
+        {
+          "key": "xie",
+          "name": "Xie, W"
+        }
+      ],
+      "abstract_text": "Aggregated relations in biomedical knowledge graphs can obscure evidence and study conditions, complicating the distinction between scientific disagreement and contextual differences. Here we introduce SPIDER, a multi-agent framework grounding biomedical relations in literature evidence and extracting study conditions for interpretation. Applied to a graph integrating 48 databases and ontologies, SPIDER analyzed 1.95 million PubMed abstracts, adding 2.31 million previously unrepresented, literature-supported entity pairs to construct SPIDER-KG. Daily updates incorporate relations and evidence from newly indexed PubMed records. Across 89,937 evidence-supported comparisons of potentially incompatible relations, SPIDER classified 79.0% as contextual differences, and 6.1% as genuine disagreement, achieving 80.3% macro-F1 averaged across both categories against expert annotations. On SPIDER-Bench and four biomedical reasoning benchmarks, SPIDER-KG improved large language models' interpretation of evidence-supported biomedical relationships. Retrospective analysis of newly reported gene--disease relationships further demonstrated how evidence-linked knowledge can contextualize emerging discoveries. SPIDER-KG provides a reusable, incrementally extensible evidence layer for biomedical reasoning.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9c25c4fca92ead1ee59feb1ca1dd0ab5b8e8a0725ca868d8da064f55470edcbe",
       "identity_keys": [
         "https://doi.org/10.1021/acsnano.5c16000",
@@ -5697,26 +5772,26 @@
       ],
       "title": "Leveraging state-of-the-art AI structure predictors to generate atomic resolution ensembles of intrinsically disordered proteins",
       "link": "https://doi.org/10.64898/2026.11.10.765624",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/11/2026.11.10.765624.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765624v1.full.pdf",
       "publication_date": "2026-11-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv",
       "authors": [
         {
-          "key": "schnapka vincent",
-          "name": "Vincent Schnapka"
+          "key": "schnapka",
+          "name": "Schnapka, V"
         },
         {
-          "key": "nicolas portal",
-          "name": "Nicolas Portal"
+          "key": "portal",
+          "name": "Portal, N"
         },
         {
-          "key": "bonomi massimiliano",
-          "name": "Massimiliano Bonomi"
+          "key": "bonomi",
+          "name": "Bonomi, M"
         }
       ],
-      "abstract_text": "Abstract Intrinsically disordered proteins (IDPs) are central to many biological processes, but their function depends on dynamic conformational ensembles rather than a single structure. Despite the impact of artificial intelligence on protein structure prediction, determining these ensembles at atomistic resolution remains challenging. Recently, we introduced bAIes, a framework that leverages the structural information encoded in AlphaFold2 distograms to generate conformational ensembles of IDPs at atomistic resolution. Here, we extend this framework to six state-of-the-art structure prediction tools (AlphaFold2, AlphaFold3, Boltz-1, Boltz-2, ESMFold, and ESMFold2) and systematically compare the structural information encoded in their predicted inter-residue distance distributions. Despite differences between predictors, we show that bAIes generates ensembles with comparable accuracy against experimental NMR and SAXS data, and competitive performance relative to state-of-the-art all-atom simulations and alternative IDP ensemble generation methods. These results demonstrate that bAIes is robust to the choice of structure predictor and that the distance distributions generated by different deep learning architectures contain valuable information about the conformational preferences of disordered proteins. More broadly, our work highlights the potential of combining AI-derived structural information with physics-based modeling to generate atomistic ensembles of intrinsically disordered proteins and regions. Visual abstract",
+      "abstract_text": "Intrinsically disordered proteins (IDPs) are central to many biological processes, but their function depends on dynamic conformational ensembles rather than a single structure. Despite the impact of artificial intelligence on protein structure prediction, determining these ensembles at atomistic resolution remains challenging. Recently, we introduced bAIes, a framework that leverages the structural information encoded in AlphaFold2 distograms to generate conformational ensembles of IDPs at atomistic resolution. Here, we extend this framework to six state-of-the-art structure prediction tools (AlphaFold2, AlphaFold3, Boltz-1, Boltz-2, ESMFold, and ESMFold2) and systematically compare the structural information encoded in their predicted inter-residue distance distributions. Despite differences between predictors, we show that bAIes generates ensembles with comparable accuracy against experimental NMR and SAXS data, and competitive performance relative to state-of-the-art all-atom simulations and alternative IDP ensemble generation methods. These results demonstrate that bAIes is robust to the choice of structure predictor and that the distance distributions generated by different deep learning architectures contain valuable information about the conformational preferences of disordered proteins. More broadly, our work highlights the potential of combining AI-derived structural information with physics-based modeling to generate atomistic ensembles of intrinsically disordered proteins and regions.",
       "discovery_sources": [
         {
           "kind": "open_alex",
