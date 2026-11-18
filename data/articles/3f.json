@@ -7085,16 +7085,17 @@
     {
       "id": "3ffe4fd3b275f96318312cea99d5e1c32150e5afca50529c490ed96329c98613",
       "identity_keys": [
+        "doi:10.64898/2026.07.20.739027",
         "https://doi.org/10.64898/2026.07.20.739027",
         "https://openalex.org/W7170078203"
       ],
       "title": "De Novo Design of Protein Switches with Diffusion-Based Ensemble Sampling",
       "link": "https://doi.org/10.64898/2026.07.20.739027",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/21/2026.07.20.739027.full.pdf",
-      "publication_date": "2026-07-21",
+      "pdf_url": null,
+      "publication_date": "2026-07-20",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2026.07.20.739027",
       "authors": [
         {
           "key": "alireza omidi",
@@ -7109,15 +7110,15 @@
           "name": "Jennifer M. Bui"
         },
         {
-          "key": "gsponer joerg",
-          "name": "Joerg Gsponer"
+          "key": "gsponer jörg",
+          "name": "Jörg Gsponer"
         },
         {
           "key": "saifuddin syed",
           "name": "Saifuddin Syed"
         }
       ],
-      "abstract_text": "Abstract Protein switches are proteins that can respond to biochemical stimuli by rearranging their structural elements, essential for cells to transduce signals. The de novo design of such proteins requires amino acid sequences whose energy landscapes support multiple stimulus-dependent conformations, yet most current de novo protein design pipelines are optimized for single stable structures. Existing multi-state inverse-folding methods can design sequences compatible with multiple backbones, but they assume that suitable backbone ensembles are already available, often requiring expert knowledge. We introduce Diff-Switch, a framework for sampling switch-like backbone ensembles from pretrained protein diffusion models. Given a reference backbone structure and domain decomposition, our method preserves local domain geometry while encouraging diversity in global domain arrangements along user-specified collective variables, inspired by metadynamics. We implement this objective through a controlled diffusion sampler with reward-tilting for local similarity between the ensemble members and history-dependent bias in collective-variable space to avoid repeated sampling of the same global arrangement. The resulting ensembles provide candidate conformational states for downstream multi-state inverse folding. Across our evaluation set of 20 diverse proteins, using conformations from these generated ensembles improves the success rate of finding switch-compatible sequences over baseline sampling. We further apply the method to a real-world protein switch design task and characterize the resulting designs.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

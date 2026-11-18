@@ -2365,6 +2365,52 @@
       "curated_categories": []
     },
     {
+      "id": "f044afdcb5917554993cc15c230e3a69ce775bac6a1567075bf5af3b76de4a24",
+      "identity_keys": [
+        "arxiv:2611.21959",
+        "https://doi.org/10.48550/arXiv.2611.21959"
+      ],
+      "title": "OCCAM: Improved Single-Cell Representation Learning and Perturbation Effect Prediction",
+      "link": "https://doi.org/10.48550/arXiv.2611.21959",
+      "pdf_url": "https://arxiv.org/pdf/2611.21959v1",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "bendidi ihab",
+          "name": "Ihab Bendidi"
+        },
+        {
+          "key": "dean kenyon kian",
+          "name": "Kian Kenyon-Dean"
+        },
+        {
+          "key": "alisandra denton",
+          "name": "Alisandra K. Denton"
+        },
+        {
+          "key": "auguste genovesio",
+          "name": "Auguste Genovesio"
+        },
+        {
+          "key": "emmanuel noutahi",
+          "name": "Emmanuel Noutahi"
+        }
+      ],
+      "abstract_text": "Predicting the effects of genetic perturbations requires models that generalize beyond observed cell contexts and gene combinations. We introduce Occam, a multilayer perceptron (MLP) framework for representation learning and perturbation-effect prediction. Occam combines cell representations learned through denoising with gene interaction, text, and protein-sequence features. It achieves the highest aggregate representation scores for perturbation information and cell-type preservation with batch integration. In cross-context few-shot prediction, a perturbation and a cell context are each observed during training, but never together. Occam better captures the measured response patterns for these unobserved combinations than four retrained competitors or direct transfer of the same perturbation's measured effects from other training cell lines. Without fine-tuning, Occam best distinguishes perturbations among the evaluated models and simple baselines in cell lines held out from predictor training, across seen and unseen assays. Predicting expression levels accurately in these settings remains challenging. For double perturbations, which target two genes simultaneously, Occam composes learned single-gene responses to better capture the combined response and reduce expression error compared with competing models and summed single-gene effects. These gains extend to both strongly additive and weakly additive responses. Together, these results support simple MLPs for cell representation learning and perturbation-effect prediction across contexts and gene combinations.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f049238aff3724325f55cce388bb5b86d80f3a3a0e8268bebe21935ec6da6bcd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76455-x",
@@ -4033,17 +4079,18 @@
     {
       "id": "f08c45822df9e54d03581065decafdd2290a3af3f931d61f26b9ee1a0731ed9a",
       "identity_keys": [
+        "arxiv:2603.02753",
         "https://arxiv.org/abs/2603.02753",
         "https://doi.org/10.48550/arxiv.2603.02753",
         "https://openalex.org/W7133550427"
       ],
       "title": "Deep learning-guided evolutionary optimization for protein design",
-      "link": "https://doi.org/10.48550/arxiv.2603.02753",
-      "pdf_url": "https://arxiv.org/pdf/2603.02753",
-      "publication_date": "2026-03-03",
+      "link": "https://arxiv.org/abs/2603.02753",
+      "pdf_url": null,
+      "publication_date": "2026-03-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2603.02753",
       "authors": [
         {
           "key": "erik hartman",
@@ -4055,10 +4102,10 @@
         },
         {
           "key": "johan malmström",
-          "name": "Johan A. Malmström"
+          "name": "Johan Malmström"
         }
       ],
-      "abstract_text": "Designing novel proteins with desired characteristics remains a significant challenge due to the large sequence space and the complexity of sequence-function relationships. Efficient exploration of this space to identify sequences that meet specific design criteria is crucial for advancing therapeutics and biotechnology. Here, we present BoGA (Bayesian Optimization Genetic Algorithm), a framework that combines evolutionary search with Bayesian optimization to efficiently navigate the sequence space. By integrating a genetic algorithm as a stochastic proposal generator within a surrogate modeling loop, BoGA prioritizes candidates based on prior evaluations and surrogate model predictions, enabling data-efficient optimization. We demonstrate the utility of BoGA through benchmarking on sequence and structure design tasks, followed by its application in designing peptide binders against pneumolysin, a key virulence factor of \\textit{Streptococcus pneumoniae}. BoGA accelerates the discovery of high-confidence binders, demonstrating the potential for efficient protein design across diverse objectives. The algorithm is implemented within the BoPep suite and is available under an MIT license at \\href{https://github.com/ErikHartman/bopep}{GitHub}.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

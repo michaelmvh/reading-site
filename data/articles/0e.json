@@ -6501,16 +6501,17 @@
     {
       "id": "0ef3fd551193768817a2bdca7fd7973045a478eaaef8be9b6ff62fe7575d71b5",
       "identity_keys": [
+        "doi:10.64898/2025.11.30.691458",
         "https://doi.org/10.64898/2025.11.30.691458",
         "https://openalex.org/W4417117005"
       ],
       "title": "Modeling the structure-conditioned sequence landscape for large-scale protein design with TriFlow",
       "link": "https://doi.org/10.64898/2025.11.30.691458",
       "pdf_url": null,
-      "publication_date": "2025-12-02",
+      "publication_date": "2025-11-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2025.11.30.691458",
       "authors": [
         {
           "key": "harish srinivasan",
@@ -6521,10 +6522,6 @@
           "name": "Rongqing Yuan"
         },
         {
-          "key": "jing zhang",
-          "name": "Jing Zhang"
-        },
-        {
           "key": "cong qian",
           "name": "Qian Cong"
         },
@@ -6533,7 +6530,7 @@
           "name": "Jian Zhou"
         }
       ],
-      "abstract_text": "Generative models have revolutionized computational protein design, and the design of high-quality sequences given backbone structure is a critical component for success. Current state-of-the-art design pipelines utilize sequence design methods with local structural context and autoregressive generation. To improve efficiency and quality of sequence design, we developed TriFlow, a model that combines a RoseTTAFold-like three-track architecture for global structural context with discrete flow-matching for efficient few-step sequence generation. We trained TriFlow on a large dataset of interacting protein chains from PDB and interacting domains from AlphaFold protein structure Database to enrich its knowledge of natural protein/domain interfaces. While showing improvements across diverse benchmarks, TriFlow's primary advance is in de novo binder design, where it boosts the in silico success rate of state-of-the-art design pipelines such as BindCraft. We demonstrated this by conducting a large-scale benchmark, generating and validating binders for over 500 diverse protein targets. By leveraging the model to explore the designed sequence landscape, we discovered that we can effectively highlight functional active sites, by contrasting constraints learned by the structure-conditioned model with natural evolutionary profiles. As a practical demonstration of its capabilities, we apply our pipeline to systematically design specific binders against human class I cytokines family, computationally optimizing for on-target affinity while minimizing off-target interactions, demonstrating that specificity also scales with inference time computational budget. TriFlow thus provides a robust framework for both large-scale protein engineering and for exploring the fundamental principles of the structure-conditioned sequence landscape.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

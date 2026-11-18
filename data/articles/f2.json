@@ -2217,17 +2217,18 @@
     {
       "id": "f26da535a09497b90612d850877a9f36640273798020f49fe94b415f79db741e",
       "identity_keys": [
+        "arxiv:2512.09329",
         "https://arxiv.org/abs/2512.09329v1",
         "https://doi.org/10.48550/arxiv.2512.09329",
         "https://openalex.org/W4417290605"
       ],
       "title": "Self Distillation Fine-Tuning of Protein Language Models Improves Versatility in Protein Design",
-      "link": "https://doi.org/10.48550/arxiv.2512.09329",
-      "pdf_url": "https://arxiv.org/pdf/2512.09329",
-      "publication_date": "2025-12-10",
+      "link": "https://arxiv.org/abs/2512.09329v1",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2512.09329",
       "authors": [
         {
           "key": "amin tavakoli",
@@ -2235,11 +2236,11 @@
         },
         {
           "key": "murugan raswanth",
-          "name": "Murugan, Raswanth"
+          "name": "Raswanth Murugan"
         },
         {
-          "key": "gökdemir ozan",
-          "name": "Ozan Gökdemir"
+          "key": "gokdemir ozan",
+          "name": "Ozan Gokdemir"
         },
         {
           "key": "arvind ramanathan",
@@ -2247,14 +2248,14 @@
         },
         {
           "key": "arnold frances",
-          "name": "Frances H. Arnold"
+          "name": "Frances Arnold"
         },
         {
-          "key": "anandkumar animashree",
-          "name": "Animashree Anandkumar"
+          "key": "anandkumar anima",
+          "name": "Anima Anandkumar"
         }
       ],
-      "abstract_text": "Supervised fine-tuning (SFT) is a standard approach for adapting large language models to specialized domains, yet its application to protein sequence modeling and protein language models (PLMs) remains ad hoc. This is in part because high-quality annotated data are far more difficult to obtain for proteins than for natural language. We present a simple and general recipe for fast SFT of PLMs, designed to improve the fidelity, reliability, and novelty of generated protein sequences. Unlike existing approaches that require costly precompiled experimental datasets for SFT, our method leverages the PLM itself, integrating a lightweight curation pipeline with domain-specific filters to construct high-quality training data. These filters can independently refine a PLM's output and identify candidates for in vitro evaluation; when combined with SFT, they enable PLMs to generate more stable and functional enzymes, while expanding exploration into protein sequence space beyond natural variants. Although our approach is agnostic to both the choice of protein language model (PLM) and the protein system, we demonstrate its effectiveness with a genome-scale PLM (GenSLM) applied to the tryptophan synthase enzyme family. The supervised fine-tuned model generates sequences that are not only more novel but also display improved characteristics across both targeted design constraints and emergent protein property measures.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

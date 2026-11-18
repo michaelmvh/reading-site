@@ -5668,13 +5668,15 @@
       "id": "13e935438954a44ae942566082e1f8ec6d597b66f44a3a155d664939a7e6dc10",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.20.760537v1",
+        "biorxiv:10.64898/2026.10.20.760537v2",
         "https://doi.org/10.64898/2026.10.20.760537",
-        "https://www.biorxiv.org/content/early/2026/10/23/2026.10.20.760537.source.xml"
+        "https://www.biorxiv.org/content/early/2026/10/23/2026.10.20.760537.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.10.20.760537.source.xml"
       ],
       "title": "Averaging in gene perturbation benchmarks hides perturbation-strength variation: Consequences for model evaluation",
       "link": "https://doi.org/10.64898/2026.10.20.760537",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760537v1.full.pdf",
-      "publication_date": "2026-10-23",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760537v2.full.pdf",
+      "publication_date": "2026-11-18",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -5698,10 +5700,6 @@
         {
           "key": "render",
           "name": "Render, D"
-        },
-        {
-          "key": "szegedy",
-          "name": "Szegedy, M"
         }
       ],
       "abstract_text": "Perturbation-response benchmarks usually represent each genetic intervention by averaging all cells assigned that perturbation label. We inquire what perturbation-strength information is lost by this averaging, and whether current model predictions preserve enough perturbation-specific information for this perturbation-strength variation to be evaluated. Using X-Atlas/Orion CRISPRi screens, we use depth-corrected guide abundance as a cell-level proxy for perturbation strength and examine how transcriptional responses vary within a nominal perturbation. Higher perturbation strength is associated with greater response reproducibility. The effect is present in two human cell lines, HCT116 and HEK293T, but is larger in HCT116. For model evaluation, HCT116 retrieval tests show that observed responses preserve perturbation identity, whereas the evaluated STATE and Cell2Sentence predictions do not reliably recover it, hence the question of within-perturbation strength information cannot be meaningfully evaluated.",

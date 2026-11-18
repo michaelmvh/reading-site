@@ -2654,6 +2654,39 @@
       "curated_categories": []
     },
     {
+      "id": "4f7b4320271bbc84da78c543c0b4748403cf8efd753fea67e9e315ea3b7866fe",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.08.11.743381v3",
+        "https://doi.org/10.64898/2026.08.11.743381",
+        "https://www.biorxiv.org/content/early/2026/08/19/2026.08.11.743381.source.xml",
+        "https://www.biorxiv.org/content/early/2026/08/20/2026.08.11.743381.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.08.11.743381.source.xml"
+      ],
+      "title": "Cryptic binding sites are detected but not ranked: coverage, conversion, and the limits of detector consensus",
+      "link": "https://doi.org/10.64898/2026.08.11.743381",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.11.743381v3.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "moore",
+          "name": "Moore, C. W"
+        }
+      ],
+      "abstract_text": "Cryptic-pocket prediction is compared almost entirely by top-n recovery, which conflates two separable abilities: proposing a candidate at the true site, and ranking it highly enough to be seen. We retained per-candidate overlaps for five candidate-generation methods, evaluated in six configurations, on the CryptoBench test fold. Coverage spanned 14.5 points; conversion of coverage into top-five recovery spanned 36.7. Two rankers over an identical candidate set differed by 10.6 recovery points at equal coverage, isolating ranking exactly. Union coverage saturated at 92.2%, reaching 98.6% on sites of at least eight residues, with residual failures concentrated on small sites. Injecting synthetic competitors drawn from each target's own wrong-answer score distribution, holding the true site, candidate pool and ranker fixed, reduced top-five recovery by 16.8 points on training folds and 17.0 points on the held-out test fold. Pooling detectors consequently gains nothing at a budget of five and 11.8 points at twenty. We also report two defects in the evaluation apparatus itself, each of the kind this paper is about. Matching an interface site's hyphen-joined chain set against single-chain residue labels by string equality silently removed all 38 interface structures of the fold from every method's row at once. Scoring residue overlap without the chain credited a top-five candidate sharing no residue with the annotated site, its center 36.4 A away. Both are fixed; neither moves a number here, since this cohort is single chain, where the two metrics are provably identical. On the repaired full fold the one configuration re-measured on it, Lacuna 1.5.0 under its default ranker, widens the gap between finding a site and ranking it rather than closing it: 18.0 points across all 222 structures against 15.1 on the 179 analyzed here.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4f7b93e31441a59bb56008a9c446febb5ab0319617041f2488b5314dc26a70fc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68256-5",
@@ -5383,13 +5416,13 @@
         "https://doi.org/10.1093/protein/gzag004",
         "https://openalex.org/W7128473691"
       ],
-      "title": "Experimental analyses of RFdiffusion designed Miniproteins for binding to SARS-CoV-2 nucleocapsid protein",
+      "title": "Experimental Analyses of RFdiffusion Designed Miniproteins for Binding to SARS-CoV-2 Nucleocapsid Protein",
       "link": "https://doi.org/10.1093/protein/gzag004",
       "pdf_url": null,
-      "publication_date": "2025-12-23",
+      "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "Protein Engineering Design and Selection",
+      "venue": "Protein Engineering, Design and Selection, 2026",
       "authors": [
         {
           "key": "khakerwala zeenat",
@@ -5401,26 +5434,26 @@
         },
         {
           "key": "gaikwad sujay",
-          "name": "Sujay S. Gaikwad"
+          "name": "Sujay S Gaikwad"
         },
         {
-          "key": "barik",
-          "name": "T. Barik"
+          "key": "barik truptimayee",
+          "name": "Truptimayee Barik"
         },
         {
           "key": "shweta singh",
           "name": "Shweta Singh"
         },
         {
-          "key": "gagan gupta",
-          "name": "Gagan D. Gupta"
+          "key": "deep gagan gupta",
+          "name": "Gagan Deep Gupta"
         },
         {
           "key": "makde ravindra",
-          "name": "Ravindra D. Makde"
+          "name": "Ravindra D Makde"
         }
       ],
-      "abstract_text": "Miniprotein designs are emerging as promising antibody alternatives for therapeutic and diagnostic use. Using RFdiffusion, we designed 538 binder candidates targeting both N and C-terminal domains of the SARS-CoV-2 nucleocapsid protein, selecting 19 for recombinant production in E. coli. All were soluble and purified (8-10 mg/L yield), though 13 unexpectedly formed oligomers. CD spectroscopy confirmed proper folding and thermal refolding, with 9 miniproteins exhibiting Tm > 75°C. Binding assay revealed three miniproteins with affinities of 115 nM, 4.8 μM, and 7.32 μM. The 1.8 Å resolution crystal structure of one binder (Gpx62) matched the predicted design. However, predictive metrics (like ipTM of AlphaFold3 and computational simulations) did not align with experimental data. Together, these results reveal unintended oligomerization as a major, previously underappreciated barrier in miniprotein binder discovery, demonstrating that while RFdiffusion reliably predicts structural integrity and stability of miniprotein, its current metrics do not account for the oligomeric behavior that might critically limit binding competence.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

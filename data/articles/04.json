@@ -1939,6 +1939,46 @@
       "curated_categories": []
     },
     {
+      "id": "0471d411dad0480e1bd291592e923ca97094be16cb1aa2782b9ab816913e2c0f",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.10.06.680790v3",
+        "https://doi.org/10.1101/2025.10.06.680790",
+        "https://www.biorxiv.org/content/early/2026/04/14/2025.10.06.680790.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/17/2025.10.06.680790.source.xml"
+      ],
+      "title": "Beyond Single Algorithms: A Framework for Aggregating ActiveModules in Genetic Interaction Networks",
+      "link": "https://doi.org/10.1101/2025.10.06.680790",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680790v3.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, J"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, M"
+        },
+        {
+          "key": "xing",
+          "name": "Xing, J"
+        }
+      ],
+      "abstract_text": "High-throughput sequencing methods provide a wealth of gene data to identify candidate genes for complex genetic diseases, but often yield large numbers of candidates. A common approach to investigate the mechanisms underlying these diseases is via gene-gene interaction networks, but their size can also complicate interpretation. To reduce this complexity, many Active Module Identification (AMI) algorithms have been proposed to identify enriched subnetworks representing relevant biological processes. However, the relative performance of these algorithms across different datasets remains unclear. To address this, we developed a framework to evaluate their performance and compare their outputs. By using a modified empirical pipeline to validate the output of four AMI algorithms, we find that no single algorithms performs uniformly well across the different datasets. Using the Earth Mover Distance (EMD) to measure module similarity, we see that the outputs of the algorithms are structurally distinct, suggesting that each captures different aspects of the underlying biology. These differences motivate the use of multiple algorithms, but combining their outputs can complicate interpretation. To address this, we propose the Greedy Block Merging algorithm, an EMD-based method that produces disjoint modules while preserving gene relationships supported by the input algorithms. Across evaluations based on empirical validation as well as enrichment and topological similarity to reference protein complexes, the aggregate modules retained much of the biological information represented by the combined inputs. Together, our findings inform the application of AMI algorithms and provides a practical approach to aggregating their outputs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0476538066512176624795521eb1574de0ade29de8efb6a5bd4d90fcc1f6c008",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75494-8",

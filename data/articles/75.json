@@ -3487,6 +3487,36 @@
       "curated_categories": []
     },
     {
+      "id": "75969e4454e9cf9586ddc723cf2710252eeea50dac39878966ac2dd5fdbe5ce1",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.19158",
+        "https://openalex.org/W7235005784"
+      ],
+      "title": "Simulated Annealing with Topological Spatial Chunking for De Novo Protein Sequence Design",
+      "link": "https://doi.org/10.48550/arxiv.2611.19158",
+      "pdf_url": null,
+      "publication_date": "2026-11-14",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv (Cornell University)",
+      "authors": [
+        {
+          "key": "eswara kandula kumar sai",
+          "name": "Kandula Eswara Sai Kumar"
+        }
+      ],
+      "abstract_text": "The inverse protein folding problem, designing a discrete amino acid sequence that spontaneously folds into a predefined macroscopic structure, remains a phenomenally demanding combinatorial challenge central to synthetic drug discovery. While algorithms like SA offer a baseline approach for navigating dense biomolecular energy landscapes, applying SA heuristics to large sequences is inherently frustrated by exponentially large search spaces and deep local energy minima. This study proposes a scalable sequence design architecture, Topological Spatial Chunking Simulated Annealing, based on a localized, exact-solving heuristic embedded within a global simulated-annealing wrapper. To fundamentally circumvent exponential scaling walls, we deploy a dynamic solver that segments the global molecular target into shallow, k-variable algorithmic windows. Crucially, rather than partitioning natively by sequential 1D chronology, we introduce topological spatial chunking, which dynamically groups discrete variables based on Euclidean spatial proximity to preserve critical non-local thermodynamic correlations. The spatially localized sub-problems are solved deterministically via exact enumeration, while the global traversal is securely regulated by an exterior simulated annealing governor augmented by dynamic reheating and continuous elitism caching. We comprehensively benchmarked this classical architecture on the standard HP biophysical lattice against targeted 20-merA, 25-mer, 50-mer, and 64-mer geometries. Most notably, when evaluating the computationally exhaustive 50-mer and 64-mer topologies, the framework successfully bypassed widely accepted heuristic boundaries. By leveraging deterministic exact solving to vault classical energy traps, the system algorithmically resolved a novel, ultra-dense sequence-packing configuration for the 50-mer, defining a new theoretical global optimum.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7597a9aaf5ad5f6d48dd5270dba07ac79219d8cf90ccb00b5e1fa34f313c5358",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67519-5",

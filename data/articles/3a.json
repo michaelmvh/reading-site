@@ -3417,6 +3417,64 @@
       "curated_categories": []
     },
     {
+      "id": "3a7eaff62120d7461a29fa9c6bf00a20b1dd18d5f91fb9efd54a00591ad6c288",
+      "identity_keys": [
+        "arxiv:2608.11475",
+        "https://doi.org/10.48550/arXiv.2608.11475"
+      ],
+      "title": "Probing and steering biology across Boltz-1s trunk-diffusion boundary",
+      "link": "https://doi.org/10.48550/arXiv.2608.11475",
+      "pdf_url": "https://arxiv.org/pdf/2608.11475",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jedryszek piotr",
+          "name": "Piotr Jedryszek"
+        },
+        {
+          "key": "tongmeng xie",
+          "name": "Tongmeng Xie"
+        },
+        {
+          "key": "adam winnifrith",
+          "name": "Adam Winnifrith"
+        },
+        {
+          "key": "alexander hasson",
+          "name": "Alexander Hasson"
+        },
+        {
+          "key": "slesak weronika",
+          "name": "Weronika \\'Slesak"
+        },
+        {
+          "key": "george wicks",
+          "name": "George Wicks"
+        },
+        {
+          "key": "toby winnifrith",
+          "name": "Toby Winnifrith"
+        },
+        {
+          "key": "crook oliver",
+          "name": "Oliver M. Crook"
+        }
+      ],
+      "abstract_text": "AlphaFold3-class structure predictors pair a representational trunk, which processes sequence and context, with a diffusion module, which generates atomic coordinates. How biological information changes as it crosses this architectural boundary remains poorly understood. We analyze per-residue activations from the Pairformer trunk and diffusion module of Boltz-1 using linear probes, sparse autoencoders (SAEs), and causal interventions. From the trunk, both geometry (secondary structure, disorder) and sequence chemistry (amino-acid identity, signal peptides, disulfide-bond annotations) are linearly decodable. In the diffusion module, the two diverge. Secondary structure remains equally decodable, whereas sequence chemistry becomes much less linearly accessible. We then test whether decodable directions can steer the model by editing the trunk's single representation. Helix and coil directions change predicted structure dose-dependently, but a beta-strand direction that is highly predictive on the same proteins (held-out F1 =0.78) produces no measurable increase in strand content at any of the steered layers. Removing helix or coil directions does not remove that structure. Linear decodability therefore did not imply causal influence at the sites we tested. The same probes also score markedly lower against SwissProt annotations than against DSSP labels, because unannotated residues that the model gets right are charged as false positives; such scores are therefore lower bounds. Finally, supervised probes outscore single SAE features wherever a label already exists.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3a86975e757b65c5817af5f116c5d416687079ad8c7e75e0be6895ffec86688e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78814-0",
@@ -4450,7 +4508,7 @@
       ],
       "title": "Likelihood-based Fine-tuning of Protein Language Models for Few-shot Fitness Prediction and Design",
       "link": "https://doi.org/10.1101/2024.05.28.596156",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/06/02/2024.05.28.596156.full.pdf",
       "publication_date": "2024-06-02",
       "publication_date_precision": "unknown",
       "collection_date": null,

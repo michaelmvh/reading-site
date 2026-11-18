@@ -1185,6 +1185,69 @@
       "curated_categories": []
     },
     {
+      "id": "ad282348114050d42734e2d9eb81554fc04f1b6ed791fec3f5489d881d126a6c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.767094v1",
+        "https://doi.org/10.64898/2026.11.16.767094",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.16.767094.source.xml"
+      ],
+      "title": "TS-Zarr: a cloud-optimized Zarr layout for viewing and analyzing biomedical time series",
+      "link": "https://doi.org/10.64898/2026.11.16.767094",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767094v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "shah",
+          "name": "Shah, R"
+        },
+        {
+          "key": "garai",
+          "name": "Garai, S"
+        },
+        {
+          "key": "de freitas",
+          "name": "De Freitas, D. D"
+        },
+        {
+          "key": "truong",
+          "name": "Truong, V. Q"
+        },
+        {
+          "key": "ganglberger",
+          "name": "Ganglberger, W"
+        },
+        {
+          "key": "paron",
+          "name": "Paron, T"
+        },
+        {
+          "key": "westover",
+          "name": "Westover, M. B"
+        },
+        {
+          "key": "sinha",
+          "name": "Sinha, N"
+        },
+        {
+          "key": "wagenaar",
+          "name": "Wagenaar, J"
+        }
+      ],
+      "abstract_text": "Background: Biomedical time series are recorded at high sampling rates for hours to days across tens to hundreds of channels. Each recording occupies gigabytes to terabytes of storage. FAIR data sharing requirements often place recordings in cloud storage. Visual analysis requires downsampling windows wider than a few seconds to the pixel width of the screen. Visualization tools therefore either read a local copy of the recording or query a dedicated resampling server in front of the data. Findings: We present TS-Zarr, a Zarr v3 layout for time series data. It stores the samples of each channel alongside a pyramid of summary statistics at progressively coarser levels. Zarr on cloud storage offers low-latency, high-throughput parallel reads. The layout lets a reader fetch only the channels and windows it needs. These targeted reads scale better than the same reads from HDF5 and EDF. Precomputed levels trade additional storage and error-bound signal transformation for faster and more scalable visual analysis that moves from the whole recording to narrow windows. As users grow and windows widen, precomputed reads from cloud storage scale beyond the point at which a resampling server fails. Conclusions: Precomputed levels let researchers visualize a recording without downloading a local copy or querying a dedicated resampling server. The time to read a view remains bounded as the window under view widens. Zarr on cloud storage also provides efficient, highly parallelizable, targeted reads of raw sample data for analysis.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ad28ef12dc70b52a9db338118bcefdd2ccf367afc5a352142e9cf87b06a91d4c",
       "identity_keys": [
         "arxiv:2309.00408",
@@ -6846,17 +6909,18 @@
     {
       "id": "adfa39a204d71fd81c61722749a0fac9191c099f097618f8fd01ad818d0cb28f",
       "identity_keys": [
+        "arxiv:2605.26690",
         "https://arxiv.org/abs/2605.26690",
         "https://doi.org/10.48550/arxiv.2605.26690",
         "https://openalex.org/W7162552542"
       ],
       "title": "Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets",
-      "link": "https://doi.org/10.48550/arxiv.2605.26690",
-      "pdf_url": "https://arxiv.org/pdf/2605.26690",
-      "publication_date": "2026-05-26",
+      "link": "https://arxiv.org/abs/2605.26690",
+      "pdf_url": null,
+      "publication_date": "2026-05-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2605.26690",
       "authors": [
         {
           "key": "ashima khanna",
@@ -6864,10 +6928,10 @@
         },
         {
           "key": "dominik grimm",
-          "name": "Dominik G. Grimm"
+          "name": "Dominik Grimm"
         }
       ],
-      "abstract_text": "Protein sequence optimization under tight oracle budgets requires methods that explore vast combinatorial spaces while making each evaluation informative. Existing reinforcement learning and off-policy generative approaches often degrade under surrogate noise, and position-agnostic mutation proposals risk disrupting functionally critical residues. We introduce SILO, a trajectory-level self-improvement imitation framework for oracle-budgeted protein design. SILO uses a hierarchical edit policy that decomposes each mutation into a position choice followed by a residue choice. In each active-learning round, the policy samples candidate trajectories via incremental stochastic beam search without replacement (SBS), and a UCB-based proxy ensemble, combined with an alanine-scan fitness score (AFS), selects candidates with functionally relevant edits for in silico oracle evaluation. The policy is then updated by next-action cross-entropy imitation on the round's best oracle-labeled trajectories, avoiding value-function estimation. Across eight reproduced protein fitness landscapes and five strong baselines from prior work, SILO achieves the highest maximum and top-100 mean fitness on 8 of 8 landscapes within our evaluations, often exhibiting faster early-stage improvement. In low-data and noisy-proxy stress tests on two landscapes per setting, SILO remains competitive or best when several baselines degrade. Ablations show that SBS with AFS account for much of the gains, with iterative imitation providing additional improvement. Code is available at: https://github.com/grimmlab/SILO.git",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

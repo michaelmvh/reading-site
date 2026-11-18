@@ -1006,13 +1006,15 @@
       "id": "5922b4c8e15a6a78e36f54eaf7d700224db663ad3d317cff42d58a11576deea5",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.15.766718v1",
+        "biorxiv:10.64898/2026.11.15.766718v2",
         "https://doi.org/10.64898/2026.11.15.766718",
-        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.766718.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.15.766718.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.15.766718.source.xml"
       ],
       "title": "Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction",
       "link": "https://doi.org/10.64898/2026.11.15.766718",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766718v1.full.pdf",
-      "publication_date": "2026-11-17",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766718v2.full.pdf",
+      "publication_date": "2026-11-18",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -1042,7 +1044,7 @@
           "name": "Wei, L"
         }
       ],
-      "abstract_text": "Predicting enzyme turnover numbers ($k_{\\mathrm{cat}}$) from protein sequences and reaction chemistry helps prioritize candidates in virtual screening. Reliable ranking requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models combine enzyme and chemical information, but two representation challenges remain. First, reactants and products have distinct roles in catalysis: reactants are recognized and transformed, whereas products are formed and released. Yet these models merge the two sides before enzyme interaction, leaving the enzyme's response to each role implicit. Second, enzyme representations produced by cross-attention mix reaction-dependent changes with an enzyme-specific background shared across chemical conditions. This mixture can obscure activity-relevant differences between samples. To address these challenges, we introduce EnzRef, a lightweight multimodal framework that adapts frozen protein language models by decomposing reaction chemistry into reactant and product conditions, expressing each conditioned enzyme response relative to that enzyme's background, and recomposing the responses for activity prediction. Reference-Centered Cross-Attention uses each enzyme's average residue response as an internal reference to expose role-specific conditional deviations. Symmetry-Aware Semantic Recomposition encodes the mean deviation and directed role contrast into a joint activity representation. With 1.72M trainable parameters beyond the frozen encoder, EnzRef achieves state-of-the-art source-domain prediction on CatPred-DB and zero-shot transfer to TurNuP-DB. On unseen enzymes, it improves mean $R^2$ by 19.8% relative to MCKcat, the strongest baseline, without target-domain adaptation.",
+      "abstract_text": "Predicting enzyme turnover numbers ($k_{\\mathrm{cat}}$) from protein sequences and reaction chemistry supports virtual screening, which requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models face two representation challenges. First, they merge reactants and products before enzyme interaction, leaving separate enzyme responses implicit despite the two sides' distinct roles in recognition, transformation, and release. Second, cross-attention readouts mix reaction-dependent changes with an enzyme-specific residue background, which can obscure activity-relevant differences across samples. To address these challenges, we introduce EnzRef, a lightweight framework for multimodal adaptation of frozen protein language models. EnzRef decomposes reaction chemistry into reactant and product conditions, models their interactions with the enzyme separately, and recomposes the resulting responses for activity prediction. During these interactions, Reference-Centered Cross-Attention expresses each response as a deviation from the enzyme's own residue background to expose chemically conditioned differences for activity discrimination. With 1.72M trainable parameters, EnzRef achieves state-of-the-art source prediction on CatPred-DB and zero-shot transfer to TurNuP-DB. Across ten independent runs, EnzRef achieves 19.8\\% higher mean $R^2$ than the strongest baseline MCKcat in zero-shot transfer to unseen enzymes. It also predicts activity differences more accurately between pairs sharing an enzyme or a reaction.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

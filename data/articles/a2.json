@@ -6171,6 +6171,54 @@
       "curated_categories": []
     },
     {
+      "id": "a2d5779b5425b8bfe2b92b59d680c6422d4c86046d9030d97b366d17535fbce7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.06.16.732574v2",
+        "https://doi.org/10.64898/2026.06.16.732574",
+        "https://www.biorxiv.org/content/early/2026/06/22/2026.06.16.732574.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.06.16.732574.source.xml"
+      ],
+      "title": "Complex-valued representations of time-series gene expression profiles for network analysis",
+      "link": "https://doi.org/10.64898/2026.06.16.732574",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732574v2.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sun",
+          "name": "Sun, J"
+        },
+        {
+          "key": "cao",
+          "name": "Cao, W"
+        },
+        {
+          "key": "ikumi",
+          "name": "Ikumi, K"
+        },
+        {
+          "key": "shimizu",
+          "name": "Shimizu, K. K"
+        },
+        {
+          "key": "sese",
+          "name": "Sese, J"
+        }
+      ],
+      "abstract_text": "Time-series RNA sequencing provides a powerful framework for studying dynamic gene regulation, yet conventional analyses usually represent gene expression profiles as real-valued vectors in Euclidean space and quantify similarity using correlation or distance. Inspired by quantum information theory, we present a framework for encoding time-series gene expression profiles as complex-valued vectors comprising amplitude and phase components in Hilbert space. We designed multiple encoding models to represent gene expression in the amplitude of complex-valued vectors, encode temporal differences in the phase, and extend the phase representation to incorporate the direction of local expression changes. Gene-gene similarity was then quantified using fidelity, which measures the overlap between two encoded vectors. Evaluation using time-series RNA-seq datasets across diverse species and biological contexts showed that different encoding models produced distinct fidelity distributions that were related to, but distinct from, conventional correlation measures. We then constructed gene-gene networks using pairwise fidelity values and detected communities containing genes with similar temporal profiles. Although fidelity distributions differed across encoding models, the resulting communities captured major temporal expression programs, and functional annotations based on gene ontology and Kyoto encyclopedia of genes and genomes pathway analyses provided exploratory biological context. The detected communities were comparable to those obtained using conventional methods, including weighted correlation network analysis and fuzzy c-means clustering. Furthermore, as a proof-of-concept, we performed SWAP-test circuit simulations to mimic fidelity computation on a quantum computer; under noise-aware conditions, these simulations produced less accurate fidelity estimates with higher computational cost than classical computation. As a proof-of-concept, this study provides a complementary view of temporal transcriptome organization, rather than a uniformly superior alternative to conventional methods.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a2d70d56cb449cda66ded7d3f97089d43250287b51a38cd3ba466fc15ddfe4ba",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64972-0",

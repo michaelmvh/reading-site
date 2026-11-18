@@ -1922,6 +1922,40 @@
       "curated_categories": []
     },
     {
+      "id": "243727b2c7d32eccc337cf83e1338ee0b4506318ccb8c62cb6ab99365a87bb4b",
+      "identity_keys": [
+        "arxiv:2608.27754",
+        "https://doi.org/10.48550/arXiv.2608.27754"
+      ],
+      "title": "Towards Efficient Auto-Interpretability of Boltz-1 Sparse Autoencoders",
+      "link": "https://doi.org/10.48550/arXiv.2608.27754",
+      "pdf_url": "https://arxiv.org/pdf/2608.27754",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jedryszek piotr",
+          "name": "Piotr Jedryszek"
+        },
+        {
+          "key": "crook oliver",
+          "name": "Oliver M. Crook"
+        }
+      ],
+      "abstract_text": "Sparse autoencoders (SAEs) could turn AI models in Biology and other fields into engines of scientific discovery by explaining the superhuman capabilities of those models. We postulate that a latent is useful if we know three things: whether it is coherent, whether it can be described, and whether that description has predictive power. These questions are routinely conflated. We assemble them into a single pipeline and report some practical innovations. First, cross-seed dictionary stability prioritises which latents are worth spending resources to investigate. Second, an intruder-detection task asks whether a latent's activating examples share a recognizable pattern. Third, a separate pass proposes a candidate biological description which we convert into falsifiable predictions which can be tested in silico. Deployed on the Boltz-1 Pairformer trunk, stability prioritisation finds interpretable latents using about 4.4 times fewer latent evaluations each, and at 5.2 times lower measured LLM cost, while recovering over half of them. However, we notice that in our setup the LLM judge is heavily biased towards consistent residue identity and a simple filter that selects for features with high amino-acid identity precision outperforms the stability thresholding. This simpler method has the added benefit of requiring no extra SAE seeds but it remains uncertain if it reflects a genuinely useful heuristic or an limitation of the LLM judge.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2437b4b602c1c114e41596e332b4da36cbb34991c858e67bdda339c3e4044a21",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74186-7",

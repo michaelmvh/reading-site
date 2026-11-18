@@ -1964,17 +1964,18 @@
     {
       "id": "905fffc5498474ff8eddfc2ed7cdf49701678a0fc07546a919f969f3e382200e",
       "identity_keys": [
+        "arxiv:2512.17815",
         "https://arxiv.org/abs/2512.17815",
         "https://doi.org/10.48550/arxiv.2512.17815",
         "https://openalex.org/W7116925460"
       ],
       "title": "Structure-Aware Antibody Design with Affinity-Optimized Inverse Folding",
-      "link": "https://doi.org/10.48550/arxiv.2512.17815",
-      "pdf_url": "https://arxiv.org/pdf/2512.17815",
-      "publication_date": "2025-12-19",
+      "link": "https://arxiv.org/abs/2512.17815",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2512.17815",
       "authors": [
         {
           "key": "xinyan zhao",
@@ -1982,7 +1983,7 @@
         },
         {
           "key": "ching tang yi",
-          "name": "Tang Yi-Ching"
+          "name": "Yi-Ching Tang"
         },
         {
           "key": "monsia rivaaj",
@@ -1990,7 +1991,7 @@
         },
         {
           "key": "cantu victor",
-          "name": "Victor Cantu"
+          "name": "Victor J. Cantu"
         },
         {
           "key": "ashwin kumar ramesh",
@@ -2013,7 +2014,7 @@
           "name": "Yejin Kim"
         }
       ],
-      "abstract_text": "Motivation: The clinical efficacy of antibody therapeutics critically depends on high-affinity target engagement, yet laboratory affinity-maturation campaigns are slow and costly. In computational settings, most protein language models (PLMs) are not trained to favor high-affinity antibodies, and existing preference optimization approaches introduce substantial computational overhead without clear affinity gains. Therefore, this work proposes SimBinder-IF, which converts the inverse folding model ESM-IF into an antibody sequence generator by freezing its structure encoder and training only its decoder to prefer experimentally stronger binders through preference optimization. Results: On the 11-assay AbBiBench benchmark, SimBinder-IF achieves a 55 percent relative improvement in mean Spearman correlation between log-likelihood scores and experimentally measured binding affinity compared to vanilla ESM-IF (from 0.264 to 0.410). In zero-shot generalization across four unseen antigen-antibody complexes, the correlation improves by 156 percent (from 0.115 to 0.294). SimBinder-IF also outperforms baselines in top-10 precision for ten-fold or greater affinity improvements. A case study redesigning antibody F045-092 for A/California/04/2009 (pdmH1N1) shows that SimBinder-IF proposes variants with substantially lower predicted binding free energy changes than ESM-IF (mean Delta Delta G -75.16 vs -46.57). Notably, SimBinder-IF trains only about 18 percent of the parameters of the full ESM-IF model, highlighting its parameter efficiency for high-affinity antibody generation.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

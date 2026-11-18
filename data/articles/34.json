@@ -3247,6 +3247,44 @@
       "curated_categories": []
     },
     {
+      "id": "34924da88f1170ac01aeec09681097aeec95ebf0af6bbf90766827552629e237",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.25.727711v4",
+        "https://doi.org/10.64898/2026.05.25.727711",
+        "https://www.biorxiv.org/content/early/2026/05/28/2026.05.25.727711.source.xml",
+        "https://www.biorxiv.org/content/early/2026/05/30/2026.05.25.727711.source.xml",
+        "https://www.biorxiv.org/content/early/2026/07/16/2026.05.25.727711.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.05.25.727711.source.xml"
+      ],
+      "title": "MINA: Do frozen DNA encoders beat sequence composition? A homology-aware linear-probe benchmark",
+      "link": "https://doi.org/10.64898/2026.05.25.727711",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.25.727711v4.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wijaya",
+          "name": "Wijaya, A. S"
+        },
+        {
+          "key": "leung",
+          "name": "Leung, H"
+        }
+      ],
+      "abstract_text": "Frozen DNA encoders are widely used as feature extractors, but fine-tuning hides what their fixed embeddings already make linearly accessible. MINA is a lightweight benchmark that asks whether those embeddings beat sequence composition, with two linear probes on 3,244 human genes: 5-way classification into coarse protein families, and regression onto each gene's GenePT text-summary embedding. Mostly, they do not. On coding sequence (CDS) under a homology aware split, the validation-selected encoder, NT-v2, recovers coarse family signal at about the level of nucleotide composition (macro-F1 0.693 vs. 0.639; Holm p = 0.108) but does not reach amino-acid composition (0.767) or the protein language model ESM-2 (0.954). On GenePT, DNABERT-2 beats nucleotide composition (R2 0.065 vs. 0.039) but not amino-acid composition (0.080). Evaluation choices move scores as much as the encoder does: pooling alone takes NT-v2 from 0.504, below nucleotide composition, to 0.698; a mostly noncoding transcription-start-site window, where any signal is likely regulatory rather than family, drops NT-v2 from 0.694 to 0.300 on the same genes; and a random split inflates it from 0.693 to 0.801 through homologous genes leaking into the test set. Frozen DNA encoders thus recover little from coding sequence beyond nucleotide composition, and fair comparisons must use composition baselines and fix pooling, substrate, and split.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3493693e446c2f925521354eef091c819c389eb8c635b238b23b1c865db410b3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71469-x",

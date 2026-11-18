@@ -408,20 +408,21 @@
     {
       "id": "f90d2a85e8aad602ca20922fade868105bfc75788289c6742c8e0d0ed54422bf",
       "identity_keys": [
+        "doi:10.64898/2025.12.19.695620",
         "https://doi.org/10.64898/2025.12.19.695620",
         "https://openalex.org/W7116906857"
       ],
       "title": "De novo design of protein nanoparticles with integrated functional motifs",
       "link": "https://doi.org/10.64898/2025.12.19.695620",
       "pdf_url": null,
-      "publication_date": "2025-12-22",
+      "publication_date": "2025-12-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2025.12.19.695620",
       "authors": [
         {
           "key": "cyrus haas",
-          "name": "Cyrus M. Haas"
+          "name": "Cyrus M Haas"
         },
         {
           "key": "rankovic sanela",
@@ -433,7 +434,7 @@
         },
         {
           "key": "carr kenneth",
-          "name": "Kenneth D. Carr"
+          "name": "Kenneth D Carr"
         },
         {
           "key": "connor weidle",
@@ -444,8 +445,8 @@
           "name": "Sophie S Gerdes"
         },
         {
-          "key": "nuss",
-          "name": "L. Nuss"
+          "key": "lily nuss",
+          "name": "Lily R Nuss"
         },
         {
           "key": "felicitas ruiz",
@@ -468,8 +469,8 @@
           "name": "Jackson McGowan"
         },
         {
-          "key": "kumar pavan",
-          "name": "N. Pavan Kumar"
+          "key": "kumar nikhila",
+          "name": "Nikhila Kumar"
         },
         {
           "key": "adrian creanga",
@@ -493,7 +494,7 @@
         },
         {
           "key": "annie dosey",
-          "name": "Annie M. Dosey"
+          "name": "Annie Dosey"
         },
         {
           "key": "rashmi ravichandran",
@@ -501,15 +502,15 @@
         },
         {
           "key": "asim bera",
-          "name": "Asim K. Bera"
+          "name": "Asim K Bera"
         },
         {
           "key": "elizabeth leaf",
-          "name": "Elizabeth M. Leaf"
+          "name": "Elizabeth M Leaf"
         },
         {
           "key": "cole deforest",
-          "name": "Cole A. DeForest"
+          "name": "Cole A DeForest"
         },
         {
           "key": "kanekiyo masaru",
@@ -517,14 +518,14 @@
         },
         {
           "key": "andrew borst",
-          "name": "Andrew J. Borst"
+          "name": "Andrew J Borst"
         },
         {
           "key": "king neil",
-          "name": "Neil P. King"
+          "name": "Neil P King"
         }
       ],
-      "abstract_text": "Computational design of self-assembling proteins has long relied on pre-existing structures and sequences, fundamentally limiting control over their structural and functional properties. Recent machine learning-based methods have transformed our ability to design functional small de novo proteins and oligomers, yet methods to design large de novo protein assemblies with structures tailored to specific applications are still underexplored. Here, we develop a generalizable method for designing de novo symmetric protein complexes that incorporate target functional motifs into their structures. We report 34 new protein nanoparticles that form on-target assemblies with cubic point group symmetries. The nanoparticles exhibit a wide variety of backbones that were designed with atom-level accuracy, as evidenced by several cryo-EM and crystal structures that reveal minimal deviations from the design models. We use the method to generate a de novo antigen-tailored nanoparticle vaccine that elicits robust immune responses in mice. These results establish a generalizable approach that can be used to design functional self-assembling protein complexes with structures tailored to specific applications.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5738,6 +5739,7 @@
     {
       "id": "f99abc7e0b5ede8b67b136e3d82b70cc8b394ea5410a66b028722027b6b86fdc",
       "identity_keys": [
+        "arxiv:2603.02406",
         "biorxiv:10.64898/2026.03.02.708991v3",
         "https://arxiv.org/abs/2603.02406",
         "https://doi.org/10.48550/arxiv.2603.02406",
@@ -5749,12 +5751,12 @@
         "https://www.biorxiv.org/content/early/2026/10/18/2026.03.02.708991.source.xml"
       ],
       "title": "Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles",
-      "link": "https://doi.org/10.48550/arxiv.2603.02406",
-      "pdf_url": "https://arxiv.org/pdf/2603.02406",
-      "publication_date": "2026-03-02",
+      "link": "https://arxiv.org/abs/2603.02406",
+      "pdf_url": null,
+      "publication_date": "2026-03-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2603.02406",
       "authors": [
         {
           "key": "ni zhanghan",
@@ -5785,7 +5787,7 @@
           "name": "Shengchao Liu"
         }
       ],
-      "abstract_text": "Generative models have recently advanced $\\textit{de novo}$ protein design by learning the statistical regularities of natural structures. However, current approaches face three key limitations: (1) Existing methods cannot jointly learn protein geometry and design tasks, where pretraining can be a solution; (2) Current pretraining methods mostly rely on local, non-rigid atomic representations for property prediction downstream tasks, limiting global geometric understanding for protein generation tasks; and (3) Existing approaches have yet to effectively model the rich dynamic and conformational information of protein structures. To overcome these issues, we introduce $\\textbf{RigidSSL}$ ($\\textit{Rigidity-Aware Self-Supervised Learning}$), a geometric pretraining framework that front-loads geometry learning prior to generative finetuning. Phase I (RigidSSL-Perturb) learns geometric priors from 432K structures from the AlphaFold Protein Structure Database with simulated perturbations. Phase II (RigidSSL-MD) refines these representations on 1.3K molecular dynamics trajectories to capture physically realistic transitions. Underpinning both phases is a bi-directional, rigidity-aware flow matching objective that jointly optimizes translational and rotational dynamics to maximize mutual information between conformations. Empirically, RigidSSL variants improve designability by up to 43% while enhancing novelty and diversity in unconditional generation. Furthermore, RigidSSL-Perturb improves the success rate by 5.8% in zero-shot motif scaffolding and RigidSSL-MD captures more biophysically realistic conformational ensembles in G protein-coupled receptor modeling.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

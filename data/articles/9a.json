@@ -484,16 +484,17 @@
     {
       "id": "9a0cfcc1efc64186dee5a4faec9cc04f50f5ee9e8d2283f69c4f01d5bce6d9e7",
       "identity_keys": [
+        "doi:10.1093/bioadv/vbag090",
         "https://doi.org/10.1093/bioadv/vbag090",
         "https://openalex.org/W7142940572"
       ],
-      "title": "Computational design of class II MHC binding peptide with sequence-based evolution information",
+      "title": "Computational Design of Class II MHC Binding Peptide with Sequence-Based Evolution Information",
       "link": "https://doi.org/10.1093/bioadv/vbag090",
-      "pdf_url": "https://academic.oup.com/bioinformaticsadvances/advance-article-pdf/doi/10.1093/bioadv/vbag090/67637130/vbag090.pdf",
-      "publication_date": "2026-01-07",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "Bioinformatics Advances",
+      "venue": "Bioinformatics Advances, 2026",
       "authors": [
         {
           "key": "cao ying",
@@ -512,11 +513,11 @@
           "name": "Wenfei Li"
         },
         {
-          "key": "ming yang",
-          "name": "Ming Yang"
+          "key": "yan zhiqiang",
+          "name": "Zhiqiang Yan"
         }
       ],
-      "abstract_text": "MHCII-peptide binding plays a vital role in immunology. MHCII molecules are primarily expressed on the surface of antigen presenting cells where they capture and present exogenous antigen peptides to helper T cells, thereby activating humoral and cellular immune responses. Designing artificial MHCII binding peptides mimicking native peptides is crucial for vaccine development. However, it is challenge to design artificial binding peptides with conventional structure-based methods since the structures of the peptides are highly flexible at unbound state. In this work, we trained Transformer neural network to design the artificial peptides with sequence-based evolutionary information including the frequency distribution of amino acids at each site and the joint frequency distribution between amino acid pairs extracted from multiple sequence alignment of native peptides. In light of accurate sequence-based scoring function and reliable AlphaFold3 for complex structure prediction, the designed artificial peptides were predicted to have comparable binding affinities as native peptides and high structural confidence (pLDDT > 90.0) when binding to MHCII. Our work establishes a paradigm for designing different kinds of functional peptides and will greatly provide significant assistance to biomedical researchers in the medical and industrial fields.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -529,6 +530,40 @@
         "5.4 Transformer-based",
         "5.Function to Sequence"
       ]
+    },
+    {
+      "id": "9a12c80af14fae2c93d954bf872358f57efe9307ef140e06475319f989546ea3",
+      "identity_keys": [
+        "arxiv:2611.22953",
+        "https://doi.org/10.48550/arXiv.2611.22953"
+      ],
+      "title": "Fiberpose: state-of-the-art fiber morphometry and instance segmentation with a distance-transform neural network",
+      "link": "https://doi.org/10.48550/arXiv.2611.22953",
+      "pdf_url": "https://arxiv.org/pdf/2611.22953v1",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "balashov viktor",
+          "name": "Viktor A. Balashov"
+        },
+        {
+          "key": "antonenko daniil",
+          "name": "Daniil S. Antonenko"
+        }
+      ],
+      "abstract_text": "Analysis of fibrous structures in SEM images is a routine task in biomedical engineering and materials science. However, most available methods for fiber quantification still rely on classical image binarization followed by simple post-processing. These approaches often produce unreliable results in images with weak boundaries, heterogeneous contrast, and densely packed fibers. Here, we introduce Fiberpose, a framework that reformulates fiber analysis as direct regression of a smooth distance-transform (DT) field, together with a novel set of geometry-based algorithms specifically adapted to this representation. The predicted field directly encodes fiber geometry, while the accompanying algorithms enable instance reconstruction and measurement of diameter and orientation within a unified workflow. The framework is implemented as a standalone Python desktop application and a web tool https://fiberpose.org. On an independent dataset of fibrous SEM images, Fiberpose achieved state-of-the-art instance-segmentation accuracy in comparison with SAM2 and Cellpose-SAM, and more accurate diameter measurements than DiameterJ, Fibar and GIFT. The method remains effective in dense and weakly contrasted regions and shows qualitative generalization across microscopy modalities not represented in the training data. Fiberpose therefore provides an interpretable geometric representation and an automated pipeline for reproducible quantitative characterization of fibrous materials.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "9a1584b664602f6aadcc9173a041a11e4cf8bae8605d50462b02531bac596141",

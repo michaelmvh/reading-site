@@ -4,17 +4,18 @@
     {
       "id": "83007ace98b30d64b24a260db986179f2a559d96ed23bdf6227c64cd85ab734b",
       "identity_keys": [
+        "arxiv:2602.00157",
         "https://arxiv.org/abs/2602.00157",
         "https://doi.org/10.48550/arxiv.2602.00157",
         "https://openalex.org/W7127422977"
       ],
       "title": "ProDCARL: Reinforcement Learning-Aligned Diffusion Models for De Novo Antimicrobial Peptide Design",
-      "link": "https://doi.org/10.48550/arxiv.2602.00157",
-      "pdf_url": "https://arxiv.org/pdf/2602.00157",
-      "publication_date": "2026-01-29",
+      "link": "https://arxiv.org/abs/2602.00157",
+      "pdf_url": null,
+      "publication_date": "2026-02-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2602.00157",
       "authors": [
         {
           "key": "fang sheng",
@@ -29,7 +30,7 @@
           "name": "Zahra Shakeri"
         }
       ],
-      "abstract_text": "Antimicrobial resistance threatens healthcare sustainability and motivates low-cost computational discovery of antimicrobial peptides (AMPs). De novo peptide generation must optimize antimicrobial activity and safety through low predicted toxicity, but likelihood-trained generators do not enforce these goals explicitly. We introduce ProDCARL, a reinforcement-learning alignment framework that couples a diffusion-based protein generator (EvoDiff OA-DM 38M) with sequence property predictors for AMP activity and peptide toxicity. We fine-tune the diffusion prior on AMP sequences to obtain a domain-aware generator. Top-k policy-gradient updates use classifier-derived rewards plus entropy regularization and early stopping to preserve diversity and reduce reward hacking. In silico experiments show ProDCARL increases the mean predicted AMP score from 0.081 after fine-tuning to 0.178. The joint high-quality hit rate reaches 6.3\\% with pAMP $>$0.7 and pTox $<$0.3. ProDCARL maintains high diversity, with $1-$mean pairwise identity equal to 0.929. Qualitative analyses with AlphaFold3 and ProtBERT embeddings suggest candidates show plausible AMP-like structural and semantic characteristics. ProDCARL serves as a candidate generator that narrows experimental search space, and experimental validation remains future work.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

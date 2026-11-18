@@ -806,6 +806,41 @@
       "curated_categories": []
     },
     {
+      "id": "c71f7328b5d2bc46105218857954222eee117f86737918233078a591ddc2d4bb",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.767019v1",
+        "https://doi.org/10.64898/2026.11.16.767019",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.16.767019.source.xml"
+      ],
+      "title": "EvoRx: Machine Learning-Based Prediction of Antibiotic Resistance in Escherichia coli Using Genomic Features",
+      "link": "https://doi.org/10.64898/2026.11.16.767019",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767019v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "arora",
+          "name": "Arora, A"
+        },
+        {
+          "key": "natarajan",
+          "name": "Natarajan, E"
+        }
+      ],
+      "abstract_text": "Antimicrobial resistance (AMR) complicates bacterial infection management, motivating genomic approaches to predicting antibiotic susceptibility. This study assessed the predictive performance and generalisability of machine-learning models using resistance-associated genomic features from Escherichia coli. Publicly available genomic and phenotypic records yielded 446 genomes, 252 binary genomic features and 1,935 susceptibility observations across nine antibiotics. Logistic Regression, Random Forest and XGBoost classifiers were compared using validation ROC-AUC, followed by evaluation on held-out test subsets. Additional analyses examined identical genomic feature profiles across partitions, performance across source publications and feature redundancy. Ampicillin and trimethoprim-sulfamethoxazole achieved held-out accuracies of 93.98% and 93.59%, ROC-AUC values of 0.912 and 0.954, and resistant-isolate recall of 95.16% and 94.55%, respectively. In contrast, ceftazidime achieved 88.52% accuracy and 0.940 ROC-AUC but identified only 22.22% of resistant isolates. Seventy-four held-out observations shared identical 252-feature profiles with training isolates; all were correctly classified. After excluding overlapping observations without retraining, ROC-AUC decreased from 0.912 to 0.848 for ampicillin and from 0.954 to 0.901 for trimethoprim-sulfamethoxazole. Exploratory cross-publication evaluations showed variable performance, with shared multilocus sequence types in 16 of 18 comparisons. Reducing genomic features did not materially alter validation performance in the two antibiotics examined. These findings indicate that genomic predictors can discriminate resistance phenotypes, but aggregate accuracy may obscure poor resistant-isolate detection. The findings also distinguish performance on conventionally held-out isolates from performance on previously unseen resistance-feature profiles, an important consideration when bacterial population structure and correlated determinants substantially influence model evaluation. Independent phylogenetic and prospective validation remains necessary before clinical use.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c721f578078c3d0f8cb321975797da660bce5006ea989ce4b34f49e0273ec907",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68807-4",
@@ -5202,11 +5237,11 @@
       ],
       "title": "Customizing Spider Silk: Generative Models with Mechanical Property Conditioning for Protein Engineering",
       "link": "https://doi.org/10.48550/arxiv.2504.08437",
-      "pdf_url": "https://arxiv.org/pdf/2504.08437",
+      "pdf_url": null,
       "publication_date": "2025-04-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Transactions on machine learning research",
       "authors": [
         {
           "key": "dubey neeru",

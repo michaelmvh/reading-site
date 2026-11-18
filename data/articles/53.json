@@ -2745,24 +2745,25 @@
     {
       "id": "538aad67fca6672a6b40a9d21275ce57eb5a0ef1f3c9de4058c1a1cf6ae827d3",
       "identity_keys": [
+        "doi:10.64898/2026.07.30.741542",
         "https://doi.org/10.64898/2026.07.30.741542",
         "https://openalex.org/W7171812559"
       ],
       "title": "The Human Bindome: A Proteome-scale Atlas of Designed Binder Candidates",
       "link": "https://doi.org/10.64898/2026.07.30.741542",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/30/2026.07.30.741542.full.pdf",
+      "pdf_url": null,
       "publication_date": "2026-07-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2026.07.30.741542",
       "authors": [
         {
           "key": "julius wenckstern",
           "name": "Julius Wenckstern"
         },
         {
-          "key": "anna díaz rovira",
-          "name": "Anna M. Díaz-Rovira"
+          "key": "anna diaz rovira",
+          "name": "Anna M. Diaz-Rovira"
         },
         {
           "key": "julia kuhn",
@@ -2801,16 +2802,16 @@
           "name": "Devanarayanan Siva Sankar"
         },
         {
-          "key": "dünnebacke maximilian",
-          "name": "Maximilian Dünnebacke"
+          "key": "dunnebacke maximilian",
+          "name": "Maximilian Dunnebacke"
         },
         {
           "key": "david desscan",
           "name": "David Desscan"
         },
         {
-          "key": "nair sasidharan sreenath",
-          "name": "Sreenath Sasidharan Nair"
+          "key": "nair sreenath",
+          "name": "Sreenath Nair"
         },
         {
           "key": "afonso lima marcelo querino",
@@ -2822,7 +2823,7 @@
         },
         {
           "key": "sameer velankar",
-          "name": "Sameer S Velankar"
+          "name": "Sameer Velankar"
         },
         {
           "key": "ablasser andrea",
@@ -2834,7 +2835,7 @@
         },
         {
           "key": "georg winter",
-          "name": "Georg E. Winter"
+          "name": "Georg Winter"
         },
         {
           "key": "mikko taipale",
@@ -2845,7 +2846,7 @@
           "name": "Bruno E. Correia"
         }
       ],
-      "abstract_text": "ABSTRACT Affinity reagents such as antibodies are indispensable for interrogating proteins’ biological function. Yet they are costly and frequently unreliable, with unknown sequences, posing challenges to reproducible experimental research. Deep learning-based protein design can now in silico generate affinity reagents achieving reliable experimental success rates, but has remained largely confined to specialist laboratories. Here we present the Human Bindome, a proteome-scale atlas of high-confidence in silico protein binder candidates. By embedding the experimentally benchmarked BindCraft method in an accelerated, parallelized framework with automated domain-level target selection, we generated 306,146 binder candidates covering 8,296 human proteins (40.9% of the full proteome). Every candidate carries a defined sequence, a predicted binder-target structure model, and in silico confidence metrics. We characterize proteome-wide coverage and show that binder epitopes frequently overlap functional sites. This positions the Bindome as a resource of genetically encodable perturbagens for site-specific, modular control of protein function. The Bindome is freely available through a web interface ( https://bindome.epfl.ch ), with agentic, natural-language querying and as data splits for machine-learning model development. We anticipate that the Bindome will be valuable for the scientific community by providing affinity and perturbation reagents with broad applications in dissecting biological mechanisms as well as in drug and target discovery.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5665,8 +5666,8 @@
           "name": "Rosana Collepardo‐Guevara"
         },
         {
-          "key": "espinosa jorge",
-          "name": "Jorge R. Espinosa"
+          "key": "espinosa jorge rene",
+          "name": "Jorge Rene Espinosa"
         }
       ],
       "abstract_text": "Intrinsically disordered proteins, topologically complex protein surfaces, and biomolecular condensates regulate essential cellular processes but remain difficult to drug with conventional small molecules. Here, we present PepSpace, a physics-driven directed-evolution platform coupling residue-resolution coarse-grained molecular dynamics with a multi-objective genetic algorithm. PepSpace designs peptide binders by rewarding target engagement while penalizing peptide self-association and off-target binding. Evaluated alongside deep-learning generative models across multiple targets, PepSpace-designed peptides achieve predicted interaction strengths up to two orders of magnitude greater than machine-learning designs, while reproducing experimentally observed binding hierarchies and revealing distinct binding modes. For PIEZO1, PepSpace designs 25-mer peptides that preferentially engage a defined 30-residue intracellular beam epitope while suppressing interactions with the remainder 2,547-residues of the protein. For CHERP biomolecular condensates, dual-action peptides weaken native intermolecular contacts and destabilize the condensed phase. PepSpace provides a physically grounded framework for de novo peptide design against dynamic protein targets and biomolecular condensates, with explicit control over specificity, solubility, and collective interactions.",

@@ -5051,17 +5051,18 @@
     {
       "id": "8ebb20a4aa5cd028c07290e76ee8c0c952ec633c27f4b7d9cc1ba5a77fad810e",
       "identity_keys": [
+        "arxiv:2602.06706",
         "https://arxiv.org/abs/2602.06706",
         "https://doi.org/10.48550/arxiv.2602.06706",
         "https://openalex.org/W7128397824"
       ],
       "title": "SaDiT: Efficient Protein Backbone Design via Latent Structural Tokenization and Diffusion Transformers",
-      "link": "https://doi.org/10.48550/arxiv.2602.06706",
-      "pdf_url": "https://arxiv.org/pdf/2602.06706",
-      "publication_date": "2026-02-06",
+      "link": "https://arxiv.org/abs/2602.06706",
+      "pdf_url": null,
+      "publication_date": "2026-02-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2602.06706",
       "authors": [
         {
           "key": "mo shentong",
@@ -5072,7 +5073,7 @@
           "name": "Lanqing Li"
         }
       ],
-      "abstract_text": "Generative models for de novo protein backbone design have achieved remarkable success in creating novel protein structures. However, these diffusion-based approaches remain computationally intensive and slower than desired for large-scale structural exploration. While recent efforts like Proteina have introduced flow-matching to improve sampling efficiency, the potential of tokenization for structural compression and acceleration remains largely unexplored in the protein domain. In this work, we present SaDiT, a novel framework that accelerates protein backbone generation by integrating SaProt Tokenization with a Diffusion Transformer (DiT) architecture. SaDiT leverages a discrete latent space to represent protein geometry, significantly reducing the complexity of the generation process while maintaining theoretical SE(3) equivalence. To further enhance efficiency, we introduce an IPA Token Cache mechanism that optimizes the Invariant Point Attention (IPA) layers by reusing computed token states during iterative sampling. Experimental results demonstrate that SaDiT outperforms state-of-the-art models, including RFDiffusion and Proteina, in both computational speed and structural viability. We evaluate our model across unconditional backbone generation and fold-class conditional generation tasks, where SaDiT shows superior ability to capture complex topological features with high designability.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

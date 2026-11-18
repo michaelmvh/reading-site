@@ -1287,6 +1287,45 @@
       "curated_categories": []
     },
     {
+      "id": "ac37f585f95275602804b5e5a5fe0ce1a3f1d8a5cc2c6a8f809314051e592930",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.11.765824v1",
+        "https://doi.org/10.64898/2026.11.11.765824",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.11.765824.source.xml"
+      ],
+      "title": "Evaluating local assembly strategies for human long-read structural variant calling",
+      "link": "https://doi.org/10.64898/2026.11.11.765824",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765824v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "mirus",
+          "name": "Mirus, T"
+        },
+        {
+          "key": "luepken",
+          "name": "Luepken, R"
+        },
+        {
+          "key": "kehr",
+          "name": "Kehr, B"
+        }
+      ],
+      "abstract_text": "Long-read sequencing enables detection of structural variants (SVs) with far greater accuracy and completeness than was previously possible. This advance has spurred the development of many SV callers that implement diverse algorithmic strategies. Commonly, SV calling proceeds in several processing steps. Evaluations of SV callers, however, typically focus on overall performance and conceal which steps drive observed differences. This hinders targeted, evidence-based improvements to existing SV calling approaches. Here, we implemented five consensus computation strategies similar to those employed by popular SV callers that perform a local assembly. We compare their outputs on extensive simulated and real data and reveal that some strategies are more effective for particular input data types. For example, the strategy employed by PacBio's tool Sawfish works very well on HiFi reads and recent ONT data, but fails on the older and noisier ONT reads. While the read error profiles and the read pre-processing has a substantial influence on some strategies, other strategies are more robust overall. These findings guide algorithmic decisions for the development of improved future SV callers.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ac3a2a3fe7ced9a36989dc04fdb7916a045a14c6e8aafeb678dc97f01bd02977",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-11075-5",

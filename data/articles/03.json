@@ -3646,6 +3646,54 @@
       "curated_categories": []
     },
     {
+      "id": "03d1c1d50dd7aa49e8a5f19559defd420b175aa5af83a96134a532352de34542",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.09.17.676530v4",
+        "https://doi.org/10.1101/2025.09.17.676530",
+        "https://www.biorxiv.org/content/early/2026/09/17/2025.09.17.676530.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/17/2025.09.17.676530.source.xml"
+      ],
+      "title": "Constructing Gene Regulatory Network using Chatterjee's Rank Correlation with Single-cell Transcriptomic Data",
+      "link": "https://doi.org/10.1101/2025.09.17.676530",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.17.676530v4.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "gupta",
+          "name": "Gupta, S"
+        },
+        {
+          "key": "chaudhuri",
+          "name": "Chaudhuri, A"
+        },
+        {
+          "key": "raghuraman",
+          "name": "Raghuraman, V"
+        },
+        {
+          "key": "ni",
+          "name": "Ni, Y"
+        },
+        {
+          "key": "cai",
+          "name": "Cai, J. J"
+        }
+      ],
+      "abstract_text": "Constructing gene regulatory networks (GRNs) from single-cell RNA sequencing (scRNA-seq) data is critical for understanding cellular systems, yet existing methods rely either on strong modeling assumptions or on computationally intensive algorithms. We introduce a multiple testing framework for GRN construction based on Chatterjee's rank correlation coefficient, a nonparametric measure of dependence that captures non-linear and non-monotone relationships. The framework overcomes several limitations of traditional methods by offering a transparent, scalable, and computationally efficient alternative to recent black-box machine learning models. Because cells in scRNA-seq data are not independent observations, we develop a data-driven algorithm for estimating robust testing cutoffs. We further exploit the asymmetric nature of Chatterjee's correlation to propose a new test for asymmetric predictive associations, yielding biologically meaningful and directionally informed GRNs. In simulations, our method matches or outperforms state-of-the-art approaches in recovering true gene-gene dependencies and asymmetric associations, particularly for complex, non-linear dependencies. Application to real scRNA-seq data shows its utility for dissecting complex regulatory networks.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "03d96c6d9f285e4078c4a2521ba2d19218b8baaf3a2559ad70a6f703b5b5c1e9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67511-z",

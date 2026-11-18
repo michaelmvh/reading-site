@@ -1516,17 +1516,18 @@
     {
       "id": "8239cc1bcb8330c26ff180ce46a520f65138f21dacd48dce53105d911ef4d247",
       "identity_keys": [
+        "doi:10.64898/2026.03.31.715526",
         "https://doi.org/10.1002/advs.76464",
         "https://doi.org/10.64898/2026.03.31.715526",
         "https://openalex.org/W7171858671"
       ],
-      "title": "A Generative Neuro‐Symbolic AI for Protein Sequence Design",
-      "link": "https://doi.org/10.1002/advs.76464",
+      "title": "A Generative Neuro-Symbolic AI for Protein Sequence Design",
+      "link": "https://doi.org/10.64898/2026.03.31.715526",
       "pdf_url": null,
-      "publication_date": "2026-07-30",
+      "publication_date": "2026-03-31",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "Advanced Science",
+      "venue": "bioRxiv 2026.03.31.715526",
       "authors": [
         {
           "key": "defresne marianne",
@@ -1546,7 +1547,7 @@
         },
         {
           "key": "ammar khodja liza",
-          "name": "Liza Ammar Khodja"
+          "name": "Liza Ammar-Khodja"
         },
         {
           "key": "azizi bessam",
@@ -1569,8 +1570,8 @@
           "name": "Alain Roussel"
         },
         {
-          "key": "alles fernando garcia luis",
-          "name": "Luis Fernando Garcia-Alles"
+          "key": "alles garcia luis",
+          "name": "Luis Garcia-Alles"
         },
         {
           "key": "schiex thomas",
@@ -1581,7 +1582,7 @@
           "name": "Sophie Barbe"
         }
       ],
-      "abstract_text": "Deep learning has revolutionized computational protein design, enabling the generation of sequences that fold onto target backbones with unprecedented accuracy. However, state-of-the-art inverse folding tools largely rely on auto-regressive sampling. While powerful, this paradigm is increasingly recognized for its inability to \"think ahead\", a crucial capacity to reliably create the complex, long-range inter-residue dependencies essential for most biological functions. To overcome these fundamental limitations, we introduced EffieDes, a generative neuro-symbolic AI framework that synergizes the predictive capabilities of deep learning with the logical precision of automated reasoning. EffieDes leverages deep learning to encode the target backbone's fitness landscape into Effie-a fully decomposable probabilistic graphical model (Potts model). This landscape can then be rigorously explored by an automated reasoning prover to identify sequences that simultaneously satisfy complex design constraints and optimize backbone fitness. We validated this neuro-symbolic approach through the design of orthogonal sequence pairs that adopt identical folds but exhibit selective self-assembly, as well as the design of a de novo selective nanobody with nanomolar affinity for an immune-evasive SARS-CoV-2 variant. EffieDes provides a robust architecture for precisely dissecting learned fitness landscapes, offering a new path toward proteins with highly optimized performances and sophisticated functional objectives.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6928,17 +6929,18 @@
     {
       "id": "82e6e667d90541c4481d2f4d9c0963157ce3beaaf827a7fe523ff86b48cbea3c",
       "identity_keys": [
+        "arxiv:2512.02033",
         "https://arxiv.org/abs/2512.02033",
         "https://doi.org/10.48550/arxiv.2512.02033",
         "https://openalex.org/W4416999513"
       ],
       "title": "CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design",
-      "link": "https://doi.org/10.48550/arxiv.2512.02033",
-      "pdf_url": "https://arxiv.org/pdf/2512.02033",
-      "publication_date": "2025-11-20",
+      "link": "https://arxiv.org/abs/2512.02033",
+      "pdf_url": null,
+      "publication_date": "2025-12-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2512.02033",
       "authors": [
         {
           "key": "gao zijun",
@@ -6950,7 +6952,7 @@
         },
         {
           "key": "shijia sun",
-          "name": "Sun, Shijia"
+          "name": "Shijia Sun"
         },
         {
           "key": "cao hanqun",
@@ -6970,11 +6972,11 @@
         },
         {
           "key": "xiaojun yao",
-          "name": "Yao, Xiaojun"
+          "name": "Xiaojun Yao"
         },
         {
           "key": "chang hsieh yu",
-          "name": "Chang‐Yu Hsieh"
+          "name": "Chang-Yu Hsieh"
         },
         {
           "key": "chunbin gu",
@@ -6982,10 +6984,10 @@
         },
         {
           "key": "ann heng pheng",
-          "name": "Pheng‐Ann Heng"
+          "name": "Pheng Ann Heng"
         }
       ],
-      "abstract_text": "Reliable evaluation of protein structure predictions remains challenging, as metrics like pLDDT capture energetic stability but often miss subtle errors such as atomic clashes or conformational traps reflecting topological frustration within the protein folding energy landscape. We present CODE (Chain of Diffusion Embeddings), a self evaluating metric empirically found to quantify topological frustration directly from the latent diffusion embeddings of the AlphaFold3 series of structure predictors in a fully unsupervised manner. Integrating this with pLDDT, we propose CONFIDE, a unified evaluation framework that combines energetic and topological perspectives to improve the reliability of AlphaFold3 and related models. CODE strongly correlates with protein folding rates driven by topological frustration, achieving a correlation of 0.82 compared to pLDDT's 0.33 (a relative improvement of 148\\%). CONFIDE significantly enhances the reliability of quality evaluation in molecular glue structure prediction benchmarks, achieving a Spearman correlation of 0.73 with RMSD, compared to pLDDT's correlation of 0.42, a relative improvement of 73.8\\%. Beyond quality assessment, our approach applies to diverse drug design tasks, including all-atom binder design, enzymatic active site mapping, mutation induced binding affinity prediction, nucleic acid aptamer screening, and flexible protein modeling. By combining data driven embeddings with theoretical insight, CODE and CONFIDE outperform existing metrics across a wide range of biomolecular systems, offering robust and versatile tools to refine structure predictions, advance structural biology, and accelerate drug discovery.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",

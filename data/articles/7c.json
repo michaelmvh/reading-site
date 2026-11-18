@@ -1039,12 +1039,12 @@
         "https://openalex.org/W7168178203"
       ],
       "title": "Variable-Length Generative Protein Design via Generalized Poisson Flow",
-      "link": "https://doi.org/10.48550/arxiv.2607.09039",
-      "pdf_url": "https://arxiv.org/pdf/2607.09039",
-      "publication_date": "2026-07-10",
+      "link": "https://arxiv.org/abs/2607.09039",
+      "pdf_url": null,
+      "publication_date": "2026-07-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv:2607.09039",
       "authors": [
         {
           "key": "chaoran cheng",
@@ -1075,7 +1075,7 @@
           "name": "Ge Liu"
         }
       ],
-      "abstract_text": "The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative framework that learns the rate function of an inhomogeneous generalized Poisson process by minimizing its negative log-likelihood. We establish population-level guarantees for recovering the joint multimodal distribution and derive an upper bound on the KL divergence between the data and generated distributions. We comprehensively evaluate GPFlow across structure and sequence design, motif scaffolding, and peptide co-design, spanning Euclidean, categorical, and Riemannian modalities to fully validate its variable-length generation quality. In unconditional design, GPFlow improves structural designability and achieves the best distributional fitness for sequence design compared to their corresponding fixed-length baselines, while perfectly recovering the length distribution. In conditional motif scaffolding, GPFlow ranks first on 10 of 16 structure-based design tasks with significantly more unique successes and also achieves more passed tasks in sequence-based design. In peptide co-design, GPFlow remains competitive even without access to a native-length oracle.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3303,16 +3303,17 @@
     {
       "id": "7cad2042cb02267784bcc8cea6b2aba735217eee98c3d22c2af5c5f61bea588d",
       "identity_keys": [
+        "doi:10.64898/2026.07.02.736098",
         "https://doi.org/10.64898/2026.07.02.736098",
         "https://openalex.org/W7167278300"
       ],
       "title": "A generalizable interface-seeded framework for de novo design of functional oligomers",
       "link": "https://doi.org/10.64898/2026.07.02.736098",
-      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.07.02.736098.full.pdf",
-      "publication_date": "2026-07-03",
+      "pdf_url": null,
+      "publication_date": "2026-07-02",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "venue": "bioRxiv 2026.07.02.736098",
       "authors": [
         {
           "key": "chim ho yeung",
@@ -3323,8 +3324,8 @@
           "name": "Mubarak Olanrewaju Idris"
         },
         {
-          "key": "rieger",
-          "name": "D. L. RIEGER"
+          "key": "dominic rieger",
+          "name": "Dominic Rieger"
         },
         {
           "key": "phillip schlegel",
@@ -3383,7 +3384,7 @@
           "name": "Alena Khmelinskaia"
         }
       ],
-      "abstract_text": "Abstract Protein oligomers are ubiquitous in biological systems and essential for function. However, the de novo design of oligomers that controllably assemble in response to exogenous stimuli remains challenging. Here, we present an AI-based generative approach that leverages an interface-seeded strategy for designing responsive homo-oligomers from isolated interaction modules. Experimentally validated designs are highly accurate and explore new-to-nature topologies. We show that designs effectively respond to their chemical triggers with conditional oligomerization or to phosphorylation-driven conformational changes with reversible oligomerization. We further functionalized our responsive assemblies to build ligand-dependent membrane binding systems and phosphorylation-controlled gene regulatory switches. Our framework enables the generalizable design of responsive protein complexes, opening novel possibilities for the engineering of biosynthetic systems with sophisticated regulatory mechanisms.",
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "curated_collection",
