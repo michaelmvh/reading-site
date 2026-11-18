@@ -2359,18 +2359,18 @@
       "title": "ProtGPT3: an Open-source family of Promptable and Aligned Protein Language Models",
       "link": "https://doi.org/10.64898/2026.06.04.730041",
       "pdf_url": null,
-      "publication_date": "2026-06-04",
+      "publication_date": "2026-06-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.06.04.730041",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "garibbo michele",
           "name": "Michele Garibbo"
         },
         {
-          "key": "boxó gerard",
-          "name": "Gerard Boxó"
+          "key": "boxo corominas gerard",
+          "name": "Gerard Boxo Corominas"
         },
         {
           "key": "filippo stocco",
@@ -2389,7 +2389,7 @@
           "name": "Noelia Ferruz"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Generative protein language models (pLMs) enable exploration of vast sequence spaces for protein design, but reliably controlling generation toward desired functional families remains challenging. While protein generation has broadly followed trends in NLP, two directions remain underexplored: alignment methods that optimize model behavior toward design objectives, and prompting-based control at inference time without fine-tuning. We introduce ProtGPT3, an open-source family of protein language models spanning 112M to 10B parameters and integrated with the Hugging Face ecosystem. The suite includes both single-sequence and multiple sequence alignment (MSA)-promptable models, enabling flexible conditioning for generation. Across model scales and protein families, we systematically compare supervised fine-tuning and few-shot prompting using homologous sequences. Analogous to how large language models (LLMs) are routinely aligned with user intent, we study post-training alignment in single-sequence models using sequence-complexity and structure-confidence metrics across the proteome. We find that alignment reduces low-complexity generations while preserving sequence diversity. Furthermore, we show that few-shot prompting is a competitive and more scalable alternative to supervised fine-tuning for controlled generation. In a low-data defluorinase case study, ProtGPT3-MSA achieved higher computational success rates than fine-tuned baselines and produced designs that were soluble and expressed following experimental validation. Finally, we explore the potential of inference-time compute in MSA models by introducing a homolog-based Feynman–Kac inference procedure for steering protein generation toward desired targets. All models are publicly available at https://huggingface.co/collections/AI4PD/protgpt3-family .",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -4248,12 +4248,12 @@
         "https://openalex.org/W7140407434"
       ],
       "title": "Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability",
-      "link": "https://arxiv.org/abs/2602.14828",
-      "pdf_url": null,
-      "publication_date": "2026-02-01",
+      "link": "https://doi.org/10.1038/s41598-026-45458-5",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-45458-5_reference.pdf",
+      "publication_date": "2026-03-26",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2602.14828",
+      "venue": "Scientific Reports",
       "authors": [
         {
           "key": "ana rodrigues",
@@ -4272,11 +4272,11 @@
           "name": "Pedro Giesteira Cotovio"
         },
         {
-          "key": "catia pesquita",
-          "name": "Catia Pesquita"
+          "key": "cátia pesquita",
+          "name": "Cátia Pesquita"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Effective representations of protein sequences are widely recognized as a cornerstone of machine learning-based protein design. Yet, protein bioengineering poses unique challenges for sequence representation, as experimental datasets typically feature few mutations, which are either sparsely distributed across the entire sequence or densely concentrated within localized regions. This limits the ability of sequence-level representations to extract functionally meaningful signals. In addition, comprehensive comparative studies remain scarce, despite their crucial role in clarifying which representations best encode relevant information and ultimately support superior predictive performance. In this study, we systematically evaluate multiple ProtBERT and ESM2 embedding variants as sequence representations, using the adeno-associated virus capsid as a case study and prototypical example of bioengineering, where functional optimization is targeted through highly localized sequence variation within an otherwise large protein. Our results reveal that, prior to fine-tuning, amino acid–level embeddings outperform sequence-level representations in supervised predictive tasks, whereas global sequence-level embeddings tend to be more effective in unsupervised settings. However, optimal performance is only achieved when embeddings are fine-tuned with task-specific labels, with sequence-level representations providing the best performances. Moreover, our findings indicate that the extent of sequence variation required to produce notable shifts in sequence representations exceeds what is typically explored in bioengineering studies, showing the need for fine-tuning in datasets characterized by sparse or highly localized mutations.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5119,11 +5119,11 @@
       ],
       "title": "Redesign selective protein binders using contrastive decoding",
       "link": "https://doi.org/10.64898/2026.05.09.722041",
-      "pdf_url": null,
-      "publication_date": "2026-05-09",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/05/13/2026.05.09.722041.full.pdf",
+      "publication_date": "2026-05-13",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.05.09.722041",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "xie ziwei",
@@ -5134,7 +5134,7 @@
           "name": "Jinbo Xu"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Motivation Fixed-backbone sequence design methods such as ProteinMPNN operate on backbone coordinates alone and cannot represent target side-chains at the binding interface. Their decoding algorithm also lacks a mechanism to balance binding affinity and folding stability or to improve selectivity against structurally similar off-targets. These gaps limit the computational design of protein binders with high affinity and specificity. Results We present RedNet, a multiscale graph neural network that encodes side-chain information of the binding target. We further develop a contrastive decoding algorithm, motivated by the thermodynamic decomposition of binding free energy, that addresses two objectives: (1) balancing binding affinity and folding stability, and (2) improving selectivity against structurally similar off-targets. RedNet reaches 43% native sequence recovery on heterodimers, compared with 37% for ProteinMPNN and 33% for ESM-IF. With contrastive decoding, it matches native-sequence co-folding success (68%) on high-confidence AlphaFold3 targets, exceeding ProteinMPNN (59%) and ESM-IF (61%). On a new benchmark of structurally similar on-/off-target pairs, RedNet with contrastive decoding reaches 64.8% energetic selectivity, ahead of PiFold (55.6%), ProteinMPNN (53.7%), and ESM-IF (53.7%). Availability Source code and datasets are released at https://github.com/zw2x/rednet_public . Contact jinbo.xu@gmail.com",
       "discovery_sources": [
         {
           "kind": "open_alex",

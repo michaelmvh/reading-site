@@ -1202,6 +1202,40 @@
       "curated_categories": []
     },
     {
+      "id": "ce3267f264891a123a5196ab6db433b42590b8de1078689b7ddb85000c2eed35",
+      "identity_keys": [
+        "https://doi.org/10.63163/jpehss.v4i1.1778",
+        "https://openalex.org/W7235153202"
+      ],
+      "title": "AI-Driven Protein Engineering and Molecular Dynamics-Based Optimization of Enzyme Stability and Catalytic Activity",
+      "link": "https://doi.org/10.63163/jpehss.v4i1.1778",
+      "pdf_url": null,
+      "publication_date": "2026-03-28",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Physical Education Health and Social Sciences",
+      "authors": [
+        {
+          "key": "khan sudeer",
+          "name": "Sudeer Khan"
+        },
+        {
+          "key": "aiman khan",
+          "name": "Aiman Khan"
+        }
+      ],
+      "abstract_text": "Engineering enzymes that are both stable and highly active is limited by a trade-off in which stabilizing mutations often depress catalysis. We hypothesize that this trade-off arises from how mutations redistribute the conformational ensemble, not from static energetics alone. Current AI-guided pipelines optimize static proxies (predicted ΔΔG, language-model likelihood) and use molecular dynamics (MD) only for post hoc inspection. We present MF-DynOpt, a closed-loop framework that (i) generates variants with protein language models and inverse folding; (ii) routes them through a four-level fidelity cascade (language-model scoring, learned ΔΔG, adaptive-replica MD, alchemical free energy) whose escalation is governed by weighted conformal prediction; (iii) optimizes a new, theory-grounded objective, Productive Occupancy (PO), the probability that the enzyme–substrate complex populates a catalytically competent near-attack ensemble, jointly with stability using cost-aware multi-objective Bayesian optimization; and (iv) uses an Allosteric Mutation Prior (AMP) derived from dynamical networks to favor distal substitutions. We evaluate the framework in three tiers: retrospective validation on public data, benchmark replay against seven baselines at equal compute, and prospective experimental validation on [enzyme]. PO versus experimental kcat/KM (Spearman ρ = __, versus __ for ΔΔG); hypervolume gain of __% over the strongest baseline at equal compute; dual-success rate of __/__ variants (ΔTm ≥ +5 °C and kcat/KM ≥ 0.8 × parent) versus __/__ for baselines; GPU-hours per dual-success reduced by __%.]. The framework tests the claim that distal, dynamically decoupled mutations can raise global stability without depleting productive occupancy, and supplies falsifiable predictions (temperature dependence of kcat, HDX-MS) for that claim. Limitations include reliance on classical force fields and finite sampling of slow gating motions.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ce34d27002aaaed3fdfd469d5734aced8ba6cb222055a8aa847408c3707cd2df",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76891-9",

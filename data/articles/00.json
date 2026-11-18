@@ -2078,7 +2078,7 @@
       ],
       "title": "Lattice protein design using Bayesian learning",
       "link": "https://doi.org/10.1103/physreve.104.014404",
-      "pdf_url": "https://arxiv.org/pdf/2003.06601",
+      "pdf_url": null,
       "publication_date": "2021-07-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -3285,12 +3285,12 @@
         "https://openalex.org/W7171566745"
       ],
       "title": "De novo design of metalloproteases for targeted amyloid-β cleavage",
-      "link": "https://doi.org/10.64898/2026.01.06.697903",
-      "pdf_url": null,
-      "publication_date": "2026-01-06",
+      "link": "https://doi.org/10.15302/vita.2026.07.0055",
+      "pdf_url": "https://www.vita-journal.com/vita/EN/PDF/10.15302/vita.2026.07.0055",
+      "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.01.06.697903",
+      "venue": "Vita",
       "authors": [
         {
           "key": "qu yannan",
@@ -3313,7 +3313,7 @@
           "name": "Longxing Cao"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "De novo protein design has not yet achieved the creation of proteases capable of selectively cleaving any desired peptide bond within a native protein with high precision. Here, we report the use of the flow-based generative model ProteusFlow to design metalloproteases by generating enzyme–substrate complexes conditioned on a target peptide sequence and a predefined catalytic motif. Our approach employs a two-step encapsulation strategy to create clamp-like metalloproteases that bind the target peptide in a manner that maximizes substrate sequence recognition. This generative process simultaneously optimizes the selective positioning of the target peptide bond within a catalytically competent configuration and accurately scaffolds the transition state catalytic residues. Using this strategy, we designed zinc metalloproteases targeting three distinct cleavage sites within the aggregation-prone regions of amyloid-β (Aβ), a key pathogenic factor in Alzheimer’s disease. Experimental validation confirmed that the designed metalloproteases possess substrate cleavage activity and are capable of degrading Aβ peptides into smaller fragments. Cryo-EM structures of three designed enzymes in complex with the Aβ peptide, each targeting a distinct cleavage site, matched closely the computational design models. Structure-guided optimization further enhanced catalytic activity and substrate affinity. Together, these results demonstrate the potential of sequence-guided generative approaches for achieving programmable, sequence-selective proteolysis and lay the groundwork for future applications in basic research and therapeutic development.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4063,10 +4063,10 @@
       "title": "OpenGerminal: an open-source implementation of the Germinal antibody design pipeline",
       "link": "https://doi.org/10.64898/2026.06.25.734527",
       "pdf_url": null,
-      "publication_date": "2026-06-25",
+      "publication_date": "2026-06-29",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.06.25.734527",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "bing han",
@@ -4077,7 +4077,7 @@
           "name": "Sheng Li"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Summary Germinal is a recently described computational pipeline for de novo antibody design that combines AlphaFold-Multimer hallucination with antibody language model guidance to generate epitope- targeted antibodies. Germinal identified binders with nanomolar-to-low-micromolar affinities by testing only 43–101 designs per target across four diverse antigens, establishing it as a practical tool for epitope-directed antibody design accessible to standard academic laboratories. As this architecture is itself very recent, systematic replacement and benchmarking of its individual components remains largely unexplored, yet offers a valuable opportunity to probe the robustness of the underlying design. We present OpenGerminal, which replaces PyRosetta with a fully open- source stack comprising OpenMM 8.5.1, FreeSASA, FASPR, Biopython, and sc-rs v1.0.0, and adopts AbLang1 (ablang2 v0.2.1) as the sole antibody language model in place of IgLM. Benchmarking on two VHH targets (PD-L1 and IL-3) reveals that OpenGerminal achieves a markedly higher cofolding pass rate (PD-L1: 33.7% vs. 18.6%; IL-3: 24.6% vs. 8.0%) with equivalent or improved Chai-1 structural confidence metrics in accepted designs, at the cost of a modest increase in per-trajectory computation time (≥1.5×). Multi-chain target support is also extended and verified to run without error on the official insulin example. OpenGerminal provides the first systematic benchmarking of IgLM versus AbLang1 within the Germinal architecture, and its fully open-source component stack broadens the range of deployment contexts in which the pipeline can be used. Availability and Implementation Source code is freely available at https://github.com/teaninja/OpenGerminal under the Apache 2.0 license. Persistent archives with DOIs are available at https://doi.org/10.5281/zenodo.20755400 (code) and https://doi.org/10.5281/zenodo.20756013 (container image). OpenGerminal is implemented in Python and distributed as an Apptainer container (opengerminal_v1.0.0.sif). Installation instructions and example configurations are provided in the repository. Contact bh7bu@virginia.edu Supplementary information Supplemental Figure 1 is available online.",
       "discovery_sources": [
         {
           "kind": "open_alex",

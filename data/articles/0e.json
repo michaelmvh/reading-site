@@ -3870,6 +3870,53 @@
       "curated_categories": []
     },
     {
+      "id": "0e8f6be668542886d0bb9fbeaac63b40a0054a16057514d3dc9262bc3abb160e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767145v1",
+        "https://doi.org/10.64898/2026.11.17.767145",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.17.767145.source.xml"
+      ],
+      "title": "DRAFT: graph-recurrent learning of dynamic gene regulatory networks along single-cell multi-omics trajectories",
+      "link": "https://doi.org/10.64898/2026.11.17.767145",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767145v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, Z"
+        },
+        {
+          "key": "santhi sekhar",
+          "name": "Santhi Sekhar, P"
+        },
+        {
+          "key": "nierop sanchez van",
+          "name": "van Nierop y Sanchez, P"
+        },
+        {
+          "key": "lohmann",
+          "name": "Lohmann, I"
+        },
+        {
+          "key": "velten",
+          "name": "Velten, B"
+        }
+      ],
+      "abstract_text": "Single-cell multi-omics data offer an opportunity to resolve how gene regulatory networks (GRNs) are rewired during cell-fate transitions, but most existing methods infer static snapshots, ignore temporal dependencies or assume linear regulation. Here we present DRAFT, a deep learning framework that combines graph attention with recurrent temporal memory to infer dynamic GRNs from time-resolved single-cell multi-omics data. On simulated data, DRAFT outperforms existing methods in accuracy and temporal smoothness. In mouse cellular reprogramming and Drosophila adult spermatogenesis, it recovers interactions supported by independent ChIP-seq, perturbation and Hi-C data, together with known stage-specific regulators. By inferring regulatory activity from dynamic network structure rather than expression alone, DRAFT identifies regulators whose activity precedes their transcriptional peak, including the candidate early germline regulator Mondo. Germline-specific Mondo knockdown alters germline stem cell number and expression of the predicted targets kuz and mamo. DRAFT also enables nonlinear alignment of co-developing lineages and reveals stage-specific cell-cell communication.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0e901a60d07821d6276105ae5b399cc5fd7ce11f6756488f66b78a2ba602fad5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69556-0",
@@ -6508,10 +6555,10 @@
       "title": "Modeling the structure-conditioned sequence landscape for large-scale protein design with TriFlow",
       "link": "https://doi.org/10.64898/2025.11.30.691458",
       "pdf_url": null,
-      "publication_date": "2025-11-30",
+      "publication_date": "2025-12-02",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2025.11.30.691458",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "harish srinivasan",
@@ -6522,6 +6569,10 @@
           "name": "Rongqing Yuan"
         },
         {
+          "key": "jing zhang",
+          "name": "Jing Zhang"
+        },
+        {
           "key": "cong qian",
           "name": "Qian Cong"
         },
@@ -6530,7 +6581,7 @@
           "name": "Jian Zhou"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Generative models have revolutionized computational protein design, and the design of high-quality sequences given backbone structure is a critical component for success. Current state-of-the-art design pipelines utilize sequence design methods with local structural context and autoregressive generation. To improve efficiency and quality of sequence design, we developed TriFlow, a model that combines a RoseTTAFold-like three-track architecture for global structural context with discrete flow-matching for efficient few-step sequence generation. We trained TriFlow on a large dataset of interacting protein chains from PDB and interacting domains from AlphaFold protein structure Database to enrich its knowledge of natural protein/domain interfaces. While showing improvements across diverse benchmarks, TriFlow's primary advance is in de novo binder design, where it boosts the in silico success rate of state-of-the-art design pipelines such as BindCraft. We demonstrated this by conducting a large-scale benchmark, generating and validating binders for over 500 diverse protein targets. By leveraging the model to explore the designed sequence landscape, we discovered that we can effectively highlight functional active sites, by contrasting constraints learned by the structure-conditioned model with natural evolutionary profiles. As a practical demonstration of its capabilities, we apply our pipeline to systematically design specific binders against human class I cytokines family, computationally optimizing for on-target affinity while minimizing off-target interactions, demonstrating that specificity also scales with inference time computational budget. TriFlow thus provides a robust framework for both large-scale protein engineering and for exploring the fundamental principles of the structure-conditioned sequence landscape.",
       "discovery_sources": [
         {
           "kind": "open_alex",

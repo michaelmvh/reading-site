@@ -1638,7 +1638,7 @@
       ],
       "title": "Adapting protein language models for structure-conditioned design",
       "link": "https://doi.org/10.1101/2024.08.03.606485",
-      "pdf_url": null,
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/03/2024.08.03.606485.full.pdf",
       "publication_date": "2024-08-03",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -3845,12 +3845,12 @@
         "https://openalex.org/W7140083064"
       ],
       "title": "Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids",
-      "link": "https://arxiv.org/abs/2603.19473",
-      "pdf_url": null,
-      "publication_date": "2026-03-01",
+      "link": "https://doi.org/10.48550/arxiv.2603.19473",
+      "pdf_url": "https://arxiv.org/pdf/2603.19473",
+      "publication_date": "2026-03-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2603.19473",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "ferraz lucas",
@@ -3881,11 +3881,11 @@
           "name": "Miguel Machuqueiro"
         },
         {
-          "key": "catia pesquita",
-          "name": "Catia Pesquita"
+          "key": "cátia pesquita",
+          "name": "Cátia Pesquita"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Adeno-associated viral (AAV) vectors are widely used delivery platforms in gene therapy, and the design of improved capsids is key to expanding their therapeutic potential. A central challenge in AAV bioengineering, as in protein design more broadly, is the vast sequence design space relative to the scale of feasible experimental screening. Machine-guided generative approaches provide a powerful means of navigating this landscape and proposing novel protein sequences that satisfy functional constraints. Here, we develop a generative design framework based on protein language models and reinforcement learning to generate highly novel yet functionally plausible AAV capsids. A pretrained model was fine-tuned on experimentally validated capsid sequences to learn patterns associated with viability. Reinforcement learning was then used to guide sequence generation, with a reward function that jointly promoted predicted viability and sequence novelty, thereby enabling exploration beyond regions represented in the training data. Comparative analyses showed that fine-tuning alone produces sequences with high predicted viability but remains biased toward the training distribution, whereas reinforcement learining-guided generation reaches more distant regions of sequence space while maintaining high predicted viability. Finally, we propose a candidate selection strategy that integrates predicted viability, sequence novelty, and biophysical properties to prioritize variants for downstream evaluation. This work establishes a framework for the generative exploration of protein sequence space and advances the application of generative protein language models to AAV bioengineering.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4454,23 +4454,23 @@
       ],
       "title": "Symmetric Self-play Online Preference Optimization for Protein Inverse Folding",
       "link": "https://doi.org/10.64898/2026.03.26.714453",
-      "pdf_url": null,
-      "publication_date": "2026-03-26",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/03/30/2026.03.26.714453.full.pdf",
+      "publication_date": "2026-03-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.03.26.714453",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "wenwu zeng",
           "name": "Wenwu Zeng"
         },
         {
-          "key": "li xiaoyu",
-          "name": "Xiaoyu Li"
+          "key": "li xiaodong",
+          "name": "Xiaodong Li"
         },
         {
-          "key": "haitao zou",
-          "name": "Haitao Zou"
+          "key": "xuanpengfan zou",
+          "name": "H. Xuanpengfan Zou"
         },
         {
           "key": "dou yutao",
@@ -4485,7 +4485,7 @@
           "name": "Shaoliang Peng"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Multi-objective reinforcement learning based on predicted structure feedback has been introduced into protein inverse folding. However, existing methods typically rely on a single model to optimize multiple structural objectives via a scalarized reward, which can bias the optimization toward dominant objectives and limit the exploration of diverse solutions. Here, we propose a online Symmetric Self-play Preference Optimization (SSP) framework that decouples the optimization of multiple structural objectives by training separate preference models with distinct reward signals, while enabling interaction through a shared sampling pool. This design allows the models to explore diverse optimization trajectories without enforcing a single dominant direction. Extensive experiments on both natural and de novo binder backbone inverse folding tasks demonstrate that SSP consistently improves sequence design self-consistency compared to single-model and existing baselines. Further analysis shows that different structural objectives are only partially aligned and induce distinct optimization directions, as evidenced by metric correlation and white-box analyses. This supports the effectiveness of decoupling objectives to enable higher design quality in protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

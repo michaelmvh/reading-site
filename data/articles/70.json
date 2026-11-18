@@ -2436,6 +2436,64 @@
       "curated_categories": []
     },
     {
+      "id": "705ecb9f8f6089c4eb86300f7988439b57985884be9a073ccedbf722677bc612",
+      "identity_keys": [
+        "https://openalex.org/W7235820076",
+        "https://openreview.net/forum?id=H9zhC5pVnH"
+      ],
+      "title": "A Survey on Over-smoothing and Over-squashing: Unified Propagation Perspectives on Graph Neural Networks and Transformers",
+      "link": "https://openreview.net/forum?id=H9zhC5pVnH",
+      "pdf_url": null,
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Transactions on machine learning research",
+      "authors": [
+        {
+          "key": "arroyo álvaro",
+          "name": "Álvaro Arroyo"
+        },
+        {
+          "key": "barbero federico",
+          "name": "Federico Barbero"
+        },
+        {
+          "key": "blayney hugh",
+          "name": "Hugh Blayney"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "dong xiaowen",
+          "name": "Xiaowen Dong"
+        },
+        {
+          "key": "lió píetro",
+          "name": "Píetro Lió"
+        },
+        {
+          "key": "pascanu razvan",
+          "name": "Razvan Pascanu"
+        },
+        {
+          "key": "pierre vandergheynst",
+          "name": "Pierre Vandergheynst"
+        }
+      ],
+      "abstract_text": null,
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "705f076df66922b62d16283f409731a8689b26e81901241d943ad611eebc6a58",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67615-6",
@@ -3139,14 +3197,14 @@
       "title": "ComplexDesign: sequence-hallucination design of protein binders bridging multiple proteins",
       "link": "https://doi.org/10.64898/2026.06.21.733655",
       "pdf_url": null,
-      "publication_date": "2026-06-21",
+      "publication_date": "2026-06-24",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.06.21.733655",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "jing xu",
-          "name": "Jing Xu"
+          "key": "xu",
+          "name": "J Q Xu"
         },
         {
           "key": "milong ren",
@@ -3173,7 +3231,7 @@
           "name": "Dongbo Bu"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Motivation Designing multichain protein complexes requires coordinating the folding of component proteins with the formation of their interfaces. The existing methods, however, remain limited in their ability to satisfy these requirements simultaneously, especially for trimeric and tetrameric complexes. As an important practical scenario, designing a binder that bridges two target proteins into a ternary complex requires flexibility in the relative arrangement of the two targets, adding an additional challenge to existing design methods. Results We present ComplexDesign, a hallucination-based approach for multichain protein design. ComplexDesign performs structure-prediction-guided sequence optimization to simultaneously fold each protein chain and form inter-chain interactions that bind them together. To provide the flexibility required to appropriately arrange these target proteins, ComplexDesign introduces a specialized masking mechanism that enables exploration of possible relative arrangements rather than being limited to the predefined ones. Across a comprehensive set of benchmarks with various chain lengths, ComplexDesign outperformed existing methods in the unconditional design of dimers, trimers, and tetramers, achieving a high design success rate exceeding 50%, supporting its capability for multichain complex design. Furthermore, in the case of multi-target binder design, ComplexDesign produced high-confidence, self-consistent ternary complexes for 8 out of 10 target pairs. These results establish ComplexDesign as an effective tool for multichain protein design, with particular utility for designing binders that bridge two target proteins. Availability and implementation The source code of ComplexDesign will be made publicly available upon publication.",
       "discovery_sources": [
         {
           "kind": "open_alex",

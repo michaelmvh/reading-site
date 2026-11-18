@@ -541,6 +541,45 @@
       "curated_categories": []
     },
     {
+      "id": "541443cb212f6a301bdb82b02eeb12da9f3cd4500b48bfd8e58ea7f73d0c2ed3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767325v1",
+        "https://doi.org/10.64898/2026.11.17.767325",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.17.767325.source.xml"
+      ],
+      "title": "Accurate and interpretable protein complex stoichiometry prediction through agentic AI with StoiAgent",
+      "link": "https://doi.org/10.64898/2026.11.17.767325",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767325v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "liu",
+          "name": "Liu, J"
+        },
+        {
+          "key": "neupane",
+          "name": "Neupane, P"
+        },
+        {
+          "key": "cheng",
+          "name": "Cheng, J"
+        }
+      ],
+      "abstract_text": "Accurate protein complex structure modeling requires knowledge of complex stoichiometry, yet the copy numbers of individual subunits are often unknown. Consequently, predicting protein complex stoichiometry has emerged as a major challenge in recent years. Here, we present StoiAgent, a large language model (LLM)-powered AI agent that automates the retrieval and integration of sequence, structural, and literature evidence to predict stoichiometry while preserving interpretable reasoning traces (chain of thoughts) of its evidence assessment and ranking decision. An open-weight LLM model, Qwen3.6-27B, is used by StoiAgent as the LLM backbone to combine sequences, structural templates, AlphaFold3 structure predictions, and literature evidence, and perform stoichiometry candidate generation and ranking. On 56 CASP17 protein complex targets, it achieves top-1 accuracy of 75.0%, which represents a 23.2 percentage-point improvement over PreStoi with AlphaFold3 ranking (51.8%) and matches the top-1 accuracy of StoPred. Moreover, StoiAgent has a higher top-3 and top-5 accuracy than StoPred (85.7% versus 80.4% and 87.5% versus 85.7%, respectively). Furthermore, it outperforms general-purpose frontier LLMs, including ChatGPT and Gemini, in stoichiometry prediction. Case studies further illustrate how StoiAgent evaluates competing assembly hypotheses by integrating complementary evidence, with recorded reasoning traces documenting its decision-making process. Overall, StoiAgent demonstrates the potential of LLM-powered AI agents to improve protein complex stoichiometry prediction through the automated integration of diverse sources of evidence while providing interpretable explanations to guide downstream structure modeling.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5414732cbd60fe4dc9e9cf3505857a3537f6db416aacf0322e00c6ab94dd5498",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70093-z",
@@ -1274,10 +1313,10 @@
       "title": "De novo design of protein binders that target DELE1 to inhibit the mitochondrial stress response",
       "link": "https://doi.org/10.64898/2025.12.22.695711",
       "pdf_url": null,
-      "publication_date": "2025-12-22",
+      "publication_date": "2025-12-23",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2025.12.22.695711",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "rui yang",
@@ -1297,7 +1336,7 @@
         },
         {
           "key": "danyan yin",
-          "name": "Danyan Yin"
+          "name": "Danyan YIN"
         },
         {
           "key": "kevin li",
@@ -1313,14 +1352,14 @@
         },
         {
           "key": "brian kuhlman",
-          "name": "Brian Kuhlman"
+          "name": "Brian A. Kuhlman"
         },
         {
           "key": "jie yang",
           "name": "Jie Yang"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Mitochondrial stress activates the integrated stress response (ISR) through the mitochondrial protein DELE1, which relays stress signals to the cytosolic kinase HRI to induce ATF4. Dysregulation of DELE1-mediated signaling has been implicated in pathological conditions, yet molecular strategies to modulate DELE1 remain unavailable. Here, we report de novo designed proteins that bind DELE1, block its oligomerization, and inhibit DELE1-mediated ISR activation. Several designs form stable complexes with DELE1 and disrupt its oligomerization in vitro while preserving DELE1's ability to bind HRI. In cells, these designs suppress ATF4 induction during mitochondrial stress and impair the recovery of elongated mitochondrial morphology following transient insult. Crystal structure of a representative binder, together with structural modeling and targeted mutagenesis, confirm that the designed proteins engage a critical interface required for DELE1 oligomerization. These findings establish DELE1 as a druggable target and demonstrate that de novo designed proteins offer precise tools to modulate this pathway, providing a foundation for future therapeutic exploration. SIGNIFICANCE: Mitochondrial stress activates the integrated stress response through the signaling protein DELE1, but no molecular tools have been available to directly target DELE1 and selectively modulate this pathway. We developed de novo designed protein binders that recognize a critical oligomerization interface in DELE1, disrupt its assembly, and suppress mitochondrial stress-induced ISR activation in cells. These binders also impair recovery of mitochondrial network morphology following transient stress, linking DELE1 assembly to adaptive remodeling. Our study establishes DELE1 as a tractable and druggable target in mitochondrial stress signaling and demonstrates that de novo protein design can generate precise modulators of intracellular stress-response pathways.",
       "discovery_sources": [
         {
           "kind": "open_alex",

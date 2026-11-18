@@ -2496,6 +2496,56 @@
       "curated_categories": []
     },
     {
+      "id": "c75eb5c815e058cf96f9c7f16003971a8ca8c06ea0fb09912df15fd99865d201",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15012321/v1",
+        "https://openalex.org/W7235437628"
+      ],
+      "title": "Optical Polymer Structure Recognition with PolymerScribe and an Iterative Train-Predict-Correct Workflow",
+      "link": "https://doi.org/10.26434/chemrxiv.15012321/v1",
+      "pdf_url": null,
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "tu zhengkai",
+          "name": "Zhengkai Tu"
+        },
+        {
+          "key": "jignesh mahajan",
+          "name": "Jignesh S. Mahajan"
+        },
+        {
+          "key": "guo huixuan",
+          "name": "Huixuan Guo"
+        },
+        {
+          "key": "nathan rebello",
+          "name": "Nathan Rebello"
+        },
+        {
+          "key": "bradley olsen",
+          "name": "Bradley D. Olsen"
+        },
+        {
+          "key": "coley connor",
+          "name": "Connor W. Coley"
+        }
+      ],
+      "abstract_text": "Immensely valuable polymer information remains functionally inaccessible, trapped in the chemical structure images of legacy and contemporary publications. However, without labels such as molblocks or string representations, those images are not directly processible by cheminformatic tools for downstream applications. This work develops an image recognition model, PolymerScribe, and demonstrates an iterative train-predict-correct workflow for curating labeled polymer structures from the literature. Building on top of previous work for molecular image recognition, PolymerScribe was trained to recover both the molecular graph and the S-group information including bracket locations, superscripts, and subscripts, allowing for subsequent conversion to BigSMILES line notation. After bootstrapping PolymerScribe with a small labeled subset consisting of 300 pairs of images and molblocks, the model was iteratively improved using selected batches of unlabeled polymer images. In each iteration, PolymerScribe predicted molblock labels which were then manually corrected, and the model was retrained with the newly labeled images. This iterative process ultimately led to PolymerLit, the first benchmark dataset for Optical Polymer Structure Recognition (OPSR), consisting of more than 1,700 polymer images from open access journal articles with corresponding molblocks that have been manually verified and corrected, along with canonical BigSMILES representations. Even when trained on a small dataset of labeled images, PolymerScribe correctly predicted the canonical BigSMILES for 58% of unseen structures (90% for molecules with fewer than 20 heavy atoms) in retrospective testing. PolymerScribe and PolymerLit are freely shared with the community as a starting point towards larger-scale information extraction from polymer literature.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c76045fe37dc6b5bf3e1df609bc23f3ee3ea9be2c0d0d894f9bd945e7f8d883e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66369-5",

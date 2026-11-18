@@ -1053,12 +1053,12 @@
         "https://openalex.org/W7149554577"
       ],
       "title": "High-PepBinder: A pLM-Guided Latent Diffusion Framework for Affinity-Aware Target-Specific Peptide Design",
-      "link": "https://doi.org/10.64898/2026.01.12.698988",
-      "pdf_url": null,
-      "publication_date": "2026-01-12",
+      "link": "https://doi.org/10.1021/acs.jcim.6c00253",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/19/2026.01.12.698988.full.pdf",
+      "publication_date": "2026-04-04",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.01.12.69898",
+      "venue": "Journal of Chemical Information and Modeling",
       "authors": [
         {
           "key": "mao qingyi",
@@ -1086,7 +1086,7 @@
         },
         {
           "key": "ning zhu",
-          "name": "Ning Zhu"
+          "name": "Zhu Ning"
         },
         {
           "key": "guo jingjing",
@@ -1097,7 +1097,7 @@
           "name": "Hongliang Duan"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Peptides, as therapeutic molecules, offer unique advantages in targeting complex protein surfaces, yet their rational design remains limited by the vastness of the sequence space and the constraints of traditional approaches. Here, we propose High-PepBinder, a sequence-only conditional diffusion framework for target-specific peptide generation. Guided by the target protein sequence, High-PepBinder adopts a dual encoder architecture that integrates protein language models (pLMs) with the diffusion model. This approach cascades the peptide generation model with an affinity classifier and enables the generation process to capture affinity-related features of the peptides through lightweight joint optimization. Due to the scarcity of protein-peptide affinity data, we constructed PepPBA, to our knowledge, the most comprehensive dataset to date, and established a structure- and physics-based screening pipeline to prioritize top candidates. Results show that High-PepBinder demonstrates competitive performance across multiple peptide generation and binding-related evaluation tasks. For representative targets, including KEAP1, XIAP and EGFR, the generated peptides preserve key binding geometries and interface patterns of reference peptides in predicted complexes, while maintaining sequence diversity and favorable predicted properties. Overall, High-PepBinder contributes toward a general and sequence-only strategy for peptide design, offering a computational framework for expanding peptide discovery against challenging targets.",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -175,13 +175,13 @@
         "https://doi.org/10.64898/2026.01.31.702993",
         "https://openalex.org/W7126389277"
       ],
-      "title": "CyclicMPNN: Stable Cyclic Peptide Sequence Generation",
-      "link": "https://doi.org/10.64898/2026.01.31.702993",
-      "pdf_url": null,
-      "publication_date": "2026-01-31",
+      "title": "CyclicMPNN: stable cyclic peptide sequence generation",
+      "link": "https://doi.org/10.1039/d6dd00083e",
+      "pdf_url": "https://pubs.rsc.org/dd/article-pdf/doi/10.1039/d6dd00083e/13765278/d6dd00083e.pdf",
+      "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.01.31.702993",
+      "venue": "Digital Discovery",
       "authors": [
         {
           "key": "andrew powers",
@@ -196,7 +196,7 @@
           "name": "Parisa Hosseinzadeh"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Cyclic peptides are a promising class of therapeutics due to their attractive drug qualities such as increased structural stability, cell permeability, and resistance to proteolytic degradation.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4509,24 +4509,24 @@
         "https://openalex.org/W7165398286"
       ],
       "title": "Emyx: Fast and efficient all-atom protein generation",
-      "link": "https://arxiv.org/abs/2606.19377",
-      "pdf_url": null,
-      "publication_date": "2026-06-01",
+      "link": "https://doi.org/10.48550/arxiv.2606.19377",
+      "pdf_url": "https://arxiv.org/pdf/2606.19377",
+      "publication_date": "2026-06-12",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2606.19377",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "nicholas williams",
-          "name": "Nicholas J. Williams"
+          "name": "Nicholas H. Williams"
         },
         {
           "key": "haddadin ward",
           "name": "Ward Haddadin"
         },
         {
-          "key": "ferla matteo",
-          "name": "Matteo P. Ferla"
+          "key": "ferla matteo paolo",
+          "name": "Matteo Paolo Ferla"
         },
         {
           "key": "constantin schneider",
@@ -4541,19 +4541,23 @@
           "name": "Ruby Sedgwick"
         },
         {
-          "key": "christian madsen",
-          "name": "Christian D. Madsen"
+          "key": "christian degnbol madsen",
+          "name": "Christian Degnbol Madsen"
         },
         {
           "key": "andrew hopkins",
           "name": "Andrew L. Hopkins"
         },
         {
+          "key": "douglas pires",
+          "name": "Douglas E. V. Pires"
+        },
+        {
           "key": "edward knapp pyzer",
-          "name": "Edward O. Pyzer-Knapp"
+          "name": "Edward O. Pyzer‐Knapp"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Computational enzyme design requires generating proteins that scaffold catalytic residues and ligands, a task that demands both geometric accuracy and structural diversity from the underlying generative model. Current all-atom generators inherit expensive architectures from structure prediction, leading to high training costs and limited sample diversity. We argue that much of this complexity is unnecessary for generators, which condition on sparse geometric constraints rather than rich co-evolutionary signals. Emyx is a 140M-parameter conditional flow matching model that concentrates capacity within standard transformer blocks, replacing heavy embedding stacks with lightweight conditional representations and sparse connectivity. We additionally derive an exact reparametrisation of the flow matching interpolant into the EDM noise-level framework, bridging flow matching training efficiency with state-of-the-art sampling methods designed for diffusion models without retraining. Despite being the smallest model, Emyx outperforms both Proteína-Complexa and RFdiffusion3 against the AME enzyme design benchmark across success rate under strict evaluation requiring both global fold recovery and catalytic geometry accuracy, structural novelty, scaffold diversity, and geometric validity, while training in just $682$ GPU-hours, roughly $4\\times$ less than RFdiffusion3.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

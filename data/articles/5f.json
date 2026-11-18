@@ -5609,13 +5609,13 @@
         "https://doi.org/10.64898/2026.01.23.701298",
         "https://openalex.org/W7125705085"
       ],
-      "title": "ProChoreo: De novo Binder Design from Conformational Ensembles with Generative Deep Learning",
+      "title": "ProChoreo: de novo Binder Design from Conformational Ensembles with Generative Deep Learning",
       "link": "https://doi.org/10.64898/2026.01.23.701298",
-      "pdf_url": null,
-      "publication_date": "2026-01-23",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/26/2026.01.23.701298.full.pdf",
+      "publication_date": "2026-01-26",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.01.23.701298",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "ding saisai",
@@ -5626,7 +5626,7 @@
           "name": "Yi Zhang"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Deep learning has transformed protein structure prediction and de novo protein design; however, most existing frameworks operate on a single static conformation and underutilize the conformational heterogeneity that governs protein binding and function. We introduce ProChoreo, a generalizable framework for de novo binder design that explicitly incorporates conformational ensembles. ProChoreo is pretrained with multimodal contrastive learning to align protein sequences with corresponding molecular dynamics (MD)-derived ensembles, producing a shared latent representation that captures both sequence-level and dynamic structural information. This representation is then integrated into an autoregressive generator to design protein binders conditioned on receptor sequences. Designed binders are evaluated using Boltz 1 for complex structure and interaction quality, followed by MD simulations of complexes with two representative receptors: the human sweet taste receptor TAS1R2 and FGFR2. ProChoreo designs binders that encode conformational features, highlighting dynamics-informed design as a route to protein design.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

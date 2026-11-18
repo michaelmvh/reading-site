@@ -407,11 +407,11 @@
       ],
       "title": "Programming protein shape as an explicit design layer via CAD blueprint-guided diffusion",
       "link": "https://doi.org/10.64898/2026.07.22.740177",
-      "pdf_url": null,
-      "publication_date": "2026-07-22",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/23/2026.07.22.740177.full.pdf",
+      "publication_date": "2026-07-23",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.07.22.740177",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "qi yilun",
@@ -431,11 +431,11 @@
         },
         {
           "key": "artem lyubimov",
-          "name": "Artem Lyubimov"
+          "name": "Artem Y. Lyubimov"
         },
         {
           "key": "ibrahim kyrellos",
-          "name": "Kyrellos Ibrahim"
+          "name": "Kyrellos E. Ibrahim"
         },
         {
           "key": "cimicata giuseppe",
@@ -443,7 +443,7 @@
         },
         {
           "key": "fraser james",
-          "name": "James S Fraser"
+          "name": "James S. Fraser"
         },
         {
           "key": "bo huang",
@@ -454,7 +454,7 @@
           "name": "Tanja Kortemme"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract In engineering, industrial design principles link geometric form with function. In nature, global protein shape, curvature, and chirality similarly drive critical processes like membrane remodeling and cellular motility. However, explicitly programming these global features remains a challenge for generative AI. Here, we integrate computer-aided design (CAD) blueprints with diffusion models, establishing protein shape as an explicit, programmable layer. We engineered diverse, tunable architectures, including single-chain shapes, scaffolds with unusual twist handedness, and superhelical assemblies, structurally validating 31 of 59 designs via X-ray crystallography or electron microscopy. To demonstrate shape-encoded function, we coupled fluid-flow-optimized helical propellers to an F 1 -ATPase rotor, yielding a prototype ATP-dependent molecular swimmer. This framework translates industrial design principles to the molecular scale, enabling the programmable engineering of biomimetic architecture with emergent functions. One-sentence summary Integrating CAD blueprints with diffusion-based AI translates industrial design principles to the molecular scale, enabling the explicit programming of protein shapes with emergent functions.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2174,10 +2174,10 @@
       "title": "Deep learning based design of buried hydrogen bond networks with HBDesigner",
       "link": "https://doi.org/10.64898/2026.06.08.730848",
       "pdf_url": null,
-      "publication_date": "2026-06-08",
+      "publication_date": "2026-06-11",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.06.08.730848",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "dieckhaus henry",
@@ -2193,7 +2193,7 @@
         },
         {
           "key": "horenstein jessica",
-          "name": "Jessica T. Horenstein"
+          "name": "Jessica T Horenstein"
         },
         {
           "key": "nathan nicely",
@@ -2205,10 +2205,10 @@
         },
         {
           "key": "brian kuhlman",
-          "name": "Brian Kuhlman"
+          "name": "Brian A. Kuhlman"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Accurate design of hydrogen-bonding (H-bonding) interactions is a longstanding goal in protein design, as they can facilitate specific protein-protein interactions while improving the solubility of the proteins in the unbound state. Despite this, computational design of H-bond networks remains underexplored in the deep learning era. Here, we present HBDesigner, a novel algorithm for H-bond network design. Through a combination of deep learning-based sampling and atomistic energy scoring, HBDesigner outperforms existing tools in designing connected H-bond networks onto protein scaffolds. We demonstrate the usefulness of HBDesigner by creating monomeric proteins with buried polar interactions and homodimers with extended interface H-bond networks, and by installing specificity into a family of homologous heterodimers where prior design tools fail to do so. The ability to design H-bond networks into arbitrary protein scaffolds should be broadly useful for a wide range of design applications.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2221,6 +2221,49 @@
         "4.5 GNN-based",
         "4.Scaffold to Sequence"
       ]
+    },
+    {
+      "id": "9f57828975928721dac4e9f53953b1865ce13e14254b04e328b72ba26092ae1d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767296v1",
+        "https://doi.org/10.64898/2026.11.17.767296",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.17.767296.source.xml"
+      ],
+      "title": "scUNVEIL: Learning scRNA-seq Cell Embeddings Through Measurement Enrichment",
+      "link": "https://doi.org/10.64898/2026.11.17.767296",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767296v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "honzik",
+          "name": "Honzik, T"
+        },
+        {
+          "key": "kuhajda",
+          "name": "Kuhajda, L"
+        },
+        {
+          "key": "houdova",
+          "name": "Houdova, L"
+        },
+        {
+          "key": "georgiev",
+          "name": "Georgiev, D"
+        }
+      ],
+      "abstract_text": "Large-scale pretraining can improve scRNA-seq representations through measurement enrichment: estimating what the same measurement would reveal at greater UMI depth under the same measurement process. We introduce scUNVEIL, a self-supervised model trained through next-UMI prediction. We show that the Bayes-optimal next-UMI predictor is the posterior mean of the transcriptome composition that arbitrarily deep sequencing would reveal. Because UMI identities are exchangeable conditional on transcriptome composition, scUNVEIL operates directly on count vectors using a residual multilayer perceptron, without attention over gene tokens. The measurement-enriched transcriptome composition is predicted from a single low-dimensional hidden state, which therefore serves naturally as the cell embedding. The same model provides both reusable cell representations and measurement-enriched gene-expression estimates. scUNVEIL was pretrained without labels or auxiliary metadata on approximately 92 million human cells spanning diverse tissues. Under linear evaluation on fine-grained cell-type annotation, its zero-shot representations achieved the best performance among the evaluated methods, while providing over 1000-fold faster inference than the strongest evaluated transformer-based foundation model and matching that model's predictive performance using 88% fewer input UMIs per cell. Further evaluations show that these representations improve prediction of tumor reactivity, mitochondrial membrane potential, cell morphology, and lineage-associated treatment outcomes.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "9f5efc99f2c86de1fbaf6386485dedb74d732bd771727f7c9405099b4b62da74",
@@ -3749,11 +3792,11 @@
       ],
       "title": "On diffusion posterior sampling via sequential Monte Carlo for zero-shot scaffolding of protein motifs",
       "link": "https://doi.org/10.48550/arxiv.2412.05788",
-      "pdf_url": "https://arxiv.org/pdf/2412.05788",
+      "pdf_url": null,
       "publication_date": "2024-12-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "Transactions on machine learning research",
       "authors": [
         {
           "key": "james matthew young",
@@ -4300,6 +4343,53 @@
         "5.5 Bayesian-based",
         "5.Function to Sequence"
       ]
+    },
+    {
+      "id": "9fa8f763c3514112a066b8267d811f9d78a0c8276911042ce7e81ad0de543c8b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767338v1",
+        "https://doi.org/10.64898/2026.11.17.767338",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.17.767338.source.xml"
+      ],
+      "title": "BI-SCUDO Regression - A novel algorithm to infer clinical variables from omics datasets",
+      "link": "https://doi.org/10.64898/2026.11.17.767338",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767338v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "fantoni",
+          "name": "Fantoni, G"
+        },
+        {
+          "key": "lauria",
+          "name": "Lauria, M"
+        },
+        {
+          "key": "rossi",
+          "name": "Rossi, C. A"
+        },
+        {
+          "key": "bizzotto",
+          "name": "Bizzotto, R"
+        },
+        {
+          "key": "marchetti",
+          "name": "Marchetti, L"
+        }
+      ],
+      "abstract_text": "Regression analysis of high-throughput omics data is often made difficult by noise, batch effects, and the loss of information resulting from the discretization of continuous variables. Existing machine learning algorithms often struggle to extract stable biological signals under these heterogeneous conditions. We introduce BI-SCUDO Regression, a rank-based regression framework designed for omics data analysis. By leveraging within-sample rankings and network-based predictions, BI-SCUDO Regression bypasses the need for complex normalization and provides robust, interpretable results. In synthetic benchmarks, BI-SCUDO Regression demonstrated strong resilience to noise, maintaining predictive and feature-selection stability under conditions in which standard models exhibited performance degradation. When applied to cohorts from TCGA datasets, BI-SCUDO Regression consistently outperformed LASSO, Random Forest Regression, and XGBoost in predicting survival, with an average increase in Ratio of Performance to Deviation ranging from 43% to 86%, depending on the comparator. Furthermore, the algorithm consistently identified parsimonious, statistically significant, and biologically relevant biomarkers, with enrichment for cancer-related terms across all stage stratifications. Although BI-SCUDO Regression incurs higher training times due to its genetic optimization strategy, it offers a robust and interpretable approach to outcome prediction and biomarker discovery, with potential applications in precision medicine, where noisy data compromise the performance of conventional regression methods.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
     },
     {
       "id": "9fa929d72d9ab6ffdbeff02406c8195b6f23bd018d75206a3026dc796656a414",

@@ -986,7 +986,9 @@
       "identity_keys": [
         "https://doi.org/10.1101/2025.02.04.636539",
         "https://doi.org/10.1126/science.adr3817",
+        "https://doi.org/10.5281/zenodo.18441682",
         "https://openalex.org/W4407169386",
+        "https://openalex.org/W7126209002",
         "https://openalex.org/W7167011808"
       ],
       "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
@@ -3196,8 +3198,8 @@
           "name": "Johan Bielecki"
         },
         {
-          "key": "amit samanta",
-          "name": "Amit K. Samanta"
+          "key": "amit kumar samanta",
+          "name": "Amit Kumar Samanta"
         },
         {
           "key": "dold simon",
@@ -7091,11 +7093,11 @@
       ],
       "title": "De Novo Design of Protein Switches with Diffusion-Based Ensemble Sampling",
       "link": "https://doi.org/10.64898/2026.07.20.739027",
-      "pdf_url": null,
-      "publication_date": "2026-07-20",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/21/2026.07.20.739027.full.pdf",
+      "publication_date": "2026-07-21",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.07.20.739027",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "alireza omidi",
@@ -7110,15 +7112,15 @@
           "name": "Jennifer M. Bui"
         },
         {
-          "key": "gsponer jörg",
-          "name": "Jörg Gsponer"
+          "key": "gsponer joerg",
+          "name": "Joerg Gsponer"
         },
         {
           "key": "saifuddin syed",
           "name": "Saifuddin Syed"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Protein switches are proteins that can respond to biochemical stimuli by rearranging their structural elements, essential for cells to transduce signals. The de novo design of such proteins requires amino acid sequences whose energy landscapes support multiple stimulus-dependent conformations, yet most current de novo protein design pipelines are optimized for single stable structures. Existing multi-state inverse-folding methods can design sequences compatible with multiple backbones, but they assume that suitable backbone ensembles are already available, often requiring expert knowledge. We introduce Diff-Switch, a framework for sampling switch-like backbone ensembles from pretrained protein diffusion models. Given a reference backbone structure and domain decomposition, our method preserves local domain geometry while encouraging diversity in global domain arrangements along user-specified collective variables, inspired by metadynamics. We implement this objective through a controlled diffusion sampler with reward-tilting for local similarity between the ensemble members and history-dependent bias in collective-variable space to avoid repeated sampling of the same global arrangement. The resulting ensembles provide candidate conformational states for downstream multi-state inverse folding. Across our evaluation set of 20 diverse proteins, using conformations from these generated ensembles improves the success rate of finding switch-compatible sequences over baseline sampling. We further apply the method to a real-world protein switch design task and characterize the resulting designs.",
       "discovery_sources": [
         {
           "kind": "open_alex",

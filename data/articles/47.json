@@ -3620,12 +3620,12 @@
         "https://openalex.org/W7160178067"
       ],
       "title": "Towards A Generative Protein Evolution Machine with DPLM-Evo",
-      "link": "https://arxiv.org/abs/2605.00182",
-      "pdf_url": null,
-      "publication_date": "2026-05-01",
+      "link": "https://doi.org/10.48550/arxiv.2605.00182",
+      "pdf_url": "https://arxiv.org/pdf/2605.00182",
+      "publication_date": "2026-04-30",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2605.00182",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "wang xinyou",
@@ -3656,7 +3656,7 @@
           "name": "Quanquan Gu"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Proteins are shaped by gradual evolution under biophysical and functional constraints. Protein language models learn rich evolutionary constraints from large-scale sequences, and discrete diffusion-based protein language models~(\\eg, DPLMs) are promising for both understanding and generation. However, existing DPLMs typically rely on masked diffusion that contradicts a simple biological intuition: proteins evolve through accumulated edits, not by emerging from masks. Consequently, these frameworks lack explicit pretraining objectives for substitution and insertion/deletion (indel) operations, limiting both optimization-style post-editing and flexible guided generation. To address these limitations, we present DPLM-Evo, an evolutionary discrete diffusion framework that explicitly predicts substitution, insertion, and deletion operations during denoising. DPLM-Evo decouples an upsampled-length latent alignment space from the variable-length observed sequence space, which makes indel-aware generation tractable. To better align substitutions with real evolution, we further introduce a contextualized evolutionary noising kernel that produces biologically informed, context-dependent mutation patterns. Across tasks, DPLM-Evo improves sequence understanding and achieves state-of-the-art mutation effect prediction performance on ProteinGym in the single-sequence setting. It also enables variable-length simulated evolution, and post-editing/optimization of existing proteins via explicit edit trajectories.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

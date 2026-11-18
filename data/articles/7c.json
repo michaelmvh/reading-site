@@ -1039,12 +1039,12 @@
         "https://openalex.org/W7168178203"
       ],
       "title": "Variable-Length Generative Protein Design via Generalized Poisson Flow",
-      "link": "https://arxiv.org/abs/2607.09039",
-      "pdf_url": null,
-      "publication_date": "2026-07-01",
+      "link": "https://doi.org/10.48550/arxiv.2607.09039",
+      "pdf_url": "https://arxiv.org/pdf/2607.09039",
+      "publication_date": "2026-07-10",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2607.09039",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "chaoran cheng",
@@ -1075,7 +1075,7 @@
           "name": "Ge Liu"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative framework that learns the rate function of an inhomogeneous generalized Poisson process by minimizing its negative log-likelihood. We establish population-level guarantees for recovering the joint multimodal distribution and derive an upper bound on the KL divergence between the data and generated distributions. We comprehensively evaluate GPFlow across structure and sequence design, motif scaffolding, and peptide co-design, spanning Euclidean, categorical, and Riemannian modalities to fully validate its variable-length generation quality. In unconditional design, GPFlow improves structural designability and achieves the best distributional fitness for sequence design compared to their corresponding fixed-length baselines, while perfectly recovering the length distribution. In conditional motif scaffolding, GPFlow ranks first on 10 of 16 structure-based design tasks with significantly more unique successes and also achieves more passed tasks in sequence-based design. In peptide co-design, GPFlow remains competitive even without access to a native-length oracle.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3309,11 +3309,11 @@
       ],
       "title": "A generalizable interface-seeded framework for de novo design of functional oligomers",
       "link": "https://doi.org/10.64898/2026.07.02.736098",
-      "pdf_url": null,
-      "publication_date": "2026-07-02",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/03/2026.07.02.736098.full.pdf",
+      "publication_date": "2026-07-03",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.07.02.736098",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
           "key": "chim ho yeung",
@@ -3324,8 +3324,8 @@
           "name": "Mubarak Olanrewaju Idris"
         },
         {
-          "key": "dominic rieger",
-          "name": "Dominic Rieger"
+          "key": "rieger",
+          "name": "D. L. RIEGER"
         },
         {
           "key": "phillip schlegel",
@@ -3384,7 +3384,7 @@
           "name": "Alena Khmelinskaia"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Abstract Protein oligomers are ubiquitous in biological systems and essential for function. However, the de novo design of oligomers that controllably assemble in response to exogenous stimuli remains challenging. Here, we present an AI-based generative approach that leverages an interface-seeded strategy for designing responsive homo-oligomers from isolated interaction modules. Experimentally validated designs are highly accurate and explore new-to-nature topologies. We show that designs effectively respond to their chemical triggers with conditional oligomerization or to phosphorylation-driven conformational changes with reversible oligomerization. We further functionalized our responsive assemblies to build ligand-dependent membrane binding systems and phosphorylation-controlled gene regulatory switches. Our framework enables the generalizable design of responsive protein complexes, opening novel possibilities for the engineering of biosynthetic systems with sophisticated regulatory mechanisms.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5126,6 +5126,65 @@
       "curated_categories": []
     },
     {
+      "id": "7cf28ac04ef6ba0ed797b2abf03055a8fc5469e48e849a13a250ae6a18b053ca",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.767190v1",
+        "https://doi.org/10.64898/2026.11.16.767190",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.16.767190.source.xml"
+      ],
+      "title": "GENECraft: A Function- and Prior-Constrained Discrete Dynamical System for Controllable Regulatory DNA Design",
+      "link": "https://doi.org/10.64898/2026.11.16.767190",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767190v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, T"
+        },
+        {
+          "key": "tan",
+          "name": "Tan, C"
+        },
+        {
+          "key": "zhong",
+          "name": "Zhong, W"
+        },
+        {
+          "key": "guo",
+          "name": "Guo, G"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        },
+        {
+          "key": "qiu",
+          "name": "Qiu, Z"
+        },
+        {
+          "key": "li",
+          "name": "Li, S. Z"
+        }
+      ],
+      "abstract_text": "Designing regulatory DNA requires reconciling two complementary modeling paradigms: genomic language models (gLMs) capture evolutionary syntax without guaranteeing targeted regulatory activity, whereas sequence-to-function predictors provide explicit functional supervision without enforcing native-like sequence plausibility. We introduce GENECraft, a training-free Function- and Prior-Constrained Discrete Dynamical System (FP-DDS) that couples a genomic language model (Carbon) and a functional oracle (AlphaGenome) during inference-time optimization to balance predicted regulatory activity and consistency with genomic sequence priors. GENECraft evolves continuous latent nucleotide logits while evaluating strictly decoded discrete DNA sequences under a time-dependent composite vector field that fuses normalized functional utility, bidirectional contextual prior guidance, and compositional quality penalties, followed by feasibility-first trajectory readout. Across 2,185 loci spanning promoters, multi-constraint enhancers, and 18 transcription factors (TFs), GENECraft achieves full-joint success rates of 62.70%, 65.23%, and 94.56% (macro-averaged), substantially outperforming seven optimization, evolutionary, and generative baselines (which reach at most 2.15% on enhancers). In matched 336-locus ablations, in-loop Carbon guidance reduces native-relative dinucleotide divergence by 7.8--11.5%, enhancer context sensitivity by 10.5%, and TF mutation sensitivity by 11.0%, establishing FP-DDS as a principled framework for controllable regulatory DNA design.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7cf5880c1acad30664d1ca753bd400155f46e296d284856a8d2b8be571ae83cd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69723-3",
@@ -5209,6 +5268,40 @@
         }
       ],
       "abstract_text": "Small-molecule metabolites are key pharmaceutical resources embedded in complex organismal metabolomes. Scalable microbial production depends on metabolic activation capacity, which in turn requires efficient genetic variation. Structural variants (SVs), key drivers of phenotypic diversity, are pivotal for organism evolution, yet their highly efficient induction remains challenging. While DNA double-strand breaks (DSBs) facilitate SVs formation, existing mutagenesis technologies struggle to balance high DSB efficiency with cellular preservation, particularly in microbial strain improvement for metabolite production. Conventional irradiation methods suffer from low SVs induction rates, making strain enhancement a lengthy and labor-intensive process. Here, we systematically compare six irradiation technologies in Streptomyces lividans 1326 and identify high-energy pulsed electron beams (HEPE) as an approach which effectively induces strong DSBs while preserving cellular integrity. This results in extensive SVs that reshape genome sequences and 3D chromatin structure, leading to activation of secondary metabolite production. By integrating HEPE with high-throughput metabolomics (HEPE-HiTMS), we discover two secondary metabolites with unusual C-N linkage, respectively. Applied across various microorganisms, HEPE enables record-high clavulanic acid and microcin J25 production, and markedly increases lovastatin yields. With its ability to induce SVs with minimal cytotoxicity, HEPE represents a powerful tool for cryptic metabolite discovery and industrial strain development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "7cf751a0029f40af67f8acd0fde66e7f117780ddf40c9d094b297df960d92e60",
+      "identity_keys": [
+        "https://doi.org/10.6084/m9.figshare.34881957",
+        "https://openalex.org/W7225116332"
+      ],
+      "title": "Site-Dependence as a Design Objective:Site-Dependence as a Design Objective: A Counterfactual Framework for AlphaFold~3--Guided Peptide Design Against Metallo-$\\beta$-Lactamase Active Sites",
+      "link": "https://doi.org/10.6084/m9.figshare.34881957",
+      "pdf_url": null,
+      "publication_date": "2026-11-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Figshare",
+      "authors": [
+        {
+          "key": "chatterjea rajit",
+          "name": "Rajit Chatterjea"
+        },
+        {
+          "key": "mukhamedov ramazan",
+          "name": "Ramazan Mukhamedov"
+        }
+      ],
+      "abstract_text": "Computer models like AlphaFold 3 (AF3) are frequently used to design new peptides (short proteins) by predicting how strongly they will stick to a target. However, a high confidence score from the model only proves it is sure about the final shape. It does not prove the peptide is attaching to the exact spot researchers want, or for the right scientific reason.We looked closely at a recent study that used AF3 to design 25-amino-acid peptides meant to bind to a specific zinc-containing spot on a bacterial enzyme (VIM-2). We found three major flaws in using just the standard confidence score:The measurement is misleading: The model rewarded designs for \"burying\" the zinc ions, but those ions were already almost completely covered before any peptide was even added.The metal doesn't seem to matter: For all the top-scoring peptides, the AI model was just as confident whether the crucial zinc ions were present or entirely missing.The search picks up \"flukes\": Relying on a single, random prediction for each sequence means the search easily falls into a trap called the \"winner's curse,\" picking designs that just got a luckily high noise-driven score.To fix this, we created a new strategy called the counterfactual site-dependence objective. Instead of just looking at how well a peptide binds to the normal target, we compare that score against how it performs on \"knockout\" targets—such as versions without the zinc, mutated versions, or entirely different decoy targets. If a peptide is truly designed for the specific zinc spot, its score should drop significantly when that spot is altered.We prove that this score difference mathematically aligns with the true odds of specific binding, protects against false positives, and cuts down on random prediction noise. While our new method requires running the AI model through a few extra steps—costing about 1.9 times more computing power than the original method—it ensures the AI is actually finding peptides that bind where intended. Finally, we tested and proved our framework using a pre-registered benchmark of known protein-metal complexes.",
       "discovery_sources": [
         {
           "kind": "open_alex",

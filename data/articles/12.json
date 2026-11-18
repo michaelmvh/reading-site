@@ -1185,6 +1185,53 @@
       "curated_categories": []
     },
     {
+      "id": "122c3a8fd4031342ca7c0ad8c1dfbd9dc894f17841f7c618878b9a9eab10e534",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767309v1",
+        "https://doi.org/10.64898/2026.11.17.767309",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.11.17.767309.source.xml"
+      ],
+      "title": "Elflow: Automated Quality Control and Self-Supervised Representation Learning for High-Dimensional Cytometry",
+      "link": "https://doi.org/10.64898/2026.11.17.767309",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767309v1.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kalakoti",
+          "name": "Kalakoti, Y"
+        },
+        {
+          "key": "gasparetto",
+          "name": "Gasparetto, M"
+        },
+        {
+          "key": "gupta",
+          "name": "Gupta, S. K"
+        },
+        {
+          "key": "mittal",
+          "name": "Mittal, V"
+        },
+        {
+          "key": "jha",
+          "name": "Jha, A"
+        }
+      ],
+      "abstract_text": "High-dimensional flow and mass cytometry are foundational technologies for clinical immunophenotyping and hematological diagnostics, yet computational data analysis remains bottlenecked by operator-subjective manual gating. While computational tools have emerged, they remain fragmented across isolated tasks such as quality control or discrete clustering, leaving an unmet need for integrated, modular workflows that resolve continuous biological variation without manual supervision. Here, we introduce Elflow, a modular, self-supervised framework that links automated quality control, single-cell representation learning, and patient-level modeling without manual gating at inference. Elflow couples automated machine-learning quality control with Variance-Invariance-Covariance Regularization (VICReg) to learn continuous, batch-resilient single-cell representations without negative pairs or hand-labeled training sets. Across four diverse public benchmarks, Elflow adapts to distinct biological panels and clinical objectives. On 22-channel spectral flow cytometry (OMIP-030), self-supervised embeddings preserve fine functional T-cell gradations and outperform classical baselines in unsupervised clustering, while an anchor-guided extension accurately reproduces canonical manual gating hierarchies. On hand-curated CyTOF panels (Levine-13), linear PCA matches deep models, establishing an empirical boundary condition where linear methods suffice. Across multi-center clinical cohorts (FlowCAP-II), Elflow representations achieve high diagnostic sensitivity for acute myeloid leukemia across heterogeneous instruments despite severe class imbalance. In longitudinal immune monitoring (FlowCAP-IV), patient mean embeddings and micro-cluster differential histograms preserve rare antigen-specific responses, yielding significant AIDS-free survival stratification. By uniting automated quality control, self-supervised representation learning, and multi-scale patient aggregation, Elflow provides a modular, reproducibly benchmarked framework for high-parameter and multi-center translational cytometry.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "12303bd18af31828a85149a7756b6d98341903cde5df9dadcb301161ccaf738e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72880-0",

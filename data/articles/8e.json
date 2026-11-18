@@ -5057,12 +5057,12 @@
         "https://openalex.org/W7128397824"
       ],
       "title": "SaDiT: Efficient Protein Backbone Design via Latent Structural Tokenization and Diffusion Transformers",
-      "link": "https://arxiv.org/abs/2602.06706",
-      "pdf_url": null,
-      "publication_date": "2026-02-01",
+      "link": "https://doi.org/10.48550/arxiv.2602.06706",
+      "pdf_url": "https://arxiv.org/pdf/2602.06706",
+      "publication_date": "2026-02-06",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv:2602.06706",
+      "venue": "arXiv (Cornell University)",
       "authors": [
         {
           "key": "mo shentong",
@@ -5073,7 +5073,7 @@
           "name": "Lanqing Li"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Generative models for de novo protein backbone design have achieved remarkable success in creating novel protein structures. However, these diffusion-based approaches remain computationally intensive and slower than desired for large-scale structural exploration. While recent efforts like Proteina have introduced flow-matching to improve sampling efficiency, the potential of tokenization for structural compression and acceleration remains largely unexplored in the protein domain. In this work, we present SaDiT, a novel framework that accelerates protein backbone generation by integrating SaProt Tokenization with a Diffusion Transformer (DiT) architecture. SaDiT leverages a discrete latent space to represent protein geometry, significantly reducing the complexity of the generation process while maintaining theoretical SE(3) equivalence. To further enhance efficiency, we introduce an IPA Token Cache mechanism that optimizes the Invariant Point Attention (IPA) layers by reusing computed token states during iterative sampling. Experimental results demonstrate that SaDiT outperforms state-of-the-art models, including RFDiffusion and Proteina, in both computational speed and structural viability. We evaluate our model across unconditional backbone generation and fold-class conditional generation tasks, where SaDiT shows superior ability to capture complex topological features with high designability.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -6305,6 +6305,44 @@
         }
       ],
       "abstract_text": "Fungal skin infections represent a significant global health burden, affecting approximately one billion people annually. Despite their prevalence and major global health impact, the molecular mechanisms underlying pathogenicity remain largely uncharacterized. Here we present the genomes of 66 fungal strains, representing highly prevalent and clinically relevant species associated with human skin infections. Using comparative genomics, we investigate whether the taxonomic groups in this collection of skin fungi differ in their genome architecture, metabolic capacity, secreted enzyme repertoires, adhesin content, and predicted virulence determinants. These analyses reveal substantial variation in genome size and gene contents, indicating genome compaction occurred as the fungi transitioned from free-living to host-associated lifestyles. We report two non-hybrid strains of Trichosporon ovoides, the causative agent of white piedra. Our analyses reveal substantial differences in metabolic adaptations across skin-associated fungi, corresponding to body-site and nutrient niches. Significant differences are also observed in the distribution of virulence factors and adhesins, which are imperative for biofilm formation and antifungal resistance. We discuss metabolic adaptation and virulence mechanisms revealed by our data in the context of clinical presentations, highlighting shared and lineage-specific signatures of adaptations. Together, these insights advance our understanding of skin-associated fungi and their mechanisms of infection.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "8ed9bab972136eab1c0ac94079a93c8ce34620a6d9cd617371a2daffe5aaee18",
+      "identity_keys": [
+        "https://doi.org/10.1007/s11432-026-5239-1",
+        "https://openalex.org/W7235496345"
+      ],
+      "title": "OPUS-Design: a 3D convolutional approach for protein sequence design targeting complex spatial microenvironments",
+      "link": "https://doi.org/10.1007/s11432-026-5239-1",
+      "pdf_url": null,
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Science China Information Sciences",
+      "authors": [
+        {
+          "key": "gang xu",
+          "name": "Gang Xu"
+        },
+        {
+          "key": "qinghua wang",
+          "name": "Qinghua Wang"
+        },
+        {
+          "key": "jianpeng ma",
+          "name": "Jianpeng Ma"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

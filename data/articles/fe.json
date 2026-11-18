@@ -10,12 +10,12 @@
         "https://openalex.org/W7138028498"
       ],
       "title": "Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization",
-      "link": "https://doi.org/10.64898/2026.01.13.699365",
-      "pdf_url": null,
-      "publication_date": "2026-01-13",
+      "link": "https://doi.org/10.1609/aaai.v40i2.37142",
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37142/41104",
+      "publication_date": "2026-03-14",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv 2026.01.13.699365",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "authors": [
         {
           "key": "mingming zhu",
@@ -38,7 +38,7 @@
           "name": "Yuedong Yang"
         }
       ],
-      "abstract_text": null,
+      "abstract_text": "Protein design is revolutionizing biotechnology, yet existing approaches struggle to balance structural foldability with functional performance. Structure-based models excel at generating stable protein backbones but often overlook critical functional properties, while protein language models capture evolutionary and functional signals but frequently predict sequences lacking structural stability. Integrating these complementary approaches remains challenging due to their inherently conflicting objectives. We present MAProt, a multi-agent framework that synergistically combines structure-based and protein language model-based methods for protein design. Each agent specializes in a distinct aspect of the design objective: the structure-based agent (e.g., ProteinMPNN) ensures compatibility with the target backbone, while protein language model-based agents (e.g., ESM, SaProt) capture evolutionary plausibility and functional potential. To reconcile conflicts and achieve optimal trade-offs, we introduce a Pareto-based negotiation module that enables effective multi-objective coordination and consensus among agents. Extensive experiments on benchmark datasets demonstrate that MAProt achieves a remarkable improvement over state-of-the-art baselines, and generalizes robustly across a range of tasks, including thermodynamic folding stability design, functional protein design, and high-affinity antibody design. These results highlight the power of collaborative optimization for advancing rational protein engineering.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3049,7 +3049,7 @@
         },
         {
           "key": "gao",
-          "name": "Y. N. Gao"
+          "name": "Gao Y"
         },
         {
           "key": "baker david",

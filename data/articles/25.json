@@ -1494,6 +1494,44 @@
       "curated_categories": []
     },
     {
+      "id": "25410deececf05f575c304c25368974f366488fc27c8391028bad9f0a0d509dc",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.11.11.765943",
+        "https://openalex.org/W7225999695"
+      ],
+      "title": "Binary Patterning as a Probe of Protein Language Model Representations",
+      "link": "https://doi.org/10.64898/2026.11.11.765943",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/13/2026.11.11.765943.full.pdf",
+      "publication_date": "2026-11-13",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "dylan klein",
+          "name": "Dylan Klein"
+        },
+        {
+          "key": "hecht michael",
+          "name": "Michael H. Hecht"
+        },
+        {
+          "key": "nanda vikas",
+          "name": "Vikas Nanda"
+        }
+      ],
+      "abstract_text": "ABSTRACT Do protein language models (pLMs) encode the physical rules that govern protein folding? The four-helix bundle provides a classic test case because binary patterning, the ordered placement of polar and nonpolar residues along an amphipathic α-helix, is sufficient to generate folded proteins with high probability. Here, we ask whether ESM2 captures the sequence grammar underlying this design strategy. Libraries of synthetic sequences constrained only by binary patterning were predicted by ESMFold to form four-helix bundles. Predicted helicity, compactness, and topological diversity changed with sequence length in the same direction as experimentally characterized libraries, although the model did not distinguish successful from unsuccessful individual designs. Principal component analysis of ESM2 embeddings revealed representations of hydrophobic patterning, helix-loop boundaries, and heptad register. Extending the analysis to all 128 heptad binary patterns produced a jellyfish-shaped manifold in which hydrophobic composition formed the dominant axis, while paired components encoded pattern phase. Manifold geometry depended on amino-acid chemistry, repeat number, and linker sequence, and collapsed when amino acids were assigned to arbitrary categories. ESM2 therefore combines general repeat recognition with protein-specific physicochemical information. More broadly, synthetic sequence libraries provide experimentally grounded probes of protein language model representations and their relationship to protein biophysics. SIGNIFICANCE STATEMENT Protein language models can predict protein structure with remarkable accuracy, yet it remains unclear what biochemical principles they learn. Using synthetic proteins built from simple binary patterns of polar and nonpolar amino acids, we show that a leading protein language model encodes fundamental features of protein architecture, including hydrophobic patterning, helical organization, and repeat phase. These features emerge as an ordered geometric structure in the model’s representation space whose shape depends on amino-acid chemistry, sequence repetition, and linker context. Our results demonstrate how experimentally grounded protein-design systems can be used to interpret protein language models and connect their internal representations to established principles of protein folding.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2543303dc71242ee0040cfcc41d6dd39b8c98434c8e79b5c6851efda6e63aaaf",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76047-9",
