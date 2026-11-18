@@ -2499,6 +2499,69 @@
       "curated_categories": []
     },
     {
+      "id": "19859dad3934a9aa4e9a2e980e5a30366e981e5cdf31cae89f18508af4e9098b",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.766993v1",
+        "https://doi.org/10.64898/2026.11.16.766993",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.16.766993.source.xml"
+      ],
+      "title": "Deciphering the Biological Function of Tandem Mass Spectra Using a Dual-Modal Metabolite Language Model",
+      "link": "https://doi.org/10.64898/2026.11.16.766993",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766993v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, F"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Y"
+        },
+        {
+          "key": "kinchagawat",
+          "name": "Kinchagawat, J"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, C"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, W"
+        },
+        {
+          "key": "fu",
+          "name": "Fu, Y"
+        },
+        {
+          "key": "kong",
+          "name": "Kong, Q"
+        },
+        {
+          "key": "shen",
+          "name": "Shen, X"
+        }
+      ],
+      "abstract_text": "Liquid chromatography-tandem mass spectrometry untargeted metabolomics captures thousands of metabolic peaks from biological samples. Conventional identification-dependent metabolomics workflows require confident structural annotation before identified features can enter downstream pathway or functional analysis. However, only a small fraction of detected metabolic features can be assigned confident structural annotations, leaving a large fraction difficult to incorporate into downstream biological interpretation, a form of \"functional dark matter\". Here, we introduce Spec2Function, a function-centric framework that infers biological functions from tandem mass spectrometry (MS2) spectra. Spec2Function is trained using characterized spectrum-text pairs but does not require prior structural identification of the query spectra at inference time. At its core is Spec2Biotext, a dual-encoder contrastive model that embeds MS2 spectra and curated multi-aspect natural language functional texts into a unified functional space. Combined with a retrieval-augmented generation framework grounded in curated databases and biomedical literature, Spec2Function retrieves evidence-grounded biological knowledge and produces coherent functional summaries for individual spectra or groups of spectra. Across metabolite- and pathway-level benchmarks, Spec2Function achieved higher similarity to reference functional descriptions than the evaluated comparators and expanded the fraction of the metabolome accessible to functional interpretation. Application to a human liver cirrhosis cohort recapitulated known metabolic alterations and identified additional literature-supported functional modules. Applying Spec2Function to a 30-organ macaque aging atlas revealed organ-specific metabolic functions and previously unreported functional modules that were supported by independent human and mouse datasets. Together, these results position Spec2Function as a function-centric framework for scalable biological interpretation of structurally unannotated MS2 spectra.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1989c8ba918c78f4530ffa57a41673d78c4d7792aed99fddd8985d7aa6b09d9c",
       "identity_keys": [
         "https://doi.org/10.1101/2023.11.22.568230",

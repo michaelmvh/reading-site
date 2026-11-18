@@ -1636,6 +1636,57 @@
       "curated_categories": []
     },
     {
+      "id": "6f47320b5854d518ad215c0fd9f30d39edc7021881a6f65357c42d0ce5064d5d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.766951v1",
+        "https://doi.org/10.64898/2026.11.16.766951",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.16.766951.source.xml"
+      ],
+      "title": "Automated segmentation of renal structures using brightfield images of unstained kidney biopsies",
+      "link": "https://doi.org/10.64898/2026.11.16.766951",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766951v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "carvalho osiecka",
+          "name": "Osiecka Carvalho, M"
+        },
+        {
+          "key": "brandao",
+          "name": "Brandao, I"
+        },
+        {
+          "key": "pestana silva",
+          "name": "Pestana e Silva, R. N"
+        },
+        {
+          "key": "oliveira",
+          "name": "Oliveira, J. P"
+        },
+        {
+          "key": "alencastre soares",
+          "name": "Soares Alencastre, I"
+        },
+        {
+          "key": "cardoso santos",
+          "name": "Santos Cardoso, J"
+        }
+      ],
+      "abstract_text": "The automated segmentation of unstained kidney brightfield microscopy images remains a significant challenge in medical imaging. In conventional histopathology, staining provides crucial structural and molecular contrast, allowing renal compartments and structures to be readily distinguished. The absence of staining markedly reduces this contrast, obscuring the fine architectural details that are essential for diagnosis. Addressing this gap would reduce reliance on staining protocols, reduce technical and interpretive variability, and preserve valuable tissue for downstream molecular or multi-omics analyses. Ultimately, automation of unstained image segmentation could enable faster, more objective tissue analysis while preserving samples for further molecular testing. In this work, we provide a comprehensive review of state-of-the-art segmentation methods applied to renal brightfield microscopy images. Current findings highlight a predominance of Convolutional Neural Network (CNN) based architectures for semantic segmentation approaches while recent trends point to the growing application of transformer-based and instance-segmentation strategies. However, the field is still hampered by the scarcity and poor annotation of publicly available renal datasets. Aiming to further contribute to the enhancement of the field, a dataset of 18 Whole Slide Images (WSIs) of unstained human kidney tissue is made publicly available. Additionally, in the dataset, we provide 543 annotated tiles extracted from the WSIs, facilitating further research into stain-independent segmentation approaches. As a third contribution, we present a preliminary case study, evaluating state-of-the-art deep learning segmentation architectures, including U-Net and Segment Anything Model (SAM). Our preliminary results indicate that deep learning models demonstrate promising segmentation performance in unstained kidney biopsies. In alignment with these findings, advanced customised loss functions and data augmentation were integrated into the supervised training of the promising U-Net, DeepLabv3+, and TransUNet models, achieving significant improvements compared to the baseline experiments. To exploit the abundance of unlabelled data, we further tested FixMatchSeg, a semi-supervised learning method; however, its segmentation performance remained slightly behind the supervised methods. Taken together, these contributions establish a foundation for future research in stain-independent Computational Pathology, demonstrating that unstained brightfield microscopy images can reliably support downstream tissue analysis tasks. Our dataset, validation experiments, and methodological insights provide the community with both resources and benchmarks to advance robust, data-efficient, and generalisable kidney tissue segmentation.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6f4c2bf62c28f53440e699af7a2e604389ee826ca63d9189f387d65172250c76",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77602-0",

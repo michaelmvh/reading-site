@@ -4427,6 +4427,42 @@
       "curated_categories": []
     },
     {
+      "id": "0cd60cd76b1b94366075678cc153d3e351e9427434d42e8cb8cb1ca078d69f09",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.08.736040v2",
+        "https://doi.org/10.64898/2026.07.08.736040",
+        "https://www.biorxiv.org/content/early/2026/07/10/2026.07.08.736040.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.07.08.736040.source.xml"
+      ],
+      "title": "CADD-SV v2.0: An Extended Framework for Structural Variant Deleteriousness Prediction Using Coordinate- and Sequence-Based Features",
+      "link": "https://doi.org/10.64898/2026.07.08.736040",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.736040v2.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "catona",
+          "name": "Catona, O"
+        },
+        {
+          "key": "kircher",
+          "name": "Kircher, M"
+        }
+      ],
+      "abstract_text": "Structural variants are a major source of genomic variation and contribute to human disease and evolution through diverse mechanisms, yet their functional interpretation remains challenging. We present CADD-SV v2.0, an improved machine learning framework for scoring SV deleteriousness that expands on the original CADD-SV implementation. This version introduces a unified Random Forest model trained on an expanded set of proxy-neutral and proxy-deleterious variants drawn from human and non-human primate genomes. The model integrates updated genomic annotations, including constraint metrics, regulatory elements, and chromatin architecture features. It scores Deletions, Insertions, Duplications and Inversions based on a single scoring framework that uses both the variant and its flanking regions. To complement this framework, we also explore sequence-based annotations derived from SegmentNT, a deep learning model that provides functional predictions from DNA sequence at nucleotide resolution. Our analysis evaluated whether sequence-derived functional signals can provide additional information for SV prioritization and whether additional models with these features alone or in combination with previous coordinate-based annotations can be used. CADD-SV v2.0 outperforms its previous version and other tools in prioritizing deleterious variants across major SV types, including some previously unsupported, and substantially improves the computational workflow, increasing predictive power for genome-wide SV interpretation.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0cd6fb29ef11a64be7566209c03005cc04a62fc53cdc918d19cb8c4637ed6273",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-01974-y",

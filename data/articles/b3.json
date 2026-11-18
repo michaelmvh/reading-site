@@ -874,6 +874,57 @@
       "curated_categories": []
     },
     {
+      "id": "b33773ca11aa1b66295a7ee0f5ab2e68e9beeaa7bd49156063be73f22d442b69",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.767046v1",
+        "https://doi.org/10.64898/2026.11.16.767046",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.16.767046.source.xml"
+      ],
+      "title": "S-PLM-TM enables fast and accurate sequence-based search for remote homologs",
+      "link": "https://doi.org/10.64898/2026.11.16.767046",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767046v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, D"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, Y"
+        },
+        {
+          "key": "zeng",
+          "name": "Zeng, S"
+        },
+        {
+          "key": "jiang",
+          "name": "Jiang, Y"
+        },
+        {
+          "key": "shao",
+          "name": "Shao, Q"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, D"
+        }
+      ],
+      "abstract_text": "Protein structures and functions can remain conserved after extensive sequence divergence, but detecting these distant relationships across large databases remains challenging. Here we present S-PLM-TM, a sequence-only remote homology search tool based on a structure-aware protein language model. Cross-modal flow matching and contrastive learning incorporate structural information into sequence representations. A lightweight calibration head enables structural-similarity search with the frozen encoder, while a residue-level alignment head generates structural alignments directly from sequence. S-PLM-TM outperforms the tested sequence-based methods in remote homology detection, rivals structure-based methods in structural classification and retrieves the most functionally consistent neighbors. It also retrieves distantly related enzymes with shared catalytic functions at a level comparable to the best-performing structure-based methods. In large-scale database search, S-PLM-TM achieves the highest average precision among both sequence-based and alignment-free methods, with speed approaching the fastest sequence-alignment tools. Together, these results establish S-PLM-TM as a practical tool that combines sensitive and biologically informative remote homology search with the speed required for database-scale retrieval.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b33a18ce7f169fd245ab6e5579da48c6f34737b5ca5b260baf3a27fa15afd49b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65632-z",

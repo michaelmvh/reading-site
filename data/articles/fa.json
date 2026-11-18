@@ -2073,6 +2073,57 @@
       "curated_categories": []
     },
     {
+      "id": "fa58ae66bbb73ad3023521c6ad74808259e6319a62cd91a5deeffccc08614411",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.766934v1",
+        "https://doi.org/10.64898/2026.11.16.766934",
+        "https://www.biorxiv.org/content/early/2026/11/17/2026.11.16.766934.source.xml"
+      ],
+      "title": "Generative Data Augmentation for Small-Cohort Glioblastoma Diagnosis from Circulating microRNA: Why Same-Modality Validation Overstates Performance",
+      "link": "https://doi.org/10.64898/2026.11.16.766934",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766934v1.full.pdf",
+      "publication_date": "2026-11-17",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rane",
+          "name": "Rane, S"
+        },
+        {
+          "key": "mishra",
+          "name": "Mishra, S"
+        },
+        {
+          "key": "carvalho",
+          "name": "Carvalho, P"
+        },
+        {
+          "key": "gurjar",
+          "name": "Gurjar, V"
+        },
+        {
+          "key": "tiwari",
+          "name": "Tiwari, R"
+        },
+        {
+          "key": "mishra",
+          "name": "Mishra, P. K"
+        }
+      ],
+      "abstract_text": "Circulating microRNAs (miRNAs) have potential as minimally invasive biomarkers for glioblastoma (GBM), but the small size of discovery groups makes it difficult to develop a classifier. The discovery cohort, GSE122488, comprised 38 patients (n = 38). Generative data augmentation was applied to increase the dataset, although evaluations based on held-out samples from the same cohort or a single validation set make it difficult to distinguish biological signals from cohort- or platform-specific effects. CTGAN and Tabular Variational Autoencoder (TVAE) models were trained on the 38-patient cohort producing 500 synthetic samples each. Random Forest and XGBoost classifiers were trained on augmented datasets and assessed using an escalating validation approach: first on an independent plasma cohort of the same modality (GSE184472, n = 118), and then on a tissue cohort from a different platform (Chinese Glioma Genome Atlas (CGGA), n = 198). XGBoost using TVAE-augmented data achieved an AUROC of 0.59 (95% CI 0.49-0.70) on GSE184472, compared with 0.42 to 0.53 without augmentation, although no AUROC on this cohort was significantly different from chance. However, this improvement did not carry to CGGA, where AUROC was 0.40 (95% CI 0.32-0.48) before harmonisation and 0.47 after Min-Max harmonisation. After harmonisation, a recall of 1.00 resulted from predicting every sample as GBM, leading to an accuracy of 0.41 and showing poor discrimination. The generalisation gap was examined in terms of modality mismatch, differing class definitions between cohorts, synthetic-data-related class imbalance, and incomplete cross-platform harmonisation. These findings show the need for independent, cross-platform validation before using data augmentation for diagnosis. The escalating validation framework provides a way to evaluate generalizability in small-cohort studies.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fa5cfeb2ce551ec798c99794d7636816e11ff315d643908c8409f6fa7fc5e613",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67708-2",
