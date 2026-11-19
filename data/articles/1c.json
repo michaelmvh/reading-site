@@ -5138,6 +5138,60 @@
       "curated_categories": []
     },
     {
+      "id": "1cde25a227d350d2f902a5b623098e697b9e6906ab3ab83a611e348a67034fb7",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15002429/v4",
+        "https://openalex.org/W7162756247"
+      ],
+      "title": "Pre-training on Quantum Mechanical Properties Improves ADMET Prediction",
+      "link": "https://doi.org/10.26434/chemrxiv.15002429/v4",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002429/v4",
+      "publication_date": "2026-05-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "arun raja",
+          "name": "Arun Raja"
+        },
+        {
+          "key": "hongtao zhao",
+          "name": "Hongtao Zhao"
+        },
+        {
+          "key": "christian tyrchan",
+          "name": "Christian Tyrchan"
+        },
+        {
+          "key": "eva nittinger",
+          "name": "Eva Nittinger"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        },
+        {
+          "key": "garrett morris",
+          "name": "Garrett M. Morris"
+        }
+      ],
+      "abstract_text": "In principle, quantum chemistry allows us to quantify electronic and geometric properties of molecules and their interactions. Thus, incorporating pre-calculated quantum mechanical properties into deep learning models could improve their ability to predict important pharmacological properties of small molecules and potential drugs. However, this opportunity to incorporate better physicochemical inductive bias has been underexploited in the recent wave of AI-driven drug discovery. We show that pre-training Equivariant Graph Neural Network (EGNN) models-specifically the TorchMD-NET model-to predict quantum mechanical molecular and atomic properties like dipole moments, HOMO-LUMO gap, and partial charges, we can obtain more accurate models to predict absorption, distribution, metabolism, excretion, and toxicological (ADMET) properties. Moreover, we explore the interplay between quantum chemistry and three-dimensional structure by introducing a novel structure pre-training strategy where the equivariant transformer is pre-trained on three-dimensional molecular fingerprints known as E3FPs. We ran QuADMET-Former, MapLight+GNN and Quantum Informed Pre-training on 23 ADMET benchmarks drawn from Therapeutic Data Commons (TDC), Biogen ADME, and OpenADMET, and found them to outperform both MapLight+GNN, the best-performing single model on the TDC benchmark, and Quantum Informed pre-training, a state-of-the-art method for quantum chemistry-informed ADMET prediction, on very challenging spectral splits. QuADMET-Former performed best on 16 of the 23 datasets (13 out of those 16 were statistically significant). The optimal pre-training target combination varies across tasks, suggesting that quantum mechanical and geometric features capture complementary aspects of molecular behaviour. Our results establish quantum chemistry-grounded pre-training as a practical and impactful strategy for ADMET prediction under strict generalization conditions, and highlight the underexplored interplay between 3D molecular geometry and electronic structure in representation learning for small-molecule drug discovery.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1cde2761e8c21a0e3caa3d9ed3abef9ae2008fc5f071695005f4bee908c3e64e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73937-w",
