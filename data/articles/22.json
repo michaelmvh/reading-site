@@ -5228,6 +5228,36 @@
       "curated_categories": []
     },
     {
+      "id": "22c76faa581c1aca22ec53df8c152828860d7a88bf1ae0129a2ab663a54fa84b",
+      "identity_keys": [
+        "arxiv:2611.24799",
+        "https://doi.org/10.48550/arXiv.2611.24799"
+      ],
+      "title": "Prognosis Without Prediction: The Intrinsic Geometry of Survival",
+      "link": "https://doi.org/10.48550/arXiv.2611.24799",
+      "pdf_url": "https://arxiv.org/pdf/2611.24799v1",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "atahan karagoz",
+          "name": "Atahan Karagoz"
+        }
+      ],
+      "abstract_text": "Modeling systemic failure in high-dimensional environments is fundamentally limited by supervised algorithms that attempt to predict sparse, noisy or censored endpoints. To break this reliance on explicit outcome regression, we engineered the Self-Organizing Survival Manifolds (SOSM) framework, a deep learning architecture that decouples unsupervised representation learning from survival labels and treats time-to-event progression as an emergent geometric property. The system projects heterogeneous multi-omics arrays into a unified latent space governed by a pseudotime-weighted, curvature-minimizing graph Laplacian, organizing patient trajectories along low-dissipation geodesic flows. To validate the framework, we applied this architecture to a 184-patient clear cell renal cell carcinoma multi-omics cohort. Across a deterministic 5-fold cross-validation pipeline, SOSM achieved a mean Concordance Index of $0.768 \\pm 0.068$, while out-of-fold risk stratification yielded significant survival divergence (log-rank $p < 0.001$) accompanied by a 14.7% increase in local manifold dissipation among high-risk patients. Furthermore, interrogating the network's encoder weights confirmed that the model autonomously recovered canonical metabolic and microenvironmental drivers of disease progression without supervised feature selection. By demonstrating that systemic failure can be mapped as a geometric phase transition, SOSM establishes a generalizable computational engine for prognostic modeling across biological, industrial and financial complex systems.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "22c93b4e86d83be05f158c884742497252ddd81b98041bac6b8722bff137875a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72989-2",

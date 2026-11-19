@@ -1041,6 +1041,43 @@
       "curated_categories": []
     },
     {
+      "id": "c53b1773af31b28f9ccda9b4c75d1ecde399e810d7ec5b0a1be567ea12b4d59e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.28.754881v3",
+        "https://doi.org/10.64898/2026.09.28.754881",
+        "https://www.biorxiv.org/content/early/2026/10/07/2026.09.28.754881.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/12/2026.09.28.754881.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.09.28.754881.source.xml"
+      ],
+      "title": "MtbAIM: AI/ML-guided endpoint-specific prediction of small-molecule activity across drug-susceptible and drug-resistant Mycobacterium tuberculosis",
+      "link": "https://doi.org/10.64898/2026.09.28.754881",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754881v3.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "singh",
+          "name": "Singh, J"
+        },
+        {
+          "key": "singh",
+          "name": "Singh, K"
+        }
+      ],
+      "abstract_text": "The emergence of drug resistance in Mycobacterium tuberculosis (M.tb) presents a major challenge to drug discovery, as compounds active against drug-susceptible (DS) isolates may not retain comparable inhibitory activity against drug-resistant (DR) isolates. Here, we developed an AI/ML workflow to independently prioritize small molecules separately against DS and DR isolates of M.tb and predict MIC, MIC90, and MIC99 as distinct quantitative endpoints. Following curation of data retrieved from the ChEMBL repository, molecular-activity datasets comprised 25,645 and 3,749 compounds tested against whole cell DS and DR isolates respectively. Molecular representations were generated using RDKit descriptors and Morgan fingerprints, along with embeddings from ChemBERTa, MolCLR, and Uni-Mol, and evaluated for binary activity classification and endpoint-specific regression. The best-performing DS classifier combined RDKit/Morgan features with ExtraTrees (balanced accuracy 0.782; AUROC 0.864; AUPRC 0.870), while histogram gradient boosting using the same features performed best for DR classification (balanced accuracy 0.762; AUROC 0.836; AUPRC 0.880). Similarly, RDKit/Morgan features combined with tree-based regressors achieved the best overall performance across all six DS/DR regression endpoints, with pooled out-of-fold RMSE values ranging from 0.604 to 0.784 pMIC units. To facilitate broader application, we developed MtbAIM (https://github.com/jasdeep002/MtbAIM), a Google Colab-based prediction platform that enables users to assess and prioritize small molecules against DS and DR isolates of M.tb.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c53ca8395aabe6d0965e4af6c5de35652fb4b7783007da452740175d2e2822a0",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67861-8",

@@ -1940,6 +1940,54 @@
       "curated_categories": []
     },
     {
+      "id": "2e438df79ab2667747a6a37c0c8f3646f0271d48a412dd31c5ce7f8f513707ac",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.07.736795v2",
+        "https://doi.org/10.64898/2026.07.07.736795",
+        "https://www.biorxiv.org/content/early/2026/07/10/2026.07.07.736795.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.07.07.736795.source.xml"
+      ],
+      "title": "Weight locking as a safeguard for open-weight biological foundation models",
+      "link": "https://doi.org/10.64898/2026.07.07.736795",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736795v2.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "karatzikos",
+          "name": "Karatzikos, A"
+        },
+        {
+          "key": "vasilopoulou",
+          "name": "Vasilopoulou, A"
+        },
+        {
+          "key": "chan",
+          "name": "Chan, C"
+        },
+        {
+          "key": "mouratidis",
+          "name": "Mouratidis, I"
+        },
+        {
+          "key": "georgakopoulos soares",
+          "name": "Georgakopoulos-Soares, I"
+        }
+      ],
+      "abstract_text": "Biological foundation models can accelerate research, but their open weight release raises biosecurity concerns. A common safeguard excludes eukaryotic viral genomes from training, but fine-tuning on public viral data reverses it. We confirm that fine-tuning improves held-out viral language modelling, and that the gain comes from the viral data itself. Weight locking by spectral deformation, proposed to prevent fine-tuning, is untested in biological models. We applied it to two Evo-family models and the protein model ESM3-open, against attackers of increasing knowledge. The lock defends against the naive attacker, whose fine-tuning drives capability below pretrained on all three models. It does not defend against an informed attacker, who freezes or fuses the compensation matrix to restore near-unlocked performance. A compensation-free lock we build from the network's own rescaling symmetries again defeats the naive attacker, but canonical rebalancing removes it without knowledge of the lock. The barrier is one of knowledge, not compute.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2e457009f2996d4605732023de3ede125fc4ad9d4def2b966ce839605de81126",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67573-z",

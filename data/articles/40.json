@@ -74,6 +74,47 @@
       "curated_categories": []
     },
     {
+      "id": "40024e7daa342f6a55b10a4e9456bd2bfa189efd6c81724a71dc88dd9f297ad9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.25.754455v3",
+        "https://doi.org/10.64898/2026.09.25.754455",
+        "https://www.biorxiv.org/content/early/2026/10/01/2026.09.25.754455.source.xml",
+        "https://www.biorxiv.org/content/early/2026/10/12/2026.09.25.754455.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/18/2026.09.25.754455.source.xml"
+      ],
+      "title": "AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models",
+      "link": "https://doi.org/10.64898/2026.09.25.754455",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754455v3.full.pdf",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "singh",
+          "name": "Singh, J"
+        },
+        {
+          "key": "jangid",
+          "name": "Jangid, R"
+        },
+        {
+          "key": "srivastava",
+          "name": "Srivastava, A"
+        }
+      ],
+      "abstract_text": "Identification of amyloid forming regions in proteins remains central to understanding of their aggregation behaviour, which are central to various neurodegenerative and systemic disorders. Many predictors have been designed to identify amyloid forming regions, however they may not necessarily identify total residues found in actual disease associated fibril structures. To address this, we formed a sequence-based based predictor-AmyloCore-ML to ascertain structural amyloid-core propensity. The predictor was developed using experimentally determined fibril structures obtained from Amyloid Atlas. Ordered residues in the experimental structures were designated as core, and unresolved sampled from the same proteins as matched controls as non-core. Core and non-core regions were encoded using various physicochemical descriptors and protein language model (PLM) embeddings (ESM-2, ANKH, ProtT5) and evaluated using protein-grouped cross-validation. PLMs consistently outperformed physicochemical descriptors, with the best models reaching AUROC values of ~0.88 and AUPRC values of ~0.85. Locked full-length protein scans further localized experimental cores, with ESM-2/ExtraTrees achieving AUROC 0.833, AUPRC 0.751, and a mean peak distance of 12.4 residues. In comparative benchmarking, our predictor showed better performance metrics than CrossBeta and AggrescanAI. The framework therefore provides residue-resolved prediction of structurally incorporated amyloid-core regions directly from sequence.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "40027d023fd9c545132c0fd2be734cdee203120b1ee452bdafa1b853fa919376",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.29.762804v1",

@@ -902,6 +902,48 @@
       "curated_categories": []
     },
     {
+      "id": "5638163c0e5a7057696e28e3fe07cdf421b5ace707e665bccd7514e02961a465",
+      "identity_keys": [
+        "arxiv:2611.24763",
+        "https://doi.org/10.48550/arXiv.2611.24763"
+      ],
+      "title": "Elysium: Simulation-Free Unbalanced Schrödinger Bridges",
+      "link": "https://doi.org/10.48550/arXiv.2611.24763",
+      "pdf_url": "https://arxiv.org/pdf/2611.24763v1",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "wang zihan",
+          "name": "Zihan Wang"
+        },
+        {
+          "key": "jianzhe li",
+          "name": "Jianzhe Li"
+        },
+        {
+          "key": "zhang zhenyi",
+          "name": "Zhenyi Zhang"
+        },
+        {
+          "key": "peijie zhou",
+          "name": "Peijie Zhou"
+        }
+      ],
+      "abstract_text": "Reconstructing cellular dynamics from snapshots is challenging because the destructive nature of single-cell measurements makes tracking the same cells over time impossible. Cellular dynamics are inherently stochastic and involve changes in population size through proliferation and apoptosis. Growth-based methods represent population change as a rate on the density, which does not assign exits and entries to individual cells. Unbalanced Schrödinger bridges model individual events, but neural solvers for killed diffusion bridges simulate trajectories during training. We introduce Elysium, a simulation-free solver that jointly learns state transition and mass change. Using a killed Brownian reference and its time reversal, Elysium constructs direct regression objectives from an optimal endpoint coupling and conditional bridge distributions, without simulating trajectories during training. We show that the minimizers of the expected training objectives recover the optimal unbalanced Schrödinger bridge. Empirically, Elysium reconstructs state transitions, population size, and event distributions on simulated benchmarks with known killed-diffusion ground truth, outperforming existing deterministic and bridge-based solvers. On single-cell time courses, it interpolates cell state distributions at unobserved time points, tracks population expansion and contraction, and captures biphasic drug-response dynamics.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "563967ab5d6eef15a8588f53d66e390f1984bd376153cab099ac9dac0f2a1e2a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76169-0",
