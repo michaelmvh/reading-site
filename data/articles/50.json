@@ -3403,6 +3403,45 @@
       "curated_categories": []
     },
     {
+      "id": "5082748c67633d8e4505759effe5f62a01532351587f78d25e08e4a07b0098a2",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767817v1",
+        "https://doi.org/10.64898/2026.11.19.767817",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.19.767817.source.xml"
+      ],
+      "title": "MitoArc: A Reproducible Short-Read Workflow for Human Mitochondrial Genome Analysis with Circular-Coordinate and NUMT-Aware Evaluation",
+      "link": "https://doi.org/10.64898/2026.11.19.767817",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767817v1.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "galgale",
+          "name": "Galgale, S"
+        },
+        {
+          "key": "vats",
+          "name": "Vats, I"
+        },
+        {
+          "key": "haldar",
+          "name": "Haldar, A"
+        }
+      ],
+      "abstract_text": "Human mitochondrial DNA (mtDNA) analysis from short-read sequencing is complicated by nuclear mitochondrial DNA segments (NUMTs), circular-reference coordinates, sequencing depth, and variant-caller configuration. We developed MitoArc, a Nextflow workflow that accepts paired-end FASTQ files or pre-aligned BAM and CRAM files, retains available nuclear mapping context, and performs standard and shifted-coordinate processing. It runs Genome Analysis Toolkit (GATK) Mutect2 and mutserve2 independently and reports mitochondrial quality metrics, NUMT evidence, haplogroups, contamination estimates, functional annotations, consensus sequences, and reproducibility outputs. We evaluated MitoArc using 18 controlled datasets, spanning three technical replicates and six sequencing depths (100x-5000x), with 648 allele-level truth observations. Requiring confident primary mitochondrial mapping eliminated 33 observable synthetic NUMT-associated false-positive calls but reduced recall from 0.894 to 0.796. In a matched evaluation comprising 108 truth observations, standard-only and standard-plus-shifted GATK processing produced identical variant recovery and allele-fraction estimates. GATK recall increased from 0.741 at 100x to 0.917 at 5000x, while temporary working storage increased approximately 20-fold. Against the complete truth set, GATK recovered 548 observations and mutserve2 recovered 311 under the evaluated configurations; mutserve2 insertion and deletion modes were not enabled. The benchmark used synthetic data without a background sequencing-error model. A reduced HG002 dataset demonstrated end-to-end operation of the pre-aligned workflow, subject to incomplete nuclear context. MitoArc preserves caller-specific evidence and the analytical context needed to interpret mitochondrial variants. The software is publicly available at https://github.com/sarvezh1/mitoarc.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "508455e2e82256dc80e0e56c530bed004b2024f2495f78a9953e9c3ffa95f90c",
       "identity_keys": [
         "https://doi.org/10.1016/j.compbiomed.2025.111286",

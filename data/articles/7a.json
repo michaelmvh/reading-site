@@ -446,6 +446,49 @@
       "curated_categories": []
     },
     {
+      "id": "7a0b7a5acb4180667f345d7b07770ec497e9cd406410a28a013eaca58a2abefe",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.18.767545v1",
+        "https://doi.org/10.64898/2026.11.18.767545",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.18.767545.source.xml"
+      ],
+      "title": "Surrogate Verifiers Shape Decisions in Closed-Loop Experimental Design",
+      "link": "https://doi.org/10.64898/2026.11.18.767545",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767545v1.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "merzbacher",
+          "name": "Merzbacher, C"
+        },
+        {
+          "key": "goecke",
+          "name": "Goecke, J"
+        },
+        {
+          "key": "cohen",
+          "name": "Cohen, J"
+        },
+        {
+          "key": "patz",
+          "name": "Patz, M"
+        }
+      ],
+      "abstract_text": "High throughput, automated screening has revolutionized biological experimentation and prompted predictions of AI-enabled \"self-driving\" labs. Deployed autonomous lab systems typically use a learned surrogate to predict new experimental candidates and rank which conditions deserve expensive follow-up. Determining whether a computational surrogate verifier can substitute for an experimental assay's ground truth requires an understanding of model accuracy, uncertainty, and extrapolation. In this work, we present surrogate verifiers trained on N=7,688 Lacticaseibacillus growth curves exploring a 10-dimensional media component experimental design space. We train surrogate models across six distinct families including polynomial, Gaussian-process, tree-ensemble, neural, and Monod-kinetic forms to predict maximum optical density (OD600). Surrogates ranked by the most commonly reported accuracy metrics (held-out R^2; MAE; RMSE) disagree sharply on which experiments to test next and the best achievable yield. We evaluate models in a Bayesian optimization loop and find that the model used as the active learning oracle matters more than the acquisition function or batch size. We apply conformal calibration to build a model-agnostic assessment criterion of uncertainty and model coverage. We end by evaluating model accuracy and calibration under transfer to an unseen related bacterial strain, and confirm on a prospective validation plate that the transferred verifier's intervals fail in the direction and region our retrospective analysis predicts. This work explores the surrogate verifier within the loop as a previously underexplored axis of closed-loop design and points towards best calibration practices.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7a0eea17f8cb3ce5e8655a10ecc06d646dc4c8386044d546b77341d0565506fe",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02329-3",
