@@ -3367,6 +3367,45 @@
       "curated_categories": []
     },
     {
+      "id": "d36cc22f9ec4bad3f4cac101987236b9700f29a3b8b4f1dba056a9f936a4373c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.18.767590v1",
+        "https://doi.org/10.64898/2026.11.18.767590",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.18.767590.source.xml"
+      ],
+      "title": "Localizing Unsampled Regions in Partially Sampled Pathogen Phylogenies Using Machine Learning",
+      "link": "https://doi.org/10.64898/2026.11.18.767590",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767590v1.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "khodaei",
+          "name": "Khodaei, M"
+        },
+        {
+          "key": "hupert",
+          "name": "Hupert, N"
+        },
+        {
+          "key": "roychoudhury",
+          "name": "RoyChoudhury, A"
+        }
+      ],
+      "abstract_text": "Motivation: Pathogen phylogenies are useful for monitoring the evolution of pathogens and for detecting new variants, as it provides information that can aid public health decisions and outbreak response. Since not all infections are sequenced, certain pathogen lineages may be missing or only poorly represented in reconstructed phylogenies. Identifying these gaps could help to determine where additional data collection is required. Results: We developed a computational method to locate regions of missing samples from the observed tree alone, without sequences from those samples. A machine learning model predicts which branches lead toward the missing region. Beam search then identifies three representative paths and estimates a candidate most recent common ancestor (MRCA) of the missing region for each path. We tested this framework on 5,000 simulated phylogenies where we controlled which tips were deleted. On an independent test set, the best candidate recovered an average of 89.9% of deleted tips, increasing to 90.7% when all three candidates were combined. Predicted and true MRCAs lay on the same ancestral-descendant lineage in 91.3% of cases. We further evaluated the approach on an empirical SARS-CoV-2 phylogeny with introduced missingness. By identifying potentially underrepresented lineages, this framework could help real-time identification of missing infections and improve outbreak response.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d36e5e4e1457738e88bb725e1e3bc5221ae2d64e6580f1bb554f90771b1a86f3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72196-z",

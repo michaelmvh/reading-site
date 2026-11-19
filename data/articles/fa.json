@@ -3642,6 +3642,49 @@
       "curated_categories": []
     },
     {
+      "id": "fa8ffc10f68982fdcb78256c596f15ba2b6c1d656e1f94dfeb8fbd67fd28e55e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.18.767617v1",
+        "https://doi.org/10.64898/2026.11.18.767617",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.18.767617.source.xml"
+      ],
+      "title": "Machine Learning-Assisted Raman Spectroscopy for Quantitative Prediction of Multicomponent Mixtures",
+      "link": "https://doi.org/10.64898/2026.11.18.767617",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767617v1.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yadav",
+          "name": "Yadav, A"
+        },
+        {
+          "key": "khambhawala",
+          "name": "Khambhawala, A"
+        },
+        {
+          "key": "dinh",
+          "name": "Dinh, D"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, H.-J"
+        }
+      ],
+      "abstract_text": "Machine Learning (ML)-assisted Raman spectroscopy that can efficiently analyze molecularly specific fingerprints is well suited for quantitative analysis of complex chemical mixtures. However, developing accurate predictive ML models for multicomponent systems remains difficult because collecting sufficient experimental calibration data is slow, expensive, and limited. In this work, we present a ML-assisted Raman spectroscopy framework for predicting the quantitative composition of multicomponent lipid mixtures (consisting of 15 lipids). To reduce the experimental burden of generating extensive multicomponent spectral datasets, we computationally constructed a large spectral library using experimentally measured pure-component Raman spectra from 15 lipids, including triglycerides, medium- and long-chain fatty acids, and fatty acid methyl and ethyl esters. Mixture compositions were sampled across a constrained compositional space and used to generate training spectra from weighted combinations of the pure component spectra. Experimentally prepared mixtures were then used to evaluate the model under real measurement conditions. To reduce the mismatch between library-generated spectra and experimental mixture spectra, a linear correction strategy was applied to account for systematic spectral differences caused by mixing effects, intermolecular interactions, and measurement variability. The corrected experimental spectra were then used for concentration prediction with an uncertainty-aware workflow. The compositions of the 15 lipid mixtures were successfully predicted using the ML model trained solely on a simulated dataset, achieving R^2 values exceeding 0.95 for each lipid. By combining scalable, library-based model training with experimental validation on physical multicomponent mixtures, this approach minimizes the need for exhaustive calibration datasets while maintaining high quantitative accuracy. The proposed framework offers a practical path for quantitative Raman analysis of chemical mixtures and can easily be extended to quality control applications across the food, pharmaceutical, nutraceutical, and chemical industries.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fa91426361ed2f2aae3dcdfbc0c2c26677de109018d24b7524f6df3edb852930",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76071-9",
