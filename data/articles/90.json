@@ -4723,6 +4723,49 @@
       "curated_categories": []
     },
     {
+      "id": "90bd011ac69a612c3b45524526ddb4c396c0034b5efa28e0fcfb298bc16afd17",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767979v1",
+        "https://doi.org/10.64898/2026.11.19.767979",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767979.source.xml"
+      ],
+      "title": "Combinatorial perturbation structure enables graded inference of signaling activity by CIRCE",
+      "link": "https://doi.org/10.64898/2026.11.19.767979",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767979v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hutchins",
+          "name": "Hutchins, N. T"
+        },
+        {
+          "key": "maffa",
+          "name": "Maffa, S"
+        },
+        {
+          "key": "lu",
+          "name": "Lu, C"
+        },
+        {
+          "key": "li",
+          "name": "Li, P"
+        }
+      ],
+      "abstract_text": "Cells decode external inputs into intracellular activities of varying magnitude, and inferring both input identity and strength is crucial for cell-fate engineering. However, perturbation-response models typically treat all cells exposed to a given input as a discrete class, ignoring cell-to-cell variation in response magnitude. Here, we introduce a structured-label framework that infers both input identity and strength from combinatorial perturbation screens without dose-resolved training labels. We represent each perturbation combination in a binary combinatorial space and replace one-hot supervision with a Boltzmann distribution that decays with the Hamming distance between combinations. This approach preserves classification accuracy while improving calibration and resolving continuous pathway activities across individual cells. Importantly, intermediate scores primarily reflect ambiguity in cellular response states rather than insufficient model knowledge. Applied to engineered and natural tissues, the calibrated model successfully recovered graded activities. These results establish combinatorial perturbation screens as a self-calibrating framework for decoding graded cellular responses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "90bd22528e71c9dff08567cc15a51b1f46b7f74808d3dacf037f91f9b4c59aa1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68065-w",

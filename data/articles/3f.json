@@ -6971,6 +6971,45 @@
       "curated_categories": []
     },
     {
+      "id": "3fe51b8a0b94e526dba20dc1bb85c110a4c7c8f6b27e0c721b971dc86d8e2f81",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767893v1",
+        "https://doi.org/10.64898/2026.11.19.767893",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767893.source.xml"
+      ],
+      "title": "MDQ: A DockQ-Inspired Scoring Function for Assessing Interface Similarity and Clustering in Molecular Dynamics",
+      "link": "https://doi.org/10.64898/2026.11.19.767893",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767893v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ehles",
+          "name": "Ehles, J"
+        },
+        {
+          "key": "barbault",
+          "name": "Barbault, F"
+        },
+        {
+          "key": "miclot",
+          "name": "MICLOT, T"
+        }
+      ],
+      "abstract_text": "Assessing the similarity between protein-protein interfaces is essential for evaluating docking models, yet widely used metrics such as DockQ rely on a single native reference structure and yield asymmetric scores, making them unsuitable for molecular dynamics (MD) trajectories where no reference exists and frame-to-frame comparisons are required. Here, we introduce the MDQ, a fully symmetric reformulation of DockQ designed for MD trajectory analysis. MDQ replaces the fraction of native contacts with the Fraction of Shared Contacts (FSC), and redefines interface and ligand RMSD as weighted variants that penalize low atomic overlap between compared frames. The score can be used to follow structure/contacts convergence of an interface along a trajectory. And it is inverted to produce a true distance metric ranging from 0 (identical interfaces) to 1 (distinct interfaces), directly compatible with distance-based clustering. Applied to two benchmark complexes, Ail-Vitronectin and TGFBR1-FKBP12, MDQ heatmaps reveal global interface stability alongside subtle conformational rearrangements, while DBSCAN and hierarchical clustering of the MDQ distance matrix identifies representative conformational states. Then non-bonding interaction found in clusters were identified by MICLOT software. MDQ thus provides a robust and frame-to-frame symmetric framework for monitoring protein-protein interface conformational and interaction heterogeneity throughout MD simulations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3fe83d0115ad33c6041769083c896359f8dd7cfceaadc54e04a7844ff6aed6c1",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02254-5",
