@@ -1464,7 +1464,7 @@
           "name": "Tao Liu"
         }
       ],
-      "abstract_text": "Abstract Generative protein design has made sequence and structure programmable, yet its chemical alphabet remains largely confined to the canonical twenty. Here, we establish CheMoDesign, an experimentally validated generative framework for designing proteins de novo around user-specified chemistry. CheMo Design weakens pair-representation conditioning in a pretrained all-atom structure-prediction model while preserving chemical anchors, then refines generated backbones through sequence-conditioned denoising. By treating post-translational modifications, synthetic residues, and chemical modifications as user-defined building blocks, the framework generated proteins with chemistry-dependent recognition and reactivity in single-round experimental campaigns. Sulfotyrosine and nitrotyrosine enabled modification-dependent recognition of thrombin and HER2, respectively. Genetically encoded noncanonical residues enabled bioorthogonal affinity switching and light- or proximity-triggered covalent target capture. Post-expression chemical modifications yielded a light-activated covalent PD-L1 binder and an isoform-selective CA IX inhibitor (K D = 45 nM) designed to engage catalytic Zn²⁺. CheMoDesign makes chemical mechanism a programmable dimension of de novo protein design.",
+      "abstract_text": "Generative protein design has made sequence and structure programmable, yet its chemical alphabet remains largely confined to the canonical twenty. Here, we establish CheMoDesign, an experimentally validated generative framework for designing proteins de novo around user-specified chemistry. CheMo Design weakens pair-representation conditioning in a pretrained all-atom structure-prediction model while preserving chemical anchors, then refines generated backbones through sequence-conditioned denoising. By treating post-translational modifications, synthetic residues, and chemical modifications as user-defined building blocks, the framework generated proteins with chemistry-dependent recognition and reactivity in single-round experimental campaigns. Sulfotyrosine and nitrotyrosine enabled modification-dependent recognition of thrombin and HER2, respectively. Genetically encoded noncanonical residues enabled bioorthogonal affinity switching and light- or proximity-triggered covalent target capture. Post-expression chemical modifications yielded a light-activated covalent PD-L1 binder and an isoform-selective CA IX inhibitor (K D = 45 nM) designed to engage catalytic Zn²⁺. CheMoDesign makes chemical mechanism a programmable dimension of de novo protein design.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4326,6 +4326,7 @@
       "id": "eb9bc2bffe28ac73b7f879487ef28809fada7eabb166895c7e71f38a19e75442",
       "identity_keys": [
         "https://doi.org/10.64898/2026.10.28.762639",
+        "https://openalex.org/W7224640981",
         "https://openalex.org/W7224892637"
       ],
       "title": "Few-shot regulatory sequence design with a genomic language model",
@@ -4337,12 +4338,8 @@
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "brian hie",
-          "name": "Brian Hie"
-        },
-        {
-          "key": "hao yukun",
-          "name": "Yukun A Hao"
+          "key": "alex hao yukun",
+          "name": "Yukun Alex Hao"
         },
         {
           "key": "liu matthew",
@@ -4362,7 +4359,7 @@
         },
         {
           "key": "charu ramakrishnan",
-          "name": "Charu A Ramakrishnan"
+          "name": "Charu Ramakrishnan"
         },
         {
           "key": "chang daniel",
@@ -4375,9 +4372,13 @@
         {
           "key": "allen william",
           "name": "William E. Allen"
+        },
+        {
+          "key": "brian hie",
+          "name": "Brian Hie"
         }
       ],
-      "abstract_text": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enabling these models to become general-purpose learners. Here, we show that the genome language model, Evo 2, exhibits generative ICL in biological sequence design. Prompting with just tens of examples conditions Evo 2 to generate novel and diverse regulatory DNA sequences without any additional training. Mechanistic analysis suggests that genomic ICL may originate from induction, similar to phenomena observed in natural language. Reinforcement learning leveraging sequence-to-function models as experiment-derived rewards further strengthens ICL. We first validate this approach by generating enhancers that drive cell-type-specific gene expression in three human cell lines. Extending this approach in vivo, enhancers designed using human regulatory element data selectively label layer 5 extratelencephalic neurons in the mouse cortex with high specificity and stronger activity than existing enhancers. Our study provides evidence of emergent properties in genomic sequence models and introduces a promising approach for improving functional conditioning in generative biology.",
+      "abstract_text": "A central challenge in generative biology is translating knowledge learned from natural sequences and experiments into designs with desired functions. In-context learning (ICL) is an emergent capability of large language models that allows them to adapt to new tasks from a few examples without additional training, enabling these models to become general-purpose learners. Here, we show that the genome language model, Evo 2, exhibits generative ICL in biological sequence design. Prompting with just tens of examples conditions Evo 2 to generate novel and diverse regulatory DNA sequences without any additional training. Mechanistic analysis suggests that genomic ICL may originate from induction, similar to phenomena observed in natural language. Reinforcement learning leveraging sequence-to-function models as experiment-derived rewards further strengthens ICL. We first validate this approach by generating enhancers that drive cell-type-specific gene expression in three human cell lines. Extending this approach in vivo , enhancers designed using human regulatory element data selectively label layer 5 extratelencephalic neurons in the mouse cortex with high specificity and stronger activity than existing enhancers. Our study provides evidence of emergent properties in genomic sequence models and introduces a promising approach for improving functional conditioning in generative biology.",
       "discovery_sources": [
         {
           "kind": "open_alex",

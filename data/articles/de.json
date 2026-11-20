@@ -608,6 +608,45 @@
       "curated_categories": []
     },
     {
+      "id": "de2797110d472ac7574c9abd37c9ef3d061f5b2f331ca454fcf322048e870507",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767922v1",
+        "https://doi.org/10.64898/2026.11.19.767922",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767922.source.xml"
+      ],
+      "title": "MSGFLEX: An optimized end-to-end pipeline for proteomics and metaproteomics analysis built on MS-GF+ with a dedicated rescoring model XPECTRA",
+      "link": "https://doi.org/10.64898/2026.11.19.767922",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767922v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "relangi",
+          "name": "Relangi, T. R"
+        },
+        {
+          "key": "hall",
+          "name": "Hall, H. A"
+        },
+        {
+          "key": "wright",
+          "name": "Wright, A. T"
+        }
+      ],
+      "abstract_text": "Mass spectrometry-based proteomics workflows often face competing demands between identification sensitivity, false discovery rate (FDR) control, and computational scalability, particularly for metaproteomic datasets that require searching large and complex sequence databases. Here, we present MSGFLEX, an integrated end-to-end workflow that combines database searching, machine-learning based rescoring, and peptide-to-protein quantitative inference. MSGFLEX integrates three components: SPARX handles raw file conversion, and MS-GF+ database searching; XPECTRA is a cross-validated XGBoost ensemble that rescores peptide-spectrum matches by combining ensemble predictions with MS-GF+ search evidence through noisy-OR fusion model. QUANTIX provides protein quantification through multiple protein rollup strategies. Across four benchmarking datasets, XPECTRA consistently increased peptide and protein identifications relative to Percolator, MS2Rescore, and MSBooster. On a human gut metaproteome dataset, XPECTRA achieved the largest effect size among all methods evaluated (Cohen's d = 0.95; p < 0.0005). SHapley Additive exPlanations (SHAP)-based analysis indicated that XPECTRA learned consistent relationships from spectral and physicochemical features. Database partitioning does not introduce detectable bias in peptide identification or FDR estimation, while QUANTIX's DWrollup provides the most accurate recovery of known protein abundance changes in a ground-truth spike-in benchmark. Together, these results establish MSGFLEX as a scalable and interpretable framework for mass-spectrometry based proteomics and metaproteomics.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "de2ef774b9bdac17099c5c3a3c610ef8ae3555e43c52e7d95fb7c47b6e7339a1",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64494-9",
@@ -4821,7 +4860,7 @@
       "title": "SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition",
       "link": "https://doi.org/10.1093/bib/bbae146",
       "pdf_url": null,
-      "publication_date": "2024-03-20",
+      "publication_date": "2024-03-27",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "Briefings in Bioinformatics",
