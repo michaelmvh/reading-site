@@ -6568,6 +6568,36 @@
       "curated_categories": []
     },
     {
+      "id": "2dd62a88ea537128445584ef3723edfd6eae9598f78de08be5c63a1c60fbc546",
+      "identity_keys": [
+        "arxiv:2606.07562",
+        "https://doi.org/10.48550/arXiv.2606.07562"
+      ],
+      "title": "The Montparnasse Algorithm for RNA Design",
+      "link": "https://doi.org/10.48550/arXiv.2606.07562",
+      "pdf_url": "https://arxiv.org/pdf/2606.07562",
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "cazenave tristan",
+          "name": "Tristan Cazenave"
+        }
+      ],
+      "abstract_text": "Inverse RNA Folding consists of finding a nucleotide sequence that folds into a predefined secondary structure. It is useful for synthetic biology, medicine, and nanotechnology. We propose Montparnasse, a Monte Carlo search framework based on Generalized Nested Rollout Policy Adaptation, augmented with a structural prior derived from the energy model, slow and long adaptation at level 1, a lexicographic multicriteria evaluation, a local repair of the pairs the predicted folding gets wrong, and a fleet of parallel workers coupled through a shared beam whose diversity is maintained on the faults the candidates make rather than on the candidates themselves. On the Eterna100 V1 benchmark, with both solvers folding through the same ViennaRNA 1.8.5 library under the Turner 1999 model, with 100 parallel workers and a budget of 30 minutes per puzzle, Montparnasse solves a median of 96 of the 100 puzzles against a median of 90 for DesiRNA, the previous state of the art, each figure taken over five passes. It is faster on 88 of the 90 puzzles that both solve, with a median solving time of 0.9 s against 5.6 s, and it solves 55 puzzles within the first second. The one puzzle no pass reaches is solved under the same model with a longer budget, so every Eterna100 V1 target is solved by Montparnasse.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2ddce606468b18875d977b534c7d891f849bbc4ce035514d7664430c88ee60d6",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00635-4",

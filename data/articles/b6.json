@@ -2350,6 +2350,53 @@
       "curated_categories": []
     },
     {
+      "id": "b6841ab8408f8f69b6d7cf2995a6a58da3d7fd718368512a63fe886ece232f6c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767791v1",
+        "https://doi.org/10.64898/2026.11.19.767791",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767791.source.xml"
+      ],
+      "title": "Improving Target-Adverse Event Association Prediction via Inverse Node Frequency Transformation to Mitigate Knowledge Graph Topological Bias",
+      "link": "https://doi.org/10.64898/2026.11.19.767791",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767791v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "egbelo",
+          "name": "Egbelo, T. M"
+        },
+        {
+          "key": "jeynes",
+          "name": "Jeynes, J. C. G"
+        },
+        {
+          "key": "kurt",
+          "name": "Kurt, Z"
+        },
+        {
+          "key": "veettil",
+          "name": "Veettil, R. V"
+        },
+        {
+          "key": "gillet",
+          "name": "Gillet, V. J"
+        }
+      ],
+      "abstract_text": "Motivation: Identifying significant associations between therapeutic protein targets and adverse events (AEs) is a critical component of drug safety assessment. To accelerate the process, machine learning methods have been developed to predict these associations as edges in network data integrating molecular interactions and other key biomedical knowledge. However, these networks often suffer from topological imbalances where a minority of \"hub\" nodes determine the predictive signal. This \"topological\" or \"degree bias\" can lead to poor performance on novel or understudied targets where safety inference is most needed. Results: We introduce Inverse Node Frequency (INF), a generally applicable node degree-based approach for mitigating topological bias. Employing an enriched biomedical knowledge graph and our own carefully curated target-adverse event associations, we apply INF as a normalisation procedure on a class of graph-derived features called metapaths and evaluate their resulting target-AE association prediction performance. Our results demonstrate that INF significantly improves the true positive rate (TPR/recall) for low-degree targets compared to the untransformed metapath features as well as a popular established normalisation method, while also achieving highly competitive hits@k, a ranking-based metric for knowledge graph-based inference. We also evaluated INF on an external set of target-AE associations never before used for modelling, on which INF also showed superior resilience compared to the two benchmarks.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b684393c1c326def24a4ea0409d1b3602ee84deb75ff1e7dbe812614fcba2908",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70489-x",

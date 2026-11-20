@@ -5986,6 +5986,49 @@
       "curated_categories": []
     },
     {
+      "id": "94faff6a05ae3c15adfef1bd62b87077d9b7509c0e494c3e98b2b5c5ce042ad7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767312v1",
+        "https://doi.org/10.64898/2026.11.17.767312",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.17.767312.source.xml"
+      ],
+      "title": "ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping",
+      "link": "https://doi.org/10.64898/2026.11.17.767312",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767312v1.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "han",
+          "name": "Han, E"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, A"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, J"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, J"
+        }
+      ],
+      "abstract_text": "Motivation: Reference-guided spatial imputation uses single-cell RNA sequencing references to predict genes that are unmeasured in spatial transcriptomics data. Limited shared-gene overlap can leave the mapping of reference cells to spatial locations ambiguous: different assignments may reconstruct observed genes similarly yet yield different imputed expression and cell-type estimates. This gives rise to local assignment ambiguity, source-target mismatch and reference-transfer instability. Results: We present ARC-Impute, which regularises cell-to-spot mapping through anchor-residual optimisation, target-guided reference curation and routing, and twin-panel consistency. Across 17 human and mouse datasets spanning spot-based and single-cell technologies, ARC-Impute ranked first for held-out Pearson correlation throughout and exceeded the dataset-specific baseline mean by 47.3% on average. It also achieved the strongest spot-level cell-type composition recovery across three pseudospot benchmarks and retained leading accuracy and consistency under reference and training-gene perturbations. Cross-validated predictions revealed systematic differences in gene imputability. Availability and implementation: Code and workflows at https://github.com/ethanhaan/arc-impute.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "94fbc400713f6d67f90936535b30d80d807110be8a7351d93c2e1c561e242417",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78827-9",

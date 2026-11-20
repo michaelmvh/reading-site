@@ -3501,6 +3501,61 @@
       "curated_categories": []
     },
     {
+      "id": "5b8afcda348e6b7929b11181628303ce02a2548998e642883495ec8e032d6e83",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767940v1",
+        "https://doi.org/10.64898/2026.11.19.767940",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767940.source.xml"
+      ],
+      "title": "Modelling Phenotypic Assay Noise for Multivariable Biomarker Discovery using Deep Neural Networks",
+      "link": "https://doi.org/10.64898/2026.11.19.767940",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767940v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "bannon",
+          "name": "Bannon, J. J"
+        },
+        {
+          "key": "scott",
+          "name": "Scott, K. L. S. L"
+        },
+        {
+          "key": "delgado sanchez",
+          "name": "Delgado Sanchez, M"
+        },
+        {
+          "key": "khodakarami",
+          "name": "Khodakarami, F"
+        },
+        {
+          "key": "gruener",
+          "name": "Gruener, R. F"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, R. S"
+        },
+        {
+          "key": "haibe kains",
+          "name": "Haibe-Kains, B"
+        }
+      ],
+      "abstract_text": "Accurately predicting cancer drug response remains a major challenge in precision oncology. Although some therapies are guided by clinically-approved biomarkers, these markers often yield limited predictive value and are unavailable for many drugs. Artificial Intelligence and Machine Learning approaches trained on large-scale cancer cell line pharmacogenomic screens offer a promising route to more comprehensive response prediction, yet they generally assume that phenotypic readouts are measured without error. This assumption is problematic because viability-based drug response assays are inherently noisy, potentially causing models to learn experimental artefacts rather than biologically meaningful determinants of sensitivity. Here, we show that phenotypic measurement noise is present in four widely used cancer cell line screening datasets and introduce Deep Concordance Index Networks (DeepCINET), a deep learning framework that explicitly accounts for this noise. Across datasets, incorporating this noise-aware ranking strategy improves generalization across experimental conditions and to previously unseen samples. DeepCINET outperforms baseline models in multiple settings, with particularly notable gains in prioritizing the most drug-sensitive cell lines. Together, these results establish phenotypic assay noise as a critical and previously overlooked source of error in drug response modelling and provide a principled framework for noise-aware multivariable biomarker discovery.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5b8cc187c97fd3ea67b3f668d6d7d19749a43889ab3e681ea8955ce7ed45deb2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70755-y",

@@ -2296,6 +2296,46 @@
       "curated_categories": []
     },
     {
+      "id": "6632dd8a300ae479f16369fef0c1fe0538d0af5ef3b83f3d23cbb45567bc1bef",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.28.755102v2",
+        "https://doi.org/10.64898/2026.09.28.755102",
+        "https://www.biorxiv.org/content/early/2026/10/03/2026.09.28.755102.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.09.28.755102.source.xml"
+      ],
+      "title": "Whole-catalog reference distributions for reading one person's polygenic scores, built by an agent-optimized GPU scorer",
+      "link": "https://doi.org/10.64898/2026.09.28.755102",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755102v2.full.pdf",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "afyouni",
+          "name": "Afyouni, A"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, B"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, C"
+        }
+      ],
+      "abstract_text": "Objective: A polygenic score (PGS) is interpretable only as a percentile within a reference distribution, so a person who wants their risk across many diseases/traits needs every candidate model calibrated against a reference distribution. A precalculated frozen reference scoring every genome in a reference panel against every PGS model requires extensive computing resources using current software. Materials and Methods: We reformulated PGS calculation as a sparse matrix product on a GPU and had an autonomous coding agent optimize it under strict numerical validation against pgsc_calc, once on a frozen synthetic training set and once on a 1000 Genomes (1000G) training set, and reran the synthetic training loop three times to assess the variances. Results: On its synthetic training set the scorer sped up 10.6-fold and ran 71-fold faster than pgsc_calc. On 10 genomes and 10 models from the 1000G validation set, the synthetic-trained scorer was 15.3-fold slower than the 1000G-trained version and diverged from pgsc_calc (maximum absolute difference 3.7x10-1 vs. 3.1x10-4). Across three reruns, agent trajectory variance explained 91 to 96% of wall-clock variance. A memory-bounded rebuild then scored all 3,202 individuals' genotypes against all 5,385 models in 6.5 h within a 72 GB memory cap. Discussion: Checking an agent's code only on the data it was tuned on cannot catch overfitting, and reruns of the same prompt differ widely. Conclusion: We release ancestry-stratified reference distributions for the whole PGS Catalog, so a new person's score can be read without rescoring the reference panel.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6633263cf14b7a1be9fbdf0d00886acf1ca2b1615c20be05acfc8eb3d490bcee",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76822-8",

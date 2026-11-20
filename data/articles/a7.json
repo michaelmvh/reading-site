@@ -1531,7 +1531,7 @@
           "name": "Vlashi, E"
         }
       ],
-      "abstract_text": "Pancreatic ductal adenocarcinoma (PDAC) exhibits extensive molecular heterogeneity and undergoes substantial transcriptional remodeling across disease and treatment contexts. However, publicly available PDAC transcriptomic resources remain fragmented across experimental modalities, limiting the integrated investigation of molecular programs across biological scales and cellular compartments. Here, we developed PDAC BioPortal, an integrated web-based analytical resource for multimodal interrogation of PDAC transcriptomics. The platform incorporates bulk RNA sequencing, treatment-associated transcriptomics, single-nucleus RNA sequencing, and spatial transcriptomics. It integrates 349 TCGA-GTEx samples, including a primary tumor-versus-normal comparison of 178 PDAC tumors and 167 normal pancreas specimens; a clinically annotated treatment-associated cohort of 55 specimens (GSE225767); a single-nucleus atlas comprising 224,988 nuclei from 43 patients (GSE202051); and spatial transcriptomic profiles encompassing 23,436 tissue spots from five patients (GSE274103). The platform provides interactive differential expression analysis, over-representation analysis, gene set enrichment analysis, patient-aware pseudobulk comparisons, cell-type-resolved interrogation, and spatial gene-expression visualization. It additionally incorporates PDACopilot, an evidence-grounded natural-language interface connecting user queries with structured datasets and precomputed analytical results. Application of the platform revealed distinct transcriptional architectures across disease and treatment contexts. Primary PDAC exhibited prominent proliferation-associated, inflammatory, and epithelial-mesenchymal transition-related programs, whereas specimens obtained following neoadjuvant chemotherapy and stereotactic body radiotherapy (SBRT) showed prominent mesenchymal, collagen, and extracellular matrix-associated signatures. Comparison of independent bulk and single-nucleus treatment-associated datasets demonstrated significant pathway rank-order concordance, despite limited linear correlation. Focused interrogation of the NRF2-associated redox network revealed broad transcriptional elevation in primary PDAC, involving antioxidant-response, glutathione metabolism, and NADPH-generating genes. Treatment-associated bulk transcriptomes exhibited selective remodeling of individual network components rather than uniform expression changes. At single-nucleus resolution, NFE2L2 expression exhibited cell-type-dependent patterns, with significant patient-level increases in selected vascular, immune, and endocrine populations across the neoadjuvant-treated cohort and reduced expression in malignant epithelial cells in the standard chemoradiotherapy subgroup. Spatial profiling further revealed interpatient variation in NFE2L2 transcript distribution across treatment-naive PDAC tissues, with differences in the proportion of positive spots despite comparatively consistent expression intensity among positive spots. Higher expression of a selected six-gene NRF2-associated signature was also associated with shorter overall survival, providing an exploratory link between redox-associated transcriptional patterns and clinical outcome. Together, PDAC BioPortal provides an integrated analytical infrastructure for investigating PDAC transcriptional programs across complementary cohorts and biological resolutions. By combining interactive bioinformatics capabilities with evidence-grounded AI-assisted exploration, the platform facilitates cross-dataset molecular interpretation and hypothesis generation while distinguishing transcriptional associations from mechanistic evidence.",
+      "abstract_text": "Pancreatic ductal adenocarcinoma (PDAC) exhibits profound cellular heterogeneity and treatment-associated remodeling, yet bulk, single-nucleus, and spatial transcriptomic datasets remain fragmented across separate portals. We developed PDAC BioPortal, an open-access, browser-based web resource integrating four complementary human PDAC cohorts: primary tumor versus normal pancreas (TCGA-PAAD and GTEx, n = 345), a neoadjuvant stereotactic body radiotherapy-containing bulk cohort (GSE225767, n = 55), a single-nucleus chemoradiotherapy atlas (GSE202051, 224,988 nuclei across 43 patients), and 10x Genomics Visium spatial transcriptomics (GSE274103, 23,436 spots across five tumors). The platform provides interactive differential expression, rank-based pathway enrichment, patient-level pseudobulk comparisons, survival exploration, and spatial visualization, alongside PDACopilot, a deterministic, evidence-grounded natural-language query interface. Across cohorts, neoadjuvant-treated bulk and single-nucleus pathway rankings showed significant concordance, while Kitagawa-Oaxaca-Blinder decomposition and compositional sensitivity testing separated epithelial debulking from cell-intrinsic signaling shifts. Interrogation of the NRF2-associated redox network illustrated how bulk changes diverge from cell-type-resolved and spatial patterns, while continuous Cox modeling linked higher NRF2-signature expression to shorter overall survival. PDAC BioPortal is freely available at https://limboper89.github.io/PAAD-SBRT-GEx-Dashboard/. Availability: https://limboper89.github.io/PAAD-SBRT-GEx-Dashboard/",
       "discovery_sources": [
         {
           "kind": "biorxiv",
@@ -4677,6 +4677,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "a790dc4675ee7defbf71609e665aca78db077a2285fbb9d96e8917d48fd36b95",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767913v1",
+        "https://doi.org/10.64898/2026.11.19.767913",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767913.source.xml"
+      ],
+      "title": "Systematic inference of biological relatedness across the global ancient DNA record",
+      "link": "https://doi.org/10.64898/2026.11.19.767913",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767913v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "huang",
+          "name": "Huang, E. C"
+        },
+        {
+          "key": "ringbauer",
+          "name": "Ringbauer, H"
+        }
+      ],
+      "abstract_text": "The rapidly expanding scale of ancient DNA data creates an increasing need for high-performance software methods. One area for such improvement is the inference of pairwise biological relatedness, a prominent aspect of many ancient DNA studies. We present fastpmr, a fast and memory-efficient method for biological relatedness inference based on the computation of pairwise mismatch rates. We demonstrate that fastpmr can achieve over 1000x speed-up over READv2, a widely used relatedness-inference method. We leverage this performance to investigate relatedness at the scale of the global ancient DNA record. Analyzing biological relatedness across all pairs in the Allen Ancient DNA Resource (n = 19,118 ancient and 23,089 total samples) recapitulates human evolutionary history and identifies previously unknown genetic duplicates and likely sample mix-ups, demonstrating fastpmr's utility for ancient DNA analysis and quality control at scale.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

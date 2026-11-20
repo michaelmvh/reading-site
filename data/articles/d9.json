@@ -3759,6 +3759,50 @@
       "curated_categories": []
     },
     {
+      "id": "d97d9b5a62d4eea59e8be038449a4a556fafc725f05e25c75d06dbbfe0136835",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.22.753490v2",
+        "https://doi.org/10.64898/2026.09.22.753490",
+        "https://www.biorxiv.org/content/early/2026/09/28/2026.09.22.753490.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.09.22.753490.source.xml"
+      ],
+      "title": "Trajectory fit alone does not identify causal edges: a white-box masked ODE benchmark for trans-omics digital twins of drug action mechanisms",
+      "link": "https://doi.org/10.64898/2026.09.22.753490",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753490v2.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, Z"
+        },
+        {
+          "key": "jia",
+          "name": "Jia, L"
+        },
+        {
+          "key": "pan",
+          "name": "Pan, Y"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, H"
+        }
+      ],
+      "abstract_text": "Dynamic multi-omics models infer drug mechanisms from trajectories, but trajectory accuracy alone cannot verify that learned regulatory edges are mechanistically correct. We asked to what extent fitting time-series dynamics identifies intervenable causal edges across observation and optimization budgets.We built white-box ordinary differential equations with candidate-edge masks for gene-expression, protein, signalling and metabolite dynamics, using a mouse-liver trans-omics topology and ground-truth semi-synthetic time series. Under noise-free,complete, densely sampled data, from-scratch training ranked edges near chance(edge-class area under the receiver-operating characteristic curve, 0.48-0.53); the unattainable oracle-initialized upper bound reached 0.94-0.99 on the same metric.Unobserved layers absorbed error. In ground-truth knockout tests, development-batch endpoint-sign accuracy was 67.9% for one-hop non-convergent targets but 33.3% for two-hop targets. Across tested practical budgets, fitting did not yield reliable edge recovery; trajectory fit alone therefore does not establish mechanistic identification. This benchmark supports mechanistic audits and exploratory per-prediction confidence grading in multi-omics models.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d985e3d17cb8ee808a81b335c0a920844794efdbb6de1a6baac798ffc81c4d79",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71975-y",

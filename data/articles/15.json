@@ -1673,6 +1673,41 @@
       "curated_categories": []
     },
     {
+      "id": "152e129c6072e46481f745f56f1ccb8ae65d361eda43da143d512cc0d83cadc6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767884v1",
+        "https://doi.org/10.64898/2026.11.19.767884",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.767884.source.xml"
+      ],
+      "title": "Curated annotations locate biological concepts in protein language models from layers to neurons",
+      "link": "https://doi.org/10.64898/2026.11.19.767884",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767884v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hallee",
+          "name": "Hallee, L"
+        },
+        {
+          "key": "gleghorn",
+          "name": "Gleghorn, J. P"
+        }
+      ],
+      "abstract_text": "Interpretability methods describe what a network has learned, yet their claims are rarely tested against model-independent ground truth. We argue that proteins are an ideal modality for interpretability since curators annotate functional sites residue by residue. Across three ESMC protein language models (300M-6B parameters), we show that conclusions depend on where models are read, how concepts are decoded, which units are examined, and how they are scored. Concepts become linearly readable along depth long before erasure impairs masked-token prediction, and 20-fold scaling shifts concept depth more than peak score. Most of a nonlinear probe's lead over a linear one reflects fitting and readout shape rather than nonlinear encoding. Over whole proteins, saturated metrics render feed-forward neurons indistinguishable from random rotations. At annotated residues, dual-signed neuron poles identify 2.5-5.4 times as many concepts as rotations without training, though sparse autoencoders identify more. Without held-out validation, however, shuffled annotations label nearly every latent, and causal reliance emerges in neuron groups rather than single poles. Reading selected intra-block states exposes binding and active sites that stream probes read poorly and lifts a simple probe 5% above the best published MCC on a leakage-controlled interaction benchmark. We recommend reading a model directly against annotation, scoring units where they fire with a measure that is not saturated, and training a dictionary only where it adds coverage.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "15336b4a4d8744838acc35ec875c203179a658d9903c5eb9c0d3847f36a64026",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68965-5",

@@ -6589,13 +6589,15 @@
       "id": "d8fad0d68f7e4a329d1078fbd7a4056abb97cbb794b4f08b01312927d8627e31",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.07.765042v1",
+        "biorxiv:10.64898/2026.11.07.765042v2",
         "https://doi.org/10.64898/2026.11.07.765042",
-        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.07.765042.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/09/2026.11.07.765042.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.07.765042.source.xml"
       ],
-      "title": "PRISM: probabilistic cell-type resolution with integrated spatial modelling for simultaneous ambient RNA decontamination and doublet correction in spatial transcriptomics",
+      "title": "LUCID: joint cell typing and neighbour-aware decontamination of segmented spatial transcriptomics",
       "link": "https://doi.org/10.64898/2026.11.07.765042",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765042v1.full.pdf",
-      "publication_date": "2026-11-09",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765042v2.full.pdf",
+      "publication_date": "2026-11-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -6609,7 +6611,7 @@
           "name": "Merelli, I"
         }
       ],
-      "abstract_text": "Spatial transcriptomics count matrices are confounded by ambient RNA contamination and cell-segmentation doublets, two artifacts that co-occur but are rarely modelled jointly. We present PRISM, an Expectation-Maximization framework that simultaneously (i) assigns each cell a probabilistic cell-type identity, (ii) detects doublets via log-likelihood ratio testing of two-component mixtures, and (iii) estimates a per-cell contamination fraction  anchored to a spatially resolved ambient profile. In an in silico benchmark of 40,800 simulated cells, PRISM recovers  with Pearson r=1.000 across all contamination levels (0.05 to 0.50) and UMI depths (500 to 5,000), with zero doublet false positives and 100% singlet accuracy. Applied to a Visium HD mouse cerebellum dataset (four samples, 125,289 cells, 17 reference types) from a metachromatic leukodystrophy (MLD) model, PRISM identifies a median =0.60, flags 67.4% doublets (driven by the densely packed cerebellar granule layer), eliminates spurious myelin signal from microglia (0.82% to 0.00%), and doubles oligodendrocyte myelin purity (2.8% to 5.6%). PRISM runs on commodity CPUs in under 15 minutes and returns decontaminated integer count matrices for every measured gene.",
+      "abstract_text": "Cell profiles in segmented spatial transcriptomics are contaminated by RNA of neighbouring cells and by segmentation errors that merge two cells. LUCID is a multinomial mixture model that jointly assigns a type to each cell, tests whether its profile mixes two types and estimates the fraction of counts coming from its neighbours. An external reference is adapted to the platform, an identifiability rule protects a cell's own signal and the test is calibrated by parametric bootstrap. LUCID works with or without a reference, runs on CPUs and returns integer counts for all genes. On three public Visium HD datasets (mouse brain, human colorectal cancer, mouse liver) and in simulations built on them, LUCID removed contamination from other cell types as well as a two-step baseline, flagged fewer contaminated cells as mixed, emptied no cell and preserved minority lineages where one cell type dominates.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

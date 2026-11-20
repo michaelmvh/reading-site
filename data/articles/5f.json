@@ -5549,6 +5549,45 @@
       "curated_categories": []
     },
     {
+      "id": "5ff7c6591ae2f2f4c7771e9b113bb425d0a9f262076a8429ff887772f65b73f9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.18.767577v1",
+        "https://doi.org/10.64898/2026.11.18.767577",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.18.767577.source.xml"
+      ],
+      "title": "Learning RNA secondary structure from chemical probing with MXfold2",
+      "link": "https://doi.org/10.64898/2026.11.18.767577",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767577v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yamauchi",
+          "name": "Yamauchi, R"
+        },
+        {
+          "key": "tsukiyama",
+          "name": "Tsukiyama, S"
+        },
+        {
+          "key": "sato",
+          "name": "Sato, K"
+        }
+      ],
+      "abstract_text": "Training RNA secondary structure predictors is limited by scarce reference annotations, even as chemical probing produces abundant nucleotide-level measurements. These measurements inform pairing states without identifying base-pairing partners. Here we extend MXfold2, which combines neural and thermodynamic folding scores, to learn from probing profiles and predict RNA secondary structures from sequence alone. We introduce three training objectives. One learns from probing-assisted target structures. The other two use implicit maximum-likelihood estimation to pass surrogate gradients from reactivity-ranking and likelihood losses through discrete folding. Simulations, RNAgym measurements and external structural tests show improved chemical agreement and gains in exact base-pair prediction when chemical supervision is combined with structural pretraining and replay. Probing profiles can thus broaden the range of RNAs that inform sequence-only structure prediction, including RNA populations with few complete structure annotations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5ff8552f9036cdfff3491487b411e3f30df46219c12d6d07c198c4282ab48ad7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69253-y",
