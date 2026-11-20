@@ -2999,6 +2999,60 @@
       "curated_categories": []
     },
     {
+      "id": "f34d684edab9f4a55001814a16e579e93a14677057614bdcf031ad83ed3091eb",
+      "identity_keys": [
+        "https://doi.org/10.1145/3769677",
+        "https://openalex.org/W4415114198"
+      ],
+      "title": "Structure-Based Drug Design with Geometric Deep Learning: A Comprehensive Survey",
+      "link": "https://doi.org/10.1145/3769677",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3769677",
+      "publication_date": "2025-11-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ACM Computing Surveys",
+      "authors": [
+        {
+          "key": "zaixi zhang",
+          "name": "Zaixi Zhang"
+        },
+        {
+          "key": "jiaxian yan",
+          "name": "Jiaxian Yan"
+        },
+        {
+          "key": "huang yining",
+          "name": "Yining Huang"
+        },
+        {
+          "key": "liu qi",
+          "name": "Qi Liu"
+        },
+        {
+          "key": "chen enhong",
+          "name": "Enhong Chen"
+        },
+        {
+          "key": "mengdi wang",
+          "name": "Mengdi Wang"
+        },
+        {
+          "key": "marinka žitnik",
+          "name": "Marinka Žitnik"
+        }
+      ],
+      "abstract_text": "Structure-based drug design (SBDD) leverages the three-dimensional geometry of proteins to identify potential drug candidates. Traditional approaches, rooted in physicochemical modeling and domain expertise, are often resource-intensive. Recent advancements in geometric deep learning, which effectively integrate and process 3D geometric data, alongside breakthroughs in accurate protein structure predictions from tools like AlphaFold, have significantly propelled the field forward. This article systematically reviews the state-of-the-art in geometric deep learning for SBDD. We begin by outlining foundational tasks in SBDD, discussing prevalent 3D protein representations, and highlighting representative predictive and generative models. Next, we provide an in-depth review of key tasks, including binding site prediction, binding pose generation, de novo molecule generation, linker design, protein pocket generation, and binding affinity prediction. For each task, we present formal problem definitions, key methods, datasets, evaluation metrics, and performance benchmarks. Lastly, we explore current challenges and future opportunities in SBDD. Challenges include oversimplified problem formulations, limited out-of-distribution generalization, biosecurity concerns related to the misuse of structural data, insufficient evaluation metrics and large-scale benchmarks, and the need for experimental validation and enhanced model interpretability. Opportunities lie in integrating biomedical AI agents, leveraging multimodal datasets, developing comprehensive benchmarks, establishing criteria aligned with clinical outcomes, and designing foundation models to expand the scope of design tasks. We also curate https://github.com/zaixizhang/Awesome-SBDD , reflecting ongoing contributions and new datasets in SBDD.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f34e86de8e51d983de999f29476dce0a87ce03680b5b46f566f4281c10aed658",
       "identity_keys": [
         "https://doi.org/10.1021/acsnano.5c13783",
@@ -4635,7 +4689,7 @@
           "name": "Sergey Ovchinnikov"
         }
       ],
-      "abstract_text": "Abstract Deep learning in structure prediction has revolutionized protein research, enabling large-scale screening, novel hypothesis generation, and accelerated experimental design across biological domains. Recent advances, including RoseTTAFold-AA and AlphaFold3, have extended structure prediction models to work with small molecules, nucleic acids, ions, and covalent modifications. We present BoltzDesign1, which inverts the Boltz-1 model, an open source reproduction of AlphaFold3, to enable the design of protein binders for diverse molecular targets without requiring model finetuning. By utilizing only the Pairformer and Confidence modules, our method significantly reduces computational costs while achieving outstanding in silico success rates and diversity in binder generation. Optimizing directly on the distogram allows us to shape the probability distribution of atomic distances, rather than adjusting a single structure, steering the design toward sequences that yield robust structures with well-defined energy minima. By leveraging a fully atomic model trained on a wide variety of macromolecules, we can generate diverse heterocomplexes with flexible ligand conformations—a capability not currently matched by existing methods. This approach enables the design of novel protein interactions with potential applications in biosensors, enzyme engineering, therapeutic development, and biotechnological innovations.",
+      "abstract_text": "Deep learning in structure prediction has revolutionized protein research, enabling large-scale screening, novel hypothesis generation, and accelerated experimental design across biological domains. Recent advances, including RoseTTAFold-AA and AlphaFold3, have extended structure prediction models to work with small molecules, nucleic acids, ions, and covalent modifications. We present BoltzDesign1, which inverts the Boltz-1 model, an open source reproduction of AlphaFold3, to enable the design of protein binders for diverse molecular targets without requiring model finetuning. By utilizing only the Pairformer and Confidence modules, our method significantly reduces computational costs while achieving outstanding in silico success rates and diversity in binder generation. Optimizing directly on the distogram allows us to shape the probability distribution of atomic distances, rather than adjusting a single structure, steering the design toward sequences that yield robust structures with well-defined energy minima. By leveraging a fully atomic model trained on a wide variety of macromolecules, we can generate diverse heterocomplexes with flexible ligand conformations—a capability not currently matched by existing methods. This approach enables the design of novel protein interactions with potential applications in biosensors, enzyme engineering, therapeutic development, and biotechnological innovations.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -6327,7 +6381,7 @@
       "title": "Engineering a Monomeric Nanopore Scaffold for Multiplexed Protein Detection",
       "link": "https://doi.org/10.1007/978-1-0716-5527-6_6",
       "pdf_url": null,
-      "publication_date": "2026-08-28",
+      "publication_date": "2026-08-29",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "Methods in molecular biology",
@@ -6579,7 +6633,7 @@
           "name": "Jinbo Xu"
         }
       ],
-      "abstract_text": "A bstract Designing protein with desirable structure and functional properties is the pinnacle of computational protein design with unlimited potentials in the scientific community from therapeutic development to combating the global climate crisis. However, designing protein macromolecules at scale remains challenging due to hard-to-realize structures and low sequence design success rate. Recently, many generative models are proposed for protein design but they come with many limitations. Here, we present a VAE-based universal protein structure generative model that can model proteins in a large fold space and generate high-quality realistic 3-dimensional protein structures. We illustrate how our model can enable robust and efficient protein design pipelines with generated conformational decoys that bridge the gap in designing structure conforming sequences. Specifically, sequences generated from our design pipeline outperform native fixed backbone design in 856 out of the 1,016 tested targets(84.3%) through AF2 validation. We also demonstrate our model’s design capability and structural pre-training potential by structurally inpainting the complementarity-determining regions(CDRs) in a set of monoclonal antibodies and achieving superior performance compared to existing methods.",
+      "abstract_text": "Designing protein with desirable structure and functional properties is the pinnacle of computational protein design with unlimited potentials in the scientific community from therapeutic development to combating the global climate crisis. However, designing protein macromolecules at scale remains challenging due to hard-to-realize structures and low sequence design success rate. Recently, many generative models are proposed for protein design but they come with many limitations. Here, we present a VAE-based universal protein structure generative model that can model proteins in a large fold space and generate high-quality realistic 3-dimensional protein structures. We illustrate how our model can enable robust and efficient protein design pipelines with generated conformational decoys that bridge the gap in designing structure conforming sequences. Specifically, sequences generated from our design pipeline outperform native fixed backbone design in 856 out of the 1,016 tested targets(84.3%) through AF2 validation. We also demonstrate our model’s design capability and structural pre-training potential by structurally inpainting the complementarity-determining regions(CDRs) in a set of monoclonal antibodies and achieving superior performance compared to existing methods.",
       "discovery_sources": [
         {
           "kind": "curated_collection",

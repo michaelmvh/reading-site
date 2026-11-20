@@ -2290,7 +2290,7 @@
       "title": "ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning",
       "link": "https://doi.org/10.48550/arxiv.2506.07459",
       "pdf_url": "https://openreview.net/pdf?id=pVvm0CQAr6",
-      "publication_date": "2025-06-09",
+      "publication_date": "2026-09-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "Transactions on machine learning research",
@@ -2322,6 +2322,12 @@
       ],
       "abstract_text": "Protein generative models have shown remarkable promise in protein design, yet their success rates remain constrained by reliance on curated sequence-structure datasets and by misalignment between supervised objectives and real design goals. We present ProteinZero, an online reinforcement learning framework for inverse folding models that enables scalable, automated, and continuous self-improvement with computationally efficient feedback. ProteinZero employs a reward pipeline that combines structural guidance from ESMFold with a novel self-derived ddG predictor, providing stable multi-objective signals while avoiding the prohibitive cost of physics-based methods. To ensure robustness in online RL, we further introduce a novel embedding-level diversity regularizer that mitigates mode collapse and promotes sequence-level diversity among generated designs. Within a general RL formulation balancing multi-reward optimization, KL-divergence from a reference model, and diversity regularization, ProteinZero achieves robust improvements across designability, predicted stability, recovery, and diversity. On the CATH-4.3 benchmark, it consistently outperforms state-of-the-art baselines including ProteinMPNN, ESM-IF, and InstructPLM, reducing design failure rates by 36-48% and achieving success rates above 90% across diverse folds. Importantly, a complete RL run can be executed on a single 8xGPU node within three days, including reward computation and data generation. These results indicate that efficient online RL fine-tuning can complement supervised pretraining by allowing protein generative models to evolve continuously from their own outputs and optimize multiple design objectives without labeled data, opening new possibilities for exploring the vast protein design space. Code and model checkpoints are available at https://github.com/ziwenwang28/ProteinZero.",
       "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        },
         {
           "kind": "curated_collection",
           "key": "peldom-protein-design",
@@ -6217,7 +6223,7 @@
           "name": "Derek P. Claxton"
         }
       ],
-      "abstract_text": "Abstract Glycogen storage disease type 1a (GSD1a) is an autosomal recessive Mendelian disorder that can be caused by missense variants in glucose-6-phosphatase catalytic subunit 1 (G6PC1). Although hundreds of missense variants have been identified, the vast majority are of unknown clinical significance, and the molecular mechanism(s) of bona fide pathogenic variants are ill-defined. We combine bioinformatic data and clinical associations with the protein language model AlphaMissense to guide mechanistic exploration of 78 missense variants at 55 residue positions using robust biochemical and biophysical assays to distill general principles of enzyme dysfunction. Correlation analysis established a strong linear relationship between folded G6PC1 abundance and catalytic capacity for most variants. Pathogenic variants within this paradigm were linked to compromised stability and activation of the unfolded protein response. However, outliers characterized by relatively high abundance, yet low activity clustered to a network of sidechains adjacent to the active site that allosterically modulate catalysis. Contextualized by recent high-resolution structures and AlphaFold modeling, our holistic analysis of G6PC1 in vitro metrics facilitates clinical (re)classification of variants according to explicit molecular phenotypes and identifies therapeutic design directions. Moreover, our approach illustrates a blueprint for variant characterization that integrates computational prediction with experimental validation to discover disease etiology.",
+      "abstract_text": "Glycogen storage disease type 1a (GSD1a) is an autosomal recessive Mendelian disorder that can be caused by missense variants in glucose-6-phosphatase catalytic subunit 1 (G6PC1). Although hundreds of missense variants have been identified, the vast majority are of unknown clinical significance, and the molecular mechanism(s) of bona fide pathogenic variants are ill-defined. We combine bioinformatic data and clinical associations with the protein language model AlphaMissense to guide mechanistic exploration of 78 missense variants at 55 residue positions using robust biochemical and biophysical assays to distill general principles of enzyme dysfunction. Correlation analysis established a strong linear relationship between folded G6PC1 abundance and catalytic capacity for most variants. Pathogenic variants within this paradigm were linked to compromised stability and activation of the unfolded protein response. However, outliers characterized by relatively high abundance, yet low activity clustered to a network of sidechains adjacent to the active site that allosterically modulate catalysis. Contextualized by recent high-resolution structures and AlphaFold modeling, our holistic analysis of G6PC1 in vitro metrics facilitates clinical (re)classification of variants according to explicit molecular phenotypes and identifies therapeutic design directions. Moreover, our approach illustrates a blueprint for variant characterization that integrates computational prediction with experimental validation to discover disease etiology.",
       "discovery_sources": [
         {
           "kind": "open_alex",

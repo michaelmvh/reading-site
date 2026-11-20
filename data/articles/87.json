@@ -456,6 +456,48 @@
       "curated_categories": []
     },
     {
+      "id": "87140762562d73d469b37e130afa0bd6f0a4937069a447a4158dd2908b5d8895",
+      "identity_keys": [
+        "https://doi.org/10.7554/elife.108186.3",
+        "https://openalex.org/W4411490979"
+      ],
+      "title": "Squidly harnesses enzyme functional hierarchy and contrastive learning to efficiently predict catalytic residues from sequence",
+      "link": "https://doi.org/10.7554/elife.108186.3",
+      "pdf_url": null,
+      "publication_date": "2026-09-04",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "eLife",
+      "authors": [
+        {
+          "key": "jf rieger william",
+          "name": "William JF Rieger"
+        },
+        {
+          "key": "bodén mikael",
+          "name": "Mikael Bodén"
+        },
+        {
+          "key": "arnold frances",
+          "name": "Frances H. Arnold"
+        },
+        {
+          "key": "ariane mora",
+          "name": "Ariane Mora"
+        }
+      ],
+      "abstract_text": "Enzymes present a sustainable alternative to traditional chemical industries, drug synthesis, and bioremediation applications. Because catalytic residues are the key amino acids that drive enzyme function, their accurate prediction facilitates enzyme function prediction. Sequence similarity-based approaches such as BLAST are fast but require previously annotated homologues. Machine-learning (ML) approaches aim to overcome this limitation; however, current gold-standard ML-based methods require high-quality 3D structures limiting their application to large datasets. To address these challenges, we developed Squidly, a sequence-only tool that leverages contrastive representation learning with a biology-informed, rationally designed pairing scheme to distinguish catalytic from non-catalytic residues using per-token Protein Language Model embeddings. Squidly surpasses state-of-the-art ML annotation methods in catalytic residue prediction while remaining sufficiently fast to enable wide-scale screening of databases. We ensemble Squidly with BLAST to provide an efficient tool that annotates catalytic residues with high precision and recall for both in- and out-of-distribution sequences.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "87152f07818e876fb7dfc57d33e9ca53831c6c438fde2d987d0a76d80bad58a4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69163-z",
@@ -967,7 +1009,7 @@
           "name": "Isabelle Richard"
         }
       ],
-      "abstract_text": "Abstract Muscular dystrophies are debilitating genetic disorders with no curative therapies. While AAV vectors offer promise, current capsids remain limited by pre-existing immunity, high-dose-induced toxicity, and manufacturing burden. We and others recently demonstrated that cross-species myotropism can be achieved by redirecting AAV tropism toward the conserved receptor αVβ6 integrin. Here, we present an AI-guided engineering strategy that generates improved αVβ6-binding capsids by jointly optimizing sequence-structure through thermostability modelling, the use of protein language model and structure-conditioned sequence design. Screening of AI-designed variants identified lead capsids (named LICA3 and LICA4), that exhibit substantially enhanced transduction in skeletal and cardiac muscle, surpassing state-of-the-art myotropic capsids, together with strong liver-detargeting and improved manufacturability. Mechanistically, we showed that LICA3/4 efficiently engage integrin αVβ6 across species to mediate cellular entry and drive rapid redistribution from circulation to muscle fibers, resulting in increased tissue accumulation and a >100-fold enhancement in transgene expression per vector genome compared to AAV9. In a severe LGMDR3 mouse model treated systemically at a low dose (5E12 vg/kg), both variants drive saturated myofiber transduction and fully restore muscle function. These results demonstrate their clinical potential for gene therapy targeting muscle and cardiac diseases.",
+      "abstract_text": "Muscular dystrophies are debilitating genetic disorders with no curative therapies. While AAV vectors offer promise, current capsids remain limited by pre-existing immunity, high-dose-induced toxicity, and manufacturing burden. We and others recently demonstrated that cross-species myotropism can be achieved by redirecting AAV tropism toward the conserved receptor αVβ6 integrin. Here, we present an AI-guided engineering strategy that generates improved αVβ6-binding capsids by jointly optimizing sequence-structure through thermostability modelling, the use of protein language model and structure-conditioned sequence design. Screening of AI-designed variants identified lead capsids (named LICA3 and LICA4), that exhibit substantially enhanced transduction in skeletal and cardiac muscle, surpassing state-of-the-art myotropic capsids, together with strong liver-detargeting and improved manufacturability. Mechanistically, we showed that LICA3/4 efficiently engage integrin αVβ6 across species to mediate cellular entry and drive rapid redistribution from circulation to muscle fibers, resulting in increased tissue accumulation and a >100-fold enhancement in transgene expression per vector genome compared to AAV9. In a severe LGMDR3 mouse model treated systemically at a low dose (5E12 vg/kg), both variants drive saturated myofiber transduction and fully restore muscle function. These results demonstrate their clinical potential for gene therapy targeting muscle and cardiac diseases.",
       "discovery_sources": [
         {
           "kind": "open_alex",

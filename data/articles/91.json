@@ -2137,7 +2137,7 @@
           "name": "Dennis Della Corte"
         }
       ],
-      "abstract_text": "A bstract A general method for designing proteins with high conformational specificity is desirable for a variety of applications, including enzyme design and drug target redesign. To assess the ability of algorithms to design for conformational specificity, we introduce MotifDiv, a benchmark dataset of 200 conformational specificity design challenges. We also introduce CSDesign, an algorithm for designing proteins with high preference for a target conformation over an alternate conformation. On the MotifDiv benchmark, CSDesign designs protein sequences that are predicted to prefer the target conformation. We apply this method in vitro to redesign human MAP kinase ERK2, an enzyme with active and inactive conformations. Out of two designs for the active conformation, one increased activity sufficiently to retain activity in the absence of activating phosphorylations, a property not present in the wild type protein.",
+      "abstract_text": "A general method for designing proteins with high conformational specificity is desirable for a variety of applications, including enzyme design and drug target redesign. To assess the ability of algorithms to design for conformational specificity, we introduce MotifDiv, a benchmark dataset of 200 conformational specificity design challenges. We also introduce CSDesign, an algorithm for designing proteins with high preference for a target conformation over an alternate conformation. On the MotifDiv benchmark, CSDesign designs protein sequences that are predicted to prefer the target conformation. We apply this method in vitro to redesign human MAP kinase ERK2, an enzyme with active and inactive conformations. Out of two designs for the active conformation, one increased activity sufficiently to retain activity in the absence of activating phosphorylations, a property not present in the wild type protein.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -2558,19 +2558,19 @@
       ],
       "title": "FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder",
       "link": "https://doi.org/10.64898/2026.11.15.766879",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766879v1.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/17/2026.11.15.766879.full.pdf",
       "publication_date": "2026-11-17",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "bioRxiv",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors": [
         {
-          "key": "kim",
-          "name": "Kim, H"
+          "key": "haelyn kim",
+          "name": "Haelyn Kim"
         },
         {
-          "key": "lee",
-          "name": "Lee, J"
+          "key": "juyong lee",
+          "name": "Juyong Lee"
         }
       ],
       "abstract_text": "Protein inverse folding designs amino-acid sequences that fold into a target backbone structure. Existing deep-learning methods exploit backbone geometry but not evolutionary statistics. Those statistics come from a multiple sequence alignment, which must be built from a query sequence. That query is the sequence to be designed, so the dependency is circular. We present FoldMapper, an inverse folding model that breaks this circularity. It retrieves structural homologues by shape alone, then aggregates their amino-acid identities into a per-residue structural position-specific frequency (SPSF) profile. A Multiscale Graph Encoder passes a sparse profile-conditioned encoding into a dense structure-conditioned message-passing network. FoldMapper reaches 60.0% best-of-100 sequence recovery on TED domains, 64.9% on PDB, and 51.3%/53.1% on PPIBindBench non-peptide and peptide binders. Across both benchmarks, it lies on the recovery-diversity Pareto front. Structure self-consistency surpasses all baselines on RFdiffusion de novo monomer and binder backbones, and matches the strongest baselines on natural proteins. Ablations and profile-quality analyses show that structure itself encodes recoverable evolutionary information, accessible without a sequence homology search.",
