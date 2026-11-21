@@ -5542,6 +5542,53 @@
       "curated_categories": []
     },
     {
+      "id": "a7a52c8f4cea69fd1461a7420269c5b676cf905aba15363d70793e7889039867",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.768003v1",
+        "https://doi.org/10.64898/2026.11.19.768003",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.768003.source.xml"
+      ],
+      "title": "SIREN: Predicting RNA-Small Molecule Interaction using Language Models without Requiring Structure",
+      "link": "https://doi.org/10.64898/2026.11.19.768003",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.768003v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "jang",
+          "name": "Jang, W"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, Y"
+        },
+        {
+          "key": "heo",
+          "name": "Heo, J"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, Y"
+        },
+        {
+          "key": "shin",
+          "name": "Shin, W.-H"
+        }
+      ],
+      "abstract_text": "RNA-targeted drug discovery is constrained by the scarcity of resolved RNA tertiary structures and the conformational flexibility of RNA, which limit the applicability of structure-based virtual screening. Here, SIREN (Small molecule Interaction with RNA via sEquence-based predictioN) is presented, a sequence-based framework that ranks small molecules for a given RNA target directly from its primary sequence without requiring tertiary structure. SIREN integrates a pretrained RNA language model with molecular language model embeddings and physicochemical descriptors through an interaction network that outputs a target-specific compound-ranking score. On four held-out ROBIN riboswitch targets, SIREN outperforms the structure-based methods RNAmigos2, RNAmigos++, and rDock in both enrichment and overall discrimination, and a cross-target derangement analysis confirms that its rankings depend on RNA identity rather than general ligand propensity alone. On an independent HIV-1 TAR benchmark, SIREN achieves strong discrimination without an experimentally derived RNA conformational ensemble. Prospective screening against IRES-derived RNA hairpins from cMyc and XIAP mRNAs further identifies multiple experimentally validated, micromolar-affinity binders from a diverse chemical library. These results demonstrate that SIREN generalizes to unseen RNA targets, transfers across independent benchmarks, and provides a scalable, structure-free framework for RNA-targeted compound prioritization that complements existing structure-based screening approaches.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a7a662f380e81f99199a3ab54ca56174a25d9555dce0daa0aff7023dec0318d5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74523-w",

@@ -5193,6 +5193,41 @@
       "curated_categories": []
     },
     {
+      "id": "18fc29fd4244ac60b218f76c2bc2ba2d4ed063ffa79fe87c15cc2bb27cd0dd98",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.768000v1",
+        "https://doi.org/10.64898/2026.11.19.768000",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.19.768000.source.xml"
+      ],
+      "title": "Sequence-Derived Geometric Priors Enable Controllable Generation of Intrinsically Disordered Protein Ensembles",
+      "link": "https://doi.org/10.64898/2026.11.19.768000",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.768000v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "jang",
+          "name": "Jang, W"
+        },
+        {
+          "key": "shin",
+          "name": "Shin, W.-H"
+        }
+      ],
+      "abstract_text": "Predicting heterogeneous conformational ensembles from sequence remains a central challenge for intrinsically disordered proteins (IDPs). Sequence-to-ensemble models often entangle geometric inference with coordinate generation, obscuring error sources and limiting control over ensemble properties. Here we introduce MANTA, a C-level framework that separates these stages. An encoder derives geometric priors from protein language-model representations, and a graph-Laplacian decoder converts these priors into conformational ensembles. On a homology-held-out test set, replacing predicted priors with reference-derived priors under the same decoder reduces the median absolute relative radius-of-gyration error from 8.78% to 1.89%, identifying geometric-prior estimation as the dominant bottleneck in MANTA. Across an external benchmark of 27 IDPs, MANTA generates broad, locally valid ensembles. Decoder controls modulate mean compactness and conformational breadth along partially separable axes, while compactness modulation alters motif exposure in tau and amyloid-{beta}. Meanwhile, -synuclein variants shift local exposure populations at nearly unchanged global size. MANTA provides a diagnostic and controllable framework for ensemble generation that captures both global dimensions and local conformational organization.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "18fe66e594ec2c9caae7b09859b7fb452267024f8f246923b90ea2ce1474ec6b",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03567-7",
