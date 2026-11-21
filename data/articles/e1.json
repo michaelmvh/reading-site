@@ -64,6 +64,56 @@
       "curated_categories": []
     },
     {
+      "id": "e100d4d6856ddb151ee453f60d139ee8258fd9d0f9eddc1e0471596b00f86f55",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2509.25170",
+        "https://openalex.org/W4415337907"
+      ],
+      "title": "GLASS Flows: Transition Sampling for Alignment of Flow and Diffusion Models",
+      "link": "https://doi.org/10.48550/arxiv.2509.25170",
+      "pdf_url": null,
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "holderrieth peter",
+          "name": "Peter Holderrieth"
+        },
+        {
+          "key": "singer uriel",
+          "name": "Uriel Singer"
+        },
+        {
+          "key": "jaakkola tommi",
+          "name": "Tommi Jaakkola"
+        },
+        {
+          "key": "chen ricky",
+          "name": "Ricky T. Q. Chen"
+        },
+        {
+          "key": "lipman yaron",
+          "name": "Yaron Lipman"
+        },
+        {
+          "key": "brian karrer",
+          "name": "Brian Karrer"
+        }
+      ],
+      "abstract_text": "The performance of flow matching and diffusion models can be greatly improved at inference time using reward alignment algorithms, yet efficiency remains a major limitation. While several algorithms were proposed, we demonstrate that a common bottleneck is the sampling method these algorithms rely on: many algorithms require to sample Markov transitions via SDE sampling, which is significantly less efficient and often less performant than ODE sampling. To remove this bottleneck, we introduce GLASS Flows, a new sampling paradigm that simulates a \"flow matching model within a flow matching model\" to sample Markov transitions. As we show in this work, this \"inner\" flow matching model can be retrieved from a pre-trained model without any re-training, combining the efficiency of ODEs with the stochastic evolution of SDEs. On large-scale text-to-image models, we show that GLASS Flows eliminate the trade-off between stochastic evolution and efficiency. Combined with Feynman-Kac Steering, GLASS Flows improve state-of-the-art performance in text-to-image generation, making it a simple, drop-in solution for inference-time scaling of flow and diffusion models.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e1016a8fc3e05a43066c39dd1124b868e315247865614ecfdca1e988187be000",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67011-0",

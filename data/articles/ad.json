@@ -2547,6 +2547,60 @@
       "curated_categories": []
     },
     {
+      "id": "ad613660cb7716978d09c49a4940485e0f195c836ea1041abb0c00e9c67d50b6",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2510.01510",
+        "https://openalex.org/W4414817281"
+      ],
+      "title": "Flock: A Knowledge Graph Foundation Model via Learning on Random Walks",
+      "link": "https://doi.org/10.48550/arxiv.2510.01510",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/3ddbd473456a57e3cafb1ee51ddf8ff6-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "jinwoo kim",
+          "name": "Kim, Jinwoo"
+        },
+        {
+          "key": "huang xingyue",
+          "name": "Xingyue Huang"
+        },
+        {
+          "key": "krzysztof olejniczak",
+          "name": "Krzysztof Olejniczak"
+        },
+        {
+          "key": "kyungbin min",
+          "name": "Min, Kyungbin"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "hong seunghoon",
+          "name": "Seunghoon Hong"
+        },
+        {
+          "key": "ceylan i̇lkan i̇smail",
+          "name": "İsmail İlkan Ceylan"
+        }
+      ],
+      "abstract_text": "We study the problem of zero-shot link prediction on knowledge graphs (KGs), which requires models to generalize to novel entities and novel relations. Knowledge graph foundation models (KGFMs) address this task by enforcing equivariance over both nodes and relations, which enables them to learn structural properties of nodes and relations that transfer to novel KGs with similar structure. However, the conventional notion of deterministic equivariance inherently limits the expressive power of KGFMs, as it prevents them from distinguishing relations that are structurally similar but semantically distinct. To overcome this limitation, we propose to leverage probabilistic node-relation equivariance, which preserves equivariance in distribution while using structured randomness to break symmetries at inference time. Building on this principle, we present Flock, a KGFM that iteratively samples random walks, encodes them into sequences, embeds them with a sequence model, and aggregates node and relation representations through learned pooling. Flock respects probabilistic node-relation equivariance and, crucially, is a universal approximator for isomorphism-invariant link-level functions over KGs. Empirically, Flock perfectly solves our new diagnostic dataset Petals on which current KGFMs fail, and achieves state-of-the-art performance on entity and relation prediction tasks across 54 KGs from diverse domains. Code is available at https://github.com/jw9730/flock.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ad61976cab15b067d1787c8623fc363a7987486687ee397fe91965068e1894e2",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.03.763617v1",
@@ -3352,7 +3406,7 @@
       ],
       "title": "De novo design of alpha-beta repeat proteins",
       "link": "https://doi.org/10.1101/2024.06.15.590358",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11195203/pdf/nihpp-2024.06.15.590358v1.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/06/16/2024.06.15.590358.full.pdf",
       "publication_date": "2024-06-16",
       "publication_date_precision": "unknown",
       "collection_date": null,

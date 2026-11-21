@@ -4735,6 +4735,84 @@
       "curated_categories": []
     },
     {
+      "id": "b9fcdef4db4e15fc775ed6042ec7ce07b6ce37dff82e11d9fd56d16a6d41b575",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2507.03041",
+        "https://openalex.org/W4414967484"
+      ],
+      "title": "Optimas: Optimizing Compound AI Systems with Globally Aligned Local Rewards",
+      "link": "https://doi.org/10.48550/arxiv.2507.03041",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/f21a5fedfbcb55406ddaf51cf90d494a-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "shirley wu",
+          "name": "Wu, Shirley"
+        },
+        {
+          "key": "parth sarthi",
+          "name": "Parth Sarthi"
+        },
+        {
+          "key": "shiyu zhao",
+          "name": "Shiyu Zhao"
+        },
+        {
+          "key": "aaron lee",
+          "name": "Lee, Aaron"
+        },
+        {
+          "key": "herumb shandilya",
+          "name": "Herumb Shandilya"
+        },
+        {
+          "key": "adrian grobelnik mladenić",
+          "name": "Adrian Mladenić Grobelnik"
+        },
+        {
+          "key": "choudhary nurendra",
+          "name": "Nurendra Choudhary"
+        },
+        {
+          "key": "eddie huang",
+          "name": "Eddie Huang"
+        },
+        {
+          "key": "karthik subbian",
+          "name": "Karthik Subbian"
+        },
+        {
+          "key": "linjun zhang",
+          "name": "Linjun Zhang"
+        },
+        {
+          "key": "diyi yang",
+          "name": "Diyi Yang"
+        },
+        {
+          "key": "james zou",
+          "name": "James Zou"
+        },
+        {
+          "key": "jure leskovec",
+          "name": "Jure Leskovec"
+        }
+      ],
+      "abstract_text": "Compound AI systems integrating multiple components, such as Large Language Models, specialized tools, and traditional machine learning models, are increasingly deployed to solve complex real-world tasks. However, optimizing compound systems remains challenging due to their non-differentiable structures and diverse configuration types across components, including prompts, hyperparameters, and model parameters. To address this challenge, we propose Optimas, a unified framework for effective optimization of compound systems. The core idea of Optimas is to maintain one Local Reward Function (LRF) per component, each satisfying a local-global alignment property, i.e., each component's local reward correlates with the global system performance. In each iteration, Optimas efficiently adapts the LRFs to maintain this property while simultaneously maximizing each component's local reward. This approach enables independent updates of heterogeneous configurations using the designated optimization method, while ensuring that local improvements consistently lead to performance gains. We present extensive evaluations across five real-world compound systems to demonstrate that Optimas outperforms strong baselines by an average improvement of 11.92%, offering a general and effective approach for improving compound systems. Our website is at https://optimas.stanford.edu.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b9fdf3027a3b83d1d420ed7fd5cc7549a8f609167116c5df8cbe9ed1fefee5dd",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00802-7",

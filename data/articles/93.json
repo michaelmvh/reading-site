@@ -3190,6 +3190,52 @@
       "curated_categories": []
     },
     {
+      "id": "93900416e2a6303525ddb1a5f3df331930fe8ba0b5426278fef9e7240393b3cd",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2511.04854",
+        "https://openalex.org/W7104671781"
+      ],
+      "title": "SigmaDock: Untwisting Molecular Docking With Fragment-Based SE(3) Diffusion",
+      "link": "https://doi.org/10.48550/arxiv.2511.04854",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/4c1516dc8f1643c94d164a436ce8fe51-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "alvaro prat",
+          "name": "Prat, Alvaro"
+        },
+        {
+          "key": "leo zhang",
+          "name": "Zhang, Leo"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        },
+        {
+          "key": "teh whye yee",
+          "name": "Yee Whye Teh"
+        },
+        {
+          "key": "garrett morris",
+          "name": "Morris, Garrett M."
+        }
+      ],
+      "abstract_text": "Determining the binding pose of a ligand to a protein, known as molecular docking, is a fundamental task in drug discovery. Generative approaches promise faster, improved, and more diverse pose sampling than physics-based methods, but are often hindered by chemically implausible outputs, poor generalisability, and high computational cost. To address these challenges, we introduce a novel fragmentation scheme, leveraging inductive biases from structural chemistry, to decompose ligands into rigid-body fragments. Building on this decomposition, we present SigmaDock, an SE(3) Riemannian diffusion model that generates poses by learning to reassemble these rigid bodies within the binding pocket. By operating at the level of fragments in SE(3), SigmaDock exploits well-established geometric priors while avoiding overly complex diffusion processes and unstable training dynamics. Experimentally, we show SigmaDock achieves state-of-the-art performance, reaching Top-1 success rates (RMSD<2 & PB-valid) above 79.9% on the PoseBusters set, compared to 12.7-30.8% reported by recent deep learning approaches, whilst demonstrating consistent generalisation to unseen proteins. SigmaDock is the first deep learning approach to surpass classical physics-based docking under the PB train-test split, marking a significant leap forward in the reliability and feasibility of deep learning for molecular modelling.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9395da8b6852337ca197f973d589fbee18204c39eb6301210893d4d12443cf6c",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02945-z",

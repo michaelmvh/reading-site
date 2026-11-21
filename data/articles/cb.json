@@ -3296,6 +3296,52 @@
       "curated_categories": []
     },
     {
+      "id": "cbb99b0d9428f8c6f6d20936f3fc487fd8cf31796d45085a448e49ef59c2dea0",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2507.01297",
+        "https://openalex.org/W4417182787"
+      ],
+      "title": "Frustratingly Simple Retrieval Improves Challenging, Reasoning-Intensive Benchmarks",
+      "link": "https://doi.org/10.48550/arxiv.2507.01297",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/114273bb8d7969c60ab2a97adad609e1-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "lyu xinxi",
+          "name": "Xinxi Lyu"
+        },
+        {
+          "key": "duan michael",
+          "name": "Michael Duan"
+        },
+        {
+          "key": "rulin shao",
+          "name": "Rulin Shao"
+        },
+        {
+          "key": "koh pang wei",
+          "name": "Pang Wei Koh"
+        },
+        {
+          "key": "min sewon",
+          "name": "Sewon Min"
+        }
+      ],
+      "abstract_text": "Retrieval-augmented Generation (RAG) has primarily been studied in limited settings, such as factoid question answering; more challenging, reasoning-intensive benchmarks have seen limited success from minimal RAG. In this work, we challenge this prevailing view on established, reasoning-intensive benchmarks: MMLU, MMLU Pro, AGI Eval, GPQA, and MATH. We identify a key missing component in prior work: a usable, web-scale datastore aligned with the breadth of pretraining data. To this end, we introduce CompactDS: a diverse, high-quality, web-scale datastore that achieves high retrieval accuracy and subsecond latency on a single-node. The key insights are (1) most web content can be filtered out without sacrificing coverage, and a compact, high-quality subset is sufficient; and (2) combining in-memory approximate nearest neighbor (ANN) retrieval and on-disk exact search balances speed and recall. Using CompactDS, we show that a minimal RAG pipeline achieves consistent accuracy improvements across all benchmarks and model sizes (8B--70B), with relative gains of 10% on MMLU, 33% on MMLU Pro, 14% on GPQA, and 19% on MATH. No single data source suffices alone, highlighting the importance of diversity of sources (web crawls, curated math, academic papers, textbooks). Finally, we show that our carefully designed in-house datastore matches or outperforms web search engines such as Google Search, as well as recently proposed, complex agent-based RAG systems--all while maintaining simplicity, reproducibility, and self-containment. We release CompactDS and our retrieval pipeline, supporting future research exploring retrieval-based AI systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cbc062f5e21bdf9cd4f2550b09617c421bb4480527aaf7f224f9cd9d82bf40f4",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77509-w",

@@ -1770,6 +1770,52 @@
       "curated_categories": []
     },
     {
+      "id": "74441e8554ea34584d5a1fed71c8ce6d8d880038dceb7159b218611b26670a50",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2503.09008",
+        "https://openalex.org/W4414579655"
+      ],
+      "title": "Towards Quantifying Long-Range Interactions in Graph Machine Learning: a Large Graph Dataset and a Measurement",
+      "link": "https://doi.org/10.48550/arxiv.2503.09008",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/3acb49252187efa352a1ae0e4b066ced-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "huidong liang",
+          "name": "Huidong Liang"
+        },
+        {
+          "key": "borde de haitz ocáriz sáez",
+          "name": "Haitz Sáez de Ocáriz Borde"
+        },
+        {
+          "key": "baskaran sripathmanathan",
+          "name": "Baskaran Sripathmanathan"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "dong xiaowen",
+          "name": "Xiaowen Dong"
+        }
+      ],
+      "abstract_text": "Long-range dependencies are critical for effective graph representation learning, yet most existing datasets focus on small graphs tailored to inductive tasks, offering limited insight into long-range interactions. Current evaluations primarily compare models employing global attention (e.g., graph transformers) with those using local neighborhood aggregation (e.g., message-passing neural networks) without a direct measurement of long-range dependency. In this work, we introduce $\\texttt{City-Networks}$, a novel large-scale transductive learning dataset derived from real-world city road networks. This dataset features graphs with over $10^5$ nodes and significantly larger diameters than those in existing benchmarks, naturally embodying long-range information. We annotate the graphs based on local node eccentricities, ensuring that the classification task inherently requires information from distant nodes. Furthermore, we propose a generic measurement based on the Jacobians of neighbors from distant hops, offering a principled quantification of long-range dependencies. Finally, we provide theoretical justifications for both our dataset design and the proposed measurement, particularly by focusing on over-smoothing and influence score dilution, which establishes a robust foundation for further exploration of long-range interactions in graph neural networks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "74446d20e1322b1efc9022ec628cfc3a9b768b5102286776927a47ed16285b19",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-68210-5",
@@ -4614,8 +4660,8 @@
       ],
       "title": "Improving Protein Optimization with Smoothed Fitness Landscapes",
       "link": "https://doi.org/10.48550/arxiv.2307.00494",
-      "pdf_url": null,
-      "publication_date": "2023-07-02",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cbb7a23649b25001e797a726cf75498e-Paper-Conference.pdf",
+      "publication_date": "2024-05-31",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "International Conference on Learning Representations",

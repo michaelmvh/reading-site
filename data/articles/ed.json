@@ -100,7 +100,7 @@
       ],
       "title": "CasGen: A Regularized Generative Model for CRISPR Cas Protein Design with Classification and Margin-Based Optimization",
       "link": "https://doi.org/10.1101/2025.02.28.640911",
-      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11888460/pdf/",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/03/01/2025.02.28.640911.full.pdf",
       "publication_date": "2025-03-01",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -930,6 +930,62 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "ed2f9a975c8f942184fa1d566f708982a0f87bed75118735d37fe5dc1553e97e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.29.728810v2",
+        "https://doi.org/10.64898/2026.05.29.728810",
+        "https://www.biorxiv.org/content/early/2026/06/02/2026.05.29.728810.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.05.29.728810.source.xml"
+      ],
+      "title": "RAD: A Read-structure Agnostic Demultiplexer for Single-Cell Long-Read Sequencing and Analysis",
+      "link": "https://doi.org/10.64898/2026.05.29.728810",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728810v2.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "vaidya",
+          "name": "Vaidya, C. M"
+        },
+        {
+          "key": "carpenter",
+          "name": "Carpenter, M. C"
+        },
+        {
+          "key": "abdullah",
+          "name": "Abdullah, L"
+        },
+        {
+          "key": "kolling",
+          "name": "Kolling, F. W"
+        },
+        {
+          "key": "huang",
+          "name": "Huang, Y. H"
+        },
+        {
+          "key": "song",
+          "name": "Song, L"
+        },
+        {
+          "key": "ackerman",
+          "name": "Ackerman, M. E"
+        }
+      ],
+      "abstract_text": "Single-cell long-read sequencing (LRS) techniques enable the analysis of full transcript sequences within a cell. However, LRS introduces computational challenges for parsing information, often necessitating the development of custom workflows to handle complex read layouts, such as split combinatorial barcodes. To address these challenges, we introduce an error-robust, read-structure agnostic demultiplexer (RAD). In RAD, users can easily specify read structure, such as adapter sequence and relative barcode position, and can rapidly extract these elements for each read. RAD implements highly accurate barcode whitelist generation from long-read data alone, without the benefit of short-read support or priors while uniquely avoiding common but previously uncharacterized errors during demultiplexing. RAD's comprehensive barcode error correction protocols allow for more sensitive and precise barcode-read assignments. In synthetic and real-world benchmarks against gold-standard demultiplexers, RAD is faster and achieves better biological discovery capability in downstream gene expression analysis than existing pipelines. We show RAD can be applied to datasets ranging from high-definition long-read spatial transcriptomics to targeted long-read single-cell immune receptor sequencing, making it a powerful and scalable tool for both standard and custom long-read sequencing experiments.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

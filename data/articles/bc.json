@@ -497,7 +497,7 @@
       "title": "Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles",
       "link": "https://doi.org/10.1016/j.ailsci.2026.100193",
       "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2667318526000401/pdf",
-      "publication_date": "2026-11-01",
+      "publication_date": "2026-11-13",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "Artificial Intelligence in the Life Sciences",
@@ -6367,6 +6367,77 @@
         }
       ],
       "abstract_text": "Spatial gene expression results from the superposition of multiple sources of variation in gene expression across different spatial scales, including local microenvironment-associated variation and global spatial gradients. Spatial foundation models (SFMs) are large-scale machine learning models trained on cohorts of spatial transcriptomics (ST) data that, in principle, learn the different sources of spatial variation in gene expression. However, the embeddings learned by SFMs are difficult to interpret, and it remains unclear whether they fully capture such spatial variation. Here, we develop SAFFRON, a sparse autoencoder (SAE)-based framework for interpreting and evaluating SFMs. SAFFRON uses a Matryoshka SAE to decompose dense SFM embeddings into sparse, human-interpretable features and evaluates whether these features correlate with known sources of spatial variation. Using SAFFRON, we systematically benchmark the ability of several recent SFMs to identify local and global spatial variation in gene expression. We find that only two SFMs learn global spatial gradients more accurately than naive, non-foundation model baselines; further investigating one such SFM, SAFFRON reveals that these gradients are concentrated in a small subset of sparse, human-interpretable SAE features. On the other hand, <em>no</em> SFM learns local patterns (A{beta} plaque microenvironment-associated patterns) more accurately than such baselines. Our findings suggest that current SFMs do not systematically learn multi-scale spatial variation in gene expression. Code: SAFFRON is available at <a href=\"https://github.com/chitra-lab/SAFFRON\">https://github.com/chitra-lab/SAFFRON.</a>",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "bcef099b7ac1cb7ba74c5df4e042d60ecf93f47d7f44a27ea17349539ad7060a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.13.766407v1",
+        "https://doi.org/10.64898/2026.11.13.766407",
+        "https://www.biorxiv.org/content/early/2026/11/20/2026.11.13.766407.source.xml"
+      ],
+      "title": "Cross-Species Dynamics of Transposable Elements in Aging Female Visceral Adipose Tissues",
+      "link": "https://doi.org/10.64898/2026.11.13.766407",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766407v1.full.pdf",
+      "publication_date": "2026-11-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ali",
+          "name": "Ali, S. S"
+        },
+        {
+          "key": "gaire",
+          "name": "Gaire, A"
+        },
+        {
+          "key": "paidimukkala",
+          "name": "Paidimukkala, N"
+        },
+        {
+          "key": "laux",
+          "name": "Laux, L"
+        },
+        {
+          "key": "hertzel",
+          "name": "Hertzel, A"
+        },
+        {
+          "key": "dileepan",
+          "name": "Dileepan, M"
+        },
+        {
+          "key": "kumerfeld",
+          "name": "Kumerfeld, E"
+        },
+        {
+          "key": "robbins",
+          "name": "Robbins, P. D"
+        },
+        {
+          "key": "aliferis",
+          "name": "Aliferis, C"
+        },
+        {
+          "key": "niedernhofer",
+          "name": "Niedernhofer, L. J"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        }
+      ],
+      "abstract_text": "Transposable elements (TEs) make up nearly half of mammalian genomes and are increasingly implicated in genomic instability, cellular stress responses, aging, and age-related disease. Recent past research has highlighted their significant involvement in disease models such as cancer and Alzheimer's disease (AD), though much remains to be unraveled regarding these genomic insertions. In this study, we explore the involvement of TEs in aging female mouse and human visceral adipose tissue (VAT) using 10x single-nucleus RNA sequencing (snRNA-seq) data analyzed with the computational tool SoloTE. By assessing the TE-annotated snRNA-seq count matrix using Seurat, we found that retrotransposons-specifically short interspersed nuclear elements (SINEs) and long interspersed nuclear elements (LINEs) on chromosomes 1 and 19-are significantly upregulated in aging female human VAT and in potential senescent cells (CDKN1A^+). Although changes in mouse VAT were less pronounced, long terminal repeats (LTRs) were predominant in aging mouse cells. Furthermore, analysis of upregulated features in aging and CDKN1A^+ female human VAT cells revealed that LINE and SINE TEs embedded within specific gene loci-most notably CUX1, SOD2, C3, NAMPT, ALDH1A3, IL6, and the non-coding RNA LOC105375913-exhibit a positive regulatory relationship with their host genes. Specifically, higher TE expression may directly upregulate host gene expression (e.g., C3 TEs driving C3 upregulation). Consistently ranking at the top of differentially expressed feature lists, these TEs act as potential drivers of aging and cellular senescence in female human VAT and can be plausible targets without risk of disruption of multiple biological systems.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

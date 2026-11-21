@@ -2649,6 +2649,48 @@
       "curated_categories": []
     },
     {
+      "id": "d84a96efdee62bcd283093ec7c3473cb96c1cf06071d203ea9299203c289ace9",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2506.12362",
+        "https://openalex.org/W4415111426"
+      ],
+      "title": "HYPER: A Foundation Model for Inductive Link Prediction with Knowledge Hypergraphs",
+      "link": "https://doi.org/10.48550/arxiv.2506.12362",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/cdf80d651420b47da80f789f2631b1b5-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "huang xingyue",
+          "name": "Huang, Xingyue"
+        },
+        {
+          "key": "galkin mikhail",
+          "name": "Mikhail Galkin"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "ceylan i̇lkan i̇smail",
+          "name": "İsmail İlkan Ceylan"
+        }
+      ],
+      "abstract_text": "Inductive link prediction with knowledge hypergraphs is the task of predicting missing hyperedges involving completely novel entities (i.e., nodes unseen during training). Existing methods for inductive link prediction with knowledge hypergraphs assume a fixed relational vocabulary and, as a result, cannot generalize to knowledge hypergraphs with novel relation types (i.e., relations unseen during training). Inspired by knowledge graph foundation models, we propose HYPER as a foundation model for link prediction, which can generalize to any knowledge hypergraph, including novel entities and novel relations. Importantly, HYPER can learn and transfer across different relation types of varying arities, by encoding the entities of each hyperedge along with their respective positions in the hyperedge. To evaluate HYPER, we construct 16 new inductive datasets from existing knowledge hypergraphs, covering a diverse range of relation types of varying arities. Empirically, HYPER consistently outperforms all existing methods in both node-only and node-and-relation inductive settings, showing strong generalization to unseen, higher-arity relational structures.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d84b92e08d7cfbffd004bacf895d68fa09597d65033be57922a1e8b83c518265",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76136-9",

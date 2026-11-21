@@ -2624,6 +2624,48 @@
       "curated_categories": []
     },
     {
+      "id": "1c75c074b68050a8d080ca6d79f383f919cb5d64663d7f1b3c293d513ac811de",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2510.05060",
+        "https://openalex.org/W4414973271"
+      ],
+      "title": "ResCP: Reservoir Conformal Prediction for Time Series Forecasting",
+      "link": "https://doi.org/10.48550/arxiv.2510.05060",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b0a978efeb20d33c15e31a5beee9f6df-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "neglia roberto",
+          "name": "Roberto Neglia"
+        },
+        {
+          "key": "andrea cini",
+          "name": "Andrea Cini"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "bianchi filippo maria",
+          "name": "Filippo Maria Bianchi"
+        }
+      ],
+      "abstract_text": "Conformal prediction offers a powerful framework for building distribution-free prediction intervals for exchangeable data. Existing methods that extend conformal prediction to sequential data rely on fitting a relatively complex model to capture temporal dependencies. However, these methods can fail if the sample size is small and often require expensive retraining when the underlying data distribution changes. To overcome these limitations, we propose Reservoir Conformal Prediction (ResCP), a novel training-free conformal prediction method for time series. Our approach leverages the efficiency and representation learning capabilities of reservoir computing to dynamically reweight conformity scores. In particular, we compute similarity scores among reservoir states and use them to adaptively reweight the observed residuals at each step. With this approach, ResCP enables us to account for local temporal dynamics when modeling the error distribution without compromising computational scalability. We prove that, under reasonable assumptions, ResCP achieves asymptotic conditional coverage, and we empirically demonstrate its effectiveness across diverse forecasting tasks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1c78e957f0a3119f059f4eef8e5ebf8bdd119f94bea4c0c611476c469e561fff",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76776-x",

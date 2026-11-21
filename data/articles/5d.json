@@ -2565,6 +2565,48 @@
       "curated_categories": []
     },
     {
+      "id": "5d72e4a69a7ad2c29a5e25dea73f777b3824bae28f4932d1f0bbd371b6a88e25",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2504.18273",
+        "https://openalex.org/W4416380565"
+      ],
+      "title": "Efficient Learning on Large Graphs using a Densifying Regularity Lemma",
+      "link": "https://doi.org/10.48550/arxiv.2504.18273",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/0a5be8b9369d58c8ff7eb93caff06fff-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "jonathan kouchly",
+          "name": "Jonathan Kouchly"
+        },
+        {
+          "key": "ben finkelshtein",
+          "name": "Ben Finkelshtein"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "levie ron",
+          "name": "Ron Levie"
+        }
+      ],
+      "abstract_text": "Learning on large graphs presents significant challenges, with traditional Message Passing Neural Networks suffering from computational and memory costs scaling linearly with the number of edges. We introduce the Intersecting Block Graph (IBG), a low-rank factorization of large directed graphs based on combinations of intersecting bipartite components, each consisting of a pair of communities, for source and target nodes. By giving less weight to non-edges, we show how to efficiently approximate any graph, sparse or dense, by a dense IBG. Specifically, we prove a constructive version of the weak regularity lemma, showing that for any chosen accuracy, every graph, regardless of its size or sparsity, can be approximated by a dense IBG whose rank depends only on the accuracy. This dependence of the rank solely on the accuracy, and not on the sparsity level, is in contrast to previous forms of the weak regularity lemma. We present a graph neural network architecture operating on the IBG representation of the graph and demonstrating competitive performance on node classification, spatio-temporal graph analysis, and knowledge graph completion, while having memory and computational complexity linear in the number of nodes rather than edges.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5d7542f80e80c112f730e085e0a8510d39c24aff49bb5f77deefb9898de3f410",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65536-y",

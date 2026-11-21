@@ -204,6 +204,36 @@
       "curated_categories": []
     },
     {
+      "id": "5f05408f0cb747d8e54d01de0ab01aba895f67f5ca79ea15f1f1a16fc6acbbab",
+      "identity_keys": [
+        "https://doi.org/10.25560/130341",
+        "https://openalex.org/W7237191121"
+      ],
+      "title": "Machine Learning for antibody property prediction and design",
+      "link": "https://doi.org/10.25560/130341",
+      "pdf_url": null,
+      "publication_date": "2026-02-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Imperial College Research Computing Service Data Repository",
+      "authors": [
+        {
+          "key": "kevin michalewicz",
+          "name": "Kevin Michalewicz"
+        }
+      ],
+      "abstract_text": "Understanding the relationship between antibody sequence, structure and function is essential for the design of antibody-based therapeutics. Machine Learning models based on sequence information have been used for antibody modelling and design tasks. However, structural information remains comparatively underutilised, despite its potential to improve predictive performance and reveal underlying molecular mechanisms. This thesis addresses these challenges by developing structure-aware and interpretable Machine Learning models for antibody property prediction and design. We first propose ANTIPASTI, a convolutional neural network that achieves state-of-the-art performance in the prediction of antibody binding affinity using a representation of antibody-antigen structures based on normal mode correlation maps. The model outputs are interpretable: they reveal similarities in binding patterns among antibodies targeting the same antigen type and can be used to quantify the importance of antibody regions contributing to binding affinity. Our results highlight the role of cooperative effects and long-range correlations between antibody regions. Next, we introduce INFUSSE, a framework for the prediction of single-residue properties that combines sequence embeddings with graph-based representations of protein structures using a diffusive graph convolutional network. We show that INFUSSE outperforms methods based on sequence or structure alone and allows for the systematic disentanglement of sequence and structure contributions. We observe that adding structural information enhances predictions especially for intrinsically disordered regions, protein-protein interaction sites, and highly variable amino acid positions. Finally, we present a generative framework for protein design with PGEL, which learns high-dimensional embeddings in the representation space of a frozen denoiser, and enhances motif and scaffold diversity through controlled perturbations in the embedding space. We demonstrate PGEL on representative design cases and combine these three approaches into a proof-of-concept pipeline for targeted antibody redesign. Applied to an antibody-RSV F complex, this pipeline yields candidates with improved binding affinity, stability, solubility and humanness relative to the native structure.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "5f19ac2fb7edf10db79c5a4d7e5a985de6af59ad228a94b51b808286cc3d3a6e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75605-5",
@@ -5583,6 +5613,64 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "5ff7d40254b114ea51befcdaefc2c42fe60cc5181a134fcc6b1fb32a63789ce2",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2506.01158",
+        "https://openalex.org/W4414895178"
+      ],
+      "title": "Efficient Regression-Based Training of Normalizing Flows for Boltzmann Generators",
+      "link": "https://doi.org/10.48550/arxiv.2506.01158",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ce96ebd3a0941471427832185f126bde-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "danyal rehman",
+          "name": "Danyal Rehman"
+        },
+        {
+          "key": "davis oscar",
+          "name": "Davis, Oscar"
+        },
+        {
+          "key": "jiarui lu",
+          "name": "Jiarui Lu"
+        },
+        {
+          "key": "jian tang",
+          "name": "Jian Tang"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "bengio yoshua",
+          "name": "Yoshua Bengio"
+        },
+        {
+          "key": "alexander tong",
+          "name": "Alexander Tong"
+        },
+        {
+          "key": "avishek bose joey",
+          "name": "Avishek Joey Bose"
+        }
+      ],
+      "abstract_text": "Simulation-free training frameworks have been at the forefront of the generative modelling revolution in continuous spaces, leading to large-scale diffusion and flow matching models. However, such modern generative models suffer from expensive inference, inhibiting their use in numerous scientific applications like Boltzmann Generators (BGs) for molecular conformations that require fast likelihood evaluation. In this paper, we revisit classical normalizing flows in the context of BGs that offer efficient sampling and likelihoods, but whose training via maximum likelihood is often unstable and computationally challenging. We propose Regression Training of Normalizing Flows (RegFlow), a novel and scalable regression-based training objective that bypasses the numerical instability and computational challenge of conventional maximum likelihood training in favour of a simple $\\ell_2$-regression objective. Specifically, RegFlow maps prior samples under our flow to targets computed using optimal transport couplings or a pre-trained continuous normalizing flow (CNF). To enhance numerical stability, RegFlow employs effective regularization strategies such as a new forward-backward self-consistency loss that enjoys painless implementation. Empirically, we demonstrate that RegFlow unlocks a broader class of architectures that were previously intractable to train for BGs with maximum likelihood. We also show RegFlow exceeds the performance, computational cost, and stability of maximum likelihood training in equilibrium sampling in Cartesian coordinates of alanine dipeptide, tripeptide, and tetrapeptide, showcasing its potential in molecular systems.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

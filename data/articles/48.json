@@ -7025,6 +7025,72 @@
       "curated_categories": []
     },
     {
+      "id": "48f94f42729bcf88748c235269701bdf8b7e5ad0467a37a4cacaeabdff15ee45",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2510.06377",
+        "https://openalex.org/W4415097104"
+      ],
+      "title": "Relational Transformer: Toward Zero-Shot Foundation Models for Relational Data",
+      "link": "https://doi.org/10.48550/arxiv.2510.06377",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/7107d4d2e837bde2171c6b71b5bde954-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "ranjan rishabh",
+          "name": "Ranjan, Rishabh"
+        },
+        {
+          "key": "hudovernik valter",
+          "name": "Valter Hudovernik"
+        },
+        {
+          "key": "mark znidar",
+          "name": "Mark Znidar"
+        },
+        {
+          "key": "charilaos kanatsoulis",
+          "name": "Charilaos I. Kanatsoulis"
+        },
+        {
+          "key": "roshan upendra",
+          "name": "Roshan Upendra"
+        },
+        {
+          "key": "mahmoud mohammadi",
+          "name": "Mahmoud Mohammadi"
+        },
+        {
+          "key": "joe meyer",
+          "name": "Meyer, Joe"
+        },
+        {
+          "key": "palczewski tom",
+          "name": "Tom Palczewski"
+        },
+        {
+          "key": "carlos guestrin",
+          "name": "Carlos Guestrin"
+        },
+        {
+          "key": "jure leskovec",
+          "name": "Jure Leskovec"
+        }
+      ],
+      "abstract_text": "Pretrained transformers readily adapt to new sequence modeling tasks via zero-shot prompting, but relational domains still lack architectures that transfer across datasets and tasks. The core challenge is the diversity of relational data, with varying heterogeneous schemas, graph structures and functional dependencies. In this paper, we present the Relational Transformer (RT) architecture, which can be pretrained on diverse relational databases and directly applied to unseen datasets and tasks without task- or dataset-specific fine-tuning, or retrieval of in-context examples. RT (i) incorporates task specification via task table prompting, (ii) tokenizes cells with table/column metadata, (iii) is pretrained via masked token prediction, and (iv) utilizes a novel Relational Attention mechanism over columns, rows, and primary-foreign key links. Pretrained on RelBench datasets spanning tasks such as churn and sales forecasting, RT attains strong zero-shot performance, averaging 93% of fully supervised AUROC on binary classification tasks with a single forward pass of a 22M parameter model, as opposed to 84% for a 27B LLM. Fine-tuning yields state-of-the-art results with high sample efficiency. Our experimental analyses show that RT's zero-shot transfer leverages task context, relational attention patterns and schema semantics. Overall, RT provides a practical path toward foundation models for relational data. Code, models, data: https://github.com/snap-stanford/relational-transformer.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "48fa87122dee6d19ba6727ebc707ec6f1f5aa90e01bc3edeaae8da1654123400",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66450-z",
