@@ -2900,6 +2900,53 @@
       "curated_categories": []
     },
     {
+      "id": "09991559f25874523ccfd33462fa4a9439fb0b86d69e5b7886c728b33b2e1eb4",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767465v1",
+        "https://doi.org/10.64898/2026.11.17.767465",
+        "https://www.biorxiv.org/content/early/2026/11/21/2026.11.17.767465.source.xml"
+      ],
+      "title": "MicroBioAgent: an AI agent for automated microbiome analysis",
+      "link": "https://doi.org/10.64898/2026.11.17.767465",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767465v1.full.pdf",
+      "publication_date": "2026-11-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, Z"
+        },
+        {
+          "key": "wang",
+          "name": "WANG, J"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, C"
+        },
+        {
+          "key": "ding",
+          "name": "Ding, Y"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, L"
+        }
+      ],
+      "abstract_text": "Microbiome data analysis demands customized workflows tailored to specific biological questions, sequencing modalities, and data properties. However, constructing and executing these workflows requires navigating heterogeneous software dependencies, reference databases, and multi-step parameter tuning. Here, we present MicroBioAgent, an autonomous, domain-specific agent framework that translates high-level biological queries into executable, study-specific pipelines across 16S rRNA amplicon, reference-based shotgun, and de novo assembly-based metagenomics. Rather than relying on static pipeline templates, MicroBioAgent employs a closed-loop execution architecture: it dynamically selects and runs bioinformatics tools within user-controlled environments while iteratively inspecting intermediate outputs to adapt downstream analytical decisions. Furthermore, to address the long-running nature of metagenomic computation, we introduce an asynchronous background task-management mechanism that reduces LLM token consumption by over 50% while enabling real-time plan adjustment and automated workflow resumption. We systematically evaluated MicroBioAgent across three benchmarks of increasing complexity: (1) paired amplicon and shotgun profiling of tomato rhizosphere microbiomes, (2) taxonomic and functional profiling coupled with machine-learning classification in a colorectal cancer cohort, and (3) de novo metagenomic assembly, metagenome-assembled genome (MAG) binning, and metabolic pathway reconstruction in a polyethylene degradation study. Across all benchmarks, MicroBioAgent faithfully recapitulated the primary biological findings of the original studies, exhibiting high analytical concordance despite expected tool- and database-dependent variations. In systematic robustness evaluations across 27 independent runs spanning three backbone large language models and three prompt-complexity tiers, MicroBioAgent achieved a 98.8% task completion rate and yielded highly reproducible diversity and differential-abundance estimates. MicroBioAgent establishes a scalable, adaptive paradigm for end-to-end computational microbiome research.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "09998e5ba1c3e0d84bb7c533c98bab92204363e1286f75f5f1695d5d8f4ca85e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64979-7",
