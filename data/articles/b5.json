@@ -4042,6 +4042,56 @@
       "curated_categories": []
     },
     {
+      "id": "b59d0c49e22a3ff24442edc1f7451d5541256b1ce009ae6dcc0f8915d6ac8b95",
+      "identity_keys": [
+        "https://doi.org/10.1093/procel/pwag075",
+        "https://openalex.org/W7202211720"
+      ],
+      "title": "Design of high-affinity miniprotein antagonists targeting IL-4Rα for IL-4/IL-13 signal blockade",
+      "link": "https://doi.org/10.1093/procel/pwag075",
+      "pdf_url": "https://academic.oup.com/proteincell/advance-article-pdf/doi/10.1093/procel/pwag075/72683076/pwag075.pdf",
+      "publication_date": "2026-10-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Protein & Cell",
+      "authors": [
+        {
+          "key": "yanghan yu",
+          "name": "Yanghan Yu"
+        },
+        {
+          "key": "ningning wang",
+          "name": "Ningning Wang"
+        },
+        {
+          "key": "lingzhi xu",
+          "name": "Lingzhi Xu"
+        },
+        {
+          "key": "hongyun wang",
+          "name": "Hongyun Wang"
+        },
+        {
+          "key": "ze zhang",
+          "name": "Ze Zhang"
+        },
+        {
+          "key": "bowen yu",
+          "name": "Bowen Yu"
+        }
+      ],
+      "abstract_text": "Human IL-4Rα (hIL-4Rα) is a key regulatory receptor mediating type-2 inflammatory 24 responses.Following engagement by human IL-4 (hIL-4) or human IL-13 (hIL-13), 25 hIL-4Rα forms heteromeric receptor complexes with either the γc chain (type I receptor) 26 or hIL-13Rα1 (type II receptor) to initiate intracellular signaling pathways (Fig. 1A).27 hIL-4Rα is currently the most successful \"golden target\" in the field of allergic disease 28 therapeutics.Its representative monoclonal antibody drug, dupilumab, through the dual 29 blockade mechanism of hIL-4/hIL-13, has pioneered a new era of precision therapy for 30 type 2 inflammation (Le Floc'h et al., 2020).31 Despite the remarkable efficacy of hIL-4Rα antagonist antibody drugs, chronic diseases 32 require long-term injectable therapy.The relatively high cost limits the accessibility 33 and long-term availability of monoclonal antibody drugs.Compared to traditional 34 antibodies, de novo designed mini-proteins offer significant advantages: purely in silico 35 generation, facile E. coli expression with high yield, strong thermal stability, high 36 solubility, and flexible engineering properties (Cao et al., 2022; Wang et al., 2026).De 37 novo design approaches for mini-proteins have already yielded inhibitors targeting 38 immune components such as TNFR (Glögl et al., 2024), IL-17R (Berger et al., 2024), 39 and C9 (Li et al., 2026).Although these tools are highly adaptable, designing well-40 performing antagonists against hIL-4Rα was still an unmet challenge.Whether mini-41 proteins can match monoclonal antibody potency while retaining favorable biophysical 42 properties represents a critical test of their druggability.43We aimed to explore the possibility of obtaining high-performance hIL-4Rα antagonists 44 via an RFdiffusion-based mini-protein binder design and screening pipeline (Fig. 1B). 45Blocking hIL-4Rα signaling requires disrupting its interaction with hIL-4/hIL-13 46 (LaPorte et al., 2008).We focused on the cytokine-binding pocket of hIL-4Rα (Fig. 47 1C).In the first round of calculation, we selected four hydrophobic residues L64, F66, 48 V94, and Y152 as hotspots, and generated 16,000 protein scaffolds (50-115 residues) using RFdiffusion (Fig. 1C).After ProteinMPNN sequence design and AlphaFold2 50 complex prediction, screening with pae_interaction < 10 and plddt_binder > 90 yielded 51 a 1.85% success rate (Fig. S1A).Analysis revealed that successful binders engaged 52 broader interfaces than cytokines, extending beyond designated hotspots (Fig. 1C & 53 D).Notably, successful mini-proteins contained many two-helix binders, empirically 54 poor performers, suggesting insufficient scaffold length.Therefore, in the second round, 55 we added hotspots Y179 and L180 (Fig. 1C), generating 16,000 scaffolds with lengths 56 of 60-115 and 115-140 residues.Success rates improved to 2.44% and 5.13% (Fig. 57S1B & C).Mini-proteins with pae_interaction < 6 were further scored through58AlphaFold3.Notably, longer mini-protein binders showed better success rates and 59 ipTM values (Fig. S1D).Summarizing the above computational results, a total of 100 60 top ipTM-scoring mini-proteins were selected for experimental screening. 61Following E. coli expression and His-tag purification, Bio-Layer Interferometry (BLI) 62 screening identified 6 hIL-4Rα with robust binding (Fig. 1E & Fig. S2).We further 63",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b5a238cb2e640b8fd1a5fe214b208e0a317531ecbc9b49a46fe89e44638c65b6",
       "identity_keys": [
         "biorxiv:10.1101/2024.10.23.619844v7",

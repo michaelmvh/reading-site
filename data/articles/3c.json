@@ -254,6 +254,40 @@
       "curated_categories": []
     },
     {
+      "id": "3c0acfbf47e1bac770ce7708139d6d3034f8c020ab254faedaa2e81c438d6e60",
+      "identity_keys": [
+        "https://doi.org/10.18280/isi.310615",
+        "https://openalex.org/W7171843175"
+      ],
+      "title": "A Deep Residual Graph Attention Network Integrating Protein Language Models and Structural Features for Residue-Level Protein–Protein Interaction Site Prediction",
+      "link": "https://doi.org/10.18280/isi.310615",
+      "pdf_url": "https://www.iieta.org/download/file/fid/196488",
+      "publication_date": "2026-06-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Ingénierie des systèmes d information",
+      "authors": [
+        {
+          "key": "hussein oras",
+          "name": "Oras A. Hussein"
+        },
+        {
+          "key": "al eman shamery",
+          "name": "Eman S. Al-Shamery"
+        }
+      ],
+      "abstract_text": "Protein-protein interaction site (PPIS) prediction is essential for understanding molecular recognition mechanisms and supporting applications such as drug discovery and protein engineering. However, existing computational approaches often suffer from limited structural representation capability or insufficient integration of sequence and three-dimensional information. This study proposes a deep residual graph attention network, termed DR-GATv2, for residue-level PPIS prediction by integrating protein language model representations with structural and physicochemical features. In the proposed framework, proteins are represented as residue-level graphs, where residues serve as nodes and spatial relationships are modeled as graph edges. The model combines ESM-2 embeddings with DSSP-derived structural descriptors and physicochemical characteristics within residual GATv2 blocks. Furthermore, jumping knowledge aggregation is introduced to preserve multi-scale residue representations across different graph layers. Experiments were conducted on a benchmark of protein complex datasets with strict protein-level separation to avoid data leakage. The proposed model achieved an AUROC of 0.9625, an AUPRC of 0.9149, an F1-score of 0.8192, and an MCC of 0.7674 on the independent test set. Comparative experiments and ablation studies demonstrate that the integration of sequence-derived embeddings, structural information, and hierarchical graph representation contributes to improved PPIS prediction performance. The proposed framework provides an effective computational strategy for residue-level protein interaction analysis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3c0d2484f32f13f969479d997ea5d50a609ffa43f4369bfe891287a8ea0cff93",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68959-3",
