@@ -3318,6 +3318,53 @@
       "curated_categories": []
     },
     {
+      "id": "3a7c3df5d8a82818a4bd2d4205106bdeb01c065ee5d98af2562e251eccf688ec",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768089v1",
+        "https://doi.org/10.64898/2026.11.20.768089",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768089.source.xml"
+      ],
+      "title": "Effects of sequence splitting and negative-set selection on antimicrobial peptide prediction",
+      "link": "https://doi.org/10.64898/2026.11.20.768089",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768089v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chen",
+          "name": "Chen, C"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, H"
+        },
+        {
+          "key": "li",
+          "name": "Li, Q"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, Z"
+        },
+        {
+          "key": "tian",
+          "name": "Tian, Y"
+        }
+      ],
+      "abstract_text": "Sequence partitioning and negative-set selection determine the prediction problem posed by an antimicrobial peptide (AMP) benchmark. We quantified their effects using a DRAMP 5.0 audit, controlled comparisons with frozen ESM-2 classifiers and additional benchmark configurations. On DRAMP, random splitting increased Matthews correlation coefficient (MCC) from 0.718 under cluster-disjoint splitting to 0.932. This difference of 0.214 exceeded the gains from the architectural additions tested, and 75.6% of randomly assigned test sequences shared a homology cluster with training sequences. Across three additional dataset configurations, random-minus-cluster MCC differences ranged from -0.04634 to +0.05682, showing that the magnitude and direction of the split effect depended on benchmark composition. With the fitted classifiers and APD6 positives held fixed, replacing DRAMP test negatives with external hard negatives reduced the area under the receiver operating characteristic curve from 0.9833 to 0.9018 (paired difference 0.08149, bootstrap 95% CI 0.07196 to 0.09181). These comparisons quantify substantial sensitivity to evaluation design and show why split effects require assessment within each benchmark. AMPBenchAudit provides the audited records, split assignments and evaluation code needed to examine this sensitivity and interpret model comparisons under explicit test conditions.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3a7c4ee0e90fd4e9efb179339a56d8651ea2d03315cbabdd3d4a0f6d69593b5a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70056-4",

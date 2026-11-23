@@ -1780,6 +1780,58 @@
       "curated_categories": []
     },
     {
+      "id": "4b47bba10d859e711b0fb9dd2f915c27d23719fce2d0ac881e215607f89d1d02",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.21.739876v2",
+        "https://doi.org/10.64898/2026.07.21.739876",
+        "https://www.biorxiv.org/content/early/2026/07/24/2026.07.21.739876.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.07.21.739876.source.xml"
+      ],
+      "title": "The Barcode Inference Pipeline (BIP): From Sequencer Output to DNA Barcodes",
+      "link": "https://doi.org/10.64898/2026.07.21.739876",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.21.739876v2.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "prosser",
+          "name": "Prosser, S. W"
+        },
+        {
+          "key": "thompson",
+          "name": "Thompson, K. A"
+        },
+        {
+          "key": "bard",
+          "name": "Bard, N. W"
+        },
+        {
+          "key": "floyd",
+          "name": "Floyd, R. A"
+        },
+        {
+          "key": "ozsahin",
+          "name": "Ozsahin, E"
+        },
+        {
+          "key": "hebert",
+          "name": "Hebert, P. D. N"
+        }
+      ],
+      "abstract_text": "DNA barcoding involves the recovery of a DNA sequence for a target gene region from its source specimen. This process becomes complex when multiple sequences are recovered from a specimen. This diversity can reflect methodological artifacts (e.g., chimeras, PCR errors, sequencing errors, tag jumps) and real template diversity in the DNA extract (e.g., contamination, endosymbionts, nuclear-mitochondrial pseudogenes (NUMTs), parasites). To support the analysis of sequence data from millions of specimens annually, the Centre for Biodiversity Genomics (CBG) has developed BIP, the Barcode Inference Pipeline. Compatible with all major sequencing platforms, BIP processes fastq files and returns both target DNA barcodes and non-target sequences (NTS). BIP implements filtration, demultiplexing, primer trimming, read denoising, chimera scanning, sequence error correction, operational taxonomic unit (OTU) delineation, OTU taxonomy assignment, and selection of the target barcode. When analysis examines the cytochrome c oxidase 1 (COI) barcode region, BIP assigns each OTU to a Barcode Index Number (BIN) when there is a match. BIP also returns summary files, including a taxonomic assignment for each OTU based on a DNA barcode reference library. We describe BIP's flexibility and structure before demonstrating its functionality by analyzing COI sequence data generated from both nanopore and Illumina platforms, as well as rbcLa and ITS2 data generated from plants, and 18S data generated from arthropods. Because it disambiguates target and non-target sequences, BIP outperforms an alternative pipeline package, ONTbarcoder. To ease access, installation, and functionality, BIP is provided as a Docker container and is also available in the Galaxy toolshed.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4b48df399686120b577be5731cf000f0e862ac13cb179d79648262c2b230dc4a",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02853-2",
