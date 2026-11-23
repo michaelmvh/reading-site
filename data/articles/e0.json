@@ -2233,6 +2233,53 @@
       "curated_categories": []
     },
     {
+      "id": "e05b31391d4866f23a7310d18767cb9e1436e5a06dc621b472c163c911ba2a1e",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.09.04.670545v2",
+        "https://doi.org/10.1101/2025.09.04.670545",
+        "https://www.biorxiv.org/content/early/2026/11/22/2025.09.04.670545.source.xml"
+      ],
+      "title": "Leveraging the largest harmonized epigenomic data collection for metadata prediction validated and augmented over 350,000 public epigenomic datasets",
+      "link": "https://doi.org/10.1101/2025.09.04.670545",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.04.670545v2.full.pdf",
+      "publication_date": "2026-11-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "raby",
+          "name": "Raby, J"
+        },
+        {
+          "key": "frosi",
+          "name": "Frosi, G"
+        },
+        {
+          "key": "white",
+          "name": "White, F"
+        },
+        {
+          "key": "laperle",
+          "name": "Laperle, J"
+        },
+        {
+          "key": "jacques",
+          "name": "Jacques, P.-E"
+        }
+      ],
+      "abstract_text": "Epigenomic data found in public databases often suffer from issues of non-standardization and incompleteness in their associated metadata. There are currently no automated approaches to validate or correct such missing or inaccurate metadata information. To tackle this challenge, we harnessed the extensive harmonized data and metadata provided by the EpiATLAS project of the International Human Epigenome Consortium (IHEC) to train EpiClass, a suite of machine learning classifiers that can predict key metadata (~98% accuracy), including experimental assay, donor sex, biospecimen source and sample cancer status. The development of these classifiers enabled the identification of a few mislabeled and low-quality datasets in the EpiATLAS project, while also completing with high-confidence most of the missing metadata. These classifiers were also validated on thousands of ENCODE datasets absent from the initial training, then applied to assess more than 350,000 human ChIP-seq and RNA-seq datasets from public repositories. Overall, this effort not only validated the accuracy of the vast majority of assays reported by the original authors, but also unveiled ~500 datasets with discrepancies, in particular through data swap during data entry. More importantly, EpiClass also supplied high-confidence predictions for over 320,000 metadata attributes of the biological sample such as the sex, cancer status and biomaterial type, which had been originally omitted in the majority of cases. Our work introduces the first systematic approach for metadata correction and augmentation, enhancing the quality and reliability of publicly available epigenomic data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e05b840404a8ff0de060368f20523bffb2db8daa3c0e44c04c57145aa21cd8c3",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66355-x",

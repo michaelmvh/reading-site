@@ -3609,6 +3609,57 @@
       "curated_categories": []
     },
     {
+      "id": "9488199b2763ab80802b7b5f0ac8fc24e6efc768b6116c3da16ddc60d845b68d",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768033v1",
+        "https://doi.org/10.64898/2026.11.20.768033",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768033.source.xml"
+      ],
+      "title": "A2Holo: Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for Conformational Transition Prediction",
+      "link": "https://doi.org/10.64898/2026.11.20.768033",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768033v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kim",
+          "name": "Kim, D"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, H"
+        },
+        {
+          "key": "sim",
+          "name": "Sim, J"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, M"
+        },
+        {
+          "key": "jang",
+          "name": "Jang, M"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, J"
+        }
+      ],
+      "abstract_text": "Modelling a ligand-bound holo conformation from a ligand-free apo conformation is essential in structure-based drug discovery. We present A2Holo, which casts apo-to-holo prediction as flow matching between two experimental structures rather than generation from noise. It transplants the dual-stream joint attention of in-context image generation to residue-aligned protein language model embeddings and structure. Without ligand conditioning or stochastic sampling, A2Holo's single deterministic trajectory reaches a median C RMSD of 0.809 [A] on the D3PM benchmark, the lowest among existing methods. Its TM-score exceeds even the best of 10 samples from every stochastic baseline on at least 144 of 150 pairs. Beyond performance, we directly measure the transplanted multimodal mechanism itself. Because sequence and structure are residue-aligned, its joint attention can be measured at residue resolution and tested for reproducibility across independently trained model variants. Within the structure stream, the attention a residue receives recovers moving residues better than the attention it emits, and this asymmetry is learned. A2Holo demonstrates a successful multimodal transplant from in-context image generation to protein conformational change, with strong deterministic apo-to-holo prediction. It also provides a quantitative account of how that mechanism organises residue-aligned sequence and structure around the residues that move.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "948afd5075c339474ebd898a3598177121aa98a89f44632f2b39aa2fc989090b",
       "identity_keys": [
         "https://doi.org/10.1093/bib/bbaf691",

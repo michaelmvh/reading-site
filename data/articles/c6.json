@@ -838,6 +838,88 @@
       "curated_categories": []
     },
     {
+      "id": "c61dfb46cc8f729461b39b301015af8f05a553dd47fac2737749930a1f6c442a",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2506.10947",
+        "https://openalex.org/W4417357116"
+      ],
+      "title": "Spurious Rewards: Rethinking Training Signals in RLVR",
+      "link": "https://doi.org/10.48550/arxiv.2506.10947",
+      "pdf_url": "https://arxiv.org/pdf/2506.10947",
+      "publication_date": "2026-09-29",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Machine Learning",
+      "authors": [
+        {
+          "key": "rulin shao",
+          "name": "Rulin Shao"
+        },
+        {
+          "key": "li shuyue stella",
+          "name": "Shuyue Stella Li"
+        },
+        {
+          "key": "rui xin",
+          "name": "Rui Xin"
+        },
+        {
+          "key": "geng scott",
+          "name": "Scott Geng"
+        },
+        {
+          "key": "wang yiping",
+          "name": "Yiping Wang"
+        },
+        {
+          "key": "oh sewoong",
+          "name": "Sewoong Oh"
+        },
+        {
+          "key": "du simon",
+          "name": "Simon S. Du"
+        },
+        {
+          "key": "lambert nathan",
+          "name": "Nathan Lambert"
+        },
+        {
+          "key": "min sewon",
+          "name": "Sewon Min"
+        },
+        {
+          "key": "krishna ranjay",
+          "name": "Ranjay Krishna"
+        },
+        {
+          "key": "tsvetkov yulia",
+          "name": "Yulia Tsvetkov"
+        },
+        {
+          "key": "hajishirzi hannaneh",
+          "name": "Hannaneh Hajishirzi"
+        },
+        {
+          "key": "koh pang wei",
+          "name": "Pang Wei Koh"
+        },
+        {
+          "key": "luke zettlemoyer",
+          "name": "Luke Zettlemoyer"
+        }
+      ],
+      "abstract_text": "We show that reinforcement learning with verifiable rewards (RLVR) can elicit strong mathematical reasoning in certain language models even with spurious rewards that have little, no, or even negative correlation with the correct answer. For example, RLVR training with GRPO improves MATH-500 performance for Qwen2.5-Math-7B by 21.4 percentage points using randomly assigned rewards, nearly matching the 29.1-point gain from ground-truth rewards. To explain this counterintuitive observation, we show that GRPO exhibits a clipping bias from the clip term, which can amplify high-prior behaviors learned during pretraining even without informative rewards. As a case study, we identify one such behavior in Qwen2.5-Math models, which we call code reasoning -- reasoning in code without actual code execution; code-reasoning frequency increases from 65 percent to over 90 percent with spurious rewards. However, the presence of such amplifiable behaviors is highly model-dependent. In practice, spurious rewards that are effective for Qwen models often fail to produce gains for other model families, such as Llama3 or OLMo2. Our results highlight the importance of validating RL methods across diverse models rather than relying on a single de facto choice: large gains can arise on Qwen models even from random rewards that do not reflect genuine capability improvements.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c6209bb674c793186c2c729ce05d7a55138a76bd9dce6fbf1e39fc9a84bca1d8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70369-4",
@@ -2754,6 +2836,109 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c67759c0ef05beade893662d1ea59674f8ddefa5cfff0fc2572a89e162be6532",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768224v1",
+        "https://doi.org/10.64898/2026.11.20.768224",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768224.source.xml"
+      ],
+      "title": "The IGVF Catalog Knowledge Graph",
+      "link": "https://doi.org/10.64898/2026.11.20.768224",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768224v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "dong",
+          "name": "Dong, S"
+        },
+        {
+          "key": "whaling",
+          "name": "Whaling, I"
+        },
+        {
+          "key": "jou",
+          "name": "Jou, J"
+        },
+        {
+          "key": "shen",
+          "name": "Shen, Z"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, K. Z"
+        },
+        {
+          "key": "jolanki",
+          "name": "Jolanki, O. A"
+        },
+        {
+          "key": "assis",
+          "name": "Assis, P"
+        },
+        {
+          "key": "gabdank",
+          "name": "Gabdank, I"
+        },
+        {
+          "key": "graham",
+          "name": "Graham, K"
+        },
+        {
+          "key": "kagda",
+          "name": "Kagda, M"
+        },
+        {
+          "key": "li",
+          "name": "Li, M"
+        },
+        {
+          "key": "tanaka",
+          "name": "Tanaka, F"
+        },
+        {
+          "key": "engreitz",
+          "name": "Engreitz, J. M"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, S"
+        },
+        {
+          "key": "li",
+          "name": "Li, D"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, T"
+        },
+        {
+          "key": "love",
+          "name": "Love, M. I"
+        },
+        {
+          "key": "steinmetz",
+          "name": "Steinmetz, L"
+        },
+        {
+          "key": "hitz",
+          "name": "Hitz, B"
+        }
+      ],
+      "abstract_text": "The Impact of Genomic Variation on Function (IGVF) consortium is systematically characterizing how genomic variation influences regulatory elements, gene expression, and human phenotypes through thousands of experimental mapping and perturbation datasets alongside predictive models. To synthesize these diverse results into quantitative relationships and situate them within established biological knowledge, we developed the IGVF Catalog, a large-scale knowledge graph. Implemented in ArangoDB using schema-validated JSON records. Version 1.3 encompasses nearly 3 billion nodes across 14 entity types (including variants, coding variants, genomic elements, genes, transcripts, proteins, pathways, and ontology graphs for biosamples and phenotypes) connected by more than 8.6 billion edges across 31 relationship types. Edges encode statistical significance, effect sizes, source provenance, and biological context via ontology-linked hyperedges. The Catalog integrates 657 IGVF datasets spanning non-coding reporter and CRISPR perturbation screens (MPRA, STARR-seq, Perturb-seq), coding variant assays (VAMP-seq, SGE, MAVE, DUAL-IPA), and predictive models (scE2G, SEMVAR, cV2F, TLAND, and BlueSTARR), unified with extensive public context including GENCODE annotations, FAVOR and dbSNP variants, TopLD linkage disequilibrium, GWAS, QTLs, and protein interactions. Users can interrogate the Catalog through a web portal (https://igvf.catalog.org) Python and R clients, an OpenAPI-documented API featuring 86 endpoints supporting identifier and genomic-region queries, and a Model Context Protocol (MCP) server enabling agent-assisted querying with large language models. We demonstrate the Catalog's utility for mechanistic interpretation across three case studies: resolving a FOXA1-dependent enhancer variant (rs11257655) regulating CAMK1D at a type 2 diabetes locus, distinguishing coding (GCKR rs1260326) and regulatory (HNF1A rs1169289) mechanisms for liver traits, and linking vascular CRISPRi-perturbed elements to CDKN2A/CDKN2B and NOS3 in coronary artery disease. Updated quarterly with open data and software, the IGVF Catalog provides a scalable resource for variant-to-function discovery.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

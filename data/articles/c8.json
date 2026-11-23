@@ -1639,6 +1639,49 @@
       "curated_categories": []
     },
     {
+      "id": "c84d16f7f1f173d37845d16f7808c0296fc5655e8aa6bbc07f174e35e25cea78",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768203v1",
+        "https://doi.org/10.64898/2026.11.20.768203",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768203.source.xml"
+      ],
+      "title": "Dependence-Aware Conformal Prediction for 3D Uncertainty Quantification in Molecular Docking",
+      "link": "https://doi.org/10.64898/2026.11.20.768203",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768203v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lyu",
+          "name": "Lyu, G"
+        },
+        {
+          "key": "hao",
+          "name": "Hao, H"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "cheng",
+          "name": "Cheng, L"
+        }
+      ],
+      "abstract_text": "Molecular docking plays a critical role in drug discovery by predicting three-dimensional (3D) binding poses of small molecules within proteins. However, docking predictions can contain substantial positional errors, making reliable uncertainty quantification essential. Conformal prediction (CP) provides a principled framework for uncertainty quantification, yet constructing compact 3D prediction regions with reliable joint coverage remains challenging due to heterogeneous atomic errors, dependence among spatial coordinates, and distribution shifts. We develop a dependence-aware CP framework for molecular docking that leverages a shared graph neural network (GNN) to estimate adaptive, asymmetric uncertainty intervals using local atomic and global molecular information. Copula-based joint calibration accounts for dependence among coordinate-wise nonconformity scores to construct compact 3D prediction boxes. We further introduce density ratio estimation (DRE) to adapt calibration under distribution shift. Experiments across three docking methods demonstrate that our approach reduces median prediction-box volumes by 37.40%, 95.00%, and 39.16% for AutoDock Vina, Protenix, and MedusaGraph, respectively, compared with a state-of-the-art CP baseline, while achieving empirical joint coverage close to the 90% target. Under the Molecular Group Split and controlled distribution shifts, DRE further reduces coverage deviations, highlighting the potential of dependence-aware and shift-adaptive calibration for reliable 3D molecular docking uncertainty quantification.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c851d00cf9262c34b4256e3b7445f1e1208ff9f5e41c3e23150ed1943a0ac407",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68383-7",

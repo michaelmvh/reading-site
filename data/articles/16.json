@@ -727,6 +727,41 @@
       "curated_categories": []
     },
     {
+      "id": "162084d01489d78447cb7d44e528c86b1f672e1a9aa22cbf8907128b35c3fdb6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.19.767866v1",
+        "https://doi.org/10.64898/2026.11.19.767866",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.19.767866.source.xml"
+      ],
+      "title": "SpliceVarMech: A causal generative framework for mechanistic interpretation of non-canonical splicing variants",
+      "link": "https://doi.org/10.64898/2026.11.19.767866",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767866v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zein",
+          "name": "Zein, M"
+        },
+        {
+          "key": "hassanien",
+          "name": "Hassanien, A. E"
+        }
+      ],
+      "abstract_text": "Non-canonical splicing variants occur beyond the conserved dinucleotides flanking splice junctions and are difficult to interpret because disruption scores alone do not explain splice outcomes or quantify uncertainty. We have developed SpliceVarMech, a causal generative framework in which a dual-stream encoder compares the wild-type and mutant sequences and conditional discrete sequence diffusion generates candidate splice outcomes. We then apply Bayesian causal inference to estimate posterior disruption probabilities with 95% credible intervals. The framework reports the predicted splice mechanism together with sequence attribution maps and an exploratory mapping to clinical evidence labels. On a gold-standard cohort of experimentally validated variants from male infertility genes, Bayesian leave-one-out cross-validation on 31 variants yielded an area under the receiver operating characteristic curve of 1.000. We benchmarked 16 individual splice prediction tools on the same cohort, where the highest-performing tool, SpliceAI, achieved 0.619 on its 30 scored variants. Ablation experiments showed that removing individual components reduced discrimination, and a separate evaluation on 54 variants supported the contribution of fine-tuning. In a cross-domain assessment, fine-tuning on BRCA1 saturation genome editing data increased discrimination from 0.722 to 0.840 on 203 held-out variants without architectural modification. We assessed in-sample calibration, and held-out validation remains necessary. These results support further evaluation of paired-sequence generative modeling and Bayesian inference for mechanistic interpretation of splicing variants across disease contexts.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1625d05efa5366490bbe6b3799328f90bc861bf205ad6e01d6897f697dc0815f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70967-2",

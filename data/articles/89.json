@@ -3536,6 +3536,57 @@
       "curated_categories": []
     },
     {
+      "id": "8987793254cc95d7663e6f2c5b487ce7eba2c721d1d428384c4f87342c5bff60",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768048v1",
+        "https://doi.org/10.64898/2026.11.20.768048",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768048.source.xml"
+      ],
+      "title": "siGMA: Modeling Label Noise and Heterogeneity in siRNA Efficacy Prediction",
+      "link": "https://doi.org/10.64898/2026.11.20.768048",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768048v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "karmakar",
+          "name": "KARMAKAR, A"
+        },
+        {
+          "key": "merii",
+          "name": "Merii, A"
+        },
+        {
+          "key": "weir",
+          "name": "Weir, A"
+        },
+        {
+          "key": "kudla",
+          "name": "Kudla, G"
+        },
+        {
+          "key": "basham",
+          "name": "Basham, M"
+        },
+        {
+          "key": "lubbock",
+          "name": "Lubbock, A"
+        }
+      ],
+      "abstract_text": "Small interfering RNAs (siRNAs) have emerged as a powerful class of therapeutics, yet identifying viable candidates remains costly and labour-intensive given the vast combination space that must be screened. This challenge is compounded by the need for chemical modifications, which are essential to mitigate off-target effects and enhance serum stability but frequently come at the expense of baseline knockdown efficacy. As a result, siRNA design requires careful, iterative optimization, further expanding the experimental burden and rendering exhaustive screening impractical. Computational prediction offers a compelling alternative, enabling rapid, low-cost identification of promising candidates prior to wet-lab validation. In this work we present siGMA, a heteroscedastic multimodal predictive model that integrates sequence, chemical, structural, and experimental information to predict the silencing efficacy of chemically modified siRNAs. Modelling in this domain is constrained by two principal obstacles: the scarcity of experimental data and the substantial noise arising from protocol heterogeneity across publicly available datasets. We therefore propose a model that quantifies predictive uncertainty rather than issuing confident mispredictions. We calibrated the model against such noise using a combined aleatoric and epistemic uncertainty prediction. The resulting model yielded well-calibrated estimates of predictive variability on held-out folds across datasets and outperformed current state-of-the-art approaches across noisy cross-dataset conditions, including previously unseen chemical modifications and target sequences. This demonstrates our model's ability to rank better than the baselines while rendering the noise ceiling measurable. This provides a scalable framework that could accelerate the therapeutic siRNA development pipeline while reducing the need for exhaustive empirical screening.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8989724dd2b1d6c23d923c0d12206aac4422f2a49daf1d71f7a6029ec3d13374",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68619-6",

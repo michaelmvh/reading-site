@@ -1098,6 +1098,46 @@
       "curated_categories": []
     },
     {
+      "id": "f91fb9c8d5ac5e3462b53db40a69bd45cb58ce25a517b4cfdcd89c0d654f0f2e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.04.764261v2",
+        "https://doi.org/10.64898/2026.11.04.764261",
+        "https://www.biorxiv.org/content/early/2026/11/05/2026.11.04.764261.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.04.764261.source.xml"
+      ],
+      "title": "Earl Grey ParTEA: scalable, consistent transposable element annotation from pangenomes to deep phylogenetic scopes",
+      "link": "https://doi.org/10.64898/2026.11.04.764261",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764261v2.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "baril",
+          "name": "Baril, T. J"
+        },
+        {
+          "key": "feurtey",
+          "name": "Feurtey, A"
+        },
+        {
+          "key": "croll",
+          "name": "Croll, D"
+        }
+      ],
+      "abstract_text": "Transposable elements (TEs) are major drivers of genomic diversity, yet understanding their mobility and functional impact requires their accurate description in genomes. TE annotation is still typically performed genome-by-genome. TEs are often shared between some members of the same or closely related species. Hence, TE annotation with a library from a single reference misses families absent from that assembly, whereas building independent per-genome libraries fails to consistently surface shared TEs, hindering comparison. Here, we present Earl Grey ParTEA, a fully automated Snakemake pipeline extending the functionality of Earl Grey for comparative TE annotation across genome panels. ParTEA builds a single non-redundant TE library from all input genomes, resolves chimeric consensus sequences, and uses this shared library to annotate every genome, enabling direct comparison of TE family diversity, abundance, shared and private content, and activity landscapes. Optional modules provide TE library saturation analysis, BUSCO-based assembly quality control, and phylogenetic ordering of outputs. We applied ParTEA to sets of genomes spanning evolutionary scales: ten Arabidopsis thaliana accessions, ten Drosophila species, and ten species spanning the fungal kingdom. The Drosophila TE library expanded from 343 to 1,852 curated families including a previously missed rolling circle element with over 6,000 copies in D. miranda. The proportion of TE families shared across all genomes was highest within A. thaliana (97.3%), 37.7% across Drosophila species and only 0.5% across the set of fungi. ParTEA is available through Bioconda and represents a computationally efficient reproducible framework for comparative TE analysis in the era of large-scale genome analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f91fce847863b808e876b507c5115d227a494259c6b39763f6f58d9cb153873e",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02054-x",

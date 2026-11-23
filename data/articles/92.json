@@ -5361,6 +5361,56 @@
       "curated_categories": []
     },
     {
+      "id": "92f8eae1c1343e792486bd8564493bcee15efebeaf0a4c4189d1b028275377f9",
+      "identity_keys": [
+        "arxiv:2611.27162",
+        "https://doi.org/10.48550/arXiv.2611.27162"
+      ],
+      "title": "Hierarchical Hybrid-Coordinate Flow Matching for Accurate and Physically Plausible Apo-to-Holo Protein Generation",
+      "link": "https://doi.org/10.48550/arXiv.2611.27162",
+      "pdf_url": "https://arxiv.org/pdf/2611.27162",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "kim minjong",
+          "name": "Minjong Kim"
+        },
+        {
+          "key": "jaemin sim",
+          "name": "Jaemin Sim"
+        },
+        {
+          "key": "dongwoo kim",
+          "name": "Dongwoo Kim"
+        },
+        {
+          "key": "jang myunghyun",
+          "name": "Myunghyun Jang"
+        },
+        {
+          "key": "eun kim sol",
+          "name": "Eun-Sol Kim"
+        },
+        {
+          "key": "juyong lee",
+          "name": "Juyong Lee"
+        }
+      ],
+      "abstract_text": "Predicting holo-like protein conformations from apo structures is essential in structure-based drug design. Most existing apo-to-holo models operate in Cartesian space and achieve strong global accuracy. However, high global accuracy does not ensure physically valid local backbone geometry. Internal-coordinate models offer local control and validity, but regressive generation can amplify angular errors, known as the lever-arm effect. We introduce CrypticFlow, a hierarchical flow-matching model that combines these two complementary representations. An ESM-3-conditioned E(3)-equivariant graph network first generates sparse C$\\alpha$ anchors in Cartesian space. A conditional midpoint Transformer then recursively fills the gaps in local internal coordinates. During recursive generation, the decoder constrains the distance between each midpoint and any sequence-adjacent parent anchor to the corresponding apo C$\\alpha$-C$\\alpha$ distance. On the D3PM test split, CrypticFlow achieves the lowest median and mean C$\\alpha$ RMSD at published baseline capacities. Across five independent training models, the median and mean direct RMSD are 1.333 $\\pm$ 0.056 angstroms and 2.766 $\\pm$ 0.041 angstroms, respectively. The quality of local geometry also improves substantially. Our model achieves 99.58 $\\pm$ 0.02% adjacent-distance fidelity and 95.87 $\\pm$ 0.25% pseudo-angle fidelity, measured within 0.2 angstroms and 20{\\deg} of the holo reference. Then, we reconstruct the predicted C$\\alpha$-only traces into all-atom structures using the cg2all coarse-to-all-atom backmapping method and evaluate their physical and geometric quality with MolProbity. Our model achieves a MolProbity score of 3.034 $\\pm$ 0.054, outperforming the evaluated baselines. These results show that a hierarchical flow-matching model with hybrid coordinates can recover global accuracy while retaining local fidelity.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "92fb06d22466a0c20b06bb84ed8e6ab3579352ef6c04f0992aa7bbbfcc9e200a",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10995-6",

@@ -5578,6 +5578,64 @@
       "curated_categories": []
     },
     {
+      "id": "68f8b0a277c527ec9c2b2495117c2c89eb0937bb1ebaa24096885577dfd3397e",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2412.06154",
+        "https://openalex.org/W4405253924"
+      ],
+      "title": "Modeling Multi-Objective Tradeoffs with Monotonic Utility Functions",
+      "link": "https://doi.org/10.48550/arxiv.2412.06154",
+      "pdf_url": "https://arxiv.org/pdf/2412.06154",
+      "publication_date": "2026-08-30",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Artificial Intelligence and Statistics",
+      "authors": [
+        {
+          "key": "chen edward",
+          "name": "Chen, Edward"
+        },
+        {
+          "key": "dullerud natalie",
+          "name": "Natalie Dullerud"
+        },
+        {
+          "key": "niedermayr thomas",
+          "name": "Thomas R Niedermayr"
+        },
+        {
+          "key": "elizabeth kidd",
+          "name": "Elizabeth A. Kidd"
+        },
+        {
+          "key": "ransalu senanayake",
+          "name": "Ransalu Senanayake"
+        },
+        {
+          "key": "koh pang wei",
+          "name": "Pang Wei Koh"
+        },
+        {
+          "key": "koyejo sanmi",
+          "name": "Sanmi Koyejo"
+        },
+        {
+          "key": "carlos guestrin",
+          "name": "Carlos Guestrin"
+        }
+      ],
+      "abstract_text": "Countless science and engineering applications in multi-objective optimization (MOO) necessitate that decision-makers (DMs) select a Pareto-optimal (PO) solution which aligns with their preferences. Evaluating individual solutions is often expensive, and the high-dimensional trade-off space makes exhaustive exploration of the full Pareto frontier (PF) infeasible. We introduce a novel, principled two-step process for obtaining a compact set of PO points that aligns with user preferences, which are specified a priori as general monotonic utility functions (MFs). Our process (1) densely samples the user's region of interest on the PF, then (2) sparsifies the results into a small, diverse set for the DM. We instantiate this framework with soft-hard functions (SHFs), an intuitive class of MFs that operationalizes the common expert heuristic of imposing soft and hard bounds. We provide extensive empirical validation of our framework instantiated with SHFs on diverse domains, including brachytherapy, engineering design, and large language models. For brachytherapy, our approach returns a compact set of points with over 3% greater SHF-defined utility than the next best approach. Among the other domains, our approach consistently leads in utility, as a final compact set of just 5 points captures over 99% of the utility offered by the entire dense set.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "68f9973180307382e40daab8bde77b6dadc6d61633cc68ff8564938528ab33ea",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00512-0",

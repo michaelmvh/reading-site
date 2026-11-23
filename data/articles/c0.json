@@ -94,10 +94,10 @@
       "title": "Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design",
       "link": "https://doi.org/10.48550/arxiv.2402.04997",
       "pdf_url": "https://arxiv.org/pdf/2402.04997",
-      "publication_date": "2024-02-07",
+      "publication_date": "2024-07-08",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "International Conference on Machine Learning",
       "authors": [
         {
           "key": "andrew campbell",
@@ -3254,11 +3254,12 @@
     {
       "id": "c09c6546c0af79879181956ed29502a23b624e772ada61b4ef7ba0fdc8b88a33",
       "identity_keys": [
+        "https://edepot.wur.nl/718724",
         "https://openalex.org/W7166405774",
         "https://research.wur.nl/en/publications/bi-functionalized-peptide-oligonucleotide-conjugate-and-process-f"
       ],
       "title": "Bi-functionalized peptide-oligonucleotide conjugate and process for the preparation thereof",
-      "link": "https://research.wur.nl/en/publications/bi-functionalized-peptide-oligonucleotide-conjugate-and-process-f",
+      "link": "https://edepot.wur.nl/718724",
       "pdf_url": null,
       "publication_date": "2026-01-01",
       "publication_date_precision": "unknown",
@@ -4351,6 +4352,152 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "c0d3d410a543594d4b19cf0177f41b5b29a8b124cd05aa39fba2a3e025c6fbb5",
+      "identity_keys": [
+        "arxiv:2611.27924",
+        "https://doi.org/10.48550/arXiv.2611.27924"
+      ],
+      "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
+      "link": "https://doi.org/10.48550/arXiv.2611.27924",
+      "pdf_url": "https://arxiv.org/pdf/2611.27924",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "gastegger michael",
+          "name": "Michael Gastegger"
+        },
+        {
+          "key": "adam foster",
+          "name": "Adam E. Foster"
+        },
+        {
+          "key": "enez jim jos luna",
+          "name": "Jos\\'e Jim\\'enez-Luna"
+        },
+        {
+          "key": "hempel tim",
+          "name": "Tim Hempel"
+        },
+        {
+          "key": "lewis sarah",
+          "name": "Sarah Lewis"
+        },
+        {
+          "key": "xie yu",
+          "name": "Yu Xie"
+        },
+        {
+          "key": "lixin sun",
+          "name": "Lixin Sun"
+        },
+        {
+          "key": "iryna zaporozhets",
+          "name": "Iryna Zaporozhets"
+        },
+        {
+          "key": "frank thorben",
+          "name": "J. Thorben Frank"
+        },
+        {
+          "key": "chen yaoyi",
+          "name": "Yaoyi Chen"
+        },
+        {
+          "key": "michael plainer",
+          "name": "Michael Plainer"
+        },
+        {
+          "key": "ludwig winkler",
+          "name": "Ludwig Winkler"
+        },
+        {
+          "key": "pedro reis",
+          "name": "Pedro B. P. S. Reis"
+        },
+        {
+          "key": "giese sven",
+          "name": "Sven H. Giese"
+        },
+        {
+          "key": "roberto sordillo",
+          "name": "Roberto Sordillo"
+        },
+        {
+          "key": "garc ia satorras victor",
+          "name": "Victor Garc\\'ia Satorras"
+        },
+        {
+          "key": "eray inanc",
+          "name": "Eray Inanc"
+        },
+        {
+          "key": "kacper kapu sniak",
+          "name": "Kacper Kapu\\'sniak"
+        },
+        {
+          "key": "soojung yang",
+          "name": "Soojung Yang"
+        },
+        {
+          "key": "raghu rishwanth",
+          "name": "Rishwanth Raghu"
+        },
+        {
+          "key": "kim rachel",
+          "name": "Rachel Kim"
+        },
+        {
+          "key": "dernbach gabriel",
+          "name": "Gabriel Dernbach"
+        },
+        {
+          "key": "deniz gunceler",
+          "name": "Deniz Gunceler"
+        },
+        {
+          "key": "hannes schulz",
+          "name": "Hannes Schulz"
+        },
+        {
+          "key": "bonnie kruft",
+          "name": "Bonnie Kruft"
+        },
+        {
+          "key": "marwin segler",
+          "name": "Marwin Segler"
+        },
+        {
+          "key": "bishop christopher",
+          "name": "Christopher M. Bishop"
+        },
+        {
+          "key": "cecilia clementi",
+          "name": "Cecilia Clementi"
+        },
+        {
+          "key": "ryota tomioka",
+          "name": "Ryota Tomioka"
+        },
+        {
+          "key": "frank no",
+          "name": "Frank No\\'e"
+        }
+      ],
+      "abstract_text": "Despite major advances in structure prediction, modelling the motions and interactions that drive biomolecular function at scale remains a central challenge. We introduce BioEmu2, a generative model for atomically resolved biomolecular structures combining static structure prediction, equilibrium sampling and time evolution, that samples orders of magnitude faster than molecular dynamics (MD). Trained on experimental and synthetic structures and extensive MD data, it supports multi-component systems containing proteins, nucleic acids, modified residues, ligands and ions. Structure-prediction accuracy is comparable to top open-weight biomolecular folding models, and a context parallel mode enables prediction of megadalton complexes. Equilibrium distributions approximate MD references with free-energy errors near 1 kcal/mol across tested proteins and complexes. Time propagation predicts long-timescale dynamical trajectories and kinetics of binding and conformational changes. Generated structures can be controlled by conditioning on residue contacts or steering with user-defined bias potentials. Enhanced sampling enables free energy calculation involving rare states. BioEmu2 makes the study of biomolecular ensembles and dynamics scalable.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

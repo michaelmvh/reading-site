@@ -4845,6 +4845,49 @@
       "curated_categories": []
     },
     {
+      "id": "9ababdd70532f02a73fd32c78226cd245b5e925644c9e8ac04dad38f9008f201",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768148v1",
+        "https://doi.org/10.64898/2026.11.20.768148",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768148.source.xml"
+      ],
+      "title": "NanoHIV-DR: a Nextflow workflow for consensus and read level HIV-1 drug resistance profiling from Oxford Nanopore sequencing",
+      "link": "https://doi.org/10.64898/2026.11.20.768148",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768148v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "lule",
+          "name": "Lule, D"
+        },
+        {
+          "key": "ssemwanga",
+          "name": "Ssemwanga, D"
+        },
+        {
+          "key": "kaleebu",
+          "name": "Kaleebu, P"
+        },
+        {
+          "key": "tully",
+          "name": "Tully, D. C"
+        }
+      ],
+      "abstract_text": "Oxford Nanopore sequencing offers a rapid and portable approach for HIV-1 drug resistance (HIVDR) genotyping, but analysis of the resulting long-read data requires multiple bioinformatics steps and currently available nanopore workflows are limited. We developed NanoHIV-DR, a Nextflow-based workflow that streamlines the analysis of Oxford Nanopore sequencing data and generation of HIVDR reports. NanoHIV-DR processes raw POD5 files through basecalling, demultiplexing, host-read removal, quality filtering, read alignment and consensus generation, before identifying resistance-associated mutations and interpreting predicted drug susceptibility. The workflow provides two complementary approaches to HIVDR analysis: consensus-based resistance interpretation using Sierra and read-level detection of resistance-associated variants, enabling mutations below the consensus level to be identified and quantified. Outputs are integrated with clinical metadata to generate human-readable HIVDR reports. NanoHIV-DR provides a reproducible and accessible workflow for Nanopore-based HIVDR analysis with reduced bioinformatics expertise and manual processing for translating long-read sequencing data into interpretable resistance profiles.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9abd6820a5594c3bcfd96dedde416f16de2db616579d1bf19514f0d7653e7bf4",
       "identity_keys": [
         "https://doi.org/10.1073/pnas.2313809121",
