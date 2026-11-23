@@ -3378,6 +3378,57 @@
       "curated_categories": []
     },
     {
+      "id": "6d88e0074ee57c74af0f4a20c433bc5387d5a771c17f1d0aa4dfed9f431fc83a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.20.768087v1",
+        "https://doi.org/10.64898/2026.11.20.768087",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.20.768087.source.xml"
+      ],
+      "title": "Transpiling reproducibility: Multi-language implementation for the St. Nicolas House Analysis algorithm using Fusion",
+      "link": "https://doi.org/10.64898/2026.11.20.768087",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768087v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "olvera",
+          "name": "Olvera, C"
+        },
+        {
+          "key": "hernandez",
+          "name": "Hernandez, A. D. P"
+        },
+        {
+          "key": "navarro zarazua",
+          "name": "Zarazua Navarro, R"
+        },
+        {
+          "key": "kumar",
+          "name": "Kumar, H. P"
+        },
+        {
+          "key": "fusik",
+          "name": "Fusik, P"
+        },
+        {
+          "key": "groth",
+          "name": "Groth, D"
+        }
+      ],
+      "abstract_text": "The integration of tools written in different programming languages is common in bioinformatics pipelines. When extending these tools, developers are required to either manually port the code or use wrapper libraries, which incurs a substantial \"translation tax\" on developer time. Transpilers have emerged as a potential solution, enabling the generation of algorithm implementations in multiple languages from a single source code base. However, it remains essential to establish whether transpiled code preserves both functional correctness and stochastic reproducibility across language ecosystems. In this case study, we investigated whether the Fusion language and its fut transpiler could produce functionally identical, stochastically reproducible, and high-performing code for the St. Nicolas House Analysis (SNHA) algorithm across multiple target languages. The SNHA algorithm was implemented once in Fusion and transpiled to nine target programming languages. The generated code was evaluated against reference R, Python, and Julia implementations using the clinical birthwt dataset and a 26-variable synthetic benchmark dataset evaluated over 1,000 bootstrap iterations. All nine transpiled outputs produced identical network structures to the original R implementation. With the deterministic Xorshift*64 pseudo-random number generator integrated into the algorithm, all languages generated identical bootstrapped datasets and adjacency matrices. Runtimes and memory usage spanned more than two orders of magnitude: the transpiled Python implementation achieved an 8.5-fold speedup and an 8.8-fold reduction in peak memory relative to reference Python, while compiled targets (C, C++) achieved speedups exceeding 160-fold and memory reductions up to 36-fold. These findings demonstrate that modern transpilers can eliminate cross-ecosystem translation tax while guaranteeing cross-language reproducibility in computational biology.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6d89df837594c026836a9b22efd937ff9b56005b9b4959b637b0274b112db487",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69455-4",

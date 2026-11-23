@@ -4307,6 +4307,61 @@
       "curated_categories": []
     },
     {
+      "id": "1aa936c53378179bf3e29c7792c7dd9d767cff1097e32a07650018d2f8ecefcb",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.21.768293v1",
+        "https://doi.org/10.64898/2026.11.21.768293",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.11.21.768293.source.xml"
+      ],
+      "title": "Zero-shot virtual knock-out rankings do not recover causal genes from observational single-cell data",
+      "link": "https://doi.org/10.64898/2026.11.21.768293",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.21.768293v1.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "cui",
+          "name": "Cui, J"
+        },
+        {
+          "key": "li",
+          "name": "Li, M"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, R"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, H"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, S"
+        },
+        {
+          "key": "li",
+          "name": "Li, L"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, R"
+        }
+      ],
+      "abstract_text": "Background: Virtual knock-out methods rank genes by the change predicted after deleting one gene in silico and nominate targets without perturbation data. That use assumes the ranking reflects the causal consequence of removal; we tested it for three zero-shot methods in four configurations under one criterion. Results: We compared scTenifoldKnk (R and Python), CellOracle and Geneformer on 438 real, 3,585 synthetic and 330 DepMap knock-outs. Top-20 lists of different knock-outs overlapped by a median of 12 to 14 of 20, against 0.08 by chance. Displacement followed out-degree (R^2 = 0.825; 0.852 with six further features). Decoupling causal effect from topology left criterion value and grade unchanged (36 of 36 RED). For scTenifoldKnk, the ranking showed no evidence of recovery above chance where causal genes were planted (AUROC 0.538 and 0.528 in the two constructions). CellOracle's displacement showed no detectable relation to the data-built network (rho = -0.212, P = 0.556). Geneformer's shift tracked token coverage inconsistently (+0.41, +0.40, -0.27). Against DepMap essentiality, scTenifoldKnk's Python implementation (scTenifoldpy 0.5.1) reached AUROC 0.459 (95% CI 0.357-0.566), not distinguishable from chance; detection rate reached 0.588 (95% CI 0.497-0.677). Conclusions: For scTenifoldKnk and CellOracle, the ranking reports network properties, not the causal consequence of removal. No measured structural feature accounted for more than a small fraction of Geneformer's shift. Detection rate, needing no network, gained +0.129 (95% CI 0.0017-0.2543; 97.6% of resamples positive) over the tool.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1aaeb99051253774e7b2513eeb68d4ea2e79194afcbee7b540cbba05988d5e10",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72792-z",
