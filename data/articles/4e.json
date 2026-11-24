@@ -72,6 +72,78 @@
       "curated_categories": []
     },
     {
+      "id": "4e053934ca43aa692f163cfe87d4523b687162250725357e6f3e5e3b157504de",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.04.24.720489v2",
+        "https://doi.org/10.64898/2026.04.24.720489",
+        "https://www.biorxiv.org/content/early/2026/04/28/2026.04.24.720489.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.04.24.720489.source.xml"
+      ],
+      "title": "A transcriptomic-driven segmentation and cell simulation framework for high-resolution spatial transcriptomics and cell-cell communication",
+      "link": "https://doi.org/10.64898/2026.04.24.720489",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720489v2.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wanchai",
+          "name": "Wanchai, V"
+        },
+        {
+          "key": "bustamante gomez",
+          "name": "Bustamante-Gomez, N. C"
+        },
+        {
+          "key": "kurilung",
+          "name": "Kurilung, A"
+        },
+        {
+          "key": "beenken",
+          "name": "Beenken, K. E"
+        },
+        {
+          "key": "cortes",
+          "name": "Cortes, S"
+        },
+        {
+          "key": "smeltzer",
+          "name": "Smeltzer, M. S"
+        },
+        {
+          "key": "leung",
+          "name": "Leung, Y.-K"
+        },
+        {
+          "key": "xiong",
+          "name": "Xiong, J"
+        },
+        {
+          "key": "almeida",
+          "name": "Almeida, M"
+        },
+        {
+          "key": "brien",
+          "name": "O'Brien, C. A"
+        },
+        {
+          "key": "nookaew",
+          "name": "Nookaew, I"
+        }
+      ],
+      "abstract_text": "High-resolution spatial transcriptomics platforms, such as Visium HD and Atera, enable transcriptome-wide profiling at near-single-cell resolution. However, accurate cell segmentation to define spatial boundaries relies heavily on histological images. Previous approaches struggle in tissues with high cell density, inflammation, or mineralization, leading to transcriptomic bleed-through and inaccurate clustering. To address this, we developed TENGU (Transcript-signal Enrichment and Grouping Unit), a comprehensive end-to-end bioinformatic software package. Unlike existing tools, TENGU employs a transcript-first segmentation approach, prioritizing transcript-signal density as the primary modality and utilizing histological images only as a secondary supplement in unresolved regions. These initial boundaries are further optimized through a transcriptomic-driven cell simulation algorithm that iteratively refines boundaries based on localized gene expression probabilities, effectively minimizing spatial scattering and preserving biologically distinct molecular signatures. The pipeline seamlessly integrates tissue segmentation, high-resolution cell-type annotation, and spatially aware cell-cell communication (CCC) analysis. We rigorously benchmarked TENGU against the 10x Genomics and Bin2cell pipelines for segmentation, and against CellNEST for spatial CCC inference, across diverse and technically challenging microenvironments. TENGU demonstrated superior transcriptomic distinctness in the murine brain and successfully captured matrix-embedded osteocytes in decalcified bone. In murine osteomyelitis, TENGU outperformed CellNEST in sensitivity, localizing both reactive bone remodeling (Tgfb) and dense, abscess-encapsulating inflammatory (Il1a/Il1) networks. TENGU also resolved species-specific pro-tumorigenic hubs (MDK-SDC4) in a human colorectal cancer xenograft and generalized effectively to the Atera platform, delineating CXCL12-CXCR4 and LGALS3-TGFBR2 signaling within highly compacted human breast cancer tissue. By mitigating image-dependent constraints, TENGU provides a highly adaptable, robust computational framework to decode the functional micro-anatomy of healthy and pathological tissues.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4e0543610949a599331fc56b8e2ebd32a8e8ea9aca6fbde95cdf53b9643ce3df",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69423-y",
@@ -4378,7 +4450,7 @@
       "publication_date": "2026-08-12",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "aleksandra kalisz",

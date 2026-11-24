@@ -1972,6 +1972,42 @@
       "curated_categories": []
     },
     {
+      "id": "3949935da69be945f8b65b75126e7eeec61003eec7eb2c1d856da223ea4bb4a5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.24.740642v2",
+        "https://doi.org/10.64898/2026.07.24.740642",
+        "https://www.biorxiv.org/content/early/2026/07/26/2026.07.24.740642.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.07.24.740642.source.xml"
+      ],
+      "title": "PhyloRBT: A Phylogenetic Approach to Detect Reference Bias in Phylogenomic Datasets",
+      "link": "https://doi.org/10.64898/2026.07.24.740642",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740642v2.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ivan",
+          "name": "Ivan, J"
+        },
+        {
+          "key": "lanfear",
+          "name": "Lanfear, R"
+        }
+      ],
+      "abstract_text": "Recent technological advancements have enabled the rapid generation of high-quality genomes across the tree of life, often resulting in multiple reference genomes for clades of phylogenetic interest. These reference genomes are often used to reconstruct phylogenetically informative loci from short-read data of newly-sequenced species. However, this approach can introduce reference bias where the reconstructed loci have erroneous similarities to those of the reference genome. Since reference bias can seriously affect downstream analyses, it is important to assess its presence in phylogenomic datasets. In this study, we propose PhyloRBT (phylogenetic reference bias test) to detect reference bias by reconstructing each locus multiple times using different reference genomes and then measuring the phylogenetic correlation between these reconstructions and the corresponding locus from the reference genomes. We applied PhyloRBT to hundreds of BUSCO loci reconstructed from short-read data of nine Eucalyptus species using 34 different reference genomes. Across the nine species, we found that more than a quarter of the reconstructed loci had significant evidence of reference bias. Compared with the usual approach of mapping to a single closely-related reference genome and using all reconstructed loci, excluding the putatively biased loci also produced a species tree topology that is more consistent with the published tree. In conclusion, PhyloRBT offers a straightforward way to detect reference bias in individual loci, and to selectively remove those biased loci from downstream analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "394eaf7c9df339712e80e46dad89647574d807990450afaf7e62068cd4dfe3f7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75425-7",
@@ -2939,7 +2975,7 @@
       "publication_date": "2026-01-19",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "liang po yu",

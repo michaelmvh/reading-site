@@ -2542,6 +2542,52 @@
       "curated_categories": []
     },
     {
+      "id": "a175e502db10a6065aae07549e53252c96b0a94695143657264a3a372d8c11a7",
+      "identity_keys": [
+        "arxiv:2606.18703",
+        "https://doi.org/10.48550/arXiv.2606.18703"
+      ],
+      "title": "Contextualizing Biological Language Models across Modalities via Logit-Space Contrastive Alignment",
+      "link": "https://doi.org/10.48550/arXiv.2606.18703",
+      "pdf_url": "https://arxiv.org/pdf/2606.18703",
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "shao yanjun",
+          "name": "Yanjun Shao"
+        },
+        {
+          "key": "chen yundi",
+          "name": "Yundi Chen"
+        },
+        {
+          "key": "patel yashvi",
+          "name": "Yashvi Patel"
+        },
+        {
+          "key": "aurelien pelissier",
+          "name": "Aurelien Pelissier"
+        },
+        {
+          "key": "ia iguez inez mar mart rodr",
+          "name": "Mar\\'ia Rodr\\'iguez Mart\\'inez"
+        }
+      ],
+      "abstract_text": "Pretrained biological language models encode rich probabilistic structure through native token distributions, but multimodal adaptation typically aligns hidden representations or replaces the native likelihood interface with task-specific heads. We introduce LOGICA (Logit-space Contrastive Alignment), whose central methodological change is to align the context-conditioned native token distributions themselves rather than pooled latent representations. Using native-head-preserving cross-modal adapters, LOGICA couples models with distinct vocabularies and tokenization schemes without requiring a shared tokenizer, decoder, or embedding space. Contrastive learning operates directly through each model's original token-likelihood interface, enabling mutation-local ranking, cross-modal dependency mapping, and context-guided sequence design without task-specific heads. Across protein-ligand, TCR-peptide, and drug-resistance tasks, LOGICA outperforms matched latent-contrastive and conditional-MLM baselines, particularly in low-homology, mutation-local, and data-scarce regimes. These results support native-logit alignment as a general strategy for making pretrained biological token distributions context-sensitive without sacrificing their probabilistic semantics.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a178ba4779f8e5642ec8b1f798790ad5664704671480e13286d349da5c467746",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73886-4",

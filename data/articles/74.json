@@ -297,7 +297,7 @@
       "publication_date": "2026-04-13",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "blayney hugh",
@@ -4091,6 +4091,44 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "748c7c370eaeb804a77de51451a1ba3e0223d2cd5fb2fe32ab1b706f976cefa2",
+      "identity_keys": [
+        "arxiv:2511.07406",
+        "https://doi.org/10.48550/arXiv.2511.07406"
+      ],
+      "title": "Entangled Schr\\\"odinger Bridge Matching",
+      "link": "https://doi.org/10.48550/arXiv.2511.07406",
+      "pdf_url": "https://arxiv.org/pdf/2511.07406",
+      "publication_date": "2025-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "sophia tang",
+          "name": "Sophia Tang"
+        },
+        {
+          "key": "yinuo zhang",
+          "name": "Yinuo Zhang"
+        },
+        {
+          "key": "chatterjee pranam",
+          "name": "Pranam Chatterjee"
+        }
+      ],
+      "abstract_text": "Simulating trajectories of multi-particle systems on complex energy landscapes is a central task in molecular dynamics (MD) and drug discovery, but remains challenging at scale due to computationally expensive and long simulations. Previous approaches leverage techniques such as flow or Schr\\\"odinger bridge matching to implicitly learn joint trajectories from data snapshots. However, many systems, including biomolecular systems and heterogeneous cell populations, undergo dynamic interactions that evolve over their trajectory and cannot be captured through static snapshots. To close this gap, we introduce Entangled Schr\\\"odinger Bridge Matching (EntangledSBM), a framework that learns the first- and second-order stochastic dynamics of interacting, multi-particle systems where the direction and magnitude of each particle's path depend dynamically on the paths of the other particles. We define the Entangled Schr\\\"odinger Bridge (EntangledSB) problem as solving a coupled system of bias forces that entangle particle velocities. We show that our framework accurately simulates heterogeneous cell populations under perturbations and rare transitions in high-dimensional biomolecular systems.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []

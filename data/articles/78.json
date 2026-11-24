@@ -3027,6 +3027,44 @@
       "curated_categories": []
     },
     {
+      "id": "78718e1be9ffe5f7e40b49130d008fe13c0fecea09475edd8dfbf405e24f0b5b",
+      "identity_keys": [
+        "arxiv:2611.28599",
+        "https://doi.org/10.48550/arXiv.2611.28599"
+      ],
+      "title": "FastCREST: GPU-Accelerated CREST Conformer Searches with Consistent Energies and Gradients",
+      "link": "https://doi.org/10.48550/arXiv.2611.28599",
+      "pdf_url": "https://arxiv.org/pdf/2611.28599",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "dey supantha",
+          "name": "Supantha Dey"
+        },
+        {
+          "key": "kariyawasam nilusha",
+          "name": "Nilusha L Kariyawasam"
+        },
+        {
+          "key": "chowdhury ratul",
+          "name": "Ratul Chowdhury"
+        }
+      ],
+      "abstract_text": "CREST conformer searches with GFN2-xTB take days for large, flexible molecules: one search of a 274-atom gallium(III)--peptide complex with CREST 3.0.2 took 321.5~h on 32 CPU threads. FastCREST keeps CREST's algorithm and changes how a search uses the hardware. Its metadynamics (MTD) and molecular dynamics (MD) trajectories run with tuned OpenMP settings and one GPU, which solves the self-consistent-charge (SCC) eigenproblem and evaluates the three-body dispersion term. About 15,000 geometry optimizations per iteration run as Slurm array jobs on other CPU nodes, and checkpoints let a search continue on preemptible GPUs. On A100 nodes, the OpenMP settings and loop changes made an MTD step 2.4 times faster and the GPU another 2.3 times; array jobs made a batch of optimizations 39 times faster. For six more molecules of 24 to 339 atoms, a FastCREST step was 2.2 to 7.1 times faster than a conventional CREST step. A complete FastCREST search, which also lifts CREST~3's cap of 200 optimization cycles, took 54.3~h, evaluating energies and gradients 8.1 times as fast as the CREST 3.0.2 search (on different hardware) with fewer CPU-hours per evaluation. Two opt-in settings (a warm-started Jacobi eigensolver and GPU-resident SCC iterations), LLVM's OpenMP library and one CPU socket per trajectory made an MTD step 8.3 times faster than conventional CREST. Energies agree with CREST 3.0.2 within $1.01\\times10^{-10}$ Eh and gradients within $8.2\\times10^{-11}$Eh bohr$^{-1}$, and controlled MD runs passed a prespecified equivalence test. Most replicate FastCREST and conventional CREST searches ended in similar compact conformers, with no detectable difference in energy.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "78794a652a2912a071f6c4e6d6524cd49347467020e755daefcc80f901b2ebc5",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03529-z",

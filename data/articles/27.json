@@ -4855,6 +4855,64 @@
       "curated_categories": []
     },
     {
+      "id": "27c05903f4c698b0fa2b2f6f535269a6b77302076d5e2d1c0d937bb942de4e73",
+      "identity_keys": [
+        "arxiv:2501.01768",
+        "https://doi.org/10.48550/arXiv.2501.01768"
+      ],
+      "title": "Fusion-pMT: Biological Sequence Modeling for Tri-Molecular Binding in Immunogenicity Prediction",
+      "link": "https://doi.org/10.48550/arXiv.2501.01768",
+      "pdf_url": "https://arxiv.org/pdf/2501.01768",
+      "publication_date": "2025-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jiahao ma",
+          "name": "Jiahao Ma"
+        },
+        {
+          "key": "yin yujia",
+          "name": "Yujia Yin"
+        },
+        {
+          "key": "hongzong li",
+          "name": "Hongzong Li"
+        },
+        {
+          "key": "shi yunke",
+          "name": "Yunke Shi"
+        },
+        {
+          "key": "wu yifan",
+          "name": "Yifan Wu"
+        },
+        {
+          "key": "dong huang jian",
+          "name": "Jian-Dong Huang"
+        },
+        {
+          "key": "fan hu ye",
+          "name": "Ye-Fan Hu"
+        },
+        {
+          "key": "chen yifan",
+          "name": "Yifan Chen"
+        }
+      ],
+      "abstract_text": "Accurately modeling the tripartite interaction among peptides, major histocompatibility complex (MHC) molecules, and T cell receptors (TCRs) is essential for understanding T-cell-mediated immunity and informing immunogenicity prediction. A key challenge is to connect peptide-MHC binding knowledge with TCR specificity while retaining the residue-level context needed to model their interactions. In this paper, we propose Fusion-pMT, a biological sequence modeling framework that (1) learns representations of the three molecular inputs through a shared amino acid projection and molecule-specific encoders, and (2) combines peptide-MHC pretraining with two-stage cross-attention, retaining MHC-conditioned peptide tokens for subsequent interaction with TCR sequences. By aligning sequence fusion with the stepwise nature of immune recognition, Fusion-pMT effectively supports both pairwise and tripartite interaction modeling. To validate its effectiveness, we conduct comprehensive experiments covering both pairwise and tripartite interactions and demonstrate the advantages of Fusion-pMT over strong baselines while validating its core design choices.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "27c115069af3d16724b0ff05bb3ffd3a124c89bb693d6cdcc40587b9bda939b5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77494-0",

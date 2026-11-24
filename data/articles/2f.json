@@ -46,7 +46,7 @@
       "publication_date": "2026-05-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "fang wu",
@@ -260,7 +260,7 @@
       "publication_date": "2023-06-09",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "timothy truong",
@@ -1524,6 +1524,45 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2f4414574fed4dab01f0390a984faa26eb693509fc681ffd1b16c3ffd66d44d1",
+      "identity_keys": [
+        "arxiv:2508.15603",
+        "https://doi.org/10.1103/dgw7-s8gl",
+        "https://doi.org/10.48550/arXiv.2508.15603"
+      ],
+      "title": "Nonequilibrium protein complexes as molecular automata",
+      "link": "https://doi.org/10.48550/arXiv.2508.15603",
+      "pdf_url": "https://arxiv.org/pdf/2508.15603",
+      "publication_date": "2025-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jan kocka",
+          "name": "Jan Kocka"
+        },
+        {
+          "key": "husain kabir",
+          "name": "Kabir Husain"
+        },
+        {
+          "key": "agudo canalejo jaime",
+          "name": "Jaime Agudo-Canalejo"
+        }
+      ],
+      "abstract_text": "Biology stores information and computes at the molecular scale, yet the ways in which it does so are often distinct from human-engineered computers. Mapping biological computation onto architectures familiar to computer science remains an outstanding challenge. Here, inspired by Crick's proposal for molecular memory, we analyse a thermodynamically-consistent model of a protein complex subject to driven, nonequilibrium enzymatic reactions. In the strongly driven limit, we find that the system maps onto a stochastic, asynchronous variant of cellular automata, where each rule corresponds to a different set of enzymes being present. We find a broad class of phenomena in these 'molecular automata' that can be exploited for molecular computation, including error-tolerant memory via multistable attractors, and long transients that can be used as molecular stopwatches. By systematically enumerating all possible dynamical rules, we identify those that allow molecular automata to implement simple computational architectures such as finite-state machines. Overall, our results provide a framework for engineering synthetic molecular automata, and offer a route to building protein-based computation in living cells.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
         }
       ],
       "curated_categories": []
@@ -3822,7 +3861,7 @@
       ],
       "title": "Protein Autoregressive Modeling via Multiscale Structure Generation",
       "link": "https://doi.org/10.48550/arxiv.2602.04883",
-      "pdf_url": "https://arxiv.org/pdf/2602.04883",
+      "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/qu26b/qu26b.pdf",
       "publication_date": "2026-09-29",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -5739,6 +5778,62 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "2fe65eb2d3d775e18787f5c9745e14b3adbeef8550756a2a4dfc6046e9ebde08",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.05.14.725161v2",
+        "https://doi.org/10.64898/2026.05.14.725161",
+        "https://www.biorxiv.org/content/early/2026/05/18/2026.05.14.725161.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.05.14.725161.source.xml"
+      ],
+      "title": "The Paipu framework enables creation of a large-scale mammalian cancer transcriptomics atlas",
+      "link": "https://doi.org/10.64898/2026.05.14.725161",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.14.725161v2.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "smith",
+          "name": "Smith, B. S"
+        },
+        {
+          "key": "smith",
+          "name": "Smith, L. A"
+        },
+        {
+          "key": "daluwatumulle",
+          "name": "Daluwatumulle, G"
+        },
+        {
+          "key": "glen",
+          "name": "Glen, N"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, J.-H"
+        },
+        {
+          "key": "cahill",
+          "name": "Cahill, J. A"
+        },
+        {
+          "key": "graim",
+          "name": "Graim, K"
+        }
+      ],
+      "abstract_text": "A plethora of studies have identified shared molecular mechanisms involved in tumor development across humans and other mammalian species. While these two-species analyses advance understanding of human disease, extending analysis across many species would provide evolutionary insight into molecular mechanisms driving human cancers. However, this expansion requires knowledge transfer and harmonization across species. Genomic differences between species, including variation in genome annotation quality, have historically hindered multi-species large-scale atlas creation. To overcome these challenges, we present Paipu, a comprehensive pipeline designed to streamline querying, preprocessing, harmonization, and retrieval of large-scale RNA-seq data and associated metadata from the NCBI Sequence Read Archive (SRA). Paipu facilitates multi-species analysis by creating a harmonized atlas from user-defined search terms and species. It consists of three components: reference genome preparation, SRA metadata retrieval, and RNA-seq data processing. We apply Paipu to 188 cancer-related terms in 240 non-human mammalian species, creating a harmonized atlas of 51,561 RNA-seq samples spanning 18 species and 83 cancers. This pan-mammalian pan-cancer atlas enables myriad comparative genomics analyses that leverage genetic variation to better understand rare human cancers. As such, Paipu serves as a resource for cross-species cancer genomics and supports atlas creation for any set of species and search terms.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

@@ -2933,6 +2933,44 @@
       "curated_categories": []
     },
     {
+      "id": "cd6d7938169b1e72db81273f972b26f0aa22c341348547b81cba8c4d38b22258",
+      "identity_keys": [
+        "arxiv:2611.29444",
+        "https://doi.org/10.48550/arXiv.2611.29444"
+      ],
+      "title": "RumiFold: Teaching an LLM to Natively Fold Proteins and Reason About Their Function",
+      "link": "https://doi.org/10.48550/arXiv.2611.29444",
+      "pdf_url": "https://arxiv.org/pdf/2611.29444v1",
+      "publication_date": "2026-11-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "kevin lu",
+          "name": "Kevin Lu"
+        },
+        {
+          "key": "bau david",
+          "name": "David Bau"
+        },
+        {
+          "key": "jin wengong",
+          "name": "Wengong Jin"
+        }
+      ],
+      "abstract_text": "Can we teach a general-purpose language model to fold proteins? And if so, what does learning to fold enable beyond structure prediction itself? We introduce RumiFold, a pretrained chat model that learns to predict protein structures directly from its own hidden states. RumiFold processes proteins through repeated folding passes, then uses these folded representations to answer questions in natural language. It achieves folding accuracy comparable to dedicated single-representation models such as SimpleFold, alongside state-of-the-art performance on Gene Ontology protein function prediction and free-text function description. We find that folding pretraining organizes the model's hidden states around protein function, creating an internal per-residue workspace that is biologically grounded. Causal interventions show that this folded workspace links structure and language when RumiFold predicts function, providing rich representations for biomolecular reasoning. We see RumiFold as a step toward native biomolecular intelligence: where protein-based computations and language-based reasoning become integrated capabilities of general-purpose language models. Code, data, and models are available at: https://rumifold.baulab.info",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cd6f33da4f211bae49c38d0f058008209a4b2e0f95e137bec30139d16261eb1e",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10250-y",
@@ -4397,7 +4435,7 @@
       ],
       "title": "Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling",
       "link": "https://doi.org/10.48550/arxiv.2505.21452",
-      "pdf_url": "https://arxiv.org/pdf/2505.21452",
+      "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25i/zhou25i.pdf",
       "publication_date": "2025-10-06",
       "publication_date_precision": "unknown",
       "collection_date": null,

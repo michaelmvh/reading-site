@@ -997,6 +997,64 @@
       "curated_categories": []
     },
     {
+      "id": "6d2e1fe79754d34ad2e91c430780a2e85c0d6412ddd7e3a31a38db1b2f5154b1",
+      "identity_keys": [
+        "arxiv:2611.29410",
+        "https://doi.org/10.48550/arXiv.2611.29410"
+      ],
+      "title": "Motivo: A Motif-Based Algorithm-Architecture Co-Design for Fast and Energy-Efficient Graph-Based Genome Analysis",
+      "link": "https://doi.org/10.48550/arXiv.2611.29410",
+      "pdf_url": "https://arxiv.org/pdf/2611.29410v1",
+      "publication_date": "2026-11-22",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "eirini maria tzermpou",
+          "name": "Eirini Maria Tzermpou"
+        },
+        {
+          "key": "koliogeorgi konstantina",
+          "name": "Konstantina Koliogeorgi"
+        },
+        {
+          "key": "kanellopoulos konstantinos",
+          "name": "Konstantinos Kanellopoulos"
+        },
+        {
+          "key": "ataberk olgun",
+          "name": "Ataberk Olgun"
+        },
+        {
+          "key": "bostancı nisa",
+          "name": "Nisa Bostancı"
+        },
+        {
+          "key": "dimitrios soudris",
+          "name": "Dimitrios Soudris"
+        },
+        {
+          "key": "ghiasi mansouri nika",
+          "name": "Nika Mansouri Ghiasi"
+        },
+        {
+          "key": "mutlu onur",
+          "name": "Onur Mutlu"
+        }
+      ],
+      "abstract_text": "Read mapping, a key step of genome sequence analysis, matches each fragment of a sequenced genome (a read) to its location in a reference genome. A genome graph is a graph-based reference genome that represents the genetic diversity of a population as alternative paths, and thus improves read mapping accuracy. However, the size and complexity of a genome graph make sequence-to-graph (S2G) mapping a major bottleneck. Prior software and hardware approaches for S2G mapping perform redundant costly operations (e.g., graph traversals and dynamic programming) that do not lead to valid mappings. Our key observation is that a genome graph consists of small subgraphs that share a limited set of recurring topologies, which we call motifs. We propose Motivo, a topology-aware algorithm-architecture co-design for S2G mapping. Motivo's algorithm uses motifs in two ways. First, it stores the precomputed motifs of each node in a compact index, which replaces a graph traversal with a single memory lookup. Second, it uses the topology of a motif and the properties of its nodes to identify the few most suitable mapping paths with arithmetic operations. The algorithm enables high-performance execution on CPUs and GPUs and high-performance, low-energy execution on Motivo-ASIC, an accelerator we co-design with it. Motivo-CPU provides 2.1-18.4x, 2.8-343x, and 1.4-10.1x speedups over GraphAligner, vg, and minigraph, and Motivo-GPU provides 1.5-1.6x speedups over vg-giraffe. Motivo-ASIC provides 7.4-11.7x (138-274x) speedups over state-of-the-art CPU-based tools for short (long) reads. Compared to SeGraM (short reads) and HARP (long reads), Motivo-ASIC achieves 5.3x and 4.0-4.3x higher throughput per Watt and 1.7x and 2.7-3.0x higher throughput per mm$^2$, respectively. Motivo maintains equal or higher mapping accuracy than other tools (96.8%-99.7%) for short and long reads on two types of genome graphs.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6d308b9da53174599a95c65763aeb64933857982b362d278a598b1931b8d2f08",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77122-x",
@@ -1050,7 +1108,7 @@
       "publication_date": "2026-06-07",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "gianluca scarpellini",
@@ -1847,7 +1905,7 @@
       "publication_date": "2025-04-26",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "alireza ghafarollahi",

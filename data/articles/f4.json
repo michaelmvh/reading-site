@@ -4025,6 +4025,49 @@
       "curated_categories": []
     },
     {
+      "id": "f49908cecd3d33153c489d8a2964d53897fea085288aec153d7b59a482d49c5d",
+      "identity_keys": [
+        "arxiv:2512.09152",
+        "https://doi.org/10.1103/g8cm-7ps7",
+        "https://doi.org/10.48550/arXiv.2512.09152"
+      ],
+      "title": "Understanding temperature tuning in energy-based models",
+      "link": "https://doi.org/10.48550/arXiv.2512.09152",
+      "pdf_url": "https://arxiv.org/pdf/2512.09152",
+      "publication_date": "2025-12-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "fields peter",
+          "name": "Peter W Fields"
+        },
+        {
+          "key": "ngampruetikorn vudtiwat",
+          "name": "Vudtiwat Ngampruetikorn"
+        },
+        {
+          "key": "david schwab",
+          "name": "David J Schwab"
+        },
+        {
+          "key": "palmer stephanie",
+          "name": "Stephanie E Palmer"
+        }
+      ],
+      "abstract_text": "Generative models of complex systems often require post hoc parameter adjustments to produce useful outputs. For example, energy-based models for protein design are sampled at an artificially low \"temperature\" to generate novel, functional sequences. This temperature tuning is a common yet poorly understood heuristic used across machine learning contexts to control the trade-off between generative fidelity and diversity. Here, we develop an interpretable, physically motivated framework to explain this phenomenon. We demonstrate that in systems with a large \"energy gap\" separating a small fraction of meaningful states from a vast space of unrealistic states, learning from sparse data causes models to systematically overestimate high-energy state probabilities, a bias that lowering the sampling temperature corrects. More generally, we characterize how the optimal sampling temperature depends on the interplay between data size and the system's underlying energy landscape, and that this interplay is sufficient to elicit the tuning phenomenon; regularizing while training can contribute, but is not necessary. Crucially, our results show that lowering the sampling temperature is not always desirable. We identify the conditions under which raising it results in better generative performance. Our framework reveals that post hoc temperature tuning is indicative of both specific properties of the true data distribution and the limits of the learned model due to insufficient data availability.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f49f5636d393a3b8eceee23794d814d5d58950215fa041afc727dfa9858a6cbb",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70180-1",

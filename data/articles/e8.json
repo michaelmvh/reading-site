@@ -3964,6 +3964,40 @@
       "curated_categories": []
     },
     {
+      "id": "e8ca62aed6f69b159220579f7bc320c560e53c5125a3e1f4bc36516b78dd8c43",
+      "identity_keys": [
+        "arxiv:2611.28529",
+        "https://doi.org/10.48550/arXiv.2611.28529"
+      ],
+      "title": "General-purpose language models are neurosymbolic reasoners able to annotate proteins from sequence",
+      "link": "https://doi.org/10.48550/arXiv.2611.28529",
+      "pdf_url": "https://arxiv.org/pdf/2611.28529",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "christopher mungall",
+          "name": "Christopher J. Mungall"
+        },
+        {
+          "key": "joachimiak marcin",
+          "name": "Marcin P. Joachimiak"
+        }
+      ],
+      "abstract_text": "Determining the function of genes across the tree of life is one of the major challenges in biology. Generative AI approaches to this problem generally fall into two categories: language models trained on biological sequences that are able to predict structure and function from signals in those sequences; and generalist language models trained on text, that are able to reason about biological function symbolically. A default operating assumption is that protein language models do not perform well on symbolic tasks, and that generalist language models do not perform well on sequence tasks. However, a recent report showed that frontier generalist models perform surprisingly well on next-residue prediction tasks. We set out to explore whether these capabilities extended to protein annotation. We assigned different frontier generalist models a variety of protein annotation tasks, including predicting the presence and coordinates of Pfam domains, loss of functional catalytic residues, and predicting structure and activity. On all annotation tasks, the frontier models performed well above chance; we did not benchmark them against specialised tools. The models also make characteristic hallucination errors, and they state them as confidently as their correct calls. Though untested against specialised methods, the nascent ability of frontier models to perform protein annotation from sequence alone is intriguing. The ability to reason over sequence, structure, and symbols in a single model allows for a neurosymbolic approach where a combination of sequence, experimental data and knowledge from the literature can be holistically combined to improve on de novo functional annotation of the protein universe. Prompts, test sets, model outputs and code: https://github.com/ai4curation/fable-sequence-to-function. Summary of results: https://ai4curation.io/fable-sequence-to-function/",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e8cc361771f4477e5f06456b07d8b589ea373ae590206ee9f5640d46d4a648c6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75379-w",

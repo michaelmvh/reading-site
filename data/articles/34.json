@@ -4140,6 +4140,68 @@
       ]
     },
     {
+      "id": "34a945409fd8f7374d38be0fbb8472a7f08ff1166698730b5d495efa83523197",
+      "identity_keys": [
+        "arxiv:2411.15418",
+        "https://doi.org/10.48550/arXiv.2411.15418"
+      ],
+      "title": "Scaling Structure-Aware Virtual Screening to Billions of Molecules with SPRINT",
+      "link": "https://doi.org/10.48550/arXiv.2411.15418",
+      "pdf_url": "https://arxiv.org/pdf/2411.15418",
+      "publication_date": "2024-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "andrew mcnutt",
+          "name": "Andrew T. McNutt"
+        },
+        {
+          "key": "abhinav adduri",
+          "name": "Abhinav K. Adduri"
+        },
+        {
+          "key": "caleb ellington",
+          "name": "Caleb N. Ellington"
+        },
+        {
+          "key": "duaka nonso",
+          "name": "Nonso N. Duaka"
+        },
+        {
+          "key": "katz tyler",
+          "name": "Tyler J. Katz"
+        },
+        {
+          "key": "dayao monica",
+          "name": "Monica T. Dayao"
+        },
+        {
+          "key": "eric xing",
+          "name": "Eric P. Xing"
+        },
+        {
+          "key": "hosein mohimani",
+          "name": "Hosein Mohimani"
+        },
+        {
+          "key": "david koes",
+          "name": "David R. Koes"
+        }
+      ],
+      "abstract_text": "Virtual screening of small molecules against protein targets can accelerate drug discovery and development by predicting drug-target interactions (DTIs). However, structure-based methods like molecular docking are too slow to allow for broad proteome-scale screens, limiting their application in screening for off-target effects or new molecular mechanisms. Recently, vector-based methods using protein language models (PLMs) have emerged as a complementary approach that bypasses explicit 3D structure modeling. Here, we develop SPRINT, a vector-based approach for screening entire chemical libraries against whole proteomes for DTIs and novel mechanisms of action. SPRINT improves on prior work by using a self-attention based architecture and structure-aware PLMs to learn a co-embedding space for drugs and targets, enabling efficient binder prediction, search, and retrieval. SPRINT achieves competitive enrichment factors in virtual screening on LIT-PCBA, DTI classification benchmarks, and binding affinity prediction benchmarks, while providing interpretability in the form of residue-level attention maps. In addition to being both accurate and interpretable, SPRINT is ultra-fast: querying the whole human proteome against the ENAMINE Real Database (6.7B drugs) for the 100 most likely binders per protein takes 16 minutes. SPRINT promises to enable virtual screening at an unprecedented scale, opening up new opportunities for in silico drug repurposing and development.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "34aa75a3bfa77b429721b489f645dc3077e85f695488b119dcdce31a41ae7141",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69927-7",

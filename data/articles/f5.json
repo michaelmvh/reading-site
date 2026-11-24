@@ -680,7 +680,7 @@
       "publication_date": "2026-10-02",
       "publication_date_precision": "unknown",
       "collection_date": null,
-      "venue": "arXiv (Cornell University)",
+      "venue": "arXiv",
       "authors": [
         {
           "key": "ping wang",
@@ -2416,7 +2416,7 @@
       ],
       "title": "Diffusion on language model encodings for protein sequence generation",
       "link": "https://doi.org/10.48550/arxiv.2403.03726",
-      "pdf_url": "https://arxiv.org/pdf/2403.03726",
+      "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/meshchaninov25a/meshchaninov25a.pdf",
       "publication_date": "2025-10-06",
       "publication_date_precision": "unknown",
       "collection_date": null,
@@ -4860,6 +4860,52 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f5c4b33056699654d9912d6b35853f32189d53b2defc18943407d470ed1fdf3e",
+      "identity_keys": [
+        "arxiv:2611.29935",
+        "https://doi.org/10.48550/arXiv.2611.29935"
+      ],
+      "title": "GABIF: An Adaptive Guided Graph Denoising Framework for Antibody Conditional Inverse Folding",
+      "link": "https://doi.org/10.48550/arXiv.2611.29935",
+      "pdf_url": "https://arxiv.org/pdf/2611.29935v1",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "liu mingwei",
+          "name": "Mingwei Liu"
+        },
+        {
+          "key": "liu xiao",
+          "name": "Xiao Liu"
+        },
+        {
+          "key": "kai yi",
+          "name": "Kai Yi"
+        },
+        {
+          "key": "feng tan",
+          "name": "Feng Tan"
+        },
+        {
+          "key": "guang wang yu",
+          "name": "Yu Guang Wang"
+        }
+      ],
+      "abstract_text": "Antibodies play a central role in the human immune system, and their design is critical for vaccine development, therapeutic intervention, and improving human longevity. However, the vast combinatorial search space of antibodies poses a fundamental challenge for de novo discovery. Recent advances in deep learning, particularly denoising diffusion models, have demonstrated strong potential in protein inverse folding. Nevertheless, existing approaches are largely constrained to learning from natural antibody repertoires, thereby generating sequences that closely resemble natural antibodies. Such similarity, however, does not necessarily translate into improved functional performance in downstream applications. In this work, we develop a novel generative protein design model that enables the generation and optimization of antibody sequences tailored to specific downstream tasks and target metrics. Besides training on given an antibody dataset, we guide the generative model by an antibody-antigen binding affinity predictor for conditional discrete diffusion. The model is pre-trained on a given antibody dataset. Meanwhile, an antibody-antigen binding affinity predictor is incorporated as a conditional signal in a discrete diffusion framework, where a regressor serves as the conditional probability to guide the learning of the amino acid probability distribution of sequences under the objective of affinity optimization. In silico experiments demonstrate that our antibody design model achieves performance comparable to state-of-the-art approaches, while the proposed regressor effectively improves binding affinity, as validated by an independent external predictor. Furthermore, our results highlight that the combination of finetuning and supervised guidance provides a powerful paradigm for adapting pretrained models to downstream tasks.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []
