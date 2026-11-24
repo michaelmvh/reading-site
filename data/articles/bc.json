@@ -1187,6 +1187,89 @@
       "curated_categories": []
     },
     {
+      "id": "bc4a32e09d0a9c37d84dbcbd4770f2c347148c9ea1339a68740cadf665a5f5f4",
+      "identity_keys": [
+        "biorxiv:10.64898/2025.12.12.693901v5",
+        "https://doi.org/10.64898/2025.12.12.693901",
+        "https://www.biorxiv.org/content/early/2025/12/13/2025.12.12.693901.source.xml",
+        "https://www.biorxiv.org/content/early/2025/12/14/2025.12.12.693901.source.xml",
+        "https://www.biorxiv.org/content/early/2025/12/29/2025.12.12.693901.source.xml",
+        "https://www.biorxiv.org/content/early/2026/09/24/2025.12.12.693901.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2025.12.12.693901.source.xml"
+      ],
+      "title": "Vir2vec: A Genome-Wide Viral Embedding",
+      "link": "https://doi.org/10.64898/2025.12.12.693901",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693901v5.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rancati",
+          "name": "Rancati, S"
+        },
+        {
+          "key": "arozarena donelli",
+          "name": "Arozarena Donelli, P"
+        },
+        {
+          "key": "nicora",
+          "name": "Nicora, G"
+        },
+        {
+          "key": "bergomi",
+          "name": "Bergomi, L"
+        },
+        {
+          "key": "buonocore",
+          "name": "Buonocore, T"
+        },
+        {
+          "key": "sy",
+          "name": "Sy, M. A"
+        },
+        {
+          "key": "pandey",
+          "name": "Pandey, S"
+        },
+        {
+          "key": "prosperi",
+          "name": "Prosperi, M"
+        },
+        {
+          "key": "salemi",
+          "name": "Salemi, M"
+        },
+        {
+          "key": "bellazzi",
+          "name": "Bellazzi, R"
+        },
+        {
+          "key": "boucher",
+          "name": "Boucher, C"
+        },
+        {
+          "key": "parimbelli",
+          "name": "Parimbelli, E"
+        },
+        {
+          "key": "marini",
+          "name": "Marini, S"
+        }
+      ],
+      "abstract_text": "Genomic language models (gLMs) enable the extraction of meaningful numerical representations from DNA sequences, yet existing approaches primarily focus on human genomes or limited viral datasets, and systematic evaluations of viral representations remain scarce. Here, we introduce Vir2vec, a family of decoder-only gLMs (from 17M to 422M parameters) continually pretrained on a curated viral corpus comprising 565,747 complete genomes and genomic segment records assigned to 295 different species. We also present the viral Genome Understanding Evaluation (vGUE), a seven-task evaluation suite assessing viral representations across broad organism discrimination, evolutionary signatures, intra-genus species classification, variant subtyping, and host-associated phenotypes. Evaluated as a frozen feature extractor under nested cross-validation, Vir2vec achieves the highest balanced accuracy on three of seven tasks (full-genome virus detection, DNA-versus-RNA classification, and host-category prediction) and shares the highest performance on HIV-1 versus HIV-2 classification, while alternative models lead on the remaining three tasks. Taxonomic exclusion experiments further assess generalization of classification capabilities when an RNA-virus clade is excluded from pretraining at species and family levels. Finally, we introduce an argmax-routed SHAP explainability framework that maps feature attributions to codon-level sequence coordinates, highlighting receptor-binding-domain positions associated with SARS-CoV-2 human-versus-mouse host specificity discrimination. Together, Vir2vec and vGUE provide resources for advancing viral genomic representation learning and its systematic evaluation.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "bc4bc3acc05badcb2d5c28731e56657bef483eb2bdc0571c6cd4694000b340af",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73348-x",

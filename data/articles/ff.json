@@ -6452,6 +6452,66 @@
       "curated_categories": []
     },
     {
+      "id": "ffebec9dc7769210f68a85692b78264d07e78d086eeee61b9715c3883d53edd0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.07.27.740477v2",
+        "https://doi.org/10.64898/2026.07.27.740477",
+        "https://www.biorxiv.org/content/early/2026/07/28/2026.07.27.740477.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/23/2026.07.27.740477.source.xml"
+      ],
+      "title": "scINTILLA: Single-Cell Integrated Inference, Labelling, and Landscape Analysis for Assessing the Quality and Hidden Diversity of Cell Annotations",
+      "link": "https://doi.org/10.64898/2026.07.27.740477",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740477v2.full.pdf",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kanannejad",
+          "name": "Kanannejad, S"
+        },
+        {
+          "key": "bongiorni",
+          "name": "Bongiorni, N"
+        },
+        {
+          "key": "nordera",
+          "name": "Nordera, E"
+        },
+        {
+          "key": "redaelli",
+          "name": "Redaelli, S"
+        },
+        {
+          "key": "rusconi",
+          "name": "Rusconi, I"
+        },
+        {
+          "key": "zanin",
+          "name": "Zanin, R"
+        },
+        {
+          "key": "giustacchini",
+          "name": "Giustacchini, A"
+        },
+        {
+          "key": "chatterjee",
+          "name": "Chatterjee, S"
+        }
+      ],
+      "abstract_text": "Single-cell RNA sequencing has made it possible to build atlases of millions of cells, but the cell-type labels in these atlases are rarely checked once they are assigned. When a label covers a transcriptionally heterogeneous population, every analysis that depends on it inherits the problem, and automated label transfer in particular becomes unreliable. We present scINTILLA (Single-Cell Integrated Inference, Labelling, and Landscape Analysis), a framework that scores every label in an annotated dataset from three complementary signals: clustering confusion (neighbours that share a cluster but carry another label), label fragmentation (one label spread over several clusters) and supervised consistency (agreement, confidence and entropy of a classifier ensemble). The three signals are combined into a per-label quality score, scINTILLA-F, which can optionally be rank-fused with the Silhouette width. To test whether the score finds real annotation problems, we injected three kinds of known errors (merged labels, contaminated labels and over-split labels) into five Human Cell Atlas datasets, giving 150 perturbed annotations, and compared scINTILLA with the Silhouette baseline, kNN purity, SCCAF and ROGUE in a pre-registered analysis. The four best of the eleven methods that score every label were all scINTILLA-based. The fusion of scINTILLA-F with Silhouette ranked first (balanced AUROC 0.908; Silhouette 0.896, kNN purity 0.815, SCCAF 0.770) and improved on the Silhouette baseline in every atlas, and adding fragmentation raised the detection of merged labels in every atlas. scINTILLA and the Silhouette baseline were complementary. The Silhouette baseline was better at finding merges, whereas scINTILLA was better at finding over-split labels. Applied to the real atlases, scINTILLA flagged the ``Unknown'' and monocyte-derived macrophage labels of the lung atlas and the ``stem cell'' label of the endoderm organoid atlas. Re-analysis of these populations resolved disease-associated monocyte and macrophage states and a set of progenitor, stromal and differentiated identities with distinct tissue and protocol origins. Finally, we tested the score on merges that arise naturally, in a leukaemia atlas of 183 patients whose blast populations we had annotated. Label fragmentation revealed the diversity of the blasts hidden under a patient label: in acute myeloid leukaemia it was higher in patients whose blasts formed several populations. In each of these cases scINTILLA pointed to the labels that needed a closer look, and the interpretation remained with the expert. It is therefore advisory: it ranks labels for expert review and shows which signal flagged each one.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ffee35097eb080ee2a13ff30244610309f61914c76e240d28d565bac8d4650fb",
       "identity_keys": [
         "https://doi.org/10.26434/chemrxiv.15004518/v1",
