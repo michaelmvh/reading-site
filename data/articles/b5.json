@@ -1525,6 +1525,48 @@
       "curated_categories": []
     },
     {
+      "id": "b5376cb879ab5af80f84724feb542e1fe5b3927671c9608734833994c224570b",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15012612/v1",
+        "https://openalex.org/W7238867339"
+      ],
+      "title": "Learning organometallic reactivity with a flow matching model for mechanism prediction",
+      "link": "https://doi.org/10.26434/chemrxiv.15012612/v1",
+      "pdf_url": null,
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "eric wu",
+          "name": "Eric K. Wu"
+        },
+        {
+          "key": "casetti nicholas",
+          "name": "Nicholas Casetti"
+        },
+        {
+          "key": "richmond sarpong",
+          "name": "Richmond Sarpong"
+        },
+        {
+          "key": "coley connor",
+          "name": "Connor W. Coley"
+        }
+      ],
+      "abstract_text": "Organometallic chemistry is critical to front-line chemical discovery, and the development of new methods is driven by a strong understanding of reaction mechanisms. Data-driven mechanism prediction models are an emerging complement to experimental and first-principles mechanistic studies, but their coverage of organometallic reactivity is limited by scarce training data. In this work, we use mechanistic templates for 41 families, or unique transformations, of organometallic reactions to extract over 1.2 million organometallic mechanistic steps from patent literature. We trained a flow matching model for electron redistribution in organometallic chemistry (FlowER-OM) on this expanded dataset, reaching 97.6% top-5 step accuracy across a held-out test set spanning organic and organometallic chemistry. Without selectivity-specific training, the model reproduces known regioselectivity trends for several elementary steps. FlowER-OM recovers mechanistic pathways for unseen reactions, including sequential catalytic cycles and unseen coupling partners. Furthermore, only a few examples of new reactivity are required to fine-tune new classes of mechanistic steps, new metals, or correct erroneous selectivity predictions. We find that under-and overrepresentation of categories of reactivity lead to failure modes observed in selectivity, mechanistic path elucidation, and fine-tuning. FlowER-OM is a strong predictor of classic organometallic chemistry and recognizes broad reactivity patterns, while its limitations expose the boundaries of current mechanism prediction models and can help guide future dataset design.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b5377db7c74b5d725b9d704bb98503ff3f808a4e58dc6fb5808c9f02cba40337",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73037-9",

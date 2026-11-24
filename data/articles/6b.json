@@ -4608,6 +4608,40 @@
       "curated_categories": []
     },
     {
+      "id": "6ba628de1b06d1354b03f4ea614d17a569efab7e508ecf6c0bc178e2af88ec33",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15012606/v1",
+        "https://openalex.org/W7238728009"
+      ],
+      "title": "Boltz-GenFree: structure-generation-free ranking for first-stage affinity screening",
+      "link": "https://doi.org/10.26434/chemrxiv.15012606/v1",
+      "pdf_url": null,
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "nagae tsubasa",
+          "name": "Tsubasa Nagae"
+        },
+        {
+          "key": "kentaro tomii",
+          "name": "Kentaro Tomii"
+        }
+      ],
+      "abstract_text": "Boltz-2 predicts affinity from a structure it generates for every candidate, which makes library-scale screening expensive, and several studies suggest that this pose contributes little to the predicted affinity. We tested this with fine-grained interventions and built Boltz-GenFree, which predicts affinity without building a structure for any candidate, generated or docked. On its own it keeps 90% of the Boltz-2 mean AP, against 67% for Boltzina, and combined with Boltz-2 in a simulated two-stage screen, in which only the top 10% of its ranking is re-ranked, it matches the mean AP of Boltz-2 alone on eight libraries (0.0839 against 0.0840) at an estimated 8.5 to 8.9 times lower cost. Its cheap ranking can thus decide where to spend the expensive steps, whether the shortlist re-ranked by Boltz-2 or the 300 labels used for fine-tuning, which raised AP on seven of eight targets.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6ba9aa6ec66cc7742f539523c7d3cf20a9d163fd44001fcf4c7fd076e4eea3c2",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-04129-7",

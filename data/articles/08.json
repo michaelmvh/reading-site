@@ -3414,6 +3414,44 @@
       "curated_categories": []
     },
     {
+      "id": "08ad9eae0d7742d13c12387f5b55d6570fa9a68347d503995035361b133002c3",
+      "identity_keys": [
+        "https://doi.org/10.21203/rs.3.rs-11575271/v1",
+        "https://openalex.org/W7238791452"
+      ],
+      "title": "Improved prediction of folding free energy changes with structure-aware and inverse-folding representations",
+      "link": "https://doi.org/10.21203/rs.3.rs-11575271/v1",
+      "pdf_url": null,
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Research Square",
+      "authors": [
+        {
+          "key": "prawin rimal",
+          "name": "Prawin Rimal"
+        },
+        {
+          "key": "kumar panday shailesh",
+          "name": "Shailesh Kumar Panday"
+        },
+        {
+          "key": "alexov emil",
+          "name": "Emil Alexov"
+        }
+      ],
+      "abstract_text": "Thermodynamic stability governs protein folding and biological function, and mutation-induced changes in folding free energy (ΔΔG) can cause loss of function, aggregation, and disease. Predicting these changes across complex mutational landscapes, however, remains challenging. We present SAAFEC-STAIR, which integrates SaProt structure-aware representations with ProteinMPNN inverse-folding information through gated fusion and a supervised mutation-aware prediction head. The model combines residue-level features with whole-protein context, local structural neighborhoods, and substitution-specific information. A tiered evaluation across diverse pretrained protein models separated zero-shot mutation ranking, supervised ΔΔG prediction, and ProteinMPNN fusion. On average, supervised calibration accounted for most of the improvement, with a further gain from ProteinMPNN fusion. Curated, homology-controlled training, validation, and test datasets minimized redundancy and allowed for controlled comparisons with existing methods. On the single-mutation test set, SAAFEC-STAIR achieved Pearson and Spearman correlations of 0.70 and 0.74, respectively, outperforming the evaluated predictors. For double mutations, a pair-corrected extension achieved correlations of 0.60 and 0.62, improving upon the additive single-mutation baseline and the evaluated comparators. These results show how structure-aware and inverse-folding representations can be combined to improve stability prediction across single and double mutations. A freely accessible web server supports prediction and interactive visualization of mutation effects.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "08ae86fcf36a346a151e9cfeece5efa50901ab3e391d62c515bac1d1ba25ad31",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76369-8",
