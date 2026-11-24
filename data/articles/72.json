@@ -4095,6 +4095,45 @@
       "curated_categories": []
     },
     {
+      "id": "72c1ddd326ffb2f5ced4d4e1dfca5d84506191bfbb9843350606301ecab3cd07",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.22.767969v1",
+        "https://doi.org/10.64898/2026.11.22.767969",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.22.767969.source.xml"
+      ],
+      "title": "GlycanPUG: WURCS-Based Heterogeneous Graph Pretraining for Structurally Ambiguous Glycans",
+      "link": "https://doi.org/10.64898/2026.11.22.767969",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.22.767969v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "zhang",
+          "name": "Zhang, W"
+        },
+        {
+          "key": "he",
+          "name": "He, X.-P"
+        }
+      ],
+      "abstract_text": "Background: Glycans orchestrate diverse biological processes, yet they remain underrepresented in computational biology compared to proteins and nucleic acids. Although WURCS 2.0 provides a machine-readable structural representation that preserves uncertainty, the evaluated IUPAC-based deterministic workflow processes 43.1% of the GlyCosmos-derived cohort examined here, motivating approaches that retain structural ambiguity. Methods: To overcome this limitation, GlycanPUG (Probabilistic Uncertainty-aware Graph) was introduced as a pretrained graph model for glycan representation learning. By leveraging WURCS 2.0, GlycanPUG represents candidate linkages and substituent attachments using weighted edges and uncertainty attributes within a heterogeneous graph framework. A 4-layer Heterogeneous Graph Neural Network with a dedicated node pre-enhancement module aggregates edge features weighted by the assigned edge weights, enabling representation of supported structurally ambiguous glycans without selecting a single resolved structure. The model is pretrained on a preprocessed subset of the GlyTouCan1 repository, which contained 253,596 entries before filtering. After excluding entries linked to downstream tasks and applying sequential structural filtering, 167,020 samples remained and were used for pretraining. Pretraining comprised nine self-supervised tasks. Results: Benchmarking on the GlycanML dataset demonstrates that GlycanPUG shows competitive performance relative to GlycanGT across multi-label taxonomy classification and binary immunogenicity prediction. Crucially, on datasets natively containing structural uncertainties (GlyCosmos, GlyConnect), GlycanPUG effectively processes additional structurally ambiguous entries, achieving 83.5% processable coverage across all glycans from all biological sources in GlyCosmos, with taxonomic classification performance (e.g., mean macro F1 of 0.7376 for Domain). Ablation of the node pre-enhancement module reduces macro F1, and post-hoc analysis identifies rank-dependent associations between structural uncertainty and prediction errors. All results reported above are averaged over ten independent random seeds (1-10). Conclusions: GlycanPUG broadens the set of glycans that can be represented while retaining supported structural ambiguities.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "72c5a2f49832afc783a9c0a2b01dc148244bcdb6154d9d35f08e202c4508ebb7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-70291-9",

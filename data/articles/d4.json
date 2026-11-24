@@ -2,6 +2,41 @@
   "schema_version": 1,
   "articles": [
     {
+      "id": "d4011a891e81e2a20affe91a41692771f3ba2971cf331f2836c4a1f34d6bf8cb",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.14.766721v1",
+        "https://doi.org/10.64898/2026.11.14.766721",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.14.766721.source.xml"
+      ],
+      "title": "BiocPy: A Framework for Cross-Platform Genomic Data andMethods Interoperability",
+      "link": "https://doi.org/10.64898/2026.11.14.766721",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766721v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kancherla",
+          "name": "Kancherla, J"
+        },
+        {
+          "key": "lun",
+          "name": "Lun, A"
+        }
+      ],
+      "abstract_text": "Bioconductor provides standardized data structures and statistical methods for high-throughput genomic analysis in R, whereas Python has become a primary environment for machine learning, image analysis, and general-purpose data science. Combining tools across both ecosystems often requires ad-hoc file conversions or embedded language runtimes that can lose metadata, introduce maintenance overhead, or lead to subtle differences in downstream results. Here, we present BiocPy, a collection of Python packages that support cross-language genomic workflows through three complementary layers: (1) native Python implementations of Bioconductor's core data structures; (2) lossless data exchange via direct reading and writing of serialized R (.rds) objects and the language-neutral ArtifactDB format for persistent, multi-stage pipelines; and (3) a cross-platform method development paradigm built on shared C++ libraries wrapped across R, Python, and WebAssembly to support identical statistical analyses across environments. All packages in the BiocPy ecosystem are published to the Python Package Index (PyPI) with source code hosted at [https://github.com/BiocPy].",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d4031a714a45678e830a0a21a6b2e3a03ad6e7610958d58177980b333b765e53",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71208-2",

@@ -3494,6 +3494,49 @@
       "curated_categories": []
     },
     {
+      "id": "ad7cccaee882c6b658496002e8b2a3982d5b3175eb383e667890a69948209a71",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768625v1",
+        "https://doi.org/10.64898/2026.11.23.768625",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768625.source.xml"
+      ],
+      "title": "To sort or to hash? Revisiting k-mer counting",
+      "link": "https://doi.org/10.64898/2026.11.23.768625",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768625v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "levallois",
+          "name": "Levallois, V"
+        },
+        {
+          "key": "patro",
+          "name": "Patro, R"
+        },
+        {
+          "key": "peterlongo",
+          "name": "Peterlongo, P"
+        },
+        {
+          "key": "pibiri",
+          "name": "Pibiri, G. E"
+        }
+      ],
+      "abstract_text": "Motivation: Counting k-mers in large genomic datasets is a foundational primitive in bioinformatics, supporting applications such as genome assembly, variant discovery, metagenomic profiling, and sequence database indexing. As sequencing throughput grows, k-mer counting is routinely applied to collections of hundreds to thousands of files. Even a modest per-file speedup compounds into hours of saved computation across such collections. Methods: Sorting and hashing are the two main ways of counting k-mers, and practice has largely settled on the former, of which KMC3 (Kokot et al., 2017) is the most refined expression. We reconsider this choice and analyze both approaches using a cost model that charges computation and memory transfers together. We show that the outcome of the comparison rests on two matters: how abundant the k-mers are, and whether the hash tables fit in cache. Sorting is faster only when data is mostly unique and the hash tables do not fit in cache. We then design a k-mer counting algorithm in the light of this analysis. We adopt the consolidated paradigm based on first partitioning the k-mers by their minimizer, thus obtaining partitions of super-k-mers, and then counting each partition independently in parallel. In particular, super-k-mers are deduplicated before counting, and the number of partitions is chosen so that the hash tables fit in cache whenever possible. The algorithm avoids writing temporary data to disk if enough internal memory is available. Results: We implemented this strategy in a tool named Tuna and show that it is faster than KMC3 on all but one of our inputs, spanning bacterial and human assemblies, metagenomes and read sets, by up to 4.3x. The advantage of Tuna compared to KMC3 in the counting step alone widens to 6.8x as k-mer abundance grows, as the analysis predicts. On the largest input tested, 614 GB of human sequencing reads, Tuna counts within 4 GB of memory and 0.7 TB of temporary disk. On that input the two tools finish within 1.1x of each other under the full 256 GB budget, and restricting every tool to the same 8 GB budget widens the advantage of Tuna over KMC3 to 1.8x. Software: The software is freely available at github.com/vicLeva/tuna under the MIT license.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ad7f9967cd5e4fd54ed1fafe03732ffb594ab44699f240e529cbde0e79e43ea5",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73844-0",

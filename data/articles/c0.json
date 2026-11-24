@@ -4763,6 +4763,49 @@
       "curated_categories": []
     },
     {
+      "id": "c0e27b25a96cad9b5445fda8281f2887dfe01e503c119e1c3aa087c883aa5a27",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768503v1",
+        "https://doi.org/10.64898/2026.11.23.768503",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768503.source.xml"
+      ],
+      "title": "Local wavefront alignment with corrected free-end penalty",
+      "link": "https://doi.org/10.64898/2026.11.23.768503",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768503v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "li",
+          "name": "Li, J"
+        },
+        {
+          "key": "zhu",
+          "name": "Zhu, H"
+        },
+        {
+          "key": "jia",
+          "name": "Jia, L"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, Q"
+        }
+      ],
+      "abstract_text": "Background: Pairwise alignment of nucleotide and protein sequences is a fundamental problem in bioinformatics. Wavefront alignment (WFA) is a groundbreaking algorithmic advance that reduces the time complexity of exact (semi-)global pairwise alignment with affine gap penalties from O(N2) to O(sN). Despite its success, WFA has yet to be extended to the local sequence alignment scope. Results: In this work, we propose a local wavefront alignment (lWFA) which generalizes WFA to the local alignment scope and preserves both the O(sN) time and the O(sN) to O(s2) space complexity. We also propose the bidirectional lWFA (lBiWFA), which reduces the space complexity of lWFA from O(s2) to O(s) while maintaining the time complexity as O(sN). Benchmarks show that lWFA and lBiWFA outperform current exact local alignment libraries like SeqAn and Parasail in aligning long sequences with error rate less than 5%. Conclusions: We suggest to use lBiWFA over lWFA because it has negligible memory footprint for aligning reads up to 20kbp, and is faster than lWFA except for short reads with very low error rates. According to the real-data benchmarks, lBiWFA are faster than SeqAn and Parasail for aligning NGS short reads with 0.1%[~]1% error rate and ONT long reads with 3%[~]5% error rate. However, for reads sequenced by legacy long-read platforms with 10%[~]15% error rate, SeqAn and Parasail are faster. Nevertheless, lBiWFA has a competitive speed for reads with error rate up to 10%. One may choose lBiWFA over SeqAn and Parasail if the memory usage is the major concern.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c0e842fed4fb22b92d7a54ab2b2b055169d68e4f2f1c787fdee14886ed98f937",
       "identity_keys": [
         "https://doi.org/10.1101/2025.10.28.685072",

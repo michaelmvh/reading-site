@@ -3698,6 +3698,49 @@
       "curated_categories": []
     },
     {
+      "id": "ba7473b5fdf000bc698c876b1bd601018dc2aaa93deff0f66cb4b12babc9dd1f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768502v1",
+        "https://doi.org/10.64898/2026.11.23.768502",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768502.source.xml"
+      ],
+      "title": "A Two-Stage YOLO-Swin Transformer Pipeline for Cross-Dataset White Blood Cell Classification",
+      "link": "https://doi.org/10.64898/2026.11.23.768502",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768502v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chang",
+          "name": "Chang, C.-W"
+        },
+        {
+          "key": "sun",
+          "name": "Sun, K.-J"
+        },
+        {
+          "key": "tsai",
+          "name": "Tsai, C.-H"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, C.-Y"
+        }
+      ],
+      "abstract_text": "Background: White blood cell (WBC) classification across datasets is challenged by differences in staining, image context, and class distributions. Methods: We developed a two-stage YOLO11-Swin Transformer pipeline. In the first stage, WBC detection and context-preserving cropping, a YOLO11 detector finds the leukocyte in each uncropped image and produces a cell-focused crop that retains the surrounding background. In the second stage, WBC classification, a Swin Transformer (Swin-B) assigns the crop to one of nine cell types. The classifier was trained on detector-cropped cells from five public datasets, so the first stage supplies the same kind of input at test time; morphology-preserving color augmentation addressed staining variation, and class-weighted cross-entropy addressed class imbalance. WBCBench2026, a public benchmark not used for training, served for external evaluation in seven harmonized classes, scored by macro-F1 (the mean of per-class F1). Further analyses removed the first stage or masked the background, compared classifier backbones, held out each training dataset (leave-one-dataset-out, LODO), and tested a second split (Phase-2) with about 60% synthetically degraded images. Results: The full pipeline reached an external macro-F1 of 0.879{+/-}0.006 on 8,080 benchmark images. With uncropped images as input, the same crop-trained classifier reached 0.627{+/-}0.039, and crops that kept the surrounding background outperformed background-masked crops (0.867 versus 0.760). With identical detector-cropped input, Swin-B outperformed convolutional baselines (0.863 versus 0.718-0.813), and its advantage over ResNet50 persisted across three training configurations. In LODO, macro-F1 on the held-out dataset ranged from 0.59 to 0.91, revealing source-specific variation not fully covered by the remaining datasets. On Phase-2, macro-F1 was 0.769{+/-}0.002. Two hematologists independently reviewed all 205 blast- or promyelocyte-related model-benchmark disagreements and gave the same verdict on 73 crops (35.6%): 21 model right, 43 model wrong, 9 ambiguous. Conclusions: The proposed two-stage pipeline achieved strong cross-dataset WBC classification performance. Context-preserving cropping was essential for the crop-trained classifier, and the LODO findings support representing the same classes across diverse sources when developing robust WBC classifiers.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ba77e29b013837df2e161f73d1d082dba5e2c753af6018fa8158cd8494c2538a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68631-w",

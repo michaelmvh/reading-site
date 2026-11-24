@@ -6592,6 +6592,49 @@
       "curated_categories": []
     },
     {
+      "id": "a9ec17df2af07fc77c66d902f7cf08edc1fbe8c5db6099e4e99317eb4e60613c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.22.768440v1",
+        "https://doi.org/10.64898/2026.11.22.768440",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.22.768440.source.xml"
+      ],
+      "title": "Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions",
+      "link": "https://doi.org/10.64898/2026.11.22.768440",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "goudarzi",
+          "name": "Goudarzi, S"
+        },
+        {
+          "key": "nandi",
+          "name": "Nandi, V"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, N"
+        },
+        {
+          "key": "goodarzi",
+          "name": "Goodarzi, H"
+        }
+      ],
+      "abstract_text": "Inferring gene regulation from single-cell data is difficult because observational measurements cannot distinguish correlation from causation and access to perturbational data, especially with multiple modalities, remains limited. Here we present the Cross-Modal Causal Variational Autoencoder (CMC-VAE), which learns a network linking genes and proteins (gene-gene, protein-protein and gene-protein) in the latent space and maps each connection back onto measured features. Trained on 809,130 observational CITE-seq profiles, CMC-VAE recovers co-expression, transcription factor regulons and immune signalling programs, and learns a sparse cross-modal map enriched for transcript-protein cognate pairs. On three CRISPR screens used during development, it ranks knockout-responsive genes better than correlation and latent-VAE baselines. Fitted to a screen's unperturbed control cells, without perturbation labels, the model translates measured knockout RNA responses into protein responses better than a correlation map and cognate transcripts. The direction of gene-to-gene regulation, however, is not recovered from observational data. On the CITE-seq screens, fine-tuning only the latent network improves held-out response correlation, mainly by learning a response shared across knockouts. On larger Perturb-seq screens, with about 1,000 training perturbations, fine-tuning the latent network learns gene-specific effects that transfer to held-out genes, more so than a gene-level causal model fine-tuned on the same cells, and in simulation, such interventions also restore edge orientations that observational training leaves unresolved.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a9f16c2caa6ab0da990428cdd296a31b99d771df0d3b7071cbcacf4bdb9652dc",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10539-y",
