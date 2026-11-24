@@ -1075,6 +1075,45 @@
       "curated_categories": []
     },
     {
+      "id": "ef2c4d5fa701c4c0937f6bfa3550337c21dc064101736317e531b2d7628d0d1f",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768614v1",
+        "https://doi.org/10.64898/2026.11.23.768614",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768614.source.xml"
+      ],
+      "title": "Biomedical Text Embeddings Weakly Capture Chromatin Accessibility Similarity: A Large-Scale Measurement Study",
+      "link": "https://doi.org/10.64898/2026.11.23.768614",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768614v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "song",
+          "name": "Song, J. J"
+        },
+        {
+          "key": "lukas",
+          "name": "Lukas, B. E"
+        },
+        {
+          "key": "dai",
+          "name": "Dai, Y"
+        }
+      ],
+      "abstract_text": "Text metadata provides the most readily available description of public chromatin accessibility data, but it remains unclear how well it reflects similarity between the underlying chromatin profiles. We systematically compared pairwise cosine similarity matrices derived from 12 embedding types across 32,245 human assay for transposase-accessible chromatin with sequencing (ATAC-seq) experiments obtained from ChIP-Atlas. The embeddings were two chromatin representations (Atacformer and regulatory potential, RP), three biomedical language models and one general-domain model applied to full metadata and to cell-type names alone, term frequency-inverse document frequency (TF-IDF), and a random baseline. We measured agreement using Spearman rank correlation, Mantel permutation tests, and top-k neighborhood overlap in the similarity matrices. Across the full dataset, text-derived similarities correlated with Atacformer similarities at {rho}=0.20 to 0.30. This text-Atacformer agreement was largely driven by experiments with relatively few called peaks, which were enriched for promoter regions (median 69 to 75% within 1 kb of a transcription start site for experiments with 100 to 10,000 peaks), resulting in similar chromatin representations regardless of cell type. Among the 17,232 experiments with at least 5,000 peaks, the text-Atacformer correlations dropped substantially ({rho}=0.011 to 0.016), with less than 0.1% of top-5 neighbors shared. Atacformer itself barely tracked cell type in this subset, with only 1.3% of an experiment's top-5 neighbors sharing its cell-type label (0.8% expected by chance). In contrast, text-RP agreement was weak but persisted ({rho}=0.06 to 0.10; 28 to 35% of top-5 neighbors shared), suggesting that both capture coarse cell-type identity. Most of the text-derived similarity signal in the full dataset came from sample titles, which mainly identify the submission and sequencing platform. Notably, TF-IDF matched or exceeded the language models in every correlation comparison. These findings indicate that text metadata is at best a coarse proxy for chromatin accessibility similarity, and highlight the importance of controlling for peak count when comparing chromatin representations across public repositories.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "ef2d8ccd412d4456c50c3cfa863f588b5fbeb2f80d4a5d3d9b82259ee1e2e264",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74993-y",

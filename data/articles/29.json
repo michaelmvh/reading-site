@@ -1713,6 +1713,45 @@
       "curated_categories": []
     },
     {
+      "id": "295adbd0d15a125db95bf36d830d4ed6ee68e9ffaff5ca0441caaeb8022cea1e",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.22.768397v1",
+        "https://doi.org/10.64898/2026.11.22.768397",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.22.768397.source.xml"
+      ],
+      "title": "BioSensor-X: A Coverage-Aware Evidence-Integration and Benchmarking Framework for Transcription-Factor Prioritization in Microbial Biosensor Engineering",
+      "link": "https://doi.org/10.64898/2026.11.22.768397",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768397v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "uddin",
+          "name": "Uddin, M. M"
+        },
+        {
+          "key": "khan",
+          "name": "Khan, S. M. Z. A"
+        },
+        {
+          "key": "gunde",
+          "name": "Gunde, S"
+        }
+      ],
+      "abstract_text": "Transcription-factor (TF) prioritization in microbial biosensor engineering requires integration of heterogeneous molecular and regulatory evidence, yet benchmark-associated performance may be influenced by candidate coverage, annotation density, and information-flow structure. BioSensor-X was developed as a leakage-controlled, coverage-aware framework for evaluating heterogeneous transcriptomic and regulatory evidence for Escherichia coli TF prioritization. Six transcriptomic datasets were processed, of which three contributed candidate instances, yielding 360 candidate contexts representing 60 TFs. The framework integrated transcriptional responsiveness, regulatory specificity, regulon size as an annotation-density proxy, and curated regulatory evidence using discovery-only standardization, prespecified equal weighting, and TF-level maximum aggregation. Performance was evaluated using mutually exclusive TF-level DEVELOPMENT and LOCKED TEST partitions with family-aware stratification, while candidate coverage was assessed separately from conditional ranking performance. Of 12 LOCKED TEST TFs, five were represented in the discovery candidate universe, corresponding to 41.7% coverage. The primary BioSensor-X score achieved a conditional AUROC of 0.5782 (95% bootstrap CI, 0.3308-0.8109), with 1/5 TFs recovered in the Top-10 and 2/5 in the Top-20. The regulon-size/annotation-density component achieved an AUROC of 0.7945 (95% bootstrap CI, 0.6655-0.9055). The integrated framework retained a measurable benchmark-associated ranking signal, while the results also indicated that annotation structure contributed substantially to benchmark discrimination. These findings support the value of separating candidate coverage from conditional ranking performance and explicitly accounting for annotation-density-associated effects when evaluating TF prioritization frameworks.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2962c289e0365535e54b9bc991e2325020725a99bd567615f4e3342ab7be8f7d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-69305-3",
