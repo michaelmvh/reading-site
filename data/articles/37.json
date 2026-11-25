@@ -3499,6 +3499,56 @@
       "curated_categories": []
     },
     {
+      "id": "37870e80cd767b1546dbd51a25ac22d881e956afaaf15597778afe76005f0f93",
+      "identity_keys": [
+        "https://doi.org/10.1039/d6sc03816f",
+        "https://openalex.org/W7223657656"
+      ],
+      "title": "A compact generative language model learns the compositional grammar of phase-separating proteins",
+      "link": "https://doi.org/10.1039/d6sc03816f",
+      "pdf_url": "https://pubs.rsc.org/sc/article-pdf/doi/10.1039/D6SC03816F/14942877/d6sc03816f.pdf",
+      "publication_date": "2026-10-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Science",
+      "authors": [
+        {
+          "key": "abdul wasim",
+          "name": "Abdul Wasim"
+        },
+        {
+          "key": "pramanik ushasi",
+          "name": "Ushasi Pramanik"
+        },
+        {
+          "key": "anirban das",
+          "name": "Anirban Das"
+        },
+        {
+          "key": "latua pikaso",
+          "name": "Pikaso Latua"
+        },
+        {
+          "key": "jai rudra",
+          "name": "Jai S. Rudra"
+        },
+        {
+          "key": "jagannath mondal",
+          "name": "Jagannath Mondal"
+        }
+      ],
+      "abstract_text": "Liquid-liquid phase separation (LLPS) of intrinsically disordered proteins drives the formation of biomolecular condensates, yet the sequence-level grammar that promotes condensation remains difficult to specify from first principles. Existing protein language models are typically trained on large, folded-protein-rich sequence corpora and may not optimally capture the compositional biases of LLPS-prone disordered proteins. Here, we show that a compact generative language model, with an architecture and size (∼17 M parameters) selected via systematic hyperparameter optimization and cross-validation, trained from scratch on a small set of phase-separating protein sequences, can learn sequence features associated with condensate formation. The model generates thousands of sequences that reproduce length-dependent trends in disorder, charge decoration, hydropathy patterning, and sequence entropy, with training and generative behavior stable across independent seeds. Homology analysis indicates that generated sequences are not full-length copies of known proteins, but instead combine short segments matching natural proteins with a novel, model-generated sequence. Descriptor-based screening of short generated sequences yielded a pool of disordered candidates, from which five synthetically feasible peptides were selected for experimental testing. Four of them show condensate-like signatures under near-physiological conditions, including droplet-like assemblies and increased turbidity. Coarse-grained phase-coexistence simulations of a subset of generated sequences with longer lengths show a broad range of phase-separation tendencies, with 12 of 89 sequences comparable to the strongly phase-separating hnRNPA1 low-complexity domain. These results suggest that compact, task-specific generative models can learn information-rich sequence grammars from small curated datasets and propose experimentally testable condensate-forming peptides.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "378c9013fcb9729952778541a7d2c6cc4a629c0a16b7780680867e3cf91e6f0c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67345-9",

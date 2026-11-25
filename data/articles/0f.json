@@ -1840,7 +1840,7 @@
           "name": "Santhosh Sivasubramani"
         }
       ],
-      "abstract_text": "Predicting how mutations alter antibody-antigen binding affinity is essential for antibody engineering and vaccine design, yet current methods generalize poorly to unseen complexes. We present a multi-scale machine learning framework integrating 93 descriptors across four modalities: physicochemical, structural, ESM-2 protein language model, and solvent-accessible surface area (SASA)/ΔΔ G fold features. Under leave-one-complex-out deep mutational scanning (LOCO-DMS) cross-validation on AbAgym (36,541 mutations, 68 experiments, 13 pathogens), gradient boosting achieved MCC = 0.206; a confidence-stratified ensemble reached MCC = 0.374 (83.5% accuracy, 25.5% coverage). No single modality exceeds the majority baseline alone; only multi-scale fusion succeeds. Boltzmann ceiling analysis shows 45.9% of mutations are near-neutral (|ΔΔ G | < k B T ), bounding theoretical maximum MCC at 0.473; our method achieves 79.1% of this limit. Five deep learning architectures benchmarked under LOCO-DMS showed self-attention matching gradient boosting (MCC = 0.200). Cross-pathogen transfer failed systematically (mean 46.7%), confirming universal binding predictors remain an open challenge.",
+      "abstract_text": "Predicting how mutations alter antibody-antigen binding affinity is essential for antibody engineering and vaccine design, yet current methods generalize poorly to unseen complexes. We present a multi-scale machine learning framework integrating 93 descriptors across four modalities: physicochemical, structural, ESM-2 protein language model, and solvent-accessible surface area (SASA)/ΔΔ G fold features. Under leave-one-complex-out deep mutational scanning (LOCO-DMS) cross-validation on AbAgym (36,541 mutations, 68 experiments, 13 pathogens), gradient boosting achieved MCC = 0.206; a confidence-stratified ensemble reached MCC = 0.374 (83.5% accuracy, 25.5% coverage). No single modality exceeds the majority baseline alone; only multi-scale fusion succeeds. Boltzmann ceiling analysis shows 45.9% of mutations are near-neutral (|ΔΔ G | < k B T), bounding theoretical maximum MCC at 0.473; our method achieves 79.1% of this limit. Five deep learning architectures benchmarked under LOCO-DMS showed self-attention matching gradient boosting (MCC = 0.200). Cross-pathogen transfer failed systematically (mean 46.7%), confirming universal binding predictors remain an open challenge.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -2009,7 +2009,7 @@
           "name": "D. Baker"
         }
       ],
-      "abstract_text": "Deep learning generative approaches provide an opportunity to broadly explore protein structure space beyond the sequences and structures of natural proteins. Here, we use deep network hallucination to generate a wide range of symmetric protein homo-oligomers given only a specification of the number of protomers and the protomer length. Crystal structures of seven designs are very similar to the computational models (median root mean square deviation: 0.6 angstroms), as are three cryo–electron microscopy structures of giant 10-nanometer rings with up to 1550 residues and C 33 symmetry; all differ considerably from previously solved structures. Our results highlight the rich diversity of new protein structures that can be generated using deep learning and pave the way for the design of increasingly complex components for nanomachines and biomaterials.",
+      "abstract_text": "Deep learning generative approaches provide an opportunity to broadly explore protein structure space beyond the sequences and structures of natural proteins. Here, we use deep network hallucination to generate a wide range of symmetric protein homo-oligomers given only a specification of the number of protomers and the protomer length. Crystal structures of seven designs are very similar to the computational models (median root mean square deviation: 0.6 angstroms), as are three cryo-electron microscopy structures of giant 10-nanometer rings with up to 1550 residues and C33 symmetry; all differ considerably from previously solved structures. Our results highlight the rich diversity of new protein structures that can be generated using deep learning and pave the way for the design of increasingly complex components for nanomachines and biomaterials.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -5805,6 +5805,44 @@
         }
       ],
       "abstract_text": "Repeated evolution of the same enzymatic activity represents a powerful model of determinism across diverse lineages, yet its underlying evolutionary trajectories remain poorly understood. Here we identified three 3-oxo-glutaric acid (OGA)-forming type III polyketide synthases (PKSs) from Brassicaceae plants through in vitro enzyme assays. Structure–function analysis combined with comparative genomics indicates a strong correlation between OGA- and triacetic acid lactone (TAL)-forming activities during the evolution of these PKSs. An evolutionary change in a key active-site residue enables a functional switch from TAL-forming activity to OGA-forming activity. Intriguingly, further chalcone synthase activity assays and expanded exploration of PKSs from additional plant lineages suggest that OGA-forming PKSs may have evolved repeatedly from the intrinsic TAL-forming activity of chalcone synthases in a lineage-specific manner. This evolutionary feature may help explain the recurrent emergence of OGA-forming PKSs in vascular plants and provide insight into the trajectories underlying the independent evolution of homologous isoenzymes in plants. This study suggests that 3-oxo-glutaric acid-forming polyketide synthases evolved repeatedly from the intrinsic triacetic acid lactone-forming activity of chalcone synthases through independent, lineage-specific evolutionary events.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "0ffdbba6f1a40f5e7f99cebe0cdb6ed28bac401b2f3129686c753c9f03fba570",
+      "identity_keys": [
+        "https://doi.org/10.2142/biophys.66.277",
+        "https://openalex.org/W7239407084"
+      ],
+      "title": "Seesaw Protein: Design of a Protein that Adopts Two Structurally Interconvertible Functional Conformations",
+      "link": "https://doi.org/10.2142/biophys.66.277",
+      "pdf_url": null,
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Seibutsu Butsuri",
+      "authors": [
+        {
+          "key": "ikeda toma",
+          "name": "Toma Ikeda"
+        },
+        {
+          "key": "nojima tatsuya",
+          "name": "Tatsuya Nojima"
+        },
+        {
+          "key": "hideki taguchi",
+          "name": "Hideki Taguchi"
+        }
+      ],
+      "abstract_text": null,
       "discovery_sources": [
         {
           "kind": "open_alex",

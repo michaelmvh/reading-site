@@ -1712,6 +1712,40 @@
       "curated_categories": []
     },
     {
+      "id": "3337ed6e0d587a4fd53b76f8230cd182c5ebf5e600ce8e60558434a0de3b1e9e",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.28529",
+        "https://openalex.org/W7239435974"
+      ],
+      "title": "General-purpose language models are neurosymbolic reasoners able to annotate proteins from sequence",
+      "link": "https://doi.org/10.48550/arxiv.2611.28529",
+      "pdf_url": null,
+      "publication_date": "2026-11-21",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chris mungall",
+          "name": "Chris Mungall"
+        },
+        {
+          "key": "joachimiak marcin",
+          "name": "Marcin P. Joachimiak"
+        }
+      ],
+      "abstract_text": "Determining the function of genes across the tree of life is one of the major challenges in biology. Generative AI approaches to this problem generally fall into two categories: language models trained on biological sequences that are able to predict structure and function from signals in those sequences; and generalist language models trained on text, that are able to reason about biological function symbolically. A default operating assumption is that protein language models do not perform well on symbolic tasks, and that generalist language models do not perform well on sequence tasks. However, a recent report showed that frontier generalist models perform surprisingly well on next-residue prediction tasks. We set out to explore whether these capabilities extended to protein annotation. We assigned different frontier generalist models a variety of protein annotation tasks, including predicting the presence and coordinates of Pfam domains, loss of functional catalytic residues, and predicting structure and activity. On all annotation tasks, the frontier models performed well above chance; we did not benchmark them against specialised tools. The models also make characteristic hallucination errors, and they state them as confidently as their correct calls. Though untested against specialised methods, the nascent ability of frontier models to perform protein annotation from sequence alone is intriguing. The ability to reason over sequence, structure, and symbols in a single model allows for a neurosymbolic approach where a combination of sequence, experimental data and knowledge from the literature can be holistically combined to improve on de novo functional annotation of the protein universe. Prompts, test sets, model outputs and code: https://github.com/ai4curation/fable-sequence-to-function. Summary of results: https://ai4curation.io/fable-sequence-to-function/",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "3339f190cd3cd4c10b92605154530838cffbc4f2b19b6acfbaea30b1ce9cd9bc",
       "identity_keys": [
         "doi:10.64898/2026.04.29.721096",
@@ -4647,7 +4681,7 @@
           "name": "Jay Shendure"
         }
       ],
-      "abstract_text": "Cis -regulatory elements (CREs) such as enhancers play a central role in orchestrating mammalian development, yet how they have gained, lost, maintained or changed function over the course of mammalian evolution remains poorly understood. To address this gap, we densely mapped the functional evolution of five mouse developmental enhancers by testing orthologous sequences from 480 extant and ancestrally reconstructed mammalian genomes (Zoonomia 1 , Cactus 2 ) with massively parallel reporter assays (MPRAs). This phylogenetic dissection revealed diverse modes of evolution, from lineage-restricted activity to deep functional conservation despite extensive sequence divergence. To pinpoint causal changes, we developed a model-driven reconstitution strategy that uses deep learning-based predictions of chromatin accessibility to re-introduce a succession of mutations into ancestral orthologs; this revealed critical transcription factor binding site (TFBS) changes and pervasive context-dependent epistasis, including instances where mutational effects were strongly contingent on the order of their introduction. When we extended this strategy to tune the activity of extant orthologs, we found that ablation of enhancer function required as few as one to seven mutations, whereas enhancement was constrained by element-specific activity ceilings—a striking asymmetry in the predictability of model-guided enhancer editing. Together, these results shed light on how the plasticity of mammalian enhancers intersects with their evolution, and advance a framework for reprogramming the activity of endogenous CREs at nucleotide resolution.",
+      "abstract_text": "Cis-regulatory elements (CREs) such as enhancers play a central role in orchestrating mammalian development, yet how they have gained, lost, maintained or changed function over the course of mammalian evolution remains poorly understood. To address this gap, we densely mapped the functional evolution of five mouse developmental enhancers by testing orthologous sequences from 480 extant and ancestrally reconstructed mammalian genomes (Zoonomia1, Cactus2) with massively parallel reporter assays (MPRAs). This phylogenetic dissection revealed diverse modes of evolution, from lineage-restricted activity to deep functional conservation despite extensive sequence divergence. To pinpoint causal changes, we developed a model-driven reconstitution strategy that uses deep learning-based predictions of chromatin accessibility to re-introduce a succession of mutations into ancestral orthologs; this revealed critical transcription factor binding site (TFBS) changes and pervasive context-dependent epistasis, including instances where mutational effects were strongly contingent on the order of their introduction. When we extended this strategy to tune the activity of extant orthologs, we found that ablation of enhancer function required as few as one to seven mutations, whereas enhancement was constrained by element-specific activity ceilings-a striking asymmetry in the predictability of model-guided enhancer editing. Together, these results shed light on how the plasticity of mammalian enhancers intersects with their evolution, and advance a framework for reprogramming the activity of endogenous CREs at nucleotide resolution.",
       "discovery_sources": [
         {
           "kind": "open_alex",

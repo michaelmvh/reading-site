@@ -6651,6 +6651,52 @@
       "curated_categories": []
     },
     {
+      "id": "4fff09db4dcaff229fec86befbc1f97c978460030a8fa44ca5967b75ceb8f30a",
+      "identity_keys": [
+        "https://doi.org/10.1039/d6dd00139d",
+        "https://openalex.org/W7214636109"
+      ],
+      "title": "LM2KM: feature extraction from pretrained protein and molecular language models combined with quantum mechanics (QM) features for K M predictions",
+      "link": "https://doi.org/10.1039/d6dd00139d",
+      "pdf_url": null,
+      "publication_date": "2026-10-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Digital Discovery",
+      "authors": [
+        {
+          "key": "jingchen zhai",
+          "name": "Jingchen Zhai"
+        },
+        {
+          "key": "cai lianjin",
+          "name": "Lianjin Cai"
+        },
+        {
+          "key": "niu taoyu",
+          "name": "Taoyu Niu"
+        },
+        {
+          "key": "lei xie",
+          "name": "Lei Xie"
+        },
+        {
+          "key": "junmei wang",
+          "name": "Wang Junmei"
+        }
+      ],
+      "abstract_text": "The Michaelis constant (K M) is a key parameter for characterizing enzyme-substrate interactions and plays an essential role in enzyme kinetics modeling and physiologically based pharmacokinetic (PBPK) applications. However, experimental determination of K M is labor-intensive, and existing computational prediction approaches remain limited in accuracy and scalability. In this study, we systematically evaluated pretrained protein and molecule language models for K M prediction by integrating four protein language models (PLMs) and two molecule language models (MLMs) to encode enzyme sequences and substrate structures, respectively. Principal component analysis (PCA) was applied to reduce feature dimensionality, and a wide range of representation combinations were assessed. Our results indicated that protein representations derived from the last four layers of ProtT5 using approximately 70 features, combined with 20 CLS-based molecular features from MolFormer, provided a well-balanced and efficient representation for K M prediction. In addition, the incorporation of quantum mechanics (QM) descriptors consistently improved prediction performance across all tested configurations, with the model R 2 of 0.537. In summary, this work provides a flexible and extensible framework for large-scale K M prediction, with strong potential to facilitate enzyme pathway identification, drug and lead screening, and sequence-based protein design, supporting broader applications in enzyme kinetics-driven modeling and drug development.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4fff7faecfd4dbe150b96bf996442229802d1e33d758bdb748dc03b85a6c213d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71397-w",

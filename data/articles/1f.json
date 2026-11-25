@@ -1402,7 +1402,7 @@
           "name": "Ulrich F. Keyser"
         }
       ],
-      "abstract_text": "In the rapidly evolving field of single-molecule sensing, solid-state nanopores have emerged as transformative tools for the label-free detection of biomolecules, ranging from DNA polymers to proteins. Yet, with two dominant platforms─glass nanopores and silicon nitride (SiN x ) nanopores─researchers face a pivotal choice: which architecture best unlocks superior performance? Here, we deliver a head-to-head experimental comparison under comparable experimental conditions, benchmarking noise characteristics, signal-to-noise ratios (SNRs), and translocation dynamics for DNA and protein analytes across matched nanopore sizes. Our findings reveal compelling trade-offs: glass nanopores excel in DNA sensing, achieving record SNR values of >80 in 5 nm nanopores (4 M LiCl, 50 kHz filter cutoff) due to their conical geometry that focuses electric fields. In contrast, SiN x nanopores dominate protein detection with SNR values of >120, leveraging thin membranes for enhanced current blockade from volume exclusion. Comprehensive performance metrics─including unfolded DNA fraction, backward-to-forward translocation time ratio, translocation frequency, and perturbed events─also show distinct translocation behaviors of biomolecules in the two nanopore platforms. These insights, supported by finite-element simulations, establish a mechanistic framework for nanopore selection, favoring conical glass nanopores for polymeric analytes and SiN x membrane nanopores for compact biomolecules. This work not only sets benchmarks for nanopore sensitivity but also enables the development of tailored sensors in diagnostics, sequencing, and beyond, advancing nanotechnology for high-resolution biomolecular analyses.",
+      "abstract_text": "In the rapidly evolving field of single-molecule sensing, solid-state nanopores have emerged as transformative tools for the label-free detection of biomolecules, ranging from DNA polymers to proteins. Yet, with two dominant platforms─glass nanopores and silicon nitride (SiNx) nanopores─researchers face a pivotal choice: which architecture best unlocks superior performance? Here, we deliver a head-to-head experimental comparison under comparable experimental conditions, benchmarking noise characteristics, signal-to-noise ratios (SNRs), and translocation dynamics for DNA and protein analytes across matched nanopore sizes. Our findings reveal compelling trade-offs: glass nanopores excel in DNA sensing, achieving record SNR values of >80 in 5 nm nanopores (4 M LiCl, 50 kHz filter cutoff) due to their conical geometry that focuses electric fields. In contrast, SiNx nanopores dominate protein detection with SNR values of >120, leveraging thin membranes for enhanced current blockade from volume exclusion. Comprehensive performance metrics─including unfolded DNA fraction, backward-to-forward translocation time ratio, translocation frequency, and perturbed events─also show distinct translocation behaviors of biomolecules in the two nanopore platforms. These insights, supported by finite-element simulations, establish a mechanistic framework for nanopore selection, favoring conical glass nanopores for polymeric analytes and SiNx membrane nanopores for compact biomolecules. This work not only sets benchmarks for nanopore sensitivity but also enables the development of tailored sensors in diagnostics, sequencing, and beyond, advancing nanotechnology for high-resolution biomolecular analyses.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3379,7 +3379,7 @@
           "name": "Rajeev Kumar Singh"
         }
       ],
-      "abstract_text": "Antibody engineering campaigns must prioritise variants from large combinatorial libraries under limited assay budgets. We present a Gaussian process (GP) active-learning benchmark for antibody-antigen binding affinity prediction across eight public AbBiBench assays spanning influenza hemagglutinin antibodies CR6261 and CR9114 and AAYL-series scFv libraries against the SARS-CoV-2 Spike HR2 peptide. The framework embeds variable heavy and light (VH/VL) sequences with ESM-2 650M, trains GP surrogates over compressed protein-language-model representations, and evaluates kernel, acquisition, representation, classical featurisation, and labelling-budget choices under a unified budget of 10% of each full pool with a label-blind seed and a fixed held-out evaluation split. Across the benchmark, Tanimoto+UCB has the highest mean Recall@2% point estimate among tested kernel-acquisition configurations, achieving 57.8% mean Recall@2% across five random seeds (68.3% when scored against the acquisition-eligible pool), compared with 9.6% for random selection – a gap that is significant by a paired Wilcoxon test across datasets ( p = 0.0078); its point estimate is not significantly different from RQ+UCB or Tanimoto+EI at five seeds. We adopt the continuous Tanimoto kernel of Gessner et al. (2024). The same configuration recovers the largest fractions of top binders in the influenza libraries (74.2% on 3gbn_h1 , 82.7% on 3gbn_h9 , and 84.9% on 4fqi_h3 ) while exposing harder AAYL combinatorial landscapes where recall remains lower and more variable. An additional three-seed representation ablation, run under the original protocol and not repeated after the evaluation corrections, ranked ESM-2 650M highest (mean Recall@2% 0.673 ±0.28) among ProtBert, AntiBERTy, AbLang2, ProGen2, and classical encodings. On BindingGYM, the same configuration matches or exceeds ALLM-Ab on two of three datasets using the 100-sample held-out test metric. Structure-mapped Integrated Gradients and KernelSHAP analyses recover CDR-region attribution patterns consistent with contact-derived paratope geometry, though threshold-free (AUROC) analysis shows this qualitative agreement is not matched by strong residue-level discrimination. These results support Tanimoto-kernel GP active learning as a simple, reproducible strategy for label-efficient antibody affinity optimisation with qualitative structural validation.",
+      "abstract_text": "Antibody engineering campaigns must prioritise variants from large combinatorial libraries under limited assay budgets. We present a Gaussian process (GP) active-learning benchmark for antibody-antigen binding affinity prediction across eight public AbBiBench assays spanning influenza hemagglutinin antibodies CR6261 and CR9114 and AAYL-series scFv libraries against the SARS-CoV-2 Spike HR2 peptide. The framework embeds variable heavy and light (VH/VL) sequences with ESM-2 650M, trains GP surrogates over compressed protein-language-model representations, and evaluates kernel, acquisition, representation, classical featurisation, and labelling-budget choices under a unified budget of 10% of each full pool with a label-blind seed and a fixed held-out evaluation split. Across the benchmark, Tanimoto+UCB has the highest mean Recall@2% point estimate among tested kernel-acquisition configurations, achieving 57.8% mean Recall@2% across five random seeds (68.3% when scored against the acquisition-eligible pool), compared with 9.6% for random selection – a gap that is significant by a paired Wilcoxon test across datasets (p = 0.0078); its point estimate is not significantly different from RQ+UCB or Tanimoto+EI at five seeds. We adopt the continuous Tanimoto kernel of Gessner et al. (2024). The same configuration recovers the largest fractions of top binders in the influenza libraries (74.2% on 3gbn_h1, 82.7% on 3gbn_h9, and 84.9% on 4fqi_h3) while exposing harder AAYL combinatorial landscapes where recall remains lower and more variable. An additional three-seed representation ablation, run under the original protocol and not repeated after the evaluation corrections, ranked ESM-2 650M highest (mean Recall@2% 0.673 ±0.28) among ProtBert, AntiBERTy, AbLang2, ProGen2, and classical encodings. On BindingGYM, the same configuration matches or exceeds ALLM-Ab on two of three datasets using the 100-sample held-out test metric. Structure-mapped Integrated Gradients and KernelSHAP analyses recover CDR-region attribution patterns consistent with contact-derived paratope geometry, though threshold-free (AUROC) analysis shows this qualitative agreement is not matched by strong residue-level discrimination. These results support Tanimoto-kernel GP active learning as a simple, reproducible strategy for label-efficient antibody affinity optimisation with qualitative structural validation.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5664,6 +5664,52 @@
         "3. Function to Scaffold",
         "3.6 Flow-based"
       ]
+    },
+    {
+      "id": "1fff803d9ac66be4982ad87f5a437c2f6396457f2f1f4b90d6485e2c83e7a1f0",
+      "identity_keys": [
+        "https://doi.org/10.13345/j.cjb.260113",
+        "https://openalex.org/W7171736758"
+      ],
+      "title": "High-purity production of native-conformation sweet protein thaumatin via cell factory fermentation and specific enzymatic cleavage",
+      "link": "https://doi.org/10.13345/j.cjb.260113",
+      "pdf_url": null,
+      "publication_date": "2026-07-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "PubMed",
+      "authors": [
+        {
+          "key": "qinan shao",
+          "name": "Qinan Shao"
+        },
+        {
+          "key": "xiang yulong",
+          "name": "Yulong Xiang"
+        },
+        {
+          "key": "nan sun ya",
+          "name": "Ya'nan Sun"
+        },
+        {
+          "key": "hui tao",
+          "name": "Tao Hui"
+        },
+        {
+          "key": "wang yang",
+          "name": "Yang Wang"
+        }
+      ],
+      "abstract_text": "Thaumatin is a natural sweet-tasting protein derived from the plant Thaumatococcus daniellii, renowned for its high sweetness intensity, low caloric value, and favorable thermal and pH stability. As it can be degraded into natural amino acids, thaumatin represents a potentially safer alternative sweetener. However, plant-based extraction of this protein is constrained by low endogenous content, as well as geographical and seasonal limitations. Meanwhile, existing microbial cell factories often struggle to simultaneously achieve high expression levels and ensure high product purity with natural conformation. To address this bottleneck, this study designed and constructed a thaumatin precursor protein (pThaumatin) incorporating an affinity purification tag and a traceless cleavage site. Using Pichia pastoris as the expression host, the folding and secretory expression efficiency of this precursor protein was enhanced through engineering of the protein folding and secretion pathways in the cell factory, combined with fed-batch fermentation. Following affinity chromatography purification, 126 mg of high-purity thaumatin precursor protein was obtained per liter of fermentation broth. Subsequent downstream processing using residue-free protease cleavage enabled the removal of the fusion tag, yielding mature thaumatin (mThaumatin) with a sequence identical to that of the native protein, achieving a conversion efficiency of nearly 100%. The resulting protein exhibited secondary structure consistent with that of native thaumatin. Circular dichroism spectroscopy revealed that the thaumatin protein released by enzymatic cleavage exhibited high consistency in secondary structure with native thaumatin. Preliminary sensory evaluation confirmed that the protein displayed a pronounced sweet taste, indicating function integrity. This study establishes a technical pipeline encompassing \"precursor protein design-cell factory secretory expression-traceless enzymatic post-processing\" for the production of high-purity, native-conformation thaumatin via microbial fermentation. This study provides a reference for achieving high-purity expression and the restoration of the native conformation of sweet-tasting proteins.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
     }
   ]
 }

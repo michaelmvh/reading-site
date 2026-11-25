@@ -1880,7 +1880,7 @@
           "name": "Rohit Singh"
         }
       ],
-      "abstract_text": "Proteins have evolved over billions of years through coordinated substitutions, insertions and deletions, yet computational protein design cannot fully replicate nature’s ability to engineer new proteins from existing templates. Protein language models1–3 generate informative per-residue representations, but harnessing them for large-scale, function-preserving sequence modifications has remained beyond reach. Here we introduce Raygun, a generative artificial intelligence framework that enables miniaturization, modification and augmentation of proteins, using a probabilistic encoding of protein sequences constructed from language model embeddings. Our key conceptual advance is to encode each protein not as a sequence of variable length in high-dimensional space, but as a probability distribution in fixed dimensions, making proteins of any length directly commensurable. Controlled by just two parameters governing substitutions and length changes, Raygun can shrink proteins by 10–25% (sometimes more than 50%), expand them beyond their natural size, and introduce extensive sequence diversity, all while preserving predicted structural integrity and functional sites. In cell-based validation, Raygun miniaturized fluorescent proteins (2 shorter than 96% of fluorescent proteins in FPbase) and TurboID, a synthetic biotin ligase that has been widely adopted for proteomics. It also expanded epidermal growth factor (EGF), generating variants with higher EGFR-binding affinity than the wild type. These results show that protein function can be faithfully captured in a length-agnostic representation, enabling the kind of coordinated, large-scale sequence modifications that characterize natural protein evolution. Probabilistic sequence encoding from language model embeddings within a generative AI framework enables protein miniaturization, modification and augmentation while maintaining native architecture and functional integrity.",
+      "abstract_text": "Proteins have evolved over billions of years through coordinated substitutions, insertions and deletions, yet computational protein design cannot fully replicate nature's ability to engineer new proteins from existing templates. Protein language models1-3 generate informative per-residue representations, but harnessing them for large-scale, function-preserving sequence modifications has remained beyond reach. Here we introduce Raygun, a generative artificial intelligence framework that enables miniaturization, modification and augmentation of proteins, using a probabilistic encoding of protein sequences constructed from language model embeddings. Our key conceptual advance is to encode each protein not as a sequence of variable length in high-dimensional space, but as a probability distribution in fixed dimensions, making proteins of any length directly commensurable. Controlled by just two parameters governing substitutions and length changes, Raygun can shrink proteins by 10-25% (sometimes more than 50%), expand them beyond their natural size, and introduce extensive sequence diversity, all while preserving predicted structural integrity and functional sites. In cell-based validation, Raygun miniaturized fluorescent proteins (2 shorter than 96% of fluorescent proteins in FPbase) and TurboID, a synthetic biotin ligase that has been widely adopted for proteomics. It also expanded epidermal growth factor (EGF), generating variants with higher EGFR-binding affinity than the wild type. These results show that protein function can be faithfully captured in a length-agnostic representation, enabling the kind of coordinated, large-scale sequence modifications that characterize natural protein evolution.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -3555,6 +3555,52 @@
         }
       ],
       "abstract_text": "Annual vaccination is an effective strategy for preventing severe disease caused by seasonal influenza. Quadrivalent influenza vaccines (QIVs) protect against two strains of influenza A and two strains of influenza B, thereby enhancing the host antiviral neutralizing antibody response and inducing CD4+ and CD8+ T cell responses. Here, we report findings from a randomized, double-blind, active-controlled phase 3 clinical trial (NCT05431725) that includes 334 healthy adults aged 18–64 years and evaluates the humoral and cellular antiviral immune responses induced by two inactivated QIVs, Sinovac-QIV and Vaxigrip-Tetra™. The primary endpoint of the study is the specific antibody responses measured by hemagglutination inhibition (HAI) assays 28 days post-vaccination, while the secondary endpoint is virus-specific T cell responses. Both QIVs elicit significant increases in antibody titers 28 days after vaccination; Sinovac-QIV induces 9–10-fold increases in geometric mean titers, while Vaxigrip-Tetra™ elicits 7–8-fold increases (p < 0.05). Cellular immune responses using ELISPOT and supervised and unsupervised flow cytometry analyses show that both vaccines modulate the frequency of hemagglutinin-specific CD4+ and CD8+ T cell subsets, inducing distinct T cell response profiles. Although cellular analyses are evaluated in a subgroup of the cohort, the data indicate that both QIVs induce robust humoral and cellular immunity in adults, providing mechanistic insights into vaccine-induced protection. The authors report a trial subset analysis of the immune responses induced by two inactivated quadrivalent influenza vaccines (QIVs): Sinovac QIV and Vaxigrip-Tetra™. Both vaccines elicit robust humoral responses and distinct T cell profiles.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "d873bc854b6d5de4beb8f759ec3c49225d561962d5212572e22b0f8042a9b514",
+      "identity_keys": [
+        "https://doi.org/10.64898/2026.11.22.768453",
+        "https://openalex.org/W7239435539"
+      ],
+      "title": "GinsengMind: An evidence-grounded AI research agent for integrative molecular research in Panax ginseng",
+      "link": "https://doi.org/10.64898/2026.11.22.768453",
+      "pdf_url": null,
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        {
+          "key": "tong yuru",
+          "name": "Yuru Tong"
+        },
+        {
+          "key": "rong zhang",
+          "name": "Rong Zhang"
+        },
+        {
+          "key": "chuanzhi kang",
+          "name": "Chuanzhi Kang"
+        },
+        {
+          "key": "chang zeqian",
+          "name": "Zeqian Chang"
+        },
+        {
+          "key": "chen kang",
+          "name": "Kang Chen"
+        }
+      ],
+      "abstract_text": "Panax ginseng C. A. Meyer is one of the most extensively studied medicinal plants, with substantial pharmaceutical and economic importance owing to its diverse bioactive constituents, particularly ginsenosides. Despite considerable advances in ginseng molecular research, the fragmentation of genomic, transcriptomic, protein structural, and biochemical information remains a major challenge for investigating gene function and specialized metabolism. Here, we developed GinsengMind (https://ginsengai.nrc.ac.cn), an evidence-grounded AI research agent that integrates species-specific molecular knowledge with large language model (LLM)-guided tool orchestration and structured retrieval-augmented generation. Built upon the telomere-to-telomere reference genome of P. ginseng, GinsengMind integrates 77,266 genes, 154,754 transcripts, and 77,266 protein records. Comprehensive functional annotation using Swiss-Prot, eggNOG, and InterProScan covered 97.00% of the 76,947 quality-controlled proteins. The platform further incorporates 71,046 ESMFold-predicted protein structures, 7,263,004 gene expression records across 94 RNA-seq samples, and 4,813 bibliographic records. Six specialized research tools enable autonomous evidence retrieval and source-linked scientific interpretation through natural-language interaction. To evaluate its performance, we established GinsengBench, comprising 50 curated questions across six research categories. In a blinded evaluation by three experts, GinsengMind achieved a mean weighted composite score of 96.18 across ten core questions, substantially exceeding GLM-5.3 without database access (23.24; mean paired difference, 72.94; 95% confidence interval, 65.19-79.87). Across five shared questions, GinsengMind outperformed nine general-purpose LLMs on average and achieved a score (96.56) close to that of GLM-5.3 supplied with predefined evidence packages (96.88), highlighting the importance of domain-specific knowledge and autonomous evidence retrieval. A case study of the ginsenoside biosynthetic enzyme PgUGT94Q2 further illustrates how integrated molecular evidence can reveal unresolved biological relationships and identify priorities for subsequent experimental investigation. Beyond conventional database querying, GinsengMind provides a foundation for exploring potential biological associations, prioritizing candidate biosynthetic genes, and formulating experimentally testable hypotheses. We anticipate that GinsengMind will facilitate research on medicinal plant specialized metabolism, natural product biosynthesis, enzyme discovery and engineering, and synthetic biology, while offering an adaptable framework for developing domain-specialized AI research agents across other medicinal plants and scientific disciplines.",
       "discovery_sources": [
         {
           "kind": "open_alex",

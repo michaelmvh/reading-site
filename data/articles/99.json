@@ -1365,6 +1365,60 @@
       "curated_categories": []
     },
     {
+      "id": "993d7fe8f99f977150347b228dd2abb1ec74f3789594dbc56a4116d82a2b62a8",
+      "identity_keys": [
+        "https://doi.org/10.1039/d6sc01451h",
+        "https://openalex.org/W7161061867"
+      ],
+      "title": "Site-specific post-translational modification detection by polar charged engineered MspA nanopores",
+      "link": "https://doi.org/10.1039/d6sc01451h",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2026/sc/d6sc01451h",
+      "publication_date": "2026-07-02",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Chemical Science",
+      "authors": [
+        {
+          "key": "lin shijun",
+          "name": "Shijun Lin"
+        },
+        {
+          "key": "yakun yi",
+          "name": "Yakun Yi"
+        },
+        {
+          "key": "liu yiheng",
+          "name": "Yiheng Liu"
+        },
+        {
+          "key": "li minglun",
+          "name": "Minglun Li"
+        },
+        {
+          "key": "fan xia",
+          "name": "Fan Xia"
+        },
+        {
+          "key": "chen hai wu",
+          "name": "Hai‐Chen Wu"
+        },
+        {
+          "key": "lou xiaoding",
+          "name": "Xiaoding Lou"
+        }
+      ],
+      "abstract_text": "Deciphering the complex chemical code of post-translational modifications (PTMs) is fundamental to proteomics but remains challenging due to the low abundance of modified proteins and the difficulty in resolving isobaric positional isomers. Conventional mass spectrometry and affinity-based methods often lack the sensitivity or specificity required to capture this full chemical diversity. Here, we present a general strategy for site-specific PTM recognition based on MspA nanopores engineered with polar charged residues. By systematically tuning the constriction site (position N91) with polar charged residues, we introduced specific electrostatic, electroosmotic flow and steric interactions that dramatically enhance molecular recognition capabilities. This engineered interface enabled the label-free discrimination of 10 distinct PTM types across 26 peptides, including phosphorylation, glycosylation, and-reported here for the first time via nanopore sensing-lysine crotonylation and succinylation. Furthermore, the nanopore is capable of distinguishing subtle positional isomers. Coupled with a machine learning algorithm that classifies single-molecule events with >98% accuracy, our findings establish a generalizable principle of electrostatic gating for PTM profiling, offering a versatile chemical tool for next-generation single-molecule proteomics.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "9941ddc23b4723e964e7a76971187e1aa734d553b1d1655c3da8d41fddb278d9",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75619-z",
@@ -3444,7 +3498,7 @@
           "name": "Fajie Yuan"
         }
       ],
-      "abstract_text": "Large-scale protein language models (PLMs), such as the ESM family, have achieved remarkable performance in various downstream tasks related to protein structure and function by undergoing unsupervised training on residue sequences. They have become essential tools for researchers and practitioners in biology. However, a limitation of vanilla PLMs is their lack of explicit consideration for protein structure information, which suggests the potential for further improvement. Motivated by this, we introduce the concept of a “ s tructure- a ware vocabulary” that integrates residue tokens with structure tokens. The structure tokens are derived by encoding the 3D structure of proteins using Foldseek. We then propose SaProt, a large-scale general-purpose PLM trained on an extensive dataset comprising approximately 40 million protein sequences and structures. Through extensive evaluation, our SaProt model surpasses well-established and renowned baselines across 10 significant downstream tasks, demonstrating its exceptional capacity and broad applicability. We have made the code 1 , pre-trained model, and all relevant materials available at https://github.com/westlake-repl/SaProt .",
+      "abstract_text": "Large-scale protein language models (PLMs), such as the ESM family, have achieved remarkable performance in various downstream tasks related to protein structure and function by undergoing unsupervised training on residue sequences. They have become essential tools for researchers and practitioners in biology. However, a limitation of vanilla PLMs is their lack of explicit consideration for protein structure information, which suggests the potential for further improvement. Motivated by this, we introduce the concept of a “ s tructure- a ware vocabulary” that integrates residue tokens with structure tokens. The structure tokens are derived by encoding the 3D structure of proteins using Foldseek. We then propose SaProt, a large-scale general-purpose PLM trained on an extensive dataset comprising approximately 40 million protein sequences and structures. Through extensive evaluation, our SaProt model surpasses well-established and renowned baselines across 10 significant downstream tasks, demonstrating its exceptional capacity and broad applicability. We have made the code 1, pre-trained model, and all relevant materials available at https://github.com/westlake-repl/SaProt.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
