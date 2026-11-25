@@ -6982,6 +6982,49 @@
       "curated_categories": []
     },
     {
+      "id": "f3ee76670d7afef910886c45da68f928971ddc0646185d505e4cb675ad1d38db",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768775v1",
+        "https://doi.org/10.64898/2026.11.23.768775",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768775.source.xml"
+      ],
+      "title": "BRIDGE: Backbone Representation for Inverse-folding-Driven Generalizable RNA Encoding",
+      "link": "https://doi.org/10.64898/2026.11.23.768775",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768775v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "song",
+          "name": "Song, J"
+        },
+        {
+          "key": "ko",
+          "name": "Ko, J"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, J"
+        },
+        {
+          "key": "shin",
+          "name": "Shin, W.-H"
+        }
+      ],
+      "abstract_text": "RNA recognizes small molecules and proteins through their three dimensional structures, but sparse functional annotations limit task specific learning of transferable structural features. We present BRIDGE, an inverse-folding encoder pretrained on 2,501 RNA chain records from experimental structures. Each nucleotide is represented by its phosphorus atom and five ribose atoms (P, C1', C2', C3', C4', O4'). Base coordinates are not encoder inputs. From these atoms, the encoder is trained to predict nucleotide identity, solvent accessible surface area (SASA) and base geometry. With matched readouts, frozen BRIDGE representations reach a three-model ensemble pooled average precision (AP) of 0.627 for external ligand-binding site prediction and 0.647 for RNA-protein interface prediction, compared with 0.503 and 0.516 for frozen, randomly initialized encoders. Under the evaluated full-adaptation recipes, pretrained initialization reaches AP 0.703 for ligand binding and 0.641 for protein interfaces, versus 0.635 and 0.623 for training from scratch. Sequence-only pretraining, without SASA or base-geometry targets, also transfers to both tasks. Whether the base-geometry objectives add further value depends on the task and adaptation mode. In decoy ranking and apo/holo evaluations, transfer depends on the readout and the test set, and small target panels and downstream training overlap in the apo/holo evaluation limit broader conclusions. These results support inverse-folding pretraining as a route to transferable RNA structural representations that do not require observed base coordinates at inference.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f3fcb24e9e6823c53fa24a4df2f8ae44d3598423952688ac0b6d492021288f70",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67280-9",

@@ -5203,6 +5203,49 @@
       "curated_categories": []
     },
     {
+      "id": "12b7f86866284de980a6d18073647b9462b13f6b1a14d4896a9764bbe539b81a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768888v1",
+        "https://doi.org/10.64898/2026.11.24.768888",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768888.source.xml"
+      ],
+      "title": "CyteArc: in-place analysis and reuse of remote atlases at 100-million-cell scale",
+      "link": "https://doi.org/10.64898/2026.11.24.768888",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768888v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ahuja",
+          "name": "Ahuja, G"
+        },
+        {
+          "key": "viniak",
+          "name": "Viniak, S"
+        },
+        {
+          "key": "su",
+          "name": "Su, Y"
+        },
+        {
+          "key": "dhapola",
+          "name": "Dhapola, P"
+        }
+      ],
+      "abstract_text": "Public repositories hold hundreds of millions of single-cell profiles, yet analyzing them still requires downloading full files. We present CyteArc, a framework that analyzes remote atlases in place, scaling to nearly 100 million cells on standard CPUs faster than benchmarked workflows, with the lowest memory from 10 million cells upward. Without copying counts, CyteArc integrates millions of cells across studies using 1% to 4% of the disk space of other tools. CyteArc saves every step with full provenance, keeping analyses reproducible and letting researchers branch without rerunning upstream stages. Because those saved steps stay linked, completed cloud atlases act as live references, annotating new datasets without exporting reference files. Using CyteBase, an open cloud repository of over 160 million single-cell and spatial profiles in CyteArc format, we screen over 30 million blood cells across cohorts in minutes and identify rare circulating progenitors whose expansion tracks COVID-19 severity.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "12b881c6418cb7ec5743984c12be79d5f2903e9ef85bed7a96f58c19788d0e0e",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02128-w",

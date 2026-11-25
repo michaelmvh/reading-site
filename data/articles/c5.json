@@ -1399,21 +1399,19 @@
       "id": "c54d3c5fcdbe4a54b28aff00f564fc63567389dd682a2139605b5fde2d2185b0",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.23.768697v1",
+        "biorxiv:10.64898/2026.11.23.768697v2",
         "https://doi.org/10.64898/2026.11.23.768697",
-        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768697.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768697.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.23.768697.source.xml"
       ],
-      "title": "ELLA-mix: Detecting Cell-to-Cell Heterogeneity in Subcellular RNALocalization",
+      "title": "ELLA-mix: Detecting Cell-to-Cell Heterogeneity in Subcellular RNA Localization",
       "link": "https://doi.org/10.64898/2026.11.23.768697",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768697v1.full.pdf",
-      "publication_date": "2026-11-24",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768697v2.full.pdf",
+      "publication_date": "2026-11-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
       "authors": [
-        {
-          "key": "wang",
-          "name": "Wang, J"
-        },
         {
           "key": "bandreddi",
           "name": "Bandreddi, A"
@@ -1421,6 +1419,10 @@
         {
           "key": "bruce",
           "name": "Bruce, S. A"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
         }
       ],
       "abstract_text": "Subcellular RNA localization can differ between cells expressing the same gene, yet most analyses summarize transcript positions with a single gene-level pattern. We propose ELLA-mix, a finite mixture model for identifying cell subpopulations with distinct radial localization patterns from imaging-based spatial transcriptomics data. Transcript positions are normalized relative to the cell boundary and modeled using flexible spline densities within a count-conditioned nonhomogeneous Poisson process framework. Conditioning on each cell's transcript count separates differences in localization from differences in abundance. We estimate component densities and cell memberships using an expectation-maximization algorithm and select the number of patterns using the Bayesian information criterion, restricting consideration to models with stable cell assignments and sufficiently distinct components. Simulation studies evaluated the type I error and power of the test for nonuniform localization, as well as the accuracy of selecting the number of mixture components and estimating their radial distributions. ELLA-mix correctly selected the number of components in most simulated settings. In seqFISH+ mouse fibroblasts, ELLA-mix identified distinct cell subpopulations for genes previously assigned a single localization class; genes showing such variation were enriched for endoplasmic reticulum and extracellular matrix functions. In Xenium ovarian cancer tissue, more peripheral localization patterns were associated with higher proportions of proliferating cells, particularly in S phase. These results show how modeling cell-to-cell variation can reveal localization patterns and biological associations obscured by gene-level summaries.",

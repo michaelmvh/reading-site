@@ -3515,6 +3515,57 @@
       "curated_categories": []
     },
     {
+      "id": "5197731ac7343743e5d6c6cc82dee2295d9b083fc6fd19be611c7b8a1160b999",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768923v1",
+        "https://doi.org/10.64898/2026.11.24.768923",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768923.source.xml"
+      ],
+      "title": "A method to disentangle enhancer-gene interactions from latent factors in single-cell multi-omics data",
+      "link": "https://doi.org/10.64898/2026.11.24.768923",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768923v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "nguyen",
+          "name": "Nguyen, N. D"
+        },
+        {
+          "key": "mcnulty",
+          "name": "McNulty, M. T"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, G"
+        },
+        {
+          "key": "han",
+          "name": "Han, S. K"
+        },
+        {
+          "key": "sampson",
+          "name": "Sampson, M. G"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, D"
+        }
+      ],
+      "abstract_text": "Mapping regulatory elements to their target genes in the cell types relevant to disease is essential for interpreting non-coding variants identified by genome-wide association studies. Single-cell multiome data, which simultaneously measure accessible chromatin and gene expression per cell, allow such peak-gene links to be inferred within individual cell types. However, shared technical and biological variation across genes and peaks, such as cell cycle, cell quality, and inter-sample differences, creates spurious links, while including sample covariates to control for this variation inadvertently removes true genotype-driven links. To address this trade-off, we developed CREMAP (Covariance-of-Residuals-based Enhancer-gene Mapping), a statistical method that estimates shared variation as latent factors from the data and adjusts for them before testing each peak-gene pair. Using CRISPRi perturbation experiments and fine-mapped eQTLs as validation benchmarks, we demonstrate that CREMAP improves the accuracy of inferred peak-gene links compared with existing methods across two cell lines and 13 cell types from human bone marrow, brain, and kidney. In kidney proximal tubule cells, CREMAP retains eQTL-supported and allele-specific links that standard approaches miss when samples are included as covariates. Furthermore, its latent factors capture previously unrecognized global signatures, including a tubular injury program. CREMAP thus enables accurate cell-type-specific peak-gene mapping from single-cell multiome data while preserving genuine genetic regulatory effects.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "519ae082f0b8cc62a051d6e5977aed5ace80e0d3ddd41ce8a9c60ac3723bc5ac",
       "identity_keys": [
         "https://doi.org/10.48550/arxiv.2611.05055",
@@ -3822,6 +3873,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "51a006cb476eaa900d26f9deb16d36d794ae6c1b76ebaa3dba51b46196bad4b9",
+      "identity_keys": [
+        "biorxiv:10.1101/2025.06.26.661631v2",
+        "https://doi.org/10.1101/2025.06.26.661631",
+        "https://www.biorxiv.org/content/early/2026/11/24/2025.06.26.661631.source.xml"
+      ],
+      "title": "TIMPANI: Target-Informed Pretraining for Retention-Time Prediction across Chromatographic Conditions",
+      "link": "https://doi.org/10.1101/2025.06.26.661631",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.26.661631v2.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hong",
+          "name": "Hong, Y"
+        },
+        {
+          "key": "tang",
+          "name": "Tang, H"
+        }
+      ],
+      "abstract_text": "Retention time (RT) in liquid chromatography is a key signal for small-molecule identification, yet effective modeling remains challenging because each chromatographic condition contains only a limited number of labeled compounds, and retention orders substantially differ across conditions, resulting in poor cross-condition transfer. To investigate transferability, we first show that transfer performance is governed primarily by the distance between chromatographic conditions rather than by molecular overlap (Pearson r = -0.65 vs. -0.14). Because well-labeled conditions are rarely close to a given target, single-source transfer is unreliable, motivating a pre-training strategy that aggregates data across diverse conditions while adaptively emphasizing those most similar to the target. Guided by this insight, we present TIMPANI (Target-Informed Pretraining). Unlike conventional transfer learning or meta-learning, where the target remains unseen until adaptation, TIMPANI assumes that a small set of measurements from the target condition is available during pre-training. It meta-learns an initialization across upstream conditions, using these measurements to anchor pre-training and steer the pool toward the conditions most relevant to the target, before fine-tuning with the encoder frozen. On data-scarce conditions where conventional transfer learning performs poorly, TIMPANI significantly improves prediction accuracy over it (mean R2 from 0.60 to 0.68, p = 0.02), while three recent RT baselines fail to converge in this low-data regime. Across all 36 eligible RepoRT datasets, it is no worse than conventional transfer learning on average (R2 0.84 vs. 0.83), with the gains concentrated on such difficult conditions. Without per-dataset chromatographic metadata (only the RP/HILIC mode label selects the source pool), it performs comparably to the only stable external baseline, a recent metadata-conditioned graph transformer. Our controls attribute this result to target fine-tuning, which compensates for the missing metadata. TIMPANI thus makes accurate, condition-specific RT prediction practical for laboratories with only a small in-house dataset, exploiting abundant public RT data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

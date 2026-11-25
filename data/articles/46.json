@@ -2,6 +2,57 @@
   "schema_version": 1,
   "articles": [
     {
+      "id": "4606a4e5cdd807e0343310d53ba2ae8a40b46e6af4a096dca466aa324674390a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768864v1",
+        "https://doi.org/10.64898/2026.11.24.768864",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768864.source.xml"
+      ],
+      "title": "RNAhub2: prefiltering and compression enable scalable structure-based RNA discovery",
+      "link": "https://doi.org/10.64898/2026.11.24.768864",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768864v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kilar",
+          "name": "Kilar, A. M"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, W"
+        },
+        {
+          "key": "dutta",
+          "name": "Dutta, N"
+        },
+        {
+          "key": "magnus",
+          "name": "Magnus, M"
+        },
+        {
+          "key": "vicens",
+          "name": "Vicens, Q"
+        },
+        {
+          "key": "rivas",
+          "name": "Rivas, E"
+        }
+      ],
+      "abstract_text": "RNAhub is an established web server for structure-agnostic RNA homology search that builds multiple sequence alignments with nhmmer and performs downstream structural covariation analysis with R-scape and CaCoFold. RNAhub is efficiently applied to smaller genomes, including viruses, bacteria, and fungi. However, searches against large eukaryotic genomes remain computationally expensive, and genome storage requirements currently limit its taxonomic coverage, thereby reducing the opportunities to identify novel structural RNAs. Here, we present RNAhub2 which introduces three key advances to address those limitations: (i) query-adapted pre-filtering that creates a reduced query specific search database prior to iterative alignment construction; (ii) parallelized genome-level searches with job resumption; (iii) Nucleotide Archival Format (NAF) compression of genomes, reducing storage by approximately 4.2 fold and enabling the addition of nearly 5,000 species across major eukaryotic kingdoms within the original storage quota without increasing computation time. These combined updates yield significantly improved runtimes and comparable or stronger covariation signal. RNAhub2 is now scalable for eukaryotic comparative RNA searches without sacrificing sensitivity. The web server is freely available at https://rnahub.org.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4606c69cece09d4b464e1de839fe7721bdb9a66a964d501ddacb09c232c15a67",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-71204-6",

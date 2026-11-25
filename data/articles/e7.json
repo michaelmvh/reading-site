@@ -4291,6 +4291,45 @@
       "curated_categories": []
     },
     {
+      "id": "e7d36485ebabf717cbbfc47d5339d83a10f48c240c01747744b55ccef255e4d4",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768929v1",
+        "https://doi.org/10.64898/2026.11.24.768929",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768929.source.xml"
+      ],
+      "title": "Phirefly: hierarchical quantum haplotype phasing at the chromosome scale",
+      "link": "https://doi.org/10.64898/2026.11.24.768929",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768929v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "le",
+          "name": "Le, M. K"
+        },
+        {
+          "key": "li",
+          "name": "Li, H"
+        }
+      ],
+      "abstract_text": "Motivation: Read-based phasing links alleles on the same homologous haplotype. It plays a critical role in long-read variant calling and variant analysis. Many phasing algorithms have been developed. This includes QHap, the only quantum-inspired algorithm for read-based phasing. QHap does not run on quantum hardware due to the scale of the practical problems. Results: We developed Phirefly, the first practical quantum algorithm for read-based phasing with the key phasing step executed on quantum hardware. Phirefly uses a CPU-based algorithm to identify small disjoint groups of SNPs linked by strong, consistent read support. These groups are called phaselets and are easy to phase. To phase across phaselets, which is harder due to weak or conflicting read support, Phirefly locks the relative SNP phases within each phaselet and applies a quantum algorithm, effectively treating each phaselet as one heterozygous variant. Phirefly runs on physical quantum computers from D-Wave and IBM, as well as with a quantum-inspired classical solver using CPU or GPU. It achieves broadly comparable accuracy to QHap and mainstream phasing algorithms on HG002 datasets. Availability and implementation: https://github.com/wangyf1125/Phirefly",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e7d5c3ace98ebb448fec7bde96692fec1103eaf8a552dade567a432d1a846c68",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67718-0",

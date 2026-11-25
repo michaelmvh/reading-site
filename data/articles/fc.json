@@ -1996,6 +1996,45 @@
       "curated_categories": []
     },
     {
+      "id": "fc5a9e7dc65579dddcd20825adad254f785326e80848954248c4282d3d56ce07",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768817v1",
+        "https://doi.org/10.64898/2026.11.24.768817",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.24.768817.source.xml"
+      ],
+      "title": "VenusPheno: Transfer-Guided Task Grouping for Multi-Task Bacterial Phenotype Prediction",
+      "link": "https://doi.org/10.64898/2026.11.24.768817",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768817v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "yuan",
+          "name": "Yuan, J"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, B"
+        },
+        {
+          "key": "hong",
+          "name": "Hong, L"
+        }
+      ],
+      "abstract_text": "Understanding how genomic information gives rise to bacterial phenotypes is a fundamental problem in biology. Genome-level prediction requires models that integrate information from thousands of proteins, while related phenotypes may share genomic signals. However, not all phenotype tasks benefit from being learned together, and suitable task groups can be difficult to define from biological knowledge alone. We present VenusPheno, a framework that combines multiple-instance learning over pretrained ProtT5 protein embeddings with transfer-guided multi-task learning. An attention-based Set Transformer aggregates the proteins in each genome into a genome-level representation. We evaluate VenusPheno on 14 binary phenotype tasks from 12,178 bacterial genomes using genus-disjoint splits. Under single-task training, VenusPheno outperforms computational, conventional machine-learning, and deep-learning baselines in terms of mean balanced accuracy. We then use leave-one-task-out analysis to estimate directed transfer relationship between phenotypes, revealing both beneficial and detrimental interactions. Grouping tasks based on these transfer relationships further improves mean balanced accuracy over independent training and joint training of all tasks. Although inferred without biological priors, the resulting groups are consistent with biologically plausible relationships among phenotypes. VenusPheno therefore combines accurate phenotype prediction with a data-driven strategy for determining which tasks should be learned together. The PyTorch implementation is publicly available at https://github.com/YJinling/VenusPheno.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "fc6149ffe1d06f4067992f645c48651b419b9cfd92b36c9d2fec677c1a2253ae",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-72323-w",

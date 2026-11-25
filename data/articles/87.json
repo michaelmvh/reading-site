@@ -394,6 +394,44 @@
       "curated_categories": []
     },
     {
+      "id": "870b3eb10de792acc233cd810f1ecf998aa9bc93b760120f748900eb8c7c877d",
+      "identity_keys": [
+        "arxiv:2611.32371",
+        "https://doi.org/10.48550/arXiv.2611.32371"
+      ],
+      "title": "A Description-Derived Drug-Drug Interaction Benchmark Reveals Split-Dependent Molecular Representation Rankings",
+      "link": "https://doi.org/10.48550/arXiv.2611.32371",
+      "pdf_url": "https://arxiv.org/pdf/2611.32371v1",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "gil manel sorribes",
+          "name": "Manel Gil-Sorribes"
+        },
+        {
+          "key": "filella isaac merce",
+          "name": "Isaac Filella-Merce"
+        },
+        {
+          "key": "alexis molina",
+          "name": "Alexis Molina"
+        }
+      ],
+      "abstract_text": "Drug-drug interaction (DDI) prediction is clinically important and poses a distinct challenge for molecular representation learning. Unlike single-molecule property prediction, DDI requires a predictor to compose two molecular representations into a relational outcome. DrugBank provides curator-authored DDI descriptions rather than ready-made categorical labels, so a categorical prediction target must first be derived from the text. We construct a dataset of DDI pairs by mapping processed descriptions to six text-derived categories and define a benchmark with four holdout regimes that restrict train-test chemical overlap from random pairs to scaffold-disjoint evaluation. We then use this benchmark to compare molecular fingerprints, pretrained sequence representations, and graph-derived features across five seeds and multiple classifier heads. Molecular fingerprints lead the high- overlap random split, whereas graph-derived representations lead the drug- and scaffold-holdout regimes, with the gap increasing as molecular overlap is restricted. Changing the classifier head affects absolute performance but not the relative representation ranking. These results show that representation rankings change with test-set novelty under a fixed description-derived label space.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8712c1570b93e04222acf6aa14ed321297ebf3b1d54308ce5efeaf86001711c3",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-025-09660-1",

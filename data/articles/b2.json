@@ -2397,6 +2397,42 @@
       "curated_categories": []
     },
     {
+      "id": "b26eda292664ddb9e068f2374cef71db1751c2a24dc26d6b266ccd8e1ad3825a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.09.06.745329v2",
+        "https://doi.org/10.64898/2026.09.06.745329",
+        "https://www.biorxiv.org/content/early/2026/09/13/2026.09.06.745329.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.09.06.745329.source.xml"
+      ],
+      "title": "pydreg: a fast Python package for identifying active cis-regulatory elements from nascent transcription",
+      "link": "https://doi.org/10.64898/2026.09.06.745329",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.09.06.745329v2.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "he",
+          "name": "He, A. Y"
+        },
+        {
+          "key": "danko",
+          "name": "Danko, C. G"
+        }
+      ],
+      "abstract_text": "Active promoters and enhancers generate characteristic patterns of RNA transcription that can be measured through nascent RNA sequencing. dREG is a leading method that uses these patterns to identify active \\emph{cis}-regulatory elements across the genome, allowing regulatory activity and gene transcription to be profiled in the same experiment. However, its reference implementation was developed around an R-based workflow and a legacy GPU-accelerated support vector machine library that have become increasingly difficult to maintain and deploy. To improve future usability of dREG, we developed pydreg, a Python port of dREG. pydreg preserves the original pretrained models and peak calling procedure from dREG while using contemporary numerical libraries for CPU and GPU computation, resulting in nearly identical peak calls and 5.17 and 5.67-fold reductions in runtime and peak host memory, respectively, compared to dREG. pydreg reduces practical barriers to running dREG locally, improves runtime and memory usage, integrates readily with Python-based genomics workflows, and provides a maintainable foundation on modern computing infrastructure.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b270535ee09680252de701842b9618639173896f3d49065b32faa3e9af51e450",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02512-6",

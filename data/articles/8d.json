@@ -498,6 +498,69 @@
       "curated_categories": []
     },
     {
+      "id": "8d176068f555859477c4286b0e26a821ed926975697a3019f814c273d5b77f44",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768971v1",
+        "https://doi.org/10.64898/2026.11.24.768971",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768971.source.xml"
+      ],
+      "title": "XenoType: Decoding cellular identity in breast cancer histology through molecular supervision",
+      "link": "https://doi.org/10.64898/2026.11.24.768971",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768971v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "forjaz",
+          "name": "Forjaz, D. F"
+        },
+        {
+          "key": "vieira",
+          "name": "Vieira, D. F"
+        },
+        {
+          "key": "queiroga",
+          "name": "Queiroga, V"
+        },
+        {
+          "key": "willig",
+          "name": "Willig, M. L"
+        },
+        {
+          "key": "joshi",
+          "name": "Joshi, S"
+        },
+        {
+          "key": "kiemen",
+          "name": "Kiemen, A. L"
+        },
+        {
+          "key": "forjaz",
+          "name": "Forjaz, A"
+        },
+        {
+          "key": "wirtz",
+          "name": "Wirtz, D"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, P.-H"
+        }
+      ],
+      "abstract_text": "Characterizing the cellular composition of the tumor microenvironment from histological images is fundamental to understanding cancer biology and informing treatment decisions. Deep learning has enabled automated nuclear detection and classification from hematoxylin and eosin (H&E) images, yet cell classifiers remain largely confined to broad morphological categories owing to a reliance on manual annotations. Recent efforts have used spatial molecular measurements to supervise histological classification, but these approaches often require separate tissue sections or produce altered H&E staining, and the resulting cell-type annotations depend on subjective choices such as marker selection and clustering parameters. Here we develop XenoType, a framework that classifies cells into seven molecularly informed categories directly from routine histology, trained using paired same-section Xenium spatial transcriptomics. Cell-type annotations are reconciled from four single-cell RNA-sequencing references, reducing dependence on marker choices. Across eight held-out breast tissue sections, XenoType outperformed commonly used CellViT++ retrained on the same molecular annotations under both four-class (macro-F1: 0.703 vs. 0.569) and seven-class (macro-F1: 0.571 vs. 0.403) taxonomies, with the largest gains for myoepithelial (F1: 0.175 to 0.572) and endothelial cells (F1: 0.395 to 0.682). Molecular measurements are required only during training; at inference, XenoType uses the H&E image alone. Model-reference agreement increased consistently with annotation confidence, and XenoType generalized to an independently profiled breast tissue section from a different spatial transcriptomics platform, supporting scalable cell-type mapping from routine histology without per-specimen molecular profiling.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8d18dfb5123b5855521ed40a539bc77dad8ec92cfba5573fc62b432ae6744f52",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-64986-8",

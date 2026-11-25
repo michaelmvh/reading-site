@@ -6838,6 +6838,84 @@
       "curated_categories": []
     },
     {
+      "id": "1df8eb9b5a30b3b990331a6127031decc7f1b4d79db3951c39c23ebc4a1789b3",
+      "identity_keys": [
+        "arxiv:2611.31451",
+        "https://doi.org/10.48550/arXiv.2611.31451"
+      ],
+      "title": "A multimodal foundation model for tissue proteomics and morphology in cancer",
+      "link": "https://doi.org/10.48550/arXiv.2611.31451",
+      "pdf_url": "https://arxiv.org/pdf/2611.31451v1",
+      "publication_date": "2026-11-23",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "benedikt querfurth von",
+          "name": "Benedikt von Querfurth"
+        },
+        {
+          "key": "klein lukas",
+          "name": "Lukas Klein"
+        },
+        {
+          "key": "cuaz cédric vincent",
+          "name": "Cédric Vincent-Cuaz"
+        },
+        {
+          "key": "eeshaan jain",
+          "name": "Eeshaan Jain"
+        },
+        {
+          "key": "cheng yexiang",
+          "name": "Yexiang Cheng"
+        },
+        {
+          "key": "johann wenckstern",
+          "name": "Johann Wenckstern"
+        },
+        {
+          "key": "cheng phil",
+          "name": "Phil F. Cheng"
+        },
+        {
+          "key": "liakopoulos petros",
+          "name": "Petros Liakopoulos"
+        },
+        {
+          "key": "michielin olivier",
+          "name": "Olivier Michielin"
+        },
+        {
+          "key": "haberecker martina",
+          "name": "Martina Haberecker"
+        },
+        {
+          "key": "andreas wicki",
+          "name": "Andreas Wicki"
+        },
+        {
+          "key": "frossard pascal",
+          "name": "Pascal Frossard"
+        },
+        {
+          "key": "bunne charlotte",
+          "name": "Charlotte Bunne"
+        }
+      ],
+      "abstract_text": "Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironment. H&E histopathology provides scalable morphology, whereas multiplex spatial proteomics quantifies dozens of proteins in situ with spatial context, but remains selectively deployed, often with different marker panels across cohorts. This creates a translational bottleneck: most patients lack high-depth molecular profiling, and existing models rarely integrate morphology and spatial molecular data in a single framework. We present VirTues-M2, a multimodal foundation model that jointly learns from H&E and spatial proteomics using a novel vision transformer-based architecture. By encoding marker identity during pretraining, VirTues-M2 is robust to missing modalities, imperfect modality pairing or registration, and variable marker panels, enabling unified inference for tissue phenotyping, panoptic cell segmentation, virtual staining, annotation-free biomarker discovery, and reinforcement learning-based adaptive marker panel selection to reduce assay burden. As a concrete demonstration of translational utility, in a newly collected cohort of 1,053 treatment-naive non-small-cell lung cancer (NSCLC) patients with paired spatial proteomics and H&E, VirTues-M2 discovers high-risk and low-risk tissue signatures that stratify overall survival in both the discovery cohort and an independent validation cohort, outperforming current state-of-the-art stratification schemes; all enabled by VirTues-M2's ability to jointly analyze both modalities within a single model.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1dfe931e4232c072e84a202d841960911cc14a5fe2dd401874c3971121490887",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67907-x",

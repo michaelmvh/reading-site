@@ -2,6 +2,41 @@
   "schema_version": 1,
   "articles": [
     {
+      "id": "f80be7bbea38ef93f29e88a1cd99fa82ba344d5f1b3ee64617bef988f63f3819",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768658v1",
+        "https://doi.org/10.64898/2026.11.24.768658",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768658.source.xml"
+      ],
+      "title": "Does embedding impact classification performance ? A small sample perspective",
+      "link": "https://doi.org/10.64898/2026.11.24.768658",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768658v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "sztuka",
+          "name": "Sztuka, M"
+        },
+        {
+          "key": "szyda",
+          "name": "Szyda, J"
+        }
+      ],
+      "abstract_text": "Deep learning (DL) methods can address many challenges posed by high-dimensional and sparse microbiome data. In this study we applied and compared deep (DNN) and shallow (SNN) feedforward neural networks combined with five dimensionality-reduction techniques: Principal Component Analysis (PCA), Singular Value Decomposition (SVD), Non-negative Matrix Factorization (NMF), Autoencoder based Embeddings (AE), and convolutional layers (Conv). To establish baseline classification performance, the XGBoost was used, as it represents a robust machine learning based classifier with a relatively low number of hyperparameters. The task was to classify effective microorganism (EM) treatments based on intestine bacterial family abundance in common carp. In particular, the experiment involved 25 ponds that were divided into experimental groups. In each pond, the intestinal microbiome of five individuals was determined by sequencing two hypervariable regions of the gene encoding the 16s rRNA gene sequencing. The sequence reads were processed by QIIME2 and taxonomically annotated to the SILVA database, what resulted in 126 annotated families that were used as features in all downstream analyses. Abundance tables from 125 samples, transformed using the Centered Log-Ratio (CLR) method, were used to evaluate ten dimensionality-reduction and Deep learning configurations considering five-, three-, and two-classification scenarios. The DL models were optimized using cross-validation. To combat the overfitting that was present due to sparsity and small sample size, dropout and kernel regularization were implemented. During testing autoencoder embeddings achieved the highest classification accuracy (0.84), exceeding the XGBoost baseline (0.64), while embedding based on convolutional layers significantly reduced performance (0.44). PCA and SVD transformations showed comparable results (0.65), whereas NMF often failed to converge, likely due to incompatibility with CLR-transformed data. Best classification results were obtained for models that implemented AE embedding, it is most likely caused by their ability to capture non-linear patterns in the data. All models showed stable training behavior, with loss functions consistently decreasing across epochs. The SNN models were markedly less computationally intensive, than DNN. AE and NMF based embeddings were the most resource hungry (Wall Clock Time and RAM). Our results show (1): SNN architectures performed slightly worse than DNN, due to the fact of lesser informative capacity of the models. (2): Dimensionality reduction impacts model performance, though not always positively. (3) EM supplementation causes significant changes in microbiome that can be captured by DL architectures. Future work will include feature-importance analysis, integration of environmental and host metadata, exploration of larger datasets and more advanced architectures. As well as validation of model quality on simulated datasets. Overall, these results indicate that DNN architectures combined with AE embeddings have potential to be used as high accuracy classification tools. Those tools when combined with feature importance can help researchers to understand changes made by EM supplementation in a microbial community.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f813cfeca1cf1a283066053c8e1d06b126b8830758a91c31440d9d803eba9508",
       "identity_keys": [
         "https://doi.org/10.1016/j.carbpol.2026.125392",

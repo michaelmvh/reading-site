@@ -2400,6 +2400,40 @@
       "curated_categories": []
     },
     {
+      "id": "f758e6ef7e6cf20aec9e97026a92e98cdad3522a747e3f051ef2789f6f7b8dcc",
+      "identity_keys": [
+        "arxiv:2611.32945",
+        "https://doi.org/10.48550/arXiv.2611.32945"
+      ],
+      "title": "PHM-ensemble: Scalable and Stable Probabilistic Multiresolution Clustering via Ensemble Density Estimation",
+      "link": "https://doi.org/10.48550/arXiv.2611.32945",
+      "pdf_url": "https://arxiv.org/pdf/2611.32945v1",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ali turfah",
+          "name": "Ali Turfah"
+        },
+        {
+          "key": "wen xiaoquan",
+          "name": "Xiaoquan Wen"
+        }
+      ],
+      "abstract_text": "Clustering is a foundational tool for exploratory data analysis across the sciences. We argue that clustering methods should be evaluated along four dimensions: fidelity to the data's underlying structure, interpretability of the recovered groups, stability under data perturbations and algorithmic randomness, and scalability to modern scientific datasets. Yet existing methods rarely satisfy all four criteria. To address this gap, we introduce PHM-ensemble, a general probabilistic framework for multiresolution clustering that estimates the underlying data density by pooling mixture models from an ensemble of fits and subsequently constructs a clustering hierarchy through hierarchical merging of the mixture components. On simulated datasets and the MNIST benchmark, PHM-ensemble matches or outperforms widely used clustering algorithms in agreement with ground truth, produces more stable results across runs, and reveals complex underlying structures. Applied to 1.82 million peripheral blood cells from the Human Immune Health Atlas, PHM-ensemble achieves higher agreement with expert-curated major cell-type annotations than the Leiden clustering used in the original study (adjusted Rand index 0.965 versus 0.789), while requiring only half the computing time. Beyond identifying major immune lineages, it reveals biologically coherent relationships among cell types and resolves finer structure within individual lineages, uncovering subtypes and cellular states consistent with known biology.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "f75996eb98327b22e2cfe4fc3bd9577c018db7ea9190042f2b673f5ed3912a5e",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74391-4",

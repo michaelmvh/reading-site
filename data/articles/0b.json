@@ -3302,6 +3302,45 @@
       "curated_categories": []
     },
     {
+      "id": "0ba731d4ca92c602ceee4149f1b24c4277a2c625302dc446a2098a8576d1b2f0",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768542v1",
+        "https://doi.org/10.64898/2026.11.23.768542",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.23.768542.source.xml"
+      ],
+      "title": "OTU Taxa: a taxonomy aware pretrained model for 16S microbiome profiles",
+      "link": "https://doi.org/10.64898/2026.11.23.768542",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768542v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "henao",
+          "name": "Henao, R"
+        },
+        {
+          "key": "hoehndorf",
+          "name": "Hoehndorf, R"
+        },
+        {
+          "key": "nastar perez",
+          "name": "Perez Nastar, H. D"
+        }
+      ],
+      "abstract_text": "Background: Microbiome profiles combine sequence-derived units with taxonomy. Pretrained models use different community vocabularies and are often evaluated on few labels, leaving their value under broad competitive evaluation unclear. We introduce OTU-Taxa, which pairs operational taxonomic unit (OTU) identity with hierarchical taxonomy during autoregressive pretraining on unlabeled profiles. Results: In an in-domain evaluation across 250 Microbe Atlas Project (MAP)-derived classification tasks with disjoint folds, mean area under the receiver operating characteristic curve (AUROC) was 0.744 for OTU-Taxa and 0.749 for Random Forest. OTU-Taxa was the highest-ranked pretrained method; Nemenyi comparisons did not detect rank differences from Random Forest across the three metrics. The model also generated largely non-copied profiles and recovered more withheld community members at larger cutoffs, while retrieval gave stronger empirical fidelity and early ranking. It also supported abundance-rank readouts and recovered higher-rank classifier assignments from sample context for known-vocabulary OTUs under controlled sequence degradation, although agreement was limited at genus and species ranks. Conclusions: Within the MAP 97% closed-reference 16S vocabulary, the pretrained representation supports in-domain prediction of metadata labels alongside generative and taxonomic readouts. Supervised abundance models, empirical retrieval, and intact-sequence classifiers remain stronger choices for several corresponding endpoints, while OTU-Taxa provides one shared contextual representation across all four analyses.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "0badc90cc28546ac48b0ab5feab84cce8ed19f767c1bd60c4210fc3372863672",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68713-9",

@@ -1477,6 +1477,49 @@
       "curated_categories": []
     },
     {
+      "id": "7a43b9b3861fa9388f9cd24176236e8695d89ee6e5b9cb749f0c4d897fe7c3f5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768960v1",
+        "https://doi.org/10.64898/2026.11.24.768960",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768960.source.xml"
+      ],
+      "title": "A pangenomic approach identifies new structural variants associated with gene expression in the CARTaGENE cohort",
+      "link": "https://doi.org/10.64898/2026.11.24.768960",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768960v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "laflamme",
+          "name": "Laflamme, R"
+        },
+        {
+          "key": "groza",
+          "name": "Groza, C"
+        },
+        {
+          "key": "bourque",
+          "name": "Bourque, G"
+        },
+        {
+          "key": "lettre",
+          "name": "Lettre, G"
+        }
+      ],
+      "abstract_text": "Structural variants (SVs) are major contributors to the genetic diversity of human populations. While many small variants have been associated with human traits and diseases, the challenge to genotype SVs using short-read DNA sequencing and a linear reference genome has made association testing with SVs more difficult. To address these limitations and investigate the associations of SVs with complex human traits, we used PanGenie, a pangenome-based short-read genotyper, together with the second release of the Human Pangenome Reference Consortium (HPRC) pangenome to genotype 645,680 SVs in 2,173 participants from the CARTaGENE cohort. Through conditional eQTL analyses that account for associations attributable to known variation identified using a standard approach based on the GRCh38 reference genome, we identified 103 independent SV-eGene associations involving 99 unique SVs (SV-eQTLs). Of these associations, 41 replicated in the 1000 Genomes Project cohort (same direction of effect, nominal P-value <0.05). The 99 SV-eQTLs were more likely than expected to overlap with candidate cis-regulatory elements as defined by the ENCODE Project (P-value <0.002). Finally, we found that 65/99 (66%) of the SV-eQTLs were in strong linkage disequilibrium (r2>0.8) with small genetic variants (SNPs and indels) that belong to Open Targets fine-mapping credible sets, suggesting that these SVs are candidate causal variants for associations identified by genome-wide association studies. Our results highlight new opportunities offered by pangenome methods to more comprehensively integrate SVs into the study of human phenotypic variation.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7a452083a9f0885c0f11e55580ff0f600fc9cf023e9a797cdfef7e9b6ab65b28",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76133-y",
@@ -2680,6 +2723,69 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "7a6fde5dbbd1e7a4d2a6c9dc37cb2089dcb2373f822165258d638f2c97eb35c1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768840v1",
+        "https://doi.org/10.64898/2026.11.24.768840",
+        "https://www.biorxiv.org/content/early/2026/11/24/2026.11.24.768840.source.xml"
+      ],
+      "title": "A noise-corrected metric for evaluating spatial transcriptomics predicted from histology",
+      "link": "https://doi.org/10.64898/2026.11.24.768840",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768840v1.full.pdf",
+      "publication_date": "2026-11-24",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "ouyang",
+          "name": "Ouyang, J"
+        },
+        {
+          "key": "gao",
+          "name": "Gao, Y"
+        },
+        {
+          "key": "jin",
+          "name": "Jin, C"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, Y"
+        },
+        {
+          "key": "xu",
+          "name": "Xu, Y"
+        },
+        {
+          "key": "liang",
+          "name": "Liang, L"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, F"
+        },
+        {
+          "key": "cai",
+          "name": "Cai, Z"
+        },
+        {
+          "key": "chen",
+          "name": "Chen, H"
+        }
+      ],
+      "abstract_text": "Deep learning methods that predict spatial transcriptomics from histology offer scalable molecular profiling of clinical cohorts. However, conventional correlation metrics overstate prediction quality across whole sections by crediting models for recognizing broad tissue regions, and understate fine-scale prediction quality because sampling noise dominates sparse RNA counts. To resolve this, we introduce the reproducible-signal correlation (RSC) metric. RSC randomly splits RNA counts into two halves to separate reproducible signal from sampling noise across spatial scales and within tissue regions or cell classes. Across 12 spot-level and three single-cell methods, RSC revealed that most models capture broad tissue patterns but largely miss differences between neighboring spots or cells, which whole-section correlation overlooks. Within malignant cells, RSC distinguished methods that genuinely capture part of the cell-to-cell heterogeneity from those whose scores across all cells were inflated by cell-type composition. Guided by RSC, we designed a pairwise difference loss between neighboring spots that improved fine-scale predictions on average across 11 models. RSC thus provides a foundation for benchmarking predictions, guiding model design and determining which spatial analyses histology can support.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

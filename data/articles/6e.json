@@ -6249,6 +6249,36 @@
       "curated_categories": []
     },
     {
+      "id": "6eedd29034903f2e1face8163ee9499f4ebe8caba797a79a3f19aa5d66ae6844",
+      "identity_keys": [
+        "arxiv:2611.31243",
+        "https://doi.org/10.48550/arXiv.2611.31243"
+      ],
+      "title": "Proxy Metrics Can Hide Downstream Collapse: A Case Study on Compressed Cellular Segmentation",
+      "link": "https://doi.org/10.48550/arXiv.2611.31243",
+      "pdf_url": "https://arxiv.org/pdf/2611.31243",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "an cruz romero sebasti",
+          "name": "Sebasti\\'an A. Cruz Romero"
+        }
+      ],
+      "abstract_text": "Post-training compression of vision models is commonly screened using output-level proxies such as normalized RMSE (NRMSE), cosine similarity, and flow angular error. We evaluated post-training quantization of Cellpose-SAM, a promptless Segment-Anything model for cellular instance segmentation, on a stratified 245-field panel spanning BBBC038, BBBC039, and NIST iPSC images across density regimes. These proxies failed to reliably predict downstream mask retention under activation quantization. Angular error saturated at 90{\\deg} from A8 through A2, while cosine and NRMSE preserved rank-order information without providing an interpretable acceptance threshold. At W8A8-cal-QDQ, cosine similarity was 0.944 despite 89/245 empty masks; moreover, performance varied sharply by modality, with BBBC039 yielding 0/47 empty masks versus 63/99 for NIST iPSC fields at the same proxy footprint. Across five modality-density strata, cosine similarity and empty-mask rate showed weak rank agreement (\\r{ho}=~0.3), with the highest-cosine stratum producing the second-worst downstream outcome. Below A8, all modalities collapsed to 245/245 empty fields. By contrast, ternary weight quantization produced a 12.08x storage reduction and was correctly identified as catastrophic by the proxies. These results show that FP32-referenced output proxies are insufficient as standalone acceptance criteria for promptless dense-prediction models; compression should instead be validated against downstream retention stratified by deployment-relevant imaging conditions.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6ef1512a2d48e0225eaf7e5e27583961fe4128a10fd535d85ca2f59a137ce7f8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-75396-9",

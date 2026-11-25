@@ -2695,6 +2695,73 @@
       "curated_categories": []
     },
     {
+      "id": "d4879eea8851434d04dd47a5e8e67035e4004b67903a0c05da935c7bdcfab2ad",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.16.767062v1",
+        "https://doi.org/10.64898/2026.11.16.767062",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.16.767062.source.xml"
+      ],
+      "title": "An interpretable framework for decoding transcriptomic foundation models",
+      "link": "https://doi.org/10.64898/2026.11.16.767062",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767062v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hu",
+          "name": "Hu, Y"
+        },
+        {
+          "key": "wen",
+          "name": "Wen, Z"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Y. H"
+        },
+        {
+          "key": "yuan",
+          "name": "Yuan, W"
+        },
+        {
+          "key": "qin",
+          "name": "Qin, H"
+        },
+        {
+          "key": "lin",
+          "name": "Lin, Z"
+        },
+        {
+          "key": "klindt",
+          "name": "Klindt, D"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, H"
+        },
+        {
+          "key": "carja",
+          "name": "Carja, O"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, X. M"
+        }
+      ],
+      "abstract_text": "Transcriptomic foundation models are pretrained on millions of single-cell profiles, but what their hidden states encode, and whether it holds on targeted spatial panels, is uncertain. We present interpreTFM, a layer-resolved framework that extracts frozen activations from scGPT, Geneformer, and C2S-scale, decomposes each evaluated layer with a sparse autoencoder (SAE), and evaluates the resulting features against raw hidden dimensions, an untrained SAE of the same width, and single genes, holding out either gene-token rows or whole genes. Concept-associated features are then projected to cells for spatial niche discovery and interface analysis. We applied the framework to a CosMx lung-cancer section (81,236 cells, 960 genes) and a Xenium renal-cell-carcinoma section (465,220 cells, 399 model-compatible genes), screening 29 model-layer combinations per dataset. On held-out observations of known genes, sparse features marked 262--593 biological concepts per analysis layer, against 0--70 for raw hidden dimensions and 0--249 for the untrained SAE; on genes held out during feature selection, concept F1 was 0.01--0.12 for every representation and lowest for sparse features, so a feature's concept label reflects the genes it detects, and randomly re-initialized models scored the same. A linear readout of the hidden states recovered the concept membership of unseen genes (area under the receiver operating characteristic curve 0.66--0.75, versus 0.59--0.61 for co-expression and cell-type profiles, and chance level for randomly re-initialized scGPT and Geneformer), so this information is learned and distributed across dimensions. At the cell level, sparse features were about twice as population-specific as raw hidden dimensions and approached single marker genes, and this held in four further CosMx donors. In the analyzed CosMx section, niches built from sparse features agreed with author cell types more closely than label-composition and expression-only niches and converged across models; in the further donors their concept-level definition recurred, whereas their composition did not. In the single Xenium section, three of five niches per model (lymphoid, tumor/myeloid, tumor/vascular) were shared across models and also emerged from measured expression alone. A macrophage's sparse profile predicted the myeloid composition of its neighborhood about as well as the full gene panel, also in three further donors. Within model niches, ligand--receptor co-localization recurred directionally across CosMx donors and placed CCL19--CCR7 in the Xenium lymphoid niche, whereas the models' own interface calls, under a local, stratified null with a threshold calibrated on contact-free fields, were at chance level in CosMx and tracked transcript spillover in Xenium. interpreTFM thus provides held-out tests that separate gene detection from concept generalization, and features that make cells and niches comparable across models and patients while carrying the information of the measured panel. Source code is available at \\href{https://github.com/OliiverHu/interpreTFM}{github.com/OliiverHu/interpreTFM}.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "d489632a5088d8d1edf1ed202aa25eb890fa8967920bf989ceba3c20d18ef719",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02797-7",
