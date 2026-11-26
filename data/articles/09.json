@@ -2125,6 +2125,65 @@
       "curated_categories": []
     },
     {
+      "id": "096ac9a493a20a65c4128bb2acdd476f92be406f49cea2a233419b1a8db3dd89",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768763v1",
+        "https://doi.org/10.64898/2026.11.23.768763",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.23.768763.source.xml"
+      ],
+      "title": "RIPPLE: learning nucleotide relations in an RNA foundation model",
+      "link": "https://doi.org/10.64898/2026.11.23.768763",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768763v1.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hao",
+          "name": "Hao, Y"
+        },
+        {
+          "key": "guo",
+          "name": "Guo, X"
+        },
+        {
+          "key": "ran",
+          "name": "Ran, Z"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, Y"
+        },
+        {
+          "key": "zhao",
+          "name": "Zhao, C"
+        },
+        {
+          "key": "coin",
+          "name": "Coin, L. J. M"
+        },
+        {
+          "key": "sweeney",
+          "name": "Sweeney, C. J"
+        },
+        {
+          "key": "li",
+          "name": "Li, F"
+        }
+      ],
+      "abstract_text": "RNA function depends on interactions between nucleotides that can be widely separated in sequence, yet capturing these relationships remains challenging for RNA language models. Existing approaches primarily learn nucleotide relationships implicitly from individual nucleotide reconstruction or rely on external structural information to model nucleotide interactions. Here we introduce RIPPLE, an RNA foundation model that learns to identify and represent sparse, predictively useful nucleotide relationships directly from sequence. Pretrained on 32.4 million RNA sequences, RIPPLE uses pairwise predictive utility to guide relational learning, transferring training-time supervision into a sequence-only model without requiring structural inputs at inference. RIPPLE improves overall performance across five downstream tasks spanning RNA family classification, ribosome loading prediction, secondary-structure prediction, three-dimensional contact prediction, and splice-site recognition. Mechanistic analyses further show that utility-guided learning improves the recovery of informative interactions and enhances the transferability of learned RNA representations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "096f7d96aa5b1a853ad5dc0e9d1b745ed4165b88978009dba83c7fc4d55ebbbc",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03884-x",

@@ -536,6 +536,41 @@
       "curated_categories": []
     },
     {
+      "id": "c420f7270abdd0fed0c2cf752c129511d6f252f2f845fab11af07c73e17ac541",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.767901v1",
+        "https://doi.org/10.64898/2026.11.24.767901",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.24.767901.source.xml"
+      ],
+      "title": "PRS-LDmix: ancestry-mixed linkage disequilibrium reference panels for polygenic risk prediction in diverse and admixed cohorts",
+      "link": "https://doi.org/10.64898/2026.11.24.767901",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.767901v1.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "koo",
+          "name": "Koo, G"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, D"
+        }
+      ],
+      "abstract_text": "Polygenic risk scores (PRS) are less accurate outside European ancestry, which risks widening health disparities as they move into clinical use. One reason is linkage disequilibrium (LD), the correlation between nearby variants, which differs between ancestries. Bayesian methods such as PRS-CS model LD across all variants jointly, using a reference panel matched to the ancestry of the genome-wide association study (GWAS). Multi-ancestry extensions such as PRS-CSx pair each ancestry with its own panel and require separate summary statistics for each ancestry. However, these are often incomplete or restricted, so scores are frequently built from the combined meta-analysis, whose LD is a mixture that no single panel matches. In practice, the majority-ancestry panel is typically used. Here, we introduce PRS-LDmix, which builds ancestry-specific LD panels from a 32,953-individual, 29-population reference, aligned to shared blocks and SNPs, and averages them in the cohort's ancestry proportions, replacing PRS-CS's LD input without changing its prior or sampler. In simulated GWAS mixing European with African, East Asian or South Asian ancestry, the mixed panel matched the true LD more closely than the majority-ancestry panel. Once the ancestries were balanced, the choice of panel shifted the scores beyond PRS-CS's own run-to-run variation, most for European and African ancestry, and PRS-LDmix was more accurate than the majority-ancestry panel, though not always more accurate than the other ancestry's own panel.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c422b34e17b01ea77a36cbe3d3f62143298525fe5b687e2da327fbf339def931",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78086-8",

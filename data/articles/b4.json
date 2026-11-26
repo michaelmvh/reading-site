@@ -2320,6 +2320,69 @@
       "curated_categories": []
     },
     {
+      "id": "b46d02f92b224d96c0258d7872e60220b2183ba8b2197a25301423fb53ae46e8",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.767630v1",
+        "https://doi.org/10.64898/2026.11.23.767630",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.23.767630.source.xml"
+      ],
+      "title": "Parent-of-origin classification for diploid genomes using Pooch",
+      "link": "https://doi.org/10.64898/2026.11.23.767630",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.767630v1.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kim",
+          "name": "Kim, J"
+        },
+        {
+          "key": "pickett",
+          "name": "Pickett, B. D"
+        },
+        {
+          "key": "belluck",
+          "name": "Belluck, J"
+        },
+        {
+          "key": "hansen",
+          "name": "Hansen, N. F"
+        },
+        {
+          "key": "wilson",
+          "name": "Wilson, M. A"
+        },
+        {
+          "key": "consortium human pangenome reference",
+          "name": "Human Pangenome Reference Consortium,"
+        },
+        {
+          "key": "koren",
+          "name": "Koren, S"
+        },
+        {
+          "key": "rhie",
+          "name": "Rhie, A"
+        },
+        {
+          "key": "phillippy",
+          "name": "Phillippy, A. M"
+        }
+      ],
+      "abstract_text": "Advances in long-read sequencing have enabled the generation of near-complete human genomes at scale, but trio sequencing has typically been required to determine the parent of origin for each haplotype. Parent-of-origin information is important for studying inheritance patterns and imprinting-associated genetic disorders. Here we demonstrate that parent of origin can be reliably determined for all chromosomes of a Hi-C-phased diploid assembly using differentially methylated CpGs alone. Using 123 near-complete, trio-phased assemblies from the Human Pangenome Reference Consortium, we systematically cataloged differential methylation genome-wide, identifying 880 imprinted differentially methylated regions (iDMRs), including 150 with strong and 730 with moderate differential methylation, including two iDMRs on chrX. From these data we trained an elastic net logistic regression model (Pooch) that predicts parent of origin for each haplotype pair with a mean test accuracy of 0.997 and generalizes across sequencing technologies, cell types, and abnormal karyotypes. Notably, 91.7% of informative CpG features identified by the model were located outside of known iDMRs, suggesting that parent-of-origin differential methylation extends beyond previously established imprinted regions. We further identified parent-of-origin signals on chrX by correcting for the effects of X chromosome inactivation, revealing imprinted differentially methylated regions within an intron of DHRSX and in the promoter of SRPK3, where methylation depended on both parent of origin and X chromosome inactivation status. Our results show that it is now possible to achieve haplotype-resolved diploid genome assemblies routinely and determine maternal and paternal haplotypes for all chromosomes without the need for trios.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "b474a6c754abfa1f430ab364c0e461f8e31eabeed5f11711c78061554b02f7ea",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-00101-1",

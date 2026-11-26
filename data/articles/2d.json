@@ -4622,15 +4622,17 @@
         "biorxiv:10.64898/2026.11.03.763968v1",
         "biorxiv:10.64898/2026.11.03.763968v2",
         "biorxiv:10.64898/2026.11.03.763968v3",
+        "biorxiv:10.64898/2026.11.03.763968v4",
         "https://doi.org/10.64898/2026.11.03.763968",
         "https://www.biorxiv.org/content/early/2026/11/04/2026.11.03.763968.source.xml",
         "https://www.biorxiv.org/content/early/2026/11/10/2026.11.03.763968.source.xml",
-        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.03.763968.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/19/2026.11.03.763968.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.03.763968.source.xml"
       ],
       "title": "Where single-cell foundation models help: a public-data benchmark of annotation, in silico perturbation and gene regulatory inference",
       "link": "https://doi.org/10.64898/2026.11.03.763968",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v3.full.pdf",
-      "publication_date": "2026-11-19",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763968v4.full.pdf",
+      "publication_date": "2026-11-26",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -4644,7 +4646,7 @@
           "name": "Merelli, I"
         }
       ],
-      "abstract_text": "Single-cell foundation models (FMs) are proposed as general tools for cell-type annotation, in silico perturbation and gene-regulatory-network (GRN) inference. To identify where they add value, we benchmarked five FMs (scGPT, Geneformer V1 and V2, Nicheformer, scFoundation), CellOracle, supervised perturbation models including STATE, and task-matched simple baselines on the same public data, from K562 Perturb-seq screens and primary cells to a brain organoid CRISPR screen, an in vivo Perturb-seq screen of the developing mouse cortex and lung cancer biopsies, using each model with its recommended settings and with tuned fine-tuning, under an analysis plan fixed before the new results. FMs were most useful when labels had to be transferred across species: from human to mouse lung, Nicheformer reached 0.98 accuracy with cosine kNN, above every baseline including CellTypist with tuned regularisation (0.94), and fine-tuned Geneformer V2 transferred labels from mouse to human with macro-F1 0.88, against at most 0.74 for baselines trained on the same cells. In K562, zero-shot perturbations captured the direction of real responses, with up to 76% of perturbations shifted in the expected direction (Geneformer V2, p < 1e-8), and with its native overexpression protocol Geneformer V2 tracked CRISPRa effect sizes ({rho} = 0.30, q = 0.001). Geneformer V2 networks recovered patient-level tumour differential expression better than co-expression (fold enrichment 2.9 versus 2.0, on five hubs). Within a species, FM embeddings did not exceed principal components: on 28,344 organoid screen cells the best FM reached macro-F1 0.78 zero-shot and 0.84 after fine-tuning, against 0.89 for principal components with kNN. In silico knockouts in the organoid screen and in the mouse cortex followed the expression of the target, moved embeddings no more than deletions of expression-matched control genes and met the predefined criterion in none of 46 tests, in which naive predictors such as the number of perturbed cells did as well. Fine-tuning changed classification accuracy and the size of predicted effects but not their ranking, gene networks or the advantage of a training-mean baseline. We release the benchmark, baselines and pipeline checks as the fmaudit package, so that new models can be evaluated on the tasks where FMs already help.",
+      "abstract_text": "Single-cell foundation models (FMs) are proposed as general tools for cell-type annotation, in silico perturbation and gene-regulatory-network inference. We benchmarked five FMs (scGPT, Geneformer V1 and V2, Nicheformer, scFoundation), four newer FMs, CellOracle, supervised perturbation models and task-matched simple baselines on public data, from Perturb-seq screens of cell lines and primary T cells to a brain organoid screen, the developing mouse cortex and lung cancer biopsies, under an analysis plan fixed before the new results. FMs helped most when labels were transferred across species: Nicheformer reached 0.98 accuracy from human to mouse lung, above every baseline (at most 0.94), and fine-tuned Geneformer V2 reached macro-F1 0.88 from mouse to human, against at most 0.74. In K562, zero-shot perturbations captured the direction of real responses (up to 76% of perturbations), Geneformer V2 tracked CRISPRa effect sizes with its overexpression protocol (rho = 0.30), and its networks recovered tumour differential expression better than co-expression. Within a species, FM embeddings did not exceed principal components. In silico deletions followed target expression and, across seven screens with replicate-level ground truth, met the predefined criterion in none of 81 tests, although in K562 and RPE1 the measured effects replicated between libraries. In contrast, the gene vectors of seven of eight FMs, including three newer models, added to expression features, predicted which knockdowns have large effects in an independent genome-wide K562 screen (rho between 0.34 and 0.44, against 0.26 with expression alone). We release the benchmark and its checks as the fmaudit package.",
       "discovery_sources": [
         {
           "kind": "biorxiv",

@@ -5,13 +5,15 @@
       "id": "4606a4e5cdd807e0343310d53ba2ae8a40b46e6af4a096dca466aa324674390a",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.24.768864v1",
+        "biorxiv:10.64898/2026.11.24.768864v2",
         "https://doi.org/10.64898/2026.11.24.768864",
-        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768864.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.24.768864.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.24.768864.source.xml"
       ],
       "title": "RNAhub2: prefiltering and compression enable scalable structure-based RNA discovery",
       "link": "https://doi.org/10.64898/2026.11.24.768864",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768864v1.full.pdf",
-      "publication_date": "2026-11-25",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768864v2.full.pdf",
+      "publication_date": "2026-11-26",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -3215,6 +3217,41 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "469e7340b48d4248d55869893a958f06a47ff5d562c6690f328508b6df50c424",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769100v1",
+        "https://doi.org/10.64898/2026.11.25.769100",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.25.769100.source.xml"
+      ],
+      "title": "GlycoBind: a general toolkit for protein-glycan binding prediction",
+      "link": "https://doi.org/10.64898/2026.11.25.769100",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769100v1.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "huang",
+          "name": "Huang, X"
+        },
+        {
+          "key": "tian",
+          "name": "Tian, Z"
+        }
+      ],
+      "abstract_text": "Protein-glycan recognition controls immune responses, host-pathogen adhesion, cell signalling and the functional organization of the glycocalyx. Computational models can predict protein binding to monosaccharides or short oligosaccharides, but predicting binding to structurally diverse intact glycans remains challenging. Here we present GlycoBind, a general toolkit that accepts a protein structure in Protein Data Bank (PDB) format and an International Union of Pure and Applied Chemistry (IUPAC)-condensed glycan, and returns a binding score without requiring a protein-glycan complex or a docking pose. GlycoBind adopts the frozen residue-state representation of DeepGlycanSite, a carbohydrate-binding-site predictor, and combines this protein representation with frozen GlycanGT graph representations through a compact trainable classifier. Across five protein-grouped holdouts, GlycoBind achieved a mean area under the receiver operating characteristic curve (AUROC) of 0.767. On six external glycan-array datasets after exact protein and glycan cleaning for both models, GlycoBind showed higher aggregate binding-strength ranking performance and stronger recovery of high-intensity binding pairs than the existing models. By prioritizing high-intensity pairs for experimental follow-up, GlycoBind may support mechanistic studies of protein-glycan recognition and the rational development of glycan-targeted therapeutics.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []

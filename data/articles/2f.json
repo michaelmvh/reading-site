@@ -336,6 +336,41 @@
       "curated_categories": []
     },
     {
+      "id": "2f1c252cda0d78dcad427c9211f5b4146dcb29a2409b57fcdcad2ad1ce1a0525",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768714v1",
+        "https://doi.org/10.64898/2026.11.23.768714",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.23.768714.source.xml"
+      ],
+      "title": "gPlace: fast, memory-bounded phylogenetic placement with results identical to pplacer",
+      "link": "https://doi.org/10.64898/2026.11.23.768714",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768714v1.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "chaumeil",
+          "name": "Chaumeil, P.-A"
+        },
+        {
+          "key": "parks",
+          "name": "Parks, D. H"
+        }
+      ],
+      "abstract_text": "Phylogenetic placement methods such as pplacer attach query sequences to a fixed reference tree, thereby establishing their evolutionary relationships to the reference sequences. These relationships can then be used to infer taxonomic classifications or likely metabolic functions. gPlace is a drop-in replacement for pplacer that produces identical results while reducing memory requirements by >3-fold and computation time by >30-fold under typical usage. These improvements are achieved by storing less data per node and streamlining the calculations used to position each query sequence. gPlace can also run within a user-specified memory limit by processing only a portion of the reference tree at a time. Consequently, it can efficiently place sequences on large reference trees that would be impractical for pplacer to process. We demonstrate the importance of these improvements by evaluating gPlace as a replacement for pplacer in GTDB-Tk and CheckM, two tools widely used in genome-resolved metagenomic studies. gPlace is released under the GNU General Public License v3.0 and is available at https://github.com/cmc-aau/gPlace.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2f1c3597ea39e20f6b33283980294d74bd67297386f7da6a65fe18e6aea2d0d2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77611-z",
