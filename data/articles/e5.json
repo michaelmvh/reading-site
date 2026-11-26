@@ -909,7 +909,7 @@
         },
         {
           "key": "garg vikas",
-          "name": "Vikas Garg"
+          "name": "Vikas K Garg"
         }
       ],
       "abstract_text": "Topological Neural Networks (TNNs) incorporate higher-order relational information beyond pairwise interactions, enabling richer representations than Graph Neural Networks (GNNs). Concurrently, topological descriptors based on persistent homology (PH) are being increasingly employed to augment the GNNs. We investigate the benefits of integrating these two paradigms. Specifically, we introduce TopNets as a broad framework that subsumes and unifies various methods in the intersection of GNNs/TNNs and PH such as (generalizations of) RePHINE and TOGL. TopNets can also be readily adapted to handle (symmetries in) geometric complexes, extending the scope of TNNs and PH to spatial settings. Theoretically, we show that PH descriptors can provably enhance the expressivity of simplicial message-passing networks. Empirically, (continuous and E(n)-equivariant extensions of) TopNets achieve strong performance across diverse tasks, including antibody design, molecular dynamics simulation, and drug property prediction.",
@@ -1981,6 +1981,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "e554cf5e45f75d15ae6bc58e9b493f31be60f8e955b2a17289db40ba9f7810aa",
+      "identity_keys": [
+        "arxiv:2611.33623",
+        "https://doi.org/10.48550/arXiv.2611.33623"
+      ],
+      "title": "Using waveform types, discrete Sobolev distances, and trend compatibility to cluster short time series of clinical data",
+      "link": "https://doi.org/10.48550/arXiv.2611.33623",
+      "pdf_url": "https://arxiv.org/pdf/2611.33623v1",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "kettlitz robyn",
+          "name": "Robyn J. N. Kettlitz"
+        },
+        {
+          "key": "cisternas daniel",
+          "name": "Daniel Cisternas"
+        },
+        {
+          "key": "alvaro nappa olivera",
+          "name": "Alvaro Olivera-Nappa"
+        },
+        {
+          "key": "david medina ortiz",
+          "name": "David Medina-Ortiz"
+        },
+        {
+          "key": "contreras seba",
+          "name": "Seba Contreras"
+        }
+      ],
+      "abstract_text": "Clinical tests, such as the oral glucose tolerance test (OGTT), perturb a physiological system at rest and record its excursion over a fixed protocol window as a short, undersampled time series. Such curves rarely allow parameter identification at the individual level, yet their trends carry physiological information that emerges at the population level as recurrent response patterns. Standard clustering methods aggregate differences globally and average out those trends, losing precisely the information about how the system regains control after the perturbation; identifying response patterns requires a method that preserves them. We present a nonparametric framework that factorizes each curve into unit waveforms, sorts them with a symbolic trend-compatibility filter, and compares compatible shapes using discrete Sobolev-type distances on finite differences up to order $k$. The number of clusters, i.e., distinct response types, equals the number of realizable trend patterns the cohort populates, validated by resampling. Applied to 1283 five-point OGTTs, the method identifies 7 glycemia and 8 insulinemia types. The count holds across a threefold range of resolution. In benchmarks against six classical clustering methods, ours alone never mixes opposite trends, with comparable reconstruction error and stability. Clinical normality, assessed after clustering, is graded, overlapping, and distributed unevenly across response types ($h=0.14$--$0.48$). Overall, our method distinguishes response types among curves too short for alignment-based methods yet too informative for reduction to summary values. It applies to any protocol recording a system's response to a standardized perturbation on a short grid.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

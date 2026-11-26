@@ -1682,6 +1682,46 @@
       "curated_categories": []
     },
     {
+      "id": "c84fcecefce8ab0581db1d4aab0f83586ee7ca5c82c52c696a135d597267e0c4",
+      "identity_keys": [
+        "arxiv:2611.33740",
+        "https://doi.org/10.48550/arXiv.2611.33740"
+      ],
+      "title": "Exclusion and internal structure in the association/dissociation kinetics of DNA-binding proteins in the fast diffusion limit",
+      "link": "https://doi.org/10.48550/arXiv.2611.33740",
+      "pdf_url": "https://arxiv.org/pdf/2611.33740v1",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "li xiangting",
+          "name": "Xiangting Li"
+        },
+        {
+          "key": "chou tom",
+          "name": "Tom Chou"
+        }
+      ],
+      "abstract_text": "In many canonical biophysical and biochemical contexts, complex diffusing DNA-binding proteins undergoing nonspecific adsorption and desorption can exist in different conformational states. Equilibrium binding theories and kinetic models of competing ligands provide a basis for describing these systems. Coupling the internal conformational kinetics of bound proteins to exclusion and diffusion requires tracking both protein positions and binding states. Closed-form, tractable mathematical models that accurately describe the stochastic dynamics of structured proteins that bind to and diffuse along DNA are lacking. Here, we develop a new coarse-grained stochastic model of nonspecific DNA-protein binding in the fast diffusion regime, from which we derive an effective Markov model and its corresponding mean-field approximation that incorporates protein footprint size and conformational switching. We fit our new model quantitatively to previously measured dynamics of Replication Protein A (RPA) binding to ssDNA. Finally, by including multisegment binding states, our analysis captures facilitated exchange, revealing how multisegment architecture balances high affinity with rapid remodeling. Our theoretical model applies broadly to many other DNA-binding protein systems, including nucleosomes, ssDNA-binding proteins, and other multisegment complexes, providing accurate predictions and new strategies for evaluating experimental data.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        },
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c851d00cf9262c34b4256e3b7445f1e1208ff9f5e41c3e23150ed1943a0ac407",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68383-7",
@@ -3206,7 +3246,7 @@
         },
         {
           "key": "isabelle phan",
-          "name": "Isabelle Phan"
+          "name": "Isabelle Q. Phan"
         }
       ],
       "abstract_text": "Recent advances in Large Language Models (LLMs) present new opportunities for automating critical bottlenecks in scientific workflows such as literature reviews or protocol design. One such bottleneck is the purification of recombinant proteins, a vital aspect of biomedical research that frequently fails. To improve success rates, researchers must manually define optimal large-scale purification conditions and establish robust rescue protocols for proteins with low stability or solubility - a time-intensive process. To address this gap, we introduce a multi-agent LLM system that automates the creation and optimization of protein purification protocols to facilitate the production of high-concentration, high-purity protein samples. Our application streamlines the labor-intensive manual process of sequence similarity searches, literature reviews, and protocol comparison. Operating in a tool-like constrained workflow, the system identifies analogous proteins, leverages specialized LLM agents to extract successful purification methodologies from primary source literature, and cross-references them against failed protocols to generate optimization recommendations. Evaluation on a select number of targets demonstrated high accuracy in protocol extraction and the generation of scientifically sound, expert-validated optimization recommendations. While this system reduces complex analysis time from hours to minutes, we identify the lack of programmatic open access to literature, specifically primary citations in the Protein Data Bank, as a fundamental limitation to LLM agent-based scientific workflows. Ultimately, this system demonstrates the feasibility of using LLM agents to streamline wet-lab workflows while preserving methodological transparency and reproducibility.",

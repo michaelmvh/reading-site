@@ -1911,6 +1911,48 @@
       "curated_categories": []
     },
     {
+      "id": "4761969a752ff9b5afe4dfb323fc4f50c87037900cc2fb3eb24820b005b1593f",
+      "identity_keys": [
+        "arxiv:2611.33200",
+        "https://doi.org/10.48550/arXiv.2611.33200"
+      ],
+      "title": "Adaptive attention routing multimodal expert graph neural network for drug-drug interaction prediction",
+      "link": "https://doi.org/10.48550/arXiv.2611.33200",
+      "pdf_url": "https://arxiv.org/pdf/2611.33200",
+      "publication_date": "2026-11-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jingyi yang",
+          "name": "Jingyi Yang"
+        },
+        {
+          "key": "chengcheng yan",
+          "name": "Chengcheng Yan"
+        },
+        {
+          "key": "cong hongri",
+          "name": "Hongri Cong"
+        },
+        {
+          "key": "feifei zhao",
+          "name": "Feifei Zhao"
+        }
+      ],
+      "abstract_text": "Accurate prediction of drug-drug interactions (DDIs) is essential for drug safety in combination therapy. Multimodal methods built on knowledge graphs (KGs) already combine molecular structures, substructures, targets and biomedical relations into drug representations, but they still face three problems: features are heterogeneous across modalities, fusion does not adapt to individual drug pairs, and modality-specific information is diluted during integration. We propose the adaptive attention routing multimodal expert graph neural network (AARME-GNN) to address them. A Feature Adaptive Calibration Module (FACM) reduces within-modality noise in each representation through bottleneck reparameterization and channelwise recalibration before fusion. A Multimodal Weight Router (MMWR) then sets the modality weights of each drug pair, with an entropy constraint that prevents the weights from collapsing onto one modality. A Routing-Aware Weighted Distillation (RAWD) mechanism builds a soft target from the unimodal branches, so that the fusion classifier retains the knowledge held by each modality. On Dataset 1, AARME-GNN improves precision over MKG-FENN by 3.71 and 6.57 percentage points in known drug and known new drug prediction, and the area under the receiver operating characteristic curve (AUC) by 4.53 in new drug prediction. On Dataset 2, the advantage is concentrated in the two cold-start settings and in precision.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "4762eabaecaa381f0b286aff2f01460f9be4dd6a51362499604845e7006eeecd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73243-5",

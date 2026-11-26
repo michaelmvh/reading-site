@@ -495,6 +495,48 @@
       "curated_categories": []
     },
     {
+      "id": "1612d2c12edac8ec862ca1c548ad65937810252761a73fabe8ad64ebb2e4734c",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.24379217",
+        "https://openalex.org/W7239909663"
+      ],
+      "title": "DevAbDab: Developability-Enriched Antibody Dataset (full paired-OAS corpus)",
+      "link": "https://doi.org/10.5281/zenodo.24379217",
+      "pdf_url": null,
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "ellmen isaac",
+          "name": "Isaac Ellmen"
+        },
+        {
+          "key": "david errington",
+          "name": "David Errington"
+        },
+        {
+          "key": "matthew raybould",
+          "name": "Matthew I. J. Raybould"
+        },
+        {
+          "key": "charlotte deane mary",
+          "name": "Charlotte Mary Deane"
+        }
+      ],
+      "abstract_text": "DevAbDab is a subset of the paired Observed Antibody Space (OAS) corpus substantially less likely to receive TAP-derived (Therapeutic Antibody Profiler) computational developability flags, generated using FlashTAP, the fast FlashABB-based property predictor introduced in \"Modelling antibody structures at the speed of language\" (Ellmen, Errington, Raybould & Deane).Construction: all 610 paired-sequence data units in OAS (https://opig.stats.ox.ac.uk/webapps/oas/) were downloaded and deduplicated to 2,588,922 unique heavy/light sequence pairs. FlashTAP (seq2struct2seq variant) was used to predict four TAP properties (PSH, PPC, PNC, SFvCSP) for every sequence, and a calibrated isotonic-regression model was used to convert these predictions into a probability of carrying any TAP flag. devabdab_full.csv.gz contains the 682,637 sequences (26.4%) with calibrated P(any flag) < 0.05. all_paired_oas_final_with_probs.csv.gz contains the predicted scores and flag probabilities for the full, unfiltered corpus of 2,588,922 sequences.Columns: full_seq (heavy/light sequence, '/'-separated), heavy, light (devabdab_full.csv.gz only), PSH_pred_seq2struct2seq, PPC_pred_seq2struct2seq, PNC_pred_seq2struct2seq, SFvCSP_pred_seq2struct2seq (raw FlashTAP predictions), prob_any_flag (calibrated probability of any TAP flag).Code and model weights: https://github.com/oxpig/FlashABB",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "1615bf18c2fa24c8eabc1e16f85978a2b1fe583aedb1ed1bbf5fe5980dd50e7f",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78157-w",
@@ -1759,6 +1801,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "164b7b6a455d806f72f917360087ea3a31ad0a00c66190ffd1ac9c9d6d4da216",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.23.768527v1",
+        "https://doi.org/10.64898/2026.11.23.768527",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.23.768527.source.xml"
+      ],
+      "title": "Internet of Genetic Things (IoGT): Programmable Long-Distance Cybergenetic Logic Circuits Integrating IoT, Optogenetics, and Bacterial Gene Expression",
+      "link": "https://doi.org/10.64898/2026.11.23.768527",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768527v1.full.pdf",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "paul",
+          "name": "Paul, A"
+        },
+        {
+          "key": "basu",
+          "name": "Basu, R"
+        },
+        {
+          "key": "pal",
+          "name": "Pal, A"
+        },
+        {
+          "key": "mukherjee",
+          "name": "Mukherjee, B"
+        },
+        {
+          "key": "bagh",
+          "name": "Bagh, S"
+        }
+      ],
+      "abstract_text": "The Internet of Things (IoT) exchanges information and coordinates functions among geographically separated electronic devices. However, establishing analogous long-distance networks between genetically engineered living systems remains a challenge because synthetic genetic intercellular communication largely relies on local molecular signal transport. Here, we introduced a cybergenetic framework named the Internet of Genetic Things (IoGT) that autonomously regulated long-distance gene expression between geographically separated bacterial populations by integrating IoT, bacterial gene expression, and optogenetics. We engineered interconnected IoT nodes containing genetically engineered Escherichia coli, in which colour signals arising from reporter gene expression were detected using optical sensors interfaced with a Raspberry Pi. When gene expressions reached predefined thresholds and patterns, data were transmitted over the internet to a remote node, triggering blue light illumination to induce target gene expression in an optogenetically engineered E. coli population. Using this genetic, electronic, genetic communication architecture, we demonstrated cybergenetic BUFFER and OR gates between bacterial populations distributed across nodes separated by 100 m, as well as a cybergenetic AND gate coordinated among three locations. To demonstrate geographically extended operation, we constructed a cybergenetic NOT gate connecting a surface laboratory with a deep-subsurface laboratory located 555 m underground and more than 200 km away. To our knowledge, this was Indias first deep-subsurface biology experiment. IoGT was programmable. It reconfigured the same engineered bacterial populations into diverse Boolean logic gates BUFFER, OR, AND, and NOT gates. These results established IoGT as a programmable cybergenetic architecture capable of remote, multi-node intercellular gene expression control, having significant promise for distributed synthetic biology systems operating across remote or extreme environments.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:synthetic_biology",
+          "label": "bioRxiv: Synthetic Biology",
+          "url": "https://www.biorxiv.org/collection/synthetic-biology"
         }
       ],
       "curated_categories": []

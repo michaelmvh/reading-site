@@ -36,8 +36,8 @@
           "name": "Elaina Bashaw"
         },
         {
-          "key": "kalatturu reddy thejesh",
-          "name": "Thejesh Reddy Kalatturu"
+          "key": "kalatturu thejesh",
+          "name": "Thejesh Kalatturu"
         },
         {
           "key": "doo kim yeon",
@@ -1076,7 +1076,7 @@
           "name": "Ge Liu"
         }
       ],
-      "abstract_text": "The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative framework that learns the rate function of an inhomogeneous generalized Poisson process by minimizing its negative log-likelihood. We establish population-level guarantees for recovering the joint multimodal distribution and derive an upper bound on the KL divergence between the data and generated distributions. We comprehensively evaluate GPFlow across structure and sequence design, motif scaffolding, and peptide co-design, spanning Euclidean, categorical, and Riemannian modalities to fully validate its variable-length generation quality. In unconditional design, GPFlow improves structural designability and achieves the best distributional fitness for sequence design compared to their corresponding fixed-length baselines, while perfectly recovering the length distribution. In conditional motif scaffolding, GPFlow ranks first on 10 of 16 structure-based design tasks with significantly more unique successes and also achieves more passed tasks in sequence-based design. In peptide co-design, GPFlow remains competitive even without access to a native-length oracle.",
+      "abstract_text": "The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current diffusion- and flow-based generative models typically require the protein length to be specified before sampling, limiting their flexibility in exploring the feasible design space. To address this limitation, we introduce Generalized Poisson Flow (GPFlow), a variable-length generative framework that learns the rate function of an inhomogeneous generalized Poisson process by minimizing its negative log-likelihood. We establish population-level guarantees for recovering the joint multimodal distribution and derive an upper bound on the KL divergence between the data and generated distributions. We comprehensively evaluate GPFlow across structure and sequence design, motif scaffolding, and peptide co-design, spanning Euclidean, categorical, and Riemannian modalities to fully validate its variable-length generation quality. In unconditional design, GPFlow improves structural designability and achieves the best distributional fitness for sequence design compared to fixed-length baselines, while perfectly recovering the length distribution. In conditional motif scaffolding, GPFlow ranks first on 10 of 16 structure-based design tasks with significantly more unique successes and also achieves more passed tasks in sequence-based design. In peptide co-design, GPFlow remains competitive even without access to a native-length oracle. Our code is publicly available at https://github.com/ccr-cheng/generalized-poisson-flow.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4163,6 +4163,48 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "7cd14dc7edf57b8ca93be777603ca136327bec5eadf0bceddafb68cc0452b2e5",
+      "identity_keys": [
+        "arxiv:2604.11824",
+        "https://doi.org/10.48550/arXiv.2604.11824"
+      ],
+      "title": "Patterns in Individual Blood Count Trajectories in the UK Biobank Characterise Disease-Specific Signatures and May Anticipate Pan-Cancer Risk",
+      "link": "https://doi.org/10.48550/arXiv.2604.11824",
+      "pdf_url": "https://arxiv.org/pdf/2604.11824",
+      "publication_date": "2026-04-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "nagar riya",
+          "name": "Riya Nagar"
+        },
+        {
+          "key": "abicumaran uthamacumaran",
+          "name": "Abicumaran Uthamacumaran"
+        },
+        {
+          "key": "adelaide de vecchi",
+          "name": "Adelaide de Vecchi"
+        },
+        {
+          "key": "hector zenil",
+          "name": "Hector Zenil"
+        }
+      ],
+      "abstract_text": "Routine blood tests are typically interpreted as individual measurements against population-derived reference ranges, with limited use of information contained in changes across repeated tests. Here, we investigate whether trends in routinely measured haematological markers can reveal patterns associated with ageing and disease progression across cancers, cardiovascular diseases and infections. Using retrospective Complete Blood Count (CBC) data from the UK Biobank, we examine changes in individual biomarkers and their relationships across successive measurements, while assessing potential confounding factors. We combine statistical analysis, machine learning and network-based approaches to identify patterns associated with different disease states and stages. We find that clinically relevant information is contained not only in absolute blood-cell counts, but also in the direction, magnitude and coordinated patterns of change between measurements. These patterns provide candidate disease signatures that may complement conventional interpretation based on individual values and reference intervals. Because the approach relies on inexpensive tests already collected routinely in clinical practice, it offers a practical route for extracting additional clinical information from existing data, with potential applications in earlier disease detection, monitoring and precision healthcare.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

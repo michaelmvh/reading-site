@@ -5921,6 +5921,52 @@
       ]
     },
     {
+      "id": "2bf49c920ec3934d3c8e9571912cceaa76f767c86de6c8b24a8de9155b985b76",
+      "identity_keys": [
+        "arxiv:2611.34247",
+        "https://doi.org/10.48550/arXiv.2611.34247"
+      ],
+      "title": "Did the Model Forecast It, or Already Know It? Evaluating Large Language Models for Novel Drug-Target Prioritisation with a Temporal Knowledge-Graph Oracle",
+      "link": "https://doi.org/10.48550/arXiv.2611.34247",
+      "pdf_url": "https://arxiv.org/pdf/2611.34247v1",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "chung pui siu",
+          "name": "Pui Chung Siu"
+        },
+        {
+          "key": "liang yuan",
+          "name": "Yuan Liang"
+        },
+        {
+          "key": "cabrera claudia",
+          "name": "Claudia Cabrera"
+        },
+        {
+          "key": "mani mudaliar",
+          "name": "Mani Mudaliar"
+        },
+        {
+          "key": "arkaitz zubiaga",
+          "name": "Arkaitz Zubiaga"
+        }
+      ],
+      "abstract_text": "AI systems increasingly help decide which drug targets enter costly clinical trials. We recast each target-disease hypothesis as a dated event, the pair's first clinical trial. This lets us test whether a language model can forecast such events after its training cutoff, rather than recall events before it. We rebuild a dated biomedical knowledge graph as it stood at the end of each year from 2020 up to its newest version. We then ask six open language models, with and without this graph, which targets will enter a first trial for a disease the next year. Without retrieval, the models rank about as well as trial history, a count of each target's past trials in the same therapeutic area, also after their training cutoffs. Evidence dated before the decision adds at most a small gain, before or after the models' training cutoffs. The newest graph raises five of six models clearly above that baseline, but its paths usually include the answer: the pair's own trial, dated after the decision. Evaluations of target prioritisation should date both features and labels, with evidence from before the decision and outcomes after it.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2bf7606a769783ae58c9b9a0157b1ed3be5ecc645476372d8e7ff3cd640ba489",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65020-7",

@@ -4926,6 +4926,60 @@
       "curated_categories": []
     },
     {
+      "id": "6eab06d78183d323b6d5c2640950522e1ab180ef3fd535a49ac8a02bbcec73b6",
+      "identity_keys": [
+        "arxiv:2606.05474",
+        "https://doi.org/10.48550/arXiv.2606.05474"
+      ],
+      "title": "AlloGen: Conformation-Selective Binder Generation with Differential State Scoring",
+      "link": "https://doi.org/10.48550/arXiv.2606.05474",
+      "pdf_url": "https://arxiv.org/pdf/2606.05474",
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "cao hanqun",
+          "name": "Hanqun Cao"
+        },
+        {
+          "key": "aastha pal",
+          "name": "Aastha Pal"
+        },
+        {
+          "key": "kimura sumi",
+          "name": "Sumi Kimura"
+        },
+        {
+          "key": "kim yesol",
+          "name": "Yesol Kim"
+        },
+        {
+          "key": "jingjie zhang",
+          "name": "Jingjie Zhang"
+        },
+        {
+          "key": "ann heng pheng",
+          "name": "Pheng Ann Heng"
+        },
+        {
+          "key": "chatterjee pranam",
+          "name": "Pranam Chatterjee"
+        }
+      ],
+      "abstract_text": "Protein binder design commonly optimizes compatibility with a single receptor conformation, leaving preference over alternative functional states unresolved. To address this gap, we introduce AlloGen, a modular method that decouples backbone generation from state-selectivity scoring. We train its SE(3)-invariant interface graph transformer, $Q_\\theta$, through interface-quality regression followed by paired conformational discrimination. By comparing scores across states, we rerank candidates and guide frozen backbone generators without retraining. On a benchmark of 65 targets spanning 15 protein families, $Q_\\theta$ achieved a mean Spearman correlation of $0.520$ on eight held-out targets. All 15 evaluated generator-guidance combinations achieved positive predicted selectivity averaged over these targets, and RFdiffusion with Langevin refinement reached $\\bar{S}_{\\mathrm{cons}}=0.677$ on calmodulin (CaM). To test the predicted preference experimentally, we measured binding by bio-layer interferometry. Five designed peptides bound holo CaM, with the strongest measured $K_D$ of 46.6 nM, and none showed detectable apo CaM binding under the tested conditions. Together, these results support computational prioritization of conformation-selective binders.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.BM",
+          "label": "arXiv: Biomolecules",
+          "url": "https://arxiv.org/list/q-bio.BM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6eabcd8a2bd33f16551e26f3f97cb45e8d44355f245ec79a37591a1d4124f9de",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-73676-y",

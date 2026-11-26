@@ -467,6 +467,92 @@
       "curated_categories": []
     },
     {
+      "id": "8f2d3a49f59c8222cbe4b7db05fdb31c52fa789b276305b3d8061f6d36d5e52c",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.21857",
+        "https://openalex.org/W7236308084"
+      ],
+      "title": "tmol: a GPU-accelerated implementation of the Rosetta energy function for machine learning",
+      "link": "https://doi.org/10.48550/arxiv.2611.21857",
+      "pdf_url": "https://arxiv.org/pdf/2611.21857",
+      "publication_date": "2026-11-16",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "andrew fay leaver",
+          "name": "Andrew Leaver‐Fay"
+        },
+        {
+          "key": "didi kieran",
+          "name": "Kieran Didi"
+        },
+        {
+          "key": "flatten jeff",
+          "name": "Jeff Flatten"
+        },
+        {
+          "key": "alex ford",
+          "name": "Alex Ford"
+        },
+        {
+          "key": "guangfeng zhou",
+          "name": "Guangfeng Zhou"
+        },
+        {
+          "key": "corley nathaniel",
+          "name": "Nathaniel Corley"
+        },
+        {
+          "key": "hahnbeom park",
+          "name": "Hahnbeom Park"
+        },
+        {
+          "key": "kazman maxwell",
+          "name": "Maxwell W. Kazman"
+        },
+        {
+          "key": "brent rafael",
+          "name": "Rafael I. Brent"
+        },
+        {
+          "key": "joseph kleinhenz",
+          "name": "Joseph Kleinhenz"
+        },
+        {
+          "key": "henry solberg",
+          "name": "Henry Solberg"
+        },
+        {
+          "key": "andrew watkins",
+          "name": "Andrew M. Watkins"
+        },
+        {
+          "key": "brian kuhlman",
+          "name": "Brian A. Kuhlman"
+        },
+        {
+          "key": "baker david",
+          "name": "David Baker"
+        },
+        {
+          "key": "dimaio frank",
+          "name": "Frank DiMaio"
+        }
+      ],
+      "abstract_text": "Physics-inspired forcefields complement generative machine learning models, showing better generalization beyond the training distribution. However, these forcefields are typically slow to evaluate, and their derivatives are difficult to integrate into ML frameworks. We introduce tmol, a GPU-native PyTorch library implementing the state-of-the-art RosettaGenFF forcefield. tmol supports efficient batched differentiable scoring and whole-structure refinement with up to 362-fold throughput increase (batched). Used as a reward in generative protein design, tmol increases hydrogen bonds and water bridges at designed interfaces.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8f2e5e26c5d04c4728c17d41e3e257419fe33da66f6cf9312af34bf20b23cd94",
       "identity_keys": [
         "https://doi.org/10.25582/data.2023-10.2911109/3741345",
@@ -2846,7 +2932,7 @@
           "name": "Davit A. Potoyan"
         }
       ],
-      "abstract_text": "Proteins can be studied through their sequence statistics or structural properties. These represent complementary views that are useful but lack a quantitative framework to tell, family by family, which is most informative and how to combine them. We introduce a framework that builds both views in parallel: amino acid (AA) alignments are translated into parallel alignments over a 3D interaction (3Di) structure-informed alphabet. Variational autoencoders compress each into a two-dimensional map, and direct coupling analysis places a shared coevolutionary energy on both maps, turning them into latent generative landscapes. On these landscapes, we define information-theoretic distance metrics that quantify how sequence changes drive structural and functional variation in protein families. We demonstrate the framework on five families: in malate dehydrogenases, the 3Di landscape identifies the structurally conserved scaffold that this family uses to encode thermal adaptation via sequence variability revealed in the AA landscape. In globins and transient receptor potential melastatin (TRPM), the 3Di landscape recovers known functional subfamilies. In the Flaviviridae E1 and E2 glycoproteins, structure reveals evolutionary relationships invisible at the sequence level. Because many sequences encode the same fold, our framework lets us disentangle family-sequence variability from structural and functional variation. These generative landscapes allow sampling near functional regions, and we show they can help us gain mechanistic insight into the evolutionary forces shaping sequence–structure–function variation and guide the design of new proteins.",
+      "abstract_text": "Proteins can be studied through their sequence statistics or structural properties. These represent complementary views that are useful but lack a quantitative framework to tell, family by family, which is most informative and how to combine them. We introduce a framework that builds both views in parallel: amino acid (AA) alignments are translated into parallel alignments over a 3D interaction (3Di) structure-informed alphabet. Variational autoencoders compress each into a two-dimensional map, and direct coupling analysis places a shared coevolutionary energy on both maps, turning them into latent generative landscapes. On these landscapes, we define information-theoretic distance metrics that quantify how sequence changes drive structural and functional variation in protein families. We demonstrate the framework on five families: in malate dehydrogenases, the 3Di landscape identifies the structurally conserved scaffold that this family uses to encode thermal adaptation via sequence variability revealed in the AA landscape. In globins and transient receptor potential melastatin (TRPM), the 3Di landscape recovers known functional subfamilies. In the Flaviviridae E1 and E2 glycoproteins, structure reveals evolutionary relationships invisible at the sequence level. Because many sequences encode the same fold, our framework lets us disentangle family-sequence variability from structural and functional variation. These generative landscapes allow sampling near functional regions, and we show they can help us gain mechanistic insight into the evolutionary forces shaping sequence-structure-function variation and guide the design of new proteins.",
       "discovery_sources": [
         {
           "kind": "open_alex",

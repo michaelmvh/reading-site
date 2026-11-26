@@ -5449,6 +5449,72 @@
       "curated_categories": []
     },
     {
+      "id": "c5d12c8aec5676f50a8f084bf455b7324699ca582d03629f3be07d8b83ab1466",
+      "identity_keys": [
+        "arxiv:2606.31126",
+        "https://doi.org/10.48550/arXiv.2606.31126"
+      ],
+      "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
+      "link": "https://doi.org/10.48550/arXiv.2606.31126",
+      "pdf_url": "https://arxiv.org/pdf/2606.31126",
+      "publication_date": "2026-06-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "davy guan",
+          "name": "Davy Guan"
+        },
+        {
+          "key": "lu zhang",
+          "name": "Lu Zhang"
+        },
+        {
+          "key": "asiri wijesinghe",
+          "name": "Asiri Wijesinghe"
+        },
+        {
+          "key": "allen zhu",
+          "name": "Allen Zhu"
+        },
+        {
+          "key": "he zhao",
+          "name": "He Zhao"
+        },
+        {
+          "key": "helen power",
+          "name": "Helen Power"
+        },
+        {
+          "key": "ahmed hafna",
+          "name": "F. Hafna Ahmed"
+        },
+        {
+          "key": "andrew warden",
+          "name": "Andrew Warden"
+        },
+        {
+          "key": "cheng ong soon",
+          "name": "Cheng Soon Ong"
+        },
+        {
+          "key": "daniel steinberg",
+          "name": "Daniel M. Steinberg"
+        }
+      ],
+      "abstract_text": "Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now supply rich fixed-length representations, the difficulty has shifted from representation learning to building a data-efficient predictor for the few-shot regime. Tabular foundation models such as TabPFN and TabICL perform this prediction through in-context inference after pretraining on synthetic tables. We test whether they can act as flexible interpolators over informative fixed biomolecular representations. Treating each method as a predictor-representation pair, we evaluate across two domains. On ProteinGym, TabPFN3-ESMC600M is competitive with leading supervised-substitution entries and obtains the lowest MSE among the leaderboard-context rows considered, while Kermut remains stronger by Spearman. Performance is substantially lower under modulo and contiguous holdouts than under random splits. On the five-endpoint PpEST dataset, tabular models show favorable descriptive performance against matched supervised baselines, but the random split measures within-family interpolation and the small endpoint count precludes strong model-ordering claims. For small-molecule classification with ECFP/RDKit descriptors, no single predictor-representation pairing dominates across TDC ADMET, MoleculeNet, FS-Mol, and DrugOOD, but several pairings are competitive with strong descriptor and graph baselines. Crucially, on both protein and small-molecule few-shot tasks, these predictor-representation pairs offer strong performance. We conclude that tabular foundation models can be strong biomolecular predictors, but only when coupled with expressive representations.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "c5da61fda1c1ca4b7d36a6a89a5e74bf58f2cb8cd4e9385ffa4c474a30a8d99a",
       "identity_keys": [
         "https://doi.org/10.1038/s41586-026-10683-5",

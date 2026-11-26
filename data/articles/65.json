@@ -1865,7 +1865,7 @@
           "name": "David A. Baker"
         }
       ],
-      "abstract_text": "We describe an approach for designing high-affinity small molecule–binding proteins poised for downstream sensing. We use deep learning–generated pseudocycles with repeating structural units surrounding central binding pockets with widely varying shapes that depend on the geometry and number of the repeat units. We dock small molecules of interest into the most shape complementary of these pseudocycles, design the interaction surfaces for high binding affinity, and experimentally screen to identify designs with the highest affinity. We obtain binders to four diverse molecules, including the polar and flexible methotrexate and thyroxine. Taking advantage of the modular repeat structure and central binding pockets, we construct chemically induced dimerization systems and low-noise nanopore sensors by splitting designs into domains that reassemble upon ligand addition.",
+      "abstract_text": "We describe an approach for designing high-affinity small molecule-binding proteins poised for downstream sensing. We use deep learning-generated pseudocycles with repeating structural units surrounding central binding pockets with widely varying shapes that depend on the geometry and number of the repeat units. We dock small molecules of interest into the most shape complementary of these pseudocycles, design the interaction surfaces for high binding affinity, and experimentally screen to identify designs with the highest affinity. We obtain binders to four diverse molecules, including the polar and flexible methotrexate and thyroxine. Taking advantage of the modular repeat structure and central binding pockets, we construct chemically induced dimerization systems and low-noise nanopore sensors by splitting designs into domains that reassemble upon ligand addition.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -3759,6 +3759,44 @@
       "curated_categories": []
     },
     {
+      "id": "657dd57092d8fc9cfdd7dfd160501a4906f26f4a35a6608532184cd8dbdb75c7",
+      "identity_keys": [
+        "arxiv:2611.34166",
+        "https://doi.org/10.48550/arXiv.2611.34166"
+      ],
+      "title": "Cell-Type-Specific Expression Is Hard to Predict from Bulk, but It Is Still Useful",
+      "link": "https://doi.org/10.48550/arXiv.2611.34166",
+      "pdf_url": "https://arxiv.org/pdf/2611.34166v1",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "gadi naveh",
+          "name": "Gadi Naveh"
+        },
+        {
+          "key": "amit miller",
+          "name": "Amit Miller"
+        },
+        {
+          "key": "gal keinan",
+          "name": "Gal Keinan"
+        }
+      ],
+      "abstract_text": "Single-cell-informed deconvolution provides cell-type-resolved features for clinical bulk RNA cohorts. Most existing methods predict the proportions $π_k$ of the $K$ constituent cell types (CTs). Fewer predict cell-type-specific expression (CTSE) $μ_{kg}$ of gene $g$ in CT $k$, which can capture cell states that proportions miss, but recent benchmarks find it much harder. We explain this gap with closed-form accuracy bounds. For CTSE, we derive an $R^2$ ceiling for per-gene linear estimators. For proportions, the best linear estimator, which pools evidence across genes, has a closed-form $R^2$, and a computable lower bound on it predicts which CTs are learnable. We study targeted deconvolution of 106 biologically curated (CT, gene) pairs, found post hoc to have higher learnability scores. On overall survival in non-small cell lung cancer, estimation difficulty does not predict prognostic value across these targets. Yet a sparse survival model on deconvolved features, mostly CTSE, predicts survival as well as a sparse model on the bulk genes themselves, while attributing its signal to specific cell types. Some deconvolved CTSE features reveal prognostic signal not seen in the corresponding bulk gene.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "65825cbae635edba21788a2d2e286a4b97fbf526e3ab1408ac6f00a821623b53",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02424-5",
@@ -5582,8 +5620,8 @@
           "name": "Ali Zarrabi"
         },
         {
-          "key": "mika sillanpaa",
-          "name": "Mika Sillanpaa"
+          "key": "mika sillanpää",
+          "name": "Mika E. T. Sillanpää"
         },
         {
           "key": "ehsan nazarzadeh zare",

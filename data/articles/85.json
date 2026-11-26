@@ -134,7 +134,7 @@
         },
         {
           "key": "dean scott",
-          "name": "Scott Dean"
+          "name": "Scott N. Dean"
         }
       ],
       "abstract_text": "Rapid development of therapeutics against emerging viral pathogens increasingly depends on machine learning (ML), both to generate candidate binders and for structural validation. Nanobodies (Nbs), or single-domain antibodies, are promising antiviral therapeutics, but accurate in silico prediction of viral epitopes remains challenging. Here we benchmark three ML-based structure prediction models, Boltz-2, Chai-1 and AlphaFold3 (AF3), against a curated data set of viral antigen-nanobody complexes deposited after the AF3 training cutoff. AF3 outperformed the other models: success (interface DockQ > 0.23) rose from 33% with a single seed to 50% and 65% with 10 and 100 seeds-per-target, respectively, compared with 18% for Boltz-2 and 30% for Chai-1. Using an expanded data set, we evaluated confidence metrics and found that a strict ipTM cutoff of 0.8, or a combination of ipTM ≥ 0.6 with a CDR3 loop pLDDT ≥ 60, reliably excluded incorrect predictions while retaining most successful ones. We further establish best practices for two AF3-specific capabilities, the choice of antigen multimeric state and the inclusion of N-glycosylation, both of which can be decisive for epitope success depending on the target. Finally, we apply these guidelines to two design problems: ranking a library of VEEV-neutralizing nanobodies and mapping the epitope of the broadly neutralizing nanobody CC3 across homologous alphavirus antigens. These results provide a practical framework for ML-based viral nanobody epitope prediction and design.",

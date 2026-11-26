@@ -1782,7 +1782,7 @@
           "name": "Charlotte Mary Deane"
         }
       ],
-      "abstract_text": "Antigen receptor numbering allows delineation of antigen-binding regions of antibodies and T cell receptors, from sequence alone. Numbering is currently achieved by aligning to a reference set. This approach may result in different numbering depending on reference set used or fail on sequences from rare species or formats. We present a method (ANARCII) which requires no alignment step and is based on a Seq2Seq language model. ANARCII improves upon existing methods through more consistent numbering of key regions, robustness to truncations, generalisation to unseen species, and easier user installation. The lightweight architecture allows numbering of 90,000 sequences per minute on a high-end GPU. The software is available via web app (https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/anarcii/), and package (https://github.com/oxpig/ANARCII). Ultimately ANARCII allows numbering of more antibody-like sequences, with better recovery of full-length regions from existing databases, and enables comparative analysis of new receptors not numbered by existing tools.",
+      "abstract_text": "Antigen receptor numbering allows delineation of antigen-binding regions of antibodies and T cell receptors, from sequence alone. Numbering is currently achieved by aligning to a reference set. This approach may result in different numbering depending on reference set used or fail on sequences from rare species or formats. We present a method (ANARCII) which requires no alignment step and is based on a Seq2Seq language model. ANARCII improves upon existing methods through more consistent numbering of key regions, robustness to truncations, generalisation to unseen species, and easier user installation. The lightweight architecture allows numbering of 90,000 sequences per minute on a high-end GPU. The software is available via web app ( https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/anarcii/ ), and package ( https://github.com/oxpig/ANARCII ). Ultimately ANARCII allows numbering of more antibody-like sequences, with better recovery of full-length regions from existing databases, and enables comparative analysis of new receptors not numbered by existing tools.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -4705,6 +4705,52 @@
         }
       ],
       "abstract_text": "The dopaminergic system has key roles in human physiology and is implicated in a broad range of neurological and neuropsychiatric conditions that are increasingly investigated using induced pluripotent stem cell-derived midbrain models. To determine similarities of such models to human systems, here we undertake single-cell and spatial profiling of first and second trimester fetal midbrain and compare it to in vitro midbrain models. Histological examination reveals that, by the second trimester, fetal midbrain tissue exhibits structural complexity comparable to that of adults. At the molecular level, single-cell profiling uncovers differences in cellular composition across models, with brain organoids most closely resembling late first trimester tissue - an observation supported by meta-integration of existing midbrain datasets. By reconstructing developmental trajectories of neuronal and astrocytic lineages, we map gene expression dynamics associated with maturation. Importantly, integration of spatial transcriptomics provides critical context for aligning organoid models, revealing that their spatial organization and intercellular signaling resemble the architecture and microenvironment of the second trimester midbrain. Ultimately, we leverage our findings to study Dopamine Transporter Deficiency Syndrome progression in patient-derived midbrain organoids, validating their relevance. Understanding the extent of human tissue recapitulation in midbrain laboratory models is essential to justify their use as biological proxies.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "f1d28617132b91a5da291dff608e1f357d6c4f99482b843412ad5f57ea4aa7f0",
+      "identity_keys": [
+        "https://doi.org/10.26434/chemrxiv.15012755/v1",
+        "https://openalex.org/W7239889741"
+      ],
+      "title": "Evaluating cofolding methods for protein–macrocycle structure prediction",
+      "link": "https://doi.org/10.26434/chemrxiv.15012755/v1",
+      "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15012755/v1",
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "ChemRxiv",
+      "authors": [
+        {
+          "key": "杨雁青",
+          "name": "杨雁青"
+        },
+        {
+          "key": "wang zhanfeng",
+          "name": "Zhanfeng Wang"
+        },
+        {
+          "key": "wangzixi zhang",
+          "name": "Wangzixi Zhang"
+        },
+        {
+          "key": "hang zheng",
+          "name": "Hang Zheng"
+        },
+        {
+          "key": "rongfeng zou",
+          "name": "Rongfeng Zou"
+        }
+      ],
+      "abstract_text": "The accuracy of general-purpose cofolding models in predicting binding poses for novel protein–macrocycle complexes with little experimental structural precedent remains poorly characterized. We developed MacroCycle-Benchmark, which links chemically verified ligand structures to their experimental binding poses and protein environments across 1,861 cases. We evaluated six general-purpose cofolding models on a common set of 1,772 cases. With ligand SMILES as input, 22.7–30.8% of top-ranked predictions had a ligand heavy-atom root-mean-square deviation (RMSD) <2 Å after binding-site superposition and a local distance difference test score for protein–ligand interactions (LDDT-PLI) >0.8. Success rates were 10.7–16.5 percentage points lower for complexes released after each model’s training cutoff than for those released earlier. Among post-cutoff cases with evaluable similarity to pre-cutoff benchmark structures, all six models had success rates below 8% in the lowest-similarity group. In paired comparisons of cyclic peptides that could be represented by residue sequences and covalent linkages, Boltz-2 and RoseTTAFold 3 each recovered more experimental binding poses with sequence input than with SMILES. For macrocycles with 30–40 ring atoms, 97.5–100% of each model’s failed top-ranked SMILES predictions had a ligand heavy-atom RMSD of at least 2 Å even after ligand-only superposition. In these cases, the models failed to recover the bound conformation of the ligand itself, limiting their ability to reproduce the experimental binding mode. These findings indicate that current cofolding models have limited ability to generalize to macrocycle binding modes with little structural precedent in the benchmark. Predicted poses for such complexes should be used cautiously in structure-guided macrocycle design.",
       "discovery_sources": [
         {
           "kind": "open_alex",

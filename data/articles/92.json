@@ -3706,7 +3706,7 @@
         },
         {
           "key": "garg vikas",
-          "name": "Vikas Garg"
+          "name": "Vikas K Garg"
         }
       ],
       "abstract_text": "Antibodies are Y-shaped proteins that neutralize pathogens and constitute the core of our adaptive immune system. De novo generation of new antibodies that target specific antigens holds the key to accelerating vaccine discovery. However, this co-design of the amino acid sequence and the 3D structure subsumes and accentuates some central challenges from multiple tasks, including protein folding (sequence to structure), inverse folding (structure to sequence), and docking (binding). We strive to surmount these challenges with a new generative model AbODE that extends graph PDEs to accommodate both contextual information and external interactions. Unlike existing approaches, AbODE uses a single round of full-shot decoding and elicits continuous differential attention that encapsulates and evolves with latent interactions within the antibody as well as those involving the antigen. We unravel fundamental connections between AbODE and temporal networks as well as graph-matching networks. The proposed model significantly outperforms existing methods on standard metrics across benchmarks.",
@@ -4127,6 +4127,48 @@
         }
       ],
       "abstract_text": "Arcagen is a clinical study proposing a comprehensive analysis of molecular and clinical characteristics of rare adult solid cancers (11 domains: sarcomas, gynecology, uro-genital, GI, NET, head and neck, thoracic, skin and eyes, CNS and CUP) across Europe, utilizing the EORTC-SPECTA platform with the EURACAN ERN. This study enrolled 1235 advanced stage patients. 893 were evaluable for molecular profiling toward a potential access to personalized therapy.In the 11 different domains, 69.4% (620/893) of patients had actionable mutations, among whom 93 (15% of 620 patients with currently actionable alterations) received targeted- or immune (IO)-therapies. The median overall survival of the patient population without treatment adaptation, with switch to targeted therapy, or immunotherapy was 1.1, 3.3 years, and not reached, respectively.Across Europe, high prevalence and diversity of molecular alterations for rare solid tumors were observed as well as significant disparities regarding access to personalized medicine approaches. Molecular characterization of rare cancer types can be challenging, and this can limit application of personalized therapy. Here, the authors compile a large clinical cohort of rare adult solid cancers to find 69% harbour actionable mutations.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "92b5b874a4bd0c3421dac719b49a495350306d787e6b0a5dcd4bb775f1015618",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.25076",
+        "https://openalex.org/W7237102369"
+      ],
+      "title": "ShEPhERD-score: Fast, adaptable three-dimensional alignment of molecular features",
+      "link": "https://doi.org/10.48550/arxiv.2611.25076",
+      "pdf_url": "https://arxiv.org/pdf/2611.25076",
+      "publication_date": "2026-11-18",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "nate somers",
+          "name": "Nate Somers"
+        },
+        {
+          "key": "abeywardane kento",
+          "name": "Kento Abeywardane"
+        },
+        {
+          "key": "coley connor",
+          "name": "Connor W. Coley"
+        },
+        {
+          "key": "elkin masha",
+          "name": "Masha Elkin"
+        }
+      ],
+      "abstract_text": "Three-dimensional (3D) molecular similarity scoring and alignment are widely employed in ligand-based virtual screening and molecular design, and are increasingly used for training and evaluating machine learning models. Existing open-source methods utilize various molecular representations spanning shape, electrostatics, pharmacophores, and hybrid representations, but their implementations as independent software packages with distinct application programming interfaces (APIs), optimizers, and limited GPU support make them difficult to compare, combine, or extend. Here, we develop ShEPhERD-score into a unified, modular platform for differentiable 3D molecular similarity scoring and alignment by combining diverse molecular representations with high-performance Numba CPU and Triton GPU kernels to support both large-scale library screening and pairwise similarity workflows. In matched comparisons with open-source 3D similarity tools on the DUDE-Z virtual screening benchmark, ShEPhERD-score performed comparably or better in eight of nine cases. Across the scoring modes in ShEPhERD-score, throughput ranges from 17,800 to 1.03 million alignments/second for ten-million-conformer libraries using a single NVIDIA L40S GPU. Moreover, we found that the most effective scoring mode varied by protein target, indicating that target-specific calibration against validation data may be valuable before large-scale screening and underscoring the need for a unified platform that provides diverse molecular representations. Together, these capabilities establish ShEPhERD-score as a single, extensible toolkit for rapid virtual screening and machine learning workflows.",
       "discovery_sources": [
         {
           "kind": "open_alex",

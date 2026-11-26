@@ -2804,6 +2804,48 @@
       "curated_categories": []
     },
     {
+      "id": "808f101295c95f4a280831c8c8b86d7a6f19c1b02a24a2d5d99d6294803fa506",
+      "identity_keys": [
+        "https://openalex.org/W7235816740",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c70bc769d6171ef8bb76e36e8d458205-Abstract-Conference.html"
+      ],
+      "title": "gLSTM: Mitigating Over-Squashing by Increasing Storage Capacity",
+      "link": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/c70bc769d6171ef8bb76e36e8d458205-Abstract-Conference.html",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/c70bc769d6171ef8bb76e36e8d458205-Paper-Conference.pdf",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "blayney hugh",
+          "name": "Hugh Blayney"
+        },
+        {
+          "key": "arroyo álvaro",
+          "name": "Álvaro Arroyo"
+        },
+        {
+          "key": "dong",
+          "name": "X Dong"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        }
+      ],
+      "abstract_text": "Graph Neural Networks (GNNs) leverage the graph structure to transmit information between nodes, typically through the message-passing mechanism. While these models have found a wide variety of applications, they are known to suffer from over-squashing, where information from a large receptive field of node representations is collapsed into a single fixed sized vector, resulting in an information bottleneck. In this paper, we re-examine the over-squashing phenomenon through the lens of model storage and retrieval capacity, which we define as the amount of information that can be stored in a node’s representation for later use. We study some of the limitations of existing tasks used to measure over-squashing and introduce a new synthetic task to demonstrate that an information bottleneck can saturate this capacity. Furthermore, we adapt ideas from the sequence modeling literature on associative memories, fast weight programmers, and the xLSTM model to develop a novel GNN architecture with improved capacity. We demonstrate strong performance of this architecture both on our capacity synthetic task, as well as a range of real-world graph benchmarks.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "8091240b6a43ae7e2b5e0eefee9411274ff97e362fc46f4836b1b2d63657db60",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02679-y",

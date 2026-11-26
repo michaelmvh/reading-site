@@ -37,7 +37,7 @@
           "name": "Anthony Gitter"
         }
       ],
-      "abstract_text": "Significance Understanding the relationship between protein sequence and function is necessary to design new and useful proteins with applications in bioenergy, medicine, and agriculture. The mapping from sequence to function is tremendously complex because it involves thousands of molecular interactions that are coupled over multiple lengths and timescales. We show that neural networks can learn the sequence–function mapping from large protein datasets. Neural networks are appealing for this task because they can learn complicated relationships from data, make few assumptions about the nature of the sequence–function relationship, and can learn general rules that apply across the length of the protein sequence. We demonstrate that learned models can be applied to design new proteins with properties that exceed natural sequences.",
+      "abstract_text": "The mapping from protein sequence to function is highly complex, making it challenging to predict how sequence changes will affect a protein's behavior and properties. We present a supervised deep learning framework to learn the sequence-function mapping from deep mutational scanning data and make predictions for new, uncharacterized sequence variants. We test multiple neural network architectures, including a graph convolutional network that incorporates protein structure, to explore how a network's internal representation affects its ability to learn the sequence-function mapping. Our supervised learning approach displays superior performance over physics-based and unsupervised prediction methods. We find that networks that capture nonlinear interactions and share parameters across sequence positions are important for learning the relationship between sequence and function. Further analysis of the trained models reveals the networks' ability to learn biologically meaningful information about protein structure and mechanism. Finally, we demonstrate the models' ability to navigate sequence space and design new proteins beyond the training set. We applied the protein G B1 domain (GB1) models to design a sequence that binds to immunoglobulin G with substantially higher affinity than wild-type GB1.",
       "discovery_sources": [
         {
           "kind": "curated_collection",
@@ -617,7 +617,7 @@
         },
         {
           "key": "daniel matson",
-          "name": "Daniel Matson"
+          "name": "Daniel R. Matson"
         },
         {
           "key": "chatterjee pranam",
@@ -6088,8 +6088,8 @@
           "name": "Laurie Jane McKenzie"
         },
         {
-          "key": "terri woodard",
-          "name": "Terri L. Woodard"
+          "key": "lynn terri woodard",
+          "name": "Terri Lynn Woodard"
         },
         {
           "key": "ghassan saed",

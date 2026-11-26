@@ -2898,8 +2898,8 @@
           "name": "Frank Waldron-Lynch"
         },
         {
-          "key": "gergely peter",
-          "name": "Peter Gergely"
+          "key": "attila gergely péter",
+          "name": "Péter Attila Gergely"
         },
         {
           "key": "nadège pelletier",
@@ -3008,6 +3008,64 @@
           "key": "biorxiv:bioinformatics",
           "label": "bioRxiv: Bioinformatics",
           "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "316ceed91a14f09bc0fc246490b39979ec8e6ce71f740db6b9962bc017c595af",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.25543",
+        "https://openalex.org/W7237214639"
+      ],
+      "title": "Efficient Multimodal Agents for Auditing 3D Worlds",
+      "link": "https://doi.org/10.48550/arxiv.2611.25543",
+      "pdf_url": "https://arxiv.org/pdf/2611.25543",
+      "publication_date": "2026-11-19",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jingbo yang",
+          "name": "Jingbo Yang"
+        },
+        {
+          "key": "jiang ziyan",
+          "name": "Ziyan Jiang"
+        },
+        {
+          "key": "an li",
+          "name": "Li An"
+        },
+        {
+          "key": "ji jiabao",
+          "name": "Jiabao Ji"
+        },
+        {
+          "key": "liu yujian",
+          "name": "Yujian Liu"
+        },
+        {
+          "key": "jaakkola tommi",
+          "name": "Tommi Jaakkola"
+        },
+        {
+          "key": "yang zhang",
+          "name": "Yang Zhang"
+        },
+        {
+          "key": "chang shiyu",
+          "name": "Shiyu Chang"
+        }
+      ],
+      "abstract_text": "Multimodal agents can now build interactive 3D worlds and games, yet these worlds, like those built by people, often contain glitches such as floating objects, walls that can be walked through, or objects that change when no one is looking. An automatic auditor could check such worlds at scale and provide rewards for agents that build them, but only if it is both accurate and cheap. Auditing requires three abilities, namely navigating to the objects that may contain a glitch, triggering glitches that appear only after a specific behavior, and recognizing what is wrong. Current auditors are either accurate but slow and expensive or cheap but unreliable. We study how much of the audit small models can take on. A 4B vision language model fine-tuned end to end on verified trajectories of a frontier teacher guided by Bayesian search learns to navigate and trigger, and six such explorers together match a frontier model on both, but recognition stays far behind. We therefore build an auditor in which a swarm of small explorers navigates and triggers, and a frontier model reviews what they record and report. On WorldAuditBench, our auditor succeeds on 55.9% of 213 tasks in Unreal Engine 5 and Three.js worlds, 13.6 points above the strongest auditor reported, at less than a quarter of its cost. It matches the frontier reviewer exploring on its own at 4.6 times lower cost and about half the latency. Without further training, it also answers embodied questions about real-world scans, matching the frontier reviewer exploring on its own and surpassing four other frontier models by 6.4 to 16.6 points.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
         }
       ],
       "curated_categories": []

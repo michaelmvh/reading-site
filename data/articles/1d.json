@@ -2389,8 +2389,8 @@
           "name": "M. Campo Patino"
         },
         {
-          "key": "robledo",
-          "name": "J Robledo"
+          "key": "jaime robledo",
+          "name": "Jaime Robledo"
         }
       ],
       "abstract_text": "Rationale Antimicrobial drug resistance (AMR) is a critical threat to global health, underscoring the urgent need for novel antibiotic discovery. The persistent rise in AMR infections, exacerbated by antibiotic overuse and the slowdown in new drug discovery, highlights an urgent need for innovative therapeutic strategies. Antimicrobial peptides (AMPs), naturally occurring components of host defense systems, possess broad-spectrum bactericidal activity, making them attractive candidates for combating resistant pathogens. However, their clinical translation remains limited due to issues of cytotoxicity and production cost. Advances in artificial intelligence (AI) now offer a means to overcome these barriers by enabling rational peptide design. Methods We applied an AI-based convolutional neural network trained on AMP structure and minimum inhibitory concentration (MIC) to design synthetic AMPs (SAMPs) predicted to possess antibacterial activity across multiple pathogens, including Mycobacterium species. This model generated 523 novel SAMPs to target ten clinically relevant AMR pathogens (Figure). A subset of 108 SAMPs with predicted antimycobacterial activity was selected for experimental validation. Mycobacterium abscessus (Mab), a rapidly growing, multidrug-resistant non-tuberculous mycobacterium that causes chronic pulmonary infections. Clinical Mab isolates were first characterized for clarithromycin resistance profiles to identify suitable strains for testing. The selected peptides were synthesized and screened in microdilution assays against both clarithromycin-sensitive (MAB1050) and clarithromycin-resistant (MAB391) strains to assess their MICs and bactericidal potential. Peptides demonstrating initial activity were resynthesized at high purity for validation, and hemolytic assays were conducted to evaluate cytotoxicity and potential therapeutic index. Results Our screening identified 52 active AMPs, 36 novel SAMPs and 16 reference peptides, with measurable activity against one or both Mab strains. Among these, two AI-designed SAMPs, peptide A and peptide B, demonstrated consistent bactericidal activity, with peptide B showing MICs of 32 μg/mL against both sensitive and resistant isolates. Importantly, peptide B exhibited minimal hemolytic activity (0.35% at 38 μg/mL), indicating low host cell toxicity. Comparative clustering revealed that active peptides formed distinct sequence groups associated with bacterial specificity, underscoring the AI model’s capacity to generate targeted antimicrobial profiles. We are currently assessing the in vivo efficacy of the lead SAMP candidates using a murine model of pulmonary Mab infection. Conclusions These findings demonstrate that AI-guided peptide design can accelerate the discovery of novel, selective, and safe antimicrobial candidates. Peptide B emerges as a promising therapeutic lead against M. abscessus, and this study highlights how integrating AI and peptide engineering can transform antimicrobial discovery to address the escalating AMR crisis. This abstract is funded by: NIH",
@@ -4523,6 +4523,36 @@
         }
       ],
       "abstract_text": "Abstract Megakaryocytes (MKs) are large, polyploid cells that contribute to bone marrow homeostasis through the secretion of cytokines such as transforming growth factor β1 (TGFβ1). During neoplastic transformation, immature MKs accumulate in the bone marrow where they induce fibrotic remodeling ultimately resulting in myelofibrosis. Current treatment strategies aim to prevent MK hyperproliferation, however, little is understood about the potential of targeting dysregulated cytokine secretion from neoplastic MKs as a novel therapeutic avenue. Unconventional secretion of TGFβ1 as well as interleukin 1β (IL1β) via secretory autophagy occurs in cells other than MKs, which prompted us to investigate whether similar mechanisms are utilized by MKs. Here, we identified that TGFβ1 strongly co-localized with the autophagy marker light chain 3B in native MKs. Disrupting secretory autophagy by inhibiting the small GTPase RhoA or its downstream effector Rho kinase (ROCK) markedly reduced TGFβ1 and IL1β secretion in vitro . In vivo , conditional deletion of the essential autophagy gene Atg5 from the hematopoietic system limited megakaryocytosis and aberrant cytokine secretion in an MPL W515L -driven transplant model. Similarly, mice with a selective deletion of Rhoa from the MK and platelet lineage were protected from progressive fibrosis. Finally, disease hallmarks in MPL W515L -transplanted mice were attenuated upon treatment with the autophagy inhibitor hydroxychloroquine or the ROCK inhibitor Y27632, either as monotherapy or in combination with the JAK2 inhibitor ruxolitinib. Overall, our data indicate that aberrant cytokine secretion is dependent on secretory autophagy downstream of RhoA, targeting of which represents a novel therapeutic avenue in the treatment of myelofibrosis. One Sentence Summary TGFβ1 is released from megakaryocytes via RhoA-mediated secretory autophagy, and targeting this process can alleviate fibrosis progression in a preclinical mouse model of myelofibrosis.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "1d9a71663364b8236d24bb73366172a48268ce43172e41a65ac87af358799bcd",
+      "identity_keys": [
+        "https://doi.org/10.5281/zenodo.24511357",
+        "https://openalex.org/W7239763259"
+      ],
+      "title": "Computational Redesign of Brazzein, Single-Chain Monellin and Thaumatin with ProteinMPNN, ESMFold and FoldX",
+      "link": "https://doi.org/10.5281/zenodo.24511357",
+      "pdf_url": null,
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": [
+        {
+          "key": "ford iyengar priyanca",
+          "name": "Priyanca Iyengar Ford"
+        }
+      ],
+      "abstract_text": "Sweet proteins taste sweet at very low concentrations, and their sequences can be redesigned on the computer. This paper computes redesigns of three sweet proteins: brazzein, single-chain monellin (MNEI) and thaumatin. In each protein every cysteine and a chosen set of residues stay fixed. ProteinMPNN sampled 1,000 designs per set and temperature, and each scaffold was set beside 2,000 random control sequences. Every sequence was scored with ESM2 pseudo-perplexity and an ESMFold model. A design passes when its pseudo-perplexity is below 1.1 times that of the wild type and its C-alpha model lies within 1.5 Å of the scaffold. 518 of 1,000 thaumatin designs and 368 of 1,000 monellin designs pass both filters, and none of the 8,000 controls passes. FoldX 5.1 estimates an energy below the scaffold's (ddG below −0.5 kcal/mol) for 186 monellin and 21 thaumatin designs, so 207 designs pass all three filters. Brazzein is the weakest set: it has 1 of 3,918 designs that pass both filters and none that passes all three. All results are computed. No experimental data are reported in this paper. Files in this record. The paper as PDF and HTML; P16_package.zip, the package with the data, code, inputs and research record (file map in README.txt inside the zip); and P16_package.zip.sha256, the SHA-256 of the zip. Licences: paper and data CC BY 4.0, code MIT (see legal/ in the zip).",
       "discovery_sources": [
         {
           "kind": "open_alex",

@@ -24,8 +24,8 @@
           "name": "Amanda Liyanaarachchi"
         },
         {
-          "key": "al aymen saadi",
-          "name": "Aymen Al-Saadi"
+          "key": "alsaadi aymen",
+          "name": "Aymen Alsaadi"
         },
         {
           "key": "goliyad",
@@ -3193,8 +3193,8 @@
           "name": "Ziwei Xu"
         },
         {
-          "key": "tjhi william",
-          "name": "William Tjhi"
+          "key": "chandra tjhi william",
+          "name": "William Chandra Tjhi"
         },
         {
           "key": "junnan li",
@@ -4204,6 +4204,52 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "b3e0d6db6bf34e97e987aa50a004b522a3ebf5c5edf1c91583322b69d6768640",
+      "identity_keys": [
+        "arxiv:2608.28387",
+        "https://doi.org/10.48550/arXiv.2608.28387"
+      ],
+      "title": "Neuromorphic architectures as numerical solvers for computational neuroscience",
+      "link": "https://doi.org/10.48550/arXiv.2608.28387",
+      "pdf_url": "https://arxiv.org/pdf/2608.28387",
+      "publication_date": "2026-08-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "jakob jordan",
+          "name": "Jakob Jordan"
+        },
+        {
+          "key": "ole richter",
+          "name": "Ole Richter"
+        },
+        {
+          "key": "congyang li",
+          "name": "Congyang Li"
+        },
+        {
+          "key": "mihai petrovici",
+          "name": "Mihai A. Petrovici"
+        },
+        {
+          "key": "manohar rajit",
+          "name": "Rajit Manohar"
+        }
+      ],
+      "abstract_text": "Neuromorphic computing is closely associated with spiking neuronal networks. However, an alternative class of so-called \"rate-based\" models arising from computational neuroscience and machine learning forgoes spiking interactions and instead relies on continuous coupling between neurons. Existing neuromorphic implementations designed around spike-based interactions are not well-suited for emulating such models. Here we view the distributed simulation of these models as message-passing algorithms on parallel hardware. Leveraging prior art in numerical algorithms and distributed simulation, we outline steps that enable the design of efficient digital neuromorphic accelerators for non-spiking neuronal models. In particular, we show that multi-bit packets, rather than spikes, are the most efficient communication strategy in packet-switched networks and that compared to basic numerical integration methods, higher-order differential equation solvers decrease both computation and communication costs while achieving lower numerical error, but that these benefits are ultimately limited by arithmetic precision. Using our proposed design principles, we convert an existing neuromorphic architecture into a distributed numerical solver - a spikeless neuromorphic system - for continuously-coupled neuronal models. We thereby demonstrate that our theoretical considerations indeed translate into practical advantages, namely reduced energy consumption and delay.",
+      "discovery_sources": [
+        {
+          "kind": "arxiv",
+          "key": "arxiv:q-bio.QM",
+          "label": "arXiv: Quantitative Methods",
+          "url": "https://arxiv.org/list/q-bio.QM/recent"
         }
       ],
       "curated_categories": []

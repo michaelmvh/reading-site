@@ -134,6 +134,52 @@
       "curated_categories": []
     },
     {
+      "id": "730af06577b916e3ac00de687c1cad79c896bea4f99b24aab26a8cc21831bf95",
+      "identity_keys": [
+        "https://openalex.org/W7235825600",
+        "https://ora.ox.ac.uk/objects/uuid:2c0460cc-5cec-4246-aadb-05ec559f059c/files/scn69m6808"
+      ],
+      "title": "Scalable Message Passing Neural Networks: no need for attention in large graph representation learning",
+      "link": "https://ora.ox.ac.uk/objects/uuid:2c0460cc-5cec-4246-aadb-05ec559f059c/files/scn69m6808",
+      "pdf_url": "https://ora.ox.ac.uk/objects/uuid:2c0460cc-5cec-4246-aadb-05ec559f059c/files/scn69m6808",
+      "publication_date": "2026-01-01",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "Oxford University Research Archive (ORA) (University of Oxford)",
+      "authors": [
+        {
+          "key": "borde de ocáriz sáez",
+          "name": "H Sáez de Ocáriz Borde"
+        },
+        {
+          "key": "artem lukoianov",
+          "name": "Artem Lukoianov"
+        },
+        {
+          "key": "kratsios",
+          "name": "A Kratsios"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "dong",
+          "name": "X Dong"
+        }
+      ],
+      "abstract_text": "We propose Scalable Message Passing Neural Networks (SMPNNs) and demonstrate that, by integrating standard convolutional message passing into a Pre-Layer Normalization Transformer-style block instead of attention, we can produce highperforming deep message-passing-based Graph Neural Networks (GNNs). This modification yields results competitive with the state-of-the-art in large graph transductive learning, particularly outperforming the best Graph Transformers in the literature, without requiring the otherwise computationally and memoryexpensive attention mechanism. Our architecture not only scales to large graphs but also makes it possible to construct deep message-passing networks, unlike simple GNNs, which have traditionally been constrained to shallow architectures due to oversmoothing. Moreover, we provide a new theoretical analysis of oversmoothing based on universal approximation which we use to motivate SMPNNs. We show that in the context of graph convolutions, residual connections are necessary for maintaining the universal approximation properties of downstream learners and that removing them can lead to a loss of universality.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "730fa7ce79db262d378045d69cb1a2c2994c6896a0d69b1cfcc67a34272e330c",
       "identity_keys": [
         "https://doi.org/10.3390/ijms27198911",
@@ -5967,7 +6013,7 @@
         },
         {
           "key": "auman dirk",
-          "name": "Dirk Auman"
+          "name": "Dirk B. Auman"
         },
         {
           "key": "hoja niklas",

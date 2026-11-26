@@ -2146,7 +2146,7 @@
           "name": "Lucy J. Colwell"
         }
       ],
-      "abstract_text": "Machine learning-guided directed evolution (MLDE) is an emerging paradigm of protein design where ML models trained on experimental data are used to guide exploration of a protein fitness landscape. Building an MLDE pipeline involves many design choices across the design-build-test-learn loop ranging from data collection strategies to modeling. The cost of collecting experimental data makes benchmarking every component of these pipelines prohibitively difficult, necessitating the development of synthetic landscapes. In this work, we develop a framework called SLIP (“Synthetic Landscape Inference for Proteins”) for constructing synthetic landscapes with tunable difficulty based on Potts models. This framework can be extended to any protein family for which there is a sequence alignment. We show that our tuning framework provides landscapes sufficiently challenging to benchmark MLDE pipelines. SLIP is open-source and is available at https://github.com/google-research/slip.",
+      "abstract_text": "Machine learning-guided directed evolution (MLDE) is an emerging paradigm of protein design where ML models trained on experimental data are used to guide exploration of a protein fitness landscape. Building an MLDE pipeline involves many design choices across the design-build-test-learn loop ranging from data collection strategies to modeling. The cost of collecting experimental data makes benchmarking every component of these pipelines prohibitively difficult, necessitating the development of synthetic landscapes. In this work, we develop a framework called SLIP (\"Synthetic Landscape Inference for Proteins\") for constructing synthetic landscapes with tunable difficulty based on Potts models. This framework can be extended to any protein family for which there is a sequence alignment. We show that our tuning framework provides landscapes sufficiently challenging to benchmark MLDE pipelines. SLIP is open-source and is available at https://github.com/google-research/slip.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -5032,13 +5032,15 @@
       "id": "ece907d53c895e07f6633fa9ad0fbb47aa8c0689293db2c00eda2967a8221840",
       "identity_keys": [
         "biorxiv:10.64898/2026.11.05.764594v1",
+        "biorxiv:10.64898/2026.11.05.764594v2",
         "https://doi.org/10.64898/2026.11.05.764594",
-        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764594.source.xml"
+        "https://www.biorxiv.org/content/early/2026/11/06/2026.11.05.764594.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/25/2026.11.05.764594.source.xml"
       ],
       "title": "Rapid, accurate, and memory-frugal sub-gene-level quantification of probe-based, multiplexed single-cell data",
       "link": "https://doi.org/10.64898/2026.11.05.764594",
-      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764594v1.full.pdf",
-      "publication_date": "2026-11-06",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764594v2.full.pdf",
+      "publication_date": "2026-11-25",
       "publication_date_precision": "unknown",
       "collection_date": null,
       "venue": "bioRxiv",
@@ -5056,7 +5058,7 @@
           "name": "Patro, R"
         }
       ],
-      "abstract_text": "Probe-based, multiplexed single-cell assays enable accurate transcriptome profiling while processing multiple samples in parallel. Their predefined probe sequences and additional sample barcodes introduce computational requirements that differ from those of poly(A)-based assays, for which many existing single-cell quantification tools were developed. We extend simpleaf to enable efficient demultiplexing and quantification of probe-based single-cell libraries. A new, cache-friendly dictionary specializes lookup to small probe references, while a shared thread budget balances parallel decompression and mapping. We extend RAD and downstream tools with reusable sample-scoped correction plans and external-memory collation of hierarchically barcoded data, retaining probe identities through quantification to enable rapid mapping and quantification with a small working memory budget. Across five 10x Genomics Flex datasets comprising 44 samples, simpleaf had the shortest runtime and lowest peak memory use of the three tools on every library, while producing gene-expression estimates, cell clusters, and marker genes concordant with cyto and Cell Ranger. Compared with cyto, simpleaf was on average 2 times faster and used approximately one-thirteenth as much memory. simpleaf also exports probe-level quantification results, allowing a range of analyses at sub-gene resolution. Here, we show that individual probe counts reveal expression changes obscured by gene-level aggregation, identify the transcript groups contributing to gene-level changes, and provide insight into splicing dynamics across cell types. These results demonstrate the computational and biological value of retaining probe-level information in multiplexed singlecell analysis.",
+      "abstract_text": "Probe-based, multiplexed single-cell assays profile multiple samples in parallel by sequencing known DNA probes tagged with both sample and cell barcodes. Most existing single-cell quantification tools were built for poly(A)-based assays and are not tailored to compact probe references or nested sample-cell barcodes. We extend simpleaf to demultiplex and quantify probe-based single-cell libraries rapidly with a low memory footprint. In piscem, we index small probe panels in a cache-friendly hash dictionary for direct k-mer lookup, while a thread broker divides a shared thread budget between parallel FASTQ decompression and mapping. Downstream, we extend the RAD mapping-record format and alevin-fry with reusable, sample-scoped barcode correction tables (plans) and sort-free external-memory collation for hierarchically barcoded reads, and we preserve probe identities through UMI resolution. Across five 10x Genomics Flex datasets spanning 44 samples, simpleaf had the shortest runtime and lowest peak memory use on every library, and produced gene-expression estimates, cell clusters, and marker genes concordant with cyto and Cell Ranger. Compared with cyto, simpleaf ran on average 2 times as fast and used roughly one-thirteenth as much memory. simpleaf also exports probe-level counts for sub-gene analysis. Using these counts, we uncover differential expression masked by gene-level aggregation, pinpoint the transcript groups behind gene-level changes, and resolve splicing differences across cell types.",
       "discovery_sources": [
         {
           "kind": "biorxiv",
