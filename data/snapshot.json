@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T22:02:40Z",
+  "generated_at": "2026-11-26T00:05:56Z",
   "generator_version": "0.1.7",
-  "freshness_policy": "required_discovery_refresh",
+  "freshness_policy": "bounded_stale_feed_fallback",
   "default_feed": "bioml",
   "feeds": [
     {
       "id": "bioml",
       "title": "Machine Learning & Synthetic Biology",
       "description": "Machine Learning & Synthetic Biology. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-25T22:00:29Z",
+      "collected_at": "2026-11-26T00:00:32Z",
       "article_ids": [
         "b5376cb879ab5af80f84724feb542e1fe5b3927671c9608734833994c224570b",
         "bc0621c21026d1451acf8c82e5aabf0aba5bca5913700a6d6fd169c9705ef68f",
@@ -597,7 +597,6 @@
         "1d5370d7b1e4dbbced2c2599ffafe7a50916f824e16c0cf0145fdc2e72da838b",
         "34e2587f519414d7e16a6afe03828e6d42df7bf70fd09748418fa1ed322d1bfd",
         "764e1f61d2ef4272521604a6ce09c26a42345eb8d24601f36d6ef4de56d7e7f1",
-        "99c555fed46a2e9f686197e8f4e610850517658e11df8349d29ae198bf9ab6db",
         "82e6e667d90541c4481d2f4d9c0963157ce3beaaf827a7fe523ff86b48cbea3c"
       ],
       "authors": [
@@ -1652,9 +1651,6 @@
         "98e058e6b3e476f45576fd4a5c5ab7f3c65568b4c1dcd1df714e0e36c088f3cc": [
           "amini ava"
         ],
-        "99c555fed46a2e9f686197e8f4e610850517658e11df8349d29ae198bf9ab6db": [
-          "baker david"
-        ],
         "99c897e69a7f0bea48cbd8d06ed3382715e65b28e5f20ab6dee1ffb37f68b42a": [
           "jure leskovec"
         ],
@@ -2338,7 +2334,7 @@
       "id": "nanopore-foundations",
       "title": "Nanopore Foundations & Signal Analysis",
       "description": "Nanopore Foundations & Signal Analysis. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-25T22:00:30Z",
+      "collected_at": "2026-11-26T00:00:33Z",
       "article_ids": [
         "8b85569145b8b3987a927dad17b524b50ed4026bfc6e00f7b982d84918db8b19",
         "01f28340f3fca0e132bebbab9dedee1eb2fdd5efbdd19babd1c8c8934b88731a",
@@ -3026,7 +3022,7 @@
       "id": "protein-design",
       "title": "Protein Design & Biomolecular Models",
       "description": "Protein Design & Biomolecular Models. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-25T22:02:01Z",
+      "collected_at": "2026-11-26T00:03:01Z",
       "article_ids": [
         "594d99c881d593f7a7cbe2b8526e87b64edf0a69ec4cfb74babf694022f58ef5",
         "740b631bc841f620d302c00628b42c51f90ebdae4804bf8bf17e30e2485a5aec",
@@ -4364,13 +4360,7 @@
         "375b5b8be9e783c151bd39052f9a87039f9b6baba836d9a066cd46021c44ec90",
         "4872440f375e14ff1f59cd1d04538a47f6f56f8ae3df9e20227f5b00a02c010f",
         "8cf3394964f58546bc61de675db881d556aa9716430850da7b13fe2a5c2aa698",
-        "c8a80279d231fc8d90469afa7187839b112aa8debb2084e082bca547cc0cc3ed",
-        "99c555fed46a2e9f686197e8f4e610850517658e11df8349d29ae198bf9ab6db",
-        "75ac967af713426df68f7df78f872ba6d9a5fa3914932be87448e4c1eda28a1e",
-        "783caf12294c56c8dca2520f9b36fce99644aa9fd0424ea2e658655f5286bce3",
-        "f252319b665dc5a1380a032da1e8802846793abb363d77ab8bcab471c234322a",
-        "f59316c4d783ac54e52f2f6609841ab2ace3f8eca23607ee41256f05d9b17ed3",
-        "d885f3d760b3f8e94939eb40d6f92e8967b0ac8ff1bab13b4edf962e8191b4ad"
+        "c8a80279d231fc8d90469afa7187839b112aa8debb2084e082bca547cc0cc3ed"
       ],
       "authors": [
         {
@@ -5194,7 +5184,6 @@
         "75969e4454e9cf9586ddc723cf2710252eeea50dac39878966ac2dd5fdbe5ce1": [],
         "759e87a6125aba78aaa571b19943064af475d4d377156eb51964dcedacd9c9f9": [],
         "759fce86a7750992e6b3c1242c4882e909f4d17ee96073f59dcd1f818c323b23": [],
-        "75ac967af713426df68f7df78f872ba6d9a5fa3914932be87448e4c1eda28a1e": [],
         "75c6444e52de4cf81a23e5fc695d2a273648151fb3ef6c49d6ab383fba5cbc55": [],
         "75dbfdf55455e36dfa474675032b1a208477a1d4a36b3a0290d0becbef287d0f": [],
         "75e0cd8ead28a06eaa080ff540b48e41ffa5f1c7554154cd540e8f455bd97945": [],
@@ -5217,7 +5206,6 @@
         "77e62df977a857280498137ce5abe5a2e387b175694a0298387a694cbcb79c90": [],
         "7817d555f966219f70957bf2662c7bda41943ceafc41850d0590e640a696bc7a": [],
         "78250f212fe78a3d50434f78a6c3032c138e9fc160ffefbe148ce1bdf9c26d33": [],
-        "783caf12294c56c8dca2520f9b36fce99644aa9fd0424ea2e658655f5286bce3": [],
         "78566694461d9e9a1db8754f3b739a64360ea938365be99d1b66af755389d4ce": [
           "kevin yang"
         ],
@@ -5423,9 +5411,6 @@
         "9899ebfd0061ee78bbf2b4d55513ef29a8797f00cefb8ea93276ca16f32cf3ed": [],
         "98a7b48eb6abfbcd8b39082345fc59907194b001d336f900b5b3dd1de1ab287f": [],
         "998a4b5da1ff9e5938ce336f79001c040bc376226164202b0169b1e7d5aa689b": [],
-        "99c555fed46a2e9f686197e8f4e610850517658e11df8349d29ae198bf9ab6db": [
-          "baker david"
-        ],
         "99f865dae53783d2bc48843ed7c1bee9f91725aa2ff192d632de6414f45e8f82": [
           "baker david"
         ],
@@ -5792,7 +5777,6 @@
         "d82df7f00ad2049ca5caee94ab2d174b8ac2a49afd067b08da5a68b63a15c024": [],
         "d873bc854b6d5de4beb8f759ec3c49225d561962d5212572e22b0f8042a9b514": [],
         "d8763fb31c7f74f6e5fb4076b2736fdcbbbf5a97c24f533f4421966da7896146": [],
-        "d885f3d760b3f8e94939eb40d6f92e8967b0ac8ff1bab13b4edf962e8191b4ad": [],
         "d8b02d3c53a5d7f337ed30b74371cba22e674a7045364b81a076eaa3f015c90a": [],
         "d9019fba1157f0add6cf1cf5140f7a19f19be0cd066de39c0e9e370b5db87b0c": [],
         "d937eedffeb2d579c15878fd131e59a4f501a6b8fba3e652ae5b4a70daafb209": [],
@@ -5918,7 +5902,6 @@
         "f1e2266fdcc3efb0f8bb334eaea7f2d2ce6fa4b926ef58706088bf8533f2c184": [],
         "f1e4b6e36b9479c1031624ca2a373940b35c184b89acbbefc467bc19f54505f5": [],
         "f1ff59dbedfd1b8f56d1e9dc1d7b62dbfa8e5f3a37cfce5fa88ad1b3350e5352": [],
-        "f252319b665dc5a1380a032da1e8802846793abb363d77ab8bcab471c234322a": [],
         "f26da535a09497b90612d850877a9f36640273798020f49fe94b415f79db741e": [],
         "f2a1a54aed2cb5797f9bf20b490fb49d5f5d7b443d4fa2b78c2c551494806134": [
           "baker david"
@@ -5935,7 +5918,6 @@
         "f5490678aee45a8b0d019927fe58080cdbb7e9effa8ceb8aae6e54d033439ba4": [],
         "f555a2ff5aeb93af37dfc307196c944b221d5f299ab0f519e30c922624b6e4f0": [],
         "f56e96710948c322704b8ba0ae26d9cc41c93211c65c27d7042e681785b3692e": [],
-        "f59316c4d783ac54e52f2f6609841ab2ace3f8eca23607ee41256f05d9b17ed3": [],
         "f5ac7e602a288e04507b235628feed8e040f16316a76f27281c4572c0504b2e4": [],
         "f5e86dc9cd128d7b8afd14753c301261a0cae6fca68faf6851e084ade05a9891": [],
         "f6076b1a8a9bfc9d7dacc28f1ed1d3aaccc67f22527bd364b558d3470ae404d5": [],
@@ -6024,7 +6006,7 @@
       "id": "protein-design-archive",
       "title": "Deep Learning for Protein Design",
       "description": "Deep Learning for Protein Design. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-25T22:02:16Z",
+      "collected_at": "2026-11-26T00:03:18Z",
       "article_ids": [
         "ec4046208007847f1ae884cf56394c3ebfc4bfcec8a57f1b930761b94fbfa735",
         "3339f190cd3cd4c10b92605154530838cffbc4f2b19b6acfbaea30b1ce9cd9bc",
@@ -7611,7 +7593,7 @@
       "id": "protein-nanopores",
       "title": "Protein Nanopores & Protein Sequencing",
       "description": "Protein Nanopores & Protein Sequencing. Recent publications parsed from OpenAlex.",
-      "collected_at": "2026-11-25T22:02:39Z",
+      "collected_at": "2026-11-26T00:05:54Z",
       "article_ids": [
         "f94daf23a6a5bbb160d69480b4d7d8ef15da1a2c74e62d56ae414e4efcb8e6b2",
         "b92e9baa4550d97bd40cdced800ac3bcdd14db1690a674f22a0a8e508e7334f1",
@@ -7893,8 +7875,7 @@
         "a5027cffa257c8d9cb08c13590738d8729ce23fcfe5c0e9c15451df4e958fc82",
         "0af80f7b969c9f5072ad27ed52811087709aa3a1347fbfef54fbcb6d44ac7bea",
         "55570d6e094aadcc0ae5ca26025cf3977fc6fc75cd9fb0ddf834518005d003f9",
-        "58769c816619fc7c320102233e14b8502b384fa7f6d34bd5cc3b4acbf38ddbb4",
-        "aea7b4ff660b10768c680ebe0ad85a1044ee2258441a7ae6205e4851a6522faf"
+        "58769c816619fc7c320102233e14b8502b384fa7f6d34bd5cc3b4acbf38ddbb4"
       ],
       "authors": [
         {
@@ -8160,7 +8141,6 @@
         "ac5fb40575c123a74a07bf42f9853d54ec3379017e702644bf65702104817be3": [],
         "ad67eb8bada103f15ee713dc782910b06453fad2952f337e04561aa6fbe4938a": [],
         "adfac812a59e2a6701cd9913fc3a5d0b33ceaa28daa16f3724d349a00ad1132a": [],
-        "aea7b4ff660b10768c680ebe0ad85a1044ee2258441a7ae6205e4851a6522faf": [],
         "b11eec751f0053f3d01edd2b11ce7922fd7c62a6dab18976ff40bf462e9b3df5": [],
         "b1aee418ac3452be110b0ee0dd5ace59d7fb817a87cc2fdfd3cf47ce38ae3c66": [],
         "b311f71a431d542bd7322c80ab9e918f1a8d9dcbaea8c5d0e789f303309cbb65": [],
@@ -8594,7 +8574,7 @@
     },
     {
       "path": "articles/3d.json",
-      "sha256": "58ae7cb9ba7178c9bfdfe40ec4ac22ded5a4171e1dbddf309733cf475d79a4a6",
+      "sha256": "ea99a02f1c44a4d61753d8b1d7a7e04ada0f020f6fcaef3b35e1b8b28f562c54",
       "count": 87
     },
     {
