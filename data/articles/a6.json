@@ -2836,6 +2836,56 @@
       "curated_categories": []
     },
     {
+      "id": "a673cff2cdf0403885b66c52e36aca6670579a3a858ff1371a8c53724ba31dbc",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2611.34801",
+        "https://openalex.org/W7240070470"
+      ],
+      "title": "Guidance as Variance Matching",
+      "link": "https://doi.org/10.48550/arxiv.2611.34801",
+      "pdf_url": null,
+      "publication_date": "2026-11-25",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "arXiv",
+      "authors": [
+        {
+          "key": "ali backour",
+          "name": "Ali Backour"
+        },
+        {
+          "key": "artem lukoianov",
+          "name": "Artem Lukoianov"
+        },
+        {
+          "key": "frank permenter",
+          "name": "Frank Permenter"
+        },
+        {
+          "key": "jaakkola tommi",
+          "name": "Tommi Jaakkola"
+        },
+        {
+          "key": "justin solomon",
+          "name": "Justin Solomon"
+        },
+        {
+          "key": "sitzmann vincent",
+          "name": "Vincent Sitzmann"
+        }
+      ],
+      "abstract_text": "Guidance repels the prediction of a diffusion model away from a weaker reference prediction. It substantially improves sample quality, but its mechanism remains poorly understood. We first find that, at the scales used in practice, guidance does not improve the prediction of the posterior mean (the model's training target); it makes the prediction worse, while samples improve. Second, posterior-mean predictions have less variance than the data, and we find that guidance restores it. We introduce variance-matched guidance: a closed-form rule that picks the guidance scale by matching the variance of the guided predictions to that of the data. Without tuning, it recovers the hand-picked scales of eleven widely used models across image, video, audio, motion, and world generation; to our knowledge, no previous explanation of guidance predicts them. Applied per noise level, it yields a schedule without tuned hyperparameters that users prefer to hand-crafted ones on SD 3.5 Medium. Third, we offer an interpretation of the mechanism behind guidance: each model makes a random error in predicting the posterior mean, and guidance rescales the difference of these errors into a sample with the posterior's covariance, which improves sampling. This view also suggests two new hypotheses that our experiments support: guidance can work with negative scales, and guiding a model with its own checkpoint needs a larger scale than guiding it with an independently trained model.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a6748877d7629467732df3f0aa1073db09c90265cbe5648edab969a0b52742ab",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74543-6",

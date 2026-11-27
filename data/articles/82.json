@@ -5193,6 +5193,53 @@
       "curated_categories": []
     },
     {
+      "id": "82ad55683752a2d1334e90aed5b6699b7eb3e35786e5621c490f4cb54f6934e6",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.17.767274v2",
+        "https://doi.org/10.64898/2026.11.17.767274",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.11.17.767274.source.xml"
+      ],
+      "title": "Efficient 3D Cell Tracking by Integer Programming Guided by Self-Supervised Division Scores",
+      "link": "https://doi.org/10.64898/2026.11.17.767274",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767274v2.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hu",
+          "name": "Hu, T"
+        },
+        {
+          "key": "shigeta",
+          "name": "Shigeta, H"
+        },
+        {
+          "key": "zheng",
+          "name": "Zheng, F"
+        },
+        {
+          "key": "matsumoto",
+          "name": "Matsumoto, Y"
+        },
+        {
+          "key": "seno",
+          "name": "Seno, S"
+        }
+      ],
+      "abstract_text": "Recognizing divisions in cell tracking is difficult when cells are densely packed and divide frequently. A daughter can lie closer to a neighbor than to its mother, misleading distance-based linking. Visual cues can reduce such errors, but learning them often requires manual lineage annotations, which are particularly costly for 3D data. We propose an efficient self-supervised tracker trained without manual lineage annotations, using biological priors to extract reliable divisions from its distance-based tracks as labels. Networks trained on these labels predict division scores from mother-daughter images and the mother's temporal context to guide an integer linear program in resolving competing daughter assignments. Among the evaluated trackers, ours ranks first on one of three C. elegans datasets and second to a supervised tracker on the other two. It also needs less than half the training or tuning time of any compared method. Code is available at https://github.com/AnAncientMoon/Divtrack.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "82ae2af76deee1ef57b37f23cb32272866ef63caa152eb4b87288ffe09f30ea2",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68506-0",

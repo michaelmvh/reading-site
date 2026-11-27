@@ -4960,6 +4960,60 @@
       "curated_categories": []
     },
     {
+      "id": "02ced0d7468817f6aa7c49a1b53c94f1427fbcb9073cf26b7eccba6f3267ae92",
+      "identity_keys": [
+        "https://doi.org/10.48550/arxiv.2510.06477",
+        "https://openalex.org/W4415097137"
+      ],
+      "title": "Attention Sinks and Compression Valleys in LLMs are Two Sides of the Same Coin",
+      "link": "https://doi.org/10.48550/arxiv.2510.06477",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/1734b19d9afe7d2c7f1154954eaf0d5a-Paper-Conference.pdf",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "International Conference on Learning Representations",
+      "authors": [
+        {
+          "key": "de enrique llano queipo",
+          "name": "Enrique Queipo-de-Llano"
+        },
+        {
+          "key": "arroyo álvaro",
+          "name": "Álvaro Arroyo"
+        },
+        {
+          "key": "barbero federico",
+          "name": "Federico Barbero"
+        },
+        {
+          "key": "dong xiaowen",
+          "name": "Xiaowen Dong"
+        },
+        {
+          "key": "bronstein michael",
+          "name": "Michael M. Bronstein"
+        },
+        {
+          "key": "lecun yann",
+          "name": "Yann LeCun"
+        },
+        {
+          "key": "ravid shwartz ziv",
+          "name": "Ravid Shwartz-Ziv"
+        }
+      ],
+      "abstract_text": "Attention sinks and compression valleys have attracted significant attention as two puzzling phenomena in large language models, but have been studied in isolation. In this work, we present a surprising connection between attention sinks and compression valleys, tracing both to the formation of massive activations in the residual stream. We prove theoretically that massive activations necessarily produce representational compression and establish bounds on the resulting entropy reduction. Through experiments across several models (410M-120B parameters), we confirm that when the beginning-of-sequence token develops extreme activation norms in the middle layers, both compression valleys and attention sinks emerge simultaneously. Targeted ablation studies validate our theoretical predictions. This unified view motivates us to propose the Mix-Compress-Refine theory of information flow, as an attempt to explain how LLMs organize their computation in depth by controlling attention and representational compression via massive activations. Specifically, we posit that Transformer-based LLMs process tokens in three distinct phases: (1) broad mixing in the early layers, (2) compressed computation with limited mixing in the middle layers, and (3) selective refinement in the late layers. Our framework helps explain why embedding tasks perform best at intermediate layers, whereas generation tasks benefit from full-depth processing, clarifying differences in task-dependent representations.",
+      "discovery_sources": [
+        {
+          "kind": "open_alex",
+          "key": "openalex",
+          "label": "OpenAlex",
+          "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "02d08847f9a8b11ae9d4d1af8c28e987c5c349d1693dc965e83d137bcada75e0",
       "identity_keys": [
         "biorxiv:10.64898/2026.10.27.762369v1",

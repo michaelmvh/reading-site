@@ -1578,6 +1578,54 @@
       "curated_categories": []
     },
     {
+      "id": "df4ee196982e51e153ac360a91829d6691565a8630f663a1e1f995c9a80488b1",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.02.10.705179v2",
+        "https://doi.org/10.64898/2026.02.10.705179",
+        "https://www.biorxiv.org/content/early/2026/02/12/2026.02.10.705179.source.xml",
+        "https://www.biorxiv.org/content/early/2026/11/26/2026.02.10.705179.source.xml"
+      ],
+      "title": "tensorOmics: Data integration for longitudinal omics data using tensor factorisation",
+      "link": "https://doi.org/10.64898/2026.02.10.705179",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.10.705179v2.full.pdf",
+      "publication_date": "2026-11-26",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "kodikara",
+          "name": "Kodikara, S"
+        },
+        {
+          "key": "lu",
+          "name": "Lu, B"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, S"
+        },
+        {
+          "key": "lei",
+          "name": "Lei, Z"
+        },
+        {
+          "key": "cao le",
+          "name": "Le Cao, K.-A"
+        }
+      ],
+      "abstract_text": "Longitudinal multi-omics studies track molecular changes across biological layers and over time, but repeated measurements from the same subject introduce dependencies that must be accounted for. Conventional matrix-based approaches often flatten the data, obscuring this temporal structure. Tensor methods preserve the multi-way organisation; however, existing approaches are either unsupervised or limited to a single omic, leaving few options for phenotype-guided analysis across multiple longitudinal omics datasets. We present tensorOmics, a framework comprising five tensor methods including an R implementation of TCAM as tensor PCA, spanning exploratory analysis, regression, classification and multi-omics integration. By representing each subject's trajectory in an orthogonal temporal basis, tensorOmics retains subjects as the unit of analysis and enables fitted models to score new subjects. We evaluated the framework using simulations with known temporal signals and in three large public longitudinal cohorts. These evaluations assessed the recovery of group differences encoded in trajectory shape, prediction in held-out subjects and multi-omics integration. Across three biological case studies, our analyses identified relevant temporal patterns and molecular features. Together, these capabilities make tensorOmics a unified framework for analysing longitudinal single- and multi-omic data while preserving their temporal structure.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "df4f40f211f8097f47ea5988368a007b7efbfd018169dec64efc0de3ec4cf5cc",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-67568-w",

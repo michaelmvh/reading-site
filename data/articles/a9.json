@@ -202,8 +202,8 @@
           "name": "Hanqun Cao"
         },
         {
-          "key": "quinn zachary",
-          "name": "Zachary Quinn"
+          "key": "aastha pal",
+          "name": "Aastha Pal"
         },
         {
           "key": "aastha pal",
@@ -226,7 +226,7 @@
           "name": "Pranam Chatterjee"
         }
       ],
-      "abstract_text": "Protein binder design has largely optimized for affinity alone, leaving conformational selectivity unaddressed: for allosteric targets such as kinases, nuclear receptors, and GPCRs, a binder that engages both active and inactive states provides no functional specificity regardless of how tightly it binds. We introduce AlloGen, a modular framework that decouples backbone generation from a learned state-selectivity scorer $Q_θ$, an SE(3)-invariant interface graph transformer trained via a two-phase curriculum that first learns interface geometry before imposing conformational discrimination. Because $Q_θ$ is fully differentiable and generator-agnostic, it integrates with any backbone generator as a passive reranker or an active gradient-based guide without retraining. Across a diverse benchmark of proteins spanning multiple families and conformational mechanisms, AlloGen consistently identifies binders that preferentially recognize desired structural states while rejecting alternative conformations. Experimental validation on calmodulin further demonstrates that these computational selectivity signals translate to physical molecules, yielding de novo peptides that bind the desired holo conformation while exhibiting no detectable binding to the apo state. Together, these results establish conformational selectivity as a learnable property and provide a general framework for state-selective protein binder design.",
+      "abstract_text": "Protein binder design commonly optimizes compatibility with a single receptor conformation, leaving preference over alternative functional states unresolved. To address this gap, we introduce AlloGen, a modular method that decouples backbone generation from state-selectivity scoring. We train its SE(3)-invariant interface graph transformer, $Q_θ$, through interface-quality regression followed by paired conformational discrimination. By comparing scores across states, we rerank candidates and guide frozen backbone generators without retraining. On a benchmark of 65 targets spanning 15 protein families, $Q_θ$ achieved a mean Spearman correlation of $0.520$ on eight held-out targets. All 15 evaluated generator-guidance combinations achieved positive predicted selectivity averaged over these targets, and RFdiffusion with Langevin refinement reached $\\bar{S}_{\\mathrm{cons}}=0.677$ on calmodulin (CaM). To test the predicted preference experimentally, we measured binding by bio-layer interferometry. Five designed peptides bound holo CaM, with the strongest measured $K_D$ of 46.6 nM, and none showed detectable apo CaM binding under the tested conditions. Together, these results support computational prioritization of conformation-selective binders.",
       "discovery_sources": [
         {
           "kind": "open_alex",
@@ -1741,7 +1741,7 @@
         },
         {
           "key": "choi",
-          "name": "B. I.W. CHOI"
+          "name": "B. I.W. Choi"
         },
         {
           "key": "hana seo",
