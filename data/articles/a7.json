@@ -4411,6 +4411,53 @@
       "curated_categories": []
     },
     {
+      "id": "a77c584825e44053734a967e5ec593eea61fdf0631e89a214bbc209b24ee0cb5",
+      "identity_keys": [
+        "biorxiv:10.1101/869115v2",
+        "https://doi.org/10.1101/869115",
+        "https://www.biorxiv.org/content/early/2026/11/27/869115.source.xml"
+      ],
+      "title": "kRISP-meR: A Reference-free Guide-RNA Design Tool for CRISPR/Cas9",
+      "link": "https://doi.org/10.1101/869115",
+      "pdf_url": "https://www.biorxiv.org/content/10.1101/869115v2.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hera",
+          "name": "Hera, M. R"
+        },
+        {
+          "key": "navid",
+          "name": "Navid, W. A. A"
+        },
+        {
+          "key": "udoy",
+          "name": "Udoy, F. A"
+        },
+        {
+          "key": "rahman",
+          "name": "Rahman, A"
+        },
+        {
+          "key": "rahman",
+          "name": "Rahman, A"
+        }
+      ],
+      "abstract_text": "Designing specific guide RNAs for CRISPR/Cas9 typically relies on reference genomes, which limits the applicability in non-model organisms and fails to account for individual-specific genomic variations. To address this, we present a reference-free method for single-guide RNA (sgRNA) design that operates directly on raw sequencing reads, implemented in a tool called kRISP-meR. Instead of relying on whole genome assembly, kRISP-meR models the k-mer frequency spectrum of the sequencing data using an Expectation-Maximization (EM) algorithm and uses a probabilistic model to calculate the expected number of cuts for candidate gRNAs by estimating genomic copy numbers. Results on datasets from three different organisms show that the expected cuts estimated by kRISP-meR from reads agree closely with those computed from reference assemblies. Furthermore, analysis of human and rice sequencing data reveals that kRISP-meR successfully detects and filters candidate gRNAs within repetitive genomic regions with high off-target risk, highlighting its importance for gRNA design when references are unavailable or incomplete.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "a78985363a3c60ba238720cc634257dd8d3da89a2c4618016f1a014822c59ad6",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76810-y",
