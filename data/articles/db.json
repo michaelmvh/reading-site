@@ -3425,6 +3425,45 @@
       "curated_categories": []
     },
     {
+      "id": "db8ecd80142183bc47cfd39929f0ed8960296e5f0f68f242555ac7a50c279298",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769245v1",
+        "https://doi.org/10.64898/2026.11.25.769245",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769245.source.xml"
+      ],
+      "title": "BPQ_RNA: A Thermodynamically Informed, Hybrid Quantum-Classical Framework for RNA 2D Structure Prediction Including Chemical Modifications",
+      "link": "https://doi.org/10.64898/2026.11.25.769245",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769245v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "dutta",
+          "name": "Dutta, N"
+        },
+        {
+          "key": "shih",
+          "name": "Shih, L"
+        },
+        {
+          "key": "vicens",
+          "name": "Vicens, Q"
+        }
+      ],
+      "abstract_text": "Predicting RNA secondary (2D) structural folds remains a Nondeterministic Polynomial-time (NP)-hard challenge. Existing quantum approaches predominantly rely on coarse-grained heuristics or classical stem pre-estimation, shifting core thermodynamic computations outside the quantum workflow and limiting localized structural precision. Here, we present a Base-Pair QUBO framework for RNA (BPQ_RNA), a hybrid pipeline that directly maps experimental Nearest Neighbor Database (NNDB)-derived free energies onto a gate-based quantum framework strictly at the base-pair level. This eliminates pre-assembly constraints and integrates chemical modifications with zero additional qubit overhead. Executed on a GPU-accelerated simulator with classical maturation for multi-body loops, BPQ_RNA resolves biological ground states within a 5-22 qubit footprint. Finally, we analyze a Variational Convergence Bound, demonstrate how uniform randomized multi-start initialization and multi-replica sampling aids navigation of rugged energy landscapes, and outline future directions for scaling to more complex RNA 2D folds and expanded modification libraries.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "db8f746235d47e355391e616baf23960eb42d01ec99deea5ebd08704d3d7bb3d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77662-2",

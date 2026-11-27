@@ -2493,6 +2493,49 @@
       "curated_categories": []
     },
     {
+      "id": "298127322f80a5044b8946530ef718fcfeaf90956b50183540688d79f6573741",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769347v1",
+        "https://doi.org/10.64898/2026.11.25.769347",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769347.source.xml"
+      ],
+      "title": "scXOrGAN: A Generative Framework for Cross-Organ Single-Cell Transcriptomic Translation",
+      "link": "https://doi.org/10.64898/2026.11.25.769347",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769347v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "afnan",
+          "name": "Afnan, F"
+        },
+        {
+          "key": "promi",
+          "name": "Promi, A. S"
+        },
+        {
+          "key": "samee",
+          "name": "Samee, M. A. H"
+        },
+        {
+          "key": "rahman",
+          "name": "Rahman, A"
+        }
+      ],
+      "abstract_text": "Gene expression profiles of organs provide important insights into their health and disease states. However, while some organs can be sampled only through invasive procedures, others, such as blood, are readily accessible. Existing methods for predicting gene expression in one organ from another typically work with bulk or averaged profiles, obscuring cell specific differences. Translation at single-cell resolution is more challenging, because individual cells in the source and target organs lack direct correspondence. Here, we present scXOrGAN, a generative model that translates single-cell transcriptomes between two organs of the same individual using data that are unpaired at the cell level. scXOrGAN combines two variational autoencoders that share a latent space with cycle consistency, adversarial training and distribution matching. Across three organ pairs (ileum to rectum, blood to bronchoalveolar lavage fluid (BALF) in COVID-19, and blood to heart in heart failure), the generated gene expressions closely matched the real target cell profiles of held-out donors and preserved cell-to-cell variation. Notably, generated BALF macrophages exhibit expression of COVID-19-associated genes that are nearly absent in source blood cells, while generated cardiac fibroblasts express genes upregulated in heart failure.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "2983ce47711f1a5cca72d6aa761583a90161aa10f823d48d34fc58bfa5a1ae4a",
       "identity_keys": [
         "https://doi.org/10.1038/s41592-025-02987-7",

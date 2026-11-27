@@ -1614,6 +1614,61 @@
       "curated_categories": []
     },
     {
+      "id": "72491971d3f2e4c4a6722d173229abddaefa16e9afb22b5a65e4c3c88951a8d5",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769310v1",
+        "https://doi.org/10.64898/2026.11.25.769310",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769310.source.xml"
+      ],
+      "title": "HapAdapter: A Transfer Learning Protocol for DNA Foundation Models Adapted to Diploid Personal Epigenomes",
+      "link": "https://doi.org/10.64898/2026.11.25.769310",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769310v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "rozowsky",
+          "name": "Rozowsky, J"
+        },
+        {
+          "key": "metrick",
+          "name": "Metrick, A"
+        },
+        {
+          "key": "wang",
+          "name": "Wang, J"
+        },
+        {
+          "key": "onut",
+          "name": "Onut, A"
+        },
+        {
+          "key": "cui",
+          "name": "Cui, J"
+        },
+        {
+          "key": "li",
+          "name": "Li, T"
+        },
+        {
+          "key": "gerstein",
+          "name": "Gerstein, M"
+        }
+      ],
+      "abstract_text": "The rapid rise of large language models (LLMs) has spurred the development of genomic language models (gLMs) that capitalize on the key features of natural language present in biological sequences. Moreover, DNA foundation models, a sub-class of gLMs, have demonstrated impressive accuracy in predicting a wide range of functional tracks from DNA sequence input. However, current DNA foundation models are exclusively trained on haploid reference genome sequences -- despite personal and graph genomes becoming the new standard for genomic analyses. This is principally because the cost to train gLMs on a personal diploid genome for a single individual is not currently practical. To help reconcile this disconnect between the current available use-cases of DNA foundation models with the modern direction of genomic sequence analysis, we present HapAdapter, a transfer-learning protocol that builds a small Siamese network on top of any pre-trained foundation model to enable inference from full diploid personal genome context. To demonstrate the utility of this method, we train a set of HapAdapter heads to predict allele-specific effects across assays on two representative foundation model backbones: DNABERT-2 and AlphaGenome. We demonstrate that our lightweight adapter more than doubles DNABERT-2's allele-specific discrimination and triples AlphaGenome's (130% and 210% gain in AUROC above chance, respectively, averaged over nine assays).",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7249c0f6827e1c985f52f7827fd9f0f3b05dd1fcf8f9f4535a8d7771e4b5917d",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77996-x",

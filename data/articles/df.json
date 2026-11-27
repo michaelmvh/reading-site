@@ -217,6 +217,57 @@
       ]
     },
     {
+      "id": "df130340a620cc6697a48102bd794a0e5edfb6c281a790270b853f1d910a6350",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769343v1",
+        "https://doi.org/10.64898/2026.11.25.769343",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769343.source.xml"
+      ],
+      "title": "Learning Protein Structure Representations through Joint-Embedding Prediction",
+      "link": "https://doi.org/10.64898/2026.11.25.769343",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769343v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hwang",
+          "name": "Hwang, U"
+        },
+        {
+          "key": "shin",
+          "name": "Shin, Y"
+        },
+        {
+          "key": "song",
+          "name": "Song, J"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, D"
+        },
+        {
+          "key": "sim",
+          "name": "Sim, J"
+        },
+        {
+          "key": "lee",
+          "name": "Lee, J"
+        }
+      ],
+      "abstract_text": "Motivation: Protein structure representations are often learned by reconstructing coordinates, yet reconstruction quality does not necessarily track performance on biological prediction tasks. We therefore investigate whether joint-embedding prediction can capture information useful for biological prediction while retaining recoverable backbone geometry. Results: We introduce PS-JEPA, a self-supervised model that learns protein structure representations by predicting masked residue embeddings from visible backbone context. The encoder combines geometric graph encoding with bidirectional Mamba and is pretrained without a coordinate-reconstruction objective. On StructTokenBench, frozen PS-JEPA representations achieve a mean remote-homology macro F1 (x100) of 72.24, compared with 67.12 for GearNet-Edge, the strongest baseline for this category, while remaining competitive in functional and flexibility prediction. A separately trained decoder reconstructs backbones from these frozen representations, achieving a mean C RMSD of 1.61 [A] on 309 external test chains filtered to exclude sequence matches to training and reference data. In an exploratory test of unconditional generation, a learned latent prior with the same decoder yields 62 of 384 backbones (16.15%) that meet the computational designability criterion. Together, these results show that joint-embedding prediction can learn representations that support both biological prediction and backbone reconstruction. Availability and Implementation: https://github.com/ahexlwang/PS-JEPA",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "df1b34c4d87cdf1af9b91a9666aed41ea744f729995e28a9ccad0c538f2fefc0",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-74610-y",

@@ -2034,6 +2034,61 @@
       "curated_categories": []
     },
     {
+      "id": "6060e4e4e71444df4ee1a693497949c2caf430fe2a2980140fb910015c5db2d3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.26.769509v1",
+        "https://doi.org/10.64898/2026.11.26.769509",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.26.769509.source.xml"
+      ],
+      "title": "AUTOENCODIX: powering a hub for biological representation learning models",
+      "link": "https://doi.org/10.64898/2026.11.26.769509",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769509v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "joas",
+          "name": "Joas, M"
+        },
+        {
+          "key": "ller mu",
+          "name": "Müller, K"
+        },
+        {
+          "key": "diem",
+          "name": "Diem, A"
+        },
+        {
+          "key": "bombien thale",
+          "name": "Thale-Bombien, L"
+        },
+        {
+          "key": "ba uchl",
+          "name": "Bäuchl, C"
+        },
+        {
+          "key": "klein",
+          "name": "Klein, A"
+        },
+        {
+          "key": "ewald",
+          "name": "Ewald, J"
+        }
+      ],
+      "abstract_text": "Autoencoders are a foundational architecture for biological representation learning and empower methods for denoising, multi-modal integration, explainable embeddings, and synthetic data generation. But, new architectures are scattered across isolated repositories, which hampers benchmarking, the reuse of pretrained models, and the transfer to new data modalities. Here, we present the next generation of AUTOENCODIX, a Python package and model hub for biological representation learning. Its modular, standardized API unifies preprocessing, training, hyperparameter optimization, evaluation, generation, and explanation across a growing set of architectures, now including disentangled, masked, semi-supervised, and 2D/3D image autoencoders. To demonstrate its use at scale, we tuned, trained, and benchmarked 15 large autoencoders on a balanced corpus of 3.7 million human cells from CELLxGENE, including nine ontology-based variational autoencoders whose latent dimensions represent core cellular functions and were defined by three large language models (LLMs). The biological-informed embeddings performed on par with classical Principal Component Analysis in downstream classification while being explainable by design, and in synthetic data generation they produced more biologically plausible error profiles than conventional variational autoencoders. Finally, AUTOENCODIX offers a new and unique combination of three pillars of explainability: by-design with biologically-informed latent dimensions, post-hoc gene-to-latent attribution scoring, and LLM-based knowledge integration for verbal description and hypothesis generation. AUTOENCODIX is open-source, open for community extensions and all pretrained models are available via Hugging Face for application on other single-cell gene expression data.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "6062a69dc367d869451ccd933ecf3eae301f17ac66a8d49275c734aab543b3cd",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-025-03711-3",

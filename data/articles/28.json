@@ -4606,6 +4606,53 @@
       "curated_categories": []
     },
     {
+      "id": "28db97e36061e725b63c39f8ccf258b68cc67921e092cda76ec92574a76c6adf",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.26.769502v1",
+        "https://doi.org/10.64898/2026.11.26.769502",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.26.769502.source.xml"
+      ],
+      "title": "Resplitting LIT-PCBA with MolSCISSOR: A Memory-Efficient, Quasi-Deterministic Framework for Reducing Structural and Physicochemical Biases",
+      "link": "https://doi.org/10.64898/2026.11.26.769502",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769502v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "truong",
+          "name": "Truong, C.-M"
+        },
+        {
+          "key": "tetko",
+          "name": "Tetko, I. V"
+        },
+        {
+          "key": "ballester",
+          "name": "Ballester, P"
+        },
+        {
+          "key": "taboureau",
+          "name": "Taboureau, O"
+        },
+        {
+          "key": "nguyen tran",
+          "name": "Tran-Nguyen, V.-K"
+        }
+      ],
+      "abstract_text": "Reliable training-test partitioning is essential for developing and evaluating virtual screening (VS) methods, particularly in the era of machine learning (ML). However, existing molecular dataset splitting approaches do not simultaneously address key challenges in rigorous VS evaluation: cross-partition structural bias, test-set inter-class physicochemical bias, high memory requirements, limited scalability, stochastic allocation, a lack of automated optimization and of flexible training-test similarity control. We introduce MolSCISSOR, a lightweight, memory-efficient, quasi-deterministic framework for stratified data partitioning that integrates clustering and training-test allocation through multi-objective optimization. MolSCISSOR is used to repartition LIT-PCBA, a well-established VS benchmark comprising 15 target-specific datasets of experimentally confirmed actives and inactives, exhibiting substantial class imbalance, many of which are large-scale. We show that simple baseline ML models achieve significantly above-chance screening performance on the original AVE-derived partitions, indicating residual biases. The MolSCISSOR-generated benchmark, SPLIT-PCBA, is more challenging than both the AVE variant and that obtained using a BitBIRCH-Lean clustering-based workflow, with stricter cross-partition structural separation and improved physicochemical balance between test-set actives and inactives. MolSCISSOR mitigates stochastic variability, requires less memory than AVE, Lo-Hi and DataSAIL, and supports multiple split configurations with varying cross-partition similarity. MolSCISSOR and SPLIT-PCBA are freely available at https://github.com/caominhtr/molscissor and https://doi.org/10.5281/zenodo.23942580.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "28dc1f61fd4c210502822540131727d48f49396acaaa523c46a5da6483ffa35b",
       "identity_keys": [
         "https://doi.org/10.1038/d41586-026-02700-4",

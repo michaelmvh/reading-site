@@ -5622,6 +5622,45 @@
       "curated_categories": []
     },
     {
+      "id": "7df163209b2c6d013fae047e3df28ca324ff8d1a7c3c074870375fe272d04f1c",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.26.768777v1",
+        "https://doi.org/10.64898/2026.11.26.768777",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.26.768777.source.xml"
+      ],
+      "title": "Adaptive Representations for Real-World Enzyme Optimization",
+      "link": "https://doi.org/10.64898/2026.11.26.768777",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.26.768777v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "thakur",
+          "name": "Thakur, S"
+        },
+        {
+          "key": "segura",
+          "name": "Segura, D. M"
+        },
+        {
+          "key": "schwaller",
+          "name": "Schwaller, P"
+        }
+      ],
+      "abstract_text": "Protein fitness landscapes are highly rugged, giving rise to complex optimization landscapes. Bayesian optimization (BO) with Gaussian processes (GPs) is widely used in protein engineering for its sample efficiency and calibrated uncertainty estimates. Here, we study a joint fine-tuning framework of a protein language model (PLM) and a GP across enzyme fitness landscapes that span various distinct mutation regimes encountered in real-world engineering campaigns. Joint fine-tuning optimizes the PLM and GP parameters together in an uncertainty-calibrated manner, providing an adaptive representation that utilizes the information from previously acquired points in addition to the existing knowledge from pretraining. Across seven combinatorial enzyme landscapes, this approach yields a median relative improvement in top-5% coverage of 45% over one-hot encoding and 120% over mean-pooled static ESM-C embeddings. We further explore several new pooling strategies beyond standard mean pooling within the joint fine-tuning framework and show that mutation-site pooling, which localizes the representation to mutated residues, is the most consistent performer across all landscapes, outperforming both established baselines and alternative pooling schemes. Finally, we show that the finetuned approach makes more effective use of training-split information, yielding better coverage across test-split BO rounds. These results suggest that adapting the representation during a campaign, rather than fixing it in advance, is the better design choice for BO-guided enzyme engineering.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "7df58188ed356e169e5f4e4663bb3cb328b01fa40d991a507ed3b83d5a4842c7",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-77269-7",
