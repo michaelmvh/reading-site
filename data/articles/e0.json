@@ -3739,6 +3739,45 @@
       "curated_categories": []
     },
     {
+      "id": "e093dbae1ca5573378a061bd29e63afd7803b542ffe5b09e6c13895a915239f9",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.24.768893v1",
+        "https://doi.org/10.64898/2026.11.24.768893",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.24.768893.source.xml"
+      ],
+      "title": "Distance-stratified benchmarking of variant-effect predictors on β-lactamase deep mutational scanning data",
+      "link": "https://doi.org/10.64898/2026.11.24.768893",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768893v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "dhakal",
+          "name": "Dhakal, A"
+        },
+        {
+          "key": "acharya",
+          "name": "Acharya, S"
+        },
+        {
+          "key": "chand",
+          "name": "Chand, G"
+        }
+      ],
+      "abstract_text": "Mutations far from the active site of antibiotic-resistance enzymes can change resistance, but it is unclear what information predicts their effects. We asked how the performance of a protein language model (ESM2), a structure-based stability predictor (ThermoMPNN) and simple structural descriptors changes with distance from the catalytic residues, using deep mutational scanning data for the {beta}-lactamases TEM-1 (four assays) and VIM-2 (one assay). We measured Spearman correlation and AUROC within distance bins, with bootstrap intervals over positions. In TEM-1, ESM2 accuracy fell with distance (Stiffler assay: {rho} = 0.72 below 8 [A] and 0.42 beyond 20 [A]), while the stability score rose ({rho} = 0.41 to 0.70). Adding stability to a model of ESM2, solvent accessibility and neighbour count improved cross-validated {rho} by 0.02 below 8 [A] and 0.10 beyond 20 [A], and the combined model did not decline with distance. The pattern held across binning schemes, in a continuous-distance model, and when any one of five contiguous distal stretches was removed. Two TEM-1 assays are nearly duplicates, and the Deng assay was too noisy to be informative. VIM-2 has only seven positions beyond 20 [A] and showed no detectable trend within 20 [A], so it neither supports nor contradicts the TEM-1 pattern. Nine distal TEM-1 positions remained more sensitive than the models predicted. In TEM-1, predicted stability was more informative than the language model far from the catalytic site, and the language model was stronger near it. Distance-stratified reporting could add to variant-effect benchmarks. The study is exploratory and uses one structure and one phenotype per assay.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "e097af3eb5bf902afe944d7fb5484d7b68783fdc5ffe4e2f762a9de1e3b95e7a",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-66245-2",
