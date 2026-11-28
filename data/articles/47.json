@@ -4460,6 +4460,49 @@
       "curated_categories": []
     },
     {
+      "id": "47cf512d16fb104cd00c165956419670268dd89a3f5248f41e68369932b29161",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769162v1",
+        "https://doi.org/10.64898/2026.11.25.769162",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769162.source.xml"
+      ],
+      "title": "A Benchmark for Generative Modeling of High-Dimensional Enzyme Kinetic Parameters of Metabolic Networks",
+      "link": "https://doi.org/10.64898/2026.11.25.769162",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769162v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "xenios",
+          "name": "Xenios, S"
+        },
+        {
+          "key": "doulaveris",
+          "name": "Doulaveris, A"
+        },
+        {
+          "key": "mexis",
+          "name": "Mexis, K"
+        },
+        {
+          "key": "kokossis",
+          "name": "Kokossis, A"
+        }
+      ],
+      "abstract_text": "Large-scale kinetic models predict how metabolism responds to genetic and environmental perturbations, but building them at scale is limited by the scarcity of experimentally determined enzyme kinetic parameters. Generative machine learning has been proposed to address this bottleneck, yet prior work has each introduced a single, bespoke architecture, leaving open which generative paradigm suits this problem and why. We introduce a benchmark suite for generative modeling of high-dimensional enzyme kinetic parameter sets: labeled datasets of kinetically feasible Escherichia coli models paired with a mechanistically grounded evaluation harness that scores generated ensembles on dynamical stability and agreement with experimentally observed phenotypes, rather than statistical realism alone. Using it, we compare three standard architectures at matched capacity, a conditional variational autoencoder, a Wasserstein GAN with gradient penalty, and a RealNVP normalizing flow, each under two conditioning schemes (a discrete high/low label and a continuous, graded key-performance-indicator target), across a difficulty ladder from one mutant phenotype to a stringent class of nine reproduced jointly. Two findings stand out. The architectures trace a consistent concentration-exploration trade-off, the VAE concentrating, the flow exploring and extrapolating, the GAN in between, but this ordering is overturned at high stringency by the conditioning scheme: at the joint class, continuous targets reach 33 to 117-fold enrichment over random sampling for every architecture, whereas discrete labels stay at 1.3 to 15-fold. Beyond the comparison, the suite is an accessible, mechanistically validated reference task for groups outside the kinetic-modeling community to benchmark their own generative algorithms.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "47d2dba81c7f08e46075a6c9ccfb2ec137a8164ac30e7fa97dfd340f3c39e4bd",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-025-65749-1",

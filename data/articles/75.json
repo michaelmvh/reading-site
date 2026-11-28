@@ -5113,6 +5113,49 @@
       "curated_categories": []
     },
     {
+      "id": "75d938e983123c6637fc8214ff95de09cdbecd780eb86eee9f90f79987c17da7",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769274v1",
+        "https://doi.org/10.64898/2026.11.25.769274",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769274.source.xml"
+      ],
+      "title": "GNEval: A Context-Specific Benchmark for Gene Network Inference with Single-Cell Foundation Models",
+      "link": "https://doi.org/10.64898/2026.11.25.769274",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769274v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "hu",
+          "name": "Hu, T"
+        },
+        {
+          "key": "wu",
+          "name": "Wu, W"
+        },
+        {
+          "key": "qin",
+          "name": "Qin, Z"
+        },
+        {
+          "key": "su",
+          "name": "Su, C"
+        }
+      ],
+      "abstract_text": "Gene network (GN) inference plays a critical role in understanding gene relationships and their roles in biological functions and diseases. Existing single-cell GN inference methods often rely on limited data from individual studies. Single-cell foundation models, pretrained on large and diverse datasets, provide a range of gene-gene association signals that offer a promising basis for GN inference. However, it remains unclear which GN properties these signals capture and how they compare with domain-specific methods. To address this gap, we introduce GNEval, a unified benchmark for evaluating pretrained model derived gene associations for network inference. We benchmark 21 gene representations and association scores from 11 models, including static gene embeddings (S), contextual embeddings (C), and gene-gene attention scores (A). GNEval assesses inferred networks based on their consistency with functional and perturbational evidence, including 14 Perturb-seq datasets across diverse cell systems, perturbation types and data sizes. The results reveal substantial heterogeneity across evaluation tasks and models. Rankings based on Gene Ontology and Perturb-seq evidence were nearly uncorrelated (Spearman {rho} = -0.05). Context-independent representations showed a substantial advantage in recovering functional relationships ({Delta}AUROC = 0.13), whereas context-dependent gene associations improved recovery of perturbation-associated differential expression relationships by 3.8x. The domain-specific method achieves relatively strong performance on both evidence types, offering a better balance across the two evaluations than most foundation-model-derived networks. Overall, gene representations and association scores show task-specific strengths, highlighting the need for task-aware selection and integration with domain-specific methods.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "75daf1d4cd576ea933892c0645f8d9a0c3ccb245792585377e1df43add814c1c",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-78278-2",

@@ -2500,6 +2500,41 @@
       "curated_categories": []
     },
     {
+      "id": "cf62bb177f8e3a161b74088734ff7b7f7ec0d301f5c246bbad2154b5b31b2af3",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.26.769597v1",
+        "https://doi.org/10.64898/2026.11.26.769597",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.26.769597.source.xml"
+      ],
+      "title": "Task-aligned foundation model representations enable single-cell cytokine response inference",
+      "link": "https://doi.org/10.64898/2026.11.26.769597",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769597v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "jeong",
+          "name": "Jeong, Y. L"
+        },
+        {
+          "key": "kim",
+          "name": "Kim, J. K"
+        }
+      ],
+      "abstract_text": "Inferring cellular responses from single-cell transcriptomes requires interpreting changes relative to an appropriate baseline while retaining cell-type context. Here we present CYTAP, which adapts frozen single-cell foundation model embeddings for cytokine-response inference by combining donor-adjusted receiver states with deviations from matched control centroids. CYTAP uses a shared classifier to assign relative single-cell response scores across 90 cytokines and supports unpaired analyses using counterfactual control references. Baseline-relative representations improved held-out-donor prediction with both State SE and scFoundation. Across independent perturbation datasets, CYTAP prioritized applied cytokines, including when receptor transcripts were sparsely detected, and ranked administered cytokines among the top ten in both in vivo datasets. In an unpaired COVID-19 cohort, inferred responses were associated with severity, and IL-6 response scores correlated with plasma IL-6 concentrations. These findings support the use of biologically defined references to adapt pretrained representations for functional response inference.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "cf6536ee01afc1bcee509112409b3a5c55785c5e10d81095e7851768ea54c03b",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-68698-5",

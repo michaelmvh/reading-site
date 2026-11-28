@@ -279,6 +279,57 @@
       "curated_categories": []
     },
     {
+      "id": "0209a5621deaefb657865aa195d31b0b26f0c26999baddc0d3a0ea9c0bcb0851",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.25.769231v1",
+        "https://doi.org/10.64898/2026.11.25.769231",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.25.769231.source.xml"
+      ],
+      "title": "ComProg resolves spatial cell-cell communication into dynamic communication programs and receiver responses",
+      "link": "https://doi.org/10.64898/2026.11.25.769231",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769231v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "zhang",
+          "name": "Zhang, X"
+        },
+        {
+          "key": "xie",
+          "name": "Xie, M. B"
+        },
+        {
+          "key": "liu",
+          "name": "Liu, Y. H"
+        },
+        {
+          "key": "hwang",
+          "name": "Hwang, T. H"
+        },
+        {
+          "key": "yang",
+          "name": "Yang, H"
+        },
+        {
+          "key": "zhou",
+          "name": "Zhou, X. M"
+        }
+      ],
+      "abstract_text": "Spatial transcriptomics enables cell-resolved inference of ligand-receptor (LR) signaling, but the resulting communication maps are highly redundant, sensitive to LR database choice and difficult to relate to receiver-cell transcriptional responses while accounting for cell identity and spatial context. Here we present ComProg, a framework that organizes spatially inferred cell-cell communication into communication programs representing recurrent combinations of LR pairs and identifies associated transcriptional responses in receiver cells through cell-type- and niche-matched comparisons calibrated against synthetic negative-control genes. We applied ComProg to spatial transcriptomic datasets spanning mouse kidney injury and repair, non-small-cell lung cancer profiled in two and three dimensions, and gastric cancer during immune checkpoint blockade. ComProg identified compact sets of communication programs that tracked injury and repair, localized to distinct tumor compartments, recurred across serial sections and differed between treatment response states. In injured kidney, program-associated transcriptional responses were concentrated in receiver cell types expressing the corresponding receptors, supporting the biological specificity of the inferred associations. Together, ComProg provides a framework for reducing complex LR-level communication maps into interpretable and comparable signaling programs and linking these programs to transcriptional responses in specific receiver-cell populations.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
       "id": "020d12723f9a493d3700a5f7508b15173eafe23e1745c0222ccbb99f9d2d11e8",
       "identity_keys": [
         "https://doi.org/10.1038/s41467-026-76178-z",
@@ -5437,6 +5488,53 @@
           "key": "openalex",
           "label": "OpenAlex",
           "url": "https://openalex.org/"
+        }
+      ],
+      "curated_categories": []
+    },
+    {
+      "id": "02e9cf08778a940d5e8f5016a0a1b057880705a30c3d44c2c00c72242974c69a",
+      "identity_keys": [
+        "biorxiv:10.64898/2026.11.27.769542v1",
+        "https://doi.org/10.64898/2026.11.27.769542",
+        "https://www.biorxiv.org/content/early/2026/11/27/2026.11.27.769542.source.xml"
+      ],
+      "title": "EHRMENEIA: A Benchmark for Foundation Models on Longitudinal Electronic Health Records",
+      "link": "https://doi.org/10.64898/2026.11.27.769542",
+      "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.11.27.769542v1.full.pdf",
+      "publication_date": "2026-11-27",
+      "publication_date_precision": "unknown",
+      "collection_date": null,
+      "venue": "bioRxiv",
+      "authors": [
+        {
+          "key": "gelabert xirinachs",
+          "name": "Gelabert-Xirinachs, J"
+        },
+        {
+          "key": "gosalvez",
+          "name": "Gosalvez, S"
+        },
+        {
+          "key": "alaejos pardo",
+          "name": "Alaejos-Pardo, B"
+        },
+        {
+          "key": "fonollosa",
+          "name": "Fonollosa, J"
+        },
+        {
+          "key": "lluna perera",
+          "name": "Perera-Lluna, A"
+        }
+      ],
+      "abstract_text": "Electronic health record foundation models are evaluated using heterogeneous targets, vocabularies, and adaptation procedures, preventing systematic characterization across model families. We introduce EHRMENEIA (https://ehrmeneia.upc.edu/), a benchmark that provides a multidimensional evaluation framework for next-event prediction, multi-horizon event occurrence, trajectory fidelity and few-shot representation transfer. EHRMENEIA preserves each model's native vocabulary and temporal representation while mapping clinical outputs to shared evaluation objects. Applied to two released clinical checkpoints and two synthetic demonstrations, the framework exposed substantial differences not only in performance but in the clinical questions that could be evaluated from each model--dataset interface. EHRMENEIA introduces a view of benchmarking in which the supported clinical evaluation domain is identified before performance within that domain is interpreted. The framework therefore shifts foundation-model benchmarking from scalar ranking toward characterization of what can, and cannot, be inferred from model outputs.",
+      "discovery_sources": [
+        {
+          "kind": "biorxiv",
+          "key": "biorxiv:bioinformatics",
+          "label": "bioRxiv: Bioinformatics",
+          "url": "https://www.biorxiv.org/collection/bioinformatics"
         }
       ],
       "curated_categories": []
